@@ -112,12 +112,21 @@ def validate_file(filepath: str, check_images: bool = False) -> tuple:
 
     # 6. 配图检查（旧文件可能用 raw.githubusercontent.com，只警告不报错）
     image_urls = extract_image_urls(content)
+# 合法的图片 URL 前缀（旧 images 仓库 + 新 style-source 内置）
+VALID_IMAGE_PREFIXES = (
+    'https://malongan.github.io/images/',
+    'https://malongan.github.io/style-source/images/',
+)
+
+def is_valid_image_url(url: str) -> bool:
+    return any(url.startswith(p) for p in VALID_IMAGE_PREFIXES)
+
     if not image_urls:
         errors.append('参考配图中至少需要 1 张图片')
     else:
         for url in image_urls:
-            if not url.startswith('https://malongan.github.io/images/'):
-                warnings.append(f'配图 URL 建议迁移到 images 仓库: {url[:40]}...')
+            if not is_valid_image_url(url):
+                warnings.append(f'配图 URL 建议放入 style-source 或 images 仓库: {url[:40]}...')
             if check_images and not check_url_reachable(url):
                 warnings.append(f'配图 URL 不可访问: {url[:40]}...')
 

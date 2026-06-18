@@ -60,8 +60,11 @@ def parse_style_file(filepath: str) -> dict:
 
     # 提取配图 URL（统一为数组格式）
     preview_urls = re.findall(r'!\[.*?\]\((https?://[^\s)]+)\)', content)
-    # 过滤只保留 images 仓库的 URL
-    preview_urls = [u for u in preview_urls if 'malongan.github.io/images/' in u]
+    # 过滤只保留合法仓库的 URL（兼容 images 旧仓库和 style-source 新仓库）
+    preview_urls = [u for u in preview_urls if (
+        'malongan.github.io/images/' in u or
+        'malongan.github.io/style-source/images/' in u
+    )]
 
     # 提取变量
     variables = {}
