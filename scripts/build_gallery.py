@@ -306,7 +306,7 @@ function renderGallery(data) {{
 /** 从 JSON 或回退数据渲染 */
 async function loadGallery() {{
   try {{
-    const resp = await fetch('https://cdn.jsdelivr.net/gh/malongan/style-source@main/data/styles.json?t=' + Date.now());
+    const resp = await fetch('https://malongan.github.io/style-source/data/styles.json?t=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
     renderGallery(data);
