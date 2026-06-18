@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 风格画廊 vv0.1.0-1-ge69cbe3-dirty</title>
+<title>AI 风格画廊 vv0.1.0-1-g1e44d30-dirty</title>
 <style>
 /* ★ 样式内联 — 来自 gallery/src/gallery.css */
 /* ==================== 主题变量 ==================== */
@@ -773,7 +773,7 @@ body {
     <!-- Header -->
     <header class="header">
       <div class="header-left">
-        <h1 class="header-title">AI 风格库<span class="header-update">· 最后更新：v0.1.0-1-ge69cbe3-dirty</span></h1>
+        <h1 class="header-title">AI 风格库<span class="header-update">· 最后更新：v0.1.0-1-g1e44d30-dirty</span></h1>
         <span class="header-author">by malongan</span>
       </div>
       <div class="header-right">
@@ -2005,7 +2005,9 @@ window.__FALLBACK_DATA__ = {
       "code": "ST000015",
       "name": "Urban Collage Poster",
       "category": "brand_kv",
-      "preview_urls": [],
+      "preview_urls": [
+        "https://malongan.github.io/images/styles_previews/urban_collage_poster.jpg"
+      ],
       "summary": "高饱和橙色大色块 + 黑色矩形堆叠的都市拼贴海报，酷女孩广角近摄 + 黑描边贴纸化处理，强烈能量感。",
       "triggers": "",
       "features": [
@@ -2056,7 +2058,7 @@ window.__FALLBACK_DATA__ = {
     }
   ]
 };
-window.__FALLBACK_IMG__ = '<div style=padding:40px;text-align:center;color:#999>图片加载失败</div>';
+window.__FALLBACK_IMG__ = '<div class="img-fallback" style="width:100%;aspect-ratio:3/4;background:var(--bg-secondary);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:12px;">图片加载失败</div>';
 
 /* ★ JS 交互 — 来自 gallery/src/gallery.js */
 /**
@@ -2567,7 +2569,7 @@ function buildCardHTML(s) {
     ' data-number="' + (s.code || s.number || s.id || '') + '"' +
     ' data-category="' + s.category + '">' +
     '<img src="' + imgUrl + '" alt="' + s.name + '" class="card-image" loading="lazy"' +
-    ' onerror="this.parentElement.innerHTML=window.__FALLBACK_IMG__">' +
+    ' onerror="this.outerHTML=window.__FALLBACK_IMG__">' +
     '<div class="card-content">' +
       '<div class="card-title-row">' +
         '<span class="card-number">' + (s.code ? '#' + s.code : '#' + (s.number || s.id || '')) + '</span>' +

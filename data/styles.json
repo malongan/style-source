@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.1.0-1-ge69cbe3-dirty",
+    "version": "v0.1.0-1-g1e44d30-dirty",
     "total": 129,
-    "updated_at": "2026-06-18T03:00:58Z",
+    "updated_at": "2026-06-18T03:10:20Z",
     "categories": {
       "brand_kv": {
         "count": 15,
@@ -112,7 +112,9 @@
         "点线面层次分布",
         "街头文化与科幻风格融合"
       ],
-      "preview_urls": [],
+      "preview_urls": [
+        "https://malongan.github.io/images/styles_previews/cyberpunk_halftone_poster.jpg"
+      ],
       "variables": {},
       "source_author": "💋💋💋 🅻🅸🅽🅳🅰",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7591914980476276006",
@@ -169,7 +171,9 @@
         "底部小字展览信息文字",
         "先锋前卫艺术风格"
       ],
-      "preview_urls": [],
+      "preview_urls": [
+        "https://malongan.github.io/images/styles_previews/digital_soul_poster.jpg"
+      ],
       "variables": {},
       "source_author": "用户4818385606662",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7573909671774391598",
@@ -413,7 +417,9 @@
         "半调图案、撞色、混搭设计手法",
         "挂饰元素：!、CONTINUE、99 等强化态度"
       ],
-      "preview_urls": [],
+      "preview_urls": [
+        "https://malongan.github.io/images/styles_previews/street_3d_maximalist.jpg"
+      ],
       "variables": {},
       "source_author": "小越艺术",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7582907054226935091",
@@ -501,7 +507,9 @@
         "手绘风纸贴 + 闪电手绘符号点缀",
         "散点式构图，多重图层叠加"
       ],
-      "preview_urls": [],
+      "preview_urls": [
+        "https://malongan.github.io/images/styles_previews/urban_collage_poster.jpg"
+      ],
       "variables": {},
       "source_author": "文野Bot",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7549133563254328616",
@@ -528,7 +536,9 @@
         "**CG半厚涂 + 柔焦微闪** — 既有手绘温度又具数字绘画的光泽感，柔焦与微闪叠加",
         "**电影感构图** — 广角镜头全景，电影慢镜头动态捕捉，层次分明"
       ],
-      "preview_urls": [],
+      "preview_urls": [
+        "https://malongan.github.io/images/jimeng_previews/jimeng_7646196547226504499.jpg"
+      ],
       "variables": {},
       "source_author": "白晚萌萌滴",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7646196547226504499",
@@ -680,7 +690,9 @@
         "黑色圆形辅助线和直线网格增强结构感",
         "瑞士国际主义风格的三栏信息排版"
       ],
-      "preview_urls": [],
+      "preview_urls": [
+        "https://malongan.github.io/images/styles_previews/geek_code_poster.jpg"
+      ],
       "variables": {},
       "source_author": "一笔绘✏️",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7646229041049013531",
@@ -2020,7 +2032,9 @@
         "手写风格艺术字体排版",
         "蓝天光影 + 波光粼粼水面 + 漂浮动态特效"
       ],
-      "preview_urls": [],
+      "preview_urls": [
+        "https://malongan.github.io/images/styles_previews/candy_3d_wonderland.jpg"
+      ],
       "variables": {},
       "source_author": "散养设计",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7619622039854402854",

@@ -7,7 +7,7 @@ import argparse
 import sys
 
 FALLBACK_LIMIT = 50
-FALLBACK_IMG = '<div style=padding:40px;text-align:center;color:#999>图片加载失败</div>'
+FALLBACK_IMG = '<div class="img-fallback" style="width:100%;aspect-ratio:3/4;background:var(--bg-secondary);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:12px;">图片加载失败</div>'
 
 DIST_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'dist')
 DATA_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'styles.json')
@@ -250,7 +250,7 @@ function buildCardHTML(s) {{
     ' data-number="' + (s.code || s.number || s.id || '') + '"' +
     ' data-category="' + s.category + '">' +
     '<img src="' + imgUrl + '" alt="' + s.name + '" class="card-image" loading="lazy"' +
-    ' onerror="this.parentElement.innerHTML=window.__FALLBACK_IMG__">' +
+    ' onerror="this.outerHTML=window.__FALLBACK_IMG__">' +
     '<div class="card-content">' +
       '<div class="card-title-row">' +
         '<span class="card-number">' + (s.code ? '#' + s.code : '#' + (s.number || s.id || '')) + '</span>' +
