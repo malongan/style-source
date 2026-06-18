@@ -125,4 +125,4 @@ Maintain a sense of freedom, adventure, and youthful energy throughout the compo
 
 ## 参考配图
 
-![旷野的风](https://p3.dreamina.com/obj/image-lvweb-buz/tos_appearance_upload/ies/dreamina/resource/image/work_plate/detail/cecab9c2cf574a9ca1fce5f8fcaefd5b.jpeg)
+![旷野的风](https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.jpg)
