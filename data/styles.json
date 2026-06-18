@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.1.0-4-g9cb6615-dirty",
+    "version": "v0.2.0-dirty",
     "total": 129,
-    "updated_at": "2026-06-18T03:24:01Z",
+    "updated_at": "2026-06-18T03:27:02Z",
     "categories": {
       "brand_kv": {
         "count": 15,
@@ -1411,10 +1411,17 @@
         "手办盲盒",
         "嫦娥"
       ],
-      "scene": "",
-      "ratio": "",
+      "scene": "IP角色设计、盲盒手办、中国神话主题、3D角色展示",
+      "ratio": "3:4",
       "summary": "典雅神秘的嫦娥3D盲盒，中国神话与现代3D渲染的结合，清冷高贵的东方美学。",
-      "features": [],
+      "features": [
+        "3D盲盒角色设计，正视图全身构图",
+        "中国神话嫦娥IP，丹凤眼、白皙皮肤、东方魅力",
+        "淡蓝+银色中式古代月亮裙，飘动丝带",
+        "高绾发髻点缀银色月桂叶",
+        "极简背景，大面积留白，银色云彩",
+        "8K超精细纹理，电影级光影"
+      ],
       "preview_urls": [
         "https://malongan.github.io/images/gallery/chang_e_goddess.jpg"
       ],
