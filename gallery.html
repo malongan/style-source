@@ -1231,9 +1231,9 @@ window.__FALLBACK_DATA__ = {
   ]
 };
 
-/* ★ JS 交互 — 来自 gallery/src/gallery.js（去掉原 DOMContentLoaded 自启动） */
-// 注意：以下 gallery.js 内容已移除尾部的 document.addEventListener('DOMContentLoaded', init)
-// 改为由 loadGallery → renderGallery → init 链式调用
+/* ★ JS 交互 — 来自 gallery/src/gallery.js */
+// gallery.js 使用 IIFE，函数在闭包内不可全局访问
+// 已通过 window.init = init 暴露给 renderGallery 调用
 /**
  * Gallery 功能脚本 v3
  * 包含：搜索过滤、标签筛选、收藏、Lightbox信息卡片、深色模式
@@ -1712,10 +1712,11 @@ window.__FALLBACK_DATA__ = {
 
   // ========== 启动 ==========
   if (document.readyState === 'loading') {
-    // init() called after renderGallery
+    document.addEventListener('DOMContentLoaded', init);
   } else {
     init();
   }
+  window.init = init;
 })();
 
 /* ★ renderGallery — 从 JSON 数据渲染瀑布流卡片 */
@@ -1726,14 +1727,16 @@ function renderGallery(data) {
   if (loading) loading.style.display = 'none';
   if (!container) return;
 
+  var fallbackImg = '<div style=padding:40px;text-align:center;color:#999>图片加载失败</div>';
+
   // 创建与 gallery.js 匹配的 HTML 结构：.gallery-grid > .style-card
   container.innerHTML = '<div class="gallery-grid">' +
-    styles.map(s => {
-      const imgUrl = (s.preview_urls || [])[0] || '';
-      const tags = (s.tags || []).map(t => '<span class="tag" data-tag="' + t + '">#' + t + '</span>').join('');
+    styles.map(function(s) {
+      var imgUrl = (s.preview_urls || [])[0] || '';
+      var tags = (s.tags || []).map(function(t) { return '<span class="tag" data-tag="' + t + '">#' + t + '</span>'; }).join('');
       return '<div class="style-card" data-id="' + s.id + '" data-tags="' + (s.tags || []).join(',') + '" data-category="' + s.category + '">' +
         '<div class="card-img-wrap">' +
-          '<img src="' + imgUrl + '" alt="' + s.name + '" loading="lazy" onerror="this.parentElement.innerHTML='<div style=padding:40px;text-align:center;color:#999>图片加载失败</div>'">' +
+          '<img src="' + imgUrl + '" alt="' + s.name + '" loading="lazy" onerror="this.parentElement.innerHTML=window.__FALLBACK_IMG__">' +
           '<div class="card-number">#' + s.id + '</div>' +
         '</div>' +
         '<div class="card-body">' +
@@ -1746,11 +1749,12 @@ function renderGallery(data) {
   '</div>';
 
   // 渲染完成后，调用 gallery.js 的 init() 绑定事件
-  if (typeof init === 'function') init();
+  if (typeof window.init === 'function') window.init();
 }
 
 /* ★ 数据加载逻辑 */
 async function loadGallery() {
+  window.__FALLBACK_IMG__ = '<div style=padding:40px;text-align:center;color:#999>图片加载失败</div>';
   try {
     const resp = await fetch('https://cdn.jsdelivr.net/gh/malongan/style-source@main/data/styles.json?t=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
