@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>风格画廊 vca3756e-dirty</title>
+<title>AI 风格画廊 vca3756e-dirty</title>
 <style>
 /* ★ 样式内联 — 来自 gallery/src/gallery.css */
 /* ==================== 主题变量 ==================== */
@@ -764,9 +764,97 @@ body {
 </style>
 </head>
 <body>
-<div id="loading">🔄 加载风格画廊...</div>
-<div id="gallery"></div>
-<button id="refresh-btn" onclick="loadGallery()">🔄 刷新</button>
+  <div id="loading">🔄 加载风格画廊...</div>
+
+  <div class="container" id="app" style="display:none">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <h1 class="header-title">AI 风格库<span class="header-update">· 最后更新：ca3756e-dirty</span></h1>
+        <span class="header-author">by malongan</span>
+      </div>
+      <div class="header-right">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="搜索风格...">
+        </div>
+        <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
+      </div>
+    </header>
+
+    <!-- 主布局：左侧标签 + 右侧内容 -->
+    <div class="main-layout">
+      <!-- 左侧标签栏 -->
+      <aside class="sidebar">
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">🏷️ 标签筛选</h3>
+          <div class="tag-list">
+            <!-- 标签由 JS 动态生成 -->
+          </div>
+        </div>
+      </aside>
+
+      <!-- 右侧内容区 -->
+      <div class="content-area">
+        <!-- 筛选栏 -->
+        <div class="filter-bar">
+          <button class="filter-btn" id="filterFavorites">
+            ❤️ 只看收藏
+          </button>
+          <span class="result-count" style="margin-left: auto; color: var(--text-muted); font-size: 13px;">
+            共 <span class="count-num">129</span> 个风格
+          </span>
+        </div>
+
+        <!-- 风格卡片网格（由 renderGallery 填充） -->
+        <div id="gallery" class="gallery-grid">
+          <!-- renderGallery 将在此生成 .style-card -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox 详情弹窗 -->
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-card">
+        <div class="lightbox-image-wrap">
+          <img src="" alt="" class="lightbox-image">
+          <button class="lightbox-close" id="lightboxClose">✕</button>
+        </div>
+        <div class="lightbox-body">
+          <div class="lightbox-title-row">
+            <h2 class="lightbox-title"></h2>
+            <span class="lightbox-index"></span>
+          </div>
+          <div class="lightbox-content">
+            <div class="lightbox-section lightbox-summary-section">
+              <h4 class="lightbox-section-title">💡 一句话理解</h4>
+              <p class="lightbox-summary"></p>
+            </div>
+            <div class="lightbox-section lightbox-triggers-section">
+              <h4 class="lightbox-section-title">🎯 触发词</h4>
+              <p class="lightbox-triggers"></p>
+            </div>
+            <div class="lightbox-section lightbox-features-section">
+              <h4 class="lightbox-section-title">✨ 核心特点</h4>
+              <ul class="lightbox-features"></ul>
+            </div>
+            <div class="lightbox-section lightbox-tags-section">
+              <h4 class="lightbox-section-title">🏷️ 标签</h4>
+              <div class="lightbox-tags"></div>
+            </div>
+            <div class="lightbox-section lightbox-link-section">
+              <a href="#" target="_blank" class="lightbox-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer" style="text-align:center; padding:40px 20px; color:var(--text-muted); font-size:13px;">
+    <p>by malongan · <a href="https://github.com/malongan/style-source" target="_blank" style="color:var(--accent-color)">GitHub</a></p>
+  </div>
 
 <script>
 /* ★ FALLBACK DATA — 部署时内嵌 */
@@ -784,7 +872,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/yellow-black-manga-food-zine-ad.jpg"
       ],
-      "summary": "A dense Japanese-manga-inspired food and product zine advertisement style with black ink linework, yellow advertising blocks, cream paper fields, dramatic cropped character panels, glossy illustrated hero objects, giant warped display typography, small Chinese editorial copy, and rough print texture."
+      "summary": "A dense Japanese-manga-inspired food and product zine advertisement style with black ink linework, yellow advertising blocks, cream paper fields, dramatic cropped character panels, glossy illustrated hero objects, giant warped display typography, small Chinese editorial copy, and rough print texture.",
+      "triggers": "",
+      "features": [
+        "Dominant black, warm yellow, cream white, and small red-green accent palette with yellow occupying big advertising panels.",
+        "Dense manga page collage layout with diagonal cuts, rectangular inset panels, and very little unused space.",
+        "Huge warped display lettering that bends into perspective or stacks vertically like a loud printed sound effect.",
+        "Thick black keylines, speed hatching, sweat-drop marks, sparkle symbols, and rough hand-inked comic contours.",
+        "One oversized glossy illustrated product or food object in the lower foreground with painterly highlights."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_y2k_mirror_ui_scribble_collage",
@@ -793,7 +895,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/y2k-mirror-ui-scribble-collage.jpg"
       ],
-      "summary": "A gritty Y2K photomontage style that combines wide-angle flash photography, floating desktop-like interface fragments, thick electric-blue marker outlines, hand-drawn graffiti lettering, and dense analog noise into a chaotic personal-screen collage."
+      "summary": "A gritty Y2K photomontage style that combines wide-angle flash photography, floating desktop-like interface fragments, thick electric-blue marker outlines, hand-drawn graffiti lettering, and dense analog noise into a chaotic personal-screen collage.",
+      "triggers": "",
+      "features": [
+        "A wide-angle flash-photo base layer with exaggerated close foreground scale and compressed room depth.",
+        "Very high visible grain, digital noise, sharpened edges, and slightly dirty scan texture across the whole image.",
+        "A dense collage layout where photo fragments, translucent UI windows, pop-up cards, and small panels float over the scene.",
+        "One thick electric-blue hand-drawn outline or route line wraps around the main subject or cuts through the composition.",
+        "Large white graffiti-like handwritten headline lettering sits near an upper corner, irregular and brushy rather than typographic."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_y2k_grunge_hiphop_cutout_poster",
@@ -802,7 +918,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/y2k-grunge-hiphop-cutout-poster.jpg"
       ],
-      "summary": "A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise."
+      "summary": "A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.",
+        "Place the subject as a large central photo cutout with an irregular white sticker-like outline.",
+        "Use a dirty black-and-white grunge wall background with BACKGROUND_ELEMENTS worked into the texture.",
+        "Add a bright acid yellow information strip at the bottom with small editorial text reading SECONDARY_TEXT, small inset photo frames, barcode-like graphic elements, and ACCENT_SYMBOL.",
+        "The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta print noise, energetic collage layout."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#Y2K#grunge#hip-hop#magazine#collage#poster#style#built#from#oversized#photo#cutouts,#acid#yellow#retro#typography,#rough#black-and-white#wall#textures,#dense#editorial#footer#panels,#and#photocopied#print#noise."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_warm_fisheye_product_impact_ad",
@@ -811,7 +941,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/warm-fisheye-product-impact-ad.jpg"
       ],
-      "summary": "A high-impact product advertising style built from ultra-wide close-up photography, a tunnel of textured foreground pieces, oversized angled white Chinese display type, warm amber-brown contrast, tiny top navigation labels, product-pack callouts, and compressed social-banner density. It feels like a loud commercial thumbnail shot from inside a pile of snack-like objects, with the product and subject rushing toward the viewer."
+      "summary": "A high-impact product advertising style built from ultra-wide close-up photography, a tunnel of textured foreground pieces, oversized angled white Chinese display type, warm amber-brown contrast, tiny top navigation labels, product-pack callouts, and compressed social-banner density. It feels like a loud commercial thumbnail shot from inside a pile of snack-like objects, with the product and subject rushing toward the viewer.",
+      "triggers": "",
+      "features": [
+        "Extreme fisheye or ultra-wide macro perspective from inside a product pile, bowl, or tunnel.",
+        "Foreground is crowded with many warm brown or golden textured pieces forming a thick border around the image.",
+        "Hero subject is very close to the lens with cropped face, hand, object, package, or product detail pressing toward the viewer.",
+        "Dense commercial banner hierarchy with little empty space, layered subject, product pack, headline, and small captions.",
+        "Huge angled white Chinese display headline with heavy black shadow or extruded 3D block depth."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_urban_transit_doodle_diary",
@@ -820,7 +964,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/urban-transit-doodle-diary.jpg"
       ],
-      "summary": "A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture."
+      "summary": "A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.",
+        "Keep the base image feeling like an imperfect phone snapshot from a real public city space, not a polished poster shoot.",
+        "Layer hand-drawn notes, arrows, sticker-like marks, and cartoon facial edits over the photo while keeping the underlying street scene readable.",
+        "Use saturated accent colors only for doodles, gestures, labels, and emphasis marks; let the photographic background stay raw and compressed.",
+        "Make MAIN_TEXT and SECONDARY_TEXT feel handwritten, diaristic, and locally placed rather than typeset as clean branding."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#raw#urban#snapshot#treated#like#a#personal#visual#diary,#combining#real#public-space#photography#with#bold#hand-drawn#comic#overlays,#handwritten#travel#notes,#saturated#cartoon#faces,#and#a#large#foreground#gesture."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_turquoise_red_techno_manga_poster",
@@ -829,7 +987,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/turquoise-red-techno-manga-poster.jpg"
       ],
-      "summary": "A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure drawing, and slightly faded printed texture."
+      "summary": "A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure drawing, and slightly faded printed texture.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure drawing, and slightly faded printed texture.",
+        "Place a huge saturated red-orange custom display headline across the upper third or upper half, behind and around the subject.",
+        "The headline may use kana-inspired geometric rhythm or condensed block lettering, but it must use new text only.",
+        "Make turquoise or teal the dominant clothing, casing, or equipment color; balance it with warm gray machinery, black ink, and red-orange accent parts.",
+        "Keep the perspective mostly flat and poster-like, with compact technical drawing depth only inside the prop or apparatus."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#retro#techno-manga#poster#system#with#a#cream#paper#ground,#huge#red#display#lettering,#turquoise#technical#clothing#or#hardware,#dense#mechanical#linework,#annotation#panels,#cel-shaded#figure#drawing,#and#slightly#faded#printed#texture."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_tri_color_hardcut_portrait_poster",
@@ -838,7 +1010,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/tri-color-hardcut-portrait-poster.jpg"
       ],
-      "summary": "A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts."
+      "summary": "A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts.",
+        "Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black #000805.",
+        "Composition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, plus WARDROBE_STYLE and ACCENT_SYMBOL as controlled details.",
+        "Typography: no visible text by default.",
+        "If text is explicitly required, use MAIN_TEXT as a very short block headline outside the face area and SECONDARY_TEXT as a tiny supporting mark."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#clean#three-color#hardcut#portrait#poster#style#using#flat#teal#background#fields,#coral-red#subject#planes,#and#near-black#silhouettes#or#shadows,#with#all#detail#reduced#into#large#hard-edged#vector-like#cutouts."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_tokyo_kawaii_travel_collage_poster",
@@ -847,7 +1033,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/tokyo-kawaii-travel-collage-poster.jpg"
       ],
-      "summary": "A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout."
+      "summary": "A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout.",
+        "Use BACKGROUND_ELEMENTS for city background, botanical details, signage, texture, and travel-collage context.",
+        "Use a maximalist Japanese travel scrapbook collage layout.",
+        "Place the cutout subject large in the center with a sticker-like white edge.",
+        "Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#maximalist#Japanese#city-travel#collage#style#with#bold#destination#typography,#cute#sticker#elements,#manga#speech#bubbles,#cutout#fashion#photography,#halftone#urban#backgrounds,#and#scrapbook#editorial#layout."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_sunny_3d_avatar_campaign",
@@ -856,7 +1056,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/sunny-3d-avatar-campaign.jpg"
       ],
-      "summary": "A bright social campaign poster style built from glossy toy-like 3D avatars, saturated blue-sky outdoor lighting, exaggerated wide-angle perspective, oversized slanted headline typography, and neon hand-drawn motion marks."
+      "summary": "A bright social campaign poster style built from glossy toy-like 3D avatars, saturated blue-sky outdoor lighting, exaggerated wide-angle perspective, oversized slanted headline typography, and neon hand-drawn motion marks.",
+      "triggers": "",
+      "features": [
+        "Glossy stylized 3D avatar rendering with smooth doll-like faces, rounded hands, soft plastic skin, and simplified expressive eyes.",
+        "Extreme sunny outdoor campaign lighting with crisp highlights, clean shadows, and a clear vacation-day atmosphere.",
+        "Deep saturated sky-blue upper field balanced by vivid green or fresh outdoor color in the lower field.",
+        "Wide-angle near-camera perspective with the lead avatar or prop cropped large in the foreground and secondary elements stepping backward.",
+        "Oversized bold white headline typography, angled slightly, stacked over the sky area with a dimensional poster feel."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_subway_doodle_photo_hybrid",
@@ -865,7 +1079,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/subway-doodle-photo-hybrid.jpg"
       ],
-      "summary": "A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures, handwritten notes, and social media screenshot texture."
+      "summary": "A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.",
+        "Use SUBJECT as the main photographic subject.",
+        "Use PRODUCT_OR_PROP as the foreground doodle, prop, or interaction object.",
+        "Use BACKGROUND_ELEMENTS for crowd, signage, documentary texture, and transit context.",
+        "Use ACCENT_SYMBOL for color accents, doodle marks, arrows, and sticker-like emphasis."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#phone-shot#urban#transit#poster#style#combining#documentary#subway#or#street#transport#photography#with#expressive#hand-drawn#cartoon#overlays,#doodled#character#faces,#oversized#foreground#gestures,#handwritten#notes,#and#social#media#screenshot#texture."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_sky_blue_home_life_doodle_poster",
@@ -874,7 +1102,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/sky-blue-home-life-doodle-poster.jpg"
       ],
-      "summary": "A naive flat poster system with a full sky-blue field, a rough house-shaped white inset, giant uneven black hand-lettering, small badge labels, and simple thick-outlined cartoon home-life scenes drawn like marker doodles."
+      "summary": "A naive flat poster system with a full sky-blue field, a rough house-shaped white inset, giant uneven black hand-lettering, small badge labels, and simple thick-outlined cartoon home-life scenes drawn like marker doodles.",
+      "triggers": "",
+      "features": [
+        "Full-bleed pastel sky-blue background acts as the outer poster field.",
+        "A large off-white house-shaped inset with a rough black outline contains the scene.",
+        "Oversized black hand-lettered headline sits at the top with uneven stroke width and playful imbalance.",
+        "A small red rounded capsule badge and slanted secondary text add event-poster energy.",
+        "Characters and props use thick wobbly black marker outlines with flat color fills and almost no shading."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_school_grid_paper_cutout_poster",
@@ -883,7 +1125,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/school-grid-paper-cutout-poster.jpg"
       ],
-      "summary": "A sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical notebook writing, and one large centered torn-paper collage object photographed with shallow real-paper shadows."
+      "summary": "A sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical notebook writing, and one large centered torn-paper collage object photographed with shallow real-paper shadows.",
+      "triggers": "",
+      "features": [
+        "Warm beige classroom grid paper covers the entire background with thin muted blue-green ruled lines.",
+        "One oversized handmade paper-collage subject dominates the center and sits slightly right of the left text block.",
+        "The subject is a simple flat silhouette assembled from torn paper edges, not a rendered or realistic object.",
+        "Off-white paper layers and one saturated color-paper area create the main figure with very limited color variety.",
+        "Shallow physical shadows under torn paper edges create low relief while the camera remains front-facing and flat."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_rough_marker_monster_poster",
@@ -892,7 +1148,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/rough-marker-monster-poster.jpg"
       ],
-      "summary": "A naive children's poster system built from thick black marker outlines, rough crayon-pastel color fills, cream paper grain, oversized goofy creature forms, and chunky hand-lettered black text."
+      "summary": "A naive children's poster system built from thick black marker outlines, rough crayon-pastel color fills, cream paper grain, oversized goofy creature forms, and chunky hand-lettered black text.",
+      "triggers": "",
+      "features": [
+        "Cream paper background with warm tint, subtle speckle, and no realistic environment.",
+        "Thick black marker or oil-pastel keylines with scratchy edges, wobble, and uneven pressure.",
+        "One huge simplified character or object-character fills most of the frame and is cropped boldly.",
+        "Flat childlike construction with no realistic perspective, no 3D modeling, and no polished vector edges.",
+        "Saturated marker fills show visible grain, small white gaps, and rough hand-colored texture."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_rough_ink_music_doodle_poster",
@@ -901,7 +1171,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/rough-ink-music-doodle-poster.jpg"
       ],
-      "summary": "A rough hand-inked poster style built from oversized dark green-black brush lettering, pale blush paper, hot pink secondary type, naive mascot drawings, teal and pink flat fills, sharp yellow burst marks, scattered music-note doodles, and scanned risograph-like print texture."
+      "summary": "A rough hand-inked poster style built from oversized dark green-black brush lettering, pale blush paper, hot pink secondary type, naive mascot drawings, teal and pink flat fills, sharp yellow burst marks, scattered music-note doodles, and scanned risograph-like print texture.",
+      "triggers": "",
+      "features": [
+        "Pale blush paper background with a lightly scanned, warm off-white finish.",
+        "Oversized rough brush headline in deep green-black ink, with broken edges and uneven pressure.",
+        "Hot pink secondary typography placed as small stacked text blocks, labels, or date-like graphic notes.",
+        "Flat naive mascot or figure drawings with thick scratchy outlines and simplified anatomy.",
+        "Limited accent palette: deep green-black linework, hot pink fills, teal green fills, and acidic yellow bursts."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_pop_bubble_letter_photo_poster",
@@ -910,7 +1194,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/pop-bubble-letter-photo-poster.jpg"
       ],
-      "summary": "A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks."
+      "summary": "A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks.",
+        "Use real photographic portrait detail for the subject: low-angle editorial framing, bright direct sunlight or clean studio light, crisp skin and fabric texture, saturated wardrobe, calm confident expression.",
+        "Layout: center the subject on the vertical axis and surround them with ACCENT_SYMBOL and bubble-letter graphic forms.",
+        "Build the poster from oversized flat bubble-letter forms spelling or suggesting MAIN_TEXT.",
+        "Graphic language: thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, deep evergreen negative space, cream-white oval shine highlights, and ACCENT_SYMBOL."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#punchy#photo-and-illustration#poster#style#built#around#a#central#low-angle#fashion#portrait#framed#by#oversized#flat#bubble-letter#shapes,#saturated#candy#colors,#thick#black#outlines,#oval#highlights,#and#crisp#sparkle#marks."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_plush_comic_toy_product_poster",
@@ -919,7 +1217,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/plush-comic-toy-product-poster.jpg"
       ],
-      "summary": "A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy."
+      "summary": "A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.",
+        "Layout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow.",
+        "Place PRODUCT_OR_PROP and ACCENT_SYMBOL around the central subject as sticker-like supporting elements.",
+        "Build the biggest graphic area from oversized tilted block typography using MAIN_TEXT as the campaign headline.",
+        "Use TYPOGRAPHY_LANGUAGE to control the headline treatment and supporting type behavior."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#loud#toy-product#poster#style#built#around#one#fuzzy#plush#product#hero,#retro#cream#poster#paper,#a#cyan#circular#backdrop,#oversized#slanted#comic#typography,#thick#black#shadows,#doodle#annotations,#sticker#labels,#lightning#graphics,#and#dense#campaign#microcopy."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_plush_city_festival_mobile_poster",
@@ -928,7 +1240,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/plush-city-festival-mobile-poster.jpg"
       ],
-      "summary": "A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy."
+      "summary": "A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.",
+        "Use a bright mobile-first festival poster layout with a large rounded top visual card, clean blue sky, soft clouds, realistic city landmarks, and fuzzy plush 3D mascot characters in the foreground.",
+        "Put the event name in large bold white rounded sans-serif typography across the top sky area.",
+        "Place clear date and location information near the bottom of the visual card.",
+        "For vertical layouts, include a white rounded mobile bottom sheet with a small handle icon and the CTA text."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#bright#mobile#event#poster#style#combining#real#city#landmarks,#soft#fuzzy#mascot#characters,#rounded#app-card#UI#framing,#bold#white#festival#typography,#date/location#text,#and#friendly#tourism-campaign#energy."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_playful_mascot_doodle_snapshot",
@@ -937,7 +1263,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/playful-mascot-doodle-snapshot.jpg"
       ],
-      "summary": "A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene."
+      "summary": "A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.",
+        "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+        "Use a realistic casual phone-photo scene as the base layer.",
+        "Keep the environment photographic, naturally lit, and location-specific.",
+        "Add original flat cartoon mascot stickers on top of the photo: fruit, cloud, star, cup, wave, and jelly-shaped characters with simple eyes, thick dark outlines, glossy color blocks, sunny yellow, teal, coral, sky blue, lavender, cream, and soft pink accents."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#casual#real-life#social#photo#transformed#into#a#playful#poster#by#layering#original#cartoon#mascot#stickers,#hand-drawn#outlines,#ribbon#headline#panels,#sparkles,#spirals,#and#sketchy#decorative#marks#over#the#photographic#scene."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_playful_marker_grounding_poster",
@@ -946,7 +1286,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/playful-marker-grounding-poster.jpg"
       ],
-      "summary": "A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with clear public-service poster hierarchy."
+      "summary": "A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with clear public-service poster hierarchy.",
+      "triggers": "",
+      "features": [
+        "Cream poster-paper border with the artwork sitting inside a slightly inset field rather than bleeding to the edge.",
+        "Loose childlike marker-scribble background blocks, mostly bright sky cyan and sour lime green, with uneven white gaps.",
+        "Flat illustration with no realistic depth, no cast shadows, no gradients, and no polished vector smoothing.",
+        "Thick imperfect black or dark-brown outlines with variable pressure, rounded ends, and visibly wobbly hand-drawn edges.",
+        "One oversized simple subject dominates the lower middle of the poster, with tiny supporting props or characters as scale contrast."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "naive#marker#poster#illustration#with#public-service#announcement#hierarchy"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_photo_illustration_overlay_poster",
@@ -955,7 +1309,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/photo-illustration-overlay-poster.jpg"
       ],
-      "summary": "A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks."
+      "summary": "A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.",
+        "Use LOCATION as the photo background or real-world scene base.",
+        "Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.",
+        "Use ACCENT_SYMBOL for doodles, graphic marks, sparks, arrows, or other overlay effects.",
+        "Use a realistic city street photo as the base layer, then composite one oversized flat 2D cartoon character on top."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#realistic#city#photograph#with#an#oversized,#high-saturation,#flat#2D#cartoon#figure#composited#on#top,#plus#hand-drawn#stars,#sparks,#arrows,#and#comic#marks."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_olive_scribble_sports_poster",
@@ -964,7 +1332,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/olive-scribble-sports-poster.jpg"
       ],
-      "summary": "A kinetic flat editorial illustration style built from off-white paper, large olive-green poster blocks, oversized action figures, rough black ink contours, red marker motion arcs, yellow-green dry-brush swaths, sparse debris, and handmade screenprint texture."
+      "summary": "A kinetic flat editorial illustration style built from off-white paper, large olive-green poster blocks, oversized action figures, rough black ink contours, red marker motion arcs, yellow-green dry-brush swaths, sparse debris, and handmade screenprint texture.",
+      "triggers": "",
+      "features": [
+        "Off-white paper ground with a large irregular olive or yellow-green block covering most of the background.",
+        "One oversized action subject placed diagonally across the composition.",
+        "Flat screenprint color areas with minimal shading and no smooth gradients.",
+        "Heavy black ink silhouettes, angular brush contours, and chaotic scratch lines.",
+        "Red marker arcs, arrows, and motion loops crossing the subject."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_neon_plush_gadget_pop_3d",
@@ -973,7 +1355,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/neon-plush-gadget-pop-3d.jpg"
       ],
-      "summary": "A glossy toy-advertising 3D style built from acid lime studio backdrops, oversized fuzzy plush mascots, chunky tech props, soft textile surfaces, translucent plastic accessories, checkerboard cards, sticker-like icons, hot-pink burst graphics, and bright commercial lighting."
+      "summary": "A glossy toy-advertising 3D style built from acid lime studio backdrops, oversized fuzzy plush mascots, chunky tech props, soft textile surfaces, translucent plastic accessories, checkerboard cards, sticker-like icons, hot-pink burst graphics, and bright commercial lighting.",
+      "triggers": "",
+      "features": [
+        "Acid lime or neon yellow-green studio background dominates the frame, with a soft gradient glow rather than realistic scenery.",
+        "A single oversized plush mascot or fuzzy toy object fills the lower center, cropped close enough to feel tactile and collectible.",
+        "Surfaces mix fuzzy knitted fabric, soft fleece, glossy molded plastic, translucent jelly material, chrome accents, and rubbery toy parts.",
+        "The main prop is a chunky toy-like gadget or product object sitting on or hugging the plush subject.",
+        "Palette uses electric lime as the base with cyan, sky blue, hot pink, lavender, yellow, white, chrome gray, and small black details."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_neon_kinetic_typographic_poster",
@@ -982,7 +1378,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/neon-kinetic-typographic-poster.jpg"
       ],
-      "summary": "A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design."
+      "summary": "A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.",
+        "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+        "Use an extreme low-angle wide-angle camera perspective, as if the camera is near the ground looking upward.",
+        "Add oversized warped neon yellow typography using MAIN_TEXT.",
+        "The typography should wrap around the composition and sit behind or partially around the subject."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#dramatic#outdoor#editorial#poster#style#combining#low-angle#lifestyle#photography,#oversized#warped#neon#typography,#film#grain,#and#high-energy#youth-culture#campaign#design."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_neon_doodle_gallery_snapshot",
@@ -991,7 +1401,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/neon-doodle-gallery-snapshot.jpg"
       ],
-      "summary": "A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy."
+      "summary": "A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.",
+        "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+        "Use a realistic candid phone-photo as the base layer.",
+        "The setting should feel specific and ordinary: visible walls, art, shelves, labels, tables, lamps, posters, people, bags, shadows, grain, and imperfect handheld framing.",
+        "Draw a loud digital marker layer directly on top of the photo."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#candid#phone-photo#style#layered#with#chaotic#neon#digital#marker#doodles:#hot-pink#and#cyan#subject#outlines,#yellow#monster#spikes,#rough#handwritten#captions,#stars,#paw#prints,#spiderweb#corners,#scribble#bars,#halos,#plants,#and#student#diary#energy."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_neon_diary_collage",
@@ -1000,7 +1424,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/neon-outdoor-diary-longform-collage.jpg"
       ],
-      "summary": "A tall mobile-first outdoor diary poster system with a charcoal black canvas, documentary action-photo cutouts, acid green kinetic headlines, ripped paper panels, hand-drawn arrows, sticker labels, numbered sections, and dense social-note pacing."
+      "summary": "A tall mobile-first outdoor diary poster system with a charcoal black canvas, documentary action-photo cutouts, acid green kinetic headlines, ripped paper panels, hand-drawn arrows, sticker labels, numbered sections, and dense social-note pacing.",
+      "triggers": "",
+      "features": [
+        "Charcoal black background with thin vertical mobile-scroll framing and high-density stacked sections.",
+        "Documentary outdoor photo-collage subject cutouts with rough white keyline edges and mixed scale.",
+        "Acid green and white oversized condensed headline typography on slanted black label strips.",
+        "Orange hand-drawn arrows, loops, lightning marks, route lines, and small doodle bursts around content blocks.",
+        "Ripped notebook paper or torn tape panels used as schedule, rules, or checklist sections."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_naive_marker_quote_card",
@@ -1009,7 +1447,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/naive-marker-quote-card.jpg"
       ],
-      "summary": "A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag rendered as flat naive illustration."
+      "summary": "A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag rendered as flat naive illustration.",
+      "triggers": "",
+      "features": [
+        "Skinny poster-card composition with a large pale pastel interior rectangle and rough uneven black border.",
+        "Small off-center tab or nameplate at the top and a tiny lower caption plate, both drawn like taped paper labels.",
+        "Single absurd central object-character taking most of the middle area, simplified into flat stacked shapes.",
+        "Naive hand-drawn black marker outlines with wobbly contours, uneven line weight, and visible human imperfection.",
+        "Blocky uppercase blue hand lettering arranged in short broken lines, with irregular spacing and imperfect baselines."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Naive#hand-marker#absurdist#poster#illustration."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_mono_noir_type_portrait_poster",
@@ -1018,7 +1470,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/mono-noir-type-portrait-poster.jpg"
       ],
-      "summary": "A stark black-and-white editorial poster system pairing a close, high-contrast photographic portrait with oversized lowercase neo-grotesk typography. One headline word is reversed into a clean white rectangular label while the remaining words sit as heavy white type over a charcoal background."
+      "summary": "A stark black-and-white editorial poster system pairing a close, high-contrast photographic portrait with oversized lowercase neo-grotesk typography. One headline word is reversed into a clean white rectangular label while the remaining words sit as heavy white type over a charcoal background.",
+      "triggers": "",
+      "features": [
+        "Strict black-and-white monochrome with no color tint, sepia, duotone accent, or gradient color.",
+        "One large photographic human subject, usually cropped close, with the face or upper body carrying the emotional weight.",
+        "Deep charcoal-to-black background with soft falloff and large negative space for typography.",
+        "Oversized lowercase bold neo-grotesk headline, left aligned, with tight leading and strong optical weight.",
+        "The first headline word appears as black type inside a crisp white rectangular label."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_mondrian_style",
@@ -1030,7 +1496,27 @@ window.__FALLBACK_DATA__ = {
         "https://malongan.github.io/images/vigo_mondrian/longtermism.jpg",
         "https://malongan.github.io/images/vigo_mondrian/future_city.jpg"
       ],
-      "summary": "把任何主题重新放进红黄蓝白黑的网格系统：让色块建立节奏，让黑线组织结构，让标题本身变成图形和隐喻。"
+      "summary": "把任何主题重新放进红黄蓝白黑的网格系统：让色块建立节奏，让黑线组织结构，让标题本身变成图形和隐喻。",
+      "triggers": "",
+      "features": [
+        "**几何网格构图**：粗黑线条分割画面，形成严格的网格系统",
+        "**红黄蓝白黑五色**：经典 De Stijl 配色，极简高对比",
+        "**标题即图形**：文字不仅是信息，更是视觉元素",
+        "**克制发力**：看似极简，每一条线、每一个色块都精心设计",
+        "**中英双语**：中文主标题 + 英文副标题/理念标语"
+      ],
+      "tags": [
+        "蒙德里安",
+        "DeStijl",
+        "红黄蓝",
+        "几何",
+        "秩序",
+        "极简",
+        "海报",
+        "品牌"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_metro_doodle_snapshot_diary",
@@ -1039,7 +1525,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/metro-doodle-snapshot-diary.jpg"
       ],
-      "summary": "A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays."
+      "summary": "A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays.",
+        "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+        "Use a realistic candid phone-photo as the base layer.",
+        "The scene should feel like a real public transit or dense city moment: visible doors, rails, signs, floor markings, lights, scuffed surfaces, reflections, crowd density, practical clothing, and imperfect handheld framing.",
+        "Draw playful comic-marker doodles directly on top of the photo."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#handheld#urban#transit#photo-collage#style#combining#realistic#crowded#metro,#bus,#tram,#or#station#snapshots#with#expressive#marker-like#cartoon#doodles,#oversized#foreground#gestures,#white#handwritten#diary#notes,#and#saturated#comic#face#overlays."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_market_brush_produce_poster",
@@ -1048,7 +1548,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/market-brush-produce-poster.jpg"
       ],
-      "summary": "A sparse fresh-market poster system with a warm ivory paper field, one oversized glossy produce hero, a smaller echo product, violent black hand-cut brush typography, thin editorial header text, and tiny bottom seal-like captions."
+      "summary": "A sparse fresh-market poster system with a warm ivory paper field, one oversized glossy produce hero, a smaller echo product, violent black hand-cut brush typography, thin editorial header text, and tiny bottom seal-like captions.",
+      "triggers": "",
+      "features": [
+        "Warm ivory or pale cream paper background with very large uncluttered negative space.",
+        "One oversized photoreal produce hero cropped near an edge, plus one much smaller echo produce item.",
+        "Produce surface is glossy, rounded, bright, softly airbrushed, and slightly posterized rather than documentary.",
+        "Hard scale contrast between produce and typography: subject dominates the lower or side field while type crowds the upper or opposite side.",
+        "Large black headline built from torn, stamped, rough-brush CJK-inspired blocks with uneven edges and dry ink texture."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_luxury_street_cover",
@@ -1057,7 +1571,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/kinetic-luxury-street-fashion-cover.jpg"
       ],
-      "summary": "A premium street-fashion magazine cover style built from side-profile walking photography, horizontal motion-blurred architecture, one dominant luxury garment, wind-shaped hair, restrained urban neutrals, and oversized wide-spaced serif cover typography. It preserves the kinetic editorial grammar of the reference while changing the model identity, wardrobe, prop, headline, and story details."
+      "summary": "A premium street-fashion magazine cover style built from side-profile walking photography, horizontal motion-blurred architecture, one dominant luxury garment, wind-shaped hair, restrained urban neutrals, and oversized wide-spaced serif cover typography. It preserves the kinetic editorial grammar of the reference while changing the model identity, wardrobe, prop, headline, and story details.",
+      "triggers": "",
+      "features": [
+        "High-end realistic fashion editorial photography, not illustration, collage, or catalog rendering.",
+        "Single model or one dominant model cropped large from thigh to head, moving laterally through the frame.",
+        "Side-profile or three-quarter walking pose with calm luxury expression and deliberate street-stride energy.",
+        "Strong horizontal motion blur in the background, as if the camera is panning with the subject.",
+        "Sharp subject against blurred stone, window, pavement, and street bands, with readable fabric texture."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_kinetic_geometric_doodle_cutouts",
@@ -1066,7 +1594,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/kinetic-geometric-doodle-cutouts.jpg"
       ],
-      "summary": "A sparse, playful illustration system where a character or object is assembled from oversized flat geometric color pieces, loose black doodle lines, paper grain, and buoyant off-center motion on a warm cream background."
+      "summary": "A sparse, playful illustration system where a character or object is assembled from oversized flat geometric color pieces, loose black doodle lines, paper grain, and buoyant off-center motion on a warm cream background.",
+      "triggers": "",
+      "features": [
+        "Warm cream paper field with generous empty space around the subject.",
+        "One central figure, object, or small scene built from a few oversized geometric blocks.",
+        "Flat vector-like shapes with subtle printed grain, dry-brush speckle, and soft sprayed gradients.",
+        "Asymmetric kinetic pose with limbs or parts angled diagonally as if mid-motion.",
+        "Thick black hand-drawn contour strokes only on small details such as hands, shoes, hair, wheels, handles, or motion marks."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_k_pop_apocalypse_ransom_zine",
@@ -1075,7 +1617,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/k-pop-apocalypse-ransom-zine.jpg"
       ],
-      "summary": "A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red accents, and a bold bottom masthead band."
+      "summary": "A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red accents, and a bold bottom masthead band.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red accents, and a bold bottom masthead band.",
+        "Use a dark crumpled black paper background with BACKGROUND_ELEMENTS worked into the collage texture.",
+        "Place the subject as a large central portrait cutout with a thick irregular torn white paper border.",
+        "Add oversized warped display typography reading MAIN_TEXT as a tilted collage layer, plus smaller sticker blocks and side editorial captions reading SECONDARY_TEXT.",
+        "Use acid lime, electric blue, alert red, paper white, and ink black."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#maximalist#K-pop#fashion#zine#collage#style#built#from#a#central#portrait#cutout,#crumpled#monochrome#paper#texture,#skewed#ransom-note#typography,#loud#sticker#blocks,#saturated#lime/blue/red#accents,#and#a#bold#bottom#masthead#band."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_impact_burst_halftone_comic_poster",
@@ -1084,7 +1640,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/impact-burst-halftone-comic-poster.jpg"
       ],
-      "summary": "A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain."
+      "summary": "A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.",
+        "Layout: use a bold cropped comic-poster composition.",
+        "Place the main subject large in the lower two-thirds and let the oversized prop cut diagonally across the body or foreground.",
+        "Style: thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration.",
+        "Avoid: watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#loud#retro#comic#poster#system#built#from#thick#black#ink,#flat#high-saturation#colors,#oversized#impact#typography,#exaggerated#illustrated#subjects,#diagonal#props,#speech#bursts,#smoke#puffs,#halftone#dots,#and#distressed#screen-print#grain."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_gothic_cat_doodle_photo_collage",
@@ -1093,7 +1663,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/gothic-cat-doodle-photo-collage.jpg"
       ],
-      "summary": "A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles."
+      "summary": "A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.",
+        "Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.",
+        "Use a realistic low-angle architectural photograph as the base layer.",
+        "Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky.",
+        "Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#playful#photo-illustration#collage#style#combining#dramatic#real#architectural#photography#with#oversized#flat#cartoon#creature#overlays,#bubbly#hand-drawn#headline#lettering,#and#loose#marker#doodles."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_folded_newspaper_product_ad",
@@ -1102,7 +1686,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/folded-newspaper-product-ad.jpg"
       ],
-      "summary": "A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground."
+      "summary": "A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.",
+      "triggers": "",
+      "features": [
+        "Single off-white broadsheet newspaper page fills the canvas, with visible folds, wrinkles, slightly buckled paper, and uneven scanned print softness.",
+        "Dense bilingual editorial layout uses many narrow body-copy columns, rule lines, small captions, box modules, and print-grid alignment behind the hero object.",
+        "One enormous photorealistic product or object sits in the lower-to-middle foreground, cropped large and overlapping the flat page as a pasted advertising cutout.",
+        "Large black display headline and antique-gold secondary headline dominate the upper or left page, with heavy condensed Chinese-inspired block type.",
+        "A rubber-stamp or coupon-stamp frame sits at an angle, using distressed black ink, slab serif or stencil lettering, and small rays or separator marks."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "folded#newspaper#advertorial#with#photorealistic#product#hero"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_fisheye_bubble_poster",
@@ -1111,7 +1709,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/sunburst-fisheye-bubble-type-poster.jpg"
       ],
-      "summary": "An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain."
+      "summary": "An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.",
+        "Keep the photographic treatment bright, compressed, close, and lens-distorted according to the style reference.",
+        "Place the camera below the subject looking upward, very close to the body and face.",
+        "Preserve realistic skin, fabric, hair, accessories, and daylight reflections.",
+        "Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "An#ultra-low-angle#fisheye#summer#lifestyle#poster#style#with#a#close#photographic#subject,#saturated#cobalt#sky,#huge#arched#lemon-yellow#bubble#typography,#warm#orange#type#shading,#Y2K#accessories,#and#heavy#analog#grain."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_fantasy_scribble_mascot_poster",
@@ -1120,7 +1732,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/fantasy-scribble-mascot-poster.jpg"
       ],
-      "summary": "A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white paper field."
+      "summary": "A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white paper field.",
+      "triggers": "",
+      "features": [
+        "White paper field with the image treated like a scanned handmade poster rather than a polished digital illustration.",
+        "Huge irregular hand-painted headline letters occupying the top or one dominant edge of the composition.",
+        "Thick, uneven, dry-brush black outlines around characters, props, text, and many decorative marks.",
+        "Flat marker-fill color blocks using electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents.",
+        "Childlike fantasy mascot anatomy with playful distortion, blunt legs, long ears, floating eyes, and simplified facial dots."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_cyan_red_shockwave_type_poster",
@@ -1129,7 +1755,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/cyan-red-shockwave-type-poster.jpg"
       ],
-      "summary": "A flat illustrated poster system built from a saturated cyan field, oversized red block typography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact rotated microcopy. It feels like a loud regional travel poster crossed with manga impact graphics and screenprinted street signage."
+      "summary": "A flat illustrated poster system built from a saturated cyan field, oversized red block typography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact rotated microcopy. It feels like a loud regional travel poster crossed with manga impact graphics and screenprinted street signage.",
+      "triggers": "",
+      "features": [
+        "Saturated cyan background dominates the entire poster, with red and yellow used as the only major accents.",
+        "Huge red geometric display lettering is cropped by the page edges and functions as both text and architecture.",
+        "A white jagged lightning-burst shape cuts diagonally through the center and carries the main action.",
+        "Subjects are simplified flat vector forms with almost no shading, outlined by thick red keylines.",
+        "Human or hand-like accents use solid lemon yellow fills, making them graphic shapes rather than realistic anatomy."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Flat#pop#poster#illustration#with#techno-manga#impact#graphics#and#regional#sign-paint#typography."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_chromatic_fisheye_orbit_pop_poster",
@@ -1138,7 +1778,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/chromatic-fisheye-orbit-pop-poster.jpg"
       ],
-      "summary": "A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and light analog print texture."
+      "summary": "A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and light analog print texture.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and light analog print texture.",
+        "Photography: build a finished high-key pop culture poster, not a sketch.",
+        "Use an extreme fisheye or convex glass-dome viewpoint from below, with the subject centered inside a circular lens bubble.",
+        "Keep people, props, hair, fabric, and hands photographic and realistic while allowing wide-angle edge distortion.",
+        "Layout: keep the surrounding field mostly warm off-white and pale grey so the graphic system has open space."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#high-key#pop#poster#system#built#from#extreme#fisheye#photography,#a#convex#glass-dome#center,#oversized#orbiting#typography,#hot#red-magenta-orange#letter#fills,#aqua#chromatic#light#arcs,#and#light#analog#print#texture."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_bold_block_mascot_poster",
@@ -1147,7 +1801,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/bold-block-mascot-poster.jpg"
       ],
-      "summary": "A dense flat poster system built from giant black display type, chunky white mascot figures, thick cartoon outlines, tilted cyan or mint color panels, compact badges, tiny red accents, and a clean off-white print surface."
+      "summary": "A dense flat poster system built from giant black display type, chunky white mascot figures, thick cartoon outlines, tilted cyan or mint color panels, compact badges, tiny red accents, and a clean off-white print surface.",
+      "triggers": "",
+      "features": [
+        "Poster-first composition with an oversized black headline occupying the top band, side band, or dominant title block.",
+        "High layout density with very little empty space, while all shapes remain simple, flat, and readable.",
+        "One or two rounded white mascot-like figures or simplified graphic subjects drawn with very thick black outlines and minimal facial marks.",
+        "One large tilted cyan, teal, mint, or lemon color panel crossing the middle of the frame as the main graphic mass.",
+        "Secondary green, red, black, or pale color blocks sit behind the subject and are edged by heavy black strokes."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "flat#editorial#mascot#poster,#comic-sticker#poster#system,#bold#portfolio#cover#graphic"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_bold_anime_reaction_thumbnail",
@@ -1156,7 +1824,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/bold-anime-reaction-thumbnail.jpg"
       ],
-      "summary": "A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean cel-shaded illustration."
+      "summary": "A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean cel-shaded illustration.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean cel-shaded illustration.",
+        "Use clean glossy cel-shaded anime rendering, crisp black line art, smooth gradients, and bright commercial lighting.",
+        "Use cool blue/cyan backgrounds, warm character colors, high-contrast black outlines, and a small yellow arrow or glow marker.",
+        "Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
+        "Keep the same visual genre, density level, and rendering mode across new subjects."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#high-impact#anime#web-thumbnail#system#with#oversized#reaction#characters,#bold#yellow#headline#typography,#hard#black#shadows,#split-screen#framing,#a#smaller#glowing#action#insert,#and#clean#cel-shaded#illustration."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_blue_kinetic_poster",
@@ -1165,7 +1847,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/blue-lime-kinetic-comic-type-poster.jpg"
       ],
-      "summary": "A loud flat comic-poster system built from electric-blue grid paper, oversized neon-lime speech-panel geometry, heavy black block typography, sharp yellow back plates, radial action marks, and gritty print texture. The style feels like a kinetic street flyer where the headline is the main subject."
+      "summary": "A loud flat comic-poster system built from electric-blue grid paper, oversized neon-lime speech-panel geometry, heavy black block typography, sharp yellow back plates, radial action marks, and gritty print texture. The style feels like a kinetic street flyer where the headline is the main subject.",
+      "triggers": "",
+      "features": [
+        "Electric-blue background fills the canvas and carries a faint square grid, like printed graph paper.",
+        "A giant neon-lime speech-bubble or banner panel dominates the center with a sharp triangular tail or cutout.",
+        "A flat yellow geometric back plate peeks from behind the lime panel to create high-contrast poster depth.",
+        "Massive black block typography is the primary visual mass, cropped tight and packed inside the lime shape.",
+        "Letterforms feel blunt, heavy, slightly irregular, and comic-like rather than refined or corporate."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_blue_hud_macro_product_poster",
@@ -1174,7 +1870,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/blue-hud-macro-product-poster.jpg"
       ],
-      "summary": "A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards, and one warm gold performance badge."
+      "summary": "A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards, and one warm gold performance badge.",
+      "triggers": "",
+      "features": [
+        "Macro product-hero composition with the object large, tilted, and centered or slightly off-center, filling the frame.",
+        "Oversized ribbed gloves or flexible striped fingers crop in from the frame edges and physically frame the product.",
+        "Deep glossy 3D rendering with rounded plastic, rubber, metal, and glass surfaces, not a flat poster or hand-drawn illustration.",
+        "Cold electric-blue background with dark navy gradients, diagonal light streaks, faint grid lines, and misty volumetric glow.",
+        "Large condensed block headline typography in white or icy gray, partially hidden behind the product or cropped by the frame."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "premium#3D#creator-tech#poster,#macro#product#ad,#HUD-heavy#social#commerce#visual"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_blue_halftone_ransom_zine_poster",
@@ -1183,7 +1893,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/blue-halftone-ransom-zine-poster.jpg"
       ],
-      "summary": "A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy micro captions."
+      "summary": "A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy micro captions.",
+      "triggers": "",
+      "features": [
+        "Dominant saturated cobalt-blue poster field with a narrow off-white paper border or visible paper edge.",
+        "Large irregular torn white paper islands, each with jagged scissor-cut edges and slight shadow or crease relief.",
+        "Black-and-white photocopy halftone subject cutouts with coarse dot screens, high contrast, and slightly broken edges.",
+        "Two or three oversized cutout subjects arranged as flat collage pieces, not realistic objects inside a scene.",
+        "Handwritten marker typography on torn paper strips, with uneven baseline, casual spacing, and imperfect black ink."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "Other"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_blue_bubble_fisheye_action_poster",
@@ -1192,7 +1916,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/blue-bubble-fisheye-action-poster.jpg"
       ],
-      "summary": "A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions, and one red hand-drawn annotation circle."
+      "summary": "A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions, and one red hand-drawn annotation circle.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions, and one red hand-drawn annotation circle.",
+        "Photography: use an extreme low-angle fisheye or action-camera lens, very close to the foreground object, with barrel distortion, edge stretching, motion blur near the edges, bright daylight, blue sky or open high-key light, crisp highlights, realistic skin, fabric, product surfaces, and believable anatomy.",
+        "Layout: build a clean white editorial poster canvas with a central rectangular action photo.",
+        "Let one foreground hand, foot, prop, or product detail become huge and optionally break past the photo rectangle into the white margin.",
+        "Keep the poster layer flat, precise, and uncluttered."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#crisp#white#youth-culture#action#poster#style#with#a#rectangular#fisheye#photograph,#oversized#rounded#royal-blue#display#typography,#frame-breaking#foreground#scale,#small#blue#editorial#captions,#and#one#red#hand-drawn#annotation#circle."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_black_cutout_food_card_ad",
@@ -1201,7 +1939,21 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/black-cutout-food-card-ad.jpg"
       ],
-      "summary": "A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow accents, and a handmade street-snack print texture."
+      "summary": "A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow accents, and a handmade street-snack print texture.",
+      "triggers": "",
+      "features": [
+        "Full black canvas with the graphic card floating as the only bright object.",
+        "One large cream or aged-paper irregular cutout card, with rounded handmade edges and a different silhouette per case.",
+        "Dense left-to-right poster hierarchy: large vertical Chinese brush lettering competes with a food photo and a price medallion.",
+        "Food is treated as a glossy clipped photo collage element, not a flat illustration.",
+        "Card interior uses warm cream, faded ochre, deep red, orange, brown, and black ink with limited palette discipline."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "handmade#Chinese#street-food#ad#card#with#photo-collage#food#centerpiece"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "vigo_analog_editorial_poster",
@@ -1210,14 +1962,48 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/vigo_previews/soft-analog-future-editorial-poster.jpg"
       ],
-      "summary": "A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design."
+      "summary": "A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.",
+      "triggers": "",
+      "features": [
+        "Preserve the core visual identity: A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.",
+        "Place PRODUCT_OR_PROP in LOCATION as the restrained hero object.",
+        "Typography: set MAIN_TEXT as very large black neo-grotesk type.",
+        "Use ACCENT_SYMBOL as a sparse graphic mark.",
+        "Visual treatment: warm cream paper background, strict grid layout, thin rules, soft daylight, tactile matte materials, gentle paper grain, pale-blue translucent interface panel, botanical foreground accents, and quiet negative space."
+      ],
+      "tags": [
+        "VigoCookbook",
+        "A#quiet#analog-future#editorial#poster#style#using#warm#cream#paper,#oversized#black#neo-grotesk#typography,#strict#grid#rules,#retro#technology#still#life,#pale-blue#translucent#interface#panels,#botanical#foreground#accents,#and#tiny#bilingual#information#design."
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "urban_collage_poster",
       "name": "Urban Collage Poster",
       "category": "brand_kv",
       "preview_urls": [],
-      "summary": "高饱和橙色大色块 + 黑色矩形堆叠的都市拼贴海报，酷女孩广角近摄 + 黑描边贴纸化处理，强烈能量感。"
+      "summary": "高饱和橙色大色块 + 黑色矩形堆叠的都市拼贴海报，酷女孩广角近摄 + 黑描边贴纸化处理，强烈能量感。",
+      "triggers": "",
+      "features": [
+        "高饱和橙色大色块与黑色矩形块面堆叠，竖向与斜切断面",
+        "主视觉人物为黑色短发酷女孩，广角半身近摄，面部夸张透视",
+        "戴黑框大墨镜与橙色滤光镜片，橙黄色服装",
+        "人物带黑描边贴纸化处理",
+        "主标题黑色粗体，竖直横排交错，内嵌斜切黄底/紫底标签",
+        "手绘风纸贴 + 闪电手绘符号点缀",
+        "散点式构图，多重图层叠加"
+      ],
+      "tags": [
+        "拼贴",
+        "都市",
+        "前卫",
+        "高饱和",
+        "橙色",
+        "潮流"
+      ],
+      "source_url": "",
+      "source_author": ""
     },
     {
       "id": "typography",
@@ -1226,14 +2012,29 @@ window.__FALLBACK_DATA__ = {
       "preview_urls": [
         "https://malongan.github.io/images/styles_previews/typography.png"
       ],
-      "summary": "字体类型 + 笔画结构 + 材质光效 = 高级字体设计。"
+      "summary": "字体类型 + 笔画结构 + 材质光效 = 高级字体设计。",
+      "triggers": "",
+      "features": [
+        "多种字体风格（时尚/书法/复古/未来等）",
+        "详细的笔画/结构/重心描述",
+        "材质效果（金属/玻璃/旧印刷）",
+        "光影效果（霓虹/投影/高光）"
+      ],
+      "tags": [
+        "字体",
+        "标题",
+        "排版",
+        "中文",
+        "书法"
+      ],
+      "source_url": "",
+      "source_author": ""
     }
   ]
 };
+window.__FALLBACK_IMG__ = '<div style=padding:40px;text-align:center;color:#999>图片加载失败</div>';
 
 /* ★ JS 交互 — 来自 gallery/src/gallery.js */
-// gallery.js 使用 IIFE，函数在闭包内不可全局访问
-// 已通过 window.init = init 暴露给 renderGallery 调用
 /**
  * Gallery 功能脚本 v3
  * 包含：搜索过滤、标签筛选、收藏、Lightbox信息卡片、深色模式
@@ -1719,42 +2520,64 @@ window.__FALLBACK_DATA__ = {
   window.init = init;
 })();
 
-/* ★ renderGallery — 从 JSON 数据渲染瀑布流卡片 */
-function renderGallery(data) {
-  const styles = data.styles || [];
-  const container = document.getElementById('gallery');
-  const loading = document.getElementById('loading');
-  if (loading) loading.style.display = 'none';
-  if (!container) return;
+/* ========== 渲染功能 ========== */
 
-  var fallbackImg = '<div style=padding:40px;text-align:center;color:#999>图片加载失败</div>';
+/** 构建单张 style-card 的 HTML */
+function buildCardHTML(s) {
+  var imgUrl = s.imgUrl || (s.preview_urls || [])[0] || '';
+  var tags = (s.tags || []).join(',');
+  var summary = s.summary || '';
+  var triggers = s.triggers || '';
+  var features = (s.features || []).join('|');
+  var sourceUrl = s.sourceUrl || '';
+  var sourceAuthor = s.sourceAuthor || '';
 
-  // 创建与 gallery.js 匹配的 HTML 结构：.gallery-grid > .style-card
-  container.innerHTML = '<div class="gallery-grid">' +
-    styles.map(function(s) {
-      var imgUrl = (s.preview_urls || [])[0] || '';
-      var tags = (s.tags || []).map(function(t) { return '<span class="tag" data-tag="' + t + '">#' + t + '</span>'; }).join('');
-      return '<div class="style-card" data-id="' + s.id + '" data-tags="' + (s.tags || []).join(',') + '" data-category="' + s.category + '">' +
-        '<div class="card-img-wrap">' +
-          '<img src="' + imgUrl + '" alt="' + s.name + '" loading="lazy" onerror="this.parentElement.innerHTML=window.__FALLBACK_IMG__">' +
-          '<div class="card-number">#' + s.id + '</div>' +
-        '</div>' +
-        '<div class="card-body">' +
-          '<h3 class="card-title">' + s.name + '</h3>' +
-          '<div class="card-tags">' + tags + '</div>' +
-          '<p class="card-summary">' + (s.summary || '') + '</p>' +
-        '</div>' +
-      '</div>';
-    }).join('') +
+  return '<div class="style-card" data-id="' + s.id + '"' +
+    ' data-summary="' + summary.replace(/"/g,'&quot;') + '"' +
+    ' data-features="' + features.replace(/"/g,'&quot;') + '"' +
+    ' data-triggers="' + triggers.replace(/"/g,'&quot;') + '"' +
+    ' data-tags="' + tags + '"' +
+    ' data-number="' + (s.number || s.id || '') + '"' +
+    ' data-category="' + s.category + '">' +
+    '<img src="' + imgUrl + '" alt="' + s.name + '" class="card-image" loading="lazy"' +
+    ' onerror="this.parentElement.innerHTML=window.__FALLBACK_IMG__">' +
+    '<div class="card-content">' +
+      '<div class="card-title-row">' +
+        '<span class="card-number">#' + (s.number || s.id || '') + '</span>' +
+        '<h3 class="card-title">' + s.name + '</h3>' +
+      '</div>' +
+      '<div class="card-footer">' +
+        '<span class="card-category">' + (s.category || '') + '</span>' +
+        '<button class="favorite-btn" title="收藏">收藏</button>' +
+      '</div>' +
+    '</div>' +
   '</div>';
+}
 
-  // 渲染完成后，调用 gallery.js 的 init() 绑定事件
+/** 从 JSON 数据渲染瀑布流卡片 */
+function renderGallery(data) {
+  var styles = data.styles || [];
+  var loading = document.getElementById('loading');
+  var app = document.getElementById('app');
+
+  if (loading) loading.style.display = 'none';
+  if (app) app.style.display = 'block';
+
+  var grid = document.querySelector('.gallery-grid');
+  if (!grid) return;
+
+  grid.innerHTML = styles.map(function(s) { return buildCardHTML(s); }).join('');
+
+  // 更新结果计数
+  var countEl = document.querySelector('.count-num');
+  if (countEl) countEl.textContent = styles.length;
+
+  // 渲染完成后调用 gallery.js 的 init() 绑定事件
   if (typeof window.init === 'function') window.init();
 }
 
-/* ★ 数据加载逻辑 */
+/** 从 JSON 或回退数据渲染 */
 async function loadGallery() {
-  window.__FALLBACK_IMG__ = '<div style=padding:40px;text-align:center;color:#999>图片加载失败</div>';
   try {
     const resp = await fetch('https://cdn.jsdelivr.net/gh/malongan/style-source@main/data/styles.json?t=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
