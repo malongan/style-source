@@ -300,6 +300,36 @@ function renderGallery(data) {{
         if (countSpan) countSpan.textContent = window.galleryCategories.all;
       }}
     }});
+
+    // 绑定编号点击复制
+    document.querySelectorAll('.card-number').forEach(function(el) {{
+      el.addEventListener('click', function(e) {{
+        e.stopPropagation();
+        var code = this.textContent.replace('#', '').trim();
+        if (!code) return;
+        if (navigator.clipboard && navigator.clipboard.writeText) {{
+          navigator.clipboard.writeText(code).then(function() {{
+            el.classList.add('copied');
+            setTimeout(function() {{ el.classList.remove('copied'); }}, 1500);
+          }}).catch(function() {{ fallbackCopy(code, el); }});
+        }} else {{
+          fallbackCopy(code, el);
+        }}
+      }});
+    }});
+  }}
+
+  function fallbackCopy(text, el) {{
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    el.classList.add('copied');
+    setTimeout(function() {{ el.classList.remove('copied'); }}, 1500);
   }}
 }}
 
