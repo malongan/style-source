@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.4.0-8-g1841852-dirty",
-    "total": 136,
-    "updated_at": "2026-06-18T14:18:08Z",
+    "version": "v0.4.0-13-geb67829",
+    "total": 137,
+    "updated_at": "2026-06-18T15:14:33Z",
     "categories": {
       "brand_kv": {
         "count": 15,
@@ -48,6 +48,11 @@
         "count": 4,
         "name": "旅行城市",
         "icon": "✈️"
+      },
+      "typography": {
+        "count": 1,
+        "name": "typography",
+        "icon": "📁"
       },
       "vigo_cookbook": {
         "count": 48,
@@ -2654,6 +2659,34 @@
       "code": "ST000088"
     },
     {
+      "id": "climb_mountain_typography",
+      "name": "Climb Mountain Typography",
+      "category": "typography",
+      "tags": [
+        "字体设计",
+        "创意字体",
+        "抽象变形",
+        "颗粒噪点",
+        "黑底白字"
+      ],
+      "scene": "海报设计、品牌视觉、LOGO设计、创意排版",
+      "ratio": "4.5",
+      "summary": "笔画大胆夸张的创意字体设计，抽象变形创造独特的节奏和动感。",
+      "features": [
+        "**抽象变形** — 笔画大胆夸张，字尾连接或拉长",
+        "**独特节奏** — 创造强烈的视觉冲击",
+        "**颗粒噪点** — 复古质感",
+        "**黑底白字** — 高级感、扁平化"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.jpg"
+      ],
+      "variables": {},
+      "source_author": "即梦用户",
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7597771252316622107",
+      "code": "ST000089"
+    },
+    {
       "id": "vigo_analog_editorial_poster",
       "name": "Vigo Analog Editorial Poster",
       "category": "vigo_cookbook",
@@ -2676,7 +2709,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000089"
+      "code": "ST000090"
     },
     {
       "id": "vigo_black_cutout_food_card_ad",
@@ -2701,7 +2734,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000090"
+      "code": "ST000091"
     },
     {
       "id": "vigo_blue_bubble_fisheye_action_poster",
@@ -2726,7 +2759,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000091"
+      "code": "ST000092"
     },
     {
       "id": "vigo_blue_halftone_ransom_zine_poster",
@@ -2752,7 +2785,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000092"
+      "code": "ST000093"
     },
     {
       "id": "vigo_blue_hud_macro_product_poster",
@@ -2777,7 +2810,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000093"
+      "code": "ST000094"
     },
     {
       "id": "vigo_blue_kinetic_poster",
@@ -2803,7 +2836,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000094"
+      "code": "ST000095"
     },
     {
       "id": "vigo_bold_anime_reaction_thumbnail",
@@ -2828,7 +2861,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000095"
+      "code": "ST000096"
     },
     {
       "id": "vigo_bold_block_mascot_poster",
@@ -2853,7 +2886,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000096"
+      "code": "ST000097"
     },
     {
       "id": "vigo_chromatic_fisheye_orbit_pop_poster",
@@ -2878,7 +2911,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000097"
+      "code": "ST000098"
     },
     {
       "id": "vigo_cyan_red_shockwave_type_poster",
@@ -2903,7 +2936,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000098"
+      "code": "ST000099"
     },
     {
       "id": "vigo_fantasy_scribble_mascot_poster",
@@ -2929,7 +2962,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000099"
+      "code": "ST000100"
     },
     {
       "id": "vigo_fisheye_bubble_poster",
@@ -2954,7 +2987,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000100"
+      "code": "ST000101"
     },
     {
       "id": "vigo_folded_newspaper_product_ad",
@@ -2979,7 +3012,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000101"
+      "code": "ST000102"
     },
     {
       "id": "vigo_gothic_cat_doodle_photo_collage",
@@ -3004,7 +3037,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000102"
+      "code": "ST000103"
     },
     {
       "id": "vigo_impact_burst_halftone_comic_poster",
@@ -3029,7 +3062,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000103"
+      "code": "ST000104"
     },
     {
       "id": "vigo_k_pop_apocalypse_ransom_zine",
@@ -3054,7 +3087,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000104"
+      "code": "ST000105"
     },
     {
       "id": "vigo_kinetic_geometric_doodle_cutouts",
@@ -3080,7 +3113,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000105"
+      "code": "ST000106"
     },
     {
       "id": "vigo_luxury_street_cover",
@@ -3106,7 +3139,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000106"
+      "code": "ST000107"
     },
     {
       "id": "vigo_market_brush_produce_poster",
@@ -3132,7 +3165,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000107"
+      "code": "ST000108"
     },
     {
       "id": "vigo_metro_doodle_snapshot_diary",
@@ -3157,7 +3190,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000108"
+      "code": "ST000109"
     },
     {
       "id": "vigo_mondrian_style",
@@ -3192,7 +3225,7 @@
       "variables": {},
       "source_author": "Adrian Punk (@AdrianPunk115)",
       "source_url": "https://x.com/AdrianPunk115/status/2065295607028412813",
-      "code": "ST000109"
+      "code": "ST000110"
     },
     {
       "id": "vigo_mono_noir_type_portrait_poster",
@@ -3218,7 +3251,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000110"
+      "code": "ST000111"
     },
     {
       "id": "vigo_naive_marker_quote_card",
@@ -3243,7 +3276,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000111"
+      "code": "ST000112"
     },
     {
       "id": "vigo_neon_diary_collage",
@@ -3269,7 +3302,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000112"
+      "code": "ST000113"
     },
     {
       "id": "vigo_neon_doodle_gallery_snapshot",
@@ -3294,7 +3327,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000113"
+      "code": "ST000114"
     },
     {
       "id": "vigo_neon_kinetic_typographic_poster",
@@ -3319,7 +3352,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000114"
+      "code": "ST000115"
     },
     {
       "id": "vigo_neon_plush_gadget_pop_3d",
@@ -3345,7 +3378,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000115"
+      "code": "ST000116"
     },
     {
       "id": "vigo_olive_scribble_sports_poster",
@@ -3371,7 +3404,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000116"
+      "code": "ST000117"
     },
     {
       "id": "vigo_photo_illustration_overlay_poster",
@@ -3396,7 +3429,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000117"
+      "code": "ST000118"
     },
     {
       "id": "vigo_playful_marker_grounding_poster",
@@ -3421,7 +3454,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000118"
+      "code": "ST000119"
     },
     {
       "id": "vigo_playful_mascot_doodle_snapshot",
@@ -3446,7 +3479,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000119"
+      "code": "ST000120"
     },
     {
       "id": "vigo_plush_city_festival_mobile_poster",
@@ -3471,7 +3504,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000120"
+      "code": "ST000121"
     },
     {
       "id": "vigo_plush_comic_toy_product_poster",
@@ -3496,7 +3529,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000121"
+      "code": "ST000122"
     },
     {
       "id": "vigo_pop_bubble_letter_photo_poster",
@@ -3521,7 +3554,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000122"
+      "code": "ST000123"
     },
     {
       "id": "vigo_rough_ink_music_doodle_poster",
@@ -3547,7 +3580,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000123"
+      "code": "ST000124"
     },
     {
       "id": "vigo_rough_marker_monster_poster",
@@ -3573,7 +3606,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000124"
+      "code": "ST000125"
     },
     {
       "id": "vigo_school_grid_paper_cutout_poster",
@@ -3599,7 +3632,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000125"
+      "code": "ST000126"
     },
     {
       "id": "vigo_sky_blue_home_life_doodle_poster",
@@ -3625,7 +3658,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000126"
+      "code": "ST000127"
     },
     {
       "id": "vigo_subway_doodle_photo_hybrid",
@@ -3650,7 +3683,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000127"
+      "code": "ST000128"
     },
     {
       "id": "vigo_sunny_3d_avatar_campaign",
@@ -3676,7 +3709,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000128"
+      "code": "ST000129"
     },
     {
       "id": "vigo_tokyo_kawaii_travel_collage_poster",
@@ -3701,7 +3734,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000129"
+      "code": "ST000130"
     },
     {
       "id": "vigo_tri_color_hardcut_portrait_poster",
@@ -3726,7 +3759,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000130"
+      "code": "ST000131"
     },
     {
       "id": "vigo_turquoise_red_techno_manga_poster",
@@ -3751,7 +3784,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000131"
+      "code": "ST000132"
     },
     {
       "id": "vigo_urban_transit_doodle_diary",
@@ -3776,7 +3809,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000132"
+      "code": "ST000133"
     },
     {
       "id": "vigo_warm_fisheye_product_impact_ad",
@@ -3802,7 +3835,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000133"
+      "code": "ST000134"
     },
     {
       "id": "vigo_y2k_grunge_hiphop_cutout_poster",
@@ -3827,7 +3860,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000134"
+      "code": "ST000135"
     },
     {
       "id": "vigo_y2k_mirror_ui_scribble_collage",
@@ -3853,7 +3886,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000135"
+      "code": "ST000136"
     },
     {
       "id": "vigo_yellow_black_manga_food_zine_ad",
@@ -3879,7 +3912,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST000136"
+      "code": "ST000137"
     }
   ]
 }
