@@ -1,0 +1,47 @@
+# .github/workflows/on-merge-main.yml
+name: 合并后自动化
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+    paths: ['styles/**']
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-generate:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          ref: main
+
+      - name: 验证所有风格文件
+        run: python3 scripts/validate_all.py
+
+      - name: 检测新增文件并追加 _collection_log.md
+        run: python3 scripts/update_collection_log.py
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          GIT_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          GIT_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+
+      - name: 生成 data/styles.json
+        run: python3 scripts/generate_data.py
+
+      - name: 生成 _index.md
+        run: python3 scripts/generate_index.py
+
+      - name: 提交自动生成的文件
+        run: |
+          git config user.name "style-source-bot"
+          git config user.email "bot@style-source"
+          git add data/ styles/_index.md */_index.md styles/_collection_log.md
+          git diff --cached --quiet || git commit -m "chore: auto-generate data, index & collection_log [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

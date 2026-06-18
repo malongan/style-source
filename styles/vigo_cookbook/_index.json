@@ -1,0 +1,450 @@
+[
+  {
+    "slug": "analog-sticker-diary-portrait-poster-style",
+    "name": "Analog Sticker Diary Portrait Poster Style",
+    "summary": "A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and heavy scanned print texture.",
+    "category": "A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and heavy scanned print texture.",
+    "file": "styles/vigo_cookbook/analog-sticker-diary-portrait-poster-style.json"
+  },
+  {
+    "slug": "backseat-transit-doodle-letter-poster-style",
+    "name": "Backseat Transit Doodle Letter Poster Style",
+    "summary": "A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.",
+    "category": "A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.",
+    "file": "styles/vigo_cookbook/backseat-transit-doodle-letter-poster-style.json"
+  },
+  {
+    "slug": "black-cutout-food-card-ad-style",
+    "name": "Black Cutout Food Card Ad",
+    "summary": "A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow accents, and a handmade street-snack print texture.",
+    "category": "handmade Chinese street-food ad card with photo-collage food centerpiece",
+    "file": "styles/vigo_cookbook/black-cutout-food-card-ad-style.json"
+  },
+  {
+    "slug": "blue-bubble-fisheye-action-poster-style",
+    "name": "Blue Bubble Fisheye Action Poster Style",
+    "summary": "A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions, and one red hand-drawn annotation circle.",
+    "category": "A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions, and one red hand-drawn annotation circle.",
+    "file": "styles/vigo_cookbook/blue-bubble-fisheye-action-poster-style.json"
+  },
+  {
+    "slug": "blue-chinese-perspective-type-canyon-style",
+    "name": "Blue Chinese Perspective Type Canyon Style",
+    "summary": "A Chinese typographic poster system built from an extreme one-point perspective corridor: a saturated blue central trapezoid plane carries stacked oversized white Chinese display type, while black side walls are packed with warped white and pale gray Chinese support copy.",
+    "category": "",
+    "file": "styles/vigo_cookbook/blue-chinese-perspective-type-canyon-style.json"
+  },
+  {
+    "slug": "blue-halftone-ransom-zine-poster-style",
+    "name": "Blue Halftone Ransom Zine Poster Style",
+    "summary": "A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy micro captions.",
+    "category": "",
+    "file": "styles/vigo_cookbook/blue-halftone-ransom-zine-poster-style.json"
+  },
+  {
+    "slug": "blue-hud-macro-product-poster",
+    "name": "Blue HUD Macro Creator Tech Poster",
+    "summary": "A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards, and one warm gold performance badge.",
+    "category": "premium 3D creator-tech poster, macro product ad, HUD-heavy social commerce visual",
+    "file": "styles/vigo_cookbook/blue-hud-macro-product-poster.json"
+  },
+  {
+    "slug": "blue-lime-kinetic-comic-type-poster-style",
+    "name": "Blue Lime Kinetic Comic Type Poster Style",
+    "summary": "A loud flat comic-poster system built from electric-blue grid paper, oversized neon-lime speech-panel geometry, heavy black block typography, sharp yellow back plates, radial action marks, and gritty print texture. The style feels like a kinetic street flyer where the headline is the main subject.",
+    "category": "",
+    "file": "styles/vigo_cookbook/blue-lime-kinetic-comic-type-poster-style.json"
+  },
+  {
+    "slug": "bold-anime-reaction-thumbnail-style",
+    "name": "Bold Anime Reaction Thumbnail Style",
+    "summary": "A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean cel-shaded illustration.",
+    "category": "A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean cel-shaded illustration.",
+    "file": "styles/vigo_cookbook/bold-anime-reaction-thumbnail-style.json"
+  },
+  {
+    "slug": "bold-block-mascot-poster-style",
+    "name": "Bold Block Mascot Poster Style",
+    "summary": "A dense flat poster system built from giant black display type, chunky white mascot figures, thick cartoon outlines, tilted cyan or mint color panels, compact badges, tiny red accents, and a clean off-white print surface.",
+    "category": "flat editorial mascot poster, comic-sticker poster system, bold portfolio cover graphic",
+    "file": "styles/vigo_cookbook/bold-block-mascot-poster-style.json"
+  },
+  {
+    "slug": "chromatic-fisheye-orbit-pop-poster-style",
+    "name": "Chromatic Fisheye Orbit Pop Poster Style",
+    "summary": "A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and light analog print texture.",
+    "category": "A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and light analog print texture.",
+    "file": "styles/vigo_cookbook/chromatic-fisheye-orbit-pop-poster-style.json"
+  },
+  {
+    "slug": "clean-triptych-travel-vlog-thumbnail-style",
+    "name": "Clean Triptych Travel Vlog Thumbnail Style",
+    "summary": "A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations, sparse hand-drawn marks, and a soft phone-camera editorial finish.",
+    "category": "A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations, sparse hand-drawn marks, and a soft phone-camera editorial finish.",
+    "file": "styles/vigo_cookbook/clean-triptych-travel-vlog-thumbnail-style.json"
+  },
+  {
+    "slug": "cozy-bedroom-doodle-companion-snapshot-style",
+    "name": "Cozy Bedroom Doodle Companion Snapshot Style",
+    "summary": "A candid low-light home photo style with a large flat 2D cushion-doll companion composited into the lower foreground, creating a quiet late-night creative diary mood with warm room texture, screen glow, and tiny handwritten doodle marks.",
+    "category": "A candid low-light home photo style with a large flat 2D cushion-doll companion composited into the lower foreground, creating a quiet late-night creative diary mood with warm room texture, screen glow, and tiny handwritten doodle marks.",
+    "file": "styles/vigo_cookbook/cozy-bedroom-doodle-companion-snapshot-style.json"
+  },
+  {
+    "slug": "cyan-red-shockwave-type-poster-style",
+    "name": "Cyan Red Shockwave Type Poster Style",
+    "summary": "A flat illustrated poster system built from a saturated cyan field, oversized red block typography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact rotated microcopy. It feels like a loud regional travel poster crossed with manga impact graphics and screenprinted street signage.",
+    "category": "Flat pop poster illustration with techno-manga impact graphics and regional sign-paint typography.",
+    "file": "styles/vigo_cookbook/cyan-red-shockwave-type-poster-style.json"
+  },
+  {
+    "slug": "electric-blue-silhouette-product-launch-style",
+    "name": "Electric Blue Silhouette Product Launch Style",
+    "summary": "A sparse premium consumer-tech launch poster style built from black negative space, a centered product silhouette, electric-blue rim lighting, a glowing horizontal platform, soft reflection, giant cropped blue background typography, and clean white announcement copy.",
+    "category": "minimal dark consumer-electronics launch poster, blue silhouette product teaser, premium social product announcement",
+    "file": "styles/vigo_cookbook/electric-blue-silhouette-product-launch-style.json"
+  },
+  {
+    "slug": "fantasy-scribble-mascot-poster-style",
+    "name": "Fantasy Scribble Mascot Poster Style",
+    "summary": "A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white paper field.",
+    "category": "",
+    "file": "styles/vigo_cookbook/fantasy-scribble-mascot-poster-style.json"
+  },
+  {
+    "slug": "folded-diamond-perspective-type-poster-style",
+    "name": "Folded Diamond Perspective Type Poster Style",
+    "summary": "A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.",
+    "category": "A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.",
+    "file": "styles/vigo_cookbook/folded-diamond-perspective-type-poster-style.json"
+  },
+  {
+    "slug": "folded-newspaper-product-ad-style",
+    "name": "Folded Newspaper Product Ad Style",
+    "summary": "A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.",
+    "category": "folded newspaper advertorial with photorealistic product hero",
+    "file": "styles/vigo_cookbook/folded-newspaper-product-ad-style.json"
+  },
+  {
+    "slug": "gothic-cat-doodle-photo-collage-style",
+    "name": "Gothic Cat Doodle Photo Collage Style",
+    "summary": "A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.",
+    "category": "A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.",
+    "file": "styles/vigo_cookbook/gothic-cat-doodle-photo-collage-style.json"
+  },
+  {
+    "slug": "halftone-assemblage-metaphor-psa-poster-style",
+    "name": "Halftone Assemblage Metaphor PSA Poster Style",
+    "summary": "A sparse retro PSA poster system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper with compact red-and-navy campaign typography.",
+    "category": "retro environmental PSA poster using symbolic object assemblage",
+    "file": "styles/vigo_cookbook/halftone-assemblage-metaphor-psa-poster-style.json"
+  },
+  {
+    "slug": "impact-burst-halftone-comic-poster-style",
+    "name": "Impact Burst Halftone Comic Poster Style",
+    "summary": "A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.",
+    "category": "A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.",
+    "file": "styles/vigo_cookbook/impact-burst-halftone-comic-poster-style.json"
+  },
+  {
+    "slug": "k-pop-apocalypse-ransom-zine-style",
+    "name": "K-Pop Apocalypse Ransom Zine Style",
+    "summary": "A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red accents, and a bold bottom masthead band.",
+    "category": "A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red accents, and a bold bottom masthead band.",
+    "file": "styles/vigo_cookbook/k-pop-apocalypse-ransom-zine-style.json"
+  },
+  {
+    "slug": "kinetic-geometric-doodle-cutouts",
+    "name": "Kinetic Geometric Doodle Cutouts",
+    "summary": "A sparse, playful illustration system where a character or object is assembled from oversized flat geometric color pieces, loose black doodle lines, paper grain, and buoyant off-center motion on a warm cream background.",
+    "category": "",
+    "file": "styles/vigo_cookbook/kinetic-geometric-doodle-cutouts.json"
+  },
+  {
+    "slug": "kinetic-luxury-street-fashion-cover-style",
+    "name": "Kinetic Luxury Street Fashion Cover Style",
+    "summary": "A premium street-fashion magazine cover style built from side-profile walking photography, horizontal motion-blurred architecture, one dominant luxury garment, wind-shaped hair, restrained urban neutrals, and oversized wide-spaced serif cover typography. It preserves the kinetic editorial grammar of the reference while changing the model identity, wardrobe, prop, headline, and story details.",
+    "category": "",
+    "file": "styles/vigo_cookbook/kinetic-luxury-street-fashion-cover-style.json"
+  },
+  {
+    "slug": "luxury-perspective-checkerboard-editorial",
+    "name": "Luxury Perspective Checkerboard Editorial",
+    "summary": "A high-fashion editorial poster style with low-angle luxury photography, sharp red-and-white checkerboard perspective planes, generous white space, oversized custom script typography, and restrained emerald or teal accents. It evokes international luxury maison advertising without copying any real brand mark, campaign, model, product, or exact layout.",
+    "category": "",
+    "file": "styles/vigo_cookbook/luxury-perspective-checkerboard-editorial.json"
+  },
+  {
+    "slug": "market-brush-produce-poster-style",
+    "name": "Market Brush Produce Poster Style",
+    "summary": "A sparse fresh-market poster system with a warm ivory paper field, one oversized glossy produce hero, a smaller echo product, violent black hand-cut brush typography, thin editorial header text, and tiny bottom seal-like captions.",
+    "category": "",
+    "file": "styles/vigo_cookbook/market-brush-produce-poster-style.json"
+  },
+  {
+    "slug": "metro-doodle-snapshot-diary-style",
+    "name": "Metro Doodle Snapshot Diary",
+    "summary": "A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays.",
+    "category": "A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays.",
+    "file": "styles/vigo_cookbook/metro-doodle-snapshot-diary-style.json"
+  },
+  {
+    "slug": "mono-noir-type-portrait-poster-style",
+    "name": "Mono Noir Type Portrait Poster Style",
+    "summary": "A stark black-and-white editorial poster system pairing a close, high-contrast photographic portrait with oversized lowercase neo-grotesk typography. One headline word is reversed into a clean white rectangular label while the remaining words sit as heavy white type over a charcoal background.",
+    "category": "",
+    "file": "styles/vigo_cookbook/mono-noir-type-portrait-poster-style.json"
+  },
+  {
+    "slug": "mountain-trail-monster-doodle-poster-style",
+    "name": "Mountain Trail Monster Doodle Poster Style",
+    "summary": "A candid outdoor hiking photograph remixed with a flat hand-drawn monster companion, oversized Spanish comic lettering, and loose sketch annotations, creating a playful adventure-poster collage.",
+    "category": "A candid outdoor hiking photograph remixed with a flat hand-drawn monster companion, oversized Spanish comic lettering, and loose sketch annotations, creating a playful adventure-poster collage.",
+    "file": "styles/vigo_cookbook/mountain-trail-monster-doodle-poster-style.json"
+  },
+  {
+    "slug": "multi-color-beverage-splash-ad-system-style",
+    "name": "Multi-Color Beverage Splash Ad System Style",
+    "summary": "A reusable beverage launch advertising system with four color-varied templates, built from giant white 3D typography, a diagonal hero drink pack, frozen liquid motion, dense launch-ad copy, and polished commercial product lighting.",
+    "category": "",
+    "file": "styles/vigo_cookbook/multi-color-beverage-splash-ad-system-style.json"
+  },
+  {
+    "slug": "naive-marker-quote-card-style",
+    "name": "Naive Marker Quote Card Style",
+    "summary": "A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag rendered as flat naive illustration.",
+    "category": "Naive hand-marker absurdist poster illustration.",
+    "file": "styles/vigo_cookbook/naive-marker-quote-card-style.json"
+  },
+  {
+    "slug": "neon-doodle-gallery-snapshot-style",
+    "name": "Neon Doodle Gallery Snapshot",
+    "summary": "A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.",
+    "category": "A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.",
+    "file": "styles/vigo_cookbook/neon-doodle-gallery-snapshot-style.json"
+  },
+  {
+    "slug": "neon-kinetic-typographic-poster-style",
+    "name": "Neon Kinetic Typographic Poster",
+    "summary": "A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.",
+    "category": "A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.",
+    "file": "styles/vigo_cookbook/neon-kinetic-typographic-poster-style.json"
+  },
+  {
+    "slug": "neon-outdoor-diary-longform-collage-style",
+    "name": "Neon Outdoor Diary Longform Collage Style",
+    "summary": "A tall mobile-first outdoor diary poster system with a charcoal black canvas, documentary action-photo cutouts, acid green kinetic headlines, ripped paper panels, hand-drawn arrows, sticker labels, numbered sections, and dense social-note pacing.",
+    "category": "",
+    "file": "styles/vigo_cookbook/neon-outdoor-diary-longform-collage-style.json"
+  },
+  {
+    "slug": "neon-plush-gadget-pop-3d-style",
+    "name": "Neon Plush Gadget Pop 3D Style",
+    "summary": "A glossy toy-advertising 3D style built from acid lime studio backdrops, oversized fuzzy plush mascots, chunky tech props, soft textile surfaces, translucent plastic accessories, checkerboard cards, sticker-like icons, hot-pink burst graphics, and bright commercial lighting.",
+    "category": "",
+    "file": "styles/vigo_cookbook/neon-plush-gadget-pop-3d-style.json"
+  },
+  {
+    "slug": "olive-scribble-sports-poster-style",
+    "name": "Olive Scribble Sports Poster Style",
+    "summary": "A kinetic flat editorial illustration style built from off-white paper, large olive-green poster blocks, oversized action figures, rough black ink contours, red marker motion arcs, yellow-green dry-brush swaths, sparse debris, and handmade screenprint texture.",
+    "category": "",
+    "file": "styles/vigo_cookbook/olive-scribble-sports-poster-style.json"
+  },
+  {
+    "slug": "photo-illustration-overlay-poster-style",
+    "name": "Photo Illustration Overlay Poster",
+    "summary": "A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.",
+    "category": "A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.",
+    "file": "styles/vigo_cookbook/photo-illustration-overlay-poster-style.json"
+  },
+  {
+    "slug": "playful-marker-grounding-poster-style",
+    "name": "Playful Marker Grounding Poster Style",
+    "summary": "A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with clear public-service poster hierarchy.",
+    "category": "naive marker poster illustration with public-service announcement hierarchy",
+    "file": "styles/vigo_cookbook/playful-marker-grounding-poster-style.json"
+  },
+  {
+    "slug": "playful-mascot-doodle-snapshot-style",
+    "name": "Playful Mascot Doodle Snapshot Style",
+    "summary": "A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.",
+    "category": "A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.",
+    "file": "styles/vigo_cookbook/playful-mascot-doodle-snapshot-style.json"
+  },
+  {
+    "slug": "plush-city-festival-mobile-poster-style",
+    "name": "Plush City Festival Mobile Poster",
+    "summary": "A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.",
+    "category": "A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.",
+    "file": "styles/vigo_cookbook/plush-city-festival-mobile-poster-style.json"
+  },
+  {
+    "slug": "plush-comic-toy-product-poster-style",
+    "name": "Plush Comic Toy Product Poster Style",
+    "summary": "A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.",
+    "category": "A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.",
+    "file": "styles/vigo_cookbook/plush-comic-toy-product-poster-style.json"
+  },
+  {
+    "slug": "pop-bubble-letter-photo-poster-style",
+    "name": "Pop Bubble Letter Photo Poster Style",
+    "summary": "A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks.",
+    "category": "A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks.",
+    "file": "styles/vigo_cookbook/pop-bubble-letter-photo-poster-style.json"
+  },
+  {
+    "slug": "quiet-luxury-furniture-nameplate-poster-style",
+    "name": "Quiet Luxury Furniture Nameplate Poster Style",
+    "summary": "A premium furniture editorial poster system with a warm off-white studio field, oversized deep forest-green display typography behind one realistic hero furniture object, sparse catalog microcopy, thin rules, outlined catalog chips, and a dark green rounded bottom information bar.",
+    "category": "Luxury furniture catalog poster with product photography and restrained graphic design.",
+    "file": "styles/vigo_cookbook/quiet-luxury-furniture-nameplate-poster-style.json"
+  },
+  {
+    "slug": "rough-animation-pet-sketch-storyboard-style",
+    "name": "Rough Animation Pet Sketch Storyboard Style",
+    "summary": "A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple room props, and exaggerated animal expressions.",
+    "category": "A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple room props, and exaggerated animal expressions.",
+    "file": "styles/vigo_cookbook/rough-animation-pet-sketch-storyboard-style.json"
+  },
+  {
+    "slug": "rough-ink-music-doodle-poster-style",
+    "name": "Rough Ink Music Doodle Poster Style",
+    "summary": "A rough hand-inked poster style built from oversized dark green-black brush lettering, pale blush paper, hot pink secondary type, naive mascot drawings, teal and pink flat fills, sharp yellow burst marks, scattered music-note doodles, and scanned risograph-like print texture.",
+    "category": "",
+    "file": "styles/vigo_cookbook/rough-ink-music-doodle-poster-style.json"
+  },
+  {
+    "slug": "rough-marker-monster-poster-style",
+    "name": "Rough Marker Monster Poster Style",
+    "summary": "A naive children's poster system built from thick black marker outlines, rough crayon-pastel color fills, cream paper grain, oversized goofy creature forms, and chunky hand-lettered black text.",
+    "category": "",
+    "file": "styles/vigo_cookbook/rough-marker-monster-poster-style.json"
+  },
+  {
+    "slug": "school-grid-paper-cutout-poster",
+    "name": "School Grid Paper Cutout Poster",
+    "summary": "A sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical notebook writing, and one large centered torn-paper collage object photographed with shallow real-paper shadows.",
+    "category": "",
+    "file": "styles/vigo_cookbook/school-grid-paper-cutout-poster.json"
+  },
+  {
+    "slug": "sky-blue-home-life-doodle-poster-style",
+    "name": "Sky Blue Home Life Doodle Poster Style",
+    "summary": "A naive flat poster system with a full sky-blue field, a rough house-shaped white inset, giant uneven black hand-lettering, small badge labels, and simple thick-outlined cartoon home-life scenes drawn like marker doodles.",
+    "category": "",
+    "file": "styles/vigo_cookbook/sky-blue-home-life-doodle-poster-style.json"
+  },
+  {
+    "slug": "soft-analog-future-editorial-poster-style",
+    "name": "Soft Analog Future Editorial Poster",
+    "summary": "A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.",
+    "category": "A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.",
+    "file": "styles/vigo_cookbook/soft-analog-future-editorial-poster-style.json"
+  },
+  {
+    "slug": "subway-doodle-photo-hybrid-style",
+    "name": "Subway Doodle Photo Hybrid",
+    "summary": "A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.",
+    "category": "A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.",
+    "file": "styles/vigo_cookbook/subway-doodle-photo-hybrid-style.json"
+  },
+  {
+    "slug": "sunburst-fisheye-bubble-type-poster-style",
+    "name": "Sunburst Fisheye Bubble Type Poster Style",
+    "summary": "An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.",
+    "category": "An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.",
+    "file": "styles/vigo_cookbook/sunburst-fisheye-bubble-type-poster-style.json"
+  },
+  {
+    "slug": "sunlit-architectural-fashion-editorial",
+    "name": "Sunlit Architectural Fashion Editorial",
+    "summary": "A polished outdoor high-fashion editorial photography style built from low-angle architectural framing, hard Mediterranean daylight, warm stone neutrals, elongated model silhouettes, restrained luxury styling, and fine graphic lines from wires, railings, shadows, or facade geometry. It recreates the premium fashion-campaign feeling without copying the original models, wardrobe, plaza, prop placement, or poses.",
+    "category": "",
+    "file": "styles/vigo_cookbook/sunlit-architectural-fashion-editorial.json"
+  },
+  {
+    "slug": "sunlit-supermodel-nameplate-editorial",
+    "name": "Sunlit Supermodel Nameplate Editorial",
+    "summary": "A warm analog fashion editorial poster style combining an outdoor supermodel photograph, lush foreground texture, a small material nameplate detail, and clean white lower-third title/caption typography.",
+    "category": "",
+    "file": "styles/vigo_cookbook/sunlit-supermodel-nameplate-editorial.json"
+  },
+  {
+    "slug": "sunny-3d-avatar-campaign-style",
+    "name": "Sunny 3D Avatar Campaign Style",
+    "summary": "A bright social campaign poster style built from glossy toy-like 3D avatars, saturated blue-sky outdoor lighting, exaggerated wide-angle perspective, oversized slanted headline typography, and neon hand-drawn motion marks.",
+    "category": "",
+    "file": "styles/vigo_cookbook/sunny-3d-avatar-campaign-style.json"
+  },
+  {
+    "slug": "surreal-fish-doodle-landmark-photo-collage-style",
+    "name": "Surreal Fish Doodle Landmark Photo Collage Style",
+    "summary": "A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts onto realistic landmark photography.",
+    "category": "A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts onto realistic landmark photography.",
+    "file": "styles/vigo_cookbook/surreal-fish-doodle-landmark-photo-collage-style.json"
+  },
+  {
+    "slug": "teenage-skate-scribble-screenprint-poster-style",
+    "name": "Teenage Skate Scribble Screenprint Poster Style",
+    "summary": "A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre palette.",
+    "category": "A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre palette.",
+    "file": "styles/vigo_cookbook/teenage-skate-scribble-screenprint-poster-style.json"
+  },
+  {
+    "slug": "tokyo-kawaii-travel-collage-poster-style",
+    "name": "Tokyo Kawaii Travel Collage Poster",
+    "summary": "A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout.",
+    "category": "A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout.",
+    "file": "styles/vigo_cookbook/tokyo-kawaii-travel-collage-poster-style.json"
+  },
+  {
+    "slug": "tri-color-hardcut-portrait-poster-style",
+    "name": "Tri Color Hardcut Portrait Poster Style",
+    "summary": "A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts.",
+    "category": "A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts.",
+    "file": "styles/vigo_cookbook/tri-color-hardcut-portrait-poster-style.json"
+  },
+  {
+    "slug": "turquoise-red-techno-manga-poster-style",
+    "name": "Turquoise Red Techno Manga Poster Style",
+    "summary": "A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure drawing, and slightly faded printed texture.",
+    "category": "A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure drawing, and slightly faded printed texture.",
+    "file": "styles/vigo_cookbook/turquoise-red-techno-manga-poster-style.json"
+  },
+  {
+    "slug": "urban-transit-doodle-diary-style",
+    "name": "Urban Transit Doodle Diary Style",
+    "summary": "A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.",
+    "category": "A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.",
+    "file": "styles/vigo_cookbook/urban-transit-doodle-diary-style.json"
+  },
+  {
+    "slug": "warm-fisheye-product-impact-ad-style",
+    "name": "Warm Fisheye Product Impact Ad Style",
+    "summary": "A high-impact product advertising style built from ultra-wide close-up photography, a tunnel of textured foreground pieces, oversized angled white Chinese display type, warm amber-brown contrast, tiny top navigation labels, product-pack callouts, and compressed social-banner density. It feels like a loud commercial thumbnail shot from inside a pile of snack-like objects, with the product and subject rushing toward the viewer.",
+    "category": "",
+    "file": "styles/vigo_cookbook/warm-fisheye-product-impact-ad-style.json"
+  },
+  {
+    "slug": "y2k-grunge-hiphop-cutout-poster-style",
+    "name": "Y2K Grunge Hip-Hop Cutout Poster Style",
+    "summary": "A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.",
+    "category": "A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.",
+    "file": "styles/vigo_cookbook/y2k-grunge-hiphop-cutout-poster-style.json"
+  },
+  {
+    "slug": "y2k-mirror-ui-scribble-collage-style",
+    "name": "Y2K Mirror UI Scribble Collage Style",
+    "summary": "A gritty Y2K photomontage style that combines wide-angle flash photography, floating desktop-like interface fragments, thick electric-blue marker outlines, hand-drawn graffiti lettering, and dense analog noise into a chaotic personal-screen collage.",
+    "category": "",
+    "file": "styles/vigo_cookbook/y2k-mirror-ui-scribble-collage-style.json"
+  },
+  {
+    "slug": "yellow-black-manga-food-zine-ad-style",
+    "name": "Yellow Black Manga Food Zine Ad Style",
+    "summary": "A dense Japanese-manga-inspired food and product zine advertisement style with black ink linework, yellow advertising blocks, cream paper fields, dramatic cropped character panels, glossy illustrated hero objects, giant warped display typography, small Chinese editorial copy, and rough print texture.",
+    "category": "",
+    "file": "styles/vigo_cookbook/yellow-black-manga-food-zine-ad-style.json"
+  }
+]

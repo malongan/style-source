@@ -1,0 +1,23 @@
+# .github/workflows/on-push-styles.yml
+name: PR 格式检查
+
+on:
+  pull_request:
+    paths: ['styles/**']
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 格式验证
+        run: python3 scripts/validate_all.py
+
+      - name: 查重检测
+        run: python3 scripts/check_duplicate.py --pr-mode
+        env:
+          GIT_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+
+      - name: 配图 URL 可达性验证
+        run: python3 scripts/validate_all.py --check-images

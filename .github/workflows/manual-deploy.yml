@@ -1,0 +1,27 @@
+# .github/workflows/manual-deploy.yml
+name: 手动部署 gallery
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: '部署原因'
+        required: true
+        default: '日常更新'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 生成最新数据
+        run: python3 scripts/generate_data.py
+
+      - name: 本地构建 gallery.html（内联 CSS/JS）
+        run: python3 scripts/build_gallery.py
+
+      - name: 部署到 style-gallery 仓库
+        run: python3 scripts/deploy_gallery.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GALLERY_DEPLOY_TOKEN }}
