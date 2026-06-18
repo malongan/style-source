@@ -45,7 +45,7 @@ C4D风格，3D膨胀的花朵与毛绒质感的花草，色彩对比强烈又柔
 
 ## 参考配图
 
-![膨胀花朵3D示例](https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_4ec8b07e.jpg)
+![膨胀花朵3D示例](https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.jpg)
 
 ---
 
