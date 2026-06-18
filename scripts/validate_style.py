@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """校验风格 .md 文件格式规范。"""
+import argparse
 import os
 import re
 import sys
