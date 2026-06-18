@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 风格画廊 vb8a3f39-dirty</title>
+<title>AI 风格画廊 vv0.1.0-dirty</title>
 <style>
 /* ★ 样式内联 — 来自 gallery/src/gallery.css */
 /* ==================== 主题变量 ==================== */
@@ -770,7 +770,7 @@ body {
     <!-- Header -->
     <header class="header">
       <div class="header-left">
-        <h1 class="header-title">AI 风格库<span class="header-update">· 最后更新：b8a3f39-dirty</span></h1>
+        <h1 class="header-title">AI 风格库<span class="header-update">· 最后更新：v0.1.0-dirty</span></h1>
         <span class="header-author">by malongan</span>
       </div>
       <div class="header-right">
@@ -2598,7 +2598,7 @@ function renderGallery(data) {
 /** 从 JSON 或回退数据渲染 */
 async function loadGallery() {
   try {
-    const resp = await fetch('https://cdn.jsdelivr.net/gh/malongan/style-source@main/data/styles.json?t=' + Date.now());
+    const resp = await fetch('https://cdn.jsdelivr.net/gh/malongan/style-source@v0.1.0/data/styles.json?t=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
     renderGallery(data);
