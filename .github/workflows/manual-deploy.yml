@@ -1,32 +1,32 @@
 # .github/workflows/manual-deploy.yml
-name: 手动部署 gallery
+name: 手动验证部署一致性
 
 on:
   workflow_dispatch:
     inputs:
       reason:
-        description: '部署原因'
+        description: '触发原因'
         required: true
-        default: '日常更新'
+        default: '日常验证'
 
 jobs:
-  deploy:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: 生成最新数据
-        run: python3 scripts/generate_data.py
+      - name: 验证所有风格文件
+        run: python3 scripts/validate_all.py
 
-      - name: 构建 gallery.html（内联 CSS/JS）
-        run: python3 scripts/build_gallery.py
-
-      - name: 提交到仓库并触发 Pages
+      - name: 验证生成文件一致性
         run: |
-          git config user.name "style-source-bot"
-          git config user.email "bot@style-source"
-          git add data/ gallery.html gallery/src/
-          git diff --cached --quiet || git commit -m "chore: manual deploy gallery [skip ci]"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          python3 scripts/generate_data.py
+          python3 scripts/build_gallery.py
+          git diff --name-only --exit-code data/styles.json gallery.html || {
+            echo '❌ 生成文件过期！请在本地运行：'
+            echo '   python3 scripts/generate_data.py && python3 scripts/build_gallery.py'
+            echo '   git add data/styles.json gallery.html'
+            echo '   git commit -m "chore: update data/styles.json and gallery.html"'
+            exit 1
+          }
+          echo "✅ 生成文件一致，可部署"

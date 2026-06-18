@@ -1,5 +1,5 @@
 # .github/workflows/on-merge-main.yml
-name: 合并后自动化
+name: 合并后验证
 
 on:
   pull_request:
@@ -7,44 +7,27 @@ on:
     branches: [main]
     paths: ['styles/**']
 
-permissions:
-  contents: write
-
 jobs:
-  validate-and-generate:
+  validate:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          persist-credentials: false
           ref: main
 
       - name: 验证所有风格文件
         run: python3 scripts/validate_all.py
 
-      - name: 检测新增文件并追加 _collection_log.md
-        run: python3 scripts/update_collection_log.py
-        env:
-          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
-          GIT_BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          GIT_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-
-      - name: 生成 data/styles.json
-        run: python3 scripts/generate_data.py
-
-      - name: 生成 _index.md
-        run: python3 scripts/generate_index.py
-
-      - name: 构建 gallery.html（内联 CSS/JS）
-        run: python3 scripts/build_gallery.py
-
-      - name: 提交自动生成的文件
+      - name: 验证生成文件一致性
         run: |
-          git config user.name "style-source-bot"
-          git config user.email "bot@style-source"
-          git add data/ styles/_index.md */_index.md styles/_collection_log.md gallery.html gallery/src/
-          git diff --cached --quiet || git commit -m "chore: auto-generate data, index, gallery [skip ci]"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          python3 scripts/generate_data.py
+          python3 scripts/build_gallery.py
+          git diff --name-only --exit-code data/styles.json gallery.html || {
+            echo '❌ 生成文件过期！请在 PR 分支运行以下命令并重新提交：'
+            echo '   python3 scripts/generate_data.py && python3 scripts/build_gallery.py'
+            echo '   git add data/styles.json gallery.html'
+            echo '   git commit -m "chore: update data/styles.json and gallery.html"'
+            exit 1
+          }
+          echo "✅ 生成文件一致"
