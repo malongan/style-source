@@ -27,6 +27,7 @@ def build_fallback_data(all_styles: list) -> dict:
         "meta": {"version": "v0.0.0", "total": len(all_styles), "fallback_count": len(sorted_styles)},
         "styles": [{
             "id": s.get("id"),
+            "code": s.get("code", ""),
             "name": s.get("name"),
             "category": s.get("category"),
             "preview_urls": s.get("preview_urls", []),
@@ -84,7 +85,7 @@ def build_gallery_html(data: dict, output_path: str):
             "  window.init = init;\n})();"
         )
 
-    # 预生成风格数据的 JS 数组（用于 renderGallery）
+    # 预生成风格数据的 JS 数组（用于 renderGallery）—— 不再使用，数据从 CDN 加载
     styles_js = []
     for s in styles:
         preview_urls = s.get('preview_urls', [])
@@ -93,6 +94,7 @@ def build_gallery_html(data: dict, output_path: str):
         features = s.get('features', [])
         styles_js.append('{')
         styles_js.append(f"  id: '{js_str(s.get('id', ''))}',")
+        styles_js.append(f"  code: '{js_str(s.get('code', ''))}',")
         styles_js.append(f"  name: '{js_str(s.get('name', ''))}',")
         styles_js.append(f"  category: '{js_str(s.get('category', ''))}',")
         styles_js.append(f"  imgUrl: '{js_str(img_url)}',")
@@ -240,17 +242,18 @@ function buildCardHTML(s) {{
   }}
 
   return '<div class="style-card" data-id="' + s.id + '"' +
+    ' data-code="' + (s.code || '') + '"' +
     ' data-summary="' + summary.replace(/"/g,'&quot;') + '"' +
     ' data-features="' + features.replace(/"/g,'&quot;') + '"' +
     ' data-triggers="' + triggers.replace(/"/g,'&quot;') + '"' +
     ' data-tags="' + tags + '"' +
-    ' data-number="' + (s.number || s.id || '') + '"' +
+    ' data-number="' + (s.code || s.number || s.id || '') + '"' +
     ' data-category="' + s.category + '">' +
     '<img src="' + imgUrl + '" alt="' + s.name + '" class="card-image" loading="lazy"' +
     ' onerror="this.parentElement.innerHTML=window.__FALLBACK_IMG__">' +
     '<div class="card-content">' +
       '<div class="card-title-row">' +
-        '<span class="card-number">#' + (s.number || s.id || '') + '</span>' +
+        '<span class="card-number">' + (s.code ? '#' + s.code : '#' + (s.number || s.id || '')) + '</span>' +
         '<h3 class="card-title">' + s.name + '</h3>' +
       '</div>' +
       '<div class="card-footer">' +

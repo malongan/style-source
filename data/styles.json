@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.1.0-dirty",
+    "version": "v0.1.0-1-ge69cbe3-dirty",
     "total": 129,
-    "updated_at": "2026-06-18T02:52:54Z",
+    "updated_at": "2026-06-18T03:00:58Z",
     "categories": {
       "brand_kv": {
         "count": 15,
@@ -85,7 +85,8 @@
       ],
       "variables": {},
       "source_author": "AdrianPunk115",
-      "source_url": "https://x.com/AdrianPunk115/status/2064944838035022034"
+      "source_url": "https://x.com/AdrianPunk115/status/2064944838035022034",
+      "code": "ST000001"
     },
     {
       "id": "cyberpunk_halftone_poster",
@@ -114,7 +115,8 @@
       "preview_urls": [],
       "variables": {},
       "source_author": "💋💋💋 🅻🅸🅽🅳🅰",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7591914980476276006"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7591914980476276006",
+      "code": "ST000002"
     },
     {
       "id": "diffuse_poster",
@@ -141,7 +143,8 @@
       ],
       "variables": {},
       "source_author": "AdrianPunk115",
-      "source_url": "https://x.com/i/status/2064148554940391764"
+      "source_url": "https://x.com/i/status/2064148554940391764",
+      "code": "ST000003"
     },
     {
       "id": "digital_soul_poster",
@@ -169,7 +172,8 @@
       "preview_urls": [],
       "variables": {},
       "source_author": "用户4818385606662",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7573909671774391598"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7573909671774391598",
+      "code": "ST000004"
     },
     {
       "id": "fashion_editorial_visual",
@@ -198,7 +202,8 @@
       ],
       "variables": {},
       "source_author": "MrLarus",
-      "source_url": "https://x.com/MrLarus/status/2064661407501619625"
+      "source_url": "https://x.com/MrLarus/status/2064661407501619625",
+      "code": "ST000005"
     },
     {
       "id": "futuristic_collage_portrait",
@@ -228,7 +233,8 @@
       ],
       "variables": {},
       "source_author": "HustleXR",
-      "source_url": "https://x.com/HustleXR/status/2064595994013303063"
+      "source_url": "https://x.com/HustleXR/status/2064595994013303063",
+      "code": "ST000006"
     },
     {
       "id": "halftone_assemblage_psa_poster",
@@ -257,7 +263,8 @@
       ],
       "variables": {},
       "source_author": "VigoCreativeAI",
-      "source_url": "https://x.com/VigoCreativeAI/status/2064672481009435074"
+      "source_url": "https://x.com/VigoCreativeAI/status/2064672481009435074",
+      "code": "ST000007"
     },
     {
       "id": "inkline_couture",
@@ -285,7 +292,8 @@
       ],
       "variables": {},
       "source_author": "MrLarus",
-      "source_url": "https://x.com/MrLarus/status/2062077407352291518"
+      "source_url": "https://x.com/MrLarus/status/2062077407352291518",
+      "code": "ST000008"
     },
     {
       "id": "jimeng_kasho_allstars",
@@ -315,7 +323,8 @@
       ],
       "variables": {},
       "source_author": "Ai绘画师",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7636922574777175323"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7636922574777175323",
+      "code": "ST000009"
     },
     {
       "id": "luxury_beauty_side_profile_poster",
@@ -348,7 +357,8 @@
       ],
       "variables": {},
       "source_author": "MrLarus",
-      "source_url": "https://x.com/MrLarus/status/2066188366480118027"
+      "source_url": "https://x.com/MrLarus/status/2066188366480118027",
+      "code": "ST000010"
     },
     {
       "id": "perfume_kv",
@@ -376,7 +386,8 @@
       "preview_urls": [],
       "variables": {},
       "source_author": "MrLarus",
-      "source_url": "https://x.com/MrLarus/status/2065718671477977180"
+      "source_url": "https://x.com/MrLarus/status/2065718671477977180",
+      "code": "ST000011"
     },
     {
       "id": "street_3d_maximalist",
@@ -405,7 +416,8 @@
       "preview_urls": [],
       "variables": {},
       "source_author": "小越艺术",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7582907054226935091"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7582907054226935091",
+      "code": "ST000012"
     },
     {
       "id": "streetwear_lab",
@@ -432,7 +444,8 @@
       ],
       "variables": {},
       "source_author": "VigoCreativeAI",
-      "source_url": "https://x.com/VigoCreativeAI/status/2060377807688241332"
+      "source_url": "https://x.com/VigoCreativeAI/status/2060377807688241332",
+      "code": "ST000013"
     },
     {
       "id": "sunlit_kinetic_block_type_poster",
@@ -461,7 +474,8 @@
       ],
       "variables": {},
       "source_author": "VigoCreativeAI",
-      "source_url": "https://x.com/VigoCreativeAI/status/2066031131674259640"
+      "source_url": "https://x.com/VigoCreativeAI/status/2066031131674259640",
+      "code": "ST000014"
     },
     {
       "id": "urban_collage_poster",
@@ -490,7 +504,8 @@
       "preview_urls": [],
       "variables": {},
       "source_author": "文野Bot",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7549133563254328616"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7549133563254328616",
+      "code": "ST000015"
     },
     {
       "id": "dark_chinese_fantasy_illustration",
@@ -516,7 +531,8 @@
       "preview_urls": [],
       "variables": {},
       "source_author": "白晚萌萌滴",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7646196547226504499"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7646196547226504499",
+      "code": "ST000016"
     },
     {
       "id": "demon_wukong_line_art",
@@ -545,7 +561,8 @@
       ],
       "variables": {},
       "source_author": "韩啸（即梦）",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7651882653125332274"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7651882653125332274",
+      "code": "ST000017"
     },
     {
       "id": "east_asian_vintage_illustration",
@@ -574,7 +591,8 @@
       ],
       "variables": {},
       "source_author": "only01clair",
-      "source_url": "https://x.com/only01clair/status/2064670555878596832?s=20"
+      "source_url": "https://x.com/only01clair/status/2064670555878596832?s=20",
+      "code": "ST000018"
     },
     {
       "id": "east_asian_vintage_magazine",
@@ -606,7 +624,8 @@
       ],
       "variables": {},
       "source_author": "only01clair",
-      "source_url": "https://x.com/only01clair/status/2064670555878596832?s=20"
+      "source_url": "https://x.com/only01clair/status/2064670555878596832?s=20",
+      "code": "ST000019"
     },
     {
       "id": "futuristic_spring_kv",
@@ -636,7 +655,8 @@
       ],
       "variables": {},
       "source_author": "会唱歌de萝卜丝（即梦）",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7623739698048945459?workDetailType=Image&itemType=9"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7623739698048945459?workDetailType=Image&itemType=9",
+      "code": "ST000020"
     },
     {
       "id": "geek_code_poster",
@@ -663,7 +683,8 @@
       "preview_urls": [],
       "variables": {},
       "source_author": "一笔绘✏️",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7646229041049013531"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7646229041049013531",
+      "code": "ST000021"
     },
     {
       "id": "glass_flower_spring_diary",
@@ -694,7 +715,8 @@
       ],
       "variables": {},
       "source_author": "悦（即梦）",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7616607728072461594?workDetailType=Image&itemType=9"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7616607728072461594?workDetailType=Image&itemType=9",
+      "code": "ST000022"
     },
     {
       "id": "kimjunggi_scifi_sketch",
@@ -726,7 +748,8 @@
       ],
       "variables": {},
       "source_author": "如-Ru（即梦）",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7621024486871125274?workDetailType=Image&itemType=9"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7621024486871125274?workDetailType=Image&itemType=9",
+      "code": "ST000023"
     },
     {
       "id": "object_illustration_combo",
@@ -755,7 +778,8 @@
       ],
       "variables": {},
       "source_author": "ShamsAmin56",
-      "source_url": "https://x.com/ShamsAmin56/status/2061689192661307402"
+      "source_url": "https://x.com/ShamsAmin56/status/2061689192661307402",
+      "code": "ST000024"
     },
     {
       "id": "playful_avantgarde_poster",
@@ -784,7 +808,8 @@
       ],
       "variables": {},
       "source_author": "七七吖（即梦）",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7642149031103270170?workDetailType=Image&itemType=9"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7642149031103270170?workDetailType=Image&itemType=9",
+      "code": "ST000025"
     },
     {
       "id": "retro_future_scifi_poster",
@@ -817,15 +842,15 @@
       ],
       "variables": {},
       "source_author": "一笔绘✏️（即梦）",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7624349671061802267?workDetailType=Image&itemType=9"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7624349671061802267?workDetailType=Image&itemType=9",
+      "code": "ST000026"
     },
     {
       "id": "scribble_poster_style",
       "name": "Scribble Poster Style",
       "category": "creative",
       "tags": [
-        "VigoCookbook",
-        "A#retro#skate#zine#poster#style#with#a#distorted#central#skateboarder#cutout,#cream#paper#field,#loose#red#hand-lettered#border#typography,#rough#duotone#screen-print#texture,#and#a#limited#navy-gray-green-ochre#palette."
+        "VigoCookbook"
       ],
       "scene": "A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre palette.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -842,7 +867,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000027"
     },
     {
       "id": "soft_clay_camping_kv",
@@ -873,7 +899,8 @@
       ],
       "variables": {},
       "source_author": "来佬野-AIGC（即梦）",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7647430982500453641?workDetailType=Image&itemType=9"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7647430982500453641?workDetailType=Image&itemType=9",
+      "code": "ST000028"
     },
     {
       "id": "soft_clay_macaron_poster",
@@ -901,15 +928,15 @@
       ],
       "variables": {},
       "source_author": "来佬野- AIGC",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7647430982500453641?workDetailType=Image&itemType=9"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7647430982500453641?workDetailType=Image&itemType=9",
+      "code": "ST000029"
     },
     {
       "id": "style_halftone_poster",
       "name": "Style Halftone Poster",
       "category": "creative",
       "tags": [
-        "VigoCookbook",
-        "retro#environmental#PSA#poster#using#symbolic#object#assemblage"
+        "VigoCookbook"
       ],
       "scene": "A sparse retro PSA poster system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper with compact red-and-navy campaign typography.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -926,15 +953,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000030"
     },
     {
       "id": "style_poster",
       "name": "Style Poster",
       "category": "creative",
       "tags": [
-        "VigoCookbook",
-        "A#bold#minimalist#editorial#poster#style#using#low-angle#hero#photography#inside#a#diamond#aperture,#folded#tan#paper#or#canvas#planes,#and#oversized#white#perspective#typography#printed#across#the#lower#surface."
+        "VigoCookbook"
       ],
       "scene": "A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -951,7 +978,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000031"
     },
     {
       "id": "takeshi_camping_poster",
@@ -982,7 +1010,8 @@
       ],
       "variables": {},
       "source_author": "LeeJiasi（即梦）",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7635342335886363930?workDetailType=Image&itemType=9"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7635342335886363930?workDetailType=Image&itemType=9",
+      "code": "ST000032"
     },
     {
       "id": "beverage_style",
@@ -1007,7 +1036,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000033"
     },
     {
       "id": "brand_miniature_architecture",
@@ -1038,7 +1068,8 @@
       ],
       "variables": {},
       "source_author": "PixuryAI",
-      "source_url": "https://x.com/PixuryAI/status/2064892529997414815"
+      "source_url": "https://x.com/PixuryAI/status/2064892529997414815",
+      "code": "ST000034"
     },
     {
       "id": "jade_glyph_grocer_collage",
@@ -1070,7 +1101,8 @@
       ],
       "variables": {},
       "source_author": "VigoCreativeAI",
-      "source_url": "https://x.com/VigoCreativeAI/status/2065013983476597187"
+      "source_url": "https://x.com/VigoCreativeAI/status/2065013983476597187",
+      "code": "ST000035"
     },
     {
       "id": "luxury_birthday_poster",
@@ -1102,7 +1134,8 @@
       ],
       "variables": {},
       "source_author": "MissDelulu9",
-      "source_url": "https://x.com/MissDelulu9/status/2064903441806450903"
+      "source_url": "https://x.com/MissDelulu9/status/2064903441806450903",
+      "code": "ST000036"
     },
     {
       "id": "luxury_product",
@@ -1129,7 +1162,8 @@
       ],
       "variables": {},
       "source_author": "VigoCreativeAI",
-      "source_url": "https://x.com/VigoCreativeAI/status/2060643771998720207"
+      "source_url": "https://x.com/VigoCreativeAI/status/2060643771998720207",
+      "code": "ST000037"
     },
     {
       "id": "realistic_photo",
@@ -1156,7 +1190,8 @@
       ],
       "variables": {},
       "source_author": "内部模板",
-      "source_url": "-"
+      "source_url": "-",
+      "code": "ST000038"
     },
     {
       "id": "retro_drink_ad",
@@ -1185,15 +1220,15 @@
       ],
       "variables": {},
       "source_author": "xiaoxiaodong01",
-      "source_url": "https://x.com/xiaoxiaodong01/status/2064000945458217220"
+      "source_url": "https://x.com/xiaoxiaodong01/status/2064000945458217220",
+      "code": "ST000039"
     },
     {
       "id": "style_product",
       "name": "Style Product",
       "category": "e-commerce",
       "tags": [
-        "VigoCookbook",
-        "minimal#dark#consumer-electronics#launch#poster,#blue#silhouette#product#teaser,#premium#social#product#announcement"
+        "VigoCookbook"
       ],
       "scene": "A sparse premium consumer-tech launch poster style built from black negative space, a centered product silhouette, electric-blue rim lighting, a glowing horizontal platform, soft reflection, giant cropped blue background typography, and clean white announcement copy.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -1210,7 +1245,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000040"
     },
     {
       "id": "editorial",
@@ -1235,7 +1271,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000041"
     },
     {
       "id": "editorial_fashion",
@@ -1260,7 +1297,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000042"
     },
     {
       "id": "editorial_luxury",
@@ -1285,7 +1323,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000043"
     },
     {
       "id": "fashion_archer_editorial",
@@ -1314,7 +1353,8 @@
       ],
       "variables": {},
       "source_author": "you1873118",
-      "source_url": "https://x.com/you1873118/status/2064933410091774287?s=20"
+      "source_url": "https://x.com/you1873118/status/2064933410091774287?s=20",
+      "code": "ST000044"
     },
     {
       "id": "fashion_campaign_typography",
@@ -1343,7 +1383,8 @@
       ],
       "variables": {},
       "source_author": "MrLarus",
-      "source_url": "https://x.com/MrLarus/status/2065713153237766314"
+      "source_url": "https://x.com/MrLarus/status/2065713153237766314",
+      "code": "ST000045"
     },
     {
       "id": "chang_e_goddess",
@@ -1359,7 +1400,8 @@
       ],
       "variables": {},
       "source_author": "",
-      "source_url": ""
+      "source_url": "",
+      "code": "ST000046"
     },
     {
       "id": "exaggerated_3d_toy_illustration",
@@ -1390,7 +1432,8 @@
       ],
       "variables": {},
       "source_author": "MissDelulu9",
-      "source_url": "https://www.meigen.ai/prompt/2056323209323319324"
+      "source_url": "https://www.meigen.ai/prompt/2056323209323319324",
+      "code": "ST000047"
     },
     {
       "id": "maple_story_avatar",
@@ -1420,7 +1463,8 @@
       ],
       "variables": {},
       "source_author": "20_v_e",
-      "source_url": "https://x.com/20_v_e/status/2064627884086689912"
+      "source_url": "https://x.com/20_v_e/status/2064627884086689912",
+      "code": "ST000048"
     },
     {
       "id": "mascot_ip",
@@ -1448,7 +1492,8 @@
       ],
       "variables": {},
       "source_author": "VigoCreativeAI",
-      "source_url": "https://x.com/VigoCreativeAI/status/2059548612108144716"
+      "source_url": "https://x.com/VigoCreativeAI/status/2059548612108144716",
+      "code": "ST000049"
     },
     {
       "id": "pixar_cartoon_portrait",
@@ -1477,7 +1522,8 @@
       ],
       "variables": {},
       "source_author": "Noor_ul_ain43",
-      "source_url": "https://x.com/Noor_ul_ain43/status/2064760141917069361?s=20"
+      "source_url": "https://x.com/Noor_ul_ain43/status/2064760141917069361?s=20",
+      "code": "ST000050"
     },
     {
       "id": "retro_cel_animation",
@@ -1509,7 +1555,8 @@
       ],
       "variables": {},
       "source_author": "推文 @azed_ai",
-      "source_url": "https://x.com/azed_ai/status/2065387673028907435"
+      "source_url": "https://x.com/azed_ai/status/2065387673028907435",
+      "code": "ST000051"
     },
     {
       "id": "sunny_3d",
@@ -1538,7 +1585,8 @@
       ],
       "variables": {},
       "source_author": "VigoCreativeAI",
-      "source_url": "https://x.com/VigoCreativeAI/status/2060014177742360890"
+      "source_url": "https://x.com/VigoCreativeAI/status/2060014177742360890",
+      "code": "ST000052"
     },
     {
       "id": "collage_logo",
@@ -1565,15 +1613,15 @@
       ],
       "variables": {},
       "source_author": "内部模板",
-      "source_url": "-"
+      "source_url": "-",
+      "code": "ST000053"
     },
     {
       "id": "luxury_poster_style",
       "name": "Luxury Poster Style",
       "category": "print",
       "tags": [
-        "VigoCookbook",
-        "Luxury#furniture#catalog#poster#with#product#photography#and#restrained#graphic#design."
+        "VigoCookbook"
       ],
       "scene": "A premium furniture editorial poster system with a warm off-white studio field, oversized deep forest-green display typography behind one realistic hero furniture object, sparse catalog microcopy, thin rules, outlined catalog chips, and a dark green rounded bottom information bar.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -1590,15 +1638,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000054"
     },
     {
       "id": "pet_sketch_storyboard",
       "name": "Pet Sketch Storyboard",
       "category": "print",
       "tags": [
-        "VigoCookbook",
-        "A#loose#animation#development#sketch#style#for#comic#pet#scenes,#built#from#warm#beige#paper,#red-brown#construction#lines,#scratchy#dark#burgundy#contours,#semi-transparent#color#wash,#simple#room#props,#and#exaggerated#animal#expressions."
+        "VigoCookbook"
       ],
       "scene": "A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple room props, and exaggerated animal expressions.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -1615,7 +1663,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000055"
     },
     {
       "id": "scarlet",
@@ -1644,7 +1693,8 @@
       ],
       "variables": {},
       "source_author": "VigoCreativeAI",
-      "source_url": "https://x.com/VigoCreativeAI/status/2064234723220811848"
+      "source_url": "https://x.com/VigoCreativeAI/status/2064234723220811848",
+      "code": "ST000056"
     },
     {
       "id": "stamp_movie_poster",
@@ -1675,7 +1725,8 @@
       ],
       "variables": {},
       "source_author": "AIwithAliya",
-      "source_url": "https://x.com/AIwithAliya/status/2065757835867144460"
+      "source_url": "https://x.com/AIwithAliya/status/2065757835867144460",
+      "code": "ST000057"
     },
     {
       "id": "style_can",
@@ -1700,7 +1751,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000058"
     },
     {
       "id": "tear_paper",
@@ -1729,7 +1781,8 @@
       ],
       "variables": {},
       "source_author": "xiaoxiaodong01",
-      "source_url": "https://x.com/xiaoxiaodong01/status/2060007845903655125"
+      "source_url": "https://x.com/xiaoxiaodong01/status/2060007845903655125",
+      "code": "ST000059"
     },
     {
       "id": "typography",
@@ -1756,7 +1809,8 @@
       ],
       "variables": {},
       "source_author": "AdrianPunk115",
-      "source_url": "https://x.com/AdrianPunk115"
+      "source_url": "https://x.com/AdrianPunk115",
+      "code": "ST000060"
     },
     {
       "id": "bloomberg_magazine",
@@ -1788,7 +1842,8 @@
       ],
       "variables": {},
       "source_author": "AdrianPunk115",
-      "source_url": "https://x.com/AdrianPunk115/status/2064593763327234113"
+      "source_url": "https://x.com/AdrianPunk115/status/2064593763327234113",
+      "code": "ST000061"
     },
     {
       "id": "mckinsey_style",
@@ -1818,7 +1873,8 @@
       ],
       "variables": {},
       "source_author": "AdrianPunk115",
-      "source_url": "https://x.com/AdrianPunk115/status/2062080784572534958"
+      "source_url": "https://x.com/AdrianPunk115/status/2062080784572534958",
+      "code": "ST000062"
     },
     {
       "id": "science_cover",
@@ -1847,7 +1903,8 @@
       ],
       "variables": {},
       "source_author": "AdrianPunk115",
-      "source_url": "https://x.com/AdrianPunk115/status/2063634489604190686"
+      "source_url": "https://x.com/AdrianPunk115/status/2063634489604190686",
+      "code": "ST000063"
     },
     {
       "id": "science_illustration",
@@ -1876,7 +1933,8 @@
       ],
       "variables": {},
       "source_author": "AdrianPunk115",
-      "source_url": "https://x.com/AdrianPunk115/status/2063634489604190686"
+      "source_url": "https://x.com/AdrianPunk115/status/2063634489604190686",
+      "code": "ST000064"
     },
     {
       "id": "science_infographic",
@@ -1905,7 +1963,8 @@
       ],
       "variables": {},
       "source_author": "AdrianPunk115",
-      "source_url": "https://x.com/AdrianPunk115/status/2063634489604190686"
+      "source_url": "https://x.com/AdrianPunk115/status/2063634489604190686",
+      "code": "ST000065"
     },
     {
       "id": "bubble_card",
@@ -1933,7 +1992,8 @@
       ],
       "variables": {},
       "source_author": "用户提供",
-      "source_url": "-"
+      "source_url": "-",
+      "code": "ST000066"
     },
     {
       "id": "candy_3d_wonderland",
@@ -1963,7 +2023,8 @@
       "preview_urls": [],
       "variables": {},
       "source_author": "散养设计",
-      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7619622039854402854"
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7619622039854402854",
+      "code": "ST000067"
     },
     {
       "id": "chibi_q_version_character",
@@ -1990,15 +2051,15 @@
       ],
       "variables": {},
       "source_author": "CharaspowerAI",
-      "source_url": "https://x.com/CharaspowerAI/status/2066230454429143506"
+      "source_url": "https://x.com/CharaspowerAI/status/2066230454429143506",
+      "code": "ST000068"
     },
     {
       "id": "doodle_style",
       "name": "Doodle Style",
       "category": "social_media",
       "tags": [
-        "VigoCookbook",
-        "A#candid#low-light#home#photo#style#with#a#large#flat#2D#cushion-doll#companion#composited#into#the#lower#foreground,#creating#a#quiet#late-night#creative#diary#mood#with#warm#room#texture,#screen#glow,#and#tiny#handwritten#doodle#marks."
+        "VigoCookbook"
       ],
       "scene": "A candid low-light home photo style with a large flat 2D cushion-doll companion composited into the lower foreground, creating a quiet late-night creative diary mood with warm room texture, screen glow, and tiny handwritten doodle marks.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2015,15 +2076,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000069"
     },
     {
       "id": "doodle_style_poster",
       "name": "Doodle Style Poster",
       "category": "social_media",
       "tags": [
-        "VigoCookbook",
-        "A#realistic#passenger-seat#transport#photo#transformed#into#a#high-energy#travel#poster#with#a#central#rear-view#subject,#electric#yellow#silhouette#halo,#oversized#yellow-orange#hand-drawn#letters,#comic#rays,#purple#music#marks,#sticker#icons,#and#cyan-white#cloud#swooshes."
+        "VigoCookbook"
       ],
       "scene": "A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2040,15 +2101,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000070"
     },
     {
       "id": "doodle_style_poster_1",
       "name": "Doodle Style Poster 1",
       "category": "social_media",
       "tags": [
-        "VigoCookbook",
-        "A#candid#outdoor#hiking#photograph#remixed#with#a#flat#hand-drawn#monster#companion,#oversized#Spanish#comic#lettering,#and#loose#sketch#annotations,#creating#a#playful#adventure-poster#collage."
+        "VigoCookbook"
       ],
       "scene": "A candid outdoor hiking photograph remixed with a flat hand-drawn monster companion, oversized Spanish comic lettering, and loose sketch annotations, creating a playful adventure-poster collage.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2065,7 +2126,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000071"
     },
     {
       "id": "gpt_doodle_illustration",
@@ -2093,7 +2155,8 @@
       ],
       "variables": {},
       "source_author": "oggii_0",
-      "source_url": "https://x.com/oggii_0/status/2064589838935015811"
+      "source_url": "https://x.com/oggii_0/status/2064589838935015811",
+      "code": "ST000072"
     },
     {
       "id": "grotesque_doodle_style",
@@ -2124,7 +2187,8 @@
       ],
       "variables": {},
       "source_author": "AdrianPunk115",
-      "source_url": "https://x.com/AdrianPunk115/status/2065690624402280513"
+      "source_url": "https://x.com/AdrianPunk115/status/2065690624402280513",
+      "code": "ST000073"
     },
     {
       "id": "japanese_poetic_dreamy",
@@ -2154,7 +2218,8 @@
       ],
       "variables": {},
       "source_author": "yyyole（沐阳）",
-      "source_url": "https://x.com/yyyole/status/2065001375898247359"
+      "source_url": "https://x.com/yyyole/status/2065001375898247359",
+      "code": "ST000074"
     },
     {
       "id": "k_gyaru_street_snap",
@@ -2183,7 +2248,8 @@
       ],
       "variables": {},
       "source_author": "only01clair",
-      "source_url": "https://x.com/only01clair/status/2064670555878596832?s=20"
+      "source_url": "https://x.com/only01clair/status/2064670555878596832?s=20",
+      "code": "ST000075"
     },
     {
       "id": "sky_blue_doodle",
@@ -2210,15 +2276,15 @@
       ],
       "variables": {},
       "source_author": "VigoCreativeAI",
-      "source_url": "https://x.com/VigoCreativeAI/status/2063863083861188693"
+      "source_url": "https://x.com/VigoCreativeAI/status/2063863083861188693",
+      "code": "ST000076"
     },
     {
       "id": "sticker_style_poster",
       "name": "Sticker Style Poster",
       "category": "social_media",
       "tags": [
-        "VigoCookbook",
-        "A#nostalgic#analog#diary-collage#portrait#system#with#a#large#side-profile#illustrated#subject,#cream#graph-paper#background,#sticker-like#personal#objects,#distressed#orange#hand#lettering,#and#heavy#scanned#print#texture."
+        "VigoCookbook"
       ],
       "scene": "A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and heavy scanned print texture.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2235,7 +2301,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000077"
     },
     {
       "id": "summer_dopamine",
@@ -2263,15 +2330,15 @@
       ],
       "variables": {},
       "source_author": "用户收藏",
-      "source_url": "-"
+      "source_url": "-",
+      "code": "ST000078"
     },
     {
       "id": "collage_doodle_style",
       "name": "Collage Doodle Style",
       "category": "travel",
       "tags": [
-        "VigoCookbook",
-        "A#bright#travel-photo#collage#style#that#overlays#giant#flat#2D#cartoon#travelers,#fantastical#folk-art#fish,#black#marker#loops,#splash#marks,#and#comic#starbursts#onto#realistic#landmark#photography."
+        "VigoCookbook"
       ],
       "scene": "A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts onto realistic landmark photography.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2288,7 +2355,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000079"
     },
     {
       "id": "minimalist_city_travel_poster",
@@ -2317,15 +2385,15 @@
       ],
       "variables": {},
       "source_author": "Goodmanprotocol",
-      "source_url": "https://www.meigen.ai/prompt/2052974175435026714"
+      "source_url": "https://www.meigen.ai/prompt/2052974175435026714",
+      "code": "ST000080"
     },
     {
       "id": "style_travel",
       "name": "Style Travel",
       "category": "travel",
       "tags": [
-        "VigoCookbook",
-        "A#clean#travel-vlog#thumbnail#system#built#from#three#vertical#photographic#panels,#oversized#lowercase#white#destination#type,#small#italic#travel#annotations,#sparse#hand-drawn#marks,#and#a#soft#phone-camera#editorial#finish."
+        "VigoCookbook"
       ],
       "scene": "A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations, sparse hand-drawn marks, and a soft phone-camera editorial finish.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2342,15 +2410,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000081"
     },
     {
       "id": "vigo_analog_editorial_poster",
       "name": "Vigo Analog Editorial Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#quiet#analog-future#editorial#poster#style#using#warm#cream#paper,#oversized#black#neo-grotesk#typography,#strict#grid#rules,#retro#technology#still#life,#pale-blue#translucent#interface#panels,#botanical#foreground#accents,#and#tiny#bilingual#information#design."
+        "VigoCookbook"
       ],
       "scene": "A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2367,15 +2435,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000082"
     },
     {
       "id": "vigo_black_cutout_food_card_ad",
       "name": "Vigo Black Cutout Food Card Ad",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "handmade#Chinese#street-food#ad#card#with#photo-collage#food#centerpiece"
+        "VigoCookbook"
       ],
       "scene": "A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow accents, and a handmade street-snack print texture.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2392,15 +2460,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000083"
     },
     {
       "id": "vigo_blue_bubble_fisheye_action_poster",
       "name": "Vigo Blue Bubble Fisheye Action Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#crisp#white#youth-culture#action#poster#style#with#a#rectangular#fisheye#photograph,#oversized#rounded#royal-blue#display#typography,#frame-breaking#foreground#scale,#small#blue#editorial#captions,#and#one#red#hand-drawn#annotation#circle."
+        "VigoCookbook"
       ],
       "scene": "A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions, and one red hand-drawn annotation circle.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2417,7 +2485,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000084"
     },
     {
       "id": "vigo_blue_halftone_ransom_zine_poster",
@@ -2442,15 +2511,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000085"
     },
     {
       "id": "vigo_blue_hud_macro_product_poster",
       "name": "Vigo Blue Hud Macro Product Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "premium#3D#creator-tech#poster,#macro#product#ad,#HUD-heavy#social#commerce#visual"
+        "VigoCookbook"
       ],
       "scene": "A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards, and one warm gold performance badge.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2467,7 +2536,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000086"
     },
     {
       "id": "vigo_blue_kinetic_poster",
@@ -2492,15 +2562,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000087"
     },
     {
       "id": "vigo_bold_anime_reaction_thumbnail",
       "name": "Vigo Bold Anime Reaction Thumbnail",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#high-impact#anime#web-thumbnail#system#with#oversized#reaction#characters,#bold#yellow#headline#typography,#hard#black#shadows,#split-screen#framing,#a#smaller#glowing#action#insert,#and#clean#cel-shaded#illustration."
+        "VigoCookbook"
       ],
       "scene": "A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean cel-shaded illustration.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2517,15 +2587,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000088"
     },
     {
       "id": "vigo_bold_block_mascot_poster",
       "name": "Vigo Bold Block Mascot Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "flat#editorial#mascot#poster,#comic-sticker#poster#system,#bold#portfolio#cover#graphic"
+        "VigoCookbook"
       ],
       "scene": "A dense flat poster system built from giant black display type, chunky white mascot figures, thick cartoon outlines, tilted cyan or mint color panels, compact badges, tiny red accents, and a clean off-white print surface.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2542,15 +2612,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000089"
     },
     {
       "id": "vigo_chromatic_fisheye_orbit_pop_poster",
       "name": "Vigo Chromatic Fisheye Orbit Pop Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#high-key#pop#poster#system#built#from#extreme#fisheye#photography,#a#convex#glass-dome#center,#oversized#orbiting#typography,#hot#red-magenta-orange#letter#fills,#aqua#chromatic#light#arcs,#and#light#analog#print#texture."
+        "VigoCookbook"
       ],
       "scene": "A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and light analog print texture.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2567,15 +2637,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000090"
     },
     {
       "id": "vigo_cyan_red_shockwave_type_poster",
       "name": "Vigo Cyan Red Shockwave Type Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Flat#pop#poster#illustration#with#techno-manga#impact#graphics#and#regional#sign-paint#typography."
+        "VigoCookbook"
       ],
       "scene": "A flat illustrated poster system built from a saturated cyan field, oversized red block typography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact rotated microcopy. It feels like a loud regional travel poster crossed with manga impact graphics and screenprinted street signage.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2592,7 +2662,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000091"
     },
     {
       "id": "vigo_fantasy_scribble_mascot_poster",
@@ -2617,15 +2688,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000092"
     },
     {
       "id": "vigo_fisheye_bubble_poster",
       "name": "Vigo Fisheye Bubble Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "An#ultra-low-angle#fisheye#summer#lifestyle#poster#style#with#a#close#photographic#subject,#saturated#cobalt#sky,#huge#arched#lemon-yellow#bubble#typography,#warm#orange#type#shading,#Y2K#accessories,#and#heavy#analog#grain."
+        "VigoCookbook"
       ],
       "scene": "An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2642,15 +2713,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000093"
     },
     {
       "id": "vigo_folded_newspaper_product_ad",
       "name": "Vigo Folded Newspaper Product Ad",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "folded#newspaper#advertorial#with#photorealistic#product#hero"
+        "VigoCookbook"
       ],
       "scene": "A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2667,15 +2738,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000094"
     },
     {
       "id": "vigo_gothic_cat_doodle_photo_collage",
       "name": "Vigo Gothic Cat Doodle Photo Collage",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#playful#photo-illustration#collage#style#combining#dramatic#real#architectural#photography#with#oversized#flat#cartoon#creature#overlays,#bubbly#hand-drawn#headline#lettering,#and#loose#marker#doodles."
+        "VigoCookbook"
       ],
       "scene": "A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2692,15 +2763,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000095"
     },
     {
       "id": "vigo_impact_burst_halftone_comic_poster",
       "name": "Vigo Impact Burst Halftone Comic Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#loud#retro#comic#poster#system#built#from#thick#black#ink,#flat#high-saturation#colors,#oversized#impact#typography,#exaggerated#illustrated#subjects,#diagonal#props,#speech#bursts,#smoke#puffs,#halftone#dots,#and#distressed#screen-print#grain."
+        "VigoCookbook"
       ],
       "scene": "A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2717,15 +2788,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000096"
     },
     {
       "id": "vigo_k_pop_apocalypse_ransom_zine",
       "name": "Vigo K Pop Apocalypse Ransom Zine",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#maximalist#K-pop#fashion#zine#collage#style#built#from#a#central#portrait#cutout,#crumpled#monochrome#paper#texture,#skewed#ransom-note#typography,#loud#sticker#blocks,#saturated#lime/blue/red#accents,#and#a#bold#bottom#masthead#band."
+        "VigoCookbook"
       ],
       "scene": "A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red accents, and a bold bottom masthead band.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2742,7 +2813,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000097"
     },
     {
       "id": "vigo_kinetic_geometric_doodle_cutouts",
@@ -2767,7 +2839,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000098"
     },
     {
       "id": "vigo_luxury_street_cover",
@@ -2792,7 +2865,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000099"
     },
     {
       "id": "vigo_market_brush_produce_poster",
@@ -2817,15 +2891,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000100"
     },
     {
       "id": "vigo_metro_doodle_snapshot_diary",
       "name": "Vigo Metro Doodle Snapshot Diary",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#handheld#urban#transit#photo-collage#style#combining#realistic#crowded#metro,#bus,#tram,#or#station#snapshots#with#expressive#marker-like#cartoon#doodles,#oversized#foreground#gestures,#white#handwritten#diary#notes,#and#saturated#comic#face#overlays."
+        "VigoCookbook"
       ],
       "scene": "A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2842,7 +2916,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000101"
     },
     {
       "id": "vigo_mondrian_style",
@@ -2876,7 +2951,8 @@
       ],
       "variables": {},
       "source_author": "Adrian Punk (@AdrianPunk115)",
-      "source_url": "https://x.com/AdrianPunk115/status/2065295607028412813"
+      "source_url": "https://x.com/AdrianPunk115/status/2065295607028412813",
+      "code": "ST000102"
     },
     {
       "id": "vigo_mono_noir_type_portrait_poster",
@@ -2901,15 +2977,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000103"
     },
     {
       "id": "vigo_naive_marker_quote_card",
       "name": "Vigo Naive Marker Quote Card",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Naive#hand-marker#absurdist#poster#illustration."
+        "VigoCookbook"
       ],
       "scene": "A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag rendered as flat naive illustration.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2926,7 +3002,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000104"
     },
     {
       "id": "vigo_neon_diary_collage",
@@ -2951,15 +3028,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000105"
     },
     {
       "id": "vigo_neon_doodle_gallery_snapshot",
       "name": "Vigo Neon Doodle Gallery Snapshot",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#candid#phone-photo#style#layered#with#chaotic#neon#digital#marker#doodles:#hot-pink#and#cyan#subject#outlines,#yellow#monster#spikes,#rough#handwritten#captions,#stars,#paw#prints,#spiderweb#corners,#scribble#bars,#halos,#plants,#and#student#diary#energy."
+        "VigoCookbook"
       ],
       "scene": "A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -2976,15 +3053,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000106"
     },
     {
       "id": "vigo_neon_kinetic_typographic_poster",
       "name": "Vigo Neon Kinetic Typographic Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#dramatic#outdoor#editorial#poster#style#combining#low-angle#lifestyle#photography,#oversized#warped#neon#typography,#film#grain,#and#high-energy#youth-culture#campaign#design."
+        "VigoCookbook"
       ],
       "scene": "A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3001,7 +3078,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000107"
     },
     {
       "id": "vigo_neon_plush_gadget_pop_3d",
@@ -3026,7 +3104,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000108"
     },
     {
       "id": "vigo_olive_scribble_sports_poster",
@@ -3051,15 +3130,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000109"
     },
     {
       "id": "vigo_photo_illustration_overlay_poster",
       "name": "Vigo Photo Illustration Overlay Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#realistic#city#photograph#with#an#oversized,#high-saturation,#flat#2D#cartoon#figure#composited#on#top,#plus#hand-drawn#stars,#sparks,#arrows,#and#comic#marks."
+        "VigoCookbook"
       ],
       "scene": "A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3076,15 +3155,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000110"
     },
     {
       "id": "vigo_playful_marker_grounding_poster",
       "name": "Vigo Playful Marker Grounding Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "naive#marker#poster#illustration#with#public-service#announcement#hierarchy"
+        "VigoCookbook"
       ],
       "scene": "A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with clear public-service poster hierarchy.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3101,15 +3180,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000111"
     },
     {
       "id": "vigo_playful_mascot_doodle_snapshot",
       "name": "Vigo Playful Mascot Doodle Snapshot",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#casual#real-life#social#photo#transformed#into#a#playful#poster#by#layering#original#cartoon#mascot#stickers,#hand-drawn#outlines,#ribbon#headline#panels,#sparkles,#spirals,#and#sketchy#decorative#marks#over#the#photographic#scene."
+        "VigoCookbook"
       ],
       "scene": "A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3126,15 +3205,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000112"
     },
     {
       "id": "vigo_plush_city_festival_mobile_poster",
       "name": "Vigo Plush City Festival Mobile Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#bright#mobile#event#poster#style#combining#real#city#landmarks,#soft#fuzzy#mascot#characters,#rounded#app-card#UI#framing,#bold#white#festival#typography,#date/location#text,#and#friendly#tourism-campaign#energy."
+        "VigoCookbook"
       ],
       "scene": "A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3151,15 +3230,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000113"
     },
     {
       "id": "vigo_plush_comic_toy_product_poster",
       "name": "Vigo Plush Comic Toy Product Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#loud#toy-product#poster#style#built#around#one#fuzzy#plush#product#hero,#retro#cream#poster#paper,#a#cyan#circular#backdrop,#oversized#slanted#comic#typography,#thick#black#shadows,#doodle#annotations,#sticker#labels,#lightning#graphics,#and#dense#campaign#microcopy."
+        "VigoCookbook"
       ],
       "scene": "A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3176,15 +3255,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000114"
     },
     {
       "id": "vigo_pop_bubble_letter_photo_poster",
       "name": "Vigo Pop Bubble Letter Photo Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#punchy#photo-and-illustration#poster#style#built#around#a#central#low-angle#fashion#portrait#framed#by#oversized#flat#bubble-letter#shapes,#saturated#candy#colors,#thick#black#outlines,#oval#highlights,#and#crisp#sparkle#marks."
+        "VigoCookbook"
       ],
       "scene": "A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3201,7 +3280,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000115"
     },
     {
       "id": "vigo_rough_ink_music_doodle_poster",
@@ -3226,7 +3306,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000116"
     },
     {
       "id": "vigo_rough_marker_monster_poster",
@@ -3251,7 +3332,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000117"
     },
     {
       "id": "vigo_school_grid_paper_cutout_poster",
@@ -3276,7 +3358,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000118"
     },
     {
       "id": "vigo_sky_blue_home_life_doodle_poster",
@@ -3301,15 +3384,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000119"
     },
     {
       "id": "vigo_subway_doodle_photo_hybrid",
       "name": "Vigo Subway Doodle Photo Hybrid",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#phone-shot#urban#transit#poster#style#combining#documentary#subway#or#street#transport#photography#with#expressive#hand-drawn#cartoon#overlays,#doodled#character#faces,#oversized#foreground#gestures,#handwritten#notes,#and#social#media#screenshot#texture."
+        "VigoCookbook"
       ],
       "scene": "A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3326,7 +3409,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000120"
     },
     {
       "id": "vigo_sunny_3d_avatar_campaign",
@@ -3351,15 +3435,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000121"
     },
     {
       "id": "vigo_tokyo_kawaii_travel_collage_poster",
       "name": "Vigo Tokyo Kawaii Travel Collage Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#maximalist#Japanese#city-travel#collage#style#with#bold#destination#typography,#cute#sticker#elements,#manga#speech#bubbles,#cutout#fashion#photography,#halftone#urban#backgrounds,#and#scrapbook#editorial#layout."
+        "VigoCookbook"
       ],
       "scene": "A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3376,15 +3460,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000122"
     },
     {
       "id": "vigo_tri_color_hardcut_portrait_poster",
       "name": "Vigo Tri Color Hardcut Portrait Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#clean#three-color#hardcut#portrait#poster#style#using#flat#teal#background#fields,#coral-red#subject#planes,#and#near-black#silhouettes#or#shadows,#with#all#detail#reduced#into#large#hard-edged#vector-like#cutouts."
+        "VigoCookbook"
       ],
       "scene": "A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3401,15 +3485,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000123"
     },
     {
       "id": "vigo_turquoise_red_techno_manga_poster",
       "name": "Vigo Turquoise Red Techno Manga Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#retro#techno-manga#poster#system#with#a#cream#paper#ground,#huge#red#display#lettering,#turquoise#technical#clothing#or#hardware,#dense#mechanical#linework,#annotation#panels,#cel-shaded#figure#drawing,#and#slightly#faded#printed#texture."
+        "VigoCookbook"
       ],
       "scene": "A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure drawing, and slightly faded printed texture.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3426,15 +3510,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000124"
     },
     {
       "id": "vigo_urban_transit_doodle_diary",
       "name": "Vigo Urban Transit Doodle Diary",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#raw#urban#snapshot#treated#like#a#personal#visual#diary,#combining#real#public-space#photography#with#bold#hand-drawn#comic#overlays,#handwritten#travel#notes,#saturated#cartoon#faces,#and#a#large#foreground#gesture."
+        "VigoCookbook"
       ],
       "scene": "A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3451,7 +3535,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000125"
     },
     {
       "id": "vigo_warm_fisheye_product_impact_ad",
@@ -3476,15 +3561,15 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000126"
     },
     {
       "id": "vigo_y2k_grunge_hiphop_cutout_poster",
       "name": "Vigo Y2K Grunge Hiphop Cutout Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "A#Y2K#grunge#hip-hop#magazine#collage#poster#style#built#from#oversized#photo#cutouts,#acid#yellow#retro#typography,#rough#black-and-white#wall#textures,#dense#editorial#footer#panels,#and#photocopied#print#noise."
+        "VigoCookbook"
       ],
       "scene": "A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.",
       "ratio": "16:9 / 4:5 / 3:4 / 9:16",
@@ -3501,7 +3586,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000127"
     },
     {
       "id": "vigo_y2k_mirror_ui_scribble_collage",
@@ -3526,7 +3612,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000128"
     },
     {
       "id": "vigo_yellow_black_manga_food_zine_ad",
@@ -3551,7 +3638,8 @@
       ],
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
-      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/"
+      "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
+      "code": "ST000129"
     }
   ]
 }

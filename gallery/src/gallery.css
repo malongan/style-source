@@ -224,6 +224,9 @@ body {
   font-size: 12px;
   transition: all 0.2s;
   white-space: nowrap;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .tag-item:hover {

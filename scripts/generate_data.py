@@ -32,6 +32,8 @@ def parse_style_file(filepath: str) -> dict:
     # 提取标签
     tags_match = re.search(r'\*\*标签\*\*\s*[：:]\s*(.+)', content)
     tags = re.findall(r'#(\S+)', tags_match.group(1)) if tags_match else []
+    # 过滤掉过长的标签（描述性句子误标为标签，如 "A#retro#skate#zine..."）
+    tags = [t for t in tags if len(t) <= 40]
 
     # 提取场景
     scene_match = re.search(r'\*\*适用场景\*\*\s*[：:]\s*(.+)', content)
@@ -160,6 +162,10 @@ def main():
         categories[cat_name].update(meta)
 
     # 生成总数据
+    # 为每个风格分配固定编号码（6位数字，前缀ST方便识别）
+    for i, style in enumerate(all_styles):
+        style['code'] = f'ST{i+1:06d}'
+
     data = {
         'meta': {
             'version': get_version(),
