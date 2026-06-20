@@ -47,11 +47,15 @@ def resolve_image_url(style_id: str, yml_urls: list[str]) -> list[str]:
     return []
 
 def resolve_image_webp(style_id: str) -> dict:
-    """解析 WebP 版本 URL，返回 {'full': str|None, 'thumb': str|None}"""
+    """解析 WebP 版本 URL，返回 {'full': str|None, 'thumb': str|None}
+    兼容 .jpg 和 .png 源文件（共用 hash，从同名 .webp/.thumb.webp 生成 URL）"""
+    # 查找原始文件（优先 JPEG，其次 PNG）
     jpeg_matches = glob.glob(os.path.join(IMAGES_DIR, f'styles_previews/{style_id}_*.jpg'))
-    if not jpeg_matches:
+    png_matches = glob.glob(os.path.join(IMAGES_DIR, f'styles_previews/{style_id}_*.png'))
+    matches = jpeg_matches or png_matches
+    if not matches:
         return {'full': None, 'thumb': None}
-    base = os.path.splitext(os.path.basename(jpeg_matches[0]))[0]
+    base = os.path.splitext(os.path.basename(matches[0]))[0]
     base_url = f'{BASE_URL}/images/styles_previews/{base}'
     return {
         'full': f'{base_url}.webp',

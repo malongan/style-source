@@ -99,13 +99,20 @@ def main():
     # 确保目录存在
     os.makedirs(IMAGES_DIR, exist_ok=True)
 
-    # 1. 复制原始 JPEG
-    target_filename = f'{style_name}_{content_hash}{ext}'
+    # 1. 保存原始文件（PNG 自动转 JPEG，统一格式）
+    target_filename = f'{style_name}_{content_hash}.jpg'
     target_path = os.path.join(IMAGES_DIR, target_filename)
-    shutil.copy2(image_path, target_path)
+    if ext in ('.png',):
+        # PNG → JPEG 转换（保持 RGB 模式）
+        img_pil = Image.open(image_path).convert('RGB')
+        img_pil.save(target_path, 'JPEG', quality=90)
+        img_pil.close()
+        print(f'  ↪ PNG 已转换为 JPEG')
+    else:
+        shutil.copy2(image_path, target_path)
 
     # 2. 从 JPEG 生成 WebP 版本
-    base_name = os.path.splitext(target_path)[0]  # 去掉 .jpg，保留路径前缀
+    base_name = os.path.splitext(target_path)[0]
     img = Image.open(target_path)
     generate_webp_versions(base_name, img)
     img.close()
