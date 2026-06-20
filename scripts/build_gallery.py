@@ -287,9 +287,9 @@ function buildCardHTML(s) {{
       '<div class="card-title-row">' +
         '<span class="card-number">' + (s.code ? '#' + s.code : '#' + (s.number || s.id || '')) + '</span>' +
         '<h3 class="card-title">' + s.name + '</h3>' +
+        '<span class="card-category">' + (s.category || '') + '</span>' +
       '</div>' +
       '<div class="card-footer">' +
-        '<span class="card-category">' + (s.category || '') + '</span>' +
         linkHtml +
         '<button class="favorite-btn" title="收藏">收藏</button>' +
       '</div>' +

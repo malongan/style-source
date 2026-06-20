@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 风格画廊 v0.4.0-29-g46bc66d-dirty</title>
+<title>AI 风格画廊 v0.4.0-31-gbc03ec0-dirty</title>
 <meta name="description" content="AI 风格画廊 — 收集 129 个 AI 绘画风格提示词，涵盖品牌KV、社交媒体、IP角色、时尚、创意等多种分类。支持预览、搜索、标签筛选、收藏。">
 <meta name="keywords" content="AI绘画,风格提示词,Stable Diffusion,Midjourney,AI画廊,提示词库">
 <meta name="author" content="malongan">
-<meta property="og:title" content="AI 风格画廊 v0.4.0-29-g46bc66d-dirty">
+<meta property="og:title" content="AI 风格画廊 v0.4.0-31-gbc03ec0-dirty">
 <meta property="og:description" content="AI 风格画廊 — 收集 129 个 AI 绘画风格提示词，涵盖品牌KV、社交媒体、IP角色、时尚、创意等多种分类。支持预览、搜索、标签筛选、收藏。">
 <meta property="og:url" content="https://malongan.github.io/style-source/gallery.html">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_1e5913d0.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AI 风格画廊 v0.4.0-29-g46bc66d-dirty">
+<meta name="twitter:title" content="AI 风格画廊 v0.4.0-31-gbc03ec0-dirty">
 <meta name="twitter:description" content="AI 风格画廊 — 收集 129 个 AI 绘画风格提示词，涵盖品牌KV、社交媒体、IP角色、时尚、创意等多种分类。支持预览、搜索、标签筛选、收藏。">
 <meta name="twitter:image" content="https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_1e5913d0.jpg">
 <link rel="canonical" href="https://malongan.github.io/style-source/gallery.html">
@@ -383,14 +383,56 @@ body {
   color: #22c55e;
 }
 
+/* 卡片标题行：编号 + 名称 + 分类标签 */
+.card-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.card-number {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.2s;
+  user-select: all;
+  flex-shrink: 0;
+}
+.card-number:hover {
+  color: var(--accent-color);
+}
+.card-number.copied {
+  color: #22c55e;
+}
+
 .card-title {
   font-size: 13px;
   font-weight: 600;
   color: var(--text-primary);
-  margin-bottom: 8px;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-/* 底部操作栏 */
+/* 分类标签（与编号同行，右对齐） */
+.card-category {
+  font-size: 10px;
+  color: var(--text-muted);
+  background: var(--bg-secondary);
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 底部操作栏：链接在左，收藏在右 */
 .card-footer {
   display: flex;
   align-items: center;
@@ -406,10 +448,11 @@ body {
   color: var(--accent-color);
   text-decoration: none;
   font-size: 11px;
-  max-width: 140px;
+  max-width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  margin-right: auto;
 }
 
 .card-link:hover {
@@ -749,16 +792,6 @@ body {
   display: none !important;
 }
 
-/* ==================== 分类标签 ==================== */
-.card-category {
-  font-size: 11px;
-  color: var(--text-muted);
-  background: var(--bg-secondary);
-  padding: 2px 6px;
-  border-radius: 4px;
-  margin-right: auto;
-}
-
 /* ==================== WIP 标记 ==================== */
 .card-wip {
   font-size: 14px;
@@ -803,7 +836,7 @@ body {
     <!-- Header -->
     <header class="header">
       <div class="header-left">
-        <h1 class="header-title">AI 风格库<span class="header-update">· 最后更新：0.4.0-29-g46bc66d-dirty</span></h1>
+        <h1 class="header-title">AI 风格库<span class="header-update">· 最后更新：0.4.0-31-gbc03ec0-dirty</span></h1>
         <span class="header-author">by malongan</span>
       </div>
       <div class="header-right">
@@ -2666,9 +2699,9 @@ function buildCardHTML(s) {
       '<div class="card-title-row">' +
         '<span class="card-number">' + (s.code ? '#' + s.code : '#' + (s.number || s.id || '')) + '</span>' +
         '<h3 class="card-title">' + s.name + '</h3>' +
+        '<span class="card-category">' + (s.category || '') + '</span>' +
       '</div>' +
       '<div class="card-footer">' +
-        '<span class="card-category">' + (s.category || '') + '</span>' +
         linkHtml +
         '<button class="favorite-btn" title="收藏">收藏</button>' +
       '</div>' +

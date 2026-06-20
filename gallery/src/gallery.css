@@ -361,14 +361,56 @@ body {
   color: #22c55e;
 }
 
+/* 卡片标题行：编号 + 名称 + 分类标签 */
+.card-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.card-number {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.2s;
+  user-select: all;
+  flex-shrink: 0;
+}
+.card-number:hover {
+  color: var(--accent-color);
+}
+.card-number.copied {
+  color: #22c55e;
+}
+
 .card-title {
   font-size: 13px;
   font-weight: 600;
   color: var(--text-primary);
-  margin-bottom: 8px;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-/* 底部操作栏 */
+/* 分类标签（与编号同行，右对齐） */
+.card-category {
+  font-size: 10px;
+  color: var(--text-muted);
+  background: var(--bg-secondary);
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 底部操作栏：链接在左，收藏在右 */
 .card-footer {
   display: flex;
   align-items: center;
@@ -384,10 +426,11 @@ body {
   color: var(--accent-color);
   text-decoration: none;
   font-size: 11px;
-  max-width: 140px;
+  max-width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  margin-right: auto;
 }
 
 .card-link:hover {
@@ -725,16 +768,6 @@ body {
 /* ==================== 隐藏类 ==================== */
 .hidden {
   display: none !important;
-}
-
-/* ==================== 分类标签 ==================== */
-.card-category {
-  font-size: 11px;
-  color: var(--text-muted);
-  background: var(--bg-secondary);
-  padding: 2px 6px;
-  border-radius: 4px;
-  margin-right: auto;
 }
 
 /* ==================== WIP 标记 ==================== */
