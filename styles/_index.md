@@ -18,10 +18,10 @@
 | 🎭 IP/角色 | [ip_character/](ip_character/) | 7 | 吉祥物、头像、游戏 |
 | ✈️ 旅行城市 | [travel/](travel/) | 3 | 旅行海报、城市 |
 | 👔 时尚美容 | [fashion/](fashion/) | 5 | 时尚大片、美妆 |
-| 🎪 创意特殊 | [creative/](creative/) | 17 | 融合、复古、手绘 |
+| 🎪 创意特殊 | [creative/](creative/) | 18 | 融合、复古、手绘 |
 | 📖 VigoCookbook | [vigo_cookbook/](vigo_cookbook/) | 48 | 来自 Vigo Cookbook |
 
-**总计：129 个风格文件**
+**总计：130 个风格文件**
 
 ---
 
@@ -199,6 +199,7 @@
 | glass_flower_spring_diary | #治愈 #玻璃花卉 | 春日日记、治愈插画 | 9:16 |
 | soft_clay_macaron_poster | #软胶黏土 #3D卡通 #马卡龙色 | 品牌活动KV、创意海报、潮流品牌 | 2:3（竖版） |
 | demon_wukong_line_art | #孙悟空 #线绘 #巴洛克 #极繁 | 创意海报、国潮设计 | 16:9 |
+| pen_ink_point_line_peaches | #钢笔画 #点线 #桃子 #植物 | 植物插画、艺术线描 | 2:3 |
 
 ---
 
@@ -222,6 +223,6 @@ Vigo Cookbook 来源的风格，共 49 个（以 vigo_ 开头）。
 | IP/角色 | 7 |
 | 旅行城市 | 5 |
 | 时尚美容 | 14 |
-| 创意特殊 | 20 |
+| 创意特殊 | 21 |
 | VigoCookbook | 48 |
-| **总计** | **153** |
+| **总计** | **154** |
