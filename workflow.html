@@ -28,8 +28,7 @@ body::after{
   display:flex;align-items:center;justify-content:center
 }
 .hero-canvas{
-  position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;
-  display:block
+  position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;display:block
 }
 .hero-overlay{
   position:absolute;top:0;left:0;width:100%;height:100%;
@@ -48,7 +47,8 @@ body::after{
 }
 .hero-title{
   font-size:clamp(3rem,6.5vw,5.2rem);font-weight:800;
-  letter-spacing:-.03em;line-height:1.05;text-shadow:0 0 80px rgba(74,158,255,.15)
+  letter-spacing:-.03em;line-height:1.05;
+  text-shadow:0 0 80px rgba(74,158,255,.15)
 }
 .hero-title .highlight{
   background:linear-gradient(135deg,var(--blue),#7bb8ff,#4a9eff);
@@ -91,11 +91,8 @@ body::after{
   display:inline-block;font-size:.72rem;color:var(--blue);
   letter-spacing:.08em;margin-bottom:6px;font-weight:600
 }
-
 .grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:20px}
 .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-.grid-4{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
-
 .card{
   background:var(--bg-card);border:1px solid var(--border);
   border-radius:10px;padding:28px;transition:all .3s;position:relative;overflow:hidden
@@ -115,7 +112,6 @@ body::after{
 .border-teal{border-left:3px solid var(--teal)}
 .border-purple{border-left:3px solid var(--purple)}
 
-/* ===== AGENTS ===== */
 .agent-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:30px}
 .agent-card{
   text-align:center;padding:30px 20px 24px;
@@ -137,7 +133,6 @@ body::after{
 .agent-duties li{font-size:.8rem;color:var(--text-s);list-style:none;padding:2px 0}
 .agent-duties li::before{content:"\25B8 ";color:var(--blue);margin-right:4px}
 
-/* ===== FLOW TIMELINE ===== */
 .flow-wrap{max-width:800px;margin:0 auto}
 .flow-step{
   display:flex;gap:20px;padding:24px 0;
@@ -163,7 +158,6 @@ body::after{
 .flow-body .tiny{font-size:.75rem;color:var(--text-m);margin-top:5px}
 .flow-body code{font-size:.75rem;background:rgba(255,255,255,.04);padding:2px 8px;border-radius:4px;color:var(--blue)}
 
-/* ===== CODE BLOCK ===== */
 .code-block{
   background:rgba(255,255,255,.02);border:1px solid var(--border);
   border-radius:6px;padding:14px;margin-top:12px;
@@ -171,7 +165,6 @@ body::after{
 }
 .code-result{margin-top:6px;font-size:.82rem;color:var(--blue);font-weight:500}
 
-/* ===== IP CARDS ===== */
 .ip-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px;margin-top:24px}
 .ip-card{
   position:relative;background:var(--bg-card);border:1px solid var(--border);
@@ -179,18 +172,17 @@ body::after{
 }
 .ip-card:hover{transform:translateY(-4px);border-color:var(--blue);box-shadow:0 8px 30px rgba(74,158,255,.12)}
 .ip-card-image{position:relative;width:100%;aspect-ratio:1;overflow:hidden;background:#0a0a10}
-.ip-card-image canvas{position:absolute;top:0;left:0;width:100%;height:100%}
-.ip-card-image .ip-img{
+.ip-card-image canvas{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1}
+.ip-card-image img{
   position:absolute;top:0;left:0;width:100%;height:100%;
-  object-fit:cover;opacity:0;transition:opacity .3s
+  object-fit:cover;opacity:0;transition:opacity .4s
 }
-.ip-card:hover .ip-img{opacity:1}
+.ip-card:hover img{opacity:1}
 .ip-card-info{padding:10px 12px 12px;border-top:1px solid var(--border)}
 .ip-card-info .ip-code{font-size:.62rem;color:var(--blue);letter-spacing:.06em;font-weight:600}
 .ip-card-info .ip-name{font-size:.82rem;font-weight:600;margin-top:1px}
 .ip-card-info .ip-brand{font-size:.7rem;color:var(--text-m)}
 
-/* ===== STYLE WATERFALL ===== */
 .style-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:24px}
 .style-item{
   position:relative;border-radius:6px;overflow:hidden;
@@ -206,7 +198,6 @@ body::after{
 }
 @media(max-width:768px){.style-grid{grid-template-columns:repeat(2,1fr)}}
 
-/* ===== URL LIST ===== */
 .url-list{display:flex;flex-direction:column;gap:6px;max-width:660px;margin:0 auto}
 .url-item{
   display:flex;align-items:center;gap:10px;
@@ -228,26 +219,20 @@ body::after{
   .section{padding:56px 0}
   .flow-step{margin-left:8px;padding-left:20px}
   .stats-row{grid-template-columns:repeat(2,1fr)}
-  .grid-2,.grid-3,.grid-4{grid-template-columns:1fr}
+  .grid-2,.grid-3{grid-template-columns:1fr}
   .ip-grid{grid-template-columns:repeat(2,1fr)}
 }
 </style>
 </head>
 <body>
 
-<!-- ===== HERO ===== -->
 <div class="hero-wrap">
   <canvas class="hero-canvas" id="heroCanvas"></canvas>
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <div class="hero-badge">MULTI-AGENT SYSTEM v1.0</div>
-    <h1 class="hero-title">
-      AI 创意<br><span class="highlight">工作流</span>
-    </h1>
-    <p class="hero-sub">
-      三位 AI Agent 协作 —— 从灵感收集、风格管理、角色设计到最终出图，<br>
-      全流程自动化，打造可复用的创意资产系统。
-    </p>
+    <h1 class="hero-title">AI 创意<br><span class="highlight">工作流</span></h1>
+    <p class="hero-sub">三位 AI Agent 协作 —— 从灵感收集、风格管理、角色设计到最终出图，<br>全流程自动化，打造可复用的创意资产系统。</p>
     <div class="hero-cta">
       <a href="#overview" class="btn btn-primary">探索体系</a>
       <a href="#workflow" class="btn btn-outline">工作流程</a>
@@ -262,222 +247,193 @@ body::after{
   </div>
 </div>
 
-<!-- ===== OVERVIEW ===== -->
-<section class="section" id="overview">
-  <div class="container">
-    <div class="section-header fade-in">
-      <div class="sec-num">01 / 体系</div>
-      <h2>三大核心资产 + 三位 AI Agent</h2>
-      <p>风格库、IP 库、AI Agent 构成完整的创意生产管线</p>
+<section class="section" id="overview"><div class="container">
+  <div class="section-header fade-in">
+    <div class="sec-num">01 / 体系</div>
+    <h2>三大核心资产 + 三位 AI Agent</h2>
+    <p>风格库、IP 库、AI Agent 构成完整的创意生产管线</p>
+  </div>
+  <div class="grid-3">
+    <div class="card fade-in border-blue">
+      <div class="card-tag tag-blue">资产层 · 风格库</div><div class="card-icon">🎨</div>
+      <h3>Style Gallery</h3><p>139 种 AI 绘画风格模板，涵盖国风、3D、插画、写实等类别，每条风格附带完整提示词和预览图。</p>
     </div>
-    <div class="grid-3">
-      <div class="card fade-in border-blue">
-        <div class="card-tag tag-blue">资产层 · 风格库</div>
-        <div class="card-icon">🎨</div>
-        <h3>Style Gallery</h3>
-        <p>139 种 AI 绘画风格模板，涵盖国风、3D、插画、写实等类别，每条风格附带完整提示词和预览图。</p>
-      </div>
-      <div class="card fade-in border-teal">
-        <div class="card-tag tag-teal">资产层 · IP 库</div>
-        <div class="card-icon">🧸</div>
-        <h3>IP Gallery</h3>
-        <p>7 个 IP 角色，含品牌联名与个人原创。每个 IP 有独立的参考图、预览图、生成规则。</p>
-      </div>
-      <div class="card fade-in border-purple">
-        <div class="card-tag tag-purple">驱动层 · AI Agent</div>
-        <div class="card-icon">🤖</div>
-        <h3>三 Agent 协作</h3>
-        <p>设计师生图、策划师文案、GitHub 助手仓库管理和发布，各司其职高效配合。</p>
-      </div>
+    <div class="card fade-in border-teal">
+      <div class="card-tag tag-teal">资产层 · IP 库</div><div class="card-icon">🧸</div>
+      <h3>IP Gallery</h3><p>7 个 IP 角色，含品牌联名与个人原创。每个 IP 有独立的参考图、预览图、生成规则。</p>
+    </div>
+    <div class="card fade-in border-purple">
+      <div class="card-tag tag-purple">驱动层 · AI Agent</div><div class="card-icon">🤖</div>
+      <h3>三 Agent 协作</h3><p>设计师生图、策划师文案、GitHub 助手仓库管理和发布，各司其职高效配合。</p>
     </div>
   </div>
-</section>
+</div></section>
 
-<!-- ===== AGENTS ===== -->
-<section class="section" id="agents">
-  <div class="container">
-    <div class="section-header fade-in">
-      <div class="sec-num">02 / 角色</div>
-      <h2>三位 Agent · 各司其职</h2>
-      <p>每个 Agent 拥有独立工作区和专业知识，通过消息机制协作</p>
-    </div>
-    <div class="agent-grid">
-      <div class="agent-card fade-in"><div class="agent-avatar blue">👤</div><h4>GitHub Manager</h4><p class="role">仓库管理 · 发布 · 同步</p><ul class="agent-duties"><li>管理 style-source / ip-gallery / ip-library 仓库</li><li>调用设计师收集提示词（新风格）</li><li>调用设计师生成 IP 头像 / 封面</li><li>运行 generate_data.py 自动生成数据</li><li>WebP 图片转换 + 推送 GitHub</li><li>维护 IP 库档案 + 自动同步 PROFILE</li></ul></div>
-      <div class="agent-card fade-in"><div class="agent-avatar teal">🎨</div><h4>Painter · 设计师</h4><p class="role">AI 生图 · 风格收集</p><ul class="agent-duties"><li>调用 Tuzi API 图生图 / 文生图</li><li>从推文 / 即梦提取提示词 + 生成风格文件</li><li>IP 角色生成（图生图 + 一致性保持）</li><li>海报 / KV / Banner 设计</li><li>生图后提交给 GitHub Manager 发布</li></ul></div>
-      <div class="agent-card fade-in"><div class="agent-avatar purple">✍️</div><h4>Content Creator · 策划师</h4><p class="role">文案 · 创意策划</p><ul class="agent-duties"><li>电商活动 KV 文案策划</li><li>品牌推广主题创意</li><li>主标题 + Slogan + 画面描述</li><li>色彩建议 + 多方案对比</li><li>通过 GitHub Manager 查询 IP 档案</li></ul></div>
-    </div>
+<section class="section" id="agents"><div class="container">
+  <div class="section-header fade-in">
+    <div class="sec-num">02 / 角色</div>
+    <h2>三位 Agent · 各司其职</h2>
+    <p>每个 Agent 拥有独立工作区和专业知识，通过消息机制协作</p>
   </div>
-</section>
-
-<!-- ===== WORKFLOW ===== -->
-<section class="section" id="workflow">
-  <div class="container">
-    <div class="section-header fade-in">
-      <div class="sec-num">03 / 流程</div>
-      <h2>完整工作流</h2>
-      <p>从灵感到上线，五步完成</p>
-    </div>
-    <div class="flow-wrap">
-      <div class="flow-step fade-in"><div class="flow-body"><div class="card-tag tag-blue">S1 收集</div><h3>灵感 → 风格文件 + 预览图</h3><p>设计师从推文 / 即梦 / Meigen 收集提示词，生成 .md 风格文件和预览图，存入 style-source/styles/。</p><div class="tiny"><code>prompt-collector</code> · <code>jimeng_extractor.py</code></div></div></div>
-      <div class="flow-step fade-in"><div class="flow-body"><div class="card-tag tag-teal">S2 策划</div><h3>需求 → 文案方案</h3><p>策划师输出 2-3 个差异化方案（主标题、Slogan、画面描述、色彩建议），通过 GitHub Manager 查询 IP 档案。</p><div class="tiny"><code>chat_with_agent</code> → 查 IP 特征 + 生成规则</div></div></div>
-      <div class="flow-step fade-in"><div class="flow-body"><div class="card-tag tag-purple">S3 设计</div><h3>方案 → 图生图</h3><p>设计师带上 IP 参考图做图生图，保持角色特征一致性，生成最终图片。</p><div class="tiny"><code>ip-kv-design-v3</code> · 只写风格 / 动作，不写外貌特征</div></div></div>
-      <div class="flow-step fade-in"><div class="flow-body"><div class="card-tag">S4 提交</div><h3>生图路径 → 提交 GitHub Manager</h3><p>设计师通过 chat_with_agent 把图片路径发给 GitHub Manager，由我处理 WebP 转换和仓库操作。</p><div class="tiny"><code>chat_with_agent(to_agent="github-manager")</code> · 600s 超时</div></div></div>
-      <div class="flow-step fade-in"><div class="flow-body"><div class="card-tag tag-blue">S5 上线</div><h3>数据生成 → Gallery 更新 → 上线</h3><p>运行 generate_data.py + build_gallery.py 自动生成数据，创建 PR，更新 GitHub Pages。</p><div class="tiny"><code>git push</code> · GitHub Pages 自动部署</div></div></div>
-    </div>
+  <div class="agent-grid">
+    <div class="agent-card fade-in"><div class="agent-avatar blue">👤</div><h4>GitHub Manager</h4><p class="role">仓库管理 · 发布 · 同步</p><ul class="agent-duties"><li>管理 style-source / ip-gallery / ip-library 仓库</li><li>调用设计师收集提示词（新风格）</li><li>调用设计师生成 IP 头像 / 封面</li><li>运行 generate_data.py 自动生成数据</li><li>WebP 图片转换 + 推送 GitHub</li><li>维护 IP 库档案 + 自动同步 PROFILE</li></ul></div>
+    <div class="agent-card fade-in"><div class="agent-avatar teal">🎨</div><h4>Painter · 设计师</h4><p class="role">AI 生图 · 风格收集</p><ul class="agent-duties"><li>调用 Tuzi API 图生图 / 文生图</li><li>从推文 / 即梦提取提示词 + 生成风格文件</li><li>IP 角色生成（图生图 + 一致性保持）</li><li>海报 / KV / Banner 设计</li><li>生图后提交给 GitHub Manager 发布</li></ul></div>
+    <div class="agent-card fade-in"><div class="agent-avatar purple">✍️</div><h4>Content Creator · 策划师</h4><p class="role">文案 · 创意策划</p><ul class="agent-duties"><li>电商活动 KV 文案策划</li><li>品牌推广主题创意</li><li>主标题 + Slogan + 画面描述</li><li>色彩建议 + 多方案对比</li><li>通过 GitHub Manager 查询 IP 档案</li></ul></div>
   </div>
-</section>
+</div></section>
 
-<!-- ===== COLLABORATION ===== -->
-<section class="section" id="collab">
-  <div class="container">
-    <div class="section-header fade-in">
-      <div class="sec-num">04 / 协作</div>
-      <h2>Agent 协作模式</h2>
-      <p>Agent 之间如何通信与配合</p>
-    </div>
-    <div class="grid-2">
-      <div class="card fade-in"><div class="card-tag tag-blue">查询 IP 档案</div><h3>设计师 / 策划师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager",<br>&nbsp;&nbsp;text="查一下 IP002 莉莉的档案")</div><div class="code-result">返回：角色特征、生成规则、参考图 URL</div></div>
-      <div class="card fade-in"><div class="card-tag tag-teal">替换封面 / 发布</div><h3>设计师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager",<br>&nbsp;&nbsp;text="替换 IP007 大耳狗封面：/path/to/img.png",<br>&nbsp;&nbsp;timeout=600)</div><div class="code-result">我转 WebP、更新预览图、Push</div></div>
-      <div class="card fade-in"><div class="card-tag tag-purple">策划方案</div><h3>设计师 → 策划师</h3><div class="code-block">chat_with_agent(to_agent="content-creator",<br>&nbsp;&nbsp;text="为 IP003 芒果仔策划露营主题 KV...")</div><div class="code-result">返回：2-3 个完整文案方案</div></div>
-      <div class="card fade-in"><div class="card-tag">更新风格页面</div><h3>设计师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager",<br>&nbsp;&nbsp;text="新风格已就绪，请更新页面")</div><div class="code-result">运行 generate_data.py → build_gallery.py → PR</div></div>
-      <div class="card fade-in"><div class="card-tag tag-blue">风格收集 → 设计师</div><h3>GitHub Manager → 设计师</h3><div class="code-block">chat_with_agent(to_agent="painter",<br>&nbsp;&nbsp;text="收集这个提示词：https://x.com/xxx")</div><div class="code-result">设计师提取推文 → 生成风格文件 + 预览图 → 提交回 GitHub Manager</div></div>
-      <div class="card fade-in"><div class="card-tag tag-teal">创建 IP → 设计师</div><h3>GitHub Manager → 设计师</h3><div class="code-block">chat_with_agent(to_agent="painter",<br>&nbsp;&nbsp;text="请为 IP007 大耳狗生成一个 3D 卡通头像")</div><div class="code-result">设计师生图 → chat_with_agent 提交回 → 我转 WebP → 更新封面</div></div>
-    </div>
+<section class="section" id="workflow"><div class="container">
+  <div class="section-header fade-in">
+    <div class="sec-num">03 / 流程</div>
+    <h2>完整工作流</h2>
+    <p>从灵感到上线，五步完成</p>
   </div>
-</section>
-
-<!-- ===== IP GALLERY ===== -->
-<section class="section" id="ip-section">
-  <div class="container">
-    <div class="section-header fade-in">
-      <div class="sec-num">05 / 角色库</div>
-      <h2>IP 角色一览</h2>
-      <p>已入库的 7 个 IP 角色 — 悬停卡片可查看原始图像</p>
-    </div>
-    <div class="ip-grid" id="ipGrid"></div>
+  <div class="flow-wrap">
+    <div class="flow-step fade-in"><div class="flow-body"><div class="card-tag tag-blue">S1 收集</div><h3>灵感 → 风格文件 + 预览图</h3><p>设计师从推文 / 即梦 / Meigen 收集提示词，生成 .md 风格文件和预览图，存入 style-source/styles/。</p><div class="tiny"><code>prompt-collector</code> · <code>jimeng_extractor.py</code></div></div></div>
+    <div class="flow-step fade-in"><div class="flow-body"><div class="card-tag tag-teal">S2 策划</div><h3>需求 → 文案方案</h3><p>策划师输出 2-3 个差异化方案（主标题、Slogan、画面描述、色彩建议），通过 GitHub Manager 查询 IP 档案。</p><div class="tiny"><code>chat_with_agent</code> → 查 IP 特征 + 生成规则</div></div></div>
+    <div class="flow-step fade-in"><div class="flow-body"><div class="card-tag tag-purple">S3 设计</div><h3>方案 → 图生图</h3><p>设计师带上 IP 参考图做图生图，保持角色特征一致性，生成最终图片。</p><div class="tiny"><code>ip-kv-design-v3</code> · 只写风格 / 动作，不写外貌特征</div></div></div>
+    <div class="flow-step fade-in"><div class="flow-body"><div class="card-tag">S4 提交</div><h3>生图路径 → 提交 GitHub Manager</h3><p>设计师通过 chat_with_agent 把图片路径发给 GitHub Manager，由我处理 WebP 转换和仓库操作。</p><div class="tiny"><code>chat_with_agent(to_agent="github-manager")</code> · 600s 超时</div></div></div>
+    <div class="flow-step fade-in"><div class="flow-body"><div class="card-tag tag-blue">S5 上线</div><h3>数据生成 → Gallery 更新 → 上线</h3><p>运行 generate_data.py + build_gallery.py 自动生成数据，创建 PR，更新 GitHub Pages。</p><div class="tiny"><code>git push</code> · GitHub Pages 自动部署</div></div></div>
   </div>
-</section>
+</div></section>
 
-<!-- ===== STYLE SHOWCASE ===== -->
-<section class="section" id="style-section">
-  <div class="container">
-    <div class="section-header fade-in">
-      <div class="sec-num">06 / 风格库</div>
-      <h2>风格展示</h2>
-      <p>精选风格预览 — 悬停可彩色还原</p>
-    </div>
-    <div class="style-grid" id="styleGrid"></div>
-    <div style="text-align:center;margin-top:28px">
-      <a href="https://malongan.github.io/style-source/gallery.html" target="_blank" class="btn btn-outline">查看全部 139 种风格 →</a>
-    </div>
+<section class="section" id="collab"><div class="container">
+  <div class="section-header fade-in">
+    <div class="sec-num">04 / 协作</div>
+    <h2>Agent 协作模式</h2>
+    <p>Agent 之间如何通信与配合</p>
   </div>
-</section>
-
-<!-- ===== ACCESS ===== -->
-<section class="section" id="access">
-  <div class="container">
-    <div class="section-header fade-in">
-      <div class="sec-num">07 / 入口</div>
-      <h2>访问入口</h2>
-      <p>点击即可跳转</p>
-    </div>
-    <div class="url-list">
-      <a href="https://malongan.github.io/style-source/gallery.html" target="_blank" class="url-item fade-in"><span class="label">🎨 风格库</span><span class="value">gallery.html · 139 种风格在线预览</span><span class="arrow">→</span></a>
-      <a href="https://malongan.github.io/ip-gallery/" target="_blank" class="url-item fade-in"><span class="label">🧸 IP 库</span><span class="value">ip-gallery · 7 个 IP 角色展示</span><span class="arrow">→</span></a>
-      <a href="https://github.com/malongan/style-source" target="_blank" class="url-item fade-in"><span class="label">📁 风格源码</span><span class="value">github.com/malongan/style-source</span><span class="arrow">→</span></a>
-    </div>
+  <div class="grid-2">
+    <div class="card fade-in"><div class="card-tag tag-blue">查询 IP 档案</div><h3>设计师 / 策划师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager",<br>&nbsp;&nbsp;text="查一下 IP002 莉莉的档案")</div><div class="code-result">返回：角色特征、生成规则、参考图 URL</div></div>
+    <div class="card fade-in"><div class="card-tag tag-teal">替换封面 / 发布</div><h3>设计师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager",<br>&nbsp;&nbsp;text="替换 IP007 大耳狗封面：/path/to/img.png",<br>&nbsp;&nbsp;timeout=600)</div><div class="code-result">我转 WebP、更新预览图、Push</div></div>
+    <div class="card fade-in"><div class="card-tag tag-purple">策划方案</div><h3>设计师 → 策划师</h3><div class="code-block">chat_with_agent(to_agent="content-creator",<br>&nbsp;&nbsp;text="为 IP003 芒果仔策划露营主题 KV...")</div><div class="code-result">返回：2-3 个完整文案方案</div></div>
+    <div class="card fade-in"><div class="card-tag">更新风格页面</div><h3>设计师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager",<br>&nbsp;&nbsp;text="新风格已就绪，请更新页面")</div><div class="code-result">运行 generate_data.py → build_gallery.py → PR</div></div>
+    <div class="card fade-in"><div class="card-tag tag-blue">风格收集 → 设计师</div><h3>GitHub Manager → 设计师</h3><div class="code-block">chat_with_agent(to_agent="painter",<br>&nbsp;&nbsp;text="收集这个提示词：https://x.com/xxx")</div><div class="code-result">设计师提取推文 → 生成风格文件 + 预览图 → 提交回 GitHub Manager</div></div>
+    <div class="card fade-in"><div class="card-tag tag-teal">创建 IP → 设计师</div><h3>GitHub Manager → 设计师</h3><div class="code-block">chat_with_agent(to_agent="painter",<br>&nbsp;&nbsp;text="请为 IP007 大耳狗生成一个 3D 卡通头像")</div><div class="code-result">设计师生图 → chat_with_agent 提交回 → 我转 WebP → 更新封面</div></div>
   </div>
-</section>
+</div></section>
 
-<!-- ===== FOOTER ===== -->
-<div class="footer">
-  <p>AI 创意工作流 · Multi-Agent System</p>
-  <p style="margin-top:4px;font-size:.68rem">Powered by QwenPaw · 三 Agent 协作体系 · 2026</p>
-</div>
+<section class="section" id="ip-section"><div class="container">
+  <div class="section-header fade-in">
+    <div class="sec-num">05 / 角色库</div>
+    <h2>IP 角色一览</h2>
+    <p>已入库的 7 个 IP 角色 — 悬停卡片可查看原始图像</p>
+  </div>
+  <div class="ip-grid" id="ipGrid"></div>
+</div></section>
+
+<section class="section" id="style-section"><div class="container">
+  <div class="section-header fade-in">
+    <div class="sec-num">06 / 风格库</div>
+    <h2>风格展示</h2>
+    <p>精选风格预览 — 悬停可彩色还原</p>
+  </div>
+  <div class="style-grid" id="styleGrid"></div>
+  <div style="text-align:center;margin-top:28px">
+    <a href="https://malongan.github.io/style-source/gallery.html" target="_blank" class="btn btn-outline">查看全部 139 种风格 →</a>
+  </div>
+</div></section>
+
+<section class="section" id="access"><div class="container">
+  <div class="section-header fade-in">
+    <div class="sec-num">07 / 入口</div>
+    <h2>访问入口</h2>
+    <p>点击即可跳转</p>
+  </div>
+  <div class="url-list">
+    <a href="https://malongan.github.io/style-source/gallery.html" target="_blank" class="url-item fade-in"><span class="label">🎨 风格库</span><span class="value">gallery.html · 139 种风格在线预览</span><span class="arrow">→</span></a>
+    <a href="https://malongan.github.io/ip-gallery/" target="_blank" class="url-item fade-in"><span class="label">🧸 IP 库</span><span class="value">ip-gallery · 7 个 IP 角色展示</span><span class="arrow">→</span></a>
+    <a href="https://github.com/malongan/style-source" target="_blank" class="url-item fade-in"><span class="label">📁 风格源码</span><span class="value">github.com/malongan/style-source</span><span class="arrow">→</span></a>
+  </div>
+</div></section>
+
+<div class="footer"><p>AI 创意工作流 · Multi-Agent System</p><p style="margin-top:4px;font-size:.68rem">Powered by QwenPaw · 三 Agent 协作体系 · 2026</p></div>
 
 <script>
-// ===== Hero Canvas: Pixels everywhere, clear circle around mouse =====
+// ===== Hero Canvas =====
 (function(){
   var canvas = document.getElementById('heroCanvas');
   var ctx = canvas.getContext('2d');
   var img = new Image();
-  img.crossOrigin = 'anonymous';
-  img.src = 'https://picsum.photos/seed/workflow/3840/2160';  // high-res landscape
   var ready = false;
-  var mx = -1000, my = -1000;
-  var TILE = 24;  // pixel block size
-  var W, H;
+  var mx = -9999, my = -9999;
+  var TILE = 32;
+  var animId = null;
+
+  // Set onload FIRST, then src
+  img.onload = function(){
+    ready = true;
+    resize();
+    if(animId) cancelAnimationFrame(animId);
+    draw();
+  };
+  img.crossOrigin = 'anonymous';
+  img.src = 'https://picsum.photos/id/17/3840/2160.jpg?hmac=yg_AnyeKXT0UI_D-6Q36qG7O9Jn6Np_U4UhhLd6-5Ec';
 
   function resize(){
     var dpr = window.devicePixelRatio || 1;
-    W = canvas.width = window.innerWidth * dpr;
-    H = canvas.height = window.innerHeight * dpr;
+    canvas.width = window.innerWidth * dpr;
+    canvas.height = window.innerHeight * dpr;
     canvas.style.width = window.innerWidth + 'px';
     canvas.style.height = window.innerHeight + 'px';
-    if(ready) draw();
   }
 
   function draw(){
-    if(!ready) return;
+    if(!ready || !img.complete) return;
     var dpr = window.devicePixelRatio || 1;
-    var cw = window.innerWidth * dpr;
-    var ch = window.innerHeight * dpr;
-    var tile = TILE * dpr;
+    var cw = canvas.width;
+    var ch = canvas.height;
+    var tile = Math.round(TILE * dpr);
     var cols = Math.ceil(cw / tile);
     var rows = Math.ceil(ch / tile);
-
-    // Scale image to cover
     var scale = Math.max(cw / img.width, ch / img.height);
     var iw = img.width * scale;
     var ih = img.height * scale;
     var ix = (cw - iw) / 2;
     var iy = (ch - ih) / 2;
-
-    var glowRadius = 9 * tile; // 9 tiles radius in canvas coords
-    var mx_c = mx * dpr;
-    var my_c = my * dpr;
+    var glowR = 9 * tile;
+    var mxc = mx * dpr;
+    var myc = my * dpr;
 
     ctx.imageSmoothingEnabled = false;
 
+    // Draw full image as base (pixelated)
+    ctx.drawImage(img, ix, iy, iw, ih);
+    ctx.imageSmoothingEnabled = true;
+
+    // Get canvas pixel data once
+    var imageData = ctx.getImageData(0, 0, cw, ch);
+    var data = imageData.data;
+
+    // Darken all pixels to 15%
+    for(var i = 0; i < data.length; i += 4){
+      var gray = (0.34*data[i] + 0.5*data[i+1] + 0.16*data[i+2]) * 0.15;
+      data[i] = data[i+1] = data[i+2] = Math.round(gray);
+    }
+
+    // For the glow circle: restore original brightness
+    var glowR2 = glowR * glowR;
     for(var r = 0; r < rows; r++){
       for(var c = 0; c < cols; c++){
-        var px = c * tile, py = r * tile;
-
-    for(var r = 0; r < rows; r++){
-      for(var c = 0; c < cols; c++){
-        var px = c * tile, py = r * tile;
-
-        // Source coordinates on the full-resolution image
-        var sx = ix + (c / cols) * iw;
-        var sy = iy + (r / rows) * ih;
-        var sw = iw / cols;
-        var sh = ih / rows;
-
-        // Distance from mouse (canvas coords)
-        var dx = px + tile/2 - mx_c;
-        var dy = py + tile/2 - my_c;
-        var dist = Math.sqrt(dx*dx + dy*dy);
-        var inCircle = dist < glowRadius;
-
-        if(inCircle){
-          // Draw original (clean) image
-          ctx.drawImage(img, sx, sy, sw, sh, px, py, tile, tile);
-        } else {
-          // Draw pixelated block, then darken
-          ctx.drawImage(img, sx, sy, sw, sh, px, py, tile, tile);
-          var pd = ctx.getImageData(px, py, 1, 1).data;
-          var gray = (0.34*pd[0] + 0.5*pd[1] + 0.16*pd[2]) * 0.15;
-          ctx.fillStyle = 'rgb(' + Math.round(gray) + ',' + Math.round(gray) + ',' + Math.round(gray*.8) + ')';
-          ctx.fillRect(px, py, tile, tile);
+        var px = c * tile;
+        var py = r * tile;
+        var dx = px + tile/2 - mxc;
+        var dy = py + tile/2 - myc;
+        if(dx*dx + dy*dy < glowR2){
+          // Restore this tile from the original image
+          var sx = ix + (c / cols) * iw;
+          var sy = iy + (r / rows) * ih;
+          ctx.drawImage(img, sx, sy, iw/cols, ih/rows, px, py, tile+1, tile+1);
         }
       }
     }
-    requestAnimationFrame(draw);
+
+    animId = requestAnimationFrame(draw);
   }
 
-  img.onload = function(){ ready = true; resize(); };
-
-  window.addEventListener('resize', resize);
+  window.addEventListener('resize', function(){
+    if(ready){ resize(); }
+  });
   document.addEventListener('mousemove', function(e){
     mx = e.clientX; my = e.clientY;
   });
@@ -486,8 +442,7 @@ body::after{
   });
 })();
 
-// ===== IP data with embedded fallback =====
-// Embed minimal IP data so cards always display even when fetch fails
+// ===== IP Cards =====
 var IP_FALLBACK = [
   {id:"guming_moli",code:"IP001",name:"古茗云岭茉莉",brand:"古茗",preview:"https://malongan.github.io/ip-gallery/images/preview/guming_moli_preview.webp"},
   {id:"lili",code:"IP002",name:"莉莉",brand:"个人IP",preview:"https://malongan.github.io/ip-gallery/images/preview/lili_preview.webp"},
@@ -501,13 +456,13 @@ var IP_FALLBACK = [
 (function(){
   var grid = document.getElementById('ipGrid');
 
-  function renderIPs(ips){
+  function render(ips){
     grid.innerHTML = ips.map(function(ip){
       var src = ip.preview || '';
       return '<div class="ip-card fade-in">' +
         '<div class="ip-card-image">' +
           '<canvas class="ip-canvas" data-src="' + src + '"></canvas>' +
-          '<img class="ip-img" src="' + src + '" alt="' + ip.name + '" loading="lazy">' +
+          '<img src="' + src + '" alt="' + ip.name + '" loading="lazy" style="opacity:0">' +
         '</div>' +
         '<div class="ip-card-info">' +
           '<div class="ip-code">' + (ip.code||'') + '</div>' +
@@ -516,99 +471,68 @@ var IP_FALLBACK = [
         '</div></div>';
     }).join('');
 
-    // Draw pixelated canvas for each card
-    setTimeout(function(){
-      document.querySelectorAll('.ip-canvas').forEach(function(canvas){
-        var src = canvas.getAttribute('data-src');
-        if(!src || src === 'null') return;
-        var img = new Image();
-        img.crossOrigin = 'anonymous';
-        img.onload = function(){
-          var w = canvas.parentElement.offsetWidth;
-          var h = canvas.parentElement.offsetHeight;
-          if(w === 0 || h === 0) return;
-          canvas.width = w; canvas.height = h;
-          var ctx = canvas.getContext('2d');
-          ctx.imageSmoothingEnabled = false;
-          var cols=10, rows=10;
-          var tw=w/cols, th=h/rows;
-          for(var r=0; r<rows; r++){
-            for(var c=0; c<cols; c++){
-              var sx=(c/cols)*img.width, sy=(r/rows)*img.height;
-              var sw=img.width/cols, sh=img.height/rows;
-              ctx.drawImage(img, sx, sy, sw, sh, c*tw, r*th, tw+1, th+1);
+    // Pixelate canvas for each card
+    requestAnimationFrame(function(){
+      document.querySelectorAll('.ip-canvas').forEach(function(cav){
+        var src = cav.getAttribute('data-src');
+        if(!src) return;
+        var im = new Image();
+        im.crossOrigin = 'anonymous';
+        im.onload = function(){
+          var w = cav.parentElement.offsetWidth;
+          var h = cav.parentElement.offsetHeight;
+          if(w<10||h<10) return;
+          cav.width = w; cav.height = h;
+          var cx = cav.getContext('2d');
+          cx.imageSmoothingEnabled = false;
+          var co=8, ro=8;
+          var tw=w/co, th=h/ro;
+          for(var rr=0; rr<ro; rr++){
+            for(var cc=0; cc<co; cc++){
+              cx.drawImage(im, (cc/co)*im.width, (rr/ro)*im.height, im.width/co, im.height/ro, cc*tw, rr*th, tw+1, th+1);
             }
           }
           // Grayscale
-          var pd = ctx.getImageData(0,0,w,h);
-          for(var i=0; i<pd.data.length; i+=4){
-            var g = 0.34*pd.data[i] + 0.5*pd.data[i+1] + 0.16*pd.data[i+2];
-            pd.data[i]=g*0.6; pd.data[i+1]=g*0.6; pd.data[i+2]=g*0.7;
+          var pd = cx.getImageData(0,0,w,h);
+          for(var ii=0; ii<pd.data.length; ii+=4){
+            var g=0.34*pd.data[ii]+0.5*pd.data[ii+1]+0.16*pd.data[ii+2];
+            pd.data[ii]=g*0.6; pd.data[ii+1]=g*0.6; pd.data[ii+2]=g*0.7;
           }
-          ctx.putImageData(pd,0,0);
+          cx.putImageData(pd,0,0);
         };
-        img.src = src;
+        im.src = src;
       });
-    }, 200);
+    });
   }
 
-  // Try fetch, fall back to embedded data
   fetch('https://malongan.github.io/ip-gallery/data.json')
     .then(function(r){ return r.json(); })
-    .then(function(data){ renderIPs(data.ips || []); })
-    .catch(function(){ renderIPs(IP_FALLBACK); });
+    .then(function(d){ render(d.ips||[]); })
+    .catch(function(){ render(IP_FALLBACK); });
 })();
 
-// ===== Style Showcase with embedded fallback =====
-var STYLE_FALLBACK = [
-  {code:"ST0001",name:"厚涂油彩",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/thick_oil_57b3cf71.webp"},
-  {code:"ST0003",name:"宫崎骏动画",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/miyazaki_style_b1f7e24a.webp"},
-  {code:"ST0005",name:"莫奈印象",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/monet_style_ae3c1f8d.webp"},
-  {code:"ST0008",name:"赛博朋克",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/cyberpunk_style_f4a2b7c9.webp"},
-  {code:"ST0012",name:"浮世绘",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/ukiyoe_style_1234abcd.webp"},
-  {code:"ST0018",name:"日系水彩",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/japanese_watercolor_9f8e7d6c.webp"},
-  {code:"ST0022",name:"水墨丹青",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/ink_wash_3f2e1d4c.webp"},
-  {code:"ST0028",name:"蒸汽波",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/vaporwave_7a8b9c0d.webp"},
-  {code:"ST0035",name:"立体主义",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/cubism_5e4d3c2b.webp"},
-  {code:"ST0042",name:"国潮插画",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/chinese_trend_1a2b3c4d.webp"},
-  {code:"ST0050",name:"电影感",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/cinematic_8d7c6b5a.webp"},
-  {code:"ST0058",name:"透明水彩",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/transparent_watercolor_9a8b7c6d.webp"},
-  {code:"ST0065",name:"低保真",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/lowfi_4d3c2b1a.webp"},
-  {code:"ST0075",name:"黑金质感",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/black_gold_6a5b4c3d.webp"},
-  {code:"ST0085",name:"极简主义",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/minimalist_2b3c4d5e.webp"},
-  {code:"ST0095",name:"炭笔素描",preview_webp:"https://malongan.github.io/style-source/images/styles_previews/charcoal_7c8d9e0f.webp"}
-];
-
+// ===== Style Showcase =====
 (function(){
   var grid = document.getElementById('styleGrid');
-
-  function renderStyles(styles){
-    var selected = [];
-    for(var i = 0; i < 16 && i < styles.length; i++){
-      selected.push(styles[i]);
-    }
-    grid.innerHTML = selected.map(function(s){
+  function render(styles){
+    var sel = styles.slice(0,16);
+    grid.innerHTML = sel.map(function(s){
       var src = s.preview_webp || s.preview || s.preview_thumb || '';
-      return '<div class="style-item fade-in">' +
-        '<img src="' + src + '" alt="' + (s.name||'') + '" loading="lazy">' +
-        '<div class="style-label">' + (s.code||'') + ' ' + (s.name||'') + '</div></div>';
+      return '<div class="style-item fade-in"><img src="' + src + '" alt="' + (s.name||'') + '" loading="lazy"><div class="style-label">' + (s.code||'') + ' ' + (s.name||'') + '</div></div>';
     }).join('');
   }
-
   fetch('https://malongan.github.io/style-source/data/styles.json')
     .then(function(r){ return r.json(); })
-    .then(function(data){ renderStyles(data.styles || []); })
-    .catch(function(){ renderStyles(STYLE_FALLBACK); });
+    .then(function(d){ render(d.styles||[]); })
+    .catch(function(){ /* gracefully hide */ });
 })();
 
 // ===== Scroll Animation =====
 (function(){
-  var observer = new IntersectionObserver(function(entries){
-    entries.forEach(function(entry){
-      if(entry.isIntersecting) entry.target.classList.add('visible');
-    });
-  }, { threshold: 0.1 });
-  document.querySelectorAll('.fade-in').forEach(function(el){ observer.observe(el); });
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting) e.target.classList.add('visible'); });
+  }, {threshold:0.1});
+  document.querySelectorAll('.fade-in').forEach(function(el){ obs.observe(el); });
 })();
 </script>
 </body>
