@@ -1,6 +1,6 @@
 # Teenage Skate Scribble Screenprint Poster Style
 
-**标签**：#VigoCookbook #A#retro#skate#zine#poster#style#with#a#distorted#central#skateboarder#cutout,#cream#paper#field,#loose#red#hand-lettered#border#typography,#rough#duotone#screen-print#texture,#and#a#limited#navy-gray-green-ochre#palette.  
+**标签**：#VigoCookbook #retro #skate #zine #distorted #central #skateboarder #cream #paper #field #loose #hand-lettered #border #typography #duotone #screen-print #limited #navy-gray-green-ochre #palette
 **触发词**：Teenage Skate Scribble Screenprint Poster Style  
 **适用场景**：A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre palette.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

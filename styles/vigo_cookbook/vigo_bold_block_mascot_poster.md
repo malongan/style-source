@@ -1,6 +1,6 @@
 # Bold Block Mascot Poster Style
 
-**标签**：#VigoCookbook #flat#editorial#mascot#poster,#comic-sticker#poster#system,#bold#portfolio#cover#graphic  
+**标签**：#VigoCookbook #flat #editorial #mascot #comic-sticker #bold #portfolio #cover #graphic
 **触发词**：Bold Block Mascot Poster Style  
 **适用场景**：A dense flat poster system built from giant black display type, chunky white mascot figures, thick cartoon outlines, tilted cyan or mint color panels, compact badges, tiny red accents, and a clean off-white print surface.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

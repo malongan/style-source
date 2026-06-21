@@ -1,6 +1,6 @@
 # Urban Transit Doodle Diary Style
 
-**标签**：#VigoCookbook #A#raw#urban#snapshot#treated#like#a#personal#visual#diary,#combining#real#public-space#photography#with#bold#hand-drawn#comic#overlays,#handwritten#travel#notes,#saturated#cartoon#faces,#and#a#large#foreground#gesture.  
+**标签**：#VigoCookbook #raw #urban #snapshot #treated #like #personal #diary #combining #real #public-space #photography #bold #hand-drawn #comic #overlays #handwritten #travel #notes #saturated #cartoon #faces #large #foreground #gesture
 **触发词**：Urban Transit Doodle Diary Style  
 **适用场景**：A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a large foreground gesture.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

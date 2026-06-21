@@ -1,6 +1,6 @@
 # Blue HUD Macro Creator Tech Poster
 
-**标签**：#VigoCookbook #premium#3D#creator-tech#poster,#macro#product#ad,#HUD-heavy#social#commerce#visual  
+**标签**：#VigoCookbook #premium #3D #creator-tech #macro #product #ad #HUD-heavy
 **触发词**：Blue HUD Macro Creator Tech Poster  
 **适用场景**：A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards, and one warm gold performance badge.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

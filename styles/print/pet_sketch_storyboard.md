@@ -1,6 +1,6 @@
 # Rough Animation Pet Sketch Storyboard Style
 
-**标签**：#VigoCookbook #A#loose#animation#development#sketch#style#for#comic#pet#scenes,#built#from#warm#beige#paper,#red-brown#construction#lines,#scratchy#dark#burgundy#contours,#semi-transparent#color#wash,#simple#room#props,#and#exaggerated#animal#expressions.  
+**标签**：#VigoCookbook #loose #animation #development #sketch #comic #pet #scenes #warm #beige #paper #red-brown #construction #lines #scratchy #dark #burgundy #contours #semi-transparent #color #wash #simple #room #exaggerated #animal #expressions
 **触发词**：Rough Animation Pet Sketch Storyboard Style  
 **适用场景**：A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple room props, and exaggerated animal expressions.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

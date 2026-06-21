@@ -1,6 +1,6 @@
 # Cyan Red Shockwave Type Poster Style
 
-**标签**：#VigoCookbook #Flat#pop#poster#illustration#with#techno-manga#impact#graphics#and#regional#sign-paint#typography.  
+**标签**：#VigoCookbook #Flat #pop #illustration #techno-manga #graphics #regional #sign-paint #typography
 **触发词**：Cyan Red Shockwave Type Poster Style  
 **适用场景**：A flat illustrated poster system built from a saturated cyan field, oversized red block typography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact rotated microcopy. It feels like a loud regional travel poster crossed with manga impact graphics and screenprinted street signage.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

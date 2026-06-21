@@ -1,6 +1,6 @@
 # Neon Doodle Gallery Snapshot
 
-**标签**：#VigoCookbook #A#candid#phone-photo#style#layered#with#chaotic#neon#digital#marker#doodles:#hot-pink#and#cyan#subject#outlines,#yellow#monster#spikes,#rough#handwritten#captions,#stars,#paw#prints,#spiderweb#corners,#scribble#bars,#halos,#plants,#and#student#diary#energy.  
+**标签**：#VigoCookbook #candid #phone-photo #layered #chaotic #neon #marker #doodles #hot-pink #cyan #subject #outlines #monster #spikes #handwritten #captions #stars #paw #prints #spiderweb #corners #scribble #bars #halos #plants #student #diary
 **触发词**：Neon Doodle Gallery Snapshot  
 **适用场景**：A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

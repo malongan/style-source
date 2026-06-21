@@ -1,6 +1,6 @@
 # Quiet Luxury Furniture Nameplate Poster Style
 
-**标签**：#VigoCookbook #Luxury#furniture#catalog#poster#with#product#photography#and#restrained#graphic#design.  
+**标签**：#VigoCookbook #Luxury #furniture #catalog #product #photography #restrained #graphic
 **触发词**：Quiet Luxury Furniture Nameplate Poster Style  
 **适用场景**：A premium furniture editorial poster system with a warm off-white studio field, oversized deep forest-green display typography behind one realistic hero furniture object, sparse catalog microcopy, thin rules, outlined catalog chips, and a dark green rounded bottom information bar.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

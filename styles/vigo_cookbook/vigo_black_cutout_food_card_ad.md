@@ -1,6 +1,6 @@
 # Black Cutout Food Card Ad
 
-**标签**：#VigoCookbook #handmade#Chinese#street-food#ad#card#with#photo-collage#food#centerpiece  
+**标签**：#VigoCookbook #handmade #Chinese #street-food #ad #card #photo-collage #food #centerpiece
 **触发词**：Black Cutout Food Card Ad  
 **适用场景**：A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow accents, and a handmade street-snack print texture.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

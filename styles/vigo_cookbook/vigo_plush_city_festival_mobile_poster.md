@@ -1,6 +1,6 @@
 # Plush City Festival Mobile Poster
 
-**标签**：#VigoCookbook #A#bright#mobile#event#poster#style#combining#real#city#landmarks,#soft#fuzzy#mascot#characters,#rounded#app-card#UI#framing,#bold#white#festival#typography,#date/location#text,#and#friendly#tourism-campaign#energy.  
+**标签**：#VigoCookbook #bright #mobile #event #combining #real #city #landmarks #soft #fuzzy #mascot #characters #rounded #app-card #UI #framing #bold #festival #typography #date/location #friendly #tourism-campaign
 **触发词**：Plush City Festival Mobile Poster  
 **适用场景**：A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign energy.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

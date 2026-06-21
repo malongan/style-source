@@ -1,6 +1,6 @@
 # Turquoise Red Techno Manga Poster Style
 
-**标签**：#VigoCookbook #A#retro#techno-manga#poster#system#with#a#cream#paper#ground,#huge#red#display#lettering,#turquoise#technical#clothing#or#hardware,#dense#mechanical#linework,#annotation#panels,#cel-shaded#figure#drawing,#and#slightly#faded#printed#texture.  
+**标签**：#VigoCookbook #retro #techno-manga #cream #paper #ground #huge #display #lettering #turquoise #technical #clothing #hardware #mechanical #linework #annotation #cel-shaded #figure #drawing #slightly #faded #printed
 **触发词**：Turquoise Red Techno Manga Poster Style  
 **适用场景**：A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure drawing, and slightly faded printed texture.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

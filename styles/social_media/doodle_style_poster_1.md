@@ -1,6 +1,6 @@
 # Mountain Trail Monster Doodle Poster Style
 
-**标签**：#VigoCookbook #A#candid#outdoor#hiking#photograph#remixed#with#a#flat#hand-drawn#monster#companion,#oversized#Spanish#comic#lettering,#and#loose#sketch#annotations,#creating#a#playful#adventure-poster#collage.  
+**标签**：#VigoCookbook #candid #outdoor #hiking #photograph #remixed #flat #hand-drawn #monster #companion #oversized #Spanish #comic #lettering #loose #sketch #annotations #creating #playful #adventure-poster #collage
 **触发词**：Mountain Trail Monster Doodle Poster Style  
 **适用场景**：A candid outdoor hiking photograph remixed with a flat hand-drawn monster companion, oversized Spanish comic lettering, and loose sketch annotations, creating a playful adventure-poster collage.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

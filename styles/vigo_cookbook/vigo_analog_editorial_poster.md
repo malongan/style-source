@@ -1,6 +1,6 @@
 # Soft Analog Future Editorial Poster
 
-**标签**：#VigoCookbook #A#quiet#analog-future#editorial#poster#style#using#warm#cream#paper,#oversized#black#neo-grotesk#typography,#strict#grid#rules,#retro#technology#still#life,#pale-blue#translucent#interface#panels,#botanical#foreground#accents,#and#tiny#bilingual#information#design.  
+**标签**：#VigoCookbook #quiet #analog-future #editorial #using #warm #cream #paper #oversized #neo-grotesk #typography #strict #rules #retro #technology #still #life #pale-blue #translucent #interface #botanical #foreground #accents #tiny #bilingual #information
 **触发词**：Soft Analog Future Editorial Poster  
 **适用场景**：A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

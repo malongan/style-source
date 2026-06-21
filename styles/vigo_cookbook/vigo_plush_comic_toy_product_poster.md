@@ -1,6 +1,6 @@
 # Plush Comic Toy Product Poster Style
 
-**标签**：#VigoCookbook #A#loud#toy-product#poster#style#built#around#one#fuzzy#plush#product#hero,#retro#cream#poster#paper,#a#cyan#circular#backdrop,#oversized#slanted#comic#typography,#thick#black#shadows,#doodle#annotations,#sticker#labels,#lightning#graphics,#and#dense#campaign#microcopy.  
+**标签**：#VigoCookbook #loud #toy-product #around #one #fuzzy #plush #product #hero #retro #cream #paper #cyan #circular #backdrop #oversized #slanted #comic #typography #thick #shadows #doodle #annotations #sticker #labels #lightning #graphics #campaign #microcopy
 **触发词**：Plush Comic Toy Product Poster Style  
 **适用场景**：A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

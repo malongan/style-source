@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""将 dist/gallery.html 推送到 malongan/style-gallery 仓库。"""
+"""⚠️ 已废弃（2026-06-20）：style-gallery 仓库已归档，不再需要部署。
+GitHub Pages 直接使用 style-source 仓库的 gallery.html。"""
 import os
 import subprocess
 import sys

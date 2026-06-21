@@ -1,6 +1,6 @@
 # K-Pop Apocalypse Ransom Zine Style
 
-**标签**：#VigoCookbook #A#maximalist#K-pop#fashion#zine#collage#style#built#from#a#central#portrait#cutout,#crumpled#monochrome#paper#texture,#skewed#ransom-note#typography,#loud#sticker#blocks,#saturated#lime/blue/red#accents,#and#a#bold#bottom#masthead#band.  
+**标签**：#VigoCookbook #maximalist #K-pop #fashion #zine #collage #central #portrait #crumpled #monochrome #paper #skewed #ransom-note #typography #loud #sticker #blocks #saturated #lime/blue/red #accents #bold #bottom #masthead #band
 **触发词**：K-Pop Apocalypse Ransom Zine Style  
 **适用场景**：A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red accents, and a bold bottom masthead band.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

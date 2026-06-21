@@ -1,6 +1,6 @@
 # Surreal Fish Doodle Landmark Photo Collage Style
 
-**标签**：#VigoCookbook #A#bright#travel-photo#collage#style#that#overlays#giant#flat#2D#cartoon#travelers,#fantastical#folk-art#fish,#black#marker#loops,#splash#marks,#and#comic#starbursts#onto#realistic#landmark#photography.  
+**标签**：#VigoCookbook #bright #travel-photo #collage #overlays #giant #flat #2D #cartoon #travelers #fantastical #folk-art #fish #marker #loops #splash #marks #comic #starbursts #onto #realistic #landmark #photography
 **触发词**：Surreal Fish Doodle Landmark Photo Collage Style  
 **适用场景**：A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts onto realistic landmark photography.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

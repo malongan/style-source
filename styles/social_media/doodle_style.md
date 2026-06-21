@@ -1,6 +1,6 @@
 # Cozy Bedroom Doodle Companion Snapshot Style
 
-**标签**：#VigoCookbook #A#candid#low-light#home#photo#style#with#a#large#flat#2D#cushion-doll#companion#composited#into#the#lower#foreground,#creating#a#quiet#late-night#creative#diary#mood#with#warm#room#texture,#screen#glow,#and#tiny#handwritten#doodle#marks.  
+**标签**：#VigoCookbook #candid #low-light #home #photo #large #flat #2D #cushion-doll #companion #composited #into #lower #foreground #creating #quiet #late-night #creative #diary #mood #warm #room #screen #tiny #handwritten #doodle #marks
 **触发词**：Cozy Bedroom Doodle Companion Snapshot Style  
 **适用场景**：A candid low-light home photo style with a large flat 2D cushion-doll companion composited into the lower foreground, creating a quiet late-night creative diary mood with warm room texture, screen glow, and tiny handwritten doodle marks.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

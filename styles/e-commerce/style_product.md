@@ -1,6 +1,6 @@
 # Electric Blue Silhouette Product Launch Style
 
-**标签**：#VigoCookbook #minimal#dark#consumer-electronics#launch#poster,#blue#silhouette#product#teaser,#premium#social#product#announcement  
+**标签**：#VigoCookbook #minimal #dark #consumer-electronics #launch #silhouette #product #teaser #premium #announcement
 **触发词**：Electric Blue Silhouette Product Launch Style  
 **适用场景**：A sparse premium consumer-tech launch poster style built from black negative space, a centered product silhouette, electric-blue rim lighting, a glowing horizontal platform, soft reflection, giant cropped blue background typography, and clean white announcement copy.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

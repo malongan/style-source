@@ -1,6 +1,6 @@
 # Analog Sticker Diary Portrait Poster Style
 
-**标签**：#VigoCookbook #A#nostalgic#analog#diary-collage#portrait#system#with#a#large#side-profile#illustrated#subject,#cream#graph-paper#background,#sticker-like#personal#objects,#distressed#orange#hand#lettering,#and#heavy#scanned#print#texture.  
+**标签**：#VigoCookbook #nostalgic #diary-collage #portrait #large #side-profile #illustrated #subject #cream #graph-paper #background #sticker-like #personal #objects #distressed #orange #hand #lettering #heavy #scanned
 **触发词**：Analog Sticker Diary Portrait Poster Style  
 **适用场景**：A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and heavy scanned print texture.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

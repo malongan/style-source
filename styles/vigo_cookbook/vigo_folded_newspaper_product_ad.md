@@ -1,6 +1,6 @@
 # Folded Newspaper Product Ad Style
 
-**标签**：#VigoCookbook #folded#newspaper#advertorial#with#photorealistic#product#hero  
+**标签**：#VigoCookbook #folded #newspaper #advertorial #photorealistic #product #hero
 **触发词**：Folded Newspaper Product Ad Style  
 **适用场景**：A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

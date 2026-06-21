@@ -1,6 +1,6 @@
 # Impact Burst Halftone Comic Poster Style
 
-**标签**：#VigoCookbook #A#loud#retro#comic#poster#system#built#from#thick#black#ink,#flat#high-saturation#colors,#oversized#impact#typography,#exaggerated#illustrated#subjects,#diagonal#props,#speech#bursts,#smoke#puffs,#halftone#dots,#and#distressed#screen-print#grain.  
+**标签**：#VigoCookbook #loud #retro #comic #thick #ink #flat #high-saturation #colors #oversized #typography #exaggerated #illustrated #subjects #diagonal #speech #bursts #smoke #halftone #distressed #screen-print #grain
 **触发词**：Impact Burst Halftone Comic Poster Style  
 **适用场景**：A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

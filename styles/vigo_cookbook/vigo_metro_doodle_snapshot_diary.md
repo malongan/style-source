@@ -1,6 +1,6 @@
 # Metro Doodle Snapshot Diary
 
-**标签**：#VigoCookbook #A#handheld#urban#transit#photo-collage#style#combining#realistic#crowded#metro,#bus,#tram,#or#station#snapshots#with#expressive#marker-like#cartoon#doodles,#oversized#foreground#gestures,#white#handwritten#diary#notes,#and#saturated#comic#face#overlays.  
+**标签**：#VigoCookbook #handheld #urban #transit #photo-collage #combining #realistic #crowded #metro #bus #tram #station #snapshots #expressive #marker-like #cartoon #doodles #oversized #foreground #gestures #handwritten #diary #notes #saturated #comic #face #overlays
 **触发词**：Metro Doodle Snapshot Diary  
 **适用场景**：A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

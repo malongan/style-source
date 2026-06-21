@@ -1,6 +1,6 @@
 # Clean Triptych Travel Vlog Thumbnail Style
 
-**标签**：#VigoCookbook #A#clean#travel-vlog#thumbnail#system#built#from#three#vertical#photographic#panels,#oversized#lowercase#white#destination#type,#small#italic#travel#annotations,#sparse#hand-drawn#marks,#and#a#soft#phone-camera#editorial#finish.  
+**标签**：#VigoCookbook #clean #travel-vlog #thumbnail #three #vertical #photographic #oversized #lowercase #destination #type #small #italic #travel #annotations #sparse #hand-drawn #marks #soft #phone-camera #editorial #finish
 **触发词**：Clean Triptych Travel Vlog Thumbnail Style  
 **适用场景**：A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations, sparse hand-drawn marks, and a soft phone-camera editorial finish.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

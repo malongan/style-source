@@ -1,6 +1,6 @@
 # Playful Marker Grounding Poster Style
 
-**标签**：#VigoCookbook #naive#marker#poster#illustration#with#public-service#announcement#hierarchy  
+**标签**：#VigoCookbook #naive #marker #illustration #public-service #announcement #hierarchy
 **触发词**：Playful Marker Grounding Poster Style  
 **适用场景**：A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with clear public-service poster hierarchy.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

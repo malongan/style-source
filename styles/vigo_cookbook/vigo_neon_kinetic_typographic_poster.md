@@ -1,6 +1,6 @@
 # Neon Kinetic Typographic Poster
 
-**标签**：#VigoCookbook #A#dramatic#outdoor#editorial#poster#style#combining#low-angle#lifestyle#photography,#oversized#warped#neon#typography,#film#grain,#and#high-energy#youth-culture#campaign#design.  
+**标签**：#VigoCookbook #dramatic #outdoor #editorial #combining #low-angle #lifestyle #photography #oversized #warped #neon #typography #film #grain #high-energy #youth-culture #campaign
 **触发词**：Neon Kinetic Typographic Poster  
 **适用场景**：A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

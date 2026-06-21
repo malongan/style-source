@@ -1,6 +1,6 @@
 # Subway Doodle Photo Hybrid
 
-**标签**：#VigoCookbook #A#phone-shot#urban#transit#poster#style#combining#documentary#subway#or#street#transport#photography#with#expressive#hand-drawn#cartoon#overlays,#doodled#character#faces,#oversized#foreground#gestures,#handwritten#notes,#and#social#media#screenshot#texture.  
+**标签**：#VigoCookbook #phone-shot #urban #transit #combining #documentary #subway #street #transport #photography #expressive #hand-drawn #cartoon #overlays #doodled #character #faces #oversized #foreground #gestures #handwritten #notes #media #screenshot
 **触发词**：Subway Doodle Photo Hybrid  
 **适用场景**：A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

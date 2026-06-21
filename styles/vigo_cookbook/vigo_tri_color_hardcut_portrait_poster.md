@@ -1,6 +1,6 @@
 # Tri Color Hardcut Portrait Poster Style
 
-**标签**：#VigoCookbook #A#clean#three-color#hardcut#portrait#poster#style#using#flat#teal#background#fields,#coral-red#subject#planes,#and#near-black#silhouettes#or#shadows,#with#all#detail#reduced#into#large#hard-edged#vector-like#cutouts.  
+**标签**：#VigoCookbook #clean #three-color #hardcut #portrait #using #flat #teal #background #fields #coral-red #subject #planes #near-black #silhouettes #shadows #all #reduced #into #large #hard-edged #vector-like
 **触发词**：Tri Color Hardcut Portrait Poster Style  
 **适用场景**：A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged vector-like cutouts.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

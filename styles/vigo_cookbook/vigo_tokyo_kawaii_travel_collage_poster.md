@@ -1,6 +1,6 @@
 # Tokyo Kawaii Travel Collage Poster
 
-**标签**：#VigoCookbook #A#maximalist#Japanese#city-travel#collage#style#with#bold#destination#typography,#cute#sticker#elements,#manga#speech#bubbles,#cutout#fashion#photography,#halftone#urban#backgrounds,#and#scrapbook#editorial#layout.  
+**标签**：#VigoCookbook #maximalist #Japanese #city-travel #collage #bold #destination #typography #cute #sticker #elements #manga #speech #bubbles #fashion #photography #halftone #urban #backgrounds #scrapbook #editorial #layout
 **触发词**：Tokyo Kawaii Travel Collage Poster  
 **适用场景**：A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook editorial layout.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

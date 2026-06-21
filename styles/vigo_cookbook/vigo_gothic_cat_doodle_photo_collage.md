@@ -1,6 +1,6 @@
 # Gothic Cat Doodle Photo Collage Style
 
-**标签**：#VigoCookbook #A#playful#photo-illustration#collage#style#combining#dramatic#real#architectural#photography#with#oversized#flat#cartoon#creature#overlays,#bubbly#hand-drawn#headline#lettering,#and#loose#marker#doodles.  
+**标签**：#VigoCookbook #playful #photo-illustration #collage #combining #dramatic #real #architectural #photography #oversized #flat #cartoon #creature #overlays #bubbly #hand-drawn #headline #lettering #loose #marker #doodles
 **触发词**：Gothic Cat Doodle Photo Collage Style  
 **适用场景**：A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker doodles.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

@@ -1,6 +1,6 @@
 # Photo Illustration Overlay Poster
 
-**标签**：#VigoCookbook #A#realistic#city#photograph#with#an#oversized,#high-saturation,#flat#2D#cartoon#figure#composited#on#top,#plus#hand-drawn#stars,#sparks,#arrows,#and#comic#marks.  
+**标签**：#VigoCookbook #realistic #city #photograph #oversized #high-saturation #flat #2D #cartoon #figure #composited #on #top #plus #hand-drawn #stars #sparks #arrows #comic #marks
 **触发词**：Photo Illustration Overlay Poster  
 **适用场景**：A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

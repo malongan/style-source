@@ -1,6 +1,6 @@
 # Pop Bubble Letter Photo Poster Style
 
-**标签**：#VigoCookbook #A#punchy#photo-and-illustration#poster#style#built#around#a#central#low-angle#fashion#portrait#framed#by#oversized#flat#bubble-letter#shapes,#saturated#candy#colors,#thick#black#outlines,#oval#highlights,#and#crisp#sparkle#marks.  
+**标签**：#VigoCookbook #punchy #photo-and-illustration #around #central #low-angle #fashion #portrait #framed #oversized #flat #bubble-letter #shapes #saturated #candy #colors #thick #outlines #oval #highlights #crisp #sparkle #marks
 **触发词**：Pop Bubble Letter Photo Poster Style  
 **适用场景**：A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval highlights, and crisp sparkle marks.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

@@ -1,6 +1,6 @@
 # Halftone Assemblage Metaphor PSA Poster Style
 
-**标签**：#VigoCookbook #retro#environmental#PSA#poster#using#symbolic#object#assemblage  
+**标签**：#VigoCookbook #retro #environmental #PSA #using #symbolic #object #assemblage
 **触发词**：Halftone Assemblage Metaphor PSA Poster Style  
 **适用场景**：A sparse retro PSA poster system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper with compact red-and-navy campaign typography.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

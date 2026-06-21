@@ -1,6 +1,6 @@
 # Backseat Transit Doodle Letter Poster Style
 
-**标签**：#VigoCookbook #A#realistic#passenger-seat#transport#photo#transformed#into#a#high-energy#travel#poster#with#a#central#rear-view#subject,#electric#yellow#silhouette#halo,#oversized#yellow-orange#hand-drawn#letters,#comic#rays,#purple#music#marks,#sticker#icons,#and#cyan-white#cloud#swooshes.  
+**标签**：#VigoCookbook #realistic #passenger-seat #transport #photo #transformed #into #high-energy #travel #central #rear-view #subject #electric #silhouette #halo #oversized #yellow-orange #hand-drawn #letters #comic #rays #purple #music #marks #sticker #icons #cyan-white #cloud #swooshes
 **触发词**：Backseat Transit Doodle Letter Poster Style  
 **适用场景**：A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

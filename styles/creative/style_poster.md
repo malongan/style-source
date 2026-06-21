@@ -1,6 +1,6 @@
 # Folded Diamond Perspective Type Poster Style
 
-**标签**：#VigoCookbook #A#bold#minimalist#editorial#poster#style#using#low-angle#hero#photography#inside#a#diamond#aperture,#folded#tan#paper#or#canvas#planes,#and#oversized#white#perspective#typography#printed#across#the#lower#surface.  
+**标签**：#VigoCookbook #bold #minimalist #editorial #using #low-angle #hero #photography #inside #diamond #aperture #folded #tan #paper #canvas #planes #oversized #perspective #typography #printed #across #lower #surface
 **触发词**：Folded Diamond Perspective Type Poster Style  
 **适用场景**：A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across the lower surface.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

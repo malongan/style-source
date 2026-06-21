@@ -1,6 +1,6 @@
 # Playful Mascot Doodle Snapshot Style
 
-**标签**：#VigoCookbook #A#casual#real-life#social#photo#transformed#into#a#playful#poster#by#layering#original#cartoon#mascot#stickers,#hand-drawn#outlines,#ribbon#headline#panels,#sparkles,#spirals,#and#sketchy#decorative#marks#over#the#photographic#scene.  
+**标签**：#VigoCookbook #casual #real-life #photo #transformed #into #playful #layering #original #cartoon #mascot #stickers #hand-drawn #outlines #ribbon #headline #sparkles #spirals #sketchy #decorative #marks #over #photographic #scene
 **触发词**：Playful Mascot Doodle Snapshot Style  
 **适用场景**：A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative marks over the photographic scene.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

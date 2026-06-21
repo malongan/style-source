@@ -1,6 +1,6 @@
 # Blue Bubble Fisheye Action Poster Style
 
-**标签**：#VigoCookbook #A#crisp#white#youth-culture#action#poster#style#with#a#rectangular#fisheye#photograph,#oversized#rounded#royal-blue#display#typography,#frame-breaking#foreground#scale,#small#blue#editorial#captions,#and#one#red#hand-drawn#annotation#circle.  
+**标签**：#VigoCookbook #crisp #youth-culture #action #rectangular #fisheye #photograph #oversized #rounded #royal-blue #display #typography #frame-breaking #foreground #small #editorial #captions #one #hand-drawn #annotation #circle
 **触发词**：Blue Bubble Fisheye Action Poster Style  
 **适用场景**：A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions, and one red hand-drawn annotation circle.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

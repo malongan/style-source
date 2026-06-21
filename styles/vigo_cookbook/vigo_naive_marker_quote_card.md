@@ -1,6 +1,6 @@
 # Naive Marker Quote Card Style
 
-**标签**：#VigoCookbook #Naive#hand-marker#absurdist#poster#illustration.  
+**标签**：#VigoCookbook #Naive #hand-marker #absurdist #illustration
 **触发词**：Naive Marker Quote Card Style  
 **适用场景**：A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag rendered as flat naive illustration.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

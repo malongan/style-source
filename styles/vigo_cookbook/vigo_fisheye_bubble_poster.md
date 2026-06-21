@@ -1,6 +1,6 @@
 # Sunburst Fisheye Bubble Type Poster Style
 
-**标签**：#VigoCookbook #An#ultra-low-angle#fisheye#summer#lifestyle#poster#style#with#a#close#photographic#subject,#saturated#cobalt#sky,#huge#arched#lemon-yellow#bubble#typography,#warm#orange#type#shading,#Y2K#accessories,#and#heavy#analog#grain.  
+**标签**：#VigoCookbook #ultra-low-angle #fisheye #summer #lifestyle #close #photographic #subject #saturated #cobalt #sky #huge #arched #lemon-yellow #bubble #typography #warm #orange #type #shading #Y2K #accessories #heavy #grain
 **触发词**：Sunburst Fisheye Bubble Type Poster Style  
 **适用场景**：An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories, and heavy analog grain.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

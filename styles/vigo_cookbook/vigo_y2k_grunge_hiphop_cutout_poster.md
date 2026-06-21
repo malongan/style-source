@@ -1,6 +1,6 @@
 # Y2K Grunge Hip-Hop Cutout Poster Style
 
-**标签**：#VigoCookbook #A#Y2K#grunge#hip-hop#magazine#collage#poster#style#built#from#oversized#photo#cutouts,#acid#yellow#retro#typography,#rough#black-and-white#wall#textures,#dense#editorial#footer#panels,#and#photocopied#print#noise.  
+**标签**：#VigoCookbook #Y2K #grunge #hip-hop #magazine #collage #oversized #photo #acid #retro #typography #black-and-white #textures #editorial #footer
 **触发词**：Y2K Grunge Hip-Hop Cutout Poster Style  
 **适用场景**：A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied print noise.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

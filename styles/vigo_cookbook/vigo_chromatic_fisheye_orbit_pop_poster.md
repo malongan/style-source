@@ -1,6 +1,6 @@
 # Chromatic Fisheye Orbit Pop Poster Style
 
-**标签**：#VigoCookbook #A#high-key#pop#poster#system#built#from#extreme#fisheye#photography,#a#convex#glass-dome#center,#oversized#orbiting#typography,#hot#red-magenta-orange#letter#fills,#aqua#chromatic#light#arcs,#and#light#analog#print#texture.  
+**标签**：#VigoCookbook #high-key #pop #extreme #fisheye #photography #convex #glass-dome #oversized #orbiting #typography #red-magenta-orange #fills #aqua #chromatic
 **触发词**：Chromatic Fisheye Orbit Pop Poster Style  
 **适用场景**：A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and light analog print texture.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  

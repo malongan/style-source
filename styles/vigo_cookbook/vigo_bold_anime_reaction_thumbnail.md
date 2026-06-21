@@ -1,6 +1,6 @@
 # Bold Anime Reaction Thumbnail Style
 
-**标签**：#VigoCookbook #A#high-impact#anime#web-thumbnail#system#with#oversized#reaction#characters,#bold#yellow#headline#typography,#hard#black#shadows,#split-screen#framing,#a#smaller#glowing#action#insert,#and#clean#cel-shaded#illustration.  
+**标签**：#VigoCookbook #high-impact #anime #web-thumbnail #oversized #reaction #characters #bold #headline #typography #hard #shadows #split-screen #framing #smaller #glowing #action #insert #clean #cel-shaded #illustration
 **触发词**：Bold Anime Reaction Thumbnail Style  
 **适用场景**：A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean cel-shaded illustration.  
 **比例**：16:9 / 4:5 / 3:4 / 9:16  
