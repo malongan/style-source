@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AI 创意工作流 · 多 Agent 协作体系</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","PingFang SC","Helvetica Neue",sans-serif;background:#0a0a0f;color:#e8e6e3;line-height:1.7}
+:root{--bg-primary:#0a0a0f;--bg-card:#12121a;--bg-card-hover:#1a1a28;--border:#2a2a3a;--text-primary:#e8e6e3;--text-secondary:#908d9a;--text-muted:#5a5766;--accent-gold:#d4a574;--accent-teal:#5bc0be;--accent-purple:#8b7ec8;--accent-orange:#e8915a;--accent-red:#e05a5a}
+h1{font-size:clamp(2.2rem,5vw,4rem);font-weight:700;letter-spacing:-.03em}
+h2{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:600;letter-spacing:-.02em;margin-bottom:12px}
+h3{font-size:1.2rem;font-weight:600}
+p{color:var(--text-secondary);max-width:640px}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.section{padding:80px 0;border-bottom:1px solid var(--border)}
+.section-header{text-align:center;margin-bottom:56px}
+.section-header p{margin:0 auto}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(180deg,#0a0a0f,#12121a);position:relative;overflow:hidden;padding:80px 24px}
+.hero::before{content:"";position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(ellipse at 30% 20%,rgba(212,165,116,.06) 0%,transparent 50%),radial-gradient(ellipse at 70% 80%,rgba(91,192,190,.04) 0%,transparent 50%);pointer-events:none}
+.hero-content{position:relative;z-index:1;max-width:800px}
+.hero-badge{display:inline-block;padding:6px 16px;border:1px solid var(--accent-gold);border-radius:20px;font-size:.8rem;color:var(--accent-gold);margin-bottom:24px;letter-spacing:.08em}
+.hero-subtitle{font-size:1.1rem;color:var(--text-secondary);margin:20px auto 40px;max-width:600px}
+.btn{padding:12px 28px;border-radius:8px;font-size:.9rem;font-weight:500;cursor:pointer;transition:all .3s;border:none;text-decoration:none;display:inline-flex;gap:8px}
+.btn-primary{background:linear-gradient(135deg,#d4a574,#e8c9a8);color:#0a0a0f}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(212,165,116,.3)}
+.btn-outline{background:transparent;border:1px solid var(--border);color:var(--text-primary)}
+.btn-outline:hover{border-color:var(--accent-gold);color:var(--accent-gold)}
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px;margin-top:60px}
+.stat-card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:28px 20px;text-align:center;transition:all .3s}
+.stat-card:hover{background:var(--bg-card-hover);transform:translateY(-2px)}
+.stat-num{font-size:2.4rem;font-weight:700;background:linear-gradient(135deg,#d4a574,#e8c9a8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.stat-label{font-size:.85rem;color:var(--text-muted);margin-top:4px}
+.grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:24px}
+.grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:32px;transition:all .3s}
+.card:hover{background:var(--bg-card-hover);transform:translateY(-3px);box-shadow:0 4px 24px rgba(0,0,0,.4)}
+.card-icon{font-size:2rem;margin-bottom:16px}
+.card h3{margin-bottom:8px}
+.card p{font-size:.9rem}
+.card-tag{display:inline-block;padding:2px 10px;border-radius:6px;font-size:.75rem;font-weight:500;margin-bottom:12px}
+.tag-gold{background:rgba(212,165,116,.15);color:var(--accent-gold)}
+.tag-teal{background:rgba(91,192,190,.15);color:var(--accent-teal)}
+.tag-purple{background:rgba(139,126,200,.15);color:var(--accent-purple)}
+.tag-orange{background:rgba(232,145,90,.15);color:var(--accent-orange)}
+.tag-red{background:rgba(224,90,90,.15);color:var(--accent-red)}
+.flow-section{padding:100px 0}
+.flow-steps{display:flex;flex-direction:column;gap:0;max-width:900px;margin:0 auto;position:relative}
+.flow-steps::before{content:"";position:absolute;left:32px;top:40px;bottom:40px;width:2px;background:linear-gradient(180deg,var(--accent-gold),var(--accent-teal),var(--accent-purple))}
+.flow-step{display:flex;gap:28px;padding:24px 0;position:relative}
+.flow-num{width:64px;height:64px;min-width:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem;border:2px solid var(--border);background:var(--bg-primary);z-index:1}
+.flow-step:nth-child(1) .flow-num{border-color:var(--accent-gold);color:var(--accent-gold)}
+.flow-step:nth-child(2) .flow-num{border-color:var(--accent-teal);color:var(--accent-teal)}
+.flow-step:nth-child(3) .flow-num{border-color:var(--accent-purple);color:var(--accent-purple)}
+.flow-step:nth-child(4) .flow-num{border-color:var(--accent-orange);color:var(--accent-orange)}
+.flow-step:nth-child(5) .flow-num{border-color:var(--accent-red);color:var(--accent-red)}
+.flow-body{flex:1;padding-top:8px}
+.flow-body h3{margin-bottom:4px}
+.flow-body p{font-size:.9rem}
+.flow-body .tiny-detail{font-size:.8rem;color:var(--text-muted);margin-top:8px}
+.flow-body code{font-size:.8rem;background:rgba(255,255,255,.05);padding:2px 8px;border-radius:4px;color:var(--accent-gold)}
+.agent-avatars{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;margin:40px 0}
+.agent-card{text-align:center;padding:32px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:16px;transition:all .3s}
+.agent-card:hover{background:var(--bg-card-hover);transform:translateY(-3px)}
+.agent-avatar{width:80px;height:80px;border-radius:50%;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:2rem;border:2px solid var(--border)}
+.agent-avatar.gold{border-color:var(--accent-gold)}
+.agent-avatar.teal{border-color:var(--accent-teal)}
+.agent-avatar.purple{border-color:var(--accent-purple)}
+.agent-card h4{color:var(--text-primary);margin-bottom:4px}
+.agent-card p{font-size:.8rem;color:var(--text-muted)}
+.agent-duties{text-align:left;margin-top:12px;padding-top:12px;border-top:1px solid var(--border)}
+.agent-duties li{font-size:.8rem;color:var(--text-muted);list-style:none;padding:2px 0}
+.agent-duties li::before{content:"\2192 ";color:var(--accent-gold)}
+.ip-table-wrap{overflow-x:auto;background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-top:24px}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th{text-align:left;padding:10px 16px;color:var(--accent-gold);font-weight:500;border-bottom:1px solid var(--border);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}
+td{padding:10px 16px;border-bottom:1px solid rgba(42,42,58,.5);color:var(--text-secondary)}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.02)}
+.url-cell{font-size:.75rem;color:var(--text-muted);max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.url-list{display:flex;flex-direction:column;gap:8px}
+.url-item{display:flex;align-items:center;gap:12px;padding:12px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;font-size:.85rem;transition:all .3s}
+.url-item:hover{background:var(--bg-card-hover)}
+.url-label{color:var(--accent-gold);white-space:nowrap;font-weight:500;min-width:80px}
+.url-value{color:var(--text-muted);word-break:break-all}
+.code-block{background:rgba(255,255,255,.03);border-radius:8px;padding:16px;margin-top:12px;font-size:.8rem;color:var(--text-muted);font-family:monospace;line-height:1.8}
+.result-block{margin-top:8px;font-size:.85rem;color:var(--accent-gold);font-weight:500}
+.footer{text-align:center;padding:40px 24px;color:var(--text-muted);font-size:.8rem}
+.fade-in{opacity:0;transform:translateY(20px);transition:all .6s ease}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+@media(max-width:768px){.section{padding:48px 0}.flow-steps::before{left:20px}.flow-num{width:44px;height:44px;min-width:44px;font-size:1rem}.grid-2,.grid-3{grid-template-columns:1fr}.card{padding:24px}}
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">MULTI-AGENT SYSTEM v1.0</div>
+    <h1>AI 创意工作流</h1>
+    <p class="hero-subtitle">三位 AI Agent 协作 — 从灵感收集、风格管理、角色设计到最终出图，<br>全流程自动化，打造可复用的创意资产系统。</p>
+    <div class="hero-cta"><a href="#overview" class="btn btn-primary">了解体系</a><a href="#workflow" class="btn btn-outline">工作流</a><a href="#access" class="btn btn-outline">入口</a></div>
+    <div class="stats-row">
+      <div class="stat-card"><div class="stat-num">3</div><div class="stat-label">AI Agent</div></div>
+      <div class="stat-card"><div class="stat-num">7</div><div class="stat-label">IP 角色</div></div>
+      <div class="stat-card"><div class="stat-num">139</div><div class="stat-label">风格模板</div></div>
+      <div class="stat-card"><div class="stat-num">3</div><div class="stat-label">GitHub 仓库</div></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="overview">
+  <div class="container">
+    <div class="section-header fade-in"><h2>体系总览</h2><p>三大核心资产 + 三位 AI Agent，构成完整的创意生产管线</p></div>
+    <div class="grid-3">
+      <div class="card fade-in" style="border-left:3px solid var(--accent-gold)"><div class="card-tag tag-gold">资产层 · 风格库</div><div class="card-icon">🎨</div><h3>Style Gallery</h3><p style="color:var(--text-muted)">139 种 AI 绘画风格模板，涵盖国风、3D、插画、写实，每条风格附带完整提示词和预览图。</p></div>
+      <div class="card fade-in" style="border-left:3px solid var(--accent-teal)"><div class="card-tag tag-teal">资产层 · IP 库</div><div class="card-icon">🧸</div><h3>IP Gallery</h3><p style="color:var(--text-muted)">7 个 IP 角色，含品牌联名与个人原创。每个 IP 有参考图、预览图、生成规则。</p></div>
+      <div class="card fade-in" style="border-left:3px solid var(--accent-purple)"><div class="card-tag tag-purple">驱动层 · AI Agent</div><div class="card-icon">🤖</div><h3>三 Agent 协作</h3><p style="color:var(--text-muted)">设计师生图、策划师文案、GitHub 助手仓库管理和发布，各司其职高效配合。</p></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="agents">
+  <div class="container">
+    <div class="section-header fade-in"><h2>三位 Agent · 各司其职</h2><p>每个 Agent 拥有独立工作区，通过消息机制协作</p></div>
+    <div class="agent-avatars">
+      <div class="agent-card fade-in"><div class="agent-avatar gold">👤</div><h4>GitHub Manager</h4><p style="color:var(--text-muted)">仓库管理 · 发布 · 同步</p><ul class="agent-duties"><li>管理 style-source / ip-gallery / ip-library 仓库</li><li>运行 generate_data.py 自动生成数据</li><li>WebP 图片转换 + 推送 GitHub</li><li>维护 IP 库档案 + 自动同步 PROFILE</li><li>更新 GitHub Pages 预览页</li></ul></div>
+      <div class="agent-card fade-in"><div class="agent-avatar teal">🎨</div><h4>Painter · 设计师</h4><p style="color:var(--text-muted)">AI 生图 · 风格收集</p><ul class="agent-duties"><li>调用 Tuzi API 图生图 / 文生图</li><li>从推文/即梦提取提示词 + 生成风格文件</li><li>IP 角色生成（图生图 + 一致性保持）</li><li>海报 / KV / Banner 设计</li><li>生图后提交给 GitHub Manager 发布</li></ul></div>
+      <div class="agent-card fade-in"><div class="agent-avatar purple">✍️</div><h4>Content Creator · 策划师</h4><p style="color:var(--text-muted)">文案 · 创意策划</p><ul class="agent-duties"><li>电商活动 KV 文案策划</li><li>品牌推广主题创意</li><li>主标题 + Slogan + 画面描述</li><li>色彩建议 + 多方案对比</li><li>通过 GitHub Manager 查询 IP 档案</li></ul></div>
+    </div>
+  </div>
+</section>
+<section class="flow-section" id="workflow">
+  <div class="container">
+    <div class="section-header fade-in"><h2>完整工作流</h2><p>从灵感到上线，五步完成</p></div>
+    <div class="flow-steps">
+      <div class="flow-step fade-in"><div class="flow-num">S1</div><div class="flow-body"><div class="card-tag tag-gold">收集 · Painter</div><h3>灵感 → 风格文件 + 预览图</h3><p style="color:var(--text-muted)">设计师从推文/即梦/Meigen 收集提示词，生成 .md 风格文件和预览图，存入 style-source/styles/。</p><div class="tiny-detail"><code>prompt-collector</code> · <code>jimeng_extractor.py</code></div></div></div>
+      <div class="flow-step fade-in"><div class="flow-num">S2</div><div class="flow-body"><div class="card-tag tag-teal">策划 · Content Creator</div><h3>需求 → 文案方案</h3><p style="color:var(--text-muted)">策划师输出 2-3 个方案（标题、Slogan、画面描述、色彩），通过 GitHub Manager 查询 IP 档案。</p><div class="tiny-detail"><code>chat_with_agent</code> → 查 IP 特征 + 生成规则</div></div></div>
+      <div class="flow-step fade-in"><div class="flow-num">S3</div><div class="flow-body"><div class="card-tag tag-purple">设计 · Painter</div><h3>方案 → 图生图</h3><p style="color:var(--text-muted)">设计师带 IP 参考图做图生图，保持角色特征一致性，生成最终图片。</p><div class="tiny-detail"><code>ip-kv-design-v3</code> · 只写风格/动作，不写外貌</div></div></div>
+      <div class="flow-step fade-in"><div class="flow-num">S4</div><div class="flow-body"><div class="card-tag tag-orange">提交 · Painter → GitHub Manager</div><h3>生图路径 → 提交给我</h3><p style="color:var(--text-muted)">设计师通过 chat_with_agent 把图片路径发给我，我处理 WebP 转换和后续操作。</p><div class="tiny-detail"><code>chat_with_agent(to_agent="github-manager")</code> · 600s 超时</div></div></div>
+      <div class="flow-step fade-in"><div class="flow-num">S5</div><div class="flow-body"><div class="card-tag tag-red">上线 · GitHub Manager</div><h3>数据生成 → Gallery 更新 → 上线</h3><p style="color:var(--text-muted)">运行 generate_data.py + build_gallery.py，创建 PR，更新 GitHub Pages。</p><div class="tiny-detail"><code>git push</code> · GitHub Pages 自动部署</div></div></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="collab">
+  <div class="container">
+    <div class="section-header fade-in"><h2>协作模式</h2><p>Agent 之间如何通信与配合</p></div>
+    <div class="grid-2">
+      <div class="card fade-in"><div class="card-tag tag-gold">查询 IP 档案</div><h3>设计师 / 策划师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager", text="查一下 IP002 莉莉的档案")</div><div class="result-block">返回：角色特征、生成规则、参考图 URL</div></div>
+      <div class="card fade-in"><div class="card-tag tag-teal">替换封面 / 发布</div><h3>设计师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager", text="替换 IP007 大耳狗封面：/path/to/img.png", timeout=600)</div><div class="result-block">我转 WebP、更新预览图、Push</div></div>
+      <div class="card fade-in"><div class="card-tag tag-purple">策划方案</div><h3>设计师 → 策划师</h3><div class="code-block">chat_with_agent(to_agent="content-creator", text="为 IP003 芒果仔策划露营主题 KV...")</div><div class="result-block">返回：2-3 个完整文案方案</div></div>
+      <div class="card fade-in"><div class="card-tag tag-orange">更新风格页面</div><h3>设计师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager", text="新风格已就绪，请更新页面")</div><div class="result-block">运行 generate_data.py → build_gallery.py → PR</div></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="ip-table">
+  <div class="container">
+    <div class="section-header fade-in"><h2>IP 角色一览</h2><p>已入库的 7 个 IP 角色</p></div>
+    <div class="ip-table-wrap fade-in"><table><thead><tr><th>编号</th><th>名称</th><th>品牌</th><th>类型</th><th>参考图 URL</th></tr></thead><tbody>
+      <tr><td>IP001</td><td>古茗云岭茉莉</td><td>古茗</td><td>商品IP</td><td class="url-cell">ip-gallery/images/reference/guming_moli_reference.webp</td></tr>
+      <tr><td>IP002</td><td>莉莉</td><td>个人IP</td><td>角色IP</td><td class="url-cell">ip-gallery/images/reference/lili_reference.webp</td></tr>
+      <tr><td>IP003</td><td>芒果仔</td><td>芒果TV</td><td>品牌IP</td><td class="url-cell">ip-gallery/images/reference/mangguozai_reference.webp</td></tr>
+      <tr><td>IP004</td><td>马奇</td><td>个人IP</td><td>角色IP</td><td class="url-cell">ip-gallery/images/reference/maqi_reference.webp</td></tr>
+      <tr><td>IP005</td><td>猕猴仔</td><td>爱奇艺</td><td>品牌IP</td><td class="url-cell">ip-gallery/images/reference/mihouzi_reference.webp</td></tr>
+      <tr><td>IP006</td><td>云一朵</td><td>百度网盘</td><td>角色IP</td><td class="url-cell">ip-gallery/images/reference/yunyi_reference.webp</td></tr>
+      <tr><td>IP007</td><td>大耳狗</td><td>三丽鸥（Sanrio）</td><td>角色IP</td><td class="url-cell">ip-gallery/images/reference/da_er_gou_reference.webp</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+<section class="section" id="access">
+  <div class="container">
+    <div class="section-header fade-in"><h2>访问入口</h2><p>所有在线资源的访问地址</p></div>
+    <div class="url-list">
+      <div class="url-item fade-in"><span class="url-label">🎨 风格库</span><span class="url-value">https://malongan.github.io/style-source/gallery.html</span></div>
+      <div class="url-item fade-in"><span class="url-label">📊 风格数据</span><span class="url-value">https://malongan.github.io/style-source/data/styles.json</span></div>
+      <div class="url-item fade-in"><span class="url-label">🧸 IP Gallery</span><span class="url-value">https://malongan.github.io/ip-gallery/</span></div>
+      <div class="url-item fade-in"><span class="url-label">📁 ip-library</span><span class="url-value">https://github.com/malongan/ip-library</span></div>
+      <div class="url-item fade-in"><span class="url-label">📁 ip-gallery</span><span class="url-value">https://github.com/malongan/ip-gallery</span></div>
+      <div class="url-item fade-in"><span class="url-label">📁 style-source</span><span class="url-value">https://github.com/malongan/style-source</span></div>
+    </div>
+  </div>
+</section>
+<div class="footer"><p>AI 创意工作流 · Multi-Agent System · 2026</p><p style="margin-top:4px;font-size:.7rem">Powered by QwenPaw · 三 Agent 协作体系</p></div>
+<script>
+(function() {
+  var observer = new IntersectionObserver(function(e) {
+    e.forEach(function(entry) {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(function(el) { observer.observe(el); });
+})();
+</script>
+</body>
+</html>
