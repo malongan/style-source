@@ -306,7 +306,7 @@ body::after{
       <p>每个 Agent 拥有独立工作区和专业知识，通过消息机制协作</p>
     </div>
     <div class="agent-grid">
-      <div class="agent-card fade-in"><div class="agent-avatar blue">👤</div><h4>GitHub Manager</h4><p class="role">仓库管理 · 发布 · 同步</p><ul class="agent-duties"><li>管理 style-source / ip-gallery / ip-library 仓库</li><li>运行 generate_data.py 自动生成数据</li><li>WebP 图片转换 + 推送 GitHub</li><li>维护 IP 库档案 + 自动同步 PROFILE</li><li>更新 GitHub Pages 预览页</li></ul></div>
+      <div class="agent-card fade-in"><div class="agent-avatar blue">👤</div><h4>GitHub Manager</h4><p class="role">仓库管理 · 发布 · 同步</p><ul class="agent-duties"><li>管理 style-source / ip-gallery / ip-library 仓库</li><li>调用设计师收集提示词（新风格）</li><li>调用设计师生成 IP 头像/封面</li><li>运行 generate_data.py 自动生成数据</li><li>WebP 图片转换 + 推送 GitHub</li><li>维护 IP 库档案 + 自动同步 PROFILE</li></ul></div>
       <div class="agent-card fade-in"><div class="agent-avatar teal">🎨</div><h4>Painter · 设计师</h4><p class="role">AI 生图 · 风格收集</p><ul class="agent-duties"><li>调用 Tuzi API 图生图 / 文生图</li><li>从推文/即梦提取提示词 + 生成风格文件</li><li>IP 角色生成（图生图 + 一致性保持）</li><li>海报 / KV / Banner 设计</li><li>生图后提交给 GitHub Manager 发布</li></ul></div>
       <div class="agent-card fade-in"><div class="agent-avatar purple">✍️</div><h4>Content Creator · 策划师</h4><p class="role">文案 · 创意策划</p><ul class="agent-duties"><li>电商活动 KV 文案策划</li><li>品牌推广主题创意</li><li>主标题 + Slogan + 画面描述</li><li>色彩建议 + 多方案对比</li><li>通过 GitHub Manager 查询 IP 档案</li></ul></div>
     </div>
@@ -344,6 +344,8 @@ body::after{
       <div class="card fade-in"><div class="card-tag tag-teal">替换封面 / 发布</div><h3>设计师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager",<br>&nbsp;&nbsp;text="替换 IP007 大耳狗封面：/path/to/img.png",<br>&nbsp;&nbsp;timeout=600)</div><div class="code-result">我转 WebP、更新预览图、Push</div></div>
       <div class="card fade-in"><div class="card-tag tag-purple">策划方案</div><h3>设计师 → 策划师</h3><div class="code-block">chat_with_agent(to_agent="content-creator",<br>&nbsp;&nbsp;text="为 IP003 芒果仔策划露营主题 KV...")</div><div class="code-result">返回：2-3 个完整文案方案</div></div>
       <div class="card fade-in"><div class="card-tag tag-gold">更新风格页面</div><h3>设计师 → GitHub Manager</h3><div class="code-block">chat_with_agent(to_agent="github-manager",<br>&nbsp;&nbsp;text="新风格已就绪，请更新页面")</div><div class="code-result">运行 generate_data.py → build_gallery.py → PR</div></div>
+      <div class="card fade-in"><div class="card-tag tag-blue">风格收集 → 设计师</div><h3>GitHub Manager → 设计师</h3><div class="code-block">chat_with_agent(to_agent="painter",<br>&nbsp;&nbsp;text="收集这个提示词：https://x.com/xxx")</div><div class="code-result">设计师提取推文 → 生成风格文件 + 预览图 → 提交回 GitHub Manager</div></div>
+      <div class="card fade-in"><div class="card-tag tag-teal">创建 IP → 设计师</div><h3>GitHub Manager → 设计师</h3><div class="code-block">chat_with_agent(to_agent="painter",<br>&nbsp;&nbsp;text="请为 IP007 大耳狗生成一个 3D 卡通头像，浅蓝背景")</div><div class="code-result">设计师生图 → chat_with_agent 提交回 GitHub Manager → 我转 WebP → 更新封面</div></div>
     </div>
   </div>
 </section>
@@ -427,24 +429,26 @@ body::after{
     var sy = (img.height - rows*TILE)/2;
     ctx.imageSmoothingEnabled = false;
 
+    var GLOW_RADIUS = 9; // number of tiles in radius
+    var GLOW_TILES = GLOW_RADIUS * TILE;
     for(var r=0; r<rows; r++){
       for(var c=0; c<cols; c++){
         var px = c*TILE, py = r*TILE;
-        // Sample pixel color from image
-        ctx.drawImage(img, sx + c*TILE, sy + r*TILE, TILE, TILE, px, py, TILE, TILE);
-        // Get pixel
-        var pd = ctx.getImageData(px, py, 1, 1).data;
-        var gray = 0.34*pd[0] + 0.5*pd[1] + 0.16*pd[2];
         // Distance from mouse
         var dx = px + TILE/2 - mouseX;
         var dy = py + TILE/2 - mouseY;
         var dist = Math.sqrt(dx*dx + dy*dy);
-        var glow = Math.max(0, 1 - dist/200);
-        // Brightness: base gray + blue glow
-        var bright = Math.min(255, gray + glow*180);
-        var rv = Math.min(255, gray*0.6 + glow*200);
-        var gv = Math.min(255, gray*0.6 + glow*120);
-        var bv = Math.min(255, bright);
+        // Glow fades with distance, 0 = max glow, 1 = no glow
+        var glow = Math.max(0, 1 - dist/GLOW_TILES);
+        glow = glow * glow; // quadratic falloff for tighter circle
+        // Base is near-black (5% of image)
+        ctx.drawImage(img, sx + c*TILE, sy + r*TILE, TILE, TILE, px, py, TILE, TILE);
+        var pd = ctx.getImageData(px, py, 1, 1).data;
+        var gray = (0.34*pd[0] + 0.5*pd[1] + 0.16*pd[2]) * 0.05;
+        // Final color: dark base + blue glow circle
+        var bv = Math.min(255, gray + glow*200);
+        var gv = Math.min(255, gray + glow*100);
+        var rv = Math.min(255, gray + glow*40);
         ctx.fillStyle = 'rgb(' + Math.round(rv) + ',' + Math.round(gv) + ',' + Math.round(bv) + ')';
         ctx.fillRect(px, py, TILE, TILE);
       }
@@ -472,7 +476,7 @@ body::after{
 
 // ===== Load IP Data with pixelation =====
 (function(){
-  fetch('data.json').then(function(r){ return r.json(); }).then(function(data){
+  fetch('https://malongan.github.io/ip-gallery/data.json').then(function(r){ return r.json(); }).then(function(data){
     var ips = data.ips || [];
     var grid = document.getElementById('ipGrid');
     grid.innerHTML = ips.map(function(ip){
