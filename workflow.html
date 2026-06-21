@@ -182,7 +182,7 @@ body::after{content:'';position:fixed;top:0;left:0;right:0;bottom:0;background:r
 <div class="footer"><p>AI创意工作流·Multi-Agent System·2026</p></div>
 
 <script>
-// ===== 1. Hero: pure bright mosaic tiles =====
+// ===== 1. Hero: blue accent mosaic at 5% =====
 !function(){
   var c=document.getElementById('heroCanvas'); if(!c) return;
   var x=c.getContext('2d');
@@ -190,12 +190,11 @@ body::after{content:'';position:fixed;top:0;left:0;right:0;bottom:0;background:r
     var p=window.devicePixelRatio||1, W=window.innerWidth*p, H=window.innerHeight*p;
     c.width=W; c.height=H; c.style.width=window.innerWidth+'px'; c.style.height=window.innerHeight+'px';
     var t=Math.round(20*p), cols=Math.ceil(W/t), rows=Math.ceil(H/t);
-    // Light warm base
     x.fillStyle='#fff8f0'; x.fillRect(0,0,W,H);
-    // Bright colored tiles - warm tones only
-    var colors=['#fff8f0','#faf0e4','#f5ead8','#f0e4cc','#fae8d0','#f0dcc8','#fce8d8','#f8e8d0'];
+    // Blue accent tiles at 5% opacity
+    var blues=['rgba(74,122,158,0.05)','rgba(90,138,170,0.05)','rgba(60,110,150,0.05)','rgba(100,150,180,0.04)','rgba(80,130,165,0.05)'];
     for(var r=0;r<rows;r++) for(var co=0;co<cols;co++){
-      x.fillStyle=colors[Math.floor(Math.random()*colors.length)];
+      x.fillStyle=blues[Math.floor(Math.random()*blues.length)];
       x.fillRect(co*t,r*t,t+1,t+1);
     }
   }
