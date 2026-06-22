@@ -1,4 +1,4 @@
-共 142 个风格
+共 143 个风格
 
 ST0001 | Y3K Cool Girl Portrait | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | Y3K Beverage Poster | https://malongan.github.io/style-source/images/styles_previews/y3k_beverage_poster_673dffc0.webp
@@ -136,9 +136,10 @@ ST0133 | Chibi Q Version Character | https://malongan.github.io/style-source/ima
 ST0134 | Chang E Goddess | https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.webp
 ST0135 | Cartoon 3D Tv Icon | https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.webp
 ST0136 | Candy 3D Wonderland | https://malongan.github.io/style-source/images/styles_previews/candy_3d_wonderland_5e19f125.webp
-ST0137 | Bubble Card | https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.webp
-ST0138 | Brand Miniature Architecture | https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp
-ST0139 | Bloomberg Magazine | https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp
-ST0140 | Beverage Style | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
-ST0141 | Avantgarde Bw Poster | https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp
-ST0142 | 3D Cartoon Girls Grid | https://malongan.github.io/style-source/images/styles_previews/3d_cartoon_girls_grid_024986ab.webp
+ST0137 | C4D Toy Amusement Kv | https://malongan.github.io/style-source/images/styles_previews/c4d_toy_amusement_kv_67a371e3.webp
+ST0138 | Bubble Card | https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.webp
+ST0139 | Brand Miniature Architecture | https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp
+ST0140 | Bloomberg Magazine | https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp
+ST0141 | Beverage Style | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
+ST0142 | Avantgarde Bw Poster | https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp
+ST0143 | 3D Cartoon Girls Grid | https://malongan.github.io/style-source/images/styles_previews/3d_cartoon_girls_grid_024986ab.webp

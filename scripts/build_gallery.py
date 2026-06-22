@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""本地构建 gallery.html：读取 data/styles.json，生成 gallery.html（内联 CSS/JS + FALLBACK_DATA + 完整 UI 结构）。"""
+"""本地构建 gallery.html：读取 data/styles.json，生成 gallery.html（内联 CSS/JS + FALLBACK_DATA + 完整 UI 结构）。
+
+支持 --local 标志：将图片 URL 改为相对路径，便于本地预览。"""
 import json
 import os
 import shutil
@@ -358,9 +360,16 @@ function renderGallery(data) {{
 /** 从 JSON 或回退数据渲染 */
 async function loadGallery() {{
   try {{
-    const resp = await fetch('https://malongan.github.io/style-source/data/styles.json?t=' + Date.now());
+    const resp = await fetch('data/styles.json?t=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
+    // 本地预览：将图片 URL 改为相对路径
+    if (data && data.styles) {{
+      data.styles.forEach(function(s) {{
+        if (s.preview_webp) s.preview_webp = s.preview_webp.replace('https://malongan.github.io/style-source/', '');
+        if (s.preview_urls) s.preview_urls = s.preview_urls.map(function(u) {{ return u.replace('https://malongan.github.io/style-source/', ''); }});
+      }});
+    }}
     renderGallery(data);
   }} catch(e) {{
     console.warn('JSON 加载失败，使用备用数据', e);
@@ -382,6 +391,7 @@ loadGallery();
 def main():
     parser = argparse.ArgumentParser(description='构建 gallery.html')
     parser.add_argument('--output', default=GALLERY_HTML, help='输出路径')
+    parser.add_argument('--local', action='store_true', help='本地预览模式：图片URL改为相对路径')
     args = parser.parse_args()
 
     clean_dist()
@@ -395,6 +405,18 @@ def main():
 
     os.makedirs(os.path.dirname(args.output), exist_ok=True)
     build_gallery_html(data, args.output)
+
+    # 本地预览模式：替换图片URL为相对路径
+    if args.local:
+        with open(args.output, 'r', encoding='utf-8') as f:
+            html = f.read()
+        html = html.replace(
+            'https://malongan.github.io/style-source/images/',
+            'images/'
+        )
+        with open(args.output, 'w', encoding='utf-8') as f:
+            f.write(html)
+        print('  本地模式：图片URL已替换为相对路径')
 
 
 if __name__ == '__main__':

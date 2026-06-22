@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-23-g28e09f3",
-    "generated": "2026-06-22T08:52:44Z",
-    "total": 142,
+    "version": "v0.5.0-24-gbd59f05-dirty",
+    "generated": "2026-06-22T09:15:14Z",
+    "total": 143,
     "categories": [
       "brand_kv",
       "creative",
@@ -4852,6 +4852,43 @@
       "code": "ST0136"
     },
     {
+      "id": "c4d_toy_amusement_kv",
+      "name": "C4D Toy Amusement Kv",
+      "category": "creative",
+      "tags": [
+        "C4D",
+        "3D渲染",
+        "Q版潮玩",
+        "卡通",
+        "游乐园",
+        "梦幻",
+        "马卡龙",
+        "品牌KV",
+        "海报"
+      ],
+      "scene": "品牌活动KV主视觉、游乐园/嘉年华海报、夏日活动视觉、潮玩快闪、电商大促",
+      "ratio": "横版16:9 / 竖版9:16",
+      "summary": "C4D超写实3D渲染 × Q版潮玩卡通美学 × 梦幻云海游乐园海岛 = 青春活力的品牌活动KV主视觉。",
+      "features": [
+        "**C4D超写实3D渲染质感**：极致细腻材质，光泽通透，商业质感拉满",
+        "**Q版潮玩卡通美学**：圆润可爱的卡通造型，萌系IP形象，充满童趣活力",
+        "**马卡龙梦幻配色**：高亮度高饱和清新色调，天蓝/青蓝/亮白主色 + 活力红/暖黄/马卡龙粉/嫩绿点缀",
+        "**超广角极端透视**：鱼眼镜头效果，高角度俯视构图，主体居中占画面绝对核心",
+        "**奇幻云海场景**：云端海面上的梦幻游乐园海岛，蓬松云海环绕，马卡龙色渐变背景",
+        "**丰富游乐园元素**：摩天轮、过山车、旋转木马、热气球、卡通飞机，细节饱满不杂乱",
+        "**青春活力氛围**：明亮通透，动感十足，整体干净清爽，正能量满满"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/c4d_toy_amusement_kv_67a371e3.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/c4d_toy_amusement_kv_67a371e3.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/c4d_toy_amusement_kv_67a371e3.thumb.webp",
+      "variables": {},
+      "source_author": "Snow design（即梦）",
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7648736288576687411?workDetailType=Image&itemType=9",
+      "code": "ST0137"
+    },
+    {
       "id": "bubble_card",
       "name": "Bubble Card",
       "category": "social_media",
@@ -4880,7 +4917,7 @@
       "variables": {},
       "source_author": "用户提供",
       "source_url": "-",
-      "code": "ST0137"
+      "code": "ST0138"
     },
     {
       "id": "brand_miniature_architecture",
@@ -4914,7 +4951,7 @@
       "variables": {},
       "source_author": "PixuryAI",
       "source_url": "https://x.com/PixuryAI/status/2064892529997414815",
-      "code": "ST0138"
+      "code": "ST0139"
     },
     {
       "id": "bloomberg_magazine",
@@ -4949,7 +4986,7 @@
       "variables": {},
       "source_author": "AdrianPunk115",
       "source_url": "https://x.com/AdrianPunk115/status/2064593763327234113",
-      "code": "ST0139"
+      "code": "ST0140"
     },
     {
       "id": "beverage_style",
@@ -4977,7 +5014,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST0140"
+      "code": "ST0141"
     },
     {
       "id": "avantgarde_bw_poster",
@@ -5010,7 +5047,7 @@
       "variables": {},
       "source_author": "AdrianPunk115",
       "source_url": "https://x.com/AdrianPunk115/status/2064944838035022034",
-      "code": "ST0141"
+      "code": "ST0142"
     },
     {
       "id": "3d_cartoon_girls_grid",
@@ -5044,7 +5081,7 @@
       "variables": {},
       "source_author": "奇思妙想社",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7619912903285558566?workDetailType=Image&itemType=9",
-      "code": "ST0142"
+      "code": "ST0143"
     }
   ]
 }
