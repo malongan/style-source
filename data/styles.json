@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "d40ee3a",
-    "generated": "2026-06-22T08:28:35Z",
+    "version": "v0.5.0-22-ge8a9f9f-dirty",
+    "generated": "2026-06-22T08:47:07Z",
     "total": 141,
     "categories": [
       "brand_kv",
@@ -41,7 +41,7 @@
         "**潮玩设计感** — 边缘清晰，线条张力，修长流畅，完美的形态平滑"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\y3k_cool_girl_portrait_d64d0282.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.thumb.webp",
@@ -75,7 +75,7 @@
         "**商业海报布局** — 产品居中/对角线强视觉冲击，留白恰当，适合叠加文字排版"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\y3k_beverage_poster_673dffc0.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/y3k_beverage_poster_673dffc0.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/y3k_beverage_poster_673dffc0.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/y3k_beverage_poster_673dffc0.thumb.webp",
@@ -109,7 +109,7 @@
         "**插画质感**：手绘插画风格，不是写实照片"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\wilderness_wind_poster_4920aafd.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.thumb.webp",
@@ -137,7 +137,7 @@
         "One oversized glossy illustrated product or food object in the lower foreground with painterly highlights."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.thumb.webp",
@@ -165,7 +165,7 @@
         "Large white graffiti-like handwritten headline lettering sits near an upper corner, irregular and brushy rather than typographic."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_y2k_mirror_ui_scribble_collage_0b4db919.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_mirror_ui_scribble_collage_0b4db919.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_mirror_ui_scribble_collage_0b4db919.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_mirror_ui_scribble_collage_0b4db919.thumb.webp",
@@ -206,7 +206,7 @@
         "The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta print noise, energetic collage layout."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_y2k_grunge_hiphop_cutout_poster_416488a0.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_grunge_hiphop_cutout_poster_416488a0.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_grunge_hiphop_cutout_poster_416488a0.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_grunge_hiphop_cutout_poster_416488a0.thumb.webp",
@@ -234,7 +234,7 @@
         "Huge angled white Chinese display headline with heavy black shadow or extruded 3D block depth."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_warm_fisheye_product_impact_ad_7d86cf27.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_warm_fisheye_product_impact_ad_7d86cf27.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_warm_fisheye_product_impact_ad_7d86cf27.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_warm_fisheye_product_impact_ad_7d86cf27.thumb.webp",
@@ -285,7 +285,7 @@
         "Make MAIN_TEXT and SECONDARY_TEXT feel handwritten, diaristic, and locally placed rather than typeset as clean branding."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_urban_transit_doodle_diary_c2b25fe6.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_urban_transit_doodle_diary_c2b25fe6.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_urban_transit_doodle_diary_c2b25fe6.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_urban_transit_doodle_diary_c2b25fe6.thumb.webp",
@@ -333,7 +333,7 @@
         "Keep the perspective mostly flat and poster-like, with compact technical drawing depth only inside the prop or apparatus."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_turquoise_red_techno_manga_poster_414a4374.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_turquoise_red_techno_manga_poster_414a4374.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_turquoise_red_techno_manga_poster_414a4374.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_turquoise_red_techno_manga_poster_414a4374.thumb.webp",
@@ -381,7 +381,7 @@
         "If text is explicitly required, use MAIN_TEXT as a very short block headline outside the face area and SECONDARY_TEXT as a tiny supporting mark."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_tri_color_hardcut_portrait_poster_e0513f83.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_tri_color_hardcut_portrait_poster_e0513f83.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_tri_color_hardcut_portrait_poster_e0513f83.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_tri_color_hardcut_portrait_poster_e0513f83.thumb.webp",
@@ -429,7 +429,7 @@
         "Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_tokyo_kawaii_travel_collage_poster_32b3dfc6.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_tokyo_kawaii_travel_collage_poster_32b3dfc6.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_tokyo_kawaii_travel_collage_poster_32b3dfc6.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_tokyo_kawaii_travel_collage_poster_32b3dfc6.thumb.webp",
@@ -457,7 +457,7 @@
         "Oversized bold white headline typography, angled slightly, stacked over the sky area with a dimensional poster feel."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_sunny_3d_avatar_campaign_e4196112.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_sunny_3d_avatar_campaign_e4196112.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_sunny_3d_avatar_campaign_e4196112.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_sunny_3d_avatar_campaign_e4196112.thumb.webp",
@@ -507,7 +507,7 @@
         "Use ACCENT_SYMBOL for color accents, doodle marks, arrows, and sticker-like emphasis."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_subway_doodle_photo_hybrid_5c191e5b.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_subway_doodle_photo_hybrid_5c191e5b.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_subway_doodle_photo_hybrid_5c191e5b.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_subway_doodle_photo_hybrid_5c191e5b.thumb.webp",
@@ -535,7 +535,7 @@
         "Characters and props use thick wobbly black marker outlines with flat color fills and almost no shading."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_sky_blue_home_life_doodle_poster_f2016108.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_sky_blue_home_life_doodle_poster_f2016108.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_sky_blue_home_life_doodle_poster_f2016108.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_sky_blue_home_life_doodle_poster_f2016108.thumb.webp",
@@ -563,7 +563,7 @@
         "Shallow physical shadows under torn paper edges create low relief while the camera remains front-facing and flat."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_school_grid_paper_cutout_poster_c1a0b800.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_school_grid_paper_cutout_poster_c1a0b800.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_school_grid_paper_cutout_poster_c1a0b800.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_school_grid_paper_cutout_poster_c1a0b800.thumb.webp",
@@ -591,7 +591,7 @@
         "Saturated marker fills show visible grain, small white gaps, and rough hand-colored texture."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_rough_marker_monster_poster_070a6118.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_marker_monster_poster_070a6118.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_marker_monster_poster_070a6118.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_marker_monster_poster_070a6118.thumb.webp",
@@ -619,7 +619,7 @@
         "Limited accent palette: deep green-black linework, hot pink fills, teal green fills, and acidic yellow bursts."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_rough_ink_music_doodle_poster_ab7f6ea1.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_ink_music_doodle_poster_ab7f6ea1.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_ink_music_doodle_poster_ab7f6ea1.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_ink_music_doodle_poster_ab7f6ea1.thumb.webp",
@@ -668,7 +668,7 @@
         "Graphic language: thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, deep evergreen negative space, cream-white oval shine highlights, and ACCENT_SYMBOL."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_pop_bubble_letter_photo_poster_b895133e.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_pop_bubble_letter_photo_poster_b895133e.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_pop_bubble_letter_photo_poster_b895133e.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_pop_bubble_letter_photo_poster_b895133e.thumb.webp",
@@ -723,7 +723,7 @@
         "Use TYPOGRAPHY_LANGUAGE to control the headline treatment and supporting type behavior."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_plush_comic_toy_product_poster_8858fc4e.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_comic_toy_product_poster_8858fc4e.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_comic_toy_product_poster_8858fc4e.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_comic_toy_product_poster_8858fc4e.thumb.webp",
@@ -771,7 +771,7 @@
         "For vertical layouts, include a white rounded mobile bottom sheet with a small handle icon and the CTA text."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_plush_city_festival_mobile_poster_a1f48ca6.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_city_festival_mobile_poster_a1f48ca6.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_city_festival_mobile_poster_a1f48ca6.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_city_festival_mobile_poster_a1f48ca6.thumb.webp",
@@ -821,7 +821,7 @@
         "Add original flat cartoon mascot stickers on top of the photo: fruit, cloud, star, cup, wave, and jelly-shaped characters with simple eyes, thick dark outlines, glossy color blocks, sunny yellow, teal, coral, sky blue, lavender, cream, and soft pink accents."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_playful_mascot_doodle_snapshot_8c72b334.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_mascot_doodle_snapshot_8c72b334.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_mascot_doodle_snapshot_8c72b334.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_mascot_doodle_snapshot_8c72b334.thumb.webp",
@@ -854,7 +854,7 @@
         "One oversized simple subject dominates the lower middle of the poster, with tiny supporting props or characters as scale contrast."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_playful_marker_grounding_poster_8ef4abda.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_marker_grounding_poster_8ef4abda.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_marker_grounding_poster_8ef4abda.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_marker_grounding_poster_8ef4abda.thumb.webp",
@@ -900,7 +900,7 @@
         "Use a realistic city street photo as the base layer, then composite one oversized flat 2D cartoon character on top."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_photo_illustration_overlay_poster_0b07afef.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_photo_illustration_overlay_poster_0b07afef.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_photo_illustration_overlay_poster_0b07afef.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_photo_illustration_overlay_poster_0b07afef.thumb.webp",
@@ -928,7 +928,7 @@
         "Red marker arcs, arrows, and motion loops crossing the subject."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_olive_scribble_sports_poster_c7b111fb.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_olive_scribble_sports_poster_c7b111fb.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_olive_scribble_sports_poster_c7b111fb.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_olive_scribble_sports_poster_c7b111fb.thumb.webp",
@@ -956,7 +956,7 @@
         "Palette uses electric lime as the base with cyan, sky blue, hot pink, lavender, yellow, white, chrome gray, and small black details."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_neon_plush_gadget_pop_3d_5ec5f38d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_plush_gadget_pop_3d_5ec5f38d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_plush_gadget_pop_3d_5ec5f38d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_plush_gadget_pop_3d_5ec5f38d.thumb.webp",
@@ -999,7 +999,7 @@
         "The typography should wrap around the composition and sit behind or partially around the subject."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_neon_kinetic_typographic_poster_427ef146.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_kinetic_typographic_poster_427ef146.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_kinetic_typographic_poster_427ef146.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_kinetic_typographic_poster_427ef146.thumb.webp",
@@ -1052,7 +1052,7 @@
         "Draw a loud digital marker layer directly on top of the photo."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_neon_doodle_gallery_snapshot_0964723f.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_doodle_gallery_snapshot_0964723f.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_doodle_gallery_snapshot_0964723f.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_doodle_gallery_snapshot_0964723f.thumb.webp",
@@ -1080,7 +1080,7 @@
         "Ripped notebook paper or torn tape panels used as schedule, rules, or checklist sections."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_neon_diary_collage_ce563a0c.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_diary_collage_ce563a0c.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_diary_collage_ce563a0c.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_diary_collage_ce563a0c.thumb.webp",
@@ -1111,7 +1111,7 @@
         "Blocky uppercase blue hand lettering arranged in short broken lines, with irregular spacing and imperfect baselines."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_naive_marker_quote_card_796c7e87.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_naive_marker_quote_card_796c7e87.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_naive_marker_quote_card_796c7e87.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_naive_marker_quote_card_796c7e87.thumb.webp",
@@ -1139,7 +1139,7 @@
         "The first headline word appears as black type inside a crisp white rectangular label."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_mono_noir_type_portrait_poster_4006800d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_mono_noir_type_portrait_poster_4006800d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_mono_noir_type_portrait_poster_4006800d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_mono_noir_type_portrait_poster_4006800d.thumb.webp",
@@ -1173,7 +1173,7 @@
         "**中英双语**：中文主标题 + 英文副标题/理念标语"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_mondrian_style_b7542034.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_mondrian_style_b7542034.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_mondrian_style_b7542034.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_mondrian_style_b7542034.thumb.webp",
@@ -1226,7 +1226,7 @@
         "Draw playful comic-marker doodles directly on top of the photo."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_metro_doodle_snapshot_diary_4218a67b.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_metro_doodle_snapshot_diary_4218a67b.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_metro_doodle_snapshot_diary_4218a67b.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_metro_doodle_snapshot_diary_4218a67b.thumb.webp",
@@ -1254,7 +1254,7 @@
         "Large black headline built from torn, stamped, rough-brush CJK-inspired blocks with uneven edges and dry ink texture."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_market_brush_produce_poster_1858aa1d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_market_brush_produce_poster_1858aa1d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_market_brush_produce_poster_1858aa1d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_market_brush_produce_poster_1858aa1d.thumb.webp",
@@ -1282,7 +1282,7 @@
         "Sharp subject against blurred stone, window, pavement, and street bands, with readable fabric texture."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_luxury_street_cover_bd9a5f9e.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_luxury_street_cover_bd9a5f9e.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_luxury_street_cover_bd9a5f9e.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_luxury_street_cover_bd9a5f9e.thumb.webp",
@@ -1310,7 +1310,7 @@
         "Thick black hand-drawn contour strokes only on small details such as hands, shoes, hair, wheels, handles, or motion marks."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_kinetic_geometric_doodle_cutouts_87c9a8f6.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_kinetic_geometric_doodle_cutouts_87c9a8f6.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_kinetic_geometric_doodle_cutouts_87c9a8f6.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_kinetic_geometric_doodle_cutouts_87c9a8f6.thumb.webp",
@@ -1360,7 +1360,7 @@
         "Use acid lime, electric blue, alert red, paper white, and ink black."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_k_pop_apocalypse_ransom_zine_71dcafee.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_k_pop_apocalypse_ransom_zine_71dcafee.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_k_pop_apocalypse_ransom_zine_71dcafee.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_k_pop_apocalypse_ransom_zine_71dcafee.thumb.webp",
@@ -1408,7 +1408,7 @@
         "Avoid: watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_impact_burst_halftone_comic_poster_e070ca7c.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_impact_burst_halftone_comic_poster_e070ca7c.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_impact_burst_halftone_comic_poster_e070ca7c.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_impact_burst_halftone_comic_poster_e070ca7c.thumb.webp",
@@ -1455,7 +1455,7 @@
         "Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_gothic_cat_doodle_photo_collage_23faee2c.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_gothic_cat_doodle_photo_collage_23faee2c.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_gothic_cat_doodle_photo_collage_23faee2c.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_gothic_cat_doodle_photo_collage_23faee2c.thumb.webp",
@@ -1488,7 +1488,7 @@
         "A rubber-stamp or coupon-stamp frame sits at an angle, using distressed black ink, slab serif or stencil lettering, and small rays or separator marks."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_folded_newspaper_product_ad_5b462e76.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_folded_newspaper_product_ad_5b462e76.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_folded_newspaper_product_ad_5b462e76.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_folded_newspaper_product_ad_5b462e76.thumb.webp",
@@ -1538,7 +1538,7 @@
         "Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_fisheye_bubble_poster_fa30f6de.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_fisheye_bubble_poster_fa30f6de.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_fisheye_bubble_poster_fa30f6de.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_fisheye_bubble_poster_fa30f6de.thumb.webp",
@@ -1566,7 +1566,7 @@
         "Childlike fantasy mascot anatomy with playful distortion, blunt legs, long ears, floating eyes, and simplified facial dots."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_fantasy_scribble_mascot_poster_e720bfbb.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_fantasy_scribble_mascot_poster_e720bfbb.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_fantasy_scribble_mascot_poster_e720bfbb.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_fantasy_scribble_mascot_poster_e720bfbb.thumb.webp",
@@ -1601,7 +1601,7 @@
         "Human or hand-like accents use solid lemon yellow fills, making them graphic shapes rather than realistic anatomy."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_cyan_red_shockwave_type_poster_d55357a0.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_cyan_red_shockwave_type_poster_d55357a0.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_cyan_red_shockwave_type_poster_d55357a0.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_cyan_red_shockwave_type_poster_d55357a0.thumb.webp",
@@ -1642,7 +1642,7 @@
         "Layout: keep the surrounding field mostly warm off-white and pale grey so the graphic system has open space."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_chromatic_fisheye_orbit_pop_poster_3854d163.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_chromatic_fisheye_orbit_pop_poster_3854d163.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_chromatic_fisheye_orbit_pop_poster_3854d163.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_chromatic_fisheye_orbit_pop_poster_3854d163.thumb.webp",
@@ -1677,7 +1677,7 @@
         "Secondary green, red, black, or pale color blocks sit behind the subject and are edged by heavy black strokes."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_bold_block_mascot_poster_b67d6f31.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_block_mascot_poster_b67d6f31.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_block_mascot_poster_b67d6f31.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_block_mascot_poster_b67d6f31.thumb.webp",
@@ -1724,7 +1724,7 @@
         "Keep the same visual genre, density level, and rendering mode across new subjects."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_bold_anime_reaction_thumbnail_8e18ccef.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_anime_reaction_thumbnail_8e18ccef.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_anime_reaction_thumbnail_8e18ccef.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_anime_reaction_thumbnail_8e18ccef.thumb.webp",
@@ -1752,7 +1752,7 @@
         "Letterforms feel blunt, heavy, slightly irregular, and comic-like rather than refined or corporate."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_blue_kinetic_poster_cb5d6942.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_kinetic_poster_cb5d6942.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_kinetic_poster_cb5d6942.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_kinetic_poster_cb5d6942.thumb.webp",
@@ -1786,7 +1786,7 @@
         "Large condensed block headline typography in white or icy gray, partially hidden behind the product or cropped by the frame."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_blue_hud_macro_product_poster_1ed4ff87.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_hud_macro_product_poster_1ed4ff87.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_hud_macro_product_poster_1ed4ff87.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_hud_macro_product_poster_1ed4ff87.thumb.webp",
@@ -1814,7 +1814,7 @@
         "Handwritten marker typography on torn paper strips, with uneven baseline, casual spacing, and imperfect black ink."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_blue_halftone_ransom_zine_poster_3bed3468.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_halftone_ransom_zine_poster_3bed3468.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_halftone_ransom_zine_poster_3bed3468.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_halftone_ransom_zine_poster_3bed3468.thumb.webp",
@@ -1861,7 +1861,7 @@
         "Keep the poster layer flat, precise, and uncluttered."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_blue_bubble_fisheye_action_poster_02aab45d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_bubble_fisheye_action_poster_02aab45d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_bubble_fisheye_action_poster_02aab45d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_bubble_fisheye_action_poster_02aab45d.thumb.webp",
@@ -1896,7 +1896,7 @@
         "Card interior uses warm cream, faded ochre, deep red, orange, brown, and black ink with limited palette discipline."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_black_cutout_food_card_ad_56afb8b6.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.thumb.webp",
@@ -1948,7 +1948,7 @@
         "Visual treatment: warm cream paper background, strict grid layout, thin rules, soft daylight, tactile matte materials, gentle paper grain, pale-blue translucent interface panel, botanical foreground accents, and quiet negative space."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\vigo_analog_editorial_poster_6156a592.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.thumb.webp",
@@ -1982,7 +1982,7 @@
         "散点式构图，多重图层叠加"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\urban_collage_poster_f7f695e4.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.thumb.webp",
@@ -2012,7 +2012,7 @@
         "光影效果（霓虹/投影/高光）"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\typography_4acfe941.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.thumb.webp",
@@ -2044,7 +2044,7 @@
         "克制出版物字体气质"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\tear_paper_bfecd0ba.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.thumb.webp",
@@ -2078,7 +2078,7 @@
         "高饱和度，纯扁平平涂"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\takeshi_camping_poster_92097096.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.thumb.webp",
@@ -2110,7 +2110,7 @@
         "霓虹手绘动感标记"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\sunny_3d_0b8cad92.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.thumb.webp",
@@ -2142,7 +2142,7 @@
         "**Vivid blue-sky color fields** — 鲜明蓝天色块作为背景"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\sunlit_kinetic_block_type_poster_1d65b228.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.thumb.webp",
@@ -2173,7 +2173,7 @@
         "背景元素：半调网点、弧形轨迹、潮流括号、星星剪影、运动模糊"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\summer_dopamine_9df0ecb9.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/summer_dopamine_9df0ecb9.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/summer_dopamine_9df0ecb9.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/summer_dopamine_9df0ecb9.thumb.webp",
@@ -2221,7 +2221,7 @@
         "Place a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\style_travel_a6ec87c3.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/style_travel_a6ec87c3.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_travel_a6ec87c3.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_travel_a6ec87c3.thumb.webp",
@@ -2257,7 +2257,7 @@
         "Blue glow spreads across the floor with a soft reflection or shadow directly under the product."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\style_product_1ed4ff87.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.thumb.webp",
@@ -2306,7 +2306,7 @@
         "Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\style_poster_cb5d6942.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/style_poster_cb5d6942.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_poster_cb5d6942.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_poster_cb5d6942.thumb.webp",
@@ -2340,7 +2340,7 @@
         "One dominant blue-green halftone assemblage object, placed as a sculptural PSA metaphor rather than a realistic scene."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\style_halftone_poster_3bed3468.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/style_halftone_poster_3bed3468.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_halftone_poster_3bed3468.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_halftone_poster_3bed3468.thumb.webp",
@@ -2368,7 +2368,7 @@
         "Typography is stretched, condensed, bold, commercial, and spatially warped by perspective rather than laid flat"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\style_can_33201059.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/style_can_33201059.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_can_33201059.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_can_33201059.thumb.webp",
@@ -2398,7 +2398,7 @@
         "贴纸、警告标签、条形码等街头元素"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\streetwear_lab_1bee8bc5.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/streetwear_lab_1bee8bc5.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/streetwear_lab_1bee8bc5.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/streetwear_lab_1bee8bc5.thumb.webp",
@@ -2432,7 +2432,7 @@
         "挂饰元素：!、CONTINUE、99 等强化态度"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\street_3d_maximalist_9224fd66.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/street_3d_maximalist_9224fd66.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/street_3d_maximalist_9224fd66.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/street_3d_maximalist_9224fd66.thumb.webp",
@@ -2478,7 +2478,7 @@
         "Surround the portrait with sticker-like personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\sticker_style_poster_642d3f74.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.thumb.webp",
@@ -2512,7 +2512,7 @@
         "日文 + 英文双语标题"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\stamp_movie_poster_d4919843.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.thumb.webp",
@@ -2543,7 +2543,7 @@
         "⭐ **装饰细节**：四角星、迷你黄花等丰富点缀"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\soft_clay_macaron_poster_5e36600e.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_5e36600e.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_5e36600e.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_5e36600e.thumb.webp",
@@ -2577,7 +2577,7 @@
         "柔光渲染，细腻软胶质感"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\soft_clay_camping_kv_5e36600e.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/soft_clay_camping_kv_5e36600e.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/soft_clay_camping_kv_5e36600e.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/soft_clay_camping_kv_5e36600e.thumb.webp",
@@ -2607,7 +2607,7 @@
         "歪歪扭扭的手绘线条感"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\sky_blue_doodle_a8aa1ade.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.thumb.webp",
@@ -2652,7 +2652,7 @@
         "Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate sports poster, glossy 3D text, chrome, neon gradient, luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero style, and skateboard brand logo."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\scribble_poster_style_a99f6252.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.thumb.webp",
@@ -2684,7 +2684,7 @@
         "适合论文综述、公众号、科研汇报"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\science_infographic_bdeb029e.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/science_infographic_bdeb029e.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/science_infographic_bdeb029e.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/science_infographic_bdeb029e.thumb.webp",
@@ -2716,7 +2716,7 @@
         "Graphical Abstract / 机制图 / 解剖图多类型"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\science_illustration_bdeb029e.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/science_illustration_bdeb029e.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/science_illustration_bdeb029e.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/science_illustration_bdeb029e.thumb.webp",
@@ -2748,7 +2748,7 @@
         "文字少而精"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\science_cover_bdeb029e.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.thumb.webp",
@@ -2780,7 +2780,7 @@
         "强对比非对称负空间"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\scarlet_7a852021.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.thumb.webp",
@@ -2816,7 +2816,7 @@
         "硬朗工业硬光"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\retro_future_scifi_poster_7fc81506.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/retro_future_scifi_poster_7fc81506.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_future_scifi_poster_7fc81506.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_future_scifi_poster_7fc81506.thumb.webp",
@@ -2848,7 +2848,7 @@
         "高明度、高饱和、干净通风"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\retro_drink_ad_52652b0d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.thumb.webp",
@@ -2880,7 +2880,7 @@
         "**整体**：复古动画帧美感（vintage animation frame aesthetic）"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\retro_cel_animation_70639aef.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.thumb.webp",
@@ -2910,7 +2910,7 @@
         "无AI虚假感"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\realistic_photo_dd50687b.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.thumb.webp",
@@ -2942,7 +2942,7 @@
         "活泼有视觉张力"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\playful_avantgarde_poster_be32ed45.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/playful_avantgarde_poster_be32ed45.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/playful_avantgarde_poster_be32ed45.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/playful_avantgarde_poster_be32ed45.thumb.webp",
@@ -2974,7 +2974,7 @@
         "**完整全身造型**：从服装到配饰（复古相机）一应俱全"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\pixar_cartoon_portrait_cc32688d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.thumb.webp",
@@ -3026,7 +3026,7 @@
         "Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\pet_sketch_storyboard_dce925d4.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/pet_sketch_storyboard_dce925d4.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pet_sketch_storyboard_dce925d4.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/pet_sketch_storyboard_dce925d4.thumb.webp",
@@ -3059,7 +3059,7 @@
         "真实摄影质感、电影级光影"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\perfume_kv_4b75ebf4.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.thumb.webp",
@@ -3090,7 +3090,7 @@
         "🔬 **极度精细**：完全通过线条密度变化表现光影，而非传统绘画手法"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\pen_ink_point_line_peaches_c269f27f.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.thumb.webp",
@@ -3122,7 +3122,7 @@
         "**Clean negative space** — 干净留白"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\object_illustration_combo_e014d94f.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.thumb.webp",
@@ -3155,7 +3155,7 @@
         "**红橙喜庆配色** — 正红、橙红、金色的喜庆暖色系"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\newyear_gift_box_6772c037.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.thumb.webp",
@@ -3186,7 +3186,7 @@
         "**粉色可爱 + 广角镜头** — 涂鸦艺术感，大师级构图"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\moebius_underwater_coral_postoffice_47b70184.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.thumb.webp",
@@ -3218,7 +3218,7 @@
         "配色：单一主色 + 单一背景色（如东京=朱红+暖米色）"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\minimalist_city_travel_poster_c0edb8c5.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.thumb.webp",
@@ -3251,7 +3251,7 @@
         "高级干净有秩序的画面"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\mckinsey_style_698e178a.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.thumb.webp",
@@ -3285,7 +3285,7 @@
         "**现代时尚调性** — 兼具潮流感与艺术性，适合年轻化品牌视觉"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\maximalist_campus_vector_66340836.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/maximalist_campus_vector_66340836.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/maximalist_campus_vector_66340836.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/maximalist_campus_vector_66340836.thumb.webp",
@@ -3316,7 +3316,7 @@
         "混合材质（毛绒/亚克力/镀铬）"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\mascot_ip_445793e8.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.thumb.webp",
@@ -3349,7 +3349,7 @@
         "**图层规范**：Hair → Hat → Face Accessory → Top → Bottom → Shoes → Cape → Weapon"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\maple_story_avatar_d2852785.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.thumb.webp",
@@ -3379,7 +3379,7 @@
         "极简白色摄影棚背景"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\luxury_product_4026eb56.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.thumb.webp",
@@ -3413,7 +3413,7 @@
         "Thin dark green horizontal rule and small spaced navigation words sit near the top."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\luxury_poster_style_1483190d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.thumb.webp",
@@ -3448,7 +3448,7 @@
         "**整体风格**：极简奢华编辑风、高端杂志封面质感"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\luxury_birthday_poster_e60d0443.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.thumb.webp",
@@ -3484,7 +3484,7 @@
         "**Small brand logo + slogan + copy** — 品牌 logo + 标语 + 正文 + 页脚细节"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\luxury_beauty_side_profile_poster_43b37c66.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.thumb.webp",
@@ -3517,7 +3517,7 @@
         "适合户外场景"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\korean_illustration_dd9d4f47.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.thumb.webp",
@@ -3552,7 +3552,7 @@
         "超高清笔触清晰"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\kimjunggi_scifi_sketch_1abbb496.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/kimjunggi_scifi_sketch_1abbb496.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/kimjunggi_scifi_sketch_1abbb496.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/kimjunggi_scifi_sketch_1abbb496.thumb.webp",
@@ -3584,7 +3584,7 @@
         "**胶片相机质感**：轻微动态模糊、柔焦、颗粒感、日光高光"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\k_gyaru_street_snap_3a8da998.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.thumb.webp",
@@ -3617,7 +3617,7 @@
         "**整体调性**：潮酷活泼、年轻化夜店氛围感，商业级活动海报质感"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\jimeng_kasho_allstars_ffcce07d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.thumb.webp",
@@ -3650,7 +3650,7 @@
         "**主体塑造**：半写实插画，轮廓柔和，细节概括，重氛围和文学感"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\japanese_poetic_dreamy_09d6409a.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.thumb.webp",
@@ -3685,7 +3685,7 @@
         "文字与产品照片叠加的层次感"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\jade_glyph_grocer_collage_9b50bb4c.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.thumb.webp",
@@ -3716,7 +3716,7 @@
         "精工细节与水墨气韵同时具备"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\inkline_couture_9c26950c.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.thumb.webp",
@@ -3747,7 +3747,7 @@
         "**超现实主义绘画风格** — 融合C4D磨砂材质，超高清8K细节"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\inflatable_3d_flowers_d186e0b6.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.thumb.webp",
@@ -3777,7 +3777,7 @@
         "**宝蓝+黑色配色** — 神秘高级感，米白基底干净通透"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\hierarchy_angels_poster_5c8918d4.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.thumb.webp",
@@ -3809,7 +3809,7 @@
         "**概念驱动**：概念 > 技法，一个能一句话讲清的视觉比喻比精细渲染更让人记住"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\halftone_assemblage_psa_poster_3d772170.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.thumb.webp",
@@ -3843,7 +3843,7 @@
         "米黄色/奶油色纸张背景"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\grotesque_doodle_style_09b45dc0.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.thumb.webp",
@@ -3874,7 +3874,7 @@
         "干净整洁但有温度"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\gpt_doodle_illustration_ce1ec0fd.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.thumb.webp",
@@ -3908,7 +3908,7 @@
         "底部极小装饰文字排版"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\glass_flower_spring_diary_2c1cc251.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.thumb.webp",
@@ -3940,7 +3940,7 @@
         "瑞士国际主义风格的三栏信息排版"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\geek_code_poster_f7da4b88.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/geek_code_poster_f7da4b88.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/geek_code_poster_f7da4b88.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/geek_code_poster_f7da4b88.thumb.webp",
@@ -3973,7 +3973,7 @@
         "商业级海报张力，未来浪漫主义气质"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\futuristic_spring_kv_c019db3e.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.thumb.webp",
@@ -4006,7 +4006,7 @@
         "复杂的拼贴背景但不杂乱"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\futuristic_collage_portrait_ad90e08d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.thumb.webp",
@@ -4038,7 +4038,7 @@
         "高端品牌感，非电商感"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\fashion_editorial_visual_295648b2.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.thumb.webp",
@@ -4070,7 +4070,7 @@
         "清晰的品牌调性"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\fashion_campaign_typography_9c3ceb84.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.thumb.webp",
@@ -4102,7 +4102,7 @@
         "**Bodoni/Didot 衬线排版**：标题如 NOIR ARCHER / MOTION DRAW / AIR CUT 等"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\fashion_archer_editorial_f40f9983.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.thumb.webp",
@@ -4136,7 +4136,7 @@
         "柔和工作室灯光，全局照明，软阴影"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\exaggerated_3d_toy_illustration_435e4dea.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/exaggerated_3d_toy_illustration_435e4dea.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/exaggerated_3d_toy_illustration_435e4dea.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/exaggerated_3d_toy_illustration_435e4dea.thumb.webp",
@@ -4164,7 +4164,7 @@
         "Small centered serif maison-style wordmark area near the upper field."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\editorial_luxury_b3460c33.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/editorial_luxury_b3460c33.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/editorial_luxury_b3460c33.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/editorial_luxury_b3460c33.thumb.webp",
@@ -4192,7 +4192,7 @@
         "Elegant neutral palette led by ivory, sand, taupe, stone gray, black, camel, tobacco, and muted metallics."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\editorial_fashion_584fece2.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/editorial_fashion_584fece2.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/editorial_fashion_584fece2.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/editorial_fashion_584fece2.thumb.webp",
@@ -4220,7 +4220,7 @@
         "Calm supermodel posture with elongated neck, relaxed hands, and composed expression."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\editorial_ec63f809.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.thumb.webp",
@@ -4255,7 +4255,7 @@
         "**细腻手绘感**：精致墨线、流畅轮廓、手绘纹理、柔和水彩阴影"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\east_asian_vintage_magazine_3a8da998.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.thumb.webp",
@@ -4287,7 +4287,7 @@
         "**禁止直视镜头**：眼神望向远方，营造诗意、怀旧、静谧的氛围"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\east_asian_vintage_illustration_3a8da998.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.thumb.webp",
@@ -4334,7 +4334,7 @@
         "Use off-white letter fill, black outline, yellow/red/cobalt offset shadows, light inner scribbles, uneven scale, and a playful Spanish travel-poster feeling."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\doodle_style_poster_1_30914154.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.thumb.webp",
@@ -4389,7 +4389,7 @@
         "Use MAIN_TEXT as the large illustrated word integrated into the composition."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\doodle_style_poster_1_30914154.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.thumb.webp",
@@ -4442,7 +4442,7 @@
         "Use LIGHT_SOURCE to preserve the snapshot lighting direction and warm room mood."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\doodle_style_e4aa24f7.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.thumb.webp",
@@ -4475,7 +4475,7 @@
         "先锋前卫艺术风格"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\digital_soul_poster_a5470dc7.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.thumb.webp",
@@ -4505,7 +4505,7 @@
         "有节奏感的设计留白"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\diffuse_poster_6fa53bcb.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.thumb.webp",
@@ -4537,7 +4537,7 @@
         "镭射放射状闪光勾线及背景"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\demon_wukong_line_art_0aef5f9d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.thumb.webp",
@@ -4568,7 +4568,7 @@
         "**电影感构图** — 广角镜头全景，电影慢镜头动态捕捉，层次分明"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\dark_chinese_fantasy_illustration_2a16076c.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.thumb.webp",
@@ -4602,7 +4602,7 @@
         "街头文化与科幻风格融合"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\cyberpunk_halftone_poster_dcd4e5f1.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.thumb.webp",
@@ -4632,7 +4632,7 @@
         "柔和工作室灯光"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\collage_logo_208518c5.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/collage_logo_208518c5.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/collage_logo_208518c5.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/collage_logo_208518c5.thumb.webp",
@@ -4681,7 +4681,7 @@
         "Doodle layer: add ACCENT_SYMBOL plus loose black marker loops, ink starbursts, blue water drops, curved strings, short splash dashes, and motion ticks as an independent graphic layer."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\collage_doodle_style_b00ae594.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.thumb.webp",
@@ -4711,7 +4711,7 @@
         "**黑底白字** — 高级感、扁平化"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\climb_mountain_typography_a1b2c3d4.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.thumb.webp",
@@ -4741,7 +4741,7 @@
         "**环境互动**：背景变量让角色与环境形成叙事关系"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\chibi_q_version_character_1f09ebcb.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.thumb.webp",
@@ -4773,7 +4773,7 @@
         "8K超精细纹理，电影级光影"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\chang_e_goddess_5f99361d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.thumb.webp",
@@ -4807,7 +4807,7 @@
         "**马卡龙色调** — 低饱和度暖粉调，圆润无棱角，柔和阴影"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\cartoon_3d_tv_icon_7929c0d4.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.thumb.webp",
@@ -4842,7 +4842,7 @@
         "蓝天光影 + 波光粼粼水面 + 漂浮动态特效"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\candy_3d_wonderland_5e19f125.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/candy_3d_wonderland_5e19f125.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/candy_3d_wonderland_5e19f125.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/candy_3d_wonderland_5e19f125.thumb.webp",
@@ -4873,7 +4873,7 @@
         "明亮清透，不做灰浊旧化"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\bubble_card_cfaf8cd9.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.thumb.webp",
@@ -4907,7 +4907,7 @@
         "**排版**：左上区域白色简洁文字，无衬线字体"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\brand_miniature_architecture_474fb732.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.thumb.webp",
@@ -4942,7 +4942,7 @@
         "文字与图形融合"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\bloomberg_magazine_7cb7f648.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.thumb.webp",
@@ -4970,7 +4970,7 @@
         "Typography is bold, condensed, italic, mostly white, and stacked into tight ad-copy blocks."
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\beverage_style_5c9fe052.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.thumb.webp",
@@ -5003,7 +5003,7 @@
         "**克制信息量**：不能变成杂志目录，追求秩序和结构"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews\\avantgarde_bw_poster_44361c82.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp",
       "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.thumb.webp",

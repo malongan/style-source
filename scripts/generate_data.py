@@ -39,7 +39,7 @@ def find_image_in_repo(style_id: str):
         matches = [m for m in glob.glob(os.path.join(IMAGES_DIR, pat))
                    if not m.endswith('.thumb.webp')]
         if matches:
-            return os.path.relpath(matches[0], IMAGES_DIR)
+            return os.path.relpath(matches[0], IMAGES_DIR).replace('\\', '/')
     return None
 
 
