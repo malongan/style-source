@@ -1,15 +1,15 @@
-# 印刷品分类索引
+# 印刷品风格
 
-> 本分类包含：书籍封面、电影海报、字体设计等
+> 书籍封面、电影海报
 
-| 编号 | 编号 | 风格 | 标签 | 触发词 | 比例 |
-|------|------|--------|------|
-| 1  [collage_logo.md](collage_logo.md) | #logo #品牌 #图标 #3D #马赛克 | 拼贴logo、马赛克图标、马赛克logo | 1:1 方图（2048x2048） |
-| 2  [luxury_poster_style.md](luxury_poster_style.md) | #VigoCookbook #Luxury#furniture#catalog#poster#with#product#photography#and#restrained#graphic#design. | Quiet Luxury Furniture Nameplate Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 3  [pet_sketch_storyboard.md](pet_sketch_storyboard.md) | #VigoCookbook #A#loose#animation#development#sketch#style#for#comic#pet#scenes,#built#from#warm#beige#paper,#red-brown#construction#lines,#scratchy#dark#burgundy#contours,#semi-transparent#color#wash,#simple#room#props,#and#exaggerated#animal#expressions. | Rough Animation Pet Sketch Storyboard Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 4  [scarlet.md](scarlet.md) | #红块 #手绘 #文学 #封面 #艺术 #描边 | Scarlet、红块、手绘描边、文学封面、艺术封面 | 9:16 或 16:9 |
-| 5  [stamp_movie_poster.md](stamp_movie_poster.md) | #邮票 #电影海报 #极简 #日本 #复古 #展览 | 邮票海报、电影邮票、Top Gun风格、日本展览风、极简电影海报 | 16:9 |
-| 6  [style_can.md](style_can.md) | #VigoCookbook #Other | Blue Chinese Perspective Type Canyon Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 7  [tear_paper.md](tear_paper.md) | #插画 #撕纸 #平面 #手绘 #文艺 #封面 | 撕纸美学、撕纸风、纸面裂隙、手绘插画封面 | 16:9 横版 |
-| 8  [typography.md](typography.md) | #字体 #标题 #排版 #中文 #书法 | 字体设计、字体标题、排版、中文字体 | 按需求（常见 9:16 或 16:9） |
-| 9  [ukiyo_e.md](ukiyo_e.md) | #浮世绘 #日本 #江户 #传统 #木版画 | 浮世绘、日本传统、浮世绘风 | 576:1024 |
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| collage_logo | #logo #品牌 #图标 | 品牌图标、APP图标、产品logo | 1:1 方图（2048x2048） |
+| hierarchy_angels_poster | #宗教朋克 #拼贴海报 #丝网印刷 | 创意海报、艺术印刷、视觉设计、唱片封面 | 3:4 |
+| luxury_poster_style | #VigoCookbook #Luxury #furniture | A premium furniture editorial poster system with a warm off-white studio field, oversized deep forest-green display typography behind one realistic hero furniture object, sparse catalog microcopy, thin rules, outlined catalog chips, and a dark green rounded bottom information bar. | 16:9 / 4:5 / 3:4 / 9:16 |
+| pet_sketch_storyboard | #VigoCookbook #loose #animation | A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple room props, and exaggerated animal expressions. | 16:9 / 4:5 / 3:4 / 9:16 |
+| scarlet | #红块 #手绘 #文学 | 书籍封面、品牌视觉、艺术海报 | 9:16 或 16:9 |
+| stamp_movie_poster | #邮票 #电影海报 #极简 | 电影海报、展览视觉、品牌KV、社交媒体封面 | 16:9 |
+| style_can | #VigoCookbook #Other | A Chinese typographic poster system built from an extreme one-point perspective corridor: a saturated blue central trapezoid plane carries stacked oversized white Chinese display type, while black side walls are packed with warped white and pale gray Chinese support copy. | 16:9 / 4:5 / 3:4 / 9:16 |
+| tear_paper | #插画 #撕纸 #平面 | 书籍封面、文艺海报、插画封面、品牌视觉 | 16:9 横版 |
+| typography | #字体 #标题 #排版 | 活动主标题、品牌字体、海报文字 | 按需求（常见 9:16 或 16:9） |
