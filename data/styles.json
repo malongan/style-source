@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-5-g518d96c-dirty",
-    "generated": "2026-06-21T06:58:11Z",
-    "total": 139,
+    "version": "v0.5.0-20-g08680ee-dirty",
+    "generated": "2026-06-24T14:38:36Z",
+    "total": 140,
     "categories": [
       "brand_kv",
       "creative",
@@ -3719,6 +3719,37 @@
       "code": "ST0103"
     },
     {
+      "id": "herd_outsider_poster",
+      "name": "Herd Outsider Poster",
+      "category": "creative",
+      "tags": [
+        "概念海报",
+        "异类主题",
+        "阵列构图",
+        "编辑海报",
+        "社交媒体视觉"
+      ],
+      "scene": "品牌KV、概念海报、社媒视觉海报、异类主题、破局概念",
+      "ratio": "3:4",
+      "summary": "阵列秩序中的唯一异类，概念海报的视觉焦点。",
+      "features": [
+        "**高角度俯视构图** — 从正上方俯瞰，以俯视/鸟瞰视角构建场景，产生强烈的空间秩序感和平面图案感",
+        "**阵列重复** — 大量相同的群体对象以整齐、有秩序、近似阵列的方式分布，形成强烈的重复视觉节奏",
+        "**异类焦点** — 在阵列中心放置一个唯一不同的对象，在颜色、材质、方向、身份或状态上明显区别于周围群体",
+        "**编辑海报质感** — 真实质感与平面设计感结合，纸张颗粒、轻微胶片噪点、印刷质感、强烈阴影和高级色彩对比",
+        "**文字排版系统** — 下方巨大粗重块状中文标题，半透明叠加；上方黑色手写体年份「2026」；小号英文信息；底部英文标语"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.thumb.webp",
+      "variables": {},
+      "source_author": "YangOnchain",
+      "source_url": "https://x.com/YangOnchain/status/2069470109924728868",
+      "code": "ST0104"
+    },
+    {
       "id": "halftone_assemblage_psa_poster",
       "name": "Halftone Assemblage Psa Poster",
       "category": "brand_kv",
@@ -3748,7 +3779,7 @@
       "variables": {},
       "source_author": "VigoCreativeAI",
       "source_url": "https://x.com/VigoCreativeAI/status/2064672481009435074",
-      "code": "ST0104"
+      "code": "ST0105"
     },
     {
       "id": "grotesque_doodle_style",
@@ -3782,7 +3813,7 @@
       "variables": {},
       "source_author": "AdrianPunk115",
       "source_url": "https://x.com/AdrianPunk115/status/2065690624402280513",
-      "code": "ST0105"
+      "code": "ST0106"
     },
     {
       "id": "gpt_doodle_illustration",
@@ -3813,7 +3844,7 @@
       "variables": {},
       "source_author": "oggii_0",
       "source_url": "https://x.com/oggii_0/status/2064589838935015811",
-      "code": "ST0106"
+      "code": "ST0107"
     },
     {
       "id": "glass_flower_spring_diary",
@@ -3847,7 +3878,7 @@
       "variables": {},
       "source_author": "悦（即梦）",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7616607728072461594?workDetailType=Image&itemType=9",
-      "code": "ST0107"
+      "code": "ST0108"
     },
     {
       "id": "geek_code_poster",
@@ -3879,7 +3910,7 @@
       "variables": {},
       "source_author": "一笔绘✏️",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7646229041049013531",
-      "code": "ST0108"
+      "code": "ST0109"
     },
     {
       "id": "futuristic_spring_kv",
@@ -3912,7 +3943,7 @@
       "variables": {},
       "source_author": "会唱歌de萝卜丝（即梦）",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7623739698048945459?workDetailType=Image&itemType=9",
-      "code": "ST0109"
+      "code": "ST0110"
     },
     {
       "id": "futuristic_collage_portrait",
@@ -3945,7 +3976,7 @@
       "variables": {},
       "source_author": "HustleXR",
       "source_url": "https://x.com/HustleXR/status/2064595994013303063",
-      "code": "ST0110"
+      "code": "ST0111"
     },
     {
       "id": "fashion_editorial_visual",
@@ -3977,7 +4008,7 @@
       "variables": {},
       "source_author": "MrLarus",
       "source_url": "https://x.com/MrLarus/status/2064661407501619625",
-      "code": "ST0111"
+      "code": "ST0112"
     },
     {
       "id": "fashion_campaign_typography",
@@ -4009,7 +4040,7 @@
       "variables": {},
       "source_author": "MrLarus",
       "source_url": "https://x.com/MrLarus/status/2065713153237766314",
-      "code": "ST0112"
+      "code": "ST0113"
     },
     {
       "id": "fashion_archer_editorial",
@@ -4041,7 +4072,7 @@
       "variables": {},
       "source_author": "you1873118",
       "source_url": "https://x.com/you1873118/status/2064933410091774287?s=20",
-      "code": "ST0113"
+      "code": "ST0114"
     },
     {
       "id": "exaggerated_3d_toy_illustration",
@@ -4075,7 +4106,7 @@
       "variables": {},
       "source_author": "MissDelulu9",
       "source_url": "https://www.meigen.ai/prompt/2056323209323319324",
-      "code": "ST0114"
+      "code": "ST0115"
     },
     {
       "id": "editorial_luxury",
@@ -4103,7 +4134,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST0115"
+      "code": "ST0116"
     },
     {
       "id": "editorial_fashion",
@@ -4131,7 +4162,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST0116"
+      "code": "ST0117"
     },
     {
       "id": "editorial",
@@ -4159,7 +4190,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST0117"
+      "code": "ST0118"
     },
     {
       "id": "east_asian_vintage_magazine",
@@ -4194,7 +4225,7 @@
       "variables": {},
       "source_author": "only01clair",
       "source_url": "https://x.com/only01clair/status/2064670555878596832?s=20",
-      "code": "ST0118"
+      "code": "ST0119"
     },
     {
       "id": "east_asian_vintage_illustration",
@@ -4226,7 +4257,7 @@
       "variables": {},
       "source_author": "only01clair",
       "source_url": "https://x.com/only01clair/status/2064670555878596832?s=20",
-      "code": "ST0119"
+      "code": "ST0120"
     },
     {
       "id": "doodle_style_poster_1",
@@ -4273,7 +4304,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST0120"
+      "code": "ST0121"
     },
     {
       "id": "doodle_style_poster",
@@ -4328,7 +4359,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST0121"
+      "code": "ST0122"
     },
     {
       "id": "doodle_style",
@@ -4381,7 +4412,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST0122"
+      "code": "ST0123"
     },
     {
       "id": "digital_soul_poster",
@@ -4414,7 +4445,7 @@
       "variables": {},
       "source_author": "用户4818385606662",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7573909671774391598",
-      "code": "ST0123"
+      "code": "ST0124"
     },
     {
       "id": "diffuse_poster",
@@ -4444,7 +4475,7 @@
       "variables": {},
       "source_author": "AdrianPunk115",
       "source_url": "https://x.com/i/status/2064148554940391764",
-      "code": "ST0124"
+      "code": "ST0125"
     },
     {
       "id": "demon_wukong_line_art",
@@ -4476,7 +4507,7 @@
       "variables": {},
       "source_author": "韩啸（即梦）",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7651882653125332274",
-      "code": "ST0125"
+      "code": "ST0126"
     },
     {
       "id": "dark_chinese_fantasy_illustration",
@@ -4507,7 +4538,7 @@
       "variables": {},
       "source_author": "白晚萌萌滴",
       "source_url": "",
-      "code": "ST0126"
+      "code": "ST0127"
     },
     {
       "id": "cyberpunk_halftone_poster",
@@ -4541,7 +4572,7 @@
       "variables": {},
       "source_author": "💋💋💋 🅻🅸🅽🅳🅰",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7591914980476276006",
-      "code": "ST0127"
+      "code": "ST0128"
     },
     {
       "id": "collage_logo",
@@ -4571,7 +4602,7 @@
       "variables": {},
       "source_author": "内部模板",
       "source_url": "-",
-      "code": "ST0128"
+      "code": "ST0129"
     },
     {
       "id": "collage_doodle_style",
@@ -4620,7 +4651,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST0129"
+      "code": "ST0130"
     },
     {
       "id": "climb_mountain_typography",
@@ -4650,7 +4681,7 @@
       "variables": {},
       "source_author": "即梦用户",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7597771252316622107",
-      "code": "ST0130"
+      "code": "ST0131"
     },
     {
       "id": "chibi_q_version_character",
@@ -4680,7 +4711,7 @@
       "variables": {},
       "source_author": "CharaspowerAI",
       "source_url": "https://x.com/CharaspowerAI/status/2066230454429143506",
-      "code": "ST0131"
+      "code": "ST0132"
     },
     {
       "id": "chang_e_goddess",
@@ -4712,7 +4743,7 @@
       "variables": {},
       "source_author": "米奇（即梦AI）",
       "source_url": "https://jimeng.jianying.com/",
-      "code": "ST0132"
+      "code": "ST0133"
     },
     {
       "id": "cartoon_3d_tv_icon",
@@ -4746,7 +4777,7 @@
       "variables": {},
       "source_author": "lihlii",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7616690174034054446",
-      "code": "ST0133"
+      "code": "ST0134"
     },
     {
       "id": "candy_3d_wonderland",
@@ -4781,7 +4812,7 @@
       "variables": {},
       "source_author": "散养设计",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7619622039854402854",
-      "code": "ST0134"
+      "code": "ST0135"
     },
     {
       "id": "bubble_card",
@@ -4812,7 +4843,7 @@
       "variables": {},
       "source_author": "用户提供",
       "source_url": "-",
-      "code": "ST0135"
+      "code": "ST0136"
     },
     {
       "id": "brand_miniature_architecture",
@@ -4846,7 +4877,7 @@
       "variables": {},
       "source_author": "PixuryAI",
       "source_url": "https://x.com/PixuryAI/status/2064892529997414815",
-      "code": "ST0136"
+      "code": "ST0137"
     },
     {
       "id": "bloomberg_magazine",
@@ -4881,7 +4912,7 @@
       "variables": {},
       "source_author": "AdrianPunk115",
       "source_url": "https://x.com/AdrianPunk115/status/2064593763327234113",
-      "code": "ST0137"
+      "code": "ST0138"
     },
     {
       "id": "beverage_style",
@@ -4909,7 +4940,7 @@
       "variables": {},
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
-      "code": "ST0138"
+      "code": "ST0139"
     },
     {
       "id": "avantgarde_bw_poster",
@@ -4942,7 +4973,7 @@
       "variables": {},
       "source_author": "AdrianPunk115",
       "source_url": "https://x.com/AdrianPunk115/status/2064944838035022034",
-      "code": "ST0139"
+      "code": "ST0140"
     }
   ]
 }
