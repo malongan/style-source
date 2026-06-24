@@ -93,7 +93,7 @@ ST0089 | Minimalist City Travel Poster | https://malongan.github.io/style-source
 ST0090 | Mckinsey Style | https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp
 ST0091 | Mascot Ip | https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp
 ST0092 | Maple Story Avatar | https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.webp
-ST0146 | Mango Coconut Doodle Drink | https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_45aec4e1.webp
+ST0146 | Mango Coconut Doodle Drink | https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.webp
 ST0093 | Luxury Product | https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.webp
 ST0094 | Luxury Poster Style | https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.webp
 ST0095 | Luxury Birthday Poster | https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp

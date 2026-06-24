@@ -55,7 +55,7 @@
 
 ## 参考配图
 
-![芒果椰乳涂鸦饮料海报](https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_45aec4e1.webp)
+![芒果椰乳涂鸦饮料海报](https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.webp)
 
 ---
 
