@@ -23,3 +23,4 @@
 | 17  [dark_chinese_fantasy_illustration.md](dark_chinese_fantasy_illustration.md) | #奇幻插画 #流光水彩 #国风彩漫 #暗黑氛围 #二次元 #CG半厚涂 | 暗黑国风、奇幻插画、水墨油画、国风彩漫、暗雪夜 | 9:16 / 16:9 |
 | 18  [pen_ink_point_line_peaches.md](pen_ink_point_line_peaches.md) | #钢笔画 #点线 #桃子 #植物 #精细线描 | 钢笔点线桃子、精细描绘桃子、点线技法插画 | 2:3（竖版） |
 | 19  [trendy_bubble_letter_portrait.md](trendy_bubble_letter_portrait.md) | #潮流视觉 #泡泡字 #高明度 #偶像卡 #复古电脑界面 #清透风格 | 泡泡字海报、高明度潮流、偶像卡风格、零售活动海报、复古电脑界面贴纸 | 16:9 / 3:4 / 9:16 |
+| 20  [pixel_cut_community_poster.md](pixel_cut_community_poster.md) | #像素字体 #黑白摄影 #几何色块 #活动视觉 #展览海报 #社区夜校 | 像素切割海报、黑白主体活动视觉、像素字体标题、斜切色块、社区夜校、活动公告海报 | 16:9 / 3:2 / 4:3 |
