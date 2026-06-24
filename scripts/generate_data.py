@@ -12,6 +12,7 @@ STYLES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'styles')
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
 IMAGES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images')
 BASE_URL = 'https://malongan.github.io/style-source'
+NUMBERS_FILE = os.path.join(DATA_DIR, 'style_numbers.json')
 
 
 def get_version() -> str:
@@ -200,9 +201,35 @@ def generate_styles_json(output_path: str):
     # 排序（按文件名倒序，最新的优先）
     all_styles.sort(key=lambda s: s['id'], reverse=True)
 
-    # 分配编号
-    for i, style in enumerate(all_styles, 1):
-        style['code'] = f'ST{i:04d}'
+    # 持久化编号：已有风格保持原编号，新风格分配下一个可用编号（永不重用）
+    numbers_map = {}
+    max_number = 0
+    if os.path.exists(NUMBERS_FILE):
+        with open(NUMBERS_FILE) as f:
+            numbers_map = json.load(f)
+        for v in numbers_map.values():
+            max_number = max(max_number, v)
+
+    existing_ids = {s['id'] for s in all_styles}
+    # 清理已被删除风格的编号（不再占用数字）
+    removed = [sid for sid in numbers_map if sid not in existing_ids]
+    for sid in removed:
+        del numbers_map[sid]
+
+    next_number = max_number + 1 if max_number > 0 else 1
+    for style in all_styles:
+        sid = style['id']
+        if sid in numbers_map:
+            style['code'] = f'ST{numbers_map[sid]:04d}'
+        else:
+            numbers_map[sid] = next_number
+            style['code'] = f'ST{next_number:04d}'
+            next_number += 1
+
+    # 持久化保存
+    with open(NUMBERS_FILE, 'w') as f:
+        json.dump(numbers_map, f, indent=2)
+        f.write('\n')
 
     data = {
         'meta': {
