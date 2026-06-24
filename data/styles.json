@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-26-ge12d80d-dirty",
-    "generated": "2026-06-24T15:56:18Z",
-    "total": 144,
+    "version": "v0.5.0-27-g89145a6-dirty",
+    "generated": "2026-06-24T16:03:39Z",
+    "total": 145,
     "categories": [
       "brand_kv",
       "creative",
@@ -3524,6 +3524,39 @@
       "source_author": "MrLarus",
       "source_url": "https://x.com/MrLarus/status/2066188366480118027",
       "code": "ST0096"
+    },
+    {
+      "id": "korean_morning_ritual_poster",
+      "name": "Korean Morning Ritual Poster",
+      "category": "creative",
+      "tags": [
+        "晨间问候",
+        "韩国ins风",
+        "治愈系",
+        "橙色系",
+        "早安",
+        "清透",
+        "极简排版"
+      ],
+      "scene": "朋友圈早安问候、ins日常、品牌早安海报、节气祝福、客户维护",
+      "ratio": "16:9 / 3:4 / 9:16",
+      "summary": "清透明亮的晨间仪式感图文，主体在有机圆角窗口内，弧线文字围绕，韩国 ins 风治愈画面。",
+      "features": [
+        "**有机圆角窗口** — 主体以近距离局部放大呈现，放入边角圆润、底部略有柔和起伏的窗口中，窗口外保留大面积干净留白与细腻纸质肌理",
+        "**前后层次** — 前景略虚化，中景最清晰，后景被柔光和透明材质轻轻压住；半透明包裹层从画面一侧斜向掠过并遮挡部分主体",
+        "**极简排版** — 上方纤细数字日期，局部文字沿弧线轻轻围绕主体，底部大号中文短句 + 紧凑英文标题 + 小段说明文字，字重从细到粗形成阅读顺序",
+        "**色彩系统** — 大面积高明度低杂质底色 + 主题柔和主色 + 强调色只在焦点附近出现，深色只承担信息和轮廓功能",
+        "**晨光包裹感** — 半透明包裹层、纸张层或薄膜层斜向掠过，形成被晨光包裹的轻盈感"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.thumb.webp",
+      "variables": {},
+      "source_author": "xiaoxiaodong01",
+      "source_url": "https://x.com/xiaoxiaodong01/status/2068488600531153205",
+      "code": "ST0145"
     },
     {
       "id": "korean_illustration",

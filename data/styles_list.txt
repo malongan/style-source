@@ -1,4 +1,4 @@
-共 144 个风格
+共 145 个风格
 
 ST0001 | Y3K Cool Girl Portrait | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | Wilderness Wind Poster | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -97,6 +97,7 @@ ST0093 | Luxury Product | https://malongan.github.io/style-source/images/styles_
 ST0094 | Luxury Poster Style | https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.webp
 ST0095 | Luxury Birthday Poster | https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp
 ST0096 | Luxury Beauty Side Profile Poster | https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp
+ST0145 | Korean Morning Ritual Poster | https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.webp
 ST0097 | Korean Illustration | https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.webp
 ST0098 | Kimjunggi Scifi Sketch | https://malongan.github.io/style-source/images/styles_previews/kimjunggi_scifi_sketch_1abbb496.webp
 ST0099 | K Gyaru Street Snap | https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp
