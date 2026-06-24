@@ -25,3 +25,5 @@
 | 19  [trendy_bubble_letter_portrait.md](trendy_bubble_letter_portrait.md) | #潮流视觉 #泡泡字 #高明度 #偶像卡 #复古电脑界面 #清透风格 | 泡泡字海报、高明度潮流、偶像卡风格、零售活动海报、复古电脑界面贴纸 | 16:9 / 3:4 / 9:16 |
 | 20  [pixel_cut_community_poster.md](pixel_cut_community_poster.md) | #像素字体 #黑白摄影 #几何色块 #活动视觉 #展览海报 #社区夜校 | 像素切割海报、黑白主体活动视觉、像素字体标题、斜切色块、社区夜校、活动公告海报 | 16:9 / 3:2 / 4:3 |
 | 21  [korean_morning_ritual_poster.md](korean_morning_ritual_poster.md) | #晨间问候 #韩国ins风 #治愈系 #橙色系 #早安 #清透 #极简排版 | 早安问候海报、韩国ins风、晨间仪式感、治愈系早安、朋友圈问候图、夏季问候 | 16:9 / 3:4 / 9:16 |
+| 22  [mango_coconut_doodle_drink.md](mango_coconut_doodle_drink.md) | #芒果椰乳 #涂鸦 #手绘标注 #饮品摄影 #夏季菜单 #手作感 | 芒果椰乳海报、涂鸦饮料海报、手绘饮品菜单、夏季饮品、芒果冰饮海报 | 16:9 / 9:16 |
+| 23  [lime_mint_sparkling_doodle_poster.md](lime_mint_sparkling_doodle_poster.md) | #青柠薄荷 #气泡饮 #手绘托举 #粗体标题 #夏季清爽 #饮品上新 | 青柠薄荷海报、气泡饮料海报、手绘托举杯、清爽夏日饮品、上新海报 | 16:9 / 9:16 |

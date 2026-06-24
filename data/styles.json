@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-27-g89145a6-dirty",
-    "generated": "2026-06-24T16:03:39Z",
-    "total": 145,
+    "version": "v0.5.0-28-gc67c0d2-dirty",
+    "generated": "2026-06-24T16:06:52Z",
+    "total": 147,
     "categories": [
       "brand_kv",
       "creative",
@@ -3391,6 +3391,38 @@
       "code": "ST0092"
     },
     {
+      "id": "mango_coconut_doodle_drink",
+      "name": "Mango Coconut Doodle Drink",
+      "category": "creative",
+      "tags": [
+        "芒果椰乳",
+        "涂鸦",
+        "手绘标注",
+        "饮品摄影",
+        "夏季菜单",
+        "手作感",
+        "课堂笔记"
+      ],
+      "scene": "夏季饮品菜单、单品海报、品牌上新、公众号推文配图、门店菜单立牌",
+      "ratio": "16:9 / 9:16",
+      "summary": "明亮清透饮品摄影 + 粗黑手绘涂鸦标注，像随手课堂笔记一样的可爱手作感饮料海报。",
+      "features": [
+        "**透明玻璃杯实拍感** — 杯壁透明、底部有小料和乳感基底，上方有柔软奶色云雾层 + 芒果浓缩色 + 冰块泡沫",
+        "**粗黑手绘涂鸦叠加** — 厚实松弛的黑色手写词、弧形箭头、短促放射线、虚线杯身轮廓标注，像随手课堂笔记",
+        "**浅色柔软背景** — 桌面与布料轻量支撑，远处虚化器皿和制作道具，不影响杯子视觉重量",
+        "**真实与手绘反差** — 实拍饮品质感 × 幼拙线描手写，形成可爱记忆点"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_45aec4e1.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_45aec4e1.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_45aec4e1.thumb.webp",
+      "variables": {},
+      "source_author": "xiaoxiaodong01",
+      "source_url": "https://x.com/xiaoxiaodong01/status/2067617574033227780",
+      "code": "ST0146"
+    },
+    {
       "id": "luxury_product",
       "name": "Luxury Product",
       "category": "e-commerce",
@@ -3524,6 +3556,39 @@
       "source_author": "MrLarus",
       "source_url": "https://x.com/MrLarus/status/2066188366480118027",
       "code": "ST0096"
+    },
+    {
+      "id": "lime_mint_sparkling_doodle_poster",
+      "name": "Lime Mint Sparkling Doodle Poster",
+      "category": "creative",
+      "tags": [
+        "青柠薄荷",
+        "气泡饮",
+        "手绘托举",
+        "粗体标题",
+        "夏季清爽",
+        "广告式节奏",
+        "饮品上新"
+      ],
+      "scene": "夏季新品上新、门店海报、菜单单品图、品牌上新KV、公众号配图",
+      "ratio": "16:9 / 9:16",
+      "summary": "清爽青柠薄荷气泡饮 × 粗体标题广告节奏 × 手绘蜡笔线条托举杯底，真实与线描的反差记忆点。",
+      "features": [
+        "**粗体标题+广告式节奏** — 画面上方大号粗体标题，字形紧凑笔触厚实字距打开，下方接一行或两行等宽说明文字，形成干净广告式节奏",
+        "**真实冰饮质感** — 玻璃杯边缘清晰，冰块通透高光，饮品有明显分层流动和透明层次",
+        "**手绘蜡笔托举杯底** — 杯子下方用粗颗粒手绘线条画出一只托举饮品的手，线条来自主题饮品结构色，边缘带蜡笔粉笔般的干燥颗粒",
+        "**两侧短句+稀疏排版** — 主体周围大量通风感留白，两侧短句式信息文字像产品洞察，对齐克制",
+        "**真实×线描反差** — 真实拍摄饮品质感与幼拙线描手绘之间的反差记忆点"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.thumb.webp",
+      "variables": {},
+      "source_author": "xiaoxiaodong01",
+      "source_url": "https://x.com/xiaoxiaodong01/status/2067617651644617022",
+      "code": "ST0147"
     },
     {
       "id": "korean_morning_ritual_poster",
