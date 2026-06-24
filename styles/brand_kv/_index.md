@@ -19,3 +19,4 @@
 | 13  [cyberpunk_halftone_poster.md](cyberpunk_halftone_poster.md) | #赛博朋克 #极繁 #半调 #丝网印刷 #高对比 | 赛博朋克海报、半调海报、丝网印刷、街头科幻 | 3:4 |
 | 14  [digital_soul_poster.md](digital_soul_poster.md) | #数字艺术 #荧光绿 #液态金属 #像素 #前卫 | 数字灵魂海报、液态金属字母、荧光绿海报、先锋艺术 | 9:16 |
 | 15  [jimeng_kasho_allstars.md](jimeng_kasho_allstars.md) | #Y2K酸性设计 #夜店潮牌 #孟菲斯复古未来主义 #3D充气软胶 #活动海报 #潮酷夜店 | Y2K夜店海报、ALL STARS海报、充气软胶海报、孟菲斯夜店 | 9:16 |
+| 16  [gardenia_white_tea_poster.md](gardenia_white_tea_poster.md) | #东方美学 #花茶香氛 #柔焦花卉 #品牌海报 #版式设计 | 花茶海报、香氛海报、栀子花海报、东方美学、柔焦花卉海报 | 3:4 |
