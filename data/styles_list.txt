@@ -1,4 +1,4 @@
-共 143 个风格
+共 144 个风格
 
 ST0001 | Y3K Cool Girl Portrait | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | Wilderness Wind Poster | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -81,6 +81,7 @@ ST0078 | Retro Drink Ad | https://malongan.github.io/style-source/images/styles_
 ST0079 | Retro Cel Animation | https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.webp
 ST0080 | Realistic Photo | https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp
 ST0081 | Playful Avantgarde Poster | https://malongan.github.io/style-source/images/styles_previews/playful_avantgarde_poster_be32ed45.webp
+ST0144 | Pixel Cut Community Poster | https://malongan.github.io/style-source/images/styles_previews/pixel_cut_community_poster_74cb7a79.webp
 ST0082 | Pixar Cartoon Portrait | https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.webp
 ST0083 | Pet Sketch Storyboard | https://malongan.github.io/style-source/images/styles_previews/pet_sketch_storyboard_dce925d4.webp
 ST0084 | Perfume Kv | https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.webp

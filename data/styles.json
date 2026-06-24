@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-25-gd99e1fb-dirty",
-    "generated": "2026-06-24T15:43:43Z",
-    "total": 143,
+    "version": "v0.5.0-26-ge12d80d-dirty",
+    "generated": "2026-06-24T15:56:18Z",
+    "total": 144,
     "categories": [
       "brand_kv",
       "creative",
@@ -2983,6 +2983,39 @@
       "source_author": "七七吖（即梦）",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7642149031103270170?workDetailType=Image&itemType=9",
       "code": "ST0081"
+    },
+    {
+      "id": "pixel_cut_community_poster",
+      "name": "Pixel Cut Community Poster",
+      "category": "creative",
+      "tags": [
+        "像素字体",
+        "黑白摄影",
+        "几何色块",
+        "活动视觉",
+        "展览海报",
+        "社区夜校",
+        "清透构图"
+      ],
+      "scene": "社区活动KV、公众号头图、现场投屏、讲座海报、文化活动视觉",
+      "ratio": "16:9 / 3:2 / 4:3",
+      "summary": "像素切割大标题 × 黑白摄影主体 × 斜切明亮色场，冷静精确的社区活动视觉系统。",
+      "features": [
+        "**像素切割标题** — 顶部横贯大字号标题，字体呈低分辨率像素切割感，笔画被网格拆成方块并在局部断裂，少量主题明亮强调色嵌在笔画端点、转折和缺口中",
+        "**黑白摄影主体** — 主体以黑白或近单色摄影质感出现，放在中上部偏一侧，边缘平直干净，人物/物件被处理成冷静、克制、可信的焦点",
+        "**斜切明亮色场** — 另一侧由大面积高明度几何色块斜向穿过，像明亮的结构底板托住信息与图像，制造强烈的图文拼接压力",
+        "**展览海报排版** — 主标题巨大且靠近边缘，英文或辅助短句细小无衬线分行排列，核心名称可被方括号式细线框住，字号差异明确，留白与拥挤并存",
+        "**色彩系统** — 大面积干净浅色背景 + 清晰中性色结构 + 少量高饱和强调色 + 黑色信息文字，色阶分明"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/pixel_cut_community_poster_74cb7a79.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pixel_cut_community_poster_74cb7a79.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/pixel_cut_community_poster_74cb7a79.thumb.webp",
+      "variables": {},
+      "source_author": "xiaoxiaodong01",
+      "source_url": "https://x.com/xiaoxiaodong01/status/2068860743613808854",
+      "code": "ST0144"
     },
     {
       "id": "pixar_cartoon_portrait",
