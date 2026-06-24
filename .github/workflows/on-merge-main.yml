@@ -23,11 +23,22 @@ jobs:
         run: |
           python3 scripts/generate_data.py
           python3 scripts/build_gallery.py
-          git diff --name-only --exit-code data/styles.json gallery.html || {
-            echo '❌ 生成文件过期！请在 PR 分支运行以下命令并重新提交：'
-            echo '   python3 scripts/generate_data.py && python3 scripts/build_gallery.py'
-            echo '   git add data/styles.json gallery.html'
-            echo '   git commit -m "chore: update data/styles.json and gallery.html"'
-            exit 1
-          }
-          echo "✅ 生成文件一致"
+          # 忽略 meta.version 和 meta.generated（每次提交后必然变化）
+          diff <(git show HEAD:data/styles.json | python3 -m json.tool --no-ensure-ascii) \
+               <(python3 -m json.tool --no-ensure-ascii data/styles.json) \
+               -I '"version"' -I '"generated"' \
+            && echo "✅ 风格数据一致" \
+            || {
+              echo '❌ 风格数据有差异！请在 PR 分支运行：'
+              echo '   python3 scripts/generate_data.py'
+              echo '   git add data/styles.json'
+              exit 1
+            }
+          git diff --name-only --exit-code gallery.html \
+            && echo "✅ Gallery 页面一致" \
+            || {
+              echo '❌ gallery.html 过期！请在 PR 分支运行：'
+              echo '   python3 scripts/build_gallery.py'
+              echo '   git add gallery.html'
+              exit 1
+            }
