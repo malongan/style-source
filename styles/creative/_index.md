@@ -22,3 +22,4 @@
 | 16  [demon_wukong_line_art.md](demon_wukong_line_art.md) | #孙悟空 #线绘 #巴洛克 #极繁 #水墨 | 孙悟空、大圣、猴王、线描绘本 | 16:9 |
 | 17  [dark_chinese_fantasy_illustration.md](dark_chinese_fantasy_illustration.md) | #奇幻插画 #流光水彩 #国风彩漫 #暗黑氛围 #二次元 #CG半厚涂 | 暗黑国风、奇幻插画、水墨油画、国风彩漫、暗雪夜 | 9:16 / 16:9 |
 | 18  [pen_ink_point_line_peaches.md](pen_ink_point_line_peaches.md) | #钢笔画 #点线 #桃子 #植物 #精细线描 | 钢笔点线桃子、精细描绘桃子、点线技法插画 | 2:3（竖版） |
+| 19  [trendy_bubble_letter_portrait.md](trendy_bubble_letter_portrait.md) | #潮流视觉 #泡泡字 #高明度 #偶像卡 #复古电脑界面 #清透风格 | 泡泡字海报、高明度潮流、偶像卡风格、零售活动海报、复古电脑界面贴纸 | 16:9 / 3:4 / 9:16 |
