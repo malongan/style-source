@@ -34,7 +34,9 @@ jobs:
               echo '   git add data/styles.json'
               exit 1
             }
-          git diff --name-only --exit-code gallery.html \
+          # gallery.html 也跳过版本号行（每次提交后必然变化）
+          diff <(git show HEAD:gallery.html | grep -v 'v0\.5\.') \
+               <(grep -v 'v0\.5\.' gallery.html) \
             && echo "✅ Gallery 页面一致" \
             || {
               echo '❌ gallery.html 过期！请在 PR 分支运行：'
