@@ -52,3 +52,4 @@
 | 46  [vigo_y2k_grunge_hiphop_cutout_poster.md](vigo_y2k_grunge_hiphop_cutout_poster.md) | #VigoCookbook #A#Y2K#grunge#hip-hop#magazine#collage#poster#style#built#from#oversized#photo#cutouts,#acid#yellow#retro#typography,#rough#black-and-white#wall#textures,#dense#editorial#footer#panels,#and#photocopied#print#noise. | Y2K Grunge Hip-Hop Cutout Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
 | 47  [vigo_y2k_mirror_ui_scribble_collage.md](vigo_y2k_mirror_ui_scribble_collage.md) | #VigoCookbook #Other | Y2K Mirror UI Scribble Collage Style | 16:9 / 4:5 / 3:4 / 9:16 |
 | 48  [vigo_yellow_black_manga_food_zine_ad.md](vigo_yellow_black_manga_food_zine_ad.md) | #VigoCookbook #Other | Yellow Black Manga Food Zine Ad Style | 16:9 / 4:5 / 3:4 / 9:16 |
+| 49  [vigo_hud_tech_spec_poster.md](vigo_hud_tech_spec_poster.md) | #VigoCookbook #HUD #技术规格 #液态金属 #3D大字 #产品海报 #面板数据 | HUD Tech Spec Poster Style | 16:9 |
