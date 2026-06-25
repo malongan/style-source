@@ -208,6 +208,9 @@ def generate_styles_json(output_path: str):
         with open(NUMBERS_FILE) as f:
             numbers_map = json.load(f)
         for v in numbers_map.values():
+            # 支持字符串 'ST0151' 和整数 151 两种格式
+            if isinstance(v, str):
+                v = int(v.replace('ST', ''))
             max_number = max(max_number, v)
 
     existing_ids = {s['id'] for s in all_styles}
@@ -220,7 +223,10 @@ def generate_styles_json(output_path: str):
     for style in all_styles:
         sid = style['id']
         if sid in numbers_map:
-            style['code'] = f'ST{numbers_map[sid]:04d}'
+            v = numbers_map[sid]
+            if isinstance(v, str):
+                v = int(v.replace('ST', ''))
+            style['code'] = f'ST{v:04d}'
         else:
             numbers_map[sid] = next_number
             style['code'] = f'ST{next_number:04d}'
