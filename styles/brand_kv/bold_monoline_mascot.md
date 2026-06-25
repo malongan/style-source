@@ -57,7 +57,7 @@ TECH SPECS: 8K分辨率，纯2D，无3D/光影/渐变
 
 ## 参考配图
 
-![Bold Monoline Mascot](https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_c4fb8a6d.webp)
+![Bold Monoline Mascot](https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.webp)
 
 ---
 

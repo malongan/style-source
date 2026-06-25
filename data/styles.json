@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.5.0-42-ge91a3c6-dirty",
-    "generated": "2026-06-25T07:30:51Z",
+    "version": "v0.5.0-43-ga30e8e9-dirty",
+    "generated": "2026-06-25T07:35:44Z",
     "total": 151,
     "categories": [
       "brand_kv",
@@ -5216,10 +5216,10 @@
         "**品牌文字小标签** — 品牌名以小型标签形式融入画面，不喧宾夺主，保持图形感"
       ],
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_c4fb8a6d.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.webp"
       ],
-      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_c4fb8a6d.webp",
-      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_c4fb8a6d.thumb.webp",
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.thumb.webp",
       "variables": {},
       "source_author": "poletaeviktor",
       "source_url": "https://x.com/poletaeviktor/status/2069827996312113187",
