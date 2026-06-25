@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-37-g445fd3a-dirty",
-    "generated": "2026-06-25T05:55:36Z",
-    "total": 149,
+    "version": "v0.5.0-38-g353c55b-dirty",
+    "generated": "2026-06-25T06:06:37Z",
+    "total": 150,
     "categories": [
       "brand_kv",
       "creative",
@@ -3518,6 +3518,39 @@
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "source_url": "https://vigozhao.github.io/AI-Visual-Prompt-Cookbook/site/",
       "code": "ST0094"
+    },
+    {
+      "id": "luxury_embroidery_macro",
+      "name": "Luxury Embroidery Macro",
+      "category": "brand_kv",
+      "tags": [
+        "微距摄影",
+        "品牌视觉",
+        "刺绣工艺",
+        "纺织品",
+        "奢侈品牌",
+        "3D渲染"
+      ],
+      "scene": "品牌KV、高端产品详情页、纺织品广告、品牌概念海报、奢侈品牌视觉",
+      "ratio": "4:5",
+      "summary": "如同品牌委托刺绣艺术家将Logo转化为线艺作品，用微距镜头捕捉每一根丝线的光泽与织物质感，呈现顶级纺织品摄影的真实感。",
+      "features": [
+        "**极致微距纹理** — 3D几何刺绣线材，每根线是真实几何体投射真实阴影，非贴图模拟",
+        "**专业纺织布光** — 120cm巨大柔光箱从正上方平坦照明，无方向性阴影，临床级精准",
+        "**品牌色智能识别** — AI自动提取品牌代表性色作为主绣线色，默认深海军蓝 #1A2332",
+        "**多针法系统** — 缎纹绣（光泽面）、轮廓绣（曲线）、法式结粒绣（圆点）、尖刺元素（渐尖）",
+        "**物理真实感** — 华夫格针织面料位移几何、纤维微绒、刺绣凹凸阴影、衬线边缘光晕",
+        "**相机参数精准** — Canon EOS R5 / Nikon Z8 + 100mm微距镜头，f/8-f/11深景深，4:5竖版"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.thumb.webp",
+      "variables": {},
+      "source_author": "AmirMushich",
+      "source_url": "https://x.com/AmirMushich/status/2062242591605707019",
+      "code": "ST0150"
     },
     {
       "id": "luxury_birthday_poster",
