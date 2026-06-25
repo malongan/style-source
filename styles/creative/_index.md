@@ -30,3 +30,4 @@
 | 24  [vintage_streetwear_cartoon_poster.md](vintage_streetwear_cartoon_poster.md) | #街頭復古 #單色海報 #1930s動畫 #塗鴉字體 #弗萊舍風格 #潮流設計 | 复古街头海报、涂鸦卡通海报、1930s动画海报、弗莱舍风格、单色复古海报、Streetwear品牌海报 | 1:1 / 3:4 / 9:16 / 16:9 |
 | 25  [textile_craft_pro.md](textile_craft_pro.md) | #织物雕塑 #手工编织 #纺织品艺术 #针织工艺 #毛绒质感 #手工艺美学 | 织物手工艺、毛绒质感、编织艺术、纺织品雕塑、TextileCraft、毛线玩偶、手工布艺 | 3:4（竖版） |
 | 26  [black_white_typographic_portrait.md](black_white_typographic_portrait.md) | #黑白 #字体海报 #编辑海报 #实验性 #墨水印刷 #侧影剪影 #手写书法 | 黑白字体肖像、高对比剪影海报、编辑海报、墨水印刷文字、侧影海报、实验排版 | 4:5 |
+| 27  [cozy_storybook_cafe.md](cozy_storybook_cafe.md) | #故事书插画 #咖啡馆 #治愈 #温暖 #吉卜力 #可爱 #水彩笔触 #手绘装饰 | 温馨故事书插画、咖啡馆治愈、吉卜力插画、儿童绘本、可爱生活肖像、奶油色插画 | 3:4 / 9:16 |
