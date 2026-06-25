@@ -29,3 +29,4 @@
 | 23  [lime_mint_sparkling_doodle_poster.md](lime_mint_sparkling_doodle_poster.md) | #青柠薄荷 #气泡饮 #手绘托举 #粗体标题 #夏季清爽 #饮品上新 | 青柠薄荷海报、气泡饮料海报、手绘托举杯、清爽夏日饮品、上新海报 | 16:9 / 9:16 |
 | 24  [vintage_streetwear_cartoon_poster.md](vintage_streetwear_cartoon_poster.md) | #街頭復古 #單色海報 #1930s動畫 #塗鴉字體 #弗萊舍風格 #潮流設計 | 复古街头海报、涂鸦卡通海报、1930s动画海报、弗莱舍风格、单色复古海报、Streetwear品牌海报 | 1:1 / 3:4 / 9:16 / 16:9 |
 | 25  [textile_craft_pro.md](textile_craft_pro.md) | #织物雕塑 #手工编织 #纺织品艺术 #针织工艺 #毛绒质感 #手工艺美学 | 织物手工艺、毛绒质感、编织艺术、纺织品雕塑、TextileCraft、毛线玩偶、手工布艺 | 3:4（竖版） |
+| 26  [black_white_typographic_portrait.md](black_white_typographic_portrait.md) | #黑白 #字体海报 #编辑海报 #实验性 #墨水印刷 #侧影剪影 #手写书法 | 黑白字体肖像、高对比剪影海报、编辑海报、墨水印刷文字、侧影海报、实验排版 | 4:5 |

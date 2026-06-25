@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-44-gae8fddc-dirty",
-    "generated": "2026-06-25T08:21:07Z",
-    "total": 152,
+    "version": "v0.5.0-45-gf6387a7-dirty",
+    "generated": "2026-06-25T14:27:24Z",
+    "total": 153,
     "categories": [
       "brand_kv",
       "creative",
@@ -5291,6 +5291,39 @@
       "source_author": "AdrianPunk115",
       "source_url": "https://x.com/AdrianPunk115/status/2064593763327234113",
       "code": "ST0141"
+    },
+    {
+      "id": "black_white_typographic_portrait",
+      "name": "Black White Typographic Portrait",
+      "category": "creative",
+      "tags": [
+        "黑白",
+        "字体海报",
+        "编辑海报",
+        "实验性",
+        "墨水印刷",
+        "侧影剪影",
+        "手写书法"
+      ],
+      "scene": "品牌KV、概念海报、社媒视觉、编辑海报、艺术展览、音乐活动海报",
+      "ratio": "4:5",
+      "summary": "高对比黑白侧影剪影肖像海报，融合粗犷手写书法字与实验编辑排版风格。",
+      "features": [
+        "**高对比黑白剪影** — 粗黑侧影轮廓搭配锐利负空间，粗糙墨迹边缘营造手工印刷感，碎片化镂空模板造型打破常规轮廓",
+        "**手写书法字体** — 超大潦草手写字嵌入颈部与身体区域，2-4 行大文字块与黑色剪影融为一体，如同纹身般自然",
+        "**编辑排印系统** — 细小微型编辑文字点缀，竖排排印元素作为装饰，底部图形设计 Logo 收尾，完整海报排版结构",
+        "**原墨印刷质感** — 米白色纸张背景，粗糙油墨边缘，不对称布局，裁切竖构图，实验编辑海报设计美学",
+        "**极简高冲击** — 仅黑白两色，以强烈的明暗对比和正负形空间打造视觉冲击力"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.thumb.webp",
+      "variables": {},
+      "source_author": "Sheldon056",
+      "source_url": "https://x.com/Sheldon056/status/2069999207713521947",
+      "code": "ST0153"
     },
     {
       "id": "beverage_style",
