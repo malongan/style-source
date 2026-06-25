@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-43-ga30e8e9-dirty",
-    "generated": "2026-06-25T07:35:44Z",
-    "total": 151,
+    "version": "v0.5.0-44-gae8fddc-dirty",
+    "generated": "2026-06-25T08:21:07Z",
+    "total": 152,
     "categories": [
       "brand_kv",
       "creative",
@@ -2105,6 +2105,38 @@
       "source_author": "xiaoxiaodong01",
       "source_url": "https://x.com/xiaoxiaodong01/status/2063633117546750058",
       "code": "ST0054"
+    },
+    {
+      "id": "textile_craft_pro",
+      "name": "Textile Craft Pro",
+      "category": "creative",
+      "tags": [
+        "织物雕塑",
+        "手工编织",
+        "纺织品艺术",
+        "针织工艺",
+        "毛绒质感",
+        "手工艺美学"
+      ],
+      "scene": "品牌KV、产品主图、社媒视觉、概念海报、收藏品展示",
+      "ratio": "3:4（竖版）",
+      "summary": "将任意物体转化为手工编织的精致织物雕塑，呈现温暖治愈的纺织品艺术质感。",
+      "features": [
+        "**织物雕塑质感** — 物体完全由针织布料、编织纤维、毛毡、纱线、绣线等柔软纺织品材料构成，像手工玩偶般温暖治愈",
+        "**柔和粉彩色调** — muted pastel 色系，低饱和的淡粉、浅蓝、米白、淡紫等，营造舒适温柔的视觉氛围",
+        "**精致手工细节** — 可见的分层布料结构、缝线痕迹、编织纹理、罗纹针织图案、细腻的手工痕迹，强调 artisan craftsmanship",
+        "**高端产品摄影美学** — 浅景深、柔和漫射棚拍灯光、干净纯色背景，让织物雕塑像收藏级设计师手办一样展示",
+        "**超写实纤维质感** — 纤毫毕现的纺织纹理、真实纤维细节，8K 渲染级品质"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.thumb.webp",
+      "variables": {},
+      "source_author": "RizwanAly07",
+      "source_url": "https://x.com/RizwanAly07/status/2069996103358156829",
+      "code": "ST0152"
     },
     {
       "id": "tear_paper",

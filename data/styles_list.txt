@@ -1,4 +1,4 @@
-共 151 个风格
+共 152 个风格
 
 ST0001 | Y3K Cool Girl Portrait | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | Wilderness Wind Poster | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -56,6 +56,7 @@ ST0051 | Vigo Analog Editorial Poster | https://malongan.github.io/style-source/
 ST0052 | Urban Collage Poster | https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.webp
 ST0053 | Typography | https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.webp
 ST0054 | Trendy Bubble Letter Portrait | https://malongan.github.io/style-source/images/styles_previews/trendy_bubble_letter_portrait_686cbd79.webp
+ST0152 | Textile Craft Pro | https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.webp
 ST0055 | Tear Paper | https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.webp
 ST0056 | Takeshi Camping Poster | https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.webp
 ST0057 | Sunny 3D | https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.webp
