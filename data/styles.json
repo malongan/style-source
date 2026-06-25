@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-36-g1d6ffcf-dirty",
-    "generated": "2026-06-25T05:42:06Z",
-    "total": 148,
+    "version": "v0.5.0-37-g445fd3a-dirty",
+    "generated": "2026-06-25T05:55:36Z",
+    "total": 149,
     "categories": [
       "brand_kv",
       "creative",
@@ -83,6 +83,39 @@
       "source_author": "即梦AI（您可来了，赵老师~）",
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7521957578377612544",
       "code": "ST0002"
+    },
+    {
+      "id": "vintage_streetwear_cartoon_poster",
+      "name": "Vintage Streetwear Cartoon Poster",
+      "category": "creative",
+      "tags": [
+        "街頭復古",
+        "單色海報",
+        "1930s動畫",
+        "塗鴉字體",
+        "弗萊舍風格",
+        "潮流設計"
+      ],
+      "scene": "品牌KV、潮流海报、联名视觉、街头品牌广告、产品主视觉",
+      "ratio": "1:1 / 3:4 / 9:16 / 16:9",
+      "summary": "1930年代弗莱舍动画美学 × 街头涂鸦泡泡字 × 单色复古印刷质感，让品牌核心产品化身调皮卡通角色，呈现复古街头海报的叛逆幽默感。",
+      "features": [
+        "**1930s弗莱舍动画美学** — 粗黑轮廓线、平涂填充、夸张变形的卡通比例，灵感来自 Fleischer Studios 的复古动画风格，角色表情生动俏皮、带一丝狡黠",
+        "**涂鸦泡泡字** — 品牌名称以连续的涂鸦泡泡字横向排列，从左到右一气呵成，字母全连接不断行，不堆叠、不换行",
+        "**单色复古印刷质感** — 米白/暖灰旧纸张纹理背景（老报纸、古旧杂志、凸版印刷纸），整体为单色或双色构图，呈现复古丝网印刷或凸版印刷效果",
+        "**产品拟人化** — 品牌最具标志性的核心产品以卡通角色形象出现，被赋予生命和个性，而非干净的产品渲染图",
+        "**品牌标语** — 底部以小号压缩大写字体放置品牌标志性的挑衅/宣言式标语，一到两行，语气坚定",
+        "**禁熔融滴落** — 产品周边不使用任何滴落、融化、流动效果，产品为干净的固体图形对象"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.thumb.webp",
+      "variables": {},
+      "source_author": "poletaeviktor",
+      "source_url": "https://x.com/poletaeviktor/status/2064771956071886905",
+      "code": "ST0149"
     },
     {
       "id": "vigo_yellow_black_manga_food_zine_ad",

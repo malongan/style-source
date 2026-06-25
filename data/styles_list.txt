@@ -1,7 +1,8 @@
-共 148 个风格
+共 149 个风格
 
 ST0001 | Y3K Cool Girl Portrait | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | Wilderness Wind Poster | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
+ST0149 | Vintage Streetwear Cartoon Poster | https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp
 ST0003 | Vigo Yellow Black Manga Food Zine Ad | https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp
 ST0004 | Vigo Y2K Mirror Ui Scribble Collage | https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_mirror_ui_scribble_collage_0b4db919.webp
 ST0005 | Vigo Y2K Grunge Hiphop Cutout Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_grunge_hiphop_cutout_poster_416488a0.webp

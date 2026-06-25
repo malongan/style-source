@@ -27,3 +27,4 @@
 | 21  [korean_morning_ritual_poster.md](korean_morning_ritual_poster.md) | #晨间问候 #韩国ins风 #治愈系 #橙色系 #早安 #清透 #极简排版 | 早安问候海报、韩国ins风、晨间仪式感、治愈系早安、朋友圈问候图、夏季问候 | 16:9 / 3:4 / 9:16 |
 | 22  [mango_coconut_doodle_drink.md](mango_coconut_doodle_drink.md) | #芒果椰乳 #涂鸦 #手绘标注 #饮品摄影 #夏季菜单 #手作感 | 芒果椰乳海报、涂鸦饮料海报、手绘饮品菜单、夏季饮品、芒果冰饮海报 | 16:9 / 9:16 |
 | 23  [lime_mint_sparkling_doodle_poster.md](lime_mint_sparkling_doodle_poster.md) | #青柠薄荷 #气泡饮 #手绘托举 #粗体标题 #夏季清爽 #饮品上新 | 青柠薄荷海报、气泡饮料海报、手绘托举杯、清爽夏日饮品、上新海报 | 16:9 / 9:16 |
+| 24  [vintage_streetwear_cartoon_poster.md](vintage_streetwear_cartoon_poster.md) | #街頭復古 #單色海報 #1930s動畫 #塗鴉字體 #弗萊舍風格 #潮流設計 | 复古街头海报、涂鸦卡通海报、1930s动画海报、弗莱舍风格、单色复古海报、Streetwear品牌海报 | 1:1 / 3:4 / 9:16 / 16:9 |
