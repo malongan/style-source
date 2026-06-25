@@ -1,4 +1,4 @@
-共 149 个风格
+共 150 个风格
 
 ST0001 | Y3K Cool Girl Portrait | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | Wilderness Wind Poster | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -97,6 +97,7 @@ ST0092 | Maple Story Avatar | https://malongan.github.io/style-source/images/sty
 ST0146 | Mango Coconut Doodle Drink | https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.webp
 ST0093 | Luxury Product | https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.webp
 ST0094 | Luxury Poster Style | https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.webp
+ST0150 | Luxury Embroidery Macro | https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.webp
 ST0095 | Luxury Birthday Poster | https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp
 ST0096 | Luxury Beauty Side Profile Poster | https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp
 ST0147 | Lime Mint Sparkling Doodle Poster | https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp
