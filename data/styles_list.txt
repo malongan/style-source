@@ -1,4 +1,4 @@
-共 152 个风格
+共 153 个风格
 
 ST0001 | Y3K Cool Girl Portrait | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | Wilderness Wind Poster | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -150,5 +150,6 @@ ST0139 | Bubble Card | https://malongan.github.io/style-source/images/styles_pre
 ST0140 | Brand Miniature Architecture | https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp
 ST0148 | Bold Monoline Mascot | https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.webp
 ST0141 | Bloomberg Magazine | https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp
+ST0153 | Black White Typographic Portrait | https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp
 ST0142 | Beverage Style | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
 ST0143 | Avantgarde Bw Poster | https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp
