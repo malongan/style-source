@@ -161,23 +161,32 @@ def build_gallery_html(data: dict, output_path: str):
     <!-- Header -->
     <header class="header">
       <div class="header-left">
-        <h1 class="header-title">AI 风格库</h1>
-        <span class="header-author">by malongan</span>
+        <h1 class="header-title">🎨 AI 风格库</h1>
+        <div class="header-meta">
+          <span class="header-update" id="headerVersion">v{today_str}</span>
+          <span class="header-author">by malongan</span>
+        </div>
       </div>
       <div class="header-right">
-        <div class="search-box">
-          <span class="search-icon">🔍</span>
-          <input type="text" id="searchInput" placeholder="搜索风格...">
-        </div>
         <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
       </div>
     </header>
 
+    <!-- 分类固定栏（sticky） -->
+    <div class="category-bar" id="categoryBar">
+      <!-- 由 renderCategoryFilters() 动态填充 -->
+    </div>
+
     <!-- 主布局：左侧标签 + 右侧内容 -->
     <div class="main-layout">
-      <!-- 左侧标签栏 -->
+      <!-- 左侧侧边栏：搜索 + 标签 -->
       <aside class="sidebar">
         <div class="sidebar-section">
+          <div class="sidebar-search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="搜索风格、标签、作者...">
+          </div>
+          <div class="sidebar-divider"></div>
           <h3 class="sidebar-title">🏷️ 标签筛选</h3>
           <div class="tag-list">
             <!-- 标签由 JS 动态生成 -->
@@ -187,8 +196,8 @@ def build_gallery_html(data: dict, output_path: str):
 
       <!-- 右侧内容区 -->
       <div class="content-area">
-        <!-- 筛选栏 -->
-        <div class="filter-bar">
+        <!-- 操作栏 -->
+        <div class="action-bar">
           <select id="sortSelect" class="sort-select">
             <option value="default">默认排序</option>
             <option value="newest">🆕 最新添加</option>
@@ -202,8 +211,7 @@ def build_gallery_html(data: dict, output_path: str):
           <button class="filter-btn clear-filter-btn" id="clearFilters" style="display:none;">
             ✕ 清除筛选
           </button>
-          <span class="result-count" style="margin-left: auto; color: var(--text-muted); font-size: 13px;">
-            <span class="header-update" style="margin-right: 12px;">最后更新：{today_str}</span>
+          <span class="result-count">
             显示 <span class="count-num" id="countVisible">{total}</span> / <span class="count-total" id="countTotal">{total}</span> 个风格
           </span>
         </div>

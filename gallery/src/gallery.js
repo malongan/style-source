@@ -18,7 +18,7 @@
   };
 
   // 标签最小展示频次阈值（低于此值折叠到「其他」）
-  const TAG_MIN_COUNT = 5;
+  const TAG_MIN_COUNT = 3;
 
   // ========== DOM 元素 ==========
   let elements = {};
@@ -125,11 +125,10 @@
     window.galleryCategories = categoriesMap;
   }
 
-  // ========== 渲染分类按钮 ==========
+  // ========== 渲染分类按钮（渲染到固定的 category-bar） ==========
   function renderCategoryFilters() {
-    // 在 filter-bar 后添加分类筛选栏
-    const filterBar = document.querySelector('.filter-bar');
-    if (!filterBar) return;
+    const categoryBar = document.getElementById('categoryBar');
+    if (!categoryBar) return;
 
     const categories = Object.entries(window.galleryCategories || {});
     categories.sort((a, b) => {
@@ -153,7 +152,9 @@
       'creative': '🎪 创意',
       'vigo_cookbook': '📖 Cookbook',
       'meigen': '⚠️ 待整理',
-      'root': '📁 未分类'
+      'roots': '📁 未分类',
+      'meigen': '⚠️ 待整理',
+      'typography': '🔤 字体设计'
     };
 
     let html = '<div class="category-filter">';
@@ -164,7 +165,7 @@
     });
     html += '</div>';
 
-    filterBar.insertAdjacentHTML('afterend', html);
+    categoryBar.innerHTML = html;
 
     // 绑定分类按钮事件
     document.querySelectorAll('.category-btn').forEach(btn => {
