@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-47-g7b7b353-dirty",
-    "generated": "2026-06-26T07:43:03Z",
-    "total": 155,
+    "version": "v0.5.0-49-g2a67478-dirty",
+    "generated": "2026-06-26T08:09:03Z",
+    "total": 156,
     "categories": [
       "brand_kv",
       "creative",
@@ -2105,6 +2105,38 @@
       "source_author": "xiaoxiaodong01",
       "source_url": "https://x.com/xiaoxiaodong01/status/2063633117546750058",
       "code": "ST0054"
+    },
+    {
+      "id": "transparency_concept_poster",
+      "name": "Transparency Concept Poster",
+      "category": "creative",
+      "tags": [
+        "透明",
+        "概念海报",
+        "中文排版",
+        "展览海报",
+        "平面设计",
+        "玻璃质感"
+      ],
+      "scene": "展览海报、杂志封面、概念设计海报、视觉图鉴、实验刊物封面",
+      "ratio": "3:4（竖版）",
+      "summary": "以「透明」为核心概念的展览级海报风格，将透明/半透明/玻璃材质融入具体主题，配合完整中文排版形成高级平面设计方向。",
+      "features": [
+        "**透明材质美学** — 主体使用透明、半透明、玻璃感、树脂感、凝胶感、轻盈漂浮感、切片感或剖面感材质，通透干净且有方向性",
+        "**完整中文排版** — 必须包含清晰中文标题、辅助副标题、展览/说明信息、时间信息、地点信息、补充小字模块，呈现真实存在的设计展海报质感",
+        "**视觉中心明确** — 画面需要清晰的主题对象，通过材质、构图、色彩和排版形成独立设计方向",
+        "**高级平面设计感** — 材质通透、画面干净、构图有设计感，避免电商感、普通宣传页、廉价3D和杂乱",
+        "**多种版式可切换** — 大标题主导型 / 图像主导型 / 杂志内页型 / 图鉴式标注型 / 标本式编目型 / 实验展海报型，可根据主题自由变化"
+      ],
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.webp",
+      "preview_thumb": "https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.thumb.webp",
+      "variables": {},
+      "source_author": "YangOnchain",
+      "source_url": "https://x.com/YangOnchain/status/2070182652599300497",
+      "code": "ST0156"
     },
     {
       "id": "textile_craft_pro",
