@@ -234,8 +234,6 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
 
     <!-- Lightbox 详情弹窗 -->
     <div class="lightbox" id="lightbox">
-      <button class="lightbox-nav lightbox-nav-prev" id="lightboxPrev" title="上一个 (←)">◀</button>
-      <button class="lightbox-nav lightbox-nav-next" id="lightboxNext" title="下一个 (→)">▶</button>
       <div class="lightbox-card">
         <div class="lightbox-image-wrap">
           <img src="" alt="" class="lightbox-image">

@@ -843,40 +843,6 @@ body {
   background: rgba(0,0,0,0.8);
 }
 
-/* Lightbox 左右导航按钮 */
-.lightbox-nav {
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1010;
-  background: rgba(0,0,0,0.5);
-  border: none;
-  color: white;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background 0.2s, opacity 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.8;
-}
-
-.lightbox-nav:hover {
-  background: rgba(0,0,0,0.8);
-  opacity: 1;
-}
-
-.lightbox-nav-prev {
-  left: 16px;
-}
-
-.lightbox-nav-next {
-  right: 16px;
-}
-
 /* 右侧内容区 */
 .lightbox-body {
   flex: 1;
