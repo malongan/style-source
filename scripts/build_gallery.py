@@ -161,30 +161,45 @@ def build_gallery_html(data: dict, output_path: str):
     <!-- Header -->
     <header class="header">
       <div class="header-left">
-        <h1 class="header-title">🎨 AI 风格库</h1>
-        <div class="header-meta">
-          <span class="header-update" id="headerVersion">v{today_str}</span>
-          <span class="header-author">by malongan</span>
-        </div>
+        <h1 class="header-title">🎨 AI 风格库 <span class="header-update" id="headerVersion">v{today_str}</span> <span class="header-author">by malongan</span></h1>
       </div>
       <div class="header-right">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="搜索风格、标签、作者...">
+          <span class="search-clear" id="searchClear" style="display:none;">✕</span>
+        </div>
         <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
       </div>
     </header>
 
-    <!-- 分类固定栏（sticky） -->
+    <!-- 分类固定栏（sticky）：左分类 + 右计数 -->
     <div class="category-bar" id="categoryBar">
-      <!-- 由 renderCategoryFilters() 动态填充 -->
+      <div class="category-filter" id="categoryFilter">
+        <!-- 由 renderCategoryFilters() 动态填充 -->
+      </div>
+      <span class="result-count">
+        显示 <span class="count-num" id="countVisible">{total}</span> / <span class="count-total" id="countTotal">{total}</span> 个风格
+      </span>
     </div>
 
     <!-- 主布局：左侧标签 + 右侧内容 -->
     <div class="main-layout">
-      <!-- 左侧侧边栏：搜索 + 标签 -->
+      <!-- 左侧侧边栏：排序+收藏 + 标签 -->
       <aside class="sidebar">
         <div class="sidebar-section">
-          <div class="sidebar-search-box">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="searchInput" placeholder="搜索风格、标签、作者...">
+          <div class="sidebar-actions">
+            <select id="sortSelect" class="sort-select">
+              <option value="default">默认排序</option>
+              <option value="newest">🆕 最新添加</option>
+              <option value="name-asc">📄 名称 A-Z</option>
+              <option value="name-desc">📄 名称 Z-A</option>
+              <option value="favorites">❤️ 已收藏优先</option>
+            </select>
+            <div class="sidebar-action-row">
+              <button class="filter-btn" id="filterFavorites">❤️ 只看收藏</button>
+              <button class="filter-btn clear-filter-btn" id="clearFilters" style="display:none;">✕ 清除</button>
+            </div>
           </div>
           <div class="sidebar-divider"></div>
           <h3 class="sidebar-title">🏷️ 标签筛选</h3>
@@ -194,29 +209,8 @@ def build_gallery_html(data: dict, output_path: str):
         </div>
       </aside>
 
-      <!-- 右侧内容区 -->
+      <!-- 右侧内容区：风格卡片网格 -->
       <div class="content-area">
-        <!-- 操作栏 -->
-        <div class="action-bar">
-          <select id="sortSelect" class="sort-select">
-            <option value="default">默认排序</option>
-            <option value="newest">🆕 最新添加</option>
-            <option value="name-asc">📄 名称 A-Z</option>
-            <option value="name-desc">📄 名称 Z-A</option>
-            <option value="favorites">❤️ 已收藏优先</option>
-          </select>
-          <button class="filter-btn" id="filterFavorites">
-            ❤️ 只看收藏
-          </button>
-          <button class="filter-btn clear-filter-btn" id="clearFilters" style="display:none;">
-            ✕ 清除筛选
-          </button>
-          <span class="result-count">
-            显示 <span class="count-num" id="countVisible">{total}</span> / <span class="count-total" id="countTotal">{total}</span> 个风格
-          </span>
-        </div>
-
-        <!-- 风格卡片网格（由 renderGallery 填充） -->
         <div id="gallery" class="gallery-grid">
           <!-- renderGallery 将在此生成 .style-card -->
         </div>

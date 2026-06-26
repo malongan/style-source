@@ -37,6 +37,7 @@
   function cacheElements() {
     elements = {
       searchInput: document.getElementById('searchInput'),
+      searchClear: document.getElementById('searchClear'),
       themeToggle: document.getElementById('themeToggle'),
       filterFavorites: document.getElementById('filterFavorites'),
       clearFilters: document.getElementById('clearFilters'),
@@ -127,8 +128,8 @@
 
   // ========== 渲染分类按钮（渲染到固定的 category-bar） ==========
   function renderCategoryFilters() {
-    const categoryBar = document.getElementById('categoryBar');
-    if (!categoryBar) return;
+    const catFilter = document.getElementById('categoryFilter');
+    if (!catFilter) return;
 
     const categories = Object.entries(window.galleryCategories || {});
     categories.sort((a, b) => {
@@ -151,21 +152,19 @@
       'fashion': '👔 时尚',
       'creative': '🎪 创意',
       'vigo_cookbook': '📖 Cookbook',
-      'meigen': '⚠️ 待整理',
       'roots': '📁 未分类',
       'meigen': '⚠️ 待整理',
       'typography': '🔤 字体设计'
     };
 
-    let html = '<div class="category-filter">';
+    let html = '';
     categories.forEach(([cat, count]) => {
       const name = categoryNames[cat] || cat;
       const active = state.currentCategory === cat ? 'active' : '';
       html += `<button class="category-btn ${active}" data-category="${cat}">${name} <span class="tag-count">${count}</span></button>`;
     });
-    html += '</div>';
 
-    categoryBar.innerHTML = html;
+    catFilter.innerHTML = html;
 
     // 绑定分类按钮事件
     document.querySelectorAll('.category-btn').forEach(btn => {
@@ -273,6 +272,19 @@
     if (elements.searchInput) {
       elements.searchInput.addEventListener('input', debounce(handleSearch, 300));
     }
+    
+    // 搜索清除按钮
+    if (elements.searchClear) {
+      elements.searchClear.addEventListener('click', function() {
+        if (elements.searchInput) {
+          elements.searchInput.value = '';
+          state.searchQuery = '';
+          elements.searchClear.style.display = 'none';
+          filterCards();
+          elements.searchInput.focus();
+        }
+      });
+    }
 
     // 主题切换
     if (elements.themeToggle) {
@@ -344,7 +356,14 @@
   }
 
   function handleSearch(e) {
-    state.searchQuery = e.target.value.toLowerCase().trim();
+    const query = e.target.value.toLowerCase().trim();
+    state.searchQuery = query;
+    
+    // 显示/隐藏搜索清除按钮
+    if (elements.searchClear) {
+      elements.searchClear.style.display = query ? 'inline' : 'none';
+    }
+    
     filterCards();
   }
 
@@ -418,6 +437,7 @@
 
     // 重置搜索框
     if (elements.searchInput) elements.searchInput.value = '';
+    if (elements.searchClear) elements.searchClear.style.display = 'none';
 
     // 重置排序
     if (elements.sortSelect) elements.sortSelect.value = 'default';

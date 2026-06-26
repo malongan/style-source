@@ -89,8 +89,9 @@ body {
 [data-theme] .tag-item,
 [data-theme] .category-btn,
 [data-theme] .category-bar,
-[data-theme] .action-bar,
-[data-theme] .sidebar-search-box {
+[data-theme] .sidebar-actions,
+[data-theme] .sidebar-action-row .filter-btn,
+[data-theme] .search-box {
   transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
 
@@ -119,21 +120,22 @@ body {
 
 .header-left {
   display: flex;
-  flex-direction: column;
-  gap: 2px;
+  align-items: center;
+  gap: 0;
+  min-width: 0;
+  flex-shrink: 1;
 }
 
 .header-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--text-primary);
-  line-height: 1.3;
-}
-
-.header-meta {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-wrap: wrap;
+  line-height: 1.4;
+  min-width: 0;
 }
 
 .header-update {
@@ -143,17 +145,73 @@ body {
   background: var(--bg-secondary);
   padding: 2px 8px;
   border-radius: 4px;
+  white-space: nowrap;
 }
 
 .header-author {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-muted);
+  font-weight: 400;
+  white-space: nowrap;
 }
 
 .header-right {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-shrink: 0;
+}
+
+/* 搜索框 */
+.search-box {
+  display: flex;
+  align-items: center;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 6px 8px;
+  transition: border-color 0.2s;
+  gap: 4px;
+}
+
+.search-box:focus-within {
+  border-color: var(--accent-color);
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 13px;
+  color: var(--text-primary);
+  width: 160px;
+}
+
+.search-box input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-icon {
+  color: var(--text-muted);
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
+/* 搜索清除按钮 */
+.search-clear {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 13px;
+  padding: 1px 3px;
+  line-height: 1;
+  border-radius: 4px;
+  display: none;
+  transition: background 0.15s;
+}
+
+.search-clear:hover {
+  background: var(--border-color);
+  color: var(--text-primary);
 }
 
 /* 深色模式切换 */
@@ -174,35 +232,44 @@ body {
 /* ==================== 分类固定栏（sticky） ==================== */
 .category-bar {
   position: sticky;
-  top: 68px;
+  top: 58px;
   z-index: 99;
   background: var(--bg-primary);
   padding: 8px 0 12px 0;
-  margin-bottom: 0;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+/* 分类按钮容器 - 可横向滚动 */
+.category-filter {
+  display: flex;
   gap: 6px;
+  flex: 1;
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
 }
 
-.category-bar::-webkit-scrollbar {
+.category-filter::-webkit-scrollbar {
   height: 3px;
 }
-.category-bar::-webkit-scrollbar-thumb {
+.category-filter::-webkit-scrollbar-thumb {
   background: var(--border-color);
   border-radius: 2px;
 }
 
-/* 分类按钮 - 水平紧凑排列 */
-.category-filter {
-  display: flex;
-  gap: 6px;
-  flex-wrap: nowrap;
-  width: 100%;
+/* 分类计数 - 右对齐 */
+.result-count {
+  flex-shrink: 0;
+  color: var(--text-muted);
+  font-size: 12px;
+  white-space: nowrap;
+  padding-right: 2px;
 }
 
+/* 分类按钮 */
 .category-btn {
   flex-shrink: 0;
   padding: 5px 10px;
@@ -238,8 +305,8 @@ body {
   width: 300px;
   flex-shrink: 0;
   position: sticky;
-  top: 128px;
-  max-height: calc(100vh - 140px);
+  top: 118px;
+  max-height: calc(100vh - 130px);
 }
 
 .sidebar-section {
@@ -249,50 +316,66 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  max-height: calc(100vh - 140px);
+  max-height: calc(100vh - 130px);
 }
 
-/* 侧边栏搜索框 */
-.sidebar-search-box {
+/* 侧边栏操作栏（排序+收藏） */
+.sidebar-actions {
+  padding: 10px 10px 4px 10px;
   display: flex;
-  align-items: center;
-  background: var(--bg-secondary);
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebar-actions .sort-select {
+  width: 100%;
+  background: var(--bg-card);
+  color: var(--text-secondary);
   border: 1px solid var(--border-color);
-  border-radius: 8px;
-  padding: 8px 10px;
-  margin: 10px 10px 0 10px;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 12px;
+  cursor: pointer;
   transition: border-color 0.2s;
 }
 
-.sidebar-search-box:focus-within {
+.sidebar-actions .sort-select:hover {
   border-color: var(--accent-color);
 }
 
-.sidebar-search-box .search-icon {
-  color: var(--text-muted);
-  margin-right: 6px;
-  font-size: 13px;
-  flex-shrink: 0;
+.sidebar-action-row {
+  display: flex;
+  gap: 6px;
 }
 
-.sidebar-search-box input {
-  border: none;
-  background: transparent;
-  outline: none;
-  font-size: 13px;
-  color: var(--text-primary);
-  width: 100%;
+.sidebar-action-row .filter-btn {
+  flex: 1;
+  text-align: center;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 5px 6px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
-.sidebar-search-box input::placeholder {
-  color: var(--text-muted);
+.sidebar-action-row .filter-btn:hover {
+  border-color: var(--accent-color);
+}
+
+.sidebar-action-row .filter-btn.active {
+  background: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
 }
 
 /* 侧边栏分隔线 */
 .sidebar-divider {
   height: 1px;
   background: var(--border-color);
-  margin: 10px 10px 0 10px;
+  margin: 6px 10px 0 10px;
   opacity: 0.5;
 }
 
@@ -383,22 +466,7 @@ body {
   min-width: 0;
 }
 
-/* ==================== 操作栏 ==================== */
-.action-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 12px;
-  flex-wrap: wrap;
-}
-
-.result-count {
-  margin-left: auto;
-  color: var(--text-muted);
-  font-size: 12px;
-  white-space: nowrap;
-}
-
+/* ==================== 按钮 & 下拉公共样式（用于侧边栏） ==================== */
 .filter-btn {
   background: var(--bg-card);
   color: var(--text-secondary);
@@ -1100,30 +1168,45 @@ body {
     <!-- Header -->
     <header class="header">
       <div class="header-left">
-        <h1 class="header-title">🎨 AI 风格库</h1>
-        <div class="header-meta">
-          <span class="header-update" id="headerVersion">v2026-06-26</span>
-          <span class="header-author">by malongan</span>
-        </div>
+        <h1 class="header-title">🎨 AI 风格库 <span class="header-update" id="headerVersion">v2026-06-26</span> <span class="header-author">by malongan</span></h1>
       </div>
       <div class="header-right">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="搜索风格、标签、作者...">
+          <span class="search-clear" id="searchClear" style="display:none;">✕</span>
+        </div>
         <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
       </div>
     </header>
 
-    <!-- 分类固定栏（sticky） -->
+    <!-- 分类固定栏（sticky）：左分类 + 右计数 -->
     <div class="category-bar" id="categoryBar">
-      <!-- 由 renderCategoryFilters() 动态填充 -->
+      <div class="category-filter" id="categoryFilter">
+        <!-- 由 renderCategoryFilters() 动态填充 -->
+      </div>
+      <span class="result-count">
+        显示 <span class="count-num" id="countVisible">156</span> / <span class="count-total" id="countTotal">156</span> 个风格
+      </span>
     </div>
 
     <!-- 主布局：左侧标签 + 右侧内容 -->
     <div class="main-layout">
-      <!-- 左侧侧边栏：搜索 + 标签 -->
+      <!-- 左侧侧边栏：排序+收藏 + 标签 -->
       <aside class="sidebar">
         <div class="sidebar-section">
-          <div class="sidebar-search-box">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="searchInput" placeholder="搜索风格、标签、作者...">
+          <div class="sidebar-actions">
+            <select id="sortSelect" class="sort-select">
+              <option value="default">默认排序</option>
+              <option value="newest">🆕 最新添加</option>
+              <option value="name-asc">📄 名称 A-Z</option>
+              <option value="name-desc">📄 名称 Z-A</option>
+              <option value="favorites">❤️ 已收藏优先</option>
+            </select>
+            <div class="sidebar-action-row">
+              <button class="filter-btn" id="filterFavorites">❤️ 只看收藏</button>
+              <button class="filter-btn clear-filter-btn" id="clearFilters" style="display:none;">✕ 清除</button>
+            </div>
           </div>
           <div class="sidebar-divider"></div>
           <h3 class="sidebar-title">🏷️ 标签筛选</h3>
@@ -1133,29 +1216,8 @@ body {
         </div>
       </aside>
 
-      <!-- 右侧内容区 -->
+      <!-- 右侧内容区：风格卡片网格 -->
       <div class="content-area">
-        <!-- 操作栏 -->
-        <div class="action-bar">
-          <select id="sortSelect" class="sort-select">
-            <option value="default">默认排序</option>
-            <option value="newest">🆕 最新添加</option>
-            <option value="name-asc">📄 名称 A-Z</option>
-            <option value="name-desc">📄 名称 Z-A</option>
-            <option value="favorites">❤️ 已收藏优先</option>
-          </select>
-          <button class="filter-btn" id="filterFavorites">
-            ❤️ 只看收藏
-          </button>
-          <button class="filter-btn clear-filter-btn" id="clearFilters" style="display:none;">
-            ✕ 清除筛选
-          </button>
-          <span class="result-count">
-            显示 <span class="count-num" id="countVisible">156</span> / <span class="count-total" id="countTotal">156</span> 个风格
-          </span>
-        </div>
-
-        <!-- 风格卡片网格（由 renderGallery 填充） -->
         <div id="gallery" class="gallery-grid">
           <!-- renderGallery 将在此生成 .style-card -->
         </div>
@@ -2968,6 +3030,7 @@ window.__FALLBACK_IMG__ = '<div class="img-fallback" style="width:100%;aspect-ra
   function cacheElements() {
     elements = {
       searchInput: document.getElementById('searchInput'),
+      searchClear: document.getElementById('searchClear'),
       themeToggle: document.getElementById('themeToggle'),
       filterFavorites: document.getElementById('filterFavorites'),
       clearFilters: document.getElementById('clearFilters'),
@@ -3058,8 +3121,8 @@ window.__FALLBACK_IMG__ = '<div class="img-fallback" style="width:100%;aspect-ra
 
   // ========== 渲染分类按钮（渲染到固定的 category-bar） ==========
   function renderCategoryFilters() {
-    const categoryBar = document.getElementById('categoryBar');
-    if (!categoryBar) return;
+    const catFilter = document.getElementById('categoryFilter');
+    if (!catFilter) return;
 
     const categories = Object.entries(window.galleryCategories || {});
     categories.sort((a, b) => {
@@ -3082,21 +3145,19 @@ window.__FALLBACK_IMG__ = '<div class="img-fallback" style="width:100%;aspect-ra
       'fashion': '👔 时尚',
       'creative': '🎪 创意',
       'vigo_cookbook': '📖 Cookbook',
-      'meigen': '⚠️ 待整理',
       'roots': '📁 未分类',
       'meigen': '⚠️ 待整理',
       'typography': '🔤 字体设计'
     };
 
-    let html = '<div class="category-filter">';
+    let html = '';
     categories.forEach(([cat, count]) => {
       const name = categoryNames[cat] || cat;
       const active = state.currentCategory === cat ? 'active' : '';
       html += `<button class="category-btn ${active}" data-category="${cat}">${name} <span class="tag-count">${count}</span></button>`;
     });
-    html += '</div>';
 
-    categoryBar.innerHTML = html;
+    catFilter.innerHTML = html;
 
     // 绑定分类按钮事件
     document.querySelectorAll('.category-btn').forEach(btn => {
@@ -3204,6 +3265,19 @@ window.__FALLBACK_IMG__ = '<div class="img-fallback" style="width:100%;aspect-ra
     if (elements.searchInput) {
       elements.searchInput.addEventListener('input', debounce(handleSearch, 300));
     }
+    
+    // 搜索清除按钮
+    if (elements.searchClear) {
+      elements.searchClear.addEventListener('click', function() {
+        if (elements.searchInput) {
+          elements.searchInput.value = '';
+          state.searchQuery = '';
+          elements.searchClear.style.display = 'none';
+          filterCards();
+          elements.searchInput.focus();
+        }
+      });
+    }
 
     // 主题切换
     if (elements.themeToggle) {
@@ -3275,7 +3349,14 @@ window.__FALLBACK_IMG__ = '<div class="img-fallback" style="width:100%;aspect-ra
   }
 
   function handleSearch(e) {
-    state.searchQuery = e.target.value.toLowerCase().trim();
+    const query = e.target.value.toLowerCase().trim();
+    state.searchQuery = query;
+    
+    // 显示/隐藏搜索清除按钮
+    if (elements.searchClear) {
+      elements.searchClear.style.display = query ? 'inline' : 'none';
+    }
+    
     filterCards();
   }
 
@@ -3349,6 +3430,7 @@ window.__FALLBACK_IMG__ = '<div class="img-fallback" style="width:100%;aspect-ra
 
     // 重置搜索框
     if (elements.searchInput) elements.searchInput.value = '';
+    if (elements.searchClear) elements.searchClear.style.display = 'none';
 
     // 重置排序
     if (elements.sortSelect) elements.sortSelect.value = 'default';
