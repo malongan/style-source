@@ -32,3 +32,4 @@
 | 26  [black_white_typographic_portrait.md](black_white_typographic_portrait.md) | #黑白 #字体海报 #编辑海报 #实验性 #墨水印刷 #侧影剪影 #手写书法 | 黑白字体肖像、高对比剪影海报、编辑海报、墨水印刷文字、侧影海报、实验排版 | 4:5 |
 | 27  [cozy_storybook_cafe.md](cozy_storybook_cafe.md) | #故事书插画 #咖啡馆 #治愈 #温暖 #吉卜力 #可爱 #水彩笔触 #手绘装饰 | 温馨故事书插画、咖啡馆治愈、吉卜力插画、儿童绘本、可爱生活肖像、奶油色插画 | 3:4 / 9:16 |
 | 28  [clay_typography_poster.md](clay_typography_poster.md) | #黏土 #3D #文字互动 #极简 #创意海报 #GPTImage2 | 黏土文字互动、黏土角色海报、3D黏土文字海报、粘土字效 | 3:4（竖版） |
+| 29  [transparency_concept_poster.md](transparency_concept_poster.md) | #透明 #概念海报 #中文排版 #展览海报 #平面设计 #玻璃质感 | 透明海报、概念海报、展览海报、玻璃质感海报、中文排版海报 | 3:4（竖版） |
