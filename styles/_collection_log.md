@@ -101,3 +101,4 @@
 | 2026-06-16 | https://jimeng.jianying.com/ai-tool/work-detail/7616607728072461594 | glass_flower_spring_diary | glass_flower_spring_diary.md | - | 手动 |
 | 2026-06-16 | https://jimeng.jianying.com/ai-tool/work-detail/7647430982500453641 | soft_clay_macaron_poster | soft_clay_macaron_poster.md | 1套 | 新建 |
 | 2026-06-17 | https://jimeng.jianying.com/ai-tool/work-detail/7651882653125332274 | demon_wukong_line_art | demon_wukong_line_art.md | - | 即梦·韩啸 |
+| 2026-06-26 | https://x.com/MissDelulu9/status/2070366056351428880 | clay_typography_poster | clay_typography_poster.md | 299af5ec | @MissDelulu9 |
