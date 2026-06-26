@@ -402,17 +402,6 @@
       }
     });
 
-    // 回到顶部按钮
-    var backToTop = document.getElementById('backToTop');
-    if (backToTop) {
-      window.addEventListener('scroll', debounce(function() {
-        backToTop.classList.toggle('visible', window.scrollY > 400);
-      }, 100));
-      backToTop.addEventListener('click', function() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-    }
-
     // 收藏按钮
     elements.styleCards.forEach(card => {
       const favBtn = card.querySelector('.favorite-btn');

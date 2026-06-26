@@ -1,3 +1,4 @@
+/* gallery-runtime.js v20260626 — 由 build_gallery.py 生成 */
 /**
  * Gallery 功能脚本 v3
  * 包含：搜索过滤、标签筛选、收藏、Lightbox信息卡片、深色模式
@@ -902,9 +903,6 @@
   }
 
   // ========== 启动 ==========
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+  // auto-init disabled, init() called by renderGallery
+  window.init = init;
 })();
