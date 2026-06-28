@@ -17,7 +17,7 @@ def main():
     total = 0
     for root, dirs, files in os.walk(styles_dir):
         for f in sorted(files):
-            if not f.endswith('.md') or f.startswith('_'):
+            if not f.endswith('.yaml') or f.startswith('_'):
                 continue
             filepath = os.path.join(root, f)
             errors, warnings = validate_file(filepath, check_images=check_images)

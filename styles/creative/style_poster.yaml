@@ -1,0 +1,90 @@
+name: Folded Diamond Perspective Type Poster Style
+category: creative
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across
+  the lower surface.
+tags:
+- VigoCookbook
+- bold
+- minimalist
+- editorial
+- using
+- low-angle
+- hero
+- photography
+- inside
+- diamond
+- aperture
+- folded
+- tan
+- paper
+- canvas
+- planes
+- oversized
+- perspective
+- typography
+- printed
+- across
+- lower
+- surface
+triggers:
+- Folded Diamond Perspective Type Poster Style
+features:
+- title: 'Preserve the core visual identity: A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective
+    typography printed across the lower surface.'
+  desc: ''
+- title: Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and a bright cyan sky or clean outdoor backdrop.
+  desc: ''
+- title: 'Layout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface.'
+  desc: ''
+- title: 'Typography: set MAIN_TEXT in enormous white ultra-bold condensed sans-serif type across the lower half.'
+  desc: ''
+- title: Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main person, athlete, dancer, model, musician, founder, maker, or product hero
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: standing over the camera, stepping forward, crouching above the viewer, reaching downward, jumping, holding a prop, or looking down with confidence
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: shoe, skateboard, basketball, camera, bag, bottle, instrument, notebook, tool, or featured product
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: open sky, rooftop, court, desert road, studio courtyard, skate spot, beach, or clean outdoor setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: folded tan paper, cardboard, linen canvas, central crease, shadowed hinge, diamond aperture, subtle grain
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: huge bold headline in white condensed type
+  desc: ''
+prompt: 'Create an image in folded-diamond-perspective-type-poster-style.
+
+
+  Aspect ratio: {ASPECT_RATIO}.
+
+
+  Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Use {WARDROBE_STYLE}. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong
+  sunlight, and a bright cyan sky or clean outdoor backdrop.
+
+
+  Layout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface. Include {BACKGROUND_ELEMENTS}. Create a deep central fold
+  or crease running down from the diamond point into the lower poster.
+
+
+  Typography: set the main headline "{MAIN_TEXT}" in enormous white ultra-bold condensed sans-serif type across the lower half. Make the type feel printed onto the folded surface, split by the central crease,
+  distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain. Add "{SECONDARY_TEXT}" only as tiny clean editorial microcopy using {ACCENT_SYMBOL}.
+
+
+  Mood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop.
+  Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.'
+preview: https://malongan.github.io/images/vigo_previews/folded-diamond-perspective-type-poster.jpg
+id: style_poster
+code: ''

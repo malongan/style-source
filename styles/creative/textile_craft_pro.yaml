@@ -1,0 +1,43 @@
+name: 织物手工艺
+category: creative
+ratio: 3:4（竖版）
+source_author: '@RizwanAly07'
+source_url: ''
+summary: 将任意物体转化为手工编织的精致织物雕塑，呈现温暖治愈的纺织品艺术质感。
+tags:
+- 织物雕塑
+- 手工编织
+- 纺织品艺术
+- 针织工艺
+- 毛绒质感
+- 手工艺美学
+triggers:
+- 织物手工艺
+- 毛绒质感
+- 编织艺术
+- 纺织品雕塑
+- TextileCraft
+- 毛线玩偶
+- 手工布艺
+features:
+- title: 织物雕塑质感
+  desc: 物体完全由针织布料、编织纤维、毛毡、纱线、绣线等柔软纺织品材料构成，像手工玩偶般温暖治愈
+- title: 柔和粉彩色调
+  desc: muted pastel 色系，低饱和的淡粉、浅蓝、米白、淡紫等，营造舒适温柔的视觉氛围
+- title: 精致手工细节
+  desc: 可见的分层布料结构、缝线痕迹、编织纹理、罗纹针织图案、细腻的手工痕迹，强调 artisan craftsmanship
+- title: 高端产品摄影美学
+  desc: 浅景深、柔和漫射棚拍灯光、干净纯色背景，让织物雕塑像收藏级设计师手办一样展示
+- title: 超写实纤维质感
+  desc: 纤毫毕现的纺织纹理、真实纤维细节，8K 渲染级品质
+variables:
+- kv_var: 画面-主体
+  style_var: '{主体对象}'
+  desc: 要织物化的物体，如：a little fox / a vintage camera / a cup of coffee / a blooming rose / a classic sneaker / a pair of cherries
+prompt: A whimsical handcrafted textile sculpture of {主体对象}, created entirely from knitted fabrics, woven fibers, felt, yarn, embroidery threads, and soft textile materials. Elegant minimalist design with
+  layered fabric construction, visible stitching, intricate woven textures, ribbed knit patterns, soft tactile surfaces, delicate handcrafted details, muted pastel color palette, premium artisan craftsmanship,
+  collectible designer figurine aesthetic, shallow depth of field, soft diffused studio lighting, clean background, ultra-detailed fibers, realistic fabric textures, cinematic composition, high-end product
+  photography, masterpiece quality, 8K render.
+preview: https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_2420ef4f.webp
+id: textile_craft_pro
+code: ''

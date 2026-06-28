@@ -1,0 +1,94 @@
+name: School Grid Paper Cutout Poster
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical notebook writing, and one large centered torn-paper collage object photographed with shallow real-paper
+  shadows.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- School Grid Paper Cutout Poster
+features:
+- title: Warm beige classroom grid paper covers the entire background with thin muted blue-green ruled lines.
+  desc: ''
+- title: One oversized handmade paper-collage subject dominates the center and sits slightly right of the left text block.
+  desc: ''
+- title: The subject is a simple flat silhouette assembled from torn paper edges, not a rendered or realistic object.
+  desc: ''
+- title: Off-white paper layers and one saturated color-paper area create the main figure with very limited color variety.
+  desc: ''
+- title: Shallow physical shadows under torn paper edges create low relief while the camera remains front-facing and flat.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject or object silhouette
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: simple visual action or implied purpose
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: paper-built object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: flat classroom-paper setting or desk surface
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: minimal grid-paper details and tiny margin marks
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: short hand-written headline
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "school-grid-paper-cutout-poster" visual style.
+
+
+  Subject: {SUBJECT}
+
+  Action: {SUBJECT_ACTION}
+
+  Prop/Product: {PRODUCT_OR_PROP}
+
+  Location: {LOCATION}
+
+  Background: {BACKGROUND_ELEMENTS}
+
+  Main text: {MAIN_TEXT}
+
+  Secondary text: {SECONDARY_TEXT}
+
+  Accent symbol: {ACCENT_SYMBOL}
+
+  Wardrobe/styling: {WARDROBE_STYLE}
+
+  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+
+  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+
+
+  Apply these style rules:
+
+  - Composition: warm cream classroom grid paper background, straight-on copy-stand view, one oversized torn-paper collage object centered slightly right of the hand-written text block, generous empty grid
+  space, and a narrow pale bottom margin.
+
+  - Typography: one compact vertical column or two slim vertical columns of loose hand-drawn notebook characters on the upper-left side, dark graphite or faded ink, uneven and human, never clean digital
+  type.
+
+  - Color: mostly yellowed beige paper with muted blue-green grid lines, cream torn-paper layers, one saturated cut-paper accent color, and tiny dark handwritten marks.
+
+  - Texture and lighting: real paper grain, deckled torn fibers, slight scan softness, low contrast vintage print finish, soft diffuse overhead light, and shallow physical shadows under lifted paper edges.
+
+  - Graphic elements: ruled grid structure, torn paper silhouette, optional tiny generic seal-like mark, and a small bottom caption strip; keep all marks generic.
+
+
+  Avoid: no ice cream, no soft-serve shape, no cone silhouette, no fast-food branding, no recognizable logo, no original Chinese headline, no source watermark or signature, no dense scene, no glossy product
+  render, no 3D object, no vector poster, no QR code.
+
+
+  Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while preserving the style fidelity anchors.'
+preview: https://malongan.github.io/images/vigo_previews/school-grid-paper-cutout-poster.jpg
+id: vigo_school_grid_paper_cutout_poster
+code: ''

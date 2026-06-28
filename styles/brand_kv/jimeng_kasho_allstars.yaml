@@ -1,0 +1,37 @@
+name: Y2K酸性·ALL STARS 夜店潮流海报
+category: brand_kv
+ratio: '9:16'
+source_author: '@Ai绘画师'
+source_url: ''
+summary: Y2K酸性设计结合孟菲斯复古未来主义的夜店潮流活动海报，以3D充气软胶质感为核心视觉语言。
+tags:
+- Y2K酸性设计
+- 夜店潮牌
+- 孟菲斯复古未来主义
+- 3D充气软胶
+- 活动海报
+- 潮酷夜店
+triggers:
+- Y2K夜店海报
+- 酸性夜店
+- ALL STARS海报
+- 充气软胶海报
+- 孟菲斯夜店
+features:
+- title: '**色彩体系**：纯黑底色 + 亮蓝 + 暖橙 + 纯白的高饱和撞色'
+  desc: ''
+- title: '**材质工艺**：3D 膨胀充气软胶质感，C4D+Octane 渲染，均匀细腻的哑光颗粒肌理，圆润光滑的高光'
+  desc: ''
+- title: '**核心元素**：充气软胶孟菲斯几何元素 — 亮蓝弯曲管道、透明圆环、原子结构支架、星芒、旋钮、暖橙十字块、网格块、爆炸星、白色云朵、骨头、粉蓝渐变嘴唇、黑白眼球'
+  desc: ''
+- title: '**版式布局**：顶部品牌标识/热线信息 → 超大号粗体主标题「ALL STARS」→ 下半部分活动详情/日期/嘉宾名单'
+  desc: ''
+- title: '**文字风格**：现代无衬线字体，严格网格系统排版，文字层级清晰'
+  desc: ''
+- title: '**整体调性**：潮酷活泼、年轻化夜店氛围感，商业级活动海报质感'
+  desc: ''
+variables: []
+prompt: ''
+preview: https://malongan.github.io/images/gallery/jimeng_kasho_allstars.jpg
+id: jimeng_kasho_allstars
+code: ''

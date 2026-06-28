@@ -1,0 +1,31 @@
+name: 写实摄影
+category: e-commerce
+ratio: 按需求（常见 16:9 或 4:3）
+source_author: 内部模板
+source_url: ''
+summary: 真实光学摄影质感 + 自然光或专业灯光 + 高清晰细节。
+tags:
+- 摄影
+- 写实
+- 产品
+- 商业
+- 人物
+triggers:
+- 写实
+- 真实
+- 摄影
+- 商业摄影
+features:
+- title: 真实光学摄影质感
+  desc: ''
+- title: 自然光或专业影棚灯光
+  desc: ''
+- title: 高清晰度细节表现
+  desc: ''
+- title: 无AI虚假感
+  desc: ''
+variables: []
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/realistic_photo.png
+id: realistic_photo
+code: ''

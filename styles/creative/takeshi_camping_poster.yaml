@@ -1,0 +1,53 @@
+name: 武政谅丝网印刷露营海报
+category: creative
+ratio: 1:1 / 9:16 / 16:9
+source_author: '@LeeJiasi（即梦）'
+source_url: ''
+summary: 武政谅式丝网印刷 × 扁平极简插画 × 颗粒肌理 × 杂志风排版 = 春日露营海报。
+tags:
+- 武政谅
+- 丝网印刷
+- 颗粒肌理
+- 扁平插画
+- 露营
+- 杂志风
+triggers:
+- 武政谅插画
+- 丝网印刷海报
+- 露营海报
+- 扁平颗粒插画
+features:
+- title: 武政谅（Takeshi）风格：简约扁平插画
+  desc: ''
+- title: 丝网印刷颗粒肌理质感
+  desc: ''
+- title: 45度俯视（三分之二俯视）视角
+  desc: ''
+- title: 纯色色块拼色底（深绿 + 白色斜拼）
+  desc: ''
+- title: 极简构图，元素稀疏但有叙事感
+  desc: ''
+- title: 杂志风格排版：上方大字标题 + 下方信息条
+  desc: ''
+- title: 高饱和度，纯扁平平涂
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{主标题英文}}'
+  desc: 上方黑体英文标题
+- kv_var: Slogan
+  style_var: '{{副标题中文}}'
+  desc: 极小中文副标题
+- kv_var: 画面-场景
+  style_var: '{{车型}}、{{场景道具}}'
+  desc: 露营场景元素
+- kv_var: 色彩-底场
+  style_var: '{{底色1}}、{{底色2}}'
+  desc: 色块斜拼底色
+- kv_var: 色彩
+  style_var: 高饱和度
+  desc: 固定风格属性
+prompt: 插画海报，武政谅插画，丝网印刷风格，颗粒肌理，45度俯视视角；画面中央放着一台{{车颜色}}的{{车型}}，车上放满了行李，车后备箱位置横挂着一个{{挂载物}}，旁边插着一个大的{{场景道具}}，还有{{其他道具}}，底色是纯{{底色1}}和{{底色2}}的色块斜着拼色；纯扁平插画，超简约构图，颗粒纹理，平涂，超高清，8K，高饱和度；画面上方深色黑体杂志风写着"{{主标题英文}}"两行居中对齐，下面极小中文"{{副标题中文}}"，海报最下方居中小的纯色长方形上面镂空写着压扁的{{年份}}，海报最下方居中两行小英文；先锋设计，大师排版
+preview: https://malongan.github.io/images/vigo_previews/takeshi_camping_poster.jpg
+id: takeshi_camping_poster
+code: ''

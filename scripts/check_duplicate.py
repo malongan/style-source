@@ -37,10 +37,10 @@ def list_all_style_files() -> list:
     styles = []
     for root, dirs, files in os.walk(STYLES_DIR):
         for f in files:
-            if f.endswith('.md') and not f.startswith('_'):
+            if f.endswith('.yaml') and not f.startswith('_'):
                 rel_path = os.path.relpath(os.path.join(root, f), STYLES_DIR)
                 styles.append({
-                    'name': f.replace('.md', ''),
+                    'name': f.replace('.yaml', ''),
                     'path': rel_path,
                 })
     return styles
@@ -58,30 +58,30 @@ def check_by_url(url: str) -> list:
     return matches
 
 def check_similarity(new_prompt: str, threshold: float = 0.8) -> list:
-    """内容相似度检测（读取已有风格文件的提示词进行比较）"""
+    """内容相似度检测（读取已有风格 YAML 文件的提示词进行比较）"""
+    import yaml
     results = []
     for root, dirs, files in os.walk(STYLES_DIR):
         for f in files:
-            if not f.endswith('.md') or f.startswith('_'):
+            if not f.endswith('.yaml') or f.startswith('_'):
                 continue
             filepath = os.path.join(root, f)
-            with open(filepath, 'r', encoding='utf-8') as fp:
-                content = fp.read()
-            # 提取模板中的提示词
-            tmpl_match = re.search(
-                r'## 完整模板\s*\n\s*```(?:\w+)?\s*\n(.+?)\n\s*```',
-                content, re.DOTALL
-            )
-            if tmpl_match:
-                existing_prompt = tmpl_match.group(1)[:300]
+            try:
+                with open(filepath, 'r', encoding='utf-8') as fp:
+                    data = yaml.safe_load(fp)
+                existing_prompt = (data.get('prompt', '') or '')[:300]
+                if not existing_prompt:
+                    continue
                 similarity = SequenceMatcher(
                     None, new_prompt[:300], existing_prompt
                 ).ratio()
                 if similarity > threshold:
                     results.append({
-                        'style': f.replace('.md', ''),
+                        'style': f.replace('.yaml', ''),
                         'similarity': round(similarity, 3),
                     })
+            except Exception:
+                continue
     return results
 
 def main():
@@ -132,10 +132,10 @@ def main():
             ['git', 'diff', '--name-only', f'{base_sha}...HEAD'],
             capture_output=True, text=True, cwd=os.path.dirname(STYLES_DIR)
         )
-        new_files = [f for f in result.stdout.split('\n') if f.startswith('styles/') and f.endswith('.md') and not os.path.basename(f).startswith('_')]
+        new_files = [f for f in result.stdout.split('\n') if f.startswith('styles/') and f.endswith('.yaml') and not os.path.basename(f).startswith('_')]
         
         for f in new_files:
-            name = os.path.basename(f).replace('.md', '')
+            name = os.path.basename(f).replace('.yaml', '')
             if check_by_name(name):
                 print(f'❌ PR 中的新风格 "{name}" 与已有风格同名')
                 found = True

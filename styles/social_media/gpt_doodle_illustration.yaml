@@ -1,0 +1,69 @@
+name: GPT Image 2 Playful Doodle Illustration
+category: social_media
+ratio: 16:9 或 9:16
+source_author: '@oggii_0'
+source_url: ''
+summary: GPT Image 2 专属涂鸦插画风格指南：真实主体 + 手绘涂鸦互动 + 微观叙事 + 明亮配色。
+tags:
+- 涂鸦
+- 插画
+- GPT-Image
+- 手绘
+- 商业插画
+triggers:
+- 涂鸦插画
+- 手绘风格
+- Playful doodle
+- GPT Image 2
+features:
+- title: 真实主体与手绘涂鸦融合
+  desc: ''
+- title: 涂鸦元素与主体互动（触碰、拉拽、举起、反应）
+  desc: ''
+- title: 微观叙事小故事
+  desc: ''
+- title: 明亮 uplifting 光线，无硬阴影
+  desc: ''
+- title: 干净整洁但有温度
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{主体对象}}'
+  desc: 产品/人物/物品主体
+- kv_var: Slogan
+  style_var: '{{涂鸦文字}}'
+  desc: 手写涂鸦小字
+- kv_var: 画面-主体
+  style_var: Subject
+  desc: 真实可辨识的主体
+- kv_var: 画面-涂鸦
+  style_var: Doodles
+  desc: 与主体互动的涂鸦元素
+- kv_var: 画面-叙事
+  style_var: Micro Story
+  desc: 微观小故事
+- kv_var: 色彩-主色
+  style_var: Base + Accents
+  desc: 明亮配色系统
+- kv_var: 色彩-点缀
+  style_var: Accents
+  desc: 2-3个明快色彩
+- kv_var: 光线
+  style_var: Lighting
+  desc: 明亮 soft 无硬阴影
+- kv_var: 情绪
+  style_var: Mood
+  desc: cheerfulness/imagination
+- kv_var: 风格
+  style_var: Style
+  desc: clean + playful + human
+prompt: "Create a cheerful, creative composition that blends a realistic subject with \nplayful hand-drawn doodles and a subtle micro-story.\n\nSubject:\n[insert object / person / product — keep simple\
+  \ and recognizable]\n\nLayout:\n- Invisible clean grid system underneath\n- Balanced, airy spacing (avoid clutter)\n- Clear hierarchy: subject first, doodles second, micro details third\n\nDoodles:\n\
+  - Playful, expressive, slightly exaggerated\n- Include: smiley faces, stars, sparkles, arrows, motion lines, cute icons\n- Doodles must INTERACT with the subject (touching, pulling, lifting, reacting)\n\
+  \nMicro Story:\n- Add a tiny, fun narrative (e.g., doodle characters using the object, reacting to it)\n- Keep it subtle and discoverable on second glance\n\nTypography:\n- Friendly sans-serif + handwritten\
+  \ notes\n- Casual tone (not serious, not corporate)\n- Include small fun labels or thoughts\n\nColor:\nBase: white / soft cream\nInk: soft black / dark grey\nAccents: 2–3 cheerful colors (yellow, sky\
+  \ blue, soft red, mint, etc.)\n\nLighting:\n- Bright, soft, uplifting\n- No harsh shadows\n\nStyle:\n- Clean + playful + slightly imperfect\n- Feels human, warm, and creative\n\nConstraints:\n- Do NOT\
+  \ overcrowd\n- Every doodle must have purpose or interaction\n- Keep subject clearly visible (no obstruction)\n- Maintain breathing space\n\nMood: [cheerful / curious / lighthearted / imaginative]"
+preview: https://malongan.github.io/images/styles_previews/gpt_doodle_illustration.png
+id: gpt_doodle_illustration
+code: ''

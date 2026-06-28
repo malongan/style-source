@@ -1,0 +1,54 @@
+name: 天使阶层海报（Hierarchy Angels Poster）
+category: print
+ratio: '3:4'
+source_author: '@NOFUN'
+source_url: https://jimeng.jianying.com/ai-tool/work-detail/7552850269973794099
+summary: 宗教元素与朋克拼贴的碰撞，复古丝网印刷质感打造先锋艺术海报。
+tags:
+- 宗教朋克
+- 拼贴海报
+- 丝网印刷
+- 半调图案
+- 极简主义
+triggers:
+- 宗教朋克风
+- 拼贴海报
+- 丝网印刷质感
+- 天使阶层
+features:
+- title: 丝网印刷质感
+  desc: 噪点杂色、半调图案还原复古印刷效果
+- title: 宗教朋克风格
+  desc: 古典天使线稿与未来几何字体融合
+- title: 多层次拼贴
+  desc: 中英文混合排版，符号与数字穿插
+- title: 宝蓝+黑色配色
+  desc: 神秘高级感，米白基底干净通透
+variables:
+- kv_var: 顶部英文标语
+  style_var: A HIERARCHY OF ANGELS IS A RANKING SYSTEM OF ANGELS...
+  desc: 顶部主标语，可替换为其他英文
+- kv_var: 核心图形
+  style_var: 吹号角的天使插画
+  desc: 天使线稿风格，可替换为其他宗教/神话形象
+- kv_var: 宝蓝关键词
+  style_var: DIVINE LIGHT、ORDERS、HOLY
+  desc: 宝蓝艺术字体关键词
+- kv_var: 黑色小字
+  style_var: BLESS UR ALL SERVANTS MY LORD
+  desc: 底部黑色小字说明文字
+- kv_var: 装饰数字
+  style_var: 841、7
+  desc: 可替换为其他数字
+- kv_var: 左上角小字
+  style_var: POSTER DESIGN
+  desc: 左上角标注
+- kv_var: 右下角署名
+  style_var: NOFUN DESGIN
+  desc: 设计师署名
+prompt: 大师级排版，极简主义，半调图案，噪点杂色，丝网印刷质感。 宗教朋克风拼贴海报，以米白为基底，宝蓝与黑色为主色调；核心是黑白线稿风格的吹号角的天使插画（翅膀、姿态具古典宗教感）；顶部文字"A HIERARCHY OF ANGELS IS A RANKING SYSTEM OF ANGELS..."，搭配未来感宝蓝几何字体"END OF LIFE"；画面穿插多组文字与符号：竖排宝蓝粗体字"HIERARCHY""SERVE"，黑色小字"BLESS
+  UR ALL SERVANTS MY LORD""ANGELS CHARGE OF YOU TO PROTECT YOU IN ALL OF WAYS"，数字"841""7"，宝蓝艺术字体"DIVINE LIGHT""ORDERS""HOLY"，还有螺旋建筑小插画；整体融合古典宗教元素、朋克拼贴排版、赛博未来字体，带复古印刷的颗粒纹理，营造出宗教哲学与先锋艺术交织的思辨氛围。 左上角小字"POSTER
+  DESIGN" 右下角极小字"NOFUN DESGIN"
+preview: https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.jpg
+id: hierarchy_angels_poster
+code: ''

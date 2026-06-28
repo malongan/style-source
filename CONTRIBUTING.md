@@ -9,7 +9,7 @@
 git checkout -b feat/my-new-style
 
 # 2. 创建风格文件
-touch styles/分类/my_style_name.md
+touch styles/分类/my_style_name.yaml
 
 # 3. 生成数据 + 画廊
 python3 scripts/generate_data.py
@@ -34,7 +34,7 @@ git push origin feat/my-new-style
 ### 文件路径
 
 ```
-styles/分类/风格名.md
+styles/分类/风格名.yaml
 ```
 
 ### 分类目录
@@ -54,7 +54,7 @@ styles/分类/风格名.md
 
 ### 文件名规则
 
-- 小写字母 + 下划线：`my_style_name.md`
+- 小写字母 + 下划线：`my_style_name.yaml`
 - 不超过 60 个字符
 - 不要用空格、连字符、大写
 
@@ -125,7 +125,7 @@ styles/分类/风格名.md
 
 ```mermaid
 flowchart LR
-    A[创建分支] --> B[编写 .md 文件]
+    A[创建分支] --> B[编写 .yaml 文件]
     B --> C[添加预览图]
     C --> D[运行生成脚本]
     D --> E[提交 PR]
@@ -175,7 +175,7 @@ python3 scripts/build_gallery.py
 
 ```bash
 # 验证单个文件
-python3 scripts/validate_style.py styles/分类/文件.md
+python3 scripts/validate_style.py styles/分类/文件.yaml
 
 # 验证全部文件
 python3 scripts/validate_all.py

@@ -1,0 +1,54 @@
+name: Neon Outdoor Diary Longform Collage Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A tall mobile-first outdoor diary poster system with a charcoal black canvas, documentary action-photo cutouts, acid green kinetic headlines, ripped paper panels, hand-drawn arrows, sticker labels,
+  numbered sections, and dense social-note pacing.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Neon Outdoor Diary Longform Collage Style
+features:
+- title: Charcoal black background with thin vertical mobile-scroll framing and high-density stacked sections.
+  desc: ''
+- title: Documentary outdoor photo-collage subject cutouts with rough white keyline edges and mixed scale.
+  desc: ''
+- title: Acid green and white oversized condensed headline typography on slanted black label strips.
+  desc: ''
+- title: Orange hand-drawn arrows, loops, lightning marks, route lines, and small doodle bursts around content blocks.
+  desc: ''
+- title: Ripped notebook paper or torn tape panels used as schedule, rules, or checklist sections.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create an {ASPECT_RATIO} raster poster in the Neon Outdoor Diary Longform Collage Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}.
+  Background details: {BACKGROUND_ELEMENTS}. Wardrobe or styling: {WARDROBE_STYLE}. Main graphic text: {MAIN_TEXT}. Secondary microcopy texture: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Preserve
+  these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a charcoal black mobile poster canvas, acid green and white slanted headline strips, orange hand-drawn
+  arrows and route-line doodles, rough white cutout borders, torn notebook-paper panels, numbered diary sections, dense social-note annotations, sticker-like labels, gritty outdoor documentary photo collage,
+  paper grain, scuffed texture, and energetic irregular alignment. If vertical, make it feel like an extra-tall continuous scrolling long poster close to the reference image length, with five or more stacked
+  information chapters. If horizontal, compress the same layered diary system into a wide editorial collage without losing density.'
+preview: https://malongan.github.io/images/vigo_previews/neon-outdoor-diary-longform-collage.jpg
+id: vigo_neon_diary_collage
+code: ''

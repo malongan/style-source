@@ -24,7 +24,7 @@
 
 ```
 style-source/
-├── styles/                  ← 风格 .md 源文件
+├── styles/                  ← 风格 .yaml 源文件
 │   ├── social_media/        ← 社交媒体分类
 │   ├── brand_kv/            ← 品牌视觉
 │   ├── e-commerce/          ← 电商
@@ -35,7 +35,7 @@ style-source/
 │   ├── fashion/             ← 时尚美容
 │   ├── creative/            ← 创意特殊
 │   └── vigo_cookbook/       ← Vigo Cookbook
-├── images/styles_previews/  ← 预览图（与 .md 同仓库版本管理）
+├── images/styles_previews/  ← 预览图（与 .yaml 同仓库版本管理）
 ├── data/styles.json         ← 风格数据（CI 自动生成）
 ├── gallery.html             ← 画廊页面（内联 CSS/JS）
 ├── scripts/                 ← 工具脚本
@@ -70,11 +70,11 @@ style-source/
 
 ### 4.1 文件路径
 ```
-styles/分类/风格名.md
+styles/分类/风格名.yaml
 ```
 
 ### 4.2 文件名
-全小写 snake_case，如 `inflatable_3d_flowers.md`，最长 60 字符。
+全小写 snake_case，如 `inflatable_3d_flowers.yaml`，最长 60 字符。
 
 ### 4.3 必填字段（CI 会严格检查）
 
@@ -198,7 +198,7 @@ cp /tmp/preview.jpg style-source/images/styles_previews/风格名_${HASH}.jpg
 ```python
 chat_with_agent(
   to_agent="github-manager",
-  text="新风格已就绪：styles/分类/风格名.md + 配图路径，请处理后续"
+  text="新风格已就绪：styles/分类/风格名.yaml + 配图路径，请处理后续"
 )
 ```
 
@@ -275,7 +275,7 @@ git push origin 分支名 --force-with-lease
 
 ### CI 校验失败
 ```bash
-python3 scripts/validate_style.py styles/xxx/文件.md
+python3 scripts/validate_style.py styles/xxx/文件.yaml
 # 根据报错修改 → git add → git commit --amend → git push --force
 ```
 

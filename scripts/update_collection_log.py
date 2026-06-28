@@ -16,7 +16,7 @@ STYLES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'styles')
 LOG_FILE = os.path.join(STYLES_DIR, '_collection_log.md')
 
 def get_changed_md_files(base_sha: str, head_sha: str) -> list:
-    """使用三点语法获取 PR 引入的新增/修改的 .md 文件"""
+    """使用三点语法获取 PR 引入的新增/修改的 .yaml 文件"""
     try:
         result = subprocess.run(
             ['git', 'diff', '--name-only', '--diff-filter=AM',
@@ -27,7 +27,7 @@ def get_changed_md_files(base_sha: str, head_sha: str) -> list:
         files = []
         for line in result.stdout.strip().split('\n'):
             line = line.strip()
-            if line.startswith('styles/') and line.endswith('.md') and not os.path.basename(line).startswith('_'):
+            if line.startswith('styles/') and line.endswith('.yaml') and not os.path.basename(line).startswith('_'):
                 files.append(line)
         return files
     except subprocess.CalledProcessError as e:
@@ -35,14 +35,17 @@ def get_changed_md_files(base_sha: str, head_sha: str) -> list:
         return []
 
 def extract_source_url(filepath: str) -> str:
-    """从风格文件中提取来源链接"""
+    """从风格 YAML 文件中提取来源链接"""
+    import yaml
     full_path = os.path.join(os.path.dirname(STYLES_DIR), filepath)
     if not os.path.isfile(full_path):
         return ''
-    with open(full_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    m = re.search(r'\*\*来源链接\*\*\s*[：:]\s*(.+)', content)
-    return m.group(1).strip() if m else ''
+    try:
+        with open(full_path, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+        return (data.get('source_url', '') or '').strip()
+    except Exception:
+        return ''
 
 def append_to_log(entries: list):
     """追加日志到 _collection_log.md"""
@@ -111,7 +114,7 @@ def main():
     today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
     entries = []
     for f in files:
-        style_name = os.path.basename(f).replace('.md', '')
+        style_name = os.path.basename(f).replace('.yaml', '')
         url = extract_source_url(f)
         entries.append({
             'date': today,

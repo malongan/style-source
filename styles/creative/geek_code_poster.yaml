@@ -1,0 +1,57 @@
+name: 极客代码海报
+category: creative
+ratio: '9:16'
+source_author: '@一笔绘✏️'
+source_url: ''
+summary: 极客代码风 + 像素风 + 瑞士国际主义排版的酸性设计海报，高对比黑白蓝黄配色，先锋实验性。
+tags:
+- 酸性设计
+- 极客代码
+- 像素风
+- 瑞士排版
+- 实验性
+triggers:
+- 极客代码海报
+- 酸性设计海报
+- 代码风
+- 像素海报
+features:
+- title: 浅灰色纸张纹理背景，融合极客代码元素
+  desc: ''
+- title: 中心主体为亮蓝色塑料垃圾袋剪影，袋底黄色渐变
+  desc: ''
+- title: 超大字像素字体 "Reclaim" 贯穿画面
+  desc: ''
+- title: 大量 C 语言代码片段和注释散落画面
+  desc: ''
+- title: 黑色圆形辅助线和直线网格增强结构感
+  desc: ''
+- title: 瑞士国际主义风格的三栏信息排版
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{主标题}}'
+  desc: 粗体艺术字，如 Z&V DESIGN
+- kv_var: Slogan
+  style_var: '{{超大标题}}'
+  desc: 超大像素字体贯穿画面
+- kv_var: 画面-场景
+  style_var: 酸性地板/代码背景
+  desc: 保持纸张纹理背景
+- kv_var: 画面-动作
+  style_var: 无特定动作
+  desc: 静态海报构图
+- kv_var: 色彩-主色
+  style_var: 亮蓝色、黄色
+  desc: 塑料垃圾袋颜色
+- kv_var: 色彩-底场
+  style_var: 浅灰色
+  desc: 纸张纹理底色
+- kv_var: IP形象
+  style_var: 不适用
+  desc: 此项风格不需IP形象
+prompt: 竖版酸性设计海报，极客代码风 + 像素风 + 瑞士国际主义排版，浅灰色纸张纹理背景。中心主体为亮蓝色塑料垃圾袋剪影，袋底有黄色渐变条，袋身叠加黑色粗体艺术字 "{{主标题}}"。顶部三栏信息栏：黑色文字 "{{信息栏1}}"、"{{信息栏2}}"、"{{信息栏3}}"，配英文翻译。超大号黑色像素字体 "{{超大标题}}" 贯穿画面，搭配中文括号标注 "{{中文标注1}}""{{中文标注2}}"。画面散落大量
+  C 语言代码片段和注释，穿插黑色圆形辅助线和直线网格。底部黑色粗体"{{底部文字}}"，右侧"{{右侧文字}}"，右下角"{{Logo}}"。高对比度黑白蓝黄配色，先锋实验性排版，印刷级海报质量，高清 8K
+preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/geek_code_poster.jpg
+id: geek_code_poster
+code: ''

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""从 styles/ 目录读取所有 .md 风格文件，生成 data/styles.json。"""
+"""从 styles/ 目录读取所有 .yaml 风格文件，生成 data/styles.json。"""
 import json
 import os
 import re
@@ -84,99 +84,76 @@ def resolve_image_webp(style_id: str) -> dict:
 
 
 def parse_style_file(filepath: str) -> dict:
-    """解析单个 .md 文件，提取结构化数据"""
+    """解析单个 .yaml 风格文件，提取结构化数据"""
+    import yaml as _yaml
     with open(filepath, 'r', encoding='utf-8') as f:
-        content = f.read()
+        data = _yaml.safe_load(f)
 
-    filename = os.path.basename(filepath).replace('.md', '')
+    if not data or not isinstance(data, dict):
+        raise ValueError('YAML 文件为空或格式错误')
+
+    filename = os.path.basename(filepath).replace('.yaml', '')
     dirname = os.path.basename(os.path.dirname(filepath))
 
-    # 提取标签
-    tags_match = re.search(r'\*\*标签\*\*\s*[：:]\s*(.+)', content)
-    tags = re.findall(r'#(\S+)', tags_match.group(1)) if tags_match else []
+    # 标签
+    tags = data.get('tags', [])
+    if isinstance(tags, str):
+        tags = [t.strip() for t in tags.split(',') if t.strip()]
 
-    # 提取场景
-    scene_match = re.search(r'\*\*适用场景\*\*\s*[：:]\s*(.+)', content)
-    scene = scene_match.group(1).strip() if scene_match else ''
+    # 触发词
+    triggers = data.get('triggers', [])
+    if isinstance(triggers, str):
+        triggers = [t.strip() for t in triggers.split('、') if t.strip()]
 
-    # 提取比例
-    ratio_match = re.search(r'\*\*比例\*\*\s*[：:]\s*(.+)', content)
-    ratio = ratio_match.group(1).strip() if ratio_match else ''
-
-    # 提取来源
-    source_match = re.search(r'\*\*来源\*\*\s*[：:]\s*(.+)', content)
-    source_author = source_match.group(1).strip() if source_match else ''
-    # 去掉开头的 @ 符号，保持统一
-    source_author = source_author.lstrip('@').strip() if source_author else ''
-
-    # 提取链接
-    link_match = re.search(r'\*\*链接\*\*\s*[：:]\s*(.+)', content)
-    source_url = link_match.group(1).strip() if link_match else ''
-
-    # 提取一句话理解
-    summary_match = re.search(r'## 一句话理解\s*\n(.+?)(?:\n|$)', content)
-    summary = summary_match.group(1).strip() if summary_match else ''
-
-    # 提取特点
+    # 特点
+    features_raw = data.get('features', [])
     features = []
-    in_features = False
-    for line in content.split('\n'):
-        if line.strip().startswith('## 核心特点'):
-            in_features = True
-            continue
-        if in_features:
-            if line.strip().startswith('## '):
-                break
-            if line.strip().startswith('- '):
-                features.append(line.strip()[2:])
+    for feat in features_raw:
+        if isinstance(feat, dict):
+            title = feat.get('title', '')
+            desc = feat.get('desc', '')
+            features.append(f'**{title}** \u2014 {desc}' if desc else title)
+        elif isinstance(feat, str):
+            features.append(feat)
 
-    # 提取配图 URL — 从 repo 文件自动匹配（优先），fallback 到 yml 中的 URL
-    raw_urls = re.findall(r'!\[.*?\]\((https?://[^\s)]+)\)', content)
-    normalized = []
-    for u in raw_urls:
-        if 'malongan.github.io/images/' in u or 'malongan.github.io/style-source/images/' in u:
-            normalized.append(u)
-        elif 'raw.githubusercontent.com/malongan/images/' in u:
-            u_clean = u.replace('raw.githubusercontent.com/malongan/images/main/', 'malongan.github.io/images/')
-            normalized.append(u_clean)
-    # ★ 优先使用 repo 中的文件自动生成正确 URL（WebP 优先）
+    # 来源
+    source_author = str(data.get('source_author', '')).lstrip('@').strip()
+
+    # 图片 URL
+    raw_url = data.get('preview', '')
+    normalized = [raw_url] if raw_url else []
     preview_urls = resolve_image_url(filename, normalized)
-    # ★ WebP 版本 URL
     webp_urls = resolve_image_webp(filename)
 
-    # 提取变量
+    # 变量
+    variables_raw = data.get('variables', [])
     variables = {}
-    in_guide = False
-    for line in content.split('\n'):
-        if line.strip().startswith('## 变量使用指南'):
-            in_guide = True
-            continue
-        if in_guide and line.strip().startswith('## '):
-            break
-        if in_guide and '|' in line and '{{' in line:
-            parts = [p.strip() for p in line.split('|')]
-            if len(parts) >= 3:
-                var_match = re.search(r'\{\{(\w+)\}\}', parts[1])
-                if var_match:
-                    variables[var_match.group(1)] = parts[2]
+    for v in variables_raw:
+        if isinstance(v, dict):
+            kv_var = v.get('kv_var', '')
+            style_var = v.get('style_var', '')
+            if kv_var and style_var:
+                variables[kv_var] = style_var
 
     return {
         'id': filename,
-        'name': filename.replace('_', ' ').title(),
-        'category': dirname,
+        'code': '',
+        'name': data.get('name', filename),
+        'category': data.get('category', dirname),
         'tags': tags,
-        'scene': scene,
-        'ratio': ratio,
-        'summary': summary,
+        'triggers': triggers,
+        'scene': data.get('scene', ''),
+        'ratio': data.get('ratio', ''),
+        'summary': data.get('summary', ''),
         'features': features,
-        'preview_urls': preview_urls,  # 统一为数组（WebP 优先，兼容旧 JPG）
-        'preview_webp': webp_urls['full'],   # WebP 全尺寸
-        'preview_thumb': webp_urls['thumb'], # WebP 缩略图
+        'prompt': data.get('prompt', ''),
         'variables': variables,
+        'source_url': data.get('source_url', ''),
         'source_author': source_author,
-        'source_url': source_url,
+        'preview_urls': preview_urls,
+        'preview_webp': webp_urls.get('full'),
+        'preview_webp_thumb': webp_urls.get('thumb'),
     }
-
 
 def generate_styles_json(output_path: str):
     """生成 styles.json"""
@@ -189,7 +166,7 @@ def generate_styles_json(output_path: str):
             continue
         categories.add(entry)
         for f in sorted(os.listdir(entry_path)):
-            if not f.endswith('.md') or f.startswith('_'):
+            if not f.endswith('.yaml') or f.startswith('_'):
                 continue
             filepath = os.path.join(entry_path, f)
             try:

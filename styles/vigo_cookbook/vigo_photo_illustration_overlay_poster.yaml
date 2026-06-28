@@ -1,0 +1,94 @@
+name: Photo Illustration Overlay Poster
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.
+tags:
+- VigoCookbook
+- realistic
+- city
+- photograph
+- oversized
+- high-saturation
+- flat
+- 2D
+- cartoon
+- figure
+- composited
+- 'on'
+- top
+- plus
+- hand-drawn
+- stars
+- sparks
+- arrows
+- comic
+- marks
+triggers:
+- Photo Illustration Overlay Poster
+features:
+- title: 'Preserve the core visual identity: A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.'
+  desc: ''
+- title: Use LOCATION as the photo background or real-world scene base.
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.
+  desc: ''
+- title: Use ACCENT_SYMBOL for doodles, graphic marks, sparks, arrows, or other overlay effects.
+  desc: ''
+- title: Use a realistic city street photo as the base layer, then composite one oversized flat 2D cartoon character on top.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action or pose
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, prop, or visual anchor
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details and visual texture
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Photo Illustration Overlay Poster" style.
+
+
+  Subject: {SUBJECT}.
+
+  Action: {SUBJECT_ACTION}.
+
+  Prop/Product or interaction object: {PRODUCT_OR_PROP}.
+
+  Location/photo background: {LOCATION}.
+
+  Background details: {BACKGROUND_ELEMENTS}.
+
+  Main text: "{MAIN_TEXT}".
+
+  Secondary text/category: "{SECONDARY_TEXT}".
+
+  Accent doodles and graphic effects: {ACCENT_SYMBOL}.
+
+  Character treatment: {WARDROBE_STYLE}.
+
+
+  Use a realistic city street photo as the base layer, then composite one oversized flat 2D cartoon character on top. The character should use high-saturation color blocking, rough hand-drawn linework,
+  exaggerated scale, simple expressive eyes, playful body proportions, and graphic edges. Add small hand-drawn stars, sparks, arrows, motion lines, comic bursts, and doodle marks around the interaction
+  point.
+
+
+  Keep the background photographic and recognizable. Keep the illustrated character deliberately flat, graphic, and poster-like. Avoid copying any watermark, logo, or exact character from the reference
+  image. Avoid plush 3D mascots, full-vector backgrounds, dark gritty mood, cyberpunk, and cluttered small text.'
+preview: https://malongan.github.io/images/vigo_previews/photo-illustration-overlay-poster.jpg
+id: vigo_photo_illustration_overlay_poster
+code: ''

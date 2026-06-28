@@ -1,0 +1,106 @@
+name: Blue HUD Macro Creator Tech Poster
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards,
+  and one warm gold performance badge.
+tags:
+- VigoCookbook
+- premium
+- 3D
+- creator-tech
+- macro
+- product
+- ad
+- HUD-heavy
+triggers:
+- Blue HUD Macro Creator Tech Poster
+features:
+- title: Macro product-hero composition with the object large, tilted, and centered or slightly off-center, filling the frame.
+  desc: ''
+- title: Oversized ribbed gloves or flexible striped fingers crop in from the frame edges and physically frame the product.
+  desc: ''
+- title: Deep glossy 3D rendering with rounded plastic, rubber, metal, and glass surfaces, not a flat poster or hand-drawn illustration.
+  desc: ''
+- title: Cold electric-blue background with dark navy gradients, diagonal light streaks, faint grid lines, and misty volumetric glow.
+  desc: ''
+- title: Large condensed block headline typography in white or icy gray, partially hidden behind the product or cropped by the frame.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main creator-tech product or object being promoted
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: how the product is held, presented, activated, or inspected
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Blue HUD Macro Creator Tech Poster" visual style.
+
+
+  Subject: {SUBJECT}
+
+  Action: {SUBJECT_ACTION}
+
+  Prop/Product: {PRODUCT_OR_PROP}
+
+  Location: {LOCATION}
+
+  Background: {BACKGROUND_ELEMENTS}
+
+  Main text: {MAIN_TEXT}
+
+  Secondary text: {SECONDARY_TEXT}
+
+  Accent symbol: {ACCENT_SYMBOL}
+
+  Wardrobe/styling: {WARDROBE_STYLE}
+
+  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+
+  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+
+
+  Apply these style rules:
+
+  - Macro 3D creator-tech product hero, large and tilted, physically framed by oversized ribbed gloves or striped synthetic fingers cropped by the frame.
+
+  - Cold electric-blue and deep navy technology background with diagonal light streaks, faint grid lines, mist, bloom, and glass HUD panels.
+
+  - Large extra-bold condensed all-caps headline in white or icy gray, cropped or partly occluded behind the product.
+
+  - Translucent rounded feature cards with radial meters, pill bars, small icons, and compact technical labels.
+
+  - One warm gold or amber performance badge, used as the only major warm contrast accent.
+
+  - Glossy plastic, rubber, glass, brushed metal, beveled product edges, cyan rim light, and dramatic black shadows.
+
+  - Dense commercial product poster hierarchy with overlapping product, gloves, type, badges, and interface graphics.
+
+  - Use real-market creator hardware categories as inspiration only; do not render real brand marks or exact product replicas.
+
+
+  Avoid:
+
+  - {NEGATIVE_PROMPT}
+
+
+  Important content rule: match the extracted style first, then change the exact source content. Product categories may be camera-adjacent when requested, but all outputs must stay brandless, non-identical,
+  and newly worded.'
+preview: https://malongan.github.io/images/vigo_previews/blue-hud-macro-product-poster.jpg
+id: vigo_blue_hud_macro_product_poster
+code: ''

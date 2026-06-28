@@ -1,0 +1,62 @@
+name: 软胶黏土马卡龙活动海报
+category: creative
+ratio: 2:3（竖版）
+source_author: '@来佬野- AIGC'
+source_url: ''
+summary: 软胶黏土 3D 卡通风格的活动主视觉海报，马卡龙清新配色搭配潮流美式大字排版，低饱和 ins 风商业宣传。
+tags:
+- 软胶黏土
+- 3D卡通
+- 马卡龙色
+- 潮流排版
+triggers:
+- 软胶黏土
+- 马卡龙海报
+- 黏土3D活动KV
+- 创意海报
+features:
+- title: 🎨 **软胶黏土质感**：哑光毛绒材质，细腻软胶纹理，低饱和度 ins 风
+  desc: ''
+- title: 🏠 **场景化主体**：米白双层小房子 + 青绿坡屋顶，墙面手写品牌英文字体
+  desc: ''
+- title: ✋ **互动元素**：肉粉色卡通手掌伸出，手托蓝色浮雕 Idea 飞盘
+  desc: ''
+- title: 🌿 **怪趣点缀**：橙红黏土花朵、绿色拟人海星、探出帐篷的双眼、蓬松云朵
+  desc: ''
+- title: 🔤 **潮流大字排版**：顶部超大粗体品牌艺术字，辅以极小极细无衬线字体点缀
+  desc: ''
+- title: ⭐ **装饰细节**：四角星、迷你黄花等丰富点缀
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{品牌名}}'
+  desc: 顶部超大粗体艺术字
+- kv_var: Slogan
+  style_var: '{{标语}}'
+  desc: 画面底部标语文字
+- kv_var: 画面-场景
+  style_var: '{{主体描述}}'
+  desc: 黏土场景的主体建筑+互动元素
+- kv_var: 画面-动作
+  style_var: 手掌托飞盘/拟人植物互动
+  desc: 保持黏土3D卡通风格
+- kv_var: 色彩-主色
+  style_var: 马卡龙配色（粉/蓝/绿/黄）
+  desc: 低饱和度清新配色
+- kv_var: 色彩-底场
+  style_var: 浅灰白底色
+  desc: 哑光毛绒草地底座
+- kv_var: 装饰文字
+  style_var: '{{文字1}}、{{文字2}}、{{文字3}}'
+  desc: 极小无衬线字体
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity and consistency throughout."
+  desc: 不在变量里，用参考图
+prompt: '整体：创意活动主视觉海报，软胶黏土 3D 卡通风格，哑光毛绒草地底座，马卡龙清新配色，浅灰白底色，潮流美式大字排版，潮流海报版式。
+
+  主体：{{主体描述：米白双层小房子（青绿色坡屋顶，墙面手写品牌英文字体），房子侧边伸出肉粉色卡通手掌，手背印aigc、DESIGN 贴纸，手托蓝色浮雕 Idea 字样飞盘；左侧装饰元素，右上装饰元素，房内探出带双眼的装饰，屋内塞满蓬松白色云朵。}}
+
+  点缀：红 / 黄四角星装饰、迷你黄花，画面顶部超大粗体蓝色{{品牌名}}艺术字，柔光渲染，细腻软胶质感，低饱和度 ins 风，商业宣传海报，8K 高清。画面{{位置}}有极小极细无衬线字体"{{文字1}}"、"{{文字2}}"、"{{文字3}}"，极小{{位置}}标注 "{{作者名}}" {{位置}}标注 "{{标语}}".'
+preview: https://malongan.github.io/images/vigo_previews/soft_clay_macaron_poster.jpg
+id: soft_clay_macaron_poster
+code: ''

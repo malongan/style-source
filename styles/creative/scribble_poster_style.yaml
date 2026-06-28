@@ -1,0 +1,75 @@
+name: Teenage Skate Scribble Screenprint Poster Style
+category: creative
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre
+  palette.
+tags:
+- VigoCookbook
+- retro
+- skate
+- zine
+- distorted
+- central
+- skateboarder
+- cream
+- paper
+- field
+- loose
+- hand-lettered
+- border
+- typography
+- duotone
+- screen-print
+- limited
+- navy-gray-green-ochre
+- palette
+triggers:
+- Teenage Skate Scribble Screenprint Poster Style
+features:
+- title: 'Preserve the core visual identity: A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print
+    texture, and a limited navy-gray-green-ochre palette.'
+  desc: ''
+- title: Place the subject as one oversized central posterized cutout with a compressed crouching or skating pose.
+  desc: ''
+- title: Build the composition on a warm cream paper field with a green skateboard, rail, board, or long prop sweeping across the lower third.
+  desc: ''
+- title: Use rough duotone screen-print texture, deep navy clothing, dusty gray pants, mustard ochre skin, dry black speckle, halftone dirt, paper grain, ink skips, imperfect registration, and handmade
+    indie skate zine energy.
+  desc: ''
+- title: Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate sports poster, glossy 3D text, chrome, neon gradient,
+    luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero style, and skateboard brand logo.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main skateboarder, dancer, musician, courier, student, or youth culture figure
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: crouching, kickflipping, carving, bending, balancing, pushing, leaning, or landing a trick
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: skateboard, longboard, rail, cassette player, record sleeve, camera, backpack, or streetwear object
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: cream paper poster field, rooftop concrete, schoolyard steps, record shop sidewalk, night market lane, or skate spot
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: red hand-lettered border words, arrows, curls, rough paper grain, screen-print speckles, and sparse doodle marks
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: short red handmade headline split around the poster edge
+  desc: ''
+prompt: 'Create an image in Teenage Skate Scribble Screenprint Poster style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} at {LOCATION}. Place the subject as one
+  oversized central posterized cutout with a compressed crouching or skating pose. Use {WARDROBE_STYLE}. Build the composition on a warm cream paper field with a green skateboard, rail, board, or long prop
+  sweeping across the lower third. Wrap loose red hand-lettered border words reading "{MAIN_TEXT}" around the edges, add small handwritten fragments reading "{SECONDARY_TEXT}", and include {ACCENT_SYMBOL}.
+  Add {BACKGROUND_ELEMENTS}. Use rough duotone screen-print texture, deep navy clothing, dusty gray pants, mustard ochre skin, dry black speckle, halftone dirt, paper grain, ink skips, imperfect registration,
+  and handmade indie skate zine energy. Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate sports poster,
+  glossy 3D text, chrome, neon gradient, luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero
+  style, and skateboard brand logo.'
+preview: https://malongan.github.io/images/vigo_previews/teenage-skate-scribble-screenprint-poster.jpg
+id: scribble_poster_style
+code: ''

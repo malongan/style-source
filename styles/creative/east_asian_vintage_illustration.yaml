@@ -1,0 +1,102 @@
+name: 东亚复古杂志风插画
+category: creative
+ratio: 3:4（默认）
+source_author: '@only01clair'
+source_url: ''
+summary: 将真人肖像转化为韩纸质感的手绘插画，花卉环绕 + 莫兰迪色系 + 改良韩服，呈现高端东亚杂志美学。
+tags:
+- 韩系
+- 复古
+- 插画
+- 花卉
+- 杂志
+- 莫兰迪
+triggers:
+- 东亚复古插画
+- 韩纸质感
+- 韩服改良
+- 花卉插画
+- 东方杂志风
+features:
+- title: '**韩纸（Hanji）质感背景**：淡墨线描、水彩晕染、手工纹理'
+  desc: ''
+- title: '**花卉主题**：每次仅选一种花卉（芍药/山茶/玉兰/梅/莲等），围绕人物有机排布'
+  desc: ''
+- title: '**改良韩服造型**：jeogori/chima/durumagi 等韩服元素 × 现代时尚剪裁'
+  desc: ''
+- title: '**莫兰迪色系**：象牙白、奶油、淡薄荷、鼠尾草绿、米杏等柔和色调 + 一个鲜明点缀色'
+  desc: ''
+- title: '**禁止直视镜头**：眼神望向远方，营造诗意、怀旧、静谧的氛围'
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: 不适用
+  desc: 此风格为人物插画，无文字标题
+- kv_var: Slogan
+  style_var: 不适用
+  desc: 无
+- kv_var: 画面-场景
+  style_var: 花卉环绕 + 韩纸背景
+  desc: 由花卉主题决定场景氛围
+- kv_var: 画面-动作
+  style_var: 眼神望向远方
+  desc: 禁止直视，营造诗意感
+- kv_var: 色彩-主色
+  style_var: '{{莫兰迪色系}}'
+  desc: 整体柔和，点缀色突出
+- kv_var: 色彩-底场
+  style_var: 韩纸暖米色
+  desc: 暖色aged纸质感
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity and consistency throughout"
+  desc: 上传参考图保持一致性
+prompt: 'Use the uploaded portrait images as the primary identity reference. Preserve the subject''s real facial identity, facial proportions, calm expression, skin tone, natural features, and overall impression.
+  Do not turn the subject into a different person.
+
+
+  Regardless of the gaze direction in the reference image, the subject must not look directly at the camera. The eyes should gaze softly into the distance, slightly away from the viewer, with a dreamy,
+  wistful, calm expression.
+
+
+  Create a refined East Asian vintage magazine-style illustration of a graceful Korean woman, blending Korean traditional aesthetics with modern editorial fashion art. Place the subject in a poetic balanced
+  composition with elegant negative space.
+
+
+  Randomly choose one natural variation for each element:
+
+  - hairstyle/accessory: choose a modern, soft, trendy hairstyle that suits the reference face, subtly inspired by Korean traditional aesthetics, such as softly parted hair, loose low chignon, natural half-up
+  hair, simple braid, or relaxed low bun, with minimal accents like a slim binyeo, understated daenggi ribbon, tiny floral hairpin, or delicate norigae-inspired detail. Keep it contemporary, refined, and
+  restrained; avoid ornate Chinese-style hairpieces or oversized decorative pins;
+
+  - botanical theme: select only one flower type per image from peony, camellia, plum blossom, magnolia, lotus, water lily, hibiscus, daisy, calendula, or wildflowers. Do not repeatedly default to the same
+  flower type; each generation should feel like a different single-flower variation;
+
+  - pose/framing: three-quarter view, gentle side profile, seated pose, or close-up bust portrait with an averted gaze;
+
+  - outfit: choose a modern Korean hanbok-inspired outfit based on authentic Korean silhouettes, such as jeogori, chima, durumagi, baeja, layered jeogori jacket, ivory modern hanbok dress, pale mint layered
+  jacket, muted peach blouse, sage-green editorial dress, or cream hanbok-inspired outfit. Include subtle goreum-like ribbons, soft collars, restrained embroidery, relaxed modern styling, and elegant fabric
+  movement; avoid Chinese hanfu-style robes, wide translucent outer shawls, xianxia-style draped layers, fantasy sleeves, or non-Korean historical costume elements;
+
+  - accent color: deep crimson, jade green, royal blue, vermilion red, antique gold, or dark plum.
+
+
+  Use oversized botanical elements arranged organically around the figure, using only the selected single botanical theme for that image. Use delicate ink linework, clean fluid contours, subtle hand-drawn
+  texture, soft watercolor shading, and a warm aged hanji paper background.
+
+
+  The outfit should include subtle hanbok-inspired details such as flowing sleeves, layered fabric, soft ribbons, embroidery, gentle collars, relaxed silhouettes, or elegant fabric movement.
+
+
+  Use a muted palette of ivory, cream, pale mint, sage green, faded beige, muted peach, dusty coral, warm gray, and soft brown ink tones, with one vivid accent color as the visual focal point.
+
+
+  The mood is graceful, nostalgic, fresh, poetic, quiet, and luxurious, like a high-end Korean art poster, luxury fashion magazine illustration, and modern East Asian botanical portrait. Keep the face elegant
+  and recognizable.
+
+
+  No direct eye contact, no staring at the viewer, no front-facing passport-photo expression, no mixed-flower bouquet, no multiple flower species in one image, no repeated default flower choice, no Chinese
+  hanfu-style robe, no xianxia-style costume, no wide translucent outer shawl, no fantasy draped layers, no ornate Chinese-style hairpieces, no oversized decorative pins, no text, no logo, no typography,
+  no photorealism, no 3D, no glossy digital rendering, no harsh neon colors, no heavy anime style, no plastic skin, no excessive facial transformation, no idol-like face replacement.'
+preview: https://malongan.github.io/images/styles_previews/east_asian_vintage_illustration.jpg
+id: east_asian_vintage_illustration
+code: ''

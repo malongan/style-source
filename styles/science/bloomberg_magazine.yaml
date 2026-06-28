@@ -1,0 +1,60 @@
+name: bloomberg_magazine
+category: science
+ratio: 16:9 / 5:2 / 4:5 / 3:4 / 1:1
+source_author: '@AdrianPunk115'
+source_url: ''
+summary: Bloomberg 商业杂志编辑视觉 + McKinsey 商业结构感 + MIT Technology Review 科技冷静感，生成有冲击力的商业杂志封面图。
+tags:
+- 商业
+- 杂志
+- Bloomberg
+- 封面
+- 编辑
+- 报告
+triggers:
+- Bloomberg风格
+- 商业杂志封面
+- 杂志编辑风
+features:
+- title: 85% Bloomberg 商业杂志编辑视觉
+  desc: ''
+- title: 10% McKinsey 商业结构感
+  desc: ''
+- title: 5% MIT Technology Review 科技编辑气质
+  desc: ''
+- title: 巨大主视觉标题 + 强烈商业编辑态度
+  desc: ''
+- title: 精准核心视觉隐喻
+  desc: ''
+- title: 高饱和色块或高对比版式
+  desc: ''
+- title: 少量但有秩序的信息标签
+  desc: ''
+- title: 文字与图形融合
+  desc: ''
+variables:
+- kv_var: 主视觉词
+  style_var: '{{主题词}}'
+  desc: A层：中文2-8字/英文1-4词，必须巨大清晰可读
+- kv_var: 副标题
+  style_var: '{{副标题}}'
+  desc: B层：完整标题，放在顶部/侧边/底部/副标题区
+- kv_var: 栏目标签
+  style_var: 固定2-4个英文
+  desc: BUSINESS / STRATEGY / MARKET / RISK / GROWTH 等
+- kv_var: 行业/场景
+  style_var: '{{行业/场景}}'
+  desc: AI/投资/消费/SaaS/创业等
+- kv_var: 配色
+  style_var: '{{配色}}'
+  desc: 6种方案选择
+- kv_var: 商业隐喻
+  style_var: '{{隐喻}}'
+  desc: 15种隐喻选择，决定画面核心视觉
+prompt: "做一张更像金融杂志的封面 许愿池王八的第二弹：Bloomberg风 但不是华尔街金融风。 不要交易大厅， 不要金色K线， 不要西装精英， 不要握手， 不要蓝紫科技光效， 也不要那种知识付费财经课海报。 \n主体：{{主题词}}\n副标题：{{副标题}}\n画幅比例：{{画幅比例}}\n文字语言：{{语言}}\n用途：{{用途}}\n行业/场景：{{行业/场景}}\n可选禁用元素：{{可选禁用元素}}\n\
+  风格定位：85% Bloomberg Businessweek 商业杂志编辑视觉 + 10% McKinsey 商业结构感 + 5% MIT Technology Review 科技编辑气质\n应该有的元素：巨大的主视觉标题、强烈的商业编辑态度、一个精准的核心视觉隐喻、高饱和色块或高对比版式、少量但有秩序的信息标签、文字与图形融合\n严格禁止：Bloomberg、Businessweek、McKinsey、MIT、Technology\
+  \ Review 等真实品牌名称/Logo；普通PPT封面感、知识付费课程封面、自媒体大字报；复杂K线堆叠、密集行情数字、条形码票据拼贴；华尔街照片、交易所大楼、商务握手图标；机器人头像、蓝紫赛博光效、随机图标堆砌；文字和图形割裂、中文乱码、主标题不可读\n商业隐喻：{{从15种隐喻中选择}}\n标题视觉重构：被市场曲线切开/被风险线划过/变成迷宫/入口/路径/阶梯/断层/坐标/数据流/财务报表切片/价格标签/系统节点/战略地图/行业版图/被撕开的白皮书/商业飞轮的一部分\n\
+  配色：{{6种配色方案选择}}\n字体：现代黑体/窄体黑/宋黑混排；英文用Swiss grotesk/Helvetica/Neue Haas Grotesk/Univers气质\n信息密度：1个巨型核心词+1个副标题+2-4个栏目标签+1句短结论+1个主隐喻+少量线条箭头坐标路径点风险点"
+preview: https://malongan.github.io/images/styles_previews/bloomberg_magazine.jpg
+id: bloomberg_magazine
+code: ''

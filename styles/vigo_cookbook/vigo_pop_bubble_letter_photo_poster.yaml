@@ -1,0 +1,92 @@
+name: Pop Bubble Letter Photo Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval
+  highlights, and crisp sparkle marks.
+tags:
+- VigoCookbook
+- punchy
+- photo-and-illustration
+- around
+- central
+- low-angle
+- fashion
+- portrait
+- framed
+- oversized
+- flat
+- bubble-letter
+- shapes
+- saturated
+- candy
+- colors
+- thick
+- outlines
+- oval
+- highlights
+- crisp
+- sparkle
+- marks
+triggers:
+- Pop Bubble Letter Photo Poster Style
+features:
+- title: 'Preserve the core visual identity: A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy
+    colors, thick black outlines, oval highlights, and crisp sparkle marks.'
+  desc: ''
+- title: 'Use real photographic portrait detail for the subject: low-angle editorial framing, bright direct sunlight or clean studio light, crisp skin and fabric texture, saturated wardrobe, calm confident
+    expression.'
+  desc: ''
+- title: 'Layout: center the subject on the vertical axis and surround them with ACCENT_SYMBOL and bubble-letter graphic forms.'
+  desc: ''
+- title: Build the poster from oversized flat bubble-letter forms spelling or suggesting MAIN_TEXT.
+  desc: ''
+- title: 'Graphic language: thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, deep evergreen negative space, cream-white oval shine
+    highlights, and ACCENT_SYMBOL.'
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main person, model, performer, maker, athlete, student, traveler, or product ambassador
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: standing still, leaning back, looking upward, closing eyes in sunlight, holding a prop, stepping forward, or posing calmly
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: camera, headphones, drink bottle, book, bouquet, transit card, compact mirror, sunglasses, or featured product
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: painted wall, studio set, public plaza, gallery exterior, market stall, campus courtyard, subway entrance, or clean event backdrop
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: dark green negative-space panel, oversized cropped bubble letters, white sparkle marks, oval shine highlights, candy-colored abstract shapes
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: short bubble-letter word or graphic headline such as WOW, POP, OPEN, BLOOM, WAVE, or PLAY
+  desc: ''
+prompt: 'Create an image in pop-bubble-letter-photo-poster-style.
+
+
+  Aspect ratio: {ASPECT_RATIO}.
+
+
+  Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with or carrying {PRODUCT_OR_PROP}, in {LOCATION}. Style the subject with {WARDROBE_STYLE}. Use real photographic portrait detail for the subject: low-angle
+  editorial framing, bright direct sunlight or clean studio light, crisp skin and fabric texture, saturated wardrobe, calm confident expression.
+
+
+  Layout: center the subject on the vertical axis and surround them with {BACKGROUND_ELEMENTS}. Build the poster from oversized flat bubble-letter forms spelling or suggesting "{MAIN_TEXT}". Crop the letters
+  hard against the frame edges. Layer some letter shapes behind the subject and some in the foreground over the lower frame while keeping the face and main gesture unobstructed.
+
+
+  Graphic language: thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, deep evergreen negative space, cream-white oval shine highlights,
+  and {ACCENT_SYMBOL}. Keep the bubbles bold, rounded, inflated, vector-like, and pop-art.
+
+
+  Text: use "{MAIN_TEXT}" as the large bubble-letter graphic word. Add "{SECONDARY_TEXT}" only as tiny editorial caption text if needed. Do not include watermarks, usernames, creator IDs, QR codes, platform
+  logos, or app marks.'
+preview: https://malongan.github.io/images/vigo_previews/pop-bubble-letter-photo-poster.jpg
+id: vigo_pop_bubble_letter_photo_poster
+code: ''

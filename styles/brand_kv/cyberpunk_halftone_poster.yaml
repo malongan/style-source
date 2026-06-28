@@ -1,0 +1,57 @@
+name: 赛博朋克半调海报
+category: brand_kv
+ratio: 3:4（竖版）
+source_author: '@💋💋💋 🅻🅸🅽🅳🅰'
+source_url: ''
+summary: 赛博朋克风极繁海报，亮红主色 + 黑白人物 + 多语言文字层叠 + 半调丝网印刷质感。
+tags:
+- 赛博朋克
+- 极繁
+- 半调
+- 丝网印刷
+- 高对比
+- 街头
+triggers:
+- 赛博朋克海报
+- 半调海报
+- 丝网印刷
+- 极繁主义
+- 街头科幻
+features:
+- title: 亮红色（rgb(255,140,0)）主色调，高对比视觉冲击
+  desc: ''
+- title: 黑白色调女孩人物（做旧卫衣、机械感帽子项链）
+  desc: ''
+- title: 多语言文字信息层叠（LSHENG、LAOS 等巨型字母）
+  desc: ''
+- title: 半调图案 + 丝网印刷质感 + 杂色纹理
+  desc: ''
+- title: 重叠边缘色彩渐变，同位色渐变色系
+  desc: ''
+- title: 点线面层次分布
+  desc: ''
+- title: 街头文化与科幻风格融合
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{文字A}}、{{文字B}}'
+  desc: 巨型艺术化字母
+- kv_var: Slogan
+  style_var: 段落式字符
+  desc: 侧边多语言信息
+- kv_var: 画面-主体
+  style_var: '{{人物形象}}'
+  desc: 黑白色调人物
+- kv_var: 色彩-主色
+  style_var: '{{主色}}'
+  desc: 亮红色高饱和
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity..."
+  desc: 用参考图保持一致性
+prompt: '大师级排版，极繁主义，半调图案，杂色，丝网印刷质感。重叠边缘色彩渐变，同位色渐变色系，点线面层次分布。
+
+
+  构建赛博朋克风海报场景：背景以{{主色}}为主色调；主体是{{色调}}色调的{{人物形象}}（穿着{{服装描述}}，佩戴{{配饰描述}}）；画面布满多语言文字信息（如顶部"{{文字A}}""{{文字B}}"，侧边段落式字符，以及"{{文字A}}""{{文字B}}"等醒目字样）、巨型艺术化字母与细节元素，整体通过高对比色彩、文字与潮流视觉符号，营造出充满个性与未来感的赛博朋克氛围，突出街头文化与科幻风格的融合冲击。'
+preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/cyberpunk_halftone_poster.jpg
+id: cyberpunk_halftone_poster
+code: ''

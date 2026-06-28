@@ -1,0 +1,103 @@
+name: Mountain Trail Monster Doodle Poster Style
+category: social_media
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A candid outdoor hiking photograph remixed with a flat hand-drawn monster companion, oversized Spanish comic lettering, and loose sketch annotations, creating a playful adventure-poster collage.
+tags:
+- VigoCookbook
+- candid
+- outdoor
+- hiking
+- photograph
+- remixed
+- flat
+- hand-drawn
+- monster
+- companion
+- oversized
+- Spanish
+- comic
+- lettering
+- loose
+- sketch
+- annotations
+- creating
+- playful
+- adventure-poster
+- collage
+triggers:
+- Mountain Trail Monster Doodle Poster Style
+features:
+- title: 'Preserve the core visual identity: A candid outdoor hiking photograph remixed with a flat hand-drawn monster companion, oversized Spanish comic lettering, and loose sketch annotations, creating
+    a playful adventure-poster collage.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+  desc: ''
+- title: Use a realistic candid outdoor hiking photograph as the base layer, with natural daylight, real mountain or trail detail, trees, sky, rocks, and a believable person in practical outdoor clothing.
+  desc: ''
+- title: Keep the person photographic and naturally integrated into the landscape.
+  desc: ''
+- title: Use off-white letter fill, black outline, yellow/red/cobalt offset shadows, light inner scribbles, uneven scale, and a playful Spanish travel-poster feeling.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main hiker, traveler, athlete, explorer, or outdoor person
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: standing, looking up, pausing, holding a bottle, checking a map, climbing, resting, or reacting to the cartoon companion
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: water bottle, hiking pole, backpack, map, snack, camera, cap, or trail marker
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: mountain trail, canyon overlook, alpine forest, cliff path, desert ridge, volcano trail, or scenic outdoor viewpoint
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: distant cliffs, layered mountains, pine trees, blue sky, rocky ground, trail grass, shadows, and natural daylight
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large Spanish or playful comic headline integrated across the sky
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Mountain Trail Monster Doodle Poster" style.
+
+
+  Subject: {SUBJECT}.
+
+  Subject action: {SUBJECT_ACTION}.
+
+  Product or prop: {PRODUCT_OR_PROP}.
+
+  Location: {LOCATION}.
+
+  Background elements: {BACKGROUND_ELEMENTS}.
+
+  Main text: {MAIN_TEXT}.
+
+  Secondary text: {SECONDARY_TEXT}.
+
+  Accent symbol: {ACCENT_SYMBOL}.
+
+  Wardrobe or visual styling: {WARDROBE_STYLE}.
+
+
+  Use a realistic candid outdoor hiking photograph as the base layer, with natural daylight, real mountain or trail detail, trees, sky, rocks, and a believable person in practical outdoor clothing. Keep
+  the person photographic and naturally integrated into the landscape.
+
+
+  Overlay one flat hand-drawn red cartoon monster companion beside the person. The monster should have thick black contour lines, brick-red fill, simple dark red shadow shapes, oversized white eyes, tiny
+  pupils, sharp white teeth, pale blue sweat drops, and simplified claw hands. Let one arm or claw physically interact with the person, backpack, bottle, map, trail sign, or prop.
+
+
+  Add oversized irregular comic lettering across the upper sky or mountain area. Use off-white letter fill, black outline, yellow/red/cobalt offset shadows, light inner scribbles, uneven scale, and a playful
+  Spanish travel-poster feeling. Add a tiny handwritten note near the headline and a few sparse squiggles, arrows, underlines, or motion marks.
+
+
+  Avoid watermark, username, creator ID, platform logo, QR code, app UI, realistic demon, horror, blood, violence, 3D mascot, plush toy, full cartoon background, corporate layout, minimalist typography,
+  dense text, studio portrait, and low-detail mountains.'
+preview: https://malongan.github.io/images/vigo_previews/mountain-trail-monster-doodle-poster.jpg
+id: doodle_style_poster_1
+code: ''

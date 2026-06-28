@@ -1,0 +1,72 @@
+name: 时尚摄影弓箭手
+category: fashion
+ratio: 4:5（默认）
+source_author: '@you1873118'
+source_url: ''
+summary: 极简白色摄影棚中，东亚女性弓箭手的时尚杂志大片——黑色风衣+复合弓，力量感动作 × 高端editorial排版。
+tags:
+- 时尚摄影
+- 弓箭手
+- 黑白
+- 杂志
+- 极简
+- 力量感
+triggers:
+- 时尚摄影弓箭手
+- Noir Archer
+- 弓箭手海报
+- 极简时尚摄影
+- Editorial archer
+features:
+- title: '**极简白色摄影棚**：干净背景突出人物与动作，高级感拉满'
+  desc: ''
+- title: '**全黑造型**：黑色长款风衣 + 黑色宽松长裤 + 黑色厚底皮靴，统一酷感'
+  desc: ''
+- title: '**黑色复合弓与箭**：道具与服装配色呼应，画面简洁有力'
+  desc: ''
+- title: '**多种力量姿势**：拉弓、回眸、行走、跳跃、单膝下蹲、高抬腿'
+  desc: ''
+- title: '**Bodoni/Didot 衬线排版**：标题如 NOIR ARCHER / MOTION DRAW / AIR CUT 等'
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{标题}}'
+  desc: 用 Bodoni/Didot 字体排版在画面显眼位置
+- kv_var: Slogan
+  style_var: '{{副标题}}'
+  desc: 小字排版，辅助主标题
+- kv_var: 画面-场景
+  style_var: 极简白色摄影棚
+  desc: 背景固定，不可替换
+- kv_var: 画面-动作
+  style_var: '{{姿势}}'
+  desc: 从预设姿势中选择
+- kv_var: 色彩-主色
+  style_var: 黑白/低饱和
+  desc: 高对比黑白或极低饱和色调
+- kv_var: 色彩-底场
+  style_var: 白色
+  desc: 白色摄影棚背景
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity and consistency throughout"
+  desc: 上传参考图保持一致性
+prompt: '极简白色摄影棚背景，一位成年东亚女性弓箭手，黑色长发微凌乱，穿黑色长款风衣、黑色宽松长裤、黑色厚底皮靴，手持黑色复合弓与箭，冷静专注的眼神，时尚杂志大片质感，动作有力量感
+
+
+  不同姿势：拉弓、回眸、行走、跳跃、单膝下蹲、高抬腿，身体比例自然，姿态流畅不别扭
+
+
+  Bodoni / Didot typography
+
+  标题如：NOIR ARCHER / MOTION DRAW / QUIET STEP / AIR CUT / CLOSER LOOK
+
+  小字排版：SILENCE. FOCUS. PRECISION. / EDITORIAL SERIES / STUDIO MODE
+
+
+  高端 editorial poster，minimal fashion photography，sharp details，soft studio lighting，high contrast black and white，clean composition，luxury magazine cover，vertical 4:5
+
+
+  Negative prompt: 身体畸形，手指错误，弓箭变形，脸崩，表情僵硬，比例失衡，多余肢体，文字乱码，低清晰度，过度AI感，背景杂乱'
+preview: https://malongan.github.io/images/styles_previews/fashion_archer_editorial.jpg
+id: fashion_archer_editorial
+code: ''

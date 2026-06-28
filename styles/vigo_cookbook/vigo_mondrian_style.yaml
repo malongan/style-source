@@ -1,0 +1,63 @@
+name: 蒙德里安秩序风
+category: vigo_cookbook
+ratio: 16:9 / 9:16 / 4:5 / 3:4
+source_author: Adrian Punk (@AdrianPunk115)
+source_url: ''
+summary: 把任何主题重新放进红黄蓝白黑的网格系统：让色块建立节奏，让黑线组织结构，让标题本身变成图形和隐喻。
+tags:
+- 蒙德里安
+- DeStijl
+- 红黄蓝
+- 几何
+- 秩序
+- 极简
+- 海报
+- 品牌
+triggers:
+- 蒙德里安风格
+- De Stijl
+- 红黄蓝秩序
+- 几何网格
+features:
+- title: '**几何网格构图**：粗黑线条分割画面，形成严格的网格系统'
+  desc: ''
+- title: '**红黄蓝白黑五色**：经典 De Stijl 配色，极简高对比'
+  desc: ''
+- title: '**标题即图形**：文字不仅是信息，更是视觉元素'
+  desc: ''
+- title: '**克制发力**：看似极简，每一条线、每一个色块都精心设计'
+  desc: ''
+- title: '**中英双语**：中文主标题 + 英文副标题/理念标语'
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: 示例
+- kv_var: '`品牌名`'
+  style_var: 品牌/项目名称
+  desc: Her Name、AI品牌
+- kv_var: '`品牌定位`'
+  style_var: 品牌描述
+  desc: AI women community platform
+- kv_var: '`主标题`'
+  style_var: 中文大标题
+  desc: 书店、长期主义
+- kv_var: '`副标题`'
+  style_var: 英文副标题
+  desc: CONNECT · SHARE · GROW
+- kv_var: '`融入图形元素`'
+  style_var: 融入图形的字母
+  desc: female silhouette in letter H
+- kv_var: '`侧面文字`'
+  style_var: 竖排/侧边文字
+  desc: 阅读 连接思想 照亮人生
+- kv_var: '`中间视觉元素`'
+  style_var: 画面中央的视觉元素
+  desc: 书架插画、城市天际线
+- kv_var: '`背景色`'
+  style_var: 背景颜色
+  desc: beige、white、cream
+prompt: ''
+preview: https://malongan.github.io/images/vigo_mondrian/future_city.jpg
+id: vigo_mondrian_style
+code: ''

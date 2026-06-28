@@ -1,0 +1,105 @@
+name: Clean Triptych Travel Vlog Thumbnail Style
+category: travel
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations, sparse hand-drawn marks, and a soft
+  phone-camera editorial finish.
+tags:
+- VigoCookbook
+- clean
+- travel-vlog
+- thumbnail
+- three
+- vertical
+- photographic
+- oversized
+- lowercase
+- destination
+- type
+- small
+- italic
+- travel
+- annotations
+- sparse
+- hand-drawn
+- marks
+- soft
+- phone-camera
+- editorial
+- finish
+triggers:
+- Clean Triptych Travel Vlog Thumbnail Style
+features:
+- title: 'Preserve the core visual identity: A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations,
+    sparse hand-drawn marks, and a soft phone-camera editorial finish.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+  desc: ''
+- title: Use a clean three-panel travel-vlog thumbnail composition.
+  desc: ''
+- title: Divide the frame into three equal vertical photographic panels with hard edges and no visible border.
+  desc: ''
+- title: Place a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main traveler, host, couple, group, or implied travel point of view
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: walking, posing, holding a drink, looking across the street, boarding transit, or pausing at a landmark
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: unbranded drink, pastry, camera, tote bag, transit card, ticket, map, sunglasses, or travel snack
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: destination city, neighborhood, street route, cafe, station, park, landmark, waterfront, or theme-park-like attraction
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: 'three clean photo panels: close-up lifestyle panel, city-stroll panel, and landmark or scenic panel'
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large lowercase destination headline
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Clean Triptych Travel Vlog Thumbnail" style.
+
+
+  Subject: {SUBJECT}.
+
+  Subject action: {SUBJECT_ACTION}.
+
+  Product or prop: {PRODUCT_OR_PROP}.
+
+  Location: {LOCATION}.
+
+  Background elements: {BACKGROUND_ELEMENTS}.
+
+  Main headline text: "{MAIN_TEXT}".
+
+  Secondary text: "{SECONDARY_TEXT}".
+
+  Accent symbol: {ACCENT_SYMBOL}.
+
+  Wardrobe styling: {WARDROBE_STYLE}.
+
+
+  Use a clean three-panel travel-vlog thumbnail composition. Divide the frame into three equal vertical photographic panels with hard edges and no visible border. Make the left panel a close-up lifestyle
+  or cafe moment, the center panel a city-stroll scene with the traveler, and the right panel a landmark, scenic viewpoint, skyline, garden, gate, harbor, or destination proof point.
+
+
+  Place a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels. Use an extra-bold rounded geometric sans-serif, smooth and friendly, with no
+  outline and minimal shadow. Put small italic white panel labels near the top, a small day-count line above the headline, a parenthetical vlog subtitle below it, and one tiny bottom-corner diary note.
+
+
+  Add only sparse white hand-drawn accent marks: a tiny heart, dash, underline, corner stroke, sparkle, or loose bracket. Keep the photo treatment warm, candid, soft, lightly grainy, and phone-camera realistic.
+  The mood should feel modern, clean, travel-diary-like, and ready for a video thumbnail.
+
+
+  Avoid watermark, username, creator ID, platform logo, QR code, app UI, readable real brand logo, brand name, celebrity likeness, cluttered sticker collage, scrapbook overload, neon poster, grunge texture,
+  luxury travel ad, corporate brochure, colorful headline, heavy drop shadow, outlined text, illegible destination text, plain single-photo background, and dark muddy image.'
+preview: https://malongan.github.io/images/vigo_previews/clean-triptych-travel-vlog-thumbnail.jpg
+id: style_travel
+code: ''

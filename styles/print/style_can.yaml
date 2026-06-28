@@ -1,0 +1,56 @@
+name: Blue Chinese Perspective Type Canyon Style
+category: print
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: 'A Chinese typographic poster system built from an extreme one-point perspective corridor: a saturated blue central trapezoid plane carries stacked oversized white Chinese display type, while black
+  side walls are packed with warped white and pale gray Chinese support copy.'
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Blue Chinese Perspective Type Canyon Style
+features:
+- title: Extreme one-point perspective corridor, as if the viewer is standing inside a narrow vertical advertising alley
+  desc: ''
+- title: Central saturated blue trapezoid plane runs from the foreground toward the vanishing point and occupies the strongest visual hierarchy
+  desc: ''
+- title: Black left and right walls converge inward and carry dense skewed white or pale gray Chinese typography
+  desc: ''
+- title: Huge white Chinese display glyphs or numerals dominate the foreground, cropped by the image edges
+  desc: ''
+- title: Typography is stretched, condensed, bold, commercial, and spatially warped by perspective rather than laid flat
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a raster image in the Blue Chinese Perspective Type Canyon Style. Subject: {SUBJECT}. Action or event: {SUBJECT_ACTION}. Product or prop reference: {PRODUCT_OR_PROP}. Location or setting:
+  {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main Chinese graphic text to suggest: {MAIN_TEXT}. Secondary repeated Chinese text fragments to suggest: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}.
+  Wardrobe or styling direction: {WARDROBE_STYLE}. Aspect ratio: {ASPECT_RATIO}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Build
+  the composition as an extreme one-point perspective Chinese typographic corridor: a saturated electric blue central trapezoid plane recedes toward the upper-center vanishing point, with black left and
+  right walls covered in skewed white and pale gray Chinese type fragments. Use huge cropped white Chinese block glyphs or numerals in the foreground, stacked central Chinese headline type on the blue plane,
+  and dense warped side-wall support copy. Keep the palette strictly blue, black, white, and gray. Use clean flat 3D poster rendering, hard-edged vector-like planes, mild gray shading on white Chinese letters,
+  very high contrast, no realistic people, no photographic products, no extra colors, no logos, no watermark. The image should feel like a loud compressed advertising tunnel made entirely from Chinese typography
+  and perspective.'
+preview: https://malongan.github.io/images/vigo_previews/blue-chinese-perspective-type-canyon.jpg
+id: style_can
+code: ''

@@ -1,0 +1,101 @@
+name: Halftone Assemblage Metaphor PSA Poster Style
+category: creative
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A sparse retro PSA poster system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper
+  with compact red-and-navy campaign typography.
+tags:
+- VigoCookbook
+- retro
+- environmental
+- PSA
+- using
+- symbolic
+- object
+- assemblage
+triggers:
+- Halftone Assemblage Metaphor PSA Poster Style
+features:
+- title: 'The central idea is material-as-symbol: one category of visible source objects must be assembled into a different readable target silhouette.'
+  desc: ''
+- title: The target silhouette must read clearly from a distance before the viewer notices the individual source pieces.
+  desc: ''
+- title: The source material must remain legible up close through repeated parts, seams, caps, folds, cables, rims, labels, or textures.
+  desc: ''
+- title: Aged warm cream paper background with visible grain and faint uneven printing.
+  desc: ''
+- title: One dominant blue-green halftone assemblage object, placed as a sculptural PSA metaphor rather than a realistic scene.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Halftone Assemblage Metaphor PSA Poster Style" visual style.
+
+
+  Subject: {SUBJECT}
+
+  Action: {SUBJECT_ACTION}
+
+  Prop/Product: {PRODUCT_OR_PROP}
+
+  Location: {LOCATION}
+
+  Background: {BACKGROUND_ELEMENTS}
+
+  Main text: {MAIN_TEXT}
+
+  Secondary text: {SECONDARY_TEXT}
+
+  Accent symbol: {ACCENT_SYMBOL}
+
+  Wardrobe/styling: {WARDROBE_STYLE}
+
+  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+
+  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+
+
+  Apply these style rules:
+
+  - Core metaphor: one visible source material category must be assembled into a different recognizable target silhouette. The target silhouette should read first from a distance; the individual source
+  pieces should become clear up close.
+
+  - Composition: one dominant assembled silhouette in the lower-middle or slightly right field, compact top-left headline, tiny bottom-center footer, and generous empty warm paper space.
+
+  - Typography: heavy condensed uppercase sans headline with navy words and a small number of saturated red emphasis words; tiny centered footer microcopy with simple abstract symbols.
+
+  - Color: aged cream paper ground, muted blue-green halftone subject ink, deep desaturated navy text, and campaign red accents only.
+
+  - Texture and lighting: coarse paper grain, visible halftone dot screen, faded offset-print registration softness, flat ambient light, soft teal grounding shadow, no glossy modern finish.
+
+  - Graphic elements: minimal symbol row and small campaign imprint only; no dense decorative border, no stickers, no brand marks.
+
+
+  Avoid: random piles that do not form a silhouette, photorealistic product photography, glossy 3D render, modern vector flat design, dense collage, cinematic shadows, saturated rainbow palette, plastic
+  bottle animal, pet story, recycle-icon copy, brand logos, watermarks, QR codes, social UI, long paragraphs, readable copied source slogans.
+
+
+  Important content rule: match the reference style first, then change the source content. Preserve the material-to-silhouette'
+preview: https://malongan.github.io/images/vigo_previews/halftone-assemblage-metaphor-psa-poster.jpg
+id: style_halftone_poster
+code: ''

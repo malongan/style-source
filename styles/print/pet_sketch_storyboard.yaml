@@ -1,0 +1,103 @@
+name: Rough Animation Pet Sketch Storyboard Style
+category: print
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple
+  room props, and exaggerated animal expressions.
+tags:
+- VigoCookbook
+- loose
+- animation
+- development
+- sketch
+- comic
+- pet
+- scenes
+- warm
+- beige
+- paper
+- red-brown
+- construction
+- lines
+- scratchy
+- dark
+- burgundy
+- contours
+- semi-transparent
+- color
+- wash
+- simple
+- room
+- exaggerated
+- animal
+- expressions
+triggers:
+- Rough Animation Pet Sketch Storyboard Style
+features:
+- title: 'Preserve the core visual identity: A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours,
+    semi-transparent color wash, simple room props, and exaggerated animal expressions.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+  desc: ''
+- title: Use the reference only as a style reference, not as a scene to copy.
+  desc: ''
+- title: 'Preserve the visual language: warm beige paper, loose red-brown construction lines, scratchy dark burgundy contour strokes, semi-transparent watercolor-like color wash, rough animation storyboard
+    finish, lightly sketched interior background, exaggerated original pet expressions, huge oval eyes, tiny pupils, visible correction strokes, and one clear comic prop-driven beat.'
+  desc: ''
+- title: Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main pet, animal character, mascot pair, or expressive creature group
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main comic action or emotional beat, such as begging, guarding, panicking, judging, leaping, chewing, or reacting
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: foreground object, food bowl, toy, snack, remote, parcel, cup, blanket, cake, or other prop that explains the joke
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: warm interior or simple staged setting such as kitchen, sofa corner, bakery counter, studio, hallway, window nook, classroom, or dining table
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: lightly sketched shelves, frames, cabinets, windows, plants, counters, chairs, lamps, doors, party decorations, or simple room details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: optional tiny handwritten production note or wall scribble; usually empty
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Rough Animation Pet Sketch Storyboard" style.
+
+
+  Subject: {SUBJECT}.
+
+  Subject action: {SUBJECT_ACTION}.
+
+  Product or prop: {PRODUCT_OR_PROP}.
+
+  Location: {LOCATION}.
+
+  Background elements: {BACKGROUND_ELEMENTS}.
+
+  Main text: {MAIN_TEXT}.
+
+  Secondary text: {SECONDARY_TEXT}.
+
+  Accent symbol: {ACCENT_SYMBOL}.
+
+  Wardrobe or visual styling: {WARDROBE_STYLE}.
+
+
+  Use the reference only as a style reference, not as a scene to copy. Preserve the visual language: warm beige paper, loose red-brown construction lines, scratchy dark burgundy contour strokes, semi-transparent
+  watercolor-like color wash, rough animation storyboard finish, lightly sketched interior background, exaggerated original pet expressions, huge oval eyes, tiny pupils, visible correction strokes, and
+  one clear comic prop-driven beat.
+
+
+  Stage the scene like an animation story artist frame. Keep one character in an extreme emotional pose and another character in a contrasting deadpan or suspicious reaction. Make the foreground prop explain
+  the joke. Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible. Do not include platform UI, watermarks, creator IDs, logos, QR codes, app buttons, or copied characters.'
+preview: https://malongan.github.io/images/vigo_previews/rough-animation-pet-sketch-storyboard.jpg
+id: pet_sketch_storyboard
+code: ''

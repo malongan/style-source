@@ -1,0 +1,51 @@
+name: 玻璃花卉春日日记插画
+category: creative
+ratio: '9:16'
+source_author: '@悦（即梦）'
+source_url: ''
+summary: 玻璃质感花卉插画 × 米白色信封 × 浅绿细闪渐变底 = 清新治愈春日日记。
+tags:
+- 治愈
+- 玻璃花卉
+- 春日
+- 数字插画
+- 梦幻
+- 日记
+triggers:
+- 玻璃花卉
+- 春日日记
+- 治愈插画
+- 玻璃质感花朵
+- Spring Diary
+features:
+- title: 浅绿渐变带细闪颗粒的背景
+  desc: ''
+- title: 主体为米白色玻璃信封，内插透明玻璃花卉
+  desc: ''
+- title: 玻璃质感花朵（粉色郁金香、透明铃兰、淡蓝雏菊）
+  desc: ''
+- title: 清晰玻璃纹理与光泽
+  desc: ''
+- title: 粉色燕子衔着LOVE铭牌
+  desc: ''
+- title: 柔和梦幻，温柔治愈氛围
+  desc: ''
+- title: 底部极小装饰文字排版
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{主标题英文}}'
+  desc: 信封上的英文标题
+- kv_var: 氛围
+  style_var: '{{季节/氛围}}'
+  desc: 整体治愈柔和感
+- kv_var: 画面-元素
+  style_var: '{{花卉类型}}、{{信封类型}}'
+  desc: 玻璃质感植物
+- kv_var: 比例
+  style_var: '9:16'
+  desc: 竖版
+prompt: 清新治愈的数字插画，浅绿渐变带细闪颗粒的背景，主体是一个特写{{信封颜色}}的{{信封类型}}，信封内插满透明玻璃质感的{{季节花卉类型}}：{{花卉1}}、{{花卉2}}与{{花卉3}}，花朵带有清晰的玻璃纹理与光泽；一只带{{鸟颜色}}的{{鸟类型}}衔一个{{铭牌文字}}铭牌在信封上飞，信封上有"{{主标题英文}}"，画面底部居中极小字"{{底部文字}}"，整体风格柔和梦幻，玻璃材质的花朵晶莹剔透，充满春日的温柔与治愈氛围。
+preview: https://malongan.github.io/images/vigo_previews/glass_flower_spring_diary.jpg
+id: glass_flower_spring_diary
+code: ''

@@ -1,0 +1,59 @@
+name: 半色调拼贴隐喻公益海报
+category: brand_kv
+ratio: 9:16 / 16:9
+source_author: '@VigoCreativeAI'
+source_url: ''
+summary: 用一种可见的材质类别拼出另一种可辨识的象征性剪影，让材质本身成为叙事的载体。
+tags:
+- 公益
+- 海报
+- 半色调
+- 拼贴
+- 环保
+- 复古
+- 环保主张
+triggers:
+- 半色调拼贴
+- Halftone Assemblage
+- 公益海报
+- 环保隐喻
+features:
+- title: '**半色调印刷质感**：蓝绿色调半色调对象印在陈旧米纸上'
+  desc: ''
+- title: '**拼贴隐喻手法**：用一种材质拼出另一种象征性剪影（如塑料拼鱼、电子垃圾拼鸟）'
+  desc: ''
+- title: '**复古公益风格**：紧凑的红蓝 campaign 字体排版，老式版画线刻'
+  desc: ''
+- title: '**概念驱动**：概念 > 技法，一个能一句话讲清的视觉比喻比精细渲染更让人记住'
+  desc: ''
+variables:
+- kv_var: 主张/Slogan
+  style_var: '{{MAIN_TEXT}}'
+  desc: 一句话环保主张，如"Killed by plastic."
+- kv_var: 画面-主体
+  style_var: '{{SUBJECT}}'
+  desc: 用材质拼出的形象，如"鱼"、"鸟"、"肺"
+- kv_var: 画面-材质
+  style_var: '{{PRODUCT_OR_PROP}}'
+  desc: 用来拼贴的材质，如"塑料杯盖和吸管"
+- kv_var: 画面-场景
+  style_var: '{{LOCATION}}'
+  desc: 环境设置，如"海洋"、"天空"
+- kv_var: 画面-动作
+  style_var: '{{SUBJECT_ACTION}}'
+  desc: 主体的状态，如"濒死"、"窒息"
+- kv_var: 色彩-主色
+  style_var: 蓝绿色
+  desc: 半色调主色调
+- kv_var: 色彩-底场
+  style_var: 米黄色
+  desc: 陈旧米纸背景色
+prompt: "style_name: \"Halftone Assemblage Metaphor PSA Poster Style\"\nstyle_slug: \"halftone-assemblage-metaphor-psa-poster-style\"\nstyle_version: \"2.1\"\nstyle_summary: \"A sparse retro PSA poster\
+  \ system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper with compact red-and-navy\
+  \ campaign typography.\"\n\nenvironment_variables:\n  SUBJECT: \"main subject\"\n  SUBJECT_ACTION: \"main action\"\n  PRODUCT_OR_PROP: \"object, product, or prop\"\n  LOCATION: \"environment or setting\"\
+  \n  BACKGROUND_ELEMENTS: \"secondary scene details\"\n  MAIN_TEXT: \"main headline or graphic text\"\n  SECONDARY_TEXT: \"small repeated supporting text\"\n  ACCENT_SYMBOL: \"separator or decorative symbol\"\
+  \n  WARDROBE_STYLE: \"styling direction\"\n  STYLE_FIDELITY_ANCHORS: \"observable style traits that must remain visible\"\n  SOURCE_CONTENT_TO_AVOID: \"literal source content that generated samples must\
+  \ not recreate\"\n  ASPECT_RATIO: \"9:16 or 16:9\""
+preview: https://malongan.github.io/images/styles_previews/halftone_assemblage_psa_poster.jpg
+id: halftone_assemblage_psa_poster
+code: ''

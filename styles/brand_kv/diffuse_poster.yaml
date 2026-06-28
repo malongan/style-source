@@ -1,0 +1,43 @@
+name: 弥散风视觉海报
+category: brand_kv
+ratio: 9:16 或 3:4
+source_author: '@AdrianPunk115'
+source_url: ''
+summary: 让颜色会呼吸，让文字有位置，让留白有节奏。
+tags:
+- 复古
+- 海报
+- 杂志风
+- 艺术展
+- 弥散渐变
+triggers:
+- 弥散风
+- 复古海报
+- 杂志风
+- 弥散渐变
+features:
+- title: 柔和扩散的色块 + 雾化边缘
+  desc: ''
+- title: 胶片颗粒 + 印刷噪点质感
+  desc: ''
+- title: 主标题清晰可读的高级编辑排版
+  desc: ''
+- title: 有节奏感的设计留白
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: 主题词
+  desc: 画面核心主题
+- kv_var: Slogan
+  style_var: 不在变量里
+  desc: 弥散风文字克制
+- kv_var: 画面-主题
+  style_var: 主题词
+  desc: 抽象/具象主题
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity..."
+  desc: 不在变量里，用参考图
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/diffuse_poster.jpg
+id: diffuse_poster
+code: ''

@@ -1,0 +1,52 @@
+name: 高对比黑白字体肖像
+category: creative
+ratio: '4:5'
+source_author: '@Sheldon056'
+source_url: ''
+summary: 高对比黑白侧影剪影肖像海报，融合粗犷手写书法字与实验编辑排版风格。
+tags:
+- 黑白
+- 字体海报
+- 编辑海报
+- 实验性
+- 墨水印刷
+- 侧影剪影
+- 手写书法
+triggers:
+- 黑白字体肖像
+- 高对比剪影海报
+- 编辑海报
+- 墨水印刷文字
+- 侧影海报
+- 实验排版
+features:
+- title: 高对比黑白剪影
+  desc: 粗黑侧影轮廓搭配锐利负空间，粗糙墨迹边缘营造手工印刷感，碎片化镂空模板造型打破常规轮廓
+- title: 手写书法字体
+  desc: 超大潦草手写字嵌入颈部与身体区域，2-4 行大文字块与黑色剪影融为一体，如同纹身般自然
+- title: 编辑排印系统
+  desc: 细小微型编辑文字点缀，竖排排印元素作为装饰，底部图形设计 Logo 收尾，完整海报排版结构
+- title: 原墨印刷质感
+  desc: 米白色纸张背景，粗糙油墨边缘，不对称布局，裁切竖构图，实验编辑海报设计美学
+- title: 极简高冲击
+  desc: 仅黑白两色，以强烈的明暗对比和正负形空间打造视觉冲击力
+variables:
+- kv_var: 画面-主体
+  style_var: '{人物对象}'
+  desc: 人物描述，如：a musician / a poet / a dancer / an artist
+- kv_var: 画面-特征
+  style_var: '{人物特征}'
+  desc: 人物侧影特征，如：wild curly hair / a fedora hat / a cigarette / long flowing hair
+- kv_var: 文字-主标题
+  style_var: '{文字内容}'
+  desc: 大文字块，2-4行，如：RAW / VOICE / UNTAMED
+- kv_var: 文字-Logo
+  style_var: '{Logo文字}'
+  desc: 底部Logo文字，如：STUDIO 56 / BLACK LABEL / ROUGH CUT
+prompt: High-contrast black and white typographic portrait poster of {人物对象}, shown in side profile with {人物特征}. Build the portrait with bold black silhouette blocks, sharp negative space, rough ink edges,
+  fragmented stencil shapes, tiny editorial microtext, vertical typographic accents and expressive hand-drawn calligraphic marks. Integrate one large readable text block saying "{文字内容}" in 2 to 4 stacked
+  lines, placed only inside the neck and body area, using oversized scribbled lettering that feels fused into the silhouette. Include a graphic design logo reading "{Logo文字}" near the footer. Minimal off-white
+  paper background, asymmetrical layout, cropped vertical composition, experimental editorial poster design, raw ink print texture, aspect ratio 4:5.
+preview: https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2f75a231.webp
+id: black_white_typographic_portrait
+code: ''

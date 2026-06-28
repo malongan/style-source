@@ -1,0 +1,90 @@
+name: Tri Color Hardcut Portrait Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged
+  vector-like cutouts.
+tags:
+- VigoCookbook
+- clean
+- three-color
+- hardcut
+- portrait
+- using
+- flat
+- teal
+- background
+- fields
+- coral-red
+- subject
+- planes
+- near-black
+- silhouettes
+- shadows
+- all
+- reduced
+- into
+- large
+- hard-edged
+- vector-like
+triggers:
+- Tri Color Hardcut Portrait Poster Style
+features:
+- title: 'Preserve the core visual identity: A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all
+    detail reduced into large hard-edged vector-like cutouts.'
+  desc: ''
+- title: 'Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black #000805.'
+  desc: ''
+- title: 'Composition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, plus
+    WARDROBE_STYLE and ACCENT_SYMBOL as controlled details.'
+  desc: ''
+- title: 'Typography: no visible text by default.'
+  desc: ''
+- title: If text is explicitly required, use MAIN_TEXT as a very short block headline outside the face area and SECONDARY_TEXT as a tiny supporting mark.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main person, character, performer, athlete, worker, object-as-portrait, or stylized figure
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: staring forward, leaning on one hand, turning sideways, holding a prop, pausing mid-action, or facing the viewer
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: headphones, camera, drink cup, helmet, microphone, book, bag, tool, or no prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: flat teal poster field, abstract studio background, simplified transit corner, stage-like color field, or clean editorial backdrop
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: large coral wedges, teal negative space, cropped black silhouette edges, and a few hard geometric cut planes
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: none by default; optional short block headline only if requested
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Tri Color Hardcut Portrait Poster" style.
+
+
+  Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} against {LOCATION}. Use {WARDROBE_STYLE}. Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black
+  #000805.
+
+
+  Composition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, {BACKGROUND_ELEMENTS},
+  and {ACCENT_SYMBOL}. Keep the subject close to the frame and let some silhouette edges crop off the canvas.
+
+
+  Typography: no visible text by default. If text is explicitly required, use "{MAIN_TEXT}" as a very short block headline outside the face area and "{SECONDARY_TEXT}" as a tiny supporting mark. Do not
+  add text otherwise.
+
+
+  Finish: clean flat vector-like poster, stencil portrait, screen-print simplicity without grain, blunt cutout shapes, high contrast, no gradients, no outlines, no photorealistic rendering.
+
+
+  Avoid watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference identity, exact copied face, photorealism, painterly blending, airbrush, soft shading, extra colors,
+  thin line art, detailed background, paper texture, halftone, noisy distress, glossy 3D, anime style, comic paneling, long text, and brand logo.'
+preview: https://malongan.github.io/images/vigo_previews/tri-color-hardcut-portrait-poster.jpg
+id: vigo_tri_color_hardcut_portrait_poster
+code: ''

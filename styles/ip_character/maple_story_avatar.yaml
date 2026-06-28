@@ -1,0 +1,59 @@
+name: maple_story_avatar（冒险岛角色精灵转换）
+category: ip_character
+ratio: 1:1（1080x1080）
+source_author: '@20_v_e'
+source_url: ''
+summary: 将任意动漫/游戏/漫画角色转换为 **冒险岛（MapleStory）玩家精灵头像**，保持角色特征同时适配游戏角色比例和像素渲染风格。
+tags:
+- 像素
+- 游戏
+- 冒险岛
+- 角色转换
+- 精灵
+- 2D
+- MMO
+triggers:
+- 冒险岛风格
+- MapleStory
+- 像素精灵
+- 游戏角色转换
+features:
+- title: '**冒险岛角色比例**：2.0~2.3头身，头部+头发占 60~65%，躯干极小'
+  desc: ''
+- title: '**像素渲染质感**：低分辨率游戏精灵放大感，禁止精细像素/HD像素'
+  desc: ''
+- title: '**角色特征保留**：发型、发色、瞳色、服装、武器等核心特征必须保留'
+  desc: ''
+- title: '**纯白底正方形**：1080x1080，纯白背景，单角色居中'
+  desc: ''
+- title: '**图层规范**：Hair → Hat → Face Accessory → Top → Bottom → Shoes → Cape → Weapon'
+  desc: ''
+variables:
+- kv_var: 主标题（角色名）
+  style_var: '{{角色名称}}'
+  desc: 用户输入的角色名称
+- kv_var: 角色参考图
+  style_var: 参考图 + "保持角色一致性"
+  desc: 不在变量里，用参考图保持一致
+- kv_var: 画面-场景
+  style_var: 固定为纯白底
+  desc: '不变量，Canvas 必须 #FFFFFF'
+- kv_var: 色彩-主色
+  style_var: 从参考图提取
+  desc: AI 自动保留角色配色
+- kv_var: IP形象
+  style_var: 参考图 + "保持角色一致性"
+  desc: 不在变量里，用参考图
+prompt: "[角色设定]\n你是一位将动漫、游戏、漫画角色转换为 MapleStory 玩家角色精灵的像素艺术总监。\n\n[输入]\n角色名称 + 全身图片（推荐正面全身照）\n\n[任务]\n1. 分析 {角色名} 的代表外型特征：\n   - 发型\n   - 发色\n   - 眼睛颜色\n   - 代表服装\n   - 代表配饰\n   - 代表武器\n   - 代表象征元素\n   -\
+  \ 代表配色\n2. 在保留上述特征的前提下，重新解读为 MapleStory 玩家角色结构。\n3. 成品必须看起来像真正的 MapleStory 玩家角色精灵，而非通用像素艺术角色。\n\n[规格一：冒险岛角色结构规范]\n- 整体比例：头部+头发 60~65% / 躯干 15~18% / 腿部 20~25%，2.0~2.3 头身\n- 视角：35~45 度 Quarter View，双眼均可见，近乎平面\
+  \ 2D 精灵\n- 脸部：眼睛位于脸部下方，间距宽，横宽扁平眼，大瞳孔+高光，禁止画鼻子，嘴极小，带柔和腮红\n- 颈部：禁止表现颈部，头部直接连接身体\n- 头发：角色核心标识，体积比头骨大很多，优先轮廓，最小化发丝表达，存在顶部高光\n- 身体：躯干极小，手臂短，腿部短，简化圆柱形四肢，最小化关节表达\n- 装备图层顺序：Hair → Hat → Face Accessory → Top →\
+  \ Bottom → Shoes → Cape → Weapon\n- 姿态：Idle Standing Pose，禁止跳跃/战斗/动作表演\n\n[规格二：像素渲染规范]\n禁止风格：\n- 高分辨率像素艺术\n- Ultra Detailed Pixel Art\n- HD Pixel Art\n- 精细像素艺术\n\n目标效果（32~64px 游戏精灵放大感）：\n- Low-resolution\
+  \ game sprite\n- Enlarged MMORPG sprite\n- Chunky pixel structure\n- Grid-aligned pixel art\n- Visible pixel blocks\n- Clean 1px outline\n- Limited color palette\n- Flat color shading\n- Solid tone pixel\
+  \ blocks\n- Minimal shading\n- No dithering\n- No smooth gradients\n- No airbrush effects\n\n[规格三：输出条件]\n- Canvas Size: 1080 x 1080\n- Format: Perfect Square\n- Background: Pure White (#FFFFFF)\n- 角色数量：仅单角色\n\
+  - 可见范围：全身可见\n- 构图：居中，角色占画布高度约 75%\n- 禁止元素：裁剪、额外角色、宠物、场景、背景物品、地面、文字、Logo、水印、UI\n\n[规格四：绝对禁止风格]\nPokemon Style / Terraria Style / Stardew Valley Style\nRagnarok Online Style / JRPG Battle Sprite / Octopath\
+  \ Traveler Style\nWestern Cartoon / Disney Style / Realistic / Semi Realistic\n3D Render / Illustration / Concept Art / Splash Art / Poster / Wallpaper\nAnime Illustration / Digital Painting / Cinematic\
+  \ Lighting\nUltra Detailed Sprite / High Definition Pixel Art / Fine-Grained Pixel Art\nSmooth Gradient Shading / Airbrush Shading\n\n[收尾]\nCreate {角色名} as a true MapleStory player avatar sprite.\nThe\
+  \ result must look like an actual MapleStory player character converted from {角色名},\nnot a generic pixel-art character."
+preview: https://malongan.github.io/images/styles_previews/maple_story_avatar.png
+id: maple_story_avatar
+code: ''

@@ -1,0 +1,54 @@
+name: Y2K Mirror UI Scribble Collage Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A gritty Y2K photomontage style that combines wide-angle flash photography, floating desktop-like interface fragments, thick electric-blue marker outlines, hand-drawn graffiti lettering, and dense
+  analog noise into a chaotic personal-screen collage.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Y2K Mirror UI Scribble Collage Style
+features:
+- title: A wide-angle flash-photo base layer with exaggerated close foreground scale and compressed room depth.
+  desc: ''
+- title: Very high visible grain, digital noise, sharpened edges, and slightly dirty scan texture across the whole image.
+  desc: ''
+- title: A dense collage layout where photo fragments, translucent UI windows, pop-up cards, and small panels float over the scene.
+  desc: ''
+- title: One thick electric-blue hand-drawn outline or route line wraps around the main subject or cuts through the composition.
+  desc: ''
+- title: Large white graffiti-like handwritten headline lettering sits near an upper corner, irregular and brushy rather than typographic.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: new central person, object, or activity anchor
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: changed action or pose for the central subject
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: new prop or product-like object that drives the story
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: changed interior or urban environment
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: supporting collage objects, panels, UI fragments, and texture details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large expressive handwritten headline text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} gritty Y2K flash-photo UI collage in the Y2K Mirror UI Scribble Collage Style. New content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Supporting
+  scene and collage details: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Use a real photographic wide-angle phone-camera base with hard flash, blown highlights, reflective surfaces, heavy
+  grain, sharpened digital noise, rough scan texture, and casual off-axis cropping. Layer fictional, unbranded desktop/mobile-like UI fragments over the photo: translucent rounded panels, tiny image thumbnails,
+  simplified alert cards, small blue action buttons, and generic microcopy reading {SECONDARY_TEXT}. Add a large irregular white hand-drawn graffiti headline reading {MAIN_TEXT}, plus a thick electric-blue
+  marker outline or path wrapping the subject, and include the accent symbol {ACCENT_SYMBOL} as a small drawn/sticker mark. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Change the content and
+  avoid these source details: {SOURCE_CONTENT_TO_AVOID}. No real logos, no real app icons, no watermark, no QR code, no copied names, no recognizable celebrity, no exact source layout.'
+preview: https://malongan.github.io/images/vigo_previews/y2k-mirror-ui-scribble-collage.jpg
+id: vigo_y2k_mirror_ui_scribble_collage
+code: ''

@@ -1,0 +1,111 @@
+name: Neon Doodle Gallery Snapshot
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: 'A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb
+  corners, scribble bars, halos, plants, and student diary energy.'
+tags:
+- VigoCookbook
+- candid
+- phone-photo
+- layered
+- chaotic
+- neon
+- marker
+- doodles
+- hot-pink
+- cyan
+- subject
+- outlines
+- monster
+- spikes
+- handwritten
+- captions
+- stars
+- paw
+- prints
+- spiderweb
+- corners
+- scribble
+- bars
+- halos
+- plants
+- student
+- diary
+triggers:
+- Neon Doodle Gallery Snapshot
+features:
+- title: 'Preserve the core visual identity: A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions,
+    stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+  desc: ''
+- title: Use a realistic candid phone-photo as the base layer.
+  desc: ''
+- title: 'The setting should feel specific and ordinary: visible walls, art, shelves, labels, tables, lamps, posters, people, bags, shadows, grain, and imperfect handheld framing.'
+  desc: ''
+- title: Draw a loud digital marker layer directly on top of the photo.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main person, group, student, artist, friend, commuter, shopper, or quiet candid figure
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: looking at art, studying, walking, waiting, browsing, reacting, hiding, laughing, or holding a prop
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: notebook, tote bag, coffee, phone, headphones, sketchbook, jacket, snack, poster, camera, book, or exhibition card
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: art gallery, campus hallway, library, studio critique room, classroom, night market, cafe, bookstore, museum, or city wall
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: real photo details such as wall art, labels, shelves, posters, tables, lamps, signage, crowds, fabric, shadows, and phone-camera grain
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large hand-drawn caption or emotional headline
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Neon Doodle Gallery Snapshot" style.
+
+
+  Subject: {SUBJECT}.
+
+  Subject action: {SUBJECT_ACTION}.
+
+  Prop or product: {PRODUCT_OR_PROP}.
+
+  Location: {LOCATION}.
+
+  Background elements: {BACKGROUND_ELEMENTS}.
+
+  Main handwritten text: "{MAIN_TEXT}".
+
+  Secondary handwritten text: "{SECONDARY_TEXT}".
+
+  Accent symbol: {ACCENT_SYMBOL}.
+
+  Wardrobe style: {WARDROBE_STYLE}.
+
+
+  Use a realistic candid phone-photo as the base layer. The setting should feel specific and ordinary: visible walls, art, shelves, labels, tables, lamps, posters, people, bags, shadows, grain, and imperfect
+  handheld framing.
+
+
+  Draw a loud digital marker layer directly on top of the photo. Wrap the main subject with a thick hot-pink contour and a cyan offset glow. Add yellow-orange monster spikes, horns, rays, fins, or sunburst
+  shapes around the silhouette. Scatter rough hand-drawn symbols around the frame: stars, paw prints, spiderweb corners, halos, abstract eyes, plants, flowers, scribble underlines, tally marks, arrows,
+  hearts, and sticker-like blobs.
+
+
+  Place rough uppercase handwritten marker text in open areas, using white, yellow, or lime green. The text should feel funny, personal, distracted, and student-made. Preserve the contrast between a real
+  candid photo and chaotic handmade doodles.
+
+
+  Avoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, luxury editorial styling, perfect typography,
+  empty sterile locations, identifiable celebrities, and tiny unreadable text.'
+preview: https://malongan.github.io/images/vigo_previews/neon-doodle-gallery-snapshot.jpg
+id: vigo_neon_doodle_gallery_snapshot
+code: ''

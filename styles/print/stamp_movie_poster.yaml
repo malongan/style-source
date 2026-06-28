@@ -1,0 +1,70 @@
+name: Stamp Movie Poster - 日本邮票电影海报
+category: print
+ratio: '16:9'
+source_author: '@AIwithAliya'
+source_url: ''
+summary: 极简日本邮票电影海报：真实邮票齿孔 + 简洁线条插画 + 经典电影图标。
+tags:
+- 邮票
+- 电影海报
+- 极简
+- 日本
+- 复古
+- 展览
+triggers:
+- 邮票海报
+- 电影邮票
+- Top Gun风格
+- 日本展览风
+- 极简电影海报
+features:
+- title: 真实邮票齿孔图案（半圆形扇贝边缘）
+  desc: ''
+- title: 纯黑背景 + 白色边框
+  desc: ''
+- title: 火焰色矩形面板 + 圆角
+  desc: ''
+- title: 简洁黑色线条插画
+  desc: ''
+- title: 无渐变、无阴影、扁平矢量风格
+  desc: ''
+- title: 底部米白色文字带
+  desc: ''
+- title: 日文 + 英文双语标题
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: MOVIE_TITLE
+  desc: 英文电影标题
+- kv_var: 副标题
+  style_var: JAPANESE_TITLE
+  desc: 日文电影标题
+- kv_var: 画面元素
+  style_var: SUBJECT_ELEMENTS
+  desc: 电影相关图标
+- kv_var: 文字带
+  style_var: SUBTITLE_LINES
+  desc: 底部副标题文字
+- kv_var: 色彩-面板
+  style_var: 面板色
+  desc: 火焰橙/深红/金色
+prompt: 'Minimalist Japanese postage stamp movie poster in the "Nano Banana 2" / Nippon Yūbin exhibition series style. Wide horizontal format on solid black background. White border with authentic postage
+  stamp perforation pattern (small half-circle scalloped edges all around). Inside the border is a solid fiery sunset orange rectangular panel with slightly rounded corners and thin black outline.
+
+
+  Clean, precise black line art illustrations of these iconic elements: [SUBJECT_ELEMENTS]. Balanced, spacious composition with good breathing room between elements, thin consistent line weight, no shading,
+  no gradients, flat vector-style graphic design, high-end exhibition print quality.
+
+
+  Bottom off-white band:
+
+  - Left side: large bold modern black sans-serif movie title "[MOVIE_TITLE]"
+
+  - Right side: Japanese text "[JAPANESE_TITLE]", then "[SUBTITLE_LINES]"
+
+
+  Overall aesthetic: clean, iconic, retro-modern stamp design meets minimalist graphic design. Crisp sharp lines, professional print quality, perfectly balanced, instantly recognizable movie iconography
+  in postage stamp format. High resolution, no text cut off, no clutter.'
+preview: https://malongan.github.io/images/gallery/stamp_movie_poster.jpg
+id: stamp_movie_poster
+code: ''

@@ -1,0 +1,63 @@
+name: 3D卡通电视图标
+category: creative
+ratio: '16:9'
+source_author: lihlii
+source_url: https://jimeng.jianying.com/ai-tool/work-detail/7616690174034054446
+summary: 3D卡通软胶质感的复古电视图标，Q版可爱风，马卡龙配色，治愈系装饰插画。
+tags:
+- 3D卡通
+- 图标
+- Q版
+- 电视
+- C4D
+- Blender
+- 软胶质感
+- 治愈系
+- 马卡龙配色
+triggers:
+- 3D卡通图标
+- Q版电视
+- 软胶质感
+- C4D渲染
+- 可爱风图标
+features:
+- title: C4D/Blender渲染
+  desc: 3D卡通风格，软胶/粘土质感，哑光材质
+- title: 复古电视机造型
+  desc: 浅紫与深紫配色，屏幕显示发光的笑脸表情
+- title: Q版装饰元素
+  desc: 粉色云朵手掌、星星、爱心、气泡等环绕点缀
+- title: 马卡龙色调
+  desc: 低饱和度暖粉调，圆润无棱角，柔和阴影
+variables:
+- kv_var: 主体
+  style_var: 主体描述
+  desc: 如复古电视机、相机、收音机等
+- kv_var: 主色调
+  style_var: 主色调
+  desc: 如浅紫与深紫、粉蓝等
+- kv_var: 主体特征
+  style_var: 主体特征
+  desc: 屏幕表情、天线、旋钮等细节
+- kv_var: 装饰元素
+  style_var: 装饰元素
+  desc: 环绕的Q版小元素列表
+- kv_var: 背景
+  style_var: 背景
+  desc: 纯色渐变背景描述
+- kv_var: 视角
+  style_var: 视角
+  desc: 正面平视、微俯等
+- kv_var: 色调
+  style_var: 色调
+  desc: 马卡龙、莫兰迪、糖果色等
+- kv_var: 材质
+  style_var: 材质
+  desc: 哑光软胶、粘土质感
+- kv_var: 风格描述
+  style_var: 风格描述
+  desc: UI装饰插画、品牌KV等
+prompt: 3D卡通风格，C4D/Blender渲染，软胶/粘土质感的{主体描述}，{主色调}配色，{主体特征}；周围环绕Q版3D装饰元素：{装饰元素}；悬浮于{背景}中，{视角}视角，构图居中饱满，{色调}色调，{材质}材质，带有轻微体积感与柔和阴影，治愈系可爱风，{风格描述}风格。
+preview: https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.jpg
+id: cartoon_3d_tv_icon
+code: ''

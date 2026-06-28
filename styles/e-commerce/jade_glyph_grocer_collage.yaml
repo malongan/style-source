@@ -1,0 +1,61 @@
+name: Jade Glyph Grocer Collage Poster Style
+category: e-commerce
+ratio: 9:16 或 16:9
+source_author: '@VigoCreativeAI'
+source_url: ''
+summary: 稀疏的东亚杂货海报系统，由暖米白纸张 + 翡翠绿手写大字 + 浅色蔬菜剪影云 + 微编辑标题 + 一张光泽生鲜产品照组成。
+tags:
+- 生鲜
+- 东方
+- 杂货
+- 拼贴
+- 海报
+- 翡翠绿
+triggers:
+- 翡翠图文
+- 杂货拼贴
+- 生鲜海报
+- 东方风格
+features:
+- title: 暖米白纸张基底
+  desc: ''
+- title: 超大翡翠绿手写文字（类似刻字/剪纸效果）
+  desc: ''
+- title: 浅绿色蔬菜剪影作为水印背景
+  desc: ''
+- title: 顶部栏目导航栏（期号、品类标签）
+  desc: ''
+- title: 收据/吊牌元素
+  desc: ''
+- title: 拼音标注
+  desc: ''
+- title: 一张光泽生鲜产品照作为画面中心
+  desc: ''
+- title: 文字与产品照片叠加的层次感
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: MAIN_TEXT
+  desc: 超大翡翠绿手写大字
+- kv_var: 副标题
+  style_var: SECONDARY_TEXT
+  desc: 小号编辑体注释
+- kv_var: 画面-产品
+  style_var: SUBJECT
+  desc: 生鲜产品主体
+- kv_var: 画面-背景
+  style_var: BACKGROUND_ELEMENTS
+  desc: 蔬菜剪影、微标记
+- kv_var: 色彩-主色
+  style_var: jade-green
+  desc: 翡翠绿
+- kv_var: 色彩-底色
+  style_var: warm cream
+  desc: 暖米白
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity..."
+  desc: 不在变量里，用参考图
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/jade_glyph_grocer_collage.jpg
+id: jade_glyph_grocer_collage
+code: ''

@@ -1,0 +1,97 @@
+name: Blue Bubble Fisheye Action Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions,
+  and one red hand-drawn annotation circle.
+tags:
+- VigoCookbook
+- crisp
+- youth-culture
+- action
+- rectangular
+- fisheye
+- photograph
+- oversized
+- rounded
+- royal-blue
+- display
+- typography
+- frame-breaking
+- foreground
+- small
+- editorial
+- captions
+- one
+- hand-drawn
+- annotation
+- circle
+triggers:
+- Blue Bubble Fisheye Action Poster Style
+features:
+- title: 'Preserve the core visual identity: A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground
+    scale, small blue editorial captions, and one red hand-drawn annotation circle.'
+  desc: ''
+- title: 'Photography: use an extreme low-angle fisheye or action-camera lens, very close to the foreground object, with barrel distortion, edge stretching, motion blur near the edges, bright daylight,
+    blue sky or open high-key light, crisp highlights, realistic skin, fabric, product surfaces, and believable anatomy.'
+  desc: ''
+- title: 'Layout: build a clean white editorial poster canvas with a central rectangular action photo.'
+  desc: ''
+- title: Let one foreground hand, foot, prop, or product detail become huge and optionally break past the photo rectangle into the white margin.
+  desc: ''
+- title: Keep the poster layer flat, precise, and uncluttered.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: adult action subject, performer, courier, maker, athlete, rider, dancer, chef, technician, or product model
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: lunging toward the lens, reaching across the frame, jumping over the camera, presenting a prop, balancing in motion, or landing in a dramatic wide-angle pose
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: featured object, shoe, bag, tool, instrument, food item, plant crate, wearable, device, or product detail that can be emphasized by perspective
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: sunny urban roof, bright plaza, skateable concrete space, clean market aisle, public court, workshop, studio patio, transit deck, or open daylight environment
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: blue sky, motion-blurred edges, white poster margin, rectangular photo crop, oversized blue bubble headline, small editorial text blocks, non-scannable stripe code, and red hand-drawn circle
+    annotation
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: short rounded headline, 1 to 2 words, set as huge blue bubble lettering cropped behind or above the photo
+  desc: ''
+prompt: 'Create an image in blue-bubble-fisheye-action-poster-style.
+
+
+  Aspect ratio: {ASPECT_RATIO}.
+
+
+  Scene: {SUBJECT} {SUBJECT_ACTION}, featuring {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}.
+
+
+  Photography: use an extreme low-angle fisheye or action-camera lens, very close to the foreground object, with barrel distortion, edge stretching, motion blur near the edges, bright daylight, blue sky
+  or open high-key light, crisp highlights, realistic skin, fabric, product surfaces, and believable anatomy.
+
+
+  Layout: build a clean white editorial poster canvas with a central rectangular action photo. Let one foreground hand, foot, prop, or product detail become huge and optionally break past the photo rectangle
+  into the white margin. Keep the poster layer flat, precise, and uncluttered.
+
+
+  Typography: set "{MAIN_TEXT}" as massive rounded royal-blue bubble lettering cropped behind or above the photo block. Keep supporting text small, geometric, and blue. Add "{SECONDARY_TEXT}" only as compact
+  editorial microcopy in the bottom margin.
+
+
+  Graphic system: include {ACCENT_SYMBOL}, a small non-scannable stripe block, and balanced lower-margin caption groups. Use a rough red marker circle to highlight one product or movement detail.
+
+
+  Avoid: watermarks, usernames, creator IDs, platform logos, app interface marks, QR codes, scannable barcodes, copied reference people, copied poses, copied text, recognizable logos, brand-owned product
+  marks, long paragraphs, cluttered collage, dark cyberpunk lighting, luxury minimalism, flat vector substitutes, SVG or HTML mockup looks, distorted faces, extra limbs, extra fingers, malformed hands,
+  and unreadable main headline.'
+preview: https://malongan.github.io/images/vigo_previews/blue-bubble-fisheye-action-poster.jpg
+id: vigo_blue_bubble_fisheye_action_poster
+code: ''

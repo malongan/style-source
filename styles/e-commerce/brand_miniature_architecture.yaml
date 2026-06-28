@@ -1,0 +1,113 @@
+name: Brand Miniature Architecture Poster Style
+category: e-commerce
+ratio: 2:3 竖版
+source_author: '@PixuryAI'
+source_url: ''
+summary: 把品牌产品包装放大成可运作的建筑空间，结合真实城市环境 + 微缩人物 = 超写实品牌微缩建筑摄影海报。
+tags:
+- 品牌
+- 微缩建筑
+- 海报
+- 超写实
+- 产品摄影
+triggers:
+- 品牌微缩建筑
+- 微缩海报
+- 产品建筑化
+- 建筑摄影
+features:
+- title: '**概念**：品牌包装 = 建筑主体，产品成为可运作的空间'
+  desc: ''
+- title: '**比例**：2:3 竖版超写实微缩建筑摄影'
+  desc: ''
+- title: '**建筑逻辑**：入口、玻璃橱窗、室内功能区、露台、屋顶结构'
+  desc: ''
+- title: '**环境融合**：真实城市空间（街道、路灯、人行道、绿化等）'
+  desc: ''
+- title: '**人物叙事**：真实比例微缩人物，自然动作（排队、工作、取餐等）'
+  desc: ''
+- title: '**构图**：四分之三视角 + 轻微高角度，顶部留白给标题'
+  desc: ''
+- title: '**光影**：根据品牌色调设定，成熟精致写实'
+  desc: ''
+- title: '**排版**：左上区域白色简洁文字，无衬线字体'
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: Main Poster Title
+  desc: 品牌名称/主标题
+- kv_var: 副标题
+  style_var: Subtitle
+  desc: 英文副标题
+- kv_var: 画面-品牌
+  style_var: Brand Name + 产品包装
+  desc: 品牌识别特征
+- kv_var: 画面-建筑
+  style_var: Architectural Scene
+  desc: 功能空间类型
+- kv_var: 画面-环境
+  style_var: Environmental Integration
+  desc: 城市元素
+- kv_var: 画面-人物
+  style_var: Characters and Narrative
+  desc: 人物场景
+- kv_var: 色彩-主色
+  style_var: Brand 主色调
+  desc: 品牌色彩
+prompt: 'Please generate a vertical 2:3 ultra-realistic miniature architecture photography poster.
+
+
+  【Information】
+
+  Brand Name: [品牌名称，如 Starbucks]
+
+  Architectural Scene: [建筑功能，如 corner cafe]
+
+  Main Poster Title: [主标题]
+
+  Subtitle: [英文副标题]
+
+
+  [Visual Requirements]
+
+  The main subject of the image is a large "[产品包装]"，designed as a fully functional "[建筑场景]"，seamlessly integrated with the real urban environment. Maintain precise proportions of miniature model with ultra-realistic
+  photographic quality.
+
+
+  [Main Design]
+
+  包装必须保留品牌识别特征：主色调、包装轮廓、Logo位置、材质细节、真实结构。包装逻辑转换为建筑空间：入口、玻璃橱窗、室内功能区、露台、地板、屋顶结构。
+
+
+  [Environmental Integration]
+
+  融入真实城市环境，包含街道拐角、人行道、斑马线、路灯、交通流、路边绿化等丰富细节。
+
+
+  [Characters and Narrative]
+
+  融入真实比例微缩人物，自然动作，包含顾客排队、店员工作、骑手取餐等场景。细节真实，避免玩偶感。
+
+
+  [Poster Composition]
+
+  2:3竖版构图，主建筑置于画面中下，顶部留白，四分之三视角+轻微高角度，背景浅景深柔焦。
+
+
+  [Lighting, Shadow, and Materials]
+
+  根据品牌色调设定光影，整体风格成熟精致写实。
+
+
+  [White Poster Text]
+
+  左上区域添加现代简洁白色文字，无衬线字体，排版考究。
+
+
+  [Style Keywords]
+
+  Hyper-realistic miniature architectural photography, authentic brand space, 2:3 commercial poster, building-as-giant-product-packaging, integration with real urban environments, macro photography, architectural
+  model photography.'
+preview: https://malongan.github.io/images/styles_previews/brand_miniature_architecture.jpg
+id: brand_miniature_architecture
+code: ''

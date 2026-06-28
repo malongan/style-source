@@ -1,0 +1,54 @@
+name: 3D 极繁街潮海报
+category: brand_kv
+ratio: '9:16'
+source_author: '@小越艺术'
+source_url: ''
+summary: 3D 立体呈现的极繁主义潮流海报，穿潮服戴墨镜的动物形象为核心，高饱和色彩 + 街头符号混搭，年轻叛逆。
+tags:
+- 街潮
+- 3D
+- 极繁主义
+- 高饱和
+- 动物
+- 叛逆
+triggers:
+- 极繁街潮
+- 3D 潮流海报
+- 街头动物
+- 叛逆潮流
+features:
+- title: 3D 立体效果呈现穿潮服、戴墨镜的动物形象（如东北虎），酷劲十足
+  desc: ''
+- title: 极繁主义构图，元素错落穿插碰撞
+  desc: ''
+- title: 高饱和度色彩主调，视觉冲击力强
+  desc: ''
+- title: 夸张立体装饰：彩色毛绒鞋带、镀铬金属牌、爱心、铆钉
+  desc: ''
+- title: 铆钉上印有 FASHION、#SHIRAN酒馆 等个性文字
+  desc: ''
+- title: 半调图案、撞色、混搭设计手法
+  desc: ''
+- title: 挂饰元素：!、CONTINUE、99 等强化态度
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{主题}}'
+  desc: 如 CONTINUE
+- kv_var: Slogan
+  style_var: '{{文字1}}、{{文字2}}'
+  desc: 铆钉上的个性文字
+- kv_var: 画面-主体
+  style_var: '{{动物形象}}'
+  desc: 3D 动物穿潮服戴墨镜
+- kv_var: 色彩-主色
+  style_var: '{{高饱和度}}'
+  desc: 红黄蓝碰撞色
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity..."
+  desc: 需要参考图保持一致性
+prompt: 要制作 "{{主题}}" 主题的潮流创意海报，极繁主义，风格聚焦年轻、叛逆、潮流感。以高饱和度色彩为主调，核心是穿衣服裤子和鞋子并带有墨镜酷酷感觉的{{动物形象}}，用 3D 立体效果呈现，有力量感的视觉。围绕人物角色，搭配夸张的立体装饰（如彩色毛绒鞋带、镀铬金属牌、）、爱心、铆钉等潮流符号，铆钉上印上 "{{文字1}}"、"{{文字2}}" 等个性文字，增添街头文化氛围。加入 "{{挂饰元素1}}"、"{{挂饰元素2}}"、"{{挂饰元素3}}"
+  挂饰等元素，强化打破定义的态度。整体布局要错落有致，让各种元素相互穿插、碰撞，营造热闹又有冲击力的画面。通过半调图案、撞色、混搭的设计手法，传递年轻群体对刻板时尚定义的反抗情绪，用潮流视觉语言呼吁大家突破风格限制，拥抱多元穿搭选择，适配青年文化传播、时尚突破主题活动，借炫酷造型和鲜明态度引发目标群体共鸣，打造出既具话题性又有视觉记忆点的潮流海报。最佳构图，大师级排版，质感强烈，影棚级灯光
+preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/street_3d_maximalist.jpg
+id: street_3d_maximalist
+code: ''

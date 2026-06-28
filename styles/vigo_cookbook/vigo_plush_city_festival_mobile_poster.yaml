@@ -1,0 +1,100 @@
+name: Plush City Festival Mobile Poster
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign
+  energy.
+tags:
+- VigoCookbook
+- bright
+- mobile
+- event
+- combining
+- real
+- city
+- landmarks
+- soft
+- fuzzy
+- mascot
+- characters
+- rounded
+- app-card
+- UI
+- framing
+- bold
+- festival
+- typography
+- date/location
+- friendly
+- tourism-campaign
+triggers:
+- Plush City Festival Mobile Poster
+features:
+- title: 'Preserve the core visual identity: A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography,
+    date/location text, and friendly tourism-campaign energy.'
+  desc: ''
+- title: Use a bright mobile-first festival poster layout with a large rounded top visual card, clean blue sky, soft clouds, realistic city landmarks, and fuzzy plush 3D mascot characters in the foreground.
+  desc: ''
+- title: Put the event name in large bold white rounded sans-serif typography across the top sky area.
+  desc: ''
+- title: Place clear date and location information near the bottom of the visual card.
+  desc: ''
+- title: For vertical layouts, include a white rounded mobile bottom sheet with a small handle icon and the CTA text.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action or pose
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, prop, or visual anchor
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details and visual texture
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Plush City Festival Mobile Poster" style.
+
+
+  Event/headline: {MAIN_TEXT}.
+
+  Primary mascot or subject: {SUBJECT}.
+
+  Mascot action: {SUBJECT_ACTION}.
+
+  Secondary mascot, prop, or festival object: {PRODUCT_OR_PROP}.
+
+  City or district: {LOCATION}.
+
+  Landmarks, sky, weather, and ground plane: {BACKGROUND_ELEMENTS}.
+
+  Date, location, and top micro text: {SECONDARY_TEXT}.
+
+  CTA or accent mark: {ACCENT_SYMBOL}.
+
+  Mascot styling: {WARDROBE_STYLE}.
+
+
+  Use a bright mobile-first festival poster layout with a large rounded top visual card, clean blue sky, soft clouds, realistic city landmarks, and fuzzy plush 3D mascot characters in the foreground. Put
+  the event name in large bold white rounded sans-serif typography across the top sky area. Place clear date and location information near the bottom of the visual card.
+
+
+  For vertical layouts, include a white rounded mobile bottom sheet with a small handle icon and the CTA text. Add subtle mobile UI elements such as a back arrow and three-dot menu at the top. Keep everything
+  cheerful, readable, family-friendly, sunny, civic, and polished.
+
+
+  Avoid dark mood, gritty realism, hard-edged sci-fi, luxury travel styling, unreadable text, scary mascots, and abstract backgrounds.'
+preview: https://malongan.github.io/images/vigo_previews/plush-city-festival-mobile-poster.jpg
+id: vigo_plush_city_festival_mobile_poster
+code: ''

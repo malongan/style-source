@@ -1,0 +1,49 @@
+name: 童趣前卫艺术展海报
+category: creative
+ratio: '9:16'
+source_author: '@七七吖（即梦）'
+source_url: ''
+summary: 扁平化抽象泡泡字体 × 纸质印刷颗粒质感 × 绿蓝白强对比 = 童趣前卫艺术展海报。
+tags:
+- 童趣
+- 前卫
+- 艺术展
+- 海报
+- 扁平化
+- 纸质质感
+triggers:
+- 童趣前卫
+- 艺术展海报
+- 泡泡字体
+- 纸质印刷
+features:
+- title: 扁平化抽象泡泡状艺术字体作为主视觉
+  desc: ''
+- title: 黑体主标题 + 韩文小标题错落排版
+  desc: ''
+- title: 纸质印刷颗粒质感，非数码平滑
+  desc: ''
+- title: 绿、蓝、白强对比配色，纯白哑光背景
+  desc: ''
+- title: 活泼有视觉张力
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{中文主标题}}'
+  desc: 黑体文字，如"可爱的理想主义者"
+- kv_var: Slogan 1
+  style_var: '{{英文主题词}}'
+  desc: 泡泡状艺术字体，如"Act research ion"
+- kv_var: Slogan 2
+  style_var: '{{副标题文字}}'
+  desc: 小标题错落排版
+- kv_var: 色彩
+  style_var: 绿、蓝、白强对比
+  desc: 固定配色方案
+- kv_var: 比例
+  style_var: '{{9:16}}'
+  desc: 竖版
+prompt: 童趣前卫艺术展海报，正视图满版构图；主体为扁平化抽象绿蓝泡泡状艺术字体 "{{英文主题词}}"，搭配黑体文字主标题"{{中文主标题}}"；小标题 "{{副标题文字}}" 等，错落排版于画面上下区域；材质呈现纸质印刷颗粒质感，整体配色以绿、蓝、白强对比呈现，背景为纯白哑光；风格活泼有视觉张力
+preview: https://malongan.github.io/images/vigo_previews/playful_avantgarde_poster.jpg
+id: playful_avantgarde_poster
+code: ''

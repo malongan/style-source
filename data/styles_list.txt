@@ -1,158 +1,158 @@
 共 156 个风格
 
-ST0001 | Y3K Cool Girl Portrait | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
-ST0002 | Wilderness Wind Poster | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
-ST0149 | Vintage Streetwear Cartoon Poster | https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp
-ST0003 | Vigo Yellow Black Manga Food Zine Ad | https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp
-ST0004 | Vigo Y2K Mirror Ui Scribble Collage | https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_mirror_ui_scribble_collage_0b4db919.webp
-ST0005 | Vigo Y2K Grunge Hiphop Cutout Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_grunge_hiphop_cutout_poster_416488a0.webp
-ST0006 | Vigo Warm Fisheye Product Impact Ad | https://malongan.github.io/style-source/images/styles_previews/vigo_warm_fisheye_product_impact_ad_7d86cf27.webp
-ST0007 | Vigo Urban Transit Doodle Diary | https://malongan.github.io/style-source/images/styles_previews/vigo_urban_transit_doodle_diary_c2b25fe6.webp
-ST0008 | Vigo Turquoise Red Techno Manga Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_turquoise_red_techno_manga_poster_414a4374.webp
-ST0009 | Vigo Tri Color Hardcut Portrait Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_tri_color_hardcut_portrait_poster_e0513f83.webp
-ST0010 | Vigo Tokyo Kawaii Travel Collage Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_tokyo_kawaii_travel_collage_poster_32b3dfc6.webp
-ST0011 | Vigo Sunny 3D Avatar Campaign | https://malongan.github.io/style-source/images/styles_previews/vigo_sunny_3d_avatar_campaign_e4196112.webp
-ST0012 | Vigo Subway Doodle Photo Hybrid | https://malongan.github.io/style-source/images/styles_previews/vigo_subway_doodle_photo_hybrid_5c191e5b.webp
-ST0013 | Vigo Sky Blue Home Life Doodle Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_sky_blue_home_life_doodle_poster_f2016108.webp
-ST0014 | Vigo School Grid Paper Cutout Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_school_grid_paper_cutout_poster_c1a0b800.webp
-ST0015 | Vigo Rough Marker Monster Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_rough_marker_monster_poster_070a6118.webp
-ST0016 | Vigo Rough Ink Music Doodle Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_rough_ink_music_doodle_poster_ab7f6ea1.webp
-ST0017 | Vigo Pop Bubble Letter Photo Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_pop_bubble_letter_photo_poster_b895133e.webp
-ST0018 | Vigo Plush Comic Toy Product Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_plush_comic_toy_product_poster_8858fc4e.webp
-ST0019 | Vigo Plush City Festival Mobile Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_plush_city_festival_mobile_poster_a1f48ca6.webp
-ST0020 | Vigo Playful Mascot Doodle Snapshot | https://malongan.github.io/style-source/images/styles_previews/vigo_playful_mascot_doodle_snapshot_8c72b334.webp
-ST0021 | Vigo Playful Marker Grounding Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_playful_marker_grounding_poster_8ef4abda.webp
-ST0022 | Vigo Photo Illustration Overlay Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_photo_illustration_overlay_poster_0b07afef.webp
-ST0023 | Vigo Olive Scribble Sports Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_olive_scribble_sports_poster_c7b111fb.webp
-ST0024 | Vigo Neon Plush Gadget Pop 3D | https://malongan.github.io/style-source/images/styles_previews/vigo_neon_plush_gadget_pop_3d_5ec5f38d.webp
-ST0025 | Vigo Neon Kinetic Typographic Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_neon_kinetic_typographic_poster_427ef146.webp
-ST0026 | Vigo Neon Doodle Gallery Snapshot | https://malongan.github.io/style-source/images/styles_previews/vigo_neon_doodle_gallery_snapshot_0964723f.webp
-ST0027 | Vigo Neon Diary Collage | https://malongan.github.io/style-source/images/styles_previews/vigo_neon_diary_collage_ce563a0c.webp
-ST0028 | Vigo Naive Marker Quote Card | https://malongan.github.io/style-source/images/styles_previews/vigo_naive_marker_quote_card_796c7e87.webp
-ST0029 | Vigo Mono Noir Type Portrait Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_mono_noir_type_portrait_poster_4006800d.webp
-ST0030 | Vigo Mondrian Style | https://malongan.github.io/style-source/images/styles_previews/vigo_mondrian_style_b7542034.webp
-ST0031 | Vigo Metro Doodle Snapshot Diary | https://malongan.github.io/style-source/images/styles_previews/vigo_metro_doodle_snapshot_diary_4218a67b.webp
-ST0032 | Vigo Market Brush Produce Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_market_brush_produce_poster_1858aa1d.webp
-ST0033 | Vigo Luxury Street Cover | https://malongan.github.io/style-source/images/styles_previews/vigo_luxury_street_cover_bd9a5f9e.webp
-ST0034 | Vigo Kinetic Geometric Doodle Cutouts | https://malongan.github.io/style-source/images/styles_previews/vigo_kinetic_geometric_doodle_cutouts_87c9a8f6.webp
-ST0035 | Vigo K Pop Apocalypse Ransom Zine | https://malongan.github.io/style-source/images/styles_previews/vigo_k_pop_apocalypse_ransom_zine_71dcafee.webp
-ST0036 | Vigo Impact Burst Halftone Comic Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_impact_burst_halftone_comic_poster_e070ca7c.webp
-ST0037 | Vigo Hud Tech Spec Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_hud_tech_spec_poster_17998928.webp
-ST0038 | Vigo Gothic Cat Doodle Photo Collage | https://malongan.github.io/style-source/images/styles_previews/vigo_gothic_cat_doodle_photo_collage_23faee2c.webp
-ST0039 | Vigo Folded Newspaper Product Ad | https://malongan.github.io/style-source/images/styles_previews/vigo_folded_newspaper_product_ad_5b462e76.webp
-ST0040 | Vigo Fisheye Bubble Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_fisheye_bubble_poster_fa30f6de.webp
-ST0151 | Vigo Film Montage Sport Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_film_montage_sport_poster_9f354591.webp
-ST0041 | Vigo Fantasy Scribble Mascot Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_fantasy_scribble_mascot_poster_e720bfbb.webp
-ST0042 | Vigo Cyan Red Shockwave Type Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_cyan_red_shockwave_type_poster_d55357a0.webp
-ST0043 | Vigo Chromatic Fisheye Orbit Pop Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_chromatic_fisheye_orbit_pop_poster_3854d163.webp
-ST0044 | Vigo Bold Block Mascot Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_bold_block_mascot_poster_b67d6f31.webp
-ST0045 | Vigo Bold Anime Reaction Thumbnail | https://malongan.github.io/style-source/images/styles_previews/vigo_bold_anime_reaction_thumbnail_8e18ccef.webp
-ST0046 | Vigo Blue Kinetic Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_kinetic_poster_cb5d6942.webp
-ST0047 | Vigo Blue Hud Macro Product Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_hud_macro_product_poster_1ed4ff87.webp
-ST0048 | Vigo Blue Halftone Ransom Zine Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_halftone_ransom_zine_poster_3bed3468.webp
-ST0049 | Vigo Blue Bubble Fisheye Action Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_bubble_fisheye_action_poster_02aab45d.webp
-ST0050 | Vigo Black Cutout Food Card Ad | https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.webp
-ST0051 | Vigo Analog Editorial Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.webp
-ST0052 | Urban Collage Poster | https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.webp
-ST0053 | Typography | https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.webp
-ST0054 | Trendy Bubble Letter Portrait | https://malongan.github.io/style-source/images/styles_previews/trendy_bubble_letter_portrait_686cbd79.webp
-ST0156 | Transparency Concept Poster | https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.webp
-ST0152 | Textile Craft Pro | https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.webp
-ST0055 | Tear Paper | https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.webp
-ST0056 | Takeshi Camping Poster | https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.webp
-ST0057 | Sunny 3D | https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.webp
-ST0058 | Sunlit Kinetic Block Type Poster | https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.webp
-ST0059 | Summer Dopamine | https://malongan.github.io/style-source/images/styles_previews/summer_dopamine_9df0ecb9.webp
-ST0060 | Style Travel | https://malongan.github.io/style-source/images/styles_previews/style_travel_a6ec87c3.webp
-ST0061 | Style Product | https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.webp
-ST0062 | Style Poster | https://malongan.github.io/style-source/images/styles_previews/style_poster_cb5d6942.webp
-ST0063 | Style Halftone Poster | https://malongan.github.io/style-source/images/styles_previews/style_halftone_poster_3bed3468.webp
-ST0064 | Style Can | https://malongan.github.io/style-source/images/styles_previews/style_can_33201059.webp
-ST0065 | Streetwear Lab | https://malongan.github.io/style-source/images/styles_previews/streetwear_lab_1bee8bc5.webp
-ST0066 | Street 3D Maximalist | https://malongan.github.io/style-source/images/styles_previews/street_3d_maximalist_9224fd66.webp
-ST0067 | Sticker Style Poster | https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.webp
-ST0068 | Stamp Movie Poster | https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.webp
-ST0069 | Soft Clay Macaron Poster | https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_5e36600e.webp
-ST0070 | Soft Clay Camping Kv | https://malongan.github.io/style-source/images/styles_previews/soft_clay_camping_kv_5e36600e.webp
-ST0071 | Sky Blue Doodle | https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.webp
-ST0072 | Scribble Poster Style | https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.webp
-ST0073 | Science Infographic | https://malongan.github.io/style-source/images/styles_previews/science_infographic_bdeb029e.webp
-ST0074 | Science Illustration | https://malongan.github.io/style-source/images/styles_previews/science_illustration_bdeb029e.webp
-ST0075 | Science Cover | https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.webp
-ST0076 | Scarlet | https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.webp
-ST0077 | Retro Future Scifi Poster | https://malongan.github.io/style-source/images/styles_previews/retro_future_scifi_poster_7fc81506.webp
-ST0078 | Retro Drink Ad | https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.webp
+ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
+ST0002 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
+ST0149 | 复古街头卡通海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp
+ST0003 | Yellow Black Manga Food Zine Ad Style | https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp
+ST0004 | Y2K Mirror UI Scribble Collage Style | https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_mirror_ui_scribble_collage_0b4db919.webp
+ST0005 | Y2K Grunge Hip-Hop Cutout Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_grunge_hiphop_cutout_poster_416488a0.webp
+ST0006 | Warm Fisheye Product Impact Ad Style | https://malongan.github.io/style-source/images/styles_previews/vigo_warm_fisheye_product_impact_ad_7d86cf27.webp
+ST0007 | Urban Transit Doodle Diary Style | https://malongan.github.io/style-source/images/styles_previews/vigo_urban_transit_doodle_diary_c2b25fe6.webp
+ST0008 | Turquoise Red Techno Manga Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_turquoise_red_techno_manga_poster_414a4374.webp
+ST0009 | Tri Color Hardcut Portrait Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_tri_color_hardcut_portrait_poster_e0513f83.webp
+ST0010 | Tokyo Kawaii Travel Collage Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_tokyo_kawaii_travel_collage_poster_32b3dfc6.webp
+ST0011 | Sunny 3D Avatar Campaign Style | https://malongan.github.io/style-source/images/styles_previews/vigo_sunny_3d_avatar_campaign_e4196112.webp
+ST0012 | Subway Doodle Photo Hybrid | https://malongan.github.io/style-source/images/styles_previews/vigo_subway_doodle_photo_hybrid_5c191e5b.webp
+ST0013 | Sky Blue Home Life Doodle Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_sky_blue_home_life_doodle_poster_f2016108.webp
+ST0014 | School Grid Paper Cutout Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_school_grid_paper_cutout_poster_c1a0b800.webp
+ST0015 | Rough Marker Monster Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_rough_marker_monster_poster_070a6118.webp
+ST0016 | Rough Ink Music Doodle Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_rough_ink_music_doodle_poster_ab7f6ea1.webp
+ST0017 | Pop Bubble Letter Photo Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_pop_bubble_letter_photo_poster_b895133e.webp
+ST0018 | Plush Comic Toy Product Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_plush_comic_toy_product_poster_8858fc4e.webp
+ST0019 | Plush City Festival Mobile Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_plush_city_festival_mobile_poster_a1f48ca6.webp
+ST0020 | Playful Mascot Doodle Snapshot Style | https://malongan.github.io/style-source/images/styles_previews/vigo_playful_mascot_doodle_snapshot_8c72b334.webp
+ST0021 | Playful Marker Grounding Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_playful_marker_grounding_poster_8ef4abda.webp
+ST0022 | Photo Illustration Overlay Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_photo_illustration_overlay_poster_0b07afef.webp
+ST0023 | Olive Scribble Sports Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_olive_scribble_sports_poster_c7b111fb.webp
+ST0024 | Neon Plush Gadget Pop 3D Style | https://malongan.github.io/style-source/images/styles_previews/vigo_neon_plush_gadget_pop_3d_5ec5f38d.webp
+ST0025 | Neon Kinetic Typographic Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_neon_kinetic_typographic_poster_427ef146.webp
+ST0026 | Neon Doodle Gallery Snapshot | https://malongan.github.io/style-source/images/styles_previews/vigo_neon_doodle_gallery_snapshot_0964723f.webp
+ST0027 | Neon Outdoor Diary Longform Collage Style | https://malongan.github.io/style-source/images/styles_previews/vigo_neon_diary_collage_ce563a0c.webp
+ST0028 | Naive Marker Quote Card Style | https://malongan.github.io/style-source/images/styles_previews/vigo_naive_marker_quote_card_796c7e87.webp
+ST0029 | Mono Noir Type Portrait Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_mono_noir_type_portrait_poster_4006800d.webp
+ST0030 | 蒙德里安秩序风 | https://malongan.github.io/style-source/images/styles_previews/vigo_mondrian_style_b7542034.webp
+ST0031 | Metro Doodle Snapshot Diary | https://malongan.github.io/style-source/images/styles_previews/vigo_metro_doodle_snapshot_diary_4218a67b.webp
+ST0032 | Market Brush Produce Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_market_brush_produce_poster_1858aa1d.webp
+ST0033 | Kinetic Luxury Street Fashion Cover Style | https://malongan.github.io/style-source/images/styles_previews/vigo_luxury_street_cover_bd9a5f9e.webp
+ST0034 | Kinetic Geometric Doodle Cutouts | https://malongan.github.io/style-source/images/styles_previews/vigo_kinetic_geometric_doodle_cutouts_87c9a8f6.webp
+ST0035 | K-Pop Apocalypse Ransom Zine Style | https://malongan.github.io/style-source/images/styles_previews/vigo_k_pop_apocalypse_ransom_zine_71dcafee.webp
+ST0036 | Impact Burst Halftone Comic Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_impact_burst_halftone_comic_poster_e070ca7c.webp
+ST0037 | HUD 技术规格海报 | https://malongan.github.io/style-source/images/styles_previews/vigo_hud_tech_spec_poster_17998928.webp
+ST0038 | Gothic Cat Doodle Photo Collage Style | https://malongan.github.io/style-source/images/styles_previews/vigo_gothic_cat_doodle_photo_collage_23faee2c.webp
+ST0039 | Folded Newspaper Product Ad Style | https://malongan.github.io/style-source/images/styles_previews/vigo_folded_newspaper_product_ad_5b462e76.webp
+ST0040 | Sunburst Fisheye Bubble Type Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_fisheye_bubble_poster_fa30f6de.webp
+ST0151 | ST0151 电影蒙太奇三镜头运动海报 | https://malongan.github.io/style-source/images/styles_previews/vigo_film_montage_sport_poster_9f354591.webp
+ST0041 | Fantasy Scribble Mascot Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_fantasy_scribble_mascot_poster_e720bfbb.webp
+ST0042 | Cyan Red Shockwave Type Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_cyan_red_shockwave_type_poster_d55357a0.webp
+ST0043 | Chromatic Fisheye Orbit Pop Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_chromatic_fisheye_orbit_pop_poster_3854d163.webp
+ST0044 | Bold Block Mascot Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_bold_block_mascot_poster_b67d6f31.webp
+ST0045 | Bold Anime Reaction Thumbnail Style | https://malongan.github.io/style-source/images/styles_previews/vigo_bold_anime_reaction_thumbnail_8e18ccef.webp
+ST0046 | Blue Lime Kinetic Comic Type Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_kinetic_poster_cb5d6942.webp
+ST0047 | Blue HUD Macro Creator Tech Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_hud_macro_product_poster_1ed4ff87.webp
+ST0048 | Blue Halftone Ransom Zine Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_halftone_ransom_zine_poster_3bed3468.webp
+ST0049 | Blue Bubble Fisheye Action Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_bubble_fisheye_action_poster_02aab45d.webp
+ST0050 | Black Cutout Food Card Ad | https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.webp
+ST0051 | Soft Analog Future Editorial Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.webp
+ST0052 | 都市前卫拼贴海报 | https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.webp
+ST0053 | 字体设计 | https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.webp
+ST0054 | 高明度泡泡字潮流视觉 | https://malongan.github.io/style-source/images/styles_previews/trendy_bubble_letter_portrait_686cbd79.webp
+ST0156 | 透明概念海报 | https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.webp
+ST0152 | 织物手工艺 | https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.webp
+ST0055 | 撕纸美学 | https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.webp
+ST0056 | 武政谅丝网印刷露营海报 | https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.webp
+ST0057 | 阳光3D头像营销风 | https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.webp
+ST0058 | Sunlit Kinetic Block Type Photo Poster | https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.webp
+ST0059 | summer_dopamine | https://malongan.github.io/style-source/images/styles_previews/summer_dopamine_9df0ecb9.webp
+ST0060 | Clean Triptych Travel Vlog Thumbnail Style | https://malongan.github.io/style-source/images/styles_previews/style_travel_a6ec87c3.webp
+ST0061 | Electric Blue Silhouette Product Launch Style | https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.webp
+ST0062 | Folded Diamond Perspective Type Poster Style | https://malongan.github.io/style-source/images/styles_previews/style_poster_cb5d6942.webp
+ST0063 | Halftone Assemblage Metaphor PSA Poster Style | https://malongan.github.io/style-source/images/styles_previews/style_halftone_poster_3bed3468.webp
+ST0064 | Blue Chinese Perspective Type Canyon Style | https://malongan.github.io/style-source/images/styles_previews/style_can_33201059.webp
+ST0065 | 3D街潮实验室海报 | https://malongan.github.io/style-source/images/styles_previews/streetwear_lab_1bee8bc5.webp
+ST0066 | 3D 极繁街潮海报 | https://malongan.github.io/style-source/images/styles_previews/street_3d_maximalist_9224fd66.webp
+ST0067 | Analog Sticker Diary Portrait Poster Style | https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.webp
+ST0068 | Stamp Movie Poster - 日本邮票电影海报 | https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.webp
+ST0069 | 软胶黏土马卡龙活动海报 | https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_5e36600e.webp
+ST0070 | 软胶黏土3D卡通露营KV | https://malongan.github.io/style-source/images/styles_previews/soft_clay_camping_kv_5e36600e.webp
+ST0071 | 天蓝家居生活涂鸦海报 | https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.webp
+ST0072 | Teenage Skate Scribble Screenprint Poster Style | https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.webp
+ST0073 | 科研信息图 | https://malongan.github.io/style-source/images/styles_previews/science_infographic_bdeb029e.webp
+ST0074 | 论文插图 | https://malongan.github.io/style-source/images/styles_previews/science_illustration_bdeb029e.webp
+ST0075 | 科研杂志封面 | https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.webp
+ST0076 | Scarlet红块手绘描边风格 | https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.webp
+ST0077 | 复古未来主义科幻海报 | https://malongan.github.io/style-source/images/styles_previews/retro_future_scifi_poster_7fc81506.webp
+ST0078 | 复古饮料广告 | https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.webp
 ST0079 | Retro Cel Animation | https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.webp
-ST0080 | Realistic Photo | https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp
-ST0081 | Playful Avantgarde Poster | https://malongan.github.io/style-source/images/styles_previews/playful_avantgarde_poster_be32ed45.webp
-ST0144 | Pixel Cut Community Poster | https://malongan.github.io/style-source/images/styles_previews/pixel_cut_community_poster_74cb7a79.webp
-ST0082 | Pixar Cartoon Portrait | https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.webp
-ST0083 | Pet Sketch Storyboard | https://malongan.github.io/style-source/images/styles_previews/pet_sketch_storyboard_dce925d4.webp
-ST0084 | Perfume Kv | https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.webp
-ST0085 | Pen Ink Point Line Peaches | https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp
-ST0086 | Object Illustration Combo | https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp
-ST0087 | Newyear Gift Box | https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp
-ST0088 | Moebius Underwater Coral Postoffice | https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp
+ST0080 | 写实摄影 | https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp
+ST0081 | 童趣前卫艺术展海报 | https://malongan.github.io/style-source/images/styles_previews/playful_avantgarde_poster_be32ed45.webp
+ST0144 | 像素切割社区活动海报 | https://malongan.github.io/style-source/images/styles_previews/pixel_cut_community_poster_74cb7a79.webp
+ST0082 | Pixar 3D 卡通肖像 | https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.webp
+ST0083 | Rough Animation Pet Sketch Storyboard Style | https://malongan.github.io/style-source/images/styles_previews/pet_sketch_storyboard_dce925d4.webp
+ST0084 | 香水主视觉海报 | https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.webp
+ST0085 | 钢笔点线技法·桃子 | https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp
+ST0086 | Object Illustration Combo - 真实物体插画融合 | https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp
+ST0087 | 新年礼盒 | https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp
+ST0088 | 莫比乌斯海底珊瑚邮局 | https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp
 ST0089 | Minimalist City Travel Poster | https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.webp
-ST0090 | Mckinsey Style | https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp
-ST0091 | Mascot Ip | https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp
-ST0092 | Maple Story Avatar | https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.webp
-ST0146 | Mango Coconut Doodle Drink | https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.webp
-ST0093 | Luxury Product | https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.webp
-ST0094 | Luxury Poster Style | https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.webp
-ST0150 | Luxury Embroidery Macro | https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.webp
-ST0095 | Luxury Birthday Poster | https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp
-ST0096 | Luxury Beauty Side Profile Poster | https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp
-ST0147 | Lime Mint Sparkling Doodle Poster | https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp
-ST0145 | Korean Morning Ritual Poster | https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.webp
-ST0097 | Korean Illustration | https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.webp
-ST0098 | Kimjunggi Scifi Sketch | https://malongan.github.io/style-source/images/styles_previews/kimjunggi_scifi_sketch_1abbb496.webp
-ST0099 | K Gyaru Street Snap | https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp
-ST0100 | Jimeng Kasho Allstars | https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.webp
-ST0101 | Japanese Poetic Dreamy | https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.webp
-ST0102 | Jade Glyph Grocer Collage | https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp
-ST0103 | Inkline Couture | https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp
-ST0104 | Inflatable 3D Flowers | https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp
-ST0105 | Hierarchy Angels Poster | https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp
-ST0106 | Herd Outsider Poster | https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp
-ST0107 | Halftone Assemblage Psa Poster | https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp
-ST0108 | Grotesque Doodle Style | https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.webp
-ST0109 | Gpt Doodle Illustration | https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp
-ST0110 | Glass Flower Spring Diary | https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.webp
-ST0111 | Geek Code Poster | https://malongan.github.io/style-source/images/styles_previews/geek_code_poster_f7da4b88.webp
-ST0112 | Gardenia White Tea Poster | https://malongan.github.io/style-source/images/styles_previews/gardenia_white_tea_poster_727bf18d.webp
-ST0113 | Futuristic Spring Kv | https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.webp
-ST0114 | Futuristic Collage Portrait | https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.webp
-ST0115 | Fashion Editorial Visual | https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp
-ST0116 | Fashion Campaign Typography | https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.webp
-ST0117 | Fashion Archer Editorial | https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.webp
+ST0090 | 麦肯锡风格 | https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp
+ST0091 | 吉祥物IP风格 | https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp
+ST0092 | maple_story_avatar（冒险岛角色精灵转换） | https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.webp
+ST0146 | 芒果椰乳涂鸦饮料海报 | https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.webp
+ST0093 | 高级电商图 | https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.webp
+ST0094 | Quiet Luxury Furniture Nameplate Poster Style | https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.webp
+ST0150 | 奢侈品牌刺绣微距 | https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.webp
+ST0095 | Luxury Birthday Poster Style | https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp
+ST0096 | Luxury Beauty Campaign Side Profile Poster | https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp
+ST0147 | 青柠薄荷涂鸦手绘饮料海报 | https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp
+ST0145 | 韩国 ins 风晨间问候海报 | https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.webp
+ST0097 | 韩国插画风（Korean Illustration Style） | https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.webp
+ST0098 | 金政基赛博朋克素描 | https://malongan.github.io/style-source/images/styles_previews/kimjunggi_scifi_sketch_1abbb496.webp
+ST0099 | K-ギャル 街头抓拍风 | https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp
+ST0100 | Y2K酸性·ALL STARS 夜店潮流海报 | https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.webp
+ST0101 | Japanese Poetic Dreamy Semi-Realistic Illustration | https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.webp
+ST0102 | Jade Glyph Grocer Collage Poster Style | https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp
+ST0103 | inkline_couture | https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp
+ST0104 | 膨胀花朵 3D | https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp
+ST0105 | 天使阶层海报（Hierarchy Angels Poster） | https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp
+ST0106 | 异类阵列视觉 | https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp
+ST0107 | 半色调拼贴隐喻公益海报 | https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp
+ST0108 | Grotesque Doodle Style - 怪诞手绘风插画 | https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.webp
+ST0109 | GPT Image 2 Playful Doodle Illustration | https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp
+ST0110 | 玻璃花卉春日日记插画 | https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.webp
+ST0111 | 极客代码海报 | https://malongan.github.io/style-source/images/styles_previews/geek_code_poster_f7da4b88.webp
+ST0112 | 东方花茶香氛海报 | https://malongan.github.io/style-source/images/styles_previews/gardenia_white_tea_poster_727bf18d.webp
+ST0113 | 未来生态春季插画KV | https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.webp
+ST0114 | Futuristic Editorial Collage Portrait | https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.webp
+ST0115 | Fashion Editorial Visual System | https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp
+ST0116 | 时尚 Campaign 排版海报 | https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.webp
+ST0117 | 时尚摄影弓箭手 | https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.webp
 ST0118 | Exaggerated 3D Toy Illustration | https://malongan.github.io/style-source/images/styles_previews/exaggerated_3d_toy_illustration_435e4dea.webp
-ST0119 | Editorial Luxury | https://malongan.github.io/style-source/images/styles_previews/editorial_luxury_b3460c33.webp
-ST0120 | Editorial Fashion | https://malongan.github.io/style-source/images/styles_previews/editorial_fashion_584fece2.webp
-ST0121 | Editorial | https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp
-ST0122 | East Asian Vintage Magazine | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.webp
-ST0123 | East Asian Vintage Illustration | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp
-ST0124 | Doodle Style Poster 1 | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp
-ST0125 | Doodle Style Poster | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp
-ST0126 | Doodle Style | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp
-ST0127 | Digital Soul Poster | https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.webp
-ST0128 | Diffuse Poster | https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.webp
-ST0129 | Demon Wukong Line Art | https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.webp
-ST0130 | Dark Chinese Fantasy Illustration | https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp
-ST0131 | Cyberpunk Halftone Poster | https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp
-ST0154 | Cozy Storybook Cafe | https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_8fbd1bee.webp
-ST0132 | Collage Logo | https://malongan.github.io/style-source/images/styles_previews/collage_logo_208518c5.webp
-ST0133 | Collage Doodle Style | https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.webp
-ST0134 | Climb Mountain Typography | https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.webp
-ST0155 | Clay Typography Poster | https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.webp
-ST0135 | Chibi Q Version Character | https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp
-ST0136 | Chang E Goddess | https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.webp
-ST0137 | Cartoon 3D Tv Icon | https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.webp
-ST0138 | Candy 3D Wonderland | https://malongan.github.io/style-source/images/styles_previews/candy_3d_wonderland_5e19f125.webp
-ST0139 | Bubble Card | https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.webp
-ST0140 | Brand Miniature Architecture | https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp
-ST0148 | Bold Monoline Mascot | https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.webp
-ST0141 | Bloomberg Magazine | https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp
-ST0153 | Black White Typographic Portrait | https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp
-ST0142 | Beverage Style | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
-ST0143 | Avantgarde Bw Poster | https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp
+ST0119 | Luxury Perspective Checkerboard Editorial | https://malongan.github.io/style-source/images/styles_previews/editorial_luxury_b3460c33.webp
+ST0120 | Sunlit Architectural Fashion Editorial | https://malongan.github.io/style-source/images/styles_previews/editorial_fashion_584fece2.webp
+ST0121 | Sunlit Supermodel Nameplate Editorial | https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp
+ST0122 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.webp
+ST0123 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp
+ST0124 | Mountain Trail Monster Doodle Poster Style | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp
+ST0125 | Backseat Transit Doodle Letter Poster Style | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp
+ST0126 | Cozy Bedroom Doodle Companion Snapshot Style | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp
+ST0127 | DIGITAL SOUL 数字灵魂海报 | https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.webp
+ST0128 | 弥散风视觉海报 | https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.webp
+ST0129 | 妖魔孙悟空线绘 | https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.webp
+ST0130 | 暗黑国风奇幻插画 | https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp
+ST0131 | 赛博朋克半调海报 | https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp
+ST0154 | 温馨故事书咖啡馆 | https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_8fbd1bee.webp
+ST0132 | 拼贴logo（马赛克风格） | https://malongan.github.io/style-source/images/styles_previews/collage_logo_208518c5.webp
+ST0133 | Surreal Fish Doodle Landmark Photo Collage Style | https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.webp
+ST0134 | 就要去爬山（Climb Mountain Typography） | https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.webp
+ST0155 | 黏土文字互动海报 | https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.webp
+ST0135 | Chibi Q 版角色 | https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp
+ST0136 | chang_e_goddess | https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.webp
+ST0137 | 3D卡通电视图标 | https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.webp
+ST0138 | 糖果梦幻 3D 派对海报 | https://malongan.github.io/style-source/images/styles_previews/candy_3d_wonderland_5e19f125.webp
+ST0139 | 泡泡卡片风 | https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.webp
+ST0140 | Brand Miniature Architecture Poster Style | https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp
+ST0148 | Bold Monoline 品牌吉祥物插画 | https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.webp
+ST0141 | bloomberg_magazine | https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp
+ST0153 | 高对比黑白字体肖像 | https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp
+ST0142 | Multi-Color Beverage Splash Ad System Style | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
+ST0143 | avantgarde_bw_poster - 黑白灰先锋海报 | https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp

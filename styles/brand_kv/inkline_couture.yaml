@@ -1,0 +1,51 @@
+name: inkline_couture
+category: brand_kv
+ratio: 9:16（竖版）
+source_author: '@MrLarus'
+source_url: ''
+summary: 东方高定时装与水墨美学的诗意融合，以毛笔书法线条和低饱和配色呈现优雅空灵的现代中式时装插画。
+tags:
+- 东方
+- 水墨
+- 高定时装
+- 新中式
+- 时装插画
+triggers:
+- 墨线霓裳
+- 水墨时装
+- 东方高定
+- Inkline Couture
+features:
+- title: 现代东方高定时装 + 中国水墨美学的融合
+  desc: ''
+- title: 淡彩水彩质感，细腻的书法式线条
+  desc: ''
+- title: 大面积留白，"白而不空"的呼吸感
+  desc: ''
+- title: 低饱和、东方感、高级感的配色
+  desc: ''
+- title: 精工细节与水墨气韵同时具备
+  desc: ''
+variables:
+- kv_var: 主视觉主体
+  style_var: '{{主体}}'
+  desc: 东方女性形象描述
+- kv_var: 服装风格
+  style_var: '{{服装风格}}'
+  desc: 新中式高定礼服等
+- kv_var: 氛围意象
+  style_var: '{{水墨意象}}'
+  desc: 仙鹤、云气等水墨元素
+- kv_var: 色彩主调
+  style_var: '{{主色调}}'
+  desc: 青瓷绿、月白等低饱和色
+- kv_var: 点睛色彩
+  style_var: '{{点睛色}}'
+  desc: 小面积使用的朱砂红/浅金
+- kv_var: 人物姿态
+  style_var: '{{姿态}}'
+  desc: 站姿/回眸/转身等
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/inkline_couture.png
+id: inkline_couture
+code: ''

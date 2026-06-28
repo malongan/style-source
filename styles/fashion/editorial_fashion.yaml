@@ -1,0 +1,55 @@
+name: Sunlit Architectural Fashion Editorial
+category: fashion
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A polished outdoor high-fashion editorial photography style built from low-angle architectural framing, hard Mediterranean daylight, warm stone neutrals, elongated model silhouettes, restrained
+  luxury styling, and fine graphic lines from wires, railings, shadows, or facade geometry. It recreates the premium fashion-campaign feeling without copying the original models, wardrobe, plaza, prop placement,
+  or poses.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Sunlit Architectural Fashion Editorial
+features:
+- title: Outdoor luxury fashion editorial photography with believable high-end campaign realism.
+  desc: ''
+- title: Low camera position or slight wide-angle perspective that elongates legs, coats, and architectural scale.
+  desc: ''
+- title: Warm stone, concrete, plaster, or masonry surfaces used as large tactile foreground or side planes.
+  desc: ''
+- title: Hard sun, high sky exposure, crisp cast shadows, and a controlled warm lens flare or glint.
+  desc: ''
+- title: Elegant neutral palette led by ivory, sand, taupe, stone gray, black, camel, tobacco, and muted metallics.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main fashion model, pair of models, or editorial subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main pose, stance, gesture, or movement
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: luxury accessory, travel object, sculptural object, or restrained prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: architectural outdoor setting, plaza, gallery, resort, terminal, or civic facade
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary architecture, sky, wires, railings, shadows, texture, and depth cues
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: internal editorial title or mood label, not visible as overlay text
+  desc: ''
+prompt: 'Create a polished outdoor high-fashion editorial photograph in the Sunlit Architectural Fashion Editorial style. Subject: {SUBJECT}. Pose or movement: {SUBJECT_ACTION}. Prop or accessory: {PRODUCT_OR_PROP}.
+  Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Internal editorial mood labels only, not visible text: {MAIN_TEXT}; {SECONDARY_TEXT}. Subtle photographic
+  accent: {ACCENT_SYMBOL}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a low camera position, slight wide-angle fashion perspective,
+  elongated silhouettes, hard Mediterranean daylight, bright pale sky, warm stone or plaster texture, crisp cast shadows, natural lens flare or glint, refined neutral color grading with black or tobacco
+  anchors, visible fabric and leather detail, calm unsmiling luxury-campaign posture, and sparse premium props with no visible logos. Do not add overlay typography, watermarks, readable brand names, QR
+  codes, social media UI, price tags, crowds, fantasy costumes, cartoon rendering, collage, vector graphics, or studio poster design. Aspect ratio: {ASPECT_RATIO}.'
+preview: https://malongan.github.io/images/vigo_previews/sunlit-architectural-fashion-editorial.jpg
+id: editorial_fashion
+code: ''

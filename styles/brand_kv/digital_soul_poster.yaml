@@ -1,0 +1,52 @@
+name: DIGITAL SOUL 数字灵魂海报
+category: brand_kv
+ratio: '9:16'
+source_author: '@用户4818385606662'
+source_url: ''
+summary: 荧光绿与黑色极端对比的先锋数字艺术海报，液态金属质感 3D 字母 + 破碎像素块 + 数据流。
+tags:
+- 数字艺术
+- 荧光绿
+- 液态金属
+- 像素
+- 前卫
+- 先锋
+triggers:
+- 数字灵魂海报
+- 液态金属字母
+- 荧光绿海报
+- 先锋艺术
+- 数码风
+features:
+- title: 荧光绿与黑色极端对比配色
+  desc: ''
+- title: 扭曲变形的 3D 字母，表面液态金属质感
+  desc: ''
+- title: 周围散布破碎像素块和数据流
+  desc: ''
+- title: 深邃黑色背景 + 霓虹绿色几何线条
+  desc: ''
+- title: 底部小字展览信息文字
+  desc: ''
+- title: 先锋前卫艺术风格
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{主题}}'
+  desc: 液态金属质感 3D 字母
+- kv_var: Slogan
+  style_var: '{{底部文字1}}'
+  desc: 底部小字
+- kv_var: 画面-主体
+  style_var: '{{主体描述}}'
+  desc: 3D 字母
+- kv_var: 色彩-主色
+  style_var: '{{主色}}'
+  desc: 荧光绿
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity..."
+  desc: 用参考图保持一致性
+prompt: '"{{主题}}"主题海报，采用{{主色}}与{{辅色}}的极端对比。画面中央是{{主体描述}}，表面呈现{{质感}}，周围散布着{{装饰元素}}。背景是{{背景描述}}，点缀着{{点缀元素}}。底部有小字"{{底部文字1}}"和"{{底部文字2}}"，先锋前卫艺术风格。'
+preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/digital_soul_poster.jpg
+id: digital_soul_poster
+code: ''

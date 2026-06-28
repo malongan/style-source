@@ -1,0 +1,95 @@
+name: Sunburst Fisheye Bubble Type Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories,
+  and heavy analog grain.
+tags:
+- VigoCookbook
+- ultra-low-angle
+- fisheye
+- summer
+- lifestyle
+- close
+- photographic
+- subject
+- saturated
+- cobalt
+- sky
+- huge
+- arched
+- lemon-yellow
+- bubble
+- typography
+- warm
+- orange
+- type
+- shading
+- Y2K
+- accessories
+- heavy
+- grain
+triggers:
+- Sunburst Fisheye Bubble Type Poster Style
+features:
+- title: 'Preserve the core visual identity: An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography,
+    warm orange type shading, Y2K accessories, and heavy analog grain.'
+  desc: ''
+- title: Keep the photographic treatment bright, compressed, close, and lens-distorted according to the style reference.
+  desc: ''
+- title: Place the camera below the subject looking upward, very close to the body and face.
+  desc: ''
+- title: Preserve realistic skin, fabric, hair, accessories, and daylight reflections.
+  desc: ''
+- title: Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT_IDENTITY`'
+  style_var: specific adult character identity, including distinct hair, face, styling, and body language when generating a set
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main person, traveler, skater, swimmer, musician, road-trip friend, product ambassador, or fashion model
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: leaning into the fisheye lens, looking above camera, adjusting sunglasses, holding a prop, riding forward, stepping into sun, or turning in wind
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: sunglasses, camera, drink can, skateboard, beach towel, flower pendant, cassette player, road map, surf wax, or featured product
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: desert roadside, beach path, motel pool, coastal hill, festival field, gas station forecourt, flower meadow, or sunny parking lot
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: cobalt sky, sun flare, distant van, dry hillside, palm fragments, checker pattern, pool tiles, flowers, road signs, or travel clutter
+  desc: ''
+prompt: 'Create an image in sunburst-fisheye-bubble-type-poster-style.
+
+
+  Aspect ratio: {ASPECT_RATIO}.
+
+
+  Scene: {SUBJECT_IDENTITY}, {SUBJECT} {SUBJECT_ACTION}, using or wearing {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. For a multi-case set,
+  give every case a visibly different face, hair, body language, and styling details.
+
+
+  Photography: {LENS_STYLE}. Place the camera below the subject looking upward, very close to the body and face. Preserve realistic skin, fabric, hair, accessories, and daylight reflections. Use harsh sunny
+  lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling.
+
+
+  Layout: make the subject large and cropped, with the face near the upper-middle for vertical layouts or dominant center-left/center-right for horizontal layouts. Build the poster around a huge arched
+  bubble headline reading "{MAIN_TEXT}" in lemon yellow across the top and side edges. The letters should feel inflated, hand-painted, warped by perspective, and partly cropped by the frame. Use golden
+  orange edge shading, cream shine slashes, and {ACCENT_SYMBOL}.
+
+
+  Texture: add {TEXTURE_LEVEL}, slight lens flare, color fringing, and analog poster compression. Add "{SECONDARY_TEXT}" only as tiny editorial microcopy if it stays clean and unobtrusive.
+
+
+  Avoid: watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample
+  set, chrome lettering, glossy 3D balloon type, corporate minimal layout, muted pastel palette, night cyberpunk mood, and crowded small text.'
+preview: https://malongan.github.io/images/vigo_previews/sunburst-fisheye-bubble-type-poster.jpg
+id: vigo_fisheye_bubble_poster
+code: ''

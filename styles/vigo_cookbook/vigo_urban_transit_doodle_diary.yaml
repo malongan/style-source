@@ -1,0 +1,74 @@
+name: Urban Transit Doodle Diary Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a
+  large foreground gesture.
+tags:
+- VigoCookbook
+- raw
+- urban
+- snapshot
+- treated
+- like
+- personal
+- diary
+- combining
+- real
+- public-space
+- photography
+- bold
+- hand-drawn
+- comic
+- overlays
+- handwritten
+- travel
+- notes
+- saturated
+- cartoon
+- faces
+- large
+- foreground
+- gesture
+triggers:
+- Urban Transit Doodle Diary Style
+features:
+- title: 'Preserve the core visual identity: A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes,
+    saturated cartoon faces, and a large foreground gesture.'
+  desc: ''
+- title: Keep the base image feeling like an imperfect phone snapshot from a real public city space, not a polished poster shoot.
+  desc: ''
+- title: Layer hand-drawn notes, arrows, sticker-like marks, and cartoon facial edits over the photo while keeping the underlying street scene readable.
+  desc: ''
+- title: Use saturated accent colors only for doodles, gestures, labels, and emphasis marks; let the photographic background stay raw and compressed.
+  desc: ''
+- title: Make MAIN_TEXT and SECONDARY_TEXT feel handwritten, diaristic, and locally placed rather than typeset as clean branding.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main person, group, object, or scene focus
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: what the subject is doing
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, ticket, bag, food, device, or symbolic hand prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: dense public urban location such as metro, bus, market, hallway, escalator, diner, or station platform
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: realistic crowd, signage, rails, doors, lights, posters, floor markings, reflections, and compressed phone-photo details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large handwritten diary title or location note
+  desc: ''
+prompt: Create a {ASPECT_RATIO} image in urban-transit-doodle-diary-style featuring {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, set in {LOCATION}. Include {BACKGROUND_ELEMENTS}, main text "{MAIN_TEXT}",
+  secondary text "{SECONDARY_TEXT}", {ACCENT_SYMBOL}, and {WARDROBE_STYLE}.
+preview: https://malongan.github.io/images/vigo_previews/urban-transit-doodle-diary.jpg
+id: vigo_urban_transit_doodle_diary
+code: ''

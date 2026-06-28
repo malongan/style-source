@@ -1,0 +1,60 @@
+name: Pixar 3D 卡通肖像
+category: ip_character
+ratio: 3:4（默认）
+source_author: '@Noor_ul_ain43'
+source_url: ''
+summary: 将真人照片转化为Pixar风格的3D卡通角色，保留面部特征的同时营造温暖舒适的工作室氛围。
+tags:
+- Pixar
+- 3D
+- 卡通
+- 肖像
+- 角色设计
+- 暖系
+triggers:
+- Pixar风格
+- 3D卡通
+- 皮克斯
+- 卡通肖像
+- 卡通角色
+features:
+- title: '**Pixar风格3D渲染**：可爱比例、超精细纹理、圆润流畅的卡通造型'
+  desc: ''
+- title: '**保留面部特征**：短波浪黑波波头、雀斑、棕色大眼睛——确保可识别性'
+  desc: ''
+- title: '**温暖工作室场景**：仙女灯、照片板、美学装饰，营造温馨创意氛围'
+  desc: ''
+- title: '**电影级光影**：柔光、浅景深、暖粉色调，画面温暖治愈'
+  desc: ''
+- title: '**完整全身造型**：从服装到配饰（复古相机）一应俱全'
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: 不适用（人像生成类）
+  desc: 此风格为人物肖像转换，无文字标题
+- kv_var: Slogan
+  style_var: 不适用
+  desc: 无
+- kv_var: 画面-场景
+  style_var: '{{场景描述}}'
+  desc: 替换场景描述部分，默认"创意工作室"
+- kv_var: 画面-动作
+  style_var: 不适用
+  desc: 全身站立肖像，以人物为主
+- kv_var: 色彩-主色
+  style_var: '{{暖色调}}'
+  desc: 暖粉色调为主，可微调
+- kv_var: 色彩-底场
+  style_var: 不适用
+  desc: 由场景决定
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity and consistency throughout"
+  desc: 上传参考图保持一致性，不在变量里描述外形
+prompt: Transform the uploaded portrait into a charming Pixar-inspired 3D cartoon character. Keep the girl's facial features recognizable, including her short wavy black bob haircut, soft freckles, expressive
+  brown eyes, natural lips, and elegant appearance. Place her in a warm, cozy creative studio with soft fairy lights, blurred photo boards, and aesthetic decor in the background. Dress her in an oversized
+  cream sweater layered over a black turtleneck, high-waisted sage green trousers, and a delicate gold necklace. Add a vintage camera hanging around her neck. Use cinematic soft lighting, shallow depth
+  of field, warm pastel tones, ultra-detailed 3D rendering, adorable proportions, smooth skin textures, and a cute animated movie aesthetic. High quality, whimsical, cozy, heartwarming, Pixar-style character
+  design, full body portrait.
+preview: https://malongan.github.io/images/styles_previews/pixar_cartoon_portrait.jpg
+id: pixar_cartoon_portrait
+code: ''

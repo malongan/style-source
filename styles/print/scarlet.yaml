@@ -1,0 +1,53 @@
+name: Scarlet红块手绘描边风格
+category: print
+ratio: 9:16 或 16:9
+source_author: '@VigoCreativeAI'
+source_url: ''
+summary: 白色纸张底 + 超大红色衬线字母 + 马克笔描边 = 故意的不完美。
+tags:
+- 红块
+- 手绘
+- 文学
+- 封面
+- 艺术
+- 描边
+triggers:
+- Scarlet
+- 红块
+- 手绘描边
+- 文学封面
+- 艺术封面
+features:
+- title: 白色纸张底场
+  desc: ''
+- title: 超大红色衬线字母
+  desc: ''
+- title: 写实抠图主体
+  desc: ''
+- title: 粗糙黑色马克笔轮廓描边
+  desc: ''
+- title: 强对比非对称负空间
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: MAIN_TEXT
+  desc: 红色衬线字母
+- kv_var: Slogan
+  style_var: SECONDARY_TEXT
+  desc: 作者、期号等
+- kv_var: 画面-主体
+  style_var: SUBJECT
+  desc: 写实抠图对象
+- kv_var: 画面-动作
+  style_var: SUBJECT_ACTION
+  desc: 与红色字形的关系
+- kv_var: 画面-场景
+  style_var: LOCATION
+  desc: 简洁编辑封面场
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity..."
+  desc: 不在变量里，用参考图
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/scarlet.png
+id: scarlet
+code: ''

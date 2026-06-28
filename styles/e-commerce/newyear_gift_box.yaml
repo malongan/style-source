@@ -1,0 +1,75 @@
+name: 新年礼盒
+category: e-commerce
+ratio: '3:4'
+source_author: 暴暴蓝
+source_url: https://jimeng.jianying.com/ai-tool/work-detail/7592076890643418377
+summary: 喜庆高端的年货坚果礼盒商业摄影，红格纹烫金质感，暖调布光，电商场景感。
+tags:
+- 年货
+- 礼盒
+- 商业摄影
+- 电商场景
+- 新年
+- 喜庆
+- 烫金
+- 坚果礼盒
+triggers:
+- 新年礼盒
+- 年货礼盒
+- 坚果礼盒
+- 电商摄影
+- 商业摄影
+- 新年包装
+features:
+- title: 高端年货商拍
+  desc: 红格纹肌理 + 烫金印刷质感的坚果礼盒，配红色提手
+- title: 微俯倾斜构图
+  desc: 礼盒放置于弧形拱起的红色装饰元素上，呈倾斜姿态展示
+- title: 暖调定向布光
+  desc: 主光侧打突出盒面烫金细节与格纹纹理，辅光柔和补亮
+- title: 红橙喜庆配色
+  desc: 正红、橙红、金色的喜庆暖色系
+variables:
+- kv_var: 产品
+  style_var: 产品
+  desc: 如年货坚果礼盒、新年糕点礼盒等
+- kv_var: 材质描述
+  style_var: 材质描述
+  desc: 红格纹肌理、烫金印刷、绒面等
+- kv_var: 礼盒描述
+  style_var: 礼盒描述
+  desc: 坚果礼盒、糕点礼盒（配红色提手）
+- kv_var: 配件
+  style_var: 配件描述
+  desc: 提手、丝带等
+- kv_var: 装饰
+  style_var: 装饰描述
+  desc: 文字与金色装饰图案
+- kv_var: 底座
+  style_var: 底座描述
+  desc: 弧形拱起的红色装饰元素
+- kv_var: 背景
+  style_var: 背景描述
+  desc: 红橙渐变柔焦墙面、纯色背景
+- kv_var: 材质细节
+  style_var: 材质细节
+  desc: 纸质肌理+烫金璀璨光泽等
+- kv_var: 重点
+  style_var: 重点
+  desc: 盒面烫金细节、格纹纹理
+- kv_var: 主色调
+  style_var: 主色调
+  desc: 正红、橙红、金色
+- kv_var: 氛围
+  style_var: 氛围
+  desc: 奢华热烈、高端大气
+- kv_var: 顶部文字
+  style_var: 顶部文字
+  desc: 装饰性英文字体排版
+- kv_var: 主标题
+  style_var: 主标题
+  desc: 品牌大标题
+prompt: 喜庆高端的{产品}商业摄影，电商场景拍摄，中景微俯视角，中心聚焦式倾斜构图；主体为{材质描述}的{礼盒描述}（配{配件描述}，盒面饰有{装饰描述}），礼盒放置于{底座描述}上，呈倾斜姿态展示；背景为{背景描述}；材质表现：{材质细节}；采用暖调定向商业布光，主光侧打突出{重点}，辅光柔和补亮，阴影层次分明；整体主色调为{主色调}，8K高清细节，营造{氛围}展示氛围。顶部小字{顶部文字}，中间大标题"{主标题}"。
+preview: https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.jpg
+id: newyear_gift_box
+code: ''

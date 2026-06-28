@@ -1,0 +1,103 @@
+name: Analog Sticker Diary Portrait Poster Style
+category: social_media
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and
+  heavy scanned print texture.
+tags:
+- VigoCookbook
+- nostalgic
+- diary-collage
+- portrait
+- large
+- side-profile
+- illustrated
+- subject
+- cream
+- graph-paper
+- background
+- sticker-like
+- personal
+- objects
+- distressed
+- orange
+- hand
+- lettering
+- heavy
+- scanned
+triggers:
+- Analog Sticker Diary Portrait Poster Style
+features:
+- title: 'Preserve the core visual identity: A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects,
+    distressed orange hand lettering, and heavy scanned print texture.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+  desc: ''
+- title: Use a large side-profile or quiet three-quarter illustrated portrait as the anchor.
+  desc: ''
+- title: Put the subject on cream graph-paper notebook background with faded blue grid lines.
+  desc: ''
+- title: Surround the portrait with sticker-like personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main side-profile person, character, student, musician, traveler, or introspective figure
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: quiet emotional action, listening, thinking, walking, studying, waiting, or holding a small prop
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: headphones, phone, notebook, snack, ticket, pencil, lighter, drink, cassette, charm, or personal object
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: implied diary setting such as cafe, bedroom desk, subway, rooftop, classroom, street corner, or night bus
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: graph paper, paper scraps, stickers, tickets, snack labels, numbers, doodles, tape, stationery, and tiny icons
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large introspective hand-lettered headline
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in analog-sticker-diary-portrait-poster-style.
+
+
+  Subject: {SUBJECT}.
+
+  Subject action: {SUBJECT_ACTION}.
+
+  Primary prop: {PRODUCT_OR_PROP}.
+
+  Implied location: {LOCATION}.
+
+  Background elements: {BACKGROUND_ELEMENTS}.
+
+  Main headline text: "{MAIN_TEXT}".
+
+  Secondary micro text: "{SECONDARY_TEXT}".
+
+  Accent symbol: {ACCENT_SYMBOL}.
+
+  Wardrobe styling: {WARDROBE_STYLE}.
+
+
+  Use a large side-profile or quiet three-quarter illustrated portrait as the anchor. Put the subject on cream graph-paper notebook background with faded blue grid lines. Surround the portrait with sticker-like
+  personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.
+
+
+  Make the main headline huge, rough, hand-drawn, uppercase, orange-red, with blue or dark offset shadow, wrapping across hair, clothing, or open paper space. Keep the portrait calm and introspective while
+  the sticker field feels busy and personal.
+
+
+  The image should feel like a scanned school notebook cover, teen sticker diary, analog music zine, and introspective poster. Add paper grain, halftone speckles, faded ink, smudges, fold marks, slight
+  misregistration, and imperfect cutout edges.
+
+
+  Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, sterile spacing, plain background, perfect typography, and photorealistic
+  studio portrait.'
+preview: https://malongan.github.io/images/vigo_previews/analog-sticker-diary-portrait-poster.jpg
+id: sticker_style_poster
+code: ''

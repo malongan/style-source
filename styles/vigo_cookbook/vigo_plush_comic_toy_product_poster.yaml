@@ -1,0 +1,98 @@
+name: Plush Comic Toy Product Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations,
+  sticker labels, lightning graphics, and dense campaign microcopy.
+tags:
+- VigoCookbook
+- loud
+- toy-product
+- around
+- one
+- fuzzy
+- plush
+- product
+- hero
+- retro
+- cream
+- paper
+- cyan
+- circular
+- backdrop
+- oversized
+- slanted
+- comic
+- typography
+- thick
+- shadows
+- doodle
+- annotations
+- sticker
+- labels
+- lightning
+- graphics
+- campaign
+- microcopy
+triggers:
+- Plush Comic Toy Product Poster Style
+features:
+- title: 'Preserve the core visual identity: A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography,
+    thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.'
+  desc: ''
+- title: 'Layout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow.'
+  desc: ''
+- title: Place PRODUCT_OR_PROP and ACCENT_SYMBOL around the central subject as sticker-like supporting elements.
+  desc: ''
+- title: Build the biggest graphic area from oversized tilted block typography using MAIN_TEXT as the campaign headline.
+  desc: ''
+- title: Use TYPOGRAPHY_LANGUAGE to control the headline treatment and supporting type behavior.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main plush product, toy vehicle, mascot object, gadget, food mascot, or collectible prop
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: parked, bouncing, leaning forward, racing, floating, charging, wobbling, or posing like a hero product
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: plush car, scooter, radio, vending machine, snack pack, mini bus, camera, delivery pod, noodle cart, or featured toy object
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: cream studio poster backdrop, toy catalog set, tabletop product stage, campaign poster scene, or flat editorial background
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: large cyan circle, giant tilted block headline, doodle icons, sticker labels, lightning patches, warning-card graphic, small product metadata
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: short loud campaign headline, preferably 1 to 4 words
+  desc: ''
+prompt: 'Create an image in the "Plush Comic Toy Product Poster" style.
+
+
+  Aspect ratio: {ASPECT_RATIO}.
+
+
+  Scene: {SUBJECT} {SUBJECT_ACTION}, presented as {PRODUCT_OR_PROP}, placed in {LOCATION}. Use {PRODUCT_TEXTURE}. Style the object with {WARDROBE_STYLE}.
+
+
+  Layout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow. Place {BACKGROUND_ELEMENTS} around it. Add a large
+  cyan circle or oval behind the product. Build the biggest graphic area from oversized tilted block typography using "{MAIN_TEXT}" as the campaign headline.
+
+
+  Typography: use {TYPOGRAPHY_LANGUAGE}. Make the headline huge, angular, stacked, and slanted, with thick black outline and offset shadow. Add "{SECONDARY_TEXT}" only as tiny campaign metadata or small
+  label copy. Keep microcopy compact and decorative, not dominant.
+
+
+  Graphic language: retro cream poster background, turquoise and cyan anchor color, lemon yellow headline block, signal red headline block, heavy black shadows, sticker-like labels, doodle icons, arrows,
+  lightning-bolt patches, warning-card shapes, and {ACCENT_SYMBOL}. Combine soft plush 3D texture with flat printed poster graphics.
+
+
+  Do not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference text, copied brand names, or copied license-plate details.'
+preview: https://malongan.github.io/images/vigo_previews/plush-comic-toy-product-poster.jpg
+id: vigo_plush_comic_toy_product_poster
+code: ''

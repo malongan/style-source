@@ -2,45 +2,25 @@
 
 > 快速预览所有可用风格，生成时按需加载详细文件
 
-> 💡 **场景推荐**：需要快速选风格？→ 查看 [_scene_recommend.md](_scene_recommend.md) 按场景推荐的 top3 风格
-
 ---
 
 ## 📂 分类目录
 
-| 分类 | 目录 | 风格数 | 说明 |
-|------|------|--------|------|
-| 📱 社交媒体 | [social_media/](social_media/) | 13 | 小红书、朋友圈、头像 |
-| 🎨 品牌视觉 | [brand_kv/](brand_kv/) | 15 | 品牌KV、公益态度 |
-| 🛒 电商 | [e-commerce/](e-commerce/) | 8 | 产品主图、海报、美食 |
-| 🔬 科研专业 | [science/](science/) | 5 | 信息图、期刊封面 |
-| 📚 印刷品 | [print/](print/) | 8 | 书籍封面、电影海报 |
-| 🎭 IP/角色 | [ip_character/](ip_character/) | 7 | 吉祥物、头像、游戏 |
-| ✈️ 旅行城市 | [travel/](travel/) | 3 | 旅行海报、城市 |
-| 👔 时尚美容 | [fashion/](fashion/) | 5 | 时尚大片、美妆 |
-| 🎪 创意特殊 | [creative/](creative/) | 18 | 融合、复古、手绘 |
-| 📖 VigoCookbook | [vigo_cookbook/](vigo_cookbook/) | 48 | 来自 Vigo Cookbook |
+| 分类 | 风格数 | 说明 |
+|------|--------|------|
+| 🎨 品牌视觉 | 18 | 品牌KV、公益态度 |
+| 🎪 创意特殊 | 35 | 融合、复古、手绘 |
+| 🛒 电商 | 9 | 产品主图、海报、美食 |
+| 👔 时尚美容 | 5 | 时尚大片、美妆 |
+| 🎭 IP/角色 | 7 | 吉祥物、头像、游戏 |
+| 📚 印刷品 | 9 | 书籍封面、电影海报 |
+| 🔬 科研专业 | 5 | 信息图、期刊封面 |
+| 📱 社交媒体 | 13 | 小红书、朋友圈、头像 |
+| ✈️ 旅行城市 | 4 | 旅行海报、城市 |
+| 📁 typography | 1 |  |
+| 📖 VigoCookbook | 50 | 来自 Vigo Cookbook |
 
-**总计：130 个风格文件**
-
----
-
-## 📱 社交媒体
-
-> [查看 social_media/_index.md](social_media/_index.md)
-
-| 风格 | 标签 | 适用场景 | 比例 |
-|------|------|----------|------|
-| sky_blue_doodle | #涂鸦 #小红书 | 小红书封面、内容配图 | 9:16 或 16:9 |
-| bubble_card | #潮流 #卡片 | 公众号头图、活动KV | 16:9 / 4:5 / 3:4 / 9:16 |
-| japanese_poetic_dreamy | #日系 #诗意 | 诗歌封面、文艺海报 | 3:4 或 9:16 |
-| gpt_doodle_illustration | #涂鸦 #插画 | 商业插画、产品配图 | 16:9 或 9:16 |
-| doodle_style | #涂鸦 #家庭 | 生活仪式感 | 16:9 / 4:5 / 3:4 / 9:16 |
-| chibi_q_version_character | #chibi #q版 | Q版角色 | 1:1 / 16:9 |
-| grotesque_doodle_style | #怪诞 #手绘 | 个性头像 | 1:1 / 3:4 / 4:5 |
-| k_gyaru_street_snap | #韩系 #街头 | 个人头像、Y2K潮流 | 3:4（默认） |
-| candy_3d_wonderland | #C4D #糖果 #梦幻 | 夏日派对KV、品牌活动 | 9:16 |
-| world_cup_poster | #世界杯 #体育 | 体育赛事海报、观赛指南 | 576:1024 |
+**总计：156 个风格文件**
 
 ---
 
@@ -50,127 +30,24 @@
 
 | 风格 | 标签 | 适用场景 | 比例 |
 |------|------|----------|------|
-| fashion_editorial_visual | #时尚 #杂志 | 品牌KV、杂志封面 | 9:16 / 4:5 / 3:4 |
-| luxury_beauty_side_profile_poster | #美妆 #高端 | 美妆品牌KV | 9:16（竖版） |
-| halftone_assemblage_psa_poster | #公益 #半色调 | 公益海报、环保主张 | 9:16 / 16:9 |
-| perfume_kv | #香水 #奢侈 | 香水海报、香氛主视觉 | 9:16 |
-| sunlit_kinetic_block_type_poster | #运动 #杂志风 | 运动品牌KV | 9:16 / 16:9 |
-| avantgarde_bw_poster | #黑白灰 #先锋 | 先锋艺术海报 | 16:9 / 9:16 / 1:1 / 4:5 / 3:2 |
-| streetwear_lab | #街潮 #3D | 潮流品牌视觉 | 16:9 |
-| diffuse_poster | #复古 #弥散 | 艺术展海报、品牌视觉 | 9:16 或 3:4 |
-| inkline_couture | #东方 #水墨 | 品牌KV、新中式海报 | 9:16（竖版） |
-| futuristic_collage_portrait | #混媒 #拼贴 | 高端人像、杂志封面 | 4:5 或 9:16 |
-| street_3d_maximalist | #街潮 #3D #极繁 | 潮流品牌KV、青年文化 | 9:16 |
-| urban_collage_poster | #拼贴 #橙色 #都市 | 潮流品牌KV、活动海报 | 3:4 |
-| cyberpunk_halftone_poster | #赛博朋克 #半调 #极繁 | 潮流品牌KV、音乐节 | 3:4 |
-| digital_soul_poster | #荧光绿 #液态金属 | 科技品牌KV、数字艺术展 | 9:16 |
-
----
-
-## 🛒 电商
-
-> [查看 e-commerce/_index.md](e-commerce/_index.md)
-
-| 风格 | 标签 | 适用场景 | 比例 |
-|------|------|----------|------|
-| luxury_product | #电商 #产品 | 电商商品主图 | 16:9 |
-| brand_miniature_architecture | #品牌 #微缩 | 产品展示、城市空间 | 2:3 竖版 |
-| retro_drink_ad | #复古 #饮料 | 饮品海报、食品广告 | 3:4 竖版 |
-| jade_glyph_grocer_collage | #生鲜 #东方 | 生鲜电商主图、超市海报 | 9:16 或 16:9 |
-| urban_cassette_poster | #城市 #磁带 | 品牌海报、社交媒体 | 9:16（竖版） |
-| luxury_birthday_poster | #生日 #轻奢 | 儿童生日海报、品牌生日活动 | 3:4 竖版 |
-| realistic_photo | #摄影 #写实 | 产品图、人物写真 | 按需求 |
-| subject_and_product | #主体 #产品 | 产品展示 | 768:1024 |
-| style_product | #极简 #产品 | 消费电子发布 | 16:9 / 4:5 / 3:4 / 9:16 |
-| beverage_style | #VigoCookbook | 饮料广告系统 | 16:9 / 4:5 / 3:4 / 9:16 |
-| premium_ad_poster | #广告 #高端 | 高端产品海报、电商主图 | 576:1024 |
-| realistic_product_can | #产品 #超写实 | 饮料产品摄影 | 683:1024 |
-| cold_fisheye_ad | #鱼眼 #冷调 | 冷调产品冲击广告 | 576:1024 |
-| travel_ad_luxury | #旅行 #高端 | 旅行配件高端海报 | 576:1024 |
-
----
-
-## 🔬 科研专业
-
-> [查看 science/_index.md](science/_index.md)
-
-| 风格 | 标签 | 适用场景 | 比例 |
-|------|------|----------|------|
-| science_infographic | #科研 #信息图 | 教学图、疾病图谱 | 1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2 |
-| science_cover | #科研 #期刊 | 期刊封面、科研主视觉 | 1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2 |
-| science_illustration | #科研 #机制图 | 作用机制图、Graphical Abstract | 1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2 |
-| mckinsey_style | #咨询 #商业 | 商业报告封面、信息图 | 16:9 或 5:2 |
-| bloomberg_magazine | #商业 #杂志 | 商业杂志封面 | 16:9 / 5:2 / 4:5 / 3:4 / 1:1 |
-| educational_riset | #教育 #信息图 | 教育图形 | 819:1024 |
-
----
-
-## 📚 印刷品
-
-> [查看 print/_index.md](print/_index.md)
-
-| 风格 | 标签 | 适用场景 | 比例 |
-|------|------|----------|------|
-| tear_paper | #撕纸 #文艺 | 书籍封面、文艺海报 | 16:9 横版 |
-| scarlet | #红块 #文学 | 文学封面、艺术海报 | 9:16 或 16:9 |
-| stamp_movie_poster | #邮票 #电影 | 电影海报、展览视觉 | 16:9 |
-| typography | #字体 #排版 | 活动主标题、品牌字体 | 按需求 |
-| style_can | #中文 #字体 | 中文排版 | 16:9 / 4:5 / 3:4 / 9:16 |
-| luxury_poster_style | #奢侈 #家具 | 高端家具目录海报 | 16:9 / 4:5 / 3:4 / 9:16 |
-| collage_logo | #logo #品牌 | 品牌图标、APP图标 | 1:1 方图 |
-| pet_sketch_storyboard | #动画 #宠物 | 动画宠物故事板 | 16:9 / 4:5 / 3:4 / 9:16 |
-| ukiyo_e | #浮世绘 #日本 | 浮世绘木版画、文创设计 | 576:1024 |
-
----
-
-## 🎭 IP/角色
-
-> [查看 ip_character/_index.md](ip_character/_index.md)
-
-| 风格 | 标签 | 适用场景 | 比例 |
-|------|------|----------|------|
-| mascot_ip | #IP #吉祥物 | 品牌IP形象、IP周边 | 16:9 |
-| sunny_3d | #3D #头像 | 社交营销活动、品牌推广 | 9:16 或 16:9 |
-| cute_3d_clay_designer | #黏土 #3D | 设计师人物、品牌插画 | 1:1 / 4:5 |
-| maple_story_avatar | #像素 #游戏 | 游戏角色、像素艺术 | 1:1（1080x1080） |
-| pixar_cartoon_portrait | #Pixar #3D | 个人头像、角色设计 | 3:4（默认） |
-| exaggerated_3d_toy_illustration | #3D #玩具 | SaaS落地页、产品设计 | 16:9 / 4:5 / 3:4 / 1:1 |
-| retro_cel_animation | #复古 #动画 | 复古动画风格KV、品牌联名 | 3:4 / 4:3 |
-| chibi_q_version_character | #chibi #q版 | Q版角色、粉丝二创 | 1:1 / 16:9 |
-
----
-
-## ✈️ 旅行城市
-
-> [查看 travel/_index.md](travel/_index.md)
-
-| 风格 | 标签 | 适用场景 | 比例 |
-|------|------|----------|------|
-| minimalist_city_travel_poster | #旅行 #极简 | 城市宣传海报、旅游目的地 | 9:16 / 3:4 / 16:9 |
-| origami_country_art | #折纸 #艺术 | 旅行海报、国家宣传 | 4:5（竖版） |
-| collage_doodle_style | #旅行 #拼贴 | 旅行照片拼贴 | 16:9 / 4:5 / 3:4 / 9:16 |
-| collage_travel_poster | #旅行 #拼贴 | 旅行海报 | 1024:1024 |
-| style_travel | #旅行 #缩略图 | 旅行vlog缩略图 | 16:9 / 4:5 / 3:4 / 9:16 |
-
----
-
-## 👔 时尚美容
-
-> [查看 fashion/_index.md](fashion/_index.md)
-
-| 风格 | 标签 | 适用场景 | 比例 |
-|------|------|----------|------|
-| fashion_archer_editorial | #时尚 #弓箭手 | 品牌海报、时尚大片 | 4:5（默认） |
-| goldleaf_face_bodypaint | #金箔 #彩绘 | 艺术海报、时尚摄影 | 4:5 / 9:16 |
-| luxury_fashion_poster_1 | #时尚 #奢侈 | 时尚广告 | 1024:819 |
-| fashion_campaign_typography | #时尚 #campaign | 品牌KV、时尚海报 | 9:16 |
-| editorial_studio_fashion | #时尚 #工作室 | 时尚工作室编辑 | 576:1024 |
-| editorial | #VigoCookbook | 阳光名模编辑 | 16:9 / 4:5 / 3:4 / 9:16 |
-| editorial_fashion | #VigoCookbook | 阳光建筑时尚编辑 | 16:9 / 4:5 / 3:4 / 9:16 |
-| editorial_luxury | #VigoCookbook | 奢华视角棋盘编辑 | 16:9 / 4:5 / 3:4 / 9:16 |
-| selfie_realistic | #超写实 #户外 | 户外自然光人像 | 683:1024 |
-
----
+| avantgarde_bw_poster | #黑白灰 #先锋海报 #现代主义 |  | 16:9 / 9:16 / 1:1 / 4:5 / 3:2 |
+| bold_monoline_mascot | #品牌吉祥物 #粗轮廓线 #双色插画 |  | 4:5 / 3:4 / 1:1 / 9:16 |
+| cyberpunk_halftone_poster | #赛博朋克 #极繁 #半调 |  | 3:4（竖版） |
+| diffuse_poster | #复古 #海报 #杂志风 |  | 9:16 或 3:4 |
+| digital_soul_poster | #数字艺术 #荧光绿 #液态金属 |  | 9:16 |
+| fashion_editorial_visual | #时尚 #编辑 #杂志 |  | 9:16 / 4:5 / 3:4 |
+| futuristic_collage_portrait | #混媒 #拼贴 #未来主义 |  | 4:5 或 9:16 |
+| gardenia_white_tea_poster | #东方美学 #花茶香氛 #柔焦花卉 |  | 3:4 |
+| halftone_assemblage_psa_poster | #公益 #海报 #半色调 |  | 9:16 / 16:9 |
+| inkline_couture | #东方 #水墨 #高定时装 |  | 9:16（竖版） |
+| jimeng_kasho_allstars | #Y2K酸性设计 #夜店潮牌 #孟菲斯复古未来主义 |  | 9:16 |
+| luxury_beauty_side_profile_poster | #美妆 #高端 #护肤 |  | 9:16（竖版） |
+| luxury_embroidery_macro | #微距摄影 #品牌视觉 #刺绣工艺 |  | 4:5 |
+| perfume_kv | #香水 #香氛 #奢侈 |  | 9:16 |
+| street_3d_maximalist | #街潮 #3D #极繁主义 |  | 9:16 |
+| streetwear_lab | #街潮 #3D #潮牌 |  | 16:9 |
+| sunlit_kinetic_block_type_poster | #VigoCookbook #运动 #生活方式 |  | 9:16 / 16:9 |
+| urban_collage_poster | #拼贴 #都市 #前卫 |  | 3:4（竖版） |
 
 ## 🎪 创意特殊
 
@@ -178,51 +55,204 @@
 
 | 风格 | 标签 | 适用场景 | 比例 |
 |------|------|----------|------|
-| object_illustration_combo | #真实物体 #融合 | 创意海报、产品包装 | 9:16（竖版） |
-| east_asian_vintage_illustration | #东亚 #复古 | 品牌插画、个人肖像 | 3:4（默认） |
-| east_asian_vintage_magazine | #韩纸 #复古 | 个人肖像插画、杂志封面 | 3:4（默认） |
-| scribble_poster_style | #滑板 #复古 | 复古滑板杂志海报 | 16:9 / 4:5 / 3:4 / 9:16 |
-| style_halftone_poster | #半色调 #PSA | 复古环境PSA海报 | 16:9 / 4:5 / 3:4 / 9:16 |
-| style_poster | #大胆 #极简 | 折叠钻石视角海报 | 16:9 / 4:5 / 3:4 / 9:16 |
-| vigo_mondrian_style | #蒙德里安 #几何 | 品牌海报、Logo设计 | 16:9 / 9:16 / 4:5 / 3:4 |
-| geek_code_poster | #酸性设计 #极客代码 | 潮流品牌、音乐节海报 | 9:16 |
-| 3d_realistic | #幽默 #超写实 | 幽默3D渲染角色、IP头像 | 576:1024 |
-| floating_crystal_monolith | #科幻 #水晶 | 科技海报、概念图 | 1024:576 |
-| ink_illustration | #黑白 #墨水 | 黑白插画、手绘头像 | 768:1024 |
-| dunhuang_mondrian | #敦煌 #几何 | 艺术海报、文化创意 | 768:1024 |
-| playful_avantgarde_poster | #童趣 #前卫 | 艺术展海报、展览视觉 | 9:16 |
-| retro_future_scifi_poster | #复古未来 #科幻 | 科幻海报、科技品牌KV | 9:16 |
-| kimjunggi_scifi_sketch | #金政基 #线条 | 概念设计、赛博朋克插画 | 1:1 |
-| takeshi_camping_poster | #武政谅 #丝网印刷 | 户外品牌、露营海报 | 1:1 |
-| futuristic_spring_kv | #未来生态 #插画KV | 品牌春季KV、科技海报 | 4:3 |
-| soft_clay_camping_kv | #软胶黏土 #潮玩 | 品牌活动KV、潮玩视觉 | 16:9 |
-| glass_flower_spring_diary | #治愈 #玻璃花卉 | 春日日记、治愈插画 | 9:16 |
-| soft_clay_macaron_poster | #软胶黏土 #3D卡通 #马卡龙色 | 品牌活动KV、创意海报、潮流品牌 | 2:3（竖版） |
-| demon_wukong_line_art | #孙悟空 #线绘 #巴洛克 #极繁 | 创意海报、国潮设计 | 16:9 |
-| pen_ink_point_line_peaches | #钢笔画 #点线 #桃子 #植物 | 植物插画、艺术线描 | 2:3 |
+| black_white_typographic_portrait | #黑白 #字体海报 #编辑海报 |  | 4:5 |
+| cartoon_3d_tv_icon | #3D卡通 #图标 #Q版 |  | 16:9 |
+| clay_typography_poster | #黏土 #3D #文字互动 |  | 3:4（竖版） |
+| cozy_storybook_cafe | #故事书插画 #咖啡馆 #治愈 |  | 3:4 / 9:16 |
+| dark_chinese_fantasy_illustration | #奇幻插画 #流光水彩 #国风彩漫 |  | 9:16（竖版）/ 16:9（横版） |
+| demon_wukong_line_art | #孙悟空 #线绘 #巴洛克 |  | 16:9 |
+| east_asian_vintage_illustration | #韩系 #复古 #插画 |  | 3:4（默认） |
+| east_asian_vintage_magazine | #韩纸 #复古 #杂志 |  | 3:4（默认） |
+| futuristic_spring_kv | #未来生态 #春季 #插画KV |  | 4:3 / 16:9 |
+| geek_code_poster | #酸性设计 #极客代码 #像素风 |  | 9:16 |
+| glass_flower_spring_diary | #治愈 #玻璃花卉 #春日 |  | 9:16 |
+| herd_outsider_poster | #概念海报 #异类主题 #阵列构图 |  | 3:4 |
+| inflatable_3d_flowers | #3D #膨胀花朵 #C4D |  | 9:16 |
+| kimjunggi_scifi_sketch | #金政基 #赛博朋克 #线条艺术 |  | 1:1 / 16:9 / 9:16 |
+| korean_illustration | #韩国 #插画 #线条画 |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| korean_morning_ritual_poster | #晨间问候 #韩国ins风 #治愈系 |  | 16:9 / 3:4 / 9:16 |
+| lime_mint_sparkling_doodle_poster | #青柠薄荷 #气泡饮 #手绘托举 |  | 16:9 / 9:16 |
+| mango_coconut_doodle_drink | #芒果椰乳 #涂鸦 #手绘标注 |  | 16:9 / 9:16 |
+| moebius_underwater_coral_postoffice | #莫比乌斯 #极繁主义 #海底邮局 |  | 9:16（竖版）/ 16:9（横版） |
+| object_illustration_combo | #真实物体 #手绘插画 #融合 |  | 9:16（竖版） |
+| pen_ink_point_line_peaches | #钢笔画 #点线技法 #精细描绘 |  | 2:3（竖版） |
+| pixel_cut_community_poster | #像素字体 #黑白摄影 #几何色块 |  | 16:9 / 3:2 / 4:3 |
+| playful_avantgarde_poster | #童趣 #前卫 #艺术展 |  | 9:16 |
+| retro_future_scifi_poster | #复古未来 #科幻 #赛博朋克 |  | 9:16 |
+| scribble_poster_style | #VigoCookbook #retro #skate |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| soft_clay_camping_kv | #软胶黏土 #3D卡通 #马卡龙 |  | 16:9 / 9:16 |
+| soft_clay_macaron_poster | #软胶黏土 #3D卡通 #马卡龙色 |  | 2:3（竖版） |
+| style_halftone_poster | #VigoCookbook #retro #environmental |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| style_poster | #VigoCookbook #bold #minimalist |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| takeshi_camping_poster | #武政谅 #丝网印刷 #颗粒肌理 |  | 1:1 / 9:16 / 16:9 |
+| textile_craft_pro | #织物雕塑 #手工编织 #纺织品艺术 |  | 3:4（竖版） |
+| transparency_concept_poster | #透明 #概念海报 #中文排版 |  | 3:4（竖版） |
+| trendy_bubble_letter_portrait | #潮流视觉 #泡泡字 #高明度 |  | 16:9 / 3:4 / 9:16 |
+| vintage_streetwear_cartoon_poster | #街頭復古 #單色海報 #1930s動畫 |  | 1:1 / 3:4 / 9:16 / 16:9 |
+| y3k_cool_girl_portrait | #Y3K #赛博朋克 #潮玩 |  | 9:21 |
 
----
+## 🛒 电商
+
+> [查看 e-commerce/_index.md](e-commerce/_index.md)
+
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| beverage_style | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| brand_miniature_architecture | #品牌 #微缩建筑 #海报 |  | 2:3 竖版 |
+| jade_glyph_grocer_collage | #生鲜 #东方 #杂货 |  | 9:16 或 16:9 |
+| luxury_birthday_poster | #生日 #轻奢 #海报 |  | 3:4 竖版 |
+| luxury_product | #电商 #产品 #摄影棚 |  | 16:9 |
+| newyear_gift_box | #年货 #礼盒 #商业摄影 |  | 3:4 |
+| realistic_photo | #摄影 #写实 #产品 |  | 按需求（常见 16:9 或 4:3） |
+| retro_drink_ad | #饮料 #复古 #广告 |  | 3:4 竖版 |
+| style_product | #VigoCookbook #minimal #dark |  | 16:9 / 4:5 / 3:4 / 9:16 |
+
+## 👔 时尚美容
+
+> [查看 fashion/_index.md](fashion/_index.md)
+
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| editorial | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| editorial_fashion | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| editorial_luxury | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| fashion_archer_editorial | #时尚摄影 #弓箭手 #黑白 |  | 4:5（默认） |
+| fashion_campaign_typography | #时尚 #campaign #排版 |  | 9:16 |
+
+## 🎭 IP/角色
+
+> [查看 ip_character/_index.md](ip_character/_index.md)
+
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| chang_e_goddess | #3D盲盒 #中国神话 #IP设计 |  | 3:4 |
+| exaggerated_3d_toy_illustration | #3D #卡通 #玩具 |  | 16:9 / 4:5 / 3:4 / 1:1 |
+| maple_story_avatar | #像素 #游戏 #冒险岛 |  | 1:1（1080x1080） |
+| mascot_ip | #IP #吉祥物 #玩偶 |  | 16:9 |
+| pixar_cartoon_portrait | #Pixar #3D #卡通 |  | 3:4（默认） |
+| retro_cel_animation | #azed_ai #推文收集 #Retro_Cel_Animation |  | 3:4 / 4:3 |
+| sunny_3d | #3D #头像 #玩具 |  | 9:16 或 16:9 |
+
+## 📚 印刷品
+
+> [查看 print/_index.md](print/_index.md)
+
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| collage_logo | #logo #品牌 #图标 |  | 1:1 方图（2048x2048） |
+| hierarchy_angels_poster | #宗教朋克 #拼贴海报 #丝网印刷 |  | 3:4 |
+| luxury_poster_style | #VigoCookbook #Luxury #furniture |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| pet_sketch_storyboard | #VigoCookbook #loose #animation |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| scarlet | #红块 #手绘 #文学 |  | 9:16 或 16:9 |
+| stamp_movie_poster | #邮票 #电影海报 #极简 |  | 16:9 |
+| style_can | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| tear_paper | #插画 #撕纸 #平面 |  | 16:9 横版 |
+| typography | #字体 #标题 #排版 |  | 按需求（常见 9:16 或 16:9） |
+
+## 🔬 科研专业
+
+> [查看 science/_index.md](science/_index.md)
+
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| bloomberg_magazine | #商业 #杂志 #Bloomberg |  | 16:9 / 5:2 / 4:5 / 3:4 / 1:1 |
+| mckinsey_style | #咨询 #商业 #PPT |  | 16:9 或 5:2 |
+| science_cover | #科研 #封面 #期刊 |  | 1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2 |
+| science_illustration | #科研 #插图 #论文 |  | 1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2 |
+| science_infographic | #科研 #信息图 #学术 |  | 1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2 |
+
+## 📱 社交媒体
+
+> [查看 social_media/_index.md](social_media/_index.md)
+
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| bubble_card | #潮流 #卡片 #泡泡字 |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| candy_3d_wonderland | #C4D #3D #糖果 |  | 9:16 |
+| chibi_q_version_character | #chibi #q版 #动漫角色 |  | 1:1 或 16:9 |
+| doodle_style | #VigoCookbook #candid #low-light |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| doodle_style_poster | #VigoCookbook #realistic #passenger-seat |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| doodle_style_poster_1 | #VigoCookbook #candid #outdoor |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| gpt_doodle_illustration | #涂鸦 #插画 #GPT-Image |  | 16:9 或 9:16 |
+| grotesque_doodle_style | #怪诞 #手绘 #涂鸦 |  | 1:1 / 3:4 / 4:5 |
+| japanese_poetic_dreamy | #日系 #诗意 #梦幻 |  | 3:4 或 9:16 |
+| k_gyaru_street_snap | #韩系 #街头 #抓拍 |  | 3:4（默认） |
+| sky_blue_doodle | #涂鸦 #小红书 #生活 |  | 9:16 或 16:9 |
+| sticker_style_poster | #VigoCookbook #nostalgic #diary-collage |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| summer_dopamine | #夏日 #多巴胺 #潮流3D |  | 4:3 |
+
+## ✈️ 旅行城市
+
+> [查看 travel/_index.md](travel/_index.md)
+
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| collage_doodle_style | #VigoCookbook #bright #travel-photo |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| minimalist_city_travel_poster | #旅行海报 #极简主义 #城市 |  | 9:16 / 3:4 / 16:9 |
+| style_travel | #VigoCookbook #clean #travel-vlog |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| wilderness_wind_poster | #插画 #海报 #草原 |  | 3:4 / 16:9 / 4:5 |
+
+## 📁 typography
+
+> [查看 typography/_index.md](typography/_index.md)
+
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| climb_mountain_typography | #字体设计 #创意字体 #抽象变形 |  | 4.5 |
 
 ## 📖 VigoCookbook
 
 > [查看 vigo_cookbook/_index.md](vigo_cookbook/_index.md)
 
-Vigo Cookbook 来源的风格，共 49 个（以 vigo_ 开头）。
-
----
-
-## 📝 统计
-
-| 分类 | 数量 |
-|------|------|
-| 社交媒体 | 14 |
-| 品牌视觉 | 14 |
-| 电商 | 10 |
-| 科研专业 | 6 |
-| 印刷品 | 8 |
-| IP/角色 | 7 |
-| 旅行城市 | 5 |
-| 时尚美容 | 14 |
-| 创意特殊 | 21 |
-| VigoCookbook | 48 |
-| **总计** | **154** |
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| vigo_analog_editorial_poster | #VigoCookbook #quiet #analog-future |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_black_cutout_food_card_ad | #VigoCookbook #handmade #Chinese |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_blue_bubble_fisheye_action_poster | #VigoCookbook #crisp #youth-culture |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_blue_halftone_ransom_zine_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_blue_hud_macro_product_poster | #VigoCookbook #premium #3D |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_blue_kinetic_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_bold_anime_reaction_thumbnail | #VigoCookbook #high-impact #anime |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_bold_block_mascot_poster | #VigoCookbook #flat #editorial |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_chromatic_fisheye_orbit_pop_poster | #VigoCookbook #high-key #pop |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_cyan_red_shockwave_type_poster | #VigoCookbook #Flat #pop |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_fantasy_scribble_mascot_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_film_montage_sport_poster |  |  | 16:9 横版 |
+| vigo_fisheye_bubble_poster | #VigoCookbook #ultra-low-angle #fisheye |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_folded_newspaper_product_ad | #VigoCookbook #folded #newspaper |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_gothic_cat_doodle_photo_collage | #VigoCookbook #playful #photo-illustration |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_hud_tech_spec_poster | #VigoCookbook #HUD #技术规格 |  | 16:9 |
+| vigo_impact_burst_halftone_comic_poster | #VigoCookbook #loud #retro |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_k_pop_apocalypse_ransom_zine | #VigoCookbook #maximalist #K-pop |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_kinetic_geometric_doodle_cutouts | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_luxury_street_cover | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_market_brush_produce_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_metro_doodle_snapshot_diary | #VigoCookbook #handheld #urban |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_mondrian_style | #蒙德里安 #DeStijl #红黄蓝 |  | 16:9 / 9:16 / 4:5 / 3:4 |
+| vigo_mono_noir_type_portrait_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_naive_marker_quote_card | #VigoCookbook #Naive #hand-marker |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_neon_diary_collage | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_neon_doodle_gallery_snapshot | #VigoCookbook #candid #phone-photo |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_neon_kinetic_typographic_poster | #VigoCookbook #dramatic #outdoor |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_neon_plush_gadget_pop_3d | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_olive_scribble_sports_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_photo_illustration_overlay_poster | #VigoCookbook #realistic #city |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_playful_marker_grounding_poster | #VigoCookbook #naive #marker |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_playful_mascot_doodle_snapshot | #VigoCookbook #casual #real-life |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_plush_city_festival_mobile_poster | #VigoCookbook #bright #mobile |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_plush_comic_toy_product_poster | #VigoCookbook #loud #toy-product |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_pop_bubble_letter_photo_poster | #VigoCookbook #punchy #photo-and-illustration |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_rough_ink_music_doodle_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_rough_marker_monster_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_school_grid_paper_cutout_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_sky_blue_home_life_doodle_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_subway_doodle_photo_hybrid | #VigoCookbook #phone-shot #urban |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_sunny_3d_avatar_campaign | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_tokyo_kawaii_travel_collage_poster | #VigoCookbook #maximalist #Japanese |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_tri_color_hardcut_portrait_poster | #VigoCookbook #clean #three-color |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_turquoise_red_techno_manga_poster | #VigoCookbook #retro #techno-manga |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_urban_transit_doodle_diary | #VigoCookbook #raw #urban |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_warm_fisheye_product_impact_ad | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_y2k_grunge_hiphop_cutout_poster | #VigoCookbook #Y2K #grunge |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_y2k_mirror_ui_scribble_collage | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_yellow_black_manga_food_zine_ad | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |

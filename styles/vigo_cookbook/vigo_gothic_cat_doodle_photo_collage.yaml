@@ -1,0 +1,100 @@
+name: Gothic Cat Doodle Photo Collage Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker
+  doodles.
+tags:
+- VigoCookbook
+- playful
+- photo-illustration
+- collage
+- combining
+- dramatic
+- real
+- architectural
+- photography
+- oversized
+- flat
+- cartoon
+- creature
+- overlays
+- bubbly
+- hand-drawn
+- headline
+- lettering
+- loose
+- marker
+- doodles
+triggers:
+- Gothic Cat Doodle Photo Collage Style
+features:
+- title: 'Preserve the core visual identity: A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn
+    headline lettering, and loose marker doodles.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+  desc: ''
+- title: Use a realistic low-angle architectural photograph as the base layer.
+  desc: ''
+- title: Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky.
+  desc: ''
+- title: Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: oversized illustrated animal, mascot, creature, or playful character
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: climbing, wrapping around, peeking over, hugging, guarding, or interacting with the architecture
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: small human figure, tiny mascot, sign, portal, object, or campaign prop placed within the architecture
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: real landmark, cathedral, museum, university building, old theater, city hall, station, or monumental street facade
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: bare trees, sky, stone details, towers, arches, windows, ornament, street texture, and small secondary characters
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large rounded bubble-letter title integrated across the top of the frame
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Gothic Cat Doodle Photo Collage" style.
+
+
+  Subject: {SUBJECT}.
+
+  Subject action: {SUBJECT_ACTION}.
+
+  Prop or small secondary element: {PRODUCT_OR_PROP}.
+
+  Location: {LOCATION}.
+
+  Background elements: {BACKGROUND_ELEMENTS}.
+
+  Main text: {MAIN_TEXT}.
+
+  Secondary text: {SECONDARY_TEXT}.
+
+  Accent symbol: {ACCENT_SYMBOL}.
+
+  Wardrobe or visual styling: {WARDROBE_STYLE}.
+
+
+  Use a realistic low-angle architectural photograph as the base layer. Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky. Overlay one
+  oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights. Make the creature
+  interact physically with the building, wrapping around arches, towers, windows, or rooflines.
+
+
+  Add huge cream-white bubble graffiti lettering across the top of the frame, with thick cobalt blue outline, warm yellow offset shadow, chalky glow, and imperfect hand-drawn spacing. Add small doodle circles,
+  swooshes, sparks, motion curves, and tiny secondary cartoon figures in windows or doorways for scale contrast.
+
+
+  Avoid watermark, username, creator ID, platform logo, QR code, app UI, realistic 3D mascot, plush toy texture, full cartoon background, clean corporate layout, dense text, and low-detail architecture.'
+preview: https://malongan.github.io/images/vigo_previews/gothic-cat-doodle-photo-collage.jpg
+id: vigo_gothic_cat_doodle_photo_collage
+code: ''

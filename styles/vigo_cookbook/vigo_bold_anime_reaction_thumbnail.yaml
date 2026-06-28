@@ -1,0 +1,113 @@
+name: Bold Anime Reaction Thumbnail Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean
+  cel-shaded illustration.
+tags:
+- VigoCookbook
+- high-impact
+- anime
+- web-thumbnail
+- oversized
+- reaction
+- characters
+- bold
+- headline
+- typography
+- hard
+- shadows
+- split-screen
+- framing
+- smaller
+- glowing
+- action
+- insert
+- clean
+- cel-shaded
+- illustration
+triggers:
+- Bold Anime Reaction Thumbnail Style
+features:
+- title: 'Preserve the core visual identity: A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller
+    glowing action insert, and clean cel-shaded illustration.'
+  desc: ''
+- title: Use clean glossy cel-shaded anime rendering, crisp black line art, smooth gradients, and bright commercial lighting.
+  desc: ''
+- title: Use cool blue/cyan backgrounds, warm character colors, high-contrast black outlines, and a small yellow arrow or glow marker.
+  desc: ''
+- title: Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.
+  desc: ''
+- title: Keep the same visual genre, density level, and rendering mode across new subjects.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main adult anime subject or paired reaction subjects
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: surprised, amazed, competitive, or discovery-driven action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, tool, device, food, game cabinet, package, plant, or other prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: clean indoor or semi-technical setting with simple background planes
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: windows, panels, cabinets, screens, glow clouds, motion puffs, framed partitions, or soft blue depth elements
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: short uppercase thumbnail headline
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Bold Anime Reaction Thumbnail Style" visual style.
+
+
+  Subject: {SUBJECT}
+
+  Action: {SUBJECT_ACTION}
+
+  Prop/Product: {PRODUCT_OR_PROP}
+
+  Location: {LOCATION}
+
+  Background: {BACKGROUND_ELEMENTS}
+
+  Main text: {MAIN_TEXT}
+
+  Secondary text: {SECONDARY_TEXT}
+
+  Accent symbol: {ACCENT_SYMBOL}
+
+  Wardrobe/styling: {WARDROBE_STYLE}
+
+  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+
+  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+
+
+  Apply these style rules:
+
+  - Build a dense anime web-thumbnail composition with oversized reaction characters on the outer edges and a smaller central discovery scene.
+
+  - Use clean glossy cel-shaded anime rendering, crisp black line art, smooth gradients, and bright commercial lighting.
+
+  - Put a huge uppercase yellow headline with thick black outline and hard drop shadow near the top.
+
+  - Use cool blue/cyan backgrounds, warm character colors, high-contrast black outlines, and a small yellow arrow or glow marker.
+
+  - Keep the scene fully clothed and non-sexual. Change the source subject, location, prop, action, text, and story premise.
+
+
+  Avoid:
+
+  - {NEGATIVE_PROMPT}
+
+
+  Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.'
+preview: https://malongan.github.io/images/vigo_previews/bold-anime-reaction-thumbnail.jpg
+id: vigo_bold_anime_reaction_thumbnail
+code: ''

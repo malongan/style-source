@@ -1,0 +1,30 @@
+name: 拼贴logo（马赛克风格）
+category: print
+ratio: 1:1 方图（2048x2048）
+source_author: 内部模板
+source_url: ''
+summary: 用马赛克镜面砖拼出高级感品牌图标。
+tags:
+- logo
+- 品牌
+- 图标
+- 3D
+- 马赛克
+triggers:
+- 拼贴logo
+- 马赛克图标
+- 马赛克logo
+features:
+- title: 圆角方砖造型
+  desc: ''
+- title: 光泽玻璃 + 镀铬材质
+  desc: ''
+- title: disco-ball 镜面砖效果
+  desc: ''
+- title: 柔和工作室灯光
+  desc: ''
+variables: []
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/collage_logo.png
+id: collage_logo
+code: ''

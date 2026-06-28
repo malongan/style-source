@@ -1,0 +1,49 @@
+name: Chibi Q 版角色
+category: social_media
+ratio: 1:1 或 16:9
+source_author: '@CharaspowerAI'
+source_url: ''
+summary: 将任意角色转化为可爱的 Q 版微缩风格，结合 2D 游戏美术和动漫美学，呈现动态、活泼的视觉表现。
+tags:
+- chibi
+- q版
+- 动漫角色
+- 游戏美术
+triggers:
+- Chibi style
+- Q版角色
+features:
+- title: '**Chibi 比例**：大头小身的经典 Q 版造型，可爱度拉满'
+  desc: ''
+- title: '**动态姿势**：`dynamic pose` + `Epic and dynamic` 确保角色充满活力'
+  desc: ''
+- title: '**游戏美术融合**：`2D game art` 风格融合了游戏角色的设计语言'
+  desc: ''
+- title: '**清晰焦点**：`high resolution, in focus` 保证画面锐利清晰'
+  desc: ''
+- title: '**环境互动**：背景变量让角色与环境形成叙事关系'
+  desc: ''
+variables:
+- kv_var: 主角色
+  style_var: '{{character}}'
+  desc: 角色名，如 Luffy、 Goku
+- kv_var: 角色动作
+  style_var: '{{action}}'
+  desc: 动作描述，如 eating meat laughing
+- kv_var: 对手/情境
+  style_var: '{{opponent/situation}}'
+  desc: 对手或情境，如 at Doflamingo
+- kv_var: 风格参考
+  style_var: '{{style_reference}}'
+  desc: 参考作品风格，如 One Piece
+- kv_var: 场景背景
+  style_var: '{{background/environment}}'
+  desc: 环境描述，如 Marineford battlefield
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain [角色名] identity..."
+  desc: 不在变量里，用参考图
+prompt: Chibi style, {{character}} {{action}} {{opponent/situation}}, in the style of {{style_reference}}, cute background, 2D game art, high resolution, in focus, {{background/environment}}, anime style,
+  dynamic pose, Epic and dynamic
+preview: https://malongan.github.io/images/vigo_previews/chibi_q_version_character.jpg
+id: chibi_q_version_character
+code: ''

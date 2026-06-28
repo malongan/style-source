@@ -1,0 +1,51 @@
+name: 莫比乌斯海底珊瑚邮局
+category: creative
+ratio: 9:16（竖版）/ 16:9（横版）
+source_author: 黑天鹅
+source_url: https://jimeng.jianying.com/ai-tool/work-detail/7638487695315963163
+summary: Moebius（让·吉罗）极繁主义风格的水下珊瑚邮局场景，粉色可爱+广角涂鸦，多材质精细刻画。
+tags:
+- 莫比乌斯
+- 极繁主义
+- 海底邮局
+- 珊瑚
+- 涂鸦艺术
+- 极繁插画
+triggers:
+- Moebius风格
+- 海底邮局
+- 珊瑚邮局
+- 极繁主义插画
+- 莫比乌斯风
+features:
+- title: Moebius 极繁线条
+  desc: 繁复精细的线条与结构，极繁主义构图
+- title: 水下邮局场景
+  desc: 珊瑚邮筒、贝壳信箱、海草信纸、气泡封印、珍珠装饰
+- title: 多材质刻画
+  desc: 珊瑚多孔粗糙、贝壳珍珠光泽、海水半透模糊、气泡圆润高光
+- title: 粉色可爱 + 广角镜头
+  desc: 涂鸦艺术感，大师级构图
+variables:
+- kv_var: 画面-场景
+  style_var: 场景变体
+  desc: 可替换为不同的水下邮局变体、珊瑚邮局、海底快递站等
+prompt: 'Moebius (Jean Giraud) 风格，极繁主义。海底珊瑚邮局
+
+
+  场景：浅海透光，鱼群轻游
+
+
+  物品：珊瑚邮筒、贝壳信箱、海草信纸、气泡封印、珍珠装饰
+
+
+  材质：珊瑚多孔粗糙、贝壳珍珠光泽、海水半透模糊、气泡圆润高光
+
+
+  粉色可爱，广角镜头，涂鸦艺术，大师构图
+
+
+  {场景变体}'
+preview: https://raw.githubusercontent.com/malongan/images/main/jimeng_previews/jimeng_7638487695315963163.jpg
+id: moebius_underwater_coral_postoffice
+code: ''

@@ -1,0 +1,130 @@
+name: Fashion Editorial Visual System
+category: brand_kv
+ratio: 9:16 / 4:5 / 3:4
+source_author: '@MrLarus'
+source_url: ''
+summary: 高端时尚编辑视觉系统：4种版式方向 × 品牌调性变量 = 杂志级品牌KV/海报/封面。
+tags:
+- 时尚
+- 编辑
+- 杂志
+- 品牌
+- 排版
+- 高端
+triggers:
+- 时尚编辑
+- 杂志封面
+- Fashion editorial
+- 品牌KV
+- 品牌海报
+features:
+- title: 4种版式方向可选
+  desc: ''
+- title: 品牌调性变量驱动设计
+  desc: ''
+- title: 杂志级摄影 + 精致排版
+  desc: ''
+- title: 强负空间、优雅构图
+  desc: ''
+- title: 高端品牌感，非电商感
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{HEADLINE}}'
+  desc: 大字标题文字
+- kv_var: 副标题
+  style_var: '{{SUBHEADLINE}}'
+  desc: 副标题文字
+- kv_var: 画面-主体
+  style_var: '{{PRODUCT OR SUBJECT}}'
+  desc: 产品或模特
+- kv_var: 画面-版式
+  style_var: '{{DIRECTION TYPE}}'
+  desc: 4种版式方向
+- kv_var: 品牌-名称
+  style_var: '{{BRAND}}'
+  desc: 品牌名
+- kv_var: 品牌-调性
+  style_var: '{{BRAND MOOD}}'
+  desc: 8种调性选择
+- kv_var: 色彩-主色
+  style_var: '{{COLOR PALETTE}}'
+  desc: 主色调
+- kv_var: 比例
+  style_var: '{{ASPECT RATIO}}'
+  desc: 图片比例
+prompt: 'Use this as a single-image prompt template.
+
+  If you want multiple images, generate each one separately. Do not merge them into one collage unless the chosen direction is specifically a lookbook collage spread.
+
+
+  Direction Type: [Giant typography campaign / Couture magazine cover / Accessories editorial page / Lookbook collage spread]
+
+  Brand Name: [BRAND]
+
+  Theme / Collection: [THEME]
+
+  Product / Focus: [PRODUCT OR SUBJECT]
+
+  Model: [MODEL DESCRIPTION or "no full model, product-focused"]
+
+  Brand Mood: [MINIMAL / QUIET LUXURY / MODERN / ROMANTIC / SHARP / COOL / SOFT / AVANT-GARDE]
+
+  Color Palette: [COLORS]
+
+  Main Headline: [HEADLINE]
+
+  Subheadline: [SUBHEADLINE]
+
+  Extra Small Text: [OPTIONAL SHORT TEXT]
+
+  Aspect Ratio: [9:16 / 4:5 / 3:4]
+
+
+  Create a high-end fashion editorial visual for [BRAND], based on the theme [THEME], with the focus on [PRODUCT OR SUBJECT]. The output should feel like a premium brand campaign / fashion magazine editorial
+  / lookbook direction, with a strong sense of art direction, typography, layout, and brand mood. This is not a generic fixed template. The composition, typography, image styling, and layout should be designed
+  around the brand mood: [BRAND MOOD]. Main colors should follow [COLOR PALETTE].
+
+
+  The visual style should be clean, elevated, editorial, premium, fashion-forward, and highly designed. Use realistic fashion photography aesthetics, refined lighting, strong negative space, elegant composition,
+  and a clear hierarchy between image, typography, and white space. Keep the overall feeling magazine-like, brand-driven, and visually collectible.
+
+
+  Use [DIRECTION TYPE] as the layout structure:
+
+
+  If Giant typography campaign: create a bold editorial poster with oversized typography as a major visual element. Let the headline [HEADLINE] interact with the model or product. Use powerful type placement,
+  strong composition, and a premium campaign feel.
+
+
+  If Couture magazine cover: create a refined fashion cover with a strong central figure or hero product, elegant masthead-style typography, and a polished couture editorial mood. Add a few short editorial
+  text elements such as [SUBHEADLINE] and [EXTRA SMALL TEXT].
+
+
+  If Accessories editorial page: create a fashion accessories-focused editorial page featuring [PRODUCT OR SUBJECT], with a layout that feels like a premium magazine spread or branded product story. The
+  product should be clearly featured, with elegant typography and supporting editorial text.
+
+
+  If Lookbook collage spread: create a stylish editorial collage layout using multiple fashion images within one page, arranged like a premium lookbook spread. Keep the collage controlled, minimal, and
+  fashion-oriented, not messy. Use [HEADLINE] and [SUBHEADLINE] as the key editorial text.
+
+
+  Typography should feel intentional and premium. Use large elegant serif or fashion-style typography, with smaller supporting editorial text. Main headline: [HEADLINE]. Subheadline: [SUBHEADLINE]. Optional
+  small text: [EXTRA SMALL TEXT]. Text should be clean and readable, and should support the visual instead of overpowering it.
+
+
+  If a model is included, use [MODEL DESCRIPTION] and style the fashion image to match the brand mood. The model should look editorial, believable, and premium, not like a generic commercial stock model.
+  If the image is product-focused, make the product the hero and support it with strong layout and campaign styling.
+
+
+  The final image should look suitable for brand moodboards, campaign mockups, early brand concepts, editorial poster design, social media visuals, or lookbook exploration.
+
+
+  Avoid: cheap e-commerce look, template-looking layouts, cluttered composition, low-end poster design, excessive text, random decorations, childish styling, weak typography, stock-photo feeling, messy
+  collage, cartoon look, unrealistic anatomy, deformed hands, distorted products, bad text rendering, and real copyrighted magazine logos.
+
+
+  Generate one finished image only in [ASPECT RATIO].'
+preview: https://malongan.github.io/images/styles_previews/fashion_editorial_visual.png
+id: fashion_editorial_visual
+code: ''

@@ -1,0 +1,40 @@
+name: 膨胀花朵 3D
+category: creative
+ratio: '9:16'
+source_author: 张张会发光（求关注版）
+source_url: https://jimeng.jianying.com/ai-tool/work-detail/7595879481982733595
+summary: C4D 3D膨胀花朵与毛绒质感植物，夏日清新色调，极简构图与品牌海报排版。
+tags:
+- 3D
+- 膨胀花朵
+- C4D
+- 毛绒质感
+- 夏日清新
+- 超现实主义
+triggers:
+- C4D风格
+- 膨胀花朵
+- 毛绒质感
+- 夏日清新
+- 治愈风
+- 品牌海报
+features:
+- title: C4D 3D膨胀造型
+  desc: 花朵与植物呈膨胀、圆润的3D造型，毛绒质感，色彩对比强烈又柔和
+- title: 夏日清新色调
+  desc: 干净清爽的色彩搭配，治愈氛围
+- title: 极简构图与留白
+  desc: 品牌海报式排版，大面积留白突出主体
+- title: 超现实主义绘画风格
+  desc: 融合C4D磨砂材质，超高清8K细节
+variables:
+- kv_var: 画面-主体
+  style_var: 主体场景
+  desc: 可替换为不同的花朵/植物组合、产品、场景描述等
+prompt: 'C4D风格，3D膨胀的花朵与毛绒质感的花草，色彩对比强烈又柔和，夏日清新感，色调干净清爽，极简构图与留白设计，品牌海报排版，治愈心情氛围，C4D磨砂材质，超现实主义绘画风格，超高清8K细节
+
+
+  {主体场景}'
+preview: https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.jpg
+id: inflatable_3d_flowers
+code: ''

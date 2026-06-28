@@ -1,0 +1,75 @@
+name: Luxury Birthday Poster Style
+category: e-commerce
+ratio: 3:4 竖版
+source_author: '@MissDelulu9'
+source_url: ''
+summary: 米白纹理纸墙 + 3D 立体雕刻数字内嵌气球花卉 + 人物从数字中"伸出"的 3D 凸出效果 = 高端杂志封面色生日海报。
+tags:
+- 生日
+- 轻奢
+- 海报
+- 儿童摄影
+- 杂志风
+triggers:
+- 轻奢生日
+- 生日海报
+- 儿童摄影
+- 杂志风生日
+features:
+- title: '**构图**：3:4 竖版肖像构图'
+  desc: ''
+- title: '**背景**：米白色纹理纸墙，带细腻颗粒感'
+  desc: ''
+- title: '**核心元素**：墙上雕刻的 3D 立体数字'
+  desc: ''
+- title: '**数字内装饰**：粉色气球、白色花卉、奢牌花束'
+  desc: ''
+- title: '**人物**：穿米白 T 恤 + 粉色背带裤，自然笑容'
+  desc: ''
+- title: '**特效**：人物脸/肩/手/脚从数字中"伸出"，模拟 3D 凸出效果'
+  desc: ''
+- title: '**光效**：温暖电影感金色侧光 + 轮廓光'
+  desc: ''
+- title: '**排版**：墙上文字 `[NAME] CHAPTER [AGE] [AGE] 365 MORE DAYS OF WONDER`'
+  desc: ''
+- title: '**整体风格**：极简奢华编辑风、高端杂志封面质感'
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '[NAME] CHAPTER [AGE]'
+  desc: 墙上文字
+- kv_var: 年龄
+  style_var: '[AGE]'
+  desc: 数字内容
+- kv_var: 画面-主体
+  style_var: 儿童 + 服装
+  desc: 保持笑容
+- kv_var: 画面-装饰
+  style_var: 气球 + 花卉
+  desc: 数字内组合
+- kv_var: 色彩-主色
+  style_var: 米白、粉色
+  desc: 整体色调
+prompt: 'Professional luxury birthday poster, 3:4 portrait composition, ultra high-end studio photography aesthetic. Premium off-white textured paper wall background with subtle grain and depth.
+
+
+  A large number [AGE] is precisely carved into the wall with realistic thickness, beveled edges, and deep inner shadows creating strong 3D depth. Inside the number: soft pastel pink balloons, elegant white
+  flowers, and luxury bouquet arrangement with minimal premium styling.
+
+
+  A happy [AGE]-year-old child with preserved facial identity, wearing a milky white T-shirt and pastel pink denim overalls, laughing naturally.
+
+
+  Face, shoulder, one hand, and one foot extend outside the carved number, creating a realistic 3D pop-out effect.
+
+
+  Warm cinematic golden sunlight from one side, soft rim light, ultra-realistic skin texture, studio-quality lighting, clean natural shadows, photorealistic rendering.
+
+
+  Typography on wall: [NAME] CHAPTER [AGE] [AGE] 365 MORE DAYS OF WONDER.
+
+
+  Minimal luxury editorial layout, high-end magazine cover style, perfect composition, soft contrast, natural colors, no distortions, no AI artifacts.'
+preview: https://malongan.github.io/images/styles_previews/luxury_birthday_poster.jpg
+id: luxury_birthday_poster
+code: ''

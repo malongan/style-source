@@ -1,0 +1,89 @@
+name: Japanese Poetic Dreamy Semi-Realistic Illustration
+category: social_media
+ratio: 3:4 或 9:16
+source_author: '@yyyole（沐阳）'
+source_url: ''
+summary: 黄昏逆光下的诗意插画，暖金发丝光 + 深海蓝阴影，诗歌封面感的抒情氛围。
+tags:
+- 日系
+- 诗意
+- 梦幻
+- 半写实
+- 插画
+- 文艺
+triggers:
+- 日系诗意
+- 日系插画
+- 梦幻插画
+- 诗歌封面
+- 文艺海报
+features:
+- title: '**光照**：黄昏逆光，金色夕阳从侧后方照射，形成强烈发丝光与轮廓光'
+  desc: ''
+- title: '**色彩**：高光暖金黄/奶油白/琥珀橙，阴影深海蓝/灰蓝/靛青，蓝橙冷暖对比'
+  desc: ''
+- title: '**质感**：柔焦、朦胧、轻微失焦，局部过曝、边缘泛光扩散'
+  desc: ''
+- title: '**细节**：细腻颗粒、轻微噪点、色散、彩虹边、轻微拖影'
+  desc: ''
+- title: '**风格定位**：不是摄影风，是诗歌封面感抒情插画'
+  desc: ''
+- title: '**主体塑造**：半写实插画，轮廓柔和，细节概括，重氛围和文学感'
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: 【xxx】主体描述
+  desc: 半写实插画主体
+- kv_var: 画面-氛围
+  style_var: 诗意梦幻
+  desc: 整体调性
+- kv_var: 色彩-高光
+  style_var: 暖金黄、奶油白
+  desc: 光照色彩
+- kv_var: 色彩-阴影
+  style_var: 深海蓝、灰蓝
+  desc: 对比色
+- kv_var: 可选元素
+  style_var: 飞鸟、波光、风、雾气
+  desc: 诗意点缀
+prompt: '日系诗意梦幻半写实插画，主体为【xxx】
+
+
+  光影设定：
+
+  - 光照角度：黄昏逆光，金色夕阳从侧后方照射
+
+  - 光效：形成强烈发丝光与轮廓光
+
+
+  色彩体系：
+
+  - 高光：暖金黄、奶油白、琥珀橙
+
+  - 阴影/背景：深海蓝、灰蓝、靛青色
+
+  - 对比：蓝橙冷暖对比
+
+
+  画面质感：
+
+  - 柔焦、朦胧、轻微失焦
+
+  - 局部过曝、边缘泛光扩散
+
+  - 细腻颗粒、轻微噪点
+
+  - 色散、彩虹边
+
+  - 轻微拖影
+
+
+  整体氛围：浪漫、安静、怀旧、忧郁、梦境感，像90年代日系诗意插画或文艺海报
+
+
+  可选元素：飞鸟、波光、风、雾气、其他诗意元素
+
+  禁止元素：无文字、无水印、无 logo、无明显摄影感'
+preview: https://malongan.github.io/images/styles_previews/japanese_poetic_dreamy.jpg
+id: japanese_poetic_dreamy
+code: ''

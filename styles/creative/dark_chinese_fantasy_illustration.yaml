@@ -1,0 +1,40 @@
+name: 暗黑国风奇幻插画
+category: creative
+ratio: 9:16（竖版）/ 16:9（横版）
+source_author: 白晚萌萌滴
+source_url: https://jimeng.jianying.com/ai-tool/work-detail/7646196547226504499
+summary: 暗黑氛围的国风奇幻插画，融合流光水彩油画与二次元半厚涂，笔触细腻带肌理，柔焦微闪叠加，摄影师级布光。
+tags:
+- 奇幻插画
+- 流光水彩
+- 国风彩漫
+- 暗黑氛围
+- 二次元
+- CG半厚涂
+triggers:
+- 暗黑国风
+- 奇幻插画
+- 水墨油画
+- 国风彩漫
+- 暗雪夜
+features:
+- title: 流光水彩油画质感
+  desc: 水彩的流动感与油画的厚重肌理结合，笔触精细入微
+- title: 国风彩漫暗黑氛围
+  desc: 东方美学与怪诞融合，暗色雪夜架空场景，光暗对比强烈
+- title: CG半厚涂 + 柔焦微闪
+  desc: 既有手绘温度又具数字绘画的光泽感，柔焦与微闪叠加
+- title: 电影感构图
+  desc: 广角镜头全景，电影慢镜头动态捕捉，层次分明
+variables:
+- kv_var: 画面-主体
+  style_var: 主体描述
+  desc: 角色外貌、服装、动作、道具等的详细描写，建议包含：脸部特征、发型发色、服装款式、手持物品（如油灯）、光影特效
+prompt: '奇幻插画，流光水彩油画，二次元风格，繁复精细，画笔勾画细节，笔触细腻，肌理，柔焦，微闪，cg半厚涂，唯美手绘，超高清画质。
+
+  {主体描述}
+
+  暗色雪夜，架空背景，细节精细刻画，微闪，滤镜，光暗对比，广角镜头，电影慢镜头抓拍，全景宏观立体有层次，怪诞，东方美学，高清画质，国风彩漫，暗黑氛围，大师级配色，大师级光影，大师级构图。'
+preview: https://raw.githubusercontent.com/malongan/images/main/jimeng_previews/jimeng_7646196547226504499.jpg
+id: dark_chinese_fantasy_illustration
+code: ''

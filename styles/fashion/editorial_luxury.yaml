@@ -1,0 +1,54 @@
+name: Luxury Perspective Checkerboard Editorial
+category: fashion
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A high-fashion editorial poster style with low-angle luxury photography, sharp red-and-white checkerboard perspective planes, generous white space, oversized custom script typography, and restrained
+  emerald or teal accents. It evokes international luxury maison advertising without copying any real brand mark, campaign, model, product, or exact layout.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Luxury Perspective Checkerboard Editorial
+features:
+- title: Low-angle luxury editorial photography with a monumental subject scale.
+  desc: ''
+- title: Red-and-white checkerboard or tiled graphic plane in extreme perspective.
+  desc: ''
+- title: Large white negative space as the primary background field.
+  desc: ''
+- title: One oversized custom script word spanning behind the subject.
+  desc: ''
+- title: Small centered serif maison-style wordmark area near the upper field.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main model, product, or luxury subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main pose, movement, or product presentation
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: luxury object, accessory, or hero prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: minimal studio, runway, gallery, atelier, salon, or abstract luxury set
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: checkerboard planes, white space, small accent marks, and secondary spatial details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: invented large script word used as a graphic field
+  desc: ''
+prompt: 'Create a polished international luxury editorial poster in the Luxury Perspective Checkerboard Editorial style. Subject: {SUBJECT}. Action or presentation: {SUBJECT_ACTION}. Hero product or prop:
+  {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Typography: place the invented large script word "{MAIN_TEXT}" as an oversized
+  sweeping background graphic behind the subject, and place the small uppercase editorial text "{SECONDARY_TEXT}" near the upper field; add the restrained accent symbol "{ACCENT_SYMBOL}" only once. Preserve
+  these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a low-angle high-fashion photographic camera, crisp studio lighting, generous white space,
+  a red-and-white checkerboard perspective plane, deep black structure, emerald or teal accent details, clean cutout subject edges, glossy premium material highlights, and sparse typography. Do not use
+  any real brand logos, real fashion house names, monograms, watermarks, QR codes, social media UI, price labels, or copied campaign identities. Aspect ratio: {ASPECT_RATIO}.'
+preview: https://malongan.github.io/images/vigo_previews/luxury-perspective-checkerboard-editorial.jpg
+id: editorial_luxury
+code: ''

@@ -1,0 +1,61 @@
+name: Playful Marker Grounding Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A naive hand-drawn poster style built from cream paper margins, loose marker-scribble color blocks, thick uneven keylines, oversized casual lettering, and simple mascot-like figures arranged with
+  clear public-service poster hierarchy.
+tags:
+- VigoCookbook
+- naive
+- marker
+- illustration
+- public-service
+- announcement
+- hierarchy
+triggers:
+- Playful Marker Grounding Poster Style
+features:
+- title: Cream poster-paper border with the artwork sitting inside a slightly inset field rather than bleeding to the edge.
+  desc: ''
+- title: Loose childlike marker-scribble background blocks, mostly bright sky cyan and sour lime green, with uneven white gaps.
+  desc: ''
+- title: Flat illustration with no realistic depth, no cast shadows, no gradients, and no polished vector smoothing.
+  desc: ''
+- title: Thick imperfect black or dark-brown outlines with variable pressure, rounded ends, and visibly wobbly hand-drawn edges.
+  desc: ''
+- title: One oversized simple subject dominates the lower middle of the poster, with tiny supporting props or characters as scale contrast.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the Playful Marker Grounding Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}.
+  Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid:
+  {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: cream poster-paper border around an inset artwork field; loose sky-cyan and sour-lime marker-scribble background blocks with uneven white gaps; one
+  oversized flat simple subject dominating the center-lower area; one tiny supporting prop or character for scale; thick imperfect black or dark-brown hand-drawn outlines with rounded wobbly ends; oversized
+  hand-lettered dark-brown headline in the top zone; small lower-corner supporting text over or near a rough marker swash; tiny doodle accents such as flowers, dots, stars, motion ticks, and grass marks;
+  flat even color with no shadows, no gradients, no realistic depth, no polished vector smoothing. Important content rule: match the reference style first, then change the source content. Use new subjects,
+  new scene details, new props, and new text while preserving the style fidelity anchors. Avoid photorealism, 3D render, airbrush, glossy finish, dense scene clutter, exact source text, exact source pose,
+  dog, butterfly, ground-touching premise, watermarks, signatures, platform marks, QR codes, and brand logos.'
+preview: https://malongan.github.io/images/vigo_previews/playful-marker-grounding-poster.jpg
+id: vigo_playful_marker_grounding_poster
+code: ''

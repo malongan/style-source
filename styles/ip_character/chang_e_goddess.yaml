@@ -1,0 +1,54 @@
+name: chang_e_goddess
+category: ip_character
+ratio: '3:4'
+source_author: 米奇（即梦AI）
+source_url: ''
+summary: 典雅神秘的嫦娥3D盲盒，中国神话与现代3D渲染的结合，清冷高贵的东方美学。
+tags:
+- 3D盲盒
+- 中国神话
+- IP设计
+- 手办盲盒
+- 嫦娥
+triggers:
+- 3D盲盒
+- 中国神话
+- 嫦娥
+- IP角色
+features:
+- title: 3D盲盒角色设计，正视图全身构图
+  desc: ''
+- title: 中国神话嫦娥IP，丹凤眼、白皙皮肤、东方魅力
+  desc: ''
+- title: 淡蓝+银色中式古代月亮裙，飘动丝带
+  desc: ''
+- title: 高绾发髻点缀银色月桂叶
+  desc: ''
+- title: 极简背景，大面积留白，银色云彩
+  desc: ''
+- title: 8K超精细纹理，电影级光影
+  desc: ''
+variables:
+- kv_var: 画面-角色
+  style_var: 角色描述
+  desc: 角色名称和动作
+- kv_var: 画面-场景
+  style_var: 场景
+  desc: 背景环境描述
+- kv_var: 画面-服装
+  style_var: 服装描述
+  desc: 服装颜色和款式
+prompt: 'Create an image in Chang''e 3D Blind Box style. Aspect ratio: 3:4.
+
+  Scene: {角色描述} at {场景}.
+
+  Wearing: {服装描述}.
+
+  Keep the minimalist background with silver clouds.
+
+  Full-body view, centered composition.
+
+  Hyper-detailed textures, soft lighting, 8K resolution.'
+preview: https://malongan.github.io/images/gallery/chang_e_goddess.jpg
+id: chang_e_goddess
+code: ''

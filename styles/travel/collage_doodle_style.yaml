@@ -1,0 +1,100 @@
+name: Surreal Fish Doodle Landmark Photo Collage Style
+category: travel
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts onto realistic landmark photography.
+tags:
+- VigoCookbook
+- bright
+- travel-photo
+- collage
+- overlays
+- giant
+- flat
+- 2D
+- cartoon
+- travelers
+- fantastical
+- folk-art
+- fish
+- marker
+- loops
+- splash
+- marks
+- comic
+- starbursts
+- onto
+- realistic
+- landmark
+- photography
+triggers:
+- Surreal Fish Doodle Landmark Photo Collage Style
+features:
+- title: 'Preserve the core visual identity: A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts
+    onto realistic landmark photography.'
+  desc: ''
+- title: 'Photo base: use a realistic bright travel photograph with clear natural daylight, postcard-like scenic depth, readable sky and water or architecture, and a believable tourist-view perspective.'
+  desc: ''
+- title: 'Illustration layer: overlay one oversized flat 2D illustrated subject across the foreground and middle ground.'
+  desc: ''
+- title: The subject should look pasted or screen-printed on top of the photo, with opaque flat color fills, thick black hand-drawn outlines, simplified hands or face, exaggerated scale, playful anatomy,
+    and bold graphic wardrobe colors.
+  desc: ''
+- title: 'Doodle layer: add ACCENT_SYMBOL plus loose black marker loops, ink starbursts, blue water drops, curved strings, short splash dashes, and motion ticks as an independent graphic layer.'
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: oversized illustrated traveler, guide, fisherman, skateboarder, courier, musician, or explorer
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: leaning over a landmark, floating through the scene, pulling a stripe pole, balancing on a fish, chasing a creature, or bending around architecture
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: painted hiking staff, fishing line, travel bag, map, snack, camera, kite string, ferry ticket, umbrella, or oversized pencil
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: recognizable travel landmark, bridge, bay, harbor, canal, cliff road, mountain pass, plaza, or observation deck
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: blue sky, water, landmark structure, distant city, boats, coastline, clouds, bridge cables, buildings, or tourist-view scenery
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: optional tiny hand-lettered travel caption or none
+  desc: ''
+prompt: 'Create an image in the "Surreal Fish Doodle Landmark Photo Collage" style.
+
+
+  Aspect ratio: {ASPECT_RATIO}.
+
+
+  Scene: {SUBJECT} {SUBJECT_ACTION}, using {PRODUCT_OR_PROP}, at {LOCATION}. Include {BACKGROUND_ELEMENTS}. Wardrobe styling: {WARDROBE_STYLE}.
+
+
+  Photo base: use a realistic bright travel photograph with clear natural daylight, postcard-like scenic depth, readable sky and water or architecture, and a believable tourist-view perspective. Keep the
+  landmark recognizable.
+
+
+  Illustration layer: overlay one oversized flat 2D illustrated subject across the foreground and middle ground. The subject should look pasted or screen-printed on top of the photo, with opaque flat color
+  fills, thick black hand-drawn outlines, simplified hands or face, exaggerated scale, playful anatomy, and bold graphic wardrobe colors.
+
+
+  Creature layer: add two to five fantastical folk-art fish or flying fish around the main subject. Give them mismatched fins, wing-like shapes, round eyes, black tiger-like body stripes, red coral fins,
+  cobalt-blue sections, yellow bodies, and simple black outlines. Let some creatures float in the sky, skim the waterline, or pass behind the main subject.
+
+
+  Doodle layer: add {ACCENT_SYMBOL} plus loose black marker loops, ink starbursts, blue water drops, curved strings, short splash dashes, and motion ticks as an independent graphic layer. Use these marks
+  to create playful movement and connect the illustrated characters to the travel photo.
+
+
+  Text: keep typography minimal. If text is requested, use "{MAIN_TEXT}" only as a tiny hand-lettered travel note and "{SECONDARY_TEXT}" only as a sparse doodle label. Do not make large poster headlines.
+
+
+  Derive only the visual language from the style. Change the landmark, subject pose, outfit, props, and creature arrangement for every new image. Do not include watermarks, usernames, creator IDs, signatures,
+  QR codes, platform marks, app UI, copied reference characters, exact reference poses, brand logos, readable brand marks, full'
+preview: https://malongan.github.io/images/vigo_previews/surreal-fish-doodle-landmark-photo-collage.jpg
+id: collage_doodle_style
+code: ''

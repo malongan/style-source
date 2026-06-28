@@ -1,0 +1,54 @@
+name: Blue Halftone Ransom Zine Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy
+  micro captions.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Blue Halftone Ransom Zine Poster Style
+features:
+- title: Dominant saturated cobalt-blue poster field with a narrow off-white paper border or visible paper edge.
+  desc: ''
+- title: Large irregular torn white paper islands, each with jagged scissor-cut edges and slight shadow or crease relief.
+  desc: ''
+- title: Black-and-white photocopy halftone subject cutouts with coarse dot screens, high contrast, and slightly broken edges.
+  desc: ''
+- title: Two or three oversized cutout subjects arranged as flat collage pieces, not realistic objects inside a scene.
+  desc: ''
+- title: Handwritten marker typography on torn paper strips, with uneven baseline, casual spacing, and imperfect black ink.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the Blue Halftone Ransom Zine Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements:
+  {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors that must
+  remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: saturated cobalt-blue poster field, off-white torn paper scraps, black-and-white
+  coarse photocopy halftone subject cutouts, jagged paper edges, black marker handwriting, tiny handwritten micro captions on blue, shallow paper shadows, crumpled scanner texture, toner noise, gray smudges,
+  visible wrinkles, asymmetric ransom-note collage spacing, and a tight palette of cobalt blue, off-white, black, and gray only. Important content rule: match the visual style first, then change the subject,
+  text, props, and story premise completely from the reference.'
+preview: https://malongan.github.io/images/vigo_previews/blue-halftone-ransom-zine-poster.jpg
+id: vigo_blue_halftone_ransom_zine_poster
+code: ''

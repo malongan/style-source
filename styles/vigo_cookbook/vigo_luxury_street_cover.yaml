@@ -1,0 +1,55 @@
+name: Kinetic Luxury Street Fashion Cover Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A premium street-fashion magazine cover style built from side-profile walking photography, horizontal motion-blurred architecture, one dominant luxury garment, wind-shaped hair, restrained urban
+  neutrals, and oversized wide-spaced serif cover typography. It preserves the kinetic editorial grammar of the reference while changing the model identity, wardrobe, prop, headline, and story details.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Kinetic Luxury Street Fashion Cover Style
+features:
+- title: High-end realistic fashion editorial photography, not illustration, collage, or catalog rendering.
+  desc: ''
+- title: Single model or one dominant model cropped large from thigh to head, moving laterally through the frame.
+  desc: ''
+- title: Side-profile or three-quarter walking pose with calm luxury expression and deliberate street-stride energy.
+  desc: ''
+- title: Strong horizontal motion blur in the background, as if the camera is panning with the subject.
+  desc: ''
+- title: Sharp subject against blurred stone, window, pavement, and street bands, with readable fabric texture.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main fashion subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action, stride, or movement
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: accessory, bag, eyewear, or restrained prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: urban facade, avenue, museum wall, or city street setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: motion-blurred architecture, road, window, pavement, or secondary depth cues
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large editorial cover title, not copied from the reference
+  desc: ''
+prompt: 'Create a realistic high-fashion street editorial magazine cover image in the Kinetic Luxury Street Fashion Cover Style. Subject: {SUBJECT}. Movement: {SUBJECT_ACTION}. Accessory or prop: {PRODUCT_OR_PROP}.
+  Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe: {WARDROBE_STYLE}. Visible editorial cover headline: {MAIN_TEXT}. Tiny supporting cover line: {SECONDARY_TEXT}. Accent detail:
+  {ACCENT_SYMBOL}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. The image must have one dominant model cropped large, side-profile
+  or three-quarter walking energy, subject sharp against strong horizontal motion-blurred architecture, muted stone and asphalt city palette, one crisp statement garment as the main color event, wind-shaped
+  hair or moving fabric, sparse luxury accessory with no logo, premium magazine color grade, natural skin, tactile textile detail, and large centered all-caps high-contrast serif headline with very wide
+  letter spacing in white or warm ivory. Do not use the word VOLUME, real brand names, watermarks, creator text, QR codes, social media UI, price tags, catalog lighting, runway crowds, cartoon style, collage,
+  vector graphics, 3D render, or studio poster design. Aspect ratio: {ASPECT_RATIO}.'
+preview: https://malongan.github.io/images/vigo_previews/kinetic-luxury-street-fashion-cover.jpg
+id: vigo_luxury_street_cover
+code: ''

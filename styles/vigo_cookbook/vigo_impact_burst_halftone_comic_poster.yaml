@@ -1,0 +1,78 @@
+name: Impact Burst Halftone Comic Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs,
+  halftone dots, and distressed screen-print grain.
+tags:
+- VigoCookbook
+- loud
+- retro
+- comic
+- thick
+- ink
+- flat
+- high-saturation
+- colors
+- oversized
+- typography
+- exaggerated
+- illustrated
+- subjects
+- diagonal
+- speech
+- bursts
+- smoke
+- halftone
+- distressed
+- screen-print
+- grain
+triggers:
+- Impact Burst Halftone Comic Poster Style
+features:
+- title: 'Preserve the core visual identity: A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal
+    props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.'
+  desc: ''
+- title: 'Layout: use a bold cropped comic-poster composition.'
+  desc: ''
+- title: Place the main subject large in the lower two-thirds and let the oversized prop cut diagonally across the body or foreground.
+  desc: ''
+- title: 'Style: thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent,
+    distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration.'
+  desc: ''
+- title: 'Avoid: watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism,
+    3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design.'
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main illustrated subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main chaotic action or reaction
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: oversized object, product, tool, weapon, camera, device, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: flat poster setting or symbolic backdrop
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: speech bursts, smoke puffs, starbursts, cyan blocks, yellow corner shapes, impact marks
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: short comic headline, e.g. ZAP!, CRASH!, BANG!, WHAM!
+  desc: ''
+prompt: 'Create an image in impact-burst-halftone-comic-poster-style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}.
+  Style the subject with {WARDROBE_STYLE}. Layout: use a bold cropped comic-poster composition. Put a huge condensed cream block-letter headline reading "{MAIN_TEXT}" across the upper band, with "{SECONDARY_TEXT}"
+  as tiny impact microcopy if it stays clean. Place the main subject large in the lower two-thirds and let the oversized prop cut diagonally across the body or foreground. Add {ACCENT_SYMBOL} as a graphic
+  impact mark. Style: thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent,
+  distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid: watermark, username, creator ID, platform logo, QR code, app UI, artist signature,
+  copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs,
+  and muted corporate design.'
+preview: https://malongan.github.io/images/vigo_previews/impact-burst-halftone-comic-poster.jpg
+id: vigo_impact_burst_halftone_comic_poster
+code: ''

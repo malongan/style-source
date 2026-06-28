@@ -1,0 +1,55 @@
+name: Sunlit Kinetic Block Type Photo Poster
+category: brand_kv
+ratio: 9:16 / 16:9
+source_author: '@VigoCreativeAI'
+source_url: ''
+summary: 全幅日光摄影 + 超大奶色压缩字体 + 对角线裁剪人物 = 让普通人瞬间有「杂志封面主角」的质感。
+tags:
+- VigoCookbook
+- 运动
+- 生活方式
+- 杂志风
+- 文字穿插
+- 日光摄影
+triggers:
+- Sunlit Kinetic Block Type
+- 杂志封面感
+- 文字穿插
+- 人物站字母后
+features:
+- title: Full-bleed sunlit photography
+  desc: 全幅日光摄影，户外明亮场景
+- title: Oversized cream condensed block typography
+  desc: 超大奶色压缩字体，作为画面主体
+- title: Diagonal subject crops
+  desc: 对角线裁剪人物，制造动感
+- title: Compact microcopy clusters
+  desc: 角落密集小字（重复词组）
+- title: Vivid blue-sky color fields
+  desc: 鲜明蓝天色块作为背景
+variables:
+- kv_var: 主标题文字
+  style_var: '{{MAIN_TEXT}}'
+  desc: 单词或短词，如 CUT/MOVE/FRESH
+- kv_var: 人物动作
+  style_var: '{{SUBJECT_ACTION}}'
+  desc: 如 jumping with energy
+- kv_var: 环境场景
+  style_var: '{{LOCATION}}'
+  desc: 如 rooftop court、beach
+- kv_var: 背景细节
+  style_var: '{{BACKGROUND_ELEMENTS}}'
+  desc: 如 city skyline、clouds
+- kv_var: 穿搭风格
+  style_var: '{{WARDROBE_STYLE}}'
+  desc: 如 athletic streetwear
+- kv_var: 色彩-底场
+  style_var: 蓝天色块
+  desc: vivid blue-sky color fields
+- kv_var: 色彩-主色
+  style_var: 奶白色
+  desc: cream condensed block typography
+prompt: ''
+preview: https://malongan.github.io/images/vigo_previews/sunlit_kinetic_block_type_poster.jpg
+id: sunlit_kinetic_block_type_poster
+code: ''

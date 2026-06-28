@@ -1,0 +1,60 @@
+name: Folded Newspaper Product Ad Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red
+  editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.
+tags:
+- VigoCookbook
+- folded
+- newspaper
+- advertorial
+- photorealistic
+- product
+- hero
+triggers:
+- Folded Newspaper Product Ad Style
+features:
+- title: Single off-white broadsheet newspaper page fills the canvas, with visible folds, wrinkles, slightly buckled paper, and uneven scanned print softness.
+  desc: ''
+- title: Dense bilingual editorial layout uses many narrow body-copy columns, rule lines, small captions, box modules, and print-grid alignment behind the hero object.
+  desc: ''
+- title: One enormous photorealistic product or object sits in the lower-to-middle foreground, cropped large and overlapping the flat page as a pasted advertising cutout.
+  desc: ''
+- title: Large black display headline and antique-gold secondary headline dominate the upper or left page, with heavy condensed Chinese-inspired block type.
+  desc: ''
+- title: A rubber-stamp or coupon-stamp frame sits at an angle, using distressed black ink, slab serif or stencil lettering, and small rays or separator marks.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main product, food item, wearable, device, or object shown as the oversized sales hero
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: how the product is presented, opened, poured, lifted, stacked, glowing, or interacting with props
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: supporting wrapper, plate, tool, container, ingredient, packaging, accessory, or foreground prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: implied campaign context, publication setting, shop counter, studio tabletop, outdoor-use cue, or editorial scene
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: newspaper page modules, stamped labels, sidebars, columns, rules, captions, folds, and surrounding print details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large Chinese or bilingual headline text, short enough to behave as a display block
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} raster advertisement in the "Folded Newspaper Product Ad Style". Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location or campaign
+  context: {LOCATION}. Background newspaper elements: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text and microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Styling direction:
+  {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build the image as a wrinkled off-white broadsheet newspaper
+  page with visible folds, dense bilingual body-copy columns, rule lines, boxed captions, distressed black ink, antique-gold display headline blocks, one angled rubber-stamp coupon frame, one narrow red
+  vertical editorial date tab, and one huge photorealistic commercial product hero overlapping the lower or central page. The product should be tactile, glossy or material-rich, partly supported by paper,
+  cloth, foil, tray, wrapper, sleeve, or prop details. Keep the page graphics flat and printed while the product is realistic and foregrounded. The layout should feel crowded, promotional, newspaper-like,
+  nostalgic, and tactile. Change all literal content from the reference while preserving the folded newspaper ad visual system.'
+preview: https://malongan.github.io/images/vigo_previews/folded-newspaper-product-ad.jpg
+id: vigo_folded_newspaper_product_ad
+code: ''

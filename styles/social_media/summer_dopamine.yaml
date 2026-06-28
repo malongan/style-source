@@ -1,0 +1,46 @@
+name: summer_dopamine
+category: social_media
+ratio: '4:3'
+source_author: '@用户收藏'
+source_url: ''
+summary: 一枚圆润的夏日能量罐形飞行器，带着闪电浮雕和虹彩果冻质感，悬浮在绿色草地云朵上，周围散落星星冰块柠檬片，整体明亮活泼的多巴胺配色。
+tags:
+- 夏日
+- 多巴胺
+- 潮流3D
+- 年轻化
+triggers:
+- 夏日多巴胺
+- 多巴胺补给
+- 潮流3D
+features:
+- title: 能量罐飞行器造型：胶囊+滑板+飞船结合，圆润可爱
+  desc: ''
+- title: 果冻塑料材质：高光透明，带虹彩边缘反光
+  desc: ''
+- title: 多巴胺配色：荧光青绿为主，嫩绿浅柠檬黄，天蓝粉色点缀
+  desc: ''
+- title: 草地云朵：主体下方的绿色云团
+  desc: ''
+- title: 潮流装饰：星星、冰块、柠檬片、小白花、叶片、彩色贴纸、粒子
+  desc: ''
+- title: 背景元素：半调网点、弧形轨迹、潮流括号、星星剪影、运动模糊
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '"夏日多巴胺"'
+  desc: 中文大标题
+- kv_var: 英文副标题
+  style_var: '"DOPAMINE SUMMER"'
+  desc: 英文辅助字
+- kv_var: 主体形象
+  style_var: 能量罐飞行器
+  desc: 可替换为其他主体
+- kv_var: 配色
+  style_var: 青绿嫩绿柠檬黄主调
+  desc: 可调整色相
+prompt: 一张夏日多巴胺主题的潮流3D海报，比例4:3，整体以荧光青绿色、嫩绿色、浅柠檬黄为主色，局部点缀少量天蓝色和粉色，背景为明亮渐变绿色光感，画面中央是一枚圆润的夏日能量罐形飞行器，造型像胶囊、滑板和小飞船结合，表面有闪电形状浮雕，材质为高光果冻塑料与透明罩壳，带有柔和虹彩边缘反光，主体下方是一团绿色草地云朵，周围散落黄色星星角色、冰块、柠檬片、小白花、叶片、彩色小贴纸、发光粒子，背景有半调网点圆形、弧形轨迹线、潮流括号、星星剪影和轻微运动模糊，上方排版大标题"夏日多巴胺"，英文辅助字"DOPAMINE
+  SUMMER"，字体要粗大、倾斜、有节奏感，但不要出现任何品牌名称，整体画面年轻、活泼、清爽、可爱、具有社交平台封面感，C4D渲染，超清细节，干净构图，4K，完美像素，无logo、无品牌、无水印。
+preview: https://malongan.github.io/images/styles_previews/summer_dopamine_full.jpg
+id: summer_dopamine
+code: ''

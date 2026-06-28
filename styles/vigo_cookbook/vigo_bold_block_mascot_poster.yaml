@@ -1,0 +1,97 @@
+name: Bold Block Mascot Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A dense flat poster system built from giant black display type, chunky white mascot figures, thick cartoon outlines, tilted cyan or mint color panels, compact badges, tiny red accents, and a clean
+  off-white print surface.
+tags:
+- VigoCookbook
+- flat
+- editorial
+- mascot
+- comic-sticker
+- bold
+- portfolio
+- cover
+- graphic
+triggers:
+- Bold Block Mascot Poster Style
+features:
+- title: Poster-first composition with an oversized black headline occupying the top band, side band, or dominant title block.
+  desc: ''
+- title: High layout density with very little empty space, while all shapes remain simple, flat, and readable.
+  desc: ''
+- title: One or two rounded white mascot-like figures or simplified graphic subjects drawn with very thick black outlines and minimal facial marks.
+  desc: ''
+- title: One large tilted cyan, teal, mint, or lemon color panel crossing the middle of the frame as the main graphic mass.
+  desc: ''
+- title: Secondary green, red, black, or pale color blocks sit behind the subject and are edged by heavy black strokes.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main rounded mascot, figure, product, object, or visual subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action, gesture, presentation, or interaction
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: simplified prop, object, product, icon, card, or graphic device
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: flat poster setting, abstract environment, or editorial surface
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary panels, labels, tabs, grids, microtype, or simple scene blocks
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic display text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Bold Block Mascot Poster Style" visual style.
+
+
+  Subject: {SUBJECT}
+
+  Action: {SUBJECT_ACTION}
+
+  Prop/Product: {PRODUCT_OR_PROP}
+
+  Location: {LOCATION}
+
+  Background: {BACKGROUND_ELEMENTS}
+
+  Main text: {MAIN_TEXT}
+
+  Secondary text: {SECONDARY_TEXT}
+
+  Accent symbol: {ACCENT_SYMBOL}
+
+  Wardrobe/styling: {WARDROBE_STYLE}
+
+
+  Apply these style rules:
+
+  - Dense flat editorial poster composition with oversized ultra-heavy black display typography as a structural block.
+
+  - A single large tilted cyan, mint, teal, or lemon panel crosses the center, backed by a secondary inset shape or project-card block.
+
+  - One chunky rounded white mascot-like subject or simplified graphic object with thick uniform black outline, minimal face marks, and sticker anatomy.
+
+  - Off-white paper base, black linework, cyan/mint/lemon panels, and one small red or high-contrast accent only.
+
+  - Flat raster illustration with screenprint sharpness, subtle paper grain, hard fills, and no realistic light or depth.
+
+  - Add one compact speech bubble, stamp, badge, red card cluster, or editorial label accent, but never a real logo.
+
+  - Use short graphic typography only; headline text can be English or Chinese, but it must behave as a poster shape.
+
+
+  Important content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text while preserving the style fidelity anchors. Avoid
+  coffee themes, source slogans, course identities, watermarks, UI screenshots, real brand marks, exact source mascot anatomy, realistic 3D rendering, glossy product photography, anime scenes, painterly
+  detail, long paragraphs, and cluttered background scenery.'
+preview: https://malongan.github.io/images/vigo_previews/bold-block-mascot-poster.jpg
+id: vigo_bold_block_mascot_poster
+code: ''

@@ -1,0 +1,54 @@
+name: Kinetic Geometric Doodle Cutouts
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A sparse, playful illustration system where a character or object is assembled from oversized flat geometric color pieces, loose black doodle lines, paper grain, and buoyant off-center motion on
+  a warm cream background.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Kinetic Geometric Doodle Cutouts
+features:
+- title: Warm cream paper field with generous empty space around the subject.
+  desc: ''
+- title: One central figure, object, or small scene built from a few oversized geometric blocks.
+  desc: ''
+- title: Flat vector-like shapes with subtle printed grain, dry-brush speckle, and soft sprayed gradients.
+  desc: ''
+- title: Asymmetric kinetic pose with limbs or parts angled diagonally as if mid-motion.
+  desc: ''
+- title: Thick black hand-drawn contour strokes only on small details such as hands, shoes, hair, wheels, handles, or motion marks.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} illustration in the Kinetic Geometric Doodle Cutouts style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or object: {PRODUCT_OR_PROP}. Setting: {LOCATION}. Background
+  details: {BACKGROUND_ELEMENTS}. Wardrobe or styling: {WARDROBE_STYLE}. Optional text treatment: {MAIN_TEXT}; secondary micro marks: {SECONDARY_TEXT}; accent symbol: {ACCENT_SYMBOL}. Style fidelity lock:
+  {STYLE_FIDELITY_ANCHORS}. Content to avoid: {SOURCE_CONTENT_TO_AVOID}. Use a warm cream paper background with generous negative space. Construct the subject from five to nine oversized flat geometric
+  color blocks: tomato orange, cobalt blue, magenta pink, lilac violet, mint green, golden yellow, black, and small white accents. Include subtle risograph grain, dry-brush speckle, and one or two soft
+  sprayed gradients inside selected shapes. Add sparse loose black hand-drawn contour lines only for small expressive details and motion marks. Keep the image flat, airy, asymmetrical, buoyant, handmade,
+  and print-like. Do not use realistic anatomy, 3D rendering, dense scenery, logos, signatures, watermarks, QR codes, or polished fonts.'
+preview: https://malongan.github.io/images/vigo_previews/kinetic-geometric-doodle-cutouts.jpg
+id: vigo_kinetic_geometric_doodle_cutouts
+code: ''

@@ -1,0 +1,42 @@
+name: 温馨故事书咖啡馆
+category: creative
+ratio: 3:4 / 9:16
+source_author: '@Taaruk_'
+source_url: ''
+summary: 将照片转化为温馨治愈的绘本风格咖啡馆插画，带有吉卜力般温暖童话感。
+tags:
+- 故事书插画
+- 咖啡馆
+- 治愈
+- 温暖
+- 吉卜力
+- 可爱
+- 水彩笔触
+- 手绘装饰
+triggers:
+- 温馨故事书插画
+- 咖啡馆治愈
+- 吉卜力插画
+- 儿童绘本
+- 可爱生活肖像
+- 奶油色插画
+features:
+- title: 故事书插画质感
+  desc: 儿童绘本艺术风格，干净的线条、纹理笔触，充满治愈感和叙事性
+- title: 温馨咖啡馆场景
+  desc: 阳光明媚的咖啡馆，大窗户、郁郁葱葱的绿植、鲜花、藤蔓、可爱小鸟，暖橙红墙壁搭配薄荷绿瓷砖
+- title: 可爱手绘元素
+  desc: 漂浮的涂鸦爱心、星星、音符、手绘装饰散落在环境中，增加童话感和趣味性
+- title: 柔和粉彩色调
+  desc: 暖橙红与薄荷绿的温暖配色，柔和的阳光，梦幻光影，饱和度鲜明但不过度
+- title: 保留人物特征
+  desc: 精确保持原照片的姿态、五官、发型、服装，在此基础上进行风格化，脸颊淡粉腮红、大眼睛、温柔微笑
+variables: []
+prompt: Transform the uploaded photo into a cozy whimsical storybook illustration with a warm café aesthetic. Preserve the exact pose, facial features, hairstyle, outfit, and composition of the original
+  subject. Set the scene inside a charming sunlit café with large windows, lush greenery, flowers, hanging vines, cute birds, tiny doodled hearts, stars, musical notes, and hand-drawn decorative elements
+  scattered throughout the environment. Soft pastel color palette, warm orange-red walls, mint-green tiled counter, cozy wooden furniture, blooming plants, dreamy sunlight, cheerful atmosphere, kawaii illustration
+  style, children's book artwork, cute blush on cheeks, expressive eyes, gentle smile, detailed environmental storytelling, highly detailed digital painting, whimsical urban café vibe, cozy lifestyle illustration,
+  vibrant yet soft colors, magical everyday moment, Studio Ghibli-inspired warmth, clean linework, textured brush strokes, ultra-detailed, masterpiece, 8k.
+preview: https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_8fbd1bee.webp
+id: cozy_storybook_cafe
+code: ''

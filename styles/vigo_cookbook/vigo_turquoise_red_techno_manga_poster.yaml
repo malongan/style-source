@@ -1,0 +1,115 @@
+name: Turquoise Red Techno Manga Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure
+  drawing, and slightly faded printed texture.
+tags:
+- VigoCookbook
+- retro
+- techno-manga
+- cream
+- paper
+- ground
+- huge
+- display
+- lettering
+- turquoise
+- technical
+- clothing
+- hardware
+- mechanical
+- linework
+- annotation
+- cel-shaded
+- figure
+- drawing
+- slightly
+- faded
+- printed
+triggers:
+- Turquoise Red Techno Manga Poster Style
+features:
+- title: 'Preserve the core visual identity: A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework,
+    annotation panels, cel-shaded figure drawing, and slightly faded printed texture.'
+  desc: ''
+- title: Place a huge saturated red-orange custom display headline across the upper third or upper half, behind and around the subject.
+  desc: ''
+- title: The headline may use kana-inspired geometric rhythm or condensed block lettering, but it must use new text only.
+  desc: ''
+- title: Make turquoise or teal the dominant clothing, casing, or equipment color; balance it with warm gray machinery, black ink, and red-orange accent parts.
+  desc: ''
+- title: Keep the perspective mostly flat and poster-like, with compact technical drawing depth only inside the prop or apparatus.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main illustrated subject, such as a technician, courier, repair worker, field researcher, designer, or compact service robot
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: clear action or pose that is not riding a motorcycle, such as calibrating, carrying, repairing, waiting, documenting, or balancing a device
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: new technical prop, device, kit, machine, container, tool, module, backpack, drone, instrument, or field apparatus
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: implied poster setting or environment, such as transit depot, greenhouse lab, harbor workshop, rooftop weather station, compact studio, or spaceport service bay
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: oversized headline, cream negative space, technical callout panel, tiny labels, gauges, diagram boxes, accent bars, serial marks, and small interface fragments
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: new oversized display headline, never copied from the reference
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Turquoise Red Techno Manga Poster Style".
+
+
+  Subject: {SUBJECT}
+
+  Action: {SUBJECT_ACTION}
+
+  Prop/Product: {PRODUCT_OR_PROP}
+
+  Location: {LOCATION}
+
+  Background: {BACKGROUND_ELEMENTS}
+
+  Main text: {MAIN_TEXT}
+
+  Secondary text: {SECONDARY_TEXT}
+
+  Accent symbol: {ACCENT_SYMBOL}
+
+  Wardrobe/styling: {WARDROBE_STYLE}
+
+  Style fidelity anchors: cream off-white poster background, huge red-orange block headline, turquoise main mass, large manga-style subject, flat cel shading, dense mechanical linework, annotation boxes,
+  limited retro print palette, faded screenprint grain.
+
+  Source content to avoid: motorcycle rider, motorbike wheel or engine, source character, source pose, copied Japanese headline, signature, watermark, app UI, platform icon, QR code, or direct source-image
+  variant.
+
+
+  Apply these style rules:
+
+  - Use a cream off-white printed poster background with slightly aged paper grain and a few sparse negative-space fields.
+
+  - Place a huge saturated red-orange custom display headline across the upper third or upper half, behind and around the subject. The headline may use kana-inspired geometric rhythm or condensed block
+  lettering, but it must use new text only.
+
+  - Make one large manga-style subject the anchor, occupying roughly 50 to 75 percent of the frame, with flat cel shading, heavy dark outer contours, and fine interior detail.
+
+  - Make turquoise or teal the dominant clothing, casing, or equipment color; balance it with warm gray machinery, black ink, and red-orange accent parts.
+
+  - Add dense technical detail clusters: cables, straps, bolts, vents, panels, gauges, small labels, diagram boxes, and serial tags.
+
+  - Add thin tan or brown-gray annotation boxes, tiny fictional micro text, capsule labels, small seals, arrows, and simple accent symbols in the cream space.
+
+  - Keep the perspective mostly flat and poster-like, with compact technical drawing depth only inside the prop or apparatus.
+
+  - Finish as a slightly faded printed manga poster with grain, subtle'
+preview: https://malongan.github.io/images/vigo_previews/turquoise-red-techno-manga-poster.jpg
+id: vigo_turquoise_red_techno_manga_poster
+code: ''

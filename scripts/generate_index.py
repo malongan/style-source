@@ -18,20 +18,12 @@ CATEGORY_META = {
     'vigo_cookbook': ('VigoCookbook', '📖', '来自 Vigo Cookbook'),
 }
 
-def parse_tags(content: str) -> str:
-    m = re.search(r'\*\*标签\*\*\s*[：:]\s*(.+)', content)
-    if m:
-        tags = re.findall(r'#(\S+)', m.group(1))
-        return ' '.join(f'#{t}' for t in tags[:3])
-    return ''
-
-def parse_scene(content: str) -> str:
-    m = re.search(r'\*\*适用场景\*\*\s*[：:]\s*(.+)', content)
-    return m.group(1).strip() if m else ''
-
-def parse_ratio(content: str) -> str:
-    m = re.search(r'\*\*比例\*\*\s*[：:]\s*(.+)', content)
-    return m.group(1).strip() if m else ''
+def parse_yaml_file(filepath: str) -> dict:
+    """读取 YAML 风格文件，返回结构化数据"""
+    import yaml
+    with open(filepath, 'r', encoding='utf-8') as f:
+        data = yaml.safe_load(f)
+    return data or {}
 
 def generate_category_index(cat_dir: str) -> str:
     """生成单个分类的 _index.md"""
@@ -48,15 +40,15 @@ def generate_category_index(cat_dir: str) -> str:
     ]
 
     for f in sorted(os.listdir(cat_dir)):
-        if not f.endswith('.md') or f.startswith('_'):
+        if not f.endswith('.yaml') or f.startswith('_'):
             continue
         filepath = os.path.join(cat_dir, f)
-        with open(filepath, 'r', encoding='utf-8') as fp:
-            content = fp.read()
-        name = f.replace('.md', '')
-        tags = parse_tags(content)
-        scene = parse_scene(content)
-        ratio = parse_ratio(content)
+        data = parse_yaml_file(filepath)
+        name = f.replace('.yaml', '')
+        tags_raw = data.get('tags', [])
+        tags = ' '.join(f'#{t}' for t in tags_raw[:3]) if isinstance(tags_raw, list) else ''
+        scene = data.get('scene', '')
+        ratio = data.get('ratio', '')
         lines.append(f'| {name} | {tags} | {scene} | {ratio} |')
 
     lines.append('')
@@ -83,7 +75,7 @@ def generate_main_index() -> str:
         if not os.path.isdir(entry_path) or entry.startswith('_'):
             continue
         count = len([f for f in os.listdir(entry_path)
-                     if f.endswith('.md') and not f.startswith('_')])
+                     if f.endswith('.yaml') and not f.startswith('_')])
         meta = CATEGORY_META.get(entry, (entry, '📁', ''))
         lines.append(f'| {meta[1]} {meta[0]} | {count} | {meta[2]} |')
         total += count
@@ -111,15 +103,15 @@ def generate_main_index() -> str:
             '|------|------|----------|------|',
         ])
         for f in sorted(os.listdir(entry_path)):
-            if not f.endswith('.md') or f.startswith('_'):
+            if not f.endswith('.yaml') or f.startswith('_'):
                 continue
             filepath = os.path.join(entry_path, f)
-            with open(filepath, 'r', encoding='utf-8') as fp:
-                content = fp.read()
-            name = f.replace('.md', '')
-            tags = parse_tags(content)
-            scene = parse_scene(content)
-            ratio = parse_ratio(content)
+            data = parse_yaml_file(filepath)
+            name = f.replace('.yaml', '')
+            tags_raw = data.get('tags', [])
+            tags = ' '.join(f'#{t}' for t in tags_raw[:3]) if isinstance(tags_raw, list) else ''
+            scene = data.get('scene', '')
+            ratio = data.get('ratio', '')
             lines.append(f'| {name} | {tags} | {scene} | {ratio} |')
         lines.append('')
 

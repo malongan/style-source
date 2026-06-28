@@ -1,0 +1,74 @@
+name: 旷野的风
+category: travel
+ratio: 3:4 / 16:9 / 4:5
+source_author: 即梦AI（您可来了，赵老师~）
+source_url: ''
+summary: 欢快明亮的夏日草原插画风，顶部花体字标题 + 底部草原/山丘/云朵 + 公路/巴士/帐篷等户外元素，营造自由洒脱的旅行氛围。
+tags:
+- 插画
+- 海报
+- 草原
+- 中国风
+- 花体字
+- 夏日
+- 旅行
+triggers:
+- 旷野的风
+- 中国风插画
+- 草原海报
+- 创意字体
+features:
+- title: '**花体字标题**：画面上方大号花体中文标题，字形流畅、墨迹质感'
+  desc: ''
+- title: '**广阔天空**：占据画面上半部分，蓝天白云，清新自然'
+  desc: ''
+- title: '**草原山丘**：画面下半部分是连绵的绿色草原/山丘，层次丰富'
+  desc: ''
+- title: '**户外元素**：点缀公路、巴士、帐篷、栅栏、小屋等旅行元素'
+  desc: ''
+- title: '**高饱和配色**：绿色 + 蓝色主调，黄色/橙色点缀，夏日感强'
+  desc: ''
+- title: '**插画质感**：手绘插画风格，不是写实照片'
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: 主标题
+  style_var: 花体字内容，如"旷野的风"、"自由之路"、"夏日旅行"等
+  desc: ''
+- kv_var: 天空元素
+  style_var: 蓝天白云、热气球、飞鸟（可选）
+  desc: ''
+- kv_var: 草原山丘
+  style_var: 连绵草原、起伏山丘、树木（可选）
+  desc: ''
+- kv_var: 户外元素
+  style_var: 公路、巴士、帐篷、栅栏、小屋、风车（可选）
+  desc: ''
+- kv_var: 色调
+  style_var: 夏日清新（蓝绿）、夕阳暖调（橙红）、莫兰迪（灰调）
+  desc: ''
+- kv_var: 比例
+  style_var: 3:4（手机壁纸）、16:9（横版海报）、4:5（社交媒体）
+  desc: ''
+prompt: 'Create a cheerful and bright illustration poster featuring a Chinese calligraphy-style title "旷野的风" at the top, set against a vast blue sky with fluffy white clouds.
+
+
+  The lower half of the image shows rolling green grasslands and gentle hills. Scattered across the landscape are travel elements like a winding road, a small bus or camper, tents, wooden fences, and a
+  cozy cottage.
+
+
+  Color palette: vibrant greens for the grasslands, bright blues for the sky, with warm yellows and oranges as accents. High saturation, fresh summer feeling.
+
+
+  Style: flat illustration with slight texture, resembling modern travel posters or brand campaign visuals. Clean lines, bold colors, playful composition.
+
+
+  The text should be at the top, large and prominent, with brush-stroke texture and ink bleeding effects.
+
+
+  Maintain a sense of freedom, adventure, and youthful energy throughout the composition.'
+preview: https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.jpg
+id: wilderness_wind_poster
+code: ''

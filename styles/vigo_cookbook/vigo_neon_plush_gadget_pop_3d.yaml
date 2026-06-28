@@ -1,0 +1,57 @@
+name: Neon Plush Gadget Pop 3D Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A glossy toy-advertising 3D style built from acid lime studio backdrops, oversized fuzzy plush mascots, chunky tech props, soft textile surfaces, translucent plastic accessories, checkerboard cards,
+  sticker-like icons, hot-pink burst graphics, and bright commercial lighting.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Neon Plush Gadget Pop 3D Style
+features:
+- title: Acid lime or neon yellow-green studio background dominates the frame, with a soft gradient glow rather than realistic scenery.
+  desc: ''
+- title: A single oversized plush mascot or fuzzy toy object fills the lower center, cropped close enough to feel tactile and collectible.
+  desc: ''
+- title: Surfaces mix fuzzy knitted fabric, soft fleece, glossy molded plastic, translucent jelly material, chrome accents, and rubbery toy parts.
+  desc: ''
+- title: The main prop is a chunky toy-like gadget or product object sitting on or hugging the plush subject.
+  desc: ''
+- title: Palette uses electric lime as the base with cyan, sky blue, hot pink, lavender, yellow, white, chrome gray, and small black details.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main plush mascot, fuzzy object, or toy-like character
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: simple staged action or pose
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: chunky gadget, toy product, accessory, snack object, or display prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: minimal neon studio set, shelf, counter, or toy display environment
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: burst shapes, checkerboards, floating icons, stickers, soft blobs, secondary toy props, or graphic rays
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: short display-card headline or product-style word
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} finished raster image in the "Neon Plush Gadget Pop 3D Style". Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background
+  elements: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}.
+  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: acid lime or neon yellow-green studio background, oversized fuzzy plush main subject, rounded inflated toy shapes, visible
+  knit or fleece texture, chunky gadget or product prop, glossy molded plastic, translucent jelly details, chrome highlights, hot-pink burst graphics, checkerboard cards, sticker labels, tiny tags, playful
+  Y2K icon grammar, foreground shelf edge when useful, high-key commercial studio lighting, soft bloom, polished 3D product-render finish, close front three-quarter product perspective, tactile collectible
+  mood. Important content rule: preserve the style anchors first, then change the original content completely with new subject, prop, display text, colors within the palette, and story premise. Avoid: watermark,
+  username, creator ID, platform logo, QR code, signature, brand mark, app mark, copied source text, VIP, membership card, camera-on-head, green dragon, dinosaur, monster head, blue snout, FILLTER tag,
+  barcode spray can, copied flower button, copied pink basketball, exact checkerboard card, flat vector art, dark cinematic realism, natural landscape, detailed real room, long readable paragraphs, corporate
+  interface.'
+preview: https://malongan.github.io/images/vigo_previews/neon-plush-gadget-pop-3d.jpg
+id: vigo_neon_plush_gadget_pop_3d
+code: ''

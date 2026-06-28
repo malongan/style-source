@@ -1,0 +1,93 @@
+name: Neon Kinetic Typographic Poster
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.
+tags:
+- VigoCookbook
+- dramatic
+- outdoor
+- editorial
+- combining
+- low-angle
+- lifestyle
+- photography
+- oversized
+- warped
+- neon
+- typography
+- film
+- grain
+- high-energy
+- youth-culture
+- campaign
+triggers:
+- Neon Kinetic Typographic Poster
+features:
+- title: 'Preserve the core visual identity: A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture
+    campaign design.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+  desc: ''
+- title: Use an extreme low-angle wide-angle camera perspective, as if the camera is near the ground looking upward.
+  desc: ''
+- title: Add oversized warped neon yellow typography using MAIN_TEXT.
+  desc: ''
+- title: The typography should wrap around the composition and sit behind or partially around the subject.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main human figure or object
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: dynamic action performed by the subject
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object held, worn, used, or displayed by the subject
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: outdoor environment or contextual scene
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: sky, hills, architecture, crowd, stage lights, roads, rocks, grass, clouds, dust, or other secondary scenery
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large repeated headline word or phrase
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} poster in the "Neon Kinetic Typographic Poster" style.
+
+
+  Main subject: {SUBJECT}.
+
+  Action: {SUBJECT_ACTION}.
+
+  Prop or product: {PRODUCT_OR_PROP}.
+
+  Location: {LOCATION}.
+
+  Background elements: {BACKGROUND_ELEMENTS}.
+
+  Wardrobe or styling: {WARDROBE_STYLE}.
+
+
+  Use an extreme low-angle wide-angle camera perspective, as if the camera is near the ground looking upward. The subject should feel large, energetic, and close to the viewer.
+
+
+  Add oversized warped neon yellow typography using the main text "{MAIN_TEXT}". The letters should be ultra-bold, condensed, stretched, slanted, and partially cropped by the canvas edges. The typography
+  should wrap around the composition and sit behind or partially around the subject.
+
+
+  Add a thin repeated uppercase text band reading "{SECONDARY_TEXT}", separated by "{ACCENT_SYMBOL}" symbols. The secondary text should run horizontally across the image like a campaign graphic stripe.
+
+
+  Use electric neon yellow graphics, warm sunlit photographic tones, blue sky contrast, visible film grain, analog print texture, hard shadows, and an energetic youth-culture campaign poster mood.
+
+
+  Avoid clean corporate design, small typography, flat illustration, pastel colors, luxury minimalism, and symmetrical static layout.'
+preview: https://malongan.github.io/images/vigo_previews/neon-kinetic-typographic-poster.jpg
+id: vigo_neon_kinetic_typographic_poster
+code: ''

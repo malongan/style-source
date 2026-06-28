@@ -1,0 +1,62 @@
+name: Electric Blue Silhouette Product Launch Style
+category: e-commerce
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A sparse premium consumer-tech launch poster style built from black negative space, a centered product silhouette, electric-blue rim lighting, a glowing horizontal platform, soft reflection, giant
+  cropped blue background typography, and clean white announcement copy.
+tags:
+- VigoCookbook
+- minimal
+- dark
+- consumer-electronics
+- launch
+- silhouette
+- product
+- teaser
+- premium
+- announcement
+triggers:
+- Electric Blue Silhouette Product Launch Style
+features:
+- title: Nearly black upper field with large areas of empty space.
+  desc: ''
+- title: Single product hero centered on the vertical axis or slightly below center.
+  desc: ''
+- title: Product remains mostly black, readable through electric-blue rim light and one tiny white status highlight.
+  desc: ''
+- title: Strong horizontal electric-blue platform or horizon line divides stage and foreground.
+  desc: ''
+- title: Blue glow spreads across the floor with a soft reflection or shadow directly under the product.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main product, object, or technology category
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: how the object is staged or presented
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: specific object, product, or prop shape
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: minimal stage, tabletop, or void-like setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary atmospheric details and background type behavior
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or giant background word
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} premium dark consumer-tech launch poster in an electric-blue silhouette style. Feature {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} staged in {LOCATION}. Add {BACKGROUND_ELEMENTS}.
+  Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Composition: one centered brandless product silhouette, large black negative space, a glowing
+  electric-blue horizontal platform, blue floor reflection beneath the object, giant cropped blue geometric sans-serif background typography reading "{MAIN_TEXT}" behind the product, clean white lower launch
+  copy using "{SECONDARY_TEXT}", and a tiny minimal accent mark or status light "{ACCENT_SYMBOL}". Lighting: low-key black stage, cyan-blue rim light, glossy edge highlights, soft bloom, haze, deep shadows,
+  no warm accents. Typography: sparse, premium, clean geometric sans-serif, no real logos. Wardrobe or human styling if present: {WARDROBE_STYLE}. Keep the layout minimal, symmetrical, cinematic, and teaser-like
+  rather than dense or feature-heavy.'
+preview: https://malongan.github.io/images/vigo_previews/electric-blue-silhouette-product-launch.jpg
+id: style_product
+code: ''

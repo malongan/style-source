@@ -1,0 +1,35 @@
+name: Retro Cel Animation
+category: ip_character
+ratio: 3:4 / 4:3
+source_author: 推文 @azed_ai
+source_url: ''
+summary: 复古赛璐珞动画风格，手绘背景配合可见的赛璐珞线条，柔和色调和颗粒感营造怀旧氛围。
+tags:
+- azed_ai
+- 推文收集
+- Retro_Cel_Animation
+triggers:
+- Retro cel animation
+features:
+- title: '**风格**：复古赛璐珞动画（Retro cel animation）'
+  desc: ''
+- title: '**线条**：可见的赛璐珞线条（visible cel lines）'
+  desc: ''
+- title: '**背景**：手绘背景（hand-painted background）'
+  desc: ''
+- title: '**色调**：柔和的 [颜色1] 和 [颜色2] 色调（muted palette）'
+  desc: ''
+- title: '**质感**：柔和的颗粒感（soft grain）'
+  desc: ''
+- title: '**光影**：柔和的灯光（gentle lighting）'
+  desc: ''
+- title: '**角色**：表情丰富的角色设计（expressive character design）'
+  desc: ''
+- title: '**整体**：复古动画帧美感（vintage animation frame aesthetic）'
+  desc: ''
+variables: []
+prompt: Retro cel animation style, [subject] in a [setting], hand-painted background, visible cel lines, muted [color1] and [color2] palette, soft grain, gentle lighting, expressive character design, vintage
+  animation frame aesthetic
+preview: https://malongan.github.io/images/styles_previews/azed_retro_cel_4.jpg
+id: retro_cel_animation
+code: ''

@@ -1,0 +1,93 @@
+name: Soft Analog Future Editorial Poster
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels,
+  botanical foreground accents, and tiny bilingual information design.
+tags:
+- VigoCookbook
+- quiet
+- analog-future
+- editorial
+- using
+- warm
+- cream
+- paper
+- oversized
+- neo-grotesk
+- typography
+- strict
+- rules
+- retro
+- technology
+- still
+- life
+- pale-blue
+- translucent
+- interface
+- botanical
+- foreground
+- accents
+- tiny
+- bilingual
+- information
+triggers:
+- Soft Analog Future Editorial Poster
+features:
+- title: 'Preserve the core visual identity: A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life,
+    pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.'
+  desc: ''
+- title: Place PRODUCT_OR_PROP in LOCATION as the restrained hero object.
+  desc: ''
+- title: 'Typography: set MAIN_TEXT as very large black neo-grotesk type.'
+  desc: ''
+- title: Use ACCENT_SYMBOL as a sparse graphic mark.
+  desc: ''
+- title: 'Visual treatment: warm cream paper background, strict grid layout, thin rules, soft daylight, tactile matte materials, gentle paper grain, pale-blue translucent interface panel, botanical foreground
+    accents, and quiet negative space.'
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main person, field, discipline, audience, or symbolic focus
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: what the system helps the subject do or understand
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: retro-future device, workstation, instrument, archive object, display, console, or product-like prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: studio, archive desk, greenhouse lab, civic model room, classroom, clinic, observatory, or quiet workspace
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: paper texture, thin rules, metadata blocks, issue date, numbered list, botanical details, translucent UI panel, dotted halftone, small crosshair marks
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large poster headline
+  desc: ''
+prompt: 'Create an image in soft-analog-future-editorial-poster-style.
+
+
+  Aspect ratio: {ASPECT_RATIO}.
+
+
+  Scene: {SUBJECT} is supported by a calm analog-future system that helps them {SUBJECT_ACTION}. The hero prop is {PRODUCT_OR_PROP} placed in {LOCATION}. Include {BACKGROUND_ELEMENTS} as restrained editorial
+  details. If people are visible, wardrobe and styling should be {WARDROBE_STYLE}.
+
+
+  Typography: set the main headline as very large black neo-grotesk type reading "{MAIN_TEXT}". Add "{SECONDARY_TEXT}" as tiny editorial microcopy, numbered list text, date/issue style labels, or bilingual
+  captioning. Use {ACCENT_SYMBOL} as a sparse graphic mark.
+
+
+  Visual treatment: warm cream paper background, strict grid layout, thin rules, soft daylight, tactile matte materials, gentle paper grain, pale-blue translucent interface panel, botanical foreground accents,
+  and quiet negative space. Keep the design premium, readable, and editorial.
+
+
+  Avoid: watermark, logo, creator ID, QR code, platform UI, copied brand mark, glossy cyberpunk, dark sci-fi, neon gamer interface, childish mascot, busy collage, unreadable text, and cluttered typography.'
+preview: https://malongan.github.io/images/vigo_previews/soft-analog-future-editorial-poster.jpg
+id: vigo_analog_editorial_poster
+code: ''

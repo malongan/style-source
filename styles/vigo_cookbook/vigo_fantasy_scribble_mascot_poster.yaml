@@ -1,0 +1,94 @@
+name: Fantasy Scribble Mascot Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white
+  paper field.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Fantasy Scribble Mascot Poster Style
+features:
+- title: White paper field with the image treated like a scanned handmade poster rather than a polished digital illustration.
+  desc: ''
+- title: Huge irregular hand-painted headline letters occupying the top or one dominant edge of the composition.
+  desc: ''
+- title: Thick, uneven, dry-brush black outlines around characters, props, text, and many decorative marks.
+  desc: ''
+- title: Flat marker-fill color blocks using electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents.
+  desc: ''
+- title: Childlike fantasy mascot anatomy with playful distortion, blunt legs, long ears, floating eyes, and simplified facial dots.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Fantasy Scribble Mascot Poster Style" visual style.
+
+
+  Subject: {SUBJECT}
+
+  Action: {SUBJECT_ACTION}
+
+  Prop/Product: {PRODUCT_OR_PROP}
+
+  Location: {LOCATION}
+
+  Background: {BACKGROUND_ELEMENTS}
+
+  Main text: {MAIN_TEXT}
+
+  Secondary text: {SECONDARY_TEXT}
+
+  Accent symbol: {ACCENT_SYMBOL}
+
+  Wardrobe/styling: {WARDROBE_STYLE}
+
+  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+
+  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+
+
+  Apply these style rules as concrete visual direction:
+
+  - Composition: one oversized flat mascot or object anchors the poster, with two or three smaller companion doodles orbiting it; use a white paper field, dense handmade collage balance, and visible open
+  gaps filled by stars, rings, arrows, loops, plant stems, and tiny handwritten callouts.
+
+  - Typography: create a huge irregular hand-painted headline as part of the drawing; use thick black dry-brush letters, wobbly baselines, uneven spacing, and smaller handwritten phrases as graphic texture.
+
+  - Color: use high-saturation marker blocks with electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents; keep black outlines dominant and the white paper visible.
+
+  - Texture and lighting: flat scanned marker-and-ink treatment with marker streaks, scratchy overdraw, dirty paper texture, pressure changes, and no realistic lighting, no shadows, no gradients, and no
+  glossy finish.
+
+  - Graphic elements: use naive fantasy mascot shapes, blunt limbs, floating eyes, patch symbols, orbit rings, starbursts, scribble fills, and intentionally awkward handmade registration.
+
+
+  Avoid polished vector art, anime, 3D rendering, photorealism, platform UI, watermarks, logos, creator signatures, QR codes, exact source wording, exact source character silhouettes, and the original source
+  story arrangement.
+
+
+  Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while pres'
+preview: https://malongan.github.io/images/vigo_previews/fantasy-scribble-mascot-poster.jpg
+id: vigo_fantasy_scribble_mascot_poster
+code: ''

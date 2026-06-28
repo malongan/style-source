@@ -1,0 +1,37 @@
+name: 就要去爬山（Climb Mountain Typography）
+category: typography
+ratio: '4.5'
+source_author: 即梦用户
+source_url: ''
+summary: 笔画大胆夸张的创意字体设计，抽象变形创造独特的节奏和动感。
+tags:
+- 字体设计
+- 创意字体
+- 抽象变形
+- 颗粒噪点
+- 黑底白字
+triggers:
+- 创意字体设计
+- 抽象变形
+- 颗粒噪点
+- 黑底白字
+features:
+- title: 抽象变形
+  desc: 笔画大胆夸张，字尾连接或拉长
+- title: 独特节奏
+  desc: 创造强烈的视觉冲击
+- title: 颗粒噪点
+  desc: 复古质感
+- title: 黑底白字
+  desc: 高级感、扁平化
+variables:
+- kv_var: 中文文字
+  style_var: 就要去爬山
+  desc: 可替换为其他中文短语
+- kv_var: 风格描述
+  style_var: 笔画大胆夸张，抽象变形
+  desc: 可调整夸张程度
+prompt: 线条流畅且富有艺术感，中文"就要去爬山"，创意字体设计，设计灵感:将字体进行抽象变形，笔画大胆夸张，部分笔画字尾可巧妙连接或拉长，创造出独特的节奏和动感，给人以强烈的视觉冲击。笔画有颗粒噪点，黑底白字，高级感，扁平化，大师作品
+preview: https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.jpg
+id: climb_mountain_typography
+code: ''

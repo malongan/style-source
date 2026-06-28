@@ -1,0 +1,50 @@
+name: 3D街潮实验室海报
+category: brand_kv
+ratio: '16:9'
+source_author: '@VigoCreativeAI'
+source_url: ''
+summary: 酸柠绿主调 + 黑色巨字 + 街头实验道具台。
+tags:
+- 街潮
+- 3D
+- 潮牌
+- 实验
+- 潮流
+triggers:
+- 街潮
+- 3D
+- 潮牌
+- 实验室风
+- 街头潮流
+features:
+- title: 酸柠绿（acid lime）主色调
+  desc: ''
+- title: 黑色巨字排版
+  desc: ''
+- title: 3D风格化角色 + 潮流道具
+  desc: ''
+- title: 贴纸、警告标签、条形码等街头元素
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: MAIN_TEXT
+  desc: 左侧黑色巨字
+- kv_var: Slogan
+  style_var: ACCENT
+  desc: 小贴纸文案
+- kv_var: 画面-场景
+  style_var: SCENE
+  desc: 背景场景描述
+- kv_var: 画面-动作
+  style_var: SUBJECT_ACTION
+  desc: IP的动作姿态
+- kv_var: 画面-道具
+  style_var: HERO_PROP
+  desc: 主角道具
+- kv_var: IP形象
+  style_var: 参考图
+  desc: 不在变量里，用参考图
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/streetwear_lab.png
+id: streetwear_lab
+code: ''

@@ -1,0 +1,36 @@
+name: 麦肯锡风格
+category: science
+ratio: 16:9 或 5:2
+source_author: '@AdrianPunk115'
+source_url: ''
+summary: 顶级咨询公司的专业、克制、理性风格 —— 文字不仅是标题，更是画面结构的一部分。
+tags:
+- 咨询
+- 商业
+- PPT
+- 封面
+- 信息图
+- 专业
+- 麦肯锡
+triggers:
+- 麦肯锡风格
+- 咨询风
+- 商业封面
+- PPT封面
+- 商业报告
+features:
+- title: 麦肯锡 / BCG / Bain 风格的理性克制专业气质
+  desc: ''
+- title: 巨型主视觉词 + 核心商业隐喻
+  desc: ''
+- title: 清晰的商业主题表达
+  desc: ''
+- title: 视觉隐喻与文字、图形融合
+  desc: ''
+- title: 高级干净有秩序的画面
+  desc: ''
+variables: []
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/mckinsey_style.png
+id: mckinsey_style
+code: ''

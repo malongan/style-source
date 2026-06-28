@@ -1,0 +1,31 @@
+name: 高级电商图
+category: e-commerce
+ratio: '16:9'
+source_author: '@VigoCreativeAI'
+source_url: ''
+summary: 黑色奢华轮廓 + 红白格子透视地板 = 高级商业摄影。
+tags:
+- 电商
+- 产品
+- 摄影棚
+- 商业
+- 高端
+triggers:
+- 电商图
+- 商品展示
+- 摄影棚风
+- 高端产品图
+features:
+- title: 黑色奢华轮廓造型
+  desc: ''
+- title: 深翡翠绿点缀色
+  desc: ''
+- title: 红白格子透视地板
+  desc: ''
+- title: 极简白色摄影棚背景
+  desc: ''
+variables: []
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/luxury_product.png
+id: luxury_product
+code: ''

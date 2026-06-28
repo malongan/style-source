@@ -1,0 +1,52 @@
+name: 阳光3D头像营销风
+category: ip_character
+ratio: 9:16 或 16:9
+source_author: '@VigoCreativeAI'
+source_url: ''
+summary: 光泽玩具风头像 + 饱和蓝天 + 霓虹动感标记。
+tags:
+- 3D
+- 头像
+- 玩具
+- 营销
+- 阳光
+- 活动
+triggers:
+- 阳光3D
+- 头像风
+- 玩具风
+- 营销风
+features:
+- title: 光泽玩具风3D头像
+  desc: ''
+- title: 饱和蓝天户外光照
+  desc: ''
+- title: 夸张广角透视
+  desc: ''
+- title: 超大斜体标题排版
+  desc: ''
+- title: 霓虹手绘动感标记
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: MAIN_TEXT
+  desc: 超大斜体标题
+- kv_var: Slogan
+  style_var: SECONDARY_TEXT
+  desc: 辅助文案
+- kv_var: 画面-人物动作
+  style_var: SUBJECT_ACTION
+  desc: IP的动作姿态
+- kv_var: 画面-道具
+  style_var: PRODUCT_OR_PROP
+  desc: 产品/道具
+- kv_var: 画面-场景
+  style_var: LOCATION
+  desc: 环境背景
+- kv_var: IP形象
+  style_var: SUBJECT + 参考图
+  desc: 不在变量里，用参考图
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/sunny_3d.png
+id: sunny_3d
+code: ''

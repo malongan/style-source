@@ -1,0 +1,35 @@
+name: 时尚 Campaign 排版海报
+category: fashion
+ratio: '9:16'
+source_author: '@MrLarus'
+source_url: ''
+summary: 高端时尚 campaign 排版海报：排版本身就是画面结构，超大字体 + 强视觉层级 + 品牌调性。
+tags:
+- 时尚
+- campaign
+- 排版
+- 品牌
+- 奢侈品
+- 杂志
+triggers:
+- 时尚campaign
+- 奢侈品海报
+- 排版海报
+- 杂志风
+- fashion campaign
+features:
+- title: 排版成为画面结构，不只是装饰
+  desc: ''
+- title: 超大字体 + 强视觉层级
+  desc: ''
+- title: 编辑式构图 + 负空间
+  desc: ''
+- title: 真实时尚摄影 + 精致打光
+  desc: ''
+- title: 清晰的品牌调性
+  desc: ''
+variables: []
+prompt: ''
+preview: https://malongan.github.io/images/temp/temp_20260613_001.jpg
+id: fashion_campaign_typography
+code: ''

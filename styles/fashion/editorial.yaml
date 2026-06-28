@@ -1,0 +1,53 @@
+name: Sunlit Supermodel Nameplate Editorial
+category: fashion
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A warm analog fashion editorial poster style combining an outdoor supermodel photograph, lush foreground texture, a small material nameplate detail, and clean white lower-third title/caption typography.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Sunlit Supermodel Nameplate Editorial
+features:
+- title: Low-angle or seated outdoor fashion editorial composition with the model filling the middle third.
+  desc: ''
+- title: Warm direct sunlight, soft analog shadow rolloff, natural skin highlights, and slight film contrast.
+  desc: ''
+- title: Dense botanical or environmental foreground blur crossing the lower frame.
+  desc: ''
+- title: Shallow depth of field with garden, greenhouse, terrace, or coastal texture melting into bokeh.
+  desc: ''
+- title: Calm supermodel posture with elongated neck, relaxed hands, and composed expression.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main supermodel or editorial fashion subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: poised seated, reclining, leaning, or kneeling action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: luxury prop, case, chair, trunk, compact, garment detail, or object carrying a small material nameplate
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: outdoor or greenhouse editorial environment
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: botanical or environmental details that create soft foreground and background depth
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large lower-third editorial headline
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} premium analog fashion editorial poster photograph. Subject: {SUBJECT}. Action and pose: {SUBJECT_ACTION}. Wardrobe and styling: {WARDROBE_STYLE}. Product or prop: {PRODUCT_OR_PROP},
+  with a small physical nameplate, plaque, tag, or engraved label integrated into the object. Location: {LOCATION}. Background and foreground details: {BACKGROUND_ELEMENTS}. Preserve these style fidelity
+  anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use warm direct sunlight, shallow depth of field, foreground botanical or textile blur, slight film grain, soft
+  analog shadows, tactile fabric and metal textures, relaxed luxury mood, and a close low editorial camera angle. Add clean white lower-third typography: large uppercase headline text reading "{MAIN_TEXT}"
+  followed by the accent "{ACCENT_SYMBOL}", with a smaller white caption block reading "{SECONDARY_TEXT}". The typography should feel printed on a fashion magazine prompt-card poster, not like a watermark
+  or app UI. Do not use real logos or real brand marks.'
+preview: https://malongan.github.io/images/vigo_previews/sunlit-supermodel-nameplate-editorial.jpg
+id: editorial
+code: ''

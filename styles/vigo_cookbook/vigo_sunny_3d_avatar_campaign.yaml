@@ -1,0 +1,55 @@
+name: Sunny 3D Avatar Campaign Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A bright social campaign poster style built from glossy toy-like 3D avatars, saturated blue-sky outdoor lighting, exaggerated wide-angle perspective, oversized slanted headline typography, and
+  neon hand-drawn motion marks.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Sunny 3D Avatar Campaign Style
+features:
+- title: Glossy stylized 3D avatar rendering with smooth doll-like faces, rounded hands, soft plastic skin, and simplified expressive eyes.
+  desc: ''
+- title: Extreme sunny outdoor campaign lighting with crisp highlights, clean shadows, and a clear vacation-day atmosphere.
+  desc: ''
+- title: Deep saturated sky-blue upper field balanced by vivid green or fresh outdoor color in the lower field.
+  desc: ''
+- title: Wide-angle near-camera perspective with the lead avatar or prop cropped large in the foreground and secondary elements stepping backward.
+  desc: ''
+- title: Oversized bold white headline typography, angled slightly, stacked over the sky area with a dimensional poster feel.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject or avatar group
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action or pose
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details and visual texture
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create an {ASPECT_RATIO} high-energy social campaign poster in Sunny 3D Avatar Campaign Style. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}.
+  Scene content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Wardrobe and character styling: {WARDROBE_STYLE}. Composition: bright saturated sky-blue
+  upper field reserved for huge angled bold white headline typography; wide-angle low camera perspective; oversized foreground subject or prop cropped close to camera; supporting details recede into the
+  midground; lower campaign callout label. Typography: set the main replacement headline as "{MAIN_TEXT}" in large bold white slanted geometric display letters, with smaller supporting text "{SECONDARY_TEXT}"
+  in rounded sans-serif. Graphic accents: add neon lime and cyan hand-drawn loops, swoops, underlines, and the accent symbol "{ACCENT_SYMBOL}" around the headline without using any real platform logo. Rendering:
+  glossy stylized 3D avatars, smooth toy-like faces and rounded hands, tactile fabric and prop textures, crisp sunny outdoor lighting, vivid blue-green commercial palette, polished high-resolution raster
+  finish.'
+preview: https://malongan.github.io/images/vigo_previews/sunny-3d-avatar-campaign.jpg
+id: vigo_sunny_3d_avatar_campaign
+code: ''

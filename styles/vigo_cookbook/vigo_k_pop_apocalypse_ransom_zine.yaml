@@ -1,0 +1,76 @@
+name: K-Pop Apocalypse Ransom Zine Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red
+  accents, and a bold bottom masthead band.
+tags:
+- VigoCookbook
+- maximalist
+- K-pop
+- fashion
+- zine
+- collage
+- central
+- portrait
+- crumpled
+- monochrome
+- paper
+- skewed
+- ransom-note
+- typography
+- loud
+- sticker
+- blocks
+- saturated
+- lime/blue/red
+- accents
+- bold
+- bottom
+- masthead
+- band
+triggers:
+- K-Pop Apocalypse Ransom Zine Style
+features:
+- title: 'Preserve the core visual identity: A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker
+    blocks, saturated lime/blue/red accents, and a bold bottom masthead band.'
+  desc: ''
+- title: Use a dark crumpled black paper background with BACKGROUND_ELEMENTS worked into the collage texture.
+  desc: ''
+- title: Place the subject as a large central portrait cutout with a thick irregular torn white paper border.
+  desc: ''
+- title: Add oversized warped display typography reading MAIN_TEXT as a tilted collage layer, plus smaller sticker blocks and side editorial captions reading SECONDARY_TEXT.
+  desc: ''
+- title: Use acid lime, electric blue, alert red, paper white, and ink black.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject, performer, model, musician, dancer, stylist, or youth-culture character
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: looking off-frame, posing with attitude, holding a prop, leaning into the camera, or standing in a cutout portrait pose
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: compact camera, wired earbuds, lip gloss, denim jacket, cassette, charm bag, safety pin accessory, or styling prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: studio wall, backstage corner, bedroom mirror, subway entrance, alley poster wall, roof landing, or DIY magazine set
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: crumpled black paper, distressed denim texture, torn white paper edges, photocopy grain, halftone noise, tape marks, and rough scanned shadows
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: oversized warped headline or sticker headline
+  desc: ''
+prompt: Create a {ASPECT_RATIO} K-pop apocalypse ransom zine poster featuring {SUBJECT} {SUBJECT_ACTION}, styled in {WARDROBE_STYLE}, with {PRODUCT_OR_PROP}. Use a dark crumpled black paper background with
+  {BACKGROUND_ELEMENTS}. Place the subject as a large central portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading "{MAIN_TEXT}" as a tilted collage
+  layer, plus smaller sticker blocks and side editorial captions reading "{SECONDARY_TEXT}". Use acid lime, electric blue, alert red, paper white, and ink black. Add {ACCENT_SYMBOL} near the portrait. Finish
+  with a saturated bottom masthead strip, rough photocopy grain, halftone speckles, scan noise, uneven paper shadows, and DIY magazine collage energy. Do not include watermarks, usernames, creator IDs,
+  QR codes, platform logos, app marks, copied publication logos, or exact source text.
+preview: https://malongan.github.io/images/vigo_previews/k-pop-apocalypse-ransom-zine.jpg
+id: vigo_k_pop_apocalypse_ransom_zine
+code: ''

@@ -1,0 +1,57 @@
+name: 香水主视觉海报
+category: brand_kv
+ratio: '9:16'
+source_author: '@MrLarus'
+source_url: ''
+summary: 奢侈香氛 campaign 质感：香水瓶居中 + 香调元素可视化 + 高级品牌打光。
+tags:
+- 香水
+- 香氛
+- 奢侈
+- 高级感
+- 品牌KV
+- campaign
+triggers:
+- 香水海报
+- 香氛主视觉
+- 奢侈品广告
+- 高级感海报
+features:
+- title: 9:16 竖版构图
+  desc: ''
+- title: 香水瓶居中为 hero object
+  desc: ''
+- title: 香调元素可视化（花瓣、果皮、木片、树脂、烟雾等）
+  desc: ''
+- title: 高级玻璃质感、真实反光、品牌级打光
+  desc: ''
+- title: 少量中文文字、克制留白
+  desc: ''
+- title: 真实摄影质感、电影级光影
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: 香水名称
+  desc: 主标题文字
+- kv_var: 副标题
+  style_var: 核心香材
+  desc: 副标题文字
+- kv_var: 底部文案
+  style_var: 底部文案
+  desc: 短文案
+- kv_var: 画面-产品
+  style_var: 香水瓶
+  desc: hero object
+- kv_var: 画面-元素
+  style_var: 香调元素
+  desc: 花瓣、木片、烟雾等
+- kv_var: 画面-氛围
+  style_var: 视觉气质
+  desc: 柔光/夜色等
+- kv_var: 色彩-主色
+  style_var: 主色调
+  desc: 主色调
+prompt: ''
+preview: https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.jpg
+id: perfume_kv
+code: ''

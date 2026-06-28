@@ -1,0 +1,104 @@
+name: Tokyo Kawaii Travel Collage Poster
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook
+  editorial layout.
+tags:
+- VigoCookbook
+- maximalist
+- Japanese
+- city-travel
+- collage
+- bold
+- destination
+- typography
+- cute
+- sticker
+- elements
+- manga
+- speech
+- bubbles
+- fashion
+- photography
+- halftone
+- urban
+- backgrounds
+- scrapbook
+- editorial
+- layout
+triggers:
+- Tokyo Kawaii Travel Collage Poster
+features:
+- title: 'Preserve the core visual identity: A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone
+    urban backgrounds, and scrapbook editorial layout.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS for city background, botanical details, signage, texture, and travel-collage context.
+  desc: ''
+- title: Use a maximalist Japanese travel scrapbook collage layout.
+  desc: ''
+- title: Place the cutout subject large in the center with a sticker-like white edge.
+  desc: ''
+- title: Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main cutout person, character, model, traveler, idol, or fashion figure
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: gesture or pose toward the viewer
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, prop, or visual anchor
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details and visual texture
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large destination headline
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} poster in the "Tokyo Kawaii Travel Collage Poster" style.
+
+
+  Main subject: {SUBJECT}.
+
+  Action or pose: {SUBJECT_ACTION}.
+
+  Featured prop, food, or sticker object: {PRODUCT_OR_PROP}.
+
+  Destination or location: {LOCATION}.
+
+  City background and botanical elements: {BACKGROUND_ELEMENTS}.
+
+  Main headline text: "{MAIN_TEXT}".
+
+  Secondary or speech-bubble text: "{SECONDARY_TEXT}".
+
+  Travel stickers and accent symbols: {ACCENT_SYMBOL}.
+
+  Wardrobe and cutout styling: {WARDROBE_STYLE}.
+
+
+  Use a maximalist Japanese travel scrapbook collage layout. Place the cutout subject large in the center with a sticker-like white edge. Put huge playful rounded block letters across the top, each letter
+  on a separate bright paper tile, slightly rotated and overlapping. Use yellow letter fill, green tile blocks, red accents, cream paper textures, and black ink details.
+
+
+  Layer the background with black-and-white or sepia city photography, crowd scenes, buildings, street signs, and halftone print texture. Add manga speech bubbles, handwritten notes, tiny captions, food
+  icons, ticket stubs, barcode graphics, mini photo panels, sticker stars, arrows, and travel labels.
+
+
+  Add a dense yellow bottom information bar with small photos, captions, travel snippets, barcode, and bold label typography. Mix in watercolor or pressed-flower botanical elements near the lower area.
+  The finish should feel like scanned paper, teen magazine collage, souvenir zine, sticker album, and cute travel advertisement.
+
+
+  Avoid minimalism, clean corporate design, luxury travel style, plain backgrounds, low density, and overly polished digital graphics.'
+preview: https://malongan.github.io/images/vigo_previews/tokyo-kawaii-travel-collage-poster.jpg
+id: vigo_tokyo_kawaii_travel_collage_poster
+code: ''

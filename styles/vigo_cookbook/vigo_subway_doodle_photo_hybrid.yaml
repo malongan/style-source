@@ -1,0 +1,106 @@
+name: Subway Doodle Photo Hybrid
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures,
+  handwritten notes, and social media screenshot texture.
+tags:
+- VigoCookbook
+- phone-shot
+- urban
+- transit
+- combining
+- documentary
+- subway
+- street
+- transport
+- photography
+- expressive
+- hand-drawn
+- cartoon
+- overlays
+- doodled
+- character
+- faces
+- oversized
+- foreground
+- gestures
+- handwritten
+- notes
+- media
+- screenshot
+triggers:
+- Subway Doodle Photo Hybrid
+features:
+- title: 'Preserve the core visual identity: A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character
+    faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.'
+  desc: ''
+- title: Use SUBJECT as the main photographic subject.
+  desc: ''
+- title: Use PRODUCT_OR_PROP as the foreground doodle, prop, or interaction object.
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS for crowd, signage, documentary texture, and transit context.
+  desc: ''
+- title: Use ACCENT_SYMBOL for color accents, doodle marks, arrows, and sticker-like emphasis.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action or pose
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, prop, or visual anchor
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details and visual texture
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Subway Doodle Photo Hybrid" style.
+
+
+  Main photo subject: {SUBJECT}.
+
+  Action or transit moment: {SUBJECT_ACTION}.
+
+  Foreground doodle or prop: {PRODUCT_OR_PROP}.
+
+  Transit location, city, or line: {LOCATION}.
+
+  Crowd, signage, and documentary background: {BACKGROUND_ELEMENTS}.
+
+  Handwritten text: "{MAIN_TEXT}".
+
+  Signage or supporting text: "{SECONDARY_TEXT}".
+
+  Color accents and doodle marks: {ACCENT_SYMBOL}.
+
+  Illustrated face and photo-tone treatment: {WARDROBE_STYLE}.
+
+
+  Use a realistic phone-shot public transportation photograph as the base layer. Frame the scene through train doors, bus doors, a station platform, or a transit window. Keep the environment documentary:
+  gray metal, fluorescent lighting, route signs, safety strips, platform edge, crowded people, reflections, phone-camera grain, and slight social-media compression.
+
+
+  Paint expressive cartoon doodles directly over the photo. Replace some real faces with loose hand-drawn cartoon heads, exaggerated noses, red cheeks, messy hair, crooked smiles, and thick sketchy outlines.
+  Add a large foreground cartoon gesture entering from the lower edge or side, such as a hot-pink thumbs-up, pointing finger, peace sign, phone, or ticket. Add casual white handwritten notes near the upper-left.
+
+
+  The final image should feel like a real transit snapshot that someone humorously drew over, mixing documentary urban realism with playful comic chaos.
+
+
+  Avoid clean vector illustration, fully illustrated backgrounds, luxury editorial polish, empty trains, perfect symmetry, branded mascots, overly clean typography, watermarks, usernames, QR codes, platform
+  logos, creator IDs, and app marks.'
+preview: https://malongan.github.io/images/vigo_previews/subway-doodle-photo-hybrid.jpg
+id: vigo_subway_doodle_photo_hybrid
+code: ''

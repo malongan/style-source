@@ -1,0 +1,49 @@
+name: 天蓝家居生活涂鸦海报
+category: social_media
+ratio: 9:16 或 16:9
+source_author: '@VigoCreativeAI'
+source_url: ''
+summary: 天蓝底色 + 手绘马克笔 + 扁平卡通家居场景。
+tags:
+- 涂鸦
+- 小红书
+- 生活
+- 手绘
+- 扁平
+triggers:
+- 涂鸦
+- 小红书风
+- 生活海报
+- 天蓝底
+features:
+- title: 满屏天蓝底色 + 不规则白色房屋形内嵌
+  desc: ''
+- title: 粗黑马克笔手写大标题
+  desc: ''
+- title: 红色胶囊徽章点缀
+  desc: ''
+- title: 歪歪扭扭的手绘线条感
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: MAIN_TEXT
+  desc: 手写标题
+- kv_var: Slogan
+  style_var: SECONDARY_TEXT
+  desc: 日期、副标题
+- kv_var: 画面-主体
+  style_var: SUBJECT
+  desc: 卡通角色
+- kv_var: 画面-动作
+  style_var: SUBJECT_ACTION
+  desc: 简单家居动作
+- kv_var: 画面-场景
+  style_var: LOCATION
+  desc: 室内区域
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity..."
+  desc: 不在变量里，用参考图
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/sky_blue_doodle.png
+id: sky_blue_doodle
+code: ''

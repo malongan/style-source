@@ -1,0 +1,55 @@
+name: Market Brush Produce Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A sparse fresh-market poster system with a warm ivory paper field, one oversized glossy produce hero, a smaller echo product, violent black hand-cut brush typography, thin editorial header text,
+  and tiny bottom seal-like captions.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Market Brush Produce Poster Style
+features:
+- title: Warm ivory or pale cream paper background with very large uncluttered negative space.
+  desc: ''
+- title: One oversized photoreal produce hero cropped near an edge, plus one much smaller echo produce item.
+  desc: ''
+- title: Produce surface is glossy, rounded, bright, softly airbrushed, and slightly posterized rather than documentary.
+  desc: ''
+- title: 'Hard scale contrast between produce and typography: subject dominates the lower or side field while type crowds the upper or opposite side.'
+  desc: ''
+- title: Large black headline built from torn, stamped, rough-brush CJK-inspired blocks with uneven edges and dry ink texture.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main fruit or vegetable hero
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: still-life gesture or market-poster action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: secondary produce item, crate, leaf, basket, or utensil
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: minimal market, grocer, kitchen, or seasonal backdrop
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: small seals, registration marks, micro captions, and sparse contextual marks
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: large rough headline or glyph block
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the Market Brush Produce Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements:
+  {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors that must
+  remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: warm ivory uncoated paper background with large clean negative space; one oversized
+  glossy photoreal fruit or vegetable hero cropped near the edge; one smaller echo produce item or small market prop; large rough black torn-brush CJK-inspired headline blocks with dry ink texture; tiny
+  top editorial header line; bottom row of small serif captions, stamps, stars, numbers, and parenthesis marks; palette limited to ivory, black, one saturated produce color, and small natural green accents;
+  shallow product-still-life depth with minimal shadow; slight paper grain, ink breakup, soft highlight bloom, and analog poster softness. Important content rule: match the visual style first, then change
+  the source content with new produce, new text, new props, and a new story premise.'
+preview: https://malongan.github.io/images/vigo_previews/market-brush-produce-poster.jpg
+id: vigo_market_brush_produce_poster
+code: ''

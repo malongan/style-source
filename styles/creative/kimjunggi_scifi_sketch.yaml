@@ -1,0 +1,49 @@
+name: 金政基赛博朋克素描
+category: creative
+ratio: 1:1 / 16:9 / 9:16
+source_author: '@如-Ru（即梦）'
+source_url: ''
+summary: 金政基式超写实线条 × 赛博朋克极繁构图 × 混乱中暗藏秩序 = 科幻叙事素描。
+tags:
+- 金政基
+- 赛博朋克
+- 线条艺术
+- 极繁主义
+- 叙事
+- 素描
+triggers:
+- 金政基风格
+- 赛博朋克素描
+- 线条艺术
+- 极繁主义插画
+features:
+- title: 金政基风格：硬朗精准的线条艺术
+  desc: ''
+- title: 超写实细节 + 超现实场景融合
+  desc: ''
+- title: 极繁主义构图，大量元素填充
+  desc: ''
+- title: 赛博朋克主题（人物、机械、复古物件）
+  desc: ''
+- title: 动态不对称构图，充满叙事感
+  desc: ''
+- title: 强烈光影对比
+  desc: ''
+- title: 多色彩但以线条为主导
+  desc: ''
+- title: 超高清笔触清晰
+  desc: ''
+variables:
+- kv_var: 画面-场景
+  style_var: '{{画面主题}}、{{主体元素}}'
+  desc: 描述画面主要内容
+- kv_var: 氛围
+  style_var: '{{氛围}}'
+  desc: 整体情绪基调
+- kv_var: 比例
+  style_var: 可适应多种比例
+  desc: 默认 1:1
+prompt: 超写实细节与超现实场景融合，完美透视关系，动态构图，画面布满大量赛博朋克风格的人物、机械、复古风格日常物件，科幻，复古未来主义，混乱中暗藏秩序，多色彩，硬朗精准的线条艺术，充满叙事感，极繁主义，神秘感，不对称构图，细节完美，高品质细节，超高清分辨率，笔触清晰，强烈光影对比，金政基风格。
+preview: https://malongan.github.io/images/vigo_previews/kimjunggi_scifi_sketch.jpg
+id: kimjunggi_scifi_sketch
+code: ''

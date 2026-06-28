@@ -1,0 +1,57 @@
+name: Multi-Color Beverage Splash Ad System Style
+category: e-commerce
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A reusable beverage launch advertising system with four color-varied templates, built from giant white 3D typography, a diagonal hero drink pack, frozen liquid motion, dense launch-ad copy, and
+  polished commercial product lighting.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Multi-Color Beverage Splash Ad System Style
+features:
+- title: Each case uses one strong drink-category color system rather than a generic rainbow palette.
+  desc: ''
+- title: Large white extruded block letters remain the main background architecture.
+  desc: ''
+- title: The drink pack is the single close-up hero object, angled diagonally and cropped with impact.
+  desc: ''
+- title: Splash, foam, ice, bubbles, or condensation are frozen in high-speed product-ad lighting.
+  desc: ''
+- title: Typography is bold, condensed, italic, mostly white, and stacked into tight ad-copy blocks.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: main action
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: main headline or graphic text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} beverage launch advertisement in the Multi-Color Beverage Splash Ad System style for {PRODUCT_CATEGORY} and {DELIVERY_FORMAT}. Preserve these style anchors: one strong drink-category
+  color system; giant white extruded block-letter architecture behind the product; one large diagonal fictional beverage pack cropped close near center; frozen splash, foam, ice, bubbles, condensation,
+  or liquid sheets across the foreground; bold condensed italic white stacked headline typography; polished studio beverage lighting with crisp highlights; dense retail-ad layout with strong product hierarchy;
+  delivery-context cues that stay secondary to the hero drink. Use {PRIMARY_COLOR} as the dominant field and {SECONDARY_COLOR} for shadows, side planes, liquid tint, or packaging accents. Replace all source
+  content. Do not use Sprite, Coca-Cola, copied Korean text, copied Z/E/R/O layout, original green can, existing beverage logo, real brand name, watermark, QR code, legal microcopy, or exact source slogan.
+  New content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary supporting text: {SECONDARY_TEXT}.
+  Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Adapt the composition to {ASPECT_RATIO}: 9:16 should feel usable as a vertical store poster, fridge sticker, or Xiaohongshu cover;
+  16:9 should feel usable as a subway lightbox, brand launch KV, or supermarket display backdrop. Use photoreal commercial beverage retouching, transparent frozen liquid motion, glossy cold surfaces, crisp
+  contrast, and a fresh kinetic launch-ad mood.'
+preview: https://malongan.github.io/images/vigo_previews/multi-color-beverage-splash-ad-system.jpg
+id: beverage_style
+code: ''

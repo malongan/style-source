@@ -1,0 +1,93 @@
+name: Cyan Red Shockwave Type Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A flat illustrated poster system built from a saturated cyan field, oversized red block typography, lemon-yellow human accents, white jagged shockwaves, thick red keylines, and compact rotated
+  microcopy. It feels like a loud regional travel poster crossed with manga impact graphics and screenprinted street signage.
+tags:
+- VigoCookbook
+- Flat
+- pop
+- illustration
+- techno-manga
+- graphics
+- regional
+- sign-paint
+- typography
+triggers:
+- Cyan Red Shockwave Type Poster Style
+features:
+- title: Saturated cyan background dominates the entire poster, with red and yellow used as the only major accents.
+  desc: ''
+- title: Huge red geometric display lettering is cropped by the page edges and functions as both text and architecture.
+  desc: ''
+- title: A white jagged lightning-burst shape cuts diagonally through the center and carries the main action.
+  desc: ''
+- title: Subjects are simplified flat vector forms with almost no shading, outlined by thick red keylines.
+  desc: ''
+- title: Human or hand-like accents use solid lemon yellow fills, making them graphic shapes rather than realistic anatomy.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: new central subject or character group
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: clear action that creates impact or motion
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: object, product, or prop that replaces the source object
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: new setting or cultural context
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary scene details and small graphic inserts
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: new oversized headline text or abstract display lettering
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Cyan Red Shockwave Type Poster Style" visual style.
+
+
+  Subject: {SUBJECT}
+
+  Action: {SUBJECT_ACTION}
+
+  Prop/Product: {PRODUCT_OR_PROP}
+
+  Location: {LOCATION}
+
+  Background: {BACKGROUND_ELEMENTS}
+
+  Main text: {MAIN_TEXT}
+
+  Secondary text: {SECONDARY_TEXT}
+
+  Accent symbol: {ACCENT_SYMBOL}
+
+  Wardrobe/styling: {WARDROBE_STYLE}
+
+  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+
+  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+
+
+  Apply these style rules: saturated cyan full-bleed background; oversized cropped red block display lettering used as architecture; one white jagged lightning-burst shape cutting diagonally through the
+  center; flat vector subjects with thick red keylines and hard edges; lemon-yellow hands or accent shapes; small red dots, rings, slanted underlines, and sound-effect labels; compact rotated or vertical
+  microcopy clusters; crowded but clean poster hierarchy; mostly orthographic flatness with diagonal forced motion; no realistic lens, shadows, or photographic lighting; optional tiny warm red-orange gradient
+  only inside an accent area.
+
+
+  Important content rule: preserve the visual system first, then change the source content. Use new subjects, new props, new setting details, and new text. Do not recreate bowls, soup, noodles, drinking,
+  cheers, clinking vessels, source location copy, source seals, source marks, or the same two-object diagonal composition.
+
+
+  Avoid photorealism, 3D rendering, glossy product lighting, realistic paper mockup, watercolor, delicate serif typography, beige vintage poster treatment, neon cyberpunk glow, cluttered market detail,
+  QR codes, watermarks, logos, signatures, or exact copied source text.'
+preview: https://malongan.github.io/images/vigo_previews/cyan-red-shockwave-type-poster.jpg
+id: vigo_cyan_red_shockwave_type_poster
+code: ''

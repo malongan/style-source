@@ -1,0 +1,65 @@
+name: Object Illustration Combo - 真实物体插画融合
+category: creative
+ratio: 9:16（竖版）
+source_author: '@ShamsAmin56'
+source_url: ''
+summary: 把日常生活物品变成手绘插画的一部分 —— 真实物体与黑白线描无缝融合，制造视觉双关。
+tags:
+- 真实物体
+- 手绘插画
+- 融合
+- NanoBanana
+- 创意合成
+- 黑白线描
+triggers:
+- 真实物体插画融合
+- Object Illustration
+- 黑白线描
+- 产品插画
+- 创意合成
+features:
+- title: Photorealistic object
+  desc: 写实产品照，高细节
+- title: Hand-drawn black ink cartoon
+  desc: 黑色墨水手绘线条画，简洁表达
+- title: Perfect seamless blend
+  desc: 真实物体与卡通无缝结合
+- title: Visual pun / clever concept
+  desc: 机智的视觉双关
+- title: Clean negative space
+  desc: 干净留白
+variables:
+- kv_var: 真实物体
+  style_var: '{{EVERYDAY OBJECT}}'
+  desc: 日常生活物品
+- kv_var: 插画角色
+  style_var: '{{CLEVER PART}}'
+  desc: 物体在画面中扮演的角色
+- kv_var: 画面风格
+  style_var: 写实+黑白线描
+  desc: 必须同时包含两者
+- kv_var: 背景
+  style_var: 白色极简
+  desc: clean minimalist white
+- kv_var: 光线
+  style_var: 工作室灯光
+  desc: studio lighting
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity..."
+  desc: 不在变量里，用参考图
+prompt: 'Creative composite photograph, 9:16 vertical aspect ratio, clean minimalist white background, studio lighting, high detail, sharp focus.
+
+
+  A real-life [EVERYDAY OBJECT] is physically placed and perfectly integrated as a key part of a hand-drawn black ink cartoon illustration. The drawing is simple, expressive line art with minimal shading,
+  like a quick sketch on paper.
+
+
+  The [OBJECT] represents [CLEVER PART OF THE SCENE - e.g. hair, weapon, body part, clothing, etc.], cleverly completing the visual pun or concept. The cartoon character interacts dynamically with the object
+  in a humorous, meaningful, or surprising way.
+
+
+  Photorealistic object + bold black line drawing style, perfect seamless blend between real object and illustration, clean negative space, artistic and witty concept, high quality product photography mixed
+  with doodle art.'
+preview: https://malongan.github.io/images/vigo_previews/object_illustration_combo.jpg
+id: object_illustration_combo
+code: ''

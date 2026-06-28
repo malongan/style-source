@@ -1,0 +1,48 @@
+name: 吉祥物IP风格
+category: ip_character
+ratio: '16:9'
+source_author: '@VigoCreativeAI'
+source_url: ''
+summary: 可爱吉祥物 + 玩具道具 + 混合材质 = H5运营图。
+tags:
+- IP
+- 吉祥物
+- 玩偶
+- 毛绒
+- 可爱
+- H5
+triggers:
+- 吉祥物
+- IP
+- 玩偶风
+- 毛绒
+- IP形象
+features:
+- title: 吉祥物形象（玩偶/毛绒生物）
+  desc: ''
+- title: 玩具道具（磁带/运动鞋/奶茶等）
+  desc: ''
+- title: 贴纸图标点缀（笑脸/闪电/花朵）
+  desc: ''
+- title: 混合材质（毛绒/亚克力/镀铬）
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: main_text
+  desc: 主标题文案
+- kv_var: Slogan
+  style_var: micro_copy
+  desc: 辅助文案
+- kv_var: 画面-吉祥物
+  style_var: mascot_shape
+  desc: 吉祥物形态
+- kv_var: 画面-道具
+  style_var: hero_prop
+  desc: 主角道具
+- kv_var: IP形象
+  style_var: 参考图 + "Maintain IP identity..."
+  desc: 不在变量里，用参考图
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/mascot_ip.png
+id: mascot_ip
+code: ''

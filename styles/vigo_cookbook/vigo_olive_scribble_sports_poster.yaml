@@ -1,0 +1,95 @@
+name: Olive Scribble Sports Poster Style
+category: vigo_cookbook
+ratio: 16:9 / 4:5 / 3:4 / 9:16
+source_author: Vigo AI Visual Prompt Cookbook
+source_url: ''
+summary: A kinetic flat editorial illustration style built from off-white paper, large olive-green poster blocks, oversized action figures, rough black ink contours, red marker motion arcs, yellow-green
+  dry-brush swaths, sparse debris, and handmade screenprint texture.
+tags:
+- VigoCookbook
+- Other
+triggers:
+- Olive Scribble Sports Poster Style
+features:
+- title: Off-white paper ground with a large irregular olive or yellow-green block covering most of the background.
+  desc: ''
+- title: One oversized action subject placed diagonally across the composition.
+  desc: ''
+- title: Flat screenprint color areas with minimal shading and no smooth gradients.
+  desc: ''
+- title: Heavy black ink silhouettes, angular brush contours, and chaotic scratch lines.
+  desc: ''
+- title: Red marker arcs, arrows, and motion loops crossing the subject.
+  desc: ''
+variables:
+- kv_var: 变量
+  style_var: 说明
+  desc: ''
+- kv_var: '`SUBJECT`'
+  style_var: main action subject
+  desc: ''
+- kv_var: '`SUBJECT_ACTION`'
+  style_var: dynamic action performed by the subject
+  desc: ''
+- kv_var: '`PRODUCT_OR_PROP`'
+  style_var: simplified object, tool, sport prop, or product carried by the subject
+  desc: ''
+- kv_var: '`LOCATION`'
+  style_var: abstracted environment or setting
+  desc: ''
+- kv_var: '`BACKGROUND_ELEMENTS`'
+  style_var: secondary graphic marks, shards, brush loops, and minimal setting cues
+  desc: ''
+- kv_var: '`MAIN_TEXT`'
+  style_var: short rough poster accent text
+  desc: ''
+prompt: 'Create a {ASPECT_RATIO} image in the "Olive Scribble Sports Poster Style" visual style.
+
+
+  Subject: {SUBJECT}
+
+  Action: {SUBJECT_ACTION}
+
+  Prop/Product: {PRODUCT_OR_PROP}
+
+  Location: {LOCATION}
+
+  Background: {BACKGROUND_ELEMENTS}
+
+  Main text: {MAIN_TEXT}
+
+  Secondary text: {SECONDARY_TEXT}
+
+  Accent symbol: {ACCENT_SYMBOL}
+
+  Wardrobe/styling: {WARDROBE_STYLE}
+
+  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+
+  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+
+
+  Apply these style rules:
+
+  - Build the poster from one dominant diagonal action subject, one prop, and one abstract olive or yellow-green block.
+
+  - Use off-white paper ground, flat screenprint color slabs, heavy black ink silhouettes, chaotic scratch contours, red marker motion arcs, yellow-green dry-brush loops, and sparse diamonds or clipped
+  debris.
+
+  - Keep the setting shallow, abstract, and editorial rather than realistic or scene-heavy.
+
+  - Use small rough hand-cut text only as a secondary poster accent, never as polished brand typography.
+
+  - Preserve imperfect elongated anatomy, cropped limbs, raw brush texture, and handmade print misregistration.
+
+
+  Avoid:
+
+  - {NEGATIVE_PROMPT}
+
+
+  Important content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text, while avoiding the original soccer/overhead-kick
+  source content.'
+preview: https://malongan.github.io/images/vigo_previews/olive-scribble-sports-poster.jpg
+id: vigo_olive_scribble_sports_poster
+code: ''

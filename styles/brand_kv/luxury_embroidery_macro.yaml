@@ -1,0 +1,47 @@
+name: 奢侈品牌刺绣微距
+category: brand_kv
+ratio: '4:5'
+source_author: '@AmirMushich'
+source_url: ''
+summary: 如同品牌委托刺绣艺术家将Logo转化为线艺作品，用微距镜头捕捉每一根丝线的光泽与织物质感，呈现顶级纺织品摄影的真实感。
+tags:
+- 微距摄影
+- 品牌视觉
+- 刺绣工艺
+- 纺织品
+- 奢侈品牌
+- 3D渲染
+triggers:
+- 品牌刺绣
+- 微距纹理
+- 纺织品摄影
+- 奢侈品牌细节
+- 刺绣Logo
+- 面料特写
+features:
+- title: 极致微距纹理
+  desc: 3D几何刺绣线材，每根线是真实几何体投射真实阴影，非贴图模拟
+- title: 专业纺织布光
+  desc: 120cm巨大柔光箱从正上方平坦照明，无方向性阴影，临床级精准
+- title: 品牌色智能识别
+  desc: 'AI自动提取品牌代表性色作为主绣线色，默认深海军蓝 #1A2332'
+- title: 多针法系统
+  desc: 缎纹绣（光泽面）、轮廓绣（曲线）、法式结粒绣（圆点）、尖刺元素（渐尖）
+- title: 物理真实感
+  desc: 华夫格针织面料位移几何、纤维微绒、刺绣凹凸阴影、衬线边缘光晕
+- title: 相机参数精准
+  desc: Canon EOS R5 / Nikon Z8 + 100mm微距镜头，f/8-f/11深景深，4:5竖版
+variables:
+- kv_var: '{品牌名}'
+  style_var: '[BRAND NAME]'
+  desc: 目标品牌名称，如：CHANEL、LOUIS VUITTON、HERMÈS
+- kv_var: '{品牌色}'
+  style_var: PHASE 0 自动识别
+  desc: 品牌主色调，AI自动识别，可指定覆盖：深酒红、经典黑金等
+- kv_var: '{面料色}'
+  style_var: '冷白色 #F0F0EE'
+  desc: 背景织物颜色，默认冷白色华夫格，可改为其他色
+prompt: ''
+preview: https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.webp
+id: luxury_embroidery_macro
+code: ''

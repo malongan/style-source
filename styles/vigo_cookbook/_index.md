@@ -1,55 +1,56 @@
-# VigoCookbook分类索引
+# VigoCookbook风格
 
-> 本分类包含：@VigoCreativeAI 分享的风格
+> 来自 Vigo Cookbook
 
-| 编号 | 编号 | 风格 | 标签 | 触发词 | 比例 |
-|------|------|--------|------|
-| 1  [vigo_analog_editorial_poster.md](vigo_analog_editorial_poster.md) | #VigoCookbook #A#quiet#analog-future#editorial#poster#style#using#warm#cream#paper,#oversized#black#neo-grotesk#typography,#strict#grid#rules,#retro#technology#still#life,#pale-blue#translucent#interface#panels,#botanical#foreground#accents,#and#tiny#bilingual#information#design. | Soft Analog Future Editorial Poster | 16:9 / 4:5 / 3:4 / 9:16 |
-| 2  [vigo_black_cutout_food_card_ad.md](vigo_black_cutout_food_card_ad.md) | #VigoCookbook #handmade#Chinese#street-food#ad#card#with#photo-collage#food#centerpiece | Black Cutout Food Card Ad | 16:9 / 4:5 / 3:4 / 9:16 |
-| 3  [vigo_blue_bubble_fisheye_action_poster.md](vigo_blue_bubble_fisheye_action_poster.md) | #VigoCookbook #A#crisp#white#youth-culture#action#poster#style#with#a#rectangular#fisheye#photograph,#oversized#rounded#royal-blue#display#typography,#frame-breaking#foreground#scale,#small#blue#editorial#captions,#and#one#red#hand-drawn#annotation#circle. | Blue Bubble Fisheye Action Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 4  [vigo_blue_halftone_ransom_zine_poster.md](vigo_blue_halftone_ransom_zine_poster.md) | #VigoCookbook #Other | Blue Halftone Ransom Zine Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 5  [vigo_blue_hud_macro_product_poster.md](vigo_blue_hud_macro_product_poster.md) | #VigoCookbook #premium#3D#creator-tech#poster,#macro#product#ad,#HUD-heavy#social#commerce#visual | Blue HUD Macro Creator Tech Poster | 16:9 / 4:5 / 3:4 / 9:16 |
-| 6  [vigo_blue_kinetic_poster.md](vigo_blue_kinetic_poster.md) | #VigoCookbook #Other | Blue Lime Kinetic Comic Type Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 7  [vigo_bold_anime_reaction_thumbnail.md](vigo_bold_anime_reaction_thumbnail.md) | #VigoCookbook #A#high-impact#anime#web-thumbnail#system#with#oversized#reaction#characters,#bold#yellow#headline#typography,#hard#black#shadows,#split-screen#framing,#a#smaller#glowing#action#insert,#and#clean#cel-shaded#illustration. | Bold Anime Reaction Thumbnail Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 8  [vigo_bold_block_mascot_poster.md](vigo_bold_block_mascot_poster.md) | #VigoCookbook #flat#editorial#mascot#poster,#comic-sticker#poster#system,#bold#portfolio#cover#graphic | Bold Block Mascot Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 9  [vigo_chromatic_fisheye_orbit_pop_poster.md](vigo_chromatic_fisheye_orbit_pop_poster.md) | #VigoCookbook #A#high-key#pop#poster#system#built#from#extreme#fisheye#photography,#a#convex#glass-dome#center,#oversized#orbiting#typography,#hot#red-magenta-orange#letter#fills,#aqua#chromatic#light#arcs,#and#light#analog#print#texture. | Chromatic Fisheye Orbit Pop Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 10  [vigo_cyan_red_shockwave_type_poster.md](vigo_cyan_red_shockwave_type_poster.md) | #VigoCookbook #Flat#pop#poster#illustration#with#techno-manga#impact#graphics#and#regional#sign-paint#typography. | Cyan Red Shockwave Type Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 11  [vigo_fantasy_scribble_mascot_poster.md](vigo_fantasy_scribble_mascot_poster.md) | #VigoCookbook #Other | Fantasy Scribble Mascot Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 12  [vigo_fisheye_bubble_poster.md](vigo_fisheye_bubble_poster.md) | #VigoCookbook #An#ultra-low-angle#fisheye#summer#lifestyle#poster#style#with#a#close#photographic#subject,#saturated#cobalt#sky,#huge#arched#lemon-yellow#bubble#typography,#warm#orange#type#shading,#Y2K#accessories,#and#heavy#analog#grain. | Sunburst Fisheye Bubble Type Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 13  [vigo_folded_newspaper_product_ad.md](vigo_folded_newspaper_product_ad.md) | #VigoCookbook #folded#newspaper#advertorial#with#photorealistic#product#hero | Folded Newspaper Product Ad Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 14  [vigo_gothic_cat_doodle_photo_collage.md](vigo_gothic_cat_doodle_photo_collage.md) | #VigoCookbook #A#playful#photo-illustration#collage#style#combining#dramatic#real#architectural#photography#with#oversized#flat#cartoon#creature#overlays,#bubbly#hand-drawn#headline#lettering,#and#loose#marker#doodles. | Gothic Cat Doodle Photo Collage Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 15  [vigo_impact_burst_halftone_comic_poster.md](vigo_impact_burst_halftone_comic_poster.md) | #VigoCookbook #A#loud#retro#comic#poster#system#built#from#thick#black#ink,#flat#high-saturation#colors,#oversized#impact#typography,#exaggerated#illustrated#subjects,#diagonal#props,#speech#bursts,#smoke#puffs,#halftone#dots,#and#distressed#screen-print#grain. | Impact Burst Halftone Comic Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 16  [vigo_k_pop_apocalypse_ransom_zine.md](vigo_k_pop_apocalypse_ransom_zine.md) | #VigoCookbook #A#maximalist#K-pop#fashion#zine#collage#style#built#from#a#central#portrait#cutout,#crumpled#monochrome#paper#texture,#skewed#ransom-note#typography,#loud#sticker#blocks,#saturated#lime/blue/red#accents,#and#a#bold#bottom#masthead#band. | K-Pop Apocalypse Ransom Zine Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 17  [vigo_kinetic_geometric_doodle_cutouts.md](vigo_kinetic_geometric_doodle_cutouts.md) | #VigoCookbook #Other | Kinetic Geometric Doodle Cutouts | 16:9 / 4:5 / 3:4 / 9:16 |
-| 18  [vigo_luxury_street_cover.md](vigo_luxury_street_cover.md) | #VigoCookbook #Other | Kinetic Luxury Street Fashion Cover Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 19  [vigo_market_brush_produce_poster.md](vigo_market_brush_produce_poster.md) | #VigoCookbook #Other | Market Brush Produce Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 20  [vigo_metro_doodle_snapshot_diary.md](vigo_metro_doodle_snapshot_diary.md) | #VigoCookbook #A#handheld#urban#transit#photo-collage#style#combining#realistic#crowded#metro,#bus,#tram,#or#station#snapshots#with#expressive#marker-like#cartoon#doodles,#oversized#foreground#gestures,#white#handwritten#diary#notes,#and#saturated#comic#face#overlays. | Metro Doodle Snapshot Diary | 16:9 / 4:5 / 3:4 / 9:16 |
-| 21  [vigo_mondrian_style.md](vigo_mondrian_style.md) | #蒙德里安 #DeStijl #红黄蓝 #几何 #秩序 #极简 #海报 #品牌 | 蒙德里安风格、De Stijl、红黄蓝秩序、几何网格 | 16:9 / 9:16 / 4:5 / 3:4 |
-| 22  [vigo_mono_noir_type_portrait_poster.md](vigo_mono_noir_type_portrait_poster.md) | #VigoCookbook #Other | Mono Noir Type Portrait Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 23  [vigo_naive_marker_quote_card.md](vigo_naive_marker_quote_card.md) | #VigoCookbook #Naive#hand-marker#absurdist#poster#illustration. | Naive Marker Quote Card Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 24  [vigo_neon_diary_collage.md](vigo_neon_diary_collage.md) | #VigoCookbook #Other | Neon Outdoor Diary Longform Collage Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 25  [vigo_neon_doodle_gallery_snapshot.md](vigo_neon_doodle_gallery_snapshot.md) | #VigoCookbook #A#candid#phone-photo#style#layered#with#chaotic#neon#digital#marker#doodles:#hot-pink#and#cyan#subject#outlines,#yellow#monster#spikes,#rough#handwritten#captions,#stars,#paw#prints,#spiderweb#corners,#scribble#bars,#halos,#plants,#and#student#diary#energy. | Neon Doodle Gallery Snapshot | 16:9 / 4:5 / 3:4 / 9:16 |
-| 26  [vigo_neon_kinetic_typographic_poster.md](vigo_neon_kinetic_typographic_poster.md) | #VigoCookbook #A#dramatic#outdoor#editorial#poster#style#combining#low-angle#lifestyle#photography,#oversized#warped#neon#typography,#film#grain,#and#high-energy#youth-culture#campaign#design. | Neon Kinetic Typographic Poster | 16:9 / 4:5 / 3:4 / 9:16 |
-| 27  [vigo_neon_plush_gadget_pop_3d.md](vigo_neon_plush_gadget_pop_3d.md) | #VigoCookbook #Other | Neon Plush Gadget Pop 3D Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 28  [vigo_olive_scribble_sports_poster.md](vigo_olive_scribble_sports_poster.md) | #VigoCookbook #Other | Olive Scribble Sports Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 29  [vigo_photo_illustration_overlay_poster.md](vigo_photo_illustration_overlay_poster.md) | #VigoCookbook #A#realistic#city#photograph#with#an#oversized,#high-saturation,#flat#2D#cartoon#figure#composited#on#top,#plus#hand-drawn#stars,#sparks,#arrows,#and#comic#marks. | Photo Illustration Overlay Poster | 16:9 / 4:5 / 3:4 / 9:16 |
-| 30  [vigo_playful_marker_grounding_poster.md](vigo_playful_marker_grounding_poster.md) | #VigoCookbook #naive#marker#poster#illustration#with#public-service#announcement#hierarchy | Playful Marker Grounding Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 31  [vigo_playful_mascot_doodle_snapshot.md](vigo_playful_mascot_doodle_snapshot.md) | #VigoCookbook #A#casual#real-life#social#photo#transformed#into#a#playful#poster#by#layering#original#cartoon#mascot#stickers,#hand-drawn#outlines,#ribbon#headline#panels,#sparkles,#spirals,#and#sketchy#decorative#marks#over#the#photographic#scene. | Playful Mascot Doodle Snapshot Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 32  [vigo_plush_city_festival_mobile_poster.md](vigo_plush_city_festival_mobile_poster.md) | #VigoCookbook #A#bright#mobile#event#poster#style#combining#real#city#landmarks,#soft#fuzzy#mascot#characters,#rounded#app-card#UI#framing,#bold#white#festival#typography,#date/location#text,#and#friendly#tourism-campaign#energy. | Plush City Festival Mobile Poster | 16:9 / 4:5 / 3:4 / 9:16 |
-| 33  [vigo_plush_comic_toy_product_poster.md](vigo_plush_comic_toy_product_poster.md) | #VigoCookbook #A#loud#toy-product#poster#style#built#around#one#fuzzy#plush#product#hero,#retro#cream#poster#paper,#a#cyan#circular#backdrop,#oversized#slanted#comic#typography,#thick#black#shadows,#doodle#annotations,#sticker#labels,#lightning#graphics,#and#dense#campaign#microcopy. | Plush Comic Toy Product Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 34  [vigo_pop_bubble_letter_photo_poster.md](vigo_pop_bubble_letter_photo_poster.md) | #VigoCookbook #A#punchy#photo-and-illustration#poster#style#built#around#a#central#low-angle#fashion#portrait#framed#by#oversized#flat#bubble-letter#shapes,#saturated#candy#colors,#thick#black#outlines,#oval#highlights,#and#crisp#sparkle#marks. | Pop Bubble Letter Photo Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 35  [vigo_rough_ink_music_doodle_poster.md](vigo_rough_ink_music_doodle_poster.md) | #VigoCookbook #Other | Rough Ink Music Doodle Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 36  [vigo_rough_marker_monster_poster.md](vigo_rough_marker_monster_poster.md) | #VigoCookbook #Other | Rough Marker Monster Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 37  [vigo_school_grid_paper_cutout_poster.md](vigo_school_grid_paper_cutout_poster.md) | #VigoCookbook #Other | School Grid Paper Cutout Poster | 16:9 / 4:5 / 3:4 / 9:16 |
-| 38  [vigo_sky_blue_home_life_doodle_poster.md](vigo_sky_blue_home_life_doodle_poster.md) | #VigoCookbook #Other | Sky Blue Home Life Doodle Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 39  [vigo_subway_doodle_photo_hybrid.md](vigo_subway_doodle_photo_hybrid.md) | #VigoCookbook #A#phone-shot#urban#transit#poster#style#combining#documentary#subway#or#street#transport#photography#with#expressive#hand-drawn#cartoon#overlays,#doodled#character#faces,#oversized#foreground#gestures,#handwritten#notes,#and#social#media#screenshot#texture. | Subway Doodle Photo Hybrid | 16:9 / 4:5 / 3:4 / 9:16 |
-| 40  [vigo_sunny_3d_avatar_campaign.md](vigo_sunny_3d_avatar_campaign.md) | #VigoCookbook #Other | Sunny 3D Avatar Campaign Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 41  [vigo_tokyo_kawaii_travel_collage_poster.md](vigo_tokyo_kawaii_travel_collage_poster.md) | #VigoCookbook #A#maximalist#Japanese#city-travel#collage#style#with#bold#destination#typography,#cute#sticker#elements,#manga#speech#bubbles,#cutout#fashion#photography,#halftone#urban#backgrounds,#and#scrapbook#editorial#layout. | Tokyo Kawaii Travel Collage Poster | 16:9 / 4:5 / 3:4 / 9:16 |
-| 42  [vigo_tri_color_hardcut_portrait_poster.md](vigo_tri_color_hardcut_portrait_poster.md) | #VigoCookbook #A#clean#three-color#hardcut#portrait#poster#style#using#flat#teal#background#fields,#coral-red#subject#planes,#and#near-black#silhouettes#or#shadows,#with#all#detail#reduced#into#large#hard-edged#vector-like#cutouts. | Tri Color Hardcut Portrait Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 43  [vigo_turquoise_red_techno_manga_poster.md](vigo_turquoise_red_techno_manga_poster.md) | #VigoCookbook #A#retro#techno-manga#poster#system#with#a#cream#paper#ground,#huge#red#display#lettering,#turquoise#technical#clothing#or#hardware,#dense#mechanical#linework,#annotation#panels,#cel-shaded#figure#drawing,#and#slightly#faded#printed#texture. | Turquoise Red Techno Manga Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 44  [vigo_urban_transit_doodle_diary.md](vigo_urban_transit_doodle_diary.md) | #VigoCookbook #A#raw#urban#snapshot#treated#like#a#personal#visual#diary,#combining#real#public-space#photography#with#bold#hand-drawn#comic#overlays,#handwritten#travel#notes,#saturated#cartoon#faces,#and#a#large#foreground#gesture. | Urban Transit Doodle Diary Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 45  [vigo_warm_fisheye_product_impact_ad.md](vigo_warm_fisheye_product_impact_ad.md) | #VigoCookbook #Other | Warm Fisheye Product Impact Ad Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 46  [vigo_y2k_grunge_hiphop_cutout_poster.md](vigo_y2k_grunge_hiphop_cutout_poster.md) | #VigoCookbook #A#Y2K#grunge#hip-hop#magazine#collage#poster#style#built#from#oversized#photo#cutouts,#acid#yellow#retro#typography,#rough#black-and-white#wall#textures,#dense#editorial#footer#panels,#and#photocopied#print#noise. | Y2K Grunge Hip-Hop Cutout Poster Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 47  [vigo_y2k_mirror_ui_scribble_collage.md](vigo_y2k_mirror_ui_scribble_collage.md) | #VigoCookbook #Other | Y2K Mirror UI Scribble Collage Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 48  [vigo_yellow_black_manga_food_zine_ad.md](vigo_yellow_black_manga_food_zine_ad.md) | #VigoCookbook #Other | Yellow Black Manga Food Zine Ad Style | 16:9 / 4:5 / 3:4 / 9:16 |
-| 49  [vigo_hud_tech_spec_poster.md](vigo_hud_tech_spec_poster.md) | #VigoCookbook #HUD #技术规格 #液态金属 #3D大字 #产品海报 #面板数据 | HUD Tech Spec Poster Style | 16:9 |
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+| vigo_analog_editorial_poster | #VigoCookbook #quiet #analog-future |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_black_cutout_food_card_ad | #VigoCookbook #handmade #Chinese |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_blue_bubble_fisheye_action_poster | #VigoCookbook #crisp #youth-culture |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_blue_halftone_ransom_zine_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_blue_hud_macro_product_poster | #VigoCookbook #premium #3D |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_blue_kinetic_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_bold_anime_reaction_thumbnail | #VigoCookbook #high-impact #anime |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_bold_block_mascot_poster | #VigoCookbook #flat #editorial |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_chromatic_fisheye_orbit_pop_poster | #VigoCookbook #high-key #pop |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_cyan_red_shockwave_type_poster | #VigoCookbook #Flat #pop |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_fantasy_scribble_mascot_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_film_montage_sport_poster |  |  | 16:9 横版 |
+| vigo_fisheye_bubble_poster | #VigoCookbook #ultra-low-angle #fisheye |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_folded_newspaper_product_ad | #VigoCookbook #folded #newspaper |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_gothic_cat_doodle_photo_collage | #VigoCookbook #playful #photo-illustration |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_hud_tech_spec_poster | #VigoCookbook #HUD #技术规格 |  | 16:9 |
+| vigo_impact_burst_halftone_comic_poster | #VigoCookbook #loud #retro |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_k_pop_apocalypse_ransom_zine | #VigoCookbook #maximalist #K-pop |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_kinetic_geometric_doodle_cutouts | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_luxury_street_cover | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_market_brush_produce_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_metro_doodle_snapshot_diary | #VigoCookbook #handheld #urban |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_mondrian_style | #蒙德里安 #DeStijl #红黄蓝 |  | 16:9 / 9:16 / 4:5 / 3:4 |
+| vigo_mono_noir_type_portrait_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_naive_marker_quote_card | #VigoCookbook #Naive #hand-marker |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_neon_diary_collage | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_neon_doodle_gallery_snapshot | #VigoCookbook #candid #phone-photo |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_neon_kinetic_typographic_poster | #VigoCookbook #dramatic #outdoor |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_neon_plush_gadget_pop_3d | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_olive_scribble_sports_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_photo_illustration_overlay_poster | #VigoCookbook #realistic #city |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_playful_marker_grounding_poster | #VigoCookbook #naive #marker |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_playful_mascot_doodle_snapshot | #VigoCookbook #casual #real-life |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_plush_city_festival_mobile_poster | #VigoCookbook #bright #mobile |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_plush_comic_toy_product_poster | #VigoCookbook #loud #toy-product |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_pop_bubble_letter_photo_poster | #VigoCookbook #punchy #photo-and-illustration |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_rough_ink_music_doodle_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_rough_marker_monster_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_school_grid_paper_cutout_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_sky_blue_home_life_doodle_poster | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_subway_doodle_photo_hybrid | #VigoCookbook #phone-shot #urban |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_sunny_3d_avatar_campaign | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_tokyo_kawaii_travel_collage_poster | #VigoCookbook #maximalist #Japanese |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_tri_color_hardcut_portrait_poster | #VigoCookbook #clean #three-color |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_turquoise_red_techno_manga_poster | #VigoCookbook #retro #techno-manga |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_urban_transit_doodle_diary | #VigoCookbook #raw #urban |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_warm_fisheye_product_impact_ad | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_y2k_grunge_hiphop_cutout_poster | #VigoCookbook #Y2K #grunge |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_y2k_mirror_ui_scribble_collage | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| vigo_yellow_black_manga_food_zine_ad | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |

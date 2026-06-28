@@ -1,0 +1,60 @@
+name: avantgarde_bw_poster - 黑白灰先锋海报
+category: brand_kv
+ratio: 16:9 / 9:16 / 1:1 / 4:5 / 3:2
+source_author: '@AdrianPunk115'
+source_url: ''
+summary: 克制、秩序、先锋 —— 不追求信息密度，用极简几何和字体排版制造视觉张力。
+tags:
+- 黑白灰
+- 先锋海报
+- 现代主义
+- 字体设计
+- 几何构成
+triggers:
+- 黑白灰先锋海报
+- 重塑雕像的权利风
+- 先锋视觉
+features:
+- title: '**黑白灰层次丰富**：至少4种灰度层次，纯黑、暗灰、中灰、浅灰、白色交替'
+  desc: ''
+- title: '**随机字体排版**：巨型横排/竖排/横竖混排/靠边/居中/压底/分散式等多种方向'
+  desc: ''
+- title: '**随机几何母题**：从20+种几何元素中随机选择2-4种组合'
+  desc: ''
+- title: '**6大几何家族**：圆形家族、线性家族、块面家族、空间家族、网格纹理、结构符号'
+  desc: ''
+- title: '**极简强调色**：只使用1种颜色，1-2处，面积不超过画面2%'
+  desc: ''
+- title: '**10种构图骨架**：中央/上下错层/斜向/环绕/四角张力/满版字体/极端留白/垂直轴/水平轴/分散式'
+  desc: ''
+- title: '**克制信息量**：不能变成杂志目录，追求秩序和结构'
+  desc: ''
+variables:
+- kv_var: 主标题
+  style_var: '{{主题词}}'
+  desc: 必须是完整清晰的中文词组
+- kv_var: Slogan
+  style_var: '{{副标题}}'
+  desc: 可留空，极简风格不建议过多文字
+- kv_var: 画面-场景
+  style_var: 背景倾向
+  desc: 黑底/白底/灰底决定整体基调
+- kv_var: 画面-构图
+  style_var: 构图骨架
+  desc: 10种骨架随机选择，建议优先极端留白/中央构图
+- kv_var: 画面-元素
+  style_var: 几何母题
+  desc: 2-4种组合，必须包含至少3个几何家族
+- kv_var: 色彩-主色
+  style_var: 强调色
+  desc: 建议无或橙色，避免复杂配色破坏极简感
+- kv_var: 色彩-底场
+  style_var: 灰度层次
+  desc: 从纯黑到白色，至少4种层次
+- kv_var: IP形象
+  style_var: 不适用
+  desc: 此风格不适合IP KV套用，纯文字+几何海报风格
+prompt: ''
+preview: https://malongan.github.io/images/styles_previews/avantgarde_bw_poster.png
+id: avantgarde_bw_poster
+code: ''
