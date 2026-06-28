@@ -171,7 +171,7 @@ function buildCardHTML(s, idx, total) {
   var imgUrl = s.preview_webp || (s.preview_urls || [])[0] || '';
   var tags = (s.tags || []).join(',');
   var summary = s.summary || '';
-  var triggers = s.triggers || '';
+  var triggers = Array.isArray(s.triggers) ? s.triggers.join(', ') : (s.triggers || '');
   var features = (s.features || []).join('|');
   var sourceUrl = s.sourceUrl || s.source_url || '';
   var sourceAuthor = s.sourceAuthor || s.source_author || '';
