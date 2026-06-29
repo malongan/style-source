@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.5.0-67-ga10829d-dirty",
-    "generated": "2026-06-29T08:14:11Z",
+    "version": "v0.5.0-68-g5924afa-dirty",
+    "generated": "2026-06-29T08:23:28Z",
     "total": 158,
     "categories": [
       "brand_kv",
@@ -1547,7 +1547,7 @@
         "**克制发力**：看似极简，每一条线、每一个色块都精心设计",
         "**中英双语**：中文主标题 + 英文副标题/理念标语"
       ],
-      "prompt": "",
+      "prompt": "Create a poster in 蒙德里安秩序风 (Mondrian De Stijl) style.\n\nSummary: 把任何主题重新放进红黄蓝白黑的网格系统：让色块建立节奏，让黑线组织结构，让标题本身变成图形和隐喻。\n\nPreserve these style anchors:\n- 几何网格构图：粗黑线条分割画面，形成严格的网格系统\n- 红黄蓝白黑五色：经典 De Stijl 配色，极简高对比\n- 标题即图形：文字不仅是信息，更是视觉元素\n- 克制发力：看似极简，每一条线、每一个色块都精心设计\n- 中英双语：中文主标题 + 英文副标题/理念标语\n\nVariables:\n- {brand_name}: 品牌/项目名称\n- {brand_tagline}: 品牌描述\n- {main_title}: 中文大标题\n- {subtitle}: 英文副标题\n- {graphic_element}: 融入图形的字母/符号\n- {side_text}: 竖排/侧边文字\n- {center_visual}: 画面中央的视觉元素\n- {bg_color}: 背景颜色\n\nRendering: strict Mondrian grid with thick black lines, primary color blocks (red, yellow, blue), white and black areas, clean geometric composition, bold typography as graphic element.\nNo gradients, no shadows, no rounded corners, no photorealistic elements.\n",
       "variables": {
         "变量": "说明",
         "`品牌名`": "品牌/项目名称",
@@ -2103,7 +2103,7 @@
       "ratio": "16:9 横版",
       "summary": "",
       "features": [],
-      "prompt": "",
+      "prompt": "Create a 16:9 cinematic sports poster in 电影蒙太奇三镜头运动海报 (Film Montage Triptych Sports Poster) style.\n\nSummary: Three-panel film strip montage combining dynamic sports action photography with cinematic typography and film grain texture.\n\nPreserve these style anchors:\n- Three-panel horizontal film strip layout with thin white or silver borders between frames\n- Dynamic sports action photography with motion blur and dramatic angles\n- Cinematic color grading: high contrast, teal-orange or desaturated film tones\n- Film grain texture overlay for authentic cinema feel\n- Bold condensed sans-serif typography for player name and stats\n- Film metadata elements: frame numbers, timecodes, reel marks\n- Dramatic lighting with rim lights and lens flare\n\nVariables:\n- {sport}: sport type (basketball, football, etc.)\n- {athlete}: athlete name or team\n- {action}: dynamic action pose\n- {stats}: performance statistics\n- {headline}: main headline text\n- {subtext}: supporting text\n\nRendering: cinematic film strip montage, high contrast sports photography, film grain texture, bold typography, dramatic lighting.\nNo anime, no cartoon, no flat illustration, no watermarks.\n",
       "variables": {},
       "source_url": "",
       "source_author": "https://x.com/VigoCreativeAI/status/2069676060753432769",
@@ -2730,7 +2730,7 @@
         "材质效果（金属/玻璃/旧印刷）",
         "光影效果（霓虹/投影/高光）"
       ],
-      "prompt": "",
+      "prompt": "Create a 按需求（常见 9:16 或 16:9） poster in 字体设计 style.\n\nSummary: 字体类型 + 笔画结构 + 材质光效 = 高级字体设计。\n\nPreserve these style anchors:\n- **多种字体风格（时尚/书法/复古/未来等）**\n- **详细的笔画/结构/重心描述**\n- **材质效果（金属/玻璃/旧印刷）**\n- **光影效果（霓虹/投影/高光）**\n",
       "variables": {},
       "source_url": "",
       "source_author": "AdrianPunk115",
@@ -3048,7 +3048,7 @@
         "**Compact microcopy clusters** — 角落密集小字（重复词组）",
         "**Vivid blue-sky color fields** — 鲜明蓝天色块作为背景"
       ],
-      "prompt": "",
+      "prompt": "Create a {ASPECT_RATIO} full-bleed editorial action poster in the Sunlit Kinetic Block Type Photo Poster style. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Use a realistic bright outdoor photograph as the base: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}, with {BACKGROUND_ELEMENTS}. Camera and composition: low or close wide-angle perspective, oversized foreground scale, decisive frozen motion, one strong diagonal crossing the frame, the subject cropped by at least one edge. Typography: place immense warm-cream extra-condensed block sans display lettering reading {MAIN_TEXT} behind the subject, filling over half the canvas, cropped by the frame and partially obscured by the action. Add compact white microcopy reading {SECONDARY_TEXT} in tight editorial blocks, plus a small generic {ACCENT_SYMBOL} mark and bottom information clusters in cream. Wardrobe and styling: {WARDROBE_STYLE}. Color system: saturated sky-blue or cyan dominant field, warm cream typography, crisp white microcopy, deep shadows, and one vivid accent color concentrated on the hero prop or wardrobe. Lighting and finish: hard midday sunlight, crisp shadows, high contrast commercial photo realism, slight print-poster grain, no illustration or 3D rendering, no real logos or watermarks. Generate as a 4K ultra-high-resolution raster image.\n",
       "variables": {
         "主标题文字": "{{MAIN_TEXT}}",
         "人物动作": "{{SUBJECT_ACTION}}",
@@ -3058,7 +3058,7 @@
         "色彩-底场": "蓝天色块",
         "色彩-主色": "奶白色"
       },
-      "source_url": "",
+      "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/sunlit-kinetic-block-type-photo-poster-style",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.webp"
@@ -3391,7 +3391,7 @@
         "3D风格化角色 + 潮流道具",
         "贴纸、警告标签、条形码等街头元素"
       ],
-      "prompt": "",
+      "prompt": "Create a {ASPECT_RATIO} finished raster image in the Acid Lime 3D Streetwear Type Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: pale cool-gray or off-white studio floor and wall, one huge mass of deep black condensed block headline typography, acid-lime marker scribbles and underlines crossing the type, glossy C4D toy-like 3D character or product rendering, low wide-angle front three-quarter perspective, oversized foreground prop or footwear-scale object near the lens, tactile fashion props, stacked boxes or bags, chrome and black rubber surfaces, soft textile weave, semi-translucent acrylic details, controlled sticker-badge clusters, warning triangles, barcode strips, smiley dots, scalloped seals, tiny black tags, small hot pink and yellow accents, clean high-key commercial studio lighting, soft shadows, crisp specular highlights, polished high-resolution poster finish. For 9:16, stack the black headline above or beside the central subject and crop a foreground prop along the lower edge. For 16:9, place the headline as a left-heavy type block and stage the 3D subject cluster on the right with lime accents bridging the center. Important content rule: match the visual style first, then change the source content completely with a new subject, new action, new prop, new location, new headline, new microcopy, and no copied brand identity.\n",
       "variables": {
         "主标题": "MAIN_TEXT",
         "Slogan": "ACCENT",
@@ -3400,7 +3400,7 @@
         "画面-道具": "HERO_PROP",
         "IP形象": "参考图"
       },
-      "source_url": "",
+      "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/acid-lime-3d-streetwear-type-poster-style",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/streetwear_lab_1bee8bc5.webp"
@@ -3681,7 +3681,7 @@
         "红色胶囊徽章点缀",
         "歪歪扭扭的手绘线条感"
       ],
-      "prompt": "",
+      "prompt": "Create an original {ASPECT_RATIO} poster illustration in the Sky Blue Home Life Doodle Poster style. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a full pastel sky-blue outer field and a large rough off-white house-shaped inset with thick wobbly black marker outlines. Put a huge uneven black hand-lettered headline reading {MAIN_TEXT} across the top, plus {SECONDARY_TEXT} as a small slanted support label and {ACCENT_SYMBOL} as a small graphic accent. Inside the house inset, show {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Add {BACKGROUND_ELEMENTS} as simple flat home icons. Dress or style the subject with {WARDROBE_STYLE}. Use chunky rounded cartoon anatomy, oversized hands or props when useful, flat poster colors, no gradients, naive flattened perspective, casual marker wobble, and a youthful handmade home-event mood. All text, characters, props, and scene details must be original and must not copy the reference.\n",
       "variables": {
         "主标题": "MAIN_TEXT",
         "Slogan": "SECONDARY_TEXT",
@@ -3690,7 +3690,7 @@
         "画面-场景": "LOCATION",
         "IP形象": "参考图 + \"Maintain IP identity...\""
       },
-      "source_url": "",
+      "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/sky-blue-home-life-doodle-poster-style",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.webp"
@@ -3943,7 +3943,7 @@
         "粗糙黑色马克笔轮廓描边",
         "强对比非对称负空间"
       ],
-      "prompt": "",
+      "prompt": "Create a {ASPECT_RATIO} full-bleed action advertising poster in the Scarlet Court Photo Type Poster style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary side and bottom microcopy: {SECONDARY_TEXT}. Generic accent symbol: {ACCENT_SYMBOL}. Wardrobe and styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Composition: split the poster into a hard-edged electric-blue rectangular photographic panel near the top or upper side and a dominant flat scarlet-red field below or beside it; place one oversized realistic action subject so the body or prop crosses from the blue panel into the red field; keep the layout sparse and forceful with a clear seam, high-angle or overhead sports/editorial camera, decisive frozen motion, and a crisp cast shadow on the red field. Typography: use warm-cream extra-bold condensed geometric sans display type for {MAIN_TEXT} in the lower third, add a large warm-cream generic {ACCENT_SYMBOL} emblem below the subject, place tiny all-caps vertical side microcopy and a centered bottom note using {SECONDARY_TEXT}. Color and finish: saturated scarlet red, electric court blue, warm cream type, clean white panel lines, black hard shadows, one accent color on wardrobe or prop, coarse printed poster grain, slight reproduction texture, high contrast direct sunlight. Important content rule: preserve the red-blue panel poster system, cream typography, side rails, hard shadow, and print grain, but change the source subject, sport, prop, text, and story premise. Avoid real logos, brand marks, recognizable athletes, copied slogans, contact details, watermarks, tennis serves, tennis rackets, tennis nets, and logo-like swoosh shapes. Generate as a 4K ultra-high-resolution raster image.\n",
       "variables": {
         "主标题": "MAIN_TEXT",
         "Slogan": "SECONDARY_TEXT",
@@ -3952,7 +3952,7 @@
         "画面-场景": "LOCATION",
         "IP形象": "参考图 + \"Maintain IP identity...\""
       },
-      "source_url": "",
+      "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/scarlet-court-photo-type-poster-style",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.webp"
@@ -4119,7 +4119,7 @@
         "高清晰度细节表现",
         "无AI虚假感"
       ],
-      "prompt": "",
+      "prompt": "Create a 按需求（常见 16:9 或 4:3） poster in 写实摄影 style.\n\nSummary: 真实光学摄影质感 + 自然光或专业灯光 + 高清晰细节。\n\nPreserve these style anchors:\n- **真实光学摄影质感**\n- **自然光或专业影棚灯光**\n- **高清晰度细节表现**\n- **无AI虚假感**\n",
       "variables": {},
       "source_url": "",
       "source_author": "内部模板",
@@ -4368,7 +4368,7 @@
         "少量中文文字、克制留白",
         "真实摄影质感、电影级光影"
       ],
-      "prompt": "",
+      "prompt": "Create a 9:16 poster in 香水主视觉海报 style.\n\nSummary: 奢侈香氛 campaign 质感：香水瓶居中 + 香调元素可视化 + 高级品牌打光。\n\nPreserve these style anchors:\n- **9:16 竖版构图**\n- **香水瓶居中为 hero object**\n- **香调元素可视化（花瓣、果皮、木片、树脂、烟雾等）**\n- **高级玻璃质感、真实反光、品牌级打光**\n- **少量中文文字、克制留白**\n- **真实摄影质感、电影级光影**\n",
       "variables": {
         "主标题": "香水名称",
         "副标题": "核心香材",
@@ -4645,7 +4645,7 @@
         "视觉隐喻与文字、图形融合",
         "高级干净有秩序的画面"
       ],
-      "prompt": "",
+      "prompt": "Create a 16:9 或 5:2 poster in 麦肯锡风格 style.\n\nSummary: 顶级咨询公司的专业、克制、理性风格 —— 文字不仅是标题，更是画面结构的一部分。\n\nPreserve these style anchors:\n- **麦肯锡 / BCG / Bain 风格的理性克制专业气质**\n- **巨型主视觉词 + 核心商业隐喻**\n- **清晰的商业主题表达**\n- **视觉隐喻与文字、图形融合**\n- **高级干净有秩序的画面**\n",
       "variables": {},
       "source_url": "",
       "source_author": "AdrianPunk115",
@@ -4684,7 +4684,7 @@
         "贴纸图标点缀（笑脸/闪电/花朵）",
         "混合材质（毛绒/亚克力/镀铬）"
       ],
-      "prompt": "",
+      "prompt": "Create a {ASPECT_RATIO} image in the \"Bold Block Mascot Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\n\nApply these style rules:\n- Dense flat editorial poster composition with oversized ultra-heavy black display typography as a structural block.\n- A single large tilted cyan, mint, teal, or lemon panel crosses the center, backed by a secondary inset shape or project-card block.\n- One chunky rounded white mascot-like subject or simplified graphic object with thick uniform black outline, minimal face marks, and sticker anatomy.\n- Off-white paper base, black linework, cyan/mint/lemon panels, and one small red or high-contrast accent only.\n- Flat raster illustration with screenprint sharpness, subtle paper grain, hard fills, and no realistic light or depth.\n- Add one compact speech bubble, stamp, badge, red card cluster, or editorial label accent, but never a real logo.\n- Use short graphic typography only; headline text can be English or Chinese, but it must behave as a poster shape.\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text while preserving the style fidelity anchors. Avoid coffee themes, source slogans, course identities, watermarks, UI screenshots, real brand marks, exact source mascot anatomy, realistic 3D rendering, glossy product photography, anime scenes, painterly detail, long paragraphs, and cluttered background scenery.\n",
       "variables": {
         "主标题": "main_text",
         "Slogan": "micro_copy",
@@ -4692,7 +4692,7 @@
         "画面-道具": "hero_prop",
         "IP形象": "参考图 + \"Maintain IP identity...\""
       },
-      "source_url": "",
+      "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/bold-block-mascot-poster-style",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp"
@@ -4823,9 +4823,9 @@
         "红白格子透视地板",
         "极简白色摄影棚背景"
       ],
-      "prompt": "",
+      "prompt": "Create a polished international luxury editorial poster in the Luxury Perspective Checkerboard Editorial style. Subject: {SUBJECT}. Action or presentation: {SUBJECT_ACTION}. Hero product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Typography: place the invented large script word \"{MAIN_TEXT}\" as an oversized sweeping background graphic behind the subject, and place the small uppercase editorial text \"{SECONDARY_TEXT}\" near the upper field; add the restrained accent symbol \"{ACCENT_SYMBOL}\" only once. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a low-angle high-fashion photographic camera, crisp studio lighting, generous white space, a red-and-white checkerboard perspective plane, deep black structure, emerald or teal accent details, clean cutout subject edges, glossy premium material highlights, and sparse typography. Do not use any real brand logos, real fashion house names, monograms, watermarks, QR codes, social media UI, price labels, or copied campaign identities. Aspect ratio: {ASPECT_RATIO}.\n",
       "variables": {},
-      "source_url": "",
+      "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/luxury-perspective-checkerboard-editorial",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.webp"
@@ -4911,7 +4911,7 @@
         "**物理真实感** — 华夫格针织面料位移几何、纤维微绒、刺绣凹凸阴影、衬线边缘光晕",
         "**相机参数精准** — Canon EOS R5 / Nikon Z8 + 100mm微距镜头，f/8-f/11深景深，4:5竖版"
       ],
-      "prompt": "",
+      "prompt": "Create a 4:5 poster in 奢侈品牌刺绣微距 style.\n\nSummary: 如同品牌委托刺绣艺术家将Logo转化为线艺作品，用微距镜头捕捉每一根丝线的光泽与织物质感，呈现顶级纺织品摄影的真实感。\n\nPreserve these style anchors:\n- **极致微距纹理**: 3D几何刺绣线材，每根线是真实几何体投射真实阴影，非贴图模拟\n- **专业纺织布光**: 120cm巨大柔光箱从正上方平坦照明，无方向性阴影，临床级精准\n- **品牌色智能识别**: AI自动提取品牌代表性色作为主绣线色，默认深海军蓝 #1A2332\n- **多针法系统**: 缎纹绣（光泽面）、轮廓绣（曲线）、法式结粒绣（圆点）、尖刺元素（渐尖）\n- **物理真实感**: 华夫格针织面料位移几何、纤维微绒、刺绣凹凸阴影、衬线边缘光晕\n- **相机参数精准**: Canon EOS R5 / Nikon Z8 + 100mm微距镜头，f/8-f/11深景深，4:5竖版\n",
       "variables": {
         "{品牌名}": "[BRAND NAME]",
         "{品牌色}": "PHASE 0 自动识别",
@@ -5301,7 +5301,7 @@
         "**文字风格**：现代无衬线字体，严格网格系统排版，文字层级清晰",
         "**整体调性**：潮酷活泼、年轻化夜店氛围感，商业级活动海报质感"
       ],
-      "prompt": "",
+      "prompt": "Create a 9:16 poster in Y2K酸性·ALL STARS 夜店潮流海报 style.\n\nSummary: Y2K酸性设计结合孟菲斯复古未来主义的夜店潮流活动海报，以3D充气软胶质感为核心视觉语言。\n\nPreserve these style anchors:\n- ****色彩体系**：纯黑底色 + 亮蓝 + 暖橙 + 纯白的高饱和撞色**\n- ****材质工艺**：3D 膨胀充气软胶质感，C4D+Octane 渲染，均匀细腻的哑光颗粒肌理，圆润光滑的高光**\n- ****核心元素**：充气软胶孟菲斯几何元素 — 亮蓝弯曲管道、透明圆环、原子结构支架、星芒、旋钮、暖橙十字块、网格块、爆炸星、白色云朵、骨头、粉蓝渐变嘴唇、黑白眼球**\n- ****版式布局**：顶部品牌标识/热线信息 → 超大号粗体主标题「ALL STARS」→ 下半部分活动详情/日期/嘉宾名单**\n- ****文字风格**：现代无衬线字体，严格网格系统排版，文字层级清晰**\n- ****整体调性**：潮酷活泼、年轻化夜店氛围感，商业级活动海报质感**\n",
       "variables": {},
       "source_url": "",
       "source_author": "Ai绘画师",
@@ -5390,7 +5390,7 @@
         "一张光泽生鲜产品照作为画面中心",
         "文字与产品照片叠加的层次感"
       ],
-      "prompt": "",
+      "prompt": "Create a 9:16 或 16:9 poster in Jade Glyph Grocer Collage Poster Style style.\n\nSummary: 稀疏的东亚杂货海报系统，由暖米白纸张 + 翡翠绿手写大字 + 浅色蔬菜剪影云 + 微编辑标题 + 一张光泽生鲜产品照组成。\n\nPreserve these style anchors:\n- **暖米白纸张基底**\n- **超大翡翠绿手写文字（类似刻字/剪纸效果）**\n- **浅绿色蔬菜剪影作为水印背景**\n- **顶部栏目导航栏（期号、品类标签）**\n- **收据/吊牌元素**\n- **拼音标注**\n- **一张光泽生鲜产品照作为画面中心**\n- **文字与产品照片叠加的层次感**\n",
       "variables": {
         "主标题": "MAIN_TEXT",
         "副标题": "SECONDARY_TEXT",
@@ -5436,7 +5436,7 @@
         "低饱和、东方感、高级感的配色",
         "精工细节与水墨气韵同时具备"
       ],
-      "prompt": "",
+      "prompt": "Create a 9:16（竖版） poster in inkline_couture style.\n\nSummary: 东方高定时装与水墨美学的诗意融合，以毛笔书法线条和低饱和配色呈现优雅空灵的现代中式时装插画。\n\nPreserve these style anchors:\n- **现代东方高定时装 + 中国水墨美学的融合**\n- **淡彩水彩质感，细腻的书法式线条**\n- **大面积留白，\"白而不空\"的呼吸感**\n- **低饱和、东方感、高级感的配色**\n- **精工细节与水墨气韵同时具备**\n",
       "variables": {
         "主视觉主体": "{{主体}}",
         "服装风格": "{{服装风格}}",
@@ -6059,7 +6059,7 @@
         "真实时尚摄影 + 精致打光",
         "清晰的品牌调性"
       ],
-      "prompt": "",
+      "prompt": "Create a 9:16 poster in 时尚 Campaign 排版海报 style.\n\nSummary: 高端时尚 campaign 排版海报：排版本身就是画面结构，超大字体 + 强视觉层级 + 品牌调性。\n\nPreserve these style anchors:\n- **排版成为画面结构，不只是装饰**\n- **超大字体 + 强视觉层级**\n- **编辑式构图 + 负空间**\n- **真实时尚摄影 + 精致打光**\n- **清晰的品牌调性**\n",
       "variables": {},
       "source_url": "",
       "source_author": "MrLarus",
@@ -6650,7 +6650,7 @@
         "主标题清晰可读的高级编辑排版",
         "有节奏感的设计留白"
       ],
-      "prompt": "",
+      "prompt": "Create a 9:16 或 3:4 poster in 弥散风视觉海报 style.\n\nSummary: 让颜色会呼吸，让文字有位置，让留白有节奏。\n\nPreserve these style anchors:\n- **柔和扩散的色块 + 雾化边缘**\n- **胶片颗粒 + 印刷噪点质感**\n- **主标题清晰可读的高级编辑排版**\n- **有节奏感的设计留白**\n",
       "variables": {
         "主标题": "主题词",
         "Slogan": "不在变量里",
@@ -6866,7 +6866,7 @@
         "disco-ball 镜面砖效果",
         "柔和工作室灯光"
       ],
-      "prompt": "",
+      "prompt": "Create a 1:1 方图（2048x2048） poster in 拼贴logo（马赛克风格） style.\n\nSummary: 用马赛克镜面砖拼出高级感品牌图标。\n\nPreserve these style anchors:\n- **圆角方砖造型**\n- **光泽玻璃 + 镀铬材质**\n- **disco-ball 镜面砖效果**\n- **柔和工作室灯光**\n",
       "variables": {},
       "source_url": "",
       "source_author": "内部模板",
@@ -7550,7 +7550,7 @@
         "**10种构图骨架**：中央/上下错层/斜向/环绕/四角张力/满版字体/极端留白/垂直轴/水平轴/分散式",
         "**克制信息量**：不能变成杂志目录，追求秩序和结构"
       ],
-      "prompt": "",
+      "prompt": "Create a 16:9 / 9:16 / 1:1 / 4:5 / 3:2 poster in avantgarde_bw_poster - 黑白灰先锋海报 style.\n\nSummary: 克制、秩序、先锋 —— 不追求信息密度，用极简几何和字体排版制造视觉张力。\n\nPreserve these style anchors:\n- ****黑白灰层次丰富**：至少4种灰度层次，纯黑、暗灰、中灰、浅灰、白色交替**\n- ****随机字体排版**：巨型横排/竖排/横竖混排/靠边/居中/压底/分散式等多种方向**\n- ****随机几何母题**：从20+种几何元素中随机选择2-4种组合**\n- ****6大几何家族**：圆形家族、线性家族、块面家族、空间家族、网格纹理、结构符号**\n- ****极简强调色**：只使用1种颜色，1-2处，面积不超过画面2%**\n- ****10种构图骨架**：中央/上下错层/斜向/环绕/四角张力/满版字体/极端留白/垂直轴/水平轴/分散式**\n- ****克制信息量**：不能变成杂志目录，追求秩序和结构**\n",
       "variables": {
         "主标题": "{{主题词}}",
         "Slogan": "{{副标题}}",

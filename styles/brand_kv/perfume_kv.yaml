@@ -51,7 +51,18 @@ variables:
 - kv_var: 色彩-主色
   style_var: 主色调
   desc: 主色调
-prompt: ''
+prompt: |
+  Create a 9:16 poster in 香水主视觉海报 style.
+  
+  Summary: 奢侈香氛 campaign 质感：香水瓶居中 + 香调元素可视化 + 高级品牌打光。
+  
+  Preserve these style anchors:
+  - **9:16 竖版构图**
+  - **香水瓶居中为 hero object**
+  - **香调元素可视化（花瓣、果皮、木片、树脂、烟雾等）**
+  - **高级玻璃质感、真实反光、品牌级打光**
+  - **少量中文文字、克制留白**
+  - **真实摄影质感、电影级光影**
 preview: https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.jpg
 id: perfume_kv
 code: ''

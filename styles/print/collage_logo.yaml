@@ -24,7 +24,16 @@ features:
 - title: 柔和工作室灯光
   desc: ''
 variables: []
-prompt: ''
+prompt: |
+  Create a 1:1 方图（2048x2048） poster in 拼贴logo（马赛克风格） style.
+  
+  Summary: 用马赛克镜面砖拼出高级感品牌图标。
+  
+  Preserve these style anchors:
+  - **圆角方砖造型**
+  - **光泽玻璃 + 镀铬材质**
+  - **disco-ball 镜面砖效果**
+  - **柔和工作室灯光**
 preview: https://malongan.github.io/images/styles_previews/collage_logo.png
 id: collage_logo
 code: ''

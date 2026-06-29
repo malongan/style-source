@@ -57,7 +57,30 @@ variables:
 - kv_var: '`背景色`'
   style_var: 背景颜色
   desc: beige、white、cream
-prompt: ''
+prompt: |
+  Create a poster in 蒙德里安秩序风 (Mondrian De Stijl) style.
+  
+  Summary: 把任何主题重新放进红黄蓝白黑的网格系统：让色块建立节奏，让黑线组织结构，让标题本身变成图形和隐喻。
+  
+  Preserve these style anchors:
+  - 几何网格构图：粗黑线条分割画面，形成严格的网格系统
+  - 红黄蓝白黑五色：经典 De Stijl 配色，极简高对比
+  - 标题即图形：文字不仅是信息，更是视觉元素
+  - 克制发力：看似极简，每一条线、每一个色块都精心设计
+  - 中英双语：中文主标题 + 英文副标题/理念标语
+  
+  Variables:
+  - {brand_name}: 品牌/项目名称
+  - {brand_tagline}: 品牌描述
+  - {main_title}: 中文大标题
+  - {subtitle}: 英文副标题
+  - {graphic_element}: 融入图形的字母/符号
+  - {side_text}: 竖排/侧边文字
+  - {center_visual}: 画面中央的视觉元素
+  - {bg_color}: 背景颜色
+  
+  Rendering: strict Mondrian grid with thick black lines, primary color blocks (red, yellow, blue), white and black areas, clean geometric composition, bold typography as graphic element.
+  No gradients, no shadows, no rounded corners, no photorealistic elements.
 preview: https://malongan.github.io/images/vigo_mondrian/future_city.jpg
 id: vigo_mondrian_style
 code: ''

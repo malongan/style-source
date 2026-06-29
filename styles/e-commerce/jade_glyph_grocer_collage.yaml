@@ -55,7 +55,20 @@ variables:
 - kv_var: IP形象
   style_var: 参考图 + "Maintain IP identity..."
   desc: 不在变量里，用参考图
-prompt: ''
+prompt: |
+  Create a 9:16 或 16:9 poster in Jade Glyph Grocer Collage Poster Style style.
+  
+  Summary: 稀疏的东亚杂货海报系统，由暖米白纸张 + 翡翠绿手写大字 + 浅色蔬菜剪影云 + 微编辑标题 + 一张光泽生鲜产品照组成。
+  
+  Preserve these style anchors:
+  - **暖米白纸张基底**
+  - **超大翡翠绿手写文字（类似刻字/剪纸效果）**
+  - **浅绿色蔬菜剪影作为水印背景**
+  - **顶部栏目导航栏（期号、品类标签）**
+  - **收据/吊牌元素**
+  - **拼音标注**
+  - **一张光泽生鲜产品照作为画面中心**
+  - **文字与产品照片叠加的层次感**
 preview: https://malongan.github.io/images/styles_previews/jade_glyph_grocer_collage.jpg
 id: jade_glyph_grocer_collage
 code: ''

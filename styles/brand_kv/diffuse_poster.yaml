@@ -37,7 +37,16 @@ variables:
 - kv_var: IP形象
   style_var: 参考图 + "Maintain IP identity..."
   desc: 不在变量里，用参考图
-prompt: ''
+prompt: |
+  Create a 9:16 或 3:4 poster in 弥散风视觉海报 style.
+  
+  Summary: 让颜色会呼吸，让文字有位置，让留白有节奏。
+  
+  Preserve these style anchors:
+  - **柔和扩散的色块 + 雾化边缘**
+  - **胶片颗粒 + 印刷噪点质感**
+  - **主标题清晰可读的高级编辑排版**
+  - **有节奏感的设计留白**
 preview: https://malongan.github.io/images/styles_previews/diffuse_poster.jpg
 id: diffuse_poster
 code: ''

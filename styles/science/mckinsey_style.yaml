@@ -30,7 +30,17 @@ features:
 - title: 高级干净有秩序的画面
   desc: ''
 variables: []
-prompt: ''
+prompt: |
+  Create a 16:9 或 5:2 poster in 麦肯锡风格 style.
+  
+  Summary: 顶级咨询公司的专业、克制、理性风格 —— 文字不仅是标题，更是画面结构的一部分。
+  
+  Preserve these style anchors:
+  - **麦肯锡 / BCG / Bain 风格的理性克制专业气质**
+  - **巨型主视觉词 + 核心商业隐喻**
+  - **清晰的商业主题表达**
+  - **视觉隐喻与文字、图形融合**
+  - **高级干净有秩序的画面**
 preview: https://malongan.github.io/images/styles_previews/mckinsey_style.png
 id: mckinsey_style
 code: ''

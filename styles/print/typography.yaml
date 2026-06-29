@@ -25,7 +25,16 @@ features:
 - title: 光影效果（霓虹/投影/高光）
   desc: ''
 variables: []
-prompt: ''
+prompt: |
+  Create a 按需求（常见 9:16 或 16:9） poster in 字体设计 style.
+  
+  Summary: 字体类型 + 笔画结构 + 材质光效 = 高级字体设计。
+  
+  Preserve these style anchors:
+  - **多种字体风格（时尚/书法/复古/未来等）**
+  - **详细的笔画/结构/重心描述**
+  - **材质效果（金属/玻璃/旧印刷）**
+  - **光影效果（霓虹/投影/高光）**
 preview: https://malongan.github.io/images/styles_previews/typography.png
 id: typography
 code: ''

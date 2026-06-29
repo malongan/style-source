@@ -2,7 +2,7 @@ name: Sunlit Kinetic Block Type Photo Poster
 category: brand_kv
 ratio: 9:16 / 16:9
 source_author: '@VigoCreativeAI'
-source_url: ''
+source_url: "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/sunlit-kinetic-block-type-photo-poster-style"
 summary: 全幅日光摄影 + 超大奶色压缩字体 + 对角线裁剪人物 = 让普通人瞬间有「杂志封面主角」的质感。
 tags:
 - VigoCookbook
@@ -49,7 +49,8 @@ variables:
 - kv_var: 色彩-主色
   style_var: 奶白色
   desc: cream condensed block typography
-prompt: ''
+prompt: |
+  Create a {ASPECT_RATIO} full-bleed editorial action poster in the Sunlit Kinetic Block Type Photo Poster style. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Use a realistic bright outdoor photograph as the base: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}, with {BACKGROUND_ELEMENTS}. Camera and composition: low or close wide-angle perspective, oversized foreground scale, decisive frozen motion, one strong diagonal crossing the frame, the subject cropped by at least one edge. Typography: place immense warm-cream extra-condensed block sans display lettering reading {MAIN_TEXT} behind the subject, filling over half the canvas, cropped by the frame and partially obscured by the action. Add compact white microcopy reading {SECONDARY_TEXT} in tight editorial blocks, plus a small generic {ACCENT_SYMBOL} mark and bottom information clusters in cream. Wardrobe and styling: {WARDROBE_STYLE}. Color system: saturated sky-blue or cyan dominant field, warm cream typography, crisp white microcopy, deep shadows, and one vivid accent color concentrated on the hero prop or wardrobe. Lighting and finish: hard midday sunlight, crisp shadows, high contrast commercial photo realism, slight print-poster grain, no illustration or 3D rendering, no real logos or watermarks. Generate as a 4K ultra-high-resolution raster image.
 preview: https://malongan.github.io/images/vigo_previews/sunlit_kinetic_block_type_poster.jpg
 id: sunlit_kinetic_block_type_poster
 code: ''

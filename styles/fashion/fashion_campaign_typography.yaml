@@ -29,7 +29,17 @@ features:
 - title: 清晰的品牌调性
   desc: ''
 variables: []
-prompt: ''
+prompt: |
+  Create a 9:16 poster in 时尚 Campaign 排版海报 style.
+  
+  Summary: 高端时尚 campaign 排版海报：排版本身就是画面结构，超大字体 + 强视觉层级 + 品牌调性。
+  
+  Preserve these style anchors:
+  - **排版成为画面结构，不只是装饰**
+  - **超大字体 + 强视觉层级**
+  - **编辑式构图 + 负空间**
+  - **真实时尚摄影 + 精致打光**
+  - **清晰的品牌调性**
 preview: https://malongan.github.io/images/temp/temp_20260613_001.jpg
 id: fashion_campaign_typography
 code: ''

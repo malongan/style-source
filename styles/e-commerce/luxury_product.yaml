@@ -2,7 +2,7 @@ name: 高级电商图
 category: e-commerce
 ratio: '16:9'
 source_author: '@VigoCreativeAI'
-source_url: ''
+source_url: "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/luxury-perspective-checkerboard-editorial"
 summary: 黑色奢华轮廓 + 红白格子透视地板 = 高级商业摄影。
 tags:
 - 电商
@@ -25,7 +25,8 @@ features:
 - title: 极简白色摄影棚背景
   desc: ''
 variables: []
-prompt: ''
+prompt: |
+  Create a polished international luxury editorial poster in the Luxury Perspective Checkerboard Editorial style. Subject: {SUBJECT}. Action or presentation: {SUBJECT_ACTION}. Hero product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Typography: place the invented large script word "{MAIN_TEXT}" as an oversized sweeping background graphic behind the subject, and place the small uppercase editorial text "{SECONDARY_TEXT}" near the upper field; add the restrained accent symbol "{ACCENT_SYMBOL}" only once. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a low-angle high-fashion photographic camera, crisp studio lighting, generous white space, a red-and-white checkerboard perspective plane, deep black structure, emerald or teal accent details, clean cutout subject edges, glossy premium material highlights, and sparse typography. Do not use any real brand logos, real fashion house names, monograms, watermarks, QR codes, social media UI, price labels, or copied campaign identities. Aspect ratio: {ASPECT_RATIO}.
 preview: https://malongan.github.io/images/styles_previews/luxury_product.png
 id: luxury_product
 code: ''

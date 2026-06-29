@@ -54,7 +54,19 @@ variables:
 - kv_var: IP形象
   style_var: 不适用
   desc: 此风格不适合IP KV套用，纯文字+几何海报风格
-prompt: ''
+prompt: |
+  Create a 16:9 / 9:16 / 1:1 / 4:5 / 3:2 poster in avantgarde_bw_poster - 黑白灰先锋海报 style.
+  
+  Summary: 克制、秩序、先锋 —— 不追求信息密度，用极简几何和字体排版制造视觉张力。
+  
+  Preserve these style anchors:
+  - ****黑白灰层次丰富**：至少4种灰度层次，纯黑、暗灰、中灰、浅灰、白色交替**
+  - ****随机字体排版**：巨型横排/竖排/横竖混排/靠边/居中/压底/分散式等多种方向**
+  - ****随机几何母题**：从20+种几何元素中随机选择2-4种组合**
+  - ****6大几何家族**：圆形家族、线性家族、块面家族、空间家族、网格纹理、结构符号**
+  - ****极简强调色**：只使用1种颜色，1-2处，面积不超过画面2%**
+  - ****10种构图骨架**：中央/上下错层/斜向/环绕/四角张力/满版字体/极端留白/垂直轴/水平轴/分散式**
+  - ****克制信息量**：不能变成杂志目录，追求秩序和结构**
 preview: https://malongan.github.io/images/styles_previews/avantgarde_bw_poster.png
 id: avantgarde_bw_poster
 code: ''

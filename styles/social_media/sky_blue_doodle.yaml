@@ -2,7 +2,7 @@ name: 天蓝家居生活涂鸦海报
 category: social_media
 ratio: 9:16 或 16:9
 source_author: '@VigoCreativeAI'
-source_url: ''
+source_url: "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/sky-blue-home-life-doodle-poster-style"
 summary: 天蓝底色 + 手绘马克笔 + 扁平卡通家居场景。
 tags:
 - 涂鸦
@@ -43,7 +43,8 @@ variables:
 - kv_var: IP形象
   style_var: 参考图 + "Maintain IP identity..."
   desc: 不在变量里，用参考图
-prompt: ''
+prompt: |
+  Create an original {ASPECT_RATIO} poster illustration in the Sky Blue Home Life Doodle Poster style. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a full pastel sky-blue outer field and a large rough off-white house-shaped inset with thick wobbly black marker outlines. Put a huge uneven black hand-lettered headline reading {MAIN_TEXT} across the top, plus {SECONDARY_TEXT} as a small slanted support label and {ACCENT_SYMBOL} as a small graphic accent. Inside the house inset, show {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Add {BACKGROUND_ELEMENTS} as simple flat home icons. Dress or style the subject with {WARDROBE_STYLE}. Use chunky rounded cartoon anatomy, oversized hands or props when useful, flat poster colors, no gradients, naive flattened perspective, casual marker wobble, and a youthful handmade home-event mood. All text, characters, props, and scene details must be original and must not copy the reference.
 preview: https://malongan.github.io/images/styles_previews/sky_blue_doodle.png
 id: sky_blue_doodle
 code: ''

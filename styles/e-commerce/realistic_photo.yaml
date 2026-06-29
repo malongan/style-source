@@ -25,7 +25,16 @@ features:
 - title: 无AI虚假感
   desc: ''
 variables: []
-prompt: ''
+prompt: |
+  Create a 按需求（常见 16:9 或 4:3） poster in 写实摄影 style.
+  
+  Summary: 真实光学摄影质感 + 自然光或专业灯光 + 高清晰细节。
+  
+  Preserve these style anchors:
+  - **真实光学摄影质感**
+  - **自然光或专业影棚灯光**
+  - **高清晰度细节表现**
+  - **无AI虚假感**
 preview: https://malongan.github.io/images/styles_previews/realistic_photo.png
 id: realistic_photo
 code: ''

@@ -2,7 +2,7 @@ name: Scarlet红块手绘描边风格
 category: print
 ratio: 9:16 或 16:9
 source_author: '@VigoCreativeAI'
-source_url: ''
+source_url: "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/scarlet-court-photo-type-poster-style"
 summary: 白色纸张底 + 超大红色衬线字母 + 马克笔描边 = 故意的不完美。
 tags:
 - 红块
@@ -47,7 +47,8 @@ variables:
 - kv_var: IP形象
   style_var: 参考图 + "Maintain IP identity..."
   desc: 不在变量里，用参考图
-prompt: ''
+prompt: |
+  Create a {ASPECT_RATIO} full-bleed action advertising poster in the Scarlet Court Photo Type Poster style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary side and bottom microcopy: {SECONDARY_TEXT}. Generic accent symbol: {ACCENT_SYMBOL}. Wardrobe and styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Composition: split the poster into a hard-edged electric-blue rectangular photographic panel near the top or upper side and a dominant flat scarlet-red field below or beside it; place one oversized realistic action subject so the body or prop crosses from the blue panel into the red field; keep the layout sparse and forceful with a clear seam, high-angle or overhead sports/editorial camera, decisive frozen motion, and a crisp cast shadow on the red field. Typography: use warm-cream extra-bold condensed geometric sans display type for {MAIN_TEXT} in the lower third, add a large warm-cream generic {ACCENT_SYMBOL} emblem below the subject, place tiny all-caps vertical side microcopy and a centered bottom note using {SECONDARY_TEXT}. Color and finish: saturated scarlet red, electric court blue, warm cream type, clean white panel lines, black hard shadows, one accent color on wardrobe or prop, coarse printed poster grain, slight reproduction texture, high contrast direct sunlight. Important content rule: preserve the red-blue panel poster system, cream typography, side rails, hard shadow, and print grain, but change the source subject, sport, prop, text, and story premise. Avoid real logos, brand marks, recognizable athletes, copied slogans, contact details, watermarks, tennis serves, tennis rackets, tennis nets, and logo-like swoosh shapes. Generate as a 4K ultra-high-resolution raster image.
 preview: https://malongan.github.io/images/styles_previews/scarlet.png
 id: scarlet
 code: ''

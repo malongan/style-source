@@ -45,7 +45,17 @@ variables:
 - kv_var: 人物姿态
   style_var: '{{姿态}}'
   desc: 站姿/回眸/转身等
-prompt: ''
+prompt: |
+  Create a 9:16（竖版） poster in inkline_couture style.
+  
+  Summary: 东方高定时装与水墨美学的诗意融合，以毛笔书法线条和低饱和配色呈现优雅空灵的现代中式时装插画。
+  
+  Preserve these style anchors:
+  - **现代东方高定时装 + 中国水墨美学的融合**
+  - **淡彩水彩质感，细腻的书法式线条**
+  - **大面积留白，"白而不空"的呼吸感**
+  - **低饱和、东方感、高级感的配色**
+  - **精工细节与水墨气韵同时具备**
 preview: https://malongan.github.io/images/styles_previews/inkline_couture.png
 id: inkline_couture
 code: ''

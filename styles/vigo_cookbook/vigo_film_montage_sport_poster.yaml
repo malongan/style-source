@@ -8,7 +8,30 @@ tags: []
 triggers: []
 features: []
 variables: []
-prompt: ''
+prompt: |
+  Create a 16:9 cinematic sports poster in 电影蒙太奇三镜头运动海报 (Film Montage Triptych Sports Poster) style.
+  
+  Summary: Three-panel film strip montage combining dynamic sports action photography with cinematic typography and film grain texture.
+  
+  Preserve these style anchors:
+  - Three-panel horizontal film strip layout with thin white or silver borders between frames
+  - Dynamic sports action photography with motion blur and dramatic angles
+  - Cinematic color grading: high contrast, teal-orange or desaturated film tones
+  - Film grain texture overlay for authentic cinema feel
+  - Bold condensed sans-serif typography for player name and stats
+  - Film metadata elements: frame numbers, timecodes, reel marks
+  - Dramatic lighting with rim lights and lens flare
+  
+  Variables:
+  - {sport}: sport type (basketball, football, etc.)
+  - {athlete}: athlete name or team
+  - {action}: dynamic action pose
+  - {stats}: performance statistics
+  - {headline}: main headline text
+  - {subtext}: supporting text
+  
+  Rendering: cinematic film strip montage, high contrast sports photography, film grain texture, bold typography, dramatic lighting.
+  No anime, no cartoon, no flat illustration, no watermarks.
 preview: https://malongan.github.io/style-source/images/styles_previews/vigo_film_montage_sport_poster_9f354591.webp
 id: vigo_film_montage_sport_poster
 code: ''
