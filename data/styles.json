@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-64-gb0142d5-dirty",
-    "generated": "2026-06-29T02:05:53Z",
-    "total": 157,
+    "version": "v0.5.0-65-g2046a8d-dirty",
+    "generated": "2026-06-29T07:24:30Z",
+    "total": 158,
     "categories": [
       "brand_kv",
       "creative",
@@ -7353,6 +7353,45 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.thumb.webp"
+    },
+    {
+      "id": "bold_flow_typography_visual_experience",
+      "code": "ST0158",
+      "name": "粗壮飘逸字体设计",
+      "category": "typography",
+      "tags": [
+        "字体设计",
+        "中文排版",
+        "飘逸笔划",
+        "动感排列",
+        "大师作品"
+      ],
+      "triggers": [
+        "粗壮字体",
+        "飘逸文字",
+        "字体挤压",
+        "错位排列",
+        "视觉体验"
+      ],
+      "scene": "标题字体设计、品牌视觉、海报排版、创意文字",
+      "ratio": "1:1",
+      "summary": "粗壮宽阔的飘逸中文笔划，动感错位排列，文字挤压效果，纯色背景，扁平大师级字体设计",
+      "features": [
+        "**粗壮宽阔笔划** — 飘逸文字笔划，粗壮有力，转折弧形柔和完美",
+        "**动感排列** — 文字排列极具动感，错位排列，视觉平衡之美",
+        "**文字挤压效果** — 文字间产生挤压感，增强视觉张力",
+        "**扁平大师风** — 扁平化处理，大师级作品质感",
+        "**纯色背景** — 纯色背景突出文字主体，画面简洁有力"
+      ],
+      "prompt": "Typography design for the Chinese characters \"{主题文字}\" and English \"{ENGLISH_TEXT}\".\n\nBold, broad, flowing Chinese character brush strokes with smooth curved transitions. Dynamic text arrangement with squeeze effects and misaligned text positioning, creating visual balance beauty. Flat style, master-level work quality.\n\nBottom center: small sans-serif text \"{副标题}\", below that even smaller text \"{署名}\".\n\nPure solid color background, clean composition, high-quality output. The text should dominate the frame with strong visual impact. Chinese characters are the main focus, English text as auxiliary element.\n\nNo watermarks, no complex backgrounds, no 3D effects, no gradients. Keep it flat, clean, and powerful.\n",
+      "variables": {},
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7579463842925645065",
+      "source_author": "平面设计老鬼",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/bold_flow_typography_visual_experience_ac0c82a2.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_flow_typography_visual_experience_ac0c82a2.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_flow_typography_visual_experience_ac0c82a2.thumb.webp"
     },
     {
       "id": "bloomberg_magazine",
