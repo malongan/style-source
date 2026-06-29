@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-63-g8562e04",
-    "generated": "2026-06-28T03:13:50Z",
-    "total": 156,
+    "version": "v0.5.0-64-gb0142d5-dirty",
+    "generated": "2026-06-29T02:05:53Z",
+    "total": 157,
     "categories": [
       "brand_kv",
       "creative",
@@ -3704,6 +3704,45 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.thumb.webp"
+    },
+    {
+      "id": "silver_foil_klein_blue_cover",
+      "code": "ST0157",
+      "name": "银色锡纸蓝字风封面",
+      "category": "typography",
+      "tags": [
+        "锡纸材质",
+        "克莱因蓝",
+        "极简封面",
+        "材质质感",
+        "高级感"
+      ],
+      "triggers": [
+        "锡纸封面",
+        "银色锡纸",
+        "克莱因蓝封面",
+        "材质封面",
+        "极简蓝字"
+      ],
+      "scene": "教程封面、商业封面、AI方法论封面、视频封面、文章封面",
+      "ratio": "5:2",
+      "summary": "银色锡纸纹理背景 + 统一克莱因蓝文字 + 中粗黑体 + 极简线条隐喻，高级极简封面风格",
+      "features": [
+        "**银色锡纸背景** — 真实锡纸轻微揉皱后铺平，细密均匀的褶皱纹理，冷银色金属质感",
+        "**克莱因蓝文字** — 纯正深邃统一的蓝色，所有文字线条图形使用同一种蓝色",
+        "**中粗黑体排版** — 现代中粗黑体中文 + 粗体无衬线英文，字形简洁稳重",
+        "**极简线条隐喻** — 根据主题设计蓝色极简线条图形，面积控制在 15%-25%",
+        "**克制理性气质** — 不靠花哨配色，不堆复杂元素，整体更克制、理性、高级"
+      ],
+      "prompt": "Generate a premium minimalist cover with silver tin foil texture background and Klein blue text.\n\n【Background】\nUse real silver tin foil as the full background. The foil should appear lightly crumpled then flattened, showing fine, even, natural, restrained micro-wrinkles. Surface has cold silver metallic texture with subtle reflections, soft highlights, and slight light-dark variations. Tin foil texture must be clear but not too coarse, too bright, or too messy. The area where text sits should be relatively flat, avoiding highlights, dark patterns, or complex wrinkles crossing the text.\n\n【Colors】\nUse only two core colors: silver tin foil background + pure, deep, unified Klein blue for all text and lines. All blue text, lines, and graphics must use the same shade of blue, no variation in depth, no grayish, purplish, or local gradients.\n\n【Typography】\nChinese: modern medium-weight sans-serif, clean strokes, steady and modern, moderate letter-spacing and line-spacing. No calligraphy, rounded, cartoon, or decorative fonts.\nEnglish: bold sans-serif, auxiliary info, noticeably smaller than Chinese.\n\n【Layout】\nMain title stays restrained, moderate size. Use left-aligned / right-aligned / centered / two or three lines. Generous whitespace, natural spacing, balanced line lengths. One layout style per image.\n\n【Visual Metaphor】\nExtract one core concept from the theme, design as a Klein blue minimalist line metaphor: paths, circuits, nodes, stairs, entrances, connections, input-output, state transitions. Graphics occupy 15%-25% of the image, never more prominent than the title.\n\n【Composition】\nOnly: silver fine-texture tin foil background + Klein blue main title + optional subtitle or English auxiliary text + one minimalist line metaphor.\n\n【Mood】\nMinimalist, calm, rational, restrained, premium, modern, clear.\n\n【Strict Restrictions】\nNo people, product photography, complex illustrations, oversized titles, ultra-bold fonts, crowded text, background highlights crossing text, inconsistent blue shades, large watermarks, diagonal text, mixed horizontal-vertical text, complex flowcharts, multiple stacked icons, dense small text, large blue color blocks, gradients, glowing effects, 3D text, 3D icons, cyberpunk.\n\n【Final Effect】\nA premium cover with silver fine-texture tin foil background + unified Klein blue text + medium-weight sans-serif Chinese + bold sans-serif English + one clean thematic metaphor. Text clear, restrained, spacious, background and text blend naturally, colors unified, generous whitespace, resembling a premium independent magazine cover or contemporary design exhibition poster.\n",
+      "variables": {},
+      "source_url": "https://x.com/AdrianPunk115/status/2071141624105877890",
+      "source_author": "Adrian Punk",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/silver_foil_klein_blue_cover_f8e22fb7.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/silver_foil_klein_blue_cover_f8e22fb7.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/silver_foil_klein_blue_cover_f8e22fb7.thumb.webp"
     },
     {
       "id": "scribble_poster_style",
