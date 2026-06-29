@@ -1,52 +1,57 @@
-name: 阳光3D头像营销风
-category: ip_character
-ratio: 9:16 或 16:9
-source_author: '@VigoCreativeAI'
-source_url: ''
-summary: 光泽玩具风头像 + 饱和蓝天 + 霓虹动感标记。
-tags:
-- 3D
-- 头像
-- 玩具
-- 营销
-- 阳光
-- 活动
-triggers:
-- 阳光3D
-- 头像风
-- 玩具风
-- 营销风
-features:
-- title: 光泽玩具风3D头像
-  desc: ''
-- title: 饱和蓝天户外光照
-  desc: ''
-- title: 夸张广角透视
-  desc: ''
-- title: 超大斜体标题排版
-  desc: ''
-- title: 霓虹手绘动感标记
-  desc: ''
-variables:
-- kv_var: 主标题
-  style_var: MAIN_TEXT
-  desc: 超大斜体标题
-- kv_var: Slogan
-  style_var: SECONDARY_TEXT
-  desc: 辅助文案
-- kv_var: 画面-人物动作
-  style_var: SUBJECT_ACTION
-  desc: IP的动作姿态
-- kv_var: 画面-道具
-  style_var: PRODUCT_OR_PROP
-  desc: 产品/道具
-- kv_var: 画面-场景
-  style_var: LOCATION
-  desc: 环境背景
-- kv_var: IP形象
-  style_var: SUBJECT + 参考图
-  desc: 不在变量里，用参考图
-prompt: ''
-preview: https://malongan.github.io/images/styles_previews/sunny_3d.png
+# 阳光3D头像营销风
+
 id: sunny_3d
-code: ''
+name: "阳光3D头像营销风"
+category: ip_character
+
+tags:
+  - 3D
+  - 头像
+  - 玩具
+  - 营销
+  - 阳光
+  - 活动
+
+triggers:
+  - 阳光3D
+  - 头像风
+  - 玩具风
+  - 营销风
+
+features:
+  - "**光泽玩具风3D头像** — 圆润光滑的玩具质感3D角色，简化面部特征"
+  - "**饱和蓝天户外光照** — 明亮的正午阳光，清晰高光和阴影"
+  - "**夸张广角透视** — 低角度近距离广角拍摄，前景物体触手可及"
+  - "**超大斜体标题排版** — 巨大白色粗体斜体几何字体，占据画面上半部分"
+  - "**霓虹手绘动感标记** — 霓虹绿/青色手绘圈、下划线、运动线条环绕标题"
+
+scene: "社媒营销海报、活动推广、产品发布、 campaign 海报"
+ratio: "9:16 或 16:9"
+summary: "光泽玩具风3D头像 + 饱和蓝天户外光照 + 夸张广角透视 + 超大斜体白色标题 + 霓虹手绘动感标记，明亮商业营销海报风格"
+
+prompt: |
+  Create an {ASPECT_RATIO} high-energy social campaign poster in Sunny 3D Avatar Campaign Style.
+
+  Preserve these style anchors:
+  - Glossy stylized 3D avatars with smooth doll-like faces, rounded hands, soft plastic skin, simplified expressive eyes
+  - Extreme sunny outdoor campaign lighting with crisp highlights, clean shadows, vacation-day atmosphere
+  - Deep saturated sky-blue upper field balanced by vivid green or fresh outdoor color in the lower field
+  - Wide-angle near-camera perspective with lead avatar or prop cropped large in foreground
+  - Oversized bold white headline typography, angled slightly, stacked over sky area
+  - Neon green or cyan hand-drawn swoops, loops, underlines, and motion strokes around headline
+  - Playful commercial density with clear foreground, midground, and headline zones
+
+  Scene: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Include {BACKGROUND_ELEMENTS}.
+
+  Typography: set main headline as "{MAIN_TEXT}" in large bold white slanted geometric display letters, with smaller supporting text "{SECONDARY_TEXT}" in rounded sans-serif.
+
+  Graphic accents: add neon lime and cyan hand-drawn loops, swoops, underlines, and accent symbol "{ACCENT_SYMBOL}" around headline.
+
+  Rendering: glossy stylized 3D avatars, smooth toy-like faces, tactile fabric and prop textures, crisp sunny outdoor lighting, vivid blue-green commercial palette, polished high-resolution raster finish.
+
+  No platform logos, no watermarks, no usernames, no QR codes, no photorealistic humans, no flat vector, no anime cel shading, no gritty texture.
+
+source_url: "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/tree/main/styles/sunny-3d-avatar-campaign-style"
+source_author: "VigoCreativeAI"
+
+# 配图: images/styles_previews/sunny_3d_*.webp（已有预览图）

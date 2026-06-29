@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.5.0-65-g2046a8d-dirty",
-    "generated": "2026-06-29T07:24:30Z",
+    "version": "v0.5.0-67-ga10829d-dirty",
+    "generated": "2026-06-29T08:14:11Z",
     "total": 158,
     "categories": [
       "brand_kv",
@@ -2999,26 +2999,19 @@
         "玩具风",
         "营销风"
       ],
-      "scene": "",
+      "scene": "社媒营销海报、活动推广、产品发布、 campaign 海报",
       "ratio": "9:16 或 16:9",
-      "summary": "光泽玩具风头像 + 饱和蓝天 + 霓虹动感标记。",
+      "summary": "光泽玩具风3D头像 + 饱和蓝天户外光照 + 夸张广角透视 + 超大斜体白色标题 + 霓虹手绘动感标记，明亮商业营销海报风格",
       "features": [
-        "光泽玩具风3D头像",
-        "饱和蓝天户外光照",
-        "夸张广角透视",
-        "超大斜体标题排版",
-        "霓虹手绘动感标记"
+        "**光泽玩具风3D头像** — 圆润光滑的玩具质感3D角色，简化面部特征",
+        "**饱和蓝天户外光照** — 明亮的正午阳光，清晰高光和阴影",
+        "**夸张广角透视** — 低角度近距离广角拍摄，前景物体触手可及",
+        "**超大斜体标题排版** — 巨大白色粗体斜体几何字体，占据画面上半部分",
+        "**霓虹手绘动感标记** — 霓虹绿/青色手绘圈、下划线、运动线条环绕标题"
       ],
-      "prompt": "",
-      "variables": {
-        "主标题": "MAIN_TEXT",
-        "Slogan": "SECONDARY_TEXT",
-        "画面-人物动作": "SUBJECT_ACTION",
-        "画面-道具": "PRODUCT_OR_PROP",
-        "画面-场景": "LOCATION",
-        "IP形象": "SUBJECT + 参考图"
-      },
-      "source_url": "",
+      "prompt": "Create an {ASPECT_RATIO} high-energy social campaign poster in Sunny 3D Avatar Campaign Style.\n\nPreserve these style anchors:\n- Glossy stylized 3D avatars with smooth doll-like faces, rounded hands, soft plastic skin, simplified expressive eyes\n- Extreme sunny outdoor campaign lighting with crisp highlights, clean shadows, vacation-day atmosphere\n- Deep saturated sky-blue upper field balanced by vivid green or fresh outdoor color in the lower field\n- Wide-angle near-camera perspective with lead avatar or prop cropped large in foreground\n- Oversized bold white headline typography, angled slightly, stacked over sky area\n- Neon green or cyan hand-drawn swoops, loops, underlines, and motion strokes around headline\n- Playful commercial density with clear foreground, midground, and headline zones\n\nScene: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Include {BACKGROUND_ELEMENTS}.\n\nTypography: set main headline as \"{MAIN_TEXT}\" in large bold white slanted geometric display letters, with smaller supporting text \"{SECONDARY_TEXT}\" in rounded sans-serif.\n\nGraphic accents: add neon lime and cyan hand-drawn loops, swoops, underlines, and accent symbol \"{ACCENT_SYMBOL}\" around headline.\n\nRendering: glossy stylized 3D avatars, smooth toy-like faces, tactile fabric and prop textures, crisp sunny outdoor lighting, vivid blue-green commercial palette, polished high-resolution raster finish.\n\nNo platform logos, no watermarks, no usernames, no QR codes, no photorealistic humans, no flat vector, no anime cel shading, no gritty texture.\n",
+      "variables": {},
+      "source_url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/tree/main/styles/sunny-3d-avatar-campaign-style",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.webp"
