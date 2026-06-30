@@ -13,3 +13,4 @@
 | realistic_photo | #摄影 #写实 #产品 |  | 按需求（常见 16:9 或 4:3） |
 | retro_drink_ad | #饮料 #复古 #广告 |  | 3:4 竖版 |
 | style_product | #VigoCookbook #minimal #dark |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| cinematic_exploded_view_ad | #爆炸分解 #产品拆解 #电影级广告 | 品牌产品广告、电商主图 | 3:4 / 16:9 |
