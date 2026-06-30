@@ -36,9 +36,9 @@ def find_image_in_repo(style_id: str):
         f'styles_previews/{style_id}_*.png',     # PNG fallback
     ]
     for pat in patterns:
-        # 排除 .thumb.webp（只找全尺寸）
-        matches = [m for m in glob.glob(os.path.join(IMAGES_DIR, pat))
-                   if not m.endswith('.thumb.webp')]
+        # 排除 .thumb.webp（只找全尺寸），排序确保跨平台一致性
+        matches = sorted(m for m in glob.glob(os.path.join(IMAGES_DIR, pat))
+                         if not m.endswith('.thumb.webp'))
         if matches:
             return os.path.relpath(matches[0], IMAGES_DIR)
     return None

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.5.0-70-ge8516bd-dirty",
-    "generated": "2026-06-30T14:34:22Z",
+    "version": "v0.5.0-71-g66b4470-dirty",
+    "generated": "2026-06-30T14:44:14Z",
     "total": 160,
     "categories": [
       "brand_kv",
@@ -6545,7 +6545,7 @@
       "source_url": "",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.thumb.webp"
@@ -6610,7 +6610,7 @@
       "source_url": "",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.thumb.webp"
@@ -6874,10 +6874,10 @@
       "source_url": "",
       "source_author": "Taaruk_",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_8fbd1bee.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.webp"
       ],
-      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_8fbd1bee.webp",
-      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_8fbd1bee.thumb.webp"
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.thumb.webp"
     },
     {
       "id": "collage_logo",
