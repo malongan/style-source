@@ -14,6 +14,7 @@
 | east_asian_vintage_magazine | #韩纸 #复古 #杂志 |  | 3:4（默认） |
 | futuristic_spring_kv | #未来生态 #春季 #插画KV |  | 4:3 / 16:9 |
 | geek_code_poster | #酸性设计 #极客代码 #像素风 |  | 9:16 |
+| glitchy_pixel_stretch_portrait | #拉伸 #故障 #像素 #艺术 #人像 | 艺术海报、概念摄影、创意人像、故障美学 | 3:4 |
 | glass_flower_spring_diary | #治愈 #玻璃花卉 #春日 |  | 9:16 |
 | herd_outsider_poster | #概念海报 #异类主题 #阵列构图 |  | 3:4 |
 | inflatable_3d_flowers | #3D #膨胀花朵 #C4D |  | 9:16 |
@@ -38,5 +39,6 @@
 | textile_craft_pro | #织物雕塑 #手工编织 #纺织品艺术 |  | 3:4（竖版） |
 | transparency_concept_poster | #透明 #概念海报 #中文排版 |  | 3:4（竖版） |
 | trendy_bubble_letter_portrait | #潮流视觉 #泡泡字 #高明度 |  | 16:9 / 3:4 / 9:16 |
+| ultra_fisheye_urban_portrait | #鱼眼 #广角 #城市 #人像 #街拍 | 城市街拍、时尚摄影、音乐专辑封面、创意广告 | 3:4 |
 | vintage_streetwear_cartoon_poster | #街頭復古 #單色海報 #1930s動畫 |  | 1:1 / 3:4 / 9:16 / 16:9 |
 | y3k_cool_girl_portrait | #Y3K #赛博朋克 #潮玩 |  | 9:21 |

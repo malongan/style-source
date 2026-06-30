@@ -1,4 +1,4 @@
-共 162 个风格
+共 164 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -54,6 +54,7 @@ ST0049 | Blue Bubble Fisheye Action Poster Style | https://malongan.github.io/st
 ST0050 | Black Cutout Food Card Ad | https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.webp
 ST0051 | Soft Analog Future Editorial Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.webp
 ST0052 | 都市前卫拼贴海报 | https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.webp
+ST0163 | 超广角鱼眼人像 | https://malongan.github.io/style-source/images/styles_previews/ultra_fisheye_urban_portrait_d99d2e2c.webp
 ST0053 | 字体设计 | https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.webp
 ST0054 | 高明度泡泡字潮流视觉 | https://malongan.github.io/style-source/images/styles_previews/trendy_bubble_letter_portrait_686cbd79.webp
 ST0156 | 透明概念海报 | https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.webp
@@ -121,6 +122,7 @@ ST0161 | 手绘旅行涂鸦插画 | https://malongan.github.io/style-source/imag
 ST0107 | 半色调拼贴隐喻公益海报 | https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp
 ST0108 | Grotesque Doodle Style - 怪诞手绘风插画 | https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.webp
 ST0109 | GPT Image 2 Playful Doodle Illustration | https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp
+ST0164 | 像素拉伸故障人像 | https://malongan.github.io/style-source/images/styles_previews/glitchy_pixel_stretch_portrait_682dc93e.webp
 ST0110 | 玻璃花卉春日日记插画 | https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.webp
 ST0111 | 极客代码海报 | https://malongan.github.io/style-source/images/styles_previews/geek_code_poster_f7da4b88.webp
 ST0112 | 东方花茶香氛海报 | https://malongan.github.io/style-source/images/styles_previews/gardenia_white_tea_poster_727bf18d.webp

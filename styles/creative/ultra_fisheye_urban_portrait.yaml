@@ -1,0 +1,37 @@
+# 超广角鱼眼人像
+
+id: ultra_fisheye_urban_portrait
+name: "超广角鱼眼人像"
+category: creative
+
+tags:
+  - 鱼眼
+  - 广角
+  - 城市
+  - 人像
+  - 街拍
+
+triggers:
+  - 鱼眼
+  - 广角
+  - 超广角
+  - 城市人像
+  - 街拍
+
+features:
+  - "**鱼眼畸变效果** — 强烈的桶形畸变，营造夸张的视觉张力"
+  - "**超广角视野** — 捕捉广阔的城市背景和环境细节"
+  - "**街头美学** — 融合城市建筑、霓虹灯、街头元素"
+
+scene: "城市街拍、时尚摄影、音乐专辑封面、创意广告"
+ratio: "3:4"
+summary: "使用超广角鱼眼镜头拍摄城市人像，营造夸张的畸变和沉浸感"
+
+prompt: |
+  超广角鱼眼镜头拍摄的城市人像，{主体人物}站在{城市场景}中，强烈的桶形畸变效果，广角透视，城市建筑和霓虹灯作为背景，街头摄影风格，电影级色调，8K超高清，细节丰富
+  不要水印，不要真实Logo，不要卡通风，不要拼贴感，不要乱码。
+
+source_url: "https://x.com/sadkaijpg/status/1938155030172602568"
+source_author: "@sadkaijpg"
+
+# 配图: images/styles_previews/ultra_fisheye_urban_portrait_d99d2e2c.webp

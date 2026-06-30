@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-74-g6654739-dirty",
-    "generated": "2026-06-30T15:20:44Z",
-    "total": 162,
+    "version": "v0.5.0-75-g2c8d211-dirty",
+    "generated": "2026-06-30T15:50:03Z",
+    "total": 164,
     "categories": [
       "brand_kv",
       "creative",
@@ -2702,6 +2702,43 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.thumb.webp"
+    },
+    {
+      "id": "ultra_fisheye_urban_portrait",
+      "code": "ST0163",
+      "name": "超广角鱼眼人像",
+      "category": "creative",
+      "tags": [
+        "鱼眼",
+        "广角",
+        "城市",
+        "人像",
+        "街拍"
+      ],
+      "triggers": [
+        "鱼眼",
+        "广角",
+        "超广角",
+        "城市人像",
+        "街拍"
+      ],
+      "scene": "城市街拍、时尚摄影、音乐专辑封面、创意广告",
+      "ratio": "3:4",
+      "summary": "使用超广角鱼眼镜头拍摄城市人像，营造夸张的畸变和沉浸感",
+      "features": [
+        "**鱼眼畸变效果** — 强烈的桶形畸变，营造夸张的视觉张力",
+        "**超广角视野** — 捕捉广阔的城市背景和环境细节",
+        "**街头美学** — 融合城市建筑、霓虹灯、街头元素"
+      ],
+      "prompt": "超广角鱼眼镜头拍摄的城市人像，{主体人物}站在{城市场景}中，强烈的桶形畸变效果，广角透视，城市建筑和霓虹灯作为背景，街头摄影风格，电影级色调，8K超高清，细节丰富\n不要水印，不要真实Logo，不要卡通风，不要拼贴感，不要乱码。\n",
+      "variables": {},
+      "source_url": "https://x.com/sadkaijpg/status/1938155030172602568",
+      "source_author": "sadkaijpg",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/ultra_fisheye_urban_portrait_d99d2e2c.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/ultra_fisheye_urban_portrait_d99d2e2c.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/ultra_fisheye_urban_portrait_d99d2e2c.thumb.webp"
     },
     {
       "id": "typography",
@@ -5808,6 +5845,43 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.thumb.webp"
+    },
+    {
+      "id": "glitchy_pixel_stretch_portrait",
+      "code": "ST0164",
+      "name": "像素拉伸故障人像",
+      "category": "creative",
+      "tags": [
+        "拉伸",
+        "故障",
+        "像素",
+        "艺术",
+        "人像"
+      ],
+      "triggers": [
+        "拉伸",
+        "故障",
+        "像素拉伸",
+        "故障艺术",
+        "glitch"
+      ],
+      "scene": "艺术海报、概念摄影、创意人像、故障美学",
+      "ratio": "3:4",
+      "summary": "将人像局部拉伸成像素条纹，营造数字故障的超现实艺术效果",
+      "features": [
+        "**像素拉伸效果** — 人脸或身体部分被拉伸成像素条纹，形成超现实视觉冲击",
+        "**故障艺术风格** — 模仿数字故障、信号干扰的美学效果",
+        "**高对比度色调** — 黑白或单色背景突出拉伸部分的色彩"
+      ],
+      "prompt": "超现实故障艺术人像摄影，{主体人物}的{拉伸部位}被拉伸成彩色像素条纹，延伸到画面边缘，黑白或单色背景，高对比度光影，艺术摄影质感，电影级打光，8K超高清，细节丰富\n不要水印，不要真实Logo，不要卡通风，不要拼贴感，不要乱码。\n",
+      "variables": {},
+      "source_url": "https://x.com/sadkaijpg/status/1938155030172602568",
+      "source_author": "sadkaijpg",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/glitchy_pixel_stretch_portrait_682dc93e.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/glitchy_pixel_stretch_portrait_682dc93e.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/glitchy_pixel_stretch_portrait_682dc93e.thumb.webp"
     },
     {
       "id": "glass_flower_spring_diary",
