@@ -1,4 +1,4 @@
-共 160 个风格
+共 161 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -117,6 +117,7 @@ ST0103 | inkline_couture | https://malongan.github.io/style-source/images/styles
 ST0104 | 膨胀花朵 3D | https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp
 ST0105 | 天使阶层海报（Hierarchy Angels Poster） | https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp
 ST0106 | 异类阵列视觉 | https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp
+ST0161 | 手绘旅行涂鸦插画 | https://malongan.github.io/style-source/images/styles_previews/hand_drawn_travel_illustration_12076837.webp
 ST0107 | 半色调拼贴隐喻公益海报 | https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp
 ST0108 | Grotesque Doodle Style - 怪诞手绘风插画 | https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.webp
 ST0109 | GPT Image 2 Playful Doodle Illustration | https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp
