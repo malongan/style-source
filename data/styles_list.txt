@@ -148,7 +148,7 @@ ST0132 | 拼贴logo（马赛克风格） | https://malongan.github.io/style-sour
 ST0133 | Surreal Fish Doodle Landmark Photo Collage Style | https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.webp
 ST0134 | 就要去爬山（Climb Mountain Typography） | https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.webp
 ST0155 | 黏土文字互动海报 | https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.webp
-ST0162 | 电影级爆炸分解视图广告海报 | (无图片)
+ST0162 | 电影级爆炸分解视图广告海报 | https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp
 ST0135 | Chibi Q 版角色 | https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp
 ST0136 | chang_e_goddess | https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.webp
 ST0137 | 3D卡通电视图标 | https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.webp

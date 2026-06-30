@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.5.0-73-g4eba1d5-dirty",
-    "generated": "2026-06-30T15:15:20Z",
+    "version": "v0.5.0-74-g6654739-dirty",
+    "generated": "2026-06-30T15:20:44Z",
     "total": 162,
     "categories": [
       "brand_kv",
@@ -7131,9 +7131,11 @@
       "variables": {},
       "source_url": "https://x.com/aziz4ai/status/2071674035948106098",
       "source_author": "AZIZ | AI 🇸🇦 (@aziz4ai)",
-      "preview_urls": [],
-      "preview_webp": null,
-      "preview_webp_thumb": null
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.thumb.webp"
     },
     {
       "id": "chibi_q_version_character",
