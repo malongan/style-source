@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-69-gc52c465-dirty",
-    "generated": "2026-06-30T05:58:37Z",
-    "total": 159,
+    "version": "v0.5.0-70-ge8516bd-dirty",
+    "generated": "2026-06-30T14:34:22Z",
+    "total": 160,
     "categories": [
       "brand_kv",
       "creative",
@@ -4422,6 +4422,45 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.thumb.webp"
+    },
+    {
+      "id": "oriental_mural_exhibition_poster",
+      "code": "ST0160",
+      "name": "东方古代壁画展览海报",
+      "category": "creative",
+      "tags": [
+        "东方美学",
+        "壁画",
+        "展览海报",
+        "低饱和",
+        "古代遗韵",
+        "文化海报"
+      ],
+      "triggers": [
+        "东方壁画海报",
+        "古代壁画展览",
+        "东方美学海报",
+        "壁画气质海报"
+      ],
+      "scene": "东方美学展览海报、文化活动宣传、艺术策展海报、国风品牌KV",
+      "ratio": "3:4",
+      "summary": "将东方古代壁画的岁月痕迹与矿物颜料质感，融入当代中文展览海报的排版逻辑，呈现克制高级的东方文化气质",
+      "features": [
+        "**东方古壁画遗韵** — 旧墙斑驳、矿物颜料感、岁月痕迹的质感表达",
+        "**低饱和矿物配色** — 土黄、赭石、豆沙红、雾青、矿物绿、淡青灰、米白、灰粉",
+        "**当代展览海报排版** — 大留白、拼贴分层、局部裁切、长卷式叙事的构图逻辑",
+        "**中文排版完整** — 主标题 + 副标题 + 说明文案，清晰的信息层级",
+        "**文化叙事层次** — 山水地貌、古建筑、人物活动、云纹水纹、边饰纹样叠加"
+      ],
+      "prompt": "请生成一张竖版 3:4 的中文成品海报，主题为【{主题}】。\n整体方向为\"东方古代壁画气质 + 当代中文展览海报设计\"。画面需要保留古代壁画的岁月痕迹、旧墙斑驳、矿物颜料感、低饱和东方配色、山水地貌、古建筑、人物活动、桥梁路径、树木、云纹、水纹和装饰边饰，但必须以全新的海报逻辑重新设计。\n\n画面不是普通古风插画，也不是文物修复图，而是一张完成度很高的当代文化海报。请对原始灵感进行大幅度视觉重构：重新编排山体、洞窟、建筑、人物、路径、纹样、留白和标题位置，让画面有清晰的视觉中心、完整的信息层级和适合传播的海报感。\n\n画面风格要求：\n1. 东方古壁画遗韵。\n2. 旧纸纹理、墙面剥落、斑驳颗粒。\n3. 低饱和矿物色，可使用土黄、赭石、豆沙红、雾青、矿物绿、淡青灰、米白、灰粉。\n4. 山水、建筑、人物叙事要有层次。\n5. 可加入行旅、骆驼、飞天、古树、廊桥、洞窟、壁画残片、祥云、水纹、边饰纹样。\n6. 构图可以采用大留白、拼贴分层、局部裁切、长卷式叙事、展览海报排版。\n7. 整体要克制、高级、安静，有东方文化气质和当代设计感。\n\n排版要求：\n1. 必须有清晰中文主标题：【{主标题}】\n2. 必须有中文副标题：【{副标题}】\n3. 加入一小段中文说明文字：【{说明文案}】\n4. 可加入展览信息、地点、策展信息、署名信息。\n5. 如涉及日期，统一使用【{当日日期}】，不要出现旧年份或随机年份。\n6. 署名可写：{署名}。\n7. 中文必须清晰准确，不要乱码，不要错字。\n8. 可加入少量英文辅助小字，但不能英文主导。\n\n画面要像真正可以发布的东方美学展览海报，而不是单纯的插画背景。\n不要水印，不要真实品牌Logo，不要电商感，不要廉价国潮感，不要过度鲜艳，不要复杂杂乱。\n",
+      "variables": {},
+      "source_url": "https://x.com/YangOnchain/status/2071930882500501890",
+      "source_author": "楊哥 | Yang Onchain",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/oriental_mural_exhibition_poster_6f8157ee.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/oriental_mural_exhibition_poster_6f8157ee.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/oriental_mural_exhibition_poster_6f8157ee.thumb.webp"
     },
     {
       "id": "object_illustration_combo",
