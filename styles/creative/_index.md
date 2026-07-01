@@ -5,6 +5,7 @@
 | 风格 | 标签 | 适用场景 | 比例 |
 |------|------|----------|------|
 | black_white_typographic_portrait | #黑白 #字体海报 #编辑海报 |  | 4:5 |
+| constructivist_architecture_poster | #建筑海报 #构成主义 #美式复古 #海报设计 #几何 | 咖啡馆装饰、海报设计、品牌KV、社交媒体分享 | 16:9 |
 | exploded_food_infographic | #美食摄影 #信息图 #超写实 #爆炸视图 #微距摄影 | 美食教程、食谱展示、产品广告、社交媒体分享 | 3:4 |
 | indonesian_food_infographic | #美食摄影 #信息图 #超写实 #印尼美食 #电影感 | 美食教程、食谱展示、文化宣传、社交媒体分享 | 3:4 |
 | cartoon_3d_tv_icon | #3D卡通 #图标 #Q版 |  | 16:9 |

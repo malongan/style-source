@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-82-g8a289fd-dirty",
-    "generated": "2026-07-01T14:58:52Z",
-    "total": 167,
+    "version": "v0.5.0-85-g4b4ecb1-dirty",
+    "generated": "2026-07-01T22:39:11Z",
+    "total": 168,
     "categories": [
       "3d",
       "brand_kv",
@@ -7254,6 +7254,44 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "constructivist_architecture_poster",
+      "code": "ST0168",
+      "name": "构成主义建筑海报",
+      "category": "creative",
+      "tags": [
+        "建筑海报",
+        "构成主义",
+        "美式复古",
+        "海报设计",
+        "几何"
+      ],
+      "triggers": [
+        "建筑海报",
+        "构成主义海报",
+        "美式复古建筑"
+      ],
+      "scene": "咖啡馆装饰、海报设计、品牌KV、社交媒体分享",
+      "ratio": "16:9",
+      "summary": "以构成主义为骨架的建筑海报风格，通过建筑轮廓、体块、轴线重新组织画面，适合美式复古风格场景",
+      "features": [
+        "**构成主义骨架** — 以建筑轮廓、体块、轴线和空间方向重新组织画面",
+        "**建筑轮廓化处理** — 建筑不再按原来颜色出现，变成抽象海报元素",
+        "**体块与空间** — 强调建筑的几何体块感和空间方向感",
+        "**美式复古风格** — 适合咖啡馆、酒吧等复古风格场景",
+        "**色彩解构** — 通过颜色重组创造视觉冲击力"
+      ],
+      "prompt": "Architectural poster with constructivist style\nBuilding silhouettes and volumes reorganized through architectural contours, mass blocks, axes and spatial direction\nBuildings appear not in their original colors but as abstract poster elements\nBold geometric shapes, strong directional lines, American retro aesthetic\nClean composition with high contrast, modernist graphic design\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感。\n",
+      "variables": {},
+      "source_url": "https://x.com/AdrianPunk115/status/2072215905355063523?s=20",
+      "source_author": "Adrian Punk (@AdrianPunk115)",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/constructivist_architecture_poster_72855380.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/constructivist_architecture_poster_72855380.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/constructivist_architecture_poster_72855380.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "collage_logo",

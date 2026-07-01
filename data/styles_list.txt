@@ -1,4 +1,4 @@
-共 167 个风格
+共 168 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -149,6 +149,7 @@ ST0129 | 妖魔孙悟空线绘 | https://malongan.github.io/style-source/images/
 ST0130 | 暗黑国风奇幻插画 | https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp
 ST0131 | 赛博朋克半调海报 | https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp
 ST0154 | 温馨故事书咖啡馆 | https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.webp
+ST0168 | 构成主义建筑海报 | https://malongan.github.io/style-source/images/styles_previews/constructivist_architecture_poster_72855380.webp
 ST0132 | 拼贴logo（马赛克风格） | https://malongan.github.io/style-source/images/styles_previews/collage_logo_208518c5.webp
 ST0133 | Surreal Fish Doodle Landmark Photo Collage Style | https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.webp
 ST0134 | 就要去爬山（Climb Mountain Typography） | https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.webp
