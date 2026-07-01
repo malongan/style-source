@@ -1,4 +1,4 @@
-/* gallery-runtime.js v20260701 — 由 build_gallery.py 生成 */
+/* gallery-runtime.js v202607011424 — 由 build_gallery.py 生成 */
 /**
  * Gallery 功能脚本 v3
  * 包含：搜索过滤、标签筛选、收藏、Lightbox信息卡片、深色模式
@@ -467,6 +467,13 @@
         // 保持原始顺序（按 data-original-index）
         return (parseInt(a.dataset.originalIndex) || 0) - (parseInt(b.dataset.originalIndex) || 0);
       } else if (state.currentSort === 'newest') {
+        // 按创建时间倒序（最新添加的在前）
+        var dateA = a.dataset.createdAt || '';
+        var dateB = b.dataset.createdAt || '';
+        if (dateA && dateB) {
+          return dateB.localeCompare(dateA);
+        }
+        // fallback: 按 original-index 倒序
         return (parseInt(b.dataset.originalIndex) || 0) - (parseInt(a.dataset.originalIndex) || 0);
       } else if (state.currentSort === 'name-asc') {
         var nameA = (a.querySelector('.card-title')?.textContent || '').toLowerCase();

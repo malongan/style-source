@@ -90,9 +90,10 @@ def build_gallery_html(data: dict, output_path: str):
     version = meta.get('version', '0.0.0').lstrip('v')
     total = len(styles)
 
-    from datetime import date
-    today_str = date.today().strftime('%Y-%m-%d')
-    cache_hash = today_str.replace('-', '')  # 20260626 用于缓存版本
+    from datetime import datetime
+    now = datetime.now()
+    today_str = now.strftime('%Y-%m-%d %H:%M')
+    cache_hash = now.strftime('%Y%m%d%H%M')  # 用于缓存版本（精确到分钟）
     description = f'AI 风格画廊 — 收集 {total} 个 AI 绘画风格提示词，涵盖品牌KV、社交媒体、IP角色、时尚、创意等多种分类。支持预览、搜索、标签筛选、收藏。'
     base_url = 'https://malongan.github.io/style-source'
     img_preview = f'{base_url}/images/styles_previews/'
@@ -310,6 +311,7 @@ function buildCardHTML(s, idx, total) {{
     ' data-tags="' + tags + '"' +
     ' data-number="' + (s.code || s.number || s.id || '') + '"' +
     ' data-category="' + s.category + '"' +
+    ' data-created-at="' + (s.created_at || '') + '"' +
     ' data-original-index="' + idx + '">' +
     '<div class="card-image-wrap">' +
     imgHtml +
