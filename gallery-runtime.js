@@ -121,7 +121,7 @@
 
   // ========== 分类提取 ==========
   function extractCategories() {
-    const categoriesMap = { all: 0, painting: 0, '3d': 0 };
+    const categoriesMap = { all: 0 };
     
     elements.styleCards.forEach(card => {
       const category = card.dataset.category || 'root';
@@ -130,6 +130,29 @@
       }
       categoriesMap[category]++;
     });
+    
+    // 统计特殊分类（基于标签关键词）
+    const paintingKeywords = ['painting', '绘画', '水彩', '油画', '手绘', '插画', '画'];
+    const d3Keywords = ['3d', 'c4d', '三维', '建模', 'cgi', 'render', '3d渲染'];
+    
+    let paintingCount = 0;
+    let d3Count = 0;
+    
+    elements.styleCards.forEach(card => {
+      const tagsStr = (card.dataset.tags || '').toLowerCase();
+      const title = (card.querySelector('.card-title')?.textContent || '').toLowerCase();
+      const searchText = tagsStr + ' ' + title;
+      
+      if (paintingKeywords.some(k => searchText.includes(k))) {
+        paintingCount++;
+      }
+      if (d3Keywords.some(k => searchText.includes(k))) {
+        d3Count++;
+      }
+    });
+    
+    categoriesMap['painting'] = paintingCount;
+    categoriesMap['3d'] = d3Count;
     
     window.galleryCategories = categoriesMap;
   }
