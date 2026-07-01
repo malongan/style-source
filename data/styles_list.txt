@@ -1,4 +1,4 @@
-共 166 个风格
+共 167 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -116,6 +116,7 @@ ST0101 | Japanese Poetic Dreamy Semi-Realistic Illustration | https://malongan.g
 ST0102 | Jade Glyph Grocer Collage Poster Style | https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp
 ST0103 | inkline_couture | https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp
 ST0104 | 膨胀花朵 3D | https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp
+ST0167 | 印尼美食信息图 | https://malongan.github.io/style-source/images/styles_previews/indonesian_food_infographic_b721834b.webp
 ST0105 | 天使阶层海报（Hierarchy Angels Poster） | https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp
 ST0106 | 异类阵列视觉 | https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp
 ST0161 | 手绘旅行涂鸦插画 | https://malongan.github.io/style-source/images/styles_previews/hand_drawn_travel_illustration_12076837.webp
