@@ -17,10 +17,12 @@
 | 🔬 科研专业 | 5 | 信息图、期刊封面 |
 | 📱 社交媒体 | 13 | 小红书、朋友圈、头像 |
 | ✈️ 旅行城市 | 4 | 旅行海报、城市 |
+| 🖌️ 绘画 | 0 | 油画、水彩、素描、国画 |
+| 🎲 3D | 0 | 3D渲染、C4D、Blender |
 | 📁 typography | 1 |  |
 | 📖 VigoCookbook | 50 | 来自 Vigo Cookbook |
 
-**总计：156 个风格文件**
+**总计：167 个风格文件**
 
 ---
 
@@ -256,3 +258,23 @@
 | vigo_y2k_grunge_hiphop_cutout_poster | #VigoCookbook #Y2K #grunge |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | vigo_y2k_mirror_ui_scribble_collage | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | vigo_yellow_black_manga_food_zine_ad | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
+
+---
+
+## 🖌️ 绘画风格
+
+> [查看 painting/_index.md](painting/_index.md)
+
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+|  |  |  |  |
+
+---
+
+## 🎲 3D 风格
+
+> [查看 3d/_index.md](3d/_index.md)
+
+| 风格 | 标签 | 适用场景 | 比例 |
+|------|------|----------|------|
+|  |  |  |  |

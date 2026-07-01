@@ -1,14 +1,16 @@
 {
   "meta": {
-    "version": "v0.5.0-80-g45ab9d3-dirty",
-    "generated": "2026-07-01T14:04:51Z",
+    "version": "v0.5.0-81-gc2e264c-dirty",
+    "generated": "2026-07-01T14:54:56Z",
     "total": 167,
     "categories": [
+      "3d",
       "brand_kv",
       "creative",
       "e-commerce",
       "fashion",
       "ip_character",
+      "painting",
       "print",
       "science",
       "social_media",
