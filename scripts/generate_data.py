@@ -13,6 +13,7 @@ DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
 IMAGES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images')
 BASE_URL = 'https://malongan.github.io/style-source'
 NUMBERS_FILE = os.path.join(DATA_DIR, 'style_numbers.json')
+TIMESTAMPS_FILE = os.path.join(DATA_DIR, 'style_timestamps.json')
 
 
 def get_version() -> str:
@@ -213,6 +214,14 @@ def generate_styles_json(output_path: str):
     with open(NUMBERS_FILE, 'w') as f:
         json.dump(numbers_map, f, indent=2)
         f.write('\n')
+
+    # 加载时间戳（用于排序）
+    timestamps_map = {}
+    if os.path.exists(TIMESTAMPS_FILE):
+        with open(TIMESTAMPS_FILE) as f:
+            timestamps_map = json.load(f)
+    for style in all_styles:
+        style['created_at'] = timestamps_map.get(style['id'], '')
 
     data = {
         'meta': {
