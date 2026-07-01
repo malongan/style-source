@@ -6,6 +6,7 @@
 |------|------|----------|------|
 | black_white_typographic_portrait | #黑白 #字体海报 #编辑海报 |  | 4:5 |
 | exploded_food_infographic | #美食摄影 #信息图 #超写实 #爆炸视图 #微距摄影 | 美食教程、食谱展示、产品广告、社交媒体分享 | 3:4 |
+| indonesian_food_infographic | #美食摄影 #信息图 #超写实 #印尼美食 #电影感 | 美食教程、食谱展示、文化宣传、社交媒体分享 | 3:4 |
 | cartoon_3d_tv_icon | #3D卡通 #图标 #Q版 |  | 16:9 |
 | clay_typography_poster | #黏土 #3D #文字互动 |  | 3:4（竖版） |
 | cozy_storybook_cafe | #故事书插画 #咖啡馆 #治愈 |  | 3:4 / 9:16 |
