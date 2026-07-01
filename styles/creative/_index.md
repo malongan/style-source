@@ -9,6 +9,7 @@
 | clay_typography_poster | #黏土 #3D #文字互动 |  | 3:4（竖版） |
 | cozy_storybook_cafe | #故事书插画 #咖啡馆 #治愈 |  | 3:4 / 9:16 |
 | dark_chinese_fantasy_illustration | #奇幻插画 #流光水彩 #国风彩漫 |  | 9:16（竖版）/ 16:9（横版） |
+| dreamy_watercolor_travel | #水彩 #旅行 #欧洲城市 #故事书 #吉卜力 | 城市旅行宣传、文化活动海报、故事绘本封面 | 4:5 |
 | demon_wukong_line_art | #孙悟空 #线绘 #巴洛克 |  | 16:9 |
 | east_asian_vintage_illustration | #韩系 #复古 #插画 |  | 3:4（默认） |
 | east_asian_vintage_magazine | #韩纸 #复古 #杂志 |  | 3:4（默认） |
