@@ -1,0 +1,45 @@
+# 爆炸式美食信息图
+
+id: exploded_food_infographic
+name: "爆炸式美食信息图"
+category: creative
+
+tags:
+  - 美食摄影
+  - 信息图
+  - 超写实
+  - 爆炸视图
+  - 微距摄影
+
+triggers:
+  - 爆炸美食图
+  - 美食分解图
+  - 食物信息图
+
+features:
+  - "**超写实垂直分解** — 五层结构清晰分离，每层悬浮带微妙阴影"
+  - "**微距摄影质感** — DSLR 微距拍摄效果，纤维、气泡、谷物细节清晰"
+  - "**柔光棚拍灯光** — 纯白背景，专业影棚灯光效果"
+  - "**信息图标注** — 清晰的标签和指引线，适合教学展示"
+  - "**8K 品质** — 高清分辨率，细节丰富"
+
+scene: "美食教程、食谱展示、产品广告、社交媒体分享"
+ratio: "3:4"
+summary: "超写实垂直分解的美食信息图，五层结构清晰分离，微距摄影质感，适合展示食物层次结构"
+
+prompt: |
+  Create a hyperrealistic vertical exploded-view infographic of [FOOD] with 5 distinct layers:
+  1. TOP: Floating iconic particles, drips, crumbs, spices, steam, or decorative elements
+  2. SECOND: Separated top surface, glaze, sauce, outer layer showing rich textures
+  3. THIRD: Central food layer showing natural structure, depth, fibers, bubbles, grains
+  4. FOURTH: Base support, filling, shell, inner filling, clearly separated layers
+  5. BOTTOM: Simple plate, bowl, cup, or tray
+  Pure white background, soft studio lighting, each layer floating with subtle shadows
+  DSLR macro photography realism, clear infographic labels with fine guide lines
+  8K quality, premium editorial food photography style
+  不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感。
+
+source_url: "https://x.com/iamaiistudio/status/2072208469437112566?s=20"
+source_author: "PromptLab (@iamaiistudio)"
+
+# 配图: images/styles_previews/exploded_food_infographic_cf6e6ff6.webp

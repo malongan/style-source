@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.5.0-78-g1802444-dirty",
-    "generated": "2026-07-01T06:24:49Z",
-    "total": 165,
+    "version": "v0.5.0-79-ga30e779-dirty",
+    "generated": "2026-07-01T13:56:22Z",
+    "total": 166,
     "categories": [
       "brand_kv",
       "creative",
@@ -6400,6 +6400,44 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "exploded_food_infographic",
+      "code": "ST0166",
+      "name": "爆炸式美食信息图",
+      "category": "creative",
+      "tags": [
+        "美食摄影",
+        "信息图",
+        "超写实",
+        "爆炸视图",
+        "微距摄影"
+      ],
+      "triggers": [
+        "爆炸美食图",
+        "美食分解图",
+        "食物信息图"
+      ],
+      "scene": "美食教程、食谱展示、产品广告、社交媒体分享",
+      "ratio": "3:4",
+      "summary": "超写实垂直分解的美食信息图，五层结构清晰分离，微距摄影质感，适合展示食物层次结构",
+      "features": [
+        "**超写实垂直分解** — 五层结构清晰分离，每层悬浮带微妙阴影",
+        "**微距摄影质感** — DSLR 微距拍摄效果，纤维、气泡、谷物细节清晰",
+        "**柔光棚拍灯光** — 纯白背景，专业影棚灯光效果",
+        "**信息图标注** — 清晰的标签和指引线，适合教学展示",
+        "**8K 品质** — 高清分辨率，细节丰富"
+      ],
+      "prompt": "Create a hyperrealistic vertical exploded-view infographic of [FOOD] with 5 distinct layers:\n1. TOP: Floating iconic particles, drips, crumbs, spices, steam, or decorative elements\n2. SECOND: Separated top surface, glaze, sauce, outer layer showing rich textures\n3. THIRD: Central food layer showing natural structure, depth, fibers, bubbles, grains\n4. FOURTH: Base support, filling, shell, inner filling, clearly separated layers\n5. BOTTOM: Simple plate, bowl, cup, or tray\nPure white background, soft studio lighting, each layer floating with subtle shadows\nDSLR macro photography realism, clear infographic labels with fine guide lines\n8K quality, premium editorial food photography style\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感。\n",
+      "variables": {},
+      "source_url": "https://x.com/iamaiistudio/status/2072208469437112566?s=20",
+      "source_author": "PromptLab (@iamaiistudio)",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/exploded_food_infographic_cf6e6ff6.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/exploded_food_infographic_cf6e6ff6.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/exploded_food_infographic_cf6e6ff6.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "exaggerated_3d_toy_illustration",

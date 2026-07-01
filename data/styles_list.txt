@@ -1,4 +1,4 @@
-共 165 个风格
+共 166 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -131,6 +131,7 @@ ST0114 | Futuristic Editorial Collage Portrait | https://malongan.github.io/styl
 ST0115 | Fashion Editorial Visual System | https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp
 ST0116 | 时尚 Campaign 排版海报 | https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.webp
 ST0117 | 时尚摄影弓箭手 | https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.webp
+ST0166 | 爆炸式美食信息图 | https://malongan.github.io/style-source/images/styles_previews/exploded_food_infographic_cf6e6ff6.webp
 ST0118 | Exaggerated 3D Toy Illustration | https://malongan.github.io/style-source/images/styles_previews/exaggerated_3d_toy_illustration_435e4dea.webp
 ST0119 | Luxury Perspective Checkerboard Editorial | https://malongan.github.io/style-source/images/styles_previews/editorial_luxury_b3460c33.webp
 ST0120 | Sunlit Architectural Fashion Editorial | https://malongan.github.io/style-source/images/styles_previews/editorial_fashion_584fece2.webp
