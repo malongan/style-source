@@ -1,0 +1,54 @@
+# 梦幻水彩旅行插画
+
+id: dreamy_watercolor_travel
+name: "梦幻水彩旅行插画"
+category: creative
+
+tags:
+  - 水彩
+  - 旅行
+  - 欧洲城市
+  - 故事书
+  - 吉卜力
+  - 复古海报
+
+triggers:
+  - 水彩旅行
+  - 梦幻水彩
+  - 故事书插画
+  - 欧洲水彩城市
+
+features:
+  - "**梦幻水彩质感** — 柔和的蓝色水彩调，温暖奶油色纸张纹理，墨水轮廓精致勾勒"
+  - "**故事书氛围** — 吉卜力工作室风格，碧翠丝·波特魅力，童话般的温馨氛围"
+  - "**丰富场景细节** — 河畔长廊、古桥、花店咖啡馆、鹅卵石街道、历史建筑，充满生活气息"
+
+scene: "城市旅行宣传、文化活动海报、故事绘本封面、品牌文旅联名"
+ratio: "4:5"
+summary: "用高端故事书水彩风格描绘欧洲城市，兼具复古旅行海报的诗意与吉卜力童话的温馨"
+
+prompt: |
+  Create a dreamy watercolor travel illustration in the style of premium storybook and vintage travel poster.
+  The scene depicts the serene city of {城市名}, rendered in soft blue watercolor tones,
+  with delicate ink outlines, warm cream paper textures, and a cozy fairytale atmosphere.
+
+  At the top, a large hand-lettered watercolor calligraphy title: "{城市名}",
+  with a delicate small subtitle below: "{一句诗意标语}".
+
+  Scene elements: charming riverside or canal promenade, iconic landmarks in the background,
+  cobblestone streets, old bridges, historic buildings, flower shops, cozy cafes,
+  warm bakeries, vintage street lamps, soft reflections on calm water,
+  small boats, birds, blooming flowers, and soft clouds.
+
+  Foreground: cute illustrated characters enjoying daily life — walking and drinking coffee,
+  reading, sketching, cycling, walking dogs, couples on bridges,
+  children feeding birds, artists painting, and tourists taking photos.
+
+  Style: watercolor illustration, Studio Ghibli atmosphere, Beatrix Potter charm,
+  storybook style, European travel journal, high detail, 8K.
+  不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感。
+
+source_url: "https://x.com/Taaruk_/status/2072192393932354027"
+source_author: "@Taaruk_"
+
+# 配图: images/styles_previews/dreamy_watercolor_travel_f8ac7a28.webp
