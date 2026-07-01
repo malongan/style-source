@@ -63,7 +63,7 @@ ST0055 | 撕纸美学 | https://malongan.github.io/style-source/images/styles_pr
 ST0056 | 武政谅丝网印刷露营海报 | https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.webp
 ST0057 | 阳光3D头像营销风 | https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.webp
 ST0058 | Sunlit Kinetic Block Type Photo Poster | https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.webp
-ST0059 | summer_dopamine | https://malongan.github.io/style-source/images/styles_previews/summer_dopamine_9df0ecb9.webp
+ST0059 | 夏日多巴胺潮流3D | https://malongan.github.io/style-source/images/styles_previews/summer_dopamine_b0c14a20.webp
 ST0060 | Clean Triptych Travel Vlog Thumbnail Style | https://malongan.github.io/style-source/images/styles_previews/style_travel_a6ec87c3.webp
 ST0061 | Electric Blue Silhouette Product Launch Style | https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.webp
 ST0062 | Folded Diamond Perspective Type Poster Style | https://malongan.github.io/style-source/images/styles_previews/style_poster_cb5d6942.webp
