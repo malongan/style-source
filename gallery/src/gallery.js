@@ -26,7 +26,10 @@
   let elements = {};
 
   // ========== 初始化 ==========
+  let initialized = false;
   function init() {
+    if (initialized) return;
+    initialized = true;
     cacheElements();
     loadTheme();
     bindEvents();
@@ -915,23 +918,8 @@
     }
   }
 
-  // ========== 图片懒加载（IntersectionObserver 增强） ==========
-  function setupLazyLoading() {
-    if (!('IntersectionObserver' in window)) return;
-    var lazyImages = document.querySelectorAll('.card-image[data-src]');
-    if (lazyImages.length === 0) return;
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          var img = entry.target;
-          img.src = img.dataset.src;
-          img.removeAttribute('data-src');
-          observer.unobserve(img);
-        }
-      });
-    }, { rootMargin: '200px' });
-    lazyImages.forEach(function(img) { observer.observe(img); });
-  }
+  // ========== 图片懒加载（已改为原生 loading="lazy"，保留空函数兼容） ==========
+  function setupLazyLoading() {}
 
   // ========== 工具函数 ==========
   function debounce(func, wait) {

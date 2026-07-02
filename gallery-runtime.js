@@ -1,4 +1,4 @@
-/* gallery-runtime.js v202607021013 — 由 build_gallery.py 生成 */
+/* gallery-runtime.js v202607021053 — 由 build_gallery.py 生成 */
 /**
  * Gallery 功能脚本 v3
  * 包含：搜索过滤、标签筛选、收藏、Lightbox信息卡片、深色模式
@@ -27,7 +27,10 @@
   let elements = {};
 
   // ========== 初始化 ==========
+  let initialized = false;
   function init() {
+    if (initialized) return;
+    initialized = true;
     cacheElements();
     loadTheme();
     bindEvents();
@@ -916,23 +919,8 @@
     }
   }
 
-  // ========== 图片懒加载（IntersectionObserver 增强） ==========
-  function setupLazyLoading() {
-    if (!('IntersectionObserver' in window)) return;
-    var lazyImages = document.querySelectorAll('.card-image[data-src]');
-    if (lazyImages.length === 0) return;
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          var img = entry.target;
-          img.src = img.dataset.src;
-          img.removeAttribute('data-src');
-          observer.unobserve(img);
-        }
-      });
-    }, { rootMargin: '200px' });
-    lazyImages.forEach(function(img) { observer.observe(img); });
-  }
+  // ========== 图片懒加载（已改为原生 loading="lazy"，保留空函数兼容） ==========
+  function setupLazyLoading() {}
 
   // ========== 工具函数 ==========
   function debounce(func, wait) {
@@ -948,6 +936,118 @@
   }
 
   // ========== 启动 ==========
-  // auto-init disabled, init() called by renderGallery
-  window.init = init;
+  // auto-init when cards are already rendered (async loading)
+  if (document.querySelector('.style-card')) {
+    init();
+  } else {
+    window.init = init;
+  }
 })();
+/* ========== 卡片渲染 ========== */
+function buildCardHTML(s, idx, total) {
+  idx = idx || 0;
+  total = total || 0;
+  var isNew = total > 10 && idx >= total - 10;
+  var imgUrl = s.preview_webp || (s.preview_urls || [])[0] || '';
+  var tags = (s.tags || []).join(',');
+  var summary = s.summary || '';
+  var triggers = Array.isArray(s.triggers) ? s.triggers.join(', ') : (s.triggers || '');
+  var features = (s.features || []).join('|');
+  var sourceUrl = s.sourceUrl || s.source_url || '';
+  var sourceAuthor = s.sourceAuthor || s.source_author || '';
+  var linkHtml = '';
+  if (sourceUrl) {
+    linkHtml = '<a href="' + sourceUrl.replace(/"/g,'&quot;') + '" target="_blank" class="card-link">' +
+      (sourceAuthor ? '🔗 @' + sourceAuthor.replace(/"/g,'&quot;') : '🔗 来源') + '</a>';
+  }
+  var badgeHtml = isNew ? '<span class="card-badge-new">🆕 NEW</span>' : '';
+  var imgHtml = '<img src="' + imgUrl + '" alt="' + s.name + '" class="card-image" loading="lazy"'
+    + ' onerror="this.outerHTML=window.__FALLBACK_IMG__">';
+  return '<div class="style-card" data-id="' + s.id + '"' +
+    ' data-code="' + (s.code || '') + '"' +
+    ' data-summary="' + summary.replace(/"/g,'&quot;') + '"' +
+    ' data-features="' + features.replace(/"/g,'&quot;') + '"' +
+    ' data-triggers="' + triggers.replace(/"/g,'&quot;') + '"' +
+    ' data-tags="' + tags + '"' +
+    ' data-number="' + (s.code || s.number || s.id || '') + '"' +
+    ' data-category="' + s.category + '"' +
+    ' data-created-at="' + (s.created_at || '') + '"' +
+    ' data-original-index="' + idx + '">' +
+    '<div class="card-image-wrap">' + imgHtml + badgeHtml + '</div>' +
+    '<div class="card-content">' +
+      '<div class="card-title-row">' +
+        '<span class="card-number">' + (s.code ? '#' + s.code : '#' + (s.number || s.id || '')) + '</span>' +
+        '<span class="card-category">' + (s.category || '') + '</span>' +
+      '</div>' +
+      '<h3 class="card-title">' + s.name + '</h3>' +
+      '<div class="card-footer">' + linkHtml +
+        '<button class="favorite-btn" data-id="' + s.id + '" title="收藏">收藏</button>' +
+      '</div>' +
+    '</div>' +
+  '</div>';
+}
+
+function renderGallery(data) {
+  var styles = data.styles || [];
+  var loading = document.getElementById('loading');
+  var app = document.getElementById('app');
+  if (loading) loading.style.display = 'none';
+  if (app) app.style.display = 'block';
+  var grid = document.querySelector('.gallery-grid');
+  if (!grid) return;
+  var totalStyles = styles.length;
+  grid.innerHTML = styles.map(function(s, i) { return buildCardHTML(s, i, totalStyles); }).join('');
+  var countEl = document.getElementById('countVisible');
+  var totalEl = document.getElementById('countTotal');
+  if (countEl) countEl.textContent = styles.length;
+  if (totalEl) totalEl.textContent = styles.length;
+  window.__totalStyles = styles.length;
+  if (typeof window.init === 'function') window.init();
+  if (window.galleryCategories) {
+    window.galleryCategories.all = window.__totalStyles || styles.length;
+    var catBtns = document.querySelectorAll('.category-btn');
+    catBtns.forEach(function(b) {
+      if (b.dataset.category === 'all') {
+        var countSpan = b.querySelector('.tag-count');
+        if (countSpan) countSpan.textContent = window.galleryCategories.all;
+      }
+    });
+    document.querySelectorAll('.card-number').forEach(function(el) {
+      el.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var code = this.textContent.replace('#', '').trim();
+        if (!code) return;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(code).then(function() {
+            el.classList.add('copied');
+            setTimeout(function() { el.classList.remove('copied'); }, 1500);
+          }).catch(function() { fallbackCopy(code, el); });
+        } else { fallbackCopy(code, el); }
+      });
+    });
+  }
+  function fallbackCopy(text, el) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    el.classList.add('copied');
+    setTimeout(function() { el.classList.remove('copied'); }, 1500);
+  }
+}
+
+async function loadGallery() {
+  try {
+    const resp = await fetch('https://malongan.github.io/style-source/data/styles.json?t=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    renderGallery(data);
+  } catch(e) {
+    console.warn('JSON 加载失败', e);
+  }
+}
+
+loadGallery();
