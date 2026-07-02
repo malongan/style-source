@@ -330,19 +330,21 @@
       elements.filterFavorites.addEventListener('click', handleFavoriteFilter);
     }
 
-    // 图片点击 - 打开信息卡片
-    elements.styleCards.forEach(card => {
-      const img = card.querySelector('.card-image');
-      if (img) {
-        img.addEventListener('click', () => openLightbox(card));
-      }
-      // 点击整个卡片也能打开详情
-      card.addEventListener('click', (e) => {
-        if (!e.target.closest('.favorite-btn') && !e.target.closest('.card-link')) {
-          openLightbox(card);
-        }
+    // 图片点击 - 打开信息卡片（事件委托，支持动态加载的卡片）
+    if (elements.galleryGrid) {
+      elements.galleryGrid.addEventListener('click', (e) => {
+        // 查找点击的卡片
+        var card = e.target.closest('.style-card');
+        if (!card) return;
+
+        // 收藏按钮不打开详情
+        if (e.target.closest('.favorite-btn')) return;
+        // 链接按钮不打开详情
+        if (e.target.closest('.card-link')) return;
+        // 其他点击打开详情
+        openLightbox(card);
       });
-    });
+    }
 
     // Lightbox 关闭
     if (elements.lightbox) {
@@ -497,6 +499,46 @@
 
     // 刷新卡片引用
     elements.styleCards = document.querySelectorAll('.style-card');
+    
+    // 虚拟列表：刷新后继续渲染剩余卡片
+    if (window.__virtualList) {
+      var vl = window.__virtualList;
+      var grid = document.querySelector('.gallery-grid');
+      var sentinel = document.getElementById('virtual-sentinel');
+      
+      // 如果有未渲染的卡片，继续渲染
+      if (vl.renderedCount < vl.styles.length) {
+        var start = vl.renderedCount;
+        var end = Math.min(start + vl.batchSize, vl.styles.length);
+        var batchHTML = vl.styles.slice(start, end).map(function(s, i) {
+          return buildCardHTML(s, start + i, vl.styles.length);
+        }).join('');
+        
+        if (sentinel) {
+          sentinel.insertAdjacentHTML('beforebegin', batchHTML);
+        } else {
+          grid.insertAdjacentHTML('beforeend', batchHTML);
+        }
+        vl.renderedCount = end;
+        
+        // 继续渲染直到全部完成
+        if (vl.renderedCount < vl.styles.length) {
+          requestAnimationFrame(function() {
+            var vl2 = window.__virtualList;
+            var grid2 = document.querySelector('.gallery-grid');
+            var sentinel2 = document.getElementById('virtual-sentinel');
+            var start2 = vl2.renderedCount;
+            var end2 = Math.min(start2 + vl2.batchSize, vl2.styles.length);
+            var batchHTML2 = vl2.styles.slice(start2, end2).map(function(s, i) {
+              return buildCardHTML(s, start2 + i, vl2.styles.length);
+            }).join('');
+            if (sentinel2) sentinel2.insertAdjacentHTML('beforebegin', batchHTML2);
+            else grid2.insertAdjacentHTML('beforeend', batchHTML2);
+            vl2.renderedCount = end2;
+          });
+        }
+      }
+    }
   }
 
   function handleFavoriteFilter() {

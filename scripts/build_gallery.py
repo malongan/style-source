@@ -331,7 +331,7 @@ function buildCardHTML(s, idx, total) {{
   '</div>';
 }}
 
-/** 从 JSON 数据渲染瀑布流卡片 */
+/** 从 JSON 数据渲染瀑布流卡片（虚拟列表优化） */
 function renderGallery(data) {{
   var styles = data.styles || [];
   var loading = document.getElementById('loading');
@@ -343,16 +343,24 @@ function renderGallery(data) {{
   var grid = document.querySelector('.gallery-grid');
   if (!grid) return;
 
-  var totalStyles = styles.length;
-  grid.innerHTML = styles.map(function(s, i) {{ return buildCardHTML(s, i, totalStyles); }}).join('');
+  // 虚拟列表配置
+  window.__virtualList = {{
+    styles: styles,
+    renderedCount: 0,
+    batchSize: 20,
+    isLoading: false,
+    observer: null
+  }};
 
-  // 更新结果计数（可见数 = 总数，初始无筛选）
+  // 先渲染第一批
+  renderBatch();
+
+  // 更新结果计数
   var countEl = document.getElementById('countVisible');
   var totalEl = document.getElementById('countTotal');
   if (countEl) countEl.textContent = styles.length;
   if (totalEl) totalEl.textContent = styles.length;
 
-  // 修正 gallery.js extractCategories() 的 all 计数 bug
   window.__totalStyles = styles.length;
 
   // 渲染完成后调用 gallery.js 的 init() 绑定事件
@@ -402,6 +410,87 @@ function renderGallery(data) {{
   }}
 }}
 
+/** 渲染下一批卡片 */
+function renderBatch() {{
+  var vl = window.__virtualList;
+  if (!vl || vl.isLoading) return;
+  
+  var grid = document.querySelector('.gallery-grid');
+  if (!grid) return;
+
+  var start = vl.renderedCount;
+  var end = Math.min(start + vl.batchSize, vl.styles.length);
+  
+  if (start >= vl.styles.length) {{
+    setupScrollObserver();
+    return;
+  }}
+
+  vl.isLoading = true;
+  var batchHTML = vl.styles.slice(start, end).map(function(s, i) {{
+    return buildCardHTML(s, start + i, vl.styles.length);
+  }}).join('');
+  
+  grid.insertAdjacentHTML('beforeend', batchHTML);
+  vl.renderedCount = end;
+  vl.isLoading = false;
+
+  if (vl.renderedCount < vl.styles.length) {{
+    requestAnimationFrame(renderBatch);
+  }} else {{
+    setupScrollObserver();
+  }}
+}}
+
+/** 设置滚动监听（IntersectionObserver 懒加载） */
+function setupScrollObserver() {{
+  var vl = window.__virtualList;
+  if (!vl) return;
+
+  var grid = document.querySelector('.gallery-grid');
+  if (!grid) return;
+
+  if (vl.observer) vl.observer.disconnect();
+
+  // 创建 sentinel 元素
+  var sentinel = document.getElementById('virtual-sentinel');
+  if (!sentinel) {{
+    sentinel = document.createElement('div');
+    sentinel.id = 'virtual-sentinel';
+    sentinel.style.cssText = 'height:1px;width:100%;clear:both;';
+    grid.appendChild(sentinel);
+  }}
+
+  vl.observer = new IntersectionObserver(function(entries) {{
+    entries.forEach(function(entry) {{
+      if (entry.isIntersecting) {{
+        renderBatch();
+      }}
+    }});
+  }}, {{ rootMargin: '300px' }});
+
+  vl.observer.observe(sentinel);
+}}
+
+/** 初始化虚拟列表（首次加载时调用） */
+function initVirtualObserver() {{
+  var vl = window.__virtualList;
+  if (!vl || vl.observer) return;
+
+  var grid = document.querySelector('.gallery-grid');
+  if (!grid) return;
+
+  if (vl.observer) vl.observer.disconnect();
+
+  vl.observer = new IntersectionObserver(function(entries) {{
+    entries.forEach(function(entry) {{
+      if (entry.isIntersecting && vl.renderedCount < vl.styles.length) {{
+        renderBatch();
+      }}
+    }});
+  }}, {{ rootMargin: '300px' }});
+}}
+
 /** 从 JSON 或回退数据渲染 */
 async function loadGallery() {{
   try {{
@@ -415,6 +504,7 @@ async function loadGallery() {{
   }}
 }}
 
+initVirtualObserver();
 loadGallery();
 </script>
 </body>
