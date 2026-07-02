@@ -1,4 +1,4 @@
-/* gallery-runtime.js v202607021541 — 由 build_gallery.py 生成 */
+/* gallery-runtime.js v202607021828 — 由 build_gallery.py 生成 */
 /**
  * Gallery 功能脚本 v4
  * 包含：搜索过滤、标签筛选、收藏、Lightbox信息卡片、深色模式、无限滚动、复制提示词
@@ -255,7 +255,7 @@
       }
       // 搜索
       if (query) {
-        const searchable = (s.name + ' ' + (s.summary || '') + ' ' + (s.tags || []).join(' ') + ' ' + (s.triggers || '') + ' ' + (s.features || []).join(' ')).toLowerCase();
+        const searchable = (s.name + ' ' + (s.code || '') + ' ' + (s.number || '') + ' ' + (s.summary || '') + ' ' + (s.tags || []).join(' ') + ' ' + (s.triggers || '') + ' ' + (s.features || []).join(' ')).toLowerCase();
         if (!searchable.includes(query)) return false;
       }
       // 收藏筛选

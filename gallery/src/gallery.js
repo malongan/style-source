@@ -254,7 +254,7 @@
       }
       // 搜索
       if (query) {
-        const searchable = (s.name + ' ' + (s.summary || '') + ' ' + (s.tags || []).join(' ') + ' ' + (s.triggers || '') + ' ' + (s.features || []).join(' ')).toLowerCase();
+        const searchable = (s.name + ' ' + (s.code || '') + ' ' + (s.number || '') + ' ' + (s.summary || '') + ' ' + (s.tags || []).join(' ') + ' ' + (s.triggers || '') + ' ' + (s.features || []).join(' ')).toLowerCase();
         if (!searchable.includes(query)) return false;
       }
       // 收藏筛选
