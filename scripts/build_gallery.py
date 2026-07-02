@@ -66,21 +66,22 @@ def build_gallery_html(data: dict, output_path: str):
     inline_js_raw = read_source('gallery.js')
 
     # 处理 gallery.js IIFE：阻止 auto-init，暴露 init 到全局
-    # 替换最后几行的自动启动逻辑
-    auto_init_block = (
-        "  if (document.readyState === 'loading') {\n"
-        "    document.addEventListener('DOMContentLoaded', init);\n"
-        "  } else {\n"
-        "    init();\n"
-        "  }"
+    # auto_init_block_value 必须与 gallery.js 中的实际内容精确匹配
+    auto_init_block_value = (
+        "if (document.readyState === 'loading') {"
+        "\n    document.addEventListener('DOMContentLoaded', init);"
+        '\n  } else {'
+        '\n    init();'
+        '\n  }'
+        '\n})();'
     )
-    if auto_init_block in inline_js_raw:
+    if auto_init_block_value in inline_js_raw:
         inline_js = inline_js_raw.replace(
-            auto_init_block,
+            auto_init_block_value,
             "  // auto-init disabled, init() called by renderGallery\n  window.init = init;"
         )
     else:
-        # fallback: 替换尾声
+        # fallback: replace just the closing
         inline_js = inline_js_raw.replace(
             "})();",
             "  window.init = init;\n})();"
