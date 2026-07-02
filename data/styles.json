@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.6.0-before-opt-dirty",
-    "generated": "2026-07-02T10:39:53Z",
+    "version": "v0.6.0-before-opt-4-g82015b7-dirty",
+    "generated": "2026-07-02T14:55:35Z",
     "total": 168,
     "categories": [
       "brand_kv",
@@ -156,7 +156,7 @@
         "画面-色系": "{色系选择}",
         "文字-品牌标语": "{标语文字}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/poletaeviktor",
       "source_author": "poletaeviktor",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp"
@@ -197,7 +197,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp"
@@ -238,7 +238,7 @@
         "`BACKGROUND_ELEMENTS`": "supporting collage objects, panels, UI fragments, and texture details",
         "`MAIN_TEXT`": "large expressive handwritten headline text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_mirror_ui_scribble_collage_0b4db919.webp"
@@ -292,7 +292,7 @@
         "`BACKGROUND_ELEMENTS`": "black-and-white grunge wall texture, graffiti-like marks, photocopy noise, rough concrete, scanned poster grain",
         "`MAIN_TEXT`": "large acid yellow retro headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_grunge_hiphop_cutout_poster_416488a0.webp"
@@ -333,7 +333,7 @@
         "`BACKGROUND_ELEMENTS`": "ring of textured foreground objects, dark warm vignette, blue accent blocks, top category labels, small product callout, motion streaks, tilted headline, and dense bottom caption strip",
         "`MAIN_TEXT`": "short punchy Chinese headline or exclamation, usually 2 to 5 large characters, set in huge white extruded display type"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_warm_fisheye_product_impact_ad_7d86cf27.webp"
@@ -397,7 +397,7 @@
         "`BACKGROUND_ELEMENTS`": "realistic crowd, signage, rails, doors, lights, posters, floor markings, reflections, and compressed phone-photo details",
         "`MAIN_TEXT`": "large handwritten diary title or location note"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_urban_transit_doodle_diary_c2b25fe6.webp"
@@ -458,7 +458,7 @@
         "`BACKGROUND_ELEMENTS`": "oversized headline, cream negative space, technical callout panel, tiny labels, gauges, diagram boxes, accent bars, serial marks, and small interface fragments",
         "`MAIN_TEXT`": "new oversized display headline, never copied from the reference"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_turquoise_red_techno_manga_poster_414a4374.webp"
@@ -519,7 +519,7 @@
         "`BACKGROUND_ELEMENTS`": "large coral wedges, teal negative space, cropped black silhouette edges, and a few hard geometric cut planes",
         "`MAIN_TEXT`": "none by default; optional short block headline only if requested"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_tri_color_hardcut_portrait_poster_e0513f83.webp"
@@ -580,7 +580,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details and visual texture",
         "`MAIN_TEXT`": "large destination headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_tokyo_kawaii_travel_collage_poster_32b3dfc6.webp"
@@ -621,7 +621,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details and visual texture",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_sunny_3d_avatar_campaign_e4196112.webp"
@@ -684,7 +684,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details and visual texture",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_subway_doodle_photo_hybrid_5c191e5b.webp"
@@ -725,7 +725,7 @@
         "`BACKGROUND_ELEMENTS`": "simple shelf objects, sofa blocks, rug grid, pendant lamp, potted plant, window, pet silhouette, wall marks, tiny labels, and house-outline details",
         "`MAIN_TEXT`": "short original hand-lettered headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_sky_blue_home_life_doodle_poster_f2016108.webp"
@@ -766,7 +766,7 @@
         "`BACKGROUND_ELEMENTS`": "minimal grid-paper details and tiny margin marks",
         "`MAIN_TEXT`": "short hand-written headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_school_grid_paper_cutout_poster_c1a0b800.webp"
@@ -807,7 +807,7 @@
         "`BACKGROUND_ELEMENTS`": "small supporting doodles, dots, hatch marks, texture, or accent shapes",
         "`MAIN_TEXT`": "large rough hand-lettered black phrase"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_marker_monster_poster_070a6118.webp"
@@ -848,7 +848,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary doodles, labels, small props, rhythm marks, stars, steam, arrows, or loose line marks",
         "`MAIN_TEXT`": "short hand-drawn headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_ink_music_doodle_poster_ab7f6ea1.webp"
@@ -910,7 +910,7 @@
         "`BACKGROUND_ELEMENTS`": "dark green negative-space panel, oversized cropped bubble letters, white sparkle marks, oval shine highlights, candy-colored abstract shapes",
         "`MAIN_TEXT`": "short bubble-letter word or graphic headline such as WOW, POP, OPEN, BLOOM, WAVE, or PLAY"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_pop_bubble_letter_photo_poster_b895133e.webp"
@@ -978,7 +978,7 @@
         "`BACKGROUND_ELEMENTS`": "large cyan circle, giant tilted block headline, doodle icons, sticker labels, lightning patches, warning-card graphic, small product metadata",
         "`MAIN_TEXT`": "short loud campaign headline, preferably 1 to 4 words"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_comic_toy_product_poster_8858fc4e.webp"
@@ -1039,7 +1039,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details and visual texture",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_city_festival_mobile_poster_a1f48ca6.webp"
@@ -1102,7 +1102,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details such as plants, furniture, lights, windows, shelves, railings, signage, or crowd hints",
         "`MAIN_TEXT`": "short hand-lettered headline inside a ribbon or sticker panel"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_mascot_doodle_snapshot_8c72b334.webp"
@@ -1148,7 +1148,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_marker_grounding_poster_8ef4abda.webp"
@@ -1207,7 +1207,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details and visual texture",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_photo_illustration_overlay_poster_0b07afef.webp"
@@ -1248,7 +1248,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary graphic marks, shards, brush loops, and minimal setting cues",
         "`MAIN_TEXT`": "short rough poster accent text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_olive_scribble_sports_poster_c7b111fb.webp"
@@ -1289,7 +1289,7 @@
         "`BACKGROUND_ELEMENTS`": "burst shapes, checkerboards, floating icons, stickers, soft blobs, secondary toy props, or graphic rays",
         "`MAIN_TEXT`": "short display-card headline or product-style word"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_plush_gadget_pop_3d_5ec5f38d.webp"
@@ -1345,7 +1345,7 @@
         "`BACKGROUND_ELEMENTS`": "sky, hills, architecture, crowd, stage lights, roads, rocks, grass, clouds, dust, or other secondary scenery",
         "`MAIN_TEXT`": "large repeated headline word or phrase"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_kinetic_typographic_poster_427ef146.webp"
@@ -1411,7 +1411,7 @@
         "`BACKGROUND_ELEMENTS`": "real photo details such as wall art, labels, shelves, posters, tables, lamps, signage, crowds, fabric, shadows, and phone-camera grain",
         "`MAIN_TEXT`": "large hand-drawn caption or emotional headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_doodle_gallery_snapshot_0964723f.webp"
@@ -1452,7 +1452,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_diary_collage_ce563a0c.webp"
@@ -1496,7 +1496,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_naive_marker_quote_card_796c7e87.webp"
@@ -1537,7 +1537,7 @@
         "`BACKGROUND_ELEMENTS`": "soft charcoal gradient, blurred wall texture, deep negative space, faint window falloff, or subtle studio shadow",
         "`MAIN_TEXT`": "three-line lowercase headline with short words and a final period"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_mono_noir_type_portrait_poster_4006800d.webp"
@@ -1589,7 +1589,7 @@
         "`中间视觉元素`": "画面中央的视觉元素",
         "`背景色`": "背景颜色"
       },
-      "source_url": "",
+      "source_url": "https://x.com/AdrianPunk115",
       "source_author": "Adrian Punk (@AdrianPunk115)",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_mondrian_style_b7542034.webp"
@@ -1655,7 +1655,7 @@
         "`BACKGROUND_ELEMENTS`": "realistic crowd, signage, rails, doors, lights, posters, floor markings, reflections, grime, compression, and phone-photo details",
         "`MAIN_TEXT`": "main handwritten diary title"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_metro_doodle_snapshot_diary_4218a67b.webp"
@@ -1696,7 +1696,7 @@
         "`BACKGROUND_ELEMENTS`": "small seals, registration marks, micro captions, and sparse contextual marks",
         "`MAIN_TEXT`": "large rough headline or glyph block"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_market_brush_produce_poster_1858aa1d.webp"
@@ -1737,7 +1737,7 @@
         "`BACKGROUND_ELEMENTS`": "motion-blurred architecture, road, window, pavement, or secondary depth cues",
         "`MAIN_TEXT`": "large editorial cover title, not copied from the reference"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_luxury_street_cover_bd9a5f9e.webp"
@@ -1778,7 +1778,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_kinetic_geometric_doodle_cutouts_87c9a8f6.webp"
@@ -1841,7 +1841,7 @@
         "`BACKGROUND_ELEMENTS`": "crumpled black paper, distressed denim texture, torn white paper edges, photocopy grain, halftone noise, tape marks, and rough scanned shadows",
         "`MAIN_TEXT`": "oversized warped headline or sticker headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_k_pop_apocalypse_ransom_zine_71dcafee.webp"
@@ -1902,7 +1902,7 @@
         "`BACKGROUND_ELEMENTS`": "speech bursts, smoke puffs, starbursts, cyan blocks, yellow corner shapes, impact marks",
         "`MAIN_TEXT`": "short comic headline, e.g. ZAP!, CRASH!, BANG!, WHAM!"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_impact_burst_halftone_comic_poster_e070ca7c.webp"
@@ -1955,7 +1955,7 @@
         "贴纸-第一行": "{贴纸文字第一行}",
         "贴纸-第二行": "{贴纸文字第二行}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_hud_tech_spec_poster_17998928.webp"
@@ -2015,7 +2015,7 @@
         "`BACKGROUND_ELEMENTS`": "bare trees, sky, stone details, towers, arches, windows, ornament, street texture, and small secondary characters",
         "`MAIN_TEXT`": "large rounded bubble-letter title integrated across the top of the frame"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_gothic_cat_doodle_photo_collage_23faee2c.webp"
@@ -2061,7 +2061,7 @@
         "`BACKGROUND_ELEMENTS`": "newspaper page modules, stamped labels, sidebars, columns, rules, captions, folds, and surrounding print details",
         "`MAIN_TEXT`": "large Chinese or bilingual headline text, short enough to behave as a display block"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_folded_newspaper_product_ad_5b462e76.webp"
@@ -2124,7 +2124,7 @@
         "`LOCATION`": "desert roadside, beach path, motel pool, coastal hill, festival field, gas station forecourt, flower meadow, or sunny parking lot",
         "`BACKGROUND_ELEMENTS`": "cobalt sky, sun flare, distant van, dry hillside, palm fragments, checker pattern, pool tiles, flowers, road signs, or travel clutter"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_fisheye_bubble_poster_fa30f6de.webp"
@@ -2218,7 +2218,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_fantasy_scribble_mascot_poster_e720bfbb.webp"
@@ -2266,7 +2266,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details and small graphic inserts",
         "`MAIN_TEXT`": "new oversized headline text or abstract display lettering"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_cyan_red_shockwave_type_poster_d55357a0.webp"
@@ -2320,7 +2320,7 @@
         "`BACKGROUND_ELEMENTS`": "white negative space, circular glass distortion, cyan light streaks, faint radial smears, cropped typography fragments, small caption block, prism reflections, or color bleed",
         "`MAIN_TEXT`": "short headline or event title, usually 1 to 3 words, set as huge warped orbiting type"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_chromatic_fisheye_orbit_pop_poster_3854d163.webp"
@@ -2368,7 +2368,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary panels, labels, tabs, grids, microtype, or simple scene blocks",
         "`MAIN_TEXT`": "main headline or graphic display text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_block_mascot_poster_b67d6f31.webp"
@@ -2428,7 +2428,7 @@
         "`BACKGROUND_ELEMENTS`": "windows, panels, cabinets, screens, glow clouds, motion puffs, framed partitions, or soft blue depth elements",
         "`MAIN_TEXT`": "short uppercase thumbnail headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_anime_reaction_thumbnail_8e18ccef.webp"
@@ -2469,7 +2469,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary graphic marks, panels, rays, microcopy, or texture details",
         "`MAIN_TEXT`": "short main Chinese headline or bold poster phrase"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_kinetic_poster_cb5d6942.webp"
@@ -2516,7 +2516,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_hud_macro_product_poster_1ed4ff87.webp"
@@ -2557,7 +2557,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_halftone_ransom_zine_poster_3bed3468.webp"
@@ -2617,7 +2617,7 @@
         "`BACKGROUND_ELEMENTS`": "blue sky, motion-blurred edges, white poster margin, rectangular photo crop, oversized blue bubble headline, small editorial text blocks, non-scannable stripe code, and red hand-drawn circle annotation",
         "`MAIN_TEXT`": "short rounded headline, 1 to 2 words, set as huge blue bubble lettering cropped behind or above the photo"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_bubble_fisheye_action_poster_02aab45d.webp"
@@ -2665,7 +2665,7 @@
         "`BACKGROUND_ELEMENTS`": "different irregular card silhouette, small tags, side seals, paper labels, and secondary decorative marks",
         "`MAIN_TEXT`": "large hand-brushed Chinese dish name or short food headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.webp"
@@ -2730,7 +2730,7 @@
         "`BACKGROUND_ELEMENTS`": "paper texture, thin rules, metadata blocks, issue date, numbered list, botanical details, translucent UI panel, dotted halftone, small crosshair marks",
         "`MAIN_TEXT`": "large poster headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.webp"
@@ -2855,7 +2855,7 @@
       ],
       "prompt": "Create a 按需求（常见 9:16 或 16:9） poster in 字体设计 style.\n\nSummary: 字体类型 + 笔画结构 + 材质光效 = 高级字体设计。\n\nPreserve these style anchors:\n- **多种字体风格（时尚/书法/复古/未来等）**\n- **详细的笔画/结构/重心描述**\n- **材质效果（金属/玻璃/旧印刷）**\n- **光影效果（霓虹/投影/高光）**\n",
       "variables": {},
-      "source_url": "",
+      "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.webp"
@@ -2907,7 +2907,7 @@
         "文字-副标题": "{副标题信息}",
         "文字-标签": "{标签信息}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/xiaoxiaodong01",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/trendy_bubble_letter_portrait_686cbd79.webp"
@@ -2958,7 +2958,7 @@
         "文字-地点": "{地点}",
         "版式-方向": "{版式方向}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/YangOnchain",
       "source_author": "YangOnchain",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.webp"
@@ -3003,7 +3003,7 @@
       "variables": {
         "画面-主体": "{主体对象}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/RizwanAly07",
       "source_author": "RizwanAly07",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.webp"
@@ -3052,7 +3052,7 @@
         "色彩-强调": "{{情绪亮点}}",
         "IP形象": "参考图"
       },
-      "source_url": "",
+      "source_url": "https://x.com/xiaoxiaodong01",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.webp"
@@ -3292,7 +3292,7 @@
         "`BACKGROUND_ELEMENTS`": "three clean photo panels: close-up lifestyle panel, city-stroll panel, and landmark or scenic panel",
         "`MAIN_TEXT`": "large lowercase destination headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/style_travel_a6ec87c3.webp"
@@ -3341,7 +3341,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary atmospheric details and background type behavior",
         "`MAIN_TEXT`": "main headline or giant background word"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.webp"
@@ -3403,7 +3403,7 @@
         "`BACKGROUND_ELEMENTS`": "folded tan paper, cardboard, linen canvas, central crease, shadowed hinge, diamond aperture, subtle grain",
         "`MAIN_TEXT`": "huge bold headline in white condensed type"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/style_poster_cb5d6942.webp"
@@ -3450,7 +3450,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/style_halftone_poster_3bed3468.webp"
@@ -3491,7 +3491,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/style_can_33201059.webp"
@@ -3644,7 +3644,7 @@
         "`BACKGROUND_ELEMENTS`": "graph paper, paper scraps, stickers, tickets, snack labels, numbers, doodles, tape, stationery, and tiny icons",
         "`MAIN_TEXT`": "large introspective hand-lettered headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.webp"
@@ -3693,7 +3693,7 @@
         "文字带": "SUBTITLE_LINES",
         "色彩-面板": "面板色"
       },
-      "source_url": "",
+      "source_url": "https://x.com/AIwithAliya",
       "source_author": "AIwithAliya",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.webp"
@@ -3931,7 +3931,7 @@
         "`BACKGROUND_ELEMENTS`": "red hand-lettered border words, arrows, curls, rough paper grain, screen-print speckles, and sparse doodle marks",
         "`MAIN_TEXT`": "short red handmade headline split around the poster edge"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.webp"
@@ -3972,7 +3972,7 @@
       ],
       "prompt": "你是一名顶级科研信息图设计师、学术图谱设计师、医学/生命科学/材料科学可视化导演、现代编辑版式设计师。\n\n请围绕以下科研主题，生成一张具有\"高水平论文综述图质感 + 清晰信息分区 + 学术图谱式表达 + 高级配色系统 + 易读但不低级\"的科研信息图。\n\n主题：{{主题}}\n副标题：{{副标题，可留空}}\n研究领域：{{生物医学 / 材料 / 纳米 / 化学 / 能源 / 环境 / 外科 / 免疫 / 肿瘤 / 神经科学 / 其他}}\n内容类型：{{机制总结 / 分类综述 / 操作流程 / 疾病图谱 / 实验路线 / 手术步骤 / 对比分析 / 教学图 / 技术发展路线}}\n核心信息点：{{3–10个必须展示的信息点}}\n研究对象：{{细胞 / 组织 / 器官 / 材料 / 分子 / 器件 / 芯片 / 病原体 / 手术结构 / 其他}}\n结构形式：{{自动判断 / 分栏模块 / 左右对比 / 上下流程 / 中心主体+周围模块 / 多面板A-B-C / 时间线 / 矩阵 / 图谱式布局}}\n语言：{{中文 / 英文 / 中英混排 / 不要文字}}\n比例：{{1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2}}\n文字密度：{{少量标签 / 中等说明 / 完整标注}}\n配色方案：{{Nature系克制配色 / Science系理性机制配色 / 柔和粉蓝论文信息图配色 / 外科图谱浅粉肉色配色 / Cell系生命科学配色 / 自适应}}\n禁用元素：{{不要出现的元素}}\n\n请生成一张真正高级的科研信息图，不是普通PPT，不是商业模板，不是简单流程图。\n\n画面必须满足：\n1. 信息结构清楚 - 画面应分区明确，读者能快速理解每一块内容的作用。\n2. 视觉层级清楚 - 标题、模块标题、图形主体、说明文字、标签、箭头必须有明确层级。\n3. 科研逻辑清楚 - 不是简单排版，而是把研究内容整理成\"可理解的学术图谱\"。\n4. 配色高级 - 不能使用廉价蓝紫科技感。必须采用主色、辅色、强调色、背景色的分层配色系统。\n5. 适合论文综述、公众号科研解读、教学图、学术汇报和高质量科普使用。\n\n【版式策略】\n请根据内容自动选择最合适的版式：\n- 分栏模块：适合分类综述、多个机制并列\n- 左右对比：适合治疗前后、传统方法 vs 新方法、正常 vs 病理\n- 上下流程：适合病程、实验流程、手术步骤、技术路线\n- 中心主体 + 周围模块：适合一个核心机制展开多个分支\n- 多面板 A/B/C：适合论文图组、综述图、医学图谱\n- 时间线：适合疾病进展、治疗过程、技术发展\n- 矩阵：适合分类、对比、机制归纳\n- 图谱式布局：适合疾病、系统、器官、材料平台的全景梳理\n\n【配色方案 - 完整配色见 styles/_palette.md】\n可选配色：Nature系 / Science系 / 柔和粉蓝 / 外科图谱 / Cell系\n\n【严格禁止】\n- 普通PPT风 / 电商信息图风 / 花哨模板感\n- 蓝紫科技背景乱用 / 文字太多太挤\n- 箭头混乱 / 元素堆砌 / 颜色过饱和\n- 只好看但读不懂 / 真实期刊logo、真实品牌、真实机构标识",
       "variables": {},
-      "source_url": "",
+      "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/science_infographic_bdeb029e.webp"
@@ -4013,7 +4013,7 @@
       ],
       "prompt": "你是一名顶级论文插图设计师、Graphical Abstract 设计师、科研机制图专家、解剖图谱设计师、科学插画导演。\n\n请围绕以下科研主题，生成一张具有\"论文级科学准确性 + 机制可视化能力 + 解剖/结构表达能力 + 图形摘要表达效率 + 清晰因果路径 + 高水平学术插图质感\"的科研论文插图。\n\n图像类型：{{Graphical Abstract / 作用机制图 / 工作原理图 / 论文主图 / 实验流程图 / 技术路线图 / 解剖结构图 / 手术步骤图 / 病理机制图}}\n研究主题：{{主题}}\n研究领域：{{生物医学 / 材料 / 纳米 / 化学 / 能源 / 神经科学 / 免疫 / 肿瘤 / 外科 / 解剖 / 其他}}\n研究对象：{{细胞 / 组织 / 器官 / 解剖结构 / 分子 / 材料 / 器件 / 芯片 / 病原体 / 其他}}\n核心机制 / 核心内容：{{一句话写清楚发生了什么}}\n输入端：{{输入内容，可留空}}\n过程机制：{{中间过程，可留空}}\n输出结果：{{最终结果，可留空}}\n关键视觉元素：{{3–10个必须出现的元素}}\n结构形式：{{自动判断 / 左中右流程 / 上中下流程 / A→B→C→D步骤 / 主体+局部放大窗 / 微观-中观-宏观 / 解剖剖面 / 多面板图组}}\n语言：{{中文 / 英文 / 中英混排 / 不要文字}}\n比例：{{1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2}}\n文字需求：{{少量标签 / 完整标注 / 不要文字}}\n配色方案：{{Nature系克制机制配色 / Science系理性机制配色 / Cell系生命科学高对比配色 / 医学图谱浅色配色 / 外科解剖配色 / 自适应}}\n禁用元素：{{不要出现的元素}}\n\n请生成一张真正适合论文使用的科研插图。\n\n它必须清楚回答：\n1. 研究对象或解剖结构是什么？\n2. 输入端或起始条件是什么？\n3. 中间发生了什么机制、过程、变化或操作步骤？\n4. 最终输出什么结果？\n5. 关键机制发生在哪个位置、哪个结构、哪个细胞、哪个材料或哪个系统中？\n\n【结构逻辑】\n请根据主题自动选择最合适的科学叙事结构：\n1. 输入 → 过程 → 输出 - 适合 Graphical Abstract、工作原理图\n2. A → B → C → D 步骤流程 - 适合作用机制图、实验流程图、手术步骤图\n3. 主体 + 局部放大窗 - 适合论文主图、结构解释图、细胞机制图、解剖细节图\n4. 微观 → 中观 → 宏观 - 适合材料、生物医学、组织工程、纳米医学\n5. 左侧问题 / 中间方法 / 右侧结果 - 适合论文图形摘要、技术路线图\n6. 解剖剖面 / 结构分层 - 适合器官结构图、病理机制图、手术说明图\n\n画面必须有明确方向。箭头、流线、编号、标签必须服务逻辑，不可乱用。\n\n【论文插图视觉要求】\n1. 图形清晰 - 每个关键结构都要可辨认，不要抽象到看不懂\n2. 标签准确 - 标签要短、清楚、功能化，避免大段文字\n3. 机制明确 - 如果涉及递送、结合、催化、释放、激活、抑制、修复、检测、传输、切除、缝合、吻合、植入，必须用图形路径表现\n4. 局部放大 - 如有微观机制、解剖细节或关键操作点，请使用局部放大窗展示关键细节\n5. 科学可信 - 不能为了好看牺牲基本科学逻辑。解剖结构、器官位置、组织层级、手术步骤和机制路径必须尽量合理\n\n【配色方案 - 完整配色见 styles/_palette.md】\n可选配色：Nature系克制机制配色、Science系理性机制配色、Cell系生命科学高对比配色、医学图谱浅色配色、外科解剖配色、自适应\n\n【文字与标签规则】\n1. 标题可有可无，视图像类型决定\n2. Graphical Abstract 可使用短标题和阶段标签\n3. 机制图必须有关键步骤标签\n4. 解剖图必须保证结构标签清楚但不拥挤\n5. 手术步骤图可使用编号、箭头和短句说明\n6. 不要写大段解释性文字\n7. 如果用户选择\"不要文字\"，则尽量通过视觉结构表达机制\n\n【严格禁止】\n- 只做漂亮科技图，没有机制\n- 箭头乱飞 / 结构不清 / 元素堆砌\n- 过度发光 / 游戏CG感 / 商业广告感\n- 文字太多 / 标签不可读 / 配色普通蓝紫化\n- 科学结构明显错误 / 解剖位置明显错误\n- 手术步骤不合逻辑 / 真实期刊logo、真实品牌、真实机构标识",
       "variables": {},
-      "source_url": "",
+      "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/science_illustration_bdeb029e.webp"
@@ -4053,7 +4053,7 @@
       ],
       "prompt": "你是一名顶级科研封面视觉总监、学术期刊封面设计师、科学概念艺术导演、现代编辑设计师。\n\n请围绕以下科研主题，生成一张具有\"顶级科研期刊封面气质 + 原创主视觉概念 + 高级配色系统 + 强视觉冲击 + 科学机制暗示 + 非模板化版式\"的科研杂志封面图。\n\n封面主题 / 主标题：{{主题}}\n副标题：{{副标题，可留空}}\n研究领域：{{生物医学 / 材料 / 纳米 / 化学 / 能源 / 环境 / 神经科学 / 免疫 / 肿瘤 / 外科 / 芯片 / 器件 / 其他}}\n研究对象：{{细胞 / 组织 / 器官 / 分子 / 材料 / 晶格 / 纳米颗粒 / 芯片 / 器件 / 病原体 / 生态系统 / 其他}}\n核心机制 / 视觉概念：{{一句话写清楚研究亮点或封面概念}}\n关键视觉元素：{{3–6个必须出现的元素}}\n封面类型：{{虚构期刊封面 / 无刊名纯主视觉 / 科研海报封面 / PPT封面 / 公众号封面}}\n语言：{{中文 / 英文 / 中英混排 / 不要文字}}\n比例：{{1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2}}\n文字需求：{{极少文字 / 只要标题 / 标题+副标题 / 不要文字}}\n配色方案：{{Nature系克制高级 / Science系理性高级 / Cell系生命科学高对比 / Advanced Science高饱和封面色 / 黑白灰+单一强调色 / 浅色高级医学封面 / 自适应}}\n版式偏好：{{自动判断 / 大主视觉 / 极简封面 / 暗色氛围 / 浅色高级 / 中心主体 / 斜向构图 / 微观世界 / 宏观隐喻 / 结构剖面}}\n禁用元素：{{不要出现的元素}}\n\n请生成一张真正像顶级科研杂志封面的原创视觉作品。\n\n它必须做到：\n1. 主视觉强 - 画面要有一个清楚、震撼、可记忆的核心视觉。\n2. 不模板化 - 不要固定成\"顶部大刊名 + 中间瓶子/物体 + 底部流程\"的套路。不要默认模仿 Nature、Science、Cell、Advanced Science 的真实版式。\n3. 科学概念清楚 - 封面不是机制图，但必须能暗示研究对象、科学机制或学术主题。\n4. 配色有冲击 - 封面色彩可以比论文插图更大胆，但必须高级、克制、有层次。\n5. 文字少而精 - 封面图不应塞满标签和说明。文字应像编辑设计系统的一部分。\n\n【封面版式策略】\n1. 单一强主体型 - 一个核心科研对象作为视觉中心，适合疫苗、材料、器官、器件、芯片、纳米结构\n2. 微观宇宙型 - 把细胞、分子、晶格、病毒、材料微结构表现成宏大的空间场景\n3. 概念隐喻型 - 用桥、光束、屏障、护盾、网络、裂缝、通道等隐喻表达科学机制\n4. 结构剖面型 - 用透明剖面、层级切面、组织截面、材料截面表达研究对象内部机制\n5. 动态作用型 - 表现粒子迁移、信号传导、免疫攻击、能量转换、材料响应等动态过程\n6. 极简高级型 - 大留白、单主体、少量高亮色，适合 Nature系、Science系克制封面\n7. 高冲击封面型 - 强光影、高对比、深色背景、鲜明强调色，适合 Advanced Science / Advanced Materials 风格\n\n【配色方案 - 完整配色见 styles/_palette.md】\n可选配色：Nature系克制高级、Science系理性高级、Cell系生命科学高对比、Advanced Science高饱和封面色、黑白灰+单一强调色、浅色高级医学封面、自适应\n\n如果需要刊物感，可使用虚构刊名，例如：\n\"SCIENCE VISUAL REVIEW\" / \"ADVANCED LIFE SYSTEMS\" / \"MOLECULAR FRONTIERS\" / \"BIOMEDICAL HORIZONS\" / \"MATERIALS INSIGHT\"\n但不能使用真实期刊 logo、真实刊名字样或官方版式。刊名不是必须出现。\n\n【严格禁止】\n- 固定顶部刊名模板 / 直接模仿真实期刊封面 / 使用真实期刊logo\n- 普通蓝紫科技海报 / 电商广告感 / 医美广告感\n- PPT封面模板感 / 机制说明文字太多 / 底部强行放流程图\n- 画面过满 / 科研对象不清楚 / 色彩单薄、廉价、无层级",
       "variables": {},
-      "source_url": "",
+      "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.webp"
@@ -4199,7 +4199,7 @@
         "色彩-强调色": "{{强调色}}",
         "IP形象": "参考图 + \"Maintain IP identity...\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/xiaoxiaodong01",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.webp"
@@ -4236,7 +4236,7 @@
       ],
       "prompt": "Retro cel animation style, [subject] in a [setting], hand-painted background, visible cel lines, muted [color1] and [color2] palette, soft grain, gentle lighting, expressive character design, vintage animation frame aesthetic",
       "variables": {},
-      "source_url": "",
+      "source_url": "https://x.com/azed_ai",
       "source_author": "推文 @azed_ai",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.webp"
@@ -4373,7 +4373,7 @@
         "文字-副标题": "{副标题}",
         "文字-辅助": "{辅助信息}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/xiaoxiaodong01",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/pixel_cut_community_poster_74cb7a79.webp"
@@ -4422,7 +4422,7 @@
         "色彩-底场": "不适用",
         "IP形象": "参考图 + \"Maintain IP identity and consistency throughout\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/Noor_ul_ain43",
       "source_author": "Noor_ul_ain43",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.webp"
@@ -4487,7 +4487,7 @@
         "`BACKGROUND_ELEMENTS`": "lightly sketched shelves, frames, cabinets, windows, plants, counters, chairs, lamps, doors, party decorations, or simple room details",
         "`MAIN_TEXT`": "optional tiny handwritten production note or wall scribble; usually empty"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/pet_sketch_storyboard_dce925d4.webp"
@@ -4536,7 +4536,7 @@
         "画面-氛围": "视觉气质",
         "色彩-主色": "主色调"
       },
-      "source_url": "",
+      "source_url": "https://x.com/MrLarus",
       "source_author": "MrLarus",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.webp"
@@ -4662,7 +4662,7 @@
         "光线": "工作室灯光",
         "IP形象": "参考图 + \"Maintain IP identity...\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/ShamsAmin56",
       "source_author": "ShamsAmin56",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp"
@@ -4809,7 +4809,7 @@
         "画面-细节": "Background elements",
         "IP形象": "参考图 + \"Maintain IP identity...\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/Goodmanprotocol",
       "source_author": "Goodmanprotocol",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.webp"
@@ -4851,7 +4851,7 @@
       ],
       "prompt": "Create a 16:9 或 5:2 poster in 麦肯锡风格 style.\n\nSummary: 顶级咨询公司的专业、克制、理性风格 —— 文字不仅是标题，更是画面结构的一部分。\n\nPreserve these style anchors:\n- **麦肯锡 / BCG / Bain 风格的理性克制专业气质**\n- **巨型主视觉词 + 核心商业隐喻**\n- **清晰的商业主题表达**\n- **视觉隐喻与文字、图形融合**\n- **高级干净有秩序的画面**\n",
       "variables": {},
-      "source_url": "",
+      "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp"
@@ -4995,7 +4995,7 @@
         "背景-描述": "{背景描述}",
         "文字-手写词": "{手写词}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/xiaoxiaodong01",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.webp"
@@ -5080,7 +5080,7 @@
         "`BACKGROUND_ELEMENTS`": "minimal background details, rules, shadows, and graphic structure",
         "`MAIN_TEXT`": "large rear display headline or category word"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.webp"
@@ -5127,7 +5127,7 @@
         "{品牌色}": "PHASE 0 自动识别",
         "{面料色}": "冷白色 #F0F0EE"
       },
-      "source_url": "",
+      "source_url": "https://x.com/AmirMushich",
       "source_author": "AmirMushich",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.webp"
@@ -5176,7 +5176,7 @@
         "画面-装饰": "气球 + 花卉",
         "色彩-主色": "米白、粉色"
       },
-      "source_url": "",
+      "source_url": "https://x.com/MissDelulu9",
       "source_author": "MissDelulu9",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp"
@@ -5230,7 +5230,7 @@
         "画面-焦点": "{{Key focus}}",
         "IP形象": "参考图 + \"Maintain IP identity...\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/MrLarus",
       "source_author": "MrLarus",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp"
@@ -5285,7 +5285,7 @@
         "色彩-强调": "{强调色}",
         "色彩-背景": "{背景色}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/xiaoxiaodong01",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp"
@@ -5340,7 +5340,7 @@
         "文字-英文": "{英文标题}",
         "文字-说明": "{说明文字}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/xiaoxiaodong01",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.webp"
@@ -5479,7 +5479,7 @@
         "色彩-底场": "自然日光暖调",
         "IP形象": "参考图 + \"Maintain IP identity and consistency throughout\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/only01clair",
       "source_author": "only01clair",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp"
@@ -5620,7 +5620,7 @@
         "色彩-底色": "warm cream",
         "IP形象": "参考图 + \"Maintain IP identity...\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp"
@@ -5666,7 +5666,7 @@
         "点睛色彩": "{{点睛色}}",
         "人物姿态": "{{姿态}}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/MrLarus",
       "source_author": "MrLarus",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp"
@@ -5840,7 +5840,7 @@
         "文字-中文标题": "{中文标题}",
         "文字-英文标语": "{英文标语}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/YangOnchain",
       "source_author": "YangOnchain",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp"
@@ -5929,7 +5929,7 @@
         "色彩-主色": "蓝绿色",
         "色彩-底场": "米黄色"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp"
@@ -5978,7 +5978,7 @@
         "画风": "彩铅+蜡笔+圆珠笔",
         "背景": "纯色/涂鸦元素"
       },
-      "source_url": "",
+      "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.webp"
@@ -6028,7 +6028,7 @@
         "情绪": "Mood",
         "风格": "Style"
       },
-      "source_url": "",
+      "source_url": "https://x.com/oggii_0",
       "source_author": "oggii_0",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp"
@@ -6222,7 +6222,7 @@
         "元素": "{主体元素}",
         "辅助色": "{辅助色调}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/YangOnchain",
       "source_author": "YangOnchain",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/gardenia_white_tea_poster_727bf18d.webp"
@@ -6321,7 +6321,7 @@
         "字体": "Typography",
         "光线": "Studio lighting + Cinematic shadows"
       },
-      "source_url": "",
+      "source_url": "https://x.com/HustleXR",
       "source_author": "HustleXR",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.webp"
@@ -6371,7 +6371,7 @@
         "色彩-主色": "{{COLOR PALETTE}}",
         "比例": "{{ASPECT RATIO}}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/MrLarus",
       "source_author": "MrLarus",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp"
@@ -6412,7 +6412,7 @@
       ],
       "prompt": "Create a 9:16 poster in 时尚 Campaign 排版海报 style.\n\nSummary: 高端时尚 campaign 排版海报：排版本身就是画面结构，超大字体 + 强视觉层级 + 品牌调性。\n\nPreserve these style anchors:\n- **排版成为画面结构，不只是装饰**\n- **超大字体 + 强视觉层级**\n- **编辑式构图 + 负空间**\n- **真实时尚摄影 + 精致打光**\n- **清晰的品牌调性**\n",
       "variables": {},
-      "source_url": "",
+      "source_url": "https://x.com/MrLarus",
       "source_author": "MrLarus",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.webp"
@@ -6461,7 +6461,7 @@
         "色彩-底场": "白色",
         "IP形象": "参考图 + \"Maintain IP identity and consistency throughout\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/you1873118",
       "source_author": "you1873118",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.webp"
@@ -6549,7 +6549,7 @@
         "色彩": "dopamine color palette",
         "IP形象": "参考图 + \"Maintain IP identity...\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/MissDelulu9",
       "source_author": "MissDelulu9",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/exaggerated_3d_toy_illustration_435e4dea.webp"
@@ -6590,7 +6590,7 @@
         "`BACKGROUND_ELEMENTS`": "checkerboard planes, white space, small accent marks, and secondary spatial details",
         "`MAIN_TEXT`": "invented large script word used as a graphic field"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/editorial_luxury_b3460c33.webp"
@@ -6631,7 +6631,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary architecture, sky, wires, railings, shadows, texture, and depth cues",
         "`MAIN_TEXT`": "internal editorial title or mood label, not visible as overlay text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/editorial_fashion_584fece2.webp"
@@ -6672,7 +6672,7 @@
         "`BACKGROUND_ELEMENTS`": "botanical or environmental details that create soft foreground and background depth",
         "`MAIN_TEXT`": "large lower-third editorial headline"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp"
@@ -6724,7 +6724,7 @@
         "色彩-底场": "{{韩纸背景}}",
         "IP形象": "参考图 + \"Maintain IP identity and consistency throughout\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/only01clair",
       "source_author": "only01clair",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.webp"
@@ -6773,7 +6773,7 @@
         "色彩-底场": "韩纸暖米色",
         "IP形象": "参考图 + \"Maintain IP identity and consistency throughout\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/only01clair",
       "source_author": "only01clair",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp"
@@ -6871,7 +6871,7 @@
         "`BACKGROUND_ELEMENTS`": "distant cliffs, layered mountains, pine trees, blue sky, rocky ground, trail grass, shadows, and natural daylight",
         "`MAIN_TEXT`": "large Spanish or playful comic headline integrated across the sky"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp"
@@ -6939,7 +6939,7 @@
         "`BACKGROUND_ELEMENTS`": "windshield view, side windows, textured roof, dashboard details, mirrors, small ornaments, road, market, harbor, hills, or city street outside",
         "`MAIN_TEXT`": "short hand-drawn word such as AUTO, RIDE, GO, ZOOM, TAXI, JAM, ROLL, or DASH"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp"
@@ -7005,7 +7005,7 @@
         "`BACKGROUND_ELEMENTS`": "textured wall, bedding, posters, shelf, lamp, window, books, blankets, cables, plants, or soft clutter",
         "`MAIN_TEXT`": "optional short handwritten diary note"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp"
@@ -7096,7 +7096,7 @@
         "画面-主题": "主题词",
         "IP形象": "参考图 + \"Maintain IP identity...\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.webp"
@@ -7275,7 +7275,7 @@
       ],
       "prompt": "Transform the uploaded photo into a cozy whimsical storybook illustration with a warm café aesthetic. Preserve the exact pose, facial features, hairstyle, outfit, and composition of the original subject. Set the scene inside a charming sunlit café with large windows, lush greenery, flowers, hanging vines, cute birds, tiny doodled hearts, stars, musical notes, and hand-drawn decorative elements scattered throughout the environment. Soft pastel color palette, warm orange-red walls, mint-green tiled counter, cozy wooden furniture, blooming plants, dreamy sunlight, cheerful atmosphere, kawaii illustration style, children's book artwork, cute blush on cheeks, expressive eyes, gentle smile, detailed environmental storytelling, highly detailed digital painting, whimsical urban café vibe, cozy lifestyle illustration, vibrant yet soft colors, magical everyday moment, Studio Ghibli-inspired warmth, clean linework, textured brush strokes, ultra-detailed, masterpiece, 8k.",
       "variables": {},
-      "source_url": "",
+      "source_url": "https://x.com/Taaruk_",
       "source_author": "Taaruk_",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.webp"
@@ -7412,7 +7412,7 @@
         "`BACKGROUND_ELEMENTS`": "blue sky, water, landmark structure, distant city, boats, coastline, clouds, bridge cables, buildings, or tourist-view scenery",
         "`MAIN_TEXT`": "optional tiny hand-lettered travel caption or none"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.webp"
@@ -7498,7 +7498,7 @@
         "{动作}": "{ACTION}",
         "{服装}": "{OUTFIT}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/MissDelulu9",
       "source_author": "MissDelulu9",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.webp"
@@ -7579,7 +7579,7 @@
         "场景背景": "{{background/environment}}",
         "IP形象": "参考图 + \"Maintain [角色名] identity...\""
       },
-      "source_url": "",
+      "source_url": "https://x.com/CharaspowerAI",
       "source_author": "CharaspowerAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp"
@@ -7823,7 +7823,7 @@
         "画面-人物": "Characters and Narrative",
         "色彩-主色": "Brand 主色调"
       },
-      "source_url": "",
+      "source_url": "https://x.com/PixuryAI",
       "source_author": "PixuryAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp"
@@ -7869,7 +7869,7 @@
         "{吉祥物描述}": "{吉祥物描述}",
         "{英文标语}": "(可选)"
       },
-      "source_url": "",
+      "source_url": "https://x.com/poletaeviktor",
       "source_author": "poletaeviktor",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.webp"
@@ -7958,7 +7958,7 @@
         "配色": "{{配色}}",
         "商业隐喻": "{{隐喻}}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp"
@@ -8006,7 +8006,7 @@
         "文字-主标题": "{文字内容}",
         "文字-Logo": "{Logo文字}"
       },
-      "source_url": "",
+      "source_url": "https://x.com/Sheldon056",
       "source_author": "Sheldon056",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp"
@@ -8047,7 +8047,7 @@
         "`BACKGROUND_ELEMENTS`": "secondary scene details",
         "`MAIN_TEXT`": "main headline or graphic text"
       },
-      "source_url": "",
+      "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp"
@@ -8096,7 +8096,7 @@
         "色彩-底场": "灰度层次",
         "IP形象": "不适用"
       },
-      "source_url": "",
+      "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp"

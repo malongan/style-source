@@ -1,4 +1,4 @@
-/* gallery-runtime.js v202607021840 — 由 build_gallery.py 生成 */
+/* gallery-runtime.js v202607022255 — 由 build_gallery.py 生成 */
 /**
  * Gallery 功能脚本 v4
  * 包含：搜索过滤、标签筛选、收藏、Lightbox信息卡片、深色模式、无限滚动、复制提示词
