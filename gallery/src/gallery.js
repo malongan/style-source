@@ -498,13 +498,7 @@
         html += `<button class="tag-item tag-other-toggle" id="otherTagToggle" title="展开低频标签">
           🔍 其他 <span class="tag-count">${count}</span>
         </button>`;
-        html += `<div id="otherTagList" class="other-tag-list" style="display:none;">`;
-        (window.galleryTagsLow || []).forEach(([lowTag, lowCount]) => {
-          html += `<button class="tag-item tag-item-low" data-tag="${lowTag}">
-            ${lowTag} <span class="tag-count">${lowCount}</span>
-          </button>`;
-        });
-        html += `</div>`;
+        html += `<div id="otherTagList" class="other-tag-list" style="display:none;"></div>`;
       } else if (tag !== 'all') {
         html += `
           <button class="tag-item ${state.currentTag === tag ? 'active' : ''}" data-tag="${tag}">
@@ -522,11 +516,27 @@
       btn.addEventListener('click', handleTagClick);
     });
     
-    // 绑定"其他"标签展开/折叠
+    // 绑定"其他"标签展开/折叠（懒加载）
     var otherToggle = document.getElementById('otherTagToggle');
     var otherList = document.getElementById('otherTagList');
+    var lowTagsRendered = false;
     if (otherToggle && otherList) {
       otherToggle.addEventListener('click', function(e) {
+        // 首次展开时懒渲染低頻标签
+        if (!lowTagsRendered) {
+          var lowHtml = '';
+          (window.galleryTagsLow || []).forEach(function(low) {
+            var lowTag = low[0], lowCount = low[1];
+            lowHtml += '<button class="tag-item tag-item-low" data-tag="' + lowTag + '">'
+              + lowTag + ' <span class="tag-count">' + lowCount + '</span></button>';
+          });
+          otherList.innerHTML = lowHtml;
+          // 绑定这些低頻标签的点击事件
+          otherList.querySelectorAll('.tag-item').forEach(function(btn) {
+            btn.addEventListener('click', handleTagClick);
+          });
+          lowTagsRendered = true;
+        }
         var isHidden = otherList.style.display === 'none';
         otherList.style.display = isHidden ? 'flex' : 'none';
         otherToggle.classList.toggle('active', isHidden);

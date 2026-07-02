@@ -1,12 +1,27 @@
 name: ST0151 电影蒙太奇三镜头运动海报
 category: vigo_cookbook
 ratio: 16:9 横版
-source_author: https://x.com/VigoCreativeAI/status/2069676060753432769
-source_url: ''
-summary: ''
-tags: []
-triggers: []
-features: []
+source_author: VigoCreativeAI
+source_url: 'https://x.com/VigoCreativeAI/status/2069676060753432769'
+summary: '三屏电影胶片蒙太奇：将动态运动摄影与电影级字体设计和胶片颗粒质感相结合，营造出大银幕的运动赛事氛围。'
+tags: [电影蒙太奇, 运动海报, 电影感, 三联画, 胶片颗粒, 字体设计, cinematic, sports, triptych, film grain, typography]
+triggers:
+  - cinematic film strip montage
+  - three-panel film strip layout
+  - dynamic sports action photography with motion blur
+  - high contrast, teal-orange cinematic color grading
+  - film grain texture overlay
+  - bold condensed sans-serif typography
+  - film metadata elements: frame numbers, timecodes, reel marks
+  - dramatic lighting with rim lights and lens flare
+features:
+  - 三联水平胶片条布局，细白/银边框分隔
+  - 动态体育动作摄影 + 运动模糊
+  - 电影级调色：高对比、青橙色调
+  - 胶片颗粒纹理叠加
+  - 粗体紧凑无衬线字体展示运动员姓名和数据
+  - 影片元数据元素：帧号、时间码、卷标
+  - 戏剧性灯光：轮廓光 + 镜头光晕
 variables: []
 prompt: |
   Create a 16:9 cinematic sports poster in 电影蒙太奇三镜头运动海报 (Film Montage Triptych Sports Poster) style.

@@ -203,6 +203,15 @@ loadGallery();
         f.write(render_js)
     print(f'  📝 写出独立 JS:  {js_path}')
 
+    # 生成骨架屏卡片（10 张，随机宽度模拟内容）
+    import random
+    random.seed(cache_hash)
+    widths = [(random.randint(25, 55), random.randint(55, 85)) for _ in range(10)]
+    skeleton_cards = '\n'.join(
+        f'      <div class="skeleton-card"><div class="skeleton-image"></div><div class="skeleton-bar" style="width:{w1}%"></div><div class="skeleton-bar" style="width:{w2}%"></div></div>'
+        for w1, w2 in widths
+    )
+
     html = f'''<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -241,9 +250,7 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
 <body>
   <div id="loading" class="loading-skeleton">
     <div class="skeleton-grid">
-      <div class="skeleton-card"><div class="skeleton-image"></div><div class="skeleton-bar" style="width:40%"></div><div class="skeleton-bar" style="width:70%"></div></div>
-      <div class="skeleton-card"><div class="skeleton-image"></div><div class="skeleton-bar" style="width:35%"></div><div class="skeleton-bar" style="width:65%"></div></div>
-      <div class="skeleton-card"><div class="skeleton-image"></div><div class="skeleton-bar" style="width:45%"></div><div class="skeleton-bar" style="width:60%"></div></div>
+      {skeleton_cards}
     </div>
     <div class="skeleton-loading-text">🔄 加载风格画廊...</div>
   </div>

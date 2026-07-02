@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.6.0-dirty",
-    "generated": "2026-07-02T02:53:21Z",
+    "version": "v0.6.0-before-opt-dirty",
+    "generated": "2026-07-02T10:39:53Z",
     "total": 168,
     "categories": [
       "brand_kv",
@@ -2138,16 +2138,47 @@
       "code": "ST0151",
       "name": "ST0151 电影蒙太奇三镜头运动海报",
       "category": "vigo_cookbook",
-      "tags": [],
-      "triggers": [],
+      "tags": [
+        "电影蒙太奇",
+        "运动海报",
+        "电影感",
+        "三联画",
+        "胶片颗粒",
+        "字体设计",
+        "cinematic",
+        "sports",
+        "triptych",
+        "film grain",
+        "typography"
+      ],
+      "triggers": [
+        "cinematic film strip montage",
+        "three-panel film strip layout",
+        "dynamic sports action photography with motion blur",
+        "high contrast, teal-orange cinematic color grading",
+        "film grain texture overlay",
+        "bold condensed sans-serif typography",
+        {
+          "film metadata elements": "frame numbers, timecodes, reel marks"
+        },
+        "dramatic lighting with rim lights and lens flare"
+      ],
       "scene": "",
       "ratio": "16:9 横版",
-      "summary": "",
-      "features": [],
+      "summary": "三屏电影胶片蒙太奇：将动态运动摄影与电影级字体设计和胶片颗粒质感相结合，营造出大银幕的运动赛事氛围。",
+      "features": [
+        "三联水平胶片条布局，细白/银边框分隔",
+        "动态体育动作摄影 + 运动模糊",
+        "电影级调色：高对比、青橙色调",
+        "胶片颗粒纹理叠加",
+        "粗体紧凑无衬线字体展示运动员姓名和数据",
+        "影片元数据元素：帧号、时间码、卷标",
+        "戏剧性灯光：轮廓光 + 镜头光晕"
+      ],
       "prompt": "Create a 16:9 cinematic sports poster in 电影蒙太奇三镜头运动海报 (Film Montage Triptych Sports Poster) style.\n\nSummary: Three-panel film strip montage combining dynamic sports action photography with cinematic typography and film grain texture.\n\nPreserve these style anchors:\n- Three-panel horizontal film strip layout with thin white or silver borders between frames\n- Dynamic sports action photography with motion blur and dramatic angles\n- Cinematic color grading: high contrast, teal-orange or desaturated film tones\n- Film grain texture overlay for authentic cinema feel\n- Bold condensed sans-serif typography for player name and stats\n- Film metadata elements: frame numbers, timecodes, reel marks\n- Dramatic lighting with rim lights and lens flare\n\nVariables:\n- {sport}: sport type (basketball, football, etc.)\n- {athlete}: athlete name or team\n- {action}: dynamic action pose\n- {stats}: performance statistics\n- {headline}: main headline text\n- {subtext}: supporting text\n\nRendering: cinematic film strip montage, high contrast sports photography, film grain texture, bold typography, dramatic lighting.\nNo anime, no cartoon, no flat illustration, no watermarks.\n",
       "variables": {},
-      "source_url": "",
-      "source_author": "https://x.com/VigoCreativeAI/status/2069676060753432769",
+      "source_url": "https://x.com/VigoCreativeAI/status/2069676060753432769",
+      "source_author": "VigoCreativeAI",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/vigo_film_montage_sport_poster_9f354591.webp"
       ],
