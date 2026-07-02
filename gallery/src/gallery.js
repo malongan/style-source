@@ -160,6 +160,7 @@
     styles.forEach(s => {
       const tags = s.tags || [];
       tags.forEach(tag => {
+        if (tag == null) return;
         const tagText = tag.trim();
         if (tagText) {
           if (!tagsMap[tagText]) tagsMap[tagText] = 0;
@@ -232,7 +233,7 @@
     return all.filter(function(s) {
       // 标签筛选
       if (state.currentTag !== 'all') {
-        const tags = (s.tags || []).map(t => t.toLowerCase());
+        const tags = (s.tags || []).filter(t => t != null).map(t => t.toLowerCase());
         if (!tags.includes(state.currentTag.toLowerCase())) return false;
       }
       // 分类筛选
