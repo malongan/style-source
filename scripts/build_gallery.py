@@ -36,6 +36,68 @@ def js_str(s):
     return s.replace('\\', '\\\\').replace("'", "\\'").replace('\n', '\\n').replace('\r', '')
 
 
+def minify_css(css: str) -> str:
+    """基础 CSS 压缩：去注释、去多余空白"""
+    # 去除注释
+    css = re.sub(r'/\*.*?\*/', '', css, flags=re.DOTALL)
+    # 去除多余空白
+    css = re.sub(r'\s+', ' ', css)
+    # 去除 { 前的空格
+    css = re.sub(r'\s*{\s*', '{', css)
+    # 去除 } 前的空格/分号
+    css = re.sub(r'\s*}\s*', '}', css)
+    # 去除 : 周围空格
+    css = re.sub(r'\s*:\s*', ':', css)
+    # 去除 , 周围空格
+    css = re.sub(r'\s*,\s*', ',', css)
+    # 去除 ; 周围空格
+    css = re.sub(r'\s*;\s*', ';', css)
+    # 去除开头/结尾空白
+    css = css.strip()
+    return css
+
+
+def minify_js(js: str) -> str:
+    """基础 JS 压缩：去注释、去多余空白（保持功能正确）"""
+    # 去除多行注释 /* ... */
+    js = re.sub(r'/\*.*?\*/', '', js, flags=re.DOTALL)
+    # 去除单行注释 // ...（排除 URL 中的 //）
+    lines = js.split('\n')
+    result = []
+    for line in lines:
+        # 简单处理：去行内 // 注释（忽略字符串中的）
+        in_string = False
+        string_char = None
+        i = 0
+        while i < len(line):
+            c = line[i]
+            if in_string:
+                if c == '\\':
+                    i += 2
+                    continue
+                if c == string_char:
+                    in_string = False
+            else:
+                if c in ("'", '"', '`'):
+                    in_string = True
+                    string_char = c
+                elif c == '/' and i + 1 < len(line) and line[i + 1] == '/':
+                    line = line[:i]
+                    break
+            i += 1
+        result.append(line)
+    js = '\n'.join(result)
+    # 压缩空白
+    js = re.sub(r'\s+', ' ', js)
+    # 特定符号周围去空格
+    js = re.sub(r'\s*([{}();,=+\-*/%&|!<>?:.])\s*', r'\1', js)
+    # 恢复必要的空格（关键字后）
+    js = re.sub(r'\b(var|let|const|if|else|for|while|function|return|typeof|new|delete|void)\b(\S)', r'\1 \2', js)
+    js = re.sub(r'(\S)(\b(var|let|const|if|else|for|while|function|return|typeof|new|delete|void)\b)', r'\1 \2', js)
+    js = js.strip()
+    return js
+
+
 def build_gallery_html(data: dict, output_path: str):
     meta = data.get('meta', {})
     styles = data.get('styles', [])
@@ -86,12 +148,12 @@ def build_gallery_html(data: dict, output_path: str):
     base_url = 'https://malongan.github.io/style-source'
     img_preview = f'{base_url}/images/styles_previews/'
 
-    # 写出独立 CSS 文件（用于缓存）
+    # 写出独立 CSS 文件（用于缓存，已压缩）
     css_path = os.path.join(os.path.dirname(output_path), 'gallery.css')
     with open(css_path, 'w', encoding='utf-8') as f:
         f.write(f'/* gallery.css v{cache_hash} — 由 build_gallery.py 生成 */\n')
-        f.write(inline_css)
-    print(f'  📝 写出独立 CSS: {css_path}')
+        f.write(minify_css(inline_css))
+    print(f'  📝 写出独立 CSS: {css_path} ({os.path.getsize(css_path)//1024}KB)')
 
     # 写出独立 JS 文件（用于缓存）— gallery.js IIFE + 渲染函数
     js_path = os.path.join(os.path.dirname(output_path), 'gallery-runtime.js')
@@ -196,10 +258,10 @@ async function loadGallery() {{
 loadGallery();
 '''
     with open(js_path, 'w', encoding='utf-8') as f:
-        f.write(f'/* gallery-runtime.js v{cache_hash} — 由 build_gallery.py 生成 */\n')
-        f.write(inline_js)
-        f.write(render_js)
-    print(f'  📝 写出独立 JS:  {js_path}')
+        combined_js = f'/* gallery-runtime.js v{cache_hash} — 由 build_gallery.py 生成 */\n'
+        combined_js += inline_js + '\n' + render_js
+        f.write(minify_js(combined_js))
+    print(f'  📝 写出独立 JS:  {js_path} ({os.path.getsize(js_path)//1024}KB)')
 
     # 生成骨架屏卡片（10 张，随机宽度模拟内容）
     import random
