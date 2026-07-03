@@ -360,6 +360,7 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
             <div class="sidebar-action-row">
               <button class="filter-btn" id="filterFavorites">❤️ 只看收藏</button>
               <button class="filter-btn clear-filter-btn" id="clearFilters" style="display:none;">✕ 清除</button>
+              <button class="filter-btn random-btn" id="randomBtn">🎲 随机</button>
             </div>
           </div>
           <div class="sidebar-divider"></div>

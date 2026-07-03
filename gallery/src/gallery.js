@@ -115,6 +115,7 @@
       themeToggle: document.getElementById('themeToggle'),
       filterFavorites: document.getElementById('filterFavorites'),
       clearFilters: document.getElementById('clearFilters'),
+      randomBtn: document.getElementById('randomBtn'),
       sortSelect: document.getElementById('sortSelect'),
       galleryGrid: document.querySelector('.gallery-grid'),
       lightbox: document.getElementById('lightbox'),
@@ -614,6 +615,11 @@
       elements.filterFavorites.addEventListener('click', handleFavoriteFilter);
     }
 
+    // 随机发现
+    if (elements.randomBtn) {
+      elements.randomBtn.addEventListener('click', handleRandom);
+    }
+
     // 卡片交互 — 事件委托（无需重新绑定）
     if (elements.galleryGrid) {
       elements.galleryGrid.addEventListener('click', function(e) {
@@ -829,6 +835,19 @@
     state.showFavoritesOnly = !state.showFavoritesOnly;
     elements.filterFavorites.classList.toggle('active', state.showFavoritesOnly);
     filterCards();
+  }
+
+  // ========== 随机发现 ==========
+  function handleRandom() {
+    var styles = window.__filteredStyles || window.__allStyles || [];
+    if (styles.length === 0) return;
+    var idx = Math.floor(Math.random() * styles.length);
+    var card = document.querySelector('.style-card[data-original-index="' + idx + '"]') ||
+               document.querySelector('.style-card[data-id="' + styles[idx].id + '"]');
+    if (card) {
+      card.click();
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
   }
 
   // ========== 清除所有筛选 ==========
