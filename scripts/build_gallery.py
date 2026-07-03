@@ -90,7 +90,7 @@ def minify_js(js: str) -> str:
     # 压缩空白
     js = re.sub(r'\s+', ' ', js)
     # 特定符号周围去空格（保留字符串内空格）
-    js = re.sub(r'\s*([{}();,=+\-*/%&|!<>?:.])\s*', r'\1', js)
+    js = re.sub(r'\s*([{}();,=+\-*/%&|!<>?:])\s*', r'\1', js)
     js = js.strip()
     return js
 
