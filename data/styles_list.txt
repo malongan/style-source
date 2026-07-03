@@ -1,4 +1,4 @@
-共 168 个风格
+共 169 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -82,6 +82,7 @@ ST0073 | 科研信息图 | https://malongan.github.io/style-source/images/styles
 ST0074 | 论文插图 | https://malongan.github.io/style-source/images/styles_previews/science_illustration_bdeb029e.webp
 ST0075 | 科研杂志封面 | https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.webp
 ST0076 | Scarlet红块手绘描边风格 | https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.webp
+ST0169 | 孔版画旅行海报 | (无图片)
 ST0077 | 复古未来主义科幻海报 | https://malongan.github.io/style-source/images/styles_previews/retro_future_scifi_poster_7fc81506.webp
 ST0078 | 复古饮料广告 | https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.webp
 ST0079 | Retro Cel Animation | https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.webp

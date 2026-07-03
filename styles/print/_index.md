@@ -13,3 +13,4 @@
 | style_can | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | tear_paper | #插画 #撕纸 #平面 |  | 16:9 横版 |
 | typography | #字体 #标题 #排版 |  | 按需求（常见 9:16 或 16:9） |
+|| riso_travel_poster | #孔版画 #旅行海报 #独立印刷 | 品牌KV、旅行海报、独立艺术品 | 3:4 |
