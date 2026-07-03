@@ -635,6 +635,21 @@ body {
 .card-image-wrap {
   position: relative;
   overflow: hidden;
+  background-color: var(--bg-secondary);
+}
+
+/* blur-up 渐进式加载：缩略图做模糊背景占位 */
+.card-image-wrap[style*="background-image"]::before {
+  content: '';
+  position: absolute;
+  inset: -15px;
+  background: inherit;
+  background-size: cover !important;
+  background-position: center !important;
+  filter: blur(20px);
+  transform: scale(1.1);
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* 🆕 新风格徽章 */
@@ -655,23 +670,21 @@ body {
   backdrop-filter: blur(2px);
 }
 
-/* 缩略图 - 宽度统一，高度自适应 + 渐进式加载（fade-in） */
+/* 缩略图 - 宽度统一，高度自适应 + 渐进式加载（blur-up） */
 .card-image {
   width: 100%;
   height: auto;
   display: block;
-  background: var(--bg-secondary);
+  background: transparent;
   aspect-ratio: auto;
-  will-change: transform;
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  will-change: transform, opacity;
   backface-visibility: hidden;
   transform: scale(1);
-  transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
-  animation: imageFadeIn 0.35s ease forwards;
-}
-
-@keyframes imageFadeIn {
-  from { opacity: 0; transform: scale(0.97); }
-  to { opacity: 1; transform: scale(1); }
+  transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.4s ease;
 }
 
 .style-card:hover .card-image {

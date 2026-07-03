@@ -165,6 +165,7 @@ function buildCardHTML(s, idx, total) {{
   total = total || 0;
   var isNew = total > 10 && idx >= total - 10;
   var imgUrl = s.preview_webp || (s.preview_urls || [])[0] || '';
+  var thumbUrl = s.preview_webp_thumb || '';
   var tags = (s.tags || []).join(',');
   var summary = s.summary || '';
   var triggers = Array.isArray(s.triggers) ? s.triggers.join(', ') : (s.triggers || '');
@@ -178,7 +179,8 @@ function buildCardHTML(s, idx, total) {{
   }}
   var badgeHtml = isNew ? '<span class="card-badge-new">🆕 NEW</span>' : '';
   var imgHtml = '<picture><source srcset="' + imgUrl + '" type="image/webp"><img src="' + imgUrl + '" alt="' + s.name + '" class="card-image" loading="lazy"'
-    + ' onerror="this.outerHTML=window.__FALLBACK_IMG__"></picture>';
+    + ' onload="this.style.opacity=\\'1\\'" onerror="this.outerHTML=window.__FALLBACK_IMG__"></picture>';
+  var wrapStyle = thumbUrl ? (' style="background-image:url(' + thumbUrl + ');background-size:cover;background-position:center;"') : '';
   return '<div class="style-card" tabindex="0" role="button" data-id="' + s.id + '"' +
     ' data-code="' + (s.code || '') + '"' +
     ' data-summary="' + summary.replace(/"/g,'&quot;') + '"' +
@@ -189,7 +191,7 @@ function buildCardHTML(s, idx, total) {{
     ' data-category="' + s.category + '"' +
     ' data-created-at="' + (s.created_at || '') + '"' +
     ' data-original-index="' + idx + '">' +
-    '<div class="card-image-wrap">' + imgHtml + badgeHtml + '</div>' +
+    '<div class="card-image-wrap"' + wrapStyle + '>' + imgHtml + badgeHtml + '</div>' +
     '<div class="card-content">' +
       '<div class="card-title-row">' +
         '<span class="card-number" title="点击复制编号">' + (s.code ? '#' + s.code : '#' + (s.number || s.id || '')) + '</span>' +
