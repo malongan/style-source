@@ -2,27 +2,33 @@ name: Naive Marker Quote Card Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A tall, hand-drawn absurdist quote-card poster system with crude black marker outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and a simple central object-character gag
-  rendered as flat naive illustration.
+source_url: https://x.com/VigoCreativeAI
+summary: A tall, hand-drawn absurdist quote-card poster system with crude black marker
+  outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and
+  a simple central object-character gag rendered as flat naive illustration.
 tags:
 - VigoCookbook
-- Naive
+- naive
 - hand-marker
 - absurdist
 - illustration
 triggers:
 - Naive Marker Quote Card Style
 features:
-- title: Skinny poster-card composition with a large pale pastel interior rectangle and rough uneven black border.
+- title: Skinny poster-card composition with a large pale pastel interior rectangle
+    and rough uneven black border.
   desc: ''
-- title: Small off-center tab or nameplate at the top and a tiny lower caption plate, both drawn like taped paper labels.
+- title: Small off-center tab or nameplate at the top and a tiny lower caption plate,
+    both drawn like taped paper labels.
   desc: ''
-- title: Single absurd central object-character taking most of the middle area, simplified into flat stacked shapes.
+- title: Single absurd central object-character taking most of the middle area, simplified
+    into flat stacked shapes.
   desc: ''
-- title: Naive hand-drawn black marker outlines with wobbly contours, uneven line weight, and visible human imperfection.
+- title: Naive hand-drawn black marker outlines with wobbly contours, uneven line
+    weight, and visible human imperfection.
   desc: ''
-- title: Blocky uppercase blue hand lettering arranged in short broken lines, with irregular spacing and imperfect baselines.
+- title: Blocky uppercase blue hand lettering arranged in short broken lines, with
+    irregular spacing and imperfect baselines.
   desc: ''
 variables:
 - kv_var: 变量
@@ -46,7 +52,8 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: main headline or graphic text
   desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Naive Marker Quote Card Style" visual style.
+prompt: 'Create a {ASPECT_RATIO} image in the "Naive Marker Quote Card Style" visual
+  style.
 
 
   Subject: {SUBJECT}
@@ -72,18 +79,28 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Naive Marker Quote Card Style" vi
   Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
 
 
-  Apply these style rules: draw a rough skinny poster card with a pale pastel interior panel, uneven black marker border, a small crooked top tab, a small bottom nameplate, one central absurd object-character,
-  and sparse quiet negative space. Render everything as flat naive hand-marker illustration on scanned paper, with wobbly black outlines, imperfect shape closure, small dot textures, simple frontal forms,
-  and no realistic depth. Use bright blue uppercase hand lettering in compact broken lines, irregular spacing, and awkward baselines; the text must look manually drawn, not typeset. Use a limited pastel
-  palette with pale pink or cream ground, tan and muted object fills, tiny green or yellow accents, and no gradients. The central subject should be large, deadpan, and simple, with any face or limbs drawn
-  crudely. Preserve the quote-card hierarchy first, then change all source content.
+  Apply these style rules: draw a rough skinny poster card with a pale pastel interior
+  panel, uneven black marker border, a small crooked top tab, a small bottom nameplate,
+  one central absurd object-character, and sparse quiet negative space. Render everything
+  as flat naive hand-marker illustration on scanned paper, with wobbly black outlines,
+  imperfect shape closure, small dot textures, simple frontal forms, and no realistic
+  depth. Use bright blue uppercase hand lettering in compact broken lines, irregular
+  spacing, and awkward baselines; the text must look manually drawn, not typeset.
+  Use a limited pastel palette with pale pink or cream ground, tan and muted object
+  fills, tiny green or yellow accents, and no gradients. The central subject should
+  be large, deadpan, and simple, with any face or limbs drawn crudely. Preserve the
+  quote-card hierarchy first, then change all source content.
 
 
-  Avoid: photorealism, 3D render, polished vector art, clean comic-book inking, perfect typography, dense scenery, gradients, dramatic shadows, brand logos, usernames, QR codes, watermarks, copied source
-  text, copied celebrity or author names, copied cow, copied burger, copied food-animal transformation premise.
+  Avoid: photorealism, 3D render, polished vector art, clean comic-book inking, perfect
+  typography, dense scenery, gradients, dramatic shadows, brand logos, usernames,
+  QR codes, watermarks, copied source text, copied celebrity or author names, copied
+  cow, copied burger, copied food-animal transformation premise.
 
 
-  Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.'
+  Important content rule: match the reference style first, then change the source
+  content. Use new subjects, new scene details, new props or products, and new text,
+  while preserving the style fidelity anchors.'
 preview: https://malongan.github.io/images/vigo_previews/naive-marker-quote-card.jpg
 id: vigo_naive_marker_quote_card
 code: ''

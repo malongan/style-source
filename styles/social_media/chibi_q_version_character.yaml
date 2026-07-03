@@ -2,11 +2,11 @@ name: Chibi Q 版角色
 category: social_media
 ratio: 1:1 或 16:9
 source_author: '@CharaspowerAI'
-source_url: 'https://x.com/CharaspowerAI'
+source_url: https://x.com/CharaspowerAI
 summary: 将任意角色转化为可爱的 Q 版微缩风格，结合 2D 游戏美术和动漫美学，呈现动态、活泼的视觉表现。
 tags:
 - chibi
-- q版
+- Q版
 - 动漫角色
 - 游戏美术
 triggers:
@@ -42,8 +42,9 @@ variables:
 - kv_var: IP形象
   style_var: 参考图 + "Maintain [角色名] identity..."
   desc: 不在变量里，用参考图
-prompt: Chibi style, {{character}} {{action}} {{opponent/situation}}, in the style of {{style_reference}}, cute background, 2D game art, high resolution, in focus, {{background/environment}}, anime style,
-  dynamic pose, Epic and dynamic
+prompt: Chibi style, {{character}} {{action}} {{opponent/situation}}, in the style
+  of {{style_reference}}, cute background, 2D game art, high resolution, in focus,
+  {{background/environment}}, anime style, dynamic pose, Epic and dynamic
 preview: https://malongan.github.io/images/vigo_previews/chibi_q_version_character.jpg
 id: chibi_q_version_character
 code: ''

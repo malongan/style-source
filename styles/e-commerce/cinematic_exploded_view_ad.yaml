@@ -1,44 +1,43 @@
-# 电影级爆炸分解视图广告海报
-
 id: cinematic_exploded_view_ad
-name: "电影级爆炸分解视图广告海报"
+name: 电影级爆炸分解视图广告海报
 category: e-commerce
-
-tags:
-  - #爆炸分解
-  - #产品拆解
-  - #电影级广告
-  - #悬浮构图
-  - #高端广告
-
+tags: []
 triggers:
-  - 爆炸分解视图
-  - 产品拆解广告
-  - 电影级产品海报
-
+- 爆炸分解视图
+- 产品拆解广告
+- 电影级产品海报
 features:
-  - "**爆炸分解视图** — 产品悬浮在空中，拆解成各层材料、成分、组件，呈现内部结构"
-  - "**电影级布光** — 戏剧化光影、强烈阴影、深色背景，营造影院级质感"
-  - "**精准产品还原** — 高精度还原产品细节，材质、纹理、光泽都要精确"
-  - "**强烈负空间** — 大面积留白/深色背景，突出产品主体"
-  - "**3 字品牌标语** — 底部配简洁有力的品牌标语，强化视觉叙事"
+- '**爆炸分解视图** — 产品悬浮在空中，拆解成各层材料、成分、组件，呈现内部结构'
+- '**电影级布光** — 戏剧化光影、强烈阴影、深色背景，营造影院级质感'
+- '**精准产品还原** — 高精度还原产品细节，材质、纹理、光泽都要精确'
+- '**强烈负空间** — 大面积留白/深色背景，突出产品主体'
+- '**3 字品牌标语** — 底部配简洁有力的品牌标语，强化视觉叙事'
+scene: 品牌产品广告、电商主图、社媒宣传海报、发布会KV
+ratio: 3:4（竖版）/ 16:9（横版）
+summary: 将产品悬浮拆解为各层组件，以电影级布光和戏剧化阴影呈现高端广告级视觉
+prompt: 'Create a cinematic exploded-view advertising poster for {产品名称}. The product
+  hovers in mid-air, decomposed into its individual layers — materials, ingredients,
+  or components — floating apart to reveal the internal structure. Each layer is precisely
+  rendered with accurate materials, textures, and finishes.
 
-scene: "品牌产品广告、电商主图、社媒宣传海报、发布会KV"
-ratio: "3:4（竖版）/ 16:9（横版）"
-summary: "将产品悬浮拆解为各层组件，以电影级布光和戏剧化阴影呈现高端广告级视觉"
 
-prompt: |
-  Create a cinematic exploded-view advertising poster for {产品名称}. The product hovers in mid-air, decomposed into its individual layers — materials, ingredients, or components — floating apart to reveal the internal structure. Each layer is precisely rendered with accurate materials, textures, and finishes.
+  Cinematic lighting with dramatic shadows, deep dark background, strong negative
+  space. The composition tells a visual story of craftsmanship and innovation, not
+  a technical diagram.
 
-  Cinematic lighting with dramatic shadows, deep dark background, strong negative space. The composition tells a visual story of craftsmanship and innovation, not a technical diagram.
 
-  For tech products: highlight chips, circuits, precision engineering. For food/beverage: showcase ingredients, layers, textures. For fashion/beauty: reveal fabric weave, material layers, product essence. For luxury: emphasize gold accents, premium materials, exquisite details.
+  For tech products: highlight chips, circuits, precision engineering. For food/beverage:
+  showcase ingredients, layers, textures. For fashion/beauty: reveal fabric weave,
+  material layers, product essence. For luxury: emphasize gold accents, premium materials,
+  exquisite details.
+
 
   Bold 3-character brand slogan at the bottom, clean typography.
 
-  Not a watermark, no real logos, no e-commerce clutter, no cartoon style, no collage feel, no busy backgrounds, no garbled text.
 
-source_url: "https://x.com/aziz4ai/status/2071674035948106098"
-source_author: "AZIZ | AI 🇸🇦 (@aziz4ai)"
+  Not a watermark, no real logos, no e-commerce clutter, no cartoon style, no collage
+  feel, no busy backgrounds, no garbled text.
 
-# 配图: images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp
+  '
+source_url: https://x.com/aziz4ai/status/2071674035948106098
+source_author: AZIZ | AI 🇸🇦 (@aziz4ai)

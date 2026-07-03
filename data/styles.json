@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-1-ga7a94b0-dirty",
-    "generated": "2026-07-03T06:11:11Z",
+    "version": "v0.7.0-before-opt-3-g6d01c73-dirty",
+    "generated": "2026-07-03T08:55:02Z",
     "total": 168,
     "categories": [
       "brand_kv",
@@ -1468,7 +1468,7 @@
       "category": "vigo_cookbook",
       "tags": [
         "VigoCookbook",
-        "Naive",
+        "naive",
         "hand-marker",
         "absurdist",
         "illustration"
@@ -2234,7 +2234,7 @@
       "category": "vigo_cookbook",
       "tags": [
         "VigoCookbook",
-        "Flat",
+        "flat",
         "pop",
         "illustration",
         "techno-manga",
@@ -7512,13 +7512,7 @@
       "code": "ST0162",
       "name": "电影级爆炸分解视图广告海报",
       "category": "e-commerce",
-      "tags": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
+      "tags": [],
       "triggers": [
         "爆炸分解视图",
         "产品拆解广告",
@@ -7552,7 +7546,7 @@
       "category": "social_media",
       "tags": [
         "chibi",
-        "q版",
+        "Q版",
         "动漫角色",
         "游戏美术"
       ],
