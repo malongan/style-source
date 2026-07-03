@@ -471,8 +471,9 @@
   }
 
   function renderSidebarTags() {
-    const sidebar = document.querySelector('.sidebar .tag-list');
-    if (!sidebar) return;
+    const sidebar = document.querySelector('.sidebar');
+    const tagList = sidebar && sidebar.querySelector('.tag-list');
+    if (!tagList) return;
 
     const tags = Object.entries(window.galleryTags || {});
     tags.sort((a, b) => {
