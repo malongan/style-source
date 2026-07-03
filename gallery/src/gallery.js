@@ -511,10 +511,10 @@
       }
     });
 
-    sidebar.innerHTML = html;
+    tagList.innerHTML = html;
     
     // 绑定标签按钮事件
-    sidebar.querySelectorAll('.tag-item').forEach(btn => {
+    tagList.querySelectorAll('.tag-item').forEach(btn => {
       btn.addEventListener('click', handleTagClick);
     });
     
