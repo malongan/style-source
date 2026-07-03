@@ -89,11 +89,8 @@ def minify_js(js: str) -> str:
     js = '\n'.join(result)
     # 压缩空白
     js = re.sub(r'\s+', ' ', js)
-    # 特定符号周围去空格
+    # 特定符号周围去空格（保留字符串内空格）
     js = re.sub(r'\s*([{}();,=+\-*/%&|!<>?:.])\s*', r'\1', js)
-    # 恢复必要的空格（关键字后）
-    js = re.sub(r'\b(var|let|const|if|else|for|while|function|return|typeof|new|delete|void)\b(\S)', r'\1 \2', js)
-    js = re.sub(r'(\S)(\b(var|let|const|if|else|for|while|function|return|typeof|new|delete|void)\b)', r'\1 \2', js)
     js = js.strip()
     return js
 
