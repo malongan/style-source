@@ -1,0 +1,49 @@
+# 孔版画旅行海报
+# 来源：@Goodmanprotocol
+
+name: "孔版画旅行海报"
+category: print
+tags:
+  - 孔版画
+  - 旅行海报
+  - 独立印刷
+  - 复古印刷
+  - 荧光色
+  - 现代海报
+triggers:
+  - 孔版画
+  - 旅行海报
+  - risography
+  - 独立印刷海报
+  - 荧光色海报
+features:
+  - "**孔版画印刷质感** — 不完美套印、半透明荧光油墨叠压、真实半色调网纹、粗糙再生纸纹理"
+  - "**扁平矢量插画风** — 趣味几何形态、有机形状、动态编辑式构图、刻意印刷瑕疵"
+  - "**荧光色盘** — 荧光粉、电光蓝、暖黄、橙红、叶绿、钴蓝，白色背景"
+  - "**目的地视觉叙事** — 标志性建筑、文化元素、当地交通、野生动植物、美食、市集、传统物件"
+  - "**三段式排版** — 主标题{目的地名称}、副标题{简短描述}、页脚「ARTISTIC PRINTING · {主题} · {年份}」"
+scene: 旅行海报、目的地品牌视觉、独立艺术印刷品、文化海报
+ratio: 3:4
+summary: 以孔版画（Risography）印刷美学创作的现代旅行海报，荧光色叠印 + 不完美套印的半手工质感
+prompt: |
+  Create a stylish modern travel poster inspired by risography about {目的地名称}.
+
+  Use simplified illustrated imagery representing the destination's most iconic landmarks, architecture, landscapes, cultural elements, transportation, local wildlife, food, markets, traditional objects, street scenes, natural features, and symbolic details. Include small abstract decorative motifs and graphic elements that reflect the destination's identity without copying any specific artwork.
+
+  Create a bold, multi-layered risographic poster featuring imperfect ink registration, translucent overlapping fluorescent inks, authentic halftone grain, rough recycled paper texture, flat vector-style illustrations, playful geometric forms, organic shapes, dynamic editorial composition, intentional print imperfections, and layered color separations typical of independent risograph printing.
+
+  Use a vibrant palette of fluorescent pink, electric blue, warm yellow, orange-red, leafy green, rich cobalt blue, and complementary accent colors on a clean white paper background. Balance bold color overlaps with generous negative space for a contemporary gallery-quality aesthetic.
+
+  Typography:
+  • Main Title: "{目的地名称}"
+  • Subtitle: "{简短描述}"
+  • Footer: "ARTISTIC PRINTING · {主题} · {年份}"
+
+  The overall design should feel bright, cultural, modern, playful, collectible, and suitable as a premium independent art print celebrating the destination's unique identity. Emphasize originality, visual storytelling, and contemporary editorial poster design inspired by traditional risographic printing techniques.
+
+  Avoid copying any existing poster, artist's signature style, corporate branding, tourism campaign, logo, mascot, copyrighted character, exact composition, recognizable commercial design, or protected visual identity. Create a completely original composition inspired only by risograph printing aesthetics and modern independent poster design.
+
+  不要水印，不要真实Logo，不要旅游广告感，不要卡通风，不要拼贴感，不要乱码。
+source_url: "https://x.com/Goodmanprotocol/status/2072926988587929997"
+source_author: "Saul Goodman (@Goodmanprotocol)"
+# 配图待补充（Twitter CDN 下载受限）
