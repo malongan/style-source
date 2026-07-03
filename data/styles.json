@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-15-g557a5f4-dirty",
-    "generated": "2026-07-03T14:05:44Z",
+    "version": "v0.7.0-before-opt-16-gc55502e-dirty",
+    "generated": "2026-07-03T14:17:24Z",
     "total": 169,
     "categories": [
       "brand_kv",
@@ -4144,9 +4144,11 @@
       "variables": {},
       "source_url": "https://x.com/Goodmanprotocol/status/2072926988587929997",
       "source_author": "Saul Goodman (@Goodmanprotocol)",
-      "preview_urls": [],
-      "preview_webp": null,
-      "preview_webp_thumb": null,
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/riso_travel_poster_5da39518.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/riso_travel_poster_5da39518.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/riso_travel_poster_5da39518.thumb.webp",
       "created_at": ""
     },
     {
