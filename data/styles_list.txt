@@ -1,4 +1,4 @@
-共 169 个风格
+共 170 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
@@ -164,6 +164,7 @@ ST0139 | 泡泡卡片风 | https://malongan.github.io/style-source/images/styles
 ST0140 | Brand Miniature Architecture Poster Style | https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp
 ST0148 | Bold Monoline 品牌吉祥物插画 | https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.webp
 ST0158 | 粗壮飘逸字体设计 | https://malongan.github.io/style-source/images/styles_previews/bold_flow_typography_visual_experience_ac0c82a2.webp
+ST0170 | 蓝白线弧海报 | https://malongan.github.io/style-source/images/styles_previews/blue_white_line_arc_poster_3070589c.webp
 ST0141 | bloomberg_magazine | https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp
 ST0153 | 高对比黑白字体肖像 | https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp
 ST0142 | Multi-Color Beverage Splash Ad System Style | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
