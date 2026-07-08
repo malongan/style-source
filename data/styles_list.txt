@@ -1,7 +1,7 @@
 共 171 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
-ST0171 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_e856c5c7.webp
+ST0171 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_39c13918.webp
 ST0002 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
 ST0149 | 复古街头卡通海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp
 ST0003 | Yellow Black Manga Food Zine Ad Style | https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp
