@@ -46,4 +46,5 @@
 | trendy_bubble_letter_portrait | #潮流视觉 #泡泡字 #高明度 |  | 16:9 / 3:4 / 9:16 |
 | ultra_fisheye_urban_portrait | #鱼眼 #广角 #城市 #人像 #街拍 | 城市街拍、时尚摄影、音乐专辑封面、创意广告 | 3:4 |
 | vintage_streetwear_cartoon_poster | #街頭復古 #單色海報 #1930s動畫 |  | 1:1 / 3:4 / 9:16 / 16:9 |
+| xray_scan | #X光扫描 #医疗科幻 #霓虹青色 #科学可视化 |  | 3:4 |
 | y3k_cool_girl_portrait | #Y3K #赛博朋克 #潮玩 |  | 9:21 |

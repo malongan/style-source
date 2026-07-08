@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-17-gbc07ccb-dirty",
-    "generated": "2026-07-07T07:39:01Z",
-    "total": 170,
+    "version": "v0.7.0-before-opt-18-g463ca5d-dirty",
+    "generated": "2026-07-08T05:24:01Z",
+    "total": 171,
     "categories": [
       "brand_kv",
       "creative",
@@ -66,6 +66,45 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "xray_scan",
+      "code": "ST0171",
+      "name": "X光扫描风",
+      "category": "creative",
+      "tags": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "triggers": [
+        "X光扫描风格",
+        "医疗科幻",
+        "骨骼透视",
+        "科技感叠加",
+        "X-ray scan"
+      ],
+      "scene": "品牌KV、概念海报、社媒视觉、创意插画",
+      "ratio": "3:4",
+      "summary": "以X光扫描视角呈现任何主体，内部骨骼结构以霓虹青色和粉色发光，搭配科学元数据叠加层，呈现医疗科幻感",
+      "features": [
+        "**荧光透视骨骼** — 主体内部骨骼和结构以霓虹青色（#00FFFF）和柔粉色（#FF66CC）发光，外形轮廓半透明可见",
+        "**科学叠加层** — 医学扫描网格、坐标刻度、扫描元数据标注，呈现专业医疗器械感",
+        "**深色背景衬托** — 哑光黑背景，最大化荧光元素与暗部的对比度",
+        "**科幻医疗氛围** — 结合医学影像与赛博朋克美学，既有科学严谨感又有未来感"
+      ],
+      "prompt": "An X-ray scan of a {主体对象}, bones and internal structures glowing in neon cyan and soft magenta against a matte black field. Scientific overlay graphics and scan metadata give it a medical sci-fi twist.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/azed_ai/status/2074448877110132912",
+      "source_author": "azed_ai",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/xray_scan_e856c5c7.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/xray_scan_e856c5c7.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/xray_scan_e856c5c7.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "wilderness_wind_poster",
