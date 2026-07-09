@@ -1,0 +1,51 @@
+# 粉彩产品棚拍
+
+id: pastel_product_studio
+name: "粉彩产品棚拍"
+category: e-commerce
+
+tags:
+  - #电商 #产品 #摄影棚 #粉彩 #柔和 #商业摄影
+
+triggers:
+  - 粉彩产品摄影
+  - 柔和背景食品摄影
+  - pastel product studio
+  - 商业美食广告
+
+features:
+  - "**柔和粉彩背景** — 选用低饱和度的粉彩色系（如淡粉、奶油、雾蓝、淡黄）作为背景，拒绝纯白或高饱和背景"
+  - "**柔光漫射照明** — 使用柔和的漫射光线，营造自然阴影和高光过渡，避免硬阴影和强烈反差"
+  - "**留白负空间** — 画面四周保留充足负空间，产品居中或黄金分割构图，视觉透气感强"
+  - "**精致道具点缀** — 搭配简约优雅的小道具（如亚麻布、瓷器、干花），提升画面质感而非喧宾夺主"
+  - "**极简排版文字** — 可添加产品名、品牌名，字體轻盈简洁，颜色与背景协调"
+  - "**4:5 竖版构图** — 超写实 4:5 竖版输出，适合 Instagram、小红书等社交平台"
+
+scene: "品牌电商主图、高端食品饮料海报、社交媒体产品图"
+ratio: "4:5 竖版"
+summary: "将产品置于柔和粉彩背景下的高端商业摄影棚拍风格，柔光、留白、精致道具，营造轻奢现代感"
+
+prompt: |
+  Use the uploaded {product_type} as the main reference.
+  Preserve the exact product identity, appearance, texture, colors, and serving style.
+
+  Transform it into a premium soft pastel studio photoshoot with a bright, clean, modern commercial food photography style.
+
+  Use a complementary pastel background, minimal elegant props, refined plating, soft diffused lighting, realistic shadows, and appetizing natural details.
+
+  Keep the product as the hero with a balanced composition, negative space, and subtle luxury branding area.
+
+  Add minimal elegant typography for product name, brand name, and optional CTA.
+
+  Final output: ultra-realistic 4:5 vertical image, professional food advertisement quality, fresh, polished, premium, and social-media ready.
+  不要水印，不要真实Logo，不要电商广告感，不要卡通风。
+
+variables:
+  - name: "{product_type}"
+    description: "产品类型"
+    example: "饮料、咖啡、蛋糕、冰淇淋、奶茶"
+
+source_url: "https://x.com/SimplyAnnisa/status/2075111363064848511"
+source_author: "Anissa (@SimplyAnnisa)"
+
+# 配图: images/styles_previews/pastel_product_studio_c3069620.webp
