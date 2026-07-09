@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-20-g72be97f-dirty",
-    "generated": "2026-07-08T05:55:52Z",
-    "total": 171,
+    "version": "v0.7.0-before-opt-21-g09956c7-dirty",
+    "generated": "2026-07-09T04:03:37Z",
+    "total": 172,
     "categories": [
       "brand_kv",
       "creative",
@@ -7705,6 +7705,46 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "cbt_ultra_product",
+      "code": "ST0172",
+      "name": "CBT 超凡产品摄影",
+      "category": "e-commerce",
+      "tags": [
+        "产品摄影",
+        "超凡质感",
+        "电影感",
+        "高端商业",
+        "GPT Image 2"
+      ],
+      "triggers": [
+        "超凡产品摄影",
+        "高端商业产品",
+        "cinematic product photography",
+        "ultra premium product",
+        "GPT Image 2 产品"
+      ],
+      "scene": "品牌电商主图、高端产品详情页、商业广告海报",
+      "ratio": "3:4",
+      "summary": "GPT Image 2 生成的超高端商业产品摄影，戏剧光影 + 奶油焦外 + 超写实质感",
+      "features": [
+        "**产品主角居中** — 产品位于天然质感底座/台面上，身份感强烈",
+        "**戏剧性光影** — 棚拍品质光源，柔和体积光线，完美高光平衡",
+        "**浅景深焦外** — 奶油感散景（creamy bokeh），主体清晰背景柔美",
+        "**超写实细节** — 8K 分辨率、HDR、宏细节、真实冷凝/纹理、水花/颗粒",
+        "**奢华调色** — 商业广告级调色，简洁精致环境，奢侈品调性"
+      ],
+      "prompt": "Ultra-premium cinematic commercial product photography. The product is hero-centered on a beautifully textured natural pedestal that complements its identity. Dramatic studio-quality lighting with soft volumetric rays, rich atmospheric depth, subtle floating particles, premium reflections, realistic condensation or texture details where appropriate, and perfectly balanced highlights. Surround the product with carefully styled ingredients, materials, or visual elements that naturally represent its category without overpowering the composition. Shallow depth of field with creamy bokeh, ultra-realistic textures, luxurious color grading, clean premium branding visibility, elegant composition, photorealistic made, macro-level detail, high-end advertising campaign aesthetic, award-winning product photography, 8K, HDR, ultra sharp focus, realistic shadows, global illumination, ray tracing, editorial luxury commercial, minimal yet sophisticated environment, visually striking, premium lifestyle brand aesthetic.\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
+      "variables": {},
+      "source_url": "https://x.com/kingofdairyque/status/2074874926637748404",
+      "source_author": "Simply Ray",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/cbt_ultra_product_6c17f5b8.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cbt_ultra_product_6c17f5b8.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cbt_ultra_product_6c17f5b8.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "cartoon_3d_tv_icon",
