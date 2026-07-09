@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-24-g67fe8e5-dirty",
-    "generated": "2026-07-09T05:03:56Z",
-    "total": 174,
+    "version": "v0.7.0-before-opt-25-g085d06f-dirty",
+    "generated": "2026-07-09T06:03:00Z",
+    "total": 175,
     "categories": [
       "brand_kv",
       "creative",
@@ -6438,6 +6438,46 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "futuristic_editorial_poster",
+      "code": "ST0175",
+      "name": "未来感编辑海报",
+      "category": "print",
+      "tags": [
+        "未来感",
+        "编辑海报",
+        "杂志排版",
+        "人物侧脸",
+        "GPT Image 2"
+      ],
+      "triggers": [
+        "未来感海报",
+        "编辑设计",
+        "futuristic editorial",
+        "杂志排版",
+        "侧脸人像"
+      ],
+      "scene": "品牌KV、艺术海报、杂志封面、社交媒体分享",
+      "ratio": "4:5",
+      "summary": "GPT Image 2 的未来感编辑海报设计，大侧脸肖像 + 白色背景 + 几何图形 + 杂志排版",
+      "features": [
+        "**未来感编辑海报** — 大侧脸肖像 + 杂志布局，高端实验感",
+        "**简洁工作室光** — 干净白色背景，清晰打光，突出主体",
+        "**几何图形装饰** — 粗体彩色几何形状 + 精细电路线条图案",
+        "**杂志级排版** — 大写标题置顶 + 小号编辑文字 + 不对称布局",
+        "**变量可替换** — [HUMAN] [CLOTHING] [TITLE] [TEXT] 等占位符，可自定义"
+      ],
+      "prompt": "Conceptual futuristic editorial poster design featuring [HUMAN] in a large side-profile portrait, wearing [CLOTHING], sleek contemporary fashion styling, clean studio lighting, white background with bold [COLOR1] graphic shapes, fine [COLOR2] circuit-like line diagrams, and subtle [COLOR3] interface accents. Large uppercase title \"[TITLE]\" placed prominently at the top, a short block of small editorial text reading \"[TEXT]\", modern experimental typography, asymmetrical magazine layout, sharp high-contrast composition, premium graphic design aesthetic, 4:5 aspect ratio.\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
+      "variables": {},
+      "source_url": "https://x.com/Kashberg_0/status/2075055474861555843",
+      "source_author": "Kashberg",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/futuristic_editorial_poster_63bcd95a.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/futuristic_editorial_poster_63bcd95a.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/futuristic_editorial_poster_63bcd95a.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "futuristic_collage_portrait",
