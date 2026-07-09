@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-23-g7b8afe8-dirty",
-    "generated": "2026-07-09T04:51:22Z",
-    "total": 173,
+    "version": "v0.7.0-before-opt-24-g67fe8e5-dirty",
+    "generated": "2026-07-09T05:03:56Z",
+    "total": 174,
     "categories": [
       "brand_kv",
       "creative",
@@ -4662,6 +4662,46 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "pastel_de_nata_doodle",
+      "code": "ST0174",
+      "name": "蛋挞手绘美食海报",
+      "category": "creative",
+      "tags": [
+        "蛋挞",
+        "手绘插画",
+        "美食海报",
+        "涂鸦",
+        "GPT Image 2"
+      ],
+      "triggers": [
+        "手绘美食海报",
+        "蛋挞插画",
+        "doodle food poster",
+        "hand-drawn food illustration",
+        "涂鸦美食"
+      ],
+      "scene": "美食海报、面包店品牌KV、社交媒体美食图、烘焙产品宣传",
+      "ratio": "3:4",
+      "summary": "GPT Image 2 的蛋挞美食海报，融合超写实食物摄影与活泼手绘涂鸦插画，温暖有趣",
+      "features": [
+        "**超写实 + 手绘涂鸦融合** — 真实食物摄影与卡通涂鸦并置，强对比高记忆点",
+        "**温暖白底留白** — 大量留白，干净前视图海报布局，编辑感强",
+        "**手绘标注元素** — 箭头、标签、爱心、星星、漩涡等涂鸦元素点缀食物特征",
+        "**真实食物质感** — 焦糖焦斑、金黄酥皮、奶油蛋挞馅、层层酥脆",
+        "**手绘标题字体** — 顶部大胆手绘艺术字体标题，营造手工面包店氛围"
+      ],
+      "prompt": "Create an ultra-premium playful food poster for Portuguese egg tart, Pastel de Nata, combining hyper-realistic pastry photography with charming hand-drawn doodle illustration. The composition should feel joyful, delicious, artistic, and highly memorable, like a premium illustrated bakery campaign poster with a strong contrast between realistic food and flat cartoon sketch elements. Main composition: Use a clean front-facing food-poster layout on a warm white background with generous negative space. Place one hero plate or a small arrangement of Portuguese egg tarts in the center-bottom area as the absolute visual focus. The egg tarts must be ultra realistic, freshly baked, golden, glossy, flaky, and irresistible. Around the tarts, add playful black hand-drawn doodles, arrows, handwritten ingredient labels, cute decorative marks, tiny hearts, swirls, spark lines, and expressive annotation graphics. The overall layout should feel balanced, lively, and editorial, with a large hand-drawn artistic title at the top and the food composition clearly centered below it. Food styling: Show authentic Pastel de Nata with beautifully caramelized custard tops, slightly blistered golden-brown burnt spots, glossy creamy filling, crisp laminated pastry layers, buttery flaky shell, and warm fresh-from-the-oven texture. Some tarts can be whole, one can be slightly broken open or bitten to reveal silky custard inside. Add subtle cinnamon dust or powdered sugar accents if helpful, but keep the tart itself clearly recognizable and hero-focused. The pastry should feel premium, handmade, and truly Portuguese. Hand-drawn illustration style: Surround the realistic tarts with playful flat doodle elements in a spontaneous handwritten style, as if drawn with black marker directly onto the poster. Include arrows pointing to features like: \"crispy layers\" \"creamy custard\" \"caramel top\" \"buttery crust\" \"freshly baked\" Add small cute sketch icons such as a smiling sun, tiny hearts, sparkles, swirls, a spoon with dripping custard, cinnamon dust motion marks, little happy pastry characters, and expressive handwritten notes. The doodles should feel naive, warm, and energetic, but tastefully designed, not childish chaos. Typography: At the top, create a bold hand-drawn artistic title in the same style, reading \"Pastel de Nata\" or \"Portuguese Egg Tart\" in a playful hand-lettered style.\n不要水印，不要真实Logo，不要电商广告感，不要拼贴感，不要复杂背景，不要乱码。\n",
+      "variables": {},
+      "source_url": "https://x.com/ou_zhen599/status/2074780810440589526",
+      "source_author": "Loriel.AI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "oriental_mural_exhibition_poster",
