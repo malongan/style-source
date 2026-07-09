@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-30-g10b3dc2-dirty",
-    "generated": "2026-07-09T08:15:17Z",
-    "total": 179,
+    "version": "v0.7.0-before-opt-31-g8d353e5-dirty",
+    "generated": "2026-07-09T08:46:31Z",
+    "total": 180,
     "categories": [
       "brand_kv",
       "creative",
@@ -4018,6 +4018,47 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "scifi_artdeco_poster",
+      "code": "ST0180",
+      "name": "科幻电影 Art Deco 复古海报",
+      "category": "creative",
+      "tags": [
+        "art_deco",
+        "sci_fi",
+        "poster",
+        "noir",
+        "monochrome",
+        "复古海报",
+        "电影风格"
+      ],
+      "triggers": [
+        "Art Deco 科幻电影海报",
+        "复古黑白电影海报",
+        "Art Deco 电影海报生成",
+        "sci-fi art deco poster"
+      ],
+      "scene": "科幻电影海报、2x2 电影阵列、品牌联名KV、电影主题海报",
+      "ratio": "16:9",
+      "summary": "将科幻电影主角转化为 Art Deco 风格的 1930 年代黑白城市海报，2×2 grid 阵列呈现多部电影的视觉对比。",
+      "features": [
+        "**2×2 电影阵列** — 2x2 grid 布局，呈现多部科幻经典电影的视觉对比",
+        "**Art Deco 几何建筑** — 拱形、阶梯塔楼、垂直肋骨、放射纹饰面板、圆形奖章等几何元素构建装饰艺术框架",
+        "**硬调黑白矢量感** — 纯黑、纯白、有限灰的反差，厚实外轮廓线 + 中等内部线条，干净阴影块与优雅负空间",
+        "**城市剪影背景** — 高塔、桥梁、钟面、抽象机械、装饰立面构成的单色未来都市",
+        "**复古电影感** — 1930 年代 noir 城市海报的现代矢量重译，威严、戏剧性、海报级可读"
+      ],
+      "prompt": "2x2 grid, 16:9, do this for 4 famous sci-fi movies:\n\ninput: $ subject\n// extract the subject as a graphic silhouette.\ns = silhouette($ subject)\nf = focal_features($ subject)\nm = motion_or_emotion_vectors($ subject)\n\n// build a monochrome art deco poster world.\ndeco_frame = construct_frame(\n  geometry = ['arches', 'stepped towers', 'vertical skyscraper ribs', 'sunburst panels', 'circular medallions'],\n  symmetry = 'semi-symmetrical',\n  border = 'thick black ornamental frame',\n  density = 'high but readable'\n)\n\n// convert subject into hard black-and-white vector forms.\nsubject_graphic = vectorize(\n  s, style = 'art deco noir',\n  line_weight = 'thick outer contour + medium internal lines',\n  fill_logic = 'pure black, pure white, limited gray',\n  surface_detail = 'angular panels, clean shadow blocks, elegant negative space'\n)\n\n// rebuild details using architectural language.\ndetail_system = remap(f) where:\n  - curves become elegant deco arcs and streamlined contour bands\n  - small repeated details become windows, vents, stripes, grids, geometric ornaments\n  - organic textures become clean black-white pattern fields\n  - motion becomes diagonal speed lines, fan rays, stepped echoes, or theatrical silhouettes\n\n// background becomes a symbolic metropolis.\ncity_field = generate_cityscape(\n  from = m,\n  shapes = ['tall towers', 'bridges', 'arches', 'clock faces', 'abstract machinery', 'ornamental facades'],\n  color = 'black and white',\n  perspective = 'poster-flat with selective depth'\n)\n\nrender:\n  - $ subject is central, elegant, dramatic, and poster-readable.\n  - use hard black/white contrast with tiny gray accents only where needed.\n  - add art deco architecture around and through the subject.\n  - use vertical rhythm, arches, stepped geometry, clean negative space, and theatrical noir staging.\n  - no photorealism, no color, no painterly softness.\n  - final image feels like a premium 1930s noir city poster redesigned as modern vector art.\n\n不要水印，不要真实Logo，不要电商广告感，不要卡通风。\n",
+      "variables": {},
+      "source_url": "https://x.com/Gdgtify/status/2074799908880879966",
+      "source_author": "Gadgetify",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/scifi_artdeco_poster_4336bd27.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/scifi_artdeco_poster_4336bd27.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/scifi_artdeco_poster_4336bd27.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "science_infographic",

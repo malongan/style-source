@@ -51,3 +51,4 @@
 | character_design_archive | #角色设计 #概念设定 #蓝图美学 #多视图 #素描 #标注图 | 角色设计、游戏概念、动画设定、时尚设计、产品造型 | 3:4 |
 | blueprint_editorial_sketch | #蓝图美学 #时尚素描 #数字绘画 #混合媒介 #建筑草图 | 时尚大片、人像艺术、数字插画、混合媒介设计、概念艺术 | 9:16 |
 | y3k_cool_girl_portrait | #Y3K #赛博朋克 #潮玩 |  | 9:21 |
+| scifi_artdeco_poster | #Art_Deco #科幻电影 #黑白海报 #复古海报 #noir #城市剪影 | 科幻电影海报、电影阵列、品牌KV、电影主题 | 16:9 |

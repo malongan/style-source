@@ -1,0 +1,86 @@
+# 科幻电影 Art Deco 复古海报
+
+id: scifi_artdeco_poster
+name: "科幻电影 Art Deco 复古海报"
+category: creative
+
+tags:
+  - art_deco
+  - sci_fi
+  - poster
+  - noir
+  - monochrome
+  - 复古海报
+  - 电影风格
+
+triggers:
+  - Art Deco 科幻电影海报
+  - 复古黑白电影海报
+  - Art Deco 电影海报生成
+  - sci-fi art deco poster
+
+features:
+  - "**2×2 电影阵列** — 2x2 grid 布局，呈现多部科幻经典电影的视觉对比"
+  - "**Art Deco 几何建筑** — 拱形、阶梯塔楼、垂直肋骨、放射纹饰面板、圆形奖章等几何元素构建装饰艺术框架"
+  - "**硬调黑白矢量感** — 纯黑、纯白、有限灰的反差，厚实外轮廓线 + 中等内部线条，干净阴影块与优雅负空间"
+  - "**城市剪影背景** — 高塔、桥梁、钟面、抽象机械、装饰立面构成的单色未来都市"
+  - "**复古电影感** — 1930 年代 noir 城市海报的现代矢量重译，威严、戏剧性、海报级可读"
+
+scene: "科幻电影海报、2x2 电影阵列、品牌联名KV、电影主题海报"
+ratio: "16:9"
+summary: "将科幻电影主角转化为 Art Deco 风格的 1930 年代黑白城市海报，2×2 grid 阵列呈现多部电影的视觉对比。"
+
+prompt: |
+  2x2 grid, 16:9, do this for 4 famous sci-fi movies:
+
+  input: $ subject
+  // extract the subject as a graphic silhouette.
+  s = silhouette($ subject)
+  f = focal_features($ subject)
+  m = motion_or_emotion_vectors($ subject)
+
+  // build a monochrome art deco poster world.
+  deco_frame = construct_frame(
+    geometry = ['arches', 'stepped towers', 'vertical skyscraper ribs', 'sunburst panels', 'circular medallions'],
+    symmetry = 'semi-symmetrical',
+    border = 'thick black ornamental frame',
+    density = 'high but readable'
+  )
+
+  // convert subject into hard black-and-white vector forms.
+  subject_graphic = vectorize(
+    s, style = 'art deco noir',
+    line_weight = 'thick outer contour + medium internal lines',
+    fill_logic = 'pure black, pure white, limited gray',
+    surface_detail = 'angular panels, clean shadow blocks, elegant negative space'
+  )
+
+  // rebuild details using architectural language.
+  detail_system = remap(f) where:
+    - curves become elegant deco arcs and streamlined contour bands
+    - small repeated details become windows, vents, stripes, grids, geometric ornaments
+    - organic textures become clean black-white pattern fields
+    - motion becomes diagonal speed lines, fan rays, stepped echoes, or theatrical silhouettes
+
+  // background becomes a symbolic metropolis.
+  city_field = generate_cityscape(
+    from = m,
+    shapes = ['tall towers', 'bridges', 'arches', 'clock faces', 'abstract machinery', 'ornamental facades'],
+    color = 'black and white',
+    perspective = 'poster-flat with selective depth'
+  )
+
+  render:
+    - $ subject is central, elegant, dramatic, and poster-readable.
+    - use hard black/white contrast with tiny gray accents only where needed.
+    - add art deco architecture around and through the subject.
+    - use vertical rhythm, arches, stepped geometry, clean negative space, and theatrical noir staging.
+    - no photorealism, no color, no painterly softness.
+    - final image feels like a premium 1930s noir city poster redesigned as modern vector art.
+
+  不要水印，不要真实Logo，不要电商广告感，不要卡通风。
+
+source_url: "https://x.com/Gdgtify/status/2074799908880879966"
+source_author: "Gadgetify"
+
+# 配图: images/styles_previews/scifi_artdeco_poster_4336bd27.webp
