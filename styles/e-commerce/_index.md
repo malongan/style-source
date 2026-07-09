@@ -16,3 +16,4 @@
 | japanese_cuisine_backlit | #日料 #电影感 #美食摄影 #逆光 #冷色调 | 日料品牌海报、omakase餐厅KV、高端美食广告 | 3:4 |
 | cbt_ultra_product | #产品摄影 #超凡质感 #电影感 #GPT Image 2 | 品牌电商主图、高端产品详情页、商业广告海报 | 3:4 |
 | cinematic_exploded_view_ad | #爆炸分解 #产品拆解 #电影级广告 | 品牌产品广告、电商主图 | 3:4 / 16:9 |
+| pastel_product_studio | #电商 #产品 #摄影棚 #粉彩 #柔和 #商业摄影 | 品牌电商主图、高端食品饮料海报、社交媒体产品图 | 4:5 竖版 |

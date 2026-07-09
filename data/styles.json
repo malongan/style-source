@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-29-g9fc559c-dirty",
-    "generated": "2026-07-09T07:29:12Z",
-    "total": 178,
+    "version": "v0.7.0-before-opt-30-g10b3dc2-dirty",
+    "generated": "2026-07-09T08:15:17Z",
+    "total": 179,
     "categories": [
       "brand_kv",
       "creative",
@@ -4702,6 +4702,42 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "pastel_product_studio",
+      "code": "ST0179",
+      "name": "粉彩产品棚拍",
+      "category": "e-commerce",
+      "tags": [
+        null
+      ],
+      "triggers": [
+        "粉彩产品摄影",
+        "柔和背景食品摄影",
+        "pastel product studio",
+        "商业美食广告"
+      ],
+      "scene": "品牌电商主图、高端食品饮料海报、社交媒体产品图",
+      "ratio": "4:5 竖版",
+      "summary": "将产品置于柔和粉彩背景下的高端商业摄影棚拍风格，柔光、留白、精致道具，营造轻奢现代感",
+      "features": [
+        "**柔和粉彩背景** — 选用低饱和度的粉彩色系（如淡粉、奶油、雾蓝、淡黄）作为背景，拒绝纯白或高饱和背景",
+        "**柔光漫射照明** — 使用柔和的漫射光线，营造自然阴影和高光过渡，避免硬阴影和强烈反差",
+        "**留白负空间** — 画面四周保留充足负空间，产品居中或黄金分割构图，视觉透气感强",
+        "**精致道具点缀** — 搭配简约优雅的小道具（如亚麻布、瓷器、干花），提升画面质感而非喧宾夺主",
+        "**极简排版文字** — 可添加产品名、品牌名，字體轻盈简洁，颜色与背景协调",
+        "**4:5 竖版构图** — 超写实 4:5 竖版输出，适合 Instagram、小红书等社交平台"
+      ],
+      "prompt": "Use the uploaded {product_type} as the main reference.\nPreserve the exact product identity, appearance, texture, colors, and serving style.\n\nTransform it into a premium soft pastel studio photoshoot with a bright, clean, modern commercial food photography style.\n\nUse a complementary pastel background, minimal elegant props, refined plating, soft diffused lighting, realistic shadows, and appetizing natural details.\n\nKeep the product as the hero with a balanced composition, negative space, and subtle luxury branding area.\n\nAdd minimal elegant typography for product name, brand name, and optional CTA.\n\nFinal output: ultra-realistic 4:5 vertical image, professional food advertisement quality, fresh, polished, premium, and social-media ready.\n不要水印，不要真实Logo，不要电商广告感，不要卡通风。\n",
+      "variables": {},
+      "source_url": "https://x.com/SimplyAnnisa/status/2075111363064848511",
+      "source_author": "Anissa (@SimplyAnnisa)",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/pastel_product_studio_c3069620.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pastel_product_studio_c3069620.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pastel_product_studio_c3069620.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "pastel_de_nata_doodle",
