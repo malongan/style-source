@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-27-g042e7e7-dirty",
-    "generated": "2026-07-09T06:44:29Z",
-    "total": 176,
+    "version": "v0.7.0-before-opt-28-gb7fd320-dirty",
+    "generated": "2026-07-09T07:04:46Z",
+    "total": 177,
     "categories": [
       "brand_kv",
       "creative",
@@ -69,7 +69,7 @@
     },
     {
       "id": "xray_scan",
-      "code": "ST0171",
+      "code": "ST0169",
       "name": "X光扫描风",
       "category": "creative",
       "tags": [
@@ -3541,7 +3541,7 @@
     },
     {
       "id": "streetwear_shopping_bag",
-      "code": "ST0176",
+      "code": "ST0170",
       "name": "街头购物袋视角大片",
       "category": "fashion",
       "tags": [
@@ -4191,7 +4191,7 @@
     },
     {
       "id": "riso_travel_poster",
-      "code": "ST0169",
+      "code": "ST0171",
       "name": "孔版画旅行海报",
       "category": "print",
       "tags": [
@@ -4705,7 +4705,7 @@
     },
     {
       "id": "pastel_de_nata_doodle",
-      "code": "ST0174",
+      "code": "ST0172",
       "name": "蛋挞手绘美食海报",
       "category": "creative",
       "tags": [
@@ -6481,7 +6481,7 @@
     },
     {
       "id": "futuristic_editorial_poster",
-      "code": "ST0175",
+      "code": "ST0174",
       "name": "未来感编辑海报",
       "category": "print",
       "tags": [
@@ -7868,7 +7868,7 @@
     },
     {
       "id": "cbt_ultra_product",
-      "code": "ST0172",
+      "code": "ST0175",
       "name": "CBT 超凡产品摄影",
       "category": "e-commerce",
       "tags": [
@@ -8193,8 +8193,50 @@
       "created_at": "2026-06-29T15:25:17+08:00"
     },
     {
+      "id": "blueprint_editorial_sketch",
+      "code": "ST0176",
+      "name": "蓝图时尚素描大片",
+      "category": "creative",
+      "tags": [
+        "蓝图美学",
+        "时尚素描",
+        "数字绘画",
+        "混合媒介",
+        "建筑草图",
+        "Gemini"
+      ],
+      "triggers": [
+        "蓝图时尚素描",
+        "blueprint fashion",
+        "fashion sketch illustration",
+        "数字绘画混合媒介",
+        "建筑草图风格"
+      ],
+      "scene": "时尚大片、人像艺术、数字插画、混合媒介设计、概念艺术",
+      "ratio": "9:16",
+      "summary": "蓝图美学 × 时装素描 × 数字绘画的混合媒介大片，建筑制图线条与粗犷笔触共存，杂志级电影感人像",
+      "features": [
+        "**混合媒介融合** — 时装素描 + 建筑蓝图 + 数字绘画，微缩线条与粗犷笔触共存",
+        "**解剖级写实** — 精准的人体雕塑感肌肤、光泽高光、微妙毛孔皱纹",
+        "**戏剧性光影** — 暖金橙边缘光 + 冷蓝大气反射，杂志级电影感",
+        "**蓝图美学** — 技术制图线、构造标记、几何分割（立体主义启发）",
+        "**未完成感** — 褪色边缘、溶解轮廓、半擦除笔触，保留创作能量",
+        "**色彩丰富** — 赤陶、焦赭、橄榄石墨灰 + 琥珀、玫瑰金、冷青 + 品红、青柠霓虹点缀"
+      ],
+      "prompt": "Ultra-detailed neo-editorial cinematic portrait illustration rendered in a hybrid semi-realistic painterly-engineering style, combining refined anatomical realism with expressive sketch abstraction and futuristic conceptual drafting. The artwork fuses elegant graphite fashion illustration, architectural blueprint aesthetics, and richly layered digital painting into a visually immersive mixed-media composition. Human anatomy is highly accurate and sculptural, featuring luminous skin gradients, tactile pores, subtle wrinkles, refined facial contours, and soft glossy highlights. Facial rendering is extremely expressive and emotionally cinematic, with sharp eyes, delicately shaded brows, natural lips, and dramatic warm rim lighting blending golden-orange glow with cool bluish atmospheric reflections. Smooth polished rendering transitions coexist with rough textured brushwork, etched shading, and visible painterly grain. Fine ultra-thin micro-line drafting overlays merge seamlessly with loose hand-drawn sketch strokes, cross-hatching, technical contour lines, and schematic construction marks. Portions of the composition intentionally retain unfinished artistic energy: faded edges, dissolving contours, partially erased strokes, and fragmented geometric segmentation inspired by cubist blueprint structures. Certain body and fabric areas transform into layered painterly abstraction with watercolor diffusion, acrylic textures, expressive oil-like sweeps, and deconstructed mixed-media detailing. Lighting is highly cinematic and directional, creating deep volumetric shadows and glowing highlights with dramatic editorial contrast. The composition balances softness and structure—warm sepia shadows, sculpted highlights, and atmospheric diffusion enhance emotional depth while maintaining precision-engineered visual control. Background features a fusion of textured parchment surfaces and futuristic technical collage aesthetics: faint diagrams, circles, architectural annotations, handwritten marks, layered scratches, drafting elements, grain textures, faded paper imperfections, and atmospheric painterly haze. The environment feels both vintage and futuristic, combining analog artistic charm with advanced conceptual design language. Color palette blends earthy sophistication with vibrant cinematic accents—terracotta, burnt sienna, deep olive, and graphite gray harmonize with glowing amber, rose gold, and luminous cool teal. Occasional synthetic neon highlights in magenta, cyan, and lime introduce subtle futuristic energy. The mood is emotionally intense, cinematic, dramatic, and deeply atmospheric—balancing raw creative energy with polished editorial refinement. A visionary fusion of fine art, fashion photography, and futuristic design engineering.\n不要水印，不要真实品牌 Logo。\n",
+      "variables": {},
+      "source_url": "https://x.com/HustleXR/status/2075093046765707649",
+      "source_author": "HustleXR",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/blueprint_editorial_sketch_c58e372a.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/blueprint_editorial_sketch_c58e372a.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/blueprint_editorial_sketch_c58e372a.thumb.webp",
+      "created_at": ""
+    },
+    {
       "id": "blue_white_line_arc_poster",
-      "code": "ST0170",
+      "code": "ST0177",
       "name": "蓝白线弧海报",
       "category": "creative",
       "tags": [
