@@ -1,4 +1,4 @@
-共 175 个风格
+共 176 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0171 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -70,6 +70,7 @@ ST0061 | Electric Blue Silhouette Product Launch Style | https://malongan.github
 ST0062 | Folded Diamond Perspective Type Poster Style | https://malongan.github.io/style-source/images/styles_previews/style_poster_c8d9aeec.webp
 ST0063 | Halftone Assemblage Metaphor PSA Poster Style | https://malongan.github.io/style-source/images/styles_previews/style_halftone_poster_3bed3468.webp
 ST0064 | Blue Chinese Perspective Type Canyon Style | https://malongan.github.io/style-source/images/styles_previews/style_can_33201059.webp
+ST0176 | 街头购物袋视角大片 | https://malongan.github.io/style-source/images/styles_previews/streetwear_shopping_bag_c2c6fb0a.webp
 ST0065 | 3D街潮实验室海报 | https://malongan.github.io/style-source/images/styles_previews/streetwear_lab_1bee8bc5.webp
 ST0066 | 3D 极繁街潮海报 | https://malongan.github.io/style-source/images/styles_previews/street_3d_maximalist_9224fd66.webp
 ST0067 | Analog Sticker Diary Portrait Poster Style | https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.webp
