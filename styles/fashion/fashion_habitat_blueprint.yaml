@@ -1,0 +1,55 @@
+# 时尚栖息地蓝图
+
+id: fashion_habitat_blueprint
+name: "时尚栖息地蓝图"
+category: fashion
+
+tags:
+  - 时尚
+  - 蓝图
+  - 建筑结构
+  - 高端
+  - 爆炸图
+  - 编辑摄影
+
+triggers:
+  - 时尚蓝图
+  - 服装爆炸图
+  - 建筑化时尚
+  - fashion blueprint
+  - garment architecture
+
+features:
+  - "**悬浮单品** — 服装/配饰作为悬浮主体居中呈现，营造神圣感与仪式感"
+  - "**半爆炸结构** — 局部拆解面板、缝线、配件、面料层次、廓形引导线"
+  - "**蓝图注释线** — 细节标注线标注面料来源、缝合方式、廓形、色彩、版型信息"
+  - "**杂志编辑摄影质感** — 奢华光影与高端色调，区别于普通电商图"
+  - "**编辑排版** — 底部 [系列名 / 品类 / 工坊编号] 三段式编辑字体排版"
+
+scene: "品牌KV、时尚大片、设计师系列海报、高端产品手册"
+ratio: "3:4"
+summary: "将时尚单品以建筑视角呈现，融合蓝图拆解图与高端杂志摄影，创造「服装即栖息地」的视觉概念"
+
+prompt: |
+  Create a vertical poster for [FASHION SUBJECT].
+  Present the garment or accessory as a floating hero object,
+  partially exploded into panels, seams, fasteners, textile layers,
+  hardware, lining, silhouette guides, and motion paths.
+  Transform the piece into a miniature architectural habitat.
+  Show how its materials, folds, and construction create a world
+  of shelter, identity, performance, and cultural meaning.
+  Luxury fashion campaign with sculptural garment presentation.
+  Ultra-premium exploded-view product advertisement showing materials and construction.
+  Avant-garde runway invitation typography with editorial spacing.
+  Architectural section drawing and textile craft diagram.
+  If details are missing, infer the garment type, textile,
+  construction method, color palette, and fashion mood from the subject.
+  render format: vertical luxury fashion poster,
+  typography: [COLLECTION NAME] / [GARMENT TYPE] / [ATELIER CODE],
+  output rules: premium fabric detail, controlled exploded layout, elegant negative space, editorial typography
+  不要廉价商品图感，不要随意模特姿态，不要杂乱背景，不要水印。
+
+source_url: "https://x.com/Gdgtify/status/2075122532965896675"
+source_author: "Gadgetify (@Gdgtify)"
+
+# 配图: images/styles_previews/fashion_habitat_blueprint_58210404.webp
