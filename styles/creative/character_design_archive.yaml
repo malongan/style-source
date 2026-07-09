@@ -1,0 +1,41 @@
+# 角色设计档案
+
+id: character_design_archive
+name: "角色设计档案"
+category: creative
+
+tags:
+  - 角色设计
+  - 概念设定
+  - 蓝图美学
+  - 多视图
+  - 素描
+  - 标注图
+
+triggers:
+  - 角色设计档案
+  - 角色概念图
+  - character concept sheet
+  - 多视角角色设定
+  - front back side views
+  - 角色三视图
+
+features:
+  - "**多视角完整展示** — 正面、背面、侧面三视图全方位呈现角色结构与比例"
+  - "**细节特写** — 面部特征、服装细节、配饰近景素描，展现精细设计"
+  - "**蓝图美学风格** — 精细制图风格，荧光色点缀，结构化的设计底色"
+  - "**设计标注** — 带注释的设计说明，清晰标注各组件名称与功能"
+  - "**纯白背景专业呈现** — 干净留白，突出设计稿的专业质感"
+
+scene: "角色设计、游戏概念、动画设定、时尚设计、产品造型"
+ratio: "3:4"
+summary: "多视角角色概念档案图，蓝图美学风格 + 荧光色标注，附带设计说明与细节特写"
+
+prompt: |
+  A character concept sheet of a {角色名称}, featuring detailed front, back, and side views, along with close-up sketches of facial features, costume details, and accessories. Annotated design notes and clearly labeled components are arranged across the layout, rendered in a refined blueprint style with glowing {颜色1} accents and a structured {颜色2} base design, presented on a clean white background with a polished professional character design presentation.
+  不要水印，不要真实品牌 Logo，不要电商广告感。
+
+source_url: "https://x.com/azed_ai/status/2074811246893990111"
+source_author: "Amira Zairi (@azed_ai)"
+
+# 配图: images/styles_previews/character_design_archive_7dd1a0c3.webp
