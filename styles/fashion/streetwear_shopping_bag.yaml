@@ -1,0 +1,39 @@
+# 街头购物袋视角大片
+
+id: streetwear_shopping_bag
+name: "街头购物袋视角大片"
+category: fashion
+
+tags:
+  - 街头服饰
+  - 购物袋视角
+  - 奢侈品牌
+  - GPT Image 2
+  - 时尚大片
+
+triggers:
+  - 街头服饰大片
+  - 购物袋视角
+  - luxury streetwear
+  - forced perspective fashion
+  - 时尚广告
+
+features:
+  - "**强制透视视角** — 从购物袋内部向上拍摄，颠覆常规视角，极具冲击力"
+  - "**奢侈街头风格** — 红色 oversized 卫衣 + 黑裤 + 白鞋，当代奢华街头美学"
+  - "**戏剧性光影** — 高端时尚大片光效，自然光从上方洒入，柔阴影高对比"
+  - "**杂志级排版** — 购物袋内壁环绕大字「TAKE WHAT'S YOURS」+ 收据、标签、条码等编辑元素"
+  - "**色彩鲜明** — 深红、黑、白、暖奶油色调，高级感配色"
+
+scene: "时尚广告、社交媒体推广、品牌KV、街头服饰宣传"
+ratio: "9:16"
+summary: "GPT Image 2 的奢侈街头服饰广告大片，强制透视视角（购物袋内向上） + 杂志编辑设计"
+
+prompt: |
+  Create a premium luxury streetwear editorial advertising poster in a vertical 9:16 format. A stylish young female model leans over an enormous shopping bag, looking directly down toward the viewer with a confident, irresistible expression. The scene is captured from an extreme point-of-view camera positioned inside the shopping bag, creating a dramatic upward perspective as if the viewer is the item about to be picked. The model naturally leans over the bag's opening, with one hand reaching inside while maintaining intense direct eye contact. She wears an oversized vibrant red hoodie, black cargo pants, and clean white sneakers, embodying a bold contemporary luxury streetwear aesthetic. The opening of the shopping bag forms a powerful foreground frame, surrounding the model and enhancing the immersive perspective. The interior walls of the bag become part of the graphic design, featuring oversized premium typography wrapping around the paper surface with the statement: "TAKE WHAT'S YOURS" Integrate sophisticated editorial graphic elements throughout the composition, including authentic receipt graphics, barcode strips, shipping labels, premium stickers, paper folds, subtle print imperfections, registration marks, and luxury magazine-inspired layout details. Composition emphasizes an unforgettable forced-perspective viewpoint with strong foreground framing, dramatic depth, and a highly shareable luxury fashion campaign aesthetic suitable for premium social media advertising. Lighting is inspired by high-end fashion campaigns, with brilliant natural light pouring in from above the bag, creating luminous highlights, soft shadows, realistic paper reflections, and cinematic contrast. Color Palette: Rich crimson red, deep black, crisp white, and warm cream paper tones. Style: Ultra-premium luxury streetwear campaign, contemporary editorial design, cinematic fashion photography, magazine cover quality, bold graphic composition, hyper-realistic textures, impeccable typography integration, ultra-detailed, photorealistic, 8K masterpiece, award-winning commercial advertising, premium branding aesthetic.
+  不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
+
+source_url: "https://x.com/AiwithLariab/status/2075071927975293125"
+source_author: "Laraib Fatima"
+
+# 配图: images/styles_previews/streetwear_shopping_bag_c2c6fb0a.webp
