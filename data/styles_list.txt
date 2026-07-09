@@ -132,7 +132,7 @@ ST0110 | 玻璃花卉春日日记插画 | https://malongan.github.io/style-sourc
 ST0111 | 极客代码海报 | https://malongan.github.io/style-source/images/styles_previews/geek_code_poster_f7da4b88.webp
 ST0112 | 东方花茶香氛海报 | https://malongan.github.io/style-source/images/styles_previews/gardenia_white_tea_poster_727bf18d.webp
 ST0113 | 未来生态春季插画KV | https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.webp
-ST0175 | 未来感编辑海报 | https://malongan.github.io/style-source/images/styles_previews/futuristic_editorial_poster_63bcd95a.webp
+ST0175 | 未来感编辑海报 | https://malongan.github.io/style-source/images/styles_previews/futuristic_editorial_poster_c0b80acb.webp
 ST0114 | Futuristic Editorial Collage Portrait | https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.webp
 ST0115 | Fashion Editorial Visual System | https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp
 ST0116 | 时尚 Campaign 排版海报 | https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.webp
