@@ -31,6 +31,7 @@
 | moebius_underwater_coral_postoffice | #莫比乌斯 #极繁主义 #海底邮局 |  | 9:16（竖版）/ 16:9（横版） |
 | object_illustration_combo | #真实物体 #手绘插画 #融合 |  | 9:16（竖版） |
 | oriental_mural_exhibition_poster | #东方美学 #壁画 #展览海报 #低饱和 | 东方美学展览海报、文化活动宣传 | 3:4 |
+| pastel_de_nata_doodle | #蛋挞 #手绘插画 #美食海报 #涂鸦 | 美食海报、面包店品牌KV、社交媒体美食图、烘焙产品宣传 | 3:4 |
 | pen_ink_point_line_peaches | #钢笔画 #点线技法 #精细描绘 |  | 2:3（竖版） |
 | pixel_cut_community_poster | #像素字体 #黑白摄影 #几何色块 |  | 16:9 / 3:2 / 4:3 |
 | playful_avantgarde_poster | #童趣 #前卫 #艺术展 |  | 9:16 |

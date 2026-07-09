@@ -1,4 +1,4 @@
-共 173 个风格
+共 174 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0171 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -94,6 +94,7 @@ ST0082 | Pixar 3D 卡通肖像 | https://malongan.github.io/style-source/images/
 ST0083 | Rough Animation Pet Sketch Storyboard Style | https://malongan.github.io/style-source/images/styles_previews/pet_sketch_storyboard_dce925d4.webp
 ST0084 | 香水主视觉海报 | https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.webp
 ST0085 | 钢笔点线技法·桃子 | https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp
+ST0174 | 蛋挞手绘美食海报 | https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.webp
 ST0160 | 东方古代壁画展览海报 | https://malongan.github.io/style-source/images/styles_previews/oriental_mural_exhibition_poster_6f8157ee.webp
 ST0086 | Object Illustration Combo - 真实物体插画融合 | https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp
 ST0087 | 新年礼盒 | https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp
