@@ -1,4 +1,4 @@
-共 172 个风格
+共 173 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0171 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -115,6 +115,7 @@ ST0098 | 金政基赛博朋克素描 | https://malongan.github.io/style-source/i
 ST0099 | K-ギャル 街头抓拍风 | https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp
 ST0100 | Y2K酸性·ALL STARS 夜店潮流海报 | https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.webp
 ST0101 | Japanese Poetic Dreamy Semi-Realistic Illustration | https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.webp
+ST0173 | 日料电影感摄影 | https://malongan.github.io/style-source/images/styles_previews/japanese_cuisine_backlit_457fee78.webp
 ST0102 | Jade Glyph Grocer Collage Poster Style | https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp
 ST0103 | inkline_couture | https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp
 ST0104 | 膨胀花朵 3D | https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp

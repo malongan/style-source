@@ -1,0 +1,39 @@
+# 日料电影感摄影
+
+id: japanese_cuisine_backlit
+name: "日料电影感摄影"
+category: e-commerce
+
+tags:
+  - 日料
+  - 电影感
+  - 美食摄影
+  - 逆光
+  - 冷色调
+
+triggers:
+  - 日料摄影
+  - 电影感美食
+  - cinematic food photography
+  - backlit food poster
+  - 日料海报
+
+features:
+  - "**冷色调蓝黑氛围** — 深蓝黑背景，冷调奢华感，高端omakase餐厅调性"
+  - "**强逆光光影** — 穿透冷雾的光晕，食材边缘透光，散景光斑"
+  - "**冷雾与凝结感** — 冷蒸汽、凝结雾气、悬浮微粒，氛围深邃"
+  - "**极致食材写实** — 鱼生纹理、半透明鱼肉、湿性反光、精确刀工"
+  - "**前后景深分层** — 前景柔焦、中景主体清晰、背景消失在黑暗中"
+
+scene: "日料品牌海报、omakase餐厅KV、高端美食广告"
+ratio: "3:4"
+summary: "GPT Image 2 的日料电影感美食摄影，蓝黑冷色调 + 强逆光穿透冷雾 + 极致写实食材"
+
+prompt: |
+  Create an ultra-premium cinematic food advertising poster for Japanese cuisine, focused on a cold-toned sashimi and raw seafood concept with a blue-black luxury atmosphere, extreme ingredient realism, and master-level backlit mist, condensation, and airborne particle detail. The image should feel like a frame from a high-end food film: luminous, cold, precise, atmospheric, and spatially deep. The key priority is strong cinematic backlight, translucent cold vapor, and a rich sense of foreground-to-background depth. Main composition: Use a vertical premium food-poster composition against a deep blue-black background. In the lower center, place one elegant dark Japanese serving bowl or refined ceramic vessel as the visual anchor. From the bowl, raw seafood ingredients rise upward in a controlled, graceful burst, surrounded by cold mist, condensation haze, and suspended micro particles. The composition should have clear spatial layering: a softly blurred foreground edge, a sharply rendered midground hero dish, and a luminous atmospheric background receding into darkness and mist. Food direction: Create a luxurious Japanese sashimi-inspired composition with premium raw ingredients such as: thick-cut salmon sashimi, tuna cubes or slices, delicate white fish, microgreens, seaweed strands, shiso leaves, purple edible flowers, ikura accents, daikon threads, small citrus details, micro droplets and chilled glaze reflections. The food should feel rare, expensive, and masterfully prepared, suggesting elite omakase dining. Ingredient realism: Push ingredient realism to the highest level: silky fish grain, cool translucent flesh, wet reflective seafood surfaces, precise knife-cut geometry, micro condensation, tiny water beads, leaf fibers, fresh marbling, subtle natural moisture, cold reflective highlights. The food must look alive, fresh, chilled, and premium. Backlight and cinematic lighting: Use strong cinematic backlight passing through the cold mist, condensation haze, and airborne salt-like particles. The light should create a luminous halo around floating ingredients, translucent edges on sashimi slices, glowing droplets, and delicate particle sparkle in the air. Use a combination of cool backlight, subtle side light, and complementary front fill.
+  不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
+
+source_url: "https://x.com/ou_zhen599/status/2074912308313325819"
+source_author: "Loriel.AI"
+
+# 配图: images/styles_previews/japanese_cuisine_backlit_457fee78.webp
