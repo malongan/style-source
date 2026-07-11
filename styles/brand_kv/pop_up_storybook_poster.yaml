@@ -1,0 +1,68 @@
+# 立体插画故事书海报
+
+id: pop_up_storybook_poster
+name: "立体插画故事书海报"
+category: brand_kv
+
+tags:
+  - #立体书
+  - #纸雕
+  - #故事书
+  - #Pop-Up
+  - #治愈系
+  - #绘本风格
+
+triggers:
+  - 立体插画故事
+  - Pop-Up 风格
+  - 立体书海报
+  - 纸雕故事书
+  - 立体绘本风
+
+features:
+  - "**立体纸雕层叠结构** — 打开的故事书中央绽放层层纸雕世界，山脉、屋顶、云朵全部由纸张层叠构成，手工质感浓郁"
+  - "**治愈温暖氛围** — 柔和暖色光、亲子绘本般的温情氛围，整体情绪治愈、安全、充满奇迹感"
+  - "**角色纸偶美学** — 角色采用精致的纸偶风格，大眼睛、圆润轮廓，融合手绘插画与纸雕工艺"
+  - "**奢侈品级书本质感** — 厚纹理纸、精装硬壳结构、毛边书页、细腻的纸张纹理和优雅装订"
+  - "**极简背景聚焦** — 温润象牙白/羊皮纸浅色背景，柔和虚化，无杂乱道具，让视线聚焦于书本和其中的世界"
+
+scene: "品牌KV、电影海报、概念海报、绘本封面"
+ratio: "3:4"
+summary: "打开的精装故事书中绽放层层纸雕世界，融合手绘与纸雕工艺，营造治愈梦幻的立体绘本海报风格"
+
+prompt: |
+  Create an ultra-premium dreamy papercut storybook poster for "{主体故事}", blending the tenderness of a healing parent-child picture book with the handcrafted wonder of a luxury pop-up book. The image must feel magical, warm, gentle, emotionally comforting, and beautifully dimensional, like a collector's edition children's book designed for intimate reading and lifelong keeping.
+
+  The overall composition should be soft, elegant, and heartwarming, with the open book as the absolute visual anchor. Use a vertical composition with a beautifully opened premium storybook placed at the center. The book must feel luxurious and tactile: thick textured paper, high-quality hardcover structure, soft deckled page edges, subtle paper grain, elegant binding, and refined print finish. The open spread must bloom upward into a layered paper-sculpture world, as if the story is quietly unfolding from the pages.
+
+  At the center of the pop-up scene, create a stylized {主角} in a premium hand-drawn paper-doll aesthetic: large expressive eyes, soft facial features, small adventurous body proportions, layered {色系主色调} clothing, and a brave but tender emotional presence. The character should feel like a beautifully illustrated children's book figure turned into a dimensional papercraft sculpture.
+
+  Opposite the {主角}, create a {伙伴} rising from the book in a soft, magical pop-up form. The {伙伴} should feel lovable, protective, and wondrous: rounded expressive face, {色系辅色调} body tone, painted paper texture, gentle motion arc, and warm emotional presence. The {伙伴} must feel like a fusion of hand-drawn illustration, papercut sculpture, and storybook magic.
+
+  The emotional interaction is the heart of the poster: they face each other in a quiet, tender first-bond moment, with a tiny glowing light, ember, or magical spark between them. This focal point should feel like trust being born. The relationship must feel healing, safe, and full of wonder.
+
+  Build the surrounding world entirely from layered paper engineering: stacked paper mountains, soft cliff contours, village rooftops, cloud cutouts, small waves, flying page layers, paper forests, and delicate sketch lines transitioning into dimensional structures. The world should feel handcrafted and immersive, with visible paper depth and elegant layer separation.
+
+  The visual style must combine: luxury pop-up book design, soft papercut layering, dimensional hand-drawn illustration, and a warm healing picture-book atmosphere. Everything must feel artisanal, magical, and emotionally premium.
+
+  Background must remain minimal and softly luminous: warm ivory, light parchment, pale cream, or soft warm beige, with gentle atmospheric blur and no clutter. No room setting, no shelves, no unnecessary props.
+
+  Lighting must be extremely soft and refined: warm storybook glow, gentle golden-beige illumination, delicate shadows cast by layered paper edges, soft highlight on the character's face, subtle luminous contour, and a calm magical falloff across the book.
+
+  Typography should be minimal, official, and beautifully integrated. Use:
+  - main English title: "{英文主标题}"
+  - small Chinese subtitle: "{中文副标题}"
+  - Optional small supporting English line: "{英文副标语}"
+
+  Color strategy: warm parchment, soft ivory, creamy beige, misty blue, deep warm dark, muted green, dusty gray-blue, and a tiny warm ember glow at the emotional focal point.
+
+  Overall mood: dreamy, healing, warm, dimensional, handcrafted, magical, tender, premium, storybook-like, unforgettable.
+
+  Rendering style: ultra-detailed luxury pop-up picture book design, layered papercut story world, dimensional hand-drawn cartoon illustration, open collector's edition storybook, warm magical light, soft editorial lighting, minimalist premium background, healing fantasy picture-book poster, 8k, world-class visual quality.
+
+  不要水印，不要真实Logo，不要电商广告感，不要拼贴感，不要复杂背景，不要乱码。
+
+source_url: "https://x.com/ou_zhen599/status/2075629673497948593"
+source_author: "ou_zhen599"
+
+# 配图: images/styles_previews/pop_up_storybook_poster_6a76b88b.webp
