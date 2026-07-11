@@ -21,20 +21,25 @@ triggers:
   - Marker 风格
 
 features:
-  - "**红色马克笔线条** — 深红色毡头马克笔线条，纯白背景，线条快速、俏皮、不完美"
+  - "**马克笔线条** — {线条颜色}毡头马克笔线条，纯白背景，线条快速、俏皮、不完美"
   - "**手绘质感** — 中等偏粗线条，轻微抖动，压力变化，微小间隙，马克笔晕染，非矢量"
   - "**人物保持写实** — 人物 100% 写实，无草图效果或轮廓，应用在草图背景前"
-  - "**强烈对比** — 写实人物与大胆红色草图的强对比，无多余颜色，无渐变，无纸张纹理"
+  - "**强烈对比** — 写实人物与大胆{线条颜色}草图的强对比，无多余颜色，无渐变，无纸张纹理"
   - "**前后对比角标** — 右下角添加圆角小图，显示原始照片的前后对比"
 
 scene: "头像、照片编辑、社交媒体配图、创意海报"
 ratio: "1:1 或原始比例"
-summary: "人物保持写真，背景转换为深红色马克笔手绘草图，形成强烈虚实对比的创意照片风格"
+summary: "人物保持写真，背景转换为{线条颜色}马克笔手绘草图，形成强烈虚实对比的创意照片风格"
 
 prompt: |
-  Use the uploaded image as the only reference. Keep the person exactly the same, preserving their face, pose, clothing, hairstyle, lighting, colors, and proportions. Remove the original background and recreate the same environment as a loose hand-drawn sketch using only deep crimson red felt-tip marker lines on a pure white background. The sketch should be quick, playful, imperfect, and confidently hand-drawn with medium-thick strokes, slight wobble, pressure variation, tiny gaps, and marker bleed—not vector art or technical line work. Keep the person 100% photorealistic with no sketch effect or outline applied to them. Place the subject naturally in front of the illustrated background, ensuring all red sketch lines remain behind the person. Add a small rounded-corner inset in the bottom-right corner showing the original uploaded photo of the exact same person and scene before the transformation for a clear before-and-after comparison. Ultra-clean editorial style, high resolution, strong contrast between the realistic subject and the bold red sketch, no extra colors, no gradients, and no paper texture.
+  Use the uploaded image as the only reference. Keep the person exactly the same, preserving their face, pose, clothing, hairstyle, lighting, colors, and proportions. Remove the original background and recreate the same environment as a loose hand-drawn sketch using only {线条颜色} felt-tip marker lines on a pure white background. The sketch should be quick, playful, imperfect, and confidently hand-drawn with medium-thick strokes, slight wobble, pressure variation, tiny gaps, and marker bleed—not vector art or technical line work. Keep the person 100% photorealistic with no sketch effect or outline applied to them. Place the subject naturally in front of the illustrated background, ensuring all {线条颜色} sketch lines remain behind the person. Add a small rounded-corner inset in the bottom-right corner showing the original uploaded photo of the exact same person and scene before the transformation for a clear before-and-after comparison. Ultra-clean editorial style, high resolution, strong contrast between the realistic subject and the bold {线条颜色} sketch, no extra colors, no gradients, and no paper texture.
 
   不要水印，不要多余文字，不要复杂背景，不要渐变，不要纸张纹理。
+
+variables:
+  - name: "{线条颜色}"
+    description: "马克笔线条颜色"
+    example: "深红色 (deep crimson red)、宝蓝色 (royal blue)、纯黑色 (pure black)、橙色 (vibrant orange)"
 
 source_url: "https://x.com/AIwithSynthia/status/2075806836347883940"
 source_author: "AIwithSynthia"
