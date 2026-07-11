@@ -1,0 +1,57 @@
+# 琥珀雪松
+
+id: amber_cedar_perfume_poster
+name: "琥珀雪松"
+category: brand_kv
+
+tags:
+  - #琥珀色
+  - #雪松木
+  - #高端香氛
+  - #顶视平铺
+  - #顶级质感
+  - #木质调
+
+triggers:
+  - 琥珀雪松
+  - 顶级香氛海报
+  - Hermès风格
+  - 烟熏木质调
+  - 顶级平铺
+  - 香水广告KV
+
+features:
+  - "**俯视顶拍平铺构图** — 中心主体 + 放射状/环形配料环绕，严格顶视角度"
+  - "**材质对比** — 玻璃瓶硬质光泽 vs 植物木材软质烟熏感的强烈对比"
+  - "**深色氛围** — 黑褐底色、琥珀橙、炭黑、树脂金、烟熏柏木绿"
+  - "**精致排版** — 主标题 + 副标题组合，优雅极简奢侈品风格"
+
+scene: "高端品牌KV、奢侈品海报、香水广告"
+ratio: "3:4"
+summary: "Hermès香水顶级平铺海报，琥珀雪松木质调，材质对比强烈"
+
+prompt: |
+  Create an ultra-premium fragrance poster for {品牌香水瓶}, designed in a perfectly top-down flat-lay composition with extreme realism, material contrast, and a dark black-amber-cedar authority mood. The image must feel deep, smoky, woody, noble, and intensely luxurious, like a world-class perfume campaign built around mineral glass, blackened woods, soft aromatic botanicals, and glowing amber depth.
+
+  Core composition: Use a strict overhead top-view camera angle. Place one authentic {品牌香水瓶} exactly at the center of the frame as the main visual anchor. The bottle must be unmistakably real: accurate silhouette, authentic amber-orange fragrance tint, crisp branding, precise cap structure, clean metallic accents, and flawless glass realism. Emphasize the bottle's hard material identity: dense transparent glass, sharp edges, solid weight, clean reflective planes, mineral-like hardness, precise specular highlights, and a distinctly rigid architectural presence.
+
+  Aromatic halo: Arrange the supporting ingredients around the bottle in a refined radial or wreath-like composition: dark citrus peel, black peppercorns, patchouli leaves, cedar splinters, smoked wood fragments, charred bark, soft jasmine blossoms, restrained rose petals, sandalwood pieces, vanilla pods, warm resin/amber-like fragments, and dark mineral-earth textures.
+
+  Material contrast: The bottle must feel hard, polished, exact, and luminous from within; the surrounding botanicals and woods must feel softer, fibrous, dry, smoky, velvety, leafy, or resinous.
+
+  Background: Deep black-brown base, charred wood dust, warm mineral powder, burnished amber residue, shadowed soil, smoke-dark resin, subtle leather-like darkness.
+
+  Lighting: Refined overhead key light, sharp elegant highlights on the bottle glass, internal amber glow, subtle reflective edges, soft light kissing the botanicals, controlled falloff into dark smoky background zones.
+
+  Color palette: Blackened cedar brown, charcoal black, burnt amber orange, resin gold, dark mineral umber, smoked patchouli green, soft cream florals, restrained spice brown.
+
+  Overall mood: Dark, amber-rich, smoky, woody, authoritative, masculine, luxurious, hyper-real, tactile, refined, unforgettable.
+
+  Typography: {主标题} main title, {副标题} supporting line — elegant, minimal, luxury editorial restraint.
+
+  不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
+
+source_url: "https://x.com/ou_zhen599/status/2075683059429757181"
+source_author: "@ou_zhen599"
+
+# 配图: images/styles_previews/amber_cedar_perfume_poster_50fe800e.webp
