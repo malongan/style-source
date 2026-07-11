@@ -1,0 +1,101 @@
+# LAKERO 法餐点单海报
+
+id: lakero_fine_dining_menu
+name: "LAKERO 法餐点单海报"
+category: brand_kv
+
+tags:
+  - #法餐
+  - #菜单海报
+  - #高端
+  - #米其林
+  - #主厨签名
+  - #编辑风
+
+triggers:
+  - 法餐菜单
+  - 高端餐厅海报
+  - 点单海报
+  - Fine Dining
+  - 主厨菜单
+  - 西餐点单
+
+features:
+  - "**菜单式编辑排版** — 垂直构图，强烈的菜单结构，异常出色的负空间"
+  - "**中央签名菜品** — 米其林级法餐主菜置于视觉中央，超写实、精确构图、安静奢华"
+  - "**主厨签名元素** — 底部添加精致的手写风格签名元素，精致、低调、可信"
+  - "**品牌标识** — 定制的品牌 Logo，简约、建筑感、巴黎风格、永恒、编辑感"
+  - "**编辑排版布局** — 顶部精炼标题区、小描述文本块、细微分割线、课程标签"
+  - "**柔和电影级灯光** — 柔和顶部或侧向光源安静的阴影过渡、细腻的瓷器和食材高光"
+
+scene: "高端餐厅品牌KV、菜单海报、美食广告、精致餐饮宣传"
+ratio: "3:4"
+summary: "米其林级法餐主厨签名菜单海报，编辑排版布局，中央主菜超写实呈现，安静奢华的巴黎左岸精致餐饮风格"
+
+prompt: |
+  Create an ultra-premium editorial poster for {品牌名称}, designed as a chef's signature tasting menu visual for the same Paris Left Bank fine-dining series. The image must feel like a refined Michelin-level signature menu card enlarged into a museum-grade campaign poster: elegant, literary, chef-driven, architectural, and deeply restrained. Preserve the original {品牌名称} brand world of Paris Left Bank sophistication, contemporary French fine dining, quiet luxury, and tasting-menu refinement, but now shift the composition so it feels unmistakably like a signed chef's menu presentation.
+
+  Use a vertically oriented composition with strong menu-like structure and exceptional negative space. The design should feel like a luxury printed tasting menu sheet transformed into a high-end campaign image. Build the layout around a central plated signature dish, surrounded by carefully arranged editorial text zones, subtle information blocks, refined spacing, and elegant visual hierarchy. The overall composition must feel calm, precise, and highly authored.
+
+  The key concept is: {品牌名称} as a Paris Left Bank chef-led restaurant, presenting a signature tasting menu with the authority and intimacy of a chef's personal culinary statement. The poster should feel like a seasonal menu cover and internal signature page merged together: part fine-dining campaign, part chef manifesto, part luxury print object.
+
+  Place one Michelin-level French signature dish at the visual center of the poster. This dish must feel like the chef's defining plate: hyper-real, precisely composed, quietly luxurious, and visually unforgettable. A refined contemporary French tasting plate with {主菜类型}, silky sauce architecture, seasonal vegetables, micro herbs, precise garnish placement, clean porcelain, and disciplined negative space. The food must be rendered with world-class realism and remain the emotional core of the image. The plate should not feel crowded. It must feel intentional, signature-driven, and worthy of a chef's name. Every detail should suggest discipline, elegance, and culinary authorship: micro moisture on produce, silky gloss on sauce, subtle roasted texture, clean plate rim, fine ingredient fibers, and exact garnish positioning.
+
+  Around the hero dish, build a menu-inspired editorial layout: a refined title zone near the top, smaller descriptive text blocks, subtle divider rules, possibly a course label or seasonal notation, and a lower area that suggests chef signature authority. The layout should feel like a premium tasting menu page rather than a commercial advertisement. Typography and spacing must do as much work as the imagery.
+
+  Establish {品牌名称} clearly as the restaurant brand. Create a bespoke {品牌名称} logo: minimal, architectural, Parisian, timeless, editorial, and internationally premium. The logo should appear with calm authority near the top of the layout or in a refined menu-header position.
+
+  Typography must follow a chef's signature menu logic:
+  - main English title: "{英文主标题}"
+  - small Chinese subtitle: "{中文副标题}"
+  - Optional supporting English lines: "{英文副标语1}" / "{英文副标语2}"
+
+  Add a short refined English introduction such as: "{英文介绍}"
+
+  To strengthen the chef-authored feeling, introduce one discreet signature detail: a subtle handwritten-style chef signature element, a refined initials mark, or a delicate script-like approval mark near the bottom portion of the layout. It must feel premium, understated, and believable, never decorative or exaggerated.
+
+  Lighting must be soft, cinematic, and intimate: gentle top or side directional light, quiet shadow transitions, subtle porcelain reflections, fine highlights on sauce and ingredients, and elegant tonal falloff across the page. The image should feel like Parisian fine-dining still life photographed for a luxury editorial menu publication.
+
+  Color palette: {暖色系}, {冷色系}, stone gray, ivory, butter cream, sage green, champagne beige, soft roast gold, and restrained linen tones. The palette must feel cultivated, understated, and Michelin-luxury in tone.
+
+  Background and spatial design should feel like a premium printed menu object: soft paper-like field, pale stone or warm ivory surface, or a restrained dark-light contrast with clear architectural zones. Use minimal graphic dividers, subtle layout lines, and elegant spacing to suggest a chef's printed signature menu. No casual restaurant interior, no diners, no bottle-centered theme, no food collage, no decorative clutter.
+
+  Overall mood: chef-authored, Parisian, Michelin-inspired, literary, intimate, editorial, restrained, signature-driven, luxurious, intelligent, world-class.
+
+  Rendering style: hyper-realistic fine-dining food photography, Paris Left Bank chef's signature menu poster, bespoke {品牌名称} restaurant logo, elegant menu-inspired typography, soft cinematic luxury lighting, Michelin-level plate styling, refined editorial negative space, premium print-object composition, 8k, world-class commercial quality.
+
+  不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
+
+variables:
+  - name: "{品牌名称}"
+    description: "餐厅品牌名称"
+    example: "LAKERO、LE BERNARDIN、ULTRAVIOLET"
+  - name: "{主菜类型}"
+    description: "法餐主菜类型"
+    example: "黄油煎鱼 (butter-poached fish)、烤禽 (roasted poultry)、羊排 (lamb chop)"
+  - name: "{英文主标题}"
+    description: "主标题（英文）"
+    example: "LAKERO、MAISON"
+  - name: "{中文副标题}"
+    description: "副标题（中文）"
+    example: "主厨签名品鉴菜单、左岸法餐、精致餐饮"
+  - name: "{英文副标语1}"
+    description: "英文副标语1"
+    example: "Chef's Signature Menu、Paris Left Bank Dining"
+  - name: "{英文副标语2}"
+    description: "英文副标语2"
+    example: "Seasonal Tasting Sequence、Fine Dining Experience"
+  - name: "{英文介绍}"
+    description: "英文简短介绍"
+    example: "A seasonal tasting expression shaped by contemporary French technique..."
+  - name: "{暖色系}"
+    description: "暖色调描述"
+    example: "warm black、butter cream、champagne beige"
+  - name: "{冷色系}"
+    description: "冷色调描述"
+    example: "stone gray、charcoal、ivory"
+
+source_url: "https://x.com/ou_zhen599/status/2075522018737610943"
+source_author: "ou_zhen599"
+
+# 配图: images/styles_previews/lakero_fine_dining_menu_4a8b8795.webp

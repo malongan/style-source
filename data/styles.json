@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-37-g28c822f-dirty",
-    "generated": "2026-07-11T08:31:32Z",
-    "total": 184,
+    "version": "v0.7.0-before-opt-40-g76f346d-dirty",
+    "generated": "2026-07-11T08:44:02Z",
+    "total": 185,
     "categories": [
       "brand_kv",
       "creative",
@@ -5573,6 +5573,49 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "lakero_fine_dining_menu",
+      "code": "ST0183",
+      "name": "LAKERO 法餐点单海报",
+      "category": "brand_kv",
+      "tags": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "triggers": [
+        "法餐菜单",
+        "高端餐厅海报",
+        "点单海报",
+        "Fine Dining",
+        "主厨菜单",
+        "西餐点单"
+      ],
+      "scene": "高端餐厅品牌KV、菜单海报、美食广告、精致餐饮宣传",
+      "ratio": "3:4",
+      "summary": "米其林级法餐主厨签名菜单海报，编辑排版布局，中央主菜超写实呈现，安静奢华的巴黎左岸精致餐饮风格",
+      "features": [
+        "**菜单式编辑排版** — 垂直构图，强烈的菜单结构，异常出色的负空间",
+        "**中央签名菜品** — 米其林级法餐主菜置于视觉中央，超写实、精确构图、安静奢华",
+        "**主厨签名元素** — 底部添加精致的手写风格签名元素，精致、低调、可信",
+        "**品牌标识** — 定制的品牌 Logo，简约、建筑感、巴黎风格、永恒、编辑感",
+        "**编辑排版布局** — 顶部精炼标题区、小描述文本块、细微分割线、课程标签",
+        "**柔和电影级灯光** — 柔和顶部或侧向光源安静的阴影过渡、细腻的瓷器和食材高光"
+      ],
+      "prompt": "Create an ultra-premium editorial poster for {品牌名称}, designed as a chef's signature tasting menu visual for the same Paris Left Bank fine-dining series. The image must feel like a refined Michelin-level signature menu card enlarged into a museum-grade campaign poster: elegant, literary, chef-driven, architectural, and deeply restrained. Preserve the original {品牌名称} brand world of Paris Left Bank sophistication, contemporary French fine dining, quiet luxury, and tasting-menu refinement, but now shift the composition so it feels unmistakably like a signed chef's menu presentation.\n\nUse a vertically oriented composition with strong menu-like structure and exceptional negative space. The design should feel like a luxury printed tasting menu sheet transformed into a high-end campaign image. Build the layout around a central plated signature dish, surrounded by carefully arranged editorial text zones, subtle information blocks, refined spacing, and elegant visual hierarchy. The overall composition must feel calm, precise, and highly authored.\n\nThe key concept is: {品牌名称} as a Paris Left Bank chef-led restaurant, presenting a signature tasting menu with the authority and intimacy of a chef's personal culinary statement. The poster should feel like a seasonal menu cover and internal signature page merged together: part fine-dining campaign, part chef manifesto, part luxury print object.\n\nPlace one Michelin-level French signature dish at the visual center of the poster. This dish must feel like the chef's defining plate: hyper-real, precisely composed, quietly luxurious, and visually unforgettable. A refined contemporary French tasting plate with {主菜类型}, silky sauce architecture, seasonal vegetables, micro herbs, precise garnish placement, clean porcelain, and disciplined negative space. The food must be rendered with world-class realism and remain the emotional core of the image. The plate should not feel crowded. It must feel intentional, signature-driven, and worthy of a chef's name. Every detail should suggest discipline, elegance, and culinary authorship: micro moisture on produce, silky gloss on sauce, subtle roasted texture, clean plate rim, fine ingredient fibers, and exact garnish positioning.\n\nAround the hero dish, build a menu-inspired editorial layout: a refined title zone near the top, smaller descriptive text blocks, subtle divider rules, possibly a course label or seasonal notation, and a lower area that suggests chef signature authority. The layout should feel like a premium tasting menu page rather than a commercial advertisement. Typography and spacing must do as much work as the imagery.\n\nEstablish {品牌名称} clearly as the restaurant brand. Create a bespoke {品牌名称} logo: minimal, architectural, Parisian, timeless, editorial, and internationally premium. The logo should appear with calm authority near the top of the layout or in a refined menu-header position.\n\nTypography must follow a chef's signature menu logic:\n- main English title: \"{英文主标题}\"\n- small Chinese subtitle: \"{中文副标题}\"\n- Optional supporting English lines: \"{英文副标语1}\" / \"{英文副标语2}\"\n\nAdd a short refined English introduction such as: \"{英文介绍}\"\n\nTo strengthen the chef-authored feeling, introduce one discreet signature detail: a subtle handwritten-style chef signature element, a refined initials mark, or a delicate script-like approval mark near the bottom portion of the layout. It must feel premium, understated, and believable, never decorative or exaggerated.\n\nLighting must be soft, cinematic, and intimate: gentle top or side directional light, quiet shadow transitions, subtle porcelain reflections, fine highlights on sauce and ingredients, and elegant tonal falloff across the page. The image should feel like Parisian fine-dining still life photographed for a luxury editorial menu publication.\n\nColor palette: {暖色系}, {冷色系}, stone gray, ivory, butter cream, sage green, champagne beige, soft roast gold, and restrained linen tones. The palette must feel cultivated, understated, and Michelin-luxury in tone.\n\nBackground and spatial design should feel like a premium printed menu object: soft paper-like field, pale stone or warm ivory surface, or a restrained dark-light contrast with clear architectural zones. Use minimal graphic dividers, subtle layout lines, and elegant spacing to suggest a chef's printed signature menu. No casual restaurant interior, no diners, no bottle-centered theme, no food collage, no decorative clutter.\n\nOverall mood: chef-authored, Parisian, Michelin-inspired, literary, intimate, editorial, restrained, signature-driven, luxurious, intelligent, world-class.\n\nRendering style: hyper-realistic fine-dining food photography, Paris Left Bank chef's signature menu poster, bespoke {品牌名称} restaurant logo, elegant menu-inspired typography, soft cinematic luxury lighting, Michelin-level plate styling, refined editorial negative space, premium print-object composition, 8k, world-class commercial quality.\n\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
+      "variables": {},
+      "source_url": "https://x.com/ou_zhen599/status/2075522018737610943",
+      "source_author": "ou_zhen599",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/lakero_fine_dining_menu_4a8b8795.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/lakero_fine_dining_menu_4a8b8795.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/lakero_fine_dining_menu_4a8b8795.thumb.webp",
+      "created_at": ""
+    },
+    {
       "id": "korean_morning_ritual_poster",
       "code": "ST0145",
       "name": "韩国 ins 风晨间问候海报",
@@ -7662,15 +7705,15 @@
       ],
       "scene": "头像、照片编辑、社交媒体配图、创意海报",
       "ratio": "1:1 或原始比例",
-      "summary": "人物保持写真，背景转换为深红色马克笔手绘草图，形成强烈虚实对比的创意照片风格",
+      "summary": "人物保持写真，背景转换为{线条颜色}马克笔手绘草图，形成强烈虚实对比的创意照片风格",
       "features": [
-        "**红色马克笔线条** — 深红色毡头马克笔线条，纯白背景，线条快速、俏皮、不完美",
+        "**马克笔线条** — {线条颜色}毡头马克笔线条，纯白背景，线条快速、俏皮、不完美",
         "**手绘质感** — 中等偏粗线条，轻微抖动，压力变化，微小间隙，马克笔晕染，非矢量",
         "**人物保持写实** — 人物 100% 写实，无草图效果或轮廓，应用在草图背景前",
-        "**强烈对比** — 写实人物与大胆红色草图的强对比，无多余颜色，无渐变，无纸张纹理",
+        "**强烈对比** — 写实人物与大胆{线条颜色}草图的强对比，无多余颜色，无渐变，无纸张纹理",
         "**前后对比角标** — 右下角添加圆角小图，显示原始照片的前后对比"
       ],
-      "prompt": "Use the uploaded image as the only reference. Keep the person exactly the same, preserving their face, pose, clothing, hairstyle, lighting, colors, and proportions. Remove the original background and recreate the same environment as a loose hand-drawn sketch using only deep crimson red felt-tip marker lines on a pure white background. The sketch should be quick, playful, imperfect, and confidently hand-drawn with medium-thick strokes, slight wobble, pressure variation, tiny gaps, and marker bleed—not vector art or technical line work. Keep the person 100% photorealistic with no sketch effect or outline applied to them. Place the subject naturally in front of the illustrated background, ensuring all red sketch lines remain behind the person. Add a small rounded-corner inset in the bottom-right corner showing the original uploaded photo of the exact same person and scene before the transformation for a clear before-and-after comparison. Ultra-clean editorial style, high resolution, strong contrast between the realistic subject and the bold red sketch, no extra colors, no gradients, and no paper texture.\n\n不要水印，不要多余文字，不要复杂背景，不要渐变，不要纸张纹理。\n",
+      "prompt": "Use the uploaded image as the only reference. Keep the person exactly the same, preserving their face, pose, clothing, hairstyle, lighting, colors, and proportions. Remove the original background and recreate the same environment as a loose hand-drawn sketch using only {线条颜色} felt-tip marker lines on a pure white background. The sketch should be quick, playful, imperfect, and confidently hand-drawn with medium-thick strokes, slight wobble, pressure variation, tiny gaps, and marker bleed—not vector art or technical line work. Keep the person 100% photorealistic with no sketch effect or outline applied to them. Place the subject naturally in front of the illustrated background, ensuring all {线条颜色} sketch lines remain behind the person. Add a small rounded-corner inset in the bottom-right corner showing the original uploaded photo of the exact same person and scene before the transformation for a clear before-and-after comparison. Ultra-clean editorial style, high resolution, strong contrast between the realistic subject and the bold {线条颜色} sketch, no extra colors, no gradients, and no paper texture.\n\n不要水印，不要多余文字，不要复杂背景，不要渐变，不要纸张纹理。\n",
       "variables": {},
       "source_url": "https://x.com/AIwithSynthia/status/2075806836347883940",
       "source_author": "AIwithSynthia",
@@ -8712,7 +8755,7 @@
     },
     {
       "id": "amber_cedar_perfume_poster",
-      "code": "ST0183",
+      "code": "ST0185",
       "name": "琥珀雪松",
       "category": "brand_kv",
       "tags": [
