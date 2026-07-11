@@ -22,4 +22,5 @@
 | streetwear_lab | #街潮 #3D #潮牌 |  | 16:9 |
 | sunlit_kinetic_block_type_poster | #VigoCookbook #运动 #生活方式 |  | 9:16 / 16:9 |
 | urban_collage_poster | #拼贴 #都市 #前卫 |  | 3:4（竖版） |
+| pop_up_storybook_poster | #立体书 #纸雕 #故事书 #Pop-Up #治愈系 | 品牌KV、电影海报、概念海报、绘本封面 | 3:4 |
 | amber_cedar_perfume_poster | #琥珀色 #雪松木 #高端香氛 #顶视平铺 | 高端品牌KV、奢侈品海报、香水广告 | 3:4 |

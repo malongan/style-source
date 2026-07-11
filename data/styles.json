@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-35-gddef793-dirty",
-    "generated": "2026-07-11T07:40:25Z",
-    "total": 182,
+    "version": "v0.7.0-before-opt-36-gfa51118-dirty",
+    "generated": "2026-07-11T08:23:49Z",
+    "total": 183,
     "categories": [
       "brand_kv",
       "creative",
@@ -69,7 +69,7 @@
     },
     {
       "id": "xray_scan",
-      "code": "ST0002",
+      "code": "ST0169",
       "name": "X光扫描风",
       "category": "creative",
       "tags": [
@@ -108,7 +108,7 @@
     },
     {
       "id": "wilderness_wind_poster",
-      "code": "ST0003",
+      "code": "ST0002",
       "name": "旷野的风",
       "category": "travel",
       "tags": [
@@ -158,7 +158,7 @@
     },
     {
       "id": "vintage_streetwear_cartoon_poster",
-      "code": "ST0004",
+      "code": "ST0149",
       "name": "复古街头卡通海报",
       "category": "creative",
       "tags": [
@@ -206,7 +206,7 @@
     },
     {
       "id": "vigo_yellow_black_manga_food_zine_ad",
-      "code": "ST0005",
+      "code": "ST0003",
       "name": "Yellow Black Manga Food Zine Ad Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -247,7 +247,7 @@
     },
     {
       "id": "vigo_y2k_mirror_ui_scribble_collage",
-      "code": "ST0006",
+      "code": "ST0004",
       "name": "Y2K Mirror UI Scribble Collage Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -288,7 +288,7 @@
     },
     {
       "id": "vigo_y2k_grunge_hiphop_cutout_poster",
-      "code": "ST0007",
+      "code": "ST0005",
       "name": "Y2K Grunge Hip-Hop Cutout Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -342,7 +342,7 @@
     },
     {
       "id": "vigo_warm_fisheye_product_impact_ad",
-      "code": "ST0008",
+      "code": "ST0006",
       "name": "Warm Fisheye Product Impact Ad Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -383,7 +383,7 @@
     },
     {
       "id": "vigo_urban_transit_doodle_diary",
-      "code": "ST0009",
+      "code": "ST0007",
       "name": "Urban Transit Doodle Diary Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -447,7 +447,7 @@
     },
     {
       "id": "vigo_turquoise_red_techno_manga_poster",
-      "code": "ST0010",
+      "code": "ST0008",
       "name": "Turquoise Red Techno Manga Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -508,7 +508,7 @@
     },
     {
       "id": "vigo_tri_color_hardcut_portrait_poster",
-      "code": "ST0011",
+      "code": "ST0009",
       "name": "Tri Color Hardcut Portrait Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -569,7 +569,7 @@
     },
     {
       "id": "vigo_tokyo_kawaii_travel_collage_poster",
-      "code": "ST0012",
+      "code": "ST0010",
       "name": "Tokyo Kawaii Travel Collage Poster",
       "category": "vigo_cookbook",
       "tags": [
@@ -630,7 +630,7 @@
     },
     {
       "id": "vigo_sunny_3d_avatar_campaign",
-      "code": "ST0013",
+      "code": "ST0011",
       "name": "Sunny 3D Avatar Campaign Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -671,7 +671,7 @@
     },
     {
       "id": "vigo_subway_doodle_photo_hybrid",
-      "code": "ST0014",
+      "code": "ST0012",
       "name": "Subway Doodle Photo Hybrid",
       "category": "vigo_cookbook",
       "tags": [
@@ -734,7 +734,7 @@
     },
     {
       "id": "vigo_sky_blue_home_life_doodle_poster",
-      "code": "ST0015",
+      "code": "ST0013",
       "name": "Sky Blue Home Life Doodle Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -775,7 +775,7 @@
     },
     {
       "id": "vigo_school_grid_paper_cutout_poster",
-      "code": "ST0016",
+      "code": "ST0014",
       "name": "School Grid Paper Cutout Poster",
       "category": "vigo_cookbook",
       "tags": [
@@ -816,7 +816,7 @@
     },
     {
       "id": "vigo_rough_marker_monster_poster",
-      "code": "ST0017",
+      "code": "ST0015",
       "name": "Rough Marker Monster Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -857,7 +857,7 @@
     },
     {
       "id": "vigo_rough_ink_music_doodle_poster",
-      "code": "ST0018",
+      "code": "ST0016",
       "name": "Rough Ink Music Doodle Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -898,7 +898,7 @@
     },
     {
       "id": "vigo_pop_bubble_letter_photo_poster",
-      "code": "ST0019",
+      "code": "ST0017",
       "name": "Pop Bubble Letter Photo Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -960,7 +960,7 @@
     },
     {
       "id": "vigo_plush_comic_toy_product_poster",
-      "code": "ST0020",
+      "code": "ST0018",
       "name": "Plush Comic Toy Product Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1028,7 +1028,7 @@
     },
     {
       "id": "vigo_plush_city_festival_mobile_poster",
-      "code": "ST0021",
+      "code": "ST0019",
       "name": "Plush City Festival Mobile Poster",
       "category": "vigo_cookbook",
       "tags": [
@@ -1089,7 +1089,7 @@
     },
     {
       "id": "vigo_playful_mascot_doodle_snapshot",
-      "code": "ST0022",
+      "code": "ST0020",
       "name": "Playful Mascot Doodle Snapshot Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1152,7 +1152,7 @@
     },
     {
       "id": "vigo_playful_marker_grounding_poster",
-      "code": "ST0023",
+      "code": "ST0021",
       "name": "Playful Marker Grounding Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1198,7 +1198,7 @@
     },
     {
       "id": "vigo_photo_illustration_overlay_poster",
-      "code": "ST0024",
+      "code": "ST0022",
       "name": "Photo Illustration Overlay Poster",
       "category": "vigo_cookbook",
       "tags": [
@@ -1257,7 +1257,7 @@
     },
     {
       "id": "vigo_olive_scribble_sports_poster",
-      "code": "ST0025",
+      "code": "ST0023",
       "name": "Olive Scribble Sports Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1298,7 +1298,7 @@
     },
     {
       "id": "vigo_neon_plush_gadget_pop_3d",
-      "code": "ST0026",
+      "code": "ST0024",
       "name": "Neon Plush Gadget Pop 3D Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1339,7 +1339,7 @@
     },
     {
       "id": "vigo_neon_kinetic_typographic_poster",
-      "code": "ST0027",
+      "code": "ST0025",
       "name": "Neon Kinetic Typographic Poster",
       "category": "vigo_cookbook",
       "tags": [
@@ -1395,7 +1395,7 @@
     },
     {
       "id": "vigo_neon_doodle_gallery_snapshot",
-      "code": "ST0028",
+      "code": "ST0026",
       "name": "Neon Doodle Gallery Snapshot",
       "category": "vigo_cookbook",
       "tags": [
@@ -1461,7 +1461,7 @@
     },
     {
       "id": "vigo_neon_diary_collage",
-      "code": "ST0029",
+      "code": "ST0027",
       "name": "Neon Outdoor Diary Longform Collage Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1502,7 +1502,7 @@
     },
     {
       "id": "vigo_naive_marker_quote_card",
-      "code": "ST0030",
+      "code": "ST0028",
       "name": "Naive Marker Quote Card Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1546,7 +1546,7 @@
     },
     {
       "id": "vigo_mono_noir_type_portrait_poster",
-      "code": "ST0031",
+      "code": "ST0029",
       "name": "Mono Noir Type Portrait Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1587,7 +1587,7 @@
     },
     {
       "id": "vigo_mondrian_style",
-      "code": "ST0032",
+      "code": "ST0030",
       "name": "蒙德里安秩序风",
       "category": "vigo_cookbook",
       "tags": [
@@ -1639,7 +1639,7 @@
     },
     {
       "id": "vigo_metro_doodle_snapshot_diary",
-      "code": "ST0033",
+      "code": "ST0031",
       "name": "Metro Doodle Snapshot Diary",
       "category": "vigo_cookbook",
       "tags": [
@@ -1705,7 +1705,7 @@
     },
     {
       "id": "vigo_market_brush_produce_poster",
-      "code": "ST0034",
+      "code": "ST0032",
       "name": "Market Brush Produce Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1746,7 +1746,7 @@
     },
     {
       "id": "vigo_luxury_street_cover",
-      "code": "ST0035",
+      "code": "ST0033",
       "name": "Kinetic Luxury Street Fashion Cover Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1787,7 +1787,7 @@
     },
     {
       "id": "vigo_kinetic_geometric_doodle_cutouts",
-      "code": "ST0036",
+      "code": "ST0034",
       "name": "Kinetic Geometric Doodle Cutouts",
       "category": "vigo_cookbook",
       "tags": [
@@ -1828,7 +1828,7 @@
     },
     {
       "id": "vigo_k_pop_apocalypse_ransom_zine",
-      "code": "ST0037",
+      "code": "ST0035",
       "name": "K-Pop Apocalypse Ransom Zine Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1891,7 +1891,7 @@
     },
     {
       "id": "vigo_impact_burst_halftone_comic_poster",
-      "code": "ST0038",
+      "code": "ST0036",
       "name": "Impact Burst Halftone Comic Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "vigo_hud_tech_spec_poster",
-      "code": "ST0039",
+      "code": "ST0037",
       "name": "HUD 技术规格海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -2005,7 +2005,7 @@
     },
     {
       "id": "vigo_gothic_cat_doodle_photo_collage",
-      "code": "ST0040",
+      "code": "ST0038",
       "name": "Gothic Cat Doodle Photo Collage Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2065,7 +2065,7 @@
     },
     {
       "id": "vigo_folded_newspaper_product_ad",
-      "code": "ST0041",
+      "code": "ST0039",
       "name": "Folded Newspaper Product Ad Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2111,7 +2111,7 @@
     },
     {
       "id": "vigo_fisheye_bubble_poster",
-      "code": "ST0042",
+      "code": "ST0040",
       "name": "Sunburst Fisheye Bubble Type Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2174,7 +2174,7 @@
     },
     {
       "id": "vigo_film_montage_sport_poster",
-      "code": "ST0043",
+      "code": "ST0151",
       "name": "ST0151 电影蒙太奇三镜头运动海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -2227,7 +2227,7 @@
     },
     {
       "id": "vigo_fantasy_scribble_mascot_poster",
-      "code": "ST0044",
+      "code": "ST0041",
       "name": "Fantasy Scribble Mascot Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2268,7 +2268,7 @@
     },
     {
       "id": "vigo_cyan_red_shockwave_type_poster",
-      "code": "ST0045",
+      "code": "ST0042",
       "name": "Cyan Red Shockwave Type Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2316,7 +2316,7 @@
     },
     {
       "id": "vigo_chromatic_fisheye_orbit_pop_poster",
-      "code": "ST0046",
+      "code": "ST0043",
       "name": "Chromatic Fisheye Orbit Pop Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2370,7 +2370,7 @@
     },
     {
       "id": "vigo_bold_block_mascot_poster",
-      "code": "ST0047",
+      "code": "ST0044",
       "name": "Bold Block Mascot Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2418,7 +2418,7 @@
     },
     {
       "id": "vigo_bold_anime_reaction_thumbnail",
-      "code": "ST0048",
+      "code": "ST0045",
       "name": "Bold Anime Reaction Thumbnail Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2478,7 +2478,7 @@
     },
     {
       "id": "vigo_blue_kinetic_poster",
-      "code": "ST0049",
+      "code": "ST0046",
       "name": "Blue Lime Kinetic Comic Type Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2519,7 +2519,7 @@
     },
     {
       "id": "vigo_blue_hud_macro_product_poster",
-      "code": "ST0050",
+      "code": "ST0047",
       "name": "Blue HUD Macro Creator Tech Poster",
       "category": "vigo_cookbook",
       "tags": [
@@ -2566,7 +2566,7 @@
     },
     {
       "id": "vigo_blue_halftone_ransom_zine_poster",
-      "code": "ST0051",
+      "code": "ST0048",
       "name": "Blue Halftone Ransom Zine Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2607,7 +2607,7 @@
     },
     {
       "id": "vigo_blue_bubble_fisheye_action_poster",
-      "code": "ST0052",
+      "code": "ST0049",
       "name": "Blue Bubble Fisheye Action Poster Style",
       "category": "vigo_cookbook",
       "tags": [
@@ -2667,7 +2667,7 @@
     },
     {
       "id": "vigo_black_cutout_food_card_ad",
-      "code": "ST0053",
+      "code": "ST0050",
       "name": "Black Cutout Food Card Ad",
       "category": "vigo_cookbook",
       "tags": [
@@ -2715,7 +2715,7 @@
     },
     {
       "id": "vigo_analog_editorial_poster",
-      "code": "ST0054",
+      "code": "ST0051",
       "name": "Soft Analog Future Editorial Poster",
       "category": "vigo_cookbook",
       "tags": [
@@ -2780,7 +2780,7 @@
     },
     {
       "id": "urban_collage_poster",
-      "code": "ST0055",
+      "code": "ST0052",
       "name": "都市前卫拼贴海报",
       "category": "brand_kv",
       "tags": [
@@ -2829,7 +2829,7 @@
     },
     {
       "id": "ultra_fisheye_urban_portrait",
-      "code": "ST0056",
+      "code": "ST0163",
       "name": "超广角鱼眼人像",
       "category": "creative",
       "tags": [
@@ -2867,7 +2867,7 @@
     },
     {
       "id": "typography",
-      "code": "ST0057",
+      "code": "ST0053",
       "name": "字体设计",
       "category": "print",
       "tags": [
@@ -2905,7 +2905,7 @@
     },
     {
       "id": "trendy_bubble_letter_portrait",
-      "code": "ST0058",
+      "code": "ST0054",
       "name": "高明度泡泡字潮流视觉",
       "category": "creative",
       "tags": [
@@ -2957,7 +2957,7 @@
     },
     {
       "id": "transparency_concept_poster",
-      "code": "ST0059",
+      "code": "ST0156",
       "name": "透明概念海报",
       "category": "creative",
       "tags": [
@@ -3008,7 +3008,7 @@
     },
     {
       "id": "textile_craft_pro",
-      "code": "ST0060",
+      "code": "ST0152",
       "name": "织物手工艺",
       "category": "creative",
       "tags": [
@@ -3053,7 +3053,7 @@
     },
     {
       "id": "tear_paper",
-      "code": "ST0061",
+      "code": "ST0055",
       "name": "撕纸美学",
       "category": "print",
       "tags": [
@@ -3102,7 +3102,7 @@
     },
     {
       "id": "takeshi_camping_poster",
-      "code": "ST0062",
+      "code": "ST0056",
       "name": "武政谅丝网印刷露营海报",
       "category": "creative",
       "tags": [
@@ -3150,7 +3150,7 @@
     },
     {
       "id": "sunny_3d",
-      "code": "ST0063",
+      "code": "ST0057",
       "name": "阳光3D头像营销风",
       "category": "ip_character",
       "tags": [
@@ -3190,7 +3190,7 @@
     },
     {
       "id": "sunlit_kinetic_block_type_poster",
-      "code": "ST0064",
+      "code": "ST0058",
       "name": "Sunlit Kinetic Block Type Photo Poster",
       "category": "brand_kv",
       "tags": [
@@ -3238,7 +3238,7 @@
     },
     {
       "id": "summer_dopamine",
-      "code": "ST0065",
+      "code": "ST0059",
       "name": "夏日多巴胺潮流3D",
       "category": "social_media",
       "tags": [
@@ -3281,7 +3281,7 @@
     },
     {
       "id": "style_travel",
-      "code": "ST0066",
+      "code": "ST0060",
       "name": "Clean Triptych Travel Vlog Thumbnail Style",
       "category": "travel",
       "tags": [
@@ -3342,7 +3342,7 @@
     },
     {
       "id": "style_product",
-      "code": "ST0067",
+      "code": "ST0061",
       "name": "Electric Blue Silhouette Product Launch Style",
       "category": "e-commerce",
       "tags": [
@@ -3391,7 +3391,7 @@
     },
     {
       "id": "style_poster",
-      "code": "ST0068",
+      "code": "ST0062",
       "name": "Folded Diamond Perspective Type Poster Style",
       "category": "creative",
       "tags": [
@@ -3453,7 +3453,7 @@
     },
     {
       "id": "style_halftone_poster",
-      "code": "ST0069",
+      "code": "ST0063",
       "name": "Halftone Assemblage Metaphor PSA Poster Style",
       "category": "creative",
       "tags": [
@@ -3500,7 +3500,7 @@
     },
     {
       "id": "style_can",
-      "code": "ST0070",
+      "code": "ST0064",
       "name": "Blue Chinese Perspective Type Canyon Style",
       "category": "print",
       "tags": [
@@ -3541,7 +3541,7 @@
     },
     {
       "id": "streetwear_shopping_bag",
-      "code": "ST0071",
+      "code": "ST0170",
       "name": "街头购物袋视角大片",
       "category": "fashion",
       "tags": [
@@ -3581,7 +3581,7 @@
     },
     {
       "id": "streetwear_lab",
-      "code": "ST0072",
+      "code": "ST0065",
       "name": "3D街潮实验室海报",
       "category": "brand_kv",
       "tags": [
@@ -3627,7 +3627,7 @@
     },
     {
       "id": "street_3d_maximalist",
-      "code": "ST0073",
+      "code": "ST0066",
       "name": "3D 极繁街潮海报",
       "category": "brand_kv",
       "tags": [
@@ -3675,7 +3675,7 @@
     },
     {
       "id": "sticker_style_poster",
-      "code": "ST0074",
+      "code": "ST0067",
       "name": "Analog Sticker Diary Portrait Poster Style",
       "category": "social_media",
       "tags": [
@@ -3734,7 +3734,7 @@
     },
     {
       "id": "stamp_movie_poster",
-      "code": "ST0075",
+      "code": "ST0068",
       "name": "Stamp Movie Poster - 日本邮票电影海报",
       "category": "print",
       "tags": [
@@ -3783,7 +3783,7 @@
     },
     {
       "id": "soft_clay_macaron_poster",
-      "code": "ST0076",
+      "code": "ST0069",
       "name": "软胶黏土马卡龙活动海报",
       "category": "creative",
       "tags": [
@@ -3831,7 +3831,7 @@
     },
     {
       "id": "soft_clay_camping_kv",
-      "code": "ST0077",
+      "code": "ST0070",
       "name": "软胶黏土3D卡通露营KV",
       "category": "creative",
       "tags": [
@@ -3878,7 +3878,7 @@
     },
     {
       "id": "sky_blue_doodle",
-      "code": "ST0078",
+      "code": "ST0071",
       "name": "天蓝家居生活涂鸦海报",
       "category": "social_media",
       "tags": [
@@ -3923,7 +3923,7 @@
     },
     {
       "id": "silver_foil_klein_blue_cover",
-      "code": "ST0079",
+      "code": "ST0157",
       "name": "银色锡纸蓝字风封面",
       "category": "typography",
       "tags": [
@@ -3963,7 +3963,7 @@
     },
     {
       "id": "scribble_poster_style",
-      "code": "ST0080",
+      "code": "ST0072",
       "name": "Teenage Skate Scribble Screenprint Poster Style",
       "category": "creative",
       "tags": [
@@ -4021,7 +4021,7 @@
     },
     {
       "id": "scifi_artdeco_poster",
-      "code": "ST0081",
+      "code": "ST0180",
       "name": "科幻电影 Art Deco 复古海报",
       "category": "creative",
       "tags": [
@@ -4062,7 +4062,7 @@
     },
     {
       "id": "science_infographic",
-      "code": "ST0082",
+      "code": "ST0073",
       "name": "科研信息图",
       "category": "science",
       "tags": [
@@ -4103,7 +4103,7 @@
     },
     {
       "id": "science_illustration",
-      "code": "ST0083",
+      "code": "ST0074",
       "name": "论文插图",
       "category": "science",
       "tags": [
@@ -4144,7 +4144,7 @@
     },
     {
       "id": "science_cover",
-      "code": "ST0084",
+      "code": "ST0075",
       "name": "科研杂志封面",
       "category": "science",
       "tags": [
@@ -4184,7 +4184,7 @@
     },
     {
       "id": "scarlet",
-      "code": "ST0085",
+      "code": "ST0076",
       "name": "Scarlet红块手绘描边风格",
       "category": "print",
       "tags": [
@@ -4232,7 +4232,7 @@
     },
     {
       "id": "riso_travel_poster",
-      "code": "ST0086",
+      "code": "ST0171",
       "name": "孔版画旅行海报",
       "category": "print",
       "tags": [
@@ -4273,7 +4273,7 @@
     },
     {
       "id": "retro_future_scifi_poster",
-      "code": "ST0087",
+      "code": "ST0077",
       "name": "复古未来主义科幻海报",
       "category": "creative",
       "tags": [
@@ -4324,7 +4324,7 @@
     },
     {
       "id": "retro_drink_ad",
-      "code": "ST0088",
+      "code": "ST0078",
       "name": "复古饮料广告",
       "category": "e-commerce",
       "tags": [
@@ -4371,7 +4371,7 @@
     },
     {
       "id": "retro_cel_animation",
-      "code": "ST0089",
+      "code": "ST0079",
       "name": "Retro Cel Animation",
       "category": "ip_character",
       "tags": [
@@ -4408,7 +4408,7 @@
     },
     {
       "id": "realistic_photo",
-      "code": "ST0090",
+      "code": "ST0080",
       "name": "写实摄影",
       "category": "e-commerce",
       "tags": [
@@ -4445,8 +4445,49 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "pop_up_storybook_poster",
+      "code": "ST0182",
+      "name": "立体插画故事书海报",
+      "category": "brand_kv",
+      "tags": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "triggers": [
+        "立体插画故事",
+        "Pop-Up 风格",
+        "立体书海报",
+        "纸雕故事书",
+        "立体绘本风"
+      ],
+      "scene": "品牌KV、电影海报、概念海报、绘本封面",
+      "ratio": "3:4",
+      "summary": "打开的精装故事书中绽放层层纸雕世界，融合手绘与纸雕工艺，营造治愈梦幻的立体绘本海报风格",
+      "features": [
+        "**立体纸雕层叠结构** — 打开的故事书中央绽放层层纸雕世界，山脉、屋顶、云朵全部由纸张层叠构成，手工质感浓郁",
+        "**治愈温暖氛围** — 柔和暖色光、亲子绘本般的温情氛围，整体情绪治愈、安全、充满奇迹感",
+        "**角色纸偶美学** — 角色采用精致的纸偶风格，大眼睛、圆润轮廓，融合手绘插画与纸雕工艺",
+        "**奢侈品级书本质感** — 厚纹理纸、精装硬壳结构、毛边书页、细腻的纸张纹理和优雅装订",
+        "**极简背景聚焦** — 温润象牙白/羊皮纸浅色背景，柔和虚化，无杂乱道具，让视线聚焦于书本和其中的世界"
+      ],
+      "prompt": "Create an ultra-premium dreamy papercut storybook poster for \"{主体故事}\", blending the tenderness of a healing parent-child picture book with the handcrafted wonder of a luxury pop-up book. The image must feel magical, warm, gentle, emotionally comforting, and beautifully dimensional, like a collector's edition children's book designed for intimate reading and lifelong keeping.\n\nThe overall composition should be soft, elegant, and heartwarming, with the open book as the absolute visual anchor. Use a vertical composition with a beautifully opened premium storybook placed at the center. The book must feel luxurious and tactile: thick textured paper, high-quality hardcover structure, soft deckled page edges, subtle paper grain, elegant binding, and refined print finish. The open spread must bloom upward into a layered paper-sculpture world, as if the story is quietly unfolding from the pages.\n\nAt the center of the pop-up scene, create a stylized {主角} in a premium hand-drawn paper-doll aesthetic: large expressive eyes, soft facial features, small adventurous body proportions, layered {色系主色调} clothing, and a brave but tender emotional presence. The character should feel like a beautifully illustrated children's book figure turned into a dimensional papercraft sculpture.\n\nOpposite the {主角}, create a {伙伴} rising from the book in a soft, magical pop-up form. The {伙伴} should feel lovable, protective, and wondrous: rounded expressive face, {色系辅色调} body tone, painted paper texture, gentle motion arc, and warm emotional presence. The {伙伴} must feel like a fusion of hand-drawn illustration, papercut sculpture, and storybook magic.\n\nThe emotional interaction is the heart of the poster: they face each other in a quiet, tender first-bond moment, with a tiny glowing light, ember, or magical spark between them. This focal point should feel like trust being born. The relationship must feel healing, safe, and full of wonder.\n\nBuild the surrounding world entirely from layered paper engineering: stacked paper mountains, soft cliff contours, village rooftops, cloud cutouts, small waves, flying page layers, paper forests, and delicate sketch lines transitioning into dimensional structures. The world should feel handcrafted and immersive, with visible paper depth and elegant layer separation.\n\nThe visual style must combine: luxury pop-up book design, soft papercut layering, dimensional hand-drawn illustration, and a warm healing picture-book atmosphere. Everything must feel artisanal, magical, and emotionally premium.\n\nBackground must remain minimal and softly luminous: warm ivory, light parchment, pale cream, or soft warm beige, with gentle atmospheric blur and no clutter. No room setting, no shelves, no unnecessary props.\n\nLighting must be extremely soft and refined: warm storybook glow, gentle golden-beige illumination, delicate shadows cast by layered paper edges, soft highlight on the character's face, subtle luminous contour, and a calm magical falloff across the book.\n\nTypography should be minimal, official, and beautifully integrated. Use:\n- main English title: \"{英文主标题}\"\n- small Chinese subtitle: \"{中文副标题}\"\n- Optional small supporting English line: \"{英文副标语}\"\n\nColor strategy: warm parchment, soft ivory, creamy beige, misty blue, deep warm dark, muted green, dusty gray-blue, and a tiny warm ember glow at the emotional focal point.\n\nOverall mood: dreamy, healing, warm, dimensional, handcrafted, magical, tender, premium, storybook-like, unforgettable.\n\nRendering style: ultra-detailed luxury pop-up picture book design, layered papercut story world, dimensional hand-drawn cartoon illustration, open collector's edition storybook, warm magical light, soft editorial lighting, minimalist premium background, healing fantasy picture-book poster, 8k, world-class visual quality.\n\n不要水印，不要真实Logo，不要电商广告感，不要拼贴感，不要复杂背景，不要乱码。\n",
+      "variables": {},
+      "source_url": "https://x.com/ou_zhen599/status/2075629673497948593",
+      "source_author": "ou_zhen599",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/pop_up_storybook_poster_6a76b88b.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pop_up_storybook_poster_6a76b88b.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pop_up_storybook_poster_6a76b88b.thumb.webp",
+      "created_at": ""
+    },
+    {
       "id": "playful_avantgarde_poster",
-      "code": "ST0091",
+      "code": "ST0081",
       "name": "童趣前卫艺术展海报",
       "category": "creative",
       "tags": [
@@ -4492,7 +4533,7 @@
     },
     {
       "id": "pixel_cut_community_poster",
-      "code": "ST0092",
+      "code": "ST0144",
       "name": "像素切割社区活动海报",
       "category": "creative",
       "tags": [
@@ -4545,7 +4586,7 @@
     },
     {
       "id": "pixar_cartoon_portrait",
-      "code": "ST0093",
+      "code": "ST0082",
       "name": "Pixar 3D 卡通肖像",
       "category": "ip_character",
       "tags": [
@@ -4594,7 +4635,7 @@
     },
     {
       "id": "pet_sketch_storyboard",
-      "code": "ST0094",
+      "code": "ST0083",
       "name": "Rough Animation Pet Sketch Storyboard Style",
       "category": "print",
       "tags": [
@@ -4659,7 +4700,7 @@
     },
     {
       "id": "perfume_kv",
-      "code": "ST0095",
+      "code": "ST0084",
       "name": "香水主视觉海报",
       "category": "brand_kv",
       "tags": [
@@ -4708,7 +4749,7 @@
     },
     {
       "id": "pen_ink_point_line_peaches",
-      "code": "ST0096",
+      "code": "ST0085",
       "name": "钢笔点线技法·桃子",
       "category": "creative",
       "tags": [
@@ -4746,7 +4787,7 @@
     },
     {
       "id": "pastel_product_studio",
-      "code": "ST0097",
+      "code": "ST0179",
       "name": "粉彩产品棚拍",
       "category": "e-commerce",
       "tags": [
@@ -4782,7 +4823,7 @@
     },
     {
       "id": "pastel_de_nata_doodle",
-      "code": "ST0098",
+      "code": "ST0172",
       "name": "蛋挞手绘美食海报",
       "category": "creative",
       "tags": [
@@ -4822,7 +4863,7 @@
     },
     {
       "id": "oriental_mural_exhibition_poster",
-      "code": "ST0099",
+      "code": "ST0160",
       "name": "东方古代壁画展览海报",
       "category": "creative",
       "tags": [
@@ -4862,7 +4903,7 @@
     },
     {
       "id": "object_illustration_combo",
-      "code": "ST0100",
+      "code": "ST0086",
       "name": "Object Illustration Combo - 真实物体插画融合",
       "category": "creative",
       "tags": [
@@ -4910,7 +4951,7 @@
     },
     {
       "id": "newyear_gift_box",
-      "code": "ST0101",
+      "code": "ST0087",
       "name": "新年礼盒",
       "category": "e-commerce",
       "tags": [
@@ -4967,7 +5008,7 @@
     },
     {
       "id": "moebius_underwater_coral_postoffice",
-      "code": "ST0102",
+      "code": "ST0088",
       "name": "莫比乌斯海底珊瑚邮局",
       "category": "creative",
       "tags": [
@@ -5009,7 +5050,7 @@
     },
     {
       "id": "minimalist_city_travel_poster",
-      "code": "ST0103",
+      "code": "ST0089",
       "name": "Minimalist City Travel Poster",
       "category": "travel",
       "tags": [
@@ -5057,7 +5098,7 @@
     },
     {
       "id": "mckinsey_style",
-      "code": "ST0104",
+      "code": "ST0090",
       "name": "麦肯锡风格",
       "category": "science",
       "tags": [
@@ -5099,7 +5140,7 @@
     },
     {
       "id": "mascot_ip",
-      "code": "ST0105",
+      "code": "ST0091",
       "name": "吉祥物IP风格",
       "category": "ip_character",
       "tags": [
@@ -5145,7 +5186,7 @@
     },
     {
       "id": "maple_story_avatar",
-      "code": "ST0106",
+      "code": "ST0092",
       "name": "maple_story_avatar（冒险岛角色精灵转换）",
       "category": "ip_character",
       "tags": [
@@ -5192,7 +5233,7 @@
     },
     {
       "id": "mango_coconut_doodle_drink",
-      "code": "ST0107",
+      "code": "ST0146",
       "name": "芒果椰乳涂鸦饮料海报",
       "category": "creative",
       "tags": [
@@ -5243,7 +5284,7 @@
     },
     {
       "id": "luxury_product",
-      "code": "ST0108",
+      "code": "ST0093",
       "name": "高级电商图",
       "category": "e-commerce",
       "tags": [
@@ -5281,7 +5322,7 @@
     },
     {
       "id": "luxury_poster_style",
-      "code": "ST0109",
+      "code": "ST0094",
       "name": "Quiet Luxury Furniture Nameplate Poster Style",
       "category": "print",
       "tags": [
@@ -5328,7 +5369,7 @@
     },
     {
       "id": "luxury_embroidery_macro",
-      "code": "ST0110",
+      "code": "ST0150",
       "name": "奢侈品牌刺绣微距",
       "category": "brand_kv",
       "tags": [
@@ -5375,7 +5416,7 @@
     },
     {
       "id": "luxury_birthday_poster",
-      "code": "ST0111",
+      "code": "ST0095",
       "name": "Luxury Birthday Poster Style",
       "category": "e-commerce",
       "tags": [
@@ -5424,7 +5465,7 @@
     },
     {
       "id": "luxury_beauty_side_profile_poster",
-      "code": "ST0112",
+      "code": "ST0096",
       "name": "Luxury Beauty Campaign Side Profile Poster",
       "category": "brand_kv",
       "tags": [
@@ -5478,7 +5519,7 @@
     },
     {
       "id": "lime_mint_sparkling_doodle_poster",
-      "code": "ST0113",
+      "code": "ST0147",
       "name": "青柠薄荷涂鸦手绘饮料海报",
       "category": "creative",
       "tags": [
@@ -5533,7 +5574,7 @@
     },
     {
       "id": "korean_morning_ritual_poster",
-      "code": "ST0114",
+      "code": "ST0145",
       "name": "韩国 ins 风晨间问候海报",
       "category": "creative",
       "tags": [
@@ -5588,7 +5629,7 @@
     },
     {
       "id": "korean_illustration",
-      "code": "ST0115",
+      "code": "ST0097",
       "name": "韩国插画风（Korean Illustration Style）",
       "category": "creative",
       "tags": [
@@ -5630,7 +5671,7 @@
     },
     {
       "id": "kimjunggi_scifi_sketch",
-      "code": "ST0116",
+      "code": "ST0098",
       "name": "金政基赛博朋克素描",
       "category": "creative",
       "tags": [
@@ -5677,7 +5718,7 @@
     },
     {
       "id": "k_gyaru_street_snap",
-      "code": "ST0117",
+      "code": "ST0099",
       "name": "K-ギャル 街头抓拍风",
       "category": "social_media",
       "tags": [
@@ -5727,7 +5768,7 @@
     },
     {
       "id": "jimeng_kasho_allstars",
-      "code": "ST0118",
+      "code": "ST0100",
       "name": "Y2K酸性·ALL STARS 夜店潮流海报",
       "category": "brand_kv",
       "tags": [
@@ -5769,7 +5810,7 @@
     },
     {
       "id": "japanese_poetic_dreamy",
-      "code": "ST0119",
+      "code": "ST0101",
       "name": "Japanese Poetic Dreamy Semi-Realistic Illustration",
       "category": "social_media",
       "tags": [
@@ -5817,7 +5858,7 @@
     },
     {
       "id": "japanese_cuisine_backlit",
-      "code": "ST0120",
+      "code": "ST0173",
       "name": "日料电影感摄影",
       "category": "e-commerce",
       "tags": [
@@ -5857,7 +5898,7 @@
     },
     {
       "id": "jade_glyph_grocer_collage",
-      "code": "ST0121",
+      "code": "ST0102",
       "name": "Jade Glyph Grocer Collage Poster Style",
       "category": "e-commerce",
       "tags": [
@@ -5908,7 +5949,7 @@
     },
     {
       "id": "inkline_couture",
-      "code": "ST0122",
+      "code": "ST0103",
       "name": "inkline_couture",
       "category": "brand_kv",
       "tags": [
@@ -5954,7 +5995,7 @@
     },
     {
       "id": "inflatable_3d_flowers",
-      "code": "ST0123",
+      "code": "ST0104",
       "name": "膨胀花朵 3D",
       "category": "creative",
       "tags": [
@@ -5997,7 +6038,7 @@
     },
     {
       "id": "indonesian_food_infographic",
-      "code": "ST0124",
+      "code": "ST0167",
       "name": "印尼美食信息图",
       "category": "creative",
       "tags": [
@@ -6035,7 +6076,7 @@
     },
     {
       "id": "hierarchy_angels_poster",
-      "code": "ST0125",
+      "code": "ST0105",
       "name": "天使阶层海报（Hierarchy Angels Poster）",
       "category": "print",
       "tags": [
@@ -6081,7 +6122,7 @@
     },
     {
       "id": "herd_outsider_poster",
-      "code": "ST0126",
+      "code": "ST0106",
       "name": "异类阵列视觉",
       "category": "creative",
       "tags": [
@@ -6128,7 +6169,7 @@
     },
     {
       "id": "hand_drawn_travel_illustration",
-      "code": "ST0127",
+      "code": "ST0161",
       "name": "手绘旅行涂鸦插画",
       "category": "travel",
       "tags": [
@@ -6169,7 +6210,7 @@
     },
     {
       "id": "halftone_assemblage_psa_poster",
-      "code": "ST0128",
+      "code": "ST0107",
       "name": "半色调拼贴隐喻公益海报",
       "category": "brand_kv",
       "tags": [
@@ -6217,7 +6258,7 @@
     },
     {
       "id": "grotesque_doodle_style",
-      "code": "ST0129",
+      "code": "ST0108",
       "name": "Grotesque Doodle Style - 怪诞手绘风插画",
       "category": "social_media",
       "tags": [
@@ -6266,7 +6307,7 @@
     },
     {
       "id": "gpt_doodle_illustration",
-      "code": "ST0130",
+      "code": "ST0109",
       "name": "GPT Image 2 Playful Doodle Illustration",
       "category": "social_media",
       "tags": [
@@ -6316,7 +6357,7 @@
     },
     {
       "id": "glitchy_pixel_stretch_portrait",
-      "code": "ST0131",
+      "code": "ST0164",
       "name": "像素拉伸故障人像",
       "category": "creative",
       "tags": [
@@ -6354,7 +6395,7 @@
     },
     {
       "id": "glass_flower_spring_diary",
-      "code": "ST0132",
+      "code": "ST0110",
       "name": "玻璃花卉春日日记插画",
       "category": "creative",
       "tags": [
@@ -6402,7 +6443,7 @@
     },
     {
       "id": "geek_code_poster",
-      "code": "ST0133",
+      "code": "ST0111",
       "name": "极客代码海报",
       "category": "creative",
       "tags": [
@@ -6450,7 +6491,7 @@
     },
     {
       "id": "gardenia_white_tea_poster",
-      "code": "ST0134",
+      "code": "ST0112",
       "name": "东方花茶香氛海报",
       "category": "brand_kv",
       "tags": [
@@ -6510,7 +6551,7 @@
     },
     {
       "id": "futuristic_spring_kv",
-      "code": "ST0135",
+      "code": "ST0113",
       "name": "未来生态春季插画KV",
       "category": "creative",
       "tags": [
@@ -6558,7 +6599,7 @@
     },
     {
       "id": "futuristic_editorial_poster",
-      "code": "ST0136",
+      "code": "ST0174",
       "name": "未来感编辑海报",
       "category": "print",
       "tags": [
@@ -6598,7 +6639,7 @@
     },
     {
       "id": "futuristic_collage_portrait",
-      "code": "ST0137",
+      "code": "ST0114",
       "name": "Futuristic Editorial Collage Portrait",
       "category": "brand_kv",
       "tags": [
@@ -6649,7 +6690,7 @@
     },
     {
       "id": "fashion_habitat_blueprint",
-      "code": "ST0138",
+      "code": "ST0181",
       "name": "时尚栖息地蓝图",
       "category": "fashion",
       "tags": [
@@ -6690,7 +6731,7 @@
     },
     {
       "id": "fashion_editorial_visual",
-      "code": "ST0139",
+      "code": "ST0115",
       "name": "Fashion Editorial Visual System",
       "category": "brand_kv",
       "tags": [
@@ -6740,7 +6781,7 @@
     },
     {
       "id": "fashion_campaign_typography",
-      "code": "ST0140",
+      "code": "ST0116",
       "name": "时尚 Campaign 排版海报",
       "category": "fashion",
       "tags": [
@@ -6781,7 +6822,7 @@
     },
     {
       "id": "fashion_archer_editorial",
-      "code": "ST0141",
+      "code": "ST0117",
       "name": "时尚摄影弓箭手",
       "category": "fashion",
       "tags": [
@@ -6830,7 +6871,7 @@
     },
     {
       "id": "exploded_food_infographic",
-      "code": "ST0142",
+      "code": "ST0166",
       "name": "爆炸式美食信息图",
       "category": "creative",
       "tags": [
@@ -6868,7 +6909,7 @@
     },
     {
       "id": "exaggerated_3d_toy_illustration",
-      "code": "ST0143",
+      "code": "ST0118",
       "name": "Exaggerated 3D Toy Illustration",
       "category": "ip_character",
       "tags": [
@@ -6918,7 +6959,7 @@
     },
     {
       "id": "editorial_luxury",
-      "code": "ST0144",
+      "code": "ST0119",
       "name": "Luxury Perspective Checkerboard Editorial",
       "category": "fashion",
       "tags": [
@@ -6959,7 +7000,7 @@
     },
     {
       "id": "editorial_fashion",
-      "code": "ST0145",
+      "code": "ST0120",
       "name": "Sunlit Architectural Fashion Editorial",
       "category": "fashion",
       "tags": [
@@ -7000,7 +7041,7 @@
     },
     {
       "id": "editorial",
-      "code": "ST0146",
+      "code": "ST0121",
       "name": "Sunlit Supermodel Nameplate Editorial",
       "category": "fashion",
       "tags": [
@@ -7041,7 +7082,7 @@
     },
     {
       "id": "east_asian_vintage_magazine",
-      "code": "ST0147",
+      "code": "ST0122",
       "name": "东亚复古杂志风插画",
       "category": "creative",
       "tags": [
@@ -7093,7 +7134,7 @@
     },
     {
       "id": "east_asian_vintage_illustration",
-      "code": "ST0148",
+      "code": "ST0123",
       "name": "东亚复古杂志风插画",
       "category": "creative",
       "tags": [
@@ -7142,7 +7183,7 @@
     },
     {
       "id": "dreamy_watercolor_travel",
-      "code": "ST0149",
+      "code": "ST0165",
       "name": "梦幻水彩旅行插画",
       "category": "creative",
       "tags": [
@@ -7180,7 +7221,7 @@
     },
     {
       "id": "doodle_style_poster_1",
-      "code": "ST0150",
+      "code": "ST0124",
       "name": "Mountain Trail Monster Doodle Poster Style",
       "category": "social_media",
       "tags": [
@@ -7240,7 +7281,7 @@
     },
     {
       "id": "doodle_style_poster",
-      "code": "ST0151",
+      "code": "ST0125",
       "name": "Backseat Transit Doodle Letter Poster Style",
       "category": "social_media",
       "tags": [
@@ -7308,7 +7349,7 @@
     },
     {
       "id": "doodle_style",
-      "code": "ST0152",
+      "code": "ST0126",
       "name": "Cozy Bedroom Doodle Companion Snapshot Style",
       "category": "social_media",
       "tags": [
@@ -7374,7 +7415,7 @@
     },
     {
       "id": "digital_soul_poster",
-      "code": "ST0153",
+      "code": "ST0127",
       "name": "DIGITAL SOUL 数字灵魂海报",
       "category": "brand_kv",
       "tags": [
@@ -7422,7 +7463,7 @@
     },
     {
       "id": "diffuse_poster",
-      "code": "ST0154",
+      "code": "ST0128",
       "name": "弥散风视觉海报",
       "category": "brand_kv",
       "tags": [
@@ -7465,7 +7506,7 @@
     },
     {
       "id": "demon_wukong_line_art",
-      "code": "ST0155",
+      "code": "ST0129",
       "name": "妖魔孙悟空线绘",
       "category": "creative",
       "tags": [
@@ -7509,7 +7550,7 @@
     },
     {
       "id": "dark_chinese_fantasy_illustration",
-      "code": "ST0156",
+      "code": "ST0130",
       "name": "暗黑国风奇幻插画",
       "category": "creative",
       "tags": [
@@ -7551,7 +7592,7 @@
     },
     {
       "id": "cyberpunk_halftone_poster",
-      "code": "ST0157",
+      "code": "ST0131",
       "name": "赛博朋克半调海报",
       "category": "brand_kv",
       "tags": [
@@ -7600,7 +7641,7 @@
     },
     {
       "id": "cozy_storybook_cafe",
-      "code": "ST0158",
+      "code": "ST0154",
       "name": "温馨故事书咖啡馆",
       "category": "creative",
       "tags": [
@@ -7644,7 +7685,7 @@
     },
     {
       "id": "constructivist_architecture_poster",
-      "code": "ST0159",
+      "code": "ST0168",
       "name": "构成主义建筑海报",
       "category": "creative",
       "tags": [
@@ -7682,7 +7723,7 @@
     },
     {
       "id": "collage_logo",
-      "code": "ST0160",
+      "code": "ST0132",
       "name": "拼贴logo（马赛克风格）",
       "category": "print",
       "tags": [
@@ -7719,7 +7760,7 @@
     },
     {
       "id": "collage_doodle_style",
-      "code": "ST0161",
+      "code": "ST0133",
       "name": "Surreal Fish Doodle Landmark Photo Collage Style",
       "category": "travel",
       "tags": [
@@ -7781,7 +7822,7 @@
     },
     {
       "id": "climb_mountain_typography",
-      "code": "ST0162",
+      "code": "ST0134",
       "name": "就要去爬山（Climb Mountain Typography）",
       "category": "typography",
       "tags": [
@@ -7822,7 +7863,7 @@
     },
     {
       "id": "clay_typography_poster",
-      "code": "ST0163",
+      "code": "ST0155",
       "name": "黏土文字互动海报",
       "category": "creative",
       "tags": [
@@ -7867,7 +7908,7 @@
     },
     {
       "id": "cinematic_exploded_view_ad",
-      "code": "ST0164",
+      "code": "ST0162",
       "name": "电影级爆炸分解视图广告海报",
       "category": "e-commerce",
       "tags": [],
@@ -7899,7 +7940,7 @@
     },
     {
       "id": "chibi_q_version_character",
-      "code": "ST0165",
+      "code": "ST0135",
       "name": "Chibi Q 版角色",
       "category": "social_media",
       "tags": [
@@ -7942,7 +7983,7 @@
     },
     {
       "id": "character_design_archive",
-      "code": "ST0166",
+      "code": "ST0178",
       "name": "角色设计档案",
       "category": "creative",
       "tags": [
@@ -7984,7 +8025,7 @@
     },
     {
       "id": "chang_e_goddess",
-      "code": "ST0167",
+      "code": "ST0136",
       "name": "chang_e_goddess",
       "category": "ip_character",
       "tags": [
@@ -8028,7 +8069,7 @@
     },
     {
       "id": "cbt_ultra_product",
-      "code": "ST0168",
+      "code": "ST0175",
       "name": "CBT 超凡产品摄影",
       "category": "e-commerce",
       "tags": [
@@ -8068,7 +8109,7 @@
     },
     {
       "id": "cartoon_3d_tv_icon",
-      "code": "ST0169",
+      "code": "ST0137",
       "name": "3D卡通电视图标",
       "category": "creative",
       "tags": [
@@ -8121,7 +8162,7 @@
     },
     {
       "id": "candy_3d_wonderland",
-      "code": "ST0170",
+      "code": "ST0138",
       "name": "糖果梦幻 3D 派对海报",
       "category": "social_media",
       "tags": [
@@ -8171,7 +8212,7 @@
     },
     {
       "id": "bubble_card",
-      "code": "ST0171",
+      "code": "ST0139",
       "name": "泡泡卡片风",
       "category": "social_media",
       "tags": [
@@ -8218,7 +8259,7 @@
     },
     {
       "id": "brand_miniature_architecture",
-      "code": "ST0172",
+      "code": "ST0140",
       "name": "Brand Miniature Architecture Poster Style",
       "category": "e-commerce",
       "tags": [
@@ -8268,7 +8309,7 @@
     },
     {
       "id": "bold_monoline_mascot",
-      "code": "ST0173",
+      "code": "ST0148",
       "name": "Bold Monoline 品牌吉祥物插画",
       "category": "brand_kv",
       "tags": [
@@ -8314,7 +8355,7 @@
     },
     {
       "id": "bold_flow_typography_visual_experience",
-      "code": "ST0174",
+      "code": "ST0158",
       "name": "粗壮飘逸字体设计",
       "category": "typography",
       "tags": [
@@ -8354,7 +8395,7 @@
     },
     {
       "id": "blueprint_editorial_sketch",
-      "code": "ST0175",
+      "code": "ST0176",
       "name": "蓝图时尚素描大片",
       "category": "creative",
       "tags": [
@@ -8396,7 +8437,7 @@
     },
     {
       "id": "blue_white_line_arc_poster",
-      "code": "ST0176",
+      "code": "ST0177",
       "name": "蓝白线弧海报",
       "category": "creative",
       "tags": [
@@ -8442,7 +8483,7 @@
     },
     {
       "id": "bloomberg_magazine",
-      "code": "ST0177",
+      "code": "ST0141",
       "name": "bloomberg_magazine",
       "category": "science",
       "tags": [
@@ -8491,7 +8532,7 @@
     },
     {
       "id": "black_white_typographic_portrait",
-      "code": "ST0178",
+      "code": "ST0153",
       "name": "高对比黑白字体肖像",
       "category": "creative",
       "tags": [
@@ -8539,7 +8580,7 @@
     },
     {
       "id": "beverage_style",
-      "code": "ST0179",
+      "code": "ST0142",
       "name": "Multi-Color Beverage Splash Ad System Style",
       "category": "e-commerce",
       "tags": [
@@ -8580,7 +8621,7 @@
     },
     {
       "id": "avantgarde_bw_poster",
-      "code": "ST0180",
+      "code": "ST0143",
       "name": "avantgarde_bw_poster - 黑白灰先锋海报",
       "category": "brand_kv",
       "tags": [
@@ -8629,7 +8670,7 @@
     },
     {
       "id": "amber_cedar_perfume_poster",
-      "code": "ST0181",
+      "code": "ST0183",
       "name": "琥珀雪松",
       "category": "brand_kv",
       "tags": [
@@ -8670,7 +8711,7 @@
     },
     {
       "id": "3d_sports_event_poster",
-      "code": "ST0182",
+      "code": "ST0159",
       "name": "3D运动赛事海报",
       "category": "vigo_cookbook",
       "tags": [
