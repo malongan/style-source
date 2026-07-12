@@ -53,3 +53,4 @@
 | y3k_cool_girl_portrait | #Y3K #赛博朋克 #潮玩 |  | 9:21 |
 | crimson_marker_sketch | #马克笔 #手绘草图 #红色线条 #素描风 #照片转插画 | 头像、照片编辑、社交媒体配图、创意海报 | 1:1 |
 | scifi_artdeco_poster | #Art_Deco #科幻电影 #黑白海报 #复古海报 #noir #城市剪影 | 科幻电影海报、电影阵列、品牌KV、电影主题 | 16:9 |
+| magic_lamp_island | #微型世界 #浮岛 #纸雕 #水墨画 #旅行海报 #手工质感 | 品牌KV、旅行海报、概念艺术、创意海报 | 16:9 |

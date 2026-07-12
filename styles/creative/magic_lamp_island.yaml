@@ -1,0 +1,51 @@
+# 精灵神灯浮岛
+
+id: magic_lamp_island
+name: "精灵神灯浮岛"
+category: creative
+
+tags:
+  - 微型世界
+  - 浮岛
+  - 纸雕
+  - 水墨画
+  - 旅行海报
+  - 手工质感
+
+triggers:
+  - 精灵神灯
+  - 浮岛世界
+  - 微型景观
+  - 烟雾化浮岛
+  - 纸雕世界
+
+features:
+  - "神灯烟雾化浮岛 — 古董黄铜神灯的烟雾逐渐转化为浮岛式微缩景观，融合幻想与真实文化建筑"
+  - "纸雕大理石质感 — 前景呈现纸雕、雕刻石灰石、折纸几何、微型建筑模型的精细纹理"
+  - "东方水墨背景 — 背景晕染传统东方水墨山水画，水彩渐变、雾气山峦、远景海岸"
+  - "复古旅行海报 — 博物馆品质的复古旅行海报构图，温暖的羊皮纸纹理，充足留白"
+  - "暖色调奶油色系 — 主色调为暖象牙、羊皮纸白、砂岩、奶油色，限制性地域强调色"
+
+scene: "品牌KV、旅行海报、概念艺术、创意海报"
+ratio: "16:9"
+summary: "古董神灯烟雾化为微型浮岛世界，纸雕质感融合东方水墨画背景的复古旅行海报风格"
+
+prompt: |
+  Create an elegant, premium travel poster featuring a magical miniature world of {目的地/城市} emerging from the luminous smoke of an ornate antique brass magic lamp placed at the bottom right. The smoke gradually transforms into a floating island-like diorama carved from paper, stone, and marble, seamlessly blending fantasy with authentic cultural architecture.
+
+  The foreground should resemble an exquisite fusion of paper sculpture, carved limestone, folded origami geometry, miniature architectural models, and finely chiseled marble, with intricate textures, layered depth, tiny windows, winding staircases, terraces, courtyards, vegetation, boats, bridges, and architectural ornaments.
+
+  The background should dissolve into a traditional East Asian ink wash (sumi-e) landscape painted with delicate watercolor gradients, expressive ink brushstrokes, soft atmospheric perspective, mist-covered mountains, distant coastlines, rivers, islands, clouds, and subtle washes of monochromatic sepia and charcoal.
+
+  The overall color palette should be dominated by warm ivory, parchment white, sandstone, cream, limestone, beige, soft sepia, muted ochre, and light charcoal. Include a tiny lone traveler standing near the lamp, looking upward toward the floating world.
+
+  Use a refined, vintage travel poster composition with generous negative space on warm textured parchment paper. The floating diorama should occupy the upper two-thirds of the canvas.
+
+  Style Keywords: masterpiece, ultra-detailed, paper sculpture, carved marble, layered miniature architecture, origami textures, sumi-e ink wash, watercolor illustration, atmospheric perspective, parchment paper texture, magical realism, cinematic lighting, museum-quality illustration, luxury travel poster, whimsical world-building, highly intricate, elegant composition, 8K, editorial design, premium print quality.
+
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/Goodmanprotocol/status/2076167613919772879"
+source_author: "Goodmanprotocol"
+
+# 配图: images/styles_previews/magic_lamp_island_xxx.webp
