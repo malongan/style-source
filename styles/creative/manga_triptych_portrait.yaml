@@ -1,0 +1,40 @@
+# 三联漫画肖像
+
+id: manga_triptych_portrait
+name: "三联漫画肖像"
+category: creative
+
+tags:
+  - 三联画
+  - 漫画肖像
+  - 竖向三联
+  - 赛璐璐
+  - 日式插画
+  - 线条艺术
+
+triggers:
+  - 三联漫画
+  - 竖向三联画
+  - 漫画肖像
+  - 多面板人像
+
+features:
+  - "竖向三联构图 — 同一女孩的三联竖向面板肖像"
+  - "仅变配饰 — 发型、眼镜、姿势、表情、配饰不同，面孔相同"
+  - "粗线条漫画 — 干净利落的线条艺术"
+  - "柔和赛璐璐上色 — 扁平纯色背景，轻微颜色反射"
+  - "极简细节 — 极简风格，现代日本插画感"
+
+scene: "品牌KV、社交媒体头像、概念海报、创意人像"
+ratio: "3:4"
+summary: "同一女孩的三联竖向漫画肖像，仅发型/眼镜/配饰变化，干净线条+赛璐璐上色的日式现代插画风格"
+
+prompt: |
+  Three-panel anime/manga portrait of the same girl with an identical face in every panel. Only the hairstyle, glasses, pose, expression, and accessories change. Vertical triptych, close-up bust portraits, bold clean line art, soft cel shading, minimal details, monochrome color themes with flat solid backgrounds, subtle color reflections, elegant earrings, modern Japanese illustration, aesthetic poster design, high contrast, sharp features, premium editorial style, ultra-detailed, 4K, masterpiece.
+
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/MissDelulu9/status/2075903171743142115"
+source_author: "MissDelulu9"
+
+# 配图: images/styles_previews/manga_triptych_portrait_xxx.webp
