@@ -1,4 +1,4 @@
-共 186 个风格
+共 187 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -108,6 +108,7 @@ ST0105 | 麦肯锡风格 | https://malongan.github.io/style-source/images/styles
 ST0106 | 吉祥物IP风格 | https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp
 ST0107 | maple_story_avatar（冒险岛角色精灵转换） | https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.webp
 ST0108 | 芒果椰乳涂鸦饮料海报 | https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.webp
+ST0187 | 三联漫画肖像 | https://malongan.github.io/style-source/images/styles_previews/manga_triptych_portrait_2a1ce042.webp
 ST0186 | 精灵神灯浮岛 | https://malongan.github.io/style-source/images/styles_previews/magic_lamp_island_1b0590ad.webp
 ST0109 | 高级电商图 | https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.webp
 ST0110 | Quiet Luxury Furniture Nameplate Poster Style | https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.webp
