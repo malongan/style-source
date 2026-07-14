@@ -1,0 +1,38 @@
+# 低多边形等轴测车辆
+
+id: lowpoly_isometric_vehicle
+name: "低多边形等轴测车辆"
+category: creative
+
+tags:
+  - 低多边形
+  - 等轴测
+  - 游戏美术
+  - 3D渲染
+  - 复古现代
+
+triggers:
+  - 低多边形车辆
+  - 等轴测车模
+  - low poly车
+  - isometric车
+
+features:
+  - "**低多边形 3D 模型** — 几何化建模，面片感强，棱角分明但不粗糙"
+  - "**等轴测视角** — 45° 俯视角度，2.5D 立体感，无透视变形"
+  - "**2D 游戏美术风格** — 干净现代，参考经典等轴测游戏（如《纪念碑谷》《马车》）"
+  - "**柔和光照 + 浅色背景** — 光照均匀柔和，背景多为白色或浅色，主体突出"
+  - "**精细装饰纹理** — 整体低细节，但有真实的材质纹理点缀"
+
+scene: "品牌KV、社交媒体配图、游戏风格海报、玩具风视觉"
+ratio: "16:9"
+summary: "将流行文化车辆转化为低多边形等轴测 3D 模型，干净复古现代的游戏美术风格"
+
+prompt: |
+  3D low poly model of {pop_culture_vehicle}, isometric view, 2D game art style, light background, soft lighting, low detail, white background, intricate details and realistic textures
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/CharaspowerAI/status/2076728502087262510"
+source_author: "CharaspowerAI"
+
+# 配图: images/styles_previews/lowpoly_isometric_vehicle_xxx.webp
