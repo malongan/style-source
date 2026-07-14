@@ -9,3 +9,4 @@
 | minimalist_city_travel_poster | #旅行海报 #极简主义 #城市 |  | 9:16 / 3:4 / 16:9 |
 | style_travel | #VigoCookbook #clean #travel-vlog |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | wilderness_wind_poster | #插画 #海报 #草原 |  | 3:4 / 16:9 / 4:5 |
+| dubai_riso_travel_poster | #Risograph #荧光色 #旅行海报 #印刷质感 #迪拜 | 城市旅行海报、文化活动宣传、独立印刷品 | 3:4 |
