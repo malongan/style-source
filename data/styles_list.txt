@@ -1,4 +1,4 @@
-共 191 个风格
+共 192 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -117,6 +117,7 @@ ST0111 | 奢侈品牌刺绣微距 | https://malongan.github.io/style-source/imag
 ST0112 | Luxury Birthday Poster Style | https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp
 ST0113 | Luxury Beauty Campaign Side Profile Poster | https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp
 ST0189 | Lululemon 高端运动服 Campaign Board | https://malongan.github.io/style-source/images/styles_previews/lululemon_campaign_board_03608a1f.webp
+ST0192 | Lululemon 四联运动海报 | https://malongan.github.io/style-source/images/styles_previews/lululemon_4square_campaign_0d6a3efb.webp
 ST0191 | 低多边形等轴测车辆 | https://malongan.github.io/style-source/images/styles_previews/lowpoly_isometric_vehicle_5dc923ac.webp
 ST0114 | 青柠薄荷涂鸦手绘饮料海报 | https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp
 ST0115 | LAKERO 法餐点单海报 | https://malongan.github.io/style-source/images/styles_previews/lakero_fine_dining_menu_4a8b8795.webp
