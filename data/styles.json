@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-44-g04493ce-dirty",
-    "generated": "2026-07-14T00:58:34Z",
-    "total": 189,
+    "version": "v0.7.0-before-opt-45-g606735e-dirty",
+    "generated": "2026-07-14T01:07:58Z",
+    "total": 190,
     "categories": [
       "brand_kv",
       "creative",
@@ -7387,6 +7387,46 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "dubai_riso_travel_poster",
+      "code": "ST0190",
+      "name": "迪拜城市旅行海报 Risograph 风格",
+      "category": "travel",
+      "tags": [
+        "risograph",
+        "travel_poster",
+        "fluorescent_colors",
+        "editorial_layout",
+        "city_illustration"
+      ],
+      "triggers": [
+        "Risograph旅行海报",
+        "迪拜城市海报",
+        "荧光色海报",
+        "印刷质感海报",
+        "独立印刷海报"
+      ],
+      "scene": "城市旅行海报、文化活动宣传、独立印刷品、收藏级艺术海报",
+      "ratio": "3:4",
+      "summary": "以迪拜城市地标为主题的 Risograph 风格旅行海报，使用荧光色彩+半透明叠印+粗糙纸张肌理，呈现独立印刷品的现代文化感",
+      "features": [
+        "**Risograph 印刷质感** — 半调颗粒、不完美油墨设计、半透明叠色、粗糙纸张肌理",
+        "**荧光色彩系统** — 荧光粉、亮蓝、暖黄、橙红、叶绿、深钴蓝，白色纸张背景",
+        "**扁平图形+几何形状** — 简化城市插图、趣味几何元素、扁平图形构成",
+        "**编辑式构图** — 多层叠印、充满活力的排版、非对称但平衡的布局",
+        "**城市叙事性排版** — 粗体英文城市名作为主标题，城市描述作为副标题，底栏文字标注"
+      ],
+      "prompt": "Create a stylish modern travel poster inspired by risography about DUBAI.\n\nUse simplified illustrated images of the city: the Gwanganje Bridge, ocean waves, seagulls, beach umbrellas, fish baskets at the market, neon street signs and small abstract decorative figures.\n\nCreate a bold, multi-layered risographic poster with imperfect ink design, translucent colors printed on top, graininess in semitones, rough paper texture, flat graphic shapes, playful geometric shapes, and energetic editorial composition.\n\nUse fluorescent pink, bright blue, warm yellow, orange-red, leafy green, and rich cobalt blue on a white paper background.\n\nAdd bold font in English: Main title: \"DUBAI\" A subtitle describing the city. The text in the footer: \"ARTISTIC PRINTING · COASTAL STORIES · 2026\"\n\nThe design should be bright, cultural, modern, playful and collectable, like the original independent risographic poster for a local creative festival.\n\nAvoid copying any existing poster, artist's style, corporate identity, logo, mascot, copyrighted character, exact layout, or recognizable commercial design. Create an original composition inspired only by risographic printing technologies and modern independent poster design.\n\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/SimplyAnnisa/status/2076696471169315280",
+      "source_author": "Anissa",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_e89eedbb.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_e89eedbb.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_e89eedbb.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "dreamy_watercolor_travel",
