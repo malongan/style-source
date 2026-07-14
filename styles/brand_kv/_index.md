@@ -25,3 +25,4 @@
 | lakero_fine_dining_menu | #法餐 #菜单海报 #米其林 #主厨签名 #编辑风 | 高端餐厅品牌KV、菜单海报、美食广告 | 3:4 |
 | pop_up_storybook_poster | #立体书 #纸雕 #故事书 #Pop-Up #治愈系 | 品牌KV、电影海报、概念海报、绘本封面 | 3:4 |
 | amber_cedar_perfume_poster | #琥珀色 #雪松木 #高端香氛 #顶视平铺 | 高端品牌KV、奢侈品海报、香水广告 | 3:4 |
+| lululemon_campaign_board | #运动 #Campaign #粉紫 #Hyper-real #编辑排版 | 品牌KV、运动服Campaign、时尚海报、零售广告 | 9:16 |

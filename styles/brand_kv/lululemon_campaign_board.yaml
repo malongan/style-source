@@ -1,0 +1,62 @@
+# Lululemon 高端运动服 Campaign Board
+
+id: lululemon_campaign_board
+name: "Lululemon 高端运动服 Campaign Board"
+category: brand_kv
+
+tags:
+  - campaign_board
+  - athletic_fashion
+  - hyper_real
+  - editorial_layout
+  - lululemon_style
+
+triggers:
+  - Lululemon风格
+  - 运动品牌Campaign
+  - 高端健身服视觉
+  - 品牌活动KV
+  - 运动时尚排版
+
+features:
+  - "**1大+6小网格布局** — 一张大型横幅主视觉作为画面核心，下方排列六张小尺寸面板，整体呈编辑系统感"
+  - "**粉紫色调+炭黑底色** — 淡粉紫、薰衣草、象牙白、浆果色点缀，冷调高端运动感"
+  - "**Hyper-real 运动员** — 健康西方模特，真实解剖结构，时尚运动姿态，前卫动感"
+  - "**叙事性大字体排版** — LULULEMON / FORM LEADS FORCE 等大字与图形元素交织"
+  - "**手绘线条点缀** — 笔触下划线、动感曲线、符号图形与人物/文字互动"
+
+scene: "品牌KV设计、运动服Campaign、时尚海报、零售广告"
+ratio: "9:16"
+summary: "以大型横幅+六小面板网格构成的品牌Campaign板，粉紫色调搭配Hyper-real运动员，叙事性排版+手绘线条元素，呈现高端运动时尚的编辑感视觉"
+
+prompt: |
+  Create a high-end Lululemon Athletica campaign board with one large hero banner and six smaller supporting panels on a minimalist pure-color background.
+
+  Layout: Large horizontal hero banner dominates the upper section, six smaller panels arranged in a clean grid below. The composition feels organized, rhythmic, and premium like a complete seasonal campaign presentation.
+
+  Color system: cool pink-lilac, powder lavender, ivory white, deep charcoal black, with small controlled accents of soft berry or silver-gray. Clean, elevated, and contemporary.
+
+  Hero banner: A healthy Western female athletic model as the main campaign face with realistic anatomy, strong fit physique, modern facial structure, and poised editorial presence. Authentic Lululemon Athletica apparel rendered with premium realism. Large modern English typography interacts with the figure in a bold but elegant way.
+
+  Six supporting panels: Each tile shows a different supporting story through movement, product emphasis, or graphic narrative — stretching poses, crouching action, standing balance, footwear detail, motion-focused dynamic panel, and product-centric slogan panel. Each follows the same Lululemon visual family.
+
+  Typography: Large modern English words and phrases with refined hierarchy and editorial placement. Text directions: "LULULEMON", "ATHLETICA", "FORM LEADS FORCE", "MOTION HOLDS SHAPE", "MOVE WITH CLARITY", "STRUCTURE IN FLOW". Clean, contemporary, bold, and premium.
+
+  Hand-drawn narrative graphics: Refined hand-drawn text elements, brush underlines, motion curves, symbolic marks, calligraphic linework, and graphic loops integrated into the layout.
+
+  Background: Minimal pure-color or soft gradient-flat background, highly structured and contemporary. No realistic scenery or busy environment.
+
+  Lighting: Bright premium editorial lighting across the entire board. Each figure and product feels hyper-real, crisp, and premium against clean color fields.
+
+  Mood: structured, premium, athletic, fashion-forward, contemporary, graphic, editorial, youthful, disciplined, high-impact, polished, intelligently designed.
+
+  Rendering style: hyper-real Lululemon Athletica campaign board, one large hero banner plus six smaller panels, minimalist pure-color background system, expressive narrative typography, hand-drawn storytelling graphics, cool pink-lilac and ivory palette, premium sportswear realism, avant-garde fashion-sport editorial, 8k, world-class campaign quality.
+
+  Negative prompt: messy collage, inconsistent layout, weak hierarchy, cluttered background, cheap fitness ad, distorted anatomy, broken limbs, bad hands, extra fingers, twisted joints, influencer look, generic sportswear, low-detail fabric, cartoon doodles, chaotic grid, muddy colors, blurry shoes, dirty shadows, black blotches.
+
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/ou_zhen599/status/2076585709645992023"
+source_author: "Loriel.AI"
+
+# 配图: images/styles_previews/lululemon_campaign_board_03608a1f.webp
