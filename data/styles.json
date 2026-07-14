@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-52-g5b0bb68-dirty",
-    "generated": "2026-07-14T03:18:31Z",
-    "total": 200,
+    "version": "v0.7.0-before-opt-54-ga841637-dirty",
+    "generated": "2026-07-14T04:28:55Z",
+    "total": 201,
     "categories": [
       "brand_kv",
       "creative",
@@ -8660,6 +8660,45 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "charcoal_sketch",
+      "code": "ST0201",
+      "name": "炭笔素描风格",
+      "category": "creative",
+      "tags": [
+        "炭笔素描",
+        "炭画",
+        "素描",
+        "速写",
+        "艺术质感"
+      ],
+      "triggers": [
+        "炭笔素描",
+        "charcoal sketch",
+        "炭画速写",
+        "粗犷素描"
+      ],
+      "scene": "人物肖像、艺术创作、插画、文学配图、展览海报",
+      "ratio": "3:4",
+      "summary": "炭笔素描风格，粗犷线条+涂抹背景，高对比灰黑调，手绘纸张质感",
+      "features": [
+        "**炭笔粗犷线条** — 深沉炭黑线条勾勒主体，笔触自信有力，不修边幅",
+        "**肌理感涂抹过渡** — 背景充满涂抹渐变和素描纸痕迹，层次丰富",
+        "**高对比灰黑调** — 强烈明暗对比，炭粉堆积营造立体感",
+        "**粗粝氛围感** — gritty、未经打磨的优雅，有别于数字绘画的精致感",
+        "**素描纸质感** — 纸纹、炭粉飞白、边缘磨损，真实手绘质感"
+      ],
+      "prompt": "A charcoal sketch of a {subject}, raw and textured with expressive shading and bold linework. The background is filled with smudged gradients and sketchbook marks, giving it a gritty, unrefined elegance.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/azed_ai/status/2076623195386601657",
+      "source_author": "azed_ai",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlxiua.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "character_design_archive",
