@@ -1,0 +1,38 @@
+# 炭笔素描风格
+
+id: charcoal_sketch
+name: "炭笔素描风格"
+category: creative
+
+tags:
+  - 炭笔素描
+  - 炭画
+  - 素描
+  - 速写
+  - 艺术质感
+
+triggers:
+  - 炭笔素描
+  - charcoal sketch
+  - 炭画速写
+  - 粗犷素描
+
+features:
+  - "**炭笔粗犷线条** — 深沉炭黑线条勾勒主体，笔触自信有力，不修边幅"
+  - "**肌理感涂抹过渡** — 背景充满涂抹渐变和素描纸痕迹，层次丰富"
+  - "**高对比灰黑调** — 强烈明暗对比，炭粉堆积营造立体感"
+  - "**粗粝氛围感** — gritty、未经打磨的优雅，有别于数字绘画的精致感"
+  - "**素描纸质感** — 纸纹、炭粉飞白、边缘磨损，真实手绘质感"
+
+scene: "人物肖像、艺术创作、插画、文学配图、展览海报"
+ratio: "3:4"
+summary: "炭笔素描风格，粗犷线条+涂抹背景，高对比灰黑调，手绘纸张质感"
+
+prompt: |
+  A charcoal sketch of a {subject}, raw and textured with expressive shading and bold linework. The background is filled with smudged gradients and sketchbook marks, giving it a gritty, unrefined elegance.
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/azed_ai/status/2076623195386601657"
+source_author: "azed_ai"
+
+# 配图: images/styles_previews/charcoal_sketch_HNGlxiua.webp
