@@ -1,0 +1,38 @@
+# Frostline Archive 冬日档案海报
+
+id: frostline_archive_arctic_poster
+name: "Frostline Archive 冬日档案海报"
+category: creative
+
+tags:
+  - 冬日档案
+  - 铬狼头骨
+  - 青色技术线
+  - 冷调
+  - 北欧感
+
+triggers:
+  - Frostline Archive冬日档案
+  - 铬狼头骨海报
+  - 青色技术线
+  - arctic archive poster
+
+features:
+  - "**铬狼头骨焦点** —  glossy chrome liquid-metal 狼头骨，颚微张，表面反射深紫、翡翠、金色虹彩光泽"
+  - "**青色技术线覆盖层** — 雷达同心圆、虚线椭圆轨道、数据框（MASS: UNKNOWN / ORIGIN: UNLOGGED）"
+  - "**档案感文字系统** — 'Winter Findings / Catalog Entry 07'、'FROSTLINE ARCHIVE' 品牌字"
+  - "**大号青色显示文字** — 左下 'What Grows / In The Dark / Still Grows'，冷调诗意档案感"
+  - "**坐标数据** — 右下 '64.1284° N / 21.9426° W' + 'RECOVERED, NOT EXPLAINED'"
+
+scene: "档案海报、科考展览、品牌KV、概念设计、北欧感品牌"
+ratio: "3:4"
+summary: "冬日档案风格海报，铬狼头骨焦点+青色技术线条，冷调北极档案感"
+
+prompt: |
+  Poster, pure black background with subtle film grain. Central image: a glossy chrome liquid-metal sculpture shaped like a large wolf skull, jaw slightly open, surface reflecting deep violet, emerald, and gold light in oily iridescent streaks, sharp specular highlights along the curved cranium and teeth. Thin neon cyan technical line-art overlays the skull: a small radar-style concentric circle diagram anchored to one eye socket, a dashed elliptical orbit path sweeping across the composition, and a tiny data box reading 'MASS: UNKNOWN / ORIGIN: UNLOGGED / STATUS: DORMANT'. Top-left small cyan caption text: 'Winter Findings / Catalog Entry 07'. Top-right a bordered rectangle icon strip with a moon, a snowflake, and an arrow, followed by a small boxed wordmark 'FROSTLINE ARCHIVE'. Bottom-left large cyan display text stacked: 'What Grows / In The Dark / Still Grows'. Bottom-right small white coordinate readout: '64.1284° N / 21.9426° W' above a short line 'RECOVERED, NOT EXPLAINED'. Deep black background, single glossy chrome sculptural centerpiece, cold cyan technical accents, quiet arctic-mystery mood.
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/recraftai/status/2076685043632583099"
+source_author: "Recraft"
+
+# 配图: images/styles_previews/frostline_archive_arctic_poster_xxx.webp

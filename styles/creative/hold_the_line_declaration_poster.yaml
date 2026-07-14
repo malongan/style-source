@@ -1,0 +1,38 @@
+# Hold The Line 宣言海报
+
+id: hold_the_line_declaration_poster
+name: "Hold The Line 宣言海报"
+category: creative
+
+tags:
+  - 宣言海报
+  - 铬裂纹茶杯
+  - 居中排版
+  - 编辑感
+  - 黑色高对比
+
+triggers:
+  - Hold The Line宣言
+  - 铬裂纹茶杯海报
+  - 居中宣言式排版
+  - declaration poster chrome
+
+features:
+  - "**居中宣言式排版** — 顶部细线排列「PATIENCE IS NOT A DELAY IT'S A DECISION」，主标题「HOLD / the / LINE.」"
+  - "**铬裂纹茶杯焦点** — 居中 glossy iridescent chrome 裂纹茶杯，湿漉漉的液金属质感，缠有细银链"
+  - "**高对比纯黑背景** — 黑色背景，细白orbital弧线如轨道般环绕茶杯，干净利落"
+  - "**镜像重复文字块** — 左右镜像重复的 body text，品牌感/编辑感强"
+  - "**条码与坐标点缀** — 右下角条码图形+数字串，RIO/MDW/2100 HRS 等碎片信息"
+
+scene: "宣言海报、品牌KV、社交媒体图文、编辑出版"
+ratio: "3:4"
+summary: "居中宣言式排版海报，铬裂纹茶杯焦点+银链，高对比纯黑背景+白色轨道弧线"
+
+prompt: |
+  Poster, pure black background with fine grain. At the top, a thin horizontal line spans the width with small tracking-spaced white words placed along it: 'PATIENCE / IS / NOT / A / DELAY / IT'S / A / DECISION'. Below, a large headline mixing bold white sans-serif with a connecting cursive script: 'HOLD' in heavy block letters, followed by a flowing italic script 'the' looping beneath it, then 'LINE.' in bold block letters again, with a small red square period accent. Center-left and center-right, mirrored duplicate body text blocks reading: 'You are still building something, even on the days it doesn't look like progress. Hold the line.' Below the headline, a glossy iridescent chrome object — a cracked porcelain teacup rendered in liquid-metal chrome with rainbow highlights, wrapped loosely in a thin silver chain, sitting on a reflective dark surface. Thin white orbital lines arc behind the object like orbit paths. Left-side stacked white text fragments, slightly cut off as if cropped: 'RIO, / MDW', '2100 / HRS', 'HOLD / LINE'. Bottom-right corner: a small barcode graphic with a number string beneath it. Clean grid alignment, high-contrast black background, single glossy chrome object as focal point.
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/recraftai/status/2076685043632583099"
+source_author: "Recraft"
+
+# 配图: images/styles_previews/hold_the_line_declaration_poster_xxx.webp
