@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-47-g2f93330-dirty",
-    "generated": "2026-07-14T01:31:21Z",
-    "total": 192,
+    "version": "v0.7.0-before-opt-48-g5cbb382-dirty",
+    "generated": "2026-07-14T01:43:28Z",
+    "total": 196,
     "categories": [
       "brand_kv",
       "creative",
@@ -4905,6 +4905,45 @@
       "created_at": ""
     },
     {
+      "id": "osmanthus_tea_seasonal_poster",
+      "code": "ST0193",
+      "name": "桂花鲜奶茶季节限定海报",
+      "category": "e-commerce",
+      "tags": [
+        "现代极简",
+        "季节限定",
+        "暖色调",
+        "饮品海报",
+        "平面排版"
+      ],
+      "triggers": [
+        "桂花鲜奶茶海报",
+        "季节限定饮品",
+        "暖调饮品海报",
+        "seasonal drink poster"
+      ],
+      "scene": "季节限定饮品宣传海报、门店促销海报、电商Banner、社交媒体图文",
+      "ratio": "3:4",
+      "summary": "现代极简桂花鲜奶茶季节限定海报，暖橙+奶油白+深茶棕配色，中央直立饮品杯+环形桂花焦点+顶部横向标题区",
+      "features": [
+        "**现代极简平面排版系统** — 大面积纯净高饱和单色空间基调，搭配极简高对比度结构色",
+        "**主题色从文化符号提取** — 保留大面积纯净、高饱和度的单色作为空间基调",
+        "**强烈正负形张力** — 主题内容被转化为具有空间穿透力的主视觉图形，与大面积留白形成强烈对比",
+        "**精确节奏分布** — 文本与附加信息层作为画面骨架，与主图形产生空间咬合、叠压或指引",
+        "**干净利落质感** — 锐利边缘线、平整通透色彩区块、现代秩序感的视觉爆发力"
+      ],
+      "prompt": "围绕任意主题对象生成。画面采用现代极简且极具视觉张力的平面设计排版系统。色彩从主题自身的文化符号与核心情绪中提取，保留大面积纯净、高饱和度的单色作为空间基调，搭配极简的高对比度结构色（如极黑、纯白或清晰的对比色）完成画面切割与信息层级构建，确保整体色调明亮、纯粹、充满生命力，彻底摒弃做旧、灰浊或杂乱的环境光影。主题内容被转化为具有空间穿透力的主视觉图形，占据画面的核心焦点，并与大面积留白的纯色背景形成强烈的正负形张力。文本与附加信息层作为画面的骨架，以精确的节奏分布，与主图形产生空间上的咬合、叠压或指引关系。整体质感保持干净利落的边缘线、平整通透的色彩区块以及极具现代秩序感的视觉爆发力。\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2076691107057135701",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_2ef3946f.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_62325aac.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_62325aac.thumb.webp",
+      "created_at": ""
+    },
+    {
       "id": "oriental_mural_exhibition_poster",
       "code": "ST0100",
       "name": "东方古代壁画展览海报",
@@ -4943,6 +4982,45 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/oriental_mural_exhibition_poster_6f8157ee.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/oriental_mural_exhibition_poster_6f8157ee.thumb.webp",
       "created_at": "2026-06-30T22:35:31+08:00"
+    },
+    {
+      "id": "oriental_fantasy_travel_cover",
+      "code": "ST0194",
+      "name": "东方幻想游记封面",
+      "category": "print",
+      "tags": [
+        "现代东方",
+        "秩序感排版",
+        "暖色调",
+        "游记封面",
+        "矢量质感"
+      ],
+      "triggers": [
+        "东方幻想游记封面",
+        "现代排版质感海报",
+        "游记封面设计",
+        "oriental editorial poster"
+      ],
+      "scene": "东方幻想游记封面、书籍装帧、文化主题海报、品牌KV",
+      "ratio": "3:4",
+      "summary": "高度秩序感的现代东方游记封面，暖色主调（朱砂橙+奶油白+鎏金），斜向祥云路径+四角神兽群像+侧边竖排标题",
+      "features": [
+        "**高度秩序感平面设计** — 摒弃纵深，绝对平整的大面积平铺色彩作为背景基底",
+        "**严谨版式工程主导** — 放大图形感主题字体/核心信息符号，清晰锐利边缘",
+        "**网格信息系统** — 极细几何线框（圆角矩形、直线分割）精准收纳次级文字、数字标签、微缩点缀",
+        "**精致强调色系统** — 极细边框、微型图标、印章式点缀与主对比色文字形成质感层次",
+        "**矢量图形般锐利** — 大面积纯色留白与密集线框文字块产生强烈的图文疏密张力"
+      ],
+      "prompt": "围绕具体主题内容生成一张具备高度秩序感的现代平面视觉设计。画面完全摒弃真实物理空间的纵深，采用绝对平整、纯粹的大面积平铺色彩作为背景基底。色彩从主题的情绪与文化属性中提取，保留大面积明亮高饱和底色、高对比度信息色以及少量精致强调色的系统关系，使整体画面保持清透、干净且极具视觉冲击力，拒绝任何灰暗、浑浊的渐变或杂质。视觉重心由严谨的版式工程主导。画面中放置放大且极具图形感的主题字体或核心信息符号，呈现出清晰锐利的边缘。四周的次级说明文字、数字标签与微缩点缀图形，被极细的几何线框（如圆角矩形、直线分割）精准收纳与隔离。文字与线框形成秩序井然的网格信息系统。少量强调色仅用于极细的边框、微型图标或印章式点缀，与主对比色的文字形成细腻的质感层次。整体气质明亮、精确且具有现代仪式感。大面积纯色留白与密集的线框文字块产生强烈的图文疏密张力。确保最终呈现出如同矢量图形般锐利、工整且高级的现代排版质感。\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2076691107057135701",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/oriental_fantasy_travel_cover_2ef3946f.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/oriental_fantasy_travel_cover_3fc4169b.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/oriental_fantasy_travel_cover_3fc4169b.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "object_illustration_combo",
@@ -5090,6 +5168,45 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "modern_eastern_school_anniversary",
+      "code": "ST0195",
+      "name": "现代东方校庆纪念海报",
+      "category": "print",
+      "tags": [
+        "现代东方",
+        "极简结构美学",
+        "红色系",
+        "校庆",
+        "高纯度色彩"
+      ],
+      "triggers": [
+        "现代东方校庆",
+        "红色系纪念海报",
+        "东方极简海报",
+        "Chinese red poster"
+      ],
+      "scene": "校庆纪念主海报、品牌KV、文化活动海报",
+      "ratio": "16:9",
+      "summary": "现代东方极简校庆海报，中国红+暖金+象牙白配色，超大周年数字居中+红绸前景承托+白鸽环绕",
+      "features": [
+        "**现代东方极简结构美学** — 大面积纯粹色块或极具张力的背景铺陈构建画面秩序",
+        "**高明度高饱和中国红** — 以中国红及其同类色作为核心视觉载体，拒绝脏污、做旧、灰暗",
+        "**强烈图底关系** — 主题对象位于视觉焦点，边缘轮廓清晰，与背景形成极致对比",
+        "**纯净负空间** — 暖白或纸白大面积留白，与热烈红色形成极致对比",
+        "**精确骨架信息层** — 深色作为信息层、线条或锚点，现代印章/细致网格排布嵌入空间"
+      ],
+      "prompt": "围绕具体主题内容生成。画面采用现代东方极简的结构美学，将高明度、高饱和的\"中国红\"及其同类色作为核心视觉载体，通过大面积的纯粹色块或极具张力的背景铺陈来构建画面秩序。主题对象位于视觉焦点，边缘轮廓清晰，与背景形成强烈的图底关系。色彩系统保持极高的洁净度与清透感，让热烈有力的红色与充足的纯净负空间（如暖白或纸白）形成极致对比，拒绝任何脏污、做旧、灰暗或浑浊的滤镜感。画面中辅以深色（如纯黑）作为信息层、线条或锚点，承担骨架作用。若有抽象符号或排版元素，需以精致、克制的形式（类似现代印章或细致网格排布）嵌入空间，强化整体的仪式感。最终视觉气质兼顾东方庄严与现代主义的精确利落，呈现出明亮、清爽、充满生命力的高级感。\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2076691107057135701",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_2e46c006.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_5a9f649d.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_5a9f649d.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "minimalist_city_travel_poster",
@@ -7964,6 +8081,45 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "cultural_worker_anniversary_poster",
+      "code": "ST0196",
+      "name": "文化工作者大会周年纪念海报",
+      "category": "print",
+      "tags": [
+        "现代东方",
+        "极简仪式感",
+        "冷色调",
+        "周年纪念",
+        "网格排版"
+      ],
+      "triggers": [
+        "文化工作者周年",
+        "深海蓝纪念海报",
+        "极简仪式感海报",
+        "cultural anniversary poster"
+      ],
+      "scene": "文化机构周年纪念海报、严肃主题纪念、品牌KV、学术活动海报",
+      "ratio": "16:9",
+      "summary": "文化工作者大会周年纪念海报，冷调配色（深海蓝+银灰白+电光青），偏右巨型周年数字+左侧纵向年份轴+边缘嘉宾名单",
+      "features": [
+        "**现代东方极简美学** — 极简而充满仪式感的空间张力，大面积纯色留白制造视觉呼吸感",
+        "**主题偏心布局** — 摒弃居中填满式构图，主体可能被边缘切割、局部放大或以雕塑感置于偏心位置",
+        "**高纯度色彩+极致克制** — 浓烈主题色大面积覆盖底色，与主体形成极高对比（如黑、白或互补色）",
+        "**哑光质感+精密几何线条** — 主题表面干净硬朗或哑光质感，融入精确几何线条作为骨架",
+        "**现代主义海报排版** — 信息沿画面边缘或隐藏网格线精确对齐，文字作为精密结构线"
+      ],
+      "prompt": "围绕任意主题对象或具体内容生成，画面以极具视觉冲击力的现代东方美学为核心，呈现一种极简而充满仪式感的空间张力。构图与主体位置：摒弃传统的居中填满式构图，采用大面积的纯色留白（负空间）来制造视觉呼吸感和空间悬念。主题对象不作为填满画面的元素，而是被处理为精炼的视觉焦点，可能被边缘切割、局部放大或以极具雕塑感的形式置于画面的偏心位置。背景绝对干净，没有多余的场景铺陈，通过极致的留白反衬主体的形态张力。主体边缘清晰锐利，与背景形成绝对的剥离感。色彩系统与情绪：色彩呈现出\"高纯度与极致克制\"的矛盾统一，情绪上具有强烈的\"现代仪式感、庄重与极简张力\"。底色被一种强烈的、高纯度且无杂质的主题色大面积覆盖，底色必须平整、均匀或带有极微弱的高级肌理，保持干净，拒绝浑浊。主体色从其自身材质提取，与底色形成极高对比。保留极少量的金属质感色彩或极高明度亮色作为点缀。色彩系统必须保持清透、鲜锐和现代感，不发灰、不老旧。图形机制与材质肌理：主题对象无论原本是何种物质，均需表现出一种被精心提炼过的\"现成品艺术\"或\"高级设计品\"质感。表面光影处理干净、硬朗或带有细腻的哑光质感。画面中可融入极为纤细、精确的几何线条或抽象的切分结构，作为承载视觉重心的骨架。排版与信息层叠：文字被视为重要的图形构成要素。排版呈现典型的现代主义海报风格：信息沿着画面边缘或依托隐藏的网格线进行精确对齐，字间距克制。文字作为精密的结构线，与大面积留白形成极强的疏密对比。\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2076691107057135701",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/cultural_worker_anniversary_poster_2ef3946f.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cultural_worker_anniversary_poster_2ef3946f.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cultural_worker_anniversary_poster_2ef3946f.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "crimson_marker_sketch",

@@ -15,3 +15,6 @@
 | typography | #字体 #标题 #排版 |  | 按需求（常见 9:16 或 16:9） |
 || futuristic_editorial_poster | #未来感 #编辑海报 #杂志排版 #人物侧脸 | 品牌KV、艺术海报、杂志封面、社交媒体分享 | 4:5 |
 | riso_travel_poster | #孔版画 #旅行海报 #独立印刷 | 品牌KV、旅行海报、独立艺术品 | 3:4 |
+| modern_eastern_school_anniversary | #现代东方 #极简结构美学 #红色系 #校庆 #高纯度色彩 | 校庆纪念主海报、品牌KV、文化活动海报 | 16:9 |
+| oriental_fantasy_travel_cover | #现代东方 #秩序感排版 #暖色调 #游记封面 #矢量质感 | 东方幻想游记封面、书籍装帧、文化主题海报、品牌KV | 3:4 |
+| cultural_worker_anniversary_poster | #现代东方 #极简仪式感 #冷色调 #周年纪念 #网格排版 | 文化机构周年纪念海报、严肃主题纪念、品牌KV、学术活动海报 | 16:9 |
