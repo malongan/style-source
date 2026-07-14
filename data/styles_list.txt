@@ -100,13 +100,13 @@ ST0096 | 香水主视觉海报 | https://malongan.github.io/style-source/images/
 ST0097 | 钢笔点线技法·桃子 | https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp
 ST0098 | 粉彩产品棚拍 | https://malongan.github.io/style-source/images/styles_previews/pastel_product_studio_c3069620.webp
 ST0099 | 蛋挞手绘美食海报 | https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.webp
-ST0193 | 桂花鲜奶茶季节限定海报 | https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_2ef3946f.webp
+ST0193 | 桂花鲜奶茶季节限定海报 | https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_c03d2bb2.webp
 ST0100 | 东方古代壁画展览海报 | https://malongan.github.io/style-source/images/styles_previews/oriental_mural_exhibition_poster_6f8157ee.webp
-ST0194 | 东方幻想游记封面 | https://malongan.github.io/style-source/images/styles_previews/oriental_fantasy_travel_cover_2ef3946f.webp
+ST0194 | 东方幻想游记封面 | https://malongan.github.io/style-source/images/styles_previews/oriental_fantasy_travel_cover_309781f1.webp
 ST0101 | Object Illustration Combo - 真实物体插画融合 | https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp
 ST0102 | 新年礼盒 | https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp
 ST0103 | 莫比乌斯海底珊瑚邮局 | https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp
-ST0195 | 现代东方校庆纪念海报 | https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_2e46c006.webp
+ST0195 | 现代东方校庆纪念海报 | https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.webp
 ST0104 | Minimalist City Travel Poster | https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.webp
 ST0105 | 麦肯锡风格 | https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp
 ST0106 | 吉祥物IP风格 | https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp
@@ -120,7 +120,7 @@ ST0111 | 奢侈品牌刺绣微距 | https://malongan.github.io/style-source/imag
 ST0112 | Luxury Birthday Poster Style | https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp
 ST0113 | Luxury Beauty Campaign Side Profile Poster | https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp
 ST0189 | Lululemon 高端运动服 Campaign Board | https://malongan.github.io/style-source/images/styles_previews/lululemon_campaign_board_03608a1f.webp
-ST0192 | Lululemon 四联运动海报 | https://malongan.github.io/style-source/images/styles_previews/lululemon_4square_campaign_0d6a3efb.webp
+ST0192 | Lululemon 四联运动海报 | https://malongan.github.io/style-source/images/styles_previews/lululemon_4square_campaign_a3eea795.webp
 ST0191 | 低多边形等轴测车辆 | https://malongan.github.io/style-source/images/styles_previews/lowpoly_isometric_vehicle_5dc923ac.webp
 ST0114 | 青柠薄荷涂鸦手绘饮料海报 | https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp
 ST0115 | LAKERO 法餐点单海报 | https://malongan.github.io/style-source/images/styles_previews/lakero_fine_dining_menu_4a8b8795.webp
@@ -169,7 +169,7 @@ ST0156 | 弥散风视觉海报 | https://malongan.github.io/style-source/images/
 ST0157 | 妖魔孙悟空线绘 | https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.webp
 ST0158 | 暗黑国风奇幻插画 | https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp
 ST0159 | 赛博朋克半调海报 | https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp
-ST0196 | 文化工作者大会周年纪念海报 | https://malongan.github.io/style-source/images/styles_previews/cultural_worker_anniversary_poster_2ef3946f.webp
+ST0196 | 文化工作者大会周年纪念海报 | https://malongan.github.io/style-source/images/styles_previews/cultural_worker_anniversary_poster_9f5caad3.webp
 ST0160 | 红色马克笔草图 | https://malongan.github.io/style-source/images/styles_previews/crimson_marker_sketch_15b0d804.webp
 ST0161 | 温馨故事书咖啡馆 | https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.webp
 ST0162 | 构成主义建筑海报 | https://malongan.github.io/style-source/images/styles_previews/constructivist_architecture_poster_72855380.webp
