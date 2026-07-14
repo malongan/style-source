@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "54b42d7-dirty",
-    "generated": "2026-07-12T10:50:17Z",
-    "total": 187,
+    "version": "v0.7.0-before-opt-43-gf0b2a12-dirty",
+    "generated": "2026-07-14T00:46:18Z",
+    "total": 188,
     "categories": [
       "brand_kv",
       "creative",
@@ -4443,6 +4443,49 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "premium_graphite_portrait",
+      "code": "ST0188",
+      "name": "当代高端石墨肖像插画",
+      "category": "creative",
+      "tags": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "triggers": [
+        "高端石墨肖像",
+        "素描插画风",
+        "石墨手绘风",
+        "精致肖像插画",
+        "混合媒体肖像",
+        "博物馆级插画"
+      ],
+      "scene": "高端品牌KV、编辑插画、概念艺术海报、人物肖像、杂志配图",
+      "ratio": "3:4 或 2:3",
+      "summary": "融合石墨素描现实主义与高端数字绘画的当代肖像插画，精致的结构线与松散笔触并存，呈现博物馆级混合媒体质感",
+      "features": [
+        "石墨素描质感 — 精致的结构线、松散的探索性铅笔笔触、柔和的交叉排线，保留细腻的手绘痕迹",
+        "雕塑感面容 — 光滑雕塑般的面部解剖结构，结合半写实动漫风格影响",
+        "瓷肌肤与光影 — 发光的瓷肌肤质感，丝绸般体积感阴影，电影感柔光",
+        "绸缎发丝渲染 — 头发以流畅的独立发丝呈现，结合素描手势与奢华绸缎高光",
+        "极简抽象背景 — 简洁的几何笔触、柔和的角度形状、层叠半透明涂料",
+        "柔和单色调色板 — 冷蓝灰、象牙色、柔和木炭色、暖米白，中性色调"
+      ],
+      "prompt": "Masterfully handcrafted contemporary portrait illustration blending refined graphite sketch realism with ultra-premium painterly digital art. Delicate construction lines, loose exploratory pencil strokes, soft cross-hatching, and expressive sketch marks remain subtly visible beneath highly refined rendering. Smooth sculpted facial anatomy with elegant semi-realistic anime influence, luminous porcelain skin, silky volumetric shading, and cinematic soft lighting. Hair rendered with flowing individual strands, combining sketch-like gesture with luxurious satin highlights and subtle reflective sheen. Painterly brushwork merges seamlessly with crisp draftsmanship, balancing unfinished artistic spontaneity and polished realism. Minimalist abstract background composed of clean geometric brushstrokes, soft angular shapes, layered translucent paint, and subtle metallic-inspired accent strokes. Muted monochromatic palette with cool blue-gray, ivory, soft charcoal, warm off-white, and gentle neutral tones. Sophisticated editorial illustration aesthetic, museum-quality mixed-media finish, refined negative space, elegant composition, premium concept-art craftsmanship, handcrafted rather than photographic, ultra-detailed, timeless, atmospheric, and emotionally understated.\n\n不要水印，不要真实Logo，不要电商广告感，不要乱码。\n",
+      "variables": {},
+      "source_url": "https://x.com/HustleXR/status/2076531542923653200",
+      "source_author": "HustleXR",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "pop_up_storybook_poster",
