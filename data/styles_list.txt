@@ -1,4 +1,4 @@
-共 201 个风格
+共 202 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -144,6 +144,7 @@ ST0129 | 手绘旅行涂鸦插画 | https://malongan.github.io/style-source/imag
 ST0130 | 半色调拼贴隐喻公益海报 | https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp
 ST0131 | Grotesque Doodle Style - 怪诞手绘风插画 | https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.webp
 ST0132 | GPT Image 2 Playful Doodle Illustration | https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp
+ST0202 | GPT2 图形拼贴风格 | https://malongan.github.io/style-source/images/styles_previews/gpt2_graphic_collage_HNHdIdYb.webp
 ST0133 | 像素拉伸故障人像 | https://malongan.github.io/style-source/images/styles_previews/glitchy_pixel_stretch_portrait_682dc93e.webp
 ST0134 | 玻璃花卉春日日记插画 | https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.webp
 ST0135 | 极客代码海报 | https://malongan.github.io/style-source/images/styles_previews/geek_code_poster_f7da4b88.webp

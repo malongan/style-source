@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-54-ga841637-dirty",
-    "generated": "2026-07-14T04:28:55Z",
-    "total": 201,
+    "version": "v0.7.0-before-opt-56-g5c9a111-dirty",
+    "generated": "2026-07-14T05:24:48Z",
+    "total": 202,
     "categories": [
       "brand_kv",
       "creative",
@@ -6874,6 +6874,46 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "gpt2_graphic_collage",
+      "code": "ST0202",
+      "name": "GPT2 图形拼贴风格",
+      "category": "social_media",
+      "tags": [
+        "图形拼贴",
+        "拼贴",
+        "手绘描边",
+        "个性排版",
+        "商业海报"
+      ],
+      "triggers": [
+        "GPT2图形拼贴",
+        "图形拼贴风格",
+        "手绘描边海报",
+        "graphic collage"
+      ],
+      "scene": "商业海报、电商主图、社媒图文、产品详情页、品牌KV",
+      "ratio": "16:9",
+      "summary": "图形拼贴风格，粗硬手绘描边+信息层压文字+主题派生强对比色，高饱和商业海报",
+      "features": [
+        "**粗硬手绘描边** — 主体外缘形成粗硬手绘轮描线，非规整路径，有即兴感",
+        "**黑白影像质感** — 主体以近距离开静黑白影像质感占据画面核心，高反差",
+        "**信息层压文字** — 粗重无衬线文字、倒置文字、侧向小字号栏、日期式编号、碎片化排版，制造视觉压力",
+        "**主题派生强对比色** — 高饱和强对比色从主体材质/情绪/文化符号中提取，点缀在局部",
+        "**不对称拥压构图** — 不对称拥压感+留白冲破，阅读路径被主形→大字→手绘线条→边缘信息依次引导",
+        "**真实肌理** — 表面保留真实明暗、衣料或材质纹理、颗粒与网点半调"
+      ],
+      "prompt": "围绕任意主题对象生成一张强图形拼贴视觉：主体以近距离、正面、冷静的黑白影像质感占据画面核心，边缘有清晰裁切与局部遮挡，表面保留真实明暗、衣料或材质纹理、颗粒与网点半调，使主体既像摄影又被印刷系统重新压扁。背景保持大面积高亮度干净底场，信息层以巨大的粗重无衬线文字、倒置文字、侧向小字号栏、日期式编号和碎片化排版形成压力，文字不承接具体语义，而作为视觉重量、节拍和遮罩层；部分超大文字从边缘切入并压过主体，部分信息被主体吞掉，只留下可读与不可读之间的速度感。加入一条主题派生的高饱和强对比色作为结构性干预，沿主体外缘形成粗硬手绘轮描、圈选线和局部涂抹，并让同一强对比色在大字、边栏和角落信息中重复出现，制造干净、直接、街头海报冲击力的情绪。色彩从主体自身的材质、情绪或文化符号中提取：底场保持明亮清透，主体与阴影承接黑白高反差结构，强对比色只占少量但饱满、边界清晰、位置果断，信息文字与网点纹理服从同一色阶关系，整体保持高亮度、冷静精确、干净而有攻击性的视觉气质。构图要有不对称拥压感和留白冲突，阅读路径先被核心主形抓住，再被超大文字和手绘线条打断，最后落到边缘细节；避免柔美插画化、复古脏污化或普通杂质封面化。\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2076684567088693749",
+      "source_author": "xiaoxiaodong01",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/gpt2_graphic_collage_HNHdIdYb.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/gpt2_graphic_collage_HNHdIdYb.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/gpt2_graphic_collage_HNHdIdYb.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "glitchy_pixel_stretch_portrait",
