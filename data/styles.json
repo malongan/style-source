@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-46-gcebbf95-dirty",
-    "generated": "2026-07-14T01:14:12Z",
-    "total": 191,
+    "version": "v0.7.0-before-opt-47-g2f93330-dirty",
+    "generated": "2026-07-14T01:31:21Z",
+    "total": 192,
     "categories": [
       "brand_kv",
       "creative",
@@ -5679,6 +5679,46 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/lululemon_campaign_board_03608a1f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/lululemon_campaign_board_03608a1f.thumb.webp",
+      "created_at": ""
+    },
+    {
+      "id": "lululemon_4square_campaign",
+      "code": "ST0192",
+      "name": "Lululemon 四联运动海报",
+      "category": "brand_kv",
+      "tags": [
+        "品牌KV",
+        "四联海报",
+        "运动时尚",
+        "超写实",
+        "编辑排版"
+      ],
+      "triggers": [
+        "Lululemon海报",
+        "四联运动风",
+        "运动品牌KV",
+        "运动时尚大片",
+        "athletic campaign poster"
+      ],
+      "scene": "品牌KV、运动品牌联名、时尚运动海报、Instagram 帖子",
+      "ratio": "1:1",
+      "summary": "Lululemon 高端运动品牌四联编辑式海报，钴蓝鲜橙配色、超写实运动员、大字体编辑排版与手绘叙事元素",
+      "features": [
+        "**四联编辑式海报** — 2×2 方格构图，每格不同运动员+不同动作主题，统一视觉 DNA",
+        "**钴蓝 + 鲜橙 配色** — 品牌 campaign 专属色系：钴蓝、鲜橙、象牙白、石墨黑，分布均衡",
+        "**超写实运动员** — 真实解剖结构、时尚运动感，无畸形、无夸张，肢体自然准确",
+        "**大字体编辑排版** — 超大英文字与运动员身体互动，\"LULULEMON\" \"MOVE LOUD\" \"FORM IN MOTION\" 等",
+        "**手绘图形叙事** — 精细手绘线条（动线弧、能量线、符号图形）与运动员动作呼应"
+      ],
+      "prompt": "hyper-real Lululemon Athletica 4-panel campaign poster, four different athletes, distinct action themes, minimalist backgrounds, giant editorial typography, fine hand-drawn narrative graphics, cobalt blue and vivid orange palette, premium sportswear realism, avant-garde fashion-sport magazine energy, 8k, world-class campaign quality\n{运动主题英文文案}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/ou_zhen599/status/2076572106565767628",
+      "source_author": "Loriel.AI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/lululemon_4square_campaign_0d6a3efb.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/lululemon_4square_campaign_0d6a3efb.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/lululemon_4square_campaign_0d6a3efb.thumb.webp",
       "created_at": ""
     },
     {
