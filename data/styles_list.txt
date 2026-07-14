@@ -1,4 +1,4 @@
-共 203 个风格
+共 204 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -111,6 +111,7 @@ ST0103 | 莫比乌斯海底珊瑚邮局 | https://malongan.github.io/style-sourc
 ST0195 | 现代东方校庆纪念海报 | https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.webp
 ST0104 | Minimalist City Travel Poster | https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.webp
 ST0105 | 麦肯锡风格 | https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp
+ST0204 | 材质化解释图风格 | (无图片)
 ST0106 | 吉祥物IP风格 | https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp
 ST0107 | maple_story_avatar（冒险岛角色精灵转换） | https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.webp
 ST0108 | 芒果椰乳涂鸦饮料海报 | https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.webp
