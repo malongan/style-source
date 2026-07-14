@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-50-g2f24b9d-dirty",
-    "generated": "2026-07-14T03:10:56Z",
-    "total": 196,
+    "version": "v0.7.0-before-opt-52-g5b0bb68-dirty",
+    "generated": "2026-07-14T03:18:31Z",
+    "total": 200,
     "categories": [
       "brand_kv",
       "creative",
@@ -2779,6 +2779,45 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "verglas_surreal_poetry_poster",
+      "code": "ST0197",
+      "name": "Verglas 神秘诗歌手册海报",
+      "category": "creative",
+      "tags": [
+        "神秘主义",
+        "诗歌手册",
+        "铬液金属",
+        "氛围感",
+        "意大利斜体"
+      ],
+      "triggers": [
+        "Verglas诗歌手册",
+        "神秘主义海报",
+        "铬液金属文字",
+        "surreal poetry poster"
+      ],
+      "scene": "诗歌海报、文学宣传、画廊展览、品牌KV、编辑出版",
+      "ratio": "3:4",
+      "summary": "纯黑背景神秘诗歌手册海报，铬液金属雕塑+橙色意大利斜体排版，文学感诗句编排",
+      "features": [
+        "**纯黑背景 + 铬液金属形态** — 黑色背景上，巨大的不定形铬液金属雕塑，充满扭曲、融化、垂落的流动形态",
+        "**虹彩反射表面** — 表面泛起翠绿、紫色、琥珀色虹彩反射，湿漉漉的有机质感，如同汞在运动中被冻结",
+        "**橙色意大利斜体文字** — 文字优雅地置于负空间中，\"Verglas\" 主标题，\"Les Ombres\" 诗意诗句排版",
+        "**模糊轮廓与暧昧形态** — 雕塑轮廓暧昧，不断在不同角度暗示不同形态，制造神秘感",
+        "**文学感诗句编排** — 多节诗句以短行诗形式排列，文学感强，如同独立诗歌手册内页"
+      ],
+      "prompt": "Poster, pure black background. Composition is dominated by a massive, sprawling chrome liquid-metal form with an indeterminate, ever-shifting shape — neither clearly an arch, nor a portal, nor any recognizable object, just an amorphous mass of twisting, melting tendrils and bulging liquid folds that spill toward the edges of the frame. Surface ripples with iridescent green, violet, and amber reflections, wet-looking and organic, like poured mercury frozen mid-motion, its silhouette ambiguous and constantly suggesting different forms depending on where you look. Small negative-space gaps within the sprawling mass reveal glimpses of the black background beneath. Centered within one of these gaps, elegant orange italic script typography reads 'Verglas' as the main title. Below it, small orange serif text arranged in short poetic stanzas: 'They arrive without knocking, / without asking if you were ready. / Close your eyes — can you still feel them? / They belong more to the in-between than to either side.' followed by a smaller line 'Les Ombres.' and a final stanza: 'It has been so long that the idea trembles and slips between my fingers, / why does it still smell of ash and distance? / Perhaps it was never meant to be looked at directly, / only felt in the corner of the imagined.' Deep black background, sprawling glossy chrome-green sculptural mass filling most of the composition, warm orange type as the only accent color, moody surreal atmosphere.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/recraftai/status/2076685043632583099",
+      "source_author": "Recraft",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/verglas_surreal_poetry_poster_HNHdnbiX.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/verglas_surreal_poetry_poster_HNHdnbiX.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/verglas_surreal_poetry_poster_HNHdnbiX.thumb.webp",
+      "created_at": ""
+    },
+    {
       "id": "urban_collage_poster",
       "code": "ST0055",
       "name": "都市前卫拼贴海报",
@@ -5071,6 +5110,45 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "north_fold_scientific_poster",
+      "code": "ST0198",
+      "name": "North Fold 科考档案海报",
+      "category": "creative",
+      "tags": [
+        "科考档案",
+        "网格系统",
+        "半机械生物",
+        "白色系",
+        "编辑排版"
+      ],
+      "triggers": [
+        "North Fold科考档案",
+        "白色网格海报",
+        "半机械昆虫",
+        "scientific archive poster"
+      ],
+      "scene": "档案海报、科考展览、品牌KV、编辑出版、概念设计",
+      "ratio": "3:4",
+      "summary": "科考档案风格海报，白色网格四分系统+半机械昆虫焦点图，坐标文字档案感强",
+      "features": [
+        "**白色网格四分 Quadrant 系统** — 纯黑背景被细白网格线分割为四个象限，两角有燕尾夹图示",
+        "**半机械昆虫焦点图** — 象限中心是半机械蜻蜓/蝉，半边有机深红外壳，半边铬机械，虹彩金属光泽",
+        "**坐标与档案文字** — 白色等宽坐标文字、档案描述文字、语音转写，档案感极强",
+        "**网格线穿透玻璃翅** — 半透明玻璃质感翅脉，网格线从下方透出，机械关节发光",
+        "**高对比黑白+单一虹彩** — 黑白档案系统，唯一彩色是半机械身的深红与虹彩光泽"
+      ],
+      "prompt": "Poster, pure black background divided by thin white grid lines into four quadrants, with two small binder-clip icon illustrations pinned at the top corners as if holding a printed sheet. Top-left quadrant: bold white sans-serif text reading 'North / Fold' stacked. Beside it, small white body text: 'Kestrel Bay, formerly a restricted fishing outpost, is now recognized as a heritage site and marine research post following the 2019 Coastal Accord.' with a tiny caption 'Sources + Archive'. Top-right quadrant: large white monospace coordinate text 'W:118034.2 2207193 / S:3312087 419'. Center of the poster: a large detailed illustration of a half-mechanical insect — a dragonfly or cicada-like creature where half of its body is organic deep crimson red exoskeleton and the other half is fused with intricate chrome machinery, exposed gears, thin metallic joints, and glowing circuit-like seams running along its legs and thorax. Its surface catches dramatic iridescent light, rippling with oily rainbow highlights of violet, gold, and cyan across the metallic segments. Its wings are rendered translucent and glass-like, glowing faintly from within with a soft internal light, revealing delicate vein-like structures and fine mechanical filigree, the grid lines faintly visible through them, wings catching sharp specular light like thin resin lit from behind. Small glowing highlights pulse along the mechanical joints as if lit from an internal power source. Bottom-left: white text stacked '04.09.2026 / Daily / Poster 62'. Bottom-right: a phonetic transcription in brackets '[ˈkɛstrəl]' above coordinate numbers '61°45.0091' 24°3''. A small white paint-splatter logo mark centered at the very bottom edge. Stark black-and-white grid system with a single luminous, iridescent half-mechanical insect illustration as the focal point, dramatic light and reflective contrast against the crimson body.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/recraftai/status/2076685043632583099",
+      "source_author": "Recraft",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.thumb.webp",
+      "created_at": ""
+    },
+    {
       "id": "newyear_gift_box",
       "code": "ST0102",
       "name": "新年礼盒",
@@ -6478,6 +6556,45 @@
       "created_at": "2026-07-01T22:06:21+08:00"
     },
     {
+      "id": "hold_the_line_declaration_poster",
+      "code": "ST0199",
+      "name": "Hold The Line 宣言海报",
+      "category": "creative",
+      "tags": [
+        "宣言海报",
+        "铬裂纹茶杯",
+        "居中排版",
+        "编辑感",
+        "黑色高对比"
+      ],
+      "triggers": [
+        "Hold The Line宣言",
+        "铬裂纹茶杯海报",
+        "居中宣言式排版",
+        "declaration poster chrome"
+      ],
+      "scene": "宣言海报、品牌KV、社交媒体图文、编辑出版",
+      "ratio": "3:4",
+      "summary": "居中宣言式排版海报，铬裂纹茶杯焦点+银链，高对比纯黑背景+白色轨道弧线",
+      "features": [
+        "**居中宣言式排版** — 顶部细线排列「PATIENCE IS NOT A DELAY IT'S A DECISION」，主标题「HOLD / the / LINE.」",
+        "**铬裂纹茶杯焦点** — 居中 glossy iridescent chrome 裂纹茶杯，湿漉漉的液金属质感，缠有细银链",
+        "**高对比纯黑背景** — 黑色背景，细白orbital弧线如轨道般环绕茶杯，干净利落",
+        "**镜像重复文字块** — 左右镜像重复的 body text，品牌感/编辑感强",
+        "**条码与坐标点缀** — 右下角条码图形+数字串，RIO/MDW/2100 HRS 等碎片信息"
+      ],
+      "prompt": "Poster, pure black background with fine grain. At the top, a thin horizontal line spans the width with small tracking-spaced white words placed along it: 'PATIENCE / IS / NOT / A / DELAY / IT'S / A / DECISION'. Below, a large headline mixing bold white sans-serif with a connecting cursive script: 'HOLD' in heavy block letters, followed by a flowing italic script 'the' looping beneath it, then 'LINE.' in bold block letters again, with a small red square period accent. Center-left and center-right, mirrored duplicate body text blocks reading: 'You are still building something, even on the days it doesn't look like progress. Hold the line.' Below the headline, a glossy iridescent chrome object — a cracked porcelain teacup rendered in liquid-metal chrome with rainbow highlights, wrapped loosely in a thin silver chain, sitting on a reflective dark surface. Thin white orbital lines arc behind the object like orbit paths. Left-side stacked white text fragments, slightly cut off as if cropped: 'RIO, / MDW', '2100 / HRS', 'HOLD / LINE'. Bottom-right corner: a small barcode graphic with a number string beneath it. Clean grid alignment, high-contrast black background, single glossy chrome object as focal point.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/recraftai/status/2076685043632583099",
+      "source_author": "Recraft",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/hold_the_line_declaration_poster_HNHdnbhW.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hold_the_line_declaration_poster_HNHdnbhW.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hold_the_line_declaration_poster_HNHdnbhW.thumb.webp",
+      "created_at": ""
+    },
+    {
       "id": "hierarchy_angels_poster",
       "code": "ST0127",
       "name": "天使阶层海报（Hierarchy Angels Poster）",
@@ -7090,6 +7207,45 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "frostline_archive_arctic_poster",
+      "code": "ST0200",
+      "name": "Frostline Archive 冬日档案海报",
+      "category": "creative",
+      "tags": [
+        "冬日档案",
+        "铬狼头骨",
+        "青色技术线",
+        "冷调",
+        "北欧感"
+      ],
+      "triggers": [
+        "Frostline Archive冬日档案",
+        "铬狼头骨海报",
+        "青色技术线",
+        "arctic archive poster"
+      ],
+      "scene": "档案海报、科考展览、品牌KV、概念设计、北欧感品牌",
+      "ratio": "3:4",
+      "summary": "冬日档案风格海报，铬狼头骨焦点+青色技术线条，冷调北极档案感",
+      "features": [
+        "**铬狼头骨焦点** —  glossy chrome liquid-metal 狼头骨，颚微张，表面反射深紫、翡翠、金色虹彩光泽",
+        "**青色技术线覆盖层** — 雷达同心圆、虚线椭圆轨道、数据框（MASS: UNKNOWN / ORIGIN: UNLOGGED）",
+        "**档案感文字系统** — 'Winter Findings / Catalog Entry 07'、'FROSTLINE ARCHIVE' 品牌字",
+        "**大号青色显示文字** — 左下 'What Grows / In The Dark / Still Grows'，冷调诗意档案感",
+        "**坐标数据** — 右下 '64.1284° N / 21.9426° W' + 'RECOVERED, NOT EXPLAINED'"
+      ],
+      "prompt": "Poster, pure black background with subtle film grain. Central image: a glossy chrome liquid-metal sculpture shaped like a large wolf skull, jaw slightly open, surface reflecting deep violet, emerald, and gold light in oily iridescent streaks, sharp specular highlights along the curved cranium and teeth. Thin neon cyan technical line-art overlays the skull: a small radar-style concentric circle diagram anchored to one eye socket, a dashed elliptical orbit path sweeping across the composition, and a tiny data box reading 'MASS: UNKNOWN / ORIGIN: UNLOGGED / STATUS: DORMANT'. Top-left small cyan caption text: 'Winter Findings / Catalog Entry 07'. Top-right a bordered rectangle icon strip with a moon, a snowflake, and an arrow, followed by a small boxed wordmark 'FROSTLINE ARCHIVE'. Bottom-left large cyan display text stacked: 'What Grows / In The Dark / Still Grows'. Bottom-right small white coordinate readout: '64.1284° N / 21.9426° W' above a short line 'RECOVERED, NOT EXPLAINED'. Deep black background, single glossy chrome sculptural centerpiece, cold cyan technical accents, quiet arctic-mystery mood.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/recraftai/status/2076685043632583099",
+      "source_author": "Recraft",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "fashion_habitat_blueprint",
