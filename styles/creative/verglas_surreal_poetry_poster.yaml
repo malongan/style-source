@@ -1,0 +1,38 @@
+# Verglas 神秘诗歌手册海报
+
+id: verglas_surreal_poetry_poster
+name: "Verglas 神秘诗歌手册海报"
+category: creative
+
+tags:
+  - 神秘主义
+  - 诗歌手册
+  - 铬液金属
+  - 氛围感
+  - 意大利斜体
+
+triggers:
+  - Verglas诗歌手册
+  - 神秘主义海报
+  - 铬液金属文字
+  - surreal poetry poster
+
+features:
+  - "**纯黑背景 + 铬液金属形态** — 黑色背景上，巨大的不定形铬液金属雕塑，充满扭曲、融化、垂落的流动形态"
+  - "**虹彩反射表面** — 表面泛起翠绿、紫色、琥珀色虹彩反射，湿漉漉的有机质感，如同汞在运动中被冻结"
+  - "**橙色意大利斜体文字** — 文字优雅地置于负空间中，\"Verglas\" 主标题，\"Les Ombres\" 诗意诗句排版"
+  - "**模糊轮廓与暧昧形态** — 雕塑轮廓暧昧，不断在不同角度暗示不同形态，制造神秘感"
+  - "**文学感诗句编排** — 多节诗句以短行诗形式排列，文学感强，如同独立诗歌手册内页"
+
+scene: "诗歌海报、文学宣传、画廊展览、品牌KV、编辑出版"
+ratio: "3:4"
+summary: "纯黑背景神秘诗歌手册海报，铬液金属雕塑+橙色意大利斜体排版，文学感诗句编排"
+
+prompt: |
+  Poster, pure black background. Composition is dominated by a massive, sprawling chrome liquid-metal form with an indeterminate, ever-shifting shape — neither clearly an arch, nor a portal, nor any recognizable object, just an amorphous mass of twisting, melting tendrils and bulging liquid folds that spill toward the edges of the frame. Surface ripples with iridescent green, violet, and amber reflections, wet-looking and organic, like poured mercury frozen mid-motion, its silhouette ambiguous and constantly suggesting different forms depending on where you look. Small negative-space gaps within the sprawling mass reveal glimpses of the black background beneath. Centered within one of these gaps, elegant orange italic script typography reads 'Verglas' as the main title. Below it, small orange serif text arranged in short poetic stanzas: 'They arrive without knocking, / without asking if you were ready. / Close your eyes — can you still feel them? / They belong more to the in-between than to either side.' followed by a smaller line 'Les Ombres.' and a final stanza: 'It has been so long that the idea trembles and slips between my fingers, / why does it still smell of ash and distance? / Perhaps it was never meant to be looked at directly, / only felt in the corner of the imagined.' Deep black background, sprawling glossy chrome-green sculptural mass filling most of the composition, warm orange type as the only accent color, moody surreal atmosphere.
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/recraftai/status/2076685043632583099"
+source_author: "Recraft"
+
+# 配图: images/styles_previews/verglas_surreal_poetry_poster_xxx.webp
