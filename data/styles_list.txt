@@ -159,7 +159,7 @@ ST0147 | Sunlit Architectural Fashion Editorial | https://malongan.github.io/sty
 ST0148 | Sunlit Supermodel Nameplate Editorial | https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp
 ST0149 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.webp
 ST0150 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp
-ST0190 | 迪拜城市旅行海报 Risograph 风格 | https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_e89eedbb.webp
+ST0190 | 迪拜城市旅行海报 Risograph 风格 | https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_73dcf2a5.webp
 ST0151 | 梦幻水彩旅行插画 | https://malongan.github.io/style-source/images/styles_previews/dreamy_watercolor_travel_f8ac7a28.webp
 ST0152 | Mountain Trail Monster Doodle Poster Style | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp
 ST0153 | Backseat Transit Doodle Letter Poster Style | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp
