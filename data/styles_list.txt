@@ -1,4 +1,4 @@
-共 204 个风格
+共 205 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -111,7 +111,7 @@ ST0103 | 莫比乌斯海底珊瑚邮局 | https://malongan.github.io/style-sourc
 ST0195 | 现代东方校庆纪念海报 | https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.webp
 ST0104 | Minimalist City Travel Poster | https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.webp
 ST0105 | 麦肯锡风格 | https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp
-ST0204 | 材质化解释图风格 | (无图片)
+ST0204 | 材质化解释图风格 | https://malongan.github.io/style-source/images/styles_previews/materialized_explainer_diagram_HNJstWeb.webp
 ST0106 | 吉祥物IP风格 | https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp
 ST0107 | maple_story_avatar（冒险岛角色精灵转换） | https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.webp
 ST0108 | 芒果椰乳涂鸦饮料海报 | https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.webp
@@ -182,6 +182,7 @@ ST0161 | 温馨故事书咖啡馆 | https://malongan.github.io/style-source/imag
 ST0162 | 构成主义建筑海报 | https://malongan.github.io/style-source/images/styles_previews/constructivist_architecture_poster_72855380.webp
 ST0163 | 拼贴logo（马赛克风格） | https://malongan.github.io/style-source/images/styles_previews/collage_logo_208518c5.webp
 ST0164 | Surreal Fish Doodle Landmark Photo Collage Style | https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.webp
+ST0205 | 近景饮料产品海报 | https://malongan.github.io/style-source/images/styles_previews/close_up_beverage_ad_poster_97eb7118.webp
 ST0165 | 就要去爬山（Climb Mountain Typography） | https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.webp
 ST0166 | 黏土文字互动海报 | https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.webp
 ST0167 | 电影级爆炸分解视图广告海报 | https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp
