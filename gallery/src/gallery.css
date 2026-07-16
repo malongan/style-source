@@ -249,9 +249,6 @@ body {
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
-  /* 右侧渐变遮罩：暗示可横向滚动 */
-  mask-image: linear-gradient(to right, transparent 0px, transparent 20px, black 40px);
-  -webkit-mask-image: linear-gradient(to right, transparent 0px, transparent 20px, black 40px);
 }
 
 .category-filter::-webkit-scrollbar {

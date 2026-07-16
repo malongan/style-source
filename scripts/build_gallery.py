@@ -206,14 +206,27 @@ function renderGallery(data) {{
   window.__allStyles = styles;
   window.__filteredStyles = null;
   window.__renderedUpTo = 0;
-  window.__cardsRendered = false;  // 强制守卫：初始为空页面
+  window.__cardsRendered = true;  // 默认展示“全部”
 
-  // 数据已就绪：展示筛选框架，但不预渲染任何卡片
   var app = document.getElementById('app');
   if (app) app.style.display = 'block';
 
   var grid = document.querySelector('.gallery-grid');
-  if (grid) grid.innerHTML = '';  // 清空，不渲染任何卡片
+  if (!grid) return;
+
+  // 首屏默认按“全部 + 编号顺序”渲染第一批；其余由无限滚动追加
+  grid.innerHTML = '';
+  var totalStyles = styles.length;
+  var firstBatch = Math.min(totalStyles, 30);
+  var html = '';
+  for (var i = 0; i < firstBatch; i++) {{
+    html += buildCardHTML(styles[i], i, totalStyles);
+  }}
+  grid.innerHTML = html;
+  window.__renderedUpTo = firstBatch;
+
+  var emptyEl = document.getElementById('galleryEmpty');
+  if (emptyEl) emptyEl.style.display = 'none';
 
   var countEl = document.getElementById('countVisible');
   var totalEl = document.getElementById('countTotal');

@@ -281,14 +281,11 @@
         return numA - numB;
       });
     } else if (state.currentSort === 'date-desc') {
-      // 按 created_at 倒序（最新添加优先）
+      // “最新添加”以连续入库编号为唯一可靠依据；旧数据缺 created_at 时也不会错序
       return styles.slice().sort(function(a, b) {
-        const dateA = a.created_at || '';
-        const dateB = b.created_at || '';
-        if (dateA && dateB) return dateB.localeCompare(dateA);
-        if (dateA && !dateB) return -1;
-        if (!dateA && dateB) return 1;
-        return 0;
+        const numA = parseInt((a.number || a.code || '').replace(/\D/g, '')) || 0;
+        const numB = parseInt((b.number || b.code || '').replace(/\D/g, '')) || 0;
+        return numB - numA;
       });
     } else if (state.currentSort === 'name-asc') {
       return styles.slice().sort(function(a, b) { return (a.name || '').localeCompare(b.name || ''); });
