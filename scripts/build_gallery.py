@@ -206,42 +206,17 @@ function renderGallery(data) {{
   window.__allStyles = styles;
   window.__filteredStyles = null;
   window.__renderedUpTo = 0;
-
-  var loading = document.getElementById('loading');
-  var app = document.getElementById('app');
-  if (loading) loading.style.display = 'none';
-  if (app) app.style.display = 'block';
+  window.__cardsRendered = false;  // 强制守卫：初始为空页面
 
   var grid = document.querySelector('.gallery-grid');
-  if (!grid) return;
-
-  // 只渲染第一批（无限滚动按需追加）
-  grid.innerHTML = '';
-  var totalStyles = styles.length;
-  var firstBatch = Math.min(totalStyles, 30);
-  var html = '';
-  for (var i = 0; i < firstBatch; i++) {{
-    html += buildCardHTML(styles[i], i, totalStyles);
-  }}
-  grid.innerHTML = html;
-
-  // Add card-reveal class to all rendered cards
-  grid.querySelectorAll('.style-card').forEach(function(c) {{
-    c.classList.add('card-reveal');
-  }});
-
-  // 立即隐藏骨架屏遮罩（无需动画，避免与 filterCards 时序冲突）
-  var mask = document.getElementById('loadingRevealMask');
-  var textEl = document.getElementById('loadingRevealText');
-  if (textEl) textEl.classList.add('hidden');
-  if (mask) {{ mask.style.opacity = '0'; }}
-  window.__renderedUpTo = firstBatch;
+  if (grid) grid.innerHTML = '';  // 清空，不渲染任何卡片
 
   var countEl = document.getElementById('countVisible');
   var totalEl = document.getElementById('countTotal');
   if (countEl) countEl.textContent = styles.length;
   if (totalEl) totalEl.textContent = styles.length;
   window.__totalStyles = styles.length;
+
   if (typeof window.init === 'function') window.init();
   if (window.galleryCategories) {{
     window.galleryCategories.all = window.__totalStyles || styles.length;
@@ -256,12 +231,42 @@ function renderGallery(data) {{
 }}
 
 async function loadGallery() {{
+  var bar = document.getElementById('pixelBarFill');
+  var loader = document.getElementById('pixelLoader');
+
+  function animateBar(progress) {{
+    if (bar) bar.style.width = progress + '%';
+  }}
+
+  // 模拟进度（真实场景 fetch 进度不可见，用动画模拟）
+  var steps = [15, 35, 55, 75, 90, 100];
+  var step = 0;
+  var interval = setInterval(function() {{
+    if (step < steps.length) animateBar(steps[step]);
+    step++;
+    if (step >= steps.length) clearInterval(interval);
+  }}, 180);
+
   try {{
     const resp = await fetch('https://malongan.github.io/style-source/data/styles.json?t=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
-    renderGallery(data);
+
+    // 加载完成
+    animateBar(100);
+    setTimeout(function() {{
+      if (loader) {{
+        loader.classList.add('fade-out');
+        setTimeout(function() {{ loader.style.display = 'none'; }}, 300);
+      }}
+      // 显示空内容提示和主框架
+      var emptyEl = document.getElementById('galleryEmpty');
+      if (emptyEl) emptyEl.style.display = 'flex';
+      renderGallery(data);
+    }}, 250);
   }} catch(e) {{
+    clearInterval(interval);
+    if (loader) {{ loader.style.display = 'none'; }}
     console.warn('JSON 加载失败', e);
   }}
 }}
@@ -314,25 +319,42 @@ loadGallery();
 * {{ margin:0;padding:0;box-sizing:border-box; }}
 body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary); }}
 #app {{ display:none; }}
-.loading-skeleton {{ padding:20px 0;text-align:center;color:var(--text-muted); }}
-.loading-reveal-mask {{ position:fixed;top:50%;left:50%;width:0;height:0;border-radius:50%;background:var(--bg-primary);transform:translate(-50%,-50%);z-index:999;pointer-events:none;opacity:1; }}
-.loading-reveal-mask.done {{ width:400vmax;height:400vmax;opacity:0;transition:width 0.7s cubic-bezier(0.4,0,0.2,1),height 0.7s cubic-bezier(0.4,0,0.2,1),opacity 0.5s ease 0.2s; }}
-.style-card.card-reveal {{ opacity:0; }}
-@keyframes cardReveal {{ 0%{{opacity:0;transform:scale(0.88) translateY(14px);filter:blur(3px);}} 100%{{opacity:1;transform:scale(1) translateY(0);filter:blur(0);}} }}
-.style-card.card-reveal.animate-in {{ animation:cardReveal 0.45s cubic-bezier(0.25,0.46,0.45,0.94) forwards; }}
-.loading-reveal-text {{ position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-size:14px;color:var(--text-muted);z-index:1000;pointer-events:none;opacity:1;transition:opacity 0.3s ease;white-space:nowrap; }}
-.loading-reveal-text.hidden {{ opacity:0; }}
+/* 像素风加载画面 */
+.pixel-loader {{ position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#0d0d0d;z-index:9999; }}
+.pixel-loader-title {{ font-family:monospace;font-size:18px;color:#00ff41;letter-spacing:4px;margin-bottom:32px;text-transform:uppercase;text-shadow:0 0 8px #00ff41; }}
+.pixel-bar-wrap {{ width:240px;height:20px;background:#1a1a1a;border:2px solid #00ff41;position:relative;image-rendering:pixelated; }}
+.pixel-bar-fill {{ height:100%;width:0%;background:#00ff41;transition:width 0.1s steps(1);box-shadow:0 0 8px #00ff41 inset; }}
+.pixel-bar-wrap::after {{ content:'';position:absolute;top:-2px;left:-2px;right:-2px;bottom:-2px;background:repeating-linear-gradient(90deg,transparent 0px,transparent 8px,#0d0d0d 8px,#0d0d0d 10px);pointer-events:none; }}
+.pixel-loader-sub {{ margin-top:20px;font-family:monospace;font-size:12px;color:#666;letter-spacing:2px; }}
+.pixel-loader.fade-out {{ animation:fadeOutLoader 0.3s ease forwards; }}
+@keyframes fadeOutLoader {{ to{{opacity:0;pointer-events:none;}} }}
+@keyframes pixelScan {{ 0%{{background-position:0 0;}} 100%{{background-position:0 20px;}} }}
+/* 空内容提示 */
+.gallery-empty {{ position:fixed;inset:0;display:flex;align-items:center;justify-content:center;z-index:100;pointer-events:none; }}
+.gallery-empty-inner {{ text-align:center; }}
+.gallery-empty-icon {{ font-size:64px;color:#333;margin-bottom:16px;font-family:monospace; }}
+.gallery-empty-text {{ font-size:18px;color:#555;margin-bottom:8px; }}
+.gallery-empty-sub {{ font-size:13px;color:#888; }}
 </style>
 <noscript><link rel="stylesheet" href="gallery.css?v={cache_hash}"></noscript>
 </head>
 <body>
-  <div class="loading-reveal-mask" id="loadingRevealMask"></div>
-<div class="loading-reveal-text" id="loadingRevealText">正在加载风格库...</div>
-<div id="loading" class="loading-skeleton">
-    <div class="skeleton-grid">
-      {skeleton_cards}
+  <!-- 像素风加载画面 -->
+  <div class="pixel-loader" id="pixelLoader">
+    <div class="pixel-loader-title">STYLE GALLERY</div>
+    <div class="pixel-bar-wrap">
+      <div class="pixel-bar-fill" id="pixelBarFill"></div>
     </div>
-    <div class="skeleton-loading-text">🔄 加载风格画廊...</div>
+    <div class="pixel-loader-sub">LOADING DATA...</div>
+  </div>
+
+  <!-- 空内容提示（数据加载后显示） -->
+  <div class="gallery-empty" id="galleryEmpty" style="display:none;">
+    <div class="gallery-empty-inner">
+      <div class="gallery-empty-icon">▦</div>
+      <div class="gallery-empty-text">选择一个分类开始浏览</div>
+      <div class="gallery-empty-sub">点击上方分类按钮加载风格</div>
+    </div>
   </div>
 
   <div class="container" id="app" style="display:none">

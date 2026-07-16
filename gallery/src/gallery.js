@@ -90,6 +90,11 @@
     }
 
     if (hasFilter) {
+      window.__cardsRendered = true;
+      var emptyEl = document.getElementById('galleryEmpty');
+      if (emptyEl) emptyEl.style.display = 'none';
+      var appEl = document.getElementById('app');
+      if (appEl) appEl.style.display = 'block';
       filterCards();
     }
   }
@@ -475,7 +480,7 @@
     document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     
-    // 重新过滤
+    // 重新过滤（首次点击触发卡片渲染）
     filterCards();
   }
 
@@ -921,6 +926,16 @@
   // ========== 过滤逻辑 ==========
   // ========== 过滤逻辑（数据驱动 → 重新渲染网格） ==========
   function filterCards() {
+    // 首次调用时标记已渲染（用户操作触发）
+    if (!window.__cardsRendered) {
+      window.__cardsRendered = true;
+      // 首次渲染前隐藏空状态提示
+      var emptyEl = document.getElementById('galleryEmpty');
+      if (emptyEl) emptyEl.style.display = 'none';
+      // 显示主内容区
+      var appEl = document.getElementById('app');
+      if (appEl) appEl.style.display = 'block';
+    }
     reRenderGrid();
 
     // 搜索高亮：新渲染的卡片还没有 search-highlight，需要处理
