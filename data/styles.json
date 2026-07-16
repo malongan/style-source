@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-63-g3503565-dirty",
-    "generated": "2026-07-16T05:50:28Z",
-    "total": 207,
+    "version": "v0.7.0-before-opt-64-gd56874a-dirty",
+    "generated": "2026-07-16T06:45:19Z",
+    "total": 208,
     "categories": [
       "brand_kv",
       "creative",
@@ -4345,6 +4345,43 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/riso_travel_poster_5da39518.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/riso_travel_poster_5da39518.thumb.webp",
+      "created_at": ""
+    },
+    {
+      "id": "retro_motorsport_poster",
+      "code": "ST0208",
+      "name": "复古赛车海报",
+      "category": "brand_kv",
+      "tags": [
+        null
+      ],
+      "triggers": [
+        "复古赛车海报",
+        "复古赛车运动",
+        "老爷车海报",
+        "赛车品牌KV",
+        "复古汽车运动"
+      ],
+      "scene": "汽车品牌KV、赛车运动宣传、老爷车文化、品牌联名、复古汽车海报",
+      "ratio": "4:5",
+      "summary": "复古赛车运动海报风格，正面低仰角赛车视角 + 叠加几何图形背景 + 做旧复古质感，完整品牌标识系统",
+      "features": [
+        "**正面低仰角英雄视角** — 赛车正面居中低角度拍摄，车头迎面而来，充满速度感与压迫感",
+        "**极简纵深场景** — 背景以极简主义手法营造空间深度，地平线、远山剪影等简约场景元素",
+        "**叠加几何图形设计** — 大型太阳形状、重叠几何色块、斜向面板、柔和条纹、半透明形状等层次叠加",
+        "**品牌标识系统** — 顶部大字标题 [TITLE]、品牌小 Logo、底部短标语 [SLOGAN]，构成完整赛车涂装感",
+        "**做旧复古质感** — 复古印刷褪色、做旧纸张纹理、细微划痕、日晒褪色色调，散发 vintage 怀旧气息",
+        "**4:5 竖版对称构图** — 经典海报比例，完美对称布局，赛车编辑风质感，精致的赛车运动美学"
+      ],
+      "prompt": "{赛车车型}，复古赛车涂装\n\n正面低仰角英雄视角，赛车居中于画面，冲击感强烈\n极简场景纵深：[SCENERY]，简约地平线与远景\n叠加几何图形背景：大型太阳形状、重叠色块、斜向面板、半透明条纹\n顶部大字标题：\"[赛事/品牌标题]\"，底部短标语：\"[SLOGAN]\"\n品牌 Logo 置于顶部或底部角落\n\n色调：[PALETTE]，暖色做旧、日晒褪色、复古印刷质感\n做旧纸张纹理、细微划痕磨损、老化褪色效果\n干净负空间，清晰汽车细节，4:5 竖版比例\n海报对称构图，精致赛车编辑风\n\n不要水印，不要杂乱背景，不要现代元素，不要扁平无纹理。\n比例：4:5\n",
+      "variables": {},
+      "source_url": "https://x.com/Goodmanprotocol/status/2077436110607925535",
+      "source_author": "Goodmanprotocol",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/retro_motorsport_poster_e6b1b173.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_motorsport_poster_e6b1b173.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_motorsport_poster_e6b1b173.thumb.webp",
       "created_at": ""
     },
     {

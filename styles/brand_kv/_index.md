@@ -26,4 +26,5 @@
 | pop_up_storybook_poster | #立体书 #纸雕 #故事书 #Pop-Up #治愈系 | 品牌KV、电影海报、概念海报、绘本封面 | 3:4 |
 | amber_cedar_perfume_poster | #琥珀色 #雪松木 #高端香氛 #顶视平铺 | 高端品牌KV、奢侈品海报、香水广告 | 3:4 |
 | lululemon_campaign_board | #运动 #Campaign #粉紫 #Hyper-real #编辑排版 | 品牌KV、运动服Campaign、时尚海报、零售广告 | 9:16 |
+| retro_motorsport_poster | #复古赛车 #赛车海报 #老爷车 #品牌KV #做旧质感 #编辑风 | 汽车品牌KV、赛车运动宣传、老爷车文化、品牌联名 | 4:5 |
 | lululemon_4square_campaign | #品牌KV #四联海报 #运动时尚 #超写实 #编辑排版 | 品牌KV、运动品牌联名、时尚运动海报、Instagram 帖子 | 1:1 |
