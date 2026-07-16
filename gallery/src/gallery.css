@@ -249,6 +249,9 @@ body {
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
+  /* 右侧渐变遮罩：暗示可横向滚动 */
+  mask-image: linear-gradient(to right, transparent 0px, transparent 20px, black 40px);
+  -webkit-mask-image: linear-gradient(to right, transparent 0px, transparent 20px, black 40px);
 }
 
 .category-filter::-webkit-scrollbar {
@@ -618,7 +621,7 @@ body {
 }
 
 .style-card:hover {
-  transform: translateY(-6px) scale(1.015);
+  transform: translateY(-4px);
   box-shadow: var(--card-hover-shadow);
   border-color: var(--accent-color);
 }
@@ -626,7 +629,7 @@ body {
 .style-card:focus-visible {
   outline: 2px solid var(--accent-color);
   outline-offset: 2px;
-  transform: translateY(-4px) scale(1.01);
+  transform: translateY(-3px);
   box-shadow: var(--card-hover-shadow);
   border-color: var(--accent-color);
 }
@@ -680,15 +683,13 @@ body {
   position: relative;
   z-index: 2;
   opacity: 0;
-  transition: opacity 0.4s ease;
   will-change: transform, opacity;
   backface-visibility: hidden;
-  transform: scale(1);
-  transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.4s ease;
+  transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.4s ease;
 }
 
 .style-card:hover .card-image {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .card-content {

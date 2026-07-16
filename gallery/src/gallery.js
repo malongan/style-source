@@ -10,7 +10,7 @@
   const state = {
     currentTag: 'all',
     currentCategory: 'all',
-    currentSort: 'default',
+    currentSort: 'code-asc',
     searchQuery: '',
     showFavoritesOnly: false,
     favorites: JSON.parse(localStorage.getItem('galleryFavorites') || '[]'),
@@ -100,7 +100,7 @@
     if (state.searchQuery) params.set('q', state.searchQuery);
     if (state.currentCategory !== 'all') params.set('category', state.currentCategory);
     if (state.currentTag !== 'all') params.set('tag', state.currentTag);
-    if (state.currentSort !== 'default') params.set('sort', state.currentSort);
+    if (state.currentSort !== 'code-asc') params.set('sort', state.currentSort);
     if (state.showFavoritesOnly) params.set('fav', '1');
 
     var qs = params.toString();
@@ -268,12 +268,21 @@
 
   /** 对 styles 列表按当前排序方式排序 */
   function sortStyles(styles) {
-    if (state.currentSort === 'default' || state.currentSort === 'date-desc') {
-      // date-desc: 按 created_at 倒序
+    if (state.currentSort === 'code-asc') {
+      // 按编号顺序 ST0001, ST0002, ... (默认排序)
+      return styles.slice().sort(function(a, b) {
+        const numA = parseInt((a.number || a.code || '').replace(/\D/g, '')) || 0;
+        const numB = parseInt((b.number || b.code || '').replace(/\D/g, '')) || 0;
+        return numA - numB;
+      });
+    } else if (state.currentSort === 'date-desc') {
+      // 按 created_at 倒序（最新添加优先）
       return styles.slice().sort(function(a, b) {
         const dateA = a.created_at || '';
         const dateB = b.created_at || '';
         if (dateA && dateB) return dateB.localeCompare(dateA);
+        if (dateA && !dateB) return -1;
+        if (!dateA && dateB) return 1;
         return 0;
       });
     } else if (state.currentSort === 'name-asc') {
@@ -287,7 +296,7 @@
         return favA - favB;
       });
     }
-    return styles; // default: no sort
+    return styles; // fallback: no sort
   }
 
   /** 重新渲染网格：清除现有卡片 + 渲染第一批 + 重置无限滚动 */
@@ -313,7 +322,7 @@
     // 更新清除按钮
     const hasActiveFilter = state.currentTag !== 'all' || state.currentCategory !== 'all' || 
                             state.searchQuery !== '' || state.showFavoritesOnly ||
-                            state.currentSort !== 'default';
+                            state.currentSort !== 'code-asc';
     if (elements.clearFilters) {
       elements.clearFilters.style.display = hasActiveFilter ? 'inline-block' : 'none';
     }
@@ -855,7 +864,7 @@
   function clearFilters() {
     state.currentTag = 'all';
     state.currentCategory = 'all';
-    state.currentSort = 'default';
+    state.currentSort = 'code-asc';
     state.searchQuery = '';
     state.showFavoritesOnly = false;
 
@@ -864,7 +873,7 @@
     if (elements.searchClear) elements.searchClear.style.display = 'none';
 
     // 重置排序
-    if (elements.sortSelect) elements.sortSelect.value = 'default';
+    if (elements.sortSelect) elements.sortSelect.value = 'code-asc';
 
     // 重置标签高亮
     document.querySelectorAll('.tag-item').forEach(function(b) {

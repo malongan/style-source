@@ -15,6 +15,39 @@ BASE_URL = 'https://malongan.github.io/style-source'
 NUMBERS_FILE = os.path.join(DATA_DIR, 'style_numbers.json')
 TIMESTAMPS_FILE = os.path.join(DATA_DIR, 'style_timestamps.json')
 
+# 无筛选价值的英文标签词（通用词、无语义或极短）
+TAG_STOPWORDS = {
+    'a', 'an', 'the', 'is', 'it', 'of', 'or', 'and', 'for', 'to', 'in', 'on',
+    'with', 'by', 'at', 'as', 'from', 'be', 'are', 'was', 'were', 'been',
+    'this', 'that', 'these', 'those', 'have', 'has', 'had', 'do', 'does', 'did',
+    'will', 'would', 'could', 'should', 'may', 'might', 'must', 'can',
+    'i', 'you', 'he', 'she', 'we', 'they', 'my', 'your', 'his', 'her', 'its', 'our', 'their',
+    'using', 'into', 'real', 'large', 'clean', 'subject', 'marks', 'with', 'and',
+    'the', 'for', 'from', 'this', 'with', 'not', 'but', 'also', 'only', 'just',
+    'so', 'very', 'too', 'more', 'most', 'some', 'any', 'all', 'each', 'other',
+    'new', 'old', 'big', 'small', 'good', 'best', 'top', 'one', 'two',
+    'style', 'image', 'photo', 'photograph', 'picture', 'design',
+    'high', 'low', 'right', 'left', 'front', 'back', 'side', 'up', 'down',
+    'out', 'off', 'over', 'under', 'again', 'once',
+    '2d', '3d', '4d',  # 短到无意义，让上下文语义来区分
+}
+
+def is_valid_tag(tag: str) -> bool:
+    """过滤无筛选价值的标签"""
+    t = tag.strip()
+    if not t:
+        return False
+    # 英文标签：长度 ≤ 2 过滤（中文不受此限制）
+    if t.isascii() and len(t) <= 2:
+        return False
+    # 过滤 stopwords（仅英文小写比较）
+    if t.lower() in TAG_STOPWORDS:
+        return False
+    # 过滤包含空格的长标签（描述性短语，不是标签）
+    if ' ' in t and len(t) > 30:
+        return False
+    return True
+
 
 def get_version() -> str:
     """获取版本号：从 git tag 读取，无 tag 时返回 commit hash 或 v0.0.0"""
@@ -99,7 +132,9 @@ def parse_style_file(filepath: str) -> dict:
     # 标签
     tags = data.get('tags', [])
     if isinstance(tags, str):
-        tags = [t.strip() for t in tags.split(',') if t.strip()]
+        tags = [t.strip() for t in tags.split(',') if t.strip() and is_valid_tag(t)]
+    else:
+        tags = [str(t).strip() for t in tags if t and is_valid_tag(str(t).strip())]
 
     # 触发词
     triggers = data.get('triggers', [])

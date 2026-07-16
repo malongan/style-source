@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-64-gd56874a-dirty",
-    "generated": "2026-07-16T06:45:19Z",
+    "version": "v0.7.0-before-opt-65-g48ca914-dirty",
+    "generated": "2026-07-16T10:27:32Z",
     "total": 208,
     "categories": [
       "brand_kv",
@@ -72,13 +72,7 @@
       "code": "ST0002",
       "name": "X光扫描风",
       "category": "creative",
-      "tags": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
+      "tags": [],
       "triggers": [
         "X光扫描风格",
         "医疗科幻",
@@ -209,9 +203,7 @@
       "code": "ST0207",
       "name": "复古老爷车矢量海报",
       "category": "print",
-      "tags": [
-        null
-      ],
+      "tags": [],
       "triggers": [
         "复古老爷车矢量",
         "老爷车海报",
@@ -247,8 +239,7 @@
       "name": "Yellow Black Manga Food Zine Ad Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Yellow Black Manga Food Zine Ad Style"
@@ -288,8 +279,7 @@
       "name": "Y2K Mirror UI Scribble Collage Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Y2K Mirror UI Scribble Collage Style"
@@ -336,7 +326,6 @@
         "magazine",
         "collage",
         "oversized",
-        "photo",
         "acid",
         "retro",
         "typography",
@@ -383,8 +372,7 @@
       "name": "Warm Fisheye Product Impact Ad Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Warm Fisheye Product Impact Ad Style"
@@ -433,7 +421,6 @@
         "personal",
         "diary",
         "combining",
-        "real",
         "public-space",
         "photography",
         "bold",
@@ -446,7 +433,6 @@
         "saturated",
         "cartoon",
         "faces",
-        "large",
         "foreground",
         "gesture"
       ],
@@ -550,25 +536,19 @@
       "category": "vigo_cookbook",
       "tags": [
         "VigoCookbook",
-        "clean",
         "three-color",
         "hardcut",
         "portrait",
-        "using",
         "flat",
         "teal",
         "background",
         "fields",
         "coral-red",
-        "subject",
         "planes",
         "near-black",
         "silhouettes",
         "shadows",
-        "all",
         "reduced",
-        "into",
-        "large",
         "hard-edged",
         "vector-like"
       ],
@@ -671,8 +651,7 @@
       "name": "Sunny 3D Avatar Campaign Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Sunny 3D Avatar Campaign Style"
@@ -775,8 +754,7 @@
       "name": "Sky Blue Home Life Doodle Poster Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Sky Blue Home Life Doodle Poster Style"
@@ -816,8 +794,7 @@
       "name": "School Grid Paper Cutout Poster",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "School Grid Paper Cutout Poster"
@@ -857,8 +834,7 @@
       "name": "Rough Marker Monster Poster Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Rough Marker Monster Poster Style"
@@ -898,8 +874,7 @@
       "name": "Rough Ink Music Doodle Poster Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Rough Ink Music Doodle Poster Style"
@@ -960,8 +935,7 @@
         "oval",
         "highlights",
         "crisp",
-        "sparkle",
-        "marks"
+        "sparkle"
       ],
       "triggers": [
         "Pop Bubble Letter Photo Poster Style"
@@ -1005,7 +979,6 @@
         "loud",
         "toy-product",
         "around",
-        "one",
         "fuzzy",
         "plush",
         "product",
@@ -1074,7 +1047,6 @@
         "mobile",
         "event",
         "combining",
-        "real",
         "city",
         "landmarks",
         "soft",
@@ -1083,7 +1055,6 @@
         "characters",
         "rounded",
         "app-card",
-        "UI",
         "framing",
         "bold",
         "festival",
@@ -1133,9 +1104,7 @@
         "VigoCookbook",
         "casual",
         "real-life",
-        "photo",
         "transformed",
-        "into",
         "playful",
         "layering",
         "original",
@@ -1150,8 +1119,6 @@
         "spirals",
         "sketchy",
         "decorative",
-        "marks",
-        "over",
         "photographic",
         "scene"
       ],
@@ -1242,23 +1209,18 @@
         "VigoCookbook",
         "realistic",
         "city",
-        "photograph",
         "oversized",
         "high-saturation",
         "flat",
-        "2D",
         "cartoon",
         "figure",
         "composited",
-        "on",
-        "top",
         "plus",
         "hand-drawn",
         "stars",
         "sparks",
         "arrows",
-        "comic",
-        "marks"
+        "comic"
       ],
       "triggers": [
         "Photo Illustration Overlay Poster"
@@ -1298,8 +1260,7 @@
       "name": "Olive Scribble Sports Poster Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Olive Scribble Sports Poster Style"
@@ -1339,8 +1300,7 @@
       "name": "Neon Plush Gadget Pop 3D Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Neon Plush Gadget Pop 3D Style"
@@ -1446,7 +1406,6 @@
         "doodles",
         "hot-pink",
         "cyan",
-        "subject",
         "outlines",
         "monster",
         "spikes",
@@ -1502,8 +1461,7 @@
       "name": "Neon Outdoor Diary Longform Collage Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Neon Outdoor Diary Longform Collage Style"
@@ -1587,8 +1545,7 @@
       "name": "Mono Noir Type Portrait Poster Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Mono Noir Type Portrait Poster Style"
@@ -1746,8 +1703,7 @@
       "name": "Market Brush Produce Poster Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Market Brush Produce Poster Style"
@@ -1787,8 +1743,7 @@
       "name": "Kinetic Luxury Street Fashion Cover Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Kinetic Luxury Street Fashion Cover Style"
@@ -1828,8 +1783,7 @@
       "name": "Kinetic Geometric Doodle Cutouts",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Kinetic Geometric Doodle Cutouts"
@@ -2052,7 +2006,6 @@
         "collage",
         "combining",
         "dramatic",
-        "real",
         "architectural",
         "photography",
         "oversized",
@@ -2159,7 +2112,6 @@
         "lifestyle",
         "close",
         "photographic",
-        "subject",
         "saturated",
         "cobalt",
         "sky",
@@ -2268,8 +2220,7 @@
       "name": "Fantasy Scribble Mascot Poster Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Fantasy Scribble Mascot Poster Style"
@@ -2477,7 +2428,6 @@
         "glowing",
         "action",
         "insert",
-        "clean",
         "cel-shaded",
         "illustration"
       ],
@@ -2519,8 +2469,7 @@
       "name": "Blue Lime Kinetic Comic Type Poster Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Blue Lime Kinetic Comic Type Poster Style"
@@ -2562,11 +2511,9 @@
       "tags": [
         "VigoCookbook",
         "premium",
-        "3D",
         "creator-tech",
         "macro",
         "product",
-        "ad",
         "HUD-heavy"
       ],
       "triggers": [
@@ -2607,8 +2554,7 @@
       "name": "Blue Halftone Ransom Zine Poster Style",
       "category": "vigo_cookbook",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Blue Halftone Ransom Zine Poster Style"
@@ -2654,7 +2600,6 @@
         "action",
         "rectangular",
         "fisheye",
-        "photograph",
         "oversized",
         "rounded",
         "royal-blue",
@@ -2662,10 +2607,8 @@
         "typography",
         "frame-breaking",
         "foreground",
-        "small",
         "editorial",
         "captions",
-        "one",
         "hand-drawn",
         "annotation",
         "circle"
@@ -2712,7 +2655,6 @@
         "handmade",
         "Chinese",
         "street-food",
-        "ad",
         "card",
         "photo-collage",
         "food",
@@ -2760,7 +2702,6 @@
         "quiet",
         "analog-future",
         "editorial",
-        "using",
         "warm",
         "cream",
         "paper",
@@ -3230,7 +3171,6 @@
       "name": "阳光3D头像营销风",
       "category": "ip_character",
       "tags": [
-        "3D",
         "头像",
         "玩具",
         "营销",
@@ -3362,7 +3302,6 @@
       "category": "travel",
       "tags": [
         "VigoCookbook",
-        "clean",
         "travel-vlog",
         "thumbnail",
         "three",
@@ -3372,13 +3311,11 @@
         "lowercase",
         "destination",
         "type",
-        "small",
         "italic",
         "travel",
         "annotations",
         "sparse",
         "hand-drawn",
-        "marks",
         "soft",
         "phone-camera",
         "editorial",
@@ -3475,7 +3412,6 @@
         "bold",
         "minimalist",
         "editorial",
-        "using",
         "low-angle",
         "hero",
         "photography",
@@ -3537,7 +3473,6 @@
         "retro",
         "environmental",
         "PSA",
-        "using",
         "symbolic",
         "object",
         "assemblage"
@@ -3580,8 +3515,7 @@
       "name": "Blue Chinese Perspective Type Canyon Style",
       "category": "print",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Blue Chinese Perspective Type Canyon Style"
@@ -3662,7 +3596,6 @@
       "category": "brand_kv",
       "tags": [
         "街潮",
-        "3D",
         "潮牌",
         "实验",
         "潮流"
@@ -3708,7 +3641,6 @@
       "category": "brand_kv",
       "tags": [
         "街潮",
-        "3D",
         "极繁主义",
         "高饱和",
         "动物",
@@ -3759,10 +3691,8 @@
         "nostalgic",
         "diary-collage",
         "portrait",
-        "large",
         "side-profile",
         "illustrated",
-        "subject",
         "cream",
         "graph-paper",
         "background",
@@ -4352,9 +4282,7 @@
       "code": "ST0208",
       "name": "复古赛车海报",
       "category": "brand_kv",
-      "tags": [
-        null
-      ],
+      "tags": [],
       "triggers": [
         "复古赛车海报",
         "复古赛车运动",
@@ -4562,14 +4490,7 @@
       "code": "ST0188",
       "name": "当代高端石墨肖像插画",
       "category": "creative",
-      "tags": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
+      "tags": [],
       "triggers": [
         "高端石墨肖像",
         "素描插画风",
@@ -4605,14 +4526,7 @@
       "code": "ST0091",
       "name": "立体插画故事书海报",
       "category": "brand_kv",
-      "tags": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
+      "tags": [],
       "triggers": [
         "立体插画故事",
         "Pop-Up 风格",
@@ -4747,7 +4661,6 @@
       "category": "ip_character",
       "tags": [
         "Pixar",
-        "3D",
         "卡通",
         "肖像",
         "角色设计",
@@ -4946,9 +4859,7 @@
       "code": "ST0098",
       "name": "粉彩产品棚拍",
       "category": "e-commerce",
-      "tags": [
-        null
-      ],
+      "tags": [],
       "triggers": [
         "粉彩产品摄影",
         "柔和背景食品摄影",
@@ -5496,12 +5407,10 @@
       "name": "吉祥物IP风格",
       "category": "ip_character",
       "tags": [
-        "IP",
         "吉祥物",
         "玩偶",
         "毛绒",
-        "可爱",
-        "H5"
+        "可爱"
       ],
       "triggers": [
         "吉祥物",
@@ -5547,7 +5456,6 @@
         "冒险岛",
         "角色转换",
         "精灵",
-        "2D",
         "MMO"
       ],
       "triggers": [
@@ -6129,14 +6037,7 @@
       "code": "ST0115",
       "name": "LAKERO 法餐点单海报",
       "category": "brand_kv",
-      "tags": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
+      "tags": [],
       "triggers": [
         "法餐菜单",
         "高端餐厅海报",
@@ -6594,7 +6495,6 @@
       "name": "膨胀花朵 3D",
       "category": "creative",
       "tags": [
-        "3D",
         "膨胀花朵",
         "C4D",
         "毛绒质感",
@@ -7626,9 +7526,7 @@
       "code": "ST0206",
       "name": "幻想旅行插画",
       "category": "creative",
-      "tags": [
-        null
-      ],
+      "tags": [],
       "triggers": [
         "幻想旅行插画",
         "Art Nouveau幻想",
@@ -7701,7 +7599,6 @@
       "name": "Exaggerated 3D Toy Illustration",
       "category": "ip_character",
       "tags": [
-        "3D",
         "卡通",
         "玩具",
         "多巴胺色",
@@ -7751,8 +7648,7 @@
       "name": "Luxury Perspective Checkerboard Editorial",
       "category": "fashion",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Luxury Perspective Checkerboard Editorial"
@@ -7792,8 +7688,7 @@
       "name": "Sunlit Architectural Fashion Editorial",
       "category": "fashion",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Sunlit Architectural Fashion Editorial"
@@ -7833,8 +7728,7 @@
       "name": "Sunlit Supermodel Nameplate Editorial",
       "category": "fashion",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Sunlit Supermodel Nameplate Editorial"
@@ -8057,7 +7951,6 @@
         "candid",
         "outdoor",
         "hiking",
-        "photograph",
         "remixed",
         "flat",
         "hand-drawn",
@@ -8117,14 +8010,11 @@
         "realistic",
         "passenger-seat",
         "transport",
-        "photo",
         "transformed",
-        "into",
         "high-energy",
         "travel",
         "central",
         "rear-view",
-        "subject",
         "electric",
         "silhouette",
         "halo",
@@ -8136,7 +8026,6 @@
         "rays",
         "purple",
         "music",
-        "marks",
         "sticker",
         "icons",
         "cyan-white",
@@ -8185,14 +8074,10 @@
         "candid",
         "low-light",
         "home",
-        "photo",
-        "large",
         "flat",
-        "2D",
         "cushion-doll",
         "companion",
         "composited",
-        "into",
         "lower",
         "foreground",
         "creating",
@@ -8206,8 +8091,7 @@
         "screen",
         "tiny",
         "handwritten",
-        "doodle",
-        "marks"
+        "doodle"
       ],
       "triggers": [
         "Cozy Bedroom Doodle Companion Snapshot Style"
@@ -8511,14 +8395,7 @@
       "code": "ST0160",
       "name": "红色马克笔草图",
       "category": "creative",
-      "tags": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
+      "tags": [],
       "triggers": [
         "红色马克笔",
         "红色草图",
@@ -8639,7 +8516,6 @@
         "logo",
         "品牌",
         "图标",
-        "3D",
         "马赛克"
       ],
       "triggers": [
@@ -8680,7 +8556,6 @@
         "overlays",
         "giant",
         "flat",
-        "2D",
         "cartoon",
         "travelers",
         "fantastical",
@@ -8689,7 +8564,6 @@
         "marker",
         "loops",
         "splash",
-        "marks",
         "comic",
         "starbursts",
         "onto",
@@ -8816,7 +8690,6 @@
       "category": "creative",
       "tags": [
         "黏土",
-        "3D",
         "文字互动",
         "极简",
         "创意海报",
@@ -9154,7 +9027,6 @@
       "category": "social_media",
       "tags": [
         "C4D",
-        "3D",
         "糖果",
         "梦幻",
         "派对",
@@ -9571,8 +9443,7 @@
       "name": "Multi-Color Beverage Splash Ad System Style",
       "category": "e-commerce",
       "tags": [
-        "VigoCookbook",
-        "Other"
+        "VigoCookbook"
       ],
       "triggers": [
         "Multi-Color Beverage Splash Ad System Style"
@@ -9660,14 +9531,7 @@
       "code": "ST0184",
       "name": "琥珀雪松",
       "category": "brand_kv",
-      "tags": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
+      "tags": [],
       "triggers": [
         "琥珀雪松",
         "顶级香氛海报",
@@ -9702,7 +9566,6 @@
       "name": "3D运动赛事海报",
       "category": "vigo_cookbook",
       "tags": [
-        "3D",
         "运动",
         "赛事",
         "卡通",

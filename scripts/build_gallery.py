@@ -324,7 +324,7 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
         <a href="https://malongan.github.io/ip-gallery/" target="_blank" class="header-nav-link" title="IP 预览">🎭 IP</a>
         <div class="search-box">
           <span class="search-icon">🔍</span>
-          <input type="text" id="searchInput" placeholder="搜索风格、标签、作者..." autofocus>
+          <input type="text" id="searchInput" placeholder="搜索名称、标签、提示词..." autofocus>
           <span class="search-clear" id="searchClear" style="display:none;">✕</span>
         </div>
         <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
@@ -348,8 +348,8 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
         <div class="sidebar-section">
           <div class="sidebar-actions">
             <select id="sortSelect" class="sort-select">
-              <option value="default">默认排序</option>
-              <option value="newest">🆕 最新添加</option>
+              <option value="code-asc">📐 编号顺序</option>
+              <option value="date-desc">🆕 最新添加</option>
               <option value="name-asc">📄 名称 A-Z</option>
               <option value="name-desc">📄 名称 Z-A</option>
               <option value="favorites">❤️ 已收藏优先</option>
