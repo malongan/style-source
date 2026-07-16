@@ -419,7 +419,7 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
         <div class="search-box">
           <span class="search-icon">🔍</span>
           <input type="text" id="searchInput" placeholder="搜索名称、标签、提示词..." autofocus>
-          <span class="search-clear" id="searchClear" style="display:none;">✕</span>
+          <button type="button" class="search-clear" id="searchClear" aria-label="清除搜索" style="display:none;">✕</button>
         </div>
         <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
       </div>
@@ -471,17 +471,17 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
     </div>
 
     <!-- Lightbox 详情弹窗 -->
-    <div class="lightbox" id="lightbox">
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle" aria-hidden="true">
       <button class="lightbox-nav lightbox-nav-prev" id="lightboxPrev" title="上一个 (←)">◀</button>
       <button class="lightbox-nav lightbox-nav-next" id="lightboxNext" title="下一个 (→)">▶</button>
       <div class="lightbox-card">
         <div class="lightbox-image-wrap">
         <picture><source srcset="" type="image/webp" class="lightbox-source"><img src="" alt="" class="lightbox-image"></picture>
-          <button class="lightbox-close" id="lightboxClose">✕</button>
+          <button type="button" class="lightbox-close" id="lightboxClose" aria-label="关闭详情">✕</button>
         </div>
         <div class="lightbox-body">
           <div class="lightbox-title-row">
-            <h2 class="lightbox-title"></h2>
+            <h2 class="lightbox-title" id="lightboxTitle"></h2>
             <div style="display:flex;align-items:center;gap:8px;">
               <span class="lightbox-index"></span>
               <button class="favorite-btn lightbox-fav-btn" title="收藏">收藏</button>

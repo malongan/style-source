@@ -16,7 +16,8 @@
     favorites: JSON.parse(localStorage.getItem('galleryFavorites') || '[]'),
     theme: localStorage.getItem('galleryTheme') || 'light',
     lightboxCurrentIndex: -1,   // 当前 Lightbox 显示的卡片索引
-    lightboxVisibleCards: []     // 当前可见卡片列表（用于导航）
+    lightboxVisibleCards: [],    // 当前可见卡片列表（用于导航）
+    lightboxTrigger: null        // 打开详情前的焦点元素
   };
 
   // 标签最小展示频次阈值（低于此值折叠到「其他」）
@@ -669,6 +670,7 @@
 
     // ESC 关闭 Lightbox + ← → 导航
     document.addEventListener('keydown', (e) => {
+      trapLightboxFocus(e);
       if (!elements.lightbox.classList.contains('show')) return;
       if (e.key === 'Escape') {
         closeLightbox();
@@ -948,8 +950,11 @@
       return true;
     }
     renderLightboxContent(extractCardData({ dataset: { id: styleId } }, styleId));
+    state.lightboxTrigger = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     elements.lightbox.classList.add('show');
+    elements.lightbox.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
+    setTimeout(function() { if (elements.lightboxClose) elements.lightboxClose.focus(); }, 0);
     state.lightboxVisibleCards = [];
     state.lightboxCurrentIndex = -1;
     updateNavButtons();
@@ -957,11 +962,30 @@
     return true;
   }
 
+  function getFocusableInLightbox() {
+    return Array.from(elements.lightbox.querySelectorAll('button:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])'))
+      .filter(function(el) { return el.offsetParent !== null; });
+  }
+  function trapLightboxFocus(e) {
+    if (e.key !== 'Tab' || !elements.lightbox.classList.contains('show')) return;
+    var focusable = getFocusableInLightbox();
+    if (!focusable.length) return;
+    var first = focusable[0], last = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault(); last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault(); first.focus();
+    }
+  }
+
   function openLightbox(card, skipHashUpdate) {
+    state.lightboxTrigger = document.activeElement instanceof HTMLElement ? document.activeElement : card;
     const data = extractCardData(card, card.dataset.id);
     renderLightboxContent(data);
     elements.lightbox.classList.add('show');
+    elements.lightbox.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
+    setTimeout(function() { if (elements.lightboxClose) elements.lightboxClose.focus(); }, 0);
     // 记录当前索引用于导航
     updateLightboxIndex(card);
     // 更新 URL hash
@@ -1121,10 +1145,14 @@
     }
   }
 
-  function closeLightbox() {    
+  function closeLightbox() {
     elements.lightbox.classList.remove('show');
+    elements.lightbox.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
     state.lightboxCurrentIndex = -1;
+    var trigger = state.lightboxTrigger;
+    state.lightboxTrigger = null;
+    if (trigger && document.contains(trigger)) setTimeout(function() { trigger.focus(); }, 0);
     // 清除 hash（不触发 popstate）
     if (window.location.hash) {
       history.pushState(null, '', window.location.pathname + window.location.search);

@@ -123,6 +123,8 @@ body {
   background: var(--bg-secondary);
   padding: 2px 8px;
   border-radius: 4px;
+  border: 0;
+  background: transparent;
   white-space: nowrap;
 }
 
@@ -183,6 +185,8 @@ body {
   padding: 1px 3px;
   line-height: 1;
   border-radius: 4px;
+  border: 0;
+  background: transparent;
   display: none;
   transition: background 0.15s;
 }
@@ -734,6 +738,8 @@ body {
   background: var(--bg-secondary);
   padding: 2px 6px;
   border-radius: 4px;
+  border: 0;
+  background: transparent;
   flex-shrink: 0;
   max-width: 80px;
   overflow: hidden;
@@ -1213,6 +1219,8 @@ body {
   height: 10px;
   margin: 8px 12px;
   border-radius: 4px;
+  border: 0;
+  background: transparent;
   background: linear-gradient(90deg, var(--bg-secondary) 25%, var(--border-color) 50%, var(--bg-secondary) 75%);
   background-size: 200% 100%;
   animation: skeleton-shimmer 1.5s ease-in-out infinite;
@@ -1373,4 +1381,14 @@ body {
 
 .loading-reveal-text.hidden {
   opacity: 0;
+}
+
+/* 尊重系统“减少动态效果”偏好 */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
