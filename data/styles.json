@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-62-g67db37d-dirty",
-    "generated": "2026-07-16T05:36:54Z",
-    "total": 206,
+    "version": "v0.7.0-before-opt-63-g3503565-dirty",
+    "generated": "2026-07-16T05:50:28Z",
+    "total": 207,
     "categories": [
       "brand_kv",
       "creative",
@@ -203,6 +203,43 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "vintage_car_vector_art",
+      "code": "ST0207",
+      "name": "复古老爷车矢量海报",
+      "category": "print",
+      "tags": [
+        null
+      ],
+      "triggers": [
+        "复古老爷车矢量",
+        "老爷车海报",
+        "经典车型矢量",
+        "汽车展示",
+        "老爷车广告"
+      ],
+      "scene": "老爷车收藏展示、汽车品牌KV、复古风格海报、车型宣传图、汽车杂志配图",
+      "ratio": "16:9",
+      "summary": "复古老爷车矢量插画海报风格，清洁粗黑线+微妙渐变，四分之三视角展车视角，品牌Logo+车型名标识系统",
+      "features": [
+        "**矢量插画风格** — 清洁粗黑线条 + 微妙渐变，平滑大胆的几何轮廓，无手绘感",
+        "**四分之三视角** — 经典汽车展示视角，车身略微压低呈现攻击性姿态，强化运动张力",
+        "**高细节轮毂与车灯** — 精密轮毂设计、璀璨车灯组，每个细节都经过矢量精细描绘",
+        "**纯色渐变背景** — 车身主色纯色背景 + 柔和光泽地面反射，营造高端展车厅质感",
+        "**品牌标识系统** — 顶部居中品牌 Logo，下方衬以车型名称（现代无衬线字体），主体车辆撑满画面",
+        "**16:9 动态构图** — 车辆占据画面主体，构图充满张力与速度感"
+      ],
+      "prompt": "{车型完整描述}，电影级细节还原\n\n四分之三视角，矢量插画风格，清洁粗黑线条 + 微妙渐变填充\n压低车身，攻击性姿态，精密轮毂详细绘制，璀璨车灯组\n\n背景：{车身主色调}纯色 + 柔和光泽地面反射\n顶部居中：{品牌名称} Logo\nLogo下方：\"{车型名称}\" 现代无衬线字体\n\n主体车辆巨大撑满画面，16:9横版比例，动态张力构图\n高端老爷车展厅质感，清晰锐利，无杂质背景干扰\n\n不要水印，不要真实Logo，不要超出构图，不要杂乱背景，不要扁平无细节。\n比例：16:9\n",
+      "variables": {},
+      "source_url": "https://x.com/ShamsAmin56/status/2077303326052651413",
+      "source_author": "ShamsAmin56",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/vintage_car_vector_art_214bfc5a.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vintage_car_vector_art_214bfc5a.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vintage_car_vector_art_214bfc5a.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "vigo_yellow_black_manga_food_zine_ad",

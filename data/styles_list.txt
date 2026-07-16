@@ -1,9 +1,10 @@
-共 206 个风格
+共 207 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
 ST0003 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
 ST0004 | 复古街头卡通海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp
+ST0207 | 复古老爷车矢量海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_car_vector_art_214bfc5a.webp
 ST0005 | Yellow Black Manga Food Zine Ad Style | https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp
 ST0006 | Y2K Mirror UI Scribble Collage Style | https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_mirror_ui_scribble_collage_0b4db919.webp
 ST0007 | Y2K Grunge Hip-Hop Cutout Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_grunge_hiphop_cutout_poster_416488a0.webp
