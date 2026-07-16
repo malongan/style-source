@@ -338,9 +338,9 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
 #app {{ display:none; }}
 /* 像素风加载画面 */
 .pixel-loader {{ position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#0d0d0d;z-index:9999; }}
-.pixel-loader-title {{ font-family:monospace;font-size:18px;color:#00ff41;letter-spacing:4px;margin-bottom:32px;text-transform:uppercase;text-shadow:0 0 8px #00ff41; }}
-.pixel-bar-wrap {{ width:240px;height:20px;background:#1a1a1a;border:2px solid #00ff41;position:relative;image-rendering:pixelated; }}
-.pixel-bar-fill {{ height:100%;width:0%;background:#00ff41;transition:width 0.1s steps(1);box-shadow:0 0 8px #00ff41 inset; }}
+.pixel-loader-title {{ font-family:monospace;font-size:18px;color:#3b82f6;letter-spacing:4px;margin-bottom:32px;text-transform:uppercase;text-shadow:0 0 8px #3b82f6; }}
+.pixel-bar-wrap {{ width:240px;height:20px;background:#1a1a1a;border:2px solid #3b82f6;position:relative;image-rendering:pixelated; }}
+.pixel-bar-fill {{ height:100%;width:0%;background:#3b82f6;transition:width 0.1s steps(1);box-shadow:0 0 8px #3b82f6 inset; }}
 .pixel-bar-wrap::after {{ content:'';position:absolute;top:-2px;left:-2px;right:-2px;bottom:-2px;background:repeating-linear-gradient(90deg,transparent 0px,transparent 8px,#0d0d0d 8px,#0d0d0d 10px);pointer-events:none; }}
 .pixel-loader-sub {{ margin-top:20px;font-family:monospace;font-size:12px;color:#666;letter-spacing:2px; }}
 .pixel-loader.fade-out {{ animation:fadeOutLoader 0.3s ease forwards; }}
