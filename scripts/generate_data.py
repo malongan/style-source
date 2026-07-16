@@ -240,9 +240,11 @@ def generate_styles_json(output_path: str):
             if isinstance(v, str):
                 v = int(v.replace('ST', ''))
             style['code'] = f'ST{v:04d}'
+            style['number'] = f'ST{v:06d}'
         else:
             numbers_map[sid] = next_number
             style['code'] = f'ST{next_number:04d}'
+            style['number'] = f'ST{next_number:06d}'
             next_number += 1
 
     # 持久化保存

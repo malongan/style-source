@@ -230,41 +230,11 @@ function renderGallery(data) {{
     c.classList.add('card-reveal');
   }});
 
-  // Plan B animation: reveal cards from center outward (after DOM is populated)
-  setTimeout(function() {{
-    var mask = document.getElementById('loadingRevealMask');
-    var textEl = document.getElementById('loadingRevealText');
-    if (textEl) textEl.classList.add('hidden');
-    var cards = grid.querySelectorAll('.style-card');
-    if (!cards.length) return;
-
-    // Calculate grid center in viewport
-    var gridRect = grid.getBoundingClientRect();
-    var centerX = (gridRect.left + gridRect.right) / 2;
-    var centerY = (gridRect.top + gridRect.bottom) / 2;
-
-    // Sort cards by distance to center (closest first)
-    var sorted = Array.from(cards).map(function(card) {{
-      var rect = card.getBoundingClientRect();
-      var cardCenterX = (rect.left + rect.right) / 2;
-      var cardCenterY = (rect.top + rect.bottom) / 2;
-      var dist = Math.hypot(cardCenterX - centerX, cardCenterY - centerY);
-      return {{ el: card, dist: dist }};
-    }}).sort(function(a, b) {{ return a.dist - b.dist; }});
-
-    // Stagger: closest card animates first, 18ms delay between each
-    sorted.forEach(function(item, i) {{
-      setTimeout(function() {{
-        item.el.classList.add('animate-in');
-      }}, i * 18);
-    }});
-
-    // Expand mask outward to cover skeleton
-    if (mask) {{
-      mask.style.transition = 'width 0.7s cubic-bezier(0.4,0,0.2,1), height 0.7s cubic-bezier(0.4,0,0.2,1), opacity 0.5s ease 0.2s';
-      mask.classList.add('done');
-    }}
-  }}, 60);
+  // 立即隐藏骨架屏遮罩（无需动画，避免与 filterCards 时序冲突）
+  var mask = document.getElementById('loadingRevealMask');
+  var textEl = document.getElementById('loadingRevealText');
+  if (textEl) textEl.classList.add('hidden');
+  if (mask) {{ mask.style.opacity = '0'; }}
   window.__renderedUpTo = firstBatch;
 
   var countEl = document.getElementById('countVisible');
