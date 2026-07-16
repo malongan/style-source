@@ -28,8 +28,11 @@ OPTIONAL_FIELDS = {
 
 VALID_CATEGORIES = [
     'social_media', 'brand_kv', 'e-commerce', 'science', 'print',
-    'ip_character', 'travel', 'fashion', 'creative', 'vigo_cookbook',
+    'ip_character', 'travel', 'fashion', 'creative', 'vigo_cookbook', 'typography',
 ]
+
+# 详情页会直接复制 prompt；过短文本通常表示只留下标题或占位内容。
+MIN_PROMPT_LENGTH = 80
 
 
 def validate_file(filepath: str, check_images: bool = False) -> tuple:
@@ -48,8 +51,8 @@ def validate_file(filepath: str, check_images: bool = False) -> tuple:
         return errors, warnings
 
     base_name = filename[:-5]  # 去掉 .yaml
-    if not base_name.replace('_', '').isalnum() or not base_name[0].isalpha():
-        errors.append(f'文件名 "{filename}" 不符合 snake_case.yaml 规范')
+    if not base_name.replace('_', '').isalnum():
+        errors.append(f'文件名 "{filename}" 仅能包含字母、数字和下划线')
 
     # 分类目录校验
     if dirname not in VALID_CATEGORIES and not dirname.startswith('_'):
@@ -80,6 +83,11 @@ def validate_file(filepath: str, check_images: bool = False) -> tuple:
             errors.append(f'字段 {field} 为空字符串')
         elif expected_type == list and len(data[field]) == 0:
             warnings.append(f'字段 {field} 为空列表')
+
+    # prompt 质量校验：它是详情页“复制提示词”的唯一内容来源。
+    prompt = data.get('prompt', '')
+    if isinstance(prompt, str) and prompt.strip() and len(prompt.strip()) < MIN_PROMPT_LENGTH:
+        errors.append(f'字段 prompt 过短（至少 {MIN_PROMPT_LENGTH} 个字符，当前 {len(prompt.strip())}）')
 
     # 标签校验
     tags = data.get('tags', [])
@@ -127,11 +135,13 @@ def main():
     parser.add_argument('--check-images', action='store_true', help='检查图片 URL 可达性')
     args = parser.parse_args()
 
+    had_errors = False
     if args.files:
         # 校验指定文件
         for filepath in args.files:
             errors, warnings = validate_file(filepath, check_images=args.check_images)
             if errors:
+                had_errors = True
                 print(f'❌ {filepath}:')
                 for e in errors:
                     print(f'  - {e}')
@@ -141,6 +151,7 @@ def main():
                     print(f'  - {w}')
             else:
                 print(f'✅ {filepath}')
+        sys.exit(1 if had_errors else 0)
     else:
         # 校验所有风格文件
         from validate_all import main as validate_all_main
