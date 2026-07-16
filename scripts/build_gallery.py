@@ -6,6 +6,7 @@ import shutil
 import argparse
 import sys
 import re
+import hashlib
 
 FALLBACK_IMG = '<div class="img-fallback" style="width:100%;aspect-ratio:3/4;background:var(--bg-secondary);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:12px;">图片加载失败</div>'
 
@@ -133,14 +134,13 @@ def build_gallery_html(data: dict, output_path: str):
             "})();"
         )
 
-    # 风格数据不再内联到 HTML，由 gallery-runtime.js 从 CDN 加载
+    # 构建内容哈希：源文件或数据不变时维持缓存命中；任一内容更新时自动刷新
     version = meta.get('version', '0.0.0').lstrip('v')
+    cache_hash = hashlib.sha256((json.dumps(data, ensure_ascii=False, sort_keys=True) + inline_css + inline_js).encode('utf-8')).hexdigest()[:12]
     total = len(styles)
 
     from datetime import datetime
-    now = datetime.now()
-    today_str = now.strftime('%Y-%m-%d %H:%M')
-    cache_hash = now.strftime('%Y%m%d%H%M')  # 用于缓存版本（精确到分钟）
+    today_str = datetime.now().strftime('%Y-%m-%d %H:%M')
     description = f'AI 风格画廊 — 收集 {total} 个 AI 绘画风格提示词，涵盖品牌KV、社交媒体、IP角色、时尚、创意等多种分类。支持预览、搜索、标签筛选、收藏。'
     base_url = 'https://malongan.github.io/style-source'
     img_preview = f'{base_url}/images/styles_previews/'
@@ -327,14 +327,7 @@ loadGallery();
         f.write(minify_js(combined_js))
     print(f'  📝 写出独立 JS:  {js_path} ({os.path.getsize(js_path)//1024}KB)')
 
-    # 生成骨架屏卡片（10 张，随机宽度模拟内容）
-    import random
-    random.seed(cache_hash)
-    widths = [(random.randint(25, 55), random.randint(55, 85)) for _ in range(10)]
-    skeleton_cards = '\n'.join(
-        f'      <div class="skeleton-card"><div class="skeleton-image"></div><div class="skeleton-bar" style="width:{w1}%"></div><div class="skeleton-bar" style="width:{w2}%"></div></div>'
-        for w1, w2 in widths
-    )
+    # 不再生成首屏卡片：由加载状态页覆盖，避免无效构建开销
 
     html = f'''<!DOCTYPE html>
 <html lang="zh-CN">
@@ -557,6 +550,21 @@ def main():
 
     os.makedirs(os.path.dirname(args.output), exist_ok=True)
     build_gallery_html(data, args.output)
+
+    # 验证构建产物关键引用，避免发布缺失资源或加载入口
+    required_markers = ('gallery.css?v=', 'gallery-runtime.js?v=', 'id="pixelLoader"', 'id="galleryLoadError"')
+    with open(args.output, 'r', encoding='utf-8') as f:
+        output = f.read()
+    missing = [marker for marker in required_markers if marker not in output]
+    if missing:
+        print(f'❌ 构建产物缺少关键标记: {", ".join(missing)}')
+        sys.exit(1)
+    for asset in ('gallery.css', 'gallery-runtime.js'):
+        asset_path = os.path.join(os.path.dirname(args.output), asset)
+        if not os.path.isfile(asset_path) or os.path.getsize(asset_path) == 0:
+            print(f'❌ 构建资源无效: {asset_path}')
+            sys.exit(1)
+    print('✅ 构建产物校验通过')
 
 
 if __name__ == '__main__':
