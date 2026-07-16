@@ -816,6 +816,29 @@ body {
   border-color: var(--accent-color);
 }
 
+/* 复制提示词按钮（仅详情页） */
+.copy-prompt-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-left: 4px;
+}
+.copy-prompt-btn:hover {
+  background: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+.copy-prompt-btn.copied {
+  background: #22c55e;
+  color: white;
+  border-color: #22c55e;
+}
+
 /* ==================== 无结果 ==================== */
 .no-results {
   text-align: center;

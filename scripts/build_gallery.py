@@ -482,6 +482,7 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
             <div style="display:flex;align-items:center;gap:8px;">
               <span class="lightbox-index"></span>
               <button class="favorite-btn lightbox-fav-btn" title="收藏">收藏</button>
+              <button type="button" class="copy-prompt-btn lightbox-copy-btn" title="复制提示词" data-id="">📋 复制提示词</button>
             </div>
           </div>
           <div class="lightbox-content">

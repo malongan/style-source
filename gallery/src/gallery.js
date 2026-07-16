@@ -795,7 +795,22 @@
       handleFavoriteToggle(btn.dataset.id, btn);
     });
 
-    // 不再生成提示词复制入口：风格码是人机协作的唯一传递标识。
+    // 复制提示词按钮 — 仅保留在详情页，卡片浏览区不增加操作负担。
+    document.addEventListener('click', function(e) {
+      var btn = e.target.closest('.lightbox-copy-btn');
+      if (!btn) return;
+      e.stopPropagation();
+      var style = getStyleByReference(btn.dataset.id);
+      if (!style) return;
+      var promptText = style.prompt || '';
+      if (!promptText) {
+        var parts = [style.name || ''];
+        if (style.triggers) parts.push('Triggers: ' + (Array.isArray(style.triggers) ? style.triggers.join(', ') : style.triggers));
+        if (style.summary) parts.push(style.summary);
+        promptText = parts.filter(Boolean).join('\n');
+      }
+      if (promptText) copyToClipboard(promptText, btn);
+    });
   }
 
   /** 复制文本到剪贴板（带反馈） */
@@ -1091,7 +1106,9 @@
       });
     }
     
-    // 提示词复制已移除：用户以风格码作为与 AI 协作的输入。
+    // 复制提示词按钮（仅详情页）
+    const copyBtn = card.querySelector('.lightbox-copy-btn');
+    if (copyBtn) copyBtn.dataset.id = data.id || '';
     
     // 图片
     const img = card.querySelector('.lightbox-image');
