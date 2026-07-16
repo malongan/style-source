@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-61-g40c91f4-dirty",
-    "generated": "2026-07-15T16:05:16Z",
-    "total": 205,
+    "version": "v0.7.0-before-opt-62-g67db37d-dirty",
+    "generated": "2026-07-16T05:36:54Z",
+    "total": 206,
     "categories": [
       "brand_kv",
       "creative",
@@ -7546,6 +7546,42 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.thumb.webp",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "fantasy_travel_illustration",
+      "code": "ST0206",
+      "name": "幻想旅行插画",
+      "category": "creative",
+      "tags": [
+        null
+      ],
+      "triggers": [
+        "幻想旅行插画",
+        "Art Nouveau幻想",
+        "幻想水彩人像",
+        "流浪艺术家",
+        "沙漠遗迹旅人"
+      ],
+      "scene": "幻想旅行海报、奇幻人像、品牌KV、文学/游戏角色设定、ArtStation风插画集",
+      "ratio": "3:4 / 9:16",
+      "summary": "Art Nouveau 装饰风格融合东方幻想的水彩旅行插画，流浪音乐家行走在古老沙漠遗迹间",
+      "features": [
+        "**幻想旅行家角色** — 中性面容、银白飘逸长发、精致五官的流浪音乐家，身着多层飘逸长袍、刺绣披风、围巾与细软珠宝",
+        "**水彩与墨染质感** — 梦幻水彩晕染、柔和墨韵、笔触细腻、钢笔淡彩线条，极具东方与中东交汇的艺术感",
+        "**Art Nouveau 装饰风格** — 新艺术派曲线、装饰性边纹、精致珠宝细节，整体散发优雅古典气质",
+        "**风吹动态效果** — 长发、围巾、飘逸长袍随风流飞舞，呈现强烈动感，营造行走天涯的诗意氛围",
+        "**古老遗迹场景** — 佩特拉、拉贾斯坦古庙、砂岩废墟、沙漠建筑背景，温暖矿物色调与柔光大气感"
+      ],
+      "prompt": "{幻想角色}，银白飘逸长发，中性面容，精致五官，复古圆形金边眼镜，层叠耳饰与戒指，{乐器}（琵琶/西塔琴/曼陀林），身着多层飘逸刺绣长袍、织锦披风、纹理围巾\n\n古老沙漠遗迹背景：佩特拉风石宫、拉贾斯坦古庙、砂岩废墟、雕刻石柱、沙漠建筑\n\n风吹效果：长发围巾随风流飘动，长袍下摆飞扬，充满行走天涯的动感\n\n水彩墨染质感，Art Nouveau装饰曲线，新艺术派线条，精致珠宝细节，极细腻笔触\n暖粉、象牙白、砂岩、腮红粉、尘土米、哑光金配色\n梦幻柔焦光照，大气薄雾，微妙飞溅效果，Art Nouveau装饰边框\n高度详细，8K，HDR，微妙光影，表情丰富，情绪宁静诗意\n超优质插画，ArtStation热门，CGSociety杰作\n\n不要水印，不要真实Logo，不要品牌名称，不要卡通风，不要拼贴感，不要电商广告感，不要乱码。\n比例：3:4\n",
+      "variables": {},
+      "source_url": "https://x.com/SimplyAnnisa/status/2077351368692785358",
+      "source_author": "SimplyAnnisa",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/fantasy_travel_illustration_e1e7ceaa.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fantasy_travel_illustration_e1e7ceaa.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fantasy_travel_illustration_e1e7ceaa.thumb.webp",
+      "created_at": ""
     },
     {
       "id": "exploded_food_infographic",
