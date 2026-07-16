@@ -72,45 +72,28 @@
   /** 从 URL search params 读取筛选状态并应用 */
   function readURLParams() {
     var params = new URLSearchParams(window.location.search);
-    var hasFilter = false;
+    // URL 是唯一状态来源：先恢复默认值，避免浏览器后退后遗留旧筛选
+    state.currentTag = params.get('tag') || 'all';
+    state.currentCategory = params.get('category') || 'all';
+    state.currentSort = ['code-asc', 'date-desc', 'name-asc', 'name-desc', 'favorites'].includes(params.get('sort')) ? params.get('sort') : 'code-asc';
+    state.searchQuery = params.get('q') || '';
+    state.showFavoritesOnly = params.get('fav') === '1';
 
-    if (params.has('q')) {
-      state.searchQuery = params.get('q');
-      if (elements.searchInput) {
-        elements.searchInput.value = state.searchQuery;
-        elements.searchClear.style.display = state.searchQuery ? 'block' : 'none';
-      }
-      hasFilter = true;
-    }
-    if (params.has('category')) {
-      state.currentCategory = params.get('category');
-      // 高亮对应的分类按钮
-      document.querySelectorAll('.category-btn').forEach(function(b) {
-        b.classList.toggle('active', b.dataset.category === state.currentCategory);
-      });
-      hasFilter = true;
-    }
-    if (params.has('tag')) {
-      state.currentTag = params.get('tag');
-      hasFilter = true;
-    }
-    if (params.has('sort')) {
-      state.currentSort = params.get('sort');
-      if (elements.sortSelect) elements.sortSelect.value = state.currentSort;
-      hasFilter = true;
-    }
-    if (params.has('fav') && params.get('fav') === '1') {
-      state.showFavoritesOnly = true;
-      if (elements.filterFavorites) elements.filterFavorites.classList.add('active');
-      hasFilter = true;
-    }
+    if (elements.searchInput) elements.searchInput.value = state.searchQuery;
+    if (elements.searchClear) elements.searchClear.style.display = state.searchQuery ? 'block' : 'none';
+    if (elements.sortSelect) elements.sortSelect.value = state.currentSort;
+    if (elements.filterFavorites) elements.filterFavorites.classList.toggle('active', state.showFavoritesOnly);
+    document.querySelectorAll('.category-btn').forEach(function(b) {
+      b.classList.toggle('active', b.dataset.category === state.currentCategory);
+    });
+    document.querySelectorAll('.tag-item').forEach(function(b) {
+      b.classList.toggle('active', b.dataset.tag === state.currentTag);
+    });
 
-    if (hasFilter) {
-      window.__cardsRendered = true;
-      var appEl = document.getElementById('app');
-      if (appEl) appEl.style.display = 'block';
-      filterCards();
-    }
+    window.__cardsRendered = true;
+    var appEl = document.getElementById('app');
+    if (appEl) appEl.style.display = 'block';
+    filterCards();
   }
 
   /** 将当前筛选状态同步到 URL search params */
@@ -717,16 +700,11 @@
     window.addEventListener('popstate', function() {
       var hash = window.location.hash.replace('#', '');
       if (hash) {
-        var card = document.querySelector('.style-card[data-id="' + CSS.escape(hash) + '"]');
-        if (card) {
-          openLightbox(card, true);
-        }
-      } else {
-        if (elements.lightbox.classList.contains('show')) {
-          closeLightbox();
-        }
+        openLightboxById(hash, true);
+      } else if (elements.lightbox.classList.contains('show')) {
+        closeLightbox();
       }
-      // 重新读取 URL params 并应用（当用户通过浏览器前进/后退改变筛选时）
+      // URL 参数每次完整恢复，避免历史导航残留状态
       readURLParams();
     });
 
@@ -867,13 +845,8 @@
   function handleRandom() {
     var styles = window.__filteredStyles || window.__allStyles || [];
     if (styles.length === 0) return;
-    var idx = Math.floor(Math.random() * styles.length);
-    var card = document.querySelector('.style-card[data-original-index="' + idx + '"]') ||
-               document.querySelector('.style-card[data-id="' + styles[idx].id + '"]');
-    if (card) {
-      card.click();
-      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+    var style = styles[Math.floor(Math.random() * styles.length)];
+    openLightboxById(style.id);
   }
 
   // ========== 清除所有筛选 ==========
@@ -966,6 +939,24 @@
   }
 
   // ========== Lightbox 信息卡片 - 左图右文 ==========
+  function openLightboxById(styleId, skipHashUpdate) {
+    var style = getStyleById(styleId);
+    if (!style) return false;
+    var card = document.querySelector('.style-card[data-id="' + CSS.escape(styleId) + '"]');
+    if (card) {
+      openLightbox(card, skipHashUpdate);
+      return true;
+    }
+    renderLightboxContent(extractCardData({ dataset: { id: styleId } }, styleId));
+    elements.lightbox.classList.add('show');
+    document.body.style.overflow = 'hidden';
+    state.lightboxVisibleCards = [];
+    state.lightboxCurrentIndex = -1;
+    updateNavButtons();
+    if (!skipHashUpdate) history.pushState(null, '', '#' + styleId);
+    return true;
+  }
+
   function openLightbox(card, skipHashUpdate) {
     const data = extractCardData(card, card.dataset.id);
     renderLightboxContent(data);
@@ -1190,18 +1181,7 @@
   /** 页面加载时根据 hash 打开对应风格 */
   function handleHashRoute() {
     var hash = window.location.hash.replace('#', '');
-    if (!hash) return;
-    var card = document.querySelector('.style-card[data-id="' + CSS.escape(hash) + '"]');
-    if (card && card.classList.contains('hidden')) {
-      // 如果卡片被筛选隐藏，清除筛选再打开
-      clearFilters();
-    }
-    if (card) {
-      // 确保卡片可见后再打开
-      setTimeout(function() {
-        openLightbox(card, true);  // skipHashUpdate=true，避免重复 pushState
-      }, 50);
-    }
+    if (hash) openLightboxById(hash, true);
   }
 
   // ========== 图片懒加载（已改为原生 loading="lazy"，保留空函数兼容） ==========
