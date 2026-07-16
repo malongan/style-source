@@ -25,6 +25,22 @@
   // 渲染批次大小
   const RENDER_BATCH = 30;
 
+  // 统一数据输出安全处理：不信任 JSON 中的文本或外链
+  function escapeHtml(value) {
+    return String(value == null ? '' : value).replace(/[&<>'"]/g, function(ch) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[ch];
+    });
+  }
+  function safeExternalUrl(value) {
+    try {
+      var url = new URL(String(value || ''), window.location.origin);
+      return (url.protocol === 'https:' || url.protocol === 'http:') ? url.href : '';
+    } catch (e) { return ''; }
+  }
+  function getStyleById(id) {
+    return (window.__allStyles || []).find(function(style) { return style.id === id; }) || null;
+  }
+
   // ========== DOM 元素 ==========
   let elements = {};
 
@@ -452,7 +468,7 @@
     categories.forEach(([cat, count]) => {
       const name = categoryNames[cat] || cat;
       const active = state.currentCategory === cat ? 'active' : '';
-      html += `<button class="category-btn ${active}" data-category="${cat}">${name} <span class="tag-count">${count}</span></button>`;
+      html += `<button class="category-btn ${active}" data-category="${escapeHtml(cat)}">${escapeHtml(name)} <span class="tag-count">${count}</span></button>`;
     });
 
     catFilter.innerHTML = html;
@@ -512,8 +528,8 @@
         html += `<div id="otherTagList" class="other-tag-list" style="display:none;"></div>`;
       } else if (tag !== 'all') {
         html += `
-          <button class="tag-item ${state.currentTag === tag ? 'active' : ''}" data-tag="${tag}">
-            ${tag}
+          <button class="tag-item ${state.currentTag === tag ? 'active' : ''}" data-tag="${escapeHtml(tag)}">
+            ${escapeHtml(tag)}
             <span class="tag-count">${count}</span>
           </button>
         `;
@@ -538,8 +554,8 @@
           var lowHtml = '';
           (window.galleryTagsLow || []).forEach(function(low) {
             var lowTag = low[0], lowCount = low[1];
-            lowHtml += '<button class="tag-item tag-item-low" data-tag="' + lowTag + '">'
-              + lowTag + ' <span class="tag-count">' + lowCount + '</span></button>';
+            lowHtml += '<button class="tag-item tag-item-low" data-tag="' + escapeHtml(lowTag) + '">'
+              + escapeHtml(lowTag) + ' <span class="tag-count">' + lowCount + '</span></button>';
           });
           otherList.innerHTML = lowHtml;
           // 绑定这些低頻标签的点击事件
@@ -938,7 +954,10 @@
         var regex = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
         if (regex.test(text)) {
           if (!titleEl.dataset.origTitle) titleEl.dataset.origTitle = text;
-          titleEl.innerHTML = text.replace(regex, '<mark class="search-highlight">$1</mark>');
+          var parts = text.split(regex);
+          titleEl.innerHTML = parts.map(function(part, index) {
+            return index % 2 ? '<mark class="search-highlight">' + escapeHtml(part) + '</mark>' : escapeHtml(part);
+          }).join('');
         }
       });
     }
@@ -961,18 +980,22 @@
   }
 
   function extractCardData(card, cardId) {
-    return {
-      id: cardId || card.dataset.id || '',
-      imageUrl: card.querySelector('.card-image')?.src || '',
-      title: card.querySelector('.card-title')?.textContent || '',
-      number: card.dataset.number || '',
-      summary: card.dataset.summary || '',
-      features: card.dataset.features?.split('|').filter(f => f) || [],
-      triggers: card.dataset.triggers || '',
-      tags: card.dataset.tags?.split(',').filter(t => t) || [],
-      link: card.querySelector('.card-link')?.href || '',
-      linkText: card.querySelector('.card-link')?.textContent || ''
-    };
+    var style = getStyleById(cardId || card.dataset.id);
+    if (style) {
+      return {
+        id: style.id || '',
+        imageUrl: safeExternalUrl(style.preview_webp || (style.preview_urls || [])[0] || ''),
+        title: style.name || '',
+        number: style.code || style.number || style.id || '',
+        summary: style.summary || '',
+        features: Array.isArray(style.features) ? style.features : [],
+        triggers: Array.isArray(style.triggers) ? style.triggers.join(', ') : (style.triggers || ''),
+        tags: Array.isArray(style.tags) ? style.tags : [],
+        link: safeExternalUrl(style.source_url || style.sourceUrl || ''),
+        linkText: style.source_author || style.sourceAuthor || ''
+      };
+    }
+    return { id: '', imageUrl: '', title: '', number: '', summary: '', features: [], triggers: '', tags: [], link: '', linkText: '' };
   }
 
   function renderLightboxContent(data) {
@@ -1068,7 +1091,12 @@
     const featuresSection = card.querySelector('.lightbox-features-section');
     const featuresList = featuresSection.querySelector('.lightbox-features');
     if (data.features.length > 0) {
-      featuresList.innerHTML = data.features.map(f => `<li>${f}</li>`).join('');
+      featuresList.replaceChildren();
+      data.features.forEach(function(feature) {
+        var item = document.createElement('li');
+        item.textContent = feature;
+        featuresList.appendChild(item);
+      });
       featuresSection.style.display = 'block';
     } else {
       featuresSection.style.display = 'none';
@@ -1078,7 +1106,13 @@
     const tagsSection = card.querySelector('.lightbox-tags-section');
     const tagsContainer = tagsSection.querySelector('.lightbox-tags');
     if (data.tags.length > 0) {
-      tagsContainer.innerHTML = data.tags.map(t => `<span class="lightbox-tag">${t}</span>`).join('');
+      tagsContainer.replaceChildren();
+      data.tags.forEach(function(tag) {
+        var tagEl = document.createElement('span');
+        tagEl.className = 'lightbox-tag';
+        tagEl.textContent = tag;
+        tagsContainer.appendChild(tagEl);
+      });
       tagsSection.style.display = 'block';
     } else {
       tagsSection.style.display = 'none';

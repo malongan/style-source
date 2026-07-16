@@ -157,6 +157,17 @@ def build_gallery_html(data: dict, output_path: str):
     # 构建渲染模板（从 gallery.js IIFE 中提取 renderGallery/buildCardHTML 替换 })
     render_js = f'''
 /* ========== 卡片渲染 ========== */
+function escapeHtml(value) {{
+  return String(value == null ? '' : value).replace(/[&<>'"]/g, function(ch) {{
+    return {{ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' }}[ch];
+  }});
+}}
+function safeExternalUrl(value) {{
+  try {{
+    var url = new URL(String(value || ''), window.location.origin);
+    return (url.protocol === 'https:' || url.protocol === 'http:') ? url.href : '';
+  }} catch (e) {{ return ''; }}
+}}
 function buildCardHTML(s, idx, total) {{
   idx = idx || 0;
   total = total || 0;
@@ -167,36 +178,32 @@ function buildCardHTML(s, idx, total) {{
   var summary = s.summary || '';
   var triggers = Array.isArray(s.triggers) ? s.triggers.join(', ') : (s.triggers || '');
   var features = (s.features || []).join('|');
-  var sourceUrl = s.sourceUrl || s.source_url || '';
+  var sourceUrl = safeExternalUrl(s.sourceUrl || s.source_url || '');
   var sourceAuthor = s.sourceAuthor || s.source_author || '';
   var linkHtml = '';
   if (sourceUrl) {{
-    linkHtml = '<a href="' + sourceUrl.replace(/"/g,'&quot;') + '" target="_blank" class="card-link">' +
-      (sourceAuthor ? '🔗 @' + sourceAuthor.replace(/"/g,'&quot;') : '🔗 来源') + '</a>';
+    linkHtml = '<a href="' + escapeHtml(sourceUrl) + '" target="_blank" rel="noopener noreferrer" class="card-link">' +
+      (sourceAuthor ? '🔗 @' + escapeHtml(sourceAuthor) : '🔗 来源') + '</a>';
   }}
   var badgeHtml = isNew ? '<span class="card-badge-new">🆕 NEW</span>' : '';
-  var imgHtml = '<picture><source srcset="' + imgUrl + '" type="image/webp"><img src="' + imgUrl + '" alt="' + s.name + '" class="card-image" loading="lazy"'
-    + ' onload="this.style.opacity=\\'1\\'" onerror="this.outerHTML=window.__FALLBACK_IMG__"></picture>';
-  var wrapStyle = thumbUrl ? (' style="background-image:url(' + thumbUrl + ');background-size:cover;background-position:center;"') : '';
-  return '<div class="style-card" tabindex="0" role="button" data-id="' + s.id + '"' +
-    ' data-code="' + (s.code || '') + '"' +
-    ' data-summary="' + summary.replace(/"/g,'&quot;') + '"' +
-    ' data-features="' + features.replace(/"/g,'&quot;') + '"' +
-    ' data-triggers="' + triggers.replace(/"/g,'&quot;') + '"' +
-    ' data-tags="' + tags + '"' +
-    ' data-number="' + (s.code || s.number || s.id || '') + '"' +
-    ' data-category="' + s.category + '"' +
-    ' data-created-at="' + (s.created_at || '') + '"' +
+  var safeImgUrl = safeExternalUrl(imgUrl);
+  var safeThumbUrl = safeExternalUrl(thumbUrl);
+  var imgHtml = '<picture><source srcset="' + escapeHtml(safeImgUrl) + '" type="image/webp"><img src="' + escapeHtml(safeImgUrl) + '" alt="' + escapeHtml(s.name) + '" class="card-image" loading="lazy"'
+    + ' onload="this.style.opacity=1" onerror="this.outerHTML=window.__FALLBACK_IMG__"></picture>';
+  var wrapStyle = safeThumbUrl ? (' style="background-image:url(&quot;' + escapeHtml(safeThumbUrl) + '&quot;);background-size:cover;background-position:center;"') : '';
+  return '<div class="style-card" tabindex="0" role="button" data-id="' + escapeHtml(s.id) + '"' +
+    ' data-code="' + escapeHtml(s.code || '') + '"' +
+    ' data-number="' + escapeHtml(s.code || s.number || s.id || '') + '"' +
+    ' data-category="' + escapeHtml(s.category || '') + '"' +
     ' data-original-index="' + idx + '">' +
     '<div class="card-image-wrap"' + wrapStyle + '>' + imgHtml + badgeHtml + '</div>' +
     '<div class="card-content">' +
       '<div class="card-title-row">' +
-        '<span class="card-number" title="点击复制编号">' + (s.code ? '#' + s.code : '#' + (s.number || s.id || '')) + '</span>' +
-        '<span class="card-category">' + (s.category || '') + '</span>' +
+        '<span class="card-number" title="点击复制编号">' + escapeHtml(s.code ? '#' + s.code : '#' + (s.number || s.id || '')) + '</span>' +
+        '<span class="card-category">' + escapeHtml(s.category || '') + '</span>' +
       '</div>' +
-      '<h3 class="card-title">' + s.name + '</h3>' +
-      '<div class="card-footer">' + linkHtml +
-      '</div>' +
+      '<h3 class="card-title">' + escapeHtml(s.name) + '</h3>' +
+      '<div class="card-footer">' + linkHtml + '</div>' +
     '</div>' +
   '</div>';
 }}
@@ -408,7 +415,7 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
         <h1 class="header-title">🎨 AI 风格库 <span class="header-update" id="headerVersion">v{today_str}</span> <span class="header-author">by malongan</span></h1>
       </div>
       <div class="header-right">
-        <a href="https://malongan.github.io/ip-gallery/" target="_blank" class="header-nav-link" title="IP 预览">🎭 IP</a>
+        <a href="https://malongan.github.io/ip-gallery/" target="_blank" rel="noopener noreferrer" class="header-nav-link" title="IP 预览">🎭 IP</a>
         <div class="search-box">
           <span class="search-icon">🔍</span>
           <input type="text" id="searchInput" placeholder="搜索名称、标签、提示词..." autofocus>
@@ -499,7 +506,7 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
               <div class="lightbox-tags"></div>
             </div>
             <div class="lightbox-section lightbox-link-section">
-              <a href="#" target="_blank" class="lightbox-link"></a>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="lightbox-link"></a>
             </div>
           </div>
         </div>
@@ -509,7 +516,7 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
 
   <!-- Footer -->
   <div class="footer" style="text-align:center; padding:40px 20px; color:var(--text-muted); font-size:13px;">
-    <p>by malongan · <a href="https://github.com/malongan/style-source" target="_blank" style="color:var(--accent-color)">GitHub</a></p>
+    <p>by malongan · <a href="https://github.com/malongan/style-source" target="_blank" rel="noopener noreferrer" style="color:var(--accent-color)">GitHub</a></p>
   </div>
 
   <!-- 回到顶部按钮 -->
