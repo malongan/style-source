@@ -225,9 +225,6 @@ function renderGallery(data) {{
   grid.innerHTML = html;
   window.__renderedUpTo = firstBatch;
 
-  var emptyEl = document.getElementById('galleryEmpty');
-  if (emptyEl) emptyEl.style.display = 'none';
-
   var countEl = document.getElementById('countVisible');
   var totalEl = document.getElementById('countTotal');
   if (countEl) countEl.textContent = styles.length;
@@ -250,42 +247,69 @@ function renderGallery(data) {{
 async function loadGallery() {{
   var bar = document.getElementById('pixelBarFill');
   var loader = document.getElementById('pixelLoader');
+  var errorPanel = document.getElementById('galleryLoadError');
+  var retryBtn = document.getElementById('galleryRetry');
+  var timeoutId = null;
 
-  function animateBar(progress) {{
+  function setProgress(progress) {{
     if (bar) bar.style.width = progress + '%';
   }}
-
-  // 模拟进度（真实场景 fetch 进度不可见，用动画模拟）
-  var steps = [15, 35, 55, 75, 90, 100];
-  var step = 0;
-  var interval = setInterval(function() {{
-    if (step < steps.length) animateBar(steps[step]);
-    step++;
-    if (step >= steps.length) clearInterval(interval);
-  }}, 180);
-
-  try {{
-    const resp = await fetch('https://malongan.github.io/style-source/data/styles.json?t=' + Date.now());
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    const data = await resp.json();
-
-    // 加载完成
-    animateBar(100);
-    setTimeout(function() {{
-      if (loader) {{
-        loader.classList.add('fade-out');
-        setTimeout(function() {{ loader.style.display = 'none'; }}, 300);
-      }}
-      // 显示空内容提示和主框架
-      var emptyEl = document.getElementById('galleryEmpty');
-      if (emptyEl) emptyEl.style.display = 'flex';
-      renderGallery(data);
-    }}, 250);
-  }} catch(e) {{
-    clearInterval(interval);
-    if (loader) {{ loader.style.display = 'none'; }}
-    console.warn('JSON 加载失败', e);
+  function showLoader() {{
+    if (errorPanel) errorPanel.style.display = 'none';
+    if (loader) {{
+      loader.classList.remove('fade-out');
+      loader.style.display = 'flex';
+    }}
+    setProgress(0);
   }}
+  function showError(message) {{
+    if (loader) loader.style.display = 'none';
+    var messageEl = document.getElementById('galleryLoadErrorMessage');
+    if (messageEl) messageEl.textContent = message;
+    if (errorPanel) errorPanel.style.display = 'flex';
+  }}
+
+  async function attemptLoad() {{
+    showLoader();
+    var steps = [15, 35, 55, 75, 90];
+    var step = 0;
+    var interval = setInterval(function() {{
+      if (step < steps.length) setProgress(steps[step]);
+      step++;
+      if (step >= steps.length) clearInterval(interval);
+    }}, 180);
+
+    var controller = new AbortController();
+    timeoutId = setTimeout(function() {{ controller.abort(); }}, 15000);
+    try {{
+      const resp = await fetch('https://malongan.github.io/style-source/data/styles.json?t=' + Date.now(), {{ signal: controller.signal }});
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const data = await resp.json();
+      if (!data || !Array.isArray(data.styles)) throw new Error('数据格式无效');
+
+      setProgress(100);
+      setTimeout(function() {{
+        if (loader) {{
+          loader.classList.add('fade-out');
+          setTimeout(function() {{ loader.style.display = 'none'; }}, 300);
+        }}
+        renderGallery(data);
+      }}, 250);
+    }} catch(e) {{
+      console.warn('JSON 加载失败', e);
+      var message = e.name === 'AbortError'
+        ? '加载超时，请检查网络后重试。'
+        : '风格库暂时无法加载，请稍后重试。';
+      showError(message);
+    }} finally {{
+      clearInterval(interval);
+      if (timeoutId) clearTimeout(timeoutId);
+      timeoutId = null;
+    }}
+  }}
+
+  if (retryBtn) retryBtn.addEventListener('click', attemptLoad);
+  attemptLoad();
 }}
 
 loadGallery();
@@ -346,12 +370,14 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
 .pixel-loader.fade-out {{ animation:fadeOutLoader 0.3s ease forwards; }}
 @keyframes fadeOutLoader {{ to{{opacity:0;pointer-events:none;}} }}
 @keyframes pixelScan {{ 0%{{background-position:0 0;}} 100%{{background-position:0 20px;}} }}
-/* 空内容提示 */
-.gallery-empty {{ position:fixed;inset:0;display:flex;align-items:center;justify-content:center;z-index:100;pointer-events:none; }}
-.gallery-empty-inner {{ text-align:center; }}
-.gallery-empty-icon {{ font-size:64px;color:#333;margin-bottom:16px;font-family:monospace; }}
-.gallery-empty-text {{ font-size:18px;color:#555;margin-bottom:8px; }}
-.gallery-empty-sub {{ font-size:13px;color:#888; }}
+/* 加载失败状态 */
+.gallery-load-error {{ position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:var(--bg-primary);z-index:9998;padding:24px; }}
+.gallery-load-error-card {{ width:min(360px,100%);text-align:center;background:var(--bg-card);border:1px solid var(--border-color);border-radius:12px;padding:28px 24px;box-shadow:var(--shadow); }}
+.gallery-load-error-icon {{ font-size:32px;margin-bottom:10px; }}
+.gallery-load-error-title {{ font-size:17px;font-weight:700;margin-bottom:8px; }}
+.gallery-load-error-message {{ font-size:13px;color:var(--text-muted);margin-bottom:18px; }}
+.gallery-retry-btn {{ border:0;border-radius:7px;background:var(--accent-color);color:#fff;padding:8px 16px;font-size:13px;cursor:pointer; }}
+.gallery-retry-btn:hover {{ background:var(--accent-hover); }}
 </style>
 <noscript><link rel="stylesheet" href="gallery.css?v={cache_hash}"></noscript>
 </head>
@@ -365,12 +391,13 @@ body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-seri
     <div class="pixel-loader-sub">LOADING DATA...</div>
   </div>
 
-  <!-- 空内容提示（数据加载后显示） -->
-  <div class="gallery-empty" id="galleryEmpty" style="display:none;">
-    <div class="gallery-empty-inner">
-      <div class="gallery-empty-icon">▦</div>
-      <div class="gallery-empty-text">选择一个分类开始浏览</div>
-      <div class="gallery-empty-sub">点击上方分类按钮加载风格</div>
+  <!-- 加载失败状态：数据请求异常时保留可见提示和重试入口 -->
+  <div class="gallery-load-error" id="galleryLoadError" style="display:none;" role="alert" aria-live="assertive">
+    <div class="gallery-load-error-card">
+      <div class="gallery-load-error-icon" aria-hidden="true">⚠️</div>
+      <div class="gallery-load-error-title">风格库加载失败</div>
+      <div class="gallery-load-error-message" id="galleryLoadErrorMessage">请检查网络后重试。</div>
+      <button type="button" class="gallery-retry-btn" id="galleryRetry">重新加载</button>
     </div>
   </div>
 

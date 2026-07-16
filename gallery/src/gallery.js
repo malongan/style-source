@@ -91,8 +91,6 @@
 
     if (hasFilter) {
       window.__cardsRendered = true;
-      var emptyEl = document.getElementById('galleryEmpty');
-      if (emptyEl) emptyEl.style.display = 'none';
       var appEl = document.getElementById('app');
       if (appEl) appEl.style.display = 'block';
       filterCards();
@@ -926,9 +924,6 @@
     // 首次调用时标记已渲染（用户操作触发）
     if (!window.__cardsRendered) {
       window.__cardsRendered = true;
-      // 首次渲染前隐藏空状态提示
-      var emptyEl = document.getElementById('galleryEmpty');
-      if (emptyEl) emptyEl.style.display = 'none';
       // 显示主内容区
       var appEl = document.getElementById('app');
       if (appEl) appEl.style.display = 'block';
