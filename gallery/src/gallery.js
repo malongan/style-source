@@ -20,8 +20,10 @@
     lightboxTrigger: null        // 打开详情前的焦点元素
   };
 
-  // 标签最小展示频次阈值（低于此值折叠到「其他」）
+    // 标签最小展示频次阈值（低于此值折叠到「其他」）
   const TAG_MIN_COUNT = 3;
+  // 仅过滤没有检索价值的通用连接词；原始标签仍保留在数据档案中。
+  const TAG_STOPWORDS = new Set(['a', 'an', 'and', 'as', 'at', 'by', 'for', 'from', 'in', 'into', 'of', 'on', 'or', 'the', 'to', 'using', 'with', 'without', 'clean', 'large', 'real', 'subject']);
 
   // 渲染批次大小
   const RENDER_BATCH = 30;
@@ -38,8 +40,12 @@
       return (url.protocol === 'https:' || url.protocol === 'http:') ? url.href : '';
     } catch (e) { return ''; }
   }
-  function getStyleById(id) {
-    return (window.__allStyles || []).find(function(style) { return style.id === id; }) || null;
+  function getStyleByReference(reference) {
+    var normalized = String(reference || '').replace(/^#/, '').toLowerCase();
+    return (window.__allStyles || []).find(function(style) {
+      return String(style.id || '').toLowerCase() === normalized ||
+        String(style.code || style.number || '').toLowerCase() === normalized;
+    }) || null;
   }
 
   // ========== DOM 元素 ==========
@@ -80,6 +86,12 @@
     state.searchQuery = params.get('q') || '';
     state.showFavoritesOnly = params.get('fav') === '1';
 
+    var styleRef = params.get('style');
+    if (styleRef) {
+      var style = getStyleByReference(styleRef);
+      if (style) setTimeout(function() { openLightboxById(style.id, true); }, 0);
+    }
+
     if (elements.searchInput) elements.searchInput.value = state.searchQuery;
     if (elements.searchClear) elements.searchClear.style.display = state.searchQuery ? 'block' : 'none';
     if (elements.sortSelect) elements.sortSelect.value = state.currentSort;
@@ -114,6 +126,7 @@
   function cacheElements() {
     elements = {
       searchInput: document.getElementById('searchInput'),
+      tagSearchInput: document.getElementById('tagSearchInput'),
       searchClear: document.getElementById('searchClear'),
       themeToggle: document.getElementById('themeToggle'),
       filterFavorites: document.getElementById('filterFavorites'),
@@ -166,7 +179,7 @@
       tags.forEach(tag => {
         if (tag == null) return;
         const tagText = tag.trim();
-        if (tagText) {
+        if (tagText && !TAG_STOPWORDS.has(tagText.toLowerCase())) {
           if (!tagsMap[tagText]) tagsMap[tagText] = 0;
           tagsMap[tagText]++;
         }
@@ -479,12 +492,30 @@
     filterCards();
   }
 
+  function filterVisibleTagButtons(query) {
+    var normalized = String(query || '').trim().toLowerCase();
+    var tagList = document.querySelector('.tag-list');
+    if (!tagList) return;
+    tagList.querySelectorAll('.tag-item[data-tag]').forEach(function(button) {
+      var match = !normalized || button.dataset.tag.toLowerCase().includes(normalized);
+      button.hidden = !match;
+    });
+    var otherToggle = document.getElementById('otherTagToggle');
+    if (otherToggle) otherToggle.hidden = Boolean(normalized);
+    var divider = tagList.querySelector('.other-tag-divider');
+    if (divider) divider.hidden = Boolean(normalized);
+  }
+
   function renderSidebarTags() {
     const sidebar = document.querySelector('.sidebar');
     const tagList = sidebar && sidebar.querySelector('.tag-list');
     if (!tagList) return;
 
-    const tags = Object.entries(window.galleryTags || {});
+    let tags = Object.entries(window.galleryTags || {});
+    tags = tags.filter(function(entry) {
+      var tag = entry[0];
+      return tag === 'all' || tag === '_other' || !TAG_STOPWORDS.has(String(tag).toLowerCase());
+    });
     tags.sort((a, b) => {
       // all 排第一，_other 排最后
       if (a[0] === 'all') return -1;
@@ -521,6 +552,7 @@
     });
 
     tagList.innerHTML = html;
+    if (elements.tagSearchInput) filterVisibleTagButtons(elements.tagSearchInput.value);
     
     // 绑定标签按钮事件
     tagList.querySelectorAll('.tag-item').forEach(btn => {
@@ -574,6 +606,11 @@
     if (elements.searchInput) {
       elements.searchInput.addEventListener('input', debounce(handleSearch, 300));
     }
+    if (elements.tagSearchInput) {
+      elements.tagSearchInput.addEventListener('input', function(e) {
+        filterVisibleTagButtons(e.target.value);
+      });
+    }
     
     // 搜索清除按钮
     if (elements.searchClear) {
@@ -599,7 +636,8 @@
       // / 键聚焦搜索（不在输入框中时）
       if (e.key === '/' && !e.ctrlKey && !e.metaKey && 
           document.activeElement?.tagName !== 'INPUT' && 
-          document.activeElement?.tagName !== 'TEXTAREA') {
+          document.activeElement?.tagName !== 'TEXTAREA' &&
+          document.activeElement?.tagName !== 'SELECT') {
         e.preventDefault();
         if (elements.searchInput) elements.searchInput.focus();
       }
@@ -757,24 +795,7 @@
       handleFavoriteToggle(btn.dataset.id, btn);
     });
 
-    // 复制提示词按钮 — 事件委托（Lightbox 内）
-    document.addEventListener('click', function(e) {
-      var btn = e.target.closest('.copy-prompt-btn');
-      if (!btn) return;
-      e.stopPropagation();
-      var styleId = btn.dataset.id;
-      var styles = window.__allStyles || [];
-      var s = styles.find(function(st) { return st.id === styleId; });
-      if (!s) return;
-      var promptText = s.prompt || '';
-      if (!promptText) {
-        var parts = [s.name];
-        if (s.triggers) parts.push('Triggers: ' + s.triggers);
-        if (s.summary) parts.push(s.summary);
-        promptText = parts.join('\n');
-      }
-      copyToClipboard(promptText, btn);
-    });
+    // 不再生成提示词复制入口：风格码是人机协作的唯一传递标识。
   }
 
   /** 复制文本到剪贴板（带反馈） */
@@ -942,7 +963,7 @@
 
   // ========== Lightbox 信息卡片 - 左图右文 ==========
   function openLightboxById(styleId, skipHashUpdate) {
-    var style = getStyleById(styleId);
+    var style = getStyleByReference(styleId);
     if (!style) return false;
     var card = document.querySelector('.style-card[data-id="' + CSS.escape(styleId) + '"]');
     if (card) {
@@ -995,7 +1016,7 @@
   }
 
   function extractCardData(card, cardId) {
-    var style = getStyleById(cardId || card.dataset.id);
+    var style = getStyleByReference(cardId || card.dataset.id);
     if (style) {
       return {
         id: style.id || '',
@@ -1070,11 +1091,7 @@
       });
     }
     
-    // 复制提示词按钮（Lightbox）
-    const copyBtn = card.querySelector('.lightbox-copy-btn');
-    if (copyBtn && data.id) {
-      copyBtn.dataset.id = data.id;
-    }
+    // 提示词复制已移除：用户以风格码作为与 AI 协作的输入。
     
     // 图片
     const img = card.querySelector('.lightbox-image');

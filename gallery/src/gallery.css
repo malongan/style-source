@@ -123,8 +123,6 @@ body {
   background: var(--bg-secondary);
   padding: 2px 8px;
   border-radius: 4px;
-  border: 0;
-  background: transparent;
   white-space: nowrap;
 }
 
@@ -391,6 +389,29 @@ body {
   gap: 6px;
   padding: 10px 14px 0 14px;
 }
+
+.tag-search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 10px 10px 0;
+  padding: 5px 8px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-muted);
+}
+.tag-search-wrap:focus-within { border-color: var(--accent-color); }
+.tag-search-wrap input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  color: var(--text-primary);
+  background: transparent;
+  font-size: 12px;
+}
+.tag-search-wrap input::placeholder { color: var(--text-muted); }
 
 /* 标签列表 - 可滚动 */
 .tag-list {
@@ -690,7 +711,7 @@ body {
 }
 
 .style-card:hover .card-image {
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 .card-content {
@@ -738,8 +759,6 @@ body {
   background: var(--bg-secondary);
   padding: 2px 6px;
   border-radius: 4px;
-  border: 0;
-  background: transparent;
   flex-shrink: 0;
   max-width: 80px;
   overflow: hidden;
@@ -795,31 +814,6 @@ body {
   background: var(--accent-color);
   color: white;
   border-color: var(--accent-color);
-}
-
-/* 复制提示词按钮 */
-.copy-prompt-btn {
-  background: transparent;
-  border: 1px solid var(--border-color);
-  color: var(--text-secondary);
-  border-radius: 5px;
-  padding: 4px 8px;
-  font-size: 11px;
-  cursor: pointer;
-  transition: all 0.2s;
-  margin-left: 4px;
-}
-
-.copy-prompt-btn:hover {
-  background: var(--accent-color);
-  color: white;
-  border-color: var(--accent-color);
-}
-
-.copy-prompt-btn.copied {
-  background: #22c55e;
-  color: white;
-  border-color: #22c55e;
 }
 
 /* ==================== 无结果 ==================== */
@@ -1219,8 +1213,6 @@ body {
   height: 10px;
   margin: 8px 12px;
   border-radius: 4px;
-  border: 0;
-  background: transparent;
   background: linear-gradient(90deg, var(--bg-secondary) 25%, var(--border-color) 50%, var(--bg-secondary) 75%);
   background-size: 200% 100%;
   animation: skeleton-shimmer 1.5s ease-in-out infinite;
