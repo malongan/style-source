@@ -211,6 +211,7 @@ function renderGallery(data) {{
   var app = document.getElementById('app');
   if (loading) loading.style.display = 'none';
   if (app) app.style.display = 'block';
+
   var grid = document.querySelector('.gallery-grid');
   if (!grid) return;
 
@@ -223,6 +224,47 @@ function renderGallery(data) {{
     html += buildCardHTML(styles[i], i, totalStyles);
   }}
   grid.innerHTML = html;
+
+  // Add card-reveal class to all rendered cards
+  grid.querySelectorAll('.style-card').forEach(function(c) {{
+    c.classList.add('card-reveal');
+  }});
+
+  // Plan B animation: reveal cards from center outward (after DOM is populated)
+  setTimeout(function() {{
+    var mask = document.getElementById('loadingRevealMask');
+    var textEl = document.getElementById('loadingRevealText');
+    if (textEl) textEl.classList.add('hidden');
+    var cards = grid.querySelectorAll('.style-card');
+    if (!cards.length) return;
+
+    // Calculate grid center in viewport
+    var gridRect = grid.getBoundingClientRect();
+    var centerX = (gridRect.left + gridRect.right) / 2;
+    var centerY = (gridRect.top + gridRect.bottom) / 2;
+
+    // Sort cards by distance to center (closest first)
+    var sorted = Array.from(cards).map(function(card) {{
+      var rect = card.getBoundingClientRect();
+      var cardCenterX = (rect.left + rect.right) / 2;
+      var cardCenterY = (rect.top + rect.bottom) / 2;
+      var dist = Math.hypot(cardCenterX - centerX, cardCenterY - centerY);
+      return {{ el: card, dist: dist }};
+    }}).sort(function(a, b) {{ return a.dist - b.dist; }});
+
+    // Stagger: closest card animates first, 18ms delay between each
+    sorted.forEach(function(item, i) {{
+      setTimeout(function() {{
+        item.el.classList.add('animate-in');
+      }}, i * 18);
+    }});
+
+    // Expand mask outward to cover skeleton
+    if (mask) {{
+      mask.style.transition = 'width 0.7s cubic-bezier(0.4,0,0.2,1), height 0.7s cubic-bezier(0.4,0,0.2,1), opacity 0.5s ease 0.2s';
+      mask.classList.add('done');
+    }}
+  }}, 60);
   window.__renderedUpTo = firstBatch;
 
   var countEl = document.getElementById('countVisible');
@@ -303,11 +345,20 @@ loadGallery();
 body {{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary); }}
 #app {{ display:none; }}
 .loading-skeleton {{ padding:20px 0;text-align:center;color:var(--text-muted); }}
+.loading-reveal-mask {{ position:fixed;top:50%;left:50%;width:0;height:0;border-radius:50%;background:var(--bg-primary);transform:translate(-50%,-50%);z-index:999;pointer-events:none;opacity:1; }}
+.loading-reveal-mask.done {{ width:400vmax;height:400vmax;opacity:0;transition:width 0.7s cubic-bezier(0.4,0,0.2,1),height 0.7s cubic-bezier(0.4,0,0.2,1),opacity 0.5s ease 0.2s; }}
+.style-card.card-reveal {{ opacity:0; }}
+@keyframes cardReveal {{ 0%{{opacity:0;transform:scale(0.88) translateY(14px);filter:blur(3px);}} 100%{{opacity:1;transform:scale(1) translateY(0);filter:blur(0);}} }}
+.style-card.card-reveal.animate-in {{ animation:cardReveal 0.45s cubic-bezier(0.25,0.46,0.45,0.94) forwards; }}
+.loading-reveal-text {{ position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-size:14px;color:var(--text-muted);z-index:1000;pointer-events:none;opacity:1;transition:opacity 0.3s ease;white-space:nowrap; }}
+.loading-reveal-text.hidden {{ opacity:0; }}
 </style>
 <noscript><link rel="stylesheet" href="gallery.css?v={cache_hash}"></noscript>
 </head>
 <body>
-  <div id="loading" class="loading-skeleton">
+  <div class="loading-reveal-mask" id="loadingRevealMask"></div>
+<div class="loading-reveal-text" id="loadingRevealText">正在加载风格库...</div>
+<div id="loading" class="loading-skeleton">
     <div class="skeleton-grid">
       {skeleton_cards}
     </div>

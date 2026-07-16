@@ -1310,3 +1310,70 @@ body {
   box-shadow: 0 6px 16px rgba(96,165,250,0.5);
 }
 
+
+
+/* ================================================
+   Plan B Loading Animation: Center-out reveal
+   ================================================ */
+
+.loading-reveal-mask {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: var(--bg-primary);
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.loading-reveal-mask.done {
+  width: 400vmax;
+  height: 400vmax;
+  opacity: 0;
+  transition: width 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+              height 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.5s ease 0.2s;
+}
+
+.style-card.card-reveal {
+  opacity: 0;
+}
+
+@keyframes cardReveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.88) translateY(14px);
+    filter: blur(3px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: blur(0);
+  }
+}
+
+.style-card.card-reveal.animate-in {
+  animation: cardReveal 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.loading-reveal-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: var(--text-muted);
+  z-index: 1000;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+.loading-reveal-text.hidden {
+  opacity: 0;
+}
