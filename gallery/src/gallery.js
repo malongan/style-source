@@ -391,7 +391,7 @@
     elements.galleryGrid.after(sentinel);
     
     window.__scrollObserver = new IntersectionObserver(function(entries) {
-      if (entries[0].isIntersecting) {
+      if (entries[0].isIntersecting && window.__cardsRendered) {
         renderNextBatch();
       }
     }, { rootMargin: '400px' });

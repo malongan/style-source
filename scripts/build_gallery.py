@@ -208,6 +208,10 @@ function renderGallery(data) {{
   window.__renderedUpTo = 0;
   window.__cardsRendered = false;  // 强制守卫：初始为空页面
 
+  // 数据已就绪：展示筛选框架，但不预渲染任何卡片
+  var app = document.getElementById('app');
+  if (app) app.style.display = 'block';
+
   var grid = document.querySelector('.gallery-grid');
   if (grid) grid.innerHTML = '';  // 清空，不渲染任何卡片
 
