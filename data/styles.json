@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-81-gbc1d531-dirty",
-    "generated": "2026-07-19T09:20:01Z",
-    "total": 210,
+    "version": "v0.7.0-before-opt-82-g4ce04b4-dirty",
+    "generated": "2026-07-19T09:43:20Z",
+    "total": 214,
     "categories": [
       "brand_kv",
       "creative",
@@ -3865,6 +3865,48 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "soft_sweet_macro_portrait",
+      "code": "ST0211",
+      "name": "清透柔软甜感近距写真",
+      "category": "social_media",
+      "tags": [
+        "甜感写真",
+        "近距裁切",
+        "植物主体",
+        "梦幻层次",
+        "清透色调",
+        "棚拍质感"
+      ],
+      "triggers": [
+        "清透甜感",
+        "巨大柔软物压近",
+        "水蜜桃写真",
+        "近距压迫感",
+        "半透明纱感"
+      ],
+      "scene": "朋友圈头像、社媒封面、日常分享、头像",
+      "ratio": "16:9",
+      "summary": "以巨型近景柔软主形体压迫镜头、人物从后方宁静凝视的清透甜感写真，融合精致棚拍与梦幻造型",
+      "features": [
+        "**超大近景主形体** — 主题物/水果/道具被极度放大占据前景，表面柔软体积、圆润起伏、湿润高光与细小纹理孔点",
+        "**后方凝视关系** — 人物被主形体局部遮挡，只露出眼神/面部重心，形成巨大柔软物压近镜头、安静凝视从后方浮出的第一眼张力",
+        "**清透浅亮背景** — 干净、低信息密度，通风感和柔焦光线托住主体，可加半透明纱感覆盖物营造梦幻包裹感",
+        "**高明度色调** — 大面积高明度干净底色、柔和透亮主体色、少量清晰强调色，高光水润不油腻，阴影轻薄不发灰",
+        "**精致棚拍×梦感造型质感** — 皮肤、织物、软体表面和透明层次都要细腻，避免普通写真或可爱道具平铺"
+      ],
+      "prompt": "围绕任意主题对象生成一张清透、亲近、带有柔软甜感的视觉作品：让主题转化为一个被极度放大的近景主形体，占据画面前景的大部分视觉重量，表面具有可触摸的柔软体积、圆润起伏、湿润高光与细小纹理孔点，使它既像道具又像情绪载体；主体身份或角色贴近这个主形体，被它局部遮挡，只露出最有记忆点的眼神、面部重心或情绪焦点，形成\"巨大柔软物压近镜头，安静凝视从后方浮出\"的第一眼关系。背景保持干净、浅亮、低信息密度，以通风感和柔焦光线托住主体，不抢夺前景；可加入一层轻薄半透明的覆盖物、纱感边缘或主题派生的细小附着装饰，让画面有微妙的包裹感和梦幻层次。色彩从主题自身的材质、情绪与象征中提取，映射为大面积高明度干净底色、柔和透亮的主体色、少量清晰强调色和克制的暗部结构，保留明亮轻快、清洁通透、饱和度受控的关系；高光要水润而不油腻，阴影要轻薄而不发灰，整体避免脏旧、烟熏、厚重复古感。构图强调近距离裁切、前景压迫与后方凝视的尺度反差，边缘可以被自然截断，手部或支撑元素只作为温柔接触和尺度提示出现。最终质感应像精致棚拍与梦感造型结合，皮肤、织物、软体表面和透明层次都要细腻，但不要变成普通写真、普通产品图或只有可爱道具的平铺场景。\n\n——————\n画面换成: 巨型{object}贴近镜头，人物从后方安静凝视，保持柔软甜感和浅亮背景\n发朋友圈用: 做一张清透亲近的人像风格图，适合头像、封面或日常分享\n尺寸要求: 横版 16:9，不要加大段文字，保留近景裁切和半透明纱感层次\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2073403641869009289",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/soft_sweet_macro_portrait_670e218b.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/soft_sweet_macro_portrait_670e218b.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/soft_sweet_macro_portrait_670e218b.thumb.webp",
+      "number": "ST000211",
+      "created_at": ""
+    },
+    {
       "id": "soft_lifestyle_product_ad",
       "code": "ST0209",
       "name": "清爽生活产品广告视觉",
@@ -4619,6 +4661,48 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "quiet_thinking_informative_portrait",
+      "code": "ST0212",
+      "name": "安静思考感信息化视觉",
+      "category": "social_media",
+      "tags": [
+        "信息化视觉",
+        "聊天界面",
+        "杂志版式",
+        "信息层叠",
+        "人像写真",
+        "情绪纪实"
+      ],
+      "triggers": [
+        "安静思考感",
+        "聊天界面人像",
+        "信息化视觉",
+        "思绪可视化",
+        "私密笔记风"
+      ],
+      "scene": "小红书封面、暗恋/想念/等待回复的情绪内容",
+      "ratio": "16:9",
+      "summary": "以私密笔记和聊天界面混合排版包围主体，将思绪、消息和标注温柔可视化的信息层叠人像",
+      "features": [
+        "**近距主形体** — 主体占据画面中部偏下，姿态保持停顿/凝视/倾听/等待状态",
+        "**思绪轨迹可视化** — 细白线条画出大幅弧形轨迹、节点圆点和轻微断开的连接线，将视线带向不同信息层",
+        "**柔和虚化背景** — 保持真实空间或主题派生环境，留出足够空域承载文字和图形",
+        "**杂志×聊天界面混合排版** — 大标题为第一视觉锚点，关键词用强调色点亮；小段文字、注释块、圆角气泡和时间标记分散在空域中",
+        "**清透低饱和色调** — 从主题材质提取，大面积低饱和清透底色、柔和中明度主体色、极少量高明度强调色"
+      ],
+      "prompt": "围绕任意主题对象生成一张带有安静思考感的信息化视觉：主体以近距离主形体占据画面中部偏下位置，姿态或形态保持停顿、凝视、倾听、等待的状态，周围不是热闹叙事，而是用细白线条画出大幅弧形轨迹、节点圆点和轻微断开的连接线，像思绪从主体身边绕行并把视线带向不同信息层。背景保持柔和虚化的真实空间或主题派生环境，留出足够空域承载文字和图形，前景可有少量主题相关的平面物件作为尺度与日常感锚点。信息层采用杂志版式与聊天界面的混合语言：一处大标题用厚重无衬线字形成第一视觉锚点，少量关键词用主题派生强调色点亮；其余小段文字、注释块、圆角对话气泡和微型时间标记分散在空域中，字号差异明显但节奏克制，像私人笔记、内心旁白和即时讯息同时漂浮。色彩从主题自身的材质、情绪和环境中提取，映射为大面积低饱和清透底色、柔和中明度主体色、干净的深浅结构层、极少量高明度强调色与白色信息线条，保持冷静、轻盈、亲近的情绪；明度层次要清晰，阴影柔软，饱和度受控，画面有通风感和透明层次，避免脏灰、厚重复古或过度装饰。整体质感像带真实摄影底子的编辑设计，细节可读但不拥挤，最重要的是让主题对象看起来被可视化的思绪、消息和标注温柔包围。\n\n——————\n画面对象：图书馆窗边等待消息的{subject}，{props}作为日常线索\n小红书封面用：适合表达{emotion}的情绪内容\n其他要求：人物近景居中偏下，消息气泡不要太多，统一输出 横版 16:9\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2073403641869009289",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.thumb.webp",
+      "number": "ST000212",
+      "created_at": ""
+    },
+    {
       "id": "premium_graphite_portrait",
       "code": "ST0188",
       "name": "当代高端石墨肖像插画",
@@ -5279,6 +5363,48 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.thumb.webp",
       "number": "ST000198",
+      "created_at": ""
+    },
+    {
+      "id": "night_flash_celebration_portrait",
+      "code": "ST0213",
+      "name": "夜间闪光庆典写真",
+      "category": "social_media",
+      "tags": [
+        "夜间闪光",
+        "私密庆典",
+        "纱感遮罩",
+        "近景写真",
+        "暗场对比",
+        "超现实"
+      ],
+      "triggers": [
+        "夜间闪光感",
+        "纱感写真",
+        "私密庆典",
+        "闪光人像",
+        "暗场甜感写真"
+      ],
+      "scene": "个人写真封面、甜感但不幼稚的社交媒体头像、夜间氛围肖像",
+      "ratio": "16:9",
+      "summary": "被强闪光照亮、轻纱包裹、桌面仪式物点缀的夜间暗场甜感私密庆典人像",
+      "features": [
+        "**强闪光照亮核心** — 主体近距居中，被强闪光照亮，周围大面积深暗背景托住，仅留远处微弱反光",
+        "**蓬松半透明纱罩** — 主形体上方/后侧包裹轻纱般的遮罩体量，像柔软云团或仪式冠冕扩大轮廓",
+        "**对称近景支撑结构** — 两侧安排支撑动作，将小型圆润晶亮符号物贴近核心，形成被珍藏被簇拥的亲密姿态",
+        "**暗场清透色调** — 背景低明度结构场、主体干净明亮高光层、透明遮罩清透浅色，强调色以小面积高饱和亮点集中",
+        "**胶片质感与精细刻画并存** — 直接闪光、轻微胶片颗粒、亮面反射、柔焦边缘，整体像被瞬间定格的私密庆典"
+      ],
+      "prompt": "围绕任意主题对象生成一张带有夜间闪光摄影感的精致视觉图像：主题主形体近距离置于画面中心，第一眼读到的是被强闪光照亮的清晰核心，周围由大面积深暗背景托住，只留下少量远处微弱反光作为空间暗示。主形体上方与后侧包裹一层蓬松、半透明、轻纱般的遮罩体量，像柔软云团或仪式冠冕一样扩大轮廓，既遮挡边缘又制造梦幻包围感；主体两侧安排对称的近景支撑动作或附着结构，把主题派生的小型圆润、晶亮、可串联的符号物贴近核心，形成被珍藏、被簇拥的亲密姿态。前景低处放置少量与主题同源的微型仪式物和透明容器，尺度较小但细节明亮，用来建立甜美、俏皮、略带超现实的桌面舞台感。色彩从主题自身材质、情绪和叙事中提取：背景承担低明度结构场，主体保持干净明亮的高光层，半透明遮罩使用清透浅色与柔软灰阶，强调色只以小面积高饱和亮点集中在支撑结构附近、前景和局部边缘，形成明亮洁净、甜感充足但不浑浊的情绪；即使主题换色，也要保留暗场对比、透明层次、清晰色阶和点状强调的面积关系。画面质感为直接闪光、轻微胶片颗粒、亮面反射、柔焦边缘与精细核心材质刻画并存，整体像一场被瞬间定格的私密庆典，避免普通棚拍、平铺陈列或缺少包围遮罩与点状亮色节奏的结果。\n\n——————\n画面想拍: {scene}的近景写真，手边保留{props}的私密庆典感\n发朋友圈用: 做一张甜感但不幼稚的个人写真封面，整体仍是夜间闪光暗场\n尺寸和文字: 横版 16:9，画面底部可保留一行短英文小标题，不要复杂排版\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2073403641869009289",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/night_flash_celebration_portrait_ff5b2426.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/night_flash_celebration_portrait_ff5b2426.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/night_flash_celebration_portrait_ff5b2426.thumb.webp",
+      "number": "ST000213",
       "created_at": ""
     },
     {
@@ -8195,6 +8321,48 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dreamy_watercolor_travel_f8ac7a28.thumb.webp",
       "number": "ST000151",
       "created_at": "2026-07-01T13:57:42+08:00"
+    },
+    {
+      "id": "dreamlike_info_overlay_portrait",
+      "code": "ST0214",
+      "name": "梦境信息叠层写真",
+      "category": "social_media",
+      "tags": [
+        "信息叠层",
+        "梦境快照",
+        "界面排版",
+        "柔焦背景",
+        "人像写真",
+        "私密感"
+      ],
+      "triggers": [
+        "梦境信息层",
+        "界面叠在人像上",
+        "私密梦境快照",
+        "白色信息层叠",
+        "社媒界面风"
+      ],
+      "scene": "朋友圈个人写真封面、私密感社交媒体头像、梦境氛围肖像",
+      "ratio": "3:4",
+      "summary": "白色信息界面叠加在柔焦人像之上的私密梦境快照，主体仍是情绪焦点，文字和图标制造包围感与记忆残影",
+      "features": [
+        "**近距离真实影像** — 主体以高度写实形态略偏离中心，保留清晰表情、轮廓与材质细节",
+        "**柔焦梦境空间** — 背景处理成大面积柔焦环境场，光斑和模糊块形成梦境般的空间纵深",
+        "**白色信息界面叠在影像上** — 超大标题沿画面边缘被裁切形成边框压力，主标题落在主体附近，与主体保持遮挡或贴近",
+        "**社媒×杂志×梦境混合排版** — 日期、短横线、社交图标、位置符号、圆点分页、竖排文字构成多重阅读路径",
+        "**冷静清透低饱和色调** — 低饱和背景大面积铺陈、主体中等明度色块、高亮白信息层，带孤独梦感"
+      ],
+      "prompt": "围绕任意主题对象生成一张带摄影质感的信息叠层视觉：主题主形体以近距离真实影像或高度写实形态出现，位置略偏离中心，保留清晰可辨的关键表情、轮廓或材质细节；背景处理成大面积柔焦环境场，光斑和模糊块形成梦境般的空间纵深，让主体像从流动现实中被短暂定格。画面最强的图形机制是白色信息界面压在影像之上：一组超大粗黑体或圆润重字重标题沿画面边缘被局部裁切，形成强烈边框压力；另一组主标题以大字号落在主体附近，短句断行清楚，和主体保持轻微遮挡或贴近关系；细小说明文字、日期式信息、短横线、社交图标、位置符号、圆点分页和竖排文字分布在四周，构成像社交应用界面、杂志封面和梦境档案混合的阅读路径。字体以高亮白为信息色，粗细对比明显，字距干净，图标保持线性简洁，所有文字只承担节奏、层级和界面感，不强行复制固定语义。色彩从主题自身的材质、环境和情绪中提取，保留低饱和背景大面积铺陈、主体中等明度色块、少量清晰强调色和高亮白信息层的关系；整体要冷静、柔雾、清透而带一点孤独梦感，暗部保持干净，亮部像隔着雾化玻璃发光，颗粒噪点、轻微泛光和胶片灰雾只用于增加空气厚度，不让画面变脏、陈旧或浑浊。最终效果应像一张被数字界面标注过的私密梦境快照，信息密度高但层级清楚，主体仍然是情绪焦点，边缘文字和图标制造包围感、漂浮感与记忆残影。\n\n——————\n画面想换成：{scene_description}，回头/回看镜头，保留柔焦城市背景和白色界面叠字\n发朋友圈用：做一张有私密梦境感的个人写真封面，不要变成商业广告\n保留文字感觉：大标题可写 {title_text}，周围保留日期、图标和短句信息层\n尺寸：竖版 3:4\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2073403641869009289",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/dreamlike_info_overlay_portrait_8d0f000a.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dreamlike_info_overlay_portrait_8d0f000a.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dreamlike_info_overlay_portrait_8d0f000a.thumb.webp",
+      "number": "ST000214",
+      "created_at": ""
     },
     {
       "id": "doodle_style_poster_1",

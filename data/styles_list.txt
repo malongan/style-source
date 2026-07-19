@@ -1,4 +1,4 @@
-共 210 个风格
+共 214 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -77,6 +77,7 @@ ST0072 | 3D街潮实验室海报 | https://malongan.github.io/style-source/image
 ST0073 | 3D 极繁街潮海报 | https://malongan.github.io/style-source/images/styles_previews/street_3d_maximalist_9224fd66.webp
 ST0074 | Analog Sticker Diary Portrait Poster Style | https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.webp
 ST0075 | Stamp Movie Poster - 日本邮票电影海报 | https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.webp
+ST0211 | 清透柔软甜感近距写真 | https://malongan.github.io/style-source/images/styles_previews/soft_sweet_macro_portrait_670e218b.webp
 ST0209 | 清爽生活产品广告视觉 | https://malongan.github.io/style-source/images/styles_previews/soft_lifestyle_product_ad_afc3c398.webp
 ST0076 | 软胶黏土马卡龙活动海报 | https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_5e36600e.webp
 ST0077 | 软胶黏土3D卡通露营KV | https://malongan.github.io/style-source/images/styles_previews/soft_clay_camping_kv_5e36600e.webp
@@ -94,6 +95,7 @@ ST0087 | 复古未来主义科幻海报 | https://malongan.github.io/style-sourc
 ST0088 | 复古饮料广告 | https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.webp
 ST0089 | Retro Cel Animation | https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.webp
 ST0090 | 写实摄影 | https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp
+ST0212 | 安静思考感信息化视觉 | https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.webp
 ST0188 | 当代高端石墨肖像插画 | https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.webp
 ST0091 | 立体插画故事书海报 | https://malongan.github.io/style-source/images/styles_previews/pop_up_storybook_poster_6a76b88b.webp
 ST0092 | 童趣前卫艺术展海报 | https://malongan.github.io/style-source/images/styles_previews/playful_avantgarde_poster_be32ed45.webp
@@ -109,6 +111,7 @@ ST0100 | 东方古代壁画展览海报 | https://malongan.github.io/style-sourc
 ST0194 | 东方幻想游记封面 | https://malongan.github.io/style-source/images/styles_previews/oriental_fantasy_travel_cover_309781f1.webp
 ST0101 | Object Illustration Combo - 真实物体插画融合 | https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp
 ST0198 | North Fold 科考档案海报 | https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.webp
+ST0213 | 夜间闪光庆典写真 | https://malongan.github.io/style-source/images/styles_previews/night_flash_celebration_portrait_ff5b2426.webp
 ST0102 | 新年礼盒 | https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp
 ST0103 | 莫比乌斯海底珊瑚邮局 | https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp
 ST0195 | 现代东方校庆纪念海报 | https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.webp
@@ -173,6 +176,7 @@ ST0149 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/i
 ST0150 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp
 ST0190 | 迪拜城市旅行海报 Risograph 风格 | https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_73dcf2a5.webp
 ST0151 | 梦幻水彩旅行插画 | https://malongan.github.io/style-source/images/styles_previews/dreamy_watercolor_travel_f8ac7a28.webp
+ST0214 | 梦境信息叠层写真 | https://malongan.github.io/style-source/images/styles_previews/dreamlike_info_overlay_portrait_8d0f000a.webp
 ST0152 | Mountain Trail Monster Doodle Poster Style | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp
 ST0153 | Backseat Transit Doodle Letter Poster Style | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp
 ST0154 | Cozy Bedroom Doodle Companion Snapshot Style | https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp

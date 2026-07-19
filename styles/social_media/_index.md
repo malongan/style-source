@@ -17,3 +17,7 @@
 | sky_blue_doodle | #涂鸦 #小红书 #生活 |  | 9:16 或 16:9 |
 | sticker_style_poster | #VigoCookbook #nostalgic #diary-collage |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | summer_dopamine | #夏日 #多巴胺 #潮流3D |  | 4:3 |
+| quiet_thinking_informative_portrait | #信息化视觉 #聊天界面 #杂志版式 |  | 16:9 |
+| soft_sweet_macro_portrait | #甜感写真 #近距裁切 #植物主体 |  | 16:9 |
+| dreamlike_info_overlay_portrait | #信息叠层 #梦境快照 #界面排版 |  | 3:4 |
+| night_flash_celebration_portrait | #夜间闪光 #私密庆典 #纱感遮罩 |  | 16:9 |
