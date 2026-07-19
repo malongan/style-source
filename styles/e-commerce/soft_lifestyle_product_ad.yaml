@@ -1,0 +1,38 @@
+# 清爽生活产品广告视觉
+
+id: soft_lifestyle_product_ad
+name: "清爽生活产品广告视觉"
+category: e-commerce
+
+tags:
+  - 产品摄影
+  - 日系生活
+  - 柔光拍摄
+  - 商品海报
+  - 清新广告
+
+triggers:
+  - 清爽广告
+  - 日系产品
+  - 柔光美图
+  - 生活感产品
+
+features:
+  - "**柔和近景主物** — 产品靠近镜头，占据画面主要视觉重量，表面保留材质细节（微绒、细孔、色斑或真实触感）"
+  - "**明亮居家日光** — 侧后方漫入的高键柔光，阴影极浅、反差低、空气透明，背景退成柔和光斑"
+  - "**纯白文字排版** — 大面积白色文字压在上半部和左侧空域，日系明朝感字形（圆润端点、略带手写温度），字距宽松"
+  - "**轻巧手绘装饰** — 细白线手绘括号/气泡线，底部角落低饱和粉雾色圆形贴纸（手画白描圈+松散手写字）"
+  - "**温暖自然色系** — 乳白/浅灰背景，主物承担鲜明但不刺眼的季节色，承托面温暖天然浅色，绿植少量清新点缀"
+
+scene: "社交媒体产品海报、手作烘焙食帖、生活方式品牌主图"
+ratio: "3:4"
+summary: "把产品放在浅色自然承托面上，搭配素净居家日光的柔和背景、纯白文字排版与手绘小装饰，呈现清爽高质感的生活方式广告视觉"
+
+prompt: |
+  Clean lifestyle advertising visual centered around {products}. Close-up of the main subject placed on a light natural-textured handmade surface, soft and voluminous, delicate edges, with perceptible texture details on the surface (fine fuzz, pores, slight mottling, or real tactile feel corresponding to the subject). Background recedes into bright clean domestic daylight space, shallow depth of field turning distant objects, fabric patterns, greenery and window highlights into soft bokeh, leaving only gentle seasonal atmosphere. Information layer uses large-area pure white text positioned in the upper portion and left space. Main title uses high-contrast, rounded terminals, slightly hand-drawn warm Mincho-style typography, loose letter spacing, generous line height; title horizontally spreads and creates off-center balance with the main subject. Secondary text reduced to lightweight handwriting style, pausing in two lines along the left white space. Top adds fine white hand-drawn brackets or bubble lines. Bottom corner features a low-saturation pastel or theme-derived soft round sticker with hand-drawn white outline and loose handwritten text inside. Color follows the theme: background high-key, low-saturation, clean warm off-white and light gray; main subject carries the most vivid but not harsh seasonal color {product_color}; surface uses warm natural light tone as middle layer; greenery or theme accents only as minimal fresh bright spots. Overall light: high-key soft light diffusing from side-back, very shallow shadows, low contrast, transparent air. Avoid hard commercial studio lighting, heavy dark tones, complex decorations.
+  No watermark, no real logo, no e-commerce ad feel.
+
+source_url: "https://x.com/xiaoxiaodong01/status/2078657941876703724?s=20"
+source_author: "小小东"
+
+# 配图: images/styles_previews/soft_lifestyle_product_ad_afc3c398.webp

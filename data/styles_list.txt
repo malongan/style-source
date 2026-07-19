@@ -1,4 +1,4 @@
-共 208 个风格
+共 209 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -77,6 +77,7 @@ ST0072 | 3D街潮实验室海报 | https://malongan.github.io/style-source/image
 ST0073 | 3D 极繁街潮海报 | https://malongan.github.io/style-source/images/styles_previews/street_3d_maximalist_9224fd66.webp
 ST0074 | Analog Sticker Diary Portrait Poster Style | https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.webp
 ST0075 | Stamp Movie Poster - 日本邮票电影海报 | https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.webp
+ST0209 | 清爽生活产品广告视觉 | https://malongan.github.io/style-source/images/styles_previews/soft_lifestyle_product_ad_afc3c398.webp
 ST0076 | 软胶黏土马卡龙活动海报 | https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_5e36600e.webp
 ST0077 | 软胶黏土3D卡通露营KV | https://malongan.github.io/style-source/images/styles_previews/soft_clay_camping_kv_5e36600e.webp
 ST0078 | 天蓝家居生活涂鸦海报 | https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.webp
