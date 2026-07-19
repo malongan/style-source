@@ -21,3 +21,7 @@
 | soft_sweet_macro_portrait | #甜感写真 #近距裁切 #植物主体 |  | 16:9 |
 | dreamlike_info_overlay_portrait | #信息叠层 #梦境快照 #界面排版 |  | 3:4 |
 | night_flash_celebration_portrait | #夜间闪光 #私密庆典 #纱感遮罩 |  | 16:9 |
+| ST0215 | 商业成长社群人像视觉 | [@小小东](https://x.com/xiaoxiaodong01/status/2073402053997834484) | 人像海报 |
+| ST0216 | 冷静精确信息设计肖像 | [@小小东](https://x.com/xiaoxiaodong01/status/2073402053997834484) | 人像海报 |
+| ST0217 | 强信息层级观点海报 | [@小小东](https://x.com/xiaoxiaodong01/status/2073402053997834484) | 人像海报 |
+| ST0218 | 编辑感文化海报 | [@小小东](https://x.com/xiaoxiaodong01/status/2073402053997834484) | 人像海报 |
