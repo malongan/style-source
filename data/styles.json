@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-82-g4ce04b4-dirty",
-    "generated": "2026-07-19T09:43:20Z",
-    "total": 214,
+    "version": "v0.7.0-before-opt-83-g93788f9-dirty",
+    "generated": "2026-07-19T09:56:55Z",
+    "total": 218,
     "categories": [
       "brand_kv",
       "creative",
@@ -4740,6 +4740,45 @@
       "created_at": ""
     },
     {
+      "id": "precise_info_design_portrait",
+      "code": "ST0215",
+      "name": "冷静精确信息设计肖像",
+      "category": "social_media",
+      "tags": [
+        "portrait",
+        "information design",
+        "editorial",
+        "黑白摄影",
+        "橙色强调"
+      ],
+      "triggers": [
+        "人物专访封面",
+        "活动预约海报",
+        "信息设计肖像"
+      ],
+      "scene": "人物专访封面、活动预约页、朋友圈单图发布",
+      "ratio": "9:10",
+      "summary": "被强视觉系统组织的冷静精确肖像，裁切、线框、遮挡与文字共同制造记忆点",
+      "features": [
+        "**大胆裁切偏移** — 主体偏移一侧，半透明暗部遮挡层切过另一侧，形成被看见与被遮蔽的张力",
+        "**强调色线框** — 高饱和直角线框穿过主体外侧，作为结构性强调而非装饰纹样",
+        "**多层文字组织** — 左侧大号粗字标题，中段疏朗英文/数字节奏，边缘竖排第二阅读层",
+        "**黑白灰摄影场** — 大面积低饱和明暗价值阶，暗部干净有层次，轻微颗粒质感",
+        "**清透克制色彩** — 黑白灰主导，点缀主题派生高饱和强调色，避免脏旧浑浊"
+      ],
+      "prompt": "围绕{subject_type}生成一张冷静、精确、带信息设计感的视觉作品：{subject_description}以肖像般的近距离主形体占据画面核心，右侧或一侧保持最清晰的识别焦点，另一侧被半透明的暗部遮挡层、柔焦阴影或材质雾面切过，形成\"被看见与被遮蔽同时存在\"的第一眼张力。主体不要完整展示，使用大胆裁切、局部放大和中心偏移，让面部、物体表面或主题关键结构成为沉默的主视觉。叠加一条由主题情绪提取的高饱和强调色线框，线条像路径、界面边界或行动轨迹一样穿过主体外侧，先以直角框住上半部，再在下方转成大弧线收束，线宽清晰，面积很小但视觉权重强，成为结构性强调而不是装饰花纹。画面加入多层文字信息：左侧使用大号粗字建立标题重量，中段使用疏朗的英文或数字节奏制造呼吸，边缘加入细长竖排或窄字距文字作为第二阅读层，底部放低权重说明信息；所有文字只承担版式节奏和信息秩序，不复制任何既有品牌或广告语。色彩从主题自身的材质、情绪和语义中提取，保留大面积低饱和明暗摄影场、清晰黑白灰价值阶、少量主题派生高饱和强调色、明亮干净的信息文字和轻微颗粒质感的关系；整体应是冷静精确、清透克制但有行动感的色彩情绪，暗部要干净有层次，强调色边界利落，避免脏旧、浑浊或随意复古。最终效果像一张被强视觉系统组织过的主题肖像，文字、遮挡、裁切和线框共同制造记忆点，不能退化成普通人物照、普通信息海报或只有文字堆叠的平面排版。\n——————\n{subject_override}\n使用位置：{scene_spec}\n保留信息：{text_spec}，{size_spec}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/precise_info_design_portrait_11fab4ee.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/precise_info_design_portrait_11fab4ee.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/precise_info_design_portrait_11fab4ee.thumb.webp",
+      "number": "ST000215",
+      "created_at": ""
+    },
+    {
       "id": "pop_up_storybook_poster",
       "code": "ST0091",
       "name": "立体插画故事书海报",
@@ -7186,6 +7225,45 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "growth_community_portrait",
+      "code": "ST0216",
+      "name": "商业成长社群人像视觉",
+      "category": "social_media",
+      "tags": [
+        "portrait",
+        "event poster",
+        "personal brand",
+        "社群营销",
+        "摄影感"
+      ],
+      "triggers": [
+        "成长社群海报",
+        "个人品牌主视觉",
+        "商业人像"
+      ],
+      "scene": "成长社群招募海报、个人品牌主视觉、商业发布会KV",
+      "ratio": "9:16",
+      "summary": "冷静可靠的精英化商业人像视觉，近景回望人物与背景叠印形成距离感",
+      "features": [
+        "**近景人物回望** — 主形体清晰锚点，略带侧身回望的冷静姿态，轮廓干净，写实质感",
+        "**背景叠印影像** — 织物/纸张颗粒底场上叠低透明放大人物影像，营造记忆与影响力的距离感",
+        "**色块结构梁** — 横向实色块穿过人物背后被遮挡，制造前后关系和行动感",
+        "**多级文字信息** — 上方大号厚重中文标题，中段英文/数字，底部品牌级收束",
+        "**精英化商业色调** — 低明度沉稳底场，深色服装压重，高明度信息色，少量高饱和行动色"
+      ],
+      "prompt": "围绕{person_type}生成一张商业成长社群感的人像视觉：画面以近景人物主形体作为最清晰的视觉锚点，人物略带侧身回望的冷静姿态，轮廓边缘干净，五官与服装保持写实质感；背景不是普通场景，而是一面带细微织物、纸张或墙面颗粒的深浅层次底场，叠入一张被放大的低透明人物影像，让它像记忆、声量或公众影响力一样压在后方，只保留脸部与轮廓的隐约存在，形成前景真实人物与背景巨幅影像之间的距离感。文字作为视觉结构的一部分出现：上方使用大号厚重中文标题形成第一信息冲击，字形端正有力量，局部可用主题派生的金属感或温润亮色强调关键词；中下部用小号英文或数字信息形成克制的商业秩序；底部以品牌级标题和短句收束，排版居中、字距稳定、层级清楚。加入几条横向实色块作为结构梁，穿过人物背后并被人物遮挡，制造清晰的前后关系、节奏和社群招募海报的行动感。色彩从主题人物的行业气质、品牌语义和情绪温度中提取：大面积背景承担低明度、低饱和的沉稳结构色，人物服装与阴影使用干净深色压住重量，标题和关键信息使用高明度低噪点的信息色，少量强调块使用主题派生的高饱和行动色，占比小但位置明确；整体保持冷静、可靠、精英化的商业情绪，明暗对比清晰，质感厚实但不脏，纹理只增加专业和年代感，不削弱人物面部的洁净度。最终效果要像一张为个人品牌、成长组织或商业发布打造的强识别主视觉，第一眼读到人物气场和标题压力，第二眼读到背景影像、色块遮挡、纹理和信息层级的精密组织。\n——————\n画面{subject_spec}\n发布场景: {scene_spec}\n文字重点: {text_spec}\n输出尺寸: {ratio_spec}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/growth_community_portrait_70536bbc.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/growth_community_portrait_70536bbc.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/growth_community_portrait_70536bbc.thumb.webp",
+      "number": "ST000216",
+      "created_at": ""
+    },
+    {
       "id": "grotesque_doodle_style",
       "code": "ST0131",
       "name": "Grotesque Doodle Style - 怪诞手绘风插画",
@@ -8099,6 +8177,46 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "editorial_culture_poster",
+      "code": "ST0217",
+      "name": "编辑感文化海报",
+      "category": "social_media",
+      "tags": [
+        "editorial",
+        "culture poster",
+        "portrait",
+        "明朝体",
+        "留白"
+      ],
+      "triggers": [
+        "文化海报",
+        "公众号封面",
+        "展览海报",
+        "访谈宣传"
+      ],
+      "scene": "公众号封面、活动预告首图、文化机构展览海报、书店活动海报",
+      "ratio": "9:10",
+      "summary": "克制清透的文化海报，大面积空白与竖向大字标题形成编辑感，影像文字互相制衡",
+      "features": [
+        "**大面积明亮空白** — 空白成为主要结构场，提供强烈呼吸感和通风感",
+        "**沉稳黑白主形体** — 主题对象压于下方偏一侧，保留真实影像细节与柔和灰阶",
+        "**竖向大字标题立柱** — 极大字号核心中文竖排标题，宋体/明朝体气质，字距疏朗",
+        "**展览目录秩序感** — 顶部细小辅助信息与符号纹理，底部细线/日期数字入口",
+        "**极克制用色** — 只留高明度底色+深色结构+中间灰阶，强调色仅短促出现"
+      ],
+      "prompt": "围绕{subject_type}生成一张克制、清透、带强烈编辑感的信息视觉：让大面积明亮空白成为主要结构场，主题对象以沉稳的黑白主形体压在画面下方偏一侧，保留真实影像般的细节、柔和灰阶和清晰轮廓，形成安静而有分量的第一视觉。另一侧放置极大字号的核心中文标题，采用竖向阅读节奏、粗细对照明显的宋体或明朝体气质，字距疏朗，像一根视觉立柱一样与主体形成张力；顶部或边缘加入很小的辅助信息、细密说明和符号纹理，制造展览目录般的秩序感。底部信息层使用细线、日期数字或短句建立阅读入口，文字大小层级明确，留出充足呼吸空间。色彩从主题自身的材质、情绪和文化语义中提取，只保留高明度干净底色、清晰深色结构、柔和中间灰阶和极少量主题派生强调色的关系；强调色只在关键信息处短促出现，带来冷静精确中的一点醒目情绪，整体保持明亮、洁净、通风感，避免脏灰、做旧、烟雾和装饰性堆叠。画面完成度应像严谨文化海报：影像、标题和微小信息互相制衡，最重要的是空白的压力、文字的重量和主题对象的沉静存在感。\n——————\n{subject_override}\n{scene_spec}\n文字要求: {text_spec}\n尺寸: {ratio_spec}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/editorial_culture_poster_8ccb5e76.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/editorial_culture_poster_8ccb5e76.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/editorial_culture_poster_8ccb5e76.thumb.webp",
+      "number": "ST000217",
+      "created_at": ""
+    },
+    {
       "id": "editorial",
       "code": "ST0148",
       "name": "Sunlit Supermodel Nameplate Editorial",
@@ -8132,7 +8250,7 @@
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/editorial_culture_poster_8ccb5e76.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.thumb.webp",
@@ -9615,6 +9733,45 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.thumb.webp",
       "number": "ST000175",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "bold_opinion_quote_poster",
+      "code": "ST0218",
+      "name": "强信息层级观点海报",
+      "category": "social_media",
+      "tags": [
+        "quote poster",
+        "portrait",
+        "typography",
+        "观点海报",
+        "高对比"
+      ],
+      "triggers": [
+        "观点海报",
+        "金句海报",
+        "知识账号观点海报"
+      ],
+      "scene": "金融知识账号朋友圈、小红书观点海报、知识博主名言海报",
+      "ratio": "3:4",
+      "summary": "高对比黑白观点海报，人物侧像+大面积留白+局部色块强调+装饰性引号",
+      "features": [
+        "**大尺度主视觉** — 近距离裁切实体形象占据一侧，黑白/低彩度质感，局部越过文字区域",
+        "**巨型装饰引号** — 引号作为第一视觉停顿，厚重无衬线正文建立节奏，短句分行清晰",
+        "**关键词色块强调** — 关键词放入高饱和小面积色块中，紧贴字面形成强烈视觉冲击",
+        "**高明度洁净留白** — 大面积留白+极轻点阵/波纹纹理，流动感但不抢信息",
+        "**强烈阅读路径** — 主视觉压场→引号带入观点→高亮关键词→署名/标识收束"
+      ],
+      "prompt": "围绕{theme}生成一张强信息层级的视觉海报：画面由一个大尺度主视觉与一组短句式核心观点构成，主视觉以近距离裁切的{subject}占据一侧，采用黑白或低彩度质感处理，边缘干净利落，局部越过文字区域形成前后层次；背景保持大面积高明度洁净留白，并铺设极轻的主题派生点阵、波纹或微结构纹理，让空白有流动感但不抢主信息。文字区以巨大的装饰性引号作为第一视觉停顿，正文使用厚重无衬线字体建立节奏，短句分行清晰，关键词被放入高饱和小面积色块中，色块紧贴字面形成强烈强调，其余文字用深色结构色保持清楚、理性、可信。色彩从主题自身的材质、情绪或品牌语义中提取：大面积背景维持明亮、清透、通风感，主视觉承担稳定的深浅价值对比，强调色只在关键词块、局部图形或小型信息点中出现，面积少但饱和度高，形成干净、有纪律的视觉冲击；整体避免浑浊和陈旧感，保持高对比、清晰边界、少色而有力。信息布局要有强烈的阅读路径：先看到主视觉压场，再被引号带入观点，最后落到高亮关键词和小型署名/标识信息；所有辅助图形都服务于权威感、秩序感和记忆点，不做装饰堆叠。\n——————\n画面{subject_spec}\n发布场景: {scene_spec}\n保留文字: {text_spec}\n尺寸: {ratio_spec}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/bold_opinion_quote_poster_78b99125.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_opinion_quote_poster_78b99125.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_opinion_quote_poster_78b99125.thumb.webp",
+      "number": "ST000218",
+      "created_at": ""
     },
     {
       "id": "bold_monoline_mascot",
