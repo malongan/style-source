@@ -1,4 +1,4 @@
-共 218 个风格
+共 219 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -200,6 +200,7 @@ ST0166 | 黏土文字互动海报 | https://malongan.github.io/style-source/imag
 ST0167 | 电影级爆炸分解视图广告海报 | https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp
 ST0168 | Chibi Q 版角色 | https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp
 ST0201 | 炭笔素描风格 | https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlxiua.webp
+ST0219 | 角色设定板 | https://malongan.github.io/style-source/images/styles_previews/character_design_sheet_6d52feb7.webp
 ST0169 | 角色设计档案 | https://malongan.github.io/style-source/images/styles_previews/character_design_archive_7dd1a0c3.webp
 ST0170 | chang_e_goddess | https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.webp
 ST0171 | CBT 超凡产品摄影 | https://malongan.github.io/style-source/images/styles_previews/cbt_ultra_product_4d012250.webp
