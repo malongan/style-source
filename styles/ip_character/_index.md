@@ -11,3 +11,4 @@
 | pixar_cartoon_portrait | #Pixar #3D #卡通 |  | 3:4（默认） |
 | retro_cel_animation | #azed_ai #推文收集 #Retro_Cel_Animation |  | 3:4 / 4:3 |
 | sunny_3d | #3D #头像 #玩具 |  | 9:16 或 16:9 |
+| character_design_sheet | #角色设定 #角色一致性 #动画角色 #IP设计 | 动画/漫剧角色设计、游戏立绘、品牌IP | 3:4 |

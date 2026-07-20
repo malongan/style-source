@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-83-g93788f9-dirty",
-    "generated": "2026-07-19T09:56:55Z",
-    "total": 218,
+    "version": "v0.7.0-before-opt-84-g4fd13db-dirty",
+    "generated": "2026-07-20T06:01:16Z",
+    "total": 219,
     "categories": [
       "brand_kv",
       "creative",
@@ -9400,6 +9400,48 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.thumb.webp",
       "number": "ST000201",
+      "created_at": ""
+    },
+    {
+      "id": "character_design_sheet",
+      "code": "ST0219",
+      "name": "角色设定板",
+      "category": "ip_character",
+      "tags": [
+        "角色设定",
+        "角色一致性",
+        "动画角色",
+        "IP设计",
+        "多角度展示",
+        "表情系统"
+      ],
+      "triggers": [
+        "角色设定板",
+        "角色一致性",
+        "角色设计表",
+        "角色转面",
+        "character sheet"
+      ],
+      "scene": "动画/漫剧角色设计、游戏立绘设定、品牌IP/吉祥物标准档案、团队协作时的角色圣经",
+      "ratio": "3:4",
+      "summary": "一套锁定角色统一形象的完整设定板提示词模板，包含从信息区到手部动作的11个标准化模块，确保角色在后续所有生成中保持一致。",
+      "features": [
+        "**多模块设定板版式** — 11 个标准模块：信息区、配色系统、主身份展示（正/侧/背+站姿+身高比例线）、轮廓剪影、表情系统（8张+5张微表情）、头部结构、姿态变化、情绪特写、服装细节、手部动作",
+        "**一致性锁定核心** — 所有模块必须是同一个角色，脸型、发型、服装、比例完全一致，主展示区域最大最清晰作为统一参照",
+        "**极简专业背景** — 纯白或极简浅色背景，干净专业的技术型设定板版式，标签清晰",
+        "**完整配色系统** — 6-8个主色块色板，统一角色色彩体系",
+        "**全角度覆盖** — 正面+四分之三侧面+侧面+背面，头部四分之三/侧面/仰视/俯视，轮廓剪影正侧面对照"
+      ],
+      "prompt": "生成一张高精度\"角色设定板\"，用于锁定同一角色的统一形象。\n基于上传的参考图或以下描述，生成完整角色设定板。所有模块必须是同一个角色，禁止脸型、发型、服装、比例发生任何漂移。\n\n【基础设定】\n风格：【写实3D / 动漫 / 半写实 / IP设计】\n角色描述：【填写详细描述，或说明已上传参考图】\n性别 / 年龄 / 体型：【填写】\n风格关键词：【高级感 / 科技感 / 情绪化 / 未来感 等】\n背景：纯白或极简浅色\n版式：干净、专业、技术型设定板\n要求：无水印、无Logo、标签清晰\n\n【必须包含模块】\n1. 顶部信息区（名字、身份、年龄、性格关键词3-5个、核心主题描述）\n2. 配色系统（6-8个主色块）\n3. 主身份展示（最大区域）：正面 + 四分之三侧面 + 侧面 + 背面 + 标准站姿 + 身高比例线\n4. 轮廓剪影（正面 + 侧面）\n5. 表情系统（8张）：平静、好奇、紧张、惊讶、害怕、悲伤、坚定、放松\n6. 微表情（5张）\n7. 头部结构（四分之三、侧面、仰视、俯视）\n8. 姿态变化（放松、紧张、自信）\n9. 情绪特写（胸部以上强情绪近景）\n10. 服装细节（发型、材质、配饰、鞋子）\n11. 手部动作（放松、紧张、指向、抓握、接触面部）\n\n【一致性要求】\n所有模块必须是同一个角色，脸型、发型、身体比例、服装完全一致。\n主展示区域必须最大、最清晰，作为统一参照。\n请输出完整、专业、结构清晰的角色设定板。\n不要水印，不要Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/derek_wall90176/status/2078652931700936839",
+      "source_author": "Derek Wen｜德里克文",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/character_design_sheet_6d52feb7.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/character_design_sheet_6d52feb7.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/character_design_sheet_6d52feb7.thumb.webp",
+      "number": "ST000219",
       "created_at": ""
     },
     {
