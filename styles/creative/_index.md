@@ -47,6 +47,7 @@
 | trendy_bubble_letter_portrait | #潮流视觉 #泡泡字 #高明度 |  | 16:9 / 3:4 / 9:16 |
 | ultra_fisheye_urban_portrait | #鱼眼 #广角 #城市 #人像 #街拍 | 城市街拍、时尚摄影、音乐专辑封面、创意广告 | 3:4 |
 | vintage_streetwear_cartoon_poster | #街頭復古 #單色海報 #1930s動畫 |  | 1:1 / 3:4 / 9:16 / 16:9 |
+| vintage_mascot_poster | #复古吉祥物 #橡皮管动画 #丝网印刷 #四色 #1920s #美式复古 | 复古品牌联名 T 恤图案、吉祥物周边、怀旧海报 | 4:5 |
 | xray_scan | #X光扫描 #医疗科幻 #霓虹青色 #科学可视化 |  | 3:4 |
 | character_design_archive | #角色设计 #概念设定 #蓝图美学 #多视图 #素描 #标注图 | 角色设计、游戏概念、动画设定、时尚设计、产品造型 | 3:4 |
 | blueprint_editorial_sketch | #蓝图美学 #时尚素描 #数字绘画 #混合媒介 #建筑草图 | 时尚大片、人像艺术、数字插画、混合媒介设计、概念艺术 | 9:16 |

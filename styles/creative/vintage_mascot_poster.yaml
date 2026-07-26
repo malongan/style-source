@@ -1,0 +1,41 @@
+# 复古吉祥物海报
+
+id: vintage_mascot_poster
+name: "复古吉祥物海报"
+category: creative
+
+tags:
+  - vintage
+  - mascot
+  - rubber_hose
+  - screen_print
+  - retro
+  - poster
+  - tshirt_graphics
+
+triggers:
+  - 复古吉祥物
+  - 复古卡通海报
+  - 复古印花
+  - 橡皮管动画风
+  - vintage mascot
+
+features:
+  - "**复古吉祥物角色** — 橡皮管动画风格（rubber hose）人物和动物，穿大鞋子、圆滚滚四肢、派切眼（pie-cut eyes）、简单笑脸"
+  - "**4色印刷感** — 仅使用 [COLOR1]、[COLOR2]、[COLOR3]、[COLOR4] 四种颜色，奶油色纸张背景"
+  - "**丝网印刷质感** — 轻微套印不准（register misalignment）、做旧砂粒感、圆形印章图形、下部棋盘格条纹"
+  - "**大字标题 + 标语** — 顶部粗圆无衬线大标题 [TITLE]，底部粗圆标语 [TAGLINE]"
+  - "**4:5 竖版排版** — 干净的复古 T 恤图案感，平色无渐变，简洁构图"
+
+scene: "复古品牌联名 T 恤图案、怀旧海报设计、吉祥物周边、复古美式风格品牌 KV"
+ratio: "4:5"
+summary: "橡皮管动画风格的复古吉祥物海报，丝网印刷质感，四色限定，典型 1920-30s 美式复古平面设计"
+
+prompt: |
+  Vintage mascot poster in a vertical 4:5 layout on a cream paper background using only [COLOR1], [COLOR2], [COLOR3], and [COLOR4]. At the top, place the bold rounded headline "[TITLE]". In the center, show a rubber hose style [HUMAN] wearing [CLOTHES] walking beside [ANIMAL] through [BACKGROUND], both with pie-cut eyes, simple smiling faces, thick clean outlines, rounded limbs, oversized shoes, and a playful mid-step pose. Add subtle register misalignment in the outlines and fills, light distressed screen-print grain, a simple circular stamp graphic, and a horizontal checker stripe near the lower section. At the bottom, place the bold rounded tagline "[TAGLINE]". Clean retro t-shirt graphic, flat colors, no gradients, crisp simple composition.
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/Goodmanprotocol/status/2080890330409553978"
+source_author: "Goodmanprotocol"
+
+# 配图: images/styles_previews/vintage_mascot_poster_524c7282.webp
