@@ -20,3 +20,4 @@
 | osmanthus_tea_seasonal_poster | #现代极简 #季节限定 #暖色调 #饮品海报 #平面排版 | 季节限定饮品宣传海报、门店促销海报、电商Banner、社交媒体图文 | 3:4 |
 | close_up_beverage_ad_poster | #饮料 #产品海报 #强广告感 #近景海报 #商业 | 饮料产品海报、饮品广告、电商Banner | 3:4 |
 | soft_lifestyle_product_ad | #产品摄影 #日系生活 #柔光拍摄 #商品海报 #清新广告 | 社交媒体产品海报、手作烘焙食帖、生活方式品牌主图 | 3:4 |
+| dicos_premium_fastfood_poster | #德克士 #快餐海报 #四格 #食品摄影 #高端商业 #超写实 | 快餐品牌KV、食品海报设计、菜单视觉、广告campaign | 1:1 |
