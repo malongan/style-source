@@ -1,0 +1,42 @@
+# 活力动漫社媒海报
+
+id: vibrant_anime_social_poster
+name: "活力动漫社媒海报"
+category: social_media
+
+tags:
+  - anime
+  - social_media
+  - vibrant
+  - cel_shading
+  - poster
+  - kawaii
+  - comic_effects
+  - viral
+
+triggers:
+  - 活力动漫风
+  - 动漫社媒海报
+  - 二次元大片
+  - 动漫转换
+  - anime poster
+
+features:
+  - "**现代动漫插画风格** — 保留人物面部、发型、年龄和个性特征，bold expressive 线稿 + 干净赛璐璐上色"
+  - "**高饱和度色彩** — 鲜艳亮丽、视觉冲击力强，适合社交媒体病毒传播"
+  - "**动态姿势 + 手势** — 活泼手势、戏剧性广角透视，画面充满动感"
+  - "**卡通游乐园背景** — 心形、星形、闪光、贴纸、气泡对话框、手绘涂鸦、小动物、漫画特效"
+  - "**海报级构图** — 强纵深感、面部清晰聚焦、轮廓干净， viral social-media aesthetic"
+
+scene: "社交媒体头像转换、动漫风格海报、粉丝应援图、头像定制、viral 内容创作"
+ratio: "2:3"
+summary: "将照片转换为活力四射的现代动漫插画，卡通游乐园背景 + 高饱和赛璐璐上色，典型社媒病毒风格"
+
+prompt: |
+  Transform the uploaded photo into a vibrant, modern anime illustration while preserving the person's recognisable face, hairstyle, age, and personality. Use bold expressive linework, clean cel shading, vivid high-saturation colours, dynamic pose, lively hand gestures, and dramatic wide-angle perspective. Replace the background with a playful cartoon world filled with hearts, stars, sparkles, stickers, speech bubbles, doodles, tiny cute animals, and comic effects. Create a polished, poster-quality composition with strong depth, crisp facial focus, clean silhouette, and a fun, viral social-media aesthetic.
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/MissDelulu9/status/2081005901818065330"
+source_author: "MissDelulu9"
+
+# 配图: images/styles_previews/vibrant_anime_social_poster_bdd1753b.webp

@@ -1,4 +1,4 @@
-共 220 个风格
+共 221 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -56,6 +56,7 @@ ST0051 | Blue Halftone Ransom Zine Poster Style | https://malongan.github.io/sty
 ST0052 | Blue Bubble Fisheye Action Poster Style | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_bubble_fisheye_action_poster_02aab45d.webp
 ST0053 | Black Cutout Food Card Ad | https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.webp
 ST0054 | Soft Analog Future Editorial Poster | https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.webp
+ST0221 | 活力动漫社媒海报 | https://malongan.github.io/style-source/images/styles_previews/vibrant_anime_social_poster_bdd1753b.webp
 ST0197 | Verglas 神秘诗歌手册海报 | https://malongan.github.io/style-source/images/styles_previews/verglas_surreal_poetry_poster_HNHdnbiX.webp
 ST0055 | 都市前卫拼贴海报 | https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.webp
 ST0056 | 超广角鱼眼人像 | https://malongan.github.io/style-source/images/styles_previews/ultra_fisheye_urban_portrait_d99d2e2c.webp
