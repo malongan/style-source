@@ -1,4 +1,4 @@
-共 223 个风格
+共 224 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -220,6 +220,7 @@ ST0179 | 蓝白线弧海报 | https://malongan.github.io/style-source/images/sty
 ST0180 | bloomberg_magazine | https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp
 ST0181 | 高对比黑白字体肖像 | https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp
 ST0182 | Multi-Color Beverage Splash Ad System Style | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
+ST0224 | 酒饮系列海报视觉系统 | https://malongan.github.io/style-source/images/styles_previews/beverage_series_poster_7ce76fc9.webp
 ST0183 | avantgarde_bw_poster - 黑白灰先锋海报 | https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp
 ST0184 | 琥珀雪松 | https://malongan.github.io/style-source/images/styles_previews/amber_cedar_perfume_poster_50fe800e.webp
 ST0185 | 3D运动赛事海报 | https://malongan.github.io/style-source/images/styles_previews/3d_sports_event_poster_13193fbe.webp

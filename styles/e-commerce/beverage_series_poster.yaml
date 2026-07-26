@@ -1,0 +1,67 @@
+# 酒饮系列海报视觉系统
+
+id: beverage_series_poster
+name: "酒饮系列海报视觉系统"
+category: e-commerce
+
+tags:
+  - beverage
+  - alcohol
+  - product_poster
+  - series_design
+  - brand_kv
+  - bottle
+  - liquid_arc
+  - premium
+
+triggers:
+  - 酒饮海报
+  - 系列海报
+  - 产品视觉系统
+  - 酒瓶摄影
+  - beverage poster
+  - product series
+
+features:
+  - "**系列视觉骨架锁定** — 瓶型、机位、字号节奏、阴影逻辑全套不变，只变化风味身份元素"
+  - "**一致构图法则** — 相同拍摄距离、相同瓶身比例、相同居中摆放，系列整齐划一"
+  - "**统一包装架构** — 共享包装结构，通过酒液颜色、背景氛围区分不同口味"
+  - "**控制性液体弧线** — 纤细液体弧线勾勒瓶型轮廓，增强视觉张力"
+  - "**极简点缀逻辑** — 每款仅用最少量装饰（风味相关水果/草本），点缀精准克制"
+
+scene: "酒饮品牌KV、系列产品海报设计、电商主图、酒吧菜单视觉"
+ratio: "4:5"
+summary: "锁死整套视觉骨架的酒饮系列海报，同一框架下只让风味身份变化，独立成立又天然归属于同一品牌"
+
+prompt: |
+  Create a premium beverage (wine/liqueur/spirits) product poster with a systematic series design approach. The key principle: lock the entire visual framework — keep camera distance, bottle scale, centered placement, packaging architecture, typography rhythm, and shadow logic completely consistent — while only changing flavor identity elements.
+
+  Core composition requirements:
+  - Bottle centered in frame, consistent scale across series
+  - Thin controlled liquid arc gracefully enhancng the bottle silhouette
+  - Minimal garnish composition unique to each flavor (fruit, herb, or spice element)
+  - Shared packaging structure with distinct flavor atmosphere via liquid color and background
+
+  For [FLAVOR_NAME] variant:
+  - Background: [COLOR1] with [MOOD/ATMOSPHERE] atmosphere
+  - Liquid color: [LIQUID_COLOR] (wine red / amber gold / pale green / deep purple)
+  - Garnish: [GARNISH_ELEMENT] (citrus slice / herb sprig / berry / spice)
+  - Accent elements: [ACCENT_DESCRIPTION]
+
+  Typography: elegant serif or modern sans for brand name, refined layout with generous negative space.
+  Lighting: soft product lighting with subtle rim highlights on bottle, rich dimensional separation.
+  Style: premium beverage advertising, consistent series design system, minimalist composition.
+
+  Series consistency rules (apply to ALL variants):
+  - Same camera height and angle
+  - Same bottle size relative to frame
+  - Same typography scale and placement
+  - Same shadow direction and intensity
+  - Same background texture/finish style
+  - Only liquid color, background hue, and garnish change between variants
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/ou_zhen599/status/2080924943567757412"
+source_author: "ou_zhen599"
+
+# 配图: images/styles_previews/beverage_series_poster_7ce76fc9.webp
