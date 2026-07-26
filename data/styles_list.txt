@@ -1,4 +1,4 @@
-共 221 个风格
+共 222 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -187,6 +187,7 @@ ST0153 | Backseat Transit Doodle Letter Poster Style | https://malongan.github.i
 ST0154 | Cozy Bedroom Doodle Companion Snapshot Style | https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp
 ST0155 | DIGITAL SOUL 数字灵魂海报 | https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.webp
 ST0156 | 弥散风视觉海报 | https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.webp
+ST0222 | 德克士高端快餐海报 | https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.webp
 ST0157 | 妖魔孙悟空线绘 | https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.webp
 ST0158 | 暗黑国风奇幻插画 | https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp
 ST0159 | 赛博朋克半调海报 | https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp

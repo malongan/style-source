@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-86-gca388e6-dirty",
-    "generated": "2026-07-26T00:21:24Z",
-    "total": 221,
+    "version": "v0.7.0-before-opt-87-g6c91d59-dirty",
+    "generated": "2026-07-26T00:26:03Z",
+    "total": 222,
     "categories": [
       "brand_kv",
       "creative",
@@ -8848,6 +8848,51 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.thumb.webp",
       "number": "ST000156",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "dicos_premium_fastfood_poster",
+      "code": "ST0222",
+      "name": "德克士高端快餐海报",
+      "category": "e-commerce",
+      "tags": [
+        "fast_food",
+        "dicos",
+        "campaign_poster",
+        "food_photography",
+        "four_panel",
+        "ultra_realistic",
+        "premium",
+        "commercial"
+      ],
+      "triggers": [
+        "德克士海报",
+        "快餐海报",
+        "食品海报",
+        "四格食品海报",
+        "fast food poster",
+        "Dicos"
+      ],
+      "scene": "快餐品牌 KV、食品海报设计、菜单视觉、广告campaign、商业摄影",
+      "ratio": "1:1",
+      "summary": "德克士 2x2 四格高端快餐海报，超写实食品摄影 + 设计年鉴级商业视觉，每个面板节奏统一",
+      "features": [
+        "**2x2 四格海报系统** — 四格严格网格排列，每个面板节奏统一：食品为主 + 大字中文标题 + 英文副标题",
+        "**超写实食品摄影** — 酥脆表皮、盐晶闪光、酱汁光泽、面包柔光、土豆质感、辣椒碎、蒸气细节",
+        "**高端商业布光** — 柔和高调商业食品打光，炸物高光纯净、酱汁反射细润、色泽诱人",
+        "**克制涂鸦点缀** — 少量精致手绘涂鸦（星星、酱汁漩涡、动感弧线）围绕排版，不抢食品主角",
+        "**四组色彩世界** — 暖奶油橙、深炭黑金、辣椒红琥珀、橄榄绿米色，各有明确色彩身份"
+      ],
+      "prompt": "Create an ultra-premium 2x2 four-panel fast-food campaign poster for Dicos, transforming playful fast-food poster energy into a highly refined, product-dominant, design-annual-level commercial visual system. The final artwork must feel bold, youthful, appetizing, modern, and sharply art-directed, while keeping the food as the absolute hero. Use four square panels arranged in a strict grid, each panel featuring one different classic Dicos fast-food item, one much larger expressive Chinese main title, one smaller English subtitle, restrained supporting English copy, minimal official Dicos branding, and only a very small number of clean playful hand-drawn doodles.\n\nCore composition:\nUse a strict 2x2 grid. Each panel must preserve the same campaign rhythm:\n1. one hero fast-food item dominating the right or center-right area,\n2. one very large artistic Chinese hand-lettered title occupying the left or upper-left area,\n3. one smaller English subtitle beneath or near the Chinese title,\n4. one short supporting English copy block,\n5. one refined Dicos logo or clean brand mark,\n6. only a few minimal doodle accents integrated around the typography,\n7. a clean foreground surface with a tiny number of crumbs, sauce accents, or ingredient echoes.\n\nCreative direction:\nCombine Milk Cloud Orbit and Cream Halo Transit. Keep the exact four-panel skeleton, but intensify the strongest product-light details: cleaner fried-surface highlights, purer sauce reflections, brighter salt-crystal sparkle, more precise gloss on buns and wraps, and richer appetizing realism. At the same time, reduce the doodles so they become tighter, cleaner, and more intentional, and enlarge the Chinese titles so the graphic impact becomes stronger without stealing attention from the food.\n\nPanel color worlds:\nPanel 1: warm cream and toasted orange (crispy chicken burger — \"大口满足\")\nPanel 2: deep charcoal-black and golden yellow (golden seasoned fries — \"金黄上瘾\")\nPanel 3: rich chili red and amber brown (spicy fried chicken — \"热辣开炸\")\nPanel 4: fresh olive green and soft beige (grilled chicken wrap — \"卷进美味\")\n\nFood realism:\nRender every item with extreme realism: crispy fried coating, golden crumb texture, juicy chicken fibers, glossy burger bun, fresh lettuce moisture, melted sauce sheen, realistic potato texture, salt crystals, pepper specks, tortilla surface detail, char marks, subtle steam, and appetizing oil highlights.\n\nTypography:\nBold expressive Chinese hand-lettered main titles paired with smaller clean English subtitles. Chinese titles noticeably larger with stronger visual authority.\n\n不要水印，不要真实Logo（品牌名用 Dicos 示意），不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/ou_zhen599/status/2081033228023218571",
+      "source_author": "ou_zhen599",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.thumb.webp",
+      "number": "ST000222",
+      "created_at": ""
     },
     {
       "id": "demon_wukong_line_art",
