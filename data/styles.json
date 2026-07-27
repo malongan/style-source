@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-96-gc2fc0f7-dirty",
-    "generated": "2026-07-27T06:01:55Z",
-    "total": 232,
+    "version": "v0.7.0-before-opt-97-gdb6edc9-dirty",
+    "generated": "2026-07-27T08:25:40Z",
+    "total": 233,
     "categories": [
       "brand_kv",
       "creative",
@@ -4876,7 +4876,7 @@
     },
     {
       "id": "retro_anime_cinema_illustration",
-      "code": "ST0232",
+      "code": "ST0234",
       "name": "复古日系动漫电影感插画",
       "category": "creative",
       "tags": [
@@ -4914,7 +4914,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.thumb.webp",
-      "number": "ST000232",
+      "number": "ST000234",
       "created_at": ""
     },
     {
@@ -6882,6 +6882,46 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.thumb.webp",
       "number": "ST000117",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "korean_food_scrapbook_poster",
+      "code": "ST0233",
+      "name": "韩式美食手账风海报",
+      "category": "e-commerce",
+      "tags": [
+        "韩式美食",
+        "手账拼贴",
+        "美食广告",
+        "暖色调",
+        "3:4竖版"
+      ],
+      "triggers": [
+        "韩式美食海报",
+        "手账风广告",
+        "韩食菜单视觉",
+        "韩国料理广告"
+      ],
+      "scene": "韩式餐饮品牌社媒海报、韩国外卖菜单、美食博主推荐帖",
+      "ratio": "3:4",
+      "summary": "可爱手账拼贴风韩式美食广告，暖棕色调搭配便签胶带装饰，韩文标语营造地道韩国美食氛围",
+      "features": [
+        "**韩式手账拼贴风** — 复古手账、撕纸、胶带、便签、卡通涂鸦、箭头星星心形等装饰元素叠加",
+        "**暖咖啡厅色调** — 棕色、奶油色、橙色、绿色为主，细微彩色马克笔点缀",
+        "**中央大图占主体** — 食物居中放大，酥脆表皮、多汁肉质、闪光酱汁、新鲜配料等诱人细节丰富",
+        "**韩文标语装饰** — 4-6句韩式感叹标语（如\"太绝了！\"\"超好吃！\"），菜单名和价格均以韩文呈现",
+        "**产品模板化处理** — [Menu Name] [Price] 占位，可替换为任意韩式菜单和价格"
+      ],
+      "prompt": "Create a cute, trendy scrapbook-style Korean food advertisement poster featuring [Menu Name] as the main focus, with the price [Price] displayed prominently beside it as a sticker or torn paper label. If a reference photo is provided, accurately preserve the food's shape, ingredients, colours, plating, and overall identity while enhancing lighting, texture, and realism to make it look more delicious. If no photo is provided, create a realistic version based on the menu name without adding uncertain ingredients. Place the food large in the centre with rich, appetising details such as crispy textures, juicy meat, glossy sauces, and fresh ingredients. Use a warm café aesthetic with a vintage scrapbook collage style, including torn paper, masking tape, sticky notes, handwritten doodles, arrows, stars, hearts, sparkles, checkerboard patterns, and cute food stickers. Add 4–6 Korean exclamation phrases that match the dish. All visible text, including the menu name, price, and decorative phrases, must be written only in Korean. Use warm brown, cream, orange, and green tones with subtle colourful marker accents, and produce the final poster in a vertical 3:4 aspect ratio with safe margins so nothing is cropped.\n不要水印，不要真实品牌Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/kingofdairyque/status/2081580288971337797",
+      "source_author": "kingofdairyque",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/korean_food_scrapbook_poster_a5aae615.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/korean_food_scrapbook_poster_a5aae615.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/korean_food_scrapbook_poster_a5aae615.thumb.webp",
+      "number": "ST000233",
+      "created_at": ""
     },
     {
       "id": "kimjunggi_scifi_sketch",
