@@ -1,0 +1,46 @@
+# 复古水彩旅行手绘明信片
+
+id: vintage_watercolor_travel_postcard
+name: "复古水彩旅行手绘明信片"
+category: travel
+
+tags:
+  - 旅行插画
+  - 复古明信片
+  - 水彩钢笔
+  - 旅行日记
+  - 欧洲速写本
+  - 手绘旅行
+
+triggers:
+  - 复古旅行明信片
+  - 水彩钢笔旅行插画
+  - 手绘旅行日记风格
+  - 城市建筑速写
+  - 旅行日记插画
+
+features:
+  - "**精致水彩钢笔结合风格** — 精细 ink-and-watercolor 钢笔速写，非普通手绘涂鸦"
+  - "**复古旅行明信片美学** — 做旧旅行海报感，暖色怀旧氛围，杂志封面编排"
+  - "**纹理奶油纸背景** — 质感纸张底，带颗粒感、自然墨水晕开"
+  - "**钴蓝细线 + 暖赭绿陶色** —  expressive cobalt blue fineliner 线条，配暖赭/橄榄绿/陶土水彩洗色"
+  - "**手写人字标题 + 建筑速写** — 顶部大手写目的地标题+小号草写副标题，松弛城市建筑速写点缀"
+
+scene: "旅行目的地分享、社交媒体旅行图文、城市建筑写生、生活方式内容配图"
+ratio: "3:4"
+summary: "以精致水彩钢笔速写为核心，复古旅行明信片美学，营造温暖怀旧、手绘魅力的欧洲旅行日记氛围"
+
+prompt: |
+  Hand-drawn travel journal illustration in a refined ink-and-watercolor sketch style, vintage travel postcard aesthetic, textured cream paper background, expressive cobalt blue fineliner linework with warm ochre, muted olive green and soft terracotta watercolor washes, loose architectural sketches, minimalist urban scenery, elegant handwritten typography at the top with large destination title and smaller cursive subtitle, cozy travel diary composition, charming lifestyle illustration, stylish young traveler in relaxed casual clothing, cinematic composition, clean negative space, subtle cross-hatching, soft brush pen strokes, editorial magazine cover design, modern gouache and watercolor fusion, imperfect hand-drawn charm, warm nostalgic atmosphere, European sketchbook aesthetic, Moleskine travel journal, whimsical urban storytelling, premium illustrated poster, highly detailed, balanced composition, soft paper grain, natural ink bleed, sophisticated color harmony, artistic travel print, 4K, museum-quality illustration.
+
+  {destination}
+  {travel_scene_elements}
+  {season_and_mood}
+  {traveler_characteristics}
+
+  不要水印，不要摄影照片感，不要写实建筑重现，不要杂乱背景。
+
+source_url: "https://x.com/Taaruk_/status/2081232385895764440"
+source_author: "Taaruk"
+
+# 配图: images/styles_previews/vintage_watercolor_travel_postcard_89d31829.webp
