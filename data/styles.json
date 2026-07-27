@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-90-gf1f54d3-dirty",
-    "generated": "2026-07-27T02:27:13Z",
-    "total": 225,
+    "version": "v0.7.0-before-opt-91-g719ceb0-dirty",
+    "generated": "2026-07-27T03:16:32Z",
+    "total": 227,
     "categories": [
       "brand_kv",
       "creative",
@@ -154,6 +154,47 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "wedding_xi_character_poster",
+      "code": "ST0226",
+      "name": "婚礼喜字影像画报",
+      "category": "social_media",
+      "tags": [
+        "婚礼摄影",
+        "喜字画报",
+        "婚礼电子请柬",
+        "票据式信息设计",
+        "婚礼邀请预告"
+      ],
+      "triggers": [
+        "婚礼喜字画报",
+        "婚礼电子请柬",
+        "喜字背景海报",
+        "婚礼领证纪念",
+        "票据式婚礼请柬"
+      ],
+      "scene": "婚礼邀请预告、领证纪念发布、婚礼电子请柬、朋友圈婚礼发布",
+      "ratio": "9:16",
+      "summary": "以巨大符号字形（喜字等）为视觉核心，配合前景真实主角遮挡，形成主形与信息底纹重叠的强记忆点，营造欢快清晰带仪式感的婚礼影像画报",
+      "features": [
+        "**超大符号字形背景** — 超大核心字形、图腾或符号以厚重平面块面压住视觉中心，形成强烈记忆点",
+        "**前景主体遮挡互动** — 真实主角从前景进入并遮挡部分符号，形成主形与巨型底纹重叠",
+        "**高明度留白背景** — 大面积高明度留白，边缘布置细线框、编号、日期感小字和票据印章式信息层",
+        "**俏皮互动姿态** — 主角姿态带一点俏皮的互动感，局部配件延伸同一信息系统",
+        "**明亮清透色阶** — 大面积明亮清透底色 + 结构暗部建立层次 + 高饱和强调色集中在信息点"
+      ],
+      "prompt": "围绕具体主题内容生成一张明亮洁净的影像画报：画面第一眼由一个主题派生的超大核心字形、图腾或符号占据中后场，字形以厚重平面块面压住视觉中心；真实的主题主角或主形体从前景进入并遮挡部分符号，形成主角与巨型信息底纹重叠的强记忆点。背景保持大面积高明度留白，边缘布置细线框、编号、日期感小字、竖向短句和票据印章式信息层，文字只作为节奏与仪式感结构，不抢主形体。主角姿态要带一点俏皮的互动感，局部配件或手持物延伸出同一信息系统，让主体、符号、边框和小字像同一张定制证件或邀请画报。色彩从主题自身的材质、情绪和文化语义中提取：大面积底色保持明亮清透、干净通风，结构暗部用于主体轮廓和层次，少量高饱和强调色集中在核心符号、边框和信息点上，形成欢快、清晰、带仪式感的明亮色阶；强调色随主题变化，但必须维持底色宽、符号重、小字密、前景实的关系。整体质感为棚拍般清晰光线、平整印刷图形、轻微纸面纹理与复古票据秩序结合，避免杂乱装饰和脏旧灰暗，确保最先读到巨大符号，其次读到前景主角，最后读到周围密集信息节奏。\n\n{subject_description}\n{additional_scene_details}\n{size_requirement}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2081388511606030704",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/wedding_xi_character_poster_af2eec7d.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wedding_xi_character_poster_af2eec7d.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wedding_xi_character_poster_af2eec7d.thumb.webp",
+      "number": "ST000226",
+      "created_at": ""
+    },
+    {
       "id": "wedding_intimate_ceremony_invitation",
       "code": "ST0225",
       "name": "婚礼私密仪式感影像邀请函",
@@ -192,6 +233,47 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wedding_intimate_ceremony_invitation_c886b7e2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wedding_intimate_ceremony_invitation_c886b7e2.thumb.webp",
       "number": "ST000225",
+      "created_at": ""
+    },
+    {
+      "id": "wedding_curtain_call_poster",
+      "code": "ST0227",
+      "name": "婚礼谢幕致意画报",
+      "category": "social_media",
+      "tags": [
+        "婚礼摄影",
+        "婚礼谢幕",
+        "婚礼答谢",
+        "双人致意",
+        "彩屑飘落"
+      ],
+      "triggers": [
+        "婚礼答谢画报",
+        "婚礼谢幕照",
+        "双人鞠躬请柬",
+        "婚礼电子请柬收尾",
+        "彩屑飘落婚礼"
+      ],
+      "scene": "婚礼答谢朋友圈、电子请柬收尾页、婚礼答谢发布、领证纪念",
+      "ratio": "9:16",
+      "summary": "以双主体深度鞠躬致意为核心，上方配合温和有礼的文字层级，营造温暖轻快又有仪式感的婚礼谢幕画面",
+      "features": [
+        "**上方致意文字层** — 上方居中简短致意文字，采用温和有礼的层级：核心字/符号 + 轻细辅助文字 + 有分量短字收束",
+        "**双主体深度鞠躬** — 两个主题核心角色并肩向前深度倾斜，形成真诚谢幕的共同动作，视觉重心压在底部",
+        "**轻盈材质流动感** — 动作边缘被轻盈材质、衣摆、飘带或主题派生结构拉出流动感，庄重中带轻快释放",
+        "**高明度洁净光场** — 背景是高明度洁净光场，保留柔和阴影和透明层次，不做复杂场景",
+        "**彩屑自然漂落** — 彩屑或主题派生细小碎片从四周和主体上方自然漂落，有疏有密，定格结束瞬间"
+      ],
+      "prompt": "围绕具体主题内容生成一张明亮清透的谢幕致意画面，让第一眼先读到上方居中的简短致意文字层，再顺着大量通风留白落到下方的双主体动作。画面上半部保持安静、空旷、柔亮，文字采用温和而有礼的层级：一个较大的主题核心字或符号作为情绪锚点，中间配一行轻细的辅助文字，下方再用更有分量的短字收束，字距疏朗、线条圆润、颜色来自主题情绪中的清晰强调色。下方安排两个主题核心角色或双主体符号并肩出现，身体或形态向前深度倾斜，形成真诚谢幕的共同动作，视觉重心压在底部，动作边缘可被轻盈材质、衣摆、飘带或主题派生结构拉出流动感，使庄重的致意带有轻快释放。背景是高明度洁净光场，保留柔和阴影和透明层次，不做复杂场景；从主题自身的材质、季节、文化信号和情绪中提取色彩，大面积底色保持明亮干净，主体用清晰明暗建立礼仪感，文字使用少量温暖或清亮的主题强调色，散落元素使用小颗粒高饱和点色，只在空白中形成节奏和庆祝感。整体情绪温暖、轻快、洁净、有仪式感，彩屑或主题派生的细小碎片从画面四周和主体上方自然漂落，密度有疏有密，既让空白显得有空气，也让结束瞬间像被定格；避免背景变脏、色阶发灰、元素堆满或把双主体动作削弱成普通合影。\n\n{subject_description}\n{additional_scene_details}\n{size_requirement}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2081388511606030704",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.thumb.webp",
+      "number": "ST000227",
       "created_at": ""
     },
     {
