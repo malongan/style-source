@@ -1,4 +1,4 @@
-共 232 个风格
+共 233 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -100,7 +100,7 @@ ST0208 | 复古赛车海报 | https://malongan.github.io/style-source/images/sty
 ST0087 | 复古未来主义科幻海报 | https://malongan.github.io/style-source/images/styles_previews/retro_future_scifi_poster_7fc81506.webp
 ST0088 | 复古饮料广告 | https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.webp
 ST0089 | Retro Cel Animation | https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.webp
-ST0232 | 复古日系动漫电影感插画 | https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.webp
+ST0234 | 复古日系动漫电影感插画 | https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.webp
 ST0090 | 写实摄影 | https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp
 ST0212 | 安静思考感信息化视觉 | https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.webp
 ST0229 | 安静角落情绪插画 | https://malongan.github.io/style-source/images/styles_previews/quiet_corner_mood_illustration_e2a92b24.webp
@@ -145,6 +145,7 @@ ST0114 | 青柠薄荷涂鸦手绘饮料海报 | https://malongan.github.io/style
 ST0115 | LAKERO 法餐点单海报 | https://malongan.github.io/style-source/images/styles_previews/lakero_fine_dining_menu_4a8b8795.webp
 ST0116 | 韩国 ins 风晨间问候海报 | https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.webp
 ST0117 | 韩国插画风（Korean Illustration Style） | https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.webp
+ST0233 | 韩式美食手账风海报 | https://malongan.github.io/style-source/images/styles_previews/korean_food_scrapbook_poster_a5aae615.webp
 ST0118 | 金政基赛博朋克素描 | https://malongan.github.io/style-source/images/styles_previews/kimjunggi_scifi_sketch_1abbb496.webp
 ST0119 | K-ギャル 街头抓拍风 | https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp
 ST0120 | Y2K酸性·ALL STARS 夜店潮流海报 | https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.webp
