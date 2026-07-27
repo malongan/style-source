@@ -1,12 +1,13 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-94-g14bd6e4-dirty",
-    "generated": "2026-07-27T03:49:08Z",
-    "total": 230,
+    "version": "v0.7.0-before-opt-95-g486f196-dirty",
+    "generated": "2026-07-27T05:47:27Z",
+    "total": 231,
     "categories": [
       "brand_kv",
       "creative",
       "e-commerce",
+      "editorial",
       "fashion",
       "ip_character",
       "print",
@@ -8379,6 +8380,48 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/exploded_food_infographic_cf6e6ff6.thumb.webp",
       "number": "ST000144",
       "created_at": "2026-07-01T21:58:02+08:00"
+    },
+    {
+      "id": "experimental_knowledge_archive_poster",
+      "code": "ST0231",
+      "name": "实验性知识档案海报",
+      "category": "editorial",
+      "tags": [
+        "scientific-illustration",
+        "fluorescent-yellow",
+        "editorial-design",
+        "modernist-typography",
+        "knowledge-archive",
+        "independent-publication"
+      ],
+      "triggers": [
+        "知识档案海报",
+        "科学图鉴封面",
+        "实验性杂志封面",
+        "酸性黄编辑设计",
+        "科学铜版画海报"
+      ],
+      "scene": "品牌KV、文化活动海报、概念设计展、品牌特刊、独立出版封面",
+      "ratio": "3:4",
+      "summary": "黑白科学图鉴线稿 + 荧光酸黄平面色块 + 超大中英文排版，呈现实验性独立出版物的知识档案气质",
+      "features": [
+        "**黑白科学图鉴线稿** — 十九世纪铜版画/钢笔线稿质感，精细凿刻线、交叉排线、点描，精密但略嫌陈旧的印刷线条",
+        "**荧光酸性黄色平面色块** — 占画面约1/4至1/3，纯平面印刷色，无阴影渐变，作为视觉锚点偏离中心",
+        "**超大中英文衬线标题** — 中文主标题宋体/明朝体极大字号可裁切，英文高对比度 Didone 衬线斜体，形成尺度反差",
+        "**非对称编辑网格** — 大面积浅灰白负空间，局部拥挤局部空旷，画面如正在编辑中的知识档案",
+        "**独立出版印刷质感** — 轻微纸张纤维、油墨不均匀、套印误差、半色调颗粒、边缘裁切痕迹，克制复古"
+      ],
+      "prompt": "{subject}主题实验性杂志封面。画面采用竖版4:5比例，浅灰白纸张背景。\n\n【版式】非对称编辑网格，大面积负空间，局部拥挤局部空旷，部分元素被页面边缘裁切，保持\"理性排序\"与\"受控混沌\"。\n\n【色彩】严格限制：浅灰白背景、纯黑线条为主、荧光酸性柠檬黄平面色块占画面约1/4-1/3（不立体无阴影）、极少中性灰点缀。禁止金色/橙色/蓝色/多彩渐变。\n\n【标题】超大中文主标题（宋体/明朝体，书卷感，极大字号可裁切），较大英文副标题（高对比度Didone衬线斜体），极小字号注译与出版信息。文字承担构图功能。\n\n【图像】黑色单色线条科学图鉴：精细钢笔线、凿刻线、交叉排线、点描、木刻铜版画质感。一幅主题主体占较大面积，三至六个辅助图像（局部放大、切面图、标本图、细节零件）。图像间用极细指示线、箭头、比例尺、编号建立关系。可加手写记号、十字定位符、测量线。\n\n【质感】轻微纸张纤维、油墨不均匀、套印误差、半色调颗粒、微小划痕、边缘裁切痕迹、旧档案扫描感。整体平面化纸张化编辑化。\n\n【禁止】写实商业摄影、3D渲染、立体文字、玻璃金属质感、彩虹灯、赛博朋克、柔和渐变、卡通可爱风、居中对称构图、满版照片、过度泛黄、无意义装饰、AI乱码。\n\n作品让人感觉像未知知识专题杂志封面、科学研究档案、兼具学术性与艺术性的展览海报。理性、实验、学术、文学、先锋、冷峻、知识密度高。\n不要水印，不要真实Logo。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2081583498037698587",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/experimental_knowledge_archive_poster_0284c672.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/experimental_knowledge_archive_poster_0284c672.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/experimental_knowledge_archive_poster_0284c672.thumb.webp",
+      "number": "ST000231",
+      "created_at": ""
     },
     {
       "id": "exaggerated_3d_toy_illustration",
