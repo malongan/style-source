@@ -35,6 +35,7 @@
 | pen_ink_point_line_peaches | #钢笔画 #点线技法 #精细描绘 |  | 2:3（竖版） |
 | pixel_cut_community_poster | #像素字体 #黑白摄影 #几何色块 |  | 16:9 / 3:2 / 4:3 |
 | playful_avantgarde_poster | #童趣 #前卫 #艺术展 |  | 9:16 |
+| retro_anime_cinema_illustration | #日漫 #新海诚 #城市波普 #电影感 #复古 | 品牌KV、概念插画、社交媒体内容、小说/游戏场景概念图、品牌叙事内容 | 4:5 |
 | retro_future_scifi_poster | #复古未来 #科幻 #赛博朋克 |  | 9:16 |
 | scribble_poster_style | #VigoCookbook #retro #skate |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | soft_clay_camping_kv | #软胶黏土 #3D卡通 #马卡龙 |  | 16:9 / 9:16 |

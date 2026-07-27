@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-95-g486f196-dirty",
-    "generated": "2026-07-27T05:47:27Z",
-    "total": 231,
+    "version": "v0.7.0-before-opt-96-gc2fc0f7-dirty",
+    "generated": "2026-07-27T06:01:55Z",
+    "total": 232,
     "categories": [
       "brand_kv",
       "creative",
@@ -4873,6 +4873,49 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.thumb.webp",
       "number": "ST000089",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "retro_anime_cinema_illustration",
+      "code": "ST0232",
+      "name": "复古日系动漫电影感插画",
+      "category": "creative",
+      "tags": [
+        "anime-illustration",
+        "retro-japanese",
+        "cinematic-lighting",
+        "makoto-shinkai",
+        "city-pop",
+        "film-grain",
+        "slice-of-life"
+      ],
+      "triggers": [
+        "复古日漫电影感",
+        "城市波普日漫",
+        "新海诚光效",
+        "吉卜力氛围插画",
+        "日系动漫场景"
+      ],
+      "scene": "品牌KV、概念插画、社交媒体内容、小说/游戏场景概念图、品牌叙事内容",
+      "ratio": "4:5",
+      "summary": "新海诚光效 + 吉卜力手绘感 + 城市波普复古美学，呈现 80-90 年代日本日常生活的电影感动漫插画",
+      "features": [
+        "**新海诚式光效** — 黄金时段暖光与霓虹交织，日落橙紫天空，体积光穿透窗户，戏剧性透视与美丽倒影",
+        "**复古吉卜力氛围** — 细腻手绘背景，柔和胶片颗粒，微妙水彩纹理，怀旧日常感，慢节奏叙事",
+        "**城市波普美学** — 80-90年代日本怀旧感， analog 摄影质感，老式建筑与招牌，昭和末期至平成初期",
+        "**自然比例动漫角色** — 表情丰富、眼睛细节真实，与写实背景融合，呈现电影感分镜构图",
+        "**四种场景模板** — 电车少年、复古餐厅、温馨卧室、街道黄昏，可替换 {scene} 变量生成不同场景"
+      ],
+      "prompt": "{scene}\n\n整体风格：1980s-1990s Japanese anime cinematic illustration, highly detailed hand-painted background, warm golden-hour and neon lighting, soft film grain, subtle watercolor texture, expressive anime characters with natural proportions and detailed eyes, realistic architecture and interiors, slice-of-life atmosphere, emotional storytelling, cozy urban Japan, dramatic perspective, beautiful reflections, volumetric sunlight, soft shadows, rich color grading, intricate environmental details, quiet contemplative mood, Makoto Shinkai-inspired lighting, vintage Studio Ghibli atmosphere, city pop aesthetic, retro Japanese nostalgia, analog photography feel, perfectly composed cinematic framing, ultra-detailed digital painting, masterpiece quality.\n\n禁止：水印，真实Logo，卡通过度，3D渲染质感，现代科技元素（手机/电脑屏幕），写实摄影，杂乱的UI元素。\n不要水印，不要真实Logo。\n\n# 场景变体（替换 {scene} 使用）：\n\n## 电车少年 (Train Scene)\nA Japanese high school boy in a black gakuran uniform sitting alone inside an old commuter train at sunset, resting his chin on his hand while looking out the window, orange and purple sky, reflections on the glass, telephone poles passing by, melancholic atmosphere, motion blur outside, peaceful evening commute.\n\n## 复古餐厅 (Retro Diner)\nA stylish young woman sitting in a retro American-style diner at night, drinking a vanilla milkshake, red varsity jacket, neon \"OPEN 24 HOURS\" sign glowing through rain-covered windows, warm tungsten lighting, vintage Coca-Cola decorations, cinematic night mood, city pop aesthetic.\n\n## 温馨卧室 (Cozy Bedroom)\nA girl reading a book on the floor of her cozy bedroom, morning sunlight streaming through lace curtains, sleeping cat on the windowsill, cassette player, vintage posters, books, plants, soft pastel colors, warm peaceful atmosphere, nostalgic 90s Japanese bedroom.\n\n## 街道黄昏 (Japanese Street)\nA schoolgirl walking through a quiet suburban Japanese neighborhood during golden hour, sailor school uniform, utility poles, narrow residential street, glowing clouds, warm evening light, peaceful everyday life, highly detailed environment, cinematic perspective.\n",
+      "variables": {},
+      "source_url": "https://x.com/ChillaiKalan__/status/2081299855755149723",
+      "source_author": "ChillaiKalan__",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.thumb.webp",
+      "number": "ST000232",
+      "created_at": ""
     },
     {
       "id": "realistic_photo",
