@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-91-g719ceb0-dirty",
-    "generated": "2026-07-27T03:16:32Z",
-    "total": 227,
+    "version": "v0.7.0-before-opt-92-g1f4e6a0-dirty",
+    "generated": "2026-07-27T03:22:26Z",
+    "total": 228,
     "categories": [
       "brand_kv",
       "creative",
@@ -7342,6 +7342,48 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.thumb.webp",
       "number": "ST000128",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "handprint_morning_poster",
+      "code": "ST0228",
+      "name": "手工印刷感早安信息海报",
+      "category": "social_media",
+      "tags": [
+        "早安海报",
+        "手工印刷感",
+        "丝网印刷风格",
+        "菜市场海报",
+        "果树主题",
+        "城市地标系列"
+      ],
+      "triggers": [
+        "早安海报手绘感",
+        "手工印刷信息图",
+        "丝网印刷清新风",
+        "菜市场海报风格",
+        "城市早安系列"
+      ],
+      "scene": "社交媒体早安发布、城市地标系列海报、菜市场风格信息图、朋友圈早安分享",
+      "ratio": "4:3",
+      "summary": "以手工印刷/丝网版画质感为核心，圆润主形体沿粗壮分枝结构串联，高明度清透纸面配鲜明色块，营造复古又清新的早安信息海报美学",
+      "features": [
+        "**圆润主形体 + 粗壮分枝结构** — 主题被转译成数个饱满、近距离放大的圆润主形体，沿偏中轴粗壮分枝结构串联，主形互相挤压又留出呼吸空隙",
+        "**套印版画质感** — 深色分枝/叶片符号覆盖在主形体上，像套印版画一样轻微错位、透明叠色和粗糙边缘",
+        "**高明度清透纸面背景** — 高明度、干净浅色纸面，保留细密纤维颗粒、轻微压印纹理和手工磨损感，但不变脏发灰",
+        "**鲜明色块 + 深色结构 + 清晰色阶** — 明亮色块承担情绪主色，深色承担枝轴与符号结构，辅助色低饱和清晰可读",
+        "**图像秩序文字排版** — 粗重标题 + 紧凑日期信息 + 小号边缘竖排，像生活刊物版式，不抢主形体视觉"
+      ],
+      "prompt": "围绕任意主题对象生成一张具有手工印刷感的信息图像：主题被转译成数个饱满、近距离放大的圆润主形体，沿一条偏中轴的粗壮分枝结构自然串联，主形体之间互相挤压又留出清晰呼吸空隙，局部被画面边缘裁切，形成第一眼强烈的丰盛感和新鲜感。分枝、叶片或主题派生的附着符号以深色结构层覆盖在主形体上，像套印版画一样有轻微错位、透明叠色和粗糙边缘，使图形既平面化又带有植物般的生长方向。背景保持高明度、清透、干净的浅色纸面，保留细密纤维颗粒、轻微压印纹理和少量手工磨损，但整体不能变脏、发灰或陈旧。色彩从未来主题自身的材质、季节、情绪和文化语义中提取：最大色块承担明亮轻快的情绪主色，深色承担枝轴与符号结构，小面积信息文字使用低饱和但清晰可读的辅助色，整体保持高明度底场、鲜明主形、干净色阶、有限套色和清爽对比。文字只作为图像秩序的一部分出现，采用粗重标题、紧凑日期式信息、小号边缘竖排或角落标记的组合，分布在边缘与留白处，像印在纸面上的生活刊物版式，不抢走主形体的第一视觉。画面完成度要像复古丝网印刷与现代清新海报的结合，图形大、边缘硬中带毛、信息少而有节奏，避免写实摄影、复杂背景、过度装饰和拥挤说明。\n\n{subject_description}\n{city_landmark_or_theme}\n{date和金句}\n{size_requirement}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2081540058885321012",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/handprint_morning_poster_b668797a.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/handprint_morning_poster_b668797a.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/handprint_morning_poster_b668797a.thumb.webp",
+      "number": "ST000228",
+      "created_at": ""
     },
     {
       "id": "hand_drawn_travel_illustration",
