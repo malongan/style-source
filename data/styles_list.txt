@@ -1,4 +1,4 @@
-共 228 个风格
+共 229 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -101,6 +101,7 @@ ST0088 | 复古饮料广告 | https://malongan.github.io/style-source/images/sty
 ST0089 | Retro Cel Animation | https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.webp
 ST0090 | 写实摄影 | https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp
 ST0212 | 安静思考感信息化视觉 | https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.webp
+ST0229 | 安静角落情绪插画 | https://malongan.github.io/style-source/images/styles_previews/quiet_corner_mood_illustration_e2a92b24.webp
 ST0188 | 当代高端石墨肖像插画 | https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.webp
 ST0215 | 冷静精确信息设计肖像 | https://malongan.github.io/style-source/images/styles_previews/precise_info_design_portrait_11fab4ee.webp
 ST0091 | 立体插画故事书海报 | https://malongan.github.io/style-source/images/styles_previews/pop_up_storybook_poster_6a76b88b.webp

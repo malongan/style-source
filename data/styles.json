@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-92-g1f4e6a0-dirty",
-    "generated": "2026-07-27T03:22:26Z",
-    "total": 228,
+    "version": "v0.7.0-before-opt-93-g6919d77-dirty",
+    "generated": "2026-07-27T03:42:11Z",
+    "total": 229,
     "categories": [
       "brand_kv",
       "creative",
@@ -4910,6 +4910,48 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.thumb.webp",
       "number": "ST000212",
+      "created_at": ""
+    },
+    {
+      "id": "quiet_corner_mood_illustration",
+      "code": "ST0229",
+      "name": "安静角落情绪插画",
+      "category": "social_media",
+      "tags": [
+        "情绪插画",
+        "安静角落",
+        "阅读角落",
+        "室内氛围",
+        "自然和谐",
+        "绿植窗景"
+      ],
+      "triggers": [
+        "安静角落情绪插画",
+        "阅读角落插画",
+        "情绪氛围插画",
+        "室内绿植插画",
+        "窗景插画风格"
+      ],
+      "scene": "社交媒体情绪图文、朋友圈氛围分享、情绪板配图、安静角落主题内容",
+      "ratio": "3:4",
+      "summary": "以安静角落情绪为核心，通过场景构建与光影叙事，营造自然和谐、情绪共鸣的室内氛围插画",
+      "features": [
+        "**情绪氛围 + 场景构建** — 从心情（mood）出发构建室内/室外场景，以安静角落为核心空间",
+        "**建筑元素 + 室内细节** — 主建筑元素构成空间骨架，家具陈设和装饰细节点缀生活气息",
+        "**光影叙事** — 特定光源照明空间，凸显材质与肌理，营造深度氛围感",
+        "**人物活动融入** — 人物从事阅读、放松等安静活动，强化情绪共鸣",
+        "**自然色调 + 笔触质感** — 以自然和谐为色彩主调，笔触/介质技法创造艺术细节"
+      ],
+      "prompt": "A {art_style} illustration of a {mood} {indoor/outdoor setting} featuring {main architectural elements}. {lighting} illuminates the space, highlighting {furniture/interior details}. {People/subjects} are {activities}, creating a sense of {emotion/atmosphere}. The background showcases {surrounding environment/view}. The color palette includes {dominant colors}, with {medium/technique} and {artistic details}, resulting in a {overall aesthetic} composition rich in detail and natural harmony.\n\n{art_style_description}\n{mood_description}\n{setting_and_elements}\n{lighting_type}\n{subject_activities}\n{emotion_and_atmosphere}\n{surrounding_environment}\n{color_palette}\n{medium_and_technique}\n{overall_aesthetic}\n\n不要水印，不要真实Logo，不要摄影照片感。\n",
+      "variables": {},
+      "source_url": "https://x.com/noorwithwifi/status/2081412270350033109",
+      "source_author": "NoorAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/quiet_corner_mood_illustration_e2a92b24.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/quiet_corner_mood_illustration_e2a92b24.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/quiet_corner_mood_illustration_e2a92b24.thumb.webp",
+      "number": "ST000229",
       "created_at": ""
     },
     {
