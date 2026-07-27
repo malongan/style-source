@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-89-gd27da08-dirty",
-    "generated": "2026-07-26T02:02:09Z",
-    "total": 224,
+    "version": "v0.7.0-before-opt-90-gf1f54d3-dirty",
+    "generated": "2026-07-27T02:27:13Z",
+    "total": 225,
     "categories": [
       "brand_kv",
       "creative",
@@ -152,6 +152,47 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.thumb.webp",
       "number": "ST000003",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "wedding_intimate_ceremony_invitation",
+      "code": "ST0225",
+      "name": "婚礼私密仪式感影像邀请函",
+      "category": "social_media",
+      "tags": [
+        "婚礼摄影",
+        "私密仪式感",
+        "影像邀请函",
+        "婚礼电子请柬",
+        "摄影邀请函美学"
+      ],
+      "triggers": [
+        "婚礼邀请函",
+        "婚礼摄影美学",
+        "私密仪式感人像",
+        "婚礼电子请柬首图",
+        "高定婚礼邀请"
+      ],
+      "scene": "婚礼电子请柬首图、朋友圈婚礼邀请、高定婚礼邀请函",
+      "ratio": "9:10",
+      "summary": "以私密仪式感为核心，主体被透明结构轻轻包住，配合超大纤细手写体标题，营造温暖亲近又安静隆重的婚礼邀请函美学",
+      "features": [
+        "**私密仪式感光罩结构** — 主体被透明弧形结构、玻璃隔层或局部光罩轻轻包住，形成「被窥见的亲密瞬间」",
+        "**中心发光 + 深色留白** — 大块深色建筑面、阴影或安静留白，让中心发光区域先被看见，再读到情绪",
+        "**超大纤细手写体标题** — 极大、纤细、连笔感强的手写体主标题横跨主体与背景，柔软、缓慢、带记忆感",
+        "**克制的邀请信息层** — 顶部细小署名，底部细线、微型衬线数字与简短说明，排版低声、精确、留出呼吸",
+        "**真实摄影质感** — 玻璃反射、轻微颗粒、低照度空间和柔焦边缘，温暖亲近、安静隆重"
+      ],
+      "prompt": "围绕具体主题内容生成一张具有私密仪式感的影像邀请画面：主体事件被安置在画面中部偏深的真实空间里，像被透明弧形结构、玻璃隔层或局部光罩轻轻包住，形成\"被窥见的亲密瞬间\"；周围保留大块深色建筑面、阴影或安静留白，让中心发光区域先被看见，再读到人物或主题对象的情绪。画面前景覆盖一行极大、纤细、连笔感强的手写体主标题，笔画横跨主体与背景，既遮挡又连接中心形象，制造柔软、缓慢、带记忆感的图像文字融合；顶部只放极小的署名式信息，底部用细线、微型衬线数字与简短说明形成克制的邀请信息层，排版低声、精确、留出呼吸。色彩从主题自身的场地、材质、时间与情绪中提取，保留低明度大面积结构底、中心清透明亮光域、少量高明度文字信息与微小温暖强调色的角色关系；暗部必须干净有层次，亮部带透明雾感和柔和反光，使整体温暖亲近、安静隆重。质感保持真实摄影的玻璃反射、轻微颗粒、低照度空间和柔焦边缘，文字像印在空气与画面表面之间，最终效果应像一份高级私人邀请：情绪先于信息到达，信息轻而清楚，中心瞬间被大字温柔封存。\n\n{subject_description}\n{additional_scene_details}\n{size_requirement}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2081388511606030704",
+      "source_author": "小小东",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/wedding_intimate_ceremony_invitation_c886b7e2.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wedding_intimate_ceremony_invitation_c886b7e2.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wedding_intimate_ceremony_invitation_c886b7e2.thumb.webp",
+      "number": "ST000225",
+      "created_at": ""
     },
     {
       "id": "vintage_streetwear_cartoon_poster",

@@ -1,8 +1,9 @@
-共 224 个风格
+共 225 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
 ST0003 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
+ST0225 | 婚礼私密仪式感影像邀请函 | https://malongan.github.io/style-source/images/styles_previews/wedding_intimate_ceremony_invitation_c886b7e2.webp
 ST0004 | 复古街头卡通海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp
 ST0220 | 复古吉祥物海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_mascot_poster_524c7282.webp
 ST0207 | 复古老爷车矢量海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_car_vector_art_214bfc5a.webp
