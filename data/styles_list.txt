@@ -1,4 +1,4 @@
-共 227 个风格
+共 228 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -155,6 +155,7 @@ ST0199 | Hold The Line 宣言海报 | https://malongan.github.io/style-source/im
 ST0203 | 高明度商业图形风格 | https://malongan.github.io/style-source/images/styles_previews/high_brightness_commercial_graphic_HNHdmHgb.webp
 ST0127 | 天使阶层海报（Hierarchy Angels Poster） | https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp
 ST0128 | 异类阵列视觉 | https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp
+ST0228 | 手工印刷感早安信息海报 | https://malongan.github.io/style-source/images/styles_previews/handprint_morning_poster_b668797a.webp
 ST0129 | 手绘旅行涂鸦插画 | https://malongan.github.io/style-source/images/styles_previews/hand_drawn_travel_illustration_12076837.webp
 ST0130 | 半色调拼贴隐喻公益海报 | https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp
 ST0216 | 商业成长社群人像视觉 | https://malongan.github.io/style-source/images/styles_previews/growth_community_portrait_70536bbc.webp
