@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-97-gdb6edc9-dirty",
-    "generated": "2026-07-27T08:25:40Z",
-    "total": 233,
+    "version": "v0.7.0-before-opt-98-g8a08251-dirty",
+    "generated": "2026-07-29T06:24:48Z",
+    "total": 234,
     "categories": [
       "brand_kv",
       "creative",
@@ -5075,6 +5075,49 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.thumb.webp",
       "number": "ST000188",
+      "created_at": ""
+    },
+    {
+      "id": "premium_4grid_product_lineup",
+      "code": "ST0235",
+      "name": "风味配色4格产品阵列海报",
+      "category": "e-commerce",
+      "tags": [
+        "premium product lineup",
+        "2x2 grid layout",
+        "flavor-based palette",
+        "pedestal composition",
+        "beverage photography",
+        "minimal accent"
+      ],
+      "triggers": [
+        "4格产品展示",
+        "阵列产品海报",
+        "风味配色系列",
+        "高端产品摄影",
+        "Dilmah茶系风格",
+        "多格产品KV"
+      ],
+      "scene": "品牌旗舰产品KV、系列产品发布海报、高端饮品电商主图",
+      "ratio": "4:5（可适配16:9、1:1）",
+      "summary": "严格2x2网格布局，每格产品置于独立底座，背景色随风味微调，每格仅保留一个精简点缀，打造高端产品阵列海报视觉系统",
+      "features": [
+        "**严格2x2网格布局** — 四格等分、间距一致，每格独立构图同属一个产品系列，形成强烈品牌系统感",
+        "**底座式静物陈列** — 每个产品置于独立底座（石材/石膏/磨砂质感），居中或微偏布局，留白充裕，营造高端静物摄影感",
+        "**风味驱动色调变化** — 每格背景色随产品风味主题微调（奶油白/焦糖米/蜜桃沙/冷绿米），保持统一高级感的前提下赋予系列丰富性",
+        "**极简点缀原则** — 每格仅保留一个风味线索（花瓣/茶叶/柑橘片/粉末或类似），稀疏比堆砌更能营造高级感",
+        "**高端编辑式排版** — 品牌名称+一句精炼副文案，极简现代排版，文字体量远小于产品本体，不抢占视觉焦点"
+      ],
+      "prompt": "Create an ultra-premium 4-panel product poster for the {brand_name} {product_series} series, merging extreme product realism with stronger flavor-based visual differentiation, while reducing all supporting elements to an even purer minimum. Fully preserve the exact visual logic and elegant minimal layout of a luxury editorial campaign: a strict 2x2 grid, each panel featuring one real product presented in a clean, isolated, highly refined still-life composition. The final artwork must feel like a world-class premium campaign: hyper-realistic, pure, elegant, visually quiet, and extremely polished, with the products remaining the absolute heroes.\n\nCore structure:\nUse a strict 2x2 four-panel layout with equal panel proportions and perfect spacing. Each panel must function like its own luxury still-life poster while remaining part of one unified series. The overall composition must feel balanced, airy, minimal, and premium, with strong visual consistency across all four quadrants.\n\nProduct system:\nFeature four products from the series, each one clearly different in flavor identity, color, styling mood, and visual personality while still belonging to the same elegant family. Suggested lineup:\n1. {flavor_1}\n2. {flavor_2}\n3. {flavor_3}\n4. {flavor_4}\n\nEach panel must show the real product in a beautifully styled presentation. The products must feel real, premium, and instantly desirable.\n\nComposition within each panel:\nIn each quadrant, place one product centered or slightly off-center on a small elevated stone, plaster, or matte pedestal block. Reduce supporting elements to the bare minimum. Use at most one tiny accent per panel, such as a single garnish, one minimal herb accent, or one tiny ingredient trace. Some panels may have no extra accent at all if the composition feels stronger without it. The supporting elements must remain secondary and almost invisible in hierarchy. Each panel must feel pure, controlled, and editorial.\n\n4-panel color variation:\nKeep the overall system luxurious and unified, but introduce stronger panel-to-panel color variation so each product feels like its own quiet world. The background in each panel should remain soft and premium, but shift subtly in hue according to the product identity:\n- {flavor_1} panel: {bg_color_1}\n- {flavor_2} panel: {bg_color_2}\n- {flavor_3} panel: {bg_color_3}\n- {flavor_4} panel: {bg_color_4}\n\nThe color shifts must stay sophisticated and restrained, not loud. The four panels should feel harmonized but clearly differentiated.\n\nBackground:\nUse warm soft neutral backgrounds with gentle tonal variation across the four panels. The surfaces should feel smooth, clean, luminous, and premium, with no heavy texture or visual noise. Each panel's background should subtly echo its flavor family while preserving the overall calm luxury mood.\n\nProduct styling:\nEach product must be styled with exceptional realism and refined individuality. The presentation must feel premium, sculptural, and beautifully proportioned. Products must show real physical believability, density, and subtle material detail.\n\nTypography and branding:\nUse minimal premium typography only. Include:\n{brand_name} {product_series}\n\nYou may add one small refined line of supporting copy such as:\n\"{tagline}\"\n\nTypography must feel highly restrained, modern, and editorial. Do not overcrowd the layout. The text must remain secondary to the product.\n\nLighting:\nUse extremely delicate, soft, high-end studio lighting. Let each product catch elegant highlights along edges and surface details. Shadows must be soft, short, and clean. The lighting must feel natural, quiet, and luxurious, with fine tonal falloff and no harsh glare.\n\nMaterial realism:\nPush realism to the highest level. Products must feel crisp, smooth, and premium. Add only a minimal amount of fine detail where appropriate. The image must feel pristine, not cluttered.\n\nVisual mood:\nThe poster must communicate purity, refinement, stillness, and product confidence. It should feel like a luxury editorial shoot with strong series discipline, elegant restraint, and quiet visual impact. The four panels should feel more differentiated in mood while remaining unmistakably one family.\n\nColor direction:\nUse a controlled premium palette of ivory, cream, warm beige, pale stone, oat, caramel-beige, blush sand, soft peach, amber, and muted shadow taupe. The overall image must feel harmonious, elegant, soft, and quietly varied across the four panels.\n\nRendering style:\nultra-premium photorealistic product still-life poster, 4-panel luxury editorial layout, clean pedestal compositions, reduced supporting elements, subtle background color variation across panels, elegant typography, soft cinematic studio light, hyper-detailed product realism, minimalist premium brand aesthetics, 8k, masterpiece quality\n\nNegative prompt:\ncheap cafe poster, cluttered props, cartoon elements, low-detail product, messy garnish, oversaturated colors, noisy background, generic packaging ad, flat lighting, low-resolution textures, too much text, supermarket styling, watermark, logo clutter.\n",
+      "variables": {},
+      "source_url": "https://x.com/ou_zhen599/status/2082158630942781575?s=20",
+      "source_author": "ou_zhen599",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/premium_4grid_product_lineup_bbc183b5.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_4grid_product_lineup_bbc183b5.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_4grid_product_lineup_bbc183b5.thumb.webp",
+      "number": "ST000235",
       "created_at": ""
     },
     {
