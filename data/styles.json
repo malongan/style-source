@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-101-gcf42dc9-dirty",
-    "generated": "2026-07-30T09:17:03Z",
-    "total": 237,
+    "version": "v0.7.0-before-opt-102-gd03c144-dirty",
+    "generated": "2026-07-30T09:40:28Z",
+    "total": 236,
     "categories": [
       "brand_kv",
       "creative",
@@ -9302,51 +9302,6 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.thumb.webp",
       "number": "ST000155",
       "created_at": "2026-06-28T08:01:29+08:00"
-    },
-    {
-      "id": "digital_human_presenter",
-      "code": "ST0223",
-      "name": "AI数字人主播",
-      "category": "social_media",
-      "tags": [
-        "digital_human",
-        "ai_presenter",
-        "talking_head",
-        "video_avatars",
-        "heygen",
-        "minimax",
-        "ai_video",
-        "virtual_host"
-      ],
-      "triggers": [
-        "数字人主播",
-        "AI主播",
-        "数字人视频",
-        "AI虚拟人",
-        "digital human",
-        "virtual presenter"
-      ],
-      "scene": "企业宣传视频、产品口播、知识类短视频、新闻主播、AI虚拟主播、社交媒体内容生产",
-      "ratio": "3:4",
-      "summary": "基于 Heygen + Minimax 的 AI 数字人主播风格，真人照片 + 声音克隆生成逼真虚拟主播口播视频",
-      "features": [
-        "**AI数字人主播** — 基于真人照片 + 声音克隆生成的逼真数字人主播，几乎无法分辨真伪",
-        "**高度声音还原** — 使用 Minimax speech-02-hd 音色克隆，录制本人声音即可生成自然口播",
-        "**Heygen 驱动** — 输入口播文字稿，自动生成数字人说话视频，支持 9:16 竖版",
-        "**极低成本** — Heygen 11秒视频约 ¥3.5，Minimax 音色克隆约 ¥0.8，适合批量内容生产",
-        "**口播视频场景** — 企业介绍、产品讲解、新闻播报、知识科普，可替代真人出镜"
-      ],
-      "prompt": "A photorealistic AI digital human presenter standing or seated in a professional setting, speaking directly to camera with natural head movements, realistic facial expressions, and lifelike hand gestures. The digital person has clean background, soft professional lighting, and confident body language typical of a brand spokesperson or news anchor. Upper body framing, direct eye contact with camera, warm and approachable demeanor.\n\n# Digital Human Production Workflow (Heygen + Minimax):\n# 1. Photo: Take a clear selfie with good lighting (frontal, neutral expression)\n# 2. Voice: Record 1-2 minutes of your natural speech on iPhone voice memo\n# 3. Voice Clone: Use Minimax speech-02-hd API for voice cloning\n# 4. Script: Prepare your speaking script (e.g. product intro, company profile)\n# 5. Video: Use Heygen API with photo + cloned voice to generate talking-head video\n# 6. Output: 9:16 vertical video, natural lip-sync, professional presenter quality\n\nNote: This YAML describes the digital human production workflow. The visual style comes from AI video generation platforms like Heygen. To replicate the look: use Heygen's digital avatar feature with a real photo reference, combined with Minimax's speech-02-hd voice clone for natural-sounding narration. The result is a realistic talking-head video indistinguishable from real footage.\n不要水印，不要真实Logo，不要电商广告感。\n",
-      "variables": {},
-      "source_url": "https://x.com/ZhenZhu200/status/2081026006979133899",
-      "source_author": "ZhenZhu200",
-      "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/digital_human_presenter_1ee5dca7.webp"
-      ],
-      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/digital_human_presenter_1ee5dca7.webp",
-      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/digital_human_presenter_1ee5dca7.thumb.webp",
-      "number": "ST000223",
-      "created_at": ""
     },
     {
       "id": "diffuse_poster",
