@@ -1,0 +1,43 @@
+# 黑白极简编辑风角色插画
+
+id: monochrome_editorial_character
+name: "黑白极简编辑风角色插画"
+category: creative
+
+tags:
+  - 黑白插画
+  - 极简
+  - 角色设计
+  - 编辑风
+  - 墨水线条
+
+triggers:
+  - 黑白角色插画
+  - 极简编辑风
+  - 墨水线条插画
+  - 网络漫画风格
+
+features:
+  - "**极简黑白编辑风** — 纯白背景大量留白，角色仅占画面30-40%，呈现现代编辑感版面布局，像当代独立网络漫画和斯堪的纳维亚编辑插画的结合"
+  - "**略微夸张大头比例** — 头身比例带有轻微夸张感的角色造型，简化面部特征（小圆点眼睛、挑眉、小鼻子、友好微笑），风格化但保持亲和力"
+  - "**干净自信的黑色墨水线条** — 变化丰富的黑色墨水线稿，圆润轮廓线、不同粗细的笔触、柔和的手绘瑕疵感、表现力十足的笔触，无灰度/无彩色/无渐变"
+  - "**大块黑色图形对比白色面料** — 服装以大面积黑色几何图形撞白色面料，极简褶皱线、稀疏排线和简单轮廓线，只保留脚底柔和阴影作为画面锚点"
+  - "**宽松街头服饰风格** — 宽松休闲的街头穿搭（oversized廓形、厚底运动鞋、简单配饰），放松的肢体语言，搭配日常道具（手机、笔记本电脑、滑板、购物袋等）"
+
+scene: "网络漫画角色、生活方式品牌插画、编辑杂志配图、角色设计展示"
+ratio: "4:5"
+summary: "极简黑白编辑风角色插画，纯白留白背景配夸张大头比例的街头服饰角色，干净自信的墨水线条，无灰度无彩色"
+
+prompt: |
+  Minimalist black-and-white editorial character illustration of {角色描述} on a clean white background with abundant negative space. The character occupies approximately 30–40% of the frame in {姿势描述}, wearing {服装描述} and interacting with {道具描述} (phone, laptop, skateboard, shopping bag, etc.). Stylized proportions with a slightly oversized head, simplified facial features, small dot eyes, expressive eyebrows, tiny nose, and a subtle friendly smile. Loose casual streetwear with oversized silhouettes, chunky sneakers, simple accessories, and relaxed body language.
+
+  Drawn using clean, confident black ink linework with varied line weights, rounded contours, soft sketch-like imperfections, and expressive hand-drawn strokes. Use only solid black and white with no grayscale, no color, and no gradients. Clothing is rendered with large black graphic shapes contrasted against white fabric, minimal folds, simple contour lines, and sparse hatching. Add only a soft ground shadow beneath the feet.
+
+  The composition is centered with generous white margins, creating a modern editorial look. The background remains completely blank except for a subtle floor line or shadow. Overall aesthetic resembles contemporary indie webcomic illustrations, Scandinavian editorial drawings, playful lifestyle character design, and clean vector-inspired ink sketches. High-resolution, crisp line art, minimalistic, expressive, stylish, charming, hand-drawn, 2D illustration, monochrome, no background elements, 4:5 aspect ratio.
+
+  不要水印，不要真实Logo，不要灰度，不要彩色，不要渐变，不要真实照片质感，不要复杂背景，不要厚涂，不要3D渲染。
+
+source_url: "https://x.com/Taaruk_/status/2082758275179900940"
+source_author: "@Taaruk_"
+
+# 配图: images/styles_previews/monochrome_editorial_character_5b35b192.webp
