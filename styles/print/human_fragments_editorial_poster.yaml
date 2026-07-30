@@ -1,0 +1,69 @@
+# HUMAN FRAGMENTS 文字窗口编辑海报
+
+id: human_fragments_editorial_poster
+name: "HUMAN FRAGMENTS 文字窗口编辑海报"
+category: print
+
+tags:
+  - 文字窗口
+  - 编辑海报
+  - 电影感
+  - 视觉系统
+  - 人体碎片
+
+triggers:
+  - 文字窗口视觉
+  - 碎片海报
+  - 编辑风格海报
+  - HUMAN FRAGMENTS
+
+features:
+  - "**超大文字作为结构框架** — 字母如同窗户，透过字母可看到背景环境，超大裁切排版是主要结构框架，文字位置自由分布但不遮挡主体面部/躯干等重要部位"
+  - "**主体在文字前方保持完整** — 面部、躯干、手臂等关键部位不被文字切割，让一个关键动作元素延伸出文字之外，制造强烈的纵深感和视觉冲击力"
+  - "**4种构图变体可选** — Wave Cut（冲浪板划破波浪）、Rim Rise（篮球手从篮框上方视角扣篮）、Impact Frame（拳击手直拳冲击镜头）、Soft Swirl（优雅少女装饰蛋糕），可根据主题自由选择"
+  - "**写实摄影质感** — 真实可信的解剖结构、自然皮肤纹理、强烈前景透视、克制色调风格，让主体像从现实中被定格"
+  - "**暖白底色 + 编辑感间距** — 暖白底色配细微纸张颗粒纹理，克制冷色调，干净编辑间距，文字排版极简克制"
+
+scene: "电影海报、赛事视觉、品牌KV、杂志封面、运动品牌广告"
+ratio: "9:16"
+summary: "以超大裁切文字为结构框架、字母如窗户般揭示背景的编辑海报视觉系统，主体在文字前方保持完整，关键动作元素延伸出文字外制造纵深"
+
+prompt: |
+  Create a 9:16 editorial poster in the HUMAN FRAGMENTS visual system.
+
+  Theme: {主题}
+  Subject: {主体描述}
+  Action: {动作描述}
+  Scene: {场景描述}
+  Title: {标题}
+  Supporting Line: {副标题}
+  Year: 2026
+
+  Use oversized, cropped typography as the primary structural framework. The letters should function as windows that reveal the surrounding environment, while the main subject remains visually complete in front of the typography.
+
+  Do not allow the letters to cut through the face, torso, arms, thighs, or any other important parts of the body. Instead, let one key action element extend beyond the typography to create strong depth and visual impact.
+
+  Choose one of the following compositions:
+
+  1. WAVE CUT — A surfer carving across a rising wave, with the surfboard nose, leading hand, water spray, and curling wave extending beyond the typography.
+
+  2. RIM RISE — A basketball player reaching toward the hoop from a camera positioned above the rim, with the basketball, hand, and hoop fully extending beyond the letter masks while remaining naturally aligned.
+
+  3. IMPACT FRAME — A boxer throwing a straight punch toward the camera, with the enlarged foreground glove breaking beyond the typography while the gym environment remains visible inside the letters.
+
+  4. SOFT SWIRL — A graceful young woman decorating a cake, with the piping bag, hands, cake, and flowing cream details extending beyond the typography while the bakery interior appears inside the letterforms.
+
+  Use realistic photography, believable anatomy, natural skin texture, strong foreground perspective, subtle paper grain, a warm off-white background, restrained colour grading, and clean editorial spacing.
+
+  Keep the typography minimal and freely positioned:
+  [Title]
+  HUMAN FRAGMENTS
+  [Supporting Line]
+  2026
+
+  不要水印，不要真实Logo，不要插画化，不要卡通质感，不要厚重滤镜。
+
+source_url: "https://x.com/Goodmanprotocol/status/2082666687925760258"
+source_author: "@Goodmanprotocol"
+
+# 配图: images/styles_previews/human_fragments_editorial_poster_6b3d274f.webp
