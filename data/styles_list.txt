@@ -1,4 +1,4 @@
-共 236 个风格
+共 237 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -124,6 +124,7 @@ ST0198 | North Fold 科考档案海报 | https://malongan.github.io/style-source
 ST0213 | 夜间闪光庆典写真 | https://malongan.github.io/style-source/images/styles_previews/night_flash_celebration_portrait_ff5b2426.webp
 ST0102 | 新年礼盒 | https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp
 ST0238 | 暗调博物馆戏剧光影人像 | https://malongan.github.io/style-source/images/styles_previews/museum_dramatic_lighting_portrait_487e804b.webp
+ST0239 | 黑白极简编辑风角色插画 | https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.webp
 ST0103 | 莫比乌斯海底珊瑚邮局 | https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp
 ST0195 | 现代东方校庆纪念海报 | https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.webp
 ST0210 | 极简手绘纪念卡 | https://malongan.github.io/style-source/images/styles_previews/minimalist_hand_drawn_card_91829faa.webp
