@@ -26,4 +26,4 @@
 | ST0217 | 强信息层级观点海报 | [@小小东](https://x.com/xiaoxiaodong01/status/2073402053997834484) | 人像海报 |
 | ST0218 | 编辑感文化海报 | [@小小东](https://x.com/xiaoxiaodong01/status/2073402053997834484) | 人像海报 |
 | vibrant_anime_social_poster | #动漫 #赛璐璐 #高饱和 #卡通背景 #社媒病毒 #可爱 | 社交媒体头像转换、动漫海报、粉丝应援图 | 2:3 |
-| digital_human_presenter | #AI数字人 #主播 #Heygen #Minimax #虚拟主播 #口播视频 | 企业宣传视频、产品口播、AI虚拟主播、知识短视频 | 3:4 |
+
