@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-100-g263d0f3-dirty",
-    "generated": "2026-07-30T07:53:30Z",
-    "total": 236,
+    "version": "v0.7.0-before-opt-101-gcf42dc9-dirty",
+    "generated": "2026-07-30T09:17:03Z",
+    "total": 237,
     "categories": [
       "brand_kv",
       "creative",
@@ -5884,6 +5884,46 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.thumb.webp",
       "number": "ST000102",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "museum_dramatic_lighting_portrait",
+      "code": "ST0238",
+      "name": "暗调博物馆戏剧光影人像",
+      "category": "creative",
+      "tags": [
+        "博物馆人像",
+        "戏剧光影",
+        "电影感",
+        "胶片摄影",
+        "暗调美学"
+      ],
+      "triggers": [
+        "博物馆风人像",
+        "戏剧光影人像",
+        "暗调电影感",
+        "museum-core"
+      ],
+      "scene": "暗调人物肖像、博物馆/展览主题视觉、独立电影海报、文艺品牌KV",
+      "ratio": "9:16",
+      "summary": "以暗调展览室中戏剧性对角线聚光灯为核心的电影感人像风格，复古日式壁画背景提供鲜艳色彩点缀，Kodak Portra胶片调色营造孤独艺术氛围",
+      "features": [
+        "**戏剧性对角线聚光灯** — 一道强烈的对角线聚光灯从右上到左下切割画面，一半身体被照亮，另一半融入阴影，形成高对比光影结构",
+        "**复古日式壁画背景** — 多彩复古日式壁画墙，融合复古卡通插画与传统艺术细节，为暗调画面注入鲜艳色彩点缀",
+        "**电影负空间构图** — 前景阴影自然框住画面，像撕裂的黑暗窗口，主体处于画幅中下部，周围大片黑暗营造孤独氛围",
+        "**Kodak Portra 胶片调色** — 深黑背景与鲜艳壁画点缀形成强烈对比，柔和暖调高光，模拟胶片颗粒和模拟质感",
+        "**中近景侧面肖像** — 约70度侧面取景，中近景取景距离，主体自然放松姿态，一只手整理头发，冷静神秘的表情"
+      ],
+      "prompt": "cinematic portrait of {主体描述} standing alone in a dark exhibition room, {主体} wearing {服装描述} , minimal make up front-profile pose with body facing camera , relaxed posture, one shoulder slightly lowered, hands adjust hair calm mysterious expression, intellectual and elegant aura, positioned in the lower center of frame, surrounded by darkness with a single dramatic diagonal spotlight cutting across the scene from top right to bottom left, half of her body illuminated while the rest fades into shadow, colorful vintage {壁画背景描述} mural wall behind her with retro cartoon illustrations and traditional art details, cinematic negative space composition, foreground shadows naturally framing the image like torn darkness, moody museum atmosphere, lonely artistic vibes, contemplative mood, realistic photography, subtle film grain, analog texture, muted blacks with vibrant mural accents.\n\ncamera angle: eye-level shot, medium-close portrait framing, subject captured from side at approximately 70-degree profile angle, slight distance from subject for environmental storytelling, centered cinematic composition.\n\ncamera settings: cinematic low-light photography, shallow depth of field, realistic shadow falloff, Kodak Portra film color grading.\n\nlighting: harsh focused spotlight from upper right creating strong diagonal beam and high contrast shadows, minimal ambient light, deep blacks, soft warm highlight on face and glasses edge.\n\nvibes: mysterious, artistic, museum-core aesthetic, intelligent quiet energy, melancholic cinematic atmosphere, indie film still, luxury editorial photography, solitary night mood, understated elegance.\n\nstyle: ultra realistic, cinematic photography, analog grain, editorial fashion portrait, natural skin texture, subtle imperfections, realistic color science, masterpiece quality.\n\n不要动漫风，不要微笑，不要过度曝光，不要多余肢体，不要奇怪解剖，不要鲜艳全身服装，不要赛博朋克霓虹，不要模糊面部，不要低画质，不要扭曲手部，不要不真实皮肤，不要HDR过载，不要夸张妆容，不要拥挤构图，不要重复人物。\n",
+      "variables": {},
+      "source_url": "https://x.com/Naiknelofar788/status/2082653912075739205",
+      "source_author": "Naiknelofar788",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/museum_dramatic_lighting_portrait_487e804b.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/museum_dramatic_lighting_portrait_487e804b.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/museum_dramatic_lighting_portrait_487e804b.thumb.webp",
+      "number": "ST000238",
+      "created_at": ""
     },
     {
       "id": "moebius_underwater_coral_postoffice",
