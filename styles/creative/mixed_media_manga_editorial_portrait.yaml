@@ -1,0 +1,46 @@
+# 漫画拼贴写实人像
+
+id: mixed_media_manga_editorial_portrait
+name: "漫画拼贴写实人像"
+category: creative
+
+tags:
+  - mixed-media
+  - manga collage
+  - editorial portrait
+  - photorealism
+  - comic illustration
+  - streetwear
+
+triggers:
+  - 漫画人像
+  - 漫画拼贴
+  - 写实漫画
+  - 杂志漫画风
+
+features:
+  - "**写实人像 + 漫画背景融合** — 主体为超真实感人物（现代休闲穿搭），背景为高对比黑白漫画拼贴，形成「走出漫画页面」的视觉错觉"
+  - "**低角度全身 + 前伸透视** — 一脚向镜头前伸，营造强力 3D 弹出效果和戏剧化透视感"
+  - "**高对比黑白漫画拼贴背景** — 多格漫画面板、手绘墨水插画、对话框、爱心、星星、闪电、箭头、墨迹等动态装饰元素"
+  - "**漫画感粗体排版** — 'OMG!' 'WOW!' 'SO CUTE!' 等夸张漫画字体融入高级杂志编辑版面"
+  - "**柔和棚拍布光** — 清透阴影 + 超真实皮肤纹理 + 衣物牛仔布褶皱细节，杂志级调色与合成"
+
+scene: "杂志编辑大片、品牌KV、社媒创意人像、概念海报"
+ratio: "2:3"
+summary: "写实人物从漫画拼贴背景中走出的混合媒体编辑人像风格，融合超真实摄影与高对比漫画插画元素"
+
+prompt: |
+  Recreate the scene as a premium mixed-media manga editorial portrait. Place {subject} in a full-body, low-angle composition with one foot stepping toward the camera to create dramatic forced perspective and a bold 3D pop-out effect. Keep the pose natural, relaxed, and confident with a soft smile and direct eye contact. Dress in modern casual streetwear with realistic fabric textures, clean styling, minimal accessories, and fashionable sneakers.
+
+  Behind the subject, create a high-contrast black-and-white manga collage featuring multiple comic panels of their face with different cute expressions, hand-drawn ink illustrations, expressive webtoon artwork, thick comic outlines, dynamic panel layouts, speech bubbles, hearts, stars, sparkles, lightning bolts, arrows, ink splashes, spiral doodles, motion lines, sketch marks, and energetic graphic elements.
+
+  Integrate bold comic typography including "OMG!", "WOW!", "SO CUTE!", "LOVE IT!", "AMAZING!", and "ADORABLE!" in a premium editorial layout. Blend the realistic subject seamlessly with the illustrated manga background, creating the illusion that they are stepping out of a comic page into the real world.
+
+  Soft studio lighting, crisp shadows, ultra-realistic skin texture, detailed hair strands, realistic denim and fabric folds, sharp sneaker details, premium compositing, high dynamic range, clean white background, luxury magazine-quality color grading, ultra-detailed, masterpiece, photorealistic, 8K.
+
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/AiwithLariab/status/2082718809274937790?s=20"
+source_author: "Laraib Fatima (@AiwithLariab)"
+
+# 配图: images/styles_previews/mixed_media_manga_editorial_portrait_5728606c.webp
