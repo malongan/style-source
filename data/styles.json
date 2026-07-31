@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-104-gcd9dfd1-dirty",
-    "generated": "2026-07-30T10:40:28Z",
-    "total": 238,
+    "version": "v0.7.0-before-opt-105-gf82c0e3-dirty",
+    "generated": "2026-07-31T09:11:23Z",
+    "total": 239,
     "categories": [
       "brand_kv",
       "creative",
@@ -6181,6 +6181,45 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.thumb.webp",
       "number": "ST000104",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "minimalist_cafe_product_poster",
+      "code": "ST0241",
+      "name": "极简瑞士风咖啡馆产品海报",
+      "category": "e-commerce",
+      "tags": [
+        "纯白背景",
+        "黑色排版",
+        "瑞士编辑风",
+        "日式咖啡馆",
+        "居中产品"
+      ],
+      "triggers": [
+        "极简咖啡馆海报",
+        "白色背景产品海报",
+        "瑞士排版海报"
+      ],
+      "scene": "咖啡馆产品主图、饮品品牌社媒海报、极简电商详情页",
+      "ratio": "4:5",
+      "summary": "纯白背景 + 黑色瑞士排版 + 居中单品的极简咖啡馆产品海报",
+      "features": [
+        "**纯白背景** — 干净无杂质的白色底，产品成为唯一视觉焦点",
+        "**黑白极简排版** — 大号大写英文产品名 + 价格 + 简短促销短语，黑字白底强对比",
+        "**瑞士编辑式布局** — 居中单个产品、宽边距、整洁留白，现代日式咖啡馆美学",
+        "**柔和自然阴影** — 产品底部软阴影营造真实感，不喧宾夺主",
+        "**克制的内容** — 不虚构配料、品牌或未见的特性，只呈现可见信息"
+      ],
+      "prompt": "Create a minimalist 4:5 café product poster with a pure white background and black typography. Use the attached product photo as the main reference, or generate a realistic product image from the product name if no photo is provided. Display the product name in large uppercase English text, the price exactly as entered, and generate short English promotional phrases only. Keep one centered product with soft natural shadows, a clean Swiss-style editorial layout, wide margins, and a modern Japanese café aesthetic. Do not invent ingredients, brands, or features that are not visible or implied.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/kingofdairyque/status/2083045196212625545",
+      "source_author": "Simply Ray (@kingofdairyque)",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.thumb.webp",
+      "number": "ST000241",
+      "created_at": ""
     },
     {
       "id": "mckinsey_style",
