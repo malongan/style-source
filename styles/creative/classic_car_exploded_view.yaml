@@ -1,0 +1,44 @@
+# 经典老爷车爆炸拆解视图
+
+id: classic_car_exploded_view
+name: "经典老爷车爆炸拆解视图"
+category: creative
+
+tags:
+  - 老爷车
+  - 爆炸拆解
+  - 产品可视化
+  - 影棚布光
+  - 技术图解
+
+triggers:
+  - 经典汽车爆炸图
+  - 老爷车拆解
+  - car exploded view
+  - classic car infographic
+
+features:
+  - "**2×2 网格布局** — 16:9 画布均分为四格，每辆老爷车独立占一格，整齐阵列感"
+  - "**STEP 1 组件推断** — 推断每个零件/成分，识别装配顺序，区分结构件、主动件、隐秘内部件"
+  - "**STEP 2 悬浮逻辑** — 每个零件悬浮在自己的平面中，零重力状态，沿单一轴线或环绕中心爆炸展开，间距克制而有意图"
+  - "**STEP 3 揭示故事** — 剖面/横截面组件证明产品如何运作，原料与成品同样精美呈现"
+  - "**STEP 4 布光统一** — 纯色背景，所有悬浮元素被柔和定向光统一，每片零件投射真实柔和阴影"
+  - "**STEP 5 渲染规范** — 焦点堆栈使每片元素清晰，影棚产品布光，受控反光，禁用可见线缆、比例不一致、不同光影"
+
+scene: "汽车产品图解、品牌技术故事、产品设计展示、文化历史海报"
+ratio: "16:9"
+summary: "经典老爷车 2×2 爆炸拆解视图，以零重力悬浮阵列、影棚产品布光、焦点堆栈为特征，呈现汽车品牌技术与历史故事的视觉图解风格"
+
+prompt: |
+  2x2 grid, 16:9, do this for 4 unusual classic cars that were real: INPUT ::= [PRODUCT]
+  STEP_1 :: infer the components - every part or ingredient, separated and identified - the assembly order — components arrayed the way they combine - what is structural, what is active, what is the secret inside - the single element that reveals how it works
+  STEP_2 :: infer the suspension - each component floating in its own plane, held in zero gravity - the constellation logic: exploded along one clean axis, or orbiting a centre - spacing that reads as deliberate, never scattered - the hero element largest and forward, the rest receding
+  STEP_3 :: infer the reveal story - what's inside / how it's made / what it's made of - the cutaway or cross-sectioned component that proves the claim - raw ingredients rendered as beautifully as the finished product
+  STEP_4 :: infer ground and air - seamless background, one hue, the components as the only subjects - soft directional light unifying every floating element - each piece casting an honest soft shadow despite hanging in air
+  STEP_5 :: render spec - focus-stacked so every suspended element is sharp - studio product lighting, controlled reflections on each part - forbidden: visible wires, inconsistent scale, parts lit differently - material honesty on every component, raw and finished alike
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/Gdgtify/status/2084363171448422856?s=20"
+source_author: "@Gdgtify"
+
+# 配图: images/styles_previews/classic_car_exploded_view_d698db7a.webp
