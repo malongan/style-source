@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-107-g5d1eb21-dirty",
-    "generated": "2026-08-04T10:08:23Z",
-    "total": 241,
+    "version": "v0.7.0-before-opt-108-g652af7a-dirty",
+    "generated": "2026-08-04T22:54:43Z",
+    "total": 242,
     "categories": [
       "brand_kv",
       "creative",
@@ -5884,6 +5884,47 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.thumb.webp",
       "number": "ST000102",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "naive_doodle_cat_character",
+      "code": "ST0244",
+      "name": "童趣猫咪手绘涂鸦",
+      "category": "creative",
+      "tags": [
+        "手绘涂鸦",
+        "童趣可爱",
+        "笔画不完美",
+        "简约卡通",
+        "素描本",
+        "水彩墨水"
+      ],
+      "triggers": [
+        "手绘涂鸦猫咪",
+        "naive sketchbook",
+        "儿童画风格",
+        "手工涂鸦"
+      ],
+      "scene": "社交媒体头像、品牌 IP 延展、可爱角色海报",
+      "ratio": "4:5",
+      "summary": "以不完美笔触和儿童画逻辑呈现的手绘涂鸦风格，极简白底搭配童趣角色",
+      "features": [
+        "**笔画不完美** — brush-pen 勾勒，线条微微晃动、带有手工感的不规则美",
+        "**极简儿童画美学** — 细节简化为可爱的儿童形状，保留主体与构图",
+        "**干净白底** — 纯净白色背景，无多余元素，聚焦主体",
+        "**水彩墨水质感** — 轻盈水彩晕染，线条与色块结合，质朴温暖",
+        "**童趣角色设计** — 活泼可爱、充满想象力的角色感"
+      ],
+      "prompt": "Transform the image into a minimalist hand-drawn doodle illustration. Use simple brush-pen outlines with slightly wobbly, imperfect strokes. Reduce all details to cute, childlike shapes while preserving the main subject and composition.\nNaive sketchbook aesthetic, playful and whimsical {subject}, clean white background, minimal linework, expressive simplicity, handmade doodle style, water color ink drawing, charming imperfections, simple cartoon illustration.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/MissDelulu9/status/2084483650507469054",
+      "source_author": "MissDelulu9",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/naive_doodle_cat_character_e3bfda16.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/naive_doodle_cat_character_e3bfda16.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/naive_doodle_cat_character_e3bfda16.thumb.webp",
+      "number": "ST000244",
+      "created_at": ""
     },
     {
       "id": "museum_dramatic_lighting_portrait",

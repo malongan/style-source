@@ -28,6 +28,7 @@
 | korean_morning_ritual_poster | #晨间问候 #韩国ins风 #治愈系 |  | 16:9 / 3:4 / 9:16 |
 | lime_mint_sparkling_doodle_poster | #青柠薄荷 #气泡饮 #手绘托举 |  | 16:9 / 9:16 |
 | mango_coconut_doodle_drink | #芒果椰乳 #涂鸦 #手绘标注 |  | 16:9 / 9:16 |
+| naive_doodle_cat_character | #手绘涂鸦 #童趣 #笔画不完美 #简约卡通 #素描本 #水彩墨水 | 社交媒体头像、品牌 IP 延展、可爱角色海报 | 4:5 |
 | moebius_underwater_coral_postoffice | #莫比乌斯 #极繁主义 #海底邮局 |  | 9:16（竖版）/ 16:9（横版） |
 | object_illustration_combo | #真实物体 #手绘插画 #融合 |  | 9:16（竖版） |
 | oriental_mural_exhibition_poster | #东方美学 #壁画 #展览海报 #低饱和 | 东方美学展览海报、文化活动宣传 | 3:4 |
