@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-108-g652af7a-dirty",
-    "generated": "2026-08-04T22:54:43Z",
-    "total": 242,
+    "version": "v0.7.0-before-opt-109-g9b749c1-dirty",
+    "generated": "2026-08-04T22:59:32Z",
+    "total": 243,
     "categories": [
       "brand_kv",
       "creative",
@@ -5038,6 +5038,51 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/quiet_corner_mood_illustration_e2a92b24.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/quiet_corner_mood_illustration_e2a92b24.thumb.webp",
       "number": "ST000229",
+      "created_at": ""
+    },
+    {
+      "id": "premium_scandinavian_stamp_collection",
+      "code": "ST0245",
+      "name": "北欧极简旅行纪念邮票集",
+      "category": "travel",
+      "tags": [
+        "邮票",
+        "北欧极简",
+        "旅行纪念",
+        "斯堪的纳维亚",
+        "收藏级",
+        "A4竖版"
+      ],
+      "triggers": [
+        "北欧邮票",
+        "旅行纪念邮票",
+        "斯堪的纳维亚设计",
+        "目的地邮票集",
+        "A4 stamp sheet",
+        "commemorative postage"
+      ],
+      "scene": "品牌文创、目的地旅行纪念册、社交媒体图文、旅行博主内容",
+      "ratio": "3:4",
+      "summary": "北欧极简风目的地旅行纪念邮票集：7-9枚大小不一的邮票在A4竖版上自由混排，真实齿孔+纸纹质感+克制配色，打造可收藏的限量印刷品。",
+      "features": [
+        "**7-9枚独立邮票混排** — 大小不一、非刚性网格，自由不对称排列，视觉节奏丰富",
+        "**真实齿孔边缘** — 每枚邮票均有精致打孔边缘，触感可信",
+        "**北欧极简美学** — 几何化简洁形态、克制细节、优雅排版、高端收藏感",
+        "**目的地色彩体系** — 配色灵感源自旅行目的地，自然和谐、色调克制",
+        "**A4竖版完整邮册** — 正面居中展示，如高端限量版印刷品",
+        "**地名+邮资+货币符号** — 每枚邮票含真实本地邮资面值和货币单位",
+        "**胶印纸质感** — 细腻纸张纹理，仿真收藏级印刷工艺"
+      ],
+      "prompt": "Create a premium commemorative postage-stamp collection inspired by [DESTINATION], presented as a beautifully designed A4 vertical stamp sheet.\n\nCreate 7–9 individual stamps featuring a thoughtful mix of iconic landmarks, architecture, local food, transportation, nature, cultural objects, and small everyday symbols that uniquely evoke [DESTINATION].\n\nAll stamps must keep the same elegant 3:4 portrait proportion, but vary noticeably in physical size. Arrange them freely across the sheet with gentle asymmetry, visual rhythm, and comfortable white space — NOT a rigid grid.\n\nSTYLE\n\nPremium Scandinavian minimalism with sophisticated contemporary postal design.\n\nSimplify each subject into elegant geometric forms, clean silhouettes, restrained details, subtle graphic abstraction, and refined editorial composition.\n\nUse a fresh but limited color palette inspired naturally by [DESTINATION].\n\nKeep the background clean warm-white or pure white.\n\nAvoid vintage sepia, excessive decoration, cartoonish illustration, photorealism, or generic tourist-poster aesthetics.\n\nSTAMPS\n\nEvery stamp must feel like a real collectible postage stamp:\n\n- crisp perforated edges\n- beautifully printed paper texture\n- country or destination name\n- authentic local currency symbol and realistic current postage denomination\n- subtle, elegant typography\n- one distinctive subject per stamp\n\nResearch and use plausible current local postage values and currency conventions for [DESTINATION].\n\nMake every stamp visually different while maintaining one coherent art direction.\n\nMix bold architectural compositions, close-up objects, landscapes, food, transportation, flora, and charming local details.\n\nPRESENTATION\n\nShow the complete A4 vertical commemorative stamp sheet straight-on, like a premium limited-edition postal release photographed or scanned for a design archive.\n\nThe final result should feel exceptionally collectible, tactile, sophisticated, and physically believable — something so beautifully designed that the viewer would genuinely want to tear off and keep each stamp.\n\nNo rigid grid. No identical stamp sizes. No excessive empty space. No mockup frame. No hands. No envelopes. A4 vertical ratio.\n\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/Goodmanprotocol/status/2084588473689014648",
+      "source_author": "Goodmanprotocol",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/premium_scandinavian_stamp_collection_9ccd9d26.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_scandinavian_stamp_collection_9ccd9d26.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_scandinavian_stamp_collection_9ccd9d26.thumb.webp",
+      "number": "ST000245",
       "created_at": ""
     },
     {
