@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-105-gf82c0e3-dirty",
-    "generated": "2026-07-31T09:11:23Z",
-    "total": 239,
+    "version": "v0.7.0-before-opt-106-g255823e-dirty",
+    "generated": "2026-08-04T09:08:18Z",
+    "total": 240,
     "categories": [
       "brand_kv",
       "creative",
@@ -10881,6 +10881,47 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.thumb.webp",
       "number": "ST000181",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "black_white_ink_editorial_character",
+      "code": "ST0242",
+      "name": "黑白墨水编辑角色插画",
+      "category": "creative",
+      "tags": [
+        "黑白插画",
+        "墨水线条",
+        "编辑风",
+        "角色设计",
+        "手绘感",
+        "极简"
+      ],
+      "triggers": [
+        "黑白编辑插画",
+        "墨水线条人像",
+        "极简黑白角色",
+        "editorial illustration"
+      ],
+      "scene": "网络漫画角色、生活方式品牌插画、编辑杂志配图、角色设计展示",
+      "ratio": "4:5",
+      "summary": "纯黑白墨水编辑风格角色插画，以极简排线、手绘线条感、夸张街头装扮为特征，呈现北欧独立漫画与现代杂志插画的融合质感",
+      "features": [
+        "**纯黑白墨水线条** — 仅使用纯黑与纯白，无灰色、无彩色、无渐变，大面积黑色块与白色面料形成强对比",
+        "**人物占框 30-40%** — 主体偏小，大量留白，呈现编辑杂志级别的构图呼吸感",
+        "**夸张街头装扮** — 夸张比例头部、简约五官、Dot Eyes、宽松街头服饰、夸张大 Sneakers，营造年轻潮流感",
+        "**手绘缺陷美感** — 自信流畅线条、圆润轮廓、soft sketch-like 缺陷、expressive strokes，保留手工感",
+        "**素描质感阴影** — 极简排线阴影、稀疏排线、脚下地面阴影，增加立体感但不破坏极简调性"
+      ],
+      "prompt": "Minimalist black and white editorial illustration of a character from an attached photo on a pure white background with plenty of negative space. The character occupies approximately 30-40% of the frame. Stylized proportions with a slightly enlarged head, simplified facial features, small dotted eyes, expressive eyebrows, a tiny nose, and a barely noticeable friendly smile. Casual casual streetwear with voluminous silhouettes, massive sneakers, simple accessories and a casual manner. It is drawn with clear, confident lines in black ink with varying line densities, rounded contours, soft, sketch-like defects and expressive hand-drawn strokes. Use only solid black and white, without shades of gray, without colors or gradients. The clothes use large black shapes contrasting with white fabric, minimal creases, simple contour lines and sparse shading. Add only a soft shadow from the ground under your feet. The composition is placed in the center with wide white margins, which creates a modern editorial look. The background remains completely blank, except for a barely noticeable floor line or shadow. The overall aesthetic is reminiscent of the illustrations of modern indie webcomics, Scandinavian editorial drawings, playful character design style and clear vector ink sketches. High resolution, clear lines, minimalistic, expressive, stylish, charming, hand-drawn, 2D illustration, monochrome, without background elements, aspect ratio 4:5.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/kingofdairyque/status/2084496413791268978?s=20",
+      "source_author": "kingofdairyque / Simply Ray",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.thumb.webp",
+      "number": "ST000242",
+      "created_at": ""
     },
     {
       "id": "beverage_style",
