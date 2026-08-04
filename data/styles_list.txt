@@ -1,4 +1,4 @@
-共 240 个风格
+共 241 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -216,6 +216,7 @@ ST0205 | 近景饮料产品海报 | https://malongan.github.io/style-source/imag
 ST0165 | 就要去爬山（Climb Mountain Typography） | https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.webp
 ST0236 | 清透空气感广告视觉 | https://malongan.github.io/style-source/images/styles_previews/clear_airy_ad_visual_fb5223fd.webp
 ST0166 | 黏土文字互动海报 | https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.webp
+ST0243 | 经典老爷车爆炸拆解视图 | https://malongan.github.io/style-source/images/styles_previews/classic_car_exploded_view_d698db7a.webp
 ST0167 | 电影级爆炸分解视图广告海报 | https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp
 ST0168 | Chibi Q 版角色 | https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp
 ST0201 | 炭笔素描风格 | https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlxiua.webp
