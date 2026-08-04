@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-109-g9b749c1-dirty",
-    "generated": "2026-08-04T22:59:32Z",
-    "total": 243,
+    "version": "v0.7.0-before-opt-111-g22554c9-dirty",
+    "generated": "2026-08-04T23:26:03Z",
+    "total": 244,
     "categories": [
       "brand_kv",
       "creative",
@@ -6173,6 +6173,48 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mixed_media_manga_editorial_portrait_5728606c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/mixed_media_manga_editorial_portrait_5728606c.thumb.webp",
       "number": "ST000240",
+      "created_at": ""
+    },
+    {
+      "id": "mixed_media_fashion_editorial",
+      "code": "ST0246",
+      "name": "混合媒体时尚大片风",
+      "category": "fashion",
+      "tags": [
+        "mixed-media",
+        "fashion-editorial",
+        "high-contrast",
+        "halftone",
+        "typographic",
+        "studio-lighting",
+        "collage"
+      ],
+      "triggers": [
+        "时尚杂志风",
+        "混合媒体时尚",
+        "高对比时尚摄影",
+        "拼贴时尚大片"
+      ],
+      "scene": "品牌时尚KV、社媒时尚大片、杂志封面、时装设计概念海报",
+      "ratio": "3:4",
+      "summary": "将时尚摄影与激进平面设计融合的混合媒体编辑风格，通过高对比双色调背景、半色调纹理与涂鸦笔触叠加，突出时装廓形的艺术张力",
+      "features": [
+        "**混合媒体拼贴** — 时尚摄影与平面设计元素叠加，半色调、噪点纹理、涂鸦飞溅与排版碎片共存",
+        "**高对比双色调背景** — 青绿与橙色饱和分割背景，非写实平面背景作为动态画布",
+        "**点状风衣廓形** — 黑色波点风衣叠穿橙色连体衣，服装边界锋利与背景动态笔触形成张力",
+        "**硬调摄影灯光** — 方向性硬光塑造面部高对比结构，暖冷色调高调平衡",
+        "**全身侧角度拍摄** — 85mm镜头平视视角，竖向构图平衡主体与环境"
+      ],
+      "prompt": "A stylish woman with a short, textured afro strides confidently in profile, wearing a structured trench coat adorned with large black polka dots over a vibrant orange jumpsuit. The composition integrates high-fashion photography with aggressive graphic design elements, featuring a split-toned teal and saturated orange background overlaid with distressed typographic textures, halftone patterns, and chaotic painterly splatters. Direct studio lighting illuminates her face with sharp highlights, creating high-contrast modeling that emphasizes her angular features. The background remains flat and non-representational, acting as a dynamic canvas for the layered mixed-media aesthetic, where sharp edges of the garment contrast against the energetic, abstracted brushstrokes and geometric shapes that surround the subject in a balanced, vertical orientation.\nStyle: Mixed-media fashion illustration, high-contrast digital collage. Key elements: Polka-dot trench coat, orange jumpsuit, typographic patterns, halftone splatters, editorial model. Lighting: Studio hard lighting, directional, high-key warm and cool balance. Camera: Full-body side profile, 85mm lens, eye-level perspective.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/im_shahid7/status/2084667131120202013",
+      "source_author": "im_shahid7",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/mixed_media_fashion_editorial_a1eed28b.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mixed_media_fashion_editorial_a1eed28b.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/mixed_media_fashion_editorial_a1eed28b.thumb.webp",
+      "number": "ST000246",
       "created_at": ""
     },
     {
