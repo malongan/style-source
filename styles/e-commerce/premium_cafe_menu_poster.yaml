@@ -1,0 +1,69 @@
+# 精品咖啡菜单海报
+
+id: premium_cafe_menu_poster
+name: "精品咖啡菜单海报"
+category: e-commerce
+
+tags:
+  - cafe
+  - menu
+  - poster
+  - editorial
+  - food_photography
+  - luxury_branding
+  - warm_sunlight
+
+triggers:
+  - 精品咖啡菜单海报
+  - 咖啡馆新品广告
+  - 饮品摄影海报
+
+features:
+  - "**编辑摄影风** — 杂志式暖调美食摄影， кино composition"
+  - "**自然日光** — 柔和侧后光，浅阴影、低反差"
+  - "**木质暖调** — 木桌、柔和绿植虚化、淡米色背景"
+  - "**精致排版** — 优雅衬线字体，NEW MENU 标题 + 产品信息分层布局"
+  - "**产品细节** — 透明玻璃杯真实材质（纹理、水珠、冷凝、装饰）"
+
+scene: "咖啡馆新品上市海报、饮品品牌KV、社交媒体菜单图文"
+ratio: "4:5"
+summary: "精品咖啡馆新品菜单海报，杂志编辑风暖调摄影，精致衬线排版"
+
+prompt: |
+  Create a premium cafe advertisement poster featuring {PRODUCT_NAME} as the main subject. The composition should follow a clean, minimalist, editorial style with warm natural sunlight, soft plant shadows, elegant typography, and a sophisticated luxury aesthetic.
+
+  Place a beautifully styled drink at the center of the composition inside a transparent glass with realistic textures, reflections, condensation, and garnish details appropriate for the beverage.
+
+  The scene should include a wooden table, subtle decorative elements, blurred greenery, and soft beige backgrounds to create a warm and inviting atmosphere.
+
+  Display the text in the following structure:
+
+  Top section:
+  • 'NEW MENU' headline
+  • {SUBTITLE}
+
+  Middle section:
+  • {PRODUCT_NAME}
+  • {DESCRIPTION}
+
+  Bottom section:
+  • {PRICE}
+
+  Style requirements:
+  • Editorial food photography
+  • Soft natural lighting
+  • Cinematic composition
+  • Luxury cafe branding
+  • Elegant serif typography
+  • Realistic shadows and highlights
+  • Minimalist layout
+  • High-detail product photography
+
+  Aspect ratio: 4:5.
+
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/Maercihh/status/2084869002665615462"
+source_author: "@Maercihh"
+
+# 配图: images/styles_previews/premium_cafe_menu_poster_ccf1aed3.webp

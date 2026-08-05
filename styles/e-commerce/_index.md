@@ -26,3 +26,4 @@
 | korean_food_scrapbook_poster | #韩式美食 #手账拼贴 #美食广告 #暖色调 #韩文标语 | 韩式餐饮品牌社媒海报、韩国外卖菜单、美食博主推荐帖 | 3:4 竖版 |
 | clear_airy_ad_visual | #清透 #广告视觉 #水光透明 #高明度 #日系文字排版 | 商场夏季服饰主视觉海报、品牌夏季广告、清透产品主图 | 3:4 |
 | minimalist_cafe_product_poster | #纯白背景 #黑色排版 #瑞士编辑风 #日式咖啡馆 #居中产品 | 咖啡馆产品主图、饮品品牌社媒海报、极简电商详情页 | 4:5 |
+| premium_cafe_menu_poster | #cafe #menu #editorial #luxury_branding #warm_sunlight | 咖啡馆新品上市海报、饮品品牌KV、社交媒体菜单图文 | 4:5 |
