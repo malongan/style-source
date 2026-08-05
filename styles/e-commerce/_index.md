@@ -27,3 +27,4 @@
 | clear_airy_ad_visual | #清透 #广告视觉 #水光透明 #高明度 #日系文字排版 | 商场夏季服饰主视觉海报、品牌夏季广告、清透产品主图 | 3:4 |
 | minimalist_cafe_product_poster | #纯白背景 #黑色排版 #瑞士编辑风 #日式咖啡馆 #居中产品 | 咖啡馆产品主图、饮品品牌社媒海报、极简电商详情页 | 4:5 |
 | premium_cafe_menu_poster | #cafe #menu #editorial #luxury_branding #warm_sunlight | 咖啡馆新品上市海报、饮品品牌KV、社交媒体菜单图文 | 4:5 |
+| modernist_food_separation_menu | #menu #modernist #ingredient_separation #swiss_typography #infographic | 高端餐厅菜单、美食品牌视觉、中东街头美食文化海报、Premium餐饮品牌KV | 16:9 / 2:3 |

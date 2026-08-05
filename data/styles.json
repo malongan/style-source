@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-112-gdb5bb03-dirty",
-    "generated": "2026-08-05T08:49:56Z",
-    "total": 245,
+    "version": "v0.7.0-before-opt-113-g9db0b4e-dirty",
+    "generated": "2026-08-05T08:55:04Z",
+    "total": 246,
     "categories": [
       "brand_kv",
       "creative",
@@ -6134,6 +6134,47 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.thumb.webp",
       "number": "ST000103",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "modernist_food_separation_menu",
+      "code": "ST0248",
+      "name": "现代主义食材分离菜单艺术",
+      "category": "e-commerce",
+      "tags": [
+        "menu",
+        "food_photography",
+        "modernist",
+        "ingredient_separation",
+        "swiss_typography",
+        "studio_lighting",
+        "infographic"
+      ],
+      "triggers": [
+        "现代主义食材分离菜单",
+        "中东街头美食菜单艺术",
+        "成分悬浮美食摄影"
+      ],
+      "scene": "高端餐厅菜单、美食品牌视觉、中东街头美食文化海报、Premium 餐饮品牌 KV",
+      "ratio": "16:9 / 2:3",
+      "summary": "现代主义料理食材悬浮分离菜单艺术，宏观微距摄影 + 瑞士字体 + 信息图叠加",
+      "features": [
+        "**食材悬浮分离** — 现代主义料理风格，食材各组分（酱汁/固体/装饰）在画面中完美悬浮，干净不对称编辑布局",
+        "**宏观食物纹理** — 微距食物纹理摄影，植物纤维、结晶糖结构、面包体架构、酱汁粘度、面包屑结构纤毫毕现",
+        "**语义突变** — 每种食材内部藏有微型幻影立体模型，揭示其起源（如面包粒内现麦田、橄榄油滴后有橄榄林）",
+        "**信息叠加** — 热量标注、采购地图图钉、风味雷达图、新鲜度指示器，以纯净信息图风格轻覆于食物之上",
+        "**高级菜单质感** — 哑光艺术纸背景，优雅瑞士菜单字体，软工作室灯光带蒸汽感，暖调诱人配色"
+      ],
+      "prompt": "Generate a vertical menu-art image (2:3 ratio) of [$SIGNATURE_DISH] titled \"[$DISH_NAME]\" with the subtitle \"[$CHEF_RESTAURANT]\".\n\nComposition: The dish's components—sauces, solids, garnishes—float in perfect suspension as a modernist cuisine ingredient separation, arranged in a clean, asymmetric editorial layout. The background is matte fine-art paper with minimal, elegant Swiss-menu typography.\n\nMaterial & Detail: Macro food texture photography reveals every element at multiple scales:\n- Vegetable fibers, crystallized sugar structures, breadcrumb architecture, sauce viscosity, and crumb structure are visible in microscopic detail.\n- Each ingredient carries a \"semantic mutation\": a tiny, ghosted diorama inside or behind it that reveals its origin (e.g., wheat fields inside a grain of bread, olive groves behind a drop of oil, cacao pod inside chocolate shavings).\n- Calorie callouts, sourcing map pins, flavor-profile radar charts, and freshness indicators are subtly overlaid in a clean infographic style, never obscuring the food.\n\nLighting & Atmosphere: Soft studio lighting with a hint of steam rising from the warm elements. The overall palette is warm, appetizing tones—creamy whites, rich browns, vibrant greens, and touches of amber—against the paper background.\n\nStyle DNA:\n- 40% Modernist cuisine ingredient separation\n- 30% Macro food texture photography\n- 15% Minimalist Swiss menu design\n- 10% Soft studio lighting with steam\n- 5% Fine art paper texture\n\nConstraints: The image must be appetizing, clean, highly detailed, and suitable for a premium restaurant menu. No clutter, no messy plating, no hard shadows. All information overlays must be subtle and integrated.\n\nNegative: No photorealistic whole dish on a plate, no messy backgrounds, no aggressive colors, no unreadable text, no generic food stock.\n\nAspect ratio: 16:9 or 2:3.\n\n不要水印，不要真实Logo，不要凌乱背景。\n",
+      "variables": {},
+      "source_url": "https://x.com/Gdgtify/status/2084667929938071909",
+      "source_author": "Gdgtify",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/modernist_food_separation_menu_a941b915.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modernist_food_separation_menu_a941b915.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modernist_food_separation_menu_a941b915.thumb.webp",
+      "number": "ST000248",
+      "created_at": ""
     },
     {
       "id": "modern_eastern_school_anniversary",
