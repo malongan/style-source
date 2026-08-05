@@ -20,3 +20,4 @@
 | vintage_car_vector_art | #老爷车 #矢量艺术 #汽车海报 #品牌KV #复古 #产品展示 | 老爷车收藏展示、汽车品牌KV、复古风格海报、车型宣传图 | 16:9 |
 | cultural_worker_anniversary_poster | #现代东方 #极简仪式感 #冷色调 #周年纪念 #网格排版 | 文化机构周年纪念海报、严肃主题纪念、品牌KV、学术活动海报 | 16:9 |
 | human_fragments_editorial_poster | #文字窗口 #编辑海报 #电影感 #视觉系统 #人体碎片 | 电影海报、赛事视觉、品牌KV、杂志封面、运动品牌广告 | 9:16 |
+| heroic_monument_potential_field_poster | #monument #marble_sculpture #potential_field #heroic #museum_staging | 历史人物纪念海报、英雄人物文化海报、纪念馆展览视觉、体育传奇定格海报 | 9:16 竖版 |
