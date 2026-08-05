@@ -1,0 +1,42 @@
+# 英豪纪念碑势场海报
+
+id: heroic_monument_potential_field_poster
+name: "英豪纪念碑势场海报"
+category: print
+
+tags:
+  - monument
+  - marble_sculpture
+  - potential_field
+  - heroic
+  - museum_staging
+  - archival
+  - editorial
+
+triggers:
+  - 英豪纪念碑势场海报
+  - 英雄大理石雕塑海报
+  - 纪念馆纪念碑海报
+
+features:
+  - "**势场 Φ 生成** — 用梯度/旋度/散度构建英雄气势场，标量势函数驱动画面构图"
+  - "**大理石纪念碑** — 白色大理石/石膏雕塑定格于峰值动作瞬间，雕凿痕迹/裂隙/修复接缝随势场散度分布"
+  - "**纪念馆舞台** — 断柱/浮雕碎片/聚光灯光束/天鹅绒绳/破碎基座沿势场零等值线分布，框定主体不拥挤"
+  - "**档案注释层** — 标题/引言/元数据沿负势流线排布，微距特写/运动图解/编号标注位于局部极小值处"
+  - "**点缀能量** — 仅 1-2 色点缀系统（暗红冲击纹+雾蓝运动轨迹）出现在接触/释放点，不超过画面 10%"
+
+scene: "历史人物纪念海报、英雄人物文化海报、纪念馆展览视觉、体育传奇定格海报"
+ratio: "9:16（竖版）"
+summary: "英雄纪念碑势场海报，大理石雕塑定格峰值动作，纪念馆舞台+档案注释+物理势场可视化"
+
+prompt: |
+  2x2 grid, 16:9, 4 days that made humans proud: INPUT: $ SUBJECT, optional $ TITLE, $ QUOTE, $ MOOD // Build a heroic potential field Φ across the vertical poster canvas. Φ = monument_gravity($ SUBJECT) + action_energy($ SUBJECT) + archival_weight($ SUBJECT) F = ∇Φ        // primary motion lines, strike arcs, and the main directional thrust of the action freeze Curl = ∇×Φ    // rotational energy zones — used to place inset study panels, motion arrows, and swirling dust Div = ∇·F     // concentration of annotation callouts, fracture points, and accent energy highlights  // Monument generation: // The subject is transformed into a white marble/plaster/stone sculptural figure frozen at peak action (selected Action Freeze Logic). // The pose is placed at the global maximum of |F|, with sculpted force lines and impact debris following F streamlines. // Material patina (cracks, chisel marks, powder, restoration seams) applied where |Div| peaks.  // Staging: // Museum staging elements (broken columns, floating debris, spotlight beams, velvet rope, shattered plinth) are placed along the zero‑isocontours of Φ, framing the monument without crowding it.  // Archival layer: // Title, quote, and metadata placed along negative‑Φ streamlines (left or right margin) using the selected Typography system. // Inset close‑ups, motion diagrams, numbered callouts, and annotation circles at local minima of Φ.  // Accent energy: // Exactly one or two accent systems (e.g., faded red impact veins + muted blue motion paths) appear at the contact and release points, never exceeding 10% of the image area.  // Render: ultra‑detailed stone texture, crisp graphic overlays, dramatic spotlighting, archival paper grain. No split‑screen, no right‑side panel. Output: single vertical hero poster, 8K.
+
+  Aspect ratio: 9:16 (vertical).
+
+  不要水印，不要分屏。
+
+source_url: "https://x.com/Gdgtify/status/2084718009864876415"
+source_author: "@Gdgtify"
+
+# 配图: images/styles_previews/heroic_monument_potential_field_poster_8441ac1a.webp
