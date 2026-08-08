@@ -1,0 +1,53 @@
+# 纪念碑式素色浅浮雕品牌叙事
+
+id: monumental_bas_relief_brand_narrative
+name: "Monumental Bas-relief Brand Narrative"
+name_cn: "纪念碑式素色浅浮雕品牌叙事"
+category: creative
+
+tags:
+  - bas-relief
+  - monumental
+  - brand_narrative
+  - paper_texture
+  - chinese_serif
+  - editorial
+  - low_reflectance
+  - minimalist
+
+triggers:
+  - 纪念碑浮雕叙事
+  - 素色浮雕品牌
+  - 浅浮雕品牌叙事
+  - 纸面浮雕展览主视觉
+  - monumental bas relief brand
+
+features:
+  - "**宽阔留白+内嵌浅色纹理面板** — 中央轴稳定展开，上部信息轻、下部实体重"
+  - "**正面近乎对称素色浅浮雕** — 保留整体轮廓、层层递进结构、重复细节、微型叙事纹样"
+  - "**细嫩纸浆/石膏/泥土压印质感** — 低反光漫反射，柔和侧光在凸起边缘留极浅亮线"
+  - "**高对比中文衬线字体标题** — 首行中等紧凑、次行显著放大拉开字距，庄重停驻"
+  - "**高明度低彩度柔和暖色系** — 主题主色高明度低饱和浅色材质层，支撑底色微弱冷暖差"
+  - "**细密纵向纸面纤维+轻微压纹** — 纹样集中内嵌面板，外圈留白更平整干净"
+
+scene: "品牌KV主视觉、城市更新展览、博物馆级传播物、品牌历史叙事、收藏级平面设计"
+ratio: "9:16"
+summary: "以宽阔洁净纸面留白包围内嵌浅色纹理面板，主题对象提炼为正面近乎对称素色浅浮雕——低反光漫反射、柔和侧光、细密纸面纤维、高明度低彩度柔和暖色"
+
+prompt: |
+  Create a restrained, monumental brand narrative centered on a specific theme: the composition features a wide clean paper whitespace surrounding a recessed light-textured panel, with the overall design stably arranged along a central axis — lighter information above, heavier substance below. The reading sequence enters from tiny signatures in the two corners, moves to the central headline, then descends to the main relief that occupies the primary visual weight, and finally closes with thin bottom information.
+  Extract the most recognizable object of the subject and render it as a front-facing, nearly symmetrical flat-color bas-relief sculpture: preserving a clear overall contour, layered progressive structure, repeating details, and a small number of miniature narrative textures. The relief grows upward from the lower half of the panel, approaching the edges locally but never pressing against the outer frame. The material resembles delicate paper pulp, plaster, or clay impression — low reflectance, diffuse reflection, soft side-top lighting leaving only extremely faint bright lines on raised edges, forming thin warm-gray shadows in recesses and contact areas, so that complex details are revealed through real height differences rather than painted outlines.
+  The central headline sits in a large quiet whitespace, using a high-contrast Chinese serif typeface with traditional skeleton and modern restraint: the first line is medium-sized and tightly clustered, while the second line is significantly enlarged with expanded letter-spacing, creating a solemn pause. Below the title, an extremely small English sub-sentence with wide letter-spacing is configured, followed by a thinner Chinese explanatory line connecting the text area with the relief area. On the relief's side, a small dot and fine horizontal line may annotate the subject's identity — Chinese above, English below. Within the relief base, a set of larger English brand copy and Chinese value text are embedded, maintaining a flat print feel that forms a slight layered contrast with the three-dimensional surface.
+  The outer paper surface places tiny marks of equal volume in the two upper corners, and at the bottom a set of brief notes and fine English text is enclosed in thin-line parentheses, with the shortest characters spread wide at the very bottom, forming a calm and ceremonial ending.
+  Color is extracted from the subject's semantic hue angle with derived saturation: the vast majority of the area uses a light material layer with high lightness and low saturation approaching the subject's primary color, with the supporting base color maintaining a very slight cool-warm difference and extremely low contrast. Body text uses low-saturation dark colors for clarity, while key headlines and base copy use only a small amount of deeper, more condensed subject accent tones — always maintaining high lightness, low chroma, soft warmth, and a smooth finish, with subject hues not expanding into large color blocks.
+  The paper surface shows fine dense vertical fibers, slight embossing, and natural imperfections at a very small scale — the texture concentrates in the recessed panel and subtly rises with light, while the outer whitespace is flatter and cleaner. Do not add a uniform yellow filter, heavy grain, or staining. The final effect should make text, whitespace, relief, and material feel like the same meticulously pressed collectible-level communication piece. If the relief loses its low-reflectance volume, the title crowds the space, colors become saturated, or decorations increase, this quiet and solemn historical retrospection will be destroyed.
+  The theme of this piece is {主题内容}, presented as a commemorative architectural imagery of an urban renewal exhibition.
+  Add a clear exhibition headline and a small amount of date and location information.
+
+variables:
+  - 主题内容
+
+source_url: "https://x.com/xiaoxiaodong01/status/2086078437777936547"
+source_author: "xiaoxiaodong01"
+
+# 配图: images/styles_previews/monumental_bas_relief_brand_narrative_795346db.webp
