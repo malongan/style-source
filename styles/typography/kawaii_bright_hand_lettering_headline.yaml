@@ -1,0 +1,50 @@
+# Kawaii Bright Hand-lettering Headline（明亮卡哇伊手写标题）
+
+id: kawaii_bright_hand_lettering_headline
+name: "Kawaii Bright Hand-lettering Headline"
+name_cn: "明亮卡哇伊手写标题"
+category: typography
+
+tags:
+  - hand-lettering
+  - kawaii
+  - headline
+  - rose-gold
+  - bright
+  - bold
+  - rounded
+  - marker
+  - italic
+  - cute
+
+triggers:
+  - 明亮卡哇伊手写标题
+  - 玫瑰金手写标题
+  - 可爱治愈标题字
+  - kawaii手写风
+  - 暖色渐变标题
+
+features:
+  - "**明亮粗胖手写卡哇伊** — 圆润粗笔触、软垫马克笔质感，自然向右斜体"
+  - "**暖玫瑰金渐变** — rose-gold + peach + cream-white 渐变，发光高光"
+  - "**笔画变形+连笔装饰** — 俏皮变形、小尾巴/圈圈、字间连接线、笔刷延伸"
+  - "**边缘锐利清晰** — crisp sharp outline、clean high-contrast edges、no blur/no feathering"
+  - "**排版** — 两行居中堆叠 LARGE，标题下细分割线 + 奶油白信息行"
+
+scene: "电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼氛围的标题设计"
+ratio: "9:16"
+summary: "明亮粗胖卡哇伊手写标题——圆润笔触、暖玫瑰金渐变、自然斜体、笔画变形+连笔装饰、边缘锐利清晰"
+
+prompt: |
+  The headline is centered horizontally in the upper area and rendered LARGE, filling most of the reserved typography space. It is split into two stacked lines: the first line "{第一行}" and below it the second line "{第二行}", both centered. The letters are drawn in a bright bold plump hand-lettering kawaii style: thick rounded handwritten strokes with a soft cushioned marker feel, adorable and sweet, with a natural easy italic lean to the right. The letters are luminous and bright: a radiant warm rose-gold, peach and cream-white gradient with soft glowing highlights, giving the whole headline a fresh vivid brightness. Some strokes are whimsically deformed with decorative hand-written connections: cute little tails and loops, soft linking curves between adjacent characters, gentle brush-like swash extensions at stroke ends, adding a playful connected-handwriting charm, while every character remains clearly readable. The most important requirement is edge clarity: every character stroke must have a crisp, sharp, well-defined outline with clean high-contrast edges, no blur, no soft feathering, no overlapping strokes, and no missing parts; the whole headline must read clearly at a glance. No decorative ribbons, frames, flowers or ornaments around the headline beyond the stroke-level flourishes. Below the two headline lines, a thin elegant divider line, then the smaller secondary line "{活动时间/副行}" in a delicate fine-line rounded typeface, centered, in warm cream. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.
+
+variables:
+  - 第一行
+  - 第二行
+  - 活动时间/副行
+
+source: "painter"
+source_author: "painter"
+created_at: "2026-08-08"
+
+# 配图: images/styles_previews/kawaii_bright_hand_lettering_headline_f7e405e4.webp
