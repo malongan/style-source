@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-115-g6566012-dirty",
-    "generated": "2026-08-08T12:37:32Z",
-    "total": 248,
+    "version": "v0.7.0-before-opt-116-g9698a97-dirty",
+    "generated": "2026-08-08T12:45:04Z",
+    "total": 249,
     "categories": [
       "brand_kv",
       "creative",
@@ -7428,6 +7428,54 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_f7e405e4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_f7e405e4.thumb.webp",
       "number": "ST000250",
+      "created_at": ""
+    },
+    {
+      "id": "kawaii_bright_chunky_hand_lettering",
+      "code": "ST0251",
+      "name": "Kawaii Bright Chunky Hand-lettering",
+      "category": "typography",
+      "tags": [
+        "hand-lettering",
+        "kawaii",
+        "headline",
+        "chunky",
+        "bold",
+        "rounded",
+        "rose-gold",
+        "bright",
+        "marker",
+        "italic",
+        "swash",
+        "ligature"
+      ],
+      "triggers": [
+        "粗圆卡哇伊手写标题",
+        "明亮手写标题字",
+        "玫瑰金粗圆字体",
+        "kawaii粗圆风",
+        "暖色渐变手写"
+      ],
+      "scene": "电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼带手写温度的氛围",
+      "ratio": "9:16",
+      "summary": "明亮粗圆卡哇伊手写标题——粗胖圆润笔触、暖玫瑰金发光渐变、放松斜体、俏皮变形+笔刷连笔延伸、边缘锐利清晰",
+      "features": [
+        "**明亮粗圆卡哇伊手写** — thick plump rounded strokes、soft marker feel，自然放松轻向右斜体",
+        "**暖玫瑰金发光渐变** — rose-gold + cream-white 渐变、glowing highlights，鲜活明亮",
+        "**俏皮变形+连笔延伸** — playful deformed strokes、小弯尾、soft swashes、ligature-like links、笔刷式延伸",
+        "**边缘锐利清晰** — crisp sharp outline、clean high-contrast edges、no blur/no feathering",
+        "**排版** — 两行居中堆叠 LARGE，标题下细分割线 + 奶油白信息行"
+      ],
+      "prompt": "The headline is centered horizontally in the upper area and rendered LARGE, filling most of the reserved typography space. It is split into two stacked lines: the first line \"{第一行}\" and below it the second line \"{第二行}\", both centered. The letters are drawn in a bright chunky bold hand-lettering kawaii style: thick plump rounded handwritten strokes with a soft marker feel, cute and adorable, with a natural relaxed italic slant leaning gently to the right. The letters are luminous and bright: a radiant warm rose-gold and cream-white gradient with glowing highlights, so the headline feels vivid and full of light. Some strokes are playfully deformed and extended with decorative connecting flourishes: small curved tails, soft swashes, gentle ligature-like links between nearby strokes, and cute brush-like stroke extensions that add hand-written charm, while every character remains clearly readable. The most important requirement is edge clarity: every character stroke must have a crisp, sharp, well-defined outline with clean high-contrast edges, no blur, no soft feathering, no overlapping strokes, and no missing parts; the whole headline must read clearly at a glance. No decorative ribbons, frames, flowers or ornaments around the headline beyond the stroke-level flourishes. Below the two headline lines, a thin elegant divider line, then the smaller secondary line \"{活动时间/副行}\" in a delicate fine-line rounded typeface, centered, in warm cream. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
+      "variables": {},
+      "source_url": "",
+      "source_author": "painter",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_chunky_hand_lettering_fe0c2753.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_chunky_hand_lettering_fe0c2753.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_chunky_hand_lettering_fe0c2753.thumb.webp",
+      "number": "ST000251",
       "created_at": ""
     },
     {
