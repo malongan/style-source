@@ -65,6 +65,7 @@
 | lowpoly_isometric_vehicle | #低多边形 #等轴测 #游戏美术 #3D渲染 #复古现代 | 品牌KV、社交媒体配图、游戏风格海报、玩具风视觉 | 16:9 |
 | museum_dramatic_lighting_portrait | #博物馆人像 #戏剧光影 #电影感 #胶片摄影 #暗调美学 | 暗调人物肖像、博物馆/展览主题视觉、独立电影海报、文艺品牌KV | 9:16 |
 | monochrome_editorial_character | #黑白插画 #极简 #角色设计 #编辑风 #墨水线条 | 网络漫画角色、生活方式品牌插画、编辑杂志配图、角色设计展示 | 4:5 |
+| monumental_bas_relief_brand_narrative | #浮雕 #纪念碑式 #品牌叙事 #素色浅浮雕 #纸面质感 #中文衬线 #留白 | 品牌KV主视觉、城市更新展览、博物馆级传播物、品牌历史叙事 | 9:16 |
 | mixed_media_manga_editorial_portrait | #混合媒体 #漫画拼贴 #写实人像 #漫画背景 #编辑风 #潮流穿搭 | 杂志编辑大片、品牌KV、社媒创意人像、概念海报 | 2:3 |
 | black_white_ink_editorial_character | #黑白插画 #墨水线条 #编辑风 #角色设计 #手绘感 #极简 | 网络漫画角色、生活方式品牌插画、编辑杂志配图、角色设计展示 | 4:5 |
 | classic_car_exploded_view | #老爷车 #爆炸拆解 #产品可视化 #影棚布光 #技术图解 | 汽车产品图解、品牌技术故事、产品设计展示、文化历史海报 | 16:9 |
