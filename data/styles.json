@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-116-g9698a97-dirty",
-    "generated": "2026-08-08T12:45:04Z",
-    "total": 249,
+    "version": "v0.7.0-before-opt-117-ga1b98b5-dirty",
+    "generated": "2026-08-08T13:08:29Z",
+    "total": 250,
     "categories": [
       "brand_kv",
       "creative",
@@ -10069,6 +10069,53 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/crimson_marker_sketch_15b0d804.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/crimson_marker_sketch_15b0d804.thumb.webp",
       "number": "ST000160",
+      "created_at": ""
+    },
+    {
+      "id": "cozy_watercolor_everyday_girl",
+      "code": "ST0252",
+      "name": "Cozy Watercolor Everyday Girl",
+      "category": "creative",
+      "tags": [
+        "watercolor",
+        "everyday",
+        "girl",
+        "storybook",
+        "cozy",
+        "minimalist",
+        "editorial",
+        "japanese_stationery"
+      ],
+      "triggers": [
+        "治愈系水彩日常",
+        "水彩女孩生活插画",
+        "故事书插画风",
+        "日系文具风插画",
+        "水彩生活场景",
+        "minimalist watercolor girl"
+      ],
+      "scene": "品牌KV、社交媒体图文、生活方式内容、日系文具风海报、故事绘本插画",
+      "ratio": "4:5",
+      "summary": "象牙手工水彩纸上的柔和粉彩日常女孩——小人物大留白、漂浮水彩点缀、日系文具感编辑插画",
+      "features": [
+        "**纹理象牙手工水彩纸** — textured ivory handmade paper 肌理底",
+        "**柔和粉彩色系** — soft pastel palette + subtle watercolor bleeding",
+        "**精致墨线轮廓** — delicate ink outlines 勾勒主体",
+        "**人物小而留白多** — 主体在画布中占比小，大量干净负空间",
+        "**漂浮水彩点缀** — tiny floating watercolor splashes、蝴蝶、花朵、树叶",
+        "**日系文具感排版** — Japanese stationery art style，minimal editorial 氛围",
+        "**场景示例** — 蹲在蓝玫瑰旁/抱花束站立/大树下闭目/伸手摘苹果提篮子"
+      ],
+      "prompt": "Minimalist watercolor illustration on textured ivory handmade paper, soft pastel palette, delicate ink outlines, subtle watercolor bleeding, cozy storybook aesthetic, lots of clean negative space.\nA stylish young woman in modern casual clothing is the main subject, captured in a calm, emotional everyday moment. She wears an oversized trench coat or cardigan layered over soft neutral clothing, a long flowing skirt or wide-leg pants, leather loafers or ankle boots, and a simple crossbody bag. Medium-length natural hair gently frames her face.\nThe composition is intentionally small within the canvas, leaving generous empty space around the character. Soft expressive pose with gentle emotions, surrounded by tiny floating watercolor splashes, subtle butterflies, flowers, leaves, or seasonal elements depending on the scene.\nExamples of scenes:\n• Squatting beside a bouquet of blue roses while gently touching one flower.\n• Standing quietly while holding a wrapped bouquet against her chest.\n• Resting peacefully beneath a large tree with eyes closed.\n• Reaching upward toward a single apple hanging from a tree branch while carrying a basket of freshly picked apples.\nHand-painted watercolor textures, soft shadows, elegant brush strokes, muted earthy colors, warm natural atmosphere, peaceful lifestyle illustration, Japanese stationery art style, minimal editorial illustration, whimsical yet realistic proportions, premium watercolor painting, ultra-detailed, 8K.\n",
+      "variables": {},
+      "source_url": "https://x.com/Sairah_0/status/2086047521588265370",
+      "source_author": "Sairah_0",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/cozy_watercolor_everyday_girl_091ed4e7.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cozy_watercolor_everyday_girl_091ed4e7.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cozy_watercolor_everyday_girl_091ed4e7.thumb.webp",
+      "number": "ST000252",
       "created_at": ""
     },
     {
