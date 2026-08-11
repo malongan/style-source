@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-120-gd075530-dirty",
-    "generated": "2026-08-11T06:28:48Z",
+    "version": "v0.7.0-before-opt-121-g4af9306-dirty",
+    "generated": "2026-08-11T06:52:08Z",
     "total": 253,
     "categories": [
       "brand_kv",
@@ -8625,10 +8625,10 @@
       "source_url": "https://x.com/arsalannazir07/status/2086798151890219247",
       "source_author": "arsalannazir07",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_0b1c7b49.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_e71fca4f.webp"
       ],
-      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_0b1c7b49.webp",
-      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_0b1c7b49.thumb.webp",
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_e71fca4f.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_e71fca4f.thumb.webp",
       "number": "ST000255",
       "created_at": ""
     },
