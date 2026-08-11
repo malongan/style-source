@@ -20,6 +20,7 @@
 | east_asian_vintage_magazine | #韩纸 #复古 #杂志 |  | 3:4（默认） |
 | futuristic_spring_kv | #未来生态 #春季 #插画KV |  | 4:3 / 16:9 |
 | geek_code_poster | #酸性设计 #极客代码 #像素风 |  | 9:16 |
+| ghibli_watercolor_walk | #水彩 #吉卜力 #极简生活 #治愈 #手绘质感 #杂志插画 | 生活方式品牌KV、杂志插画、社交媒体图文、书籍封面、文创产品设计 | 4:5 |
 | glitchy_pixel_stretch_portrait | #拉伸 #故障 #像素 #艺术 #人像 | 艺术海报、概念摄影、创意人像、故障美学 | 3:4 |
 | glass_flower_spring_diary | #治愈 #玻璃花卉 #春日 |  | 9:16 |
 | herd_outsider_poster | #概念海报 #异类主题 #阵列构图 |  | 3:4 |
