@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-119-g1e79328-dirty",
-    "generated": "2026-08-11T00:57:38Z",
-    "total": 252,
+    "version": "v0.7.0-before-opt-120-gd075530-dirty",
+    "generated": "2026-08-11T06:28:48Z",
+    "total": 253,
     "categories": [
       "brand_kv",
       "creative",
@@ -8587,6 +8587,50 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.thumb.webp",
       "number": "ST000134",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "ghibli_watercolor_walk",
+      "code": "ST0255",
+      "name": "吉卜力水彩漫步",
+      "category": "creative",
+      "tags": [
+        "水彩插画",
+        "吉卜力风",
+        "极简生活",
+        "手绘质感",
+        "杂志插画"
+      ],
+      "triggers": [
+        "水彩插画",
+        "吉卜力风",
+        "极简水彩",
+        "治愈系插画",
+        "生活方式插画",
+        "手绘感插画"
+      ],
+      "scene": "生活方式品牌KV、杂志插画、社交媒体图文、书籍封面、文创产品设计",
+      "ratio": "4:5",
+      "summary": "吉卜力水彩漫步：纹理水彩纸上手绘的极简水彩插画，大留白居中微小人影，柔和粉彩色系+精细墨线，微妙水彩飞溅与纸张颗粒感，治愈日常感与优雅时尚氛围并存的叙事性插画。",
+      "features": [
+        "**纹理水彩纸肌理** — 真实手工水彩纸纹理，纸张颗粒感与颜料层次可见",
+        "**大留白负空间** — 超大负空间居中构图，小小人物成为视觉焦点",
+        "**柔和水彩色系** — 柔和粉彩色盘，低饱和度、温暖治愈感",
+        "**精细墨线描边** — 细腻墨线勾勒轮廓，与水彩晕染形成对比",
+        "**轻噪水彩飞溅** — 微妙水彩飞溅与颜料颗粒浮于纸面",
+        "**自然光影氛围** — 柔和自然采光，讲述日常生活的诗意瞬间",
+        "**吉卜力式叙事感** — 不直接copy吉卜力，但有同款温暖日常感与优雅时尚感"
+      ],
+      "prompt": "Minimalist watercolor illustration on textured handmade watercolor paper, large negative space, tiny centered full-body character, soft pastel color palette, delicate ink line art, subtle watercolor washes, expressive brush textures, clean composition, cozy slice-of-life aesthetic, Studio Ghibli-inspired atmosphere (not a direct copy), gentle storytelling, elegant fashion illustration, soft natural lighting, floating watercolor splashes and pigment particles, light sketch details, minimal ground shadow, airy composition.\n\nA stylish young man in casual oversized clothing walking confidently while holding a takeaway coffee cup, one hand holding a book, wearing sneakers, a baseball cap, loose trousers, and a crossbody bag. Wind gently moves his hair and clothes. Peaceful everyday urban mood with refined watercolor textures and graceful proportions.\n\nStyle keywords: minimalist watercolor, Japanese illustration, hand-painted, ink sketch, soft pastel palette, textured paper, elegant composition, modern lifestyle art, subtle splatter effects, high detail, artistic, premium editorial illustration, calm aesthetic, ultra clean background, 8K.\n\nSubject: {subject}\nOutfit/Accessories: {outfit}\nSetting/Mood: {setting_mood}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/arsalannazir07/status/2086798151890219247",
+      "source_author": "arsalannazir07",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_0b1c7b49.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_0b1c7b49.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_0b1c7b49.thumb.webp",
+      "number": "ST000255",
+      "created_at": ""
     },
     {
       "id": "geek_code_poster",
