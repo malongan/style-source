@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-118-g4388888-dirty",
-    "generated": "2026-08-08T13:23:12Z",
-    "total": 251,
+    "version": "v0.7.0-before-opt-119-g1e79328-dirty",
+    "generated": "2026-08-11T00:57:38Z",
+    "total": 252,
     "categories": [
       "brand_kv",
       "creative",
@@ -4915,6 +4915,48 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.thumb.webp",
       "number": "ST000234",
+      "created_at": ""
+    },
+    {
+      "id": "restrained_paper_infographic",
+      "code": "ST0254",
+      "name": "典雅纸艺信息图",
+      "category": "editorial",
+      "tags": [
+        "信息图",
+        "纸艺感",
+        "线条插画",
+        "版画风",
+        "编辑设计"
+      ],
+      "triggers": [
+        "信息图设计",
+        "纸艺线条",
+        "知识海报",
+        "独立出版风",
+        "学术图鉴"
+      ],
+      "scene": "品牌KV、文化活动海报、编辑设计、知识档案海报、独立出版封面",
+      "ratio": "3:4",
+      "summary": "典雅纸艺信息图：以大留白建立秩序，拉丁衬线大标题与宋体中文组合，单色版画线条插画为核心视觉，底部超大数字形成仪式感，整体如独立出版物的克制与温度。",
+      "features": [
+        "**大留白单页排版** — 大量留白建立安静秩序，信息沿单一主轴依次展开",
+        "**拉丁衬线大标题** — 高反差拉丁衬线体横向排列，细线与粗笔画形成强烈对比",
+        "**宋体中文短语组** — 纤细宋体骨架+宽松行距，深色文字块承上启下",
+        "**单色版画线条插画** — 主体图像转化为黑白版画风线条画，由中心向外建构",
+        "**底部大数字视觉锚点** — 超大高对比数字/关键信息，左右分布居中细线连接",
+        "**细腻未涂纸纹肌理** — 近白低饱和纸色背景，文字骨架与局部对比限制在排版元素内"
+      ],
+      "prompt": "Build a restrained, solemn paper-based informational design with human warmth around {theme}: let large areas of bright white space first establish quiet order, then let a striking headline, line-drawn narrative, and bottom numerals carry the reading onward in sequence. Organize clearly differentiated modules along a single main reading axis: near the top, place one extremely small, thin, widely letterspaced auxiliary text or numbering group on each side, separated by remote spacing to create slight asymmetry; beneath them, set an oversized, high-contrast Latin serif headline extending horizontally, with strong contrast between fine hairlines and thick stems, elongated letterforms, sharp terminals, and the same accent ink as the core illustration; then add a centered group of short Chinese phrases on the theme, built on a slender Songti skeleton with generous line spacing and breathing room between characters, so the dark text block both carries the headline and builds momentum toward the illustration. Distill the thematic subject's core image and its relationship to the environment into a monochrome printmaking-style line drawing rather than reproducing fixed objects: build outward spatial movement from the center with clear outer contours, continuous arcs, layered paths, and a few flat fills; keep foreground lines longer and more open, make the middle forms the heaviest, and finish the distance with fine short strokes; alternate dense detail with large expanses of empty paper, keep the contours legible, allow slight hand-drawn variation in line weight, and preserve the soft, blunted edges created by ink absorption at corners of a printed mark, so the image has a monumental stability without feeling heavy. Place the most important short notice phrase below the illustration, then anchor the bottom visual weight with a group of oversized, high-contrast numerals or equally scaled key information, spreading the left and right information apart and connecting the center with an ultra-fine horizontal line and small text, so the extreme scale differences create the ceremony of a formal announcement; finish with a hairline rule running across the bottom edge, lifted at its center by a small symmetrical emblem derived from the theme, and set a micro Latin wordmark beneath it with extremely wide letterspacing for a quiet, precise ending. Derive the color adaptively from the theme: the theme's meaning decides the specific hue and warm/cool character of the accent, which should stay medium-high in saturation, clean, and slightly pigment-like, occupying roughly one-tenth to two-tenths of the image and concentrated in the large headline, core line drawing, and bottom fine lines; give the background a near-white, low-saturation paper color that harmonizes with the accent, lets it dominate the composition, and keeps it high in lightness; use a near-black with the same warm/cool tendency for body text and numerals, limiting it to the typographic skeleton and local contrast. Keep an asymmetric area contrast rather than an even color balance: the more vivid the accent color, the more restrained the paper and the fewer, more precise the dark areas. Render the surface as fine uncoated paper fiber with slight uniform grain and a soft scanned feel; keep the texture mainly on the blank paper and visible through thin layers of ink, allow only tiny tonal variation in solid areas, and avoid heavy stains, strong creases, gloss, dimensional shadows, or decorative gradients; the whole design should remain bright, airy, and slightly edged by the paper's ink absorption, preserving the order among white space, line drawing, typographic scale jumps, and bottom closure, while preventing the illustration from expanding and squeezing the information or the text from averaging out and losing rhythm.\n\nHeadline: {headline}\nTheme: {theme}\nKey Information: {key_information}\nBottom Notice: {bottom_notice}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2086866107965821125",
+      "source_author": "xiaoxiaodong01",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/restrained_paper_infographic_0b1c7b49.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/restrained_paper_infographic_0b1c7b49.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/restrained_paper_infographic_0b1c7b49.thumb.webp",
+      "number": "ST000254",
       "created_at": ""
     },
     {
