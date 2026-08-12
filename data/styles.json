@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-121-g4af9306-dirty",
-    "generated": "2026-08-11T06:52:08Z",
-    "total": 253,
+    "version": "v0.7.0-before-opt-122-g9c086f3-dirty",
+    "generated": "2026-08-12T00:32:06Z",
+    "total": 254,
     "categories": [
       "brand_kv",
       "creative",
@@ -6301,6 +6301,46 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.thumb.webp",
       "number": "ST000195",
+      "created_at": ""
+    },
+    {
+      "id": "modern_chinese_geometric_poster",
+      "code": "ST0256",
+      "name": "现代中式几何海报",
+      "category": "social_media",
+      "tags": [
+        "现代中式",
+        "几何色块",
+        "留白",
+        "海报设计",
+        "平面设计"
+      ],
+      "triggers": [
+        "中式海报",
+        "几何中式",
+        "现代中式设计",
+        "几何色块海报"
+      ],
+      "scene": "品牌KV、社交媒体海报、公众号封面、艺展主视觉",
+      "ratio": "9:16",
+      "summary": "以汉字为主题超大几何字符为核心，现代几何色块与有机单线交织，极简留白与三层阅读节奏的中式海报风格",
+      "features": [
+        "**几何色块 + 有机单线** — 饱和矩形色块与单线条轮廓交织，现代平面印刷质感",
+        "**超大中文字符** — 垂直超大粗几何黑笔画汉字，部分遮挡色块，极端比例跳跃",
+        "**极简留白** — 2/3 以上空白区域，主视觉重心偏下中心",
+        "**扁平无光影** — 无阴影、无纸张颗粒、无全局光效，纯哑光数字印刷",
+        "**三层阅读节奏** — 主字符 → 侧注 → 细节迷你标注"
+      ],
+      "prompt": "Build a modern flat graphic around {subject}, with a huge Chinese theme character, geometric color blocks, and a single-line organic contour interlacing through one another. Keep an overall bright, clean background field, letting approximately two-thirds or more of the space remain empty, and concentrate the main weight in an off-center cluster: a saturated rectangular block in the theme's primary color first establishes a stable plane; a deeper, low-lightness, cool-toned circle overlaps from beneath it and extends beyond the boundary; the core Chinese theme character advances vertically in oversized, heavy, geometric black strokes across the white background, rectangle, and circle, with partial occlusion and cropping creating a strong scale jump; on the left, the date and a bilingual subtitle form a compact numeric column, while on the right, short vertical sentences set in two stroke-weight tiers balance the weight; a few miniature captions, short dashes, and linear symbols scatter along the edges, creating a three-level reading rhythm from main character to side notes to details. Abstract the dynamic relationship derived from the theme into one continuous organic contour, drawn as a broad sweeping loop with a clear, near-black single line that enters from the large empty field, passes through the color blocks, and crosses the edge; the curve intersects itself several times while remaining legible as a single path; keep most of its interior as the underlying background color, adding only localized, transparent, fading fills in the theme's primary color at the tips and extended sections, so the light line creates tension with the heavy giant character. Adapt the color scheme to the theme: let a clean, high-lightness neutral background carry the largest area; keep the theme's primary color vivid and highly saturated, using it for the rectangle and the localized transparent gradient; use a deep cool support color for the circle, separated in hue from the primary color and blending softly into the primary color at its end; use near-black for text and the contour, with a very small amount of light text reversed onto the primary color block; fix unequal areas, lightness hierarchy, and saturation differences, but do not fix specific color names. Render all elements as flat surfaces like matte digital printing, with sharp contour edges and gradients only as two localized, slowly feathered transitions; do not add dimensional shadows, paper grain, or global lighting effects. Keep typography in a low-contrast, broad, thick, near-geometric black sans-serif skeleton; allow the main character's parts to be elongated, offset, cut out, and switched between color-block backgrounds; give numbers a rounded futuristic structure and compress small text with narrow letterforms and loose tracking. Replace brand names, advertising copy, and concrete dates with new theme information. Preserve in the final result the extreme whitespace, the geometric cluster positioned lower-center, the opposing pull between horizontal and vertical text, and the moment an organic line crosses rigid geometric shapes, while avoiding evenly filling every part or reducing the contour to an isolated decoration.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2087173607227367874",
+      "source_author": "xiaoxiaodong01",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/modern_chinese_geometric_poster_e918eddc.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modern_chinese_geometric_poster_e918eddc.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modern_chinese_geometric_poster_e918eddc.thumb.webp",
+      "number": "ST000256",
       "created_at": ""
     },
     {
