@@ -22,3 +22,4 @@
 | human_fragments_editorial_poster | #文字窗口 #编辑海报 #电影感 #视觉系统 #人体碎片 | 电影海报、赛事视觉、品牌KV、杂志封面、运动品牌广告 | 9:16 |
 | heroic_monument_potential_field_poster | #monument #marble_sculpture #potential_field #heroic #museum_staging | 历史人物纪念海报、英雄人物文化海报、纪念馆展览视觉、体育传奇定格海报 | 9:16 竖版 |
 | axial_memorial_poster | #轴对称 #纪念碑式 #垂直线剪影 #几何无衬线 #金属质感 | 品牌纪念日海报、知识类纪念特展、主题宣言视觉 | 9:16 |
+| high_key_seasonal_editorial_poster | #高调 #季节编辑 #虚化散景 #放射光芒 #编辑排版 | 品牌季节海报、农产品市集、节气特展、社交媒体节庆视觉 | 9:16 |
