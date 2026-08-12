@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-126-gad0c135-dirty",
-    "generated": "2026-08-12T01:03:36Z",
-    "total": 258,
+    "version": "v0.7.0-before-opt-127-g36215f0-dirty",
+    "generated": "2026-08-12T01:08:50Z",
+    "total": 259,
     "categories": [
       "brand_kv",
       "creative",
@@ -6173,6 +6173,47 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/museum_dramatic_lighting_portrait_487e804b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/museum_dramatic_lighting_portrait_487e804b.thumb.webp",
       "number": "ST000238",
+      "created_at": ""
+    },
+    {
+      "id": "morra_table_parfait_poster",
+      "code": "ST0261",
+      "name": "MORRA TABLE 早餐品牌广告海报",
+      "category": "creative",
+      "tags": [
+        "品牌海报",
+        "早餐编辑",
+        "食品广告",
+        "美食摄影",
+        "编辑视觉"
+      ],
+      "triggers": [
+        "早餐品牌海报",
+        "意式酸奶杯",
+        "Cannes级食品",
+        "editorial food",
+        "MORRA TABLE"
+      ],
+      "scene": "食品品牌KV、咖啡馆菜单、早餐主题海报、Instagram社媒图文",
+      "ratio": "3:4",
+      "summary": "以戛纳级编辑食品广告呈现高端早餐品牌 MORRA TABLE，超写实芭菲杯为中心，单色线稿插画退为背景，透光宝石浆果层为食欲触发点的精致早餐海报",
+      "features": [
+        "**Cannes级编辑食品广告** — 高端早餐品牌 MORRA TABLE 完整视觉系统，戛纳级别编辑质感",
+        "**超写实芭菲杯** — 玻璃杯、酸奶、燕麦、浆果分 层质感精细，中心视觉锚点",
+        "**单色系线稿背景** — 插画退为背景，统一单色线条稿，交代温馨居家氛围不抢食欲",
+        "**透光果冻宝石层** — 中间红莓层如透光宝石光泽，先抓眼球再读懂层次",
+        "**竖版精致食品海报结构** — 品牌字顶 + 超写实产品居中 + 柔和居家线稿环绕"
+      ],
+      "prompt": "Create an ultra-premium breakfast parfait advertising poster for an original lifestyle cafe brand called MORRA TABLE, designed as a Cannes-level editorial food campaign with a warm illustrated home-scene atmosphere, a fully unified monochrome sketch system, and a more luminous jewel-like berry layer that becomes the first unforgettable appetite trigger.\n\nPreserve the exact core structural logic of a refined vertical food poster: elegant brand typography at the top, one oversized hyper-real parfait glass centered in the lower-middle area, and a soft single-color line-drawn domestic world surrounding it like a playful narrative sketch. The final image must feel warm, intimate, calm, design-forward, gently whimsical, and highly art-directed, while the real product remains the strongest visual anchor.\n\nhyper-real parfait as the only fully rendered hero, surrounded by monochrome line-art. The glass, yogurt and oat textures are rendered first; the line drawing only handles the breakfast atmosphere without competing for appetite.\n\nluminous ruby berry layer placed between a quiet cream base and dry oat crown. The middle berry layer should feel like a translucent jelly gem — you are first grabbed by its sheen, then naturally read the layered structure of \"milky aroma, fruit acid, baked grains.\"\n\nThe brand typography at top should be elegant and refined. The oversized hyper-real parfait glass should dominate the lower-middle area. The surrounding domestic world should feel like a soft single-color line-drawn narrative sketch, playful yet restrained.\n\nStyle: ultra-premium breakfast parfait advertising poster, Cannes-level editorial food campaign, warm illustrated home-scene atmosphere, fully unified monochrome sketch system, luminous jewel-like berry layer, vertical food poster composition, hyper-real food photography, elegant brand typography, editorial food photography, warm intimate mood, design-forward, highly art-directed.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/ou_zhen599/status/2087088720864583806",
+      "source_author": "ou_zhen599",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/morra_table_parfait_poster_c280b2a9.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/morra_table_parfait_poster_c280b2a9.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/morra_table_parfait_poster_c280b2a9.thumb.webp",
+      "number": "ST000261",
       "created_at": ""
     },
     {

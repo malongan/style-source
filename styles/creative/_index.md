@@ -70,3 +70,4 @@
 | mixed_media_manga_editorial_portrait | #混合媒体 #漫画拼贴 #写实人像 #漫画背景 #编辑风 #潮流穿搭 | 杂志编辑大片、品牌KV、社媒创意人像、概念海报 | 2:3 |
 | black_white_ink_editorial_character | #黑白插画 #墨水线条 #编辑风 #角色设计 #手绘感 #极简 | 网络漫画角色、生活方式品牌插画、编辑杂志配图、角色设计展示 | 4:5 |
 | classic_car_exploded_view | #老爷车 #爆炸拆解 #产品可视化 #影棚布光 #技术图解 | 汽车产品图解、品牌技术故事、产品设计展示、文化历史海报 | 16:9 |
+| ST0261 | MORRA TABLE 早餐品牌广告海报 | [@ou_zhen599](https://x.com/ou_zhen599/status/2087088720864583806) | 食品品牌KV、咖啡馆海报、早餐主题 | 3:4 |
