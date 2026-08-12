@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-124-g7d9525e-dirty",
-    "generated": "2026-08-12T00:41:12Z",
-    "total": 256,
+    "version": "v0.7.0-before-opt-125-g75b53ee-dirty",
+    "generated": "2026-08-12T00:54:37Z",
+    "total": 257,
     "categories": [
       "brand_kv",
       "creative",
@@ -6258,6 +6258,47 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.thumb.webp",
       "number": "ST000239",
+      "created_at": ""
+    },
+    {
+      "id": "monochrome_accent_realism",
+      "code": "ST0259",
+      "name": "单色点缀写实插画",
+      "category": "social_media",
+      "tags": [
+        "黑白素描",
+        "红色点缀",
+        "铅笔画",
+        "写实插画",
+        "画廊感"
+      ],
+      "triggers": [
+        "单色点缀",
+        "黑白红",
+        "铅笔写实",
+        "monochrome accent",
+        "画廊插画"
+      ],
+      "scene": "画廊墙画装饰、现代海报、fine art插画、头像转换",
+      "ratio": "3:2",
+      "summary": "以超写实黑白铅笔画为主视觉，单一粗犷红色笔触点缀画面，打破全黑白单调，画廊级fine art质感",
+      "features": [
+        "**黑白铅笔线稿** — 高细节铅笔线条画，微妙石墨明暗过渡，超写实风格",
+        "**单色红色点缀** — 画面仅一处粗犷红色笔触点缀，打破全黑白单调",
+        "**高分辨率干净构图** — 简洁构图，高分辨率，干净排版",
+        "**画廊级fine art质感** — 美术馆墙画、现代海报级别细节与质感",
+        "**3:2 横向画幅** — 适合画廊墙画印刷或现代海报展示"
+      ],
+      "prompt": "Hyper-realistic black and white sketch of a {subject}, detailed pencil linework with subtle graphite shading, accented by a single bold stroke of red. High-resolution, clean composition, fine art illustration style, ideal for gallery wall prints or modern posters.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/azed_ai/status/2087131938595504540",
+      "source_author": "azed_ai",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/monochrome_accent_realism_30f312b3.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_accent_realism_30f312b3.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_accent_realism_30f312b3.thumb.webp",
+      "number": "ST000259",
       "created_at": ""
     },
     {
