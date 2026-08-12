@@ -1,0 +1,50 @@
+# 复古朋克地下杂志海报
+
+id: vintage_punk_zine_poster
+name: "复古朋克地下杂志海报"
+category: social_media
+
+tags:
+  - 复古朋克
+  - 地下杂志
+  - 网点印刷
+  - 黑白
+  - 海报设计
+
+triggers:
+  - 朋克地下杂志
+  - vintage punk
+  - 复古zine
+  - 网点印刷海报
+  - underground comic
+
+features:
+  - "**黑白网点肖像** — 密集点刻、交叉影线、粗糙墨线、手绘漫画线条，黑白灰调"
+  - "**粗体红色字体** — 中央横穿面部，血红色 VINTAGE 大字，粗黑轮廓，粗细不规则"
+  - "**磨损印刷质感** — 纸张颗粒、划痕、雀斑、墨迹不完美、screen-print 劣化"
+  - "**高对比构图** — 近景特写居中，背景几乎全黑，仅细微灰尘/划痕"
+  - "**70-80年代地下漫才美学** — 反叛朋克海报能量，单色墨水艺术+粗体红色字体"
+
+scene: "社交媒体头像、朋克风KV、地下音乐海报、反文化主题活动"
+ratio: "4:5"
+summary: "以70-80年代地下漫画与朋克zine为灵感，黑白网点肖像叠加粗体红色 VINTAGE 大字，磨损screen-print质感的复古朋克海报风格"
+
+prompt: |
+  Create a high-contrast vintage underground editorial poster in a black-and-white 1970s/80s underground comic and punk-zine aesthetic. Centered is a dramatic close-up portrait of a rugged bearded man, facing directly toward the camera, with thick wavy dark hair, heavy eyebrows, prominent nose, full mustache and textured beard. His expression is serious, intense, and stoic.
+
+  Render the portrait entirely in black, white, and gray halftone shading, using dense stippling, cross-hatching, rough ink strokes, distressed print textures, and hand-illustrated comic-book linework. Add subtle paper grain, scratches, speckles, ink imperfections, and worn screen-print artifacts throughout.
+
+  Across the center of the face, place enormous bold red typography reading "VINTAGE", stretching almost edge-to-edge. Use a dramatic condensed vintage serif / Western gothic display font, slightly irregular and warped, with thick black outline/shadow. The red letters should have cracked, distressed textures and small black fracture lines, giving the typography an aged, weathered print appearance.
+
+  Keep the background almost completely black with subtle grain, dust, scratches, and tiny distressed white marks. Strong symmetrical composition, frontal portrait, extreme close-up, gritty underground magazine cover aesthetic, rebellious punk poster energy, high detail, screen-print texture, analog print imperfections, dramatic contrast.
+
+  Composition: vertical poster, centered face, typography dominating the middle, face partially obscured behind the word, tightly cropped portrait.
+
+  Aspect ratio: 4:5
+  Style: vintage punk zine, underground comic illustration, distressed screen print, halftone engraving, monochrome ink artwork with bold blood-red typography.
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/arsalannazir07/status/2087120068648042768"
+source_author: "@arsalannazir07"
+
+# 配图: images/styles_previews/vintage_punk_zine_poster_a48f5d65.webp

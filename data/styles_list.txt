@@ -1,4 +1,4 @@
-共 255 个风格
+共 256 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -8,6 +8,7 @@ ST0225 | 婚礼私密仪式感影像邀请函 | https://malongan.github.io/style
 ST0227 | 婚礼谢幕致意画报 | https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.webp
 ST0230 | 复古水彩旅行手绘明信片 | https://malongan.github.io/style-source/images/styles_previews/vintage_watercolor_travel_postcard_89d31829.webp
 ST0004 | 复古街头卡通海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp
+ST0258 | 复古朋克地下杂志海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_punk_zine_poster_a48f5d65.webp
 ST0220 | 复古吉祥物海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_mascot_poster_524c7282.webp
 ST0207 | 复古老爷车矢量海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_car_vector_art_214bfc5a.webp
 ST0005 | Yellow Black Manga Food Zine Ad Style | https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp
