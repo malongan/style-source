@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-122-g9c086f3-dirty",
-    "generated": "2026-08-12T00:32:06Z",
-    "total": 254,
+    "version": "v0.7.0-before-opt-123-gab0d931-dirty",
+    "generated": "2026-08-12T00:36:56Z",
+    "total": 255,
     "categories": [
       "brand_kv",
       "creative",
@@ -5162,6 +5162,46 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.thumb.webp",
       "number": "ST000188",
+      "created_at": ""
+    },
+    {
+      "id": "premium_editorial_city_poster",
+      "code": "ST0257",
+      "name": "精致城市期刊封面海报",
+      "category": "social_media",
+      "tags": [
+        "城市期刊",
+        "杂志封面",
+        "超大字",
+        "编辑排版",
+        "海报设计"
+      ],
+      "triggers": [
+        "城市期刊封面",
+        "editorial城市海报",
+        "超大城市名",
+        "杂志风城市KV"
+      ],
+      "scene": "社媒头像转换、城市主题KV、杂志封面感写真、偶像应援",
+      "ratio": "9:16",
+      "summary": "超大城市名 Oversized 字体物理叠加于人物主体，Grayscale 城市背景，暖奶油色+深黑+点缀色的精致期刊封面海报风格",
+      "features": [
+        "**前景字叠加人物** — 超大城市名物理层叠于人物主体，正面覆盖躯干，部分藏于头肩后",
+        "**城市天际线替换** — Grayscale 城市摄影为背景，地标建筑/天桥随城市名切换",
+        "**编辑网格系统** — 细线、几何圆形、点阵、矩形、技术标注、坐标、小标签",
+        "**暖奶油色主调** — 暖白背景 + 深黑 Oversized 字体 + 红/蓝/黄色点缀色块",
+        "**竖版期刊构图** — 大面积留白、主图占中、精准分层、前景字母贯穿主体"
+      ],
+      "prompt": "Recreate the reference image as a premium editorial city poster. Replace the original person with {SUBJECT} while preserving SUBJECT's identity, facial features, hairstyle, hair color, skin tone, and natural appearance. SUBJECT must be standing in the SAME pose, SAME body orientation, SAME framing, SAME scale, and approximately the SAME position as the reference subject.\n\nReplace the original city with {CITY_NAME} and rebuild the surrounding skyline, landmarks, architecture, bridge, and urban photography specifically for CITY_NAME. Replace all city-specific labels, coordinates, location information, and captions accordingly.\n\nCRITICAL TYPOGRAPHY COMPOSITION: The oversized CITY_NAME typography must be physically layered OVER the standing character, exactly like the reference. Do NOT place all of the city text behind the subject. The large CITY_NAME letters must pass across the subject's body and overlap her clothing and lower torso, visibly covering portions of her. At the same time, some portions of the typography should remain behind her head and shoulders. Create a true foreground/background collage: BACKGROUND CITY IMAGERY → SUBJECT → FOREGROUND OVERSIZED CITY_NAME LETTERS. The foreground letters must visibly obscure portions of the subject while the subject remains recognizable through the gaps and around the typography. The large letters should intersect the character naturally rather than appearing as text floating beside her.\n\nThe oversized CITY_NAME typography should dominate the composition and extend almost across the entire poster width. Integrate grayscale city photography inside selected portions of the letters. Keep the typography bold, geometric, heavy, and editorial. Make the letters large enough to cross directly over the subject's torso and lower body.\n\nPreserve the EXACT visual language and color code of the reference: warm cream/off-white background, deep black oversized typography, grayscale city photography, red accent blocks, blue accent elements, and yellow/gold accent elements. Do NOT create a new color palette based on CITY_NAME. Keep the same approximate colors, saturation, contrast, and proportions as the reference.\n\nPreserve the reference's structured editorial grid, thin lines, geometric circles, dots, rectangles, technical markings, small uppercase labels, coordinates, and minimalist information blocks. Adapt only the city-related content to CITY_NAME.\n\nMaintain the same vertical poster composition, subject placement, typography scale, graphic layering, spacing, photographic treatment, and premium magazine aesthetic. The final result should look like the same poster design system recreated for a different city and subject, with CITY_NAME typography clearly crossing OVER and physically overlapping the character.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/Maercihh/status/2087113728185749607",
+      "source_author": "Maercihh",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/premium_editorial_city_poster_3ef53bb8.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_editorial_city_poster_3ef53bb8.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_editorial_city_poster_3ef53bb8.thumb.webp",
+      "number": "ST000257",
       "created_at": ""
     },
     {
