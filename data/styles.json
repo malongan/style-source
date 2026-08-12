@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-128-g667ff92-dirty",
-    "generated": "2026-08-12T07:40:58Z",
-    "total": 260,
+    "version": "v0.7.0-before-opt-129-g1b6486b-dirty",
+    "generated": "2026-08-12T15:11:27Z",
+    "total": 261,
     "categories": [
       "brand_kv",
       "creative",
@@ -11858,6 +11858,47 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/beverage_series_poster_7ce76fc9.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/beverage_series_poster_7ce76fc9.thumb.webp",
       "number": "ST000224",
+      "created_at": ""
+    },
+    {
+      "id": "axial_memorial_poster",
+      "code": "ST0263",
+      "name": "轴对称纪念碑海报",
+      "category": "print",
+      "tags": [
+        "axial_symmetry",
+        "memorial_poster",
+        "vertical_line_silhouette",
+        "geometric_sans_serif",
+        "metallic_shading",
+        "digital_vector"
+      ],
+      "triggers": [
+        "纪念碑海报",
+        "轴对称海报",
+        "垂直线剪影",
+        "纪念碑文字海报"
+      ],
+      "scene": "品牌纪念日海报、知识类纪念特展、主题宣言视觉",
+      "ratio": "9:16",
+      "summary": "以轴对称圆盘纪念碑为核心的肃穆矢量海报，线条雕刻轮廓与金属数字叠加，层次分明",
+      "features": [
+        "**轴对称居中构图** — 巨大实色圆盘 + 密集垂直线剪影贯穿，形成纪念碑式焦点",
+        "**几何无衬线粗体标题** — 宽幅水平延展，字距略松，对比度高的浅色",
+        "**细手写线条点缀** — 沿标题下缘游走的极细流线，对角斜划与直线交织",
+        "**金属质感低对比数字** — 纪念数字/符号以金属渐变+细对角纹理呈现，隐于线条网络后",
+        "**平涂矢量质感** — 纯数字矢量风格，平涂色块、流畅渐变、锐利边缘，无纸张纹理或光影"
+      ],
+      "prompt": "Create a solemn, restrained, axial memorial poster around any chosen theme object, with the first impression built from a central oversized solid-color disc and a dense vertical-line silhouette passing through its lower edge, together forming a monument-like focal point, while all text, numbers, and graphics descend step by step along the same central axis; keep generous breathing space in the upper area, set the main theme title as a wide, horizontally extended geometric sans-serif in bold heavy strokes with slightly loose letter spacing and light high-contrast coloring, overlap an ultra-fine flowing handwritten line along the title's lower edge so its light diagonal strokes cross the heavy straight strokes, and below it place a single line of small, widely tracked theme subtitle text, forming the tightly locked sequence of large title, fine handwritten line, and airy subtitle; let the middle disc occupy the primary visual width with a clean, rounded edge, add one or two dark semitransparent rings slightly offset toward the lower side outside it to create a shallow sense of thickness within the flat graphics, set a short two-line theme manifesto in the disc's center in high-contrast serif type with tight, upright leading, followed by a tiny date or note, and take all wording exclusively from the current theme; let the theme's most recognizable outline extend downward from the lower half of the disc without a solid fill, cut instead into a complete silhouette by many equally spaced ultra-fine vertical lines of the same thickness, make the lines longest and densest at the center, step them shorter along the outer outline, and expand outward in successive horizontal tiers, letting them pass through the disc and descend into the dark background so the same line network creates continuous figure-ground exchange between light and dark zones; behind the silhouette, press in an oversized memorial number or theme symbol with only its central lower portion revealed, rendered in low-contrast metallic shading and fine diagonal texture, keeping it recognizable yet receding behind the line network; at the very bottom, enclose a compact set of short data and notes in a thin-line rounded capsule with whitespace on both sides to close the composition; extract colors from the theme's meaning without fixing any specific hue, let the upper region carry a medium-brightness, medium-to-high-saturation primary color, then darken continuously downward into a near-black supporting color occupying nearly half of the composition, make the disc the most striking high-saturation accent color from the theme, use low-saturation pale metallic tones or equivalent pale colors for the vertical lines, handwriting, and thin frames, and keep body copy at the highest brightness, preserving the area and contrast hierarchy of primary color field, bright disc, dark ground, and pale lines; keep the overall finish a clean digital vector poster with flat color areas, smooth gradients, crisp line endings, and slightly anti-aliased edges, with no paper fibers, stains, grain, or photographic lighting and shadow, and maintain the three front-to-back relationships of the disc being traversed by the engraved line silhouette, the oversized number being masked by the silhouette, and the bold title being grazed by the fine handwritten line, without splitting the elements into unrelated decorations.\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2087528761705287734",
+      "source_author": "xiaoxiaodong01",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/axial_memorial_poster_dcdbf6b1.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/axial_memorial_poster_dcdbf6b1.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/axial_memorial_poster_dcdbf6b1.thumb.webp",
+      "number": "ST000263",
       "created_at": ""
     },
     {
