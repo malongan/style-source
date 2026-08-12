@@ -1,4 +1,4 @@
-共 258 个风格
+共 259 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -130,6 +130,7 @@ ST0213 | 夜间闪光庆典写真 | https://malongan.github.io/style-source/imag
 ST0102 | 新年礼盒 | https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp
 ST0244 | 童趣猫咪手绘涂鸦 | https://malongan.github.io/style-source/images/styles_previews/naive_doodle_cat_character_e3bfda16.webp
 ST0238 | 暗调博物馆戏剧光影人像 | https://malongan.github.io/style-source/images/styles_previews/museum_dramatic_lighting_portrait_487e804b.webp
+ST0261 | MORRA TABLE 早餐品牌广告海报 | https://malongan.github.io/style-source/images/styles_previews/morra_table_parfait_poster_c280b2a9.webp
 ST0253 | Monumental Bas-relief Brand Narrative | https://malongan.github.io/style-source/images/styles_previews/monumental_bas_relief_brand_narrative_795346db.webp
 ST0239 | 黑白极简编辑风角色插画 | https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.webp
 ST0259 | 单色点缀写实插画 | https://malongan.github.io/style-source/images/styles_previews/monochrome_accent_realism_30f312b3.webp
