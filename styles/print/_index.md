@@ -21,3 +21,4 @@
 | cultural_worker_anniversary_poster | #现代东方 #极简仪式感 #冷色调 #周年纪念 #网格排版 | 文化机构周年纪念海报、严肃主题纪念、品牌KV、学术活动海报 | 16:9 |
 | human_fragments_editorial_poster | #文字窗口 #编辑海报 #电影感 #视觉系统 #人体碎片 | 电影海报、赛事视觉、品牌KV、杂志封面、运动品牌广告 | 9:16 |
 | heroic_monument_potential_field_poster | #monument #marble_sculpture #potential_field #heroic #museum_staging | 历史人物纪念海报、英雄人物文化海报、纪念馆展览视觉、体育传奇定格海报 | 9:16 竖版 |
+| axial_memorial_poster | #轴对称 #纪念碑式 #垂直线剪影 #几何无衬线 #金属质感 | 品牌纪念日海报、知识类纪念特展、主题宣言视觉 | 9:16 |
