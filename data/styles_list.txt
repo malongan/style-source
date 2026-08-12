@@ -1,4 +1,4 @@
-共 261 个风格
+共 262 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -176,6 +176,7 @@ ST0125 | 膨胀花朵 3D | https://malongan.github.io/style-source/images/styles
 ST0126 | 印尼美食信息图 | https://malongan.github.io/style-source/images/styles_previews/indonesian_food_infographic_b721834b.webp
 ST0237 | HUMAN FRAGMENTS 文字窗口编辑海报 | https://malongan.github.io/style-source/images/styles_previews/human_fragments_editorial_poster_6b3d274f.webp
 ST0199 | Hold The Line 宣言海报 | https://malongan.github.io/style-source/images/styles_previews/hold_the_line_declaration_poster_HNHdnbhW.webp
+ST0264 | 高调季节编辑海报 | https://malongan.github.io/style-source/images/styles_previews/high_key_seasonal_editorial_poster_453f3358.webp
 ST0203 | 高明度商业图形风格 | https://malongan.github.io/style-source/images/styles_previews/high_brightness_commercial_graphic_HNHdmHgb.webp
 ST0127 | 天使阶层海报（Hierarchy Angels Poster） | https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp
 ST0249 | 英豪纪念碑势场海报 | https://malongan.github.io/style-source/images/styles_previews/heroic_monument_potential_field_poster_8441ac1a.webp
