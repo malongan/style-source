@@ -1,0 +1,43 @@
+# 黑白杂志人像
+
+id: bw_studio_portrait_editorial
+name: "黑白杂志人像"
+category: social_media
+
+tags:
+  - 黑白摄影
+  - 杂志人像
+  - 专业摄影
+  - 高端人像
+  - 棚拍
+
+triggers:
+  - 黑白杂志人像
+  - 黑白棚拍
+  - editorial portrait
+  - 时尚人像
+  - Vogue风格
+
+features:
+  - "**黑白专业棚拍** — 高对比黑白摄影，柔和方向性主光，灰色渐变背景"
+  - "**85mm f/1.8 景深** — 刀锐奶化，焦外柔美，杂志级光学质感"
+  - "**超写实皮肤纹理** — 可见毛孔与肤质细节，无过度磨皮，自然质感"
+  - "**Vogue/Harper's Bazaar 风格** — 优雅高端时尚感，三分侧面人像"
+  - "**中性表情+直接凝视** — 强烈直接目光，平静中性神态，高定质感"
+
+scene: "社交媒体头像转换、时尚摄影、人像海报、高端品牌KV"
+ratio: "3:4"
+summary: "以专业黑白棚拍为基底，85mm f/1.8 高画质人像，柔和侧光与灰色渐变背景，Vogue/Harper's Bazaar 风格的优雅高端时尚人像"
+
+prompt: |
+  Professional black-and-white studio portrait of the same person, three-quarter body turn, head gently tilted, face toward camera, intense direct gaze, neutral expression, wearing a black ribbed turtleneck. Soft directional light from upper left, dimensional shadow on right side of face, subtle rim light, smooth grey gradient backdrop.
+
+  Shot on 85mm f/1.8, ultra-realistic skin with visible pores and texture, no smoothing, natural knit fabric folds, rich blacks, clean whites, true monochrome, hyper-detailed, magazine-editorial quality, 8K sharpness. Elegant, high-fashion mood, Vogue/Harper's Bazaar style.
+
+  Avoid: color cast, over-smoothing, plastic skin, asymmetry, identity drift, altered hair, head coverings, extra fingers, anatomical errors.
+  不要水印，不要真实Logo，不要电商广告感。
+
+source_url: "https://x.com/Faeiz4Ai/status/2087211243627028491"
+source_author: "@Faeiz4Ai"
+
+# 配图: images/styles_previews/bw_studio_portrait_editorial_4cdee4a2.webp
