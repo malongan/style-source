@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-130-g8e93a6c-dirty",
-    "generated": "2026-08-12T15:20:06Z",
-    "total": 262,
+    "version": "v0.7.0-before-opt-131-g1c73a52-dirty",
+    "generated": "2026-08-12T15:40:08Z",
+    "total": 263,
     "categories": [
       "brand_kv",
       "creative",
@@ -8742,6 +8742,47 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/gpt2_graphic_collage_HNHdIdYb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/gpt2_graphic_collage_HNHdIdYb.thumb.webp",
       "number": "ST000202",
+      "created_at": ""
+    },
+    {
+      "id": "golden_hour_street_lifestyle",
+      "code": "ST0265",
+      "name": "金色日光街景生活照",
+      "category": "social_media",
+      "tags": [
+        "街景",
+        "俯拍视角",
+        "金色日光",
+        "生活照",
+        "欢快氛围"
+      ],
+      "triggers": [
+        "街景生活照",
+        "俯拍日常",
+        "金色日光",
+        "街边聚会",
+        "golden hour street"
+      ],
+      "scene": "社交媒体生活分享、品牌街拍、日常记录、派对聚会视觉",
+      "ratio": "3:4",
+      "summary": "金色日光俯拍街景生活照，暖琥珀色调+石板地面+手持饮品+仰视欢快氛围",
+      "features": [
+        "**俯拍视角** — 机位在主体下方，仰望构图，形成强烈空间感",
+        "**金色日光氛围** — 暖琥珀色调，自然光充满画面，肤色呈现金蜜色",
+        "**街景质感地面** — 石板路/粗糙质感地面，倒映与环境纹理丰富",
+        "**手持饮品细节** — 大杯饮品+冰块冷凝+水果装饰，还原真实生活感",
+        "**欢快动态氛围** — 趴姿/蹲姿向上看镜头，表情活泼，整体氛围温暖无忧"
+      ],
+      "prompt": "Capture a lively and dynamic street lifestyle moment from an above-camera perspective, set on a {surface_texture} with a {background_scene} creating a muted contrast. The subject is in a {pose} pose, looking directly up at the camera with a {expression}, lips {lip_expression}. {hair_description} softly catches the natural daylight, giving the skin warm golden-amber tones with a subtle glow.\n\nThe subject wears {outfit_description}, paired with {bottoms_description} that leave knees exposed. {head_accessory} sits on the head, adding a touch of casual style.\n\nIn their hands, the subject holds two large glasses filled with {drink_color} drink, each garnished with {garnish} and {straw_type}. Condensation drops and ice crystals on the glasses look extremely realistic and refreshing.\n\n{accessories_on_hands} are visible on the subject's hands, catching the sunlight.\n\n{footwear_description} create a harmonious contrast with the rest of the outfit, adding lightness and youthfulness.\n\nThe overall composition is filled with light and shadow, bathed in warm golden natural daylight, creating the atmosphere of a warm, carefree {time_of_day}. Every detail — from the textured {surface_texture} beneath to the vibrant drinks — enhances the festive mood and lively energy of the moment. Photorealistic image, shot from above, highly detailed textures, high quality, 8K resolution.\n\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
+      "variables": {},
+      "source_url": "https://x.com/Sairah_0/status/2087559140071895056",
+      "source_author": "Sairah_0",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/golden_hour_street_lifestyle_edbe5d53.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/golden_hour_street_lifestyle_edbe5d53.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/golden_hour_street_lifestyle_edbe5d53.thumb.webp",
+      "number": "ST000265",
       "created_at": ""
     },
     {
