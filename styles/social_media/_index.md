@@ -31,4 +31,5 @@
 | ST0258 | 复古朋克地下杂志海报 | [@arsalannazir07](https://x.com/arsalannazir07/status/2087120068648042768) | 朋克KV、头像、地下海报 | 4:5 |
 | ST0259 | 单色点缀写实插画 | [@azed_ai](https://x.com/azed_ai/status/2087131938595504540) | 画廊墙画、fine art、海报 | 3:2 |
 | ST0260 | 黑白杂志人像 | [@Faeiz4Ai](https://x.com/Faeiz4Ai/status/2087211243627028491) | 头像转换、时尚摄影、人像海报 | 3:4 |
+| golden_hour_street_lifestyle | 金色日光街景生活照 | [@Sairah_0](https://x.com/Sairah_0/status/2087559140071895056) | 社交媒体生活分享、品牌街拍、日常记录、派对聚会视觉 | 3:4 |
 
