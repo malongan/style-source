@@ -34,9 +34,12 @@ jobs:
               echo '   git add data/styles.json'
               exit 1
             }
-          # gallery.html 也跳过版本号行（每次提交后必然变化）
-          diff <(git show HEAD:gallery.html | grep -v 'v0\.5\.') \
-               <(grep -v 'v0\.5\.' gallery.html) \
+          # gallery.html 跳过三类变化行（每次提交后必然变化）：
+          # 1. git describe 版本号：v0.5.x / v0.7.x 格式
+          # 2. CSS/JS cache-busting hash：?v=HEX
+          # 3. Header 时间戳行：v2026-MM-DD HH:MM
+          diff <(git show HEAD:gallery.html | grep -v -E '(v0\.5\.|v0\.7\.|/gallery\.(css|runtime\.js)\?v=|<span class="header-update">v20)') \
+               <(grep -v -E '(v0\.5\.|v0\.7\.|/gallery\.(css|runtime\.js)\?v=|<span class="header-update">v20)' gallery.html) \
             && echo "✅ Gallery 页面一致" \
             || {
               echo '❌ gallery.html 过期！请在 PR 分支运行：'
