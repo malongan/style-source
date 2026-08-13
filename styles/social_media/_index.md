@@ -32,4 +32,5 @@
 | ST0259 | 单色点缀写实插画 | [@azed_ai](https://x.com/azed_ai/status/2087131938595504540) | 画廊墙画、fine art、海报 | 3:2 |
 | ST0260 | 黑白杂志人像 | [@Faeiz4Ai](https://x.com/Faeiz4Ai/status/2087211243627028491) | 头像转换、时尚摄影、人像海报 | 3:4 |
 | golden_hour_street_lifestyle | 金色日光街景生活照 | [@Sairah_0](https://x.com/Sairah_0/status/2087559140071895056) | 社交媒体生活分享、品牌街拍、日常记录、派对聚会视觉 | 3:4 |
+| magazine_offset_poster | 杂志偏心排版早安海报 | [@xiaoxiaodong01](https://x.com/xiaoxiaodong01/status/2087699298737848519) | 社交媒体早安问候、城市天气海报、金句图文、杂志风活动宣发 | 3:4 |
 
