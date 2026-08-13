@@ -1,0 +1,53 @@
+# 超现实时尚 runway 花园
+
+id: surreal_fashion_runway
+name: "超现实时尚花园 runway"
+category: fashion
+
+tags:
+  - surreal
+  - fashion
+  - runway
+  - editorial
+  - garden
+  - film-grain
+  - portrait
+
+triggers:
+  - 超现实时尚
+  - runway 花园
+  - 人像 runway
+  - 剧院花园
+  - 洋娃娃姿态
+
+features:
+  - "**超现实人像** — 四分之三视角全身人像，[HUMAN] 主体着 [HAIR]，站姿不动玩偶姿态"
+  - "**剧院花园置景** — [SCENERY] 背景，低地平线深蓝天空，雕塑感花园道具环绕"
+  - "**丰富生态元素** — 周围环绕 [FLOWERS]、[FLYING ANIMALS]，营造超现实氛围"
+  - "**编辑 runway 气质** — 柔和复古胶片颗粒，柔和日光直射，细腻阴影，mute [PALETTE] 色调"
+  - "**可变量模板** — 9 个变量位覆盖人物、装扮、场景、情绪，支持零成本替换生成不同变体"
+
+scene: "时尚编辑摄影、人像海报、品牌 runway 视觉、时尚摄影作品集"
+ratio: "4:5"
+summary: "超现实剧院花园置景的时尚编辑 runway 人像，胶片颗粒感与玩偶姿态"
+
+prompt: |
+  Three-quarter eye-level full-body surreal fashion photograph of {human} with {hair}, standing still in {scenery}, wearing {clothing} and {shoes}, surrounded by {flowers}, {flying_animals} and sculptural garden props, deep blue sky, low horizon, curated theatrical garden set, clean surreal spacing, doll-like posture, soft vintage film grain, muted {palette} palette, crisp direct sunlight, gentle shadows, editorial runway mood, whimsical {mood} expression, vertical portrait composition, aspect ratio 4:5.
+
+  变量说明：
+  - {human} — 人物描述（如 "a tall woman in her 30s"）
+  - {hair} — 发型发色描述（如 "long flowing auburn hair"）
+  - {scenery} — 场景描述（如 "an open surreal garden"）
+  - {clothing} — 服装描述，如 "a flowing ivory silk dress"
+  - {shoes} — 鞋履描述，如 "vintage leather boots"
+  - {flowers} — 花朵描述，如 "cascading white roses"
+  - {flying_animals} — 飞行动物，如 "white butterflies and dragonflies"
+  - {palette} — 色调，如 "sage and dusty rose" 或 "earthy terracotta"
+  - {mood} — 情绪表达，如 "dreamy", "whimsical", "serene"
+
+  不要水印，不要真实Logo，不要真实品牌名。
+
+source_url: "https://x.com/im_shahid7/status/2087579904326181361"
+source_author: "im_shahid7"
+
+# 配图: images/styles_previews/surreal_fashion_runway_c13189a1.webp

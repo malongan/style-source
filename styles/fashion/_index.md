@@ -11,3 +11,4 @@
 | streetwear_shopping_bag | #街头服饰 #购物袋视角 #奢侈品牌 #强制透视 | 时尚广告、社交媒体推广、品牌KV、街头服饰宣传 | 9:16 |
 | fashion_campaign_typography | #时尚 #campaign #排版 |  | 9:16 |
 | fashion_habitat_blueprint | #时尚 #蓝图 #建筑结构 #爆炸图 #高端 | 品牌KV、时尚大片、设计师系列海报、高端产品手册 | 3:4 |
+| surreal_fashion_runway | 超现实时尚花园 runway | 时尚编辑摄影、人像海报、品牌 runway 视觉、时尚摄影作品集 | 4:5 |
