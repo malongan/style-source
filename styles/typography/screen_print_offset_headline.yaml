@@ -1,0 +1,49 @@
+# Screen-print Offset Headline（手工印刷套印版画标题）
+
+id: screen_print_offset_headline
+name: "Screen-print Offset Headline"
+name_cn: "手工印刷套印版画标题"
+category: typography
+
+tags:
+  - screen-print
+  - offset
+  - hand-printed
+  - chunky
+  - rough-edge
+  - vintage
+  - paper
+
+triggers:
+  - 手工印刷标题
+  - 套印版画标题
+  - 粗重标题
+  - 复古印刷字
+  - 错位叠色标题
+
+features:
+  - "**套印版画质感** — 轻微错位、透明叠色、粗糙边缘，像老式丝网印刷"
+  - "**粗重中文标题** — 粗壮圆润笔画，结实有力"
+  - "**高明度纸面底** — 纯色米白/奶油纸底，保留细密纤维颗粒感但不脏不灰"
+  - "**配色** — 猕猴桃绿+奶油黄+暖橘（或深墨绿+暖橘叠色）"
+  - "**文化手作感** — 适合有温度、手作、露营/市集/农场的标题"
+
+scene: "有温度的手作/露营/市集/农场/文艺市集 KV，中文粗重标题，需要复古印刷感"
+ratio: "16:9"
+summary: "手工印刷套印版画标题——丝网印刷错位叠色、粗糙边缘、粗重中文标题、米白纸面底，复古手作温度感"
+
+prompt: |
+  A clean pure warm cream paper-white solid color background with subtle fine paper fiber texture but no dirt and no gray cast, no gradient. In the center, the Chinese characters "{第一行}" and "{第二行}" as thick bold rounded letterforms with rough screen-print edges: layered ink with slight offset misregistration, transparent overlapping color, hand-printed vintage feel. The title is split into two stacked lines, both centered: first line "{第一行}", second line "{第二行}". The main letters are in deep kiwi green with warm orange overlapping accents, cream yellow highlights. Below, a smaller secondary line "{副行}" in the same screen-print style, smaller scale, warm orange. Clean minimal layout with generous whitespace, hand-printed craft brand aesthetic. Every character is clearly readable. No other elements, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.
+
+variables:
+  - 第一行
+  - 第二行
+  - 副行
+
+source: "painter"
+source_author: "painter"
+created_at: "2026-08-13"
+derived_from: "ST0228 + E019（2026-08-12 猕猴仔露营认可）"
+
+# 配图: screen_print_*.webp（用户方案确认中）
+# 示范文字: 露营 / 食光 / 趁阳光正好 去野餐

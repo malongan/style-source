@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-134-g210c38f-dirty",
-    "generated": "2026-08-13T04:14:12Z",
-    "total": 266,
+    "version": "v0.7.0-before-opt-136-g4543684-dirty",
+    "generated": "2026-08-13T04:37:38Z",
+    "total": 268,
     "categories": [
       "brand_kv",
       "creative",
@@ -4525,6 +4525,49 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.thumb.webp",
       "number": "ST000080",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "screen_print_offset_headline",
+      "code": "ST0269",
+      "name": "Screen-print Offset Headline",
+      "category": "typography",
+      "tags": [
+        "screen-print",
+        "offset",
+        "hand-printed",
+        "chunky",
+        "rough-edge",
+        "vintage",
+        "paper"
+      ],
+      "triggers": [
+        "手工印刷标题",
+        "套印版画标题",
+        "粗重标题",
+        "复古印刷字",
+        "错位叠色标题"
+      ],
+      "scene": "有温度的手作/露营/市集/农场/文艺市集 KV，中文粗重标题，需要复古印刷感",
+      "ratio": "16:9",
+      "summary": "手工印刷套印版画标题——丝网印刷错位叠色、粗糙边缘、粗重中文标题、米白纸面底，复古手作温度感",
+      "features": [
+        "**套印版画质感** — 轻微错位、透明叠色、粗糙边缘，像老式丝网印刷",
+        "**粗重中文标题** — 粗壮圆润笔画，结实有力",
+        "**高明度纸面底** — 纯色米白/奶油纸底，保留细密纤维颗粒感但不脏不灰",
+        "**配色** — 猕猴桃绿+奶油黄+暖橘（或深墨绿+暖橘叠色）",
+        "**文化手作感** — 适合有温度、手作、露营/市集/农场的标题"
+      ],
+      "prompt": "A clean pure warm cream paper-white solid color background with subtle fine paper fiber texture but no dirt and no gray cast, no gradient. In the center, the Chinese characters \"{第一行}\" and \"{第二行}\" as thick bold rounded letterforms with rough screen-print edges: layered ink with slight offset misregistration, transparent overlapping color, hand-printed vintage feel. The title is split into two stacked lines, both centered: first line \"{第一行}\", second line \"{第二行}\". The main letters are in deep kiwi green with warm orange overlapping accents, cream yellow highlights. Below, a smaller secondary line \"{副行}\" in the same screen-print style, smaller scale, warm orange. Clean minimal layout with generous whitespace, hand-printed craft brand aesthetic. Every character is clearly readable. No other elements, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
+      "variables": {},
+      "source_url": "",
+      "source_author": "painter",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/screen_print_offset_headline_4832177d.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/screen_print_offset_headline_4832177d.webp",
+      "preview_webp_thumb": null,
+      "number": "ST000269",
+      "created_at": ""
     },
     {
       "id": "scifi_artdeco_poster",
@@ -12074,6 +12117,47 @@
       "created_at": ""
     },
     {
+      "id": "bas_relief_chinese_serif_headline",
+      "code": "ST0270",
+      "name": "Bas-relief Chinese Serif Headline",
+      "category": "typography",
+      "tags": [
+        "bas-relief",
+        "chinese-serif",
+        "paper-pulp",
+        "low-reflectance",
+        "cultural",
+        "warm-sand",
+        "relief"
+      ],
+      "triggers": [
+        "浮雕标题",
+        "纸浆质感标题",
+        "中文衬线标题",
+        "文化感标题",
+        "纪念碑浮雕字"
+      ],
+      "scene": "有文化感的 KV（露营/美食/茶饮/国风/节气/手作），中文标题为主，需要沉稳高级的标题设计",
+      "ratio": "16:9",
+      "summary": "浮雕纸浆中文衬线标题——素色浅浮雕、纸浆低反光、柔和侧光亮线、暖沙色低彩度、首行紧凑次行拉开字距，沉稳文化感",
+      "features": [
+        "**中文衬线浮雕** — 正面近似对称素色浅浮雕，中文衬线字型",
+        "**纸浆低反光质感** — low-reflectance paper-pulp texture，柔和侧光在凸起边缘留极浅亮线",
+        "**高明度低彩度暖沙色** — 纯色底 + 深棕/墨色浮雕字，低彩度暖沙色调",
+        "**排版层级** — 首行紧凑 + 次行放大拉开字距，宽阔留白、中央轴稳定展开",
+        "**文化感** — 适合有文化底蕴的活动主题（露营/茶/国风/节气）"
+      ],
+      "prompt": "A clean pure warm sand beige solid color background with no texture and no gradient. In the center, the Chinese characters \"{第一行}\" and \"{第二行}\" rendered as a monumental bas-relief sculpture: flat low-relief, low-reflectance paper-pulp texture, soft diffused lighting with very subtle bright edge lines on the raised outlines, low-saturation warm sand color, elegant Chinese serif typeface. The title is split into two stacked lines, both centered: first line compact \"{第一行}\", second line enlarged with wide letter spacing \"{第二行}\". Below, a smaller secondary line \"{副行}\" in the same bas-relief serif style, smaller scale. Clean minimal layout with generous whitespace, high-end cultural brand aesthetic. Every character must be clearly readable with crisp clean edges. No other elements, no decorations, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
+      "variables": {},
+      "source_url": "",
+      "source_author": "painter",
+      "preview_urls": [],
+      "preview_webp": null,
+      "preview_webp_thumb": null,
+      "number": "ST000270",
+      "created_at": ""
+    },
+    {
       "id": "axial_memorial_poster",
       "code": "ST0263",
       "name": "轴对称纪念碑海报",
@@ -12238,25 +12322,6 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/3d_sports_event_poster_13193fbe.thumb.webp",
       "number": "ST000185",
       "created_at": "2026-06-30T13:58:50+08:00"
-    },
-    {
-      "code": "ST0269",
-      "id": "bas_relief_chinese_serif_headline",
-      "name": "Bas-relief Chinese Serif Headline",
-      "name_cn": "浮雕纸浆中文衬线标题",
-      "category": "typography",
-      "preview_url": "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_a2cff3eb.webp",
-      "source": "painter",
-      "tags": [
-        "bas-relief",
-        "chinese-serif",
-        "paper-pulp",
-        "low-reflectance",
-        "cultural",
-        "warm-sand",
-        "relief"
-      ],
-      "ratio": "16:9"
     }
   ]
 }
