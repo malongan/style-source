@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-147-g61b7927-dirty",
-    "generated": "2026-08-13T06:38:18Z",
+    "version": "v0.7.0-before-opt-149-gaa175b3-dirty",
+    "generated": "2026-08-13T06:56:51Z",
     "total": 274,
     "categories": [
       "brand_kv",
@@ -7892,10 +7892,10 @@
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_f7e405e4.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_b16dec65.webp"
       ],
-      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_f7e405e4.webp",
-      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_f7e405e4.thumb.webp",
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_b16dec65.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_b16dec65.thumb.webp",
       "number": "ST000250",
       "created_at": ""
     },
