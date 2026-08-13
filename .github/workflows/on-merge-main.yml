@@ -44,3 +44,9 @@ jobs:
               echo '   git add gallery.html'
               exit 1
             }
+
+      - name: 配图完整性防回归检查（全尺寸 + 缩略图）
+        run: |
+          pip install pillow
+          python3 scripts/generate_data.py
+          python3 scripts/check_style_previews.py --strict
