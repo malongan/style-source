@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-140-g2598ad1-dirty",
-    "generated": "2026-08-13T05:50:34Z",
-    "total": 271,
+    "version": "v0.7.0-before-opt-144-g26cb318-dirty",
+    "generated": "2026-08-13T06:23:41Z",
+    "total": 272,
     "categories": [
       "brand_kv",
       "creative",
@@ -4565,7 +4565,7 @@
         "https://malongan.github.io/style-source/images/styles_previews/screen_print_offset_headline_4832177d.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/screen_print_offset_headline_4832177d.webp",
-      "preview_webp_thumb": null,
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/screen_print_offset_headline_4832177d.thumb.webp",
       "number": "ST000269",
       "created_at": ""
     },
@@ -9594,9 +9594,11 @@
       "variables": {},
       "source_url": "",
       "source_author": "painter",
-      "preview_urls": [],
-      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/expressive_handwritten_9b440dc3.webp",
-      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/expressive_handwritten_9b440dc3.thumb.webp",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/expressive_handwritten_headline_9b440dc3.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/expressive_handwritten_headline_9b440dc3.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/expressive_handwritten_headline_9b440dc3.thumb.webp",
       "number": "ST000272",
       "created_at": ""
     },
@@ -11577,6 +11579,53 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "camping_season_hand_drawn_headline",
+      "code": "ST0274",
+      "name": "Camping Season Hand-Drawn Headline",
+      "category": "typography",
+      "tags": [
+        "hand-drawn",
+        "trendy",
+        "camping",
+        "summer",
+        "doodle",
+        "cartoon-motifs",
+        "green-background",
+        "white-text",
+        "playful"
+      ],
+      "triggers": [
+        "夏日露营字体",
+        "露营季创意字体",
+        "手绘潮流字体",
+        "帐篷露营标题字",
+        "绿色背景字体设计",
+        "卡通图案点缀字体"
+      ],
+      "scene": "夏季露营活动主视觉 / 潮流品牌 KV / 户外生活方式宣传 / 帐篷音乐节海报",
+      "ratio": "4:3",
+      "summary": "夏日露营季创意手绘标题字体——绿色纯色底+高对比白字、抽象变形创意手绘潮流字、节奏动感、卡通露营元素点缀（帐篷/篝火/星星）、扁平矢量年轻活力",
+      "features": [
+        "**绿色纯色底** — fresh solid green background，高对比白字",
+        "**创意手绘潮流字体** — 抽象变形 letterforms，独特节奏与动感 organic curves",
+        "**高对比白字** — bright white lettering，细微描边确保可读性",
+        "**卡通露营元素点缀** — 帐篷/篝火/星星/树叶/太阳/云朵 flat doodle style",
+        "**扁平矢量** — flat vector style，无 3D 阴影、无渐变",
+        "**中英层级** — 中文「夏日露营季」为主体，英文「Summer」小字副行"
+      ],
+      "prompt": "Pure solid fresh green background, premium creative hand-drawn trendy typography design. The main element is the Chinese slogan \"{中文Slogan}\" rendered as a creative hand-drawn trending font: abstractly deformed letterforms with a unique rhythm and dynamic sense of motion, playful distorted strokes, artistic bold hand-lettering with smooth organic curves and energetic flow. English phrase \"{英文副行}\" placed smaller as a complementary accent line. Cute cartoon camping motifs scattered around the title: small tent, campfire, stars, leaves, sun, clouds in a flat doodle style. High-contrast bright white lettering with subtle outline for clear readability. Premium art poster feel, flat vector style, clean solid colors, no 3D shadow, no gradient. Every Chinese character must be clearly readable and correctly written, keep all text inside the safe area. Do not add any other letters, words, labels, logos, or pseudo-text.\n",
+      "variables": {},
+      "source_url": "",
+      "source_author": "painter",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/camping_season_hand_drawn_headline_d49799a3.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/camping_season_hand_drawn_headline_d49799a3.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/camping_season_hand_drawn_headline_d49799a3.thumb.webp",
+      "number": "ST000274",
+      "created_at": "2026-08-13"
+    },
+    {
       "id": "bw_studio_portrait_editorial",
       "code": "ST0260",
       "name": "黑白杂志人像",
@@ -11659,7 +11708,7 @@
         "https://malongan.github.io/style-source/images/styles_previews/bubble_letter_headline_eda98b47.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bubble_letter_headline_eda98b47.webp",
-      "preview_webp_thumb": null,
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bubble_letter_headline_eda98b47.thumb.webp",
       "number": "ST000268",
       "created_at": ""
     },
@@ -12240,9 +12289,11 @@
       "variables": {},
       "source_url": "",
       "source_author": "painter",
-      "preview_urls": [],
-      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_a2cff3eb.webp",
-      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_a2cff3eb.thumb.webp",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_headline_a2cff3eb.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_headline_a2cff3eb.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_headline_a2cff3eb.thumb.webp",
       "number": "ST000270",
       "created_at": ""
     },
@@ -12379,7 +12430,7 @@
         "https://malongan.github.io/style-source/images/styles_previews/avant_garde_abstract_typography_b6f61f14.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/avant_garde_abstract_typography_b6f61f14.webp",
-      "preview_webp_thumb": null,
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/avant_garde_abstract_typography_b6f61f14.thumb.webp",
       "number": "ST000271",
       "created_at": ""
     },
@@ -12457,48 +12508,6 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/3d_sports_event_poster_13193fbe.thumb.webp",
       "number": "ST000185",
       "created_at": "2026-06-30T13:58:50+08:00"
-    },
-    {
-      "code": "ST0274",
-      "id": "camping_season_hand_drawn_headline",
-      "name": "Camping Season Hand-Drawn Headline",
-      "name_cn": "夏日露营季创意手绘标题字体",
-      "category": "typography",
-      "tags": [
-        "hand-drawn",
-        "trendy",
-        "camping",
-        "summer",
-        "doodle",
-        "cartoon-motifs",
-        "green-background",
-        "white-text",
-        "playful"
-      ],
-      "triggers": [
-        "夏日露营字体",
-        "露营季创意字体",
-        "手绘潮流字体",
-        "帐篷露营标题字",
-        "绿色背景字体设计",
-        "卡通图案点缀字体"
-      ],
-      "features": [
-        "**绿色纯色底** — fresh solid green background，高对比白字",
-        "**创意手绘潮流字体** — 抽象变形 letterforms，独特节奏与动感 organic curves",
-        "**高对比白字** — bright white lettering，细微描边确保可读性",
-        "**卡通露营元素点缀** — 帐篷/篝火/星星/树叶/太阳/云朵 flat doodle style",
-        "**扁平矢量** — flat vector style，无 3D 阴影、无渐变",
-        "**中英层级** — 中文「夏日露营季」为主体，英文「Summer」小字副行"
-      ],
-      "scene": "夏季露营活动主视觉 / 潮流品牌 KV / 户外生活方式宣传 / 帐篷音乐节海报",
-      "ratio": "4:3",
-      "summary": "夏日露营季创意手绘标题字体——绿色纯色底+高对比白字、抽象变形创意手绘潮流字、节奏动感、卡通露营元素点缀（帐篷/篝火/星星）、扁平矢量年轻活力",
-      "source": "painter",
-      "source_author": "painter",
-      "created_at": "2026-08-13",
-      "verified_at": "2026-08-13",
-      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/camping_season_hand_drawn_headline_d49799a3.webp"
     }
   ]
 }

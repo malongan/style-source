@@ -88,9 +88,27 @@ def resolve_image_url(style_id: str, yml_urls: list[str]) -> list[str]:
     return []
 
 
+def ensure_thumb_exists(full_path: str, thumb_path: str) -> bool:
+    """缩略图自愈：全尺寸 WebP 存在但缩略图缺失时，用 Pillow 自动生成。
+    返回缩略图是否最终可用。Pillow 不可用时返回 False（保持 null）。"""
+    if os.path.exists(thumb_path):
+        return True
+    try:
+        from PIL import Image
+        img = Image.open(full_path).convert('RGB')
+        img.thumbnail((400, 400), Image.LANCZOS)
+        img.save(thumb_path, 'WEBP', quality=85)
+        print(f'   🔧 自动生成缺失缩略图: {os.path.relpath(thumb_path)}')
+        return True
+    except Exception as e:
+        print(f'   ⚠️ 缩略图生成失败 {os.path.basename(thumb_path)}: {e}')
+        return False
+
+
 def resolve_image_webp(style_id: str) -> dict:
     """解析 WebP 版本 URL，返回 {'full': str|None, 'thumb': str|None}
-    优先查找已有的 .webp 文件，兼容旧 .jpg/.png 源文件"""
+    优先查找已有的 .webp 文件，兼容旧 .jpg/.png 源文件。
+    自愈：全尺寸存在但缩略图缺失时自动生成（需 Pillow）。"""
     # 优先查找全尺寸 WebP
     webp_matches = glob.glob(os.path.join(IMAGES_DIR, f'styles_previews/{style_id}_*.webp'))
     webp_matches = [m for m in webp_matches if not m.endswith('.thumb.webp')]
@@ -98,9 +116,10 @@ def resolve_image_webp(style_id: str) -> dict:
         base = os.path.splitext(os.path.basename(webp_matches[0]))[0]
         base_url = f'{BASE_URL}/images/styles_previews/{base}'
         thumb_path = os.path.join(IMAGES_DIR, 'styles_previews', f'{base}.thumb.webp')
+        thumb_ok = ensure_thumb_exists(webp_matches[0], thumb_path)
         return {
             'full': f'{base_url}.webp',
-            'thumb': f'{base_url}.thumb.webp' if os.path.exists(thumb_path) else None,
+            'thumb': f'{base_url}.thumb.webp' if thumb_ok else None,
         }
 
     # Fallback：从旧 JPG/PNG 文件推导 WebP 文件名
@@ -196,14 +215,25 @@ def generate_styles_json(output_path: str):
     all_styles = []
     categories = set()
 
+    # 检查 styles/ 根目录是否存在错放/后缀错误的风格文件（.yml 或根目录 .yaml）
+    root_stray = [f for f in sorted(os.listdir(STYLES_DIR))
+                  if (f.endswith('.yaml') or f.endswith('.yml')) and os.path.isfile(os.path.join(STYLES_DIR, f))]
+    if root_stray:
+        print('⚠️  发现错放的风格文件（应在 styles/{分类}/ 子目录且使用 .yaml 后缀）:')
+        for f in root_stray:
+            print(f'   ❌ styles/{f}  ← 需移动到 styles/typography/{f.replace(".yml", ".yaml")}')
+
     for entry in sorted(os.listdir(STYLES_DIR)):
         entry_path = os.path.join(STYLES_DIR, entry)
         if not os.path.isdir(entry_path) or entry.startswith('_'):
             continue
         categories.add(entry)
         for f in sorted(os.listdir(entry_path)):
-            if not f.endswith('.yaml') or f.startswith('_'):
+            # 兼容 .yaml 与 .yml（.yml 会被读取但提示标准化）
+            if not (f.endswith('.yaml') or f.endswith('.yml')) or f.startswith('_'):
                 continue
+            if f.endswith('.yml'):
+                print(f'   ⚠️  建议将 {entry}/{f} 重命名为 .yaml 后缀（当前脚本兼容读取）')
             filepath = os.path.join(entry_path, f)
             try:
                 style = parse_style_file(filepath)

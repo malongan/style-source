@@ -1,4 +1,4 @@
-共 271 个风格
+共 272 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -206,7 +206,7 @@ ST0141 | Fashion Editorial Visual System | https://malongan.github.io/style-sour
 ST0142 | 时尚 Campaign 排版海报 | https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.webp
 ST0143 | 时尚摄影弓箭手 | https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.webp
 ST0206 | 幻想旅行插画 | https://malongan.github.io/style-source/images/styles_previews/fantasy_travel_illustration_e1e7ceaa.webp
-ST0272 | Expressive Handwritten Headline | (无图片)
+ST0272 | Expressive Handwritten Headline | https://malongan.github.io/style-source/images/styles_previews/expressive_handwritten_headline_9b440dc3.webp
 ST0144 | 爆炸式美食信息图 | https://malongan.github.io/style-source/images/styles_previews/exploded_food_infographic_cf6e6ff6.webp
 ST0231 | 实验性知识档案海报 | https://malongan.github.io/style-source/images/styles_previews/experimental_knowledge_archive_poster_0284c672.webp
 ST0145 | Exaggerated 3D Toy Illustration | https://malongan.github.io/style-source/images/styles_previews/exaggerated_3d_toy_illustration_435e4dea.webp
@@ -251,6 +251,7 @@ ST0171 | CBT 超凡产品摄影 | https://malongan.github.io/style-source/images
 ST0273 | Cartoon Graffiti Headline | https://malongan.github.io/style-source/images/styles_previews/cartoon_graffiti_headline_b175a989.webp
 ST0172 | 3D卡通电视图标 | https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.webp
 ST0173 | 糖果梦幻 3D 派对海报 | https://malongan.github.io/style-source/images/styles_previews/candy_3d_wonderland_5e19f125.webp
+ST0274 | Camping Season Hand-Drawn Headline | https://malongan.github.io/style-source/images/styles_previews/camping_season_hand_drawn_headline_d49799a3.webp
 ST0260 | 黑白杂志人像 | https://malongan.github.io/style-source/images/styles_previews/bw_studio_portrait_editorial_4cdee4a2.webp
 ST0268 | Bubble Letter Headline | https://malongan.github.io/style-source/images/styles_previews/bubble_letter_headline_eda98b47.webp
 ST0174 | 泡泡卡片风 | https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.webp
@@ -265,7 +266,7 @@ ST0181 | 高对比黑白字体肖像 | https://malongan.github.io/style-source/i
 ST0242 | 黑白墨水编辑角色插画 | https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.webp
 ST0182 | Multi-Color Beverage Splash Ad System Style | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
 ST0224 | 酒饮系列海报视觉系统 | https://malongan.github.io/style-source/images/styles_previews/beverage_series_poster_7ce76fc9.webp
-ST0270 | Bas-relief Chinese Serif Headline | (无图片)
+ST0270 | Bas-relief Chinese Serif Headline | https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_headline_a2cff3eb.webp
 ST0263 | 轴对称纪念碑海报 | https://malongan.github.io/style-source/images/styles_previews/axial_memorial_poster_dcdbf6b1.webp
 ST0183 | avantgarde_bw_poster - 黑白灰先锋海报 | https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp
 ST0271 | Avant-garde Abstract Typography | https://malongan.github.io/style-source/images/styles_previews/avant_garde_abstract_typography_b6f61f14.webp
