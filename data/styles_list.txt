@@ -1,4 +1,4 @@
-共 268 个风格
+﻿共 268 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -263,7 +263,7 @@ ST0181 | 高对比黑白字体肖像 | https://malongan.github.io/style-source/i
 ST0242 | 黑白墨水编辑角色插画 | https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.webp
 ST0182 | Multi-Color Beverage Splash Ad System Style | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
 ST0224 | 酒饮系列海报视觉系统 | https://malongan.github.io/style-source/images/styles_previews/beverage_series_poster_7ce76fc9.webp
-ST0270 | Bas-relief Chinese Serif Headline | (无图片)
+ST0270 | Bas-relief Chinese Serif Headline | https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_a2cff3eb.webp
 ST0263 | 轴对称纪念碑海报 | https://malongan.github.io/style-source/images/styles_previews/axial_memorial_poster_dcdbf6b1.webp
 ST0183 | avantgarde_bw_poster - 黑白灰先锋海报 | https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp
 ST0184 | 琥珀雪松 | https://malongan.github.io/style-source/images/styles_previews/amber_cedar_perfume_poster_50fe800e.webp

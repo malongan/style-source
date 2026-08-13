@@ -12151,9 +12151,11 @@
       "variables": {},
       "source_url": "",
       "source_author": "painter",
-      "preview_urls": [],
-      "preview_webp": null,
-      "preview_webp_thumb": null,
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_a2cff3eb.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_a2cff3eb.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_a2cff3eb.thumb.webp",
       "number": "ST000270",
       "created_at": ""
     },
