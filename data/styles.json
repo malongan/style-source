@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-133-g73e0ff0-dirty",
-    "generated": "2026-08-13T03:28:32Z",
-    "total": 265,
+    "version": "v0.7.0-before-opt-134-g210c38f-dirty",
+    "generated": "2026-08-13T04:14:12Z",
+    "total": 266,
     "categories": [
       "brand_kv",
       "creative",
@@ -11483,6 +11483,52 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bw_studio_portrait_editorial_4cdee4a2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bw_studio_portrait_editorial_4cdee4a2.thumb.webp",
       "number": "ST000260",
+      "created_at": ""
+    },
+    {
+      "id": "bubble_letter_headline",
+      "code": "ST0268",
+      "name": "Bubble Letter Headline",
+      "category": "typography",
+      "tags": [
+        "bubble-letter",
+        "chunky",
+        "glossy",
+        "playful",
+        "gradient",
+        "peach",
+        "coral",
+        "cream",
+        "rounded"
+      ],
+      "triggers": [
+        "泡泡字标题",
+        "圆鼓粗体标题",
+        "蜜桃渐变泡泡字",
+        "儿童潮玩标题字",
+        "高光彩面大字"
+      ],
+      "scene": "3D 角色潮玩 KV、儿童/年轻向电商海报、需要明亮活泼但不刺眼的标题设计",
+      "ratio": "16:9",
+      "summary": "蜜桃渐变泡泡字标题——圆鼓厚实手绘泡泡笔画、高光彩面、蜜桃粉→珊瑚渐变填充、奶油白纯色底、横构图主副标题层级，柔和精致",
+      "features": [
+        "**圆鼓厚实泡泡字** — thick rounded plump balloon-like strokes，手绘轻微变形，可爱有活力",
+        "**蜜桃粉→珊瑚渐变** — soft gradient from peach pink to coral orange，柔和精致",
+        "**奶油白纯色底** — warm cream white solid background，配合渐变泡泡字",
+        "**高光彩面** — glossy highlight surface，干净发光",
+        "**边缘清晰** — crisp clean edges，每个字可读性优先",
+        "**排版** — 主标题横排居中 LARGE，下方英文副行小字，留白充足"
+      ],
+      "prompt": "A clean pure warm cream white solid color background with no texture and no gradient. In the center, large playful bubble-letter typography: the Chinese characters \"{第一行}\" rendered as thick rounded plump balloon-like strokes with a glossy highlight surface, hand-drawn slight deformation, cute and energetic. The letters use a soft gradient from peach pink to coral orange, gentle and refined. Below the main headline, a smaller English secondary line \"{第二行}\" in a simple rounded sans-serif typeface, centered, in a soft warm gray. Every stroke has a crisp clean edge, perfectly readable. Clean minimal layout with generous breathing space, high-end toy brand aesthetic. No other elements, no decorations, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
+      "variables": {},
+      "source_url": "",
+      "source_author": "painter",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/bubble_letter_headline_eda98b47.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bubble_letter_headline_eda98b47.webp",
+      "preview_webp_thumb": null,
+      "number": "ST000268",
       "created_at": ""
     },
     {
