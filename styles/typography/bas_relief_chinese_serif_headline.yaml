@@ -1,0 +1,49 @@
+# Bas-relief Chinese Serif Headline（浮雕纸浆中文衬线标题）
+
+id: bas_relief_chinese_serif_headline
+name: "Bas-relief Chinese Serif Headline"
+name_cn: "浮雕纸浆中文衬线标题"
+category: typography
+
+tags:
+  - bas-relief
+  - chinese-serif
+  - paper-pulp
+  - low-reflectance
+  - cultural
+  - warm-sand
+  - relief
+
+triggers:
+  - 浮雕标题
+  - 纸浆质感标题
+  - 中文衬线标题
+  - 文化感标题
+  - 纪念碑浮雕字
+
+features:
+  - "**中文衬线浮雕** — 正面近似对称素色浅浮雕，中文衬线字型"
+  - "**纸浆低反光质感** — low-reflectance paper-pulp texture，柔和侧光在凸起边缘留极浅亮线"
+  - "**高明度低彩度暖沙色** — 纯色底 + 深棕/墨色浮雕字，低彩度暖沙色调"
+  - "**排版层级** — 首行紧凑 + 次行放大拉开字距，宽阔留白、中央轴稳定展开"
+  - "**文化感** — 适合有文化底蕴的活动主题（露营/茶/国风/节气）"
+
+scene: "有文化感的 KV（露营/美食/茶饮/国风/节气/手作），中文标题为主，需要沉稳高级的标题设计"
+ratio: "16:9"
+summary: "浮雕纸浆中文衬线标题——素色浅浮雕、纸浆低反光、柔和侧光亮线、暖沙色低彩度、首行紧凑次行拉开字距，沉稳文化感"
+
+prompt: |
+  A clean pure warm sand beige solid color background with no texture and no gradient. In the center, the Chinese characters "{第一行}" and "{第二行}" rendered as a monumental bas-relief sculpture: flat low-relief, low-reflectance paper-pulp texture, soft diffused lighting with very subtle bright edge lines on the raised outlines, low-saturation warm sand color, elegant Chinese serif typeface. The title is split into two stacked lines, both centered: first line compact "{第一行}", second line enlarged with wide letter spacing "{第二行}". Below, a smaller secondary line "{副行}" in the same bas-relief serif style, smaller scale. Clean minimal layout with generous whitespace, high-end cultural brand aesthetic. Every character must be clearly readable with crisp clean edges. No other elements, no decorations, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.
+
+variables:
+  - 第一行
+  - 第二行
+  - 副行
+
+source: "painter"
+source_author: "painter"
+created_at: "2026-08-13"
+derived_from: "ST0253 + E019（2026-08-12 猕猴仔露营认可）"
+
+# 配图: bas_relief_*.webp（用户方案确认中）
+# 示范文字: 露营 / 食光 / 趁阳光正好 去野餐
