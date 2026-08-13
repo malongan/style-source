@@ -1,0 +1,53 @@
+# Cartoon Graffiti Headline（创意卡通涂鸦标题字体）
+# 2026-08-13 用户确认入库（流程固化后第 1 张新卡）
+
+id: cartoon_graffiti_headline
+name: "Cartoon Graffiti Headline"
+name_cn: "创意卡通涂鸦标题字体"
+category: typography
+
+tags:
+  - cartoon
+  - graffiti
+  - doodle
+  - black-outline
+  - fluorescent-green
+  - speech-bubble
+  - playful
+  - streetwear
+
+triggers:
+  - 创意卡通涂鸦字体
+  - 涂鸦标题
+  - 黑字白边
+  - 荧光绿装饰
+  - 潮流活动字体
+  - 年轻创意标题
+
+features:
+  - "**笔画夸张变形** — exaggerated distorted strokes，圆润灵动 organic rounded shapes"
+  - "**粗细对比强烈** — 笔画粗细对比鲜明，chunky 厚重卡通字形"
+  - "**黑字白边** — 黑色字 + 干净白色描边，高对比 pop-out 效果"
+  - "**荧光绿装饰** — 荧光绿对话框/数字/动态线条点缀，speech bubble + squiggle"
+  - "**扁平矢量** — flat vector style，无 3D 阴影、无渐变，纯色涂鸦感"
+  - "**中英层级** — 中文 Slogan 为主体，英文短语小字副行"
+
+scene: "潮流活动主视觉 / 创意宣传海报 / 年轻向品牌 KV / 街头文化设计"
+ratio: "4:3"
+summary: "创意卡通涂鸦标题字体——笔画夸张变形圆润灵动、粗细对比强烈、黑字白边高对比、荧光绿对话框数字线条点缀，扁平矢量潮流活力年轻创意感"
+
+prompt: |
+  Pure solid cream white background, playful creative cartoon graffiti typography design. The main element is the Chinese slogan "{中文Slogan}" rendered as a bold cartoon graffiti font: exaggerated distorted strokes, rounded lively organic shapes, strong contrast between thick and thin strokes, chunky playful letterforms with smooth rounded edges. Black lettering with a clean white outline creating high contrast pop-out effect. Decorative elements in bright fluorescent green: small speech bubble shapes, a few scattered numbers, dynamic curved lines and squiggles around the letters. English phrase "{英文副行}" placed smaller beneath the Chinese in a rounded bold sans-serif. Youthful, energetic, trendy streetwear vibe, creative campaign poster typography, flat vector style, clean solid colors, no 3D shadow, no gradient. Every Chinese character must be clearly readable and correctly written, keep all text inside the safe area. Only decorative numbers are allowed as extra elements; do not add any other letters, words, labels, logos, or pseudo-text.
+
+variables:
+  - 中文Slogan
+  - 英文副行
+
+source: "painter"
+source_author: "painter"
+created_at: "2026-08-13"
+verified_at: "2026-08-13"
+
+# 配图: cartoon_graffiti_headline_*.webp（用户确认「可以入库」）
+# 示范文字: 趁现在玩点新的 / PLAY SOMETHING NEW
+# 流程：固化后首次测试，4:3 单张即确认，未走 2 方案对比

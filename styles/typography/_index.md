@@ -7,3 +7,4 @@
 | climb_mountain_typography | #字体设计 #创意字体 #抽象变形 |  | 4.5 |
 | kawaii_bright_hand_lettering_headline | #手写 #卡哇伊 #玫瑰金 #暖色渐变 | 电商KV/海报标题 | 9:16 |
 | kawaii_bright_chunky_hand_lettering | #手写 #粗圆 #卡哇伊 #玫瑰金 #swash | 电商KV/海报标题 | 9:16 |
+| cartoon_graffiti_headline | #涂鸦 #卡通 #黑字白边 #荧光绿 #扁平矢量 | 潮流活动主视觉/创意宣传海报 | 4:3 |

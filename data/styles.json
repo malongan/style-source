@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-138-g4daaf69-dirty",
-    "generated": "2026-08-13T04:50:54Z",
-    "total": 270,
+    "version": "v0.7.0-before-opt-140-g2598ad1-dirty",
+    "generated": "2026-08-13T05:50:34Z",
+    "total": 271,
     "categories": [
       "brand_kv",
       "creative",
@@ -9558,6 +9558,49 @@
       "created_at": ""
     },
     {
+      "id": "expressive_handwritten_headline",
+      "code": "ST0272",
+      "name": "Expressive Handwritten Headline",
+      "category": "typography",
+      "tags": [
+        "handwriting",
+        "expressive",
+        "casual",
+        "lively",
+        "green-background",
+        "white-text",
+        "slogan"
+      ],
+      "triggers": [
+        "创意手写字体",
+        "手写风格标题",
+        "随性手写",
+        "夸张笔画标题",
+        "绿底白字标题",
+        "活动Slogan字体"
+      ],
+      "scene": "活动 Slogan（见面会/校园/青年活动）/ 品牌手写感标语 / 需要活泼自由氛围的标题设计",
+      "ratio": "16:9",
+      "summary": "创意手写风格字体——笔画夸张多变、粗细对比强烈、不规则连笔断点延展、随性自由活泼、绿底白字、扁平矢量",
+      "features": [
+        "**创意手写体** — 笔画形态夸张且富有变化，表达性 handwriting",
+        "**粗细对比强烈** — strong contrast between thick and thin strokes",
+        "**不规则连笔/断点/延展** — irregular connecting strokes, broken bends, curved extensions and flourishes",
+        "**随性自由活泼** — casual, free, lively feeling，打破常规字体规整性",
+        "**绿底白字** — 纯绿底 + 白色文字，干净利落",
+        "**扁平矢量** — 无阴影、无渐变，边缘清晰"
+      ],
+      "prompt": "Pure green solid color background with no texture and no gradient, flat vector illustration style, creative handwritten typography logo design. The Chinese slogan \"{中文Slogan}\" rendered in an expressive creative handwriting style: stroke forms exaggerated and richly varied, strong contrast between thick and thin strokes, irregular connecting strokes, broken bends, curved extensions and flourishes, conveying a casual, free, lively feeling that breaks the regularity of conventional fonts. The main text is white on the green background, clean sharp edges, every character clearly readable. Minimal layout, the slogan is the only element, generous breathing space. No other elements, no decorations, no frames, no shadows, no gradient. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
+      "variables": {},
+      "source_url": "",
+      "source_author": "painter",
+      "preview_urls": [],
+      "preview_webp": null,
+      "preview_webp_thumb": null,
+      "number": "ST000272",
+      "created_at": ""
+    },
+    {
       "id": "exploded_food_infographic",
       "code": "ST0144",
       "name": "爆炸式美食信息图",
@@ -11384,6 +11427,52 @@
       "created_at": ""
     },
     {
+      "id": "cartoon_graffiti_headline",
+      "code": "ST0273",
+      "name": "Cartoon Graffiti Headline",
+      "category": "typography",
+      "tags": [
+        "cartoon",
+        "graffiti",
+        "doodle",
+        "black-outline",
+        "fluorescent-green",
+        "speech-bubble",
+        "playful",
+        "streetwear"
+      ],
+      "triggers": [
+        "创意卡通涂鸦字体",
+        "涂鸦标题",
+        "黑字白边",
+        "荧光绿装饰",
+        "潮流活动字体",
+        "年轻创意标题"
+      ],
+      "scene": "潮流活动主视觉 / 创意宣传海报 / 年轻向品牌 KV / 街头文化设计",
+      "ratio": "4:3",
+      "summary": "创意卡通涂鸦标题字体——笔画夸张变形圆润灵动、粗细对比强烈、黑字白边高对比、荧光绿对话框数字线条点缀，扁平矢量潮流活力年轻创意感",
+      "features": [
+        "**笔画夸张变形** — exaggerated distorted strokes，圆润灵动 organic rounded shapes",
+        "**粗细对比强烈** — 笔画粗细对比鲜明，chunky 厚重卡通字形",
+        "**黑字白边** — 黑色字 + 干净白色描边，高对比 pop-out 效果",
+        "**荧光绿装饰** — 荧光绿对话框/数字/动态线条点缀，speech bubble + squiggle",
+        "**扁平矢量** — flat vector style，无 3D 阴影、无渐变，纯色涂鸦感",
+        "**中英层级** — 中文 Slogan 为主体，英文短语小字副行"
+      ],
+      "prompt": "Pure solid cream white background, playful creative cartoon graffiti typography design. The main element is the Chinese slogan \"{中文Slogan}\" rendered as a bold cartoon graffiti font: exaggerated distorted strokes, rounded lively organic shapes, strong contrast between thick and thin strokes, chunky playful letterforms with smooth rounded edges. Black lettering with a clean white outline creating high contrast pop-out effect. Decorative elements in bright fluorescent green: small speech bubble shapes, a few scattered numbers, dynamic curved lines and squiggles around the letters. English phrase \"{英文副行}\" placed smaller beneath the Chinese in a rounded bold sans-serif. Youthful, energetic, trendy streetwear vibe, creative campaign poster typography, flat vector style, clean solid colors, no 3D shadow, no gradient. Every Chinese character must be clearly readable and correctly written, keep all text inside the safe area. Only decorative numbers are allowed as extra elements; do not add any other letters, words, labels, logos, or pseudo-text.\n",
+      "variables": {},
+      "source_url": "",
+      "source_author": "painter",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/cartoon_graffiti_headline_b175a989.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cartoon_graffiti_headline_b175a989.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cartoon_graffiti_headline_b175a989.thumb.webp",
+      "number": "ST000273",
+      "created_at": ""
+    },
+    {
       "id": "cartoon_3d_tv_icon",
       "code": "ST0172",
       "name": "3D卡通电视图标",
@@ -12368,50 +12457,6 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/3d_sports_event_poster_13193fbe.thumb.webp",
       "number": "ST000185",
       "created_at": "2026-06-30T13:58:50+08:00"
-    },
-    {
-      "id": "expressive_handwritten_headline",
-      "code": "ST0272",
-      "name": "Expressive Handwritten Headline",
-      "name_cn": "创意手写风格字体",
-      "category": "typography",
-      "tags": [
-        "handwriting",
-        "expressive",
-        "casual",
-        "lively",
-        "green-background",
-        "white-text",
-        "slogan"
-      ],
-      "triggers": [
-        "创意手写字体",
-        "手写风格标题",
-        "随性手写",
-        "夸张笔画标题",
-        "绿底白字标题",
-        "活动Slogan字体"
-      ],
-      "scene": "活动 Slogan（见面会/校园/青年活动）/ 品牌手写感标语 / 需要活泼自由氛围的标题设计",
-      "ratio": "16:9",
-      "summary": "创意手写风格字体——笔画夸张多变、粗细对比强烈、不规则连笔断点延展、随性自由活泼、绿底白字、扁平矢量",
-      "features": [
-        "**创意手写体** — 笔画形态夸张且富有变化，表达性 handwriting",
-        "**粗细对比强烈** — strong contrast between thick and thin strokes",
-        "**不规则连笔/断点/延展** — irregular connecting strokes, broken bends, curved extensions and flourishes",
-        "**随性自由活泼** — casual, free, lively feeling，打破常规字体规整性",
-        "**绿底白字** — 纯绿底 + 白色文字，干净利落",
-        "**扁平矢量** — 无阴影、无渐变，边缘清晰"
-      ],
-      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/expressive_handwritten_9b440dc3.webp",
-      "prompt": "Pure green solid color background with no texture and no gradient, flat vector illustration style, creative handwritten typography logo design. The Chinese slogan \"{中文Slogan}\" rendered in an expressive creative handwriting style: stroke forms exaggerated and richly varied, strong contrast between thick and thin strokes, irregular connecting strokes, broken bends, curved extensions and flourishes, conveying a casual, free, lively feeling that breaks the regularity of conventional fonts. The main text is white on the green background, clean sharp edges, every character clearly readable. Minimal layout, the slogan is the only element, generous breathing space. No other elements, no decorations, no frames, no shadows, no gradient. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.",
-      "variables": [
-        "中文Slogan"
-      ],
-      "source": "painter",
-      "source_author": "painter",
-      "created_at": "2026-08-13",
-      "verified_at": "2026-08-13"
     }
   ]
 }
