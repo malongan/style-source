@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-149-gaa175b3-dirty",
-    "generated": "2026-08-13T06:56:51Z",
-    "total": 274,
+    "version": "v0.7.0-before-opt-150-g21a174d-dirty",
+    "generated": "2026-08-13T08:09:06Z",
+    "total": 275,
     "categories": [
       "brand_kv",
       "creative",
@@ -12568,6 +12568,50 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/amber_cedar_perfume_poster_50fe800e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/amber_cedar_perfume_poster_50fe800e.thumb.webp",
       "number": "ST000184",
+      "created_at": ""
+    },
+    {
+      "id": "alternative_character_chibi",
+      "code": "ST0277",
+      "name": "厚涂朋克娃娃角色插画",
+      "category": "creative",
+      "tags": [
+        "chibi",
+        "alternative-character",
+        "ink-contour",
+        "cel-shading",
+        "flat-color",
+        "worn-paper",
+        "poster",
+        "hand-drawn"
+      ],
+      "triggers": [
+        "朋克娃娃",
+        "另类角色",
+        "厚涂插画",
+        "手工质感角色",
+        "独立游戏角色"
+      ],
+      "scene": "独立游戏角色立绘、另类角色设计图、潮流插画海报、T恤图案设计",
+      "ratio": "4:5",
+      "summary": "厚涂墨线轮廓的另类大头娃娃插画，平板色块+手工纸张纹理+朋克气质",
+      "features": [
+        "**大头娃娃角色** —  oversized rounded cranium，扁平面部，窄下颌，长颈，大耳朵，占据画面 75%",
+        "**夸张五官** — 巨大椭圆眼睛带微小偏心瞳孔，粗黑横眉，不对称笑容露出参差不齐的牙齿",
+        "**平面服装** — chunky seams 粗缝线，小型手绘配饰，服装简化为大块几何形状",
+        "**墨线轮廓** — 自信黑墨外轮廓，粗外轮廓+中等面部线条+细碎发丝+少量抓痕",
+        "**手工质感** — cel-shading 平板色块， pencil hatching 稀疏排线， ink wobble，轻微颜色错位，泛黄纸张纹理"
+      ],
+      "prompt": "Two-dimensional alternative character illustration of {character}, occupying approximately seventy-five percent of the frame in {pose}, with {hair} and {expression}. Oversized rounded cranium, a short flattened lower face, a narrow jaw, a long thin neck, slightly oversized ears, huge pale oval eyes with tiny off-center pupils, extremely thick horizontal black eyebrows, heavy black upper eyelids, muted mauve under-eye rings, a tiny broad triangular nose, and a wide asymmetrical grin showing individually drawn irregular rectangular teeth, one clearly missing upper tooth, one chipped tooth and deep black gaps. Dress the character in {clothing}, simplified into broad graphic shapes with chunky seams, minimal folds and small hand-drawn accessories. Confident black ink contours using thick outer silhouettes, medium-weight facial lines, thin angular hair strands and only a few short scratch marks around the eyes, hair and clothing seams; use flat opaque color fields, one hard-edged cel-shadow shape per form, sparse pencil hatching, subtle ink wobble, slight color misregistration and restrained worn-paper texture. Controlled {colors} palette, keeping every color clearly separated and moderately saturated. Place the character against {background}, reduced to large flat shapes, a few loosely drawn environmental details and oversized rough hand-painted lettering reading \\\"{text}\\\"; use an off-center waist-up composition, a slight camera tilt, cropped background typography, loose poster margins and lightly weathered printed edges. 4:5 AR.\n\n变量说明：\n- {character} — 角色描述，如 \"a young street musician with freckles\"\n- {pose} — 姿态，如 \"sitting cross-legged\", \"leaning on a wall\", \"standing proudly\"\n- {hair} — 发型发色，如 \"spiky neon green mohawk\", \"long tangled black hair\"\n- {expression} — 表情，如 \"a wide manic grin\", \"a deadpan stare\", \"mischievous smirk\"\n- {clothing} — 服装，如 \"a studded leather jacket and ripped jeans\"\n- {colors} — 色调控制，如 \"muted earth tones\", \"high contrast black and neon pink\", \"pastel punk\"\n- {background} — 背景，如 \"a graffiti-covered alley\", \"an abandoned amusement park\"\n- {text} — 手绘背景文字，如 \"REBEL\", \"STAY WEIRD\", \"NO RULES\"\n\n不要水印，不要真实品牌名。\n",
+      "variables": {},
+      "source_url": "https://x.com/HustleXR/status/2087745072309604705",
+      "source_author": "HustleXR",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/alternative_character_chibi_aac66d0b.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/alternative_character_chibi_aac66d0b.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/alternative_character_chibi_aac66d0b.thumb.webp",
+      "number": "ST000277",
       "created_at": ""
     },
     {
