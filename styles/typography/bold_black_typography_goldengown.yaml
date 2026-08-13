@@ -1,0 +1,55 @@
+# Bold Black Artistic Typography（金榜题名黑体艺术字）
+
+id: bold_black_typography_goldengown
+name: "Bold Black Artistic Typography"
+name_cn: "金榜题名黑体艺术字"
+category: typography
+
+tags:
+  - bold-black
+  - artistic-typography
+  - rounded-strokes
+  - dynamic
+  - modern
+  - white-background
+  - centered-layout
+  - golden-rank
+  - examination
+  - bilingual
+  - slogan
+
+triggers:
+  - 金榜题名字体
+  - 黑色粗体艺术字
+  - 考试成功字体
+  - 现代醒目字体
+  - 中英双语标题
+  - 活力动感字体
+
+features:
+  - "**黑色粗体艺术字** — bold black artistic typography, thick strokes"
+  - "**笔画圆润且有粗细变化** — rounded strokes with natural varying thickness"
+  - "**富有动感与活力** — dynamic and vibrant feel, lively energy"
+  - "**现代感醒目效果** — modern eye-catching visual effect"
+  - "**纯白背景** — pure white background, clean minimal"
+  - "**文字居中排列** — centered text layout"
+  - "**中英双语排版** — Chinese main title + English subtitle below, well-balanced composition"
+
+scene: "考试成功主题 / 金榜题名海报 / 升学庆祝 / 教育品牌宣传 / 成绩公布公示"
+ratio: "4:3"
+summary: "金榜题名黑体艺术字——黑色粗体、笔画圆润有粗细变化、富有动感活力、现代醒目、白底居中、中英双语排版"
+
+prompt: |
+  "{中文标题}", bold black artistic typography, "{英文副行}" small English subtitle below, rounded strokes with varying thickness, dynamic and vibrant feel, modern eye-catching visual effect, white background, centered text layout, clean minimal design, pure typography poster, no decorations or extra elements
+
+variables:
+  - 中文标题
+  - 英文副行
+
+source_url: ""
+source_author: "painter"
+created_at: "2026-08-13"
+verified_at: "2026-08-13"
+
+# 配图: images/styles_previews/bold_black_typography_goldengown_78b19907.webp
+# 示范文字: 金榜题名 / have passed the examination

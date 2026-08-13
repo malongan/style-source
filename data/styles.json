@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-146-g9c0d0f0-dirty",
-    "generated": "2026-08-13T06:31:51Z",
-    "total": 273,
+    "version": "v0.7.0-before-opt-147-g61b7927-dirty",
+    "generated": "2026-08-13T06:38:18Z",
+    "total": 274,
     "categories": [
       "brand_kv",
       "creative",
@@ -11988,6 +11988,56 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_flow_typography_visual_experience_ac0c82a2.thumb.webp",
       "number": "ST000177",
       "created_at": "2026-06-29T15:25:17+08:00"
+    },
+    {
+      "id": "bold_black_typography_goldengown",
+      "code": "ST0276",
+      "name": "Bold Black Artistic Typography",
+      "category": "typography",
+      "tags": [
+        "bold-black",
+        "artistic-typography",
+        "rounded-strokes",
+        "dynamic",
+        "modern",
+        "white-background",
+        "centered-layout",
+        "golden-rank",
+        "examination",
+        "bilingual",
+        "slogan"
+      ],
+      "triggers": [
+        "金榜题名字体",
+        "黑色粗体艺术字",
+        "考试成功字体",
+        "现代醒目字体",
+        "中英双语标题",
+        "活力动感字体"
+      ],
+      "scene": "考试成功主题 / 金榜题名海报 / 升学庆祝 / 教育品牌宣传 / 成绩公布公示",
+      "ratio": "4:3",
+      "summary": "金榜题名黑体艺术字——黑色粗体、笔画圆润有粗细变化、富有动感活力、现代醒目、白底居中、中英双语排版",
+      "features": [
+        "**黑色粗体艺术字** — bold black artistic typography, thick strokes",
+        "**笔画圆润且有粗细变化** — rounded strokes with natural varying thickness",
+        "**富有动感与活力** — dynamic and vibrant feel, lively energy",
+        "**现代感醒目效果** — modern eye-catching visual effect",
+        "**纯白背景** — pure white background, clean minimal",
+        "**文字居中排列** — centered text layout",
+        "**中英双语排版** — Chinese main title + English subtitle below, well-balanced composition"
+      ],
+      "prompt": "\"{中文标题}\", bold black artistic typography, \"{英文副行}\" small English subtitle below, rounded strokes with varying thickness, dynamic and vibrant feel, modern eye-catching visual effect, white background, centered text layout, clean minimal design, pure typography poster, no decorations or extra elements\n",
+      "variables": {},
+      "source_url": "",
+      "source_author": "painter",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/bold_black_typography_goldengown_78b19907.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_black_typography_goldengown_78b19907.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_black_typography_goldengown_78b19907.thumb.webp",
+      "number": "ST000276",
+      "created_at": ""
     },
     {
       "id": "blueprint_editorial_sketch",
