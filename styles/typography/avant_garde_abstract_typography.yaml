@@ -1,0 +1,51 @@
+# Avant-garde Abstract Typography（先锋抽象创意字体）
+
+id: avant_garde_abstract_typography
+name: "Avant-garde Abstract Typography"
+name_cn: "先锋抽象创意字体"
+category: typography
+
+tags:
+  - avant-garde
+  - abstract
+  - black-background
+  - flat-vector
+  - monochrome
+  - accent-color
+  - logo
+  - slogan
+
+triggers:
+  - 先锋抽象字体
+  - 创意字体Logo
+  - 黑底白字标题
+  - 抽象变形标题
+  - 大师字体设计
+  - 品牌Slogan标题
+
+features:
+  - "**笔画大胆重组** — 局部笔画夸张变形、延伸和断开，boldly restructured strokes"
+  - "**线条流畅节奏感** — 流畅线条 + 强节奏动感，视觉冲击"
+  - "**高对比笔画** — 笔画粗细对比鲜明，干净利落"
+  - "**扁平矢量** — flat design，无 3D 阴影、无渐变，纯矢量感"
+  - "**黑白主色 + 单点缀色** — 黑底白字为基调，单个亮色（如电光橙）落在关键笔画制造焦点"
+  - "**中英层级** — 中文 Slogan 为主体，英文短语小字副行"
+
+scene: "品牌 Logo / 发布会主视觉 / 战略Slogan KV（破局焕新类）/ 科技·咨询·高端品牌 / 黑白高级感设计"
+ratio: "16:9"
+summary: "先锋抽象创意字体——笔画大胆重组、局部夸张变形、流畅线条强节奏、扁平矢量、黑底白字+单亮色点缀，高级前卫大师感"
+
+prompt: |
+  Pure black background, flat vector illustration style, creative typography logo design. The main element is the Chinese slogan "{中文Slogan}" rendered as a pioneer abstract font: letterforms with boldly restructured strokes, partial strokes exaggerated, extended and disconnected, smooth flowing lines with strong rhythmic momentum, high-contrast stroke weight, clean sharp edges, flat design with no 3D shadow, no gradient. The English phrase "{英文副行}" placed smaller beneath the Chinese, in a refined thin geometric sans-serif, subtle letter spacing. Monochrome white on black as the base, with one restrained bright accent color (electric orange) on a single key stroke to create a visual focal point. Overall avant-garde, premium, strong visual impact, master-level typography design. Every character must be clearly readable, keep all text inside the safe area. Do not add any other letters, words, numbers, labels, logos, or pseudo-text.
+
+variables:
+  - 中文Slogan
+  - 英文副行
+
+source: "painter"
+source_author: "painter"
+created_at: "2026-08-13"
+verified_at: "2026-08-13"
+
+# 配图: avant_garde_abstract_b6f61f14.webp（用户确认「也还可以」）
+# 示范文字: 破局焕新·智领未来 / No berries, no worries
