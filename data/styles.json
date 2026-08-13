@@ -12457,6 +12457,47 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/3d_sports_event_poster_13193fbe.thumb.webp",
       "number": "ST000185",
       "created_at": "2026-06-30T13:58:50+08:00"
+    },
+    {
+      "code": "ST0274",
+      "id": "camping_season_hand_drawn_headline",
+      "name": "Camping Season Hand-Drawn Headline",
+      "name_cn": "夏日露营季创意手绘标题字体",
+      "category": "typography",
+      "tags": [
+        "hand-drawn",
+        "trendy",
+        "camping",
+        "summer",
+        "doodle",
+        "cartoon-motifs",
+        "green-background",
+        "white-text",
+        "playful"
+      ],
+      "triggers": [
+        "夏日露营字体",
+        "露营季创意字体",
+        "手绘潮流字体",
+        "帐篷露营标题字",
+        "绿色背景字体设计",
+        "卡通图案点缀字体"
+      ],
+      "features": [
+        "**绿色纯色底** — fresh solid green background，高对比白字",
+        "**创意手绘潮流字体** — 抽象变形 letterforms，独特节奏与动感 organic curves",
+        "**高对比白字** — bright white lettering，细微描边确保可读性",
+        "**卡通露营元素点缀** — 帐篷/篝火/星星/树叶/太阳/云朵 flat doodle style",
+        "**扁平矢量** — flat vector style，无 3D 阴影、无渐变",
+        "**中英层级** — 中文「夏日露营季」为主体，英文「Summer」小字副行"
+      ],
+      "scene": "夏季露营活动主视觉 / 潮流品牌 KV / 户外生活方式宣传 / 帐篷音乐节海报",
+      "ratio": "4:3",
+      "summary": "夏日露营季创意手绘标题字体——绿色纯色底+高对比白字、抽象变形创意手绘潮流字、节奏动感、卡通露营元素点缀（帐篷/篝火/星星）、扁平矢量年轻活力",
+      "source": "painter",
+      "source_author": "painter",
+      "created_at": "2026-08-13",
+      "verified_at": "2026-08-13"
     }
   ]
 }
