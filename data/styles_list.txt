@@ -1,4 +1,4 @@
-共 264 个风格
+共 265 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -71,6 +71,7 @@ ST0059 | 透明概念海报 | https://malongan.github.io/style-source/images/sty
 ST0060 | 织物手工艺 | https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.webp
 ST0061 | 撕纸美学 | https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.webp
 ST0062 | 武政谅丝网印刷露营海报 | https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.webp
+ST0267 | 超现实时尚花园 runway | https://malongan.github.io/style-source/images/styles_previews/surreal_fashion_runway_c13189a1.webp
 ST0063 | 阳光3D头像营销风 | https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.webp
 ST0064 | Sunlit Kinetic Block Type Photo Poster | https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.webp
 ST0065 | 夏日多巴胺潮流3D | https://malongan.github.io/style-source/images/styles_previews/summer_dopamine_b0c14a20.webp
