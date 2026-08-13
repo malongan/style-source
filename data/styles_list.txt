@@ -1,8 +1,9 @@
-共 272 个风格
+共 273 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
 ST0003 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
+ST0275 | Wild Cursive Calligraphy Poster | https://malongan.github.io/style-source/images/styles_previews/wild_cursive_calligraphy_poster_761aca54.webp
 ST0226 | 婚礼喜字影像画报 | https://malongan.github.io/style-source/images/styles_previews/wedding_xi_character_poster_af2eec7d.webp
 ST0225 | 婚礼私密仪式感影像邀请函 | https://malongan.github.io/style-source/images/styles_previews/wedding_intimate_ceremony_invitation_c886b7e2.webp
 ST0227 | 婚礼谢幕致意画报 | https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.webp

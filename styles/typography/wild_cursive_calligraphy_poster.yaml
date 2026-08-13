@@ -1,0 +1,57 @@
+# Wild Cursive Calligraphy Poster（狂草书法电影海报字体）
+
+id: wild_cursive_calligraphy_poster
+name: "Wild Cursive Calligraphy Poster"
+name_cn: "狂草书法电影海报字体"
+category: typography
+
+tags:
+  - calligraphy
+  - cursive
+  - wild
+  - bold-strokes
+  - flying-white
+  - ink-wash
+  - movie-poster
+  - black-background
+  - seal-stamp
+  - china-luoyang
+  - master-poster
+  - typography
+
+triggers:
+  - 狂草字体
+  - 书法字体海报
+  - 电影海报书法
+  - 国风大标题
+  - 草书字体
+  - 神都洛陽
+
+features:
+  - "**超粗笔画流畅飘逸** — ultra-thick bold strokes, bold and flowing"
+  - "**狂野奔放** — wild and unrestrained, dynamic visual tension"
+  - "**飞白效果** — ink wash with flying white effect, ink splatter"
+  - "**笔画巧妙延长变形** — strokes cleverly extended and deformed, connecting strokes"
+  - "**干净黑底** — pure black background, master calligraphy poster aesthetic"
+  - "**电影海报构图** — movie poster composition with large typography focus"
+  - "**印章点缀** — red Chinese seal stamp accent, \"China Luo Yang\" small English text at bottom"
+
+scene: "电影海报主标题 / 国风品牌大标题 / 文化活动主视觉 / 神都洛陽类城市品牌宣传"
+ratio: "4:3"
+summary: "狂草书法电影海报字体——超粗笔画流畅飘逸、飞白效果、狂野奔放富有动感、干净黑底、印章点缀、电影海报构图"
+
+prompt: |
+  "{中文标题}", wild cursive Chinese calligraphy poster, ultra-thick bold strokes, ink wash with flying white effect, strokes connecting and flowing with wild abandon, dynamic visual tension, black background, master calligraphy poster, movie poster composition, "{英文副行}" small English text at bottom, red Chinese seal stamp accent with "{印章文字}", pure typography design, no decorations
+
+variables:
+  - 中文标题
+  - 英文副行
+  - 印章文字
+
+source_url: ""
+source_author: "painter"
+created_at: "2026-08-13"
+verified_at: "2026-08-13"
+
+# 配图: images/styles_previews/wild_cursive_calligraphy_poster_761aca54.webp
+# 示范文字: 神都洛陽 / China Luo Yang

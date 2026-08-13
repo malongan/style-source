@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-144-g26cb318-dirty",
-    "generated": "2026-08-13T06:23:41Z",
-    "total": 272,
+    "version": "v0.7.0-before-opt-146-g9c0d0f0-dirty",
+    "generated": "2026-08-13T06:31:51Z",
+    "total": 273,
     "categories": [
       "brand_kv",
       "creative",
@@ -153,6 +153,57 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.thumb.webp",
       "number": "ST000003",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "wild_cursive_calligraphy_poster",
+      "code": "ST0275",
+      "name": "Wild Cursive Calligraphy Poster",
+      "category": "typography",
+      "tags": [
+        "calligraphy",
+        "cursive",
+        "wild",
+        "bold-strokes",
+        "flying-white",
+        "ink-wash",
+        "movie-poster",
+        "black-background",
+        "seal-stamp",
+        "china-luoyang",
+        "master-poster",
+        "typography"
+      ],
+      "triggers": [
+        "狂草字体",
+        "书法字体海报",
+        "电影海报书法",
+        "国风大标题",
+        "草书字体",
+        "神都洛陽"
+      ],
+      "scene": "电影海报主标题 / 国风品牌大标题 / 文化活动主视觉 / 神都洛陽类城市品牌宣传",
+      "ratio": "4:3",
+      "summary": "狂草书法电影海报字体——超粗笔画流畅飘逸、飞白效果、狂野奔放富有动感、干净黑底、印章点缀、电影海报构图",
+      "features": [
+        "**超粗笔画流畅飘逸** — ultra-thick bold strokes, bold and flowing",
+        "**狂野奔放** — wild and unrestrained, dynamic visual tension",
+        "**飞白效果** — ink wash with flying white effect, ink splatter",
+        "**笔画巧妙延长变形** — strokes cleverly extended and deformed, connecting strokes",
+        "**干净黑底** — pure black background, master calligraphy poster aesthetic",
+        "**电影海报构图** — movie poster composition with large typography focus",
+        "**印章点缀** — red Chinese seal stamp accent, \"China Luo Yang\" small English text at bottom"
+      ],
+      "prompt": "\"{中文标题}\", wild cursive Chinese calligraphy poster, ultra-thick bold strokes, ink wash with flying white effect, strokes connecting and flowing with wild abandon, dynamic visual tension, black background, master calligraphy poster, movie poster composition, \"{英文副行}\" small English text at bottom, red Chinese seal stamp accent with \"{印章文字}\", pure typography design, no decorations\n",
+      "variables": {},
+      "source_url": "",
+      "source_author": "painter",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/wild_cursive_calligraphy_poster_761aca54.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wild_cursive_calligraphy_poster_761aca54.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wild_cursive_calligraphy_poster_761aca54.thumb.webp",
+      "number": "ST000275",
+      "created_at": ""
     },
     {
       "id": "wedding_xi_character_poster",

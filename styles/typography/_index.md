@@ -8,3 +8,4 @@
 | kawaii_bright_hand_lettering_headline | #手写 #卡哇伊 #玫瑰金 #暖色渐变 | 电商KV/海报标题 | 9:16 |
 | kawaii_bright_chunky_hand_lettering | #手写 #粗圆 #卡哇伊 #玫瑰金 #swash | 电商KV/海报标题 | 9:16 |
 | cartoon_graffiti_headline | #涂鸦 #卡通 #黑字白边 #荧光绿 #扁平矢量 | 潮流活动主视觉/创意宣传海报 | 4:3 |
+| wild_cursive_calligraphy_poster | #书法 #狂草 #飞白 #电影海报 #黑底 #印章 | 电影海报主标题/国风品牌大标题/文化活动主视觉 | 4:3 |
