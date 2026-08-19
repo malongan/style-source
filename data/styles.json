@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-152-g3402739-dirty",
-    "generated": "2026-08-19T15:43:40Z",
-    "total": 276,
+    "version": "v0.7.0-before-opt-153-gfff9552-dirty",
+    "generated": "2026-08-19T16:19:19Z",
+    "total": 277,
     "categories": [
       "brand_kv",
       "creative",
@@ -5689,6 +5689,48 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.thumb.webp",
       "number": "ST000094",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "photo_half_hand_drawn_poster",
+      "code": "ST0279",
+      "name": "摄影手绘双面海报",
+      "category": "print",
+      "tags": [
+        "摄影",
+        "手绘",
+        "丙烯",
+        "纸质",
+        "童趣",
+        "留白"
+      ],
+      "triggers": [
+        "摄影手绘双面",
+        "上半照片下手绘",
+        "丙烯平涂海报",
+        "纸质手绘封面"
+      ],
+      "scene": "品牌KV、社媒海报、艺术书籍封面、童趣主题活动海报",
+      "ratio": "3:4",
+      "summary": "3:4 竖版上下等分，上半杂志摄影质感，下半极简纸感手绘，小主体大留白，童趣诗意",
+      "features": [
+        "**3:4 竖版上下 1:1 等分** — 上半保留照片，下半重构手绘，高度严格各占 50%",
+        "**上半部分杂志摄影质感** — 保留原照片主体结构、真实质感、自然光影，仅轻微高级摄影调色",
+        "**下半部分极简纸感手绘** — 纤细略带不稳定感的手绘线条 + 少量明确丙烯平涂色块重构主体",
+        "**小主体大留白** — 主体仅占下半部分 10-20%，四周大面积留白，背景以粗糙白纸为主",
+        "**配色克制** — 从照片提取不超过 4 种主要颜色，色块鲜明完整，保留纸张颗粒和手工涂抹感",
+        "**艺术书封式排版** — 简洁文字与留白和插画自然融合，具有独立出版物和儿童绘本设计感"
+      ],
+      "prompt": "生成一张 3:4 竖版海报，上下两个区域高度严格 1:1，各占画面 50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有杂志摄影和艺术出版物质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的主体、轮廓、姿态与叙事关系，重构为极简纸感手绘封面插画。高度提炼并删减复杂细节，只保留最关键的视觉特征，以纤细、略带不稳定感的手绘线条和少量明确的丙烯平涂色块重新表达，让人一眼识别原始主题。主体保持小而集中，约占下半部分 10%-20%，四周大面积留白，背景以粗糙白纸或浅色纸张为主，仅用极少量线条或色面暗示环境。\n\n配色从上方照片提取并压缩为不超过 4 种主要颜色，色块鲜明、完整、克制，保留纸张颗粒、手工涂抹和轻微不规则边缘。线条负责提示结构，色块负责建立主体。避免彩铅、蜡笔、水彩晕染、纯线稿、复杂写实、厚重油画、光滑数字插画和 3D 质感。\n\n可加入少量简洁文字，根据照片内容灵活使用标题、主题词、对象名称、地点、年份、编号或短句，不局限于城市题材。文字排版疏朗克制，与留白和插画自然融合，具有艺术书封、独立出版物和儿童绘本式设计感。\n\n整体呈现小主体、大留白、强提炼、高识别度、安静、童趣、轻松、诗意而高级的视觉气质，避免商业卡通感、电商感和模板感。\n不要水印，不要真实 Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/xiaoxiaodong01/status/2089997569829093688",
+      "source_author": "xiaoxiaodong01",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/photo_half_hand_drawn_poster_0206f844.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/photo_half_hand_drawn_poster_0206f844.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/photo_half_hand_drawn_poster_0206f844.thumb.webp",
+      "number": "ST000279",
+      "created_at": ""
     },
     {
       "id": "pet_sketch_storyboard",
