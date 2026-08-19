@@ -72,4 +72,5 @@
 | classic_car_exploded_view | #老爷车 #爆炸拆解 #产品可视化 #影棚布光 #技术图解 | 汽车产品图解、品牌技术故事、产品设计展示、文化历史海报 | 16:9 |
 | ST0261 | MORRA TABLE 早餐品牌广告海报 | [@ou_zhen599](https://x.com/ou_zhen599/status/2087088720864583806) | 食品品牌KV、咖啡馆海报、早餐主题 | 3:4 |
 | ST0262 | 敦煌飞天壁画 | [@ou_zhen599](https://x.com/ou_zhen599/status/2087144910759792712) | 国风海报、文化艺术、展演主视觉 | 3:4 |
+| ST0278 | 宇宙星云剪影 | [@azed_ai](https://x.com/azed_ai/status/2090031054044442644) | 品牌KV、创意海报、天文主题视觉、概念艺术 | 3:2 |
 | alternative_character_chibi | 厚涂朋克娃娃角色插画 | [@HustleXR](https://x.com/HustleXR/status/2087745072309604705) | 独立游戏角色立绘、另类角色设计图、潮流插画海报、T恤图案设计 | 4:5 |
