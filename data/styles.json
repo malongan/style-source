@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-150-g21a174d-dirty",
-    "generated": "2026-08-13T08:09:06Z",
-    "total": 275,
+    "version": "v0.7.0-before-opt-152-g3402739-dirty",
+    "generated": "2026-08-19T15:43:40Z",
+    "total": 276,
     "categories": [
       "brand_kv",
       "creative",
@@ -10845,6 +10845,42 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.thumb.webp",
       "number": "ST000161",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "cosmic_nebula_silhouette",
+      "code": "ST0278",
+      "name": "宇宙星云剪影",
+      "category": "creative",
+      "tags": [
+        "#宇宙 #星云 #剪影 #纯黑背景 #天文学 #天文摄影"
+      ],
+      "triggers": [
+        "宇宙星云剪影",
+        "星云剪影",
+        "nebula silhouette",
+        "宇宙星云人像"
+      ],
+      "scene": "品牌KV、创意海报、天文主题视觉、概念艺术、神秘感人像",
+      "ratio": "3:2",
+      "summary": "以宇宙星云为材质的超写实剪影风格，天文摄影质感搭配戏剧性边缘光",
+      "features": [
+        "**超写实天文摄影质感** — 真实望远镜拍摄的天体照片般逼真，厚重的大气与光影细节",
+        "**纯黑背景剪影** — 干净纯粹的黑场，突出星云主体的通透感与边缘光芒",
+        "**深色为主调 + 鲜艳发光点缀** — 深色为主色调，带 vivid glow 的点缀色形成视觉焦点",
+        "**边缘光晕与轮廓光** — 主体边缘具有强烈的 rim lighting，形成高对比剪影",
+        "**有机流动形态** — 星云气态流动感、各层透明度不同，形成自然层次"
+      ],
+      "prompt": "A surreal ethereal [subject] formed entirely from flowing cosmic nebula clouds, isolated on a pure solid black background, elegant silhouette with long gaseous wisps, deep [color1] dominant tones, vivid [color2] glowing accents, luminous edges, translucent volumetric layers, swirling cosmic dust, organic flowing forms, photorealistic astrophotography, dramatic rim lighting, mysterious atmosphere, sharp high-contrast silhouette --ar 3:2 --v 8.2\n\n不要水印，不要真实天文摄影，不要卡通感，不要文字叠加。\n",
+      "variables": {},
+      "source_url": "https://x.com/azed_ai/status/2090031054044442644",
+      "source_author": "azed_ai",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/cosmic_nebula_silhouette_5e43df26.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cosmic_nebula_silhouette_5e43df26.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cosmic_nebula_silhouette_5e43df26.thumb.webp",
+      "number": "ST000278",
+      "created_at": ""
     },
     {
       "id": "constructivist_architecture_poster",
