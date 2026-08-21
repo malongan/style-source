@@ -75,3 +75,4 @@
 | ST0278 | 宇宙星云剪影 | [@azed_ai](https://x.com/azed_ai/status/2090031054044442644) | 品牌KV、创意海报、天文主题视觉、概念艺术 | 3:2 |
 | alternative_character_chibi | 厚涂朋克娃娃角色插画 | [@HustleXR](https://x.com/HustleXR/status/2087745072309604705) | 独立游戏角色立绘、另类角色设计图、潮流插画海报、T恤图案设计 | 4:5 |
 | ST0280 | 微缩景观模型海报 | [@xiaoxiaodong01](https://x.com/xiaoxiaodong01/status/2090447110168822128) | 品牌KV、概念海报、艺术摄影展览、生活方式品牌主图 | 3:4 |
+| ST0281 | 木刻几何海报 | [@xiaoxiaodong01](https://x.com/xiaoxiaodong01/status/2090606881987600812) | 品牌KV、概念海报、文化艺术展览、民俗品牌主视觉 | 3:4 |
