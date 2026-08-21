@@ -1,4 +1,4 @@
-共 277 个风格
+共 278 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -147,6 +147,7 @@ ST0246 | 混合媒体时尚大片风 | https://malongan.github.io/style-source/i
 ST0210 | 极简手绘纪念卡 | https://malongan.github.io/style-source/images/styles_previews/minimalist_hand_drawn_card_91829faa.webp
 ST0104 | Minimalist City Travel Poster | https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.webp
 ST0241 | 极简瑞士风咖啡馆产品海报 | https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.webp
+ST0280 | 微缩景观模型海报 | https://malongan.github.io/style-source/images/styles_previews/miniature_diorama_poster_a4872258.webp
 ST0105 | 麦肯锡风格 | https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp
 ST0204 | 材质化解释图风格 | https://malongan.github.io/style-source/images/styles_previews/materialized_explainer_diagram_HNJstWeb.webp
 ST0106 | 吉祥物IP风格 | https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp
