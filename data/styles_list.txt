@@ -1,4 +1,4 @@
-共 282 个风格
+共 283 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -129,6 +129,7 @@ ST0098 | 粉彩产品棚拍 | https://malongan.github.io/style-source/images/sty
 ST0099 | 蛋挞手绘美食海报 | https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.webp
 ST0193 | 桂花鲜奶茶季节限定海报 | https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_c03d2bb2.webp
 ST0100 | 东方古代壁画展览海报 | https://malongan.github.io/style-source/images/styles_previews/oriental_mural_exhibition_poster_6f8157ee.webp
+ST0285 | 东方草本茶饮文化海报 | https://malongan.github.io/style-source/images/styles_previews/oriental_herbal_tea_poster_285443f8.webp
 ST0194 | 东方幻想游记封面 | https://malongan.github.io/style-source/images/styles_previews/oriental_fantasy_travel_cover_309781f1.webp
 ST0101 | Object Illustration Combo - 真实物体插画融合 | https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp
 ST0198 | North Fold 科考档案海报 | https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.webp
