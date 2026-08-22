@@ -12,3 +12,4 @@
 | dubai_riso_travel_poster | #Risograph #荧光色 #旅行海报 #印刷质感 #迪拜 | 城市旅行海报、文化活动宣传、独立印刷品 | 3:4 |
 | premium_scandinavian_stamp_collection | #邮票 #北欧极简 #旅行纪念 #收藏级 #斯堪的纳维亚 | 品牌文创、目的地旅行纪念册、社交媒体图文 | 3:4 |
 | taipei_vintage_modernist_travel_poster | #台北 #复古 #现代主义 #城市地标 #几何拼贴 | 城市旅行宣传海报、目的地推广 | 4:5 |
+| isometric_country_diorama | #微缩模型 #地理 #等距 #国家轮廓 #移轴摄影 | 国家旅行宣传、地理主题海报、目的地推广 | 4:5 |

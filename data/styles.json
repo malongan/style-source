@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-156-g3df599c-dirty",
-    "generated": "2026-08-22T12:11:06Z",
-    "total": 280,
+    "version": "v0.7.0-before-opt-157-ge8cacc2-dirty",
+    "generated": "2026-08-22T12:40:45Z",
+    "total": 281,
     "categories": [
       "brand_kv",
       "creative",
@@ -8351,6 +8351,49 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.thumb.webp",
       "number": "ST000123",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "isometric_country_diorama",
+      "code": "ST0283",
+      "name": "精细地理微缩模型景观",
+      "category": "travel",
+      "tags": [
+        "isometric",
+        "miniature",
+        "diorama",
+        "country",
+        "travel",
+        "geographic",
+        "photorealistic",
+        "tilt-shift"
+      ],
+      "triggers": [
+        "微缩模型",
+        "地理景观",
+        "地形模型",
+        "国家轮廓"
+      ],
+      "scene": "国家旅行宣传、地理主题海报、目的地推广",
+      "ratio": "4:5",
+      "summary": "国家轮廓的超精细微缩模型移轴摄影风格",
+      "features": [
+        "**微缩模型风格** — 超精细等距视角，真实国家轮廓地理板块",
+        "**精确地形** — 山脉河流、城市建筑、地标按真实位置还原",
+        "**微距细节** — 建筑群、道路桥梁、农田森林等微小细节",
+        "**移轴摄影感** — 极清晰、全焦平面、柔和暖日光",
+        "**杂志排版** — 上部留白简约文字，下部模型居中"
+      ],
+      "prompt": "Ultra-detailed photorealistic isometric miniature scale-model diorama of {country}, floating on a pure off-white studio background with a soft drop shadow beneath. The diorama takes the exact real-world silhouette shape of the country — not a square tile, but the true precise geographic outline of the country's borders and coastline, extruded downward into a thick slab of raw rock and earth with rough natural cliff-like edges, like a chunk of the real land physically cut out and lifted. The shape of the slab matches the country's actual geography precisely, including any islands, peninsulas or coastline indentations.\n\nThe entire top surface faithfully recreates the country's real geography and terrain: mountain ranges with correct elevation and snow coverage, rivers in their real positions, major forests and plains, deserts, coastlines with beaches and cliffs. Every major city is visible as a dense urban cluster in its correct geographic position. The country's most iconic landmarks are rendered in accurate positions and to recognizable scale. Terrain elevation is fully physically modeled — mountain ranges rise dramatically, valleys are sunken, plains are flat, creating real varied 3D topography across the entire surface.\n\nDense micro-detail: individual buildings in city clusters, tiny roads and highways connecting settlements, railways, bridges, harbors with boats, agricultural field patterns in rural areas, individual trees and forest coverage. Every region has its correct landscape character — the terrain of the north looks different from the south.\n\nStyle: hyper-realistic tilt-shift miniature photography — extremely sharp, everything in focus across the whole surface, no blur. Soft warm daylight from above, gentle diffuse shadows, rich natural colors. Lush greens, snow-capped peaks, golden plains, deep blue water along the coastline.\n\nLayout: the shaped diorama floats centered in the lower two-thirds of the frame with clear margins on all sides, never touching the frame edges. Upper third is empty off-white space with minimalist editorial typography, centered: small wide-tracked caps with the continent or region name at the very top, then directly below {country} in a bold condensed sans-serif in medium charcoal grey — large and dominant, the biggest text element — with a small flat rectangular flag of {country} sitting immediately to the right of the country name, vertically centered with it, accurately colored and proportioned, clean flat design, sized to roughly the cap-height of the country name, floating naturally beside the name as one cohesive unit, not pushed to the far edge but sitting close and attached to the right end of the country name text. Then small wide-tracked caps below with the capital city and population.\n\nMinimalist editorial poster aesthetic, premium print quality, 4:5 aspect ratio.\n不要水印，不要真实Logo。\n",
+      "variables": {},
+      "source_url": "https://x.com/ChillaiKalan__/status/2091009348302774706",
+      "source_author": "ChillaiKalan__",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/isometric_country_diorama_f987b38c.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/isometric_country_diorama_f987b38c.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/isometric_country_diorama_f987b38c.thumb.webp",
+      "number": "ST000283",
+      "created_at": ""
     },
     {
       "id": "inkline_couture",
