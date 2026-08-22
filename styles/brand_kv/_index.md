@@ -28,3 +28,4 @@
 | lululemon_campaign_board | #运动 #Campaign #粉紫 #Hyper-real #编辑排版 | 品牌KV、运动服Campaign、时尚海报、零售广告 | 9:16 |
 | retro_motorsport_poster | #复古赛车 #赛车海报 #老爷车 #品牌KV #做旧质感 #编辑风 | 汽车品牌KV、赛车运动宣传、老爷车文化、品牌联名 | 4:5 |
 | lululemon_4square_campaign | #品牌KV #四联海报 #运动时尚 #超写实 #编辑排版 | 品牌KV、运动品牌联名、时尚运动海报、Instagram 帖子 | 1:1 |
+| oriental_herbal_tea_poster | #东方 #草本茶饮 #民艺文字 #茶文化 | 茶饮品牌海报、文化宣传、东方美学设计 | 9:16 |
