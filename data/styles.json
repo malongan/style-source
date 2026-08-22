@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-155-g0eeebc5-dirty",
-    "generated": "2026-08-21T01:53:13Z",
-    "total": 279,
+    "version": "v0.7.0-before-opt-156-g3df599c-dirty",
+    "generated": "2026-08-22T12:11:06Z",
+    "total": 280,
     "categories": [
       "brand_kv",
       "creative",
@@ -3615,6 +3615,49 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.thumb.webp",
       "number": "ST000062",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "taipei_vintage_modernist_travel_poster",
+      "code": "ST0282",
+      "name": "台北复古现代主义旅行海报",
+      "category": "travel",
+      "tags": [
+        "taipei",
+        "travel poster",
+        "vintage",
+        "modernist",
+        "geometric collage",
+        "editorial",
+        "city landmark",
+        "taiwan"
+      ],
+      "triggers": [
+        "台北旅行海报",
+        "复古现代主义",
+        "城市地标",
+        "台湾旅行"
+      ],
+      "scene": "城市旅行宣传海报、目的地推广、地理标识设计",
+      "ratio": "4:5",
+      "summary": "台北城市地标的复古现代主义几何拼贴旅行海报",
+      "features": [
+        "**几何构成** — 重叠的拱门、矩形、圆形、建筑阶梯形状的几何拼贴",
+        "**复古色调** — 粉蓝、奶油白、暖陶土、尘珊瑚、鼠尾草绿、深海军蓝",
+        "**纸质质感** — 轻微颗粒感、复古印刷纹理、纸张叠加",
+        "**城市地标** — 台北101作为主导标志、国父纪念馆前台，传统建筑、远山、河流",
+        "**极简手绘** — 干净的建筑线条、平衡负空间、欧洲复古旅行海报风格"
+      ],
+      "prompt": "Create a refined editorial travel poster illustration of {city}, inspired by vintage modernist travel art. Show {landmark} as the dominant landmark rising above a layered city skyline, with {foreground_element} in the foreground, traditional architecture, lush trees, distant mountains, elegant bridges, and a calm blue river or waterfront. Use a sophisticated geometric collage composition with overlapping arches, rectangles, circles, stepped architectural shapes, and subtle paper-texture overlays. Muted pastel palette of powder blue, cream, warm terracotta, dusty coral, sage green, and deep navy. Minimalist hand-painted illustration, slightly grainy vintage print texture, soft natural daylight, clean architectural lines, balanced negative space, sophisticated European travel-poster aesthetic, nostalgic yet contemporary, highly detailed but uncluttered. Place the title \"{city}\" centered at the top in thin, widely spaced uppercase typography. Vertical 4:5 composition, premium art-print quality, elegant, cohesive, no photorealism, no gradients, no excessive text.\n不要水印，不要真实Logo。\n",
+      "variables": {},
+      "source_url": "https://x.com/Taaruk_/status/2091034664203133243",
+      "source_author": "Taaruk_",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/taipei_vintage_modernist_travel_poster_08aa9669.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/taipei_vintage_modernist_travel_poster_08aa9669.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/taipei_vintage_modernist_travel_poster_08aa9669.thumb.webp",
+      "number": "ST000282",
+      "created_at": ""
     },
     {
       "id": "surreal_fashion_runway",
