@@ -11,3 +11,4 @@
 | wilderness_wind_poster | #插画 #海报 #草原 |  | 3:4 / 16:9 / 4:5 |
 | dubai_riso_travel_poster | #Risograph #荧光色 #旅行海报 #印刷质感 #迪拜 | 城市旅行海报、文化活动宣传、独立印刷品 | 3:4 |
 | premium_scandinavian_stamp_collection | #邮票 #北欧极简 #旅行纪念 #收藏级 #斯堪的纳维亚 | 品牌文创、目的地旅行纪念册、社交媒体图文 | 3:4 |
+| taipei_vintage_modernist_travel_poster | #台北 #复古 #现代主义 #城市地标 #几何拼贴 | 城市旅行宣传海报、目的地推广 | 4:5 |
