@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-159-g7667f6c-dirty",
-    "generated": "2026-08-22T13:51:44Z",
+    "version": "v0.7.0-before-opt-160-gc2cf91f-dirty",
+    "generated": "2026-08-25T09:49:25Z",
     "total": 283,
     "categories": [
       "brand_kv",
@@ -3896,7 +3896,7 @@
     },
     {
       "id": "style_product",
-      "code": "ST0067",
+      "code": "ST0286",
       "name": "Electric Blue Silhouette Product Launch Style",
       "category": "e-commerce",
       "tags": [
@@ -3941,7 +3941,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.thumb.webp",
-      "number": "ST000067",
+      "number": "ST000286",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
@@ -4381,7 +4381,7 @@
     },
     {
       "id": "soft_lifestyle_product_ad",
-      "code": "ST0209",
+      "code": "ST0301",
       "name": "清爽生活产品广告视觉",
       "category": "e-commerce",
       "tags": [
@@ -4416,7 +4416,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/soft_lifestyle_product_ad_afc3c398.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/soft_lifestyle_product_ad_afc3c398.thumb.webp",
-      "number": "ST000209",
+      "number": "ST000301",
       "created_at": ""
     },
     {
@@ -5053,7 +5053,7 @@
     },
     {
       "id": "retro_drink_ad",
-      "code": "ST0088",
+      "code": "ST0287",
       "name": "复古饮料广告",
       "category": "e-commerce",
       "tags": [
@@ -5096,7 +5096,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.thumb.webp",
-      "number": "ST000088",
+      "number": "ST000287",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
@@ -5224,7 +5224,7 @@
     },
     {
       "id": "realistic_photo",
-      "code": "ST0090",
+      "code": "ST0288",
       "name": "写实摄影",
       "category": "e-commerce",
       "tags": [
@@ -5258,7 +5258,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.thumb.webp",
-      "number": "ST000090",
+      "number": "ST000288",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
@@ -5469,7 +5469,7 @@
     },
     {
       "id": "premium_cafe_menu_poster",
-      "code": "ST0247",
+      "code": "ST0308",
       "name": "精品咖啡菜单海报",
       "category": "e-commerce",
       "tags": [
@@ -5505,12 +5505,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_cafe_menu_poster_ccf1aed3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_cafe_menu_poster_ccf1aed3.thumb.webp",
-      "number": "ST000247",
+      "number": "ST000308",
       "created_at": ""
     },
     {
       "id": "premium_4grid_product_lineup",
-      "code": "ST0235",
+      "code": "ST0305",
       "name": "风味配色4格产品阵列海报",
       "category": "e-commerce",
       "tags": [
@@ -5548,7 +5548,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_4grid_product_lineup_bbc183b5.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_4grid_product_lineup_bbc183b5.thumb.webp",
-      "number": "ST000235",
+      "number": "ST000305",
       "created_at": ""
     },
     {
@@ -5974,7 +5974,7 @@
     },
     {
       "id": "pastel_product_studio",
-      "code": "ST0098",
+      "code": "ST0289",
       "name": "粉彩产品棚拍",
       "category": "e-commerce",
       "tags": [],
@@ -6004,7 +6004,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pastel_product_studio_c3069620.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pastel_product_studio_c3069620.thumb.webp",
-      "number": "ST000098",
+      "number": "ST000289",
       "created_at": ""
     },
     {
@@ -6050,7 +6050,7 @@
     },
     {
       "id": "osmanthus_tea_seasonal_poster",
-      "code": "ST0193",
+      "code": "ST0299",
       "name": "桂花鲜奶茶季节限定海报",
       "category": "e-commerce",
       "tags": [
@@ -6085,7 +6085,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_c03d2bb2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_c03d2bb2.thumb.webp",
-      "number": "ST000193",
+      "number": "ST000299",
       "created_at": ""
     },
     {
@@ -6344,7 +6344,7 @@
     },
     {
       "id": "newyear_gift_box",
-      "code": "ST0102",
+      "code": "ST0290",
       "name": "新年礼盒",
       "category": "e-commerce",
       "tags": [
@@ -6397,7 +6397,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.thumb.webp",
-      "number": "ST000102",
+      "number": "ST000290",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
@@ -6693,7 +6693,7 @@
     },
     {
       "id": "modernist_food_separation_menu",
-      "code": "ST0248",
+      "code": "ST0309",
       "name": "现代主义食材分离菜单艺术",
       "category": "e-commerce",
       "tags": [
@@ -6729,7 +6729,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modernist_food_separation_menu_a941b915.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modernist_food_separation_menu_a941b915.thumb.webp",
-      "number": "ST000248",
+      "number": "ST000309",
       "created_at": ""
     },
     {
@@ -6990,7 +6990,7 @@
     },
     {
       "id": "minimalist_cafe_product_poster",
-      "code": "ST0241",
+      "code": "ST0307",
       "name": "极简瑞士风咖啡馆产品海报",
       "category": "e-commerce",
       "tags": [
@@ -7024,7 +7024,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.thumb.webp",
-      "number": "ST000241",
+      "number": "ST000307",
       "created_at": ""
     },
     {
@@ -7424,7 +7424,7 @@
     },
     {
       "id": "luxury_product",
-      "code": "ST0109",
+      "code": "ST0291",
       "name": "高级电商图",
       "category": "e-commerce",
       "tags": [
@@ -7458,7 +7458,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.thumb.webp",
-      "number": "ST000109",
+      "number": "ST000291",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
@@ -7559,7 +7559,7 @@
     },
     {
       "id": "luxury_birthday_poster",
-      "code": "ST0112",
+      "code": "ST0292",
       "name": "Luxury Birthday Poster Style",
       "category": "e-commerce",
       "tags": [
@@ -7604,7 +7604,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.thumb.webp",
-      "number": "ST000112",
+      "number": "ST000292",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
@@ -7978,7 +7978,7 @@
     },
     {
       "id": "korean_food_scrapbook_poster",
-      "code": "ST0233",
+      "code": "ST0304",
       "name": "韩式美食手账风海报",
       "category": "e-commerce",
       "tags": [
@@ -8013,7 +8013,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/korean_food_scrapbook_poster_a5aae615.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/korean_food_scrapbook_poster_a5aae615.thumb.webp",
-      "number": "ST000233",
+      "number": "ST000304",
       "created_at": ""
     },
     {
@@ -8303,7 +8303,7 @@
     },
     {
       "id": "japanese_cuisine_backlit",
-      "code": "ST0122",
+      "code": "ST0293",
       "name": "日料电影感摄影",
       "category": "e-commerce",
       "tags": [
@@ -8339,12 +8339,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_cuisine_backlit_457fee78.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_cuisine_backlit_457fee78.thumb.webp",
-      "number": "ST000122",
+      "number": "ST000293",
       "created_at": ""
     },
     {
       "id": "jade_glyph_grocer_collage",
-      "code": "ST0123",
+      "code": "ST0294",
       "name": "Jade Glyph Grocer Collage Poster Style",
       "category": "e-commerce",
       "tags": [
@@ -8391,7 +8391,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.thumb.webp",
-      "number": "ST000123",
+      "number": "ST000294",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
@@ -10794,7 +10794,7 @@
     },
     {
       "id": "dicos_premium_fastfood_poster",
-      "code": "ST0222",
+      "code": "ST0302",
       "name": "德克士高端快餐海报",
       "category": "e-commerce",
       "tags": [
@@ -10834,7 +10834,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.thumb.webp",
-      "number": "ST000222",
+      "number": "ST000302",
       "created_at": ""
     },
     {
@@ -11318,7 +11318,7 @@
     },
     {
       "id": "close_up_beverage_ad_poster",
-      "code": "ST0205",
+      "code": "ST0300",
       "name": "近景饮料产品海报",
       "category": "e-commerce",
       "tags": [
@@ -11353,7 +11353,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/close_up_beverage_ad_poster_97eb7118.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/close_up_beverage_ad_poster_97eb7118.thumb.webp",
-      "number": "ST000205",
+      "number": "ST000300",
       "created_at": ""
     },
     {
@@ -11400,7 +11400,7 @@
     },
     {
       "id": "clear_airy_ad_visual",
-      "code": "ST0236",
+      "code": "ST0306",
       "name": "清透空气感广告视觉",
       "category": "e-commerce",
       "tags": [
@@ -11435,7 +11435,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/clear_airy_ad_visual_fb5223fd.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/clear_airy_ad_visual_fb5223fd.thumb.webp",
-      "number": "ST000236",
+      "number": "ST000306",
       "created_at": ""
     },
     {
@@ -11526,7 +11526,7 @@
     },
     {
       "id": "cinematic_exploded_view_ad",
-      "code": "ST0167",
+      "code": "ST0295",
       "name": "电影级爆炸分解视图广告海报",
       "category": "e-commerce",
       "tags": [],
@@ -11554,7 +11554,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.thumb.webp",
-      "number": "ST000167",
+      "number": "ST000295",
       "created_at": "2026-06-30T23:16:32+08:00"
     },
     {
@@ -11773,7 +11773,7 @@
     },
     {
       "id": "cbt_ultra_product",
-      "code": "ST0171",
+      "code": "ST0296",
       "name": "CBT 超凡产品摄影",
       "category": "e-commerce",
       "tags": [
@@ -11809,7 +11809,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cbt_ultra_product_4d012250.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cbt_ultra_product_4d012250.thumb.webp",
-      "number": "ST000171",
+      "number": "ST000296",
       "created_at": ""
     },
     {
@@ -12146,7 +12146,7 @@
     },
     {
       "id": "brand_miniature_architecture",
-      "code": "ST0175",
+      "code": "ST0297",
       "name": "Brand Miniature Architecture Poster Style",
       "category": "e-commerce",
       "tags": [
@@ -12192,7 +12192,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.thumb.webp",
-      "number": "ST000175",
+      "number": "ST000297",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
@@ -12604,7 +12604,7 @@
     },
     {
       "id": "beverage_style",
-      "code": "ST0182",
+      "code": "ST0298",
       "name": "Multi-Color Beverage Splash Ad System Style",
       "category": "e-commerce",
       "tags": [
@@ -12640,12 +12640,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.thumb.webp",
-      "number": "ST000182",
+      "number": "ST000298",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "beverage_series_poster",
-      "code": "ST0224",
+      "code": "ST0303",
       "name": "酒饮系列海报视觉系统",
       "category": "e-commerce",
       "tags": [
@@ -12685,7 +12685,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/beverage_series_poster_7ce76fc9.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/beverage_series_poster_7ce76fc9.thumb.webp",
-      "number": "ST000224",
+      "number": "ST000303",
       "created_at": ""
     },
     {
