@@ -77,3 +77,4 @@
 | ST0280 | 微缩景观模型海报 | [@xiaoxiaodong01](https://x.com/xiaoxiaodong01/status/2090447110168822128) | 品牌KV、概念海报、艺术摄影展览、生活方式品牌主图 | 3:4 |
 | ST0281 | 木刻几何海报 | [@xiaoxiaodong01](https://x.com/xiaoxiaodong01/status/2090606881987600812) | 品牌KV、概念海报、文化艺术展览、民俗品牌主视觉 | 3:4 |
 | chinese_minimal_exhibition_poster | 中式极简艺术展览海报 | [@MrLarus](https://x.com/MrLarus/status/2095095430275117290) | 艺术展览海报、品牌KV、社媒封面、书籍设计 | 9:16 |
+| monochrome_biro_sketch_red_field | 黑白圆珠笔排线红场 | [@HustleXR](https://x.com/HustleXR/status/2098087685348892674) | 品牌KV、实验海报、编辑图形、概念封面 | 9:16 |

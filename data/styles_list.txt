@@ -1,4 +1,4 @@
-共 284 个风格
+共 285 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -140,6 +140,7 @@ ST0238 | 暗调博物馆戏剧光影人像 | https://malongan.github.io/style-so
 ST0261 | MORRA TABLE 早餐品牌广告海报 | https://malongan.github.io/style-source/images/styles_previews/morra_table_parfait_poster_c280b2a9.webp
 ST0253 | Monumental Bas-relief Brand Narrative | https://malongan.github.io/style-source/images/styles_previews/monumental_bas_relief_brand_narrative_795346db.webp
 ST0239 | 黑白极简编辑风角色插画 | https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.webp
+ST0311 | 黑白圆珠笔排线红场 | https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.webp
 ST0259 | 单色点缀写实插画 | https://malongan.github.io/style-source/images/styles_previews/monochrome_accent_realism_30f312b3.webp
 ST0103 | 莫比乌斯海底珊瑚邮局 | https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp
 ST0309 | 现代主义食材分离菜单艺术 | https://malongan.github.io/style-source/images/styles_previews/modernist_food_separation_menu_a941b915.webp
