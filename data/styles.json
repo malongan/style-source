@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-161-gb0f9b45-dirty",
-    "generated": "2026-09-02T14:17:55Z",
-    "total": 284,
+    "version": "v0.7.0-before-opt-162-gc012d80-dirty",
+    "generated": "2026-09-11T02:27:52Z",
+    "total": 285,
     "categories": [
       "brand_kv",
       "creative",
@@ -6605,6 +6605,46 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.thumb.webp",
       "number": "ST000239",
+      "created_at": ""
+    },
+    {
+      "id": "monochrome_biro_sketch_red_field",
+      "code": "ST0311",
+      "name": "黑白圆珠笔排线红场",
+      "category": "creative",
+      "tags": [
+        "圆珠笔",
+        "交叉排线",
+        "黑白红",
+        "杂志封面",
+        "实验图形"
+      ],
+      "triggers": [
+        "黑白圆珠笔",
+        "排线红场",
+        "实验杂志风",
+        "高对比黑白"
+      ],
+      "scene": "品牌KV、实验海报、编辑图形、概念封面",
+      "ratio": "9:16",
+      "summary": "以密集圆珠笔交叉排线构建高对比黑白主体，置于鲜明红色背景之上，融合手写涂鸦注释与地下杂志排版美学",
+      "features": [
+        "**蓝圆珠笔转黑白墨水** — Ultra-detailed blue ballpoint pen illustration rendered as monochrome black ink",
+        "**密集交叉排线** — Dense cross-hatching and fine hatch shading, intricate biro sketch texture",
+        "**高对比红场** — High-contrast black ink subject against vivid red field",
+        "**纯白手写注释** — Vintage technical scribbles and handwritten notes in pure white over bold red",
+        "**地下杂志美学** — Underground zine poster aesthetic, avant-garde magazine cover style"
+      ],
+      "prompt": "Ultra-detailed blue ballpoint pen illustration translated into monochrome black ink, dense cross-hatching and fine hatch shading, intricate biro sketch texture, obsessive linework, engraved contour rendering, hand-drawn pen illustration aesthetic, expressive organic strokes, editorial surreal composition, high-detail facial rendering, layered sketchbook construction lines, vintage technical scribbles and handwritten notes in pure white only over bold red background, white typographic annotations integrated into backdrop, underground zine poster aesthetic, raw imperfect ink marks, high-contrast black ink subject against vivid red field, experimental graphic design, avant-garde magazine cover style --ar 9:16 --stylize 750\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/HustleXR/status/2098087685348892674",
+      "source_author": "HustleXR",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.thumb.webp",
+      "number": "ST000311",
       "created_at": ""
     },
     {
