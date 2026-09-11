@@ -29,6 +29,7 @@ OPTIONAL_FIELDS = {
 VALID_CATEGORIES = [
     'social_media', 'brand_kv', 'e-commerce', 'science', 'print',
     'ip_character', 'travel', 'fashion', 'creative', 'vigo_cookbook', 'typography',
+    'editorial',
 ]
 
 # 详情页会直接复制 prompt；过短文本通常表示只留下标题或占位内容。
