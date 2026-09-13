@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-164-ge0661de-dirty",
-    "generated": "2026-09-12T11:53:14Z",
-    "total": 287,
+    "version": "v0.7.0-before-opt-165-g4c50188-dirty",
+    "generated": "2026-09-13T14:19:46Z",
+    "total": 288,
     "categories": [
       "brand_kv",
       "creative",
@@ -10466,6 +10466,46 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.thumb.webp",
       "number": "ST000150",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "east_asian_enclosing_exhibition_poster",
+      "code": "ST0314",
+      "name": "东亚现代主义包围式展览海报",
+      "category": "editorial",
+      "tags": [
+        "东亚现代主义",
+        "包围式构图",
+        "日式编辑设计",
+        "负空间",
+        "字体海报"
+      ],
+      "triggers": [
+        "包围式构图海报",
+        "East Asian Modernist",
+        "日式展览海报",
+        "巨字围合"
+      ],
+      "scene": "品牌KV、展览海报、概念设计、文化杂志视觉、独立出版封面",
+      "ratio": "9:16",
+      "summary": "以「包围式构图」为核心的东亚现代主义展览海报，通过外围压迫元素围出中心负空间，Typography 直接参与构图而非装饰文字",
+      "features": [
+        "**外围压迫式构图** — 人物、文字、物体边缘或几何框架从画面外围向中心施加视觉压力，在中央自然围出负空间焦点，避免四边框完全等宽对称",
+        "**Typography 构图为王** — 中文核心字贴近画幅边缘、局部裁切、旋转或与主体前后遮挡；英文标题用 Grotesk/Condensed Sans，形成大字结构、中字主题、小字信息的层级",
+        "**外密 × 内疏节奏** — 中心区域保留 25–40% 有效负空间，强调色仅占 5–10%（小色块、短线、日期或局部图形）",
+        "**克制冷调背景** — 冷白、浅灰、炭黑等中性背景，只加入一个强调色作为视觉节点",
+        "**破框关系** — 一处轻微破框：人物肩部进入中心、主体压住文字、物件穿过边界，打破均衡感"
+      ],
+      "prompt": "【主题】{主题}\n【主视觉主体】{主视觉主体}\n【中文核心字】{中文核心字}\n【中文标题】{中文标题}\n【英文标题】{英文标题}\n【包围方式】{包围方式：人物环绕/三边巨字/实体边界/嵌套框/其他}\n【强调色】{强调色}\n【画面比例】9:16\n\n生成一张具有 **East Asian Modernist Exhibition Poster、Japanese Contemporary Graphic Design、Editorial Design** 气质的现代展览海报。核心采用\"包围式构图\"：不要简单在主体四周加边框，而是让人物、巨大文字、真实物体边缘、几何框架或摄影裁切从画面外围向中心施加视觉压力，在中央自然围出一个明确的视觉焦点或负空间。包围关系应当有方向、有轻重，避免四边完全等宽、等量、对称；可以采用\"左重右轻、上密下疏\"\"三边收拢、一边开放\"等非均衡结构，让画面保持张力。\n\n先根据【主题】选择一种最适合的包围机制。人物题材可以让多个裁切肖像从四周朝中心聚拢；单一雕塑或产品可以用超大边缘 Typography 与留白形成三边包围；真实空间可以利用幕布、门框、建筑边缘等实体结构围出中央区域；平面题材可以通过多层错位几何框、重复文字或嵌套边界逐层向中心收缩。不要把这些方法全部塞进一张图，只选择最适合当前主题的一种作为主骨架，再加入一处轻微\"破框\"，例如人物肩部进入中心、主体压住文字、物件穿过边界或某一框线被真实对象打断。\n\nTypography 必须成为构图的一部分，而不是普通标题。使用一个醒目的【中文核心字】，可以贴近画幅边缘、局部裁切、旋转、跨区或与主体产生前后遮挡；英文标题使用现代 Grotesk、Condensed Sans 或克制 Serif，允许超宽字距、90° 旋转、Outline 字体和边缘裁切。整体最多使用 2–3 种字体性格，形成\"大字负责结构、中字负责主题、小字负责信息\"的清楚层级。信息密度主要通过字号、方向、裁切和空间关系产生，不要依靠大量说明模块堆出\"设计感\"。\n\n画面尽量保持现代、锋利、克制。背景优先使用冷白、浅灰、炭黑等中性色，只加入一个【强调色】作为视觉节点；强调色总面积控制在约 5%–10%，可以用于小色块、短线、日期或局部图形。中心区域应当明显比外围更安静，保留约 25%–40% 的有效负空间，让\"外密 × 内疏\"成为最核心的视觉节奏。主体本身保持单一、清楚、有强轮廓，不要同时加入山水、印章、传统纹样、复杂工艺图、材料卡和大量装饰。\n\n最终阅读顺序应为：第一眼先看到外围强大形与中央焦点，第二眼理解外围如何围出中心，第三眼发现裁切、穿插或破框关系，最后才阅读标题、日期和少量信息。整张作品要像真实的当代展览海报、国际平面设计年鉴作品或独立文化杂志视觉，而不是传统文化宣传页、PPT 排版或博物馆档案说明板。\n\n避免：平均四边框、机械对称、满版说明文字、传统国风装饰、山水背景、朱印堆叠、模板化小字、科技 HUD、无意义英文、Design Study、Vol.、编号、Logo、二维码和版权标识。\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {},
+      "source_url": "https://x.com/MrLarus/status/2099136388016848959",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.thumb.webp",
+      "number": "ST000314",
+      "created_at": ""
     },
     {
       "id": "dunhuang_celestial_musicians",
