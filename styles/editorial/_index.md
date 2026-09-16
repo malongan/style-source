@@ -8,4 +8,5 @@
 | japanese_museum_editorial_poster | #日本美术馆 #编辑设计 #传统工艺 #非对称排版 #档案信息 | 品牌KV、概念海报、传统工艺展示、美术馆展览 | 9:16 |
 | restrained_paper_infographic | #信息图 #纸艺感 #线条插画 #版画风 #编辑设计 | 品牌KV、文化活动海报、编辑设计、知识档案海报、独立出版封面 | 3:4 |
 | east_asian_enclosing_exhibition_poster | #东亚现代主义 #包围式构图 #负空间 #日式编辑 #字体海报 | 品牌KV、展览海报、概念设计、文化杂志视觉、独立出版封面 | 9:16 |
+| modern_east_asian_paper_poster | #现代东方 #编辑设计 #纸艺质感 #大色域 #微场景 #手工纸 #水彩肌理 | 文化活动海报、展览、品牌视觉、东方文化机构宣传、编辑版式设计 | 9:16 |
 | experimental_knowledge_archive_poster | #科学图鉴 #荧光黄 #编辑设计 #知识档案 #独立出版 | 品牌KV、文化活动海报、概念设计展、品牌特刊、独立出版封面 | 3:4 |
