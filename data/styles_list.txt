@@ -1,4 +1,4 @@
-共 291 个风格
+共 292 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -74,7 +74,7 @@ ST0060 | 织物手工艺 | https://malongan.github.io/style-source/images/styles
 ST0061 | 撕纸美学 | https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.webp
 ST0062 | 武政谅丝网印刷露营海报 | https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.webp
 ST0282 | 台北复古现代主义旅行海报 | https://malongan.github.io/style-source/images/styles_previews/taipei_vintage_modernist_travel_poster_08aa9669.webp
-ST0317 | 现代瑞士主义角色海报 | https://malongan.github.io/style-source/images/styles_previews/swiss_editorial_character_poster_6892d74f.webp
+ST0310 | 现代瑞士主义角色海报 | https://malongan.github.io/style-source/images/styles_previews/swiss_editorial_character_poster_6892d74f.webp
 ST0267 | 超现实时尚花园 runway | https://malongan.github.io/style-source/images/styles_previews/surreal_fashion_runway_c13189a1.webp
 ST0063 | 阳光3D头像营销风 | https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.webp
 ST0064 | Sunlit Kinetic Block Type Photo Poster | https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.webp
@@ -141,12 +141,12 @@ ST0238 | 暗调博物馆戏剧光影人像 | https://malongan.github.io/style-so
 ST0261 | MORRA TABLE 早餐品牌广告海报 | https://malongan.github.io/style-source/images/styles_previews/morra_table_parfait_poster_c280b2a9.webp
 ST0253 | Monumental Bas-relief Brand Narrative | https://malongan.github.io/style-source/images/styles_previews/monumental_bas_relief_brand_narrative_795346db.webp
 ST0239 | 黑白极简编辑风角色插画 | https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.webp
-ST0310 | 黑白圆珠笔排线红场 | https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.webp
+ST0311 | 黑白圆珠笔排线红场 | https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.webp
 ST0259 | 单色点缀写实插画 | https://malongan.github.io/style-source/images/styles_previews/monochrome_accent_realism_30f312b3.webp
 ST0103 | 莫比乌斯海底珊瑚邮局 | https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp
 ST0309 | 现代主义食材分离菜单艺术 | https://malongan.github.io/style-source/images/styles_previews/modernist_food_separation_menu_a941b915.webp
 ST0195 | 现代东方校庆纪念海报 | https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.webp
-ST0311 | 现代东方编辑美学文化活动海报 | https://malongan.github.io/style-source/images/styles_previews/modern_east_asian_paper_poster_ea163682.webp
+ST0312 | 现代东方编辑美学文化活动海报 | https://malongan.github.io/style-source/images/styles_previews/modern_east_asian_paper_poster_ea163682.webp
 ST0256 | 现代中式几何海报 | https://malongan.github.io/style-source/images/styles_previews/modern_chinese_geometric_poster_e918eddc.webp
 ST0240 | 漫画拼贴写实人像 | https://malongan.github.io/style-source/images/styles_previews/mixed_media_manga_editorial_portrait_5728606c.webp
 ST0246 | 混合媒体时尚大片风 | https://malongan.github.io/style-source/images/styles_previews/mixed_media_fashion_editorial_a1eed28b.webp
@@ -181,8 +181,8 @@ ST0251 | Kawaii Bright Chunky Hand-lettering | https://malongan.github.io/style-
 ST0119 | K-ギャル 街头抓拍风 | https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp
 ST0120 | Y2K酸性·ALL STARS 夜店潮流海报 | https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.webp
 ST0121 | Japanese Poetic Dreamy Semi-Realistic Illustration | https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.webp
-ST0312 | 日式美术馆编辑海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.webp
-ST0313 | 日式编辑几何海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_editorial_geometric_poster_f3975dbb.webp
+ST0313 | 日式美术馆编辑海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.webp
+ST0314 | 日式编辑几何海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_editorial_geometric_poster_f3975dbb.webp
 ST0293 | 日料电影感摄影 | https://malongan.github.io/style-source/images/styles_previews/japanese_cuisine_backlit_457fee78.webp
 ST0294 | Jade Glyph Grocer Collage Poster Style | https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp
 ST0283 | 精细地理微缩模型景观 | https://malongan.github.io/style-source/images/styles_previews/isometric_country_diorama_f987b38c.webp
@@ -196,7 +196,7 @@ ST0203 | 高明度商业图形风格 | https://malongan.github.io/style-source/i
 ST0127 | 天使阶层海报（Hierarchy Angels Poster） | https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp
 ST0249 | 英豪纪念碑势场海报 | https://malongan.github.io/style-source/images/styles_previews/heroic_monument_potential_field_poster_8441ac1a.webp
 ST0128 | 异类阵列视觉 | https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp
-ST0316 | 汉字意象徽记 | https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp
+ST0315 | 汉字意象徽记 | https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp
 ST0228 | 手工印刷感早安信息海报 | https://malongan.github.io/style-source/images/styles_previews/handprint_morning_poster_b668797a.webp
 ST0129 | 手绘旅行涂鸦插画 | https://malongan.github.io/style-source/images/styles_previews/hand_drawn_travel_illustration_12076837.webp
 ST0130 | 半色调拼贴隐喻公益海报 | https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp
@@ -214,6 +214,7 @@ ST0136 | 东方花茶香氛海报 | https://malongan.github.io/style-source/imag
 ST0137 | 未来生态春季插画KV | https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.webp
 ST0138 | 未来感编辑海报 | https://malongan.github.io/style-source/images/styles_previews/futuristic_editorial_poster_c0b80acb.webp
 ST0139 | Futuristic Editorial Collage Portrait | https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.webp
+ST0316 | 拼豆艺术编辑海报 | https://malongan.github.io/style-source/images/styles_previews/fuse_bead_editorial_poster_12ffd71c.webp
 ST0200 | Frostline Archive 冬日档案海报 | https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.webp
 ST0140 | 时尚栖息地蓝图 | https://malongan.github.io/style-source/images/styles_previews/fashion_habitat_blueprint_58210404.webp
 ST0141 | Fashion Editorial Visual System | https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp
@@ -230,7 +231,7 @@ ST0217 | 编辑感文化海报 | https://malongan.github.io/style-source/images/
 ST0148 | Sunlit Supermodel Nameplate Editorial | https://malongan.github.io/style-source/images/styles_previews/editorial_culture_poster_8ccb5e76.webp
 ST0149 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.webp
 ST0150 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp
-ST0314 | 东亚现代主义包围式展览海报 | https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.webp
+ST0317 | 东亚现代主义包围式展览海报 | https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.webp
 ST0262 | 敦煌飞天壁画 | https://malongan.github.io/style-source/images/styles_previews/dunhuang_celestial_musicians_d23c3d00.webp
 ST0190 | 迪拜城市旅行海报 Risograph 风格 | https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_73dcf2a5.webp
 ST0151 | 梦幻水彩旅行插画 | https://malongan.github.io/style-source/images/styles_previews/dreamy_watercolor_travel_f8ac7a28.webp
@@ -258,7 +259,7 @@ ST0306 | 清透空气感广告视觉 | https://malongan.github.io/style-source/i
 ST0166 | 黏土文字互动海报 | https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.webp
 ST0243 | 经典老爷车爆炸拆解视图 | https://malongan.github.io/style-source/images/styles_previews/classic_car_exploded_view_d698db7a.webp
 ST0295 | 电影级爆炸分解视图广告海报 | https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp
-ST0315 | 中式极简艺术展览海报 | https://malongan.github.io/style-source/images/styles_previews/chinese_minimal_exhibition_poster_f464c139.webp
+ST0318 | 中式极简艺术展览海报 | https://malongan.github.io/style-source/images/styles_previews/chinese_minimal_exhibition_poster_f464c139.webp
 ST0168 | Chibi Q 版角色 | https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp
 ST0201 | 炭笔素描风格 | https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlxiua.webp
 ST0219 | 角色设定板 | https://malongan.github.io/style-source/images/styles_previews/character_design_sheet_6d52feb7.webp

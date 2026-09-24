@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-168-g63a7aa8-dirty",
-    "generated": "2026-09-24T02:31:45Z",
-    "total": 291,
+    "version": "v0.7.0-before-opt-169-g14f83d5-dirty",
+    "generated": "2026-09-24T02:57:49Z",
+    "total": 292,
     "categories": [
       "brand_kv",
       "creative",
@@ -3661,7 +3661,7 @@
     },
     {
       "id": "swiss_editorial_character_poster",
-      "code": "ST0317",
+      "code": "ST0310",
       "name": "现代瑞士主义角色海报",
       "category": "editorial",
       "tags": [
@@ -3696,7 +3696,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/swiss_editorial_character_poster_6892d74f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/swiss_editorial_character_poster_6892d74f.thumb.webp",
-      "number": "ST000317",
+      "number": "ST000310",
       "created_at": ""
     },
     {
@@ -6649,7 +6649,7 @@
     },
     {
       "id": "monochrome_biro_sketch_red_field",
-      "code": "ST0310",
+      "code": "ST0311",
       "name": "黑白圆珠笔排线红场",
       "category": "creative",
       "tags": [
@@ -6684,7 +6684,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.thumb.webp",
-      "number": "ST000310",
+      "number": "ST000311",
       "created_at": ""
     },
     {
@@ -6854,7 +6854,7 @@
     },
     {
       "id": "modern_east_asian_paper_poster",
-      "code": "ST0311",
+      "code": "ST0312",
       "name": "现代东方编辑美学文化活动海报",
       "category": "editorial",
       "tags": [
@@ -6894,7 +6894,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modern_east_asian_paper_poster_ea163682.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modern_east_asian_paper_poster_ea163682.thumb.webp",
-      "number": "ST000311",
+      "number": "ST000312",
       "created_at": ""
     },
     {
@@ -8428,7 +8428,7 @@
     },
     {
       "id": "japanese_museum_editorial_poster",
-      "code": "ST0312",
+      "code": "ST0313",
       "name": "日式美术馆编辑海报",
       "category": "editorial",
       "tags": [
@@ -8463,12 +8463,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.thumb.webp",
-      "number": "ST000312",
+      "number": "ST000313",
       "created_at": ""
     },
     {
       "id": "japanese_editorial_geometric_poster",
-      "code": "ST0313",
+      "code": "ST0314",
       "name": "日式编辑几何海报",
       "category": "editorial",
       "tags": [
@@ -8503,7 +8503,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_editorial_geometric_poster_f3975dbb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_editorial_geometric_poster_f3975dbb.thumb.webp",
-      "number": "ST000313",
+      "number": "ST000314",
       "created_at": ""
     },
     {
@@ -9070,7 +9070,7 @@
     },
     {
       "id": "hanzi_emblem_marks",
-      "code": "ST0316",
+      "code": "ST0315",
       "name": "汉字意象徽记",
       "category": "typography",
       "tags": [
@@ -9105,7 +9105,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.thumb.webp",
-      "number": "ST000316",
+      "number": "ST000315",
       "created_at": ""
     },
     {
@@ -9891,6 +9891,47 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "fuse_bead_editorial_poster",
+      "code": "ST0316",
+      "name": "拼豆艺术编辑海报",
+      "category": "editorial",
+      "tags": [
+        "拼豆艺术",
+        "像素艺术",
+        "色卡展示",
+        "编辑海报",
+        "手工质感"
+      ],
+      "triggers": [
+        "拼豆艺术",
+        "Fuse Bead",
+        "Perler Bead",
+        "手工像素",
+        "色卡编辑海报"
+      ],
+      "scene": "品牌视觉、创意海报、艺术编辑设计、色卡研究页面",
+      "ratio": "3:4",
+      "summary": "将任意主体转换为真实拼豆艺术作品，极简编辑海报布局，配色研究与手工质感结合",
+      "features": [
+        "**真实拼豆作品** — 圆柱形塑料拼豆逐颗组成，每颗有中央圆孔、规则网格、细微缝隙，高级手工质感",
+        "**主体精准还原** — 严格保留参考图轮廓、比例、姿态、标志性结构和主要配色，一眼可识别原主体",
+        "**极简色卡展示** — 从主体提取 3~5 个最具代表性的颜色，水平居中排列小巧色块",
+        "**奶油白静物背景** — 干净温暖亮光表面，柔和自然光，拼豆呈细腻亮光塑料材质，悬浮投影",
+        "**中文明朝体编辑排版** — 现代高对比衬线体主标题 + 小号副标题，高级中文杂志艺术出版物广告感"
+      ],
+      "prompt": "将{主体描述}转换为真实手工 Fuse Bead 拼豆作品，创作一张极简编辑海报。\n\n主体：{主体描述}由数百颗圆柱形塑料拼豆逐颗组成，\n每颗清晰可见中央圆孔、圆柱结构、规则网格、颗粒间细微缝隙，\n有限配色表现结构、阴影和高光；\n外围一圈米白色拼豆形成整体描边。\n\n背景：干净温暖奶油白亮光表面，整体色调柔和低饱和，\n柔和自然光从左上方照射，拼豆呈细腻亮光塑料材质，\n在奶油白背景形成轻微柔软的悬浮投影。\n\n色卡：从主体提取 3~5 个最具代表性的重点颜色，\n水平居中排列，小巧比例统一间距均匀，纯色色块不添加渐变或复杂边框。\n根据主体实际配色自动决定颜色数量，不凑数。\n\n文字排版：中文主标题，现代高对比衬线体/明朝体，\n细字重、纤细锐利衬线、字形舒展、适当增加字间距、居中排列。\n副标题小号更细字距更宽。\n\n构图：4:5 竖版极简编辑海报布局。\n版式结构（从上到下）：\n上方大面积留白 → 拼豆主体（约占画面 35%~50%）→ 色卡 → 中文主标题 → 小号中文副标题 → 底部大面积留白。\n主体、色卡、标题、副标题全部位于安全区域内，中央轴线排列，大量负空间。\n\n整体风格：Fuse Bead Craft × Pixel Art × Color Palette × Minimal Editorial Poster × Product Photography。\n克制、安静、精致、高级，像独立设计杂志中的色彩研究页面或精品品牌视觉档口。\n不要像素滤镜、马赛克、乐高、玻璃珠、十字绣、针织效果、复杂背景、巨大色块、彩虹配色、渐变色卡、粗黑体、卡通字体、书法字体。\n\n比例 4:5 竖版，不要水印。\n",
+      "variables": {},
+      "source_url": "https://x.com/Morry4AI/status/2102659406580330647",
+      "source_author": "Morry4AI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/fuse_bead_editorial_poster_12ffd71c.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fuse_bead_editorial_poster_12ffd71c.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fuse_bead_editorial_poster_12ffd71c.thumb.webp",
+      "number": "ST000316",
+      "created_at": ""
+    },
+    {
       "id": "frostline_archive_arctic_poster",
       "code": "ST0200",
       "name": "Frostline Archive 冬日档案海报",
@@ -10594,7 +10635,7 @@
     },
     {
       "id": "east_asian_enclosing_exhibition_poster",
-      "code": "ST0314",
+      "code": "ST0317",
       "name": "东亚现代主义包围式展览海报",
       "category": "editorial",
       "tags": [
@@ -10629,7 +10670,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.thumb.webp",
-      "number": "ST000314",
+      "number": "ST000317",
       "created_at": ""
     },
     {
@@ -11844,7 +11885,7 @@
     },
     {
       "id": "chinese_minimal_exhibition_poster",
-      "code": "ST0315",
+      "code": "ST0318",
       "name": "中式极简艺术展览海报",
       "category": "creative",
       "tags": [
@@ -11883,7 +11924,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/chinese_minimal_exhibition_poster_f464c139.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/chinese_minimal_exhibition_poster_f464c139.thumb.webp",
-      "number": "ST000315",
+      "number": "ST000318",
       "created_at": ""
     },
     {
