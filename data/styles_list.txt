@@ -1,4 +1,4 @@
-共 289 个风格
+共 290 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -195,6 +195,7 @@ ST0203 | 高明度商业图形风格 | https://malongan.github.io/style-source/i
 ST0127 | 天使阶层海报（Hierarchy Angels Poster） | https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp
 ST0249 | 英豪纪念碑势场海报 | https://malongan.github.io/style-source/images/styles_previews/heroic_monument_potential_field_poster_8441ac1a.webp
 ST0128 | 异类阵列视觉 | https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp
+ST0316 | 汉字意象徽记 | https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp
 ST0228 | 手工印刷感早安信息海报 | https://malongan.github.io/style-source/images/styles_previews/handprint_morning_poster_b668797a.webp
 ST0129 | 手绘旅行涂鸦插画 | https://malongan.github.io/style-source/images/styles_previews/hand_drawn_travel_illustration_12076837.webp
 ST0130 | 半色调拼贴隐喻公益海报 | https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-166-g04e0c30-dirty",
-    "generated": "2026-09-16T10:39:21Z",
-    "total": 289,
+    "version": "v0.7.0-before-opt-167-g0fc43dc-dirty",
+    "generated": "2026-09-24T02:23:16Z",
+    "total": 290,
     "categories": [
       "brand_kv",
       "creative",
@@ -9027,6 +9027,46 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.thumb.webp",
       "number": "ST000128",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "hanzi_emblem_marks",
+      "code": "ST0316",
+      "name": "汉字意象徽记",
+      "category": "typography",
+      "tags": [
+        "中文排版",
+        "中式极简",
+        "字图融合",
+        "品牌标志",
+        "印章气质"
+      ],
+      "triggers": [
+        "汉字意象",
+        "中式徽记",
+        "汉字符号",
+        "极简东方"
+      ],
+      "scene": "品牌 logo、茶叶/酒/民宿/文创品牌标志、文化项目视觉",
+      "ratio": "1:1",
+      "summary": "以汉字为核心的图形化徽记，中式极简风格，字图融合",
+      "features": [
+        "**汉字图形标志** — 以汉字为骨架，进行图形化重构，字即图、图即字",
+        "**东方意象融合** — 围绕语义展开（山/水/月/云/门/竹/印章），不堆砌",
+        "**中式极简气质** — 克制、雅致、留白充足，避免廉价国潮感",
+        "**宣纸质感背景** — 米白/暖白底，轻微压印感/纸张肌理",
+        "**低饱和配色** — 主色+辅色为主，点缀色用于小印章"
+      ],
+      "prompt": "{主题汉字}作为核心视觉主体，将汉字结构与其语义相关的东方意象进行图形融合，\n创作一张\"汉字意象徽记\"风格标志展示图。\n\n画面主体：汉字图形 logo，字即图、图即字，远看完整、近看发现字形与意象结合\n背景：宣纸白/米白，轻微压印感、纸张肌理\n配色：{主色调}低饱和色系 + {辅助色} + {点缀色}小印章\n构图：居中式/中轴式，高留白，视觉层级分明\n细节：小印章、细线分隔、拼音/英文小字\n\n排版：主标志最大 → 品牌名次之 → 释义较小 → 小章最小\n风格：中式极简、东方意象、字图融合、印章气质、文人感、品牌感\n\n比例 1:1，精致清晰，成熟设计作品完成度。\n不要水印，不要真实Logo，不要乱码文字。\n",
+      "variables": {},
+      "source_url": "https://x.com/MrLarus/status/2051581807569649697",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.thumb.webp",
+      "number": "ST000316",
+      "created_at": ""
     },
     {
       "id": "handprint_morning_poster",
