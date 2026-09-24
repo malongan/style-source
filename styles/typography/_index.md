@@ -10,3 +10,4 @@
 | cartoon_graffiti_headline | #涂鸦 #卡通 #黑字白边 #荧光绿 #扁平矢量 | 潮流活动主视觉/创意宣传海报 | 4:3 |
 | wild_cursive_calligraphy_poster | #书法 #狂草 #飞白 #电影海报 #黑底 #印章 | 电影海报主标题/国风品牌大标题/文化活动主视觉 | 4:3 |
 | bold_black_typography_goldengown | #黑色粗体 #艺术字 #圆润笔划 #中英双语 #白底 #动感 | 考试成功主题/金榜题名海报/升学庆祝/教育品牌宣传 | 4:3 |
+| hanzi_emblem_marks | #中文排版 #中式极简 #字图融合 #品牌标志 #印章气质 | 品牌logo/茶叶酒民宿文创品牌/文化项目视觉 | 1:1 |
