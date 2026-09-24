@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-170-g75a7f50-dirty",
-    "generated": "2026-09-24T07:23:11Z",
-    "total": 293,
+    "version": "v0.7.0-before-opt-171-ge8926a1-dirty",
+    "generated": "2026-09-24T09:56:35Z",
+    "total": 294,
     "categories": [
       "brand_kv",
       "creative",
@@ -8378,6 +8378,47 @@
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
+      "id": "japanese_travel_editorial_poster",
+      "code": "ST0313",
+      "name": "日系旅行编辑角色海报",
+      "category": "editorial",
+      "tags": [
+        "日系旅行杂志",
+        "编辑海报",
+        "横向闯入构图",
+        "冷面幽默",
+        "网络Meme气质"
+      ],
+      "triggers": [
+        "日系旅行杂志",
+        "角色横向闯入",
+        "旅行编辑海报",
+        "歪头角色",
+        "正式设计×荒诞主体"
+      ],
+      "scene": "旅行杂志、品牌海报、角色立绘、社交媒体创意内容",
+      "ratio": "9:16",
+      "summary": "日系旅行杂志Editorial海报，角色大角度歪头横向闯入画面，正式排版×荒诞主体×冷面幽默Meme感",
+      "features": [
+        "**极端歪头近景肖像** — 头部大角度（70-90°）向一侧倾斜，脸几乎横置画面，占画面一半以上，横向闯入画面姿态",
+        "**轻微广角透视** — 脸部距离镜头较近，五官轻微透视放大，保持自然准确，主体与垂直版式产生方向冲突",
+        "**干净现代空间背景** — 浅蓝色瓷砖、玻璃、墙面、酒店、车站等生活感横置背景",
+        "**尺度反差排版** — 超大汉字 × 微型编辑文字，粗黑无衬线体 + 纵排日文 + 小型中英混排说明文字",
+        "**冷白+深紫+橙色调** — 冷白/浅灰/蓝灰大面积留白，深紫/黑为主文字锚点，少量橙色细线作为辅助强调色"
+      ],
+      "prompt": "{角色名}为{角色描述}，创作一张\"日系旅行杂志Editorial角色海报\"。\n\n人物：{角色名}大角度歪头（70-90°向一侧倾斜），脸几乎横置在画面中，\n脸部占画面一半以上；上半身从画面右侧或右下方横向侵入构图，\n肩膀、头发、身体自然延伸到画外，形成非常规\"横向闯入画面\"姿态。\n双眼清晰直视镜头，表情自然、略带困窘、好奇或冷淡感。\n使用轻微广角近距离透视，五官轻微透视放大，保持自然准确。\n\n背景：干净、普通、略带生活感的现代空间，\n浅蓝色瓷砖、玻璃、墙面、酒店、车站等横置侵入画面。\n加入少量中、日、英文混排小型说明文字、地点、假名注释和旅行信息。\n底部设置规整商业信息栏。\n\n排版：超大汉字与微型编辑文字之间的尺度反差，\n粗黑无衬线体、紧体黑体、纵排日文和小型英文辅助信息。\n专业、整洁、克制，信息层级清晰。\n人物姿势刻意荒诞，与正规海报设计形成视觉反差。\n\n配色：冷白/浅灰/蓝灰大面积留白；\n深紫/黑色作为主文字视觉锚点；\n少量橙色细线、圆弧或信息图形作为辅助强调色。\n\n整体：正式 Editorial 设计 × 荒诞主体 × 冷面幽默 × 网络 Meme 感。\n像一张正规日本旅行杂志，却被大角度歪头角色打破秩序。\n\n比例 9:16，不要水印。\n",
+      "variables": {},
+      "source_url": "https://x.com/VoxcatAI/status/2102949894457799154",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/japanese_travel_editorial_poster_91d40c93.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_travel_editorial_poster_91d40c93.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_travel_editorial_poster_91d40c93.thumb.webp",
+      "number": "ST000313",
+      "created_at": ""
+    },
+    {
       "id": "japanese_poetic_dreamy",
       "code": "ST0121",
       "name": "Japanese Poetic Dreamy Semi-Realistic Illustration",
@@ -8428,7 +8469,7 @@
     },
     {
       "id": "japanese_museum_editorial_poster",
-      "code": "ST0313",
+      "code": "ST0314",
       "name": "日式美术馆编辑海报",
       "category": "editorial",
       "tags": [
@@ -8463,12 +8504,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.thumb.webp",
-      "number": "ST000313",
+      "number": "ST000314",
       "created_at": ""
     },
     {
       "id": "japanese_editorial_geometric_poster",
-      "code": "ST0314",
+      "code": "ST0315",
       "name": "日式编辑几何海报",
       "category": "editorial",
       "tags": [
@@ -8503,7 +8544,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_editorial_geometric_poster_f3975dbb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_editorial_geometric_poster_f3975dbb.thumb.webp",
-      "number": "ST000314",
+      "number": "ST000315",
       "created_at": ""
     },
     {
@@ -9070,7 +9111,7 @@
     },
     {
       "id": "hanzi_emblem_marks",
-      "code": "ST0315",
+      "code": "ST0316",
       "name": "汉字意象徽记",
       "category": "typography",
       "tags": [
@@ -9105,7 +9146,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.thumb.webp",
-      "number": "ST000315",
+      "number": "ST000316",
       "created_at": ""
     },
     {
@@ -9892,7 +9933,7 @@
     },
     {
       "id": "fuse_bead_editorial_poster",
-      "code": "ST0316",
+      "code": "ST0317",
       "name": "拼豆艺术编辑海报",
       "category": "editorial",
       "tags": [
@@ -9928,7 +9969,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fuse_bead_editorial_poster_12ffd71c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fuse_bead_editorial_poster_12ffd71c.thumb.webp",
-      "number": "ST000316",
+      "number": "ST000317",
       "created_at": ""
     },
     {
@@ -10635,7 +10676,7 @@
     },
     {
       "id": "east_asian_enclosing_exhibition_poster",
-      "code": "ST0317",
+      "code": "ST0318",
       "name": "东亚现代主义包围式展览海报",
       "category": "editorial",
       "tags": [
@@ -10670,7 +10711,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.thumb.webp",
-      "number": "ST000317",
+      "number": "ST000318",
       "created_at": ""
     },
     {
@@ -11885,7 +11926,7 @@
     },
     {
       "id": "chinese_minimal_exhibition_poster",
-      "code": "ST0318",
+      "code": "ST0319",
       "name": "中式极简艺术展览海报",
       "category": "creative",
       "tags": [
@@ -11924,7 +11965,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/chinese_minimal_exhibition_poster_f464c139.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/chinese_minimal_exhibition_poster_f464c139.thumb.webp",
-      "number": "ST000318",
+      "number": "ST000319",
       "created_at": ""
     },
     {
@@ -13319,7 +13360,7 @@
     },
     {
       "id": "absurd_meme_editorial_poster",
-      "code": "ST0319",
+      "code": "ST0320",
       "name": "荒诞 Meme 编辑海报",
       "category": "editorial",
       "tags": [
@@ -13355,7 +13396,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/absurd_meme_editorial_poster_162690b0.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/absurd_meme_editorial_poster_162690b0.thumb.webp",
-      "number": "ST000319",
+      "number": "ST000320",
       "created_at": ""
     },
     {
