@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-167-g0fc43dc-dirty",
-    "generated": "2026-09-24T02:23:16Z",
-    "total": 290,
+    "version": "v0.7.0-before-opt-168-g63a7aa8-dirty",
+    "generated": "2026-09-24T02:31:45Z",
+    "total": 291,
     "categories": [
       "brand_kv",
       "creative",
@@ -3657,6 +3657,46 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/taipei_vintage_modernist_travel_poster_08aa9669.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/taipei_vintage_modernist_travel_poster_08aa9669.thumb.webp",
       "number": "ST000282",
+      "created_at": ""
+    },
+    {
+      "id": "swiss_editorial_character_poster",
+      "code": "ST0317",
+      "name": "现代瑞士主义角色海报",
+      "category": "editorial",
+      "tags": [
+        "瑞士主义",
+        "国际主义平面设计",
+        "超大字体",
+        "非对称网格",
+        "编辑肖像"
+      ],
+      "triggers": [
+        "瑞士风格海报",
+        "现代主义排版",
+        "编辑角色立绘",
+        "国际主义平面"
+      ],
+      "scene": "品牌海报、杂志封面、人物立绘、文化活动主视觉",
+      "ratio": "9:16",
+      "summary": "现代瑞士主义 × 国际主义平面设计，巨大字体与非对称网格编辑肖像海报",
+      "features": [
+        "**超尺度无衬线字体** — 巨大英文字母跨越画面，可被边缘裁切或被人物遮挡，字体本身成为主要图形元素",
+        "**非对称网格布局** — 严格网格 + 大面积留白 + 极少量信息，高级 Editorial 插画感",
+        "**角色近景肖像** — 大幅近景肖像，一侧或边缘切入，近距离视角/轻微仰拍/非常规裁切",
+        "**黑白+单色强调** — 黑/白/米白/深灰为基础，只保留角色高饱和强调色用于字体或色块",
+        "**尺度反差美学** — 巨大字体 × 微型文字，人物局部特写 × 大面积空白，纯色色块 × 黑白人物"
+      ],
+      "prompt": "{角色名}为核心视觉，创作一张\"现代瑞士主义编辑角色海报\"。\n\n人物：{角色名}的大幅近景肖像，占据画面一侧或从边缘切入，\n近距离视角、轻微仰拍，人物与服装形成强烈几何轮廓，\n高级 Editorial 插画 / 半写实日漫肖像风格，细节克制。\n保留角色最核心的身份识别、发型轮廓、代表色、服装特征与气质。\n\n排版：超尺度无衬线英文字母跨越画面，可被边缘裁切或被人物遮挡，\n字体本身成为主要图形元素；小字号信息层（城市建筑碎片/坐标/编号/短句）作为次级信息。\n\n配色：黑/白/米白/深灰为基础，\n{强调色}为高饱和强调色，用于巨大字体、几何色块或极少量视觉锚点。\n\n版式：非对称网格 + 大面积留白 + 极少量信息，\n强调尺度反差（巨大字体 × 微型文字，人物局部特写 × 大面积空白）。\n\n整体干净、锐利、理性，具有国际主义平面设计和当代文化杂志封面的视觉张力。\n竖版海报，单人角色，不要水印。\n",
+      "variables": {},
+      "source_url": "https://x.com/VoxcatAI/status/2102421914979570015",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/swiss_editorial_character_poster_6892d74f.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/swiss_editorial_character_poster_6892d74f.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/swiss_editorial_character_poster_6892d74f.thumb.webp",
+      "number": "ST000317",
       "created_at": ""
     },
     {
