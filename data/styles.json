@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-172-g9d54fe5-dirty",
-    "generated": "2026-09-28T00:51:51Z",
-    "total": 295,
+    "version": "v0.7.0-before-opt-173-g5b8d179-dirty",
+    "generated": "2026-09-28T01:09:06Z",
+    "total": 296,
     "categories": [
       "brand_kv",
       "creative",
@@ -10010,6 +10010,47 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.thumb.webp",
       "number": "ST000200",
+      "created_at": ""
+    },
+    {
+      "id": "film_grade_character_sheet",
+      "code": "ST0322",
+      "name": "影视级人物角色设定图",
+      "category": "ip_character",
+      "tags": [
+        "character-sheet",
+        "character-reference",
+        "film-grade",
+        "character-turnaround",
+        "professional"
+      ],
+      "triggers": [
+        "角色设定图",
+        "人物角色卡",
+        "角色参考图",
+        "角色转面图",
+        "角色全身设定"
+      ],
+      "scene": "角色设计、游戏美术、动画制作、影视分镜、IP角色开发",
+      "ratio": "16:9",
+      "summary": "专业影视级人物角色参考卡，16:9横版包含头部/转面/补充视角/材质特写四大模块",
+      "features": [
+        "**纯白背景规范布局** — 纯白背景、16:9横版、4K解析度，布局清晰无重叠",
+        "**头部细节组** — 无配饰正侧视图 + 完整造型正侧视图，覆盖4个视角",
+        "**全身正交转面组** — 正面/左45度/正侧面/右45度/背面，5视角完整展示",
+        "**补充视角组** — 半侧身/俯视顶视/仰视底视，捕捉全方位造型特征",
+        "**材质细节特写组** — 服装面料/领口袖口/鞋靴/配饰特写，保证制作一致性"
+      ],
+      "prompt": "请生成一张高品质、真实拍摄质感的人物角色设定图（character sheet / character reference sheet）。\n\n角色：{角色名称}\n角色身份：{角色基础身份}\n角色描述：{角色描述}\n服装设定：{服装描述}\n配饰设定：{配饰描述}\n鞋靴设定：{鞋靴描述}\n髮型设定：{髮型描述}\n\n如有参考图：\n- 仅使用参考图作为该角色脸部、骨骼结构、肤质与髮型的主要依据\n- 保持年龄、种族、性别特征一致\n- 脸部特征高度匹配参考图\n\n输出要求：\n- 纯白背景\n- 16:9 横版\n- 4K 解析度\n- 布局清晰规范\n- 各模块无重叠、无裁切\n- 高精度细节，专业影视级角色卡风格\n\n必须包含以下模块：\n1. 头部细节组：\n- 无配饰正视图\n- 无配饰正侧视图\n- 完整造型正视图\n- 完整造型正侧视图\n\n2. 全身正交转面组：\n- 正面\n- 左45度\n- 正侧面\n- 右45度\n- 背面\n\n3. 补充视角组：\n- 半侧身视图\n- 俯视顶视图\n- 仰视底视图\n\n4. 材质细节特写组：\n- 服装面料特写\n- 袖口 / 领口 / 腰部细节\n- 鞋靴细节\n- 配饰细节\n\n一致性要求：所有模块中的角色必须为同一人物，五官、髮型、肤色、身材、服装、鞋靴、配饰、光影、材质完全一致，不得出现角色漂移或视图差异。\n\n不要水印，不要真实Logo，不要低精度。\n",
+      "variables": {},
+      "source_url": "https://x.com/GeekCatX/status/2104135797280752081",
+      "source_author": "GeekCatX",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/film_grade_character_sheet_16358471.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/film_grade_character_sheet_16358471.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/film_grade_character_sheet_16358471.thumb.webp",
+      "number": "ST000322",
       "created_at": ""
     },
     {
