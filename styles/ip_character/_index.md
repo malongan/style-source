@@ -12,3 +12,4 @@
 | retro_cel_animation | #azed_ai #推文收集 #Retro_Cel_Animation |  | 3:4 / 4:3 |
 | sunny_3d | #3D #头像 #玩具 |  | 9:16 或 16:9 |
 | character_design_sheet | #角色设定 #角色一致性 #动画角色 #IP设计 | 动画/漫剧角色设计、游戏立绘、品牌IP | 3:4 |
+| film_grade_character_sheet | #影视级 #角色卡 #角色转面 #人物设定 #材质特写 #4K | 角色设计、游戏美术、动画制作、影视分镜、IP角色开发 | 16:9 |
