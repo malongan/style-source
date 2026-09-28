@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-171-ge8926a1-dirty",
-    "generated": "2026-09-24T09:56:35Z",
-    "total": 294,
+    "version": "v0.7.0-before-opt-172-g9d54fe5-dirty",
+    "generated": "2026-09-28T00:51:51Z",
+    "total": 295,
     "categories": [
       "brand_kv",
       "creative",
@@ -12181,6 +12181,47 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.thumb.webp",
       "number": "ST000170",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "central_axis_cultural_poster",
+      "code": "ST0321",
+      "name": "中轴夹景文化海报",
+      "category": "editorial",
+      "tags": [
+        "editorial",
+        "central-axis",
+        "cultural-poster",
+        "directional-tension",
+        "chinese-design"
+      ],
+      "triggers": [
+        "中轴夹景海报",
+        "强动势文化海报",
+        "中央硬轴海报",
+        "方向感编辑海报",
+        "中轴夹景设计"
+      ],
+      "scene": "品牌文化海报、编辑设计、展览视觉、品牌KV",
+      "ratio": "9:16",
+      "summary": "以中央硬轴稳定画面、两侧方向性结构共同制造视觉张力的文化海报风格",
+      "features": [
+        "**中央硬轴稳定画面** — 船身、竹脊、箭矢等纵向主体建立明确稳定的中轴线",
+        "**两侧视觉力量压向中央** — 重复元素、弧线、斜线共同将视觉引力导向中轴",
+        "**强动势构图** — 重复、放射、倾斜和尺度变化制造强烈方向感与速度感",
+        "**编辑级Typography** — 标题根据主体方向重新设计，可横跨结构或沿大形排布",
+        "**小比例结构研究模块** — 5%-7%面积的动作阶段/受力/波纹示意图，增添设计研究感"
+      ],
+      "prompt": "{主题}文化海报，9:16竖幅，强烈动势与成熟Editorial Design气质。\n\n中央硬轴：{中央硬轴描述，如：竹脊/船身/箭矢/器物结构}\n左右视觉力量：{左侧元素如：桨阵/骨架/弓身} / {右侧元素如：声波/羽翼/杆件}\n重复或放射元素：{重复元素描述}\n运动方式：{放射/斜向/重复节奏/波纹/张力}\n\n构图要求：\n- 画面有非常清楚的第一视觉大形：中央硬轴 + 两侧方向性结构\n- 左右视觉重量保持平衡，但不要机械镜像\n- 允许角度、尺度、材质和节奏存在变化\n- Typography可根据主体方向横跨结构、贴近硬轴或沿大形排布\n- 加入一个很小的结构研究模块（动作阶段/受力/波纹/骨架/路径示意），面积控制在5%-7%\n\n色彩：{主色调}为主色，{辅助色}为辅色，3-5个主要颜色，大色域强主体反差\n\n不要水印，不要真实Logo，不要机械对称，不要多个视觉中心。\n",
+      "variables": {},
+      "source_url": "https://x.com/MrLarus/status/2104224369853509966",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/central_axis_cultural_poster_64d11a4c.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/central_axis_cultural_poster_64d11a4c.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/central_axis_cultural_poster_64d11a4c.thumb.webp",
+      "number": "ST000321",
+      "created_at": ""
     },
     {
       "id": "cbt_ultra_product",
