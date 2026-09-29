@@ -11,4 +11,5 @@
 | modern_east_asian_paper_poster | #现代东方 #编辑设计 #纸艺质感 #大色域 #微场景 #手工纸 #水彩肌理 | 文化活动海报、展览、品牌视觉、东方文化机构宣传、编辑版式设计 | 9:16 |
 | experimental_knowledge_archive_poster | #科学图鉴 #荧光黄 #编辑设计 #知识档案 #独立出版 | 品牌KV、文化活动海报、概念设计展、品牌特刊、独立出版封面 | 3:4 |
 | swiss_editorial_character_poster | #瑞士主义 #超大字体 #非对称网格 #编辑肖像 #黑白+强调色 | 品牌海报、杂志封面、人物立绘、文化活动主视觉 | 9:16 |
+| porcelain_bottle_character_spray | #白瓷瓶 #角色喷出 #Editorial时尚 #半平涂 #低饱和留白 #角色群像 | 品牌KV、杂志封面、人物群像主视觉、艺术企划主视觉 | 9:16 |
 | central_axis_cultural_poster | #中轴夹景 #中央硬轴 #方向性张力 #编辑设计 #强动势 #文化海报 | 品牌文化海报、编辑设计、展览视觉、品牌KV | 9:16 |
