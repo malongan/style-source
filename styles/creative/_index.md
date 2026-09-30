@@ -18,6 +18,7 @@
 | demon_wukong_line_art | #孙悟空 #线绘 #巴洛克 |  | 16:9 |
 | east_asian_vintage_illustration | #韩系 #复古 #插画 |  | 3:4（默认） |
 | east_asian_vintage_magazine | #韩纸 #复古 #杂志 |  | 3:4（默认） |
+| eastern_art_exhibition_poster_wild_calligraphy | #东方艺术 #野字书法 #展览海报 #实验字体 #编辑设计 | 品牌KV、文化展览海报、概念海报 | 9:16 |
 | futuristic_spring_kv | #未来生态 #春季 #插画KV |  | 4:3 / 16:9 |
 | geek_code_poster | #酸性设计 #极客代码 #像素风 |  | 9:16 |
 | ghibli_watercolor_walk | #水彩 #吉卜力 #极简生活 #治愈 #手绘质感 #杂志插画 | 生活方式品牌KV、杂志插画、社交媒体图文、书籍封面、文创产品设计 | 4:5 |
