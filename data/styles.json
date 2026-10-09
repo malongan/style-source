@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-175-gbb4ea04-dirty",
-    "generated": "2026-09-30T16:11:51Z",
-    "total": 298,
+    "version": "v0.7.0-before-opt-176-gd7a1c63-dirty",
+    "generated": "2026-10-09T00:58:13Z",
+    "total": 299,
     "categories": [
       "brand_kv",
       "creative",
@@ -9189,6 +9189,47 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.thumb.webp",
       "number": "ST000316",
+      "created_at": ""
+    },
+    {
+      "id": "hanzi_cultural_poster",
+      "code": "ST0326",
+      "name": "东方汉字文化海报",
+      "category": "typography",
+      "tags": [
+        "东方海报",
+        "汉字书法",
+        "文化线描",
+        "红蓝黑套色",
+        "传统白描"
+      ],
+      "triggers": [
+        "汉字海报",
+        "东方视觉",
+        "传统文化",
+        "书法海报",
+        "文化品牌"
+      ],
+      "scene": "文化品牌视觉、东方艺术海报、艺术展览、文化活动宣传",
+      "ratio": "9:16",
+      "summary": "以巨型汉字为核心的东方文化海报，汉字笔画嵌传统白描，红蓝黑三色套色",
+      "features": [
+        "**巨型汉字主体** — 两个中文大字占据画面主体，笔画舒展、墨迹浓淡变化",
+        "**红蓝黑套色** — 经典三色搭配，红色为主、蓝色为辅、黑色压底，对比强烈",
+        "**传统白描嵌笔画** — 把文化线描（人物/建筑/器物/自然景观）嵌入汉字笔画结构中",
+        "**四字书法题名** — 传统四字主题题名，英文副标题辅助，现代与传统交织",
+        "**辅助题跋点缀** — 3-5组中文短句作为题跋落款，丰富画面层次"
+      ],
+      "prompt": "创作一张\"东方汉字文化海报\"。\n\n画面构成：\n- 核心汉字：{两个中文大字}作为画面主体，超大字号居中或偏上\n- 文化线描嵌笔画：{3-5个相关人物、建筑、器物或自然景观}以传统白描技法，\n  嵌入汉字笔画结构之中，远看是字、近看发现其中隐藏的线描细节\n- 书法题名：{四字文化主题}以书法字体置于汉字下方\n- 英文副标题：{英文主题名称}小字英文辅助\n- 辅助题跋：3-5组中文短句作为落款，分布于画面边缘\n\n色彩：红蓝黑三色套色 — 红色为主色、蓝色为辅、黑色压底\n背景：留白或淡墨渲染背景，突出主体\n质感：书法笔触真实感、墨迹浓淡层次、白描线条精细\n构图：9:16 竖幅，汉字主体占40-60%画面，字与线描元素穿插\n\n比例 9:16，张力十足，东方文化气质。\n不要水印，不要真实Logo，不要乱码文字。\n",
+      "variables": {},
+      "source_url": "https://x.com/MrLarus/status/2108193733556715885",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/hanzi_cultural_poster_cf4c751a.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hanzi_cultural_poster_cf4c751a.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hanzi_cultural_poster_cf4c751a.thumb.webp",
+      "number": "ST000326",
       "created_at": ""
     },
     {
