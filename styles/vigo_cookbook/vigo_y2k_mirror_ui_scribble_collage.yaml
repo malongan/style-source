@@ -1,25 +1,24 @@
-name: Y2K Mirror UI Scribble Collage Style
+name: Y2K 镜像界面涂鸦拼贴风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A gritty Y2K photomontage style that combines wide-angle flash photography, floating desktop-like interface fragments, thick electric-blue marker outlines, hand-drawn graffiti lettering, and dense
-  analog noise into a chaotic personal-screen collage.
+summary: 粗粝的 Y2K 照片蒙太奇风格：把广角闪光摄影、漂浮的桌面式界面碎片、粗重的电光蓝马克笔轮廓、手绘涂鸦字体，以及密集的模拟噪点组合成一张混乱的个人屏幕拼贴。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Y2K Mirror UI Scribble Collage Style
 features:
-- title: A wide-angle flash-photo base layer with exaggerated close foreground scale and compressed room depth.
+- title: 广角闪光照片底层，前景尺度夸张贴近，房间景深被压缩。
   desc: ''
-- title: Very high visible grain, digital noise, sharpened edges, and slightly dirty scan texture across the whole image.
+- title: 整幅画面布满极明显的颗粒、数字噪点、锐化边缘，以及略带脏感的扫描质感。
   desc: ''
-- title: A dense collage layout where photo fragments, translucent UI windows, pop-up cards, and small panels float over the scene.
+- title: 密集的拼贴版式：照片碎片、半透明界面窗口、弹窗卡片与小面板漂浮在场景之上。
   desc: ''
-- title: One thick electric-blue hand-drawn outline or route line wraps around the main subject or cuts through the composition.
+- title: 一条粗重的电光蓝手绘轮廓线或路线环绕主体，或横切整个构图。
   desc: ''
-- title: Large white graffiti-like handwritten headline lettering sits near an upper corner, irregular and brushy rather than typographic.
+- title: 大号白色涂鸦式手写标题位于上部某一角落，不规整、笔刷感强，而非标准字体排印。
   desc: ''
 variables:
 - kv_var: 变量

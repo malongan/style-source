@@ -1,9 +1,9 @@
-name: Mountain Trail Monster Doodle Poster Style
+name: 山径怪物涂鸦海报风格
 category: social_media
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A candid outdoor hiking photograph remixed with a flat hand-drawn monster companion, oversized Spanish comic lettering, and loose sketch annotations, creating a playful adventure-poster collage.
+summary: 随手户外徒步照片，与一个扁平手绘怪物伙伴、超大号西班牙漫画字体，以及随性速写注释重新混编，构成俏皮的冒险海报拼贴。
 tags:
 - VigoCookbook
 - candid
@@ -29,8 +29,7 @@ tags:
 triggers:
 - Mountain Trail Monster Doodle Poster Style
 features:
-- title: 'Preserve the core visual identity: A candid outdoor hiking photograph remixed with a flat hand-drawn monster companion, oversized Spanish comic lettering, and loose sketch annotations, creating
-    a playful adventure-poster collage.'
+- title: '保留核心视觉识别：随手户外徒步照片，与一个扁平手绘怪物伙伴、超大号西班牙漫画字体，以及随性速写注释重新混编，构成俏皮的冒险海报拼贴。'
   desc: ''
 - title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
   desc: ''

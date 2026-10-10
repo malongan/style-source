@@ -31,10 +31,9 @@ features:
   desc: ''
 - title: Use a dirty black-and-white grunge wall background with BACKGROUND_ELEMENTS worked into the texture.
   desc: ''
-- title: Add a bright acid yellow information strip at the bottom with small editorial text reading SECONDARY_TEXT, small inset photo frames, barcode-like graphic elements, and ACCENT_SYMBOL.
+- title: 底部加一条明亮的酸性黄信息条，内含读取 SECONDARY_TEXT 的小号编辑文字、小型内嵌相框、条码式图形元素，以及 ACCENT_SYMBOL。
   desc: ''
-- title: The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta
-    print noise, energetic collage layout.
+- title: 整张图应具备 2000 年代初地下音乐杂志封面、混音带海报、街头服饰传单的气质：粗糙扫描印刷、高对比、浓重颗粒、影印质感、青与品红的印刷噪点，以及充满能量的拼贴版式。
   desc: ''
 variables:
 - kv_var: 变量

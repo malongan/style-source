@@ -1,4 +1,4 @@
-name: Chibi Q 版角色
+name: Q 版角色
 category: social_media
 ratio: 1:1 或 16:9
 source_author: '@CharaspowerAI'
@@ -13,7 +13,7 @@ triggers:
 - Chibi style
 - Q版角色
 features:
-- title: '**Chibi 比例**：大头小身的经典 Q 版造型，可爱度拉满'
+- title: '**Q 版比例**：大头小身的经典造型，可爱度拉满'
   desc: ''
 - title: '**动态姿势**：`dynamic pose` + `Epic and dynamic` 确保角色充满活力'
   desc: ''

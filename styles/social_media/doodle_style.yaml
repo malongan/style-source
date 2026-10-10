@@ -1,10 +1,9 @@
-name: Cozy Bedroom Doodle Companion Snapshot Style
+name: 温馨卧室涂鸦伙伴抓拍风格
 category: social_media
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A candid low-light home photo style with a large flat 2D cushion-doll companion composited into the lower foreground, creating a quiet late-night creative diary mood with warm room texture, screen
-  glow, and tiny handwritten doodle marks.
+summary: 随手低光居家摄影风格：一个大型扁平 2D 靠垫玩偶伙伴合成到下方前景，营造安静的深夜创作日记氛围，带温暖的房间质感、屏幕辉光，以及细小的手写涂鸦笔触。
 tags:
 - VigoCookbook
 - candid
@@ -36,16 +35,15 @@ tags:
 triggers:
 - Cozy Bedroom Doodle Companion Snapshot Style
 features:
-- title: 'Preserve the core visual identity: A candid low-light home photo style with a large flat 2D cushion-doll companion composited into the lower foreground, creating a quiet late-night creative diary
-    mood with warm room texture, screen glow, and tiny handwritten doodle marks.'
+- title: '保留核心视觉识别：随手低光居家摄影风格，一个大型扁平 2D 靠垫玩偶伙伴合成到下方前景，营造安静的深夜创作日记氛围，带温暖的房间质感、屏幕辉光，以及细小的手写涂鸦笔触。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use DOODLE_COMPANION as a hand-drawn companion layered into the real room snapshot.
+- title: 用 DOODLE_COMPANION 作为叠加进真实房间快照的手绘伙伴。
   desc: ''
-- title: Use DOODLE_SCALE to set the companion scale relative to the subject and room objects.
+- title: 用 DOODLE_SCALE 设定伙伴相对于主体与房间物件的尺度。
   desc: ''
-- title: Use LIGHT_SOURCE to preserve the snapshot lighting direction and warm room mood.
+- title: 用 LIGHT_SOURCE 保持快照的布光方向与温暖房间氛围。
   desc: ''
 variables:
 - kv_var: 变量
