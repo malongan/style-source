@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-182-gc7ef8c3-dirty",
-    "generated": "2026-10-10T07:49:01Z",
+    "version": "v0.7.0-before-opt-183-gd580f5e-dirty",
+    "generated": "2026-10-10T08:23:06Z",
     "total": 300,
     "categories": [
       "brand_kv",
@@ -11320,7 +11320,7 @@
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.thumb.webp",
@@ -12169,7 +12169,13 @@
       "code": "ST0295",
       "name": "电影级爆炸分解视图广告海报",
       "category": "e-commerce",
-      "tags": [],
+      "tags": [
+        "爆炸分解",
+        "产品拆解",
+        "电影级广告",
+        "悬浮构图",
+        "高端广告"
+      ],
       "triggers": [
         "爆炸分解视图",
         "产品拆解广告",
@@ -12318,7 +12324,7 @@
       "source_url": "https://x.com/azed_ai/status/2076623195386601657",
       "source_author": "azed_ai",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlxiua.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.thumb.webp",

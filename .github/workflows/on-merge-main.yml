@@ -15,6 +15,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          # fetch-depth: 0 —— 必须取全量历史 + tag，否则 git describe 退化成裸 hash，
+          # gallery.html 的版本行过滤（v0.5./v0.7.）失配 → 「验证生成文件一致性」必然失败
+          fetch-depth: 0
 
       - name: 验证所有风格文件
         run: python3 scripts/validate_all.py
