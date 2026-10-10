@@ -2,8 +2,9 @@ name: Blue Bubble Fisheye Action Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: 清爽 白 youth-culture action 海报风格 搭配 矩形 鱼眼 照片， 超大 圆形ed royal-蓝 展示 字体排版, -breaking 画面 前景 scale, 小 蓝 编辑 说明s, and one 红 手绘 annotation circle.
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions,
+  and one red hand-drawn annotation circle.
 tags:
 - VigoCookbook
 - crisp
@@ -29,11 +30,18 @@ tags:
 triggers:
 - Blue Bubble Fisheye Action Poster Style
 features:
-- '* *保留视核心觉标识：清爽 白青年文化行动海报风格 搭配 矩形 鱼眼 照片， 超大 圆形ed royal-蓝 展示 字体排版, 画面-breaking 前景 scale, 小 蓝 编辑 说明s, and one 红 手绘 annotation circle. * *'
-- '* *摄影：使用极端低角度 鱼眼或动作相机镜近头前景 物体，非常接近，具有桶形变形，边缘 模糊 靠近 边缘拉伸，运动亮，明亮日亮，蓝天或开放 高键高光，清晰真实皮肤，织物产品 表面，和可信的解剖结构。* *'
-- '* *布局：构建干净 白 编辑海报画布，搭配 中心 矩形操作照片。* *'
-- '* *让一前景只手、一只脚、道具或产品细节变成，巨大并可选择将照片矩形分割成白边距。* *'
-- '* *保持海报 层 扁平、精确和不准确杂乱。* *'
+- title: 'Preserve the core visual identity: A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground
+    scale, small blue editorial captions, and one red hand-drawn annotation circle.'
+  desc: ''
+- title: 'Photography: use an extreme low-angle fisheye or action-camera lens, very close to the foreground object, with barrel distortion, edge stretching, motion blur near the edges, bright daylight,
+    blue sky or open high-key light, crisp highlights, realistic skin, fabric, product surfaces, and believable anatomy.'
+  desc: ''
+- title: 'Layout: build a clean white editorial poster canvas with a central rectangular action photo.'
+  desc: ''
+- title: Let one foreground hand, foot, prop, or product detail become huge and optionally break past the photo rectangle into the white margin.
+  desc: ''
+- title: Keep the poster layer flat, precise, and uncluttered.
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -51,7 +59,8 @@ variables:
   style_var: sunny urban roof, bright plaza, skateable concrete space, clean market aisle, public court, workshop, studio patio, transit deck, or open daylight environment
   desc: ''
 - kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: blue sky, motion-blurred edges, white poster margin, rectangular photo crop, oversized blue bubble headline, small editorial text blocks, non-scannable stripe code, and red hand-drawn circle annotation
+  style_var: blue sky, motion-blurred edges, white poster margin, rectangular photo crop, oversized blue bubble headline, small editorial text blocks, non-scannable stripe code, and red hand-drawn circle
+    annotation
   desc: ''
 - kv_var: '`MAIN_TEXT`'
   style_var: short rounded headline, 1 to 2 words, set as huge blue bubble lettering cropped behind or above the photo
@@ -65,19 +74,24 @@ prompt: 'Create an image in blue-bubble-fisheye-action-poster-style.
   Scene: {SUBJECT} {SUBJECT_ACTION}, featuring {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}.
 
 
-  Photography: use an extreme low-angle fisheye or action-camera lens, very close to the foreground object, with barrel distortion, edge stretching, motion blur near the edges, bright daylight, blue sky or open high-key light, crisp highlights, realistic skin, fabric, product surfaces, and believable anatomy.
+  Photography: use an extreme low-angle fisheye or action-camera lens, very close to the foreground object, with barrel distortion, edge stretching, motion blur near the edges, bright daylight, blue sky
+  or open high-key light, crisp highlights, realistic skin, fabric, product surfaces, and believable anatomy.
 
 
-  Layout: build a clean white editorial poster canvas with a central rectangular action photo. Let one foreground hand, foot, prop, or product detail become huge and optionally break past the photo rectangle into the white margin. Keep the poster layer flat, precise, and uncluttered.
+  Layout: build a clean white editorial poster canvas with a central rectangular action photo. Let one foreground hand, foot, prop, or product detail become huge and optionally break past the photo rectangle
+  into the white margin. Keep the poster layer flat, precise, and uncluttered.
 
 
-  Typography: set "{MAIN_TEXT}" as massive rounded royal-blue bubble lettering cropped behind or above the photo block. Keep supporting text small, geometric, and blue. Add "{SECONDARY_TEXT}" only as compact editorial microcopy in the bottom margin.
+  Typography: set "{MAIN_TEXT}" as massive rounded royal-blue bubble lettering cropped behind or above the photo block. Keep supporting text small, geometric, and blue. Add "{SECONDARY_TEXT}" only as compact
+  editorial microcopy in the bottom margin.
 
 
   Graphic system: include {ACCENT_SYMBOL}, a small non-scannable stripe block, and balanced lower-margin caption groups. Use a rough red marker circle to highlight one product or movement detail.
 
 
-  Avoid: watermarks, usernames, creator IDs, platform logos, app interface marks, QR codes, scannable barcodes, copied reference people, copied poses, copied text, recognizable logos, brand-owned product marks, long paragraphs, cluttered collage, dark cyberpunk lighting, luxury minimalism, flat vector substitutes, SVG or HTML mockup looks, distorted faces, extra limbs, extra fingers, malformed hands, and unreadable main headline.'
+  Avoid: watermarks, usernames, creator IDs, platform logos, app interface marks, QR codes, scannable barcodes, copied reference people, copied poses, copied text, recognizable logos, brand-owned product
+  marks, long paragraphs, cluttered collage, dark cyberpunk lighting, luxury minimalism, flat vector substitutes, SVG or HTML mockup looks, distorted faces, extra limbs, extra fingers, malformed hands,
+  and unreadable main headline.'
 preview: https://malongan.github.io/images/vigo_previews/blue-bubble-fisheye-action-poster.jpg
 id: vigo_blue_bubble_fisheye_action_poster
 code: ''

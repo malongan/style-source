@@ -2,8 +2,9 @@ name: Soft Analog Future Editorial Poster
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: A quiet 模拟-future 编辑海报 风格 using warm 奶油色 paper, 超大 黑 neo-grotesk 字体排版, strict 网格 rules, 复古 technology still life, pale-蓝 半透明 interface 面板s, 植物 前景 accents, and 微小 bilingual in格式ion design.
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels,
+  botanical foreground accents, and tiny bilingual information design.
 tags:
 - VigoCookbook
 - quiet
@@ -34,11 +35,18 @@ tags:
 triggers:
 - Soft Analog Future Editorial Poster
 features:
-- '**Preserve the 核心 visual identity: A quiet 模拟-future 编辑海报 风格 using warm 奶油色 paper, 超大 黑 neo-grotesk 字体排版, strict 网格 rules, 复古 technology still life, pale-蓝 半透明 interface 面板s, 植物 前景 accents, and 微小 bilingual in格式ion design.**'
-- '**Place 产品或道具 in LOCATION 作为 restrained 主角物体.**'
-- '**Typography: set 主文字 as very 大 黑 neo-grotesk 类型.**'
-- '**Use 强调符号 as a sparse graphic mark.**'
-- '**Visual treatment: warm 奶油色 paper 背景, strict 网格布局, 薄 rules, 柔软 day亮, tac色块 哑光 materials, gentle 纸张纹理, pale-蓝 半透明 interface 面板, 植物 前景 accents, and quiet negative 空间.**'
+- title: 'Preserve the core visual identity: A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life,
+    pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.'
+  desc: ''
+- title: Place PRODUCT_OR_PROP in LOCATION as the restrained hero object.
+  desc: ''
+- title: 'Typography: set MAIN_TEXT as very large black neo-grotesk type.'
+  desc: ''
+- title: Use ACCENT_SYMBOL as a sparse graphic mark.
+  desc: ''
+- title: 'Visual treatment: warm cream paper background, strict grid layout, thin rules, soft daylight, tactile matte materials, gentle paper grain, pale-blue translucent interface panel, botanical foreground
+    accents, and quiet negative space.'
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -67,13 +75,16 @@ prompt: 'Create an image in soft-analog-future-editorial-poster-style.
   Aspect ratio: {ASPECT_RATIO}.
 
 
-  Scene: {SUBJECT} is supported by a calm analog-future system that helps them {SUBJECT_ACTION}. The hero prop is {PRODUCT_OR_PROP} placed in {LOCATION}. Include {BACKGROUND_ELEMENTS} as restrained editorial details. If people are visible, wardrobe and styling should be {WARDROBE_STYLE}.
+  Scene: {SUBJECT} is supported by a calm analog-future system that helps them {SUBJECT_ACTION}. The hero prop is {PRODUCT_OR_PROP} placed in {LOCATION}. Include {BACKGROUND_ELEMENTS} as restrained editorial
+  details. If people are visible, wardrobe and styling should be {WARDROBE_STYLE}.
 
 
-  Typography: set the main headline as very large black neo-grotesk type reading "{MAIN_TEXT}". Add "{SECONDARY_TEXT}" as tiny editorial microcopy, numbered list text, date/issue style labels, or bilingual captioning. Use {ACCENT_SYMBOL} as a sparse graphic mark.
+  Typography: set the main headline as very large black neo-grotesk type reading "{MAIN_TEXT}". Add "{SECONDARY_TEXT}" as tiny editorial microcopy, numbered list text, date/issue style labels, or bilingual
+  captioning. Use {ACCENT_SYMBOL} as a sparse graphic mark.
 
 
-  Visual treatment: warm cream paper background, strict grid layout, thin rules, soft daylight, tactile matte materials, gentle paper grain, pale-blue translucent interface panel, botanical foreground accents, and quiet negative space. Keep the design premium, readable, and editorial.
+  Visual treatment: warm cream paper background, strict grid layout, thin rules, soft daylight, tactile matte materials, gentle paper grain, pale-blue translucent interface panel, botanical foreground accents,
+  and quiet negative space. Keep the design premium, readable, and editorial.
 
 
   Avoid: watermark, logo, creator ID, QR code, platform UI, copied brand mark, glossy cyberpunk, dark sci-fi, neon gamer interface, childish mascot, busy collage, unreadable text, and cluttered typography.'

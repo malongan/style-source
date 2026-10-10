@@ -2,8 +2,8 @@ name: Neon Kinetic Typographic Poster
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: 戏剧性 户外编辑 海报风格 combining 低角度 生活方式摄影, 超大 扭曲 neon 字体排版, 胶片 纹理, and 高-气质 youth-culture 营销 design.
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.
 tags:
 - VigoCookbook
 - dramatic
@@ -25,11 +25,17 @@ tags:
 triggers:
 - Neon Kinetic Typographic Poster
 features:
-- '**Preserve the 核心 visual identity: 戏剧性 户外编辑 海报风格 combining 低角度 生活方式摄影, 超大 扭曲 neon 字体排版, 胶片 纹理, and 高-气质 youth-culture 营销 design.**'
-- '**Use 背景元素 to control 次要 scene details, 质感s, signage, props, and environmental cues.**'
-- '**Use an extreme 低角度 广角 camera perspective, as if the camera is 靠近 g圆形 外观ing upward.**'
-- '**Add 超大 扭曲 neon 黄色 字体排版 using 主文字.**'
-- '**The 字体排版 should wrap 周围 the compositi，在nd sit 后方 or partially 周围 the 主体.**'
+- title: 'Preserve the core visual identity: A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture
+    campaign design.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+  desc: ''
+- title: Use an extreme low-angle wide-angle camera perspective, as if the camera is near the ground looking upward.
+  desc: ''
+- title: Add oversized warped neon yellow typography using MAIN_TEXT.
+  desc: ''
+- title: The typography should wrap around the composition and sit behind or partially around the subject.
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -71,7 +77,8 @@ prompt: 'Create a {ASPECT_RATIO} poster in the "Neon Kinetic Typographic Poster"
   Use an extreme low-angle wide-angle camera perspective, as if the camera is near the ground looking upward. The subject should feel large, energetic, and close to the viewer.
 
 
-  Add oversized warped neon yellow typography using the main text "{MAIN_TEXT}". The letters should be ultra-bold, condensed, stretched, slanted, and partially cropped by the canvas edges. The typography should wrap around the composition and sit behind or partially around the subject.
+  Add oversized warped neon yellow typography using the main text "{MAIN_TEXT}". The letters should be ultra-bold, condensed, stretched, slanted, and partially cropped by the canvas edges. The typography
+  should wrap around the composition and sit behind or partially around the subject.
 
 
   Add a thin repeated uppercase text band reading "{SECONDARY_TEXT}", separated by "{ACCENT_SYMBOL}" symbols. The secondary text should run horizontally across the image like a campaign graphic stripe.

@@ -2,8 +2,9 @@ name: Gothic Cat Doodle Photo Collage Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: -活泼 照片插图拼贴 风格将戏剧性的真实建筑 照片y与超大 扁平卡通生物叠加手绘 标题 字体、气泡和宽松相结合马克笔涂鸦。
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker
+  doodles.
 tags:
 - VigoCookbook
 - playful
@@ -29,11 +30,17 @@ tags:
 triggers:
 - Gothic Cat Doodle Photo Collage Style
 features:
-- '* *保留核心视觉形象： -插活泼 照片图拼贴 风格将戏剧性的真实与建筑 照片卡超大 扁平通生物叠加手绘 标题 字体、气泡和宽松相结合马克笔涂鸦。* *'
-- '* *背景元素用于控制次要场景细质感节、标牌、道具和环境线索。* *'
-- '* *使用写实 低角度 建筑 照片 作为底座层。* *'
-- '* *保持立面的细节、可识别性和照片ic ，具有戏剧性的垂直视角和高饱和 青绿天空。* *'
-- '* *将一个超大 扁平卡通生物叠加在高饱和番茄红或另一粗体种颜色上，具有粗糙 黑标记轮廓、简单富有表现力的特征、裁切四小 黄色 边缘 高光肢等。* *'
+- title: 'Preserve the core visual identity: A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn
+    headline lettering, and loose marker doodles.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+  desc: ''
+- title: Use a realistic low-angle architectural photograph as the base layer.
+  desc: ''
+- title: Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky.
+  desc: ''
+- title: Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights.
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -78,10 +85,13 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Gothic Cat Doodle Photo Collage" 
   Wardrobe or visual styling: {WARDROBE_STYLE}.
 
 
-  Use a realistic low-angle architectural photograph as the base layer. Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky. Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights. Make the creature interact physically with the building, wrapping around arches, towers, windows, or rooflines.
+  Use a realistic low-angle architectural photograph as the base layer. Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky. Overlay one
+  oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights. Make the creature
+  interact physically with the building, wrapping around arches, towers, windows, or rooflines.
 
 
-  Add huge cream-white bubble graffiti lettering across the top of the frame, with thick cobalt blue outline, warm yellow offset shadow, chalky glow, and imperfect hand-drawn spacing. Add small doodle circles, swooshes, sparks, motion curves, and tiny secondary cartoon figures in windows or doorways for scale contrast.
+  Add huge cream-white bubble graffiti lettering across the top of the frame, with thick cobalt blue outline, warm yellow offset shadow, chalky glow, and imperfect hand-drawn spacing. Add small doodle circles,
+  swooshes, sparks, motion curves, and tiny secondary cartoon figures in windows or doorways for scale contrast.
 
 
   Avoid watermark, username, creator ID, platform logo, QR code, app UI, realistic 3D mascot, plush toy texture, full cartoon background, clean corporate layout, dense text, and low-detail architecture.'

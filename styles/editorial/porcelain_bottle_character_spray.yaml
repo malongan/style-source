@@ -1,50 +1,49 @@
+# 白瓷瓶角色喷绘Editorial海报
+
 id: porcelain_bottle_character_spray
-name: 白瓷瓶角色喷绘Editorial海报
+name: "白瓷瓶角色喷绘Editorial海报"
 category: editorial
+
 tags:
-- editorial
-- fashion illustration
-- minimalist
-- semi-flat
-- low-saturation
-- character group
-- luxury
+  - editorial
+  - fashion illustration
+  - minimalist
+  - semi-flat
+  - low-saturation
+  - character group
+  - luxury
+
 triggers:
-- 白瓷瓶喷角色
-- Editorial时尚海报
-- 极简角色群像
-- 独立艺术企划主视觉
+  - 白瓷瓶喷角色
+  - Editorial时尚海报
+  - 极简角色群像
+  - 独立艺术企划主视觉
+
 features:
-- '**主角色持白瓷瓶** — 修长时尚illustration比例，主体偏画面右侧偏下，仅占画面高度45%-55%，大量留白'
-- '**角色喷出效果** — 瓶口喷出3-6个清晰小型角色，沿弧线向左上方展开，间距分明，不堆叠'
-- '**克制特效** — 少量淡烟、简单流线、极少量微光粒子，不用复杂爆炸或华丽魔法效果'
-- '**巨型背景图形元素** — 1-2个与主角色强相关的大型简化平面化元素（徽记/武器/道具/生物）'
-- '* *低饱和留白 + *半平涂 * — 大面积留白，半平面数码绘画，少量柔和明暗 ，干净轮廓'
-scene: 品牌KV、杂志封面、人物群像主视觉、艺术企划主视觉
-ratio: '9:16'
-summary: 极简Editorial时尚海报，主角色持白瓷瓶喷出多角色，克制留白，半平涂质感
-prompt: '极简时尚封面感 × 高级 editorial illustration × 独立艺术企划主视觉 × luxury fashion campaign。
+  - "**主角色持白瓷瓶** — 修长时尚illustration比例，主体偏画面右侧偏下，仅占画面高度45%-55%，大量留白"
+  - "**角色喷出效果** — 瓶口喷出3-6个清晰小型角色，沿弧线向左上方展开，间距分明，不堆叠"
+  - "**克制特效** — 少量淡烟、简单流线、极少量微光粒子，不用复杂爆炸或华丽魔法效果"
+  - "**巨型背景图形元素** — 1-2个与主角色强相关的大型简化平面化元素（徽记/武器/道具/生物）"
+  - "**低饱和留白+半平涂** — 大面积留白，semi-flat digital painting，少量柔和明暗，干净轮廓"
 
+scene: "品牌KV、杂志封面、人物群像主视觉、艺术企划主视觉"
+ratio: "9:16"
+summary: "极简Editorial时尚海报，主角色持白瓷瓶喷出多角色，克制留白，半平涂质感"
+
+prompt: |
+  极简时尚封面感 × 高级 editorial illustration × 独立艺术企划主视觉 × luxury fashion campaign。
   [主角色]，成年角色，修长 fashion illustration 比例，人物偏画面右侧偏下，尺寸较小，只占画面高度约 45%–55%，保留大量留白。姿态自然优雅，轻微扭转，冷淡、慵懒、疏离。
-
   角色服饰不固定，根据角色原本身份、代表色和视觉特征自动设计，可保留原服装或进行高级 editorial fashion 化转译，但保持角色辨识度。
-
   人物手中拿着一个简洁精致的白瓷瓶。从瓶口自然喷出 3–6 个完整清晰的小型其他角色，沿简洁弧线向画面左侧或左上方展开。角色之间保持明显间距，不堆叠，不拥挤。
-
   喷出效果保持克制，只加入少量淡烟、简单流线和极少量微光粒子，不使用复杂爆炸、密集星屑、夸张能量丝带或华丽魔法效果。
-
   主角色最大，喷出的角色明显更小，重点是"角色从瓶中出现"，而不是特效。
-
   人物身后加入 1–2 个与主角色强相关的巨大图形化元素，例如武器、专属道具、徽记、元素符号、代表性生物或其他核心母题，进行放大、简化、平面化处理。
-
   低饱和纯色背景，大面积留白。人物偏右，小角色向左展开，后景元素位于人物身后，形成清晰、克制、平衡的 editorial 海报构图。
-
   semi-flat digital painting，modern anime fashion illustration，大色块平涂，少量柔和明暗，清晰边缘，干净轮廓，高级、冷淡、简约，不花哨。
-
   右下角小型签名"voxcat"。
-
   不要水印，不要真实Logo，不要电商广告感。
 
-  '
-source_url: https://x.com/VoxcatAI/status/2104480845121884340
-source_author: VoxcatAI
+source_url: "https://x.com/VoxcatAI/status/2104480845121884340"
+source_author: "VoxcatAI"
+
+# 配图: images/styles_previews/porcelain_bottle_character_spray_71f9e64c.webp

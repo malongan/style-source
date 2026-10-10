@@ -2,19 +2,25 @@ name: Olive Scribble Sports Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: 动态白纸扁平 编辑 插画风格 构建， 大 橄榄绿-绿 海报块，超大动作，粗糙 黑 墨水轮廓，红标记moti ， rcs ， 黄色-在绿干刷人物条带，稀疏碎屑和手工制作的屏幕印刷 质感。
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A kinetic flat editorial illustration style built from off-white paper, large olive-green poster blocks, oversized action figures, rough black ink contours, red marker motion arcs, yellow-green
+  dry-brush swaths, sparse debris, and handmade screenprint texture.
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Olive Scribble Sports Poster Style
 features:
-- '* *白纸外g圆形 ，搭配 大不规则橄榄绿或黄色-绿块覆盖最多，的 背景. * *'
-- '* * One 超大 action 主体 placed 对角线ly 横穿 composition. * *'
-- '* *带极简阴影的平板屏幕印刷颜色区域平滑 渐变，没有。* *'
-- '* *粗黑 墨水 轮廓体、有角画笔轮廓和混乱划痕。* *'
-- '* *穿过红的标记弧线、箭头和运动环路主体。* *'
+- title: Off-white paper ground with a large irregular olive or yellow-green block covering most of the background.
+  desc: ''
+- title: One oversized action subject placed diagonally across the composition.
+  desc: ''
+- title: Flat screenprint color areas with minimal shading and no smooth gradients.
+  desc: ''
+- title: Heavy black ink silhouettes, angular brush contours, and chaotic scratch lines.
+  desc: ''
+- title: Red marker arcs, arrows, and motion loops crossing the subject.
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -67,7 +73,8 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Olive Scribble Sports Poster Styl
 
   - Build the poster from one dominant diagonal action subject, one prop, and one abstract olive or yellow-green block.
 
-  - Use off-white paper ground, flat screenprint color slabs, heavy black ink silhouettes, chaotic scratch contours, red marker motion arcs, yellow-green dry-brush loops, and sparse diamonds or clipped debris.
+  - Use off-white paper ground, flat screenprint color slabs, heavy black ink silhouettes, chaotic scratch contours, red marker motion arcs, yellow-green dry-brush loops, and sparse diamonds or clipped
+  debris.
 
   - Keep the setting shallow, abstract, and editorial rather than realistic or scene-heavy.
 
@@ -81,7 +88,8 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Olive Scribble Sports Poster Styl
   - {NEGATIVE_PROMPT}
 
 
-  Important content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text, while avoiding the original soccer/overhead-kick source content.'
+  Important content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text, while avoiding the original soccer/overhead-kick
+  source content.'
 preview: https://malongan.github.io/images/vigo_previews/olive-scribble-sports-poster.jpg
 id: vigo_olive_scribble_sports_poster
 code: ''

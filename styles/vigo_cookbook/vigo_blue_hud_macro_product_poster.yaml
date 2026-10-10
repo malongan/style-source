@@ -2,8 +2,9 @@ name: Blue HUD Macro Creator Tech Poster
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: 高密度 蓝 创作者风格 以 微距技术广告3D硬 主角器皿、超大罗纹手面板套、电动蓝HUD窄体 字体排版、大卡片块、光泽玻璃和一金个暖形态色 徽章。
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards,
+  and one warm gold performance badge.
 tags:
 - VigoCookbook
 - premium
@@ -16,11 +17,16 @@ tags:
 triggers:
 - Blue HUD Macro Creator Tech Poster
 features:
-- '* *宏产品-主角组成搭配 物体 大， 倾斜，和居中或亮 偏离中心，填充画面. * *'
-- '* *超大罗纹手套或灵活条纹手指从中画面 边缘剪下，实际画面上是产品。* *'
-- '* *使用圆形ED塑料、橡胶、金属和玻璃进行深度光泽3D表面渲染，而不扁平 海报是手绘插图。* *'
-- '* *冷电-蓝 背景带有暗 藏蓝 渐变s、对角线 亮条纹、暗淡的网格线条和模糊的体积光晕。* *'
-- '* *标题 字体排版大窄体块白或冰块灰，部分隐藏 在 产品 裁切或画面。* *'
+- title: Macro product-hero composition with the object large, tilted, and centered or slightly off-center, filling the frame.
+  desc: ''
+- title: Oversized ribbed gloves or flexible striped fingers crop in from the frame edges and physically frame the product.
+  desc: ''
+- title: Deep glossy 3D rendering with rounded plastic, rubber, metal, and glass surfaces, not a flat poster or hand-drawn illustration.
+  desc: ''
+- title: Cold electric-blue background with dark navy gradients, diagonal light streaks, faint grid lines, and misty volumetric glow.
+  desc: ''
+- title: Large condensed block headline typography in white or icy gray, partially hidden behind the product or cropped by the frame.
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -93,7 +99,8 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Blue HUD Macro Creator Tech Poste
   - {NEGATIVE_PROMPT}
 
 
-  Important content rule: match the extracted style first, then change the exact source content. Product categories may be camera-adjacent when requested, but all outputs must stay brandless, non-identical, and newly worded.'
+  Important content rule: match the extracted style first, then change the exact source content. Product categories may be camera-adjacent when requested, but all outputs must stay brandless, non-identical,
+  and newly worded.'
 preview: https://malongan.github.io/images/vigo_previews/blue-hud-macro-product-poster.jpg
 id: vigo_blue_hud_macro_product_poster
 code: ''

@@ -2,7 +2,7 @@ name: Object Illustration Combo - 真实物体插画融合
 category: creative
 ratio: 9:16（竖版）
 source_author: '@ShamsAmin56'
-source_url: https://x.com/ShamsAmin56
+source_url: 'https://x.com/ShamsAmin56'
 summary: 把日常生活物品变成手绘插画的一部分 —— 真实物体与黑白线描无缝融合，制造视觉双关。
 tags:
 - 真实物体
@@ -18,11 +18,16 @@ triggers:
 - 产品插画
 - 创意合成
 features:
-- '**Photo写实 物体** — 写实产品照，高细节'
-- '**Hand-drawn 黑 墨水 cartoon** — 黑色墨水手绘线条画，简洁表达'
-- '**Perfect seamless blend** — 真实物体与卡通无缝结合'
-- '**Visual pun / clever concept** — 机智的视觉双关'
-- '**Clean negative 空间** — 干净留白'
+- title: Photorealistic object
+  desc: 写实产品照，高细节
+- title: Hand-drawn black ink cartoon
+  desc: 黑色墨水手绘线条画，简洁表达
+- title: Perfect seamless blend
+  desc: 真实物体与卡通无缝结合
+- title: Visual pun / clever concept
+  desc: 机智的视觉双关
+- title: Clean negative space
+  desc: 干净留白
 variables:
 - kv_var: 真实物体
   style_var: '{{EVERYDAY OBJECT}}'
@@ -45,13 +50,16 @@ variables:
 prompt: 'Creative composite photograph, 9:16 vertical aspect ratio, clean minimalist white background, studio lighting, high detail, sharp focus.
 
 
-  A real-life [EVERYDAY OBJECT] is physically placed and perfectly integrated as a key part of a hand-drawn black ink cartoon illustration. The drawing is simple, expressive line art with minimal shading, like a quick sketch on paper.
+  A real-life [EVERYDAY OBJECT] is physically placed and perfectly integrated as a key part of a hand-drawn black ink cartoon illustration. The drawing is simple, expressive line art with minimal shading,
+  like a quick sketch on paper.
 
 
-  The [OBJECT] represents [CLEVER PART OF THE SCENE - e.g. hair, weapon, body part, clothing, etc.], cleverly completing the visual pun or concept. The cartoon character interacts dynamically with the object in a humorous, meaningful, or surprising way.
+  The [OBJECT] represents [CLEVER PART OF THE SCENE - e.g. hair, weapon, body part, clothing, etc.], cleverly completing the visual pun or concept. The cartoon character interacts dynamically with the object
+  in a humorous, meaningful, or surprising way.
 
 
-  Photorealistic object + bold black line drawing style, perfect seamless blend between real object and illustration, clean negative space, artistic and witty concept, high quality product photography mixed with doodle art.'
+  Photorealistic object + bold black line drawing style, perfect seamless blend between real object and illustration, clean negative space, artistic and witty concept, high quality product photography mixed
+  with doodle art.'
 preview: https://malongan.github.io/images/vigo_previews/object_illustration_combo.jpg
 id: object_illustration_combo
 code: ''

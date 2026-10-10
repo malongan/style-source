@@ -2,7 +2,7 @@ name: Sunlit Kinetic Block Type Photo Poster
 category: brand_kv
 ratio: 9:16 / 16:9
 source_author: '@VigoCreativeAI'
-source_url: https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/sunlit-kinetic-block-type-photo-poster-style
+source_url: "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/sunlit-kinetic-block-type-photo-poster-style"
 summary: 全幅日光摄影 + 超大奶色压缩字体 + 对角线裁剪人物 = 让普通人瞬间有「杂志封面主角」的质感。
 tags:
 - VigoCookbook
@@ -17,11 +17,16 @@ triggers:
 - 文字穿插
 - 人物站字母后
 features:
-- '**Full-bleed sunlit 照片y** — 全幅日光摄影，户外明亮场景'
-- '**Oversized 奶油色 窄体 方块字体** — 超大奶色压缩字体，作为画面主体'
-- '**Diagonal 主体 crops** — 对角线裁剪人物，制造动感'
-- '**Compact 微文案 clusters** — 角落密集小字（重复词组）'
-- '**Vivid 蓝天 color fields** — 鲜明蓝天色块作为背景'
+- title: Full-bleed sunlit photography
+  desc: 全幅日光摄影，户外明亮场景
+- title: Oversized cream condensed block typography
+  desc: 超大奶色压缩字体，作为画面主体
+- title: Diagonal subject crops
+  desc: 对角线裁剪人物，制造动感
+- title: Compact microcopy clusters
+  desc: 角落密集小字（重复词组）
+- title: Vivid blue-sky color fields
+  desc: 鲜明蓝天色块作为背景
 variables:
 - kv_var: 主标题文字
   style_var: '{{MAIN_TEXT}}'
@@ -44,10 +49,8 @@ variables:
 - kv_var: 色彩-主色
   style_var: 奶白色
   desc: cream condensed block typography
-prompt: 'Create a {ASPECT_RATIO} full-bleed editorial action poster in the Sunlit Kinetic Block Type Photo Poster style. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Use a realistic bright outdoor photograph as the base: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}, with {BACKGROUND_ELEMENTS}. Camera and composition: low or close wide-angle perspective, oversized foreground scale, decisive frozen motion, one strong diagonal crossing the frame, the subject cropped by at least one edge. Typography: place immense warm-cream extra-condensed block sans display lettering reading {MAIN_TEXT} behind the subject, filling over half the canvas, cropped by the frame and partially obscured by the action. Add compact white microcopy reading {SECONDARY_TEXT} in tight editorial blocks, plus a small generic {ACCENT_SYMBOL} mark and bottom information clusters in cream. Wardrobe and styling: {WARDROBE_STYLE}.
-  Color system: saturated sky-blue or cyan dominant field, warm cream typography, crisp white microcopy, deep shadows, and one vivid accent color concentrated on the hero prop or wardrobe. Lighting and finish: hard midday sunlight, crisp shadows, high contrast commercial photo realism, slight print-poster grain, no illustration or 3D rendering, no real logos or watermarks. Generate as a 4K ultra-high-resolution raster image.
-
-  '
+prompt: |
+  Create a {ASPECT_RATIO} full-bleed editorial action poster in the Sunlit Kinetic Block Type Photo Poster style. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Use a realistic bright outdoor photograph as the base: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}, with {BACKGROUND_ELEMENTS}. Camera and composition: low or close wide-angle perspective, oversized foreground scale, decisive frozen motion, one strong diagonal crossing the frame, the subject cropped by at least one edge. Typography: place immense warm-cream extra-condensed block sans display lettering reading {MAIN_TEXT} behind the subject, filling over half the canvas, cropped by the frame and partially obscured by the action. Add compact white microcopy reading {SECONDARY_TEXT} in tight editorial blocks, plus a small generic {ACCENT_SYMBOL} mark and bottom information clusters in cream. Wardrobe and styling: {WARDROBE_STYLE}. Color system: saturated sky-blue or cyan dominant field, warm cream typography, crisp white microcopy, deep shadows, and one vivid accent color concentrated on the hero prop or wardrobe. Lighting and finish: hard midday sunlight, crisp shadows, high contrast commercial photo realism, slight print-poster grain, no illustration or 3D rendering, no real logos or watermarks. Generate as a 4K ultra-high-resolution raster image.
 preview: https://malongan.github.io/images/vigo_previews/sunlit_kinetic_block_type_poster.jpg
 id: sunlit_kinetic_block_type_poster
 code: ''
