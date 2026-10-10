@@ -1,25 +1,24 @@
-name: Mono Noir Type Portrait Poster Style
+name: 黑白冷调字体人像海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A stark black-and-white editorial poster system pairing a close, high-contrast photographic portrait with oversized lowercase neo-grotesk typography. One headline word is reversed into a clean
-  white rectangular label while the remaining words sit as heavy white type over a charcoal background.
+summary: 冷峻的黑白编辑海报体系：近距离高对比摄影人像搭配超大号小写新怪诞字体。一个大标题词反白为干净的白色矩形标签，其余单词则以厚重白色字体压在炭灰背景上。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Mono Noir Type Portrait Poster Style
 features:
-- title: Strict black-and-white monochrome with no color tint, sepia, duotone accent, or gradient color.
+- title: 严格黑白单色，没有色彩倾向、棕褐调、双色调点缀或渐变色。
   desc: ''
-- title: One large photographic human subject, usually cropped close, with the face or upper body carrying the emotional weight.
+- title: 一个大型摄影人物主体，通常做近距离裁切，由面部或上半身承载情绪重量。
   desc: ''
-- title: Deep charcoal-to-black background with soft falloff and large negative space for typography.
+- title: 深炭灰到黑色的背景，带柔和衰减与大面积负空间供排版使用。
   desc: ''
-- title: Oversized lowercase bold neo-grotesk headline, left aligned, with tight leading and strong optical weight.
+- title: 超大号小写粗体新怪诞（neo-grotesk）大标题，左对齐，行距紧凑，视觉分量强。
   desc: ''
-- title: The first headline word appears as black type inside a crisp white rectangular label.
+- title: 第一个大标题词以黑色字体出现在锐利的白色矩形标签内。
   desc: ''
 variables:
 - kv_var: 变量

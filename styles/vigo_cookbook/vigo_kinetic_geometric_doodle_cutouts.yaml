@@ -3,23 +3,22 @@ category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A sparse, playful illustration system where a character or object is assembled from oversized flat geometric color pieces, loose black doodle lines, paper grain, and buoyant off-center motion on
-  a warm cream background.
+summary: 疏朗、童趣的插画体系：角色或物件由超大号扁平几何色块、松散的黑色涂鸦线条、纸张颗粒，以及暖米色背景上轻盈的偏心动势组合而成。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Kinetic Geometric Doodle Cutouts
 features:
-- title: Warm cream paper field with generous empty space around the subject.
+- title: 暖米色纸底，主体四周留出充裕的空白。
   desc: ''
-- title: One central figure, object, or small scene built from a few oversized geometric blocks.
+- title: 一个居中的形象、物件或小场景，由若干超大号几何块拼成。
   desc: ''
-- title: Flat vector-like shapes with subtle printed grain, dry-brush speckle, and soft sprayed gradients.
+- title: 扁平矢量化形状，带轻微印刷颗粒、干笔斑点与柔和喷涂渐变。
   desc: ''
-- title: Asymmetric kinetic pose with limbs or parts angled diagonally as if mid-motion.
+- title: 不对称的动态姿势，四肢或部件呈斜向角度，仿佛正处于运动中。
   desc: ''
-- title: Thick black hand-drawn contour strokes only on small details such as hands, shoes, hair, wheels, handles, or motion marks.
+- title: 仅在手脚、鞋、头发、轮子、把手或动势符号等小细节上使用粗黑手绘轮廓笔触。
   desc: ''
 variables:
 - kv_var: 变量

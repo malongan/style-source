@@ -1,25 +1,24 @@
-name: Market Brush Produce Poster Style
+name: 市集毛笔农产品海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A sparse fresh-market poster system with a warm ivory paper field, one oversized glossy produce hero, a smaller echo product, violent black hand-cut brush typography, thin editorial header text,
-  and tiny bottom seal-like captions.
+summary: 疏朗的生鲜市集海报体系：暖象牙纸底、一个超大号亮泽农产品主角、一个更小的呼应产品、暴烈的黑色手剪毛笔字体、纤细的编辑式页眉文字，以及底部极小的印章式注记。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Market Brush Produce Poster Style
 features:
-- title: Warm ivory or pale cream paper background with very large uncluttered negative space.
+- title: 暖象牙或浅米色纸张背景，留出非常大的清爽负空间。
   desc: ''
-- title: One oversized photoreal produce hero cropped near an edge, plus one much smaller echo produce item.
+- title: 一个超大号照片级农产品主角被贴近边缘裁切，另有一个小得多的呼应农产品。
   desc: ''
-- title: Produce surface is glossy, rounded, bright, softly airbrushed, and slightly posterized rather than documentary.
+- title: 农产品表面亮泽、圆润、明亮，带轻柔喷绘感与轻微色阶化，而不是纪实质感。
   desc: ''
-- title: 'Hard scale contrast between produce and typography: subject dominates the lower or side field while type crowds the upper or opposite side.'
+- title: '农产品与字体之间形成强烈的比例对比：主体主导下半部或侧边区域，字体则挤在上方或另一侧。'
   desc: ''
-- title: Large black headline built from torn, stamped, rough-brush CJK-inspired blocks with uneven edges and dry ink texture.
+- title: 大型黑色大标题由撕裂、压印、粗毛笔感的 CJK 启发式字块构成，边缘不均，带干墨质感。
   desc: ''
 variables:
 - kv_var: 变量

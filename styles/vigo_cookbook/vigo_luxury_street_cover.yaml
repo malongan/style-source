@@ -1,25 +1,24 @@
-name: Kinetic Luxury Street Fashion Cover Style
+name: 动感奢华街头时装封面风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A premium street-fashion magazine cover style built from side-profile walking photography, horizontal motion-blurred architecture, one dominant luxury garment, wind-shaped hair, restrained urban
-  neutrals, and oversized wide-spaced serif cover typography. It preserves the kinetic editorial grammar of the reference while changing the model identity, wardrobe, prop, headline, and story details.
+summary: 高级街头时装杂志封面风格：侧脸行走摄影、水平运动模糊的建筑、一件主导性奢华服装、被风塑形的头发、克制的都市中性色，以及超大号宽字距衬线封面字体。保留参考图的动感编辑语法，同时更换模特身份、衣橱、道具、大标题与故事细节。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Kinetic Luxury Street Fashion Cover Style
 features:
-- title: High-end realistic fashion editorial photography, not illustration, collage, or catalog rendering.
+- title: 高端写实时装编辑摄影，而不是插画、拼贴或目录渲染。
   desc: ''
-- title: Single model or one dominant model cropped large from thigh to head, moving laterally through the frame.
+- title: 单一模特或一位主导模特，从大腿到头部大幅裁切，横向穿过画面移动。
   desc: ''
-- title: Side-profile or three-quarter walking pose with calm luxury expression and deliberate street-stride energy.
+- title: 侧脸或四分之三视角行走姿势，带从容的奢华表情与刻意的街头步态能量。
   desc: ''
-- title: Strong horizontal motion blur in the background, as if the camera is panning with the subject.
+- title: 背景有强烈的水平运动模糊，仿佛相机随主体平移。
   desc: ''
-- title: Sharp subject against blurred stone, window, pavement, and street bands, with readable fabric texture.
+- title: 主体清晰锐利，与模糊的石材、橱窗、路面与街道横向带状区域形成对比，布料质感清晰可读。
   desc: ''
 variables:
 - kv_var: 变量
