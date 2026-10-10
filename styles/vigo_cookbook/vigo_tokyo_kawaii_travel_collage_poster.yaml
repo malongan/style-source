@@ -2,8 +2,9 @@ name: Tokyo Kawaii Travel Collage Poster
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: 极繁主义 Japanese 城市-旅行拼贴 风格 with 粗体 destination 字体排版, cute 贴纸 元素s, 漫画 气泡s, 剪影 时尚摄影, 半调 城市 背景s, and 剪贴簿 编辑 layout.
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook
+  editorial layout.
 tags:
 - VigoCookbook
 - maximalist
@@ -30,11 +31,17 @@ tags:
 triggers:
 - Tokyo Kawaii Travel Collage Poster
 features:
-- '**Preserve the 核心 visual identity: 极繁主义 Japanese 城市-旅行拼贴 风格 with 粗体 destination 字体排版, cute 贴纸 元素s, 漫画 气泡s, 剪影 时尚摄影, 半调 城市 背景s, and 剪贴簿 编辑 layout.**'
-- '**Use 背景元素 for 城市 背景, 植物 details, signage, 质感, and 旅行-拼贴 con文字.**'
-- '**Use a 极繁ist Japanese 旅行 剪贴簿 拼贴布局.**'
-- '**Place the 剪裁主体 大 in the 中心 ，搭配 贴纸感 白 边缘.**'
-- '**Put 巨大 playful 圆形ed 方块字 横穿 顶部, each 字母 ，在 separate 明亮 paper 色块, 轻微旋转 and 重叠.**'
+- title: 'Preserve the core visual identity: A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone
+    urban backgrounds, and scrapbook editorial layout.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS for city background, botanical details, signage, texture, and travel-collage context.
+  desc: ''
+- title: Use a maximalist Japanese travel scrapbook collage layout.
+  desc: ''
+- title: Place the cutout subject large in the center with a sticker-like white edge.
+  desc: ''
+- title: Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping.
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -79,13 +86,16 @@ prompt: 'Create a {ASPECT_RATIO} poster in the "Tokyo Kawaii Travel Collage Post
   Wardrobe and cutout styling: {WARDROBE_STYLE}.
 
 
-  Use a maximalist Japanese travel scrapbook collage layout. Place the cutout subject large in the center with a sticker-like white edge. Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping. Use yellow letter fill, green tile blocks, red accents, cream paper textures, and black ink details.
+  Use a maximalist Japanese travel scrapbook collage layout. Place the cutout subject large in the center with a sticker-like white edge. Put huge playful rounded block letters across the top, each letter
+  on a separate bright paper tile, slightly rotated and overlapping. Use yellow letter fill, green tile blocks, red accents, cream paper textures, and black ink details.
 
 
-  Layer the background with black-and-white or sepia city photography, crowd scenes, buildings, street signs, and halftone print texture. Add manga speech bubbles, handwritten notes, tiny captions, food icons, ticket stubs, barcode graphics, mini photo panels, sticker stars, arrows, and travel labels.
+  Layer the background with black-and-white or sepia city photography, crowd scenes, buildings, street signs, and halftone print texture. Add manga speech bubbles, handwritten notes, tiny captions, food
+  icons, ticket stubs, barcode graphics, mini photo panels, sticker stars, arrows, and travel labels.
 
 
-  Add a dense yellow bottom information bar with small photos, captions, travel snippets, barcode, and bold label typography. Mix in watercolor or pressed-flower botanical elements near the lower area. The finish should feel like scanned paper, teen magazine collage, souvenir zine, sticker album, and cute travel advertisement.
+  Add a dense yellow bottom information bar with small photos, captions, travel snippets, barcode, and bold label typography. Mix in watercolor or pressed-flower botanical elements near the lower area.
+  The finish should feel like scanned paper, teen magazine collage, souvenir zine, sticker album, and cute travel advertisement.
 
 
   Avoid minimalism, clean corporate design, luxury travel style, plain backgrounds, low density, and overly polished digital graphics.'

@@ -2,8 +2,9 @@ name: Clean Triptych Travel Vlog Thumbnail Style
 category: travel
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: 干净 旅行vlog thumbnail 系统，由 three 垂直 照片ic 面板s, 超大 小写 白 destination 类型, 小 斜体 旅行 annotations, sparse 手绘 marks, and a 柔软 phone-camera 编辑 质感.
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations, sparse hand-drawn marks, and a soft
+  phone-camera editorial finish.
 tags:
 - VigoCookbook
 - clean
@@ -30,11 +31,17 @@ tags:
 triggers:
 - Clean Triptych Travel Vlog Thumbnail Style
 features:
-- '**Preserve the 核心 visual identity: 干净 旅行vlog thumbnail 系统，由 three 垂直 照片ic 面板s, 超大 小写 白 destination 类型, 小 斜体 旅行 annotations, sparse 手绘 marks, and a 柔软 phone-camera 编辑 质感.**'
-- '**Use 背景元素 to control 次要 scene details, 质感s, signage, props, and environmental cues.**'
-- '**Use a 干净 three-面板 旅行vlog thumbnail composition.**'
-- '**Divide the 画面 into three equal 垂直 照片ic 面板s with 硬 边缘s and no 可见 border.**'
-- '**Place a 巨大 小写 destination 标题 in 纯粹 白 横穿 中心 ，的 whole 图像, crossing all three 面板s.**'
+- title: 'Preserve the core visual identity: A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations,
+    sparse hand-drawn marks, and a soft phone-camera editorial finish.'
+  desc: ''
+- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+  desc: ''
+- title: Use a clean three-panel travel-vlog thumbnail composition.
+  desc: ''
+- title: Divide the frame into three equal vertical photographic panels with hard edges and no visible border.
+  desc: ''
+- title: Place a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels.
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -79,16 +86,20 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Clean Triptych Travel Vlog Thumbn
   Wardrobe styling: {WARDROBE_STYLE}.
 
 
-  Use a clean three-panel travel-vlog thumbnail composition. Divide the frame into three equal vertical photographic panels with hard edges and no visible border. Make the left panel a close-up lifestyle or cafe moment, the center panel a city-stroll scene with the traveler, and the right panel a landmark, scenic viewpoint, skyline, garden, gate, harbor, or destination proof point.
+  Use a clean three-panel travel-vlog thumbnail composition. Divide the frame into three equal vertical photographic panels with hard edges and no visible border. Make the left panel a close-up lifestyle
+  or cafe moment, the center panel a city-stroll scene with the traveler, and the right panel a landmark, scenic viewpoint, skyline, garden, gate, harbor, or destination proof point.
 
 
-  Place a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels. Use an extra-bold rounded geometric sans-serif, smooth and friendly, with no outline and minimal shadow. Put small italic white panel labels near the top, a small day-count line above the headline, a parenthetical vlog subtitle below it, and one tiny bottom-corner diary note.
+  Place a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels. Use an extra-bold rounded geometric sans-serif, smooth and friendly, with no
+  outline and minimal shadow. Put small italic white panel labels near the top, a small day-count line above the headline, a parenthetical vlog subtitle below it, and one tiny bottom-corner diary note.
 
 
-  Add only sparse white hand-drawn accent marks: a tiny heart, dash, underline, corner stroke, sparkle, or loose bracket. Keep the photo treatment warm, candid, soft, lightly grainy, and phone-camera realistic. The mood should feel modern, clean, travel-diary-like, and ready for a video thumbnail.
+  Add only sparse white hand-drawn accent marks: a tiny heart, dash, underline, corner stroke, sparkle, or loose bracket. Keep the photo treatment warm, candid, soft, lightly grainy, and phone-camera realistic.
+  The mood should feel modern, clean, travel-diary-like, and ready for a video thumbnail.
 
 
-  Avoid watermark, username, creator ID, platform logo, QR code, app UI, readable real brand logo, brand name, celebrity likeness, cluttered sticker collage, scrapbook overload, neon poster, grunge texture, luxury travel ad, corporate brochure, colorful headline, heavy drop shadow, outlined text, illegible destination text, plain single-photo background, and dark muddy image.'
+  Avoid watermark, username, creator ID, platform logo, QR code, app UI, readable real brand logo, brand name, celebrity likeness, cluttered sticker collage, scrapbook overload, neon poster, grunge texture,
+  luxury travel ad, corporate brochure, colorful headline, heavy drop shadow, outlined text, illegible destination text, plain single-photo background, and dark muddy image.'
 preview: https://malongan.github.io/images/vigo_previews/clean-triptych-travel-vlog-thumbnail.jpg
 id: style_travel
 code: ''

@@ -2,19 +2,25 @@ name: School Grid Paper Cutout Poster
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: 稀疏 怀旧 海报 系统，由 warm classroom 网格 paper, 手绘 垂直 notebook writing, and one 大 居中 撕裂-paper 拼贴 物体 照片ed with 浅 real-paper 阴影s.
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical notebook writing, and one large centered torn-paper collage object photographed with shallow real-paper
+  shadows.
 tags:
 - VigoCookbook
 - Other
 triggers:
 - School Grid Paper Cutout Poster
 features:
-- '**Warm beige classroom 网格 paper covers the entire 背景 with 薄 柔和 蓝-绿 ruled lines.**'
-- '**One 超大 handmade paper-拼贴 主体 dominates the 中心 and sits s亮ly 右侧 ，的 左侧 文字 block.**'
-- '**The 主体 是一种 简单 扁平 轮廓 组装 from 撕裂 paper 边缘s, not a rendered or 写实 物体.**'
-- '**Off-白 paper 层s and one 高饱和 color-paper area create the 主要 人物 with very limited color variety.**'
-- '**Shallow physical 阴影s under 撕裂 paper 边缘s create 低 relief while the camera re主要s 正面-facing and 扁平.**'
+- title: Warm beige classroom grid paper covers the entire background with thin muted blue-green ruled lines.
+  desc: ''
+- title: One oversized handmade paper-collage subject dominates the center and sits slightly right of the left text block.
+  desc: ''
+- title: The subject is a simple flat silhouette assembled from torn paper edges, not a rendered or realistic object.
+  desc: ''
+- title: Off-white paper layers and one saturated color-paper area create the main figure with very limited color variety.
+  desc: ''
+- title: Shallow physical shadows under torn paper edges create low relief while the camera remains front-facing and flat.
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -65,9 +71,11 @@ prompt: 'Create a {ASPECT_RATIO} image in the "school-grid-paper-cutout-poster" 
 
   Apply these style rules:
 
-  - Composition: warm cream classroom grid paper background, straight-on copy-stand view, one oversized torn-paper collage object centered slightly right of the hand-written text block, generous empty grid space, and a narrow pale bottom margin.
+  - Composition: warm cream classroom grid paper background, straight-on copy-stand view, one oversized torn-paper collage object centered slightly right of the hand-written text block, generous empty grid
+  space, and a narrow pale bottom margin.
 
-  - Typography: one compact vertical column or two slim vertical columns of loose hand-drawn notebook characters on the upper-left side, dark graphite or faded ink, uneven and human, never clean digital type.
+  - Typography: one compact vertical column or two slim vertical columns of loose hand-drawn notebook characters on the upper-left side, dark graphite or faded ink, uneven and human, never clean digital
+  type.
 
   - Color: mostly yellowed beige paper with muted blue-green grid lines, cream torn-paper layers, one saturated cut-paper accent color, and tiny dark handwritten marks.
 
@@ -76,7 +84,8 @@ prompt: 'Create a {ASPECT_RATIO} image in the "school-grid-paper-cutout-poster" 
   - Graphic elements: ruled grid structure, torn paper silhouette, optional tiny generic seal-like mark, and a small bottom caption strip; keep all marks generic.
 
 
-  Avoid: no ice cream, no soft-serve shape, no cone silhouette, no fast-food branding, no recognizable logo, no original Chinese headline, no source watermark or signature, no dense scene, no glossy product render, no 3D object, no vector poster, no QR code.
+  Avoid: no ice cream, no soft-serve shape, no cone silhouette, no fast-food branding, no recognizable logo, no original Chinese headline, no source watermark or signature, no dense scene, no glossy product
+  render, no 3D object, no vector poster, no QR code.
 
 
   Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while preserving the style fidelity anchors.'

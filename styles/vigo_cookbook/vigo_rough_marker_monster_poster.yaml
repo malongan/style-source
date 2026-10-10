@@ -2,19 +2,24 @@ name: Rough Marker Monster Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: 稚拙 儿童海报 系统，由 厚 黑标记轮廓， 粗糙 蜡笔-粉彩颜色填充奶油色 纸张纹理， ，超大高形态飞生物和粗块 手写 黑 文字。
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A naive children's poster system built from thick black marker outlines, rough crayon-pastel color fills, cream paper grain, oversized goofy creature forms, and chunky hand-lettered black text.
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Rough Marker Monster Poster Style
 features:
-- '* *奶油纸背景 暖色调 斑点，细腻无比真实环境。* *'
-- '* *粗黑标记或油画棒键线有划边缘痕、摇晃和不均匀的压力。* *'
-- '* *一个巨大 简化 字符或物体-字符 占据画面大部分并且是大胆裁切。* *'
-- '* *扁平的儿童式结构，没有写实透视，没有3D建模，也没有抛光矢边缘量。* *'
-- '* *饱和标记填充显示可见 纹理、小 白间隙和粗糙手工着色质感。* *'
+- title: Cream paper background with warm tint, subtle speckle, and no realistic environment.
+  desc: ''
+- title: Thick black marker or oil-pastel keylines with scratchy edges, wobble, and uneven pressure.
+  desc: ''
+- title: One huge simplified character or object-character fills most of the frame and is cropped boldly.
+  desc: ''
+- title: Flat childlike construction with no realistic perspective, no 3D modeling, and no polished vector edges.
+  desc: ''
+- title: Saturated marker fills show visible grain, small white gaps, and rough hand-colored texture.
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -37,8 +42,13 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: large rough hand-lettered black phrase
   desc: ''
-prompt: 'Create a {ASPECT_RATIO} raster poster in the Rough Marker Monster Poster Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or object styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: warm cream paper background with subtle speckle; one huge flat childlike creature or object-character dominating the poster; thick scratchy black marker outlines; rough saturated marker fills with visible grain and small white paper gaps; chunky irregular black hand-lettered text integrated into empty corners; tiny dots, hatch marks, cheek spots, rectangles, and scribble accents; limited palette with one dominant bright body color, warm yellow-orange
-  accents, white eye or mouth shapes, and black text; flat handmade construction with no realistic perspective, no 3D, no clean vector polish, no photographic environment. Important content rule: preserve the visual style first, then change the content with a new subject, new action, new prop, new fictional text, and new story premise.'
+prompt: 'Create a {ASPECT_RATIO} raster poster in the Rough Marker Monster Poster Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background
+  elements: {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or object styling: {WARDROBE_STYLE}. Style fidelity
+  anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: warm cream paper background with subtle speckle; one huge flat
+  childlike creature or object-character dominating the poster; thick scratchy black marker outlines; rough saturated marker fills with visible grain and small white paper gaps; chunky irregular black hand-lettered
+  text integrated into empty corners; tiny dots, hatch marks, cheek spots, rectangles, and scribble accents; limited palette with one dominant bright body color, warm yellow-orange accents, white eye or
+  mouth shapes, and black text; flat handmade construction with no realistic perspective, no 3D, no clean vector polish, no photographic environment. Important content rule: preserve the visual style first,
+  then change the content with a new subject, new action, new prop, new fictional text, and new story premise.'
 preview: https://malongan.github.io/images/vigo_previews/rough-marker-monster-poster.jpg
 id: vigo_rough_marker_monster_poster
 code: ''

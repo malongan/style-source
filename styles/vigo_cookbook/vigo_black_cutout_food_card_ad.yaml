@@ -2,8 +2,9 @@ name: Black Cutout Food Card Ad
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: https://x.com/VigoCreativeAI
-summary: 黑底 美食 promotion 风格 以 one irregular 奶油色 paper 卡片, 超大 hand-brushed Chinese 字体, clipped 美食摄影, 小 price medallions, warm 红/黄色 accents, and a handmade 街头-snack 印刷 质感.
+source_url: 'https://x.com/VigoCreativeAI'
+summary: A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow
+  accents, and a handmade street-snack print texture.
 tags:
 - VigoCookbook
 - handmade
@@ -17,11 +18,16 @@ tags:
 triggers:
 - Black Cutout Food Card Ad
 features:
-- '**Full 黑 canvas ，搭配 graphic 卡片 floating 作为 only 明亮 物体.**'
-- '**One 大 奶油色 or 老化-paper irregular 剪影 卡片, with 圆形ed handmade 边缘s and a different 轮廓 per case.**'
-- '**Dense 左侧-to-右侧 海报 hierarchy: 大 垂直 Chinese brush 字体 competes ，搭配 美食 照片 and a price medallion.**'
-- '**Food is treated as a 光泽 clipped 照片 拼贴 元素, not a 扁平插画.**'
-- '**Card 室内 uses warm 奶油色, faded 赭石, 深 红, 橙, 棕, and 黑 墨水 with limited palette discipline.**'
+- title: Full black canvas with the graphic card floating as the only bright object.
+  desc: ''
+- title: One large cream or aged-paper irregular cutout card, with rounded handmade edges and a different silhouette per case.
+  desc: ''
+- title: 'Dense left-to-right poster hierarchy: large vertical Chinese brush lettering competes with a food photo and a price medallion.'
+  desc: ''
+- title: Food is treated as a glossy clipped photo collage element, not a flat illustration.
+  desc: ''
+- title: Card interior uses warm cream, faded ochre, deep red, orange, brown, and black ink with limited palette discipline.
+  desc: ''
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -44,8 +50,12 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: large hand-brushed Chinese dish name or short food headline
   desc: ''
-prompt: 'Create a {ASPECT_RATIO} promotional food poster in the "Black Cutout Food Card Ad" visual style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location context: {LOCATION}. Background and card details: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Food styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these rules: pure black outer background; a single warm cream irregular cutout card with handmade rounded or torn edges; each card silhouette must be visibly different from other cases; dense Chinese street-food ad hierarchy; oversized rough hand-brushed Chinese lettering; realistic clipped food photo collage placed on the flat card; bold yuan price medallion with a value that is not 8; tiny vertical side seals and craft labels; deep red bottom ribbon with short white lettering; ochre, mustard, seal
-  red, dark brown ink, warm cream paper, paper grain, slight scan softness, subtle card shadow. Match the reference style first, then change the dish, text, prop, card outline, price, and layout details.'
+prompt: 'Create a {ASPECT_RATIO} promotional food poster in the "Black Cutout Food Card Ad" visual style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location context:
+  {LOCATION}. Background and card details: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Food styling: {WARDROBE_STYLE}. Style fidelity
+  anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these rules: pure black outer background; a single warm cream irregular cutout card with handmade rounded or
+  torn edges; each card silhouette must be visibly different from other cases; dense Chinese street-food ad hierarchy; oversized rough hand-brushed Chinese lettering; realistic clipped food photo collage
+  placed on the flat card; bold yuan price medallion with a value that is not 8; tiny vertical side seals and craft labels; deep red bottom ribbon with short white lettering; ochre, mustard, seal red, dark
+  brown ink, warm cream paper, paper grain, slight scan softness, subtle card shadow. Match the reference style first, then change the dish, text, prop, card outline, price, and layout details.'
 preview: https://malongan.github.io/images/vigo_previews/black-cutout-food-card-ad.jpg
 id: vigo_black_cutout_food_card_ad
 code: ''
