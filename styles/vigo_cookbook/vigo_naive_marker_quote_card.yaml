@@ -27,8 +27,7 @@ features:
 - title: Naive hand-drawn black marker outlines with wobbly contours, uneven line
     weight, and visible human imperfection.
   desc: ''
-- title: Blocky uppercase blue hand lettering arranged in short broken lines, with
-    irregular spacing and imperfect baselines.
+- title: 块状大写蓝色手写字体，排成短促断续的行，字距不规则、基线不齐。
   desc: ''
 variables:
 - kv_var: 变量

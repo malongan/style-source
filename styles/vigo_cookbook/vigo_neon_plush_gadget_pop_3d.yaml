@@ -1,25 +1,24 @@
-name: Neon Plush Gadget Pop 3D Style
+name: 霓虹毛绒数码配件 3D 流行风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A glossy toy-advertising 3D style built from acid lime studio backdrops, oversized fuzzy plush mascots, chunky tech props, soft textile surfaces, translucent plastic accessories, checkerboard cards,
-  sticker-like icons, hot-pink burst graphics, and bright commercial lighting.
+summary: 亮面玩具广告 3D 风格：由酸性青柠影棚背景、超大号毛绒吉祥物、厚重科技道具、柔软织物表面、半透明塑料配件、棋盘格卡片、贴纸式图标、品红爆发图形，以及明亮商业布光构成。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Neon Plush Gadget Pop 3D Style
 features:
-- title: Acid lime or neon yellow-green studio background dominates the frame, with a soft gradient glow rather than realistic scenery.
+- title: 酸性青柠或霓虹黄绿影棚背景主导画面，带柔和渐变辉光，而非写实场景。
   desc: ''
-- title: A single oversized plush mascot or fuzzy toy object fills the lower center, cropped close enough to feel tactile and collectible.
+- title: 单个超大号毛绒吉祥物或毛绒玩具占据下方中央，裁切得足够近，有可触摸的收藏品质感。
   desc: ''
-- title: Surfaces mix fuzzy knitted fabric, soft fleece, glossy molded plastic, translucent jelly material, chrome accents, and rubbery toy parts.
+- title: 表面混合毛茸茸的针织面料、柔软抓绒、亮面模压塑料、半透明果冻材质、铬质点缀，以及橡胶质感的玩具部件。
   desc: ''
-- title: The main prop is a chunky toy-like gadget or product object sitting on or hugging the plush subject.
+- title: 主道具是一个厚重的玩具式小装置或产品物件，坐在毛绒主体上或抱住它。
   desc: ''
-- title: Palette uses electric lime as the base with cyan, sky blue, hot pink, lavender, yellow, white, chrome gray, and small black details.
+- title: 配色以电光青柠为基底，搭配青色、天蓝、品红、薰衣草紫、黄色、白色、铬灰，以及少量黑色细节。
   desc: ''
 variables:
 - kv_var: 变量

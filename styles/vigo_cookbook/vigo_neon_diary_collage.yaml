@@ -1,25 +1,24 @@
-name: Neon Outdoor Diary Longform Collage Style
+name: 霓虹户外日记长图拼贴风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A tall mobile-first outdoor diary poster system with a charcoal black canvas, documentary action-photo cutouts, acid green kinetic headlines, ripped paper panels, hand-drawn arrows, sticker labels,
-  numbered sections, and dense social-note pacing.
+summary: 竖长移动端优先的户外日记海报体系：炭黑画布、纪实动感照片剪贴、酸性绿动态标题、撕裂纸面板、手绘箭头、贴纸标签、编号分节，以及密集的社交笔记节奏。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Neon Outdoor Diary Longform Collage Style
 features:
-- title: Charcoal black background with thin vertical mobile-scroll framing and high-density stacked sections.
+- title: 炭黑背景，带细窄的竖向导览框，以及高密度堆叠的分节。
   desc: ''
-- title: Documentary outdoor photo-collage subject cutouts with rough white keyline edges and mixed scale.
+- title: 纪实户外照片拼贴的主体剪贴，带粗糙的白色描边轮廓与大小混合的尺度。
   desc: ''
-- title: Acid green and white oversized condensed headline typography on slanted black label strips.
+- title: 酸性绿与白色的超大号窄体标题，置于倾斜的黑色标签条上。
   desc: ''
-- title: Orange hand-drawn arrows, loops, lightning marks, route lines, and small doodle bursts around content blocks.
+- title: 橙色手绘箭头、回环、闪电符号、路线，以及内容块周围的小型涂鸦爆发图形。
   desc: ''
-- title: Ripped notebook paper or torn tape panels used as schedule, rules, or checklist sections.
+- title: 撕裂的笔记本纸或胶带面板，用作日程、规则或清单分节。
   desc: ''
 variables:
 - kv_var: 变量
