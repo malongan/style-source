@@ -1,10 +1,9 @@
-name: Clean Triptych Travel Vlog Thumbnail Style
+name: 干净的旅行 Vlog 三联缩略图风格
 category: travel
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations, sparse hand-drawn marks, and a soft
-  phone-camera editorial finish.
+summary: 干净的旅行 Vlog 缩略图体系：由三个竖向摄影分栏、超大号小写白色目的地字体、小号斜体旅行注释、稀疏手绘符号，以及柔和的手机摄影编辑收尾构成。
 tags:
 - VigoCookbook
 - clean
@@ -31,16 +30,15 @@ tags:
 triggers:
 - Clean Triptych Travel Vlog Thumbnail Style
 features:
-- title: 'Preserve the core visual identity: A clean travel-vlog thumbnail system built from three vertical photographic panels, oversized lowercase white destination type, small italic travel annotations,
-    sparse hand-drawn marks, and a soft phone-camera editorial finish.'
+- title: '保留核心视觉识别：干净的旅行 Vlog 缩略图体系，由三个竖向摄影分栏、超大号小写白色目的地字体、小号斜体旅行注释、稀疏手绘符号，以及柔和的手机摄影编辑收尾构成。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use a clean three-panel travel-vlog thumbnail composition.
+- title: 使用干净的三联旅行 Vlog 缩略图构图。
   desc: ''
-- title: Divide the frame into three equal vertical photographic panels with hard edges and no visible border.
+- title: 把画面分成三个等宽的竖向摄影分栏，硬边分割、不出现可见边框。
   desc: ''
-- title: Place a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels.
+- title: 把超大号小写目的地大标题以纯白色横贯整张画面的中心，穿过全部三个分栏。
   desc: ''
 variables:
 - kv_var: 变量

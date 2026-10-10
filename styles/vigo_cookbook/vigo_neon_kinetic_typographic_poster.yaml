@@ -1,9 +1,9 @@
-name: Neon Kinetic Typographic Poster
+name: 霓虹动态字体海报
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture campaign design.
+summary: 戏剧化的户外编辑海报风格：结合低角度生活方式摄影、超大号扭曲霓虹字体、胶片颗粒，以及高能量的青年文化营销企划设计。
 tags:
 - VigoCookbook
 - dramatic
@@ -25,16 +25,15 @@ tags:
 triggers:
 - Neon Kinetic Typographic Poster
 features:
-- title: 'Preserve the core visual identity: A dramatic outdoor editorial poster style combining low-angle lifestyle photography, oversized warped neon typography, film grain, and high-energy youth-culture
-    campaign design.'
+- title: '保留核心视觉识别：戏剧化的户外编辑海报风格，结合低角度生活方式摄影、超大号扭曲霓虹字体、胶片颗粒，以及高能量的青年文化营销企划设计。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use an extreme low-angle wide-angle camera perspective, as if the camera is near the ground looking upward.
+- title: 使用极限低角度广角镜头视角，仿佛相机贴近地面向上仰拍。
   desc: ''
-- title: Add oversized warped neon yellow typography using MAIN_TEXT.
+- title: 用 MAIN_TEXT 添加超大号扭曲的霓虹黄字体。
   desc: ''
-- title: The typography should wrap around the composition and sit behind or partially around the subject.
+- title: 字体应环绕整个构图，位于主体之后或部分环绕主体。
   desc: ''
 variables:
 - kv_var: 变量

@@ -1,10 +1,9 @@
-name: Soft Analog Future Editorial Poster
+name: 柔和模拟未来编辑设计海报
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life, pale-blue translucent interface panels,
-  botanical foreground accents, and tiny bilingual information design.
+summary: 安静的模拟未来编辑设计海报风格：暖米色纸张、超大号黑色新怪诞体排版、严谨的网格规则、复古科技静物、淡蓝色半透明界面面板、植物前景点缀，以及微小的双语信息设计。
 tags:
 - VigoCookbook
 - quiet
@@ -35,17 +34,15 @@ tags:
 triggers:
 - Soft Analog Future Editorial Poster
 features:
-- title: 'Preserve the core visual identity: A quiet analog-future editorial poster style using warm cream paper, oversized black neo-grotesk typography, strict grid rules, retro technology still life,
-    pale-blue translucent interface panels, botanical foreground accents, and tiny bilingual information design.'
+- title: '保留核心视觉识别：安静的模拟未来编辑设计海报风格，暖米色纸张、超大号黑色新怪诞体排版、严谨的网格规则、复古科技静物、淡蓝色半透明界面面板、植物前景点缀，以及微小的双语信息设计。'
   desc: ''
-- title: Place PRODUCT_OR_PROP in LOCATION as the restrained hero object.
+- title: 将 PRODUCT_OR_PROP 置于 LOCATION，作为克制的视觉主体。
   desc: ''
-- title: 'Typography: set MAIN_TEXT as very large black neo-grotesk type.'
+- title: 'Typography：将 MAIN_TEXT 设为超大号黑色新怪诞体。'
   desc: ''
-- title: Use ACCENT_SYMBOL as a sparse graphic mark.
+- title: 用 ACCENT_SYMBOL 作为稀疏的图形标记。
   desc: ''
-- title: 'Visual treatment: warm cream paper background, strict grid layout, thin rules, soft daylight, tactile matte materials, gentle paper grain, pale-blue translucent interface panel, botanical foreground
-    accents, and quiet negative space.'
+- title: '视觉处理：暖米色纸张背景、严谨的网格布局、细线、柔和日光、有触感的哑光材质、细腻纸张颗粒、淡蓝色半透明界面面板、植物前景点缀，以及安静的留白。'
   desc: ''
 variables:
 - kv_var: 变量

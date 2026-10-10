@@ -19,14 +19,14 @@ triggers:
 
 features:
   - "**前景字叠加人物** — 超大城市名物理层叠于人物主体，正面覆盖躯干，部分藏于头肩后"
-  - "**城市天际线替换** — Grayscale 城市摄影为背景，地标建筑/天桥随城市名切换"
+  - "**城市天际线替换** — 灰度城市摄影为背景，地标建筑/天桥随城市名切换"
   - "**编辑网格系统** — 细线、几何圆形、点阵、矩形、技术标注、坐标、小标签"
-  - "**暖奶油色主调** — 暖白背景 + 深黑 Oversized 字体 + 红/蓝/黄色点缀色块"
+  - "**暖奶油色主调** — 暖白背景 + 深黑超大号字体 + 红/蓝/黄色点缀色块"
   - "**竖版期刊构图** — 大面积留白、主图占中、精准分层、前景字母贯穿主体"
 
 scene: "社媒头像转换、城市主题KV、杂志封面感写真、偶像应援"
 ratio: "9:16"
-summary: "超大城市名 Oversized 字体物理叠加于人物主体，Grayscale 城市背景，暖奶油色+深黑+点缀色的精致期刊封面海报风格"
+summary: "超大号城市名字体物理叠加于人物主体，灰度城市背景，暖奶油色 + 深黑 + 点缀色的精致期刊封面海报风格"
 
 prompt: |
   Recreate the reference image as a premium editorial city poster. Replace the original person with {SUBJECT} while preserving SUBJECT's identity, facial features, hairstyle, hair color, skin tone, and natural appearance. SUBJECT must be standing in the SAME pose, SAME body orientation, SAME framing, SAME scale, and approximately the SAME position as the reference subject.

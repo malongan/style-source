@@ -1,10 +1,9 @@
-name: Neon Doodle Gallery Snapshot
+name: 霓虹涂鸦展厅抓拍
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: 'A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb
-  corners, scribble bars, halos, plants, and student diary energy.'
+summary: '随手手机摄影风格，叠加混乱的霓虹数字马克笔涂鸦：品红与青色的主体轮廓线、黄色怪物尖刺、粗糙手写注释、星星、爪印、蛛网边角、涂鸦条、光环、植物，以及学生日记般的活力。'
 tags:
 - VigoCookbook
 - candid
@@ -36,16 +35,15 @@ tags:
 triggers:
 - Neon Doodle Gallery Snapshot
 features:
-- title: 'Preserve the core visual identity: A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions,
-    stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.'
+- title: '保留核心视觉识别：随手手机摄影风格，叠加混乱的霓虹数字马克笔涂鸦，品红与青色的主体轮廓线、黄色怪物尖刺、粗糙手写注释、星星、爪印、蛛网边角、涂鸦条、光环、植物，以及学生日记般的活力。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use a realistic candid phone-photo as the base layer.
+- title: 以写实的随手手机照片作为底层。
   desc: ''
-- title: 'The setting should feel specific and ordinary: visible walls, art, shelves, labels, tables, lamps, posters, people, bags, shadows, grain, and imperfect handheld framing.'
+- title: '场景要有具体而日常的气息：可见的墙面、艺术品、货架、标签、桌子、台灯、海报、人物、包、阴影、颗粒感，以及不完美的持机取景。'
   desc: ''
-- title: Draw a loud digital marker layer directly on top of the photo.
+- title: 在照片正上方直接叠一层张扬的数字马克笔图层。
   desc: ''
 variables:
 - kv_var: 变量

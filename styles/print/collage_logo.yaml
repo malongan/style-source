@@ -1,4 +1,4 @@
-name: 拼贴logo（马赛克风格）
+name: 拼贴标识（马赛克风格）
 category: print
 ratio: 1:1 方图（2048x2048）
 source_author: 内部模板
@@ -19,7 +19,7 @@ features:
   desc: ''
 - title: 光泽玻璃 + 镀铬材质
   desc: ''
-- title: disco-ball 镜面砖效果
+- title: 迪斯科球镜面砖效果
   desc: ''
 - title: 柔和工作室灯光
   desc: ''

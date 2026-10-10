@@ -1,10 +1,9 @@
-name: Bold Block Mascot Poster Style
+name: 粗块吉祥物海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A dense flat poster system built from giant black display type, chunky white mascot figures, thick cartoon outlines, tilted cyan or mint color panels, compact badges, tiny red accents, and a clean
-  off-white print surface.
+summary: 高密度的扁平海报体系：巨大黑色展示字体、厚重白色吉祥物形象、粗卡通描边、倾斜的青色或薄荷绿面板、紧凑徽章、细小红色点缀，以及干净的米白印刷底。
 tags:
 - VigoCookbook
 - flat
@@ -18,15 +17,15 @@ tags:
 triggers:
 - Bold Block Mascot Poster Style
 features:
-- title: Poster-first composition with an oversized black headline occupying the top band, side band, or dominant title block.
+- title: 海报优先构图：超大号黑色大标题占据顶部条带、侧边条带或主导标题块。
   desc: ''
-- title: High layout density with very little empty space, while all shapes remain simple, flat, and readable.
+- title: 版式密度高、留白极少，同时所有形状都保持简单、扁平、易读。
   desc: ''
-- title: One or two rounded white mascot-like figures or simplified graphic subjects drawn with very thick black outlines and minimal facial marks.
+- title: 一到两个圆润的白色吉祥物式形象或简化图形主体，用极粗黑色描边与极简面部标记绘制。
   desc: ''
-- title: One large tilted cyan, teal, mint, or lemon color panel crossing the middle of the frame as the main graphic mass.
+- title: 一块大型倾斜的青色、蓝绿、薄荷绿或柠檬黄面板横穿画面中部，作为主要图形体块。
   desc: ''
-- title: Secondary green, red, black, or pale color blocks sit behind the subject and are edged by heavy black strokes.
+- title: 次级绿色、红色、黑色或浅色色块位于主体之后，并以厚重黑色笔触勾边。
   desc: ''
 variables:
 - kv_var: 变量

@@ -1,10 +1,9 @@
-name: Gothic Cat Doodle Photo Collage Style
+name: 哥特猫涂鸦照片拼贴风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn headline lettering, and loose marker
-  doodles.
+summary: 俏皮的照片插画拼贴风格：把戏剧化的真实建筑摄影与超大号扁平卡通生物叠加、圆润的手绘标题字，以及随性的马克笔涂鸦结合在一起。
 tags:
 - VigoCookbook
 - playful
@@ -30,16 +29,15 @@ tags:
 triggers:
 - Gothic Cat Doodle Photo Collage Style
 features:
-- title: 'Preserve the core visual identity: A playful photo-illustration collage style combining dramatic real architectural photography with oversized flat cartoon creature overlays, bubbly hand-drawn
-    headline lettering, and loose marker doodles.'
+- title: '保留核心视觉识别：俏皮的照片插画拼贴风格，把戏剧化的真实建筑摄影与超大号扁平卡通生物叠加、圆润的手绘标题字，以及随性的马克笔涂鸦结合在一起。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use a realistic low-angle architectural photograph as the base layer.
+- title: 以写实的低角度建筑摄影作为底层。
   desc: ''
-- title: Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky.
+- title: 保持立面细节丰富、可辨识、具摄影感，带戏剧化的垂直透视与高饱和青蓝天空。
   desc: ''
-- title: Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights.
+- title: 叠上一只超大号扁平卡通生物，用高饱和番茄红或其他大胆颜色，带粗糙的黑色马克笔轮廓、简洁而表现性的五官、裁切掉的肢体，以及细小的黄色边缘高光。
   desc: ''
 variables:
 - kv_var: 变量

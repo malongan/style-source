@@ -1,9 +1,9 @@
-name: Luxury Beauty Campaign Side Profile Poster
+name: 高端美妆营销企划侧面人像海报
 category: brand_kv
 ratio: 9:16（竖版）
 source_author: '@MrLarus'
 source_url: 'https://x.com/MrLarus'
-summary: 高端美妆 campaign 的核心公式：近景侧面女性肖像 + 超大半透明衬线字体 + 红色手写体点缀 + 温暖逆光 = 干净、光泽、电影感的商业级大片。
+summary: 高端美妆营销企划的核心公式：近景侧面女性肖像 + 超大半透明衬线字体 + 红色手写体点缀 + 温暖逆光 = 干净、光泽、电影感的商业级大片。
 tags:
 - 美妆
 - 高端
@@ -20,20 +20,20 @@ triggers:
 - 衬线字体
 - 红色手写体
 features:
-- title: Close-up side-profile female portrait
+- title: 近景侧面女性肖像
   desc: 近景侧面女性肖像作为画面主体
-- title: Realistic skin texture
+- title: 真实皮肤纹理
   desc: 真实皮肤纹理，自然裸妆
-- title: Warm reverse light
+- title: 温暖逆光
   desc: 温暖逆光，营造光泽感
-- title: Oversized translucent serif typography
+- title: 超大半透明衬线字体
   desc: 超大半透明衬线字体
-- title: One red handwritten script accent
+- title: 一处红色手写体强调
   desc: 一处红色手写体强调
-- title: Minimal blurred background
+- title: 极简模糊背景
   desc: 极简模糊背景
-- title: Small brand logo + slogan + copy
-  desc: 品牌 logo + 标语 + 正文 + 页脚细节
+- title: 小号品牌标识 + 标语 + 正文
+  desc: 品牌标识、标语、正文与页脚细节
 variables:
 - kv_var: 主标题
   style_var: '{{Main title}}'

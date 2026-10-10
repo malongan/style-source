@@ -1,10 +1,9 @@
-name: Folded Newspaper Product Ad Style
+name: 折叠报纸产品广告风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red
-  editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.
+summary: 折叠大报产品广告风格：由密集的双语报纸排版、磨损的米白纸张、黑色与古金展示标题、印章式标签图形、一个红色编辑侧栏标签，以及一个压在前景页面上方的巨大超写实主产品构成。
 tags:
 - VigoCookbook
 - folded
@@ -16,15 +15,15 @@ tags:
 triggers:
 - Folded Newspaper Product Ad Style
 features:
-- title: Single off-white broadsheet newspaper page fills the canvas, with visible folds, wrinkles, slightly buckled paper, and uneven scanned print softness.
+- title: 单张米白色大报纸页充满画面，带可见折痕、褶皱、轻微翘曲的纸张，以及扫描印刷特有的不均匀柔和感。
   desc: ''
-- title: Dense bilingual editorial layout uses many narrow body-copy columns, rule lines, small captions, box modules, and print-grid alignment behind the hero object.
+- title: 密集的双语编辑版式在主产品背后使用大量窄正文分栏、分隔线、小注释、方框模块与印刷网格对齐。
   desc: ''
-- title: One enormous photorealistic product or object sits in the lower-to-middle foreground, cropped large and overlapping the flat page as a pasted advertising cutout.
+- title: 一个巨大的超写实产品或物件位于中下部前景，大幅裁切，并以粘贴式广告剪贴的形态叠在平面报纸页上。
   desc: ''
-- title: Large black display headline and antique-gold secondary headline dominate the upper or left page, with heavy condensed Chinese-inspired block type.
+- title: 黑色大号展示标题与古金色副标题主导页面上部或左侧，使用厚重的窄体中式块状字体。
   desc: ''
-- title: A rubber-stamp or coupon-stamp frame sits at an angle, using distressed black ink, slab serif or stencil lettering, and small rays or separator marks.
+- title: 一个橡胶印章或优惠券印章框倾斜放置，使用做旧黑墨、粗衬线或模板字体，以及细小的放射线或分隔符。
   desc: ''
 variables:
 - kv_var: 变量

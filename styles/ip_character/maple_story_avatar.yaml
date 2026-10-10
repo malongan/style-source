@@ -1,4 +1,4 @@
-name: maple_story_avatar（冒险岛角色精灵转换）
+name: 冒险岛角色精灵转换
 category: ip_character
 ratio: 1:1（1080x1080）
 source_author: '@20_v_e'
@@ -26,7 +26,7 @@ features:
   desc: ''
 - title: '**纯白底正方形**：1080x1080，纯白背景，单角色居中'
   desc: ''
-- title: '**图层规范**：Hair → Hat → Face Accessory → Top → Bottom → Shoes → Cape → Weapon'
+- title: '**图层规范**：发型 → 帽子 → 面部装饰 → 上衣 → 下装 → 鞋子 → 披风 → 武器'
   desc: ''
 variables:
 - kv_var: 主标题（角色名）

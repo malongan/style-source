@@ -1,10 +1,9 @@
-name: Metro Doodle Snapshot Diary
+name: 地铁涂鸦实拍日记风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white
-  handwritten diary notes, and saturated comic face overlays.
+summary: 手持感都市通勤照片拼贴风格：把写实拥挤的地铁、公交、电车或车站抓拍，与表现性马克笔式卡通涂鸦、超大号前景手势、白色手写日记文字，以及高饱和漫画脸部叠加结合起来。
 tags:
 - VigoCookbook
 - handheld
@@ -36,17 +35,15 @@ tags:
 triggers:
 - Metro Doodle Snapshot Diary
 features:
-- title: 'Preserve the core visual identity: A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles,
-    oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays.'
+- title: '保留核心视觉识别：手持感都市通勤照片拼贴风格，把写实拥挤的地铁、公交、电车或车站抓拍，与表现性马克笔式卡通涂鸦、超大号前景手势、白色手写日记文字，以及高饱和漫画脸部叠加结合起来。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use a realistic candid phone-photo as the base layer.
+- title: 以写实的手机抓拍照片作为底层。
   desc: ''
-- title: 'The scene should feel like a real public transit or dense city moment: visible doors, rails, signs, floor markings, lights, scuffed surfaces, reflections, crowd density, practical clothing, and
-    imperfect handheld framing.'
+- title: '场景应像真实的公共交通或拥挤都市瞬间：可见的车门、扶手、标识、地面标线、灯光、磨损表面、反光、人群密度、实用衣着，以及不完美的手持取景。'
   desc: ''
-- title: Draw playful comic-marker doodles directly on top of the photo.
+- title: 直接在照片上绘制童趣的漫画马克笔涂鸦。
   desc: ''
 variables:
 - kv_var: 变量

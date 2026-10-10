@@ -1,24 +1,24 @@
-name: Sunlit Supermodel Nameplate Editorial
+name: 日光超模名牌编辑风格
 category: fashion
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A warm analog fashion editorial poster style combining an outdoor supermodel photograph, lush foreground texture, a small material nameplate detail, and clean white lower-third title/caption typography.
+summary: 温暖的模拟胶片时尚编辑海报风格：结合户外超模摄影、繁茂的前景肌理、细小的材质铭牌细节，以及干净白色下三分之一标题/注释排版。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Sunlit Supermodel Nameplate Editorial
 features:
-- title: Low-angle or seated outdoor fashion editorial composition with the model filling the middle third.
+- title: 低角度或坐姿的户外时尚编辑构图，模特占据中间三分之一。
   desc: ''
-- title: Warm direct sunlight, soft analog shadow rolloff, natural skin highlights, and slight film contrast.
+- title: 温暖直射日光、柔和的模拟胶片阴影过渡、自然的皮肤高光，以及轻微的胶片对比。
   desc: ''
-- title: Dense botanical or environmental foreground blur crossing the lower frame.
+- title: 密集的植物或环境前景虚化横贯画面下部。
   desc: ''
-- title: Shallow depth of field with garden, greenhouse, terrace, or coastal texture melting into bokeh.
+- title: 浅景深，花园、温室、露台或海岸的肌理融化成散景。
   desc: ''
-- title: Calm supermodel posture with elongated neck, relaxed hands, and composed expression.
+- title: 沉静的超模姿态：修长的颈部、放松的手、从容的表情。
   desc: ''
 variables:
 - kv_var: 变量

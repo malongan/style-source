@@ -22,12 +22,12 @@ features:
   - "**黑白铅笔线稿** — 高细节铅笔线条画，微妙石墨明暗过渡，超写实风格"
   - "**单色红色点缀** — 画面仅一处粗犷红色笔触点缀，打破全黑白单调"
   - "**高分辨率干净构图** — 简洁构图，高分辨率，干净排版"
-  - "**画廊级fine art质感** — 美术馆墙画、现代海报级别细节与质感"
+  - "**画廊级纯艺术质感** — 美术馆墙画、现代海报级别细节与质感"
   - "**3:2 横向画幅** — 适合画廊墙画印刷或现代海报展示"
 
 scene: "画廊墙画装饰、现代海报、fine art插画、头像转换"
 ratio: "3:2"
-summary: "以超写实黑白铅笔画为主视觉，单一粗犷红色笔触点缀画面，打破全黑白单调，画廊级fine art质感"
+summary: "以超写实黑白铅笔画为主视觉，单一粗犷红色笔触点缀画面，打破全黑白单调，画廊级纯艺术质感"
 
 prompt: |
   Hyper-realistic black and white sketch of a {subject}, detailed pencil linework with subtle graphite shading, accented by a single bold stroke of red. High-resolution, clean composition, fine art illustration style, ideal for gallery wall prints or modern posters.

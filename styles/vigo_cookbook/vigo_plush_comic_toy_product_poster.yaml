@@ -1,10 +1,9 @@
-name: Plush Comic Toy Product Poster Style
+name: 毛绒漫画玩具产品海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations,
-  sticker labels, lightning graphics, and dense campaign microcopy.
+summary: 大声量的玩具产品海报风格：以一个毛绒产品为绝对主角，复古米色海报纸、青色圆形背景、超大号倾斜漫画字体、厚重黑色阴影、涂鸦注解、贴纸标签、闪电图形与密集的营销小字。
 tags:
 - VigoCookbook
 - loud
@@ -38,16 +37,15 @@ tags:
 triggers:
 - Plush Comic Toy Product Poster Style
 features:
-- title: 'Preserve the core visual identity: A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography,
-    thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.'
+- title: '保留核心视觉识别：大声量的玩具产品海报风格，以一个毛绒产品为绝对主角，复古米色海报纸、青色圆形背景、超大号倾斜漫画字体、厚重黑色阴影、涂鸦注解、贴纸标签、闪电图形与密集的营销小字。'
   desc: ''
-- title: 'Layout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow.'
+- title: '版式：把毛绒产品放大置于画面中下部，以 3/4 视角拍摄成有触感的 3D 产品，配柔和影棚阴影。'
   desc: ''
-- title: Place PRODUCT_OR_PROP and ACCENT_SYMBOL around the central subject as sticker-like supporting elements.
+- title: 把 PRODUCT_OR_PROP 与 ACCENT_SYMBOL 作为贴纸式辅助元素放在中心主体周围。
   desc: ''
-- title: Build the biggest graphic area from oversized tilted block typography using MAIN_TEXT as the campaign headline.
+- title: 用超大号倾斜方块字体构成最大的图形区域，以 MAIN_TEXT 作为营销企划大标题。
   desc: ''
-- title: Use TYPOGRAPHY_LANGUAGE to control the headline treatment and supporting type behavior.
+- title: 用 TYPOGRAPHY_LANGUAGE 控制大标题的处理方式与辅助字体的表现。
   desc: ''
 variables:
 - kv_var: 变量

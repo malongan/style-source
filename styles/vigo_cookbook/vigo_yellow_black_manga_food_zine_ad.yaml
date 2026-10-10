@@ -1,25 +1,24 @@
-name: Yellow Black Manga Food Zine Ad Style
+name: 黄黑漫画食品小志广告风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A dense Japanese-manga-inspired food and product zine advertisement style with black ink linework, yellow advertising blocks, cream paper fields, dramatic cropped character panels, glossy illustrated
-  hero objects, giant warped display typography, small Chinese editorial copy, and rough print texture.
+summary: 密集的日式漫画风食品与产品小志广告风格：黑墨线稿、黄色广告色块、米色纸张底色、戏剧化裁切的角色分格、亮面插画主产品、巨大扭曲的展示字体、小号中文编辑文案，以及粗糙印刷质感。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Yellow Black Manga Food Zine Ad Style
 features:
-- title: Dominant black, warm yellow, cream white, and small red-green accent palette with yellow occupying big advertising panels.
+- title: 以黑、暖黄、米白为主，少量红绿点缀的配色，黄色占据大面积广告色块。
   desc: ''
-- title: Dense manga page collage layout with diagonal cuts, rectangular inset panels, and very little unused space.
+- title: 密集的漫画页拼贴版式：对角线切分、矩形内嵌分格，几乎没有闲置空间。
   desc: ''
-- title: Huge warped display lettering that bends into perspective or stacks vertically like a loud printed sound effect.
+- title: 巨大的扭曲展示字体，沿透视弯折或竖向堆叠，像印刷出来的响亮拟声效果。
   desc: ''
-- title: Thick black keylines, speed hatching, sweat-drop marks, sparkle symbols, and rough hand-inked comic contours.
+- title: 粗重的黑色主线、速度线排线、汗滴符号、闪光符号，以及粗糙的手绘墨线漫画轮廓。
   desc: ''
-- title: One oversized glossy illustrated product or food object in the lower foreground with painterly highlights.
+- title: 一个超大号亮面插画产品或食品物件位于下方前景，带绘画感高光。
   desc: ''
 variables:
 - kv_var: 变量

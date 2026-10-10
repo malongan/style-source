@@ -1,10 +1,9 @@
-name: Y2K Grunge Hip-Hop Cutout Poster Style
+name: Y2K 粗粝嘻哈剪贴海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense editorial footer panels, and photocopied
-  print noise.
+summary: Y2K 粗粝嘻哈杂志拼贴海报风格：超大号照片剪贴、酸黄复古字体、粗粝的黑白墙面肌理、密集的编辑式页脚面板，以及影印般的印刷噪点。
 tags:
 - VigoCookbook
 - Y2K
@@ -24,17 +23,15 @@ tags:
 triggers:
 - Y2K Grunge Hip-Hop Cutout Poster Style
 features:
-- title: 'Preserve the core visual identity: A Y2K grunge hip-hop magazine collage poster style built from oversized photo cutouts, acid yellow retro typography, rough black-and-white wall textures, dense
-    editorial footer panels, and photocopied print noise.'
+- title: '保留核心视觉识别：Y2K 粗粝嘻哈杂志拼贴海报风格，超大号照片剪贴、酸黄复古字体、粗粝的黑白墙面肌理、密集的编辑式页脚面板，以及影印般的印刷噪点。'
   desc: ''
-- title: Place the subject as a large central photo cutout with an irregular white sticker-like outline.
+- title: 把主体作为大型中央照片剪贴，带不规则的白色贴纸式描边。
   desc: ''
-- title: Use a dirty black-and-white grunge wall background with BACKGROUND_ELEMENTS worked into the texture.
+- title: 使用脏感的黑白粗粝墙面背景，并把 BACKGROUND_ELEMENTS 融入肌理之中。
   desc: ''
-- title: Add a bright acid yellow information strip at the bottom with small editorial text reading SECONDARY_TEXT, small inset photo frames, barcode-like graphic elements, and ACCENT_SYMBOL.
+- title: 底部加一条明亮的酸性黄信息条，内含读取 SECONDARY_TEXT 的小号编辑文字、小型内嵌相框、条码式图形元素，以及 ACCENT_SYMBOL。
   desc: ''
-- title: The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta
-    print noise, energetic collage layout.
+- title: 整张图应具备 2000 年代初地下音乐杂志封面、混音带海报、街头服饰传单的气质：粗糙扫描印刷、高对比、浓重颗粒、影印质感、青与品红的印刷噪点，以及充满能量的拼贴版式。
   desc: ''
 variables:
 - kv_var: 变量

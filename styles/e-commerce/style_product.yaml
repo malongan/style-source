@@ -1,10 +1,9 @@
-name: Electric Blue Silhouette Product Launch Style
+name: 电光蓝剪影产品上市风格
 category: e-commerce
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A sparse premium consumer-tech launch poster style built from black negative space, a centered product silhouette, electric-blue rim lighting, a glowing horizontal platform, soft reflection, giant
-  cropped blue background typography, and clean white announcement copy.
+summary: 疏朗的高端消费科技上市海报风格：由黑色负空间、居中的产品剪影、电光蓝轮廓光、发光水平平台、柔和倒影、巨大的裁切蓝色背景字体，以及干净的白色发布文案构成。
 tags:
 - VigoCookbook
 - minimal
@@ -19,15 +18,15 @@ tags:
 triggers:
 - Electric Blue Silhouette Product Launch Style
 features:
-- title: Nearly black upper field with large areas of empty space.
+- title: 近乎纯黑的上部区域，留出大片空白。
   desc: ''
-- title: Single product hero centered on the vertical axis or slightly below center.
+- title: 单个主视觉产品居中于垂直轴，或略低于中心。
   desc: ''
-- title: Product remains mostly black, readable through electric-blue rim light and one tiny white status highlight.
+- title: 产品主体保持大面积黑色，通过电光蓝轮廓光与一处细小的白色状态高光得以辨识。
   desc: ''
-- title: Strong horizontal electric-blue platform or horizon line divides stage and foreground.
+- title: 鲜明的水平电光蓝平台或地平线，分隔主体台面与前景。
   desc: ''
-- title: Blue glow spreads across the floor with a soft reflection or shadow directly under the product.
+- title: 蓝色辉光铺延在地面，产品正下方带柔和倒影或阴影。
   desc: ''
 variables:
 - kv_var: 变量

@@ -1,7 +1,7 @@
 # Expressive Handwritten Headline（创意手写风格字体）
 
 id: expressive_handwritten_headline
-name: "Expressive Handwritten Headline"
+name: "表现性手写标题"
 name_cn: "创意手写风格字体"
 category: typography
 
@@ -23,10 +23,10 @@ triggers:
   - 活动Slogan字体
 
 features:
-  - "**创意手写体** — 笔画形态夸张且富有变化，表达性 handwriting"
-  - "**粗细对比强烈** — strong contrast between thick and thin strokes"
-  - "**不规则连笔/断点/延展** — irregular connecting strokes, broken bends, curved extensions and flourishes"
-  - "**随性自由活泼** — casual, free, lively feeling，打破常规字体规整性"
+  - "**创意手写体** — 笔画形态夸张且富有变化，手写表达感强"
+  - "**粗细对比强烈** — 笔画粗细之间形成强烈对比"
+  - "**不规则连笔/断点/延展** — 连笔不规整、折笔断开，带弧形延伸与花饰"
+  - "**随性自由活泼** — 气质随性、自由、鲜活，打破常规字体的规整性"
   - "**绿底白字** — 纯绿底 + 白色文字，干净利落"
   - "**扁平矢量** — 无阴影、无渐变，边缘清晰"
 

@@ -1,25 +1,24 @@
-name: Blue Halftone Ransom Zine Poster Style
+name: 蓝色半色调剪字拼贴海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A rough cobalt-blue ransom-zine poster system built from torn white paper scraps, black photocopied halftone subject cutouts, marker-like handwritten words, crumpled paper texture, and sparse noisy
-  micro captions.
+summary: 粗粝的钴蓝勒索信小志海报体系：由撕碎的白纸碎片、黑白影印半色调主体剪贴、马克笔手写文字、揉皱纸张肌理，以及稀疏的噪点式微型注释构成。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Blue Halftone Ransom Zine Poster Style
 features:
-- title: Dominant saturated cobalt-blue poster field with a narrow off-white paper border or visible paper edge.
+- title: 高饱和钴蓝主导海报版面，带一圈窄的米白纸边或可见的纸张边缘。
   desc: ''
-- title: Large irregular torn white paper islands, each with jagged scissor-cut edges and slight shadow or crease relief.
+- title: 大块不规则的撕裂白纸岛屿，每块带锯齿状剪切口，以及轻微阴影或折痕起伏。
   desc: ''
-- title: Black-and-white photocopy halftone subject cutouts with coarse dot screens, high contrast, and slightly broken edges.
+- title: 黑白影印半色调主体剪贴，粗网点、高对比、边缘略微破碎。
   desc: ''
-- title: Two or three oversized cutout subjects arranged as flat collage pieces, not realistic objects inside a scene.
+- title: 两三个超大号剪贴主体以扁平拼贴方式排布，而非场景内的写实物件。
   desc: ''
-- title: Handwritten marker typography on torn paper strips, with uneven baseline, casual spacing, and imperfect black ink.
+- title: 撕纸条上的马克笔手写字体，基线不齐、字距随意、黑墨不均匀。
   desc: ''
 variables:
 - kv_var: 变量

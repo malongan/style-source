@@ -1,4 +1,4 @@
-name: Object Illustration Combo - 真实物体插画融合
+name: 真实物体插画融合
 category: creative
 ratio: 9:16（竖版）
 source_author: '@ShamsAmin56'
@@ -18,15 +18,15 @@ triggers:
 - 产品插画
 - 创意合成
 features:
-- title: Photorealistic object
+- title: 写实物体
   desc: 写实产品照，高细节
-- title: Hand-drawn black ink cartoon
+- title: 黑色墨水手绘卡通
   desc: 黑色墨水手绘线条画，简洁表达
-- title: Perfect seamless blend
+- title: 完美无缝融合
   desc: 真实物体与卡通无缝结合
-- title: Visual pun / clever concept
+- title: 视觉双关 / 巧妙概念
   desc: 机智的视觉双关
-- title: Clean negative space
+- title: 干净负空间
   desc: 干净留白
 variables:
 - kv_var: 真实物体

@@ -1,12 +1,9 @@
-name: Cyan Red Shockwave Type Poster Style
+name: 青红冲击波字体海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: https://x.com/VigoCreativeAI
-summary: A flat illustrated poster system built from a saturated cyan field, oversized
-  red block typography, lemon-yellow human accents, white jagged shockwaves, thick
-  red keylines, and compact rotated microcopy. It feels like a loud regional travel
-  poster crossed with manga impact graphics and screenprinted street signage.
+summary: 扁平插画海报体系：高饱和青色底、超大号红色方块字体、柠檬黄人物点缀、白色锯齿冲击波、粗红主线，以及紧凑的旋转小字。像一张大声量的地域旅行海报，混入漫画冲击力图形与丝网印刷街头招牌。
 tags:
 - VigoCookbook
 - flat
@@ -20,20 +17,15 @@ tags:
 triggers:
 - Cyan Red Shockwave Type Poster Style
 features:
-- title: Saturated cyan background dominates the entire poster, with red and yellow
-    used as the only major accents.
+- title: 高饱和青色背景主导整张海报，红色与黄色是仅有的主要点缀色。
   desc: ''
-- title: Huge red geometric display lettering is cropped by the page edges and functions
-    as both text and architecture.
+- title: 巨大的红色几何展示字被页边裁切，同时充当文字与建筑结构。
   desc: ''
-- title: A white jagged lightning-burst shape cuts diagonally through the center and
-    carries the main action.
+- title: 一道白色锯齿闪电爆裂形状斜切画面中心，承载主要动势。
   desc: ''
-- title: Subjects are simplified flat vector forms with almost no shading, outlined
-    by thick red keylines.
+- title: 主体是简化的扁平矢量形，几乎没有明暗塑造，以粗红主线勾边。
   desc: ''
-- title: Human or hand-like accents use solid lemon yellow fills, making them graphic
-    shapes rather than realistic anatomy.
+- title: 人物或手部点缀使用实心柠檬黄填充，使其成为图形色块而非写实解剖。
   desc: ''
 variables:
 - kv_var: 变量

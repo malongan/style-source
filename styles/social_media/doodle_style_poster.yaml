@@ -1,10 +1,9 @@
-name: Backseat Transit Doodle Letter Poster Style
+name: 后座交通涂鸦字体海报风格
 category: social_media
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters,
-  comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+summary: 写实的乘客座交通照片，被改造成高能量旅行海报：中央后视主体、电光黄剪影光环、超大号黄橙手绘字体、漫画放射线、紫色音乐符号、贴纸图标，以及青白色云朵流线。
 tags:
 - VigoCookbook
 - realistic
@@ -38,17 +37,15 @@ tags:
 triggers:
 - Backseat Transit Doodle Letter Poster Style
 features:
-- title: 'Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized
-    yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.'
+- title: '保留核心视觉识别：写实的乘客座交通照片，被改造成高能量旅行海报，中央后视主体、电光黄剪影光环、超大号黄橙手绘字体、漫画放射线、紫色音乐符号、贴纸图标，以及青白色云朵流线。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.
+- title: 用 BACKGROUND_ELEMENTS 作为纪实背景细节与次要语境。
   desc: ''
-- title: 'Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard
-    and window framing, and a believable road-trip or local transit moment.'
+- title: '以写实的乘客座旅行照片作为底层：广角后座视角、真实车厢内饰、透过车窗的自然日光、可见的材质纹理、仪表台与车窗取景，以及可信的公路旅行或本地通勤瞬间。'
   desc: ''
-- title: Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.
+- title: 使用金黄填色、橙色阴影形状、焦棕轮廓，以及贴纸式的扁平 2D 收尾。
   desc: ''
-- title: Use MAIN_TEXT as the large illustrated word integrated into the composition.
+- title: 用 MAIN_TEXT 作为融入构图的大型插画字体。
   desc: ''
 variables:
 - kv_var: 变量

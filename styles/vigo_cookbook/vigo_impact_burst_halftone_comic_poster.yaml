@@ -1,10 +1,9 @@
-name: Impact Burst Halftone Comic Poster Style
+name: 冲击爆发半色调漫画海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs,
-  halftone dots, and distressed screen-print grain.
+summary: 张扬的复古漫画海报体系：由粗重黑墨、扁平高饱和色彩、超大号冲击字体、夸张的插画主体、对角线道具、对话爆发框、烟雾团、半色调网点，以及做旧丝网印刷颗粒构成。
 tags:
 - VigoCookbook
 - loud
@@ -31,18 +30,15 @@ tags:
 triggers:
 - Impact Burst Halftone Comic Poster Style
 features:
-- title: 'Preserve the core visual identity: A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal
-    props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.'
+- title: '保留核心视觉识别：张扬的复古漫画海报体系，由粗重黑墨、扁平高饱和色彩、超大号冲击字体、夸张的插画主体、对角线道具、对话爆发框、烟雾团、半色调网点，以及做旧丝网印刷颗粒构成。'
   desc: ''
-- title: 'Layout: use a bold cropped comic-poster composition.'
+- title: '版式：采用大胆裁切的漫画海报构图。'
   desc: ''
-- title: Place the main subject large in the lower two-thirds and let the oversized prop cut diagonally across the body or foreground.
+- title: 主体大比例置于下方三分之二区域，让超大号道具沿对角线横切身体或前景。
   desc: ''
-- title: 'Style: thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent,
-    distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration.'
+- title: '风格：粗重不均匀的黑色轮廓线、扁平热橙与做旧米色的角色形状、高饱和青色背景、柠檬黄对话爆发框角落、低饱和橄榄色道具、细小的灰色点缀、做旧丝网印刷肌理、半色调网点、纸张颗粒、粗糙墨边，以及轻微的套印不准。'
   desc: ''
-- title: 'Avoid: watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism,
-    3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design.'
+- title: '避免：水印、用户名、创作者 ID、平台标识、二维码、应用界面、作者签名、照搬参考角色、照搬姿势、照搬文字、品牌标识、授权角色、照片写实、3D、亮面渐变、柔和的喷枪阴影、干净的矢量抛光、密集段落，以及沉闷的企业设计。'
   desc: ''
 variables:
 - kv_var: 变量

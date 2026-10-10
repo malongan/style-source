@@ -1,10 +1,9 @@
-name: Chromatic Fisheye Orbit Pop Poster Style
+name: 彩色鱼眼轨道波普海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and
-  light analog print texture.
+summary: 高调波普海报体系：极致鱼眼摄影、凸面玻璃穹顶中心、超大号环绕排版、炽热红-品红-橙的字母填充、水色色散光弧，以及轻微的模拟印刷质感。
 tags:
 - VigoCookbook
 - high-key
@@ -24,16 +23,15 @@ tags:
 triggers:
 - Chromatic Fisheye Orbit Pop Poster Style
 features:
-- title: 'Preserve the core visual identity: A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter
-    fills, aqua chromatic light arcs, and light analog print texture.'
+- title: '保留核心视觉识别：高调波普海报体系，极致鱼眼摄影、凸面玻璃穹顶中心、超大号环绕排版、炽热红-品红-橙的字母填充、水色色散光弧，以及轻微的模拟印刷质感。'
   desc: ''
-- title: 'Photography: build a finished high-key pop culture poster, not a sketch.'
+- title: '摄影：做一张完成度高的高调流行文化海报，而不是草图。'
   desc: ''
-- title: Use an extreme fisheye or convex glass-dome viewpoint from below, with the subject centered inside a circular lens bubble.
+- title: 使用从下往上的极致鱼眼或凸面玻璃穹顶视角，主体居中于圆形镜头气泡之内。
   desc: ''
-- title: Keep people, props, hair, fabric, and hands photographic and realistic while allowing wide-angle edge distortion.
+- title: 人物、道具、发丝、布料与手部保持摄影写实质感，同时允许广角边缘畸变。
   desc: ''
-- title: 'Layout: keep the surrounding field mostly warm off-white and pale grey so the graphic system has open space.'
+- title: '版式：周边区域以暖米白与浅灰为主，让图形体系有呼吸空间。'
   desc: ''
 variables:
 - kv_var: 变量

@@ -1,25 +1,24 @@
-name: Blue Lime Kinetic Comic Type Poster Style
+name: 蓝＋青柠绿动态漫画字体海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A loud flat comic-poster system built from electric-blue grid paper, oversized neon-lime speech-panel geometry, heavy black block typography, sharp yellow back plates, radial action marks, and
-  gritty print texture. The style feels like a kinetic street flyer where the headline is the main subject.
+summary: 张扬的扁平漫画海报体系：电光蓝方格纸底、超大号霓虹青柠对话框几何块、厚重黑色方块字体、锐利黄色背板、放射状动势符号与粗粝印刷质感。整体像一张动态街头传单，大标题本身就是主体。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Blue Lime Kinetic Comic Type Poster Style
 features:
-- title: Electric-blue background fills the canvas and carries a faint square grid, like printed graph paper.
+- title: 电子蓝色铺满整个画布，并带有淡淡的方格网格，如同印刷的坐标纸。
   desc: ''
-- title: A giant neon-lime speech-bubble or banner panel dominates the center with a sharp triangular tail or cutout.
+- title: 一块巨大的霓虹青柠对话框或横幅面板占据中心，并带锐利的三角尾巴或镂空切口。
   desc: ''
-- title: A flat yellow geometric back plate peeks from behind the lime panel to create high-contrast poster depth.
+- title: 一块扁平黄色几何背板从青柠面板后方露出，营造高对比的海报纵深感。
   desc: ''
-- title: Massive black block typography is the primary visual mass, cropped tight and packed inside the lime shape.
+- title: 超大号黑色方块字体是主要视觉体块，被紧密裁切并塞进青柠色形状内。
   desc: ''
-- title: Letterforms feel blunt, heavy, slightly irregular, and comic-like rather than refined or corporate.
+- title: 字形钝重、厚重、略微不规则，偏漫画感，而非精致或企业化的气质。
   desc: ''
 variables:
 - kv_var: 变量

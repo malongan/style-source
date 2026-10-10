@@ -2,7 +2,7 @@
 # 2026-08-13 用户确认入库（流程固化后第 1 张新卡）
 
 id: cartoon_graffiti_headline
-name: "Cartoon Graffiti Headline"
+name: "卡通涂鸦大标题"
 name_cn: "创意卡通涂鸦标题字体"
 category: typography
 
@@ -25,11 +25,11 @@ triggers:
   - 年轻创意标题
 
 features:
-  - "**笔画夸张变形** — exaggerated distorted strokes，圆润灵动 organic rounded shapes"
-  - "**粗细对比强烈** — 笔画粗细对比鲜明，chunky 厚重卡通字形"
-  - "**黑字白边** — 黑色字 + 干净白色描边，高对比 pop-out 效果"
-  - "**荧光绿装饰** — 荧光绿对话框/数字/动态线条点缀，speech bubble + squiggle"
-  - "**扁平矢量** — flat vector style，无 3D 阴影、无渐变，纯色涂鸦感"
+  - "**笔画夸张变形** — 笔画夸张扭曲，圆润灵动的有机形态"
+  - "**粗细对比强烈** — 笔画粗细对比鲜明，厚重卡通字形"
+  - "**黑字白边** — 黑色字 + 干净白色描边，高对比凸出效果"
+  - "**荧光绿装饰** — 荧光绿对话框、数字与动态线条点缀，配对话框与波浪线"
+  - "**扁平矢量** — 纯矢量画法，无 3D 阴影、无渐变，纯色涂鸦感"
   - "**中英层级** — 中文 Slogan 为主体，英文短语小字副行"
 
 scene: "潮流活动主视觉 / 创意宣传海报 / 年轻向品牌 KV / 街头文化设计"

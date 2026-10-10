@@ -1,10 +1,9 @@
-name: Black Cutout Food Card Ad
+name: 黑色异形卡片食品广告
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A black-background food promotion style built around one irregular cream paper card, oversized hand-brushed Chinese lettering, clipped food photography, small price medallions, warm red/yellow
-  accents, and a handmade street-snack print texture.
+summary: 黑底食品促销风格：以一张不规则米色纸质卡片为核心，超大号手写毛笔中文字、剪贴式食品摄影、小型价格徽章、暖红与暖黄点缀，以及手工市井小吃的印刷质感。
 tags:
 - VigoCookbook
 - handmade
@@ -18,15 +17,15 @@ tags:
 triggers:
 - Black Cutout Food Card Ad
 features:
-- title: Full black canvas with the graphic card floating as the only bright object.
+- title: 纯黑画布，图形卡片悬浮其上，是画面中唯一的亮色主体。
   desc: ''
-- title: One large cream or aged-paper irregular cutout card, with rounded handmade edges and a different silhouette per case.
+- title: 一张大号米色或做旧纸张的异形剪纸卡片，边缘圆润手工感，每款轮廓各不相同。
   desc: ''
-- title: 'Dense left-to-right poster hierarchy: large vertical Chinese brush lettering competes with a food photo and a price medallion.'
+- title: '从左到右的密集海报层级：超大竖排中文毛笔字与食品照片、价格徽章形成视觉竞争。'
   desc: ''
-- title: Food is treated as a glossy clipped photo collage element, not a flat illustration.
+- title: 食品以亮面剪贴照片拼贴元素处理，而非扁平插画。
   desc: ''
-- title: Card interior uses warm cream, faded ochre, deep red, orange, brown, and black ink with limited palette discipline.
+- title: 卡片内部使用暖米色、褪色赭石、深红、橙、棕与黑墨，配色克制。
   desc: ''
 variables:
 - kv_var: 变量

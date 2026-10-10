@@ -1,7 +1,7 @@
 # Bubble Letter Headline（亮色泡泡字标题）
 
 id: bubble_letter_headline
-name: "Bubble Letter Headline"
+name: "泡泡字大标题"
 name_cn: "蜜桃渐变泡泡字标题"
 category: typography
 
@@ -24,11 +24,11 @@ triggers:
   - 高光彩面大字
 
 features:
-  - "**圆鼓厚实泡泡字** — thick rounded plump balloon-like strokes，手绘轻微变形，可爱有活力"
-  - "**蜜桃粉→珊瑚渐变** — soft gradient from peach pink to coral orange，柔和精致"
-  - "**奶油白纯色底** — warm cream white solid background，配合渐变泡泡字"
-  - "**高光彩面** — glossy highlight surface，干净发光"
-  - "**边缘清晰** — crisp clean edges，每个字可读性优先"
+  - "**圆鼓厚实泡泡字** — 厚重圆鼓的气球感笔画，手绘轻微变形，可爱有活力"
+  - "**蜜桃粉→珊瑚渐变** — 从蜜桃粉到珊瑚橙的柔和渐变，柔和精致"
+  - "**奶油白纯色底** — 暖奶油白纯色背景，配合渐变泡泡字"
+  - "**高光彩面** — 亮泽高光表面，干净发光"
+  - "**边缘清晰** — 边缘锐利干净，每个字可读性优先"
   - "**排版** — 主标题横排居中 LARGE，下方英文副行小字，留白充足"
 
 scene: "3D 角色潮玩 KV、儿童/年轻向电商海报、需要明亮活泼但不刺眼的标题设计"

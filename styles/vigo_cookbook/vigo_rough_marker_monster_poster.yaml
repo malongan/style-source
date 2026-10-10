@@ -1,24 +1,24 @@
-name: Rough Marker Monster Poster Style
+name: 粗犷马克笔怪物海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A naive children's poster system built from thick black marker outlines, rough crayon-pastel color fills, cream paper grain, oversized goofy creature forms, and chunky hand-lettered black text.
+summary: 稚拙儿童画风海报体系：由粗重的黑色马克笔轮廓、粗糙蜡笔/粉彩填色、米色纸张颗粒、超大号憨态生物造型，以及厚重的黑色手写文字构成。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Rough Marker Monster Poster Style
 features:
-- title: Cream paper background with warm tint, subtle speckle, and no realistic environment.
+- title: 暖调米色纸张背景，带细微斑点，无写实环境。
   desc: ''
-- title: Thick black marker or oil-pastel keylines with scratchy edges, wobble, and uneven pressure.
+- title: 粗重的黑色马克笔或油画棒主线，边缘粗粝、线条抖动、笔压不均。
   desc: ''
-- title: One huge simplified character or object-character fills most of the frame and is cropped boldly.
+- title: 一个巨大的简化角色或器物拟人角色占据大部分画面，并被大胆裁切。
   desc: ''
-- title: Flat childlike construction with no realistic perspective, no 3D modeling, and no polished vector edges.
+- title: 扁平童趣的造型语言，无写实透视、无 3D 建模、无精致矢量边缘。
   desc: ''
-- title: Saturated marker fills show visible grain, small white gaps, and rough hand-colored texture.
+- title: 高饱和马克笔填色呈现可见颗粒、细小留白缝隙，以及粗糙的手工上色质感。
   desc: ''
 variables:
 - kv_var: 变量

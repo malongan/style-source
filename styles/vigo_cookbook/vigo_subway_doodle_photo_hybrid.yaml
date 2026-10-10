@@ -1,10 +1,9 @@
-name: Subway Doodle Photo Hybrid
+name: 地铁涂鸦照片混合风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures,
-  handwritten notes, and social media screenshot texture.
+summary: 手机拍摄的城市交通海报风格：把纪实的地铁或街头交通摄影，与表现性手绘卡通叠加、涂鸦式角色面孔、超大号前景手势，以及社交媒体截图质感结合在一起。
 tags:
 - VigoCookbook
 - phone-shot
@@ -33,16 +32,15 @@ tags:
 triggers:
 - Subway Doodle Photo Hybrid
 features:
-- title: 'Preserve the core visual identity: A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character
-    faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.'
+- title: '保留核心视觉识别：手机拍摄的城市交通海报风格，把纪实的地铁或街头交通摄影，与表现性手绘卡通叠加、涂鸦式角色面孔、超大号前景手势，以及社交媒体截图质感结合在一起。'
   desc: ''
-- title: Use SUBJECT as the main photographic subject.
+- title: 以 SUBJECT 作为主要摄影主体。
   desc: ''
-- title: Use PRODUCT_OR_PROP as the foreground doodle, prop, or interaction object.
+- title: 用 PRODUCT_OR_PROP 作为前景涂鸦、道具或互动物件。
   desc: ''
-- title: Use BACKGROUND_ELEMENTS for crowd, signage, documentary texture, and transit context.
+- title: 用 BACKGROUND_ELEMENTS 表现人群、标识、纪实质感与交通场景语境。
   desc: ''
-- title: Use ACCENT_SYMBOL for color accents, doodle marks, arrows, and sticker-like emphasis.
+- title: 用 ACCENT_SYMBOL 作颜色点缀、涂鸦笔触、箭头与贴纸式强调。
   desc: ''
 variables:
 - kv_var: 变量

@@ -1,7 +1,7 @@
 # Avant-garde Abstract Typography（先锋抽象创意字体）
 
 id: avant_garde_abstract_typography
-name: "Avant-garde Abstract Typography"
+name: "先锋抽象字体排版"
 name_cn: "先锋抽象创意字体"
 category: typography
 
@@ -24,10 +24,10 @@ triggers:
   - 品牌Slogan标题
 
 features:
-  - "**笔画大胆重组** — 局部笔画夸张变形、延伸和断开，boldly restructured strokes"
+  - "**笔画大胆重组** — 局部笔画夸张变形、延伸和断开，结构被大胆重组"
   - "**线条流畅节奏感** — 流畅线条 + 强节奏动感，视觉冲击"
   - "**高对比笔画** — 笔画粗细对比鲜明，干净利落"
-  - "**扁平矢量** — flat design，无 3D 阴影、无渐变，纯矢量感"
+  - "**扁平矢量** — 扁平化设计，无 3D 阴影、无渐变，纯矢量感"
   - "**黑白主色 + 单点缀色** — 黑底白字为基调，单个亮色（如电光橙）落在关键笔画制造焦点"
   - "**中英层级** — 中文 Slogan 为主体，英文短语小字副行"
 

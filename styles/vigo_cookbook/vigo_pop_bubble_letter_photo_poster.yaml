@@ -1,10 +1,9 @@
-name: Pop Bubble Letter Photo Poster Style
+name: 波普泡泡字照片海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy colors, thick black outlines, oval
-  highlights, and crisp sparkle marks.
+summary: 有力的照片+插画海报风格：中心是一张低角度时尚人像，四周由超大号扁平泡泡字形包围，配高饱和糖果色、粗黑描边、椭圆高光与锐利星芒。
 tags:
 - VigoCookbook
 - punchy
@@ -32,18 +31,15 @@ tags:
 triggers:
 - Pop Bubble Letter Photo Poster Style
 features:
-- title: 'Preserve the core visual identity: A punchy photo-and-illustration poster style built around a central low-angle fashion portrait framed by oversized flat bubble-letter shapes, saturated candy
-    colors, thick black outlines, oval highlights, and crisp sparkle marks.'
+- title: '保留核心视觉识别：有力的照片+插画海报风格，中心是一张低角度时尚人像，四周由超大号扁平泡泡字形包围，配高饱和糖果色、粗黑描边、椭圆高光与锐利星芒。'
   desc: ''
-- title: 'Use real photographic portrait detail for the subject: low-angle editorial framing, bright direct sunlight or clean studio light, crisp skin and fabric texture, saturated wardrobe, calm confident
-    expression.'
+- title: '主体使用真实的摄影人像细节：低角度编辑式取景、明亮直射阳光或干净影棚光、清晰的皮肤与布料质感、高饱和服装、从容自信的表情。'
   desc: ''
-- title: 'Layout: center the subject on the vertical axis and surround them with ACCENT_SYMBOL and bubble-letter graphic forms.'
+- title: '版式：把主体放在垂直中轴上，四周环绕 ACCENT_SYMBOL 与泡泡字形图形。'
   desc: ''
-- title: Build the poster from oversized flat bubble-letter forms spelling or suggesting MAIN_TEXT.
+- title: 海报由超大号扁平泡泡字形构成，拼出或暗示 MAIN_TEXT。
   desc: ''
-- title: 'Graphic language: thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, deep evergreen negative space, cream-white oval shine
-    highlights, and ACCENT_SYMBOL.'
+- title: '图形语言：粗黑描边、平滑扁平填充、亮粉色、糖果黄、叶绿、橘橙、番茄红、粉蓝，以深常青绿作负空间，配米白椭圆高光与 ACCENT_SYMBOL。'
   desc: ''
 variables:
 - kv_var: 变量

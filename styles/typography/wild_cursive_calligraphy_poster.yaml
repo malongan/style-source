@@ -1,7 +1,7 @@
 # Wild Cursive Calligraphy Poster（狂草书法电影海报字体）
 
 id: wild_cursive_calligraphy_poster
-name: "Wild Cursive Calligraphy Poster"
+name: "狂野草书书法海报"
 name_cn: "狂草书法电影海报字体"
 category: typography
 
@@ -28,13 +28,13 @@ triggers:
   - 神都洛陽
 
 features:
-  - "**超粗笔画流畅飘逸** — ultra-thick bold strokes, bold and flowing"
-  - "**狂野奔放** — wild and unrestrained, dynamic visual tension"
-  - "**飞白效果** — ink wash with flying white effect, ink splatter"
-  - "**笔画巧妙延长变形** — strokes cleverly extended and deformed, connecting strokes"
-  - "**干净黑底** — pure black background, master calligraphy poster aesthetic"
-  - "**电影海报构图** — movie poster composition with large typography focus"
-  - "**印章点缀** — red Chinese seal stamp accent, \"China Luo Yang\" small English text at bottom"
+  - "**超粗笔画流畅飘逸** — 极粗的笔触，厚重而流畅飘逸"
+  - "**狂野奔放** — 狂野不羁，充满动态的视觉张力"
+  - "**飞白效果** — 带飞白效果的墨韵，以及墨点飞溅"
+  - "**笔画巧妙延长变形** — 笔画巧妙延长与变形，带连笔"
+  - "**干净黑底** — 纯黑背景，名家书法海报的审美气质"
+  - "**电影海报构图** — 电影海报式构图，以大字体为视觉核心"
+  - "**印章点缀** — 红色中国印章点缀，底部小号英文 \"China Luo Yang\""
 
 scene: "电影海报主标题 / 国风品牌大标题 / 文化活动主视觉 / 神都洛陽类城市品牌宣传"
 ratio: "4:3"

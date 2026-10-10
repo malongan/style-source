@@ -18,11 +18,11 @@ triggers:
   - 高对比黑白
 
 features:
-  - "**蓝圆珠笔转黑白墨水** — Ultra-detailed blue ballpoint pen illustration rendered as monochrome black ink"
-  - "**密集交叉排线** — Dense cross-hatching and fine hatch shading, intricate biro sketch texture"
-  - "**高对比红场** — High-contrast black ink subject against vivid red field"
-  - "**纯白手写注释** — Vintage technical scribbles and handwritten notes in pure white over bold red"
-  - "**地下杂志美学** — Underground zine poster aesthetic, avant-garde magazine cover style"
+  - "**蓝圆珠笔转黑白墨水** — 超精细的蓝色圆珠笔插画，转为黑白墨水呈现"
+  - "**密集交叉排线** — 密集交叉排线与细密排线明暗，繁复的圆珠笔速写质感"
+  - "**高对比红场** — 黑色墨水主体置于高对比的鲜红场域之上"
+  - "**纯白手写注释** — 复古技术涂写与手写笔记，以纯白压在浓红之上"
+  - "**地下杂志美学** — 地下 zine 海报美学，先锋杂志封面风格"
 
 scene: "品牌KV、实验海报、编辑图形、概念封面"
 ratio: "9:16"

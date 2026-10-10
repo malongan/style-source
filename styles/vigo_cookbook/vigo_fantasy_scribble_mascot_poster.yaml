@@ -1,25 +1,24 @@
-name: Fantasy Scribble Mascot Poster Style
+name: 奇幻涂鸦吉祥物海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white
-  paper field.
+summary: 粗放的手绘奇幻海报体系：超大号不均整的手写字、霓虹马克笔吉祥物形状、粗黑描边、松散涂鸦装饰，以及白纸底上密集的童趣拼贴能量。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Fantasy Scribble Mascot Poster Style
 features:
-- title: White paper field with the image treated like a scanned handmade poster rather than a polished digital illustration.
+- title: 白纸底，整体像一张扫描的手工海报，而非精修的数字插画。
   desc: ''
-- title: Huge irregular hand-painted headline letters occupying the top or one dominant edge of the composition.
+- title: 巨大的不规则手绘标题字占据顶部或构图的一条主导边缘。
   desc: ''
-- title: Thick, uneven, dry-brush black outlines around characters, props, text, and many decorative marks.
+- title: 角色、道具、文字与大量装饰符号外围都是厚重、不均、干笔般的黑色描边。
   desc: ''
-- title: Flat marker-fill color blocks using electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents.
+- title: 扁平马克笔填充色块，使用电光青、高饱和蓝、亮粉色、霓虹青柠、深绿，以及少量棕或紫点缀。
   desc: ''
-- title: Childlike fantasy mascot anatomy with playful distortion, blunt legs, long ears, floating eyes, and simplified facial dots.
+- title: 童趣奇幻吉祥物解剖：俏皮的变形、短钝的腿、长耳朵、悬浮的眼睛，以及简化的面部圆点。
   desc: ''
 variables:
 - kv_var: 变量

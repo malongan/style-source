@@ -1,11 +1,9 @@
-name: Naive Marker Quote Card Style
+name: 稚拙马克笔语录卡片风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: https://x.com/VigoCreativeAI
-summary: A tall, hand-drawn absurdist quote-card poster system with crude black marker
-  outlines, pale pastel panels, blocky blue lettering, off-kilter label tabs, and
-  a simple central object-character gag rendered as flat naive illustration.
+summary: 竖长的手绘荒诞语录卡片海报体系：粗糙的黑色马克笔轮廓、浅粉彩色块、方块感蓝色字体、歪斜的标签页，以及一个简化成扁平堆叠形状的中央物件角色笑点。
 tags:
 - VigoCookbook
 - naive
@@ -15,20 +13,15 @@ tags:
 triggers:
 - Naive Marker Quote Card Style
 features:
-- title: Skinny poster-card composition with a large pale pastel interior rectangle
-    and rough uneven black border.
+- title: 纤细的海报卡片构图：一大块浅粉彩内矩形，配粗糙不均的黑色边框。
   desc: ''
-- title: Small off-center tab or nameplate at the top and a tiny lower caption plate,
-    both drawn like taped paper labels.
+- title: 顶部有小号偏心标签或铭牌，下方有极小的字幕牌，都画得像用胶带贴上的纸质标签。
   desc: ''
-- title: Single absurd central object-character taking most of the middle area, simplified
-    into flat stacked shapes.
+- title: 单个荒诞的中央物件角色占据中部大部分区域，简化为扁平的堆叠形状。
   desc: ''
-- title: Naive hand-drawn black marker outlines with wobbly contours, uneven line
-    weight, and visible human imperfection.
+- title: 稚拙的手绘黑色马克笔轮廓，线条抖动、粗细不均，可见人的不完美。
   desc: ''
-- title: Blocky uppercase blue hand lettering arranged in short broken lines, with
-    irregular spacing and imperfect baselines.
+- title: 块状大写蓝色手写字体，排成短促断续的行，字距不规则、基线不齐。
   desc: ''
 variables:
 - kv_var: 变量

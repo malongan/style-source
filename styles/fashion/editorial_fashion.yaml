@@ -1,26 +1,24 @@
-name: Sunlit Architectural Fashion Editorial
+name: 日光建筑时尚编辑摄影
 category: fashion
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A polished outdoor high-fashion editorial photography style built from low-angle architectural framing, hard Mediterranean daylight, warm stone neutrals, elongated model silhouettes, restrained
-  luxury styling, and fine graphic lines from wires, railings, shadows, or facade geometry. It recreates the premium fashion-campaign feeling without copying the original models, wardrobe, plaza, prop placement,
-  or poses.
+summary: 精致的户外高级时尚编辑摄影风格：由低角度建筑取景、硬朗的地中海域日光、暖调石材中性色、修长的模特剪影、克制的奢华造型，以及来自电线、栏杆、阴影或立面几何的细线条构成。它重现高端时尚营销企划的气质，但不照搬原模特、服装、广场、道具摆放或姿势。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Sunlit Architectural Fashion Editorial
 features:
-- title: Outdoor luxury fashion editorial photography with believable high-end campaign realism.
+- title: 户外奢华时尚编辑摄影，具可信的高端营销企划写实感。
   desc: ''
-- title: Low camera position or slight wide-angle perspective that elongates legs, coats, and architectural scale.
+- title: 低机位或轻微广角透视，拉长腿部、大衣与建筑体量的比例。
   desc: ''
-- title: Warm stone, concrete, plaster, or masonry surfaces used as large tactile foreground or side planes.
+- title: 暖调石材、混凝土、灰泥或砌体质感的表面，作为大面积的触感前景或侧向平面。
   desc: ''
-- title: Hard sun, high sky exposure, crisp cast shadows, and a controlled warm lens flare or glint.
+- title: 硬朗阳光、高亮天空曝光、锐利的投影，以及克制的暖调镜头光晕或反光。
   desc: ''
-- title: Elegant neutral palette led by ivory, sand, taupe, stone gray, black, camel, tobacco, and muted metallics.
+- title: 优雅的中性色调，以象牙白、沙色、灰褐、石灰灰、黑色、驼色、烟草棕与低饱和金属色为主。
   desc: ''
 variables:
 - kv_var: 变量

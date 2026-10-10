@@ -1,7 +1,7 @@
 # Bold Black Artistic Typography（金榜题名黑体艺术字）
 
 id: bold_black_typography_goldengown
-name: "Bold Black Artistic Typography"
+name: "粗黑艺术字体"
 name_cn: "金榜题名黑体艺术字"
 category: typography
 
@@ -27,13 +27,13 @@ triggers:
   - 活力动感字体
 
 features:
-  - "**黑色粗体艺术字** — bold black artistic typography, thick strokes"
-  - "**笔画圆润且有粗细变化** — rounded strokes with natural varying thickness"
-  - "**富有动感与活力** — dynamic and vibrant feel, lively energy"
-  - "**现代感醒目效果** — modern eye-catching visual effect"
-  - "**纯白背景** — pure white background, clean minimal"
-  - "**文字居中排列** — centered text layout"
-  - "**中英双语排版** — Chinese main title + English subtitle below, well-balanced composition"
+  - "**黑色粗体艺术字** — 粗黑艺术字体，笔画厚重"
+  - "**笔画圆润且有粗细变化** — 笔画圆润，粗细自然变化"
+  - "**富有动感与活力** — 动态鲜明，气息活泼"
+  - "**现代感醒目效果** — 现代感强的吸睛视觉效果"
+  - "**纯白背景** — 纯白底，干净极简"
+  - "**文字居中排列** — 文字居中版式"
+  - "**中英双语排版** — 中文主标题 + 下方英文副标题，构图平衡"
 
 scene: "考试成功主题 / 金榜题名海报 / 升学庆祝 / 教育品牌宣传 / 成绩公布公示"
 ratio: "4:3"

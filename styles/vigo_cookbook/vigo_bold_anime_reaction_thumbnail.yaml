@@ -1,10 +1,9 @@
-name: Bold Anime Reaction Thumbnail Style
+name: 醒目动漫反应缩略图风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean
-  cel-shaded illustration.
+summary: 高冲击力的动漫网络缩略图体系：超大号反应角色、粗体黄色标题字、硬边黑色阴影、分屏取景、一个较小的发光动作插图，以及干净的赛璐璐上色插画。
 tags:
 - VigoCookbook
 - high-impact
@@ -30,16 +29,15 @@ tags:
 triggers:
 - Bold Anime Reaction Thumbnail Style
 features:
-- title: 'Preserve the core visual identity: A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller
-    glowing action insert, and clean cel-shaded illustration.'
+- title: '保留核心视觉识别：高冲击力的动漫网络缩略图体系，超大号反应角色、粗体黄色标题字、硬边黑色阴影、分屏取景、一个较小的发光动作插图，以及干净的赛璐璐上色插画。'
   desc: ''
-- title: Use clean glossy cel-shaded anime rendering, crisp black line art, smooth gradients, and bright commercial lighting.
+- title: 使用干净亮泽的赛璐璐上色动漫渲染、清晰黑色线稿、平滑渐变与明亮的商业布光。
   desc: ''
-- title: Use cool blue/cyan backgrounds, warm character colors, high-contrast black outlines, and a small yellow arrow or glow marker.
+- title: 使用冷调的蓝色/青色背景、暖调角色配色、高对比黑色描边，以及一个小号黄色箭头或辉光标记。
   desc: ''
-- title: Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.
+- title: 更换新主体、新场景细节、新道具或产品与新文案，同时保留风格保真锚点。
   desc: ''
-- title: Keep the same visual genre, density level, and rendering mode across new subjects.
+- title: 在新主体上保持相同的视觉类型、密度级别与渲染方式。
   desc: ''
 variables:
 - kv_var: 变量

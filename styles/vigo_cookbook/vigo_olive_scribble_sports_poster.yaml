@@ -1,25 +1,24 @@
-name: Olive Scribble Sports Poster Style
+name: 橄榄绿涂鸦运动海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A kinetic flat editorial illustration style built from off-white paper, large olive-green poster blocks, oversized action figures, rough black ink contours, red marker motion arcs, yellow-green
-  dry-brush swaths, sparse debris, and handmade screenprint texture.
+summary: 动态扁平编辑插画风格：由米白纸张、大面积橄榄绿海报色块、超大号动作人物、粗糙黑墨轮廓、红色马克笔动势弧线、黄绿干笔刷笔触、稀疏碎屑，以及手工丝网印刷质感构成。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Olive Scribble Sports Poster Style
 features:
-- title: Off-white paper ground with a large irregular olive or yellow-green block covering most of the background.
+- title: 米白纸张底色，一块大面积不规则橄榄绿或黄绿色块覆盖大部分背景。
   desc: ''
-- title: One oversized action subject placed diagonally across the composition.
+- title: 一个超大号动作主体沿对角线横贯构图。
   desc: ''
-- title: Flat screenprint color areas with minimal shading and no smooth gradients.
+- title: 扁平丝网印刷色区，极少明暗，无平滑渐变。
   desc: ''
-- title: Heavy black ink silhouettes, angular brush contours, and chaotic scratch lines.
+- title: 厚重的黑墨剪影、棱角分明的笔刷轮廓，以及混乱的刮擦线条。
   desc: ''
-- title: Red marker arcs, arrows, and motion loops crossing the subject.
+- title: 红色马克笔弧线、箭头，以及横穿主体的动势回环。
   desc: ''
 variables:
 - kv_var: 变量

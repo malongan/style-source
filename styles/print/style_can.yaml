@@ -1,25 +1,24 @@
-name: Blue Chinese Perspective Type Canyon Style
+name: 蓝色中式透视字体峡谷风格
 category: print
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: 'A Chinese typographic poster system built from an extreme one-point perspective corridor: a saturated blue central trapezoid plane carries stacked oversized white Chinese display type, while black
-  side walls are packed with warped white and pale gray Chinese support copy.'
+summary: '中式字体海报体系：以极限单点透视走廊为核心——高饱和蓝色中央梯形平面承载堆叠的超大号白色中文展示字体，两侧黑色墙面包裹着扭曲的白色与浅灰中文辅助文案。'
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Blue Chinese Perspective Type Canyon Style
 features:
-- title: Extreme one-point perspective corridor, as if the viewer is standing inside a narrow vertical advertising alley
+- title: 极限单点透视走廊，仿佛观者站在一条狭窄的竖向广告巷道中
   desc: ''
-- title: Central saturated blue trapezoid plane runs from the foreground toward the vanishing point and occupies the strongest visual hierarchy
+- title: 中央高饱和蓝色梯形平面从前景延伸至灭点，占据最强的视觉层级
   desc: ''
-- title: Black left and right walls converge inward and carry dense skewed white or pale gray Chinese typography
+- title: 左右黑色墙面向内汇聚，承载密集的倾斜白色或浅灰中文字体
   desc: ''
-- title: Huge white Chinese display glyphs or numerals dominate the foreground, cropped by the image edges
+- title: 巨大的白色中文展示字形或数字主导前景，被画面边缘裁切
   desc: ''
-- title: Typography is stretched, condensed, bold, commercial, and spatially warped by perspective rather than laid flat
+- title: 字体被拉伸、压缩、加粗、商业化，并因透视产生空间扭曲，而非平铺陈列
   desc: ''
 variables:
 - kv_var: 变量

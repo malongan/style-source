@@ -1,25 +1,24 @@
-name: Luxury Perspective Checkerboard Editorial
+name: 奢华透视棋盘格编辑海报风格
 category: fashion
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A high-fashion editorial poster style with low-angle luxury photography, sharp red-and-white checkerboard perspective planes, generous white space, oversized custom script typography, and restrained
-  emerald or teal accents. It evokes international luxury maison advertising without copying any real brand mark, campaign, model, product, or exact layout.
+summary: 高级时装编辑海报风格：低角度奢华摄影、锐利的红白棋盘格透视平面、大量留白、超大号定制手写字体，以及克制的祖母绿或蓝绿点缀。营造国际奢侈品牌世家广告的气质，但不复制任何真实品牌标识、营销企划、模特、产品或具体版式。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Luxury Perspective Checkerboard Editorial
 features:
-- title: Low-angle luxury editorial photography with a monumental subject scale.
+- title: 低角度奢华编辑摄影，主体体量极具纪念碑感。
   desc: ''
-- title: Red-and-white checkerboard or tiled graphic plane in extreme perspective.
+- title: 红白棋盘格或瓷砖质感的图形平面，以极端透视呈现。
   desc: ''
-- title: Large white negative space as the primary background field.
+- title: 大面积白色负空间作为主要背景区域。
   desc: ''
-- title: One oversized custom script word spanning behind the subject.
+- title: 一个超大号定制手写单词横贯主体身后。
   desc: ''
-- title: Small centered serif maison-style wordmark area near the upper field.
+- title: 画面上方中央有一处小号衬线世家风格字标区域。
   desc: ''
 variables:
 - kv_var: 变量

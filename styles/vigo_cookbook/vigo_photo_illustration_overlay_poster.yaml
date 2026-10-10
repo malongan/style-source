@@ -1,9 +1,9 @@
-name: Photo Illustration Overlay Poster
+name: 照片插画叠加海报
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.
+summary: 写实城市照片上叠加一个超大号、高饱和的扁平 2D 卡通形象，另有手绘星星、火花、箭头与漫画符号。
 tags:
 - VigoCookbook
 - realistic
@@ -28,15 +28,15 @@ tags:
 triggers:
 - Photo Illustration Overlay Poster
 features:
-- title: 'Preserve the core visual identity: A realistic city photograph with an oversized, high-saturation, flat 2D cartoon figure composited on top, plus hand-drawn stars, sparks, arrows, and comic marks.'
+- title: '保留核心视觉识别：写实城市照片上叠加一个超大号、高饱和的扁平 2D 卡通形象，另有手绘星星、火花、箭头与漫画符号。'
   desc: ''
-- title: Use LOCATION as the photo background or real-world scene base.
+- title: 以 LOCATION 作为照片背景或真实场景基底。
   desc: ''
-- title: Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.
+- title: 用 BACKGROUND_ELEMENTS 作为纪实感背景细节与次要语境。
   desc: ''
-- title: Use ACCENT_SYMBOL for doodles, graphic marks, sparks, arrows, or other overlay effects.
+- title: 用 ACCENT_SYMBOL 做涂鸦、图形符号、火花、箭头等叠加效果。
   desc: ''
-- title: Use a realistic city street photo as the base layer, then composite one oversized flat 2D cartoon character on top.
+- title: 以写实城市街景照片为底层，再在其上合成一个超大号扁平 2D 卡通形象。
   desc: ''
 variables:
 - kv_var: 变量

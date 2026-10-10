@@ -1,9 +1,9 @@
-name: Surreal Fish Doodle Landmark Photo Collage Style
+name: 超现实鱼涂鸦地标照片拼贴风格
 category: travel
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts onto realistic landmark photography.
+summary: 明亮的旅行照片拼贴风格：把巨大的扁平 2D 卡通游客、奇幻民间艺术鱼、黑色马克笔回环、飞溅痕迹，以及漫画星爆图形叠加到写实地标摄影上。
 tags:
 - VigoCookbook
 - bright
@@ -31,17 +31,15 @@ tags:
 triggers:
 - Surreal Fish Doodle Landmark Photo Collage Style
 features:
-- title: 'Preserve the core visual identity: A bright travel-photo collage style that overlays giant flat 2D cartoon travelers, fantastical folk-art fish, black marker loops, splash marks, and comic starbursts
-    onto realistic landmark photography.'
+- title: '保留核心视觉识别：明亮的旅行照片拼贴风格，把巨大的扁平 2D 卡通游客、奇幻民间艺术鱼、黑色马克笔回环、飞溅痕迹，以及漫画星爆图形叠加到写实地标摄影上。'
   desc: ''
-- title: 'Photo base: use a realistic bright travel photograph with clear natural daylight, postcard-like scenic depth, readable sky and water or architecture, and a believable tourist-view perspective.'
+- title: '照片底层：使用写实明亮的旅行照片，具备清晰的自然日光、明信片式的景深层次、可辨识的天空与水面或建筑，以及可信的游客视角。'
   desc: ''
-- title: 'Illustration layer: overlay one oversized flat 2D illustrated subject across the foreground and middle ground.'
+- title: '插画层：把一个超大号扁平 2D 插画主体叠加到前景与中景之上。'
   desc: ''
-- title: The subject should look pasted or screen-printed on top of the photo, with opaque flat color fills, thick black hand-drawn outlines, simplified hands or face, exaggerated scale, playful anatomy,
-    and bold graphic wardrobe colors.
+- title: 主体应看起来像是粘贴或丝网印刷在照片之上：不透明扁平填色、粗黑手绘轮廓、简化的手或面部、夸张的尺度、俏皮的解剖，以及大胆的图形化服装色彩。
   desc: ''
-- title: 'Doodle layer: add ACCENT_SYMBOL plus loose black marker loops, ink starbursts, blue water drops, curved strings, short splash dashes, and motion ticks as an independent graphic layer.'
+- title: '涂鸦层：添加 ACCENT_SYMBOL，以及松散的黑色马克笔回环、墨点星爆、蓝色水滴、弧形线条、短促飞溅笔触与动势小符号，作为独立的图形图层。'
   desc: ''
 variables:
 - kv_var: 变量

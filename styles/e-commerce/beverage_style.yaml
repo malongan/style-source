@@ -1,25 +1,24 @@
-name: Multi-Color Beverage Splash Ad System Style
+name: 多色饮料飞溅广告系统风格
 category: e-commerce
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A reusable beverage launch advertising system with four color-varied templates, built from giant white 3D typography, a diagonal hero drink pack, frozen liquid motion, dense launch-ad copy, and
-  polished commercial product lighting.
+summary: 可复用的饮料上市广告系统，含四套变色模板：由巨大的白色 3D 字体、斜向摆放的主视觉饮料包装、凝固的液体动势、密集的上市广告文案，以及精致的商业产品布光构成。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Multi-Color Beverage Splash Ad System Style
 features:
-- title: Each case uses one strong drink-category color system rather than a generic rainbow palette.
+- title: 每个案例使用一套鲜明的饮料品类配色，而非通用的彩虹色板。
   desc: ''
-- title: Large white extruded block letters remain the main background architecture.
+- title: 巨大的白色立体块状字母构成主要背景架构。
   desc: ''
-- title: The drink pack is the single close-up hero object, angled diagonally and cropped with impact.
+- title: 饮料包装是唯一的近景主视觉物体，斜向摆放并大胆裁切。
   desc: ''
-- title: Splash, foam, ice, bubbles, or condensation are frozen in high-speed product-ad lighting.
+- title: 飞溅、泡沫、冰块、气泡或水珠以高速产品广告布光凝固定格。
   desc: ''
-- title: Typography is bold, condensed, italic, mostly white, and stacked into tight ad-copy blocks.
+- title: 字体粗体、窄体、斜体，以白色为主，层叠成紧凑的广告文案块。
   desc: ''
 variables:
 - kv_var: 变量

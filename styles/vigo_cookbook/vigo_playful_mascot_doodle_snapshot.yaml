@@ -1,10 +1,9 @@
-name: Playful Mascot Doodle Snapshot Style
+name: 童趣吉祥物涂鸦实拍海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative
-  marks over the photographic scene.
+summary: 把日常写实社交照片变成童趣海报：在照片场景上叠加原创卡通吉祥物贴纸、手绘描边、缎带标题面板、星芒、螺旋与草稿感装饰符号。
 tags:
 - VigoCookbook
 - casual
@@ -33,17 +32,15 @@ tags:
 triggers:
 - Playful Mascot Doodle Snapshot Style
 features:
-- title: 'Preserve the core visual identity: A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels,
-    sparkles, spirals, and sketchy decorative marks over the photographic scene.'
+- title: '保留核心视觉识别：把日常写实社交照片变成童趣海报，在照片场景上叠加原创卡通吉祥物贴纸、手绘描边、缎带标题面板、星芒、螺旋与草稿感装饰符号。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use a realistic casual phone-photo scene as the base layer.
+- title: 以写实的日常手机照片场景作为底层。
   desc: ''
-- title: Keep the environment photographic, naturally lit, and location-specific.
+- title: 环境保持摄影感、自然光照、具有明确地点特征。
   desc: ''
-- title: 'Add original flat cartoon mascot stickers on top of the photo: fruit, cloud, star, cup, wave, and jelly-shaped characters with simple eyes, thick dark outlines, glossy color blocks, sunny yellow,
-    teal, coral, sky blue, lavender, cream, and soft pink accents.'
+- title: '在照片之上添加原创扁平卡通吉祥物贴纸：水果、云朵、星星、杯子、浪形与果冻状角色，配简单眼睛、粗深色描边、亮泽色块，以及阳光黄、蓝绿、珊瑚、天空蓝、薰衣草紫、米色与柔和粉点缀。'
   desc: ''
 variables:
 - kv_var: 变量
