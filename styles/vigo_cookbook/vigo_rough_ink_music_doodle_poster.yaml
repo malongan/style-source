@@ -11,15 +11,15 @@ tags:
 triggers:
 - Rough Ink Music Doodle Poster Style
 features:
-- title: Pale blush paper background with a lightly scanned, warm off-white finish.
+- title: 淡粉色纸张背景，带轻微扫描感的暖米白质感。
   desc: ''
-- title: Oversized rough brush headline in deep green-black ink, with broken edges and uneven pressure.
+- title: 超大号粗犷笔刷标题，深墨绿色，边缘破碎、笔压不均。
   desc: ''
-- title: Hot pink secondary typography placed as small stacked text blocks, labels, or date-like graphic notes.
+- title: 品红副标题字，以小号堆叠文字块、标签或日期式图形注释的形式排布。
   desc: ''
-- title: Flat naive mascot or figure drawings with thick scratchy outlines and simplified anatomy.
+- title: 扁平稚拙的吉祥物或人物图形，粗粝轮廓线，简化解剖结构。
   desc: ''
-- title: 'Limited accent palette: deep green-black linework, hot pink fills, teal green fills, and acidic yellow bursts.'
+- title: '克制的点缀配色：深墨绿线稿、品红填色、青绿填色，以及酸性黄爆发色块。'
   desc: ''
 variables:
 - kv_var: 变量

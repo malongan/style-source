@@ -1,25 +1,24 @@
-name: School Grid Paper Cutout Poster
+name: 校园方格纸剪纸海报
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A sparse nostalgic poster system built from warm classroom grid paper, hand-drawn vertical notebook writing, and one large centered torn-paper collage object photographed with shallow real-paper
-  shadows.
+summary: 疏朗的怀旧海报体系：由暖调课堂方格纸、手绘竖排笔记本字迹，以及一个居中的大型撕纸拼贴主体构成，并以浅景深拍出真实纸张阴影。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - School Grid Paper Cutout Poster
 features:
-- title: Warm beige classroom grid paper covers the entire background with thin muted blue-green ruled lines.
+- title: 暖米色课堂方格纸铺满整个背景，带细淡的蓝绿格线。
   desc: ''
-- title: One oversized handmade paper-collage subject dominates the center and sits slightly right of the left text block.
+- title: 一个超大号手工纸拼贴主体占据中央，位置略偏左侧文字块右边。
   desc: ''
-- title: The subject is a simple flat silhouette assembled from torn paper edges, not a rendered or realistic object.
+- title: 主体是由撕纸边缘拼成的简单扁平剪影，而非渲染或写实物件。
   desc: ''
-- title: Off-white paper layers and one saturated color-paper area create the main figure with very limited color variety.
+- title: 米白纸张层次加一块高饱和色纸区域构成主体，色彩变化极为有限。
   desc: ''
-- title: Shallow physical shadows under torn paper edges create low relief while the camera remains front-facing and flat.
+- title: 撕纸边缘下方的浅实拍阴影营造低浮雕感，同时镜头保持正面平视。
   desc: ''
 variables:
 - kv_var: 变量

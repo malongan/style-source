@@ -1,25 +1,24 @@
-name: Sky Blue Home Life Doodle Poster Style
+name: 天蓝家居生活涂鸦海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A naive flat poster system with a full sky-blue field, a rough house-shaped white inset, giant uneven black hand-lettering, small badge labels, and simple thick-outlined cartoon home-life scenes
-  drawn like marker doodles.
+summary: 稚拙扁平海报体系：整幅天蓝色底色、一个粗糙的房子形白色内嵌区、巨大的不规整黑色手写字、小型徽章标签，以及用马克笔涂鸦笔法绘制的、粗轮廓的简约家居生活卡通场景。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Sky Blue Home Life Doodle Poster Style
 features:
-- title: Full-bleed pastel sky-blue background acts as the outer poster field.
+- title: 满版粉彩天蓝背景构成海报的外层底色。
   desc: ''
-- title: A large off-white house-shaped inset with a rough black outline contains the scene.
+- title: 一个带粗糙黑色轮廓的大号米白房子形内嵌区容纳整个场景。
   desc: ''
-- title: Oversized black hand-lettered headline sits at the top with uneven stroke width and playful imbalance.
+- title: 超大号黑色手写标题位于顶部，笔画粗细不均、俏皮失衡。
   desc: ''
-- title: A small red rounded capsule badge and slanted secondary text add event-poster energy.
+- title: 一个小型红色圆角胶囊徽章与倾斜副标题文字，增添活动海报的活力。
   desc: ''
-- title: Characters and props use thick wobbly black marker outlines with flat color fills and almost no shading.
+- title: 角色与道具使用粗重抖动的黑色马克笔轮廓，扁平填色，几乎没有明暗。
   desc: ''
 variables:
 - kv_var: 变量
