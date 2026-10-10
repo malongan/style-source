@@ -1,7 +1,7 @@
 # Kawaii Bright Hand-lettering Headline（明亮卡哇伊手写标题）
 
 id: kawaii_bright_hand_lettering_headline
-name: "Kawaii Bright Hand-lettering Headline"
+name: "可爱明亮手写标题字体"
 name_cn: "明亮卡哇伊手写标题"
 category: typography
 
@@ -26,9 +26,9 @@ triggers:
 
 features:
   - "**明亮粗胖手写卡哇伊** — 圆润粗笔触、软垫马克笔质感，自然向右斜体"
-  - "**暖玫瑰金渐变** — rose-gold + peach + cream-white 渐变，发光高光"
+  - "**暖玫瑰金渐变** — 玫瑰金 + 蜜桃色 + 奶油白渐变，发光高光"
   - "**笔画变形+连笔装饰** — 俏皮变形、小尾巴/圈圈、字间连接线、笔刷延伸"
-  - "**边缘锐利清晰** — crisp sharp outline、clean high-contrast edges、no blur/no feathering"
+  - "**边缘锐利清晰** — 锐利清晰的轮廓、干净高对比的边缘，不模糊、不发虚"
   - "**排版** — 两行居中堆叠 LARGE，标题下细分割线 + 奶油白信息行"
 
 scene: "电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼氛围的标题设计"

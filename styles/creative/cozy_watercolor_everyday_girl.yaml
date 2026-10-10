@@ -1,7 +1,7 @@
 # 治愈系水彩日常生活插画
 
 id: cozy_watercolor_everyday_girl
-name: "Cozy Watercolor Everyday Girl"
+name: "温馨水彩日常女孩"
 name_cn: "治愈系水彩日常生活插画"
 category: creative
 
@@ -24,12 +24,12 @@ triggers:
   - minimalist watercolor girl
 
 features:
-  - "**纹理象牙手工水彩纸** — textured ivory handmade paper 肌理底"
-  - "**柔和粉彩色系** — soft pastel palette + subtle watercolor bleeding"
-  - "**精致墨线轮廓** — delicate ink outlines 勾勒主体"
+  - "**纹理象牙手工水彩纸** — 带肌理的象牙色手工水彩纸底"
+  - "**柔和粉彩色系** — 柔和粉彩色板 + 细微的水彩晕染"
+  - "**精致墨线轮廓** — 以细腻的墨线勾勒主体"
   - "**人物小而留白多** — 主体在画布中占比小，大量干净负空间"
-  - "**漂浮水彩点缀** — tiny floating watercolor splashes、蝴蝶、花朵、树叶"
-  - "**日系文具感排版** — Japanese stationery art style，minimal editorial 氛围"
+  - "**漂浮水彩点缀** — 细小的漂浮水彩斑点、蝴蝶、花朵、树叶"
+  - "**日系文具感排版** — 日系文具插画风格，极简编辑设计氛围"
   - "**场景示例** — 蹲在蓝玫瑰旁/抱花束站立/大树下闭目/伸手摘苹果提篮子"
 
 scene: "品牌KV、社交媒体图文、生活方式内容、日系文具风海报、故事绘本插画"
