@@ -1,0 +1,248 @@
+# 术语表 / 译法一致性参照（Translation Glossary）
+#
+# 用途：style-source 风格库 features/summary/name 中文化时的译法一致性参照。
+# 注意：本文件【不是】自动替换表。A 类条目由人工逐条改写，术语表仅用于保证
+#       同一个英文术语在 300 个风格里译法唯一。
+#
+# 策略 = 方案 B：中文为主 + 保留设计圈通用英文术语
+# 确立日期：2026-10-10
+
+version: 1
+strategy: B
+
+# ═══════════════════════════════════════════════════════════════
+# 一、绝对禁改（任何情况下原样保留）
+# ═══════════════════════════════════════════════════════════════
+
+never_touch:
+
+  # 1. 模板占位符 —— 使用者填写位置标记
+  placeholders:
+    - "[TITLE]"          # 主标题占位
+    - "[SLOGAN]"         # 标语占位
+    - "[TAGLINE]"        # 副标语占位
+    - "[Menu Name]"      # 菜单名占位
+    - "[Price]"          # 价格占位
+    - "[HUMAN]"          # 人物占位
+    - "[HAIR]"           # 发型占位
+    - "[SCENERY]"        # 置景占位
+    - "[PALETTE]"        # 色板占位
+    - "[DESTINATION]"    # 目的地占位
+    - "{scene}"          # 场景变量
+    - "{ASPECT_RATIO}"
+    - "STEP 1"           # 步骤标记
+    - "CONTINUE"         # 画面文字
+    - "OOO"              # 画面文字（韩式感叹）
+
+  # 2. 画面内文字 —— 会印在生成图上的字，翻译会导致出图错误
+  artwork_text:
+    - "VINTAGE"
+    - "ALL STARS"
+    - "TAKE WHAT'S YOURS"
+    - "Reclaim"
+    - "Verglas"
+    - "Les Ombres"
+    - "NEW MENU"
+    - "ARTISTIC PRINTING"
+    - "OMG!"
+    - "WOW!"
+    - "SO CUTE!"
+    - "LOVE"
+    - "야호~!"
+    - "やっほ〜♡"
+    - "LSHENG"
+    - "LAOS"
+    - "RIO"
+    - "MDW"
+    - "HRS"
+
+  # 3. 技术规格 / 数值 / 色彩代码
+  specs:
+    - "85mm f/1.8"
+    - "120cm"
+    - "#00FFFF"
+    - "#FF66CC"
+    - "2×2"
+    - "2x2"
+    - "16:9"
+    - "4:5"
+    - "3:4"
+    - "9:16"
+    - "DSLR"
+    - "CG"
+    - "CC"
+    - "FF"
+    - "FFFF"
+    - "IKB"
+    - "DNA"
+    - "Φ"
+
+# ═══════════════════════════════════════════════════════════════
+# 二、保留原文（不翻译）
+# ═══════════════════════════════════════════════════════════════
+
+keep:
+
+  # 品牌 / 公司 / 人物
+  brands:
+    - Vogue
+    - "Harper's Bazaar"
+    - Nike
+    - Lululemon
+    - MapleStory
+    - Hermès
+    - "MORRA TABLE"
+    - Pixar
+    - DreamWorks
+    - "Fleischer Studios"
+    - "Adam Riches"
+    - Moebius
+    - GioKing
+    - Takeshi          # 武政谅笔画
+    - Kodak
+    - Portra
+    - Cannes
+    - Bain
+    - BCG
+    - McKinsey         # 已在译文中作「麦肯锡」
+    - "GPT Image"
+    - Hanji            # 韩纸，原文已有中文注释
+
+  # 字体 / 字形分类名（设计圈直接说英文）
+  typefaces:
+    - Typography
+    - Editorial
+    - Serif
+    - Sans
+    - Grotesk
+    - Condensed
+    - Didone
+    - Deco             # Art Deco
+    - Nouveau          # Art Nouveau
+    - Stijl            # De Stijl
+    - Risograph        # 孔版印刷，中文已有对应说明
+    - Risography
+
+  # 设计圈通用术语（方案 B：保留）
+  design_terms:
+    - Editorial
+    - Mood board
+    - Mockup
+    - KV
+    - Hero
+    - Grid
+
+  # 其它
+  misc:
+    - ins              # 韩系 ins 风，中文里通用
+    - omakase          # 日料术语
+    - gyaru            # 日系辣妹，专有
+    - noir             # 黑色电影，影迷通用
+    - zine             # 独立小志，圈内通用
+    - bokeh            # 散景，摄影圈通用
+    - Meme             # 迷因/梗，圈内直接说
+
+# ═══════════════════════════════════════════════════════════════
+# 三、翻译映射（低价值/易理解词 → 中文）
+# ═══════════════════════════════════════════════════════════════
+# 注意：仅作人工改写时的译法参照，不用于脚本批量替换。
+#       context 列标注该译法的适用语境，避免一刀切。
+
+translate:
+
+  # 颜色 / 材质 / 光影
+  "chrome":        {zh: "铬质",     context: "3D chrome 液态金属"}
+  "glossy":        {zh: "亮面",     context: "glossy chrome 亮面铬"}
+  "iridescent":    {zh: "虹彩"}
+  "matte":         {zh: "哑光"}
+  "muted":         {zh: "低饱和"}
+  "pastel":        {zh: "粉彩"}
+  "Grayscale":     {zh: "灰度"}
+  "cream":         {zh: "米色"}
+  "warm":          {zh: "暖调"}
+  "vivid":         {zh: "鲜艳"}
+  "glow":          {zh: "辉光",     context: "vivid glow 鲜艳辉光点缀"}
+  "neon":          {zh: "霓虹"}
+  "yellow-green":  {zh: "黄绿"}
+  "mint":          {zh: "薄荷绿"}
+  "rim":           {zh: "轮廓",     context: "rim lighting → 轮廓光"}
+  "lighting":      {zh: "布光",     context: "rim lighting 中的 lighting"}
+  "creamy":        {zh: "奶油感"}
+  "Hyper-real":    {zh: "超写实"}
+
+  # 排版 / 字形
+  "oversized":     {zh: "超大号",   context: "排版语境"}
+  "Oversized":     {zh: "超大号",   context: "排版语境"}
+  # 注：时尚语境 oversized → 宽松版型（oversized 卫衣 → 宽松卫衣）
+  "bold":          {zh: "粗体"}
+  "chunky":        {zh: "厚重",     context: "字形/缝线"}
+  "flat":          {zh: "扁平",     context: "flat design → 扁平设计"}
+  "pop-out":       {zh: "凸出",     context: "高对比凸出效果"}
+  "handwriting":   {zh: "手写",     context: "表达性手写"}
+  "brush-pen":     {zh: "毛笔勾线"}
+  "body":          {zh: "正文",     context: "body text → 正文文字"}
+  "text":          {zh: "文字",     context: "body text 中的 text"}
+  "design":        {zh: "设计",     context: "flat design / Editorial Design"}
+  "Quadrant":      {zh: "四象限"}
+  "misalignment":  {zh: "不准",     context: "register misalignment → 套印不准"}
+  "register":      {zh: "套印"}
+  "screen-print":  {zh: "丝网印刷"}
+  "grid":          {zh: "网格"}
+  "Logo":          {zh: "标识"}
+  "logo":          {zh: "标识"}
+  "Slogan":        {zh: "标语"}
+  "campaign":      {zh: "营销企划"}
+  "Campaign":      {zh: "营销企划"}
+  "Sneakers":      {zh: "运动鞋"}
+  "cute":          {zh: "可爱"}
+  "Chibi":         {zh: "Q 版",     context: "Chibi 比例 → Q 版比例"}
+  "rubber hose":   {zh: "橡皮管动画"}
+  "pie-cut":       {zh: "派切",     context: "pie-cut eyes → 派切眼"}
+  "seams":         {zh: "缝线"}
+
+  # 摄影 / 影像
+  "composition":   {zh: "构图"}
+  "mood":          {zh: "情绪",     context: "mood 情绪氛围"}
+  "orbital":       {zh: "轨道",     context: "orbital 弧线 → 轨道弧线"}
+
+  # 其它
+  "runway":        {zh: "秀场",     context: "编辑 runway 气质 → 秀场气质"}
+  "artisan":       {zh: "手工",     context: "artisan craftsmanship → 手工质感"}
+  "craftsmanship": {zh: "工艺",     context: "artisan craftsmanship → 手工质感"}
+  "gritty":        {zh: "粗粝"}
+  "expressive":    {zh: "表现性",   context: "bold expressive → 粗体表现性"}
+  "fine art":      {zh: "纯艺术"}
+  "game":          {zh: "游戏",     context: "2D game art → 2D 游戏美术"}
+  "art":           {zh: "美术",     context: "game art → 游戏美术"}
+  "scene":         {zh: "场景",     context: "正文中的 scene，非 {scene} 变量"}
+  "doodle":        {zh: "涂鸦"}
+  "Frame":         {zh: "帧",       context: "Impact Frame → 冲击帧"}
+  "COPY":          {zh: "文案"}
+
+# ═══════════════════════════════════════════════════════════════
+# 四、译法已统一但原文不一致的项（本次顺手归一）
+# ═══════════════════════════════════════════════════════════════
+
+normalize:
+  # Risograph 家族：原文混用 Risograph / Risography / risograph
+  - zh: "孔版印刷"
+    variants: [Risograph, Risography, risograph]
+    note: "原文已有「孔版印刷颗粒感」，统一为该译名；英文名在术语首次出现时保留"
+  # 90 年代
+  - zh: "90 年代"
+    variants: ["90s", "90's", "1990s"]
+  # 3D
+  - zh: "3D"
+    variants: [3d, "3-D", "3 D"]
+
+# ═══════════════════════════════════════════════════════════════
+# 五、已知历史内容 bug（非本次翻译引入）
+# ═══════════════════════════════════════════════════════════════
+
+known_bugs:
+  - file: styles/print/premium_cafe_menu_poster.yaml
+    line: 22
+    text: "杂志式暖调美食摄影， кино composition"
+    issue: "кино 为俄语「电影」，疑似误粘贴"
+    fix_suggestion: "杂志式暖调美食摄影，电影感构图"
+    status: pending_user_confirm
