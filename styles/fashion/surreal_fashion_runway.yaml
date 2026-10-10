@@ -1,7 +1,7 @@
 # 超现实时尚 runway 花园
 
 id: surreal_fashion_runway
-name: "超现实时尚花园 runway"
+name: "超现实时尚花园秀场"
 category: fashion
 
 tags:
@@ -24,12 +24,12 @@ features:
   - "**超现实人像** — 四分之三视角全身人像，[HUMAN] 主体着 [HAIR]，站姿不动玩偶姿态"
   - "**剧院花园置景** — [SCENERY] 背景，低地平线深蓝天空，雕塑感花园道具环绕"
   - "**丰富生态元素** — 周围环绕 [FLOWERS]、[FLYING ANIMALS]，营造超现实氛围"
-  - "**编辑 runway 气质** — 柔和复古胶片颗粒，柔和日光直射，细腻阴影，mute [PALETTE] 色调"
+  - "**编辑秀场气质** — 柔和复古胶片颗粒，柔和日光直射，细腻阴影，低饱和 [PALETTE] 色调"
   - "**可变量模板** — 9 个变量位覆盖人物、装扮、场景、情绪，支持零成本替换生成不同变体"
 
 scene: "时尚编辑摄影、人像海报、品牌 runway 视觉、时尚摄影作品集"
 ratio: "4:5"
-summary: "超现实剧院花园置景的时尚编辑 runway 人像，胶片颗粒感与玩偶姿态"
+summary: "超现实剧院花园置景的时尚编辑秀场人像，胶片颗粒感与玩偶姿态"
 
 prompt: |
   Three-quarter eye-level full-body surreal fashion photograph of {human} with {hair}, standing still in {scenery}, wearing {clothing} and {shoes}, surrounded by {flowers}, {flying_animals} and sculptural garden props, deep blue sky, low horizon, curated theatrical garden set, clean surreal spacing, doll-like posture, soft vintage film grain, muted {palette} palette, crisp direct sunlight, gentle shadows, editorial runway mood, whimsical {mood} expression, vertical portrait composition, aspect ratio 4:5.

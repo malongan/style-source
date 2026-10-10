@@ -28,7 +28,7 @@ features:
 
 scene: "科幻电影海报、2x2 电影阵列、品牌联名KV、电影主题海报"
 ratio: "16:9"
-summary: "将科幻电影主角转化为 Art Deco 风格的 1930 年代黑白城市海报，2×2 grid 阵列呈现多部电影的视觉对比。"
+summary: "将科幻电影主角转化为 Art Deco 风格的 1930 年代黑白城市海报，2×2 网格阵列呈现多部电影的视觉对比。"
 
 prompt: |
   2x2 grid, 16:9, do this for 4 famous sci-fi movies:
