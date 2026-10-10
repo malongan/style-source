@@ -31,13 +31,13 @@ triggers:
 features:
 - title: '保留核心视觉识别：随手户外徒步照片，与一个扁平手绘怪物伙伴、超大号西班牙漫画字体，以及随性速写注释重新混编，构成俏皮的冒险海报拼贴。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use a realistic candid outdoor hiking photograph as the base layer, with natural daylight, real mountain or trail detail, trees, sky, rocks, and a believable person in practical outdoor clothing.
+- title: 以写实的户外徒步抓拍照片为底层，带自然日光、真实山体或步道细节、树木、天空、岩石，以及衣着实用的可信人物。
   desc: ''
-- title: Keep the person photographic and naturally integrated into the landscape.
+- title: 人物保持摄影写实，并自然融入风景之中。
   desc: ''
-- title: Use off-white letter fill, black outline, yellow/red/cobalt offset shadows, light inner scribbles, uneven scale, and a playful Spanish travel-poster feeling.
+- title: 字体用米白填充、黑色描边、黄/红/钴蓝错位阴影、轻微的内部涂鸦线、大小不均的比例，营造童趣的西班牙旅行海报感。
   desc: ''
 variables:
 - kv_var: 变量

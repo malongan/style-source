@@ -32,7 +32,7 @@ features:
   desc: 一处红色手写体强调
 - title: 极简模糊背景
   desc: 极简模糊背景
-- title: Small brand logo + slogan + copy
+- title: 小号品牌标识 + 标语 + 正文
   desc: 品牌标识、标语、正文与页脚细节
 variables:
 - kv_var: 主标题

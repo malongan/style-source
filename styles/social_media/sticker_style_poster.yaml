@@ -1,10 +1,9 @@
-name: Analog Sticker Diary Portrait Poster Style
+name: 模拟贴纸手账人像海报风格
 category: social_media
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and
-  heavy scanned print texture.
+summary: 怀旧的模拟手账拼贴人像体系：一个大型侧脸插画主体、米色方格纸背景、贴纸般的私人物件、斑驳的橙色手写字体，以及厚重的扫描印刷质感。
 tags:
 - VigoCookbook
 - nostalgic
@@ -29,16 +28,15 @@ tags:
 triggers:
 - Analog Sticker Diary Portrait Poster Style
 features:
-- title: 'Preserve the core visual identity: A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects,
-    distressed orange hand lettering, and heavy scanned print texture.'
+- title: '保留核心视觉识别：怀旧的模拟手账拼贴人像体系，一个大型侧脸插画主体、米色方格纸背景、贴纸般的私人物件、斑驳的橙色手写字体，以及厚重的扫描印刷质感。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use a large side-profile or quiet three-quarter illustrated portrait as the anchor.
+- title: 以一个大型侧脸或安静的四分之三视角插画人像作为视觉锚点。
   desc: ''
-- title: Put the subject on cream graph-paper notebook background with faded blue grid lines.
+- title: 把主体置于米色方格笔记本纸背景上，带褪色的蓝色格线。
   desc: ''
-- title: Surround the portrait with sticker-like personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.
+- title: 围绕人像放置贴纸般的私人物件：小纸片、票根、食品包装、文具、挂饰、数字、涂鸦、胶带痕迹与小号手绘图标。
   desc: ''
 variables:
 - kv_var: 变量

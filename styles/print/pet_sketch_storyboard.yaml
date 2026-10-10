@@ -1,10 +1,9 @@
-name: Rough Animation Pet Sketch Storyboard Style
+name: 粗放动画宠物分镜草图风格
 category: print
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple
-  room props, and exaggerated animal expressions.
+summary: 为漫画宠物场景设计的松放动画开发草图风格：暖米色纸张、红棕结构线、糙刮的深勃艮第轮廓线、半透明铺色、简单室内道具，以及夸张的动物表情。
 tags:
 - VigoCookbook
 - loose
@@ -35,17 +34,15 @@ tags:
 triggers:
 - Rough Animation Pet Sketch Storyboard Style
 features:
-- title: 'Preserve the core visual identity: A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours,
-    semi-transparent color wash, simple room props, and exaggerated animal expressions.'
+- title: '保留核心视觉识别：为漫画宠物场景设计的松放动画开发草图风格，暖米色纸张、红棕结构线、糙刮的深勃艮第轮廓线、半透明铺色、简单室内道具，以及夸张的动物表情。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
+- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use the reference only as a style reference, not as a scene to copy.
+- title: 参考图仅作风格参照，不作为要照抄的场景。
   desc: ''
-- title: 'Preserve the visual language: warm beige paper, loose red-brown construction lines, scratchy dark burgundy contour strokes, semi-transparent watercolor-like color wash, rough animation storyboard
-    finish, lightly sketched interior background, exaggerated original pet expressions, huge oval eyes, tiny pupils, visible correction strokes, and one clear comic prop-driven beat.'
+- title: '保留视觉语言：暖米色纸张、松放的红棕结构线、糙刮的深勃艮第轮廓笔触、半透明水彩感铺色、粗放动画分镜完成度、轻微勾勒的室内背景、夸张的原创宠物表情、巨大椭圆眼、极小瞳孔、可见的修改笔触，以及一个清晰的漫画道具驱动节拍。'
   desc: ''
-- title: Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible.
+- title: 保留可见的草稿痕迹、动势短线、碎屑、粗放阴影与未完成的室内线条。
   desc: ''
 variables:
 - kv_var: 变量

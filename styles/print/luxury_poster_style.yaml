@@ -1,10 +1,9 @@
-name: Quiet Luxury Furniture Nameplate Poster Style
+name: 静奢家具铭牌海报风格
 category: print
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A premium furniture editorial poster system with a warm off-white studio field, oversized deep forest-green display typography behind one realistic hero furniture object, sparse catalog microcopy,
-  thin rules, outlined catalog chips, and a dark green rounded bottom information bar.
+summary: 高端家具编辑海报体系：暖米白影棚底、超大号深森林绿展示字体位于一件写实主角家具之后、稀疏的目录小字、细线、描边目录标签，以及深绿色圆角底部信息条。
 tags:
 - VigoCookbook
 - Luxury
@@ -17,15 +16,15 @@ tags:
 triggers:
 - Quiet Luxury Furniture Nameplate Poster Style
 features:
-- title: Warm off-white background with subtle paper softness and a faint studio floor gradient.
+- title: 暖米白背景，带轻微纸张柔感与淡淡的影棚地面渐变。
   desc: ''
-- title: Oversized deep forest-green display typography sits behind the furniture and is partly obscured.
+- title: 超大号深森林绿展示字体位于家具之后，并被部分遮挡。
   desc: ''
-- title: One hero furniture object dominates the lower-middle frame with realistic product-photography depth.
+- title: 一件主角家具占据画面中下部，具有写实产品摄影的纵深。
   desc: ''
-- title: The furniture overlaps the rear display word, creating a clean layered poster hierarchy.
+- title: 家具与后方的展示字体相互叠压，形成干净分层的海报层级。
   desc: ''
-- title: Thin dark green horizontal rule and small spaced navigation words sit near the top.
+- title: 顶部附近有细的深绿色水平分隔线与小号、字距拉开的导航文字。
   desc: ''
 variables:
 - kv_var: 变量
