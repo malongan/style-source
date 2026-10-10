@@ -2,9 +2,8 @@ name: Plush Comic Toy Product Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography, thick black shadows, doodle annotations,
-  sticker labels, lightning graphics, and dense campaign microcopy.
+source_url: https://x.com/VigoCreativeAI
+summary: 高调 toy-产品 海报风格 以 one 模糊 plush 产品 主角, 复古 奶油色 海报 paper, a 青色 圆形 背景幕, 超大 倾斜 漫画 字体排版, 厚 黑 阴影s, 涂鸦 annotations, 贴纸 标签s, 亮ning graphics, and dense 营销 微文案.
 tags:
 - VigoCookbook
 - loud
@@ -38,17 +37,11 @@ tags:
 triggers:
 - Plush Comic Toy Product Poster Style
 features:
-- title: 'Preserve the core visual identity: A loud toy-product poster style built around one fuzzy plush product hero, retro cream poster paper, a cyan circular backdrop, oversized slanted comic typography,
-    thick black shadows, doodle annotations, sticker labels, lightning graphics, and dense campaign microcopy.'
-  desc: ''
-- title: 'Layout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow.'
-  desc: ''
-- title: Place PRODUCT_OR_PROP and ACCENT_SYMBOL around the central subject as sticker-like supporting elements.
-  desc: ''
-- title: Build the biggest graphic area from oversized tilted block typography using MAIN_TEXT as the campaign headline.
-  desc: ''
-- title: Use TYPOGRAPHY_LANGUAGE to control the headline treatment and supporting type behavior.
-  desc: ''
+- '**Preserve the 核心 visual identity: 高调 toy-产品 海报风格 以 one 模糊 plush 产品 主角, 复古 奶油色 海报 paper, a 青色 圆形 背景幕, 超大 倾斜 漫画 字体排版, 厚 黑 阴影s, 涂鸦 annotations, 贴纸 标签s, 亮ning graphics, and dense 营销 微文案.**'
+- '**Layout: put the plush 产品 大 in the lower-中间 画面, 照片ed as a tac色块 3D 产品 ，搭配 四分之三视角 and 柔软 影棚阴影.**'
+- '**Place 产品或道具 and 强调符号 周围 the 中心 主体 as 贴纸感 支持 元素s.**'
+- '**Build the biggest graphic area from 超大 倾斜 方块字体 using 主文字 作为 营销标题.**'
+- '**Use 排版语言 to control the 标题 treatment and 支持 类型 behavior.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -80,16 +73,13 @@ prompt: 'Create an image in the "Plush Comic Toy Product Poster" style.
   Scene: {SUBJECT} {SUBJECT_ACTION}, presented as {PRODUCT_OR_PROP}, placed in {LOCATION}. Use {PRODUCT_TEXTURE}. Style the object with {WARDROBE_STYLE}.
 
 
-  Layout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow. Place {BACKGROUND_ELEMENTS} around it. Add a large
-  cyan circle or oval behind the product. Build the biggest graphic area from oversized tilted block typography using "{MAIN_TEXT}" as the campaign headline.
+  Layout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow. Place {BACKGROUND_ELEMENTS} around it. Add a large cyan circle or oval behind the product. Build the biggest graphic area from oversized tilted block typography using "{MAIN_TEXT}" as the campaign headline.
 
 
-  Typography: use {TYPOGRAPHY_LANGUAGE}. Make the headline huge, angular, stacked, and slanted, with thick black outline and offset shadow. Add "{SECONDARY_TEXT}" only as tiny campaign metadata or small
-  label copy. Keep microcopy compact and decorative, not dominant.
+  Typography: use {TYPOGRAPHY_LANGUAGE}. Make the headline huge, angular, stacked, and slanted, with thick black outline and offset shadow. Add "{SECONDARY_TEXT}" only as tiny campaign metadata or small label copy. Keep microcopy compact and decorative, not dominant.
 
 
-  Graphic language: retro cream poster background, turquoise and cyan anchor color, lemon yellow headline block, signal red headline block, heavy black shadows, sticker-like labels, doodle icons, arrows,
-  lightning-bolt patches, warning-card shapes, and {ACCENT_SYMBOL}. Combine soft plush 3D texture with flat printed poster graphics.
+  Graphic language: retro cream poster background, turquoise and cyan anchor color, lemon yellow headline block, signal red headline block, heavy black shadows, sticker-like labels, doodle icons, arrows, lightning-bolt patches, warning-card shapes, and {ACCENT_SYMBOL}. Combine soft plush 3D texture with flat printed poster graphics.
 
 
   Do not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference text, copied brand names, or copied license-plate details.'

@@ -2,9 +2,8 @@ name: Neon Doodle Gallery Snapshot
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: 'A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions, stars, paw prints, spiderweb
-  corners, scribble bars, halos, plants, and student diary energy.'
+source_url: https://x.com/VigoCreativeAI
+summary: 自然纪实 手机照片风格 叠加 混乱霓虹灯数字 马克笔涂鸦：热粉和青色 主体轮廓，黄色怪物尖刺， 粗糙 手写 说明s ，星星印刷，爪子，角落蜘蛛网，潦草线酒吧，光环，植物和学生 日记 气质。
 tags:
 - VigoCookbook
 - candid
@@ -36,17 +35,11 @@ tags:
 triggers:
 - Neon Doodle Gallery Snapshot
 features:
-- title: 'Preserve the core visual identity: A candid phone-photo style layered with chaotic neon digital marker doodles: hot-pink and cyan subject outlines, yellow monster spikes, rough handwritten captions,
-    stars, paw prints, spiderweb corners, scribble bars, halos, plants, and student diary energy.'
-  desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
-  desc: ''
-- title: Use a realistic candid phone-photo as the base layer.
-  desc: ''
-- title: 'The setting should feel specific and ordinary: visible walls, art, shelves, labels, tables, lamps, posters, people, bags, shadows, grain, and imperfect handheld framing.'
-  desc: ''
-- title: Draw a loud digital marker layer directly on top of the photo.
-  desc: ''
+- '* *保留核心视觉标识：自然纪实手机-照片风格 叠加 混乱霓虹灯数字 马克笔涂鸦：热粉和青色 主体轮廓，黄色怪物尖峰， 粗糙 手写 说明s ，星星印刷，爪子，角落蜘蛛网，潦草线酒吧，光环，植物和学生日记 气质。* *'
+- '* *背景元素用于控制次要场景细质感节、标牌、道具和环境线索。* *'
+- '* *使用写实坦率的手机照片 作为底座层。* *'
+- '* *设置应触感具体而普通：可见墙壁、艺术品、书架标签、桌子、灯海报具、人物、包阴影包纹理、以及不完美的手持框架。* *'
+- '* *层直接画一个响亮数字的标记在 照片。* *'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -91,21 +84,16 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Neon Doodle Gallery Snapshot" sty
   Wardrobe style: {WARDROBE_STYLE}.
 
 
-  Use a realistic candid phone-photo as the base layer. The setting should feel specific and ordinary: visible walls, art, shelves, labels, tables, lamps, posters, people, bags, shadows, grain, and imperfect
-  handheld framing.
+  Use a realistic candid phone-photo as the base layer. The setting should feel specific and ordinary: visible walls, art, shelves, labels, tables, lamps, posters, people, bags, shadows, grain, and imperfect handheld framing.
 
 
-  Draw a loud digital marker layer directly on top of the photo. Wrap the main subject with a thick hot-pink contour and a cyan offset glow. Add yellow-orange monster spikes, horns, rays, fins, or sunburst
-  shapes around the silhouette. Scatter rough hand-drawn symbols around the frame: stars, paw prints, spiderweb corners, halos, abstract eyes, plants, flowers, scribble underlines, tally marks, arrows,
-  hearts, and sticker-like blobs.
+  Draw a loud digital marker layer directly on top of the photo. Wrap the main subject with a thick hot-pink contour and a cyan offset glow. Add yellow-orange monster spikes, horns, rays, fins, or sunburst shapes around the silhouette. Scatter rough hand-drawn symbols around the frame: stars, paw prints, spiderweb corners, halos, abstract eyes, plants, flowers, scribble underlines, tally marks, arrows, hearts, and sticker-like blobs.
 
 
-  Place rough uppercase handwritten marker text in open areas, using white, yellow, or lime green. The text should feel funny, personal, distracted, and student-made. Preserve the contrast between a real
-  candid photo and chaotic handmade doodles.
+  Place rough uppercase handwritten marker text in open areas, using white, yellow, or lime green. The text should feel funny, personal, distracted, and student-made. Preserve the contrast between a real candid photo and chaotic handmade doodles.
 
 
-  Avoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, luxury editorial styling, perfect typography,
-  empty sterile locations, identifiable celebrities, and tiny unreadable text.'
+  Avoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, luxury editorial styling, perfect typography, empty sterile locations, identifiable celebrities, and tiny unreadable text.'
 preview: https://malongan.github.io/images/vigo_previews/neon-doodle-gallery-snapshot.jpg
 id: vigo_neon_doodle_gallery_snapshot
 code: ''

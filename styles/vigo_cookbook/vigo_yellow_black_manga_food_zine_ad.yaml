@@ -2,25 +2,19 @@ name: Yellow Black Manga Food Zine Ad Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A dense Japanese-manga-inspired food and product zine advertisement style with black ink linework, yellow advertising blocks, cream paper fields, dramatic cropped character panels, glossy illustrated
-  hero objects, giant warped display typography, small Chinese editorial copy, and rough print texture.
+source_url: https://x.com/VigoCreativeAI
+summary: 高密度 Japanese-漫画风 美食 and 产品 杂志 advertisement 风格 with 黑 墨线, 黄色 advertising blocks, 奶油色 纸面s, dramatic 裁切 字符 面板s, 光泽 插画 主角物体s, giant 扭曲 展示 字体排版, 小 Chinese 编辑 复制, and 粗糙 印刷 质感.
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Yellow Black Manga Food Zine Ad Style
 features:
-- title: Dominant black, warm yellow, cream white, and small red-green accent palette with yellow occupying big advertising panels.
-  desc: ''
-- title: Dense manga page collage layout with diagonal cuts, rectangular inset panels, and very little unused space.
-  desc: ''
-- title: Huge warped display lettering that bends into perspective or stacks vertically like a loud printed sound effect.
-  desc: ''
-- title: Thick black keylines, speed hatching, sweat-drop marks, sparkle symbols, and rough hand-inked comic contours.
-  desc: ''
-- title: One oversized glossy illustrated product or food object in the lower foreground with painterly highlights.
-  desc: ''
+- '**Dominant 黑, warm 黄色, 奶油色 白, and 小 红-绿 accent palette with 黄色 occupying big advertising 面板s.**'
+- '**Dense 漫画 page 拼贴布局 with 对角线 cuts, 矩形 inset 面板s, and very little unused 空间.**'
+- '**Huge 扭曲 展示 字体 that bends into perspective or stacks 垂直ly like a loud 印刷ed sound effect.**'
+- '**Thick 黑 keylines, speed hatching, sweat-drop marks, s公园le 符号s, and 粗糙 hand-inked 漫画 contours.**'
+- '**One 超大 光泽 插画 产品 or 美食 物体 in the lower 前景 with painterly 高光s.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -43,12 +37,8 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: main headline or graphic text
   desc: ''
-prompt: 'Create a {ASPECT_RATIO} raster image in the Yellow Black Manga Food Zine Ad Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Hero product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}.
-  Background and secondary elements: {BACKGROUND_ELEMENTS}. Main headline text in Chinese: {MAIN_TEXT}. Secondary Chinese copy or microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or
-  styling: {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build a dense black, warm yellow, and cream
-  manga advertorial page with diagonal panel cuts, thick hand-inked keylines, speed hatching, sweat-drop marks, sparkle symbols, one dramatic cropped manga reaction panel, an oversized glossy illustrated
-  hero object in the foreground, boxed Chinese editorial copy, a vertical tag label, a strip of mini comic panels, halftone speckle, scanned paper grain, and imperfect print registration. Keep the style
-  loud, humorous, appetizing or product-focused, high-contrast, and hand-drawn. Change all content from the reference image while keeping the visual language.'
+prompt: 'Create a {ASPECT_RATIO} raster image in the Yellow Black Manga Food Zine Ad Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Hero product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background and secondary elements: {BACKGROUND_ELEMENTS}. Main headline text in Chinese: {MAIN_TEXT}. Secondary Chinese copy or microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or styling: {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build a dense black, warm yellow, and cream manga advertorial page with diagonal panel cuts, thick hand-inked keylines, speed hatching, sweat-drop marks, sparkle symbols, one dramatic cropped manga reaction panel, an oversized glossy illustrated hero object in the foreground, boxed Chinese editorial copy, a vertical tag label, a strip of mini comic panels, halftone speckle, scanned paper grain, and imperfect print registration. Keep
+  the style loud, humorous, appetizing or product-focused, high-contrast, and hand-drawn. Change all content from the reference image while keeping the visual language.'
 preview: https://malongan.github.io/images/vigo_previews/yellow-black-manga-food-zine-ad.jpg
 id: vigo_yellow_black_manga_food_zine_ad
 code: ''

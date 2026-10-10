@@ -2,25 +2,19 @@ name: Fantasy Scribble Mascot Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A raw hand-drawn fantasy poster system with oversized uneven lettering, neon marker mascot shapes, thick black outlines, loose scribble decorations, and dense childlike collage energy on a white
-  paper field.
+source_url: https://x.com/VigoCreativeAI
+summary: 一个原始的格式 手绘幻想海报系统字体，具有超大不均匀的霓虹灯吉祥物 形状标记、厚 黑轮廓、宽松的潦草线装饰和浓密的孩子拼贴 气质气在 白 纸面。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Fantasy Scribble Mascot Poster Style
 features:
-- title: White paper field with the image treated like a scanned handmade poster rather than a polished digital illustration.
-  desc: ''
-- title: Huge irregular hand-painted headline letters occupying the top or one dominant edge of the composition.
-  desc: ''
-- title: Thick, uneven, dry-brush black outlines around characters, props, text, and many decorative marks.
-  desc: ''
-- title: Flat marker-fill color blocks using electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents.
-  desc: ''
-- title: Childlike fantasy mascot anatomy with playful distortion, blunt legs, long ears, floating eyes, and simplified facial dots.
-  desc: ''
+- '* *白色纸面，搭配 图像像扫描手工制作的插图，海报而不是抛光的数字插图。* *'
+- '* *巨大的不规则手标题 字母绘占据顶部或一个主导地位边缘，的成分。* *'
+- '* *厚实、不均匀、干刷黑 周围 字符轮廓文字、道具和许多装饰标记。* *'
+- '* *平面标记-使用电青色、、热高饱和 蓝、粉 霓虹青柠 深 绿、和小 棕或紫强调色填充颜色块。* *'
+- '* *有趣的扭曲、钝腿、长耳朵、漂浮的眼睛和简化面部点的童趣幻想吉祥物解剖结构。* *'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -71,21 +65,18 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Fantasy Scribble Mascot Poster St
 
   Apply these style rules as concrete visual direction:
 
-  - Composition: one oversized flat mascot or object anchors the poster, with two or three smaller companion doodles orbiting it; use a white paper field, dense handmade collage balance, and visible open
-  gaps filled by stars, rings, arrows, loops, plant stems, and tiny handwritten callouts.
+  - Composition: one oversized flat mascot or object anchors the poster, with two or three smaller companion doodles orbiting it; use a white paper field, dense handmade collage balance, and visible open gaps filled by stars, rings, arrows, loops, plant stems, and tiny handwritten callouts.
 
   - Typography: create a huge irregular hand-painted headline as part of the drawing; use thick black dry-brush letters, wobbly baselines, uneven spacing, and smaller handwritten phrases as graphic texture.
 
   - Color: use high-saturation marker blocks with electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents; keep black outlines dominant and the white paper visible.
 
-  - Texture and lighting: flat scanned marker-and-ink treatment with marker streaks, scratchy overdraw, dirty paper texture, pressure changes, and no realistic lighting, no shadows, no gradients, and no
-  glossy finish.
+  - Texture and lighting: flat scanned marker-and-ink treatment with marker streaks, scratchy overdraw, dirty paper texture, pressure changes, and no realistic lighting, no shadows, no gradients, and no glossy finish.
 
   - Graphic elements: use naive fantasy mascot shapes, blunt limbs, floating eyes, patch symbols, orbit rings, starbursts, scribble fills, and intentionally awkward handmade registration.
 
 
-  Avoid polished vector art, anime, 3D rendering, photorealism, platform UI, watermarks, logos, creator signatures, QR codes, exact source wording, exact source character silhouettes, and the original source
-  story arrangement.
+  Avoid polished vector art, anime, 3D rendering, photorealism, platform UI, watermarks, logos, creator signatures, QR codes, exact source wording, exact source character silhouettes, and the original source story arrangement.
 
 
   Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while pres'

@@ -2,9 +2,8 @@ name: Urban Transit Doodle Diary Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a
-  large foreground gesture.
+source_url: https://x.com/VigoCreativeAI
+summary: A RAW格式 城市 快照 treated like a personal visual 日记, combining real 公开-空间 照片y with 粗体 手绘 漫画 overlays, 手写 旅行 notes, 高饱和 cartoon faces, and a 大 前景 gesture.
 tags:
 - VigoCookbook
 - raw
@@ -34,17 +33,11 @@ tags:
 triggers:
 - Urban Transit Doodle Diary Style
 features:
-- title: 'Preserve the core visual identity: A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes,
-    saturated cartoon faces, and a large foreground gesture.'
-  desc: ''
-- title: Keep the base image feeling like an imperfect phone snapshot from a real public city space, not a polished poster shoot.
-  desc: ''
-- title: Layer hand-drawn notes, arrows, sticker-like marks, and cartoon facial edits over the photo while keeping the underlying street scene readable.
-  desc: ''
-- title: Use saturated accent colors only for doodles, gestures, labels, and emphasis marks; let the photographic background stay raw and compressed.
-  desc: ''
-- title: Make MAIN_TEXT and SECONDARY_TEXT feel handwritten, diaristic, and locally placed rather than typeset as clean branding.
-  desc: ''
+- '**Preserve the 核心 visual identity: A RAW格式 城市 快照 treated like a personal visual 日记, combining real 公开-空间 照片y with 粗体 手绘 漫画 overlays, 手写 旅行 notes, 高饱和 cartoon faces, and a 大 前景 gesture.**'
+- '**Keep the base 图像 感觉 like an imperfect phone 快照 ，从 real 公开 城市 空间, not a polished 海报 shoot.**'
+- '**Layer 手绘 notes, arrows, 贴纸感 marks, and cartoon facial edits 覆盖 照片 while keeping the underlying 街头 scene readable.**'
+- '**Use 高饱和 accent colors only for 涂鸦s, gestures, 标签s, and emphasis marks; let the 照片ic 背景 stay RAW格式 and 压缩.**'
+- '**Make 主文字 and SECONDARY_TEXT 触感 手写, diaristic, and locally placed rather than 类型set as 干净 branding.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -67,8 +60,7 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: large handwritten diary title or location note
   desc: ''
-prompt: Create a {ASPECT_RATIO} image in urban-transit-doodle-diary-style featuring {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, set in {LOCATION}. Include {BACKGROUND_ELEMENTS}, main text "{MAIN_TEXT}",
-  secondary text "{SECONDARY_TEXT}", {ACCENT_SYMBOL}, and {WARDROBE_STYLE}.
+prompt: Create a {ASPECT_RATIO} image in urban-transit-doodle-diary-style featuring {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, set in {LOCATION}. Include {BACKGROUND_ELEMENTS}, main text "{MAIN_TEXT}", secondary text "{SECONDARY_TEXT}", {ACCENT_SYMBOL}, and {WARDROBE_STYLE}.
 preview: https://malongan.github.io/images/vigo_previews/urban-transit-doodle-diary.jpg
 id: vigo_urban_transit_doodle_diary
 code: ''

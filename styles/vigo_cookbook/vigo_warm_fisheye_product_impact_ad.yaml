@@ -2,26 +2,19 @@ name: Warm Fisheye Product Impact Ad Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A high-impact product advertising style built from ultra-wide close-up photography, a tunnel of textured foreground pieces, oversized angled white Chinese display type, warm amber-brown contrast,
-  tiny top navigation labels, product-pack callouts, and compressed social-banner density. It feels like a loud commercial thumbnail shot from inside a pile of snack-like objects, with the product and subject
-  rushing toward the viewer.
+source_url: https://x.com/VigoCreativeAI
+summary: 高冲击 产品广告宽 近景 照片垂直风格，由超级， 质感d前景块的隧道，超大倾斜白的中文展示字体，暖琥珀棕对比，微小 顶部导航标签s ， 产品-pack标注和压缩 社交-横幅密度。这就像从一在堆触感零食般的商业缩略图中拍摄的一物体张响亮的缩略图搭配 产品，主体冲朝向向观众。
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Warm Fisheye Product Impact Ad Style
 features:
-- title: Extreme fisheye or ultra-wide macro perspective from inside a product pile, bowl, or tunnel.
-  desc: ''
-- title: Foreground is crowded with many warm brown or golden textured pieces forming a thick border around the image.
-  desc: ''
-- title: Hero subject is very close to the lens with cropped face, hand, object, package, or product detail pressing toward the viewer.
-  desc: ''
-- title: Dense commercial banner hierarchy with little empty space, layered subject, product pack, headline, and small captions.
-  desc: ''
-- title: Huge angled white Chinese display headline with heavy black shadow or extruded 3D block depth.
-  desc: ''
+- '* *从在 产品桩、碗鱼眼或隧道的极限或超高宽 微距视角。* *'
+- '* * Foreg圆形在厚边境上挤满金了许多温质感暖棕或充满活形态力的作周围品图像。* *'
+- '* *英雄主体非常近接近镜头，裁切脸部、手部物体、包装或产品细节按压朝向观看者。* *'
+- '* *密集的商业 横幅层次结构空 空间 分层 主体，产品包含少量、标题、包小 说明、和。* *'
+- '* *展示 标题具有重 黑 阴影或挤压3D块深度的巨大倾斜白中式。* *'
 variables:
 - kv_var: 变量
   style_var: 说明

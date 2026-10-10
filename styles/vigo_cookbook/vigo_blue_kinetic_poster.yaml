@@ -2,25 +2,19 @@ name: Blue Lime Kinetic Comic Type Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A loud flat comic-poster system built from electric-blue grid paper, oversized neon-lime speech-panel geometry, heavy black block typography, sharp yellow back plates, radial action marks, and
-  gritty print texture. The style feels like a kinetic street flyer where the headline is the main subject.
+source_url: https://x.com/VigoCreativeAI
+summary: 高调 扁平 漫画-海报 系统，由 electric-蓝 网格 paper, 超大 neon-青柠 speech-面板 geometry, 重 黑 方块字体, 锐利 黄色 背面 plates, radial action marks, and gritty 印刷 质感. The 风格 触感s like a kinetic 街头 flyer where the 标题 is the 主要 主体.
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Blue Lime Kinetic Comic Type Poster Style
 features:
-- title: Electric-blue background fills the canvas and carries a faint square grid, like printed graph paper.
-  desc: ''
-- title: A giant neon-lime speech-bubble or banner panel dominates the center with a sharp triangular tail or cutout.
-  desc: ''
-- title: A flat yellow geometric back plate peeks from behind the lime panel to create high-contrast poster depth.
-  desc: ''
-- title: Massive black block typography is the primary visual mass, cropped tight and packed inside the lime shape.
-  desc: ''
-- title: Letterforms feel blunt, heavy, slightly irregular, and comic-like rather than refined or corporate.
-  desc: ''
+- '**Electric-蓝 背景 fills the canvas and carries a faint 方形 网格, like 印刷ed graph paper.**'
+- '**巨型霓虹青柠 气泡 or 横幅 面板 dominates the 中心 ，搭配 锐利 三角形 tail or 剪影.**'
+- '**扁平 黄色 geometric 背面 plate peeks from 在 青柠 面板 to create 高对比 海报 depth.**'
+- '**Massive 黑 方块字体 is the 主要 visual mass, 裁切 tight and 拥挤 在 青柠 形状.**'
+- '**Letter形态s 触感 blunt, 重, s亮ly irregular, and 漫画-like rather than refined or corporate.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -43,12 +37,8 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: short main Chinese headline or bold poster phrase
   desc: ''
-prompt: 'Create a {ASPECT_RATIO} raster poster in the Blue Lime Kinetic Comic Type Poster Style. Preserve these style anchors first: {STYLE_FIDELITY_ANCHORS}. Use an electric-blue full-bleed grid-paper
-  background, a huge slanted neon-lime speech-panel or cut-paper banner, a sharp yellow geometric back plate behind it, massive black rough comic-block Chinese typography packed tightly into the lime panel,
-  a black strip or edge zone for secondary text, radial black action rays, small arrow/separator marks, subtle halftone dots, ink speckles, rough printed edges, and flat screenprint color. New content:
-  {SUBJECT} doing {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, located in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol:
-  {ACCENT_SYMBOL}. Wardrobe or subject styling: {WARDROBE_STYLE}. Keep the composition shallow, loud, compressed, tilted, and type-dominant. Avoid recreating source content: {SOURCE_CONTENT_TO_AVOID}. No
-  watermark, no username, no QR code, no brand logo.'
+prompt: 'Create a {ASPECT_RATIO} raster poster in the Blue Lime Kinetic Comic Type Poster Style. Preserve these style anchors first: {STYLE_FIDELITY_ANCHORS}. Use an electric-blue full-bleed grid-paper background, a huge slanted neon-lime speech-panel or cut-paper banner, a sharp yellow geometric back plate behind it, massive black rough comic-block Chinese typography packed tightly into the lime panel, a black strip or edge zone for secondary text, radial black action rays, small arrow/separator marks, subtle halftone dots, ink speckles, rough printed edges, and flat screenprint color. New content: {SUBJECT} doing {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, located in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or subject styling: {WARDROBE_STYLE}. Keep the composition shallow, loud, compressed, tilted, and type-dominant. Avoid recreating source content: {SOURCE_CONTENT_TO_AVOID}.
+  No watermark, no username, no QR code, no brand logo.'
 preview: https://malongan.github.io/images/vigo_previews/blue-lime-kinetic-comic-type-poster.jpg
 id: vigo_blue_kinetic_poster
 code: ''

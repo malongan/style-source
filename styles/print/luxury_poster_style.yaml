@@ -2,9 +2,8 @@ name: Quiet Luxury Furniture Nameplate Poster Style
 category: print
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A premium furniture editorial poster system with a warm off-white studio field, oversized deep forest-green display typography behind one realistic hero furniture object, sparse catalog microcopy,
-  thin rules, outlined catalog chips, and a dark green rounded bottom information bar.
+source_url: https://x.com/VigoCreativeAI
+summary: A 高级 furniture 编辑海报 system ，搭配 warm off-白 影棚 field, 超大 深 森林-绿 展示 字体排版 后方 one 写实 主角 furniture 物体, sparse catalog 微文案, 薄 rules, outlined catalog chips, and a 暗 绿 圆形ed 底部 in格式ion bar.
 tags:
 - VigoCookbook
 - Luxury
@@ -17,16 +16,11 @@ tags:
 triggers:
 - Quiet Luxury Furniture Nameplate Poster Style
 features:
-- title: Warm off-white background with subtle paper softness and a faint studio floor gradient.
-  desc: ''
-- title: Oversized deep forest-green display typography sits behind the furniture and is partly obscured.
-  desc: ''
-- title: One hero furniture object dominates the lower-middle frame with realistic product-photography depth.
-  desc: ''
-- title: The furniture overlaps the rear display word, creating a clean layered poster hierarchy.
-  desc: ''
-- title: Thin dark green horizontal rule and small spaced navigation words sit near the top.
-  desc: ''
+- '**Warm off-白 背景 with subtle paper 柔软ness and a faint 影棚 floor 渐变.**'
+- '**Oversized 深 森林-绿 展示 字体排版 sits 在 furniture and is partly obscured.**'
+- '**One 主角 furniture 物体 dominates the lower-中间 画面 with 写实 产品-照片y depth.**'
+- '**The furniture 叠加在 rear 展示 词, creating a 干净 分层 海报 hierarchy.**'
+- '**Thin 暗 绿 水平 rule and 小 空间d navigation 词s sit 靠近 顶部.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -49,12 +43,8 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: large rear display headline or category word
   desc: ''
-prompt: 'Create a {ASPECT_RATIO} luxury furniture editorial poster in the Quiet Luxury Furniture Nameplate Poster Style. Subject: {SUBJECT}. Position and spatial relationship: {SUBJECT_ACTION}. Product
-  or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Large rear display text: {MAIN_TEXT}. Secondary catalog text: {SECONDARY_TEXT}. Accent symbol or chip: {ACCENT_SYMBOL}.
-  Furniture material styling: {WARDROBE_STYLE}. Style fidelity anchors to preserve: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Build a warm off-white studio poster field
-  with subtle paper softness, one oversized deep forest-green geometric sans display word behind the product, a thin top horizontal rule with small spaced catalog navigation words, compact lower-left microcopy,
-  two small outlined catalog chips near the lower-right, and a dark green rounded product-information bar across the bottom. The furniture must be realistic, premium, materially detailed, softly shadowed,
-  and large enough to overlap the rear typography. Keep the image sparse, refined, gallery-like, and brandless. Do not use real logos, watermarks, QR codes, app UI, price tags, or exact source text.'
+prompt: 'Create a {ASPECT_RATIO} luxury furniture editorial poster in the Quiet Luxury Furniture Nameplate Poster Style. Subject: {SUBJECT}. Position and spatial relationship: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Large rear display text: {MAIN_TEXT}. Secondary catalog text: {SECONDARY_TEXT}. Accent symbol or chip: {ACCENT_SYMBOL}. Furniture material styling: {WARDROBE_STYLE}. Style fidelity anchors to preserve: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Build a warm off-white studio poster field with subtle paper softness, one oversized deep forest-green geometric sans display word behind the product, a thin top horizontal rule with small spaced catalog navigation words, compact lower-left microcopy, two small outlined catalog chips near the lower-right, and a dark green rounded product-information bar across the bottom. The furniture must be realistic, premium, materially
+  detailed, softly shadowed, and large enough to overlap the rear typography. Keep the image sparse, refined, gallery-like, and brandless. Do not use real logos, watermarks, QR codes, app UI, price tags, or exact source text.'
 preview: https://malongan.github.io/images/vigo_previews/quiet-luxury-furniture-nameplate-poster.jpg
 id: luxury_poster_style
 code: ''

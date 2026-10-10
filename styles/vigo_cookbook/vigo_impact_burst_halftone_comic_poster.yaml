@@ -2,9 +2,8 @@ name: Impact Burst Halftone Comic Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal props, speech bursts, smoke puffs,
-  halftone dots, and distressed screen-print grain.
+source_url: https://x.com/VigoCreativeAI
+summary: 高调 复古 漫画 海报 系统，由 厚 黑 墨水, 扁平 高饱和 colors, 超大 impact 字体排版, exaggerated 插画 主体s, 对角线 props, speech bursts, smoke puffs, 半调 dots, and 破损 丝网印刷 纹理.
 tags:
 - VigoCookbook
 - loud
@@ -31,19 +30,11 @@ tags:
 triggers:
 - Impact Burst Halftone Comic Poster Style
 features:
-- title: 'Preserve the core visual identity: A loud retro comic poster system built from thick black ink, flat high-saturation colors, oversized impact typography, exaggerated illustrated subjects, diagonal
-    props, speech bursts, smoke puffs, halftone dots, and distressed screen-print grain.'
-  desc: ''
-- title: 'Layout: use a bold cropped comic-poster composition.'
-  desc: ''
-- title: Place the main subject large in the lower two-thirds and let the oversized prop cut diagonally across the body or foreground.
-  desc: ''
-- title: 'Style: thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent,
-    distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration.'
-  desc: ''
-- title: 'Avoid: watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism,
-    3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design.'
-  desc: ''
+- '**Preserve the 核心 visual identity: 高调 复古 漫画 海报 系统，由 厚 黑 墨水, 扁平 高饱和 colors, 超大 impact 字体排版, exaggerated 插画 主体s, 对角线 props, speech bursts, smoke puffs, 半调 dots, and 破损 丝网印刷 纹理.**'
+- '**Layout: use a 粗体 裁切 漫画-海报 composition.**'
+- '**Place the 主要 主体 大 in the lower two-thirds and let the 超大 prop cut 对角线ly 横穿 body or 前景.**'
+- '**Style: 厚 uneven 黑 contour lines, 扁平 hot-橙 and 老化-奶油色 字符 形状s, 高饱和 青色 背景幕, lemon-黄色 speech-burst 角落, 柔和 橄榄绿 prop color, 小 灰 accent, 破损 丝网印刷 质感, 半调 dots, 纸张纹理, 粗糙 墨水 边缘s, and s亮 印刷 misregistration.**'
+- '**Avoid: 水印, 用户名, creator ID, plat形态 logo, 二维码, app UI, artist sig自然, copied reference 字符, copied exact pose, copied exact 文字, 品牌logos, licensed 字符s, 照片realism, 3D, 光泽 渐变s, 柔软 airbrush shading, 干净 vector polish, crowded paragraphs, and 柔和 corporate design.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -66,13 +57,8 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: short comic headline, e.g. ZAP!, CRASH!, BANG!, WHAM!
   desc: ''
-prompt: 'Create an image in impact-burst-halftone-comic-poster-style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}.
-  Style the subject with {WARDROBE_STYLE}. Layout: use a bold cropped comic-poster composition. Put a huge condensed cream block-letter headline reading "{MAIN_TEXT}" across the upper band, with "{SECONDARY_TEXT}"
-  as tiny impact microcopy if it stays clean. Place the main subject large in the lower two-thirds and let the oversized prop cut diagonally across the body or foreground. Add {ACCENT_SYMBOL} as a graphic
-  impact mark. Style: thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent,
-  distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid: watermark, username, creator ID, platform logo, QR code, app UI, artist signature,
-  copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs,
-  and muted corporate design.'
+prompt: 'Create an image in impact-burst-halftone-comic-poster-style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. Layout: use a bold cropped comic-poster composition. Put a huge condensed cream block-letter headline reading "{MAIN_TEXT}" across the upper band, with "{SECONDARY_TEXT}" as tiny impact microcopy if it stays clean. Place the main subject large in the lower two-thirds and let the oversized prop cut diagonally across the body or foreground. Add {ACCENT_SYMBOL} as a graphic impact mark. Style: thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid: watermark, username, creator ID, platform logo,
+  QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design.'
 preview: https://malongan.github.io/images/vigo_previews/impact-burst-halftone-comic-poster.jpg
 id: vigo_impact_burst_halftone_comic_poster
 code: ''

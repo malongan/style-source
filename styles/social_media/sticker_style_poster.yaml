@@ -2,9 +2,8 @@ name: Analog Sticker Diary Portrait Poster Style
 category: social_media
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects, distressed orange hand lettering, and
-  heavy scanned print texture.
+source_url: https://x.com/VigoCreativeAI
+summary: A 怀旧 模拟 日记-拼贴 肖像 system ，搭配 大 侧面-profile 插画 主体, 奶油色 graph-paper 背景, 贴纸感 personal 物体s, 破损 橙 hand 字体, and 重 scanned 印刷 质感.
 tags:
 - VigoCookbook
 - nostalgic
@@ -29,17 +28,11 @@ tags:
 triggers:
 - Analog Sticker Diary Portrait Poster Style
 features:
-- title: 'Preserve the core visual identity: A nostalgic analog diary-collage portrait system with a large side-profile illustrated subject, cream graph-paper background, sticker-like personal objects,
-    distressed orange hand lettering, and heavy scanned print texture.'
-  desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
-  desc: ''
-- title: Use a large side-profile or quiet three-quarter illustrated portrait as the anchor.
-  desc: ''
-- title: Put the subject on cream graph-paper notebook background with faded blue grid lines.
-  desc: ''
-- title: Surround the portrait with sticker-like personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.
-  desc: ''
+- '**Preserve the 核心 visual identity: A 怀旧 模拟 日记-拼贴 肖像 system ，搭配 大 侧面-profile 插画 主体, 奶油色 graph-paper 背景, 贴纸感 personal 物体s, 破损 橙 hand 字体, and 重 scanned 印刷 质感.**'
+- '**Use 背景元素 to control 次要 scene details, 质感s, signage, props, and environmental cues.**'
+- '**Use a 大 侧面-profile or quiet 四分之三 插画 肖像 作为 anchor.**'
+- '**Put the 主体 on 奶油色 graph-paper notebook 背景 with faded 蓝 网格 lines.**'
+- '**Sur圆形 the 肖像 with 贴纸感 personal 物体s, 微小 paper scraps, tickets, 美食 packaging, 车站ery, charms, numbers, 涂鸦s, tape marks, and 小 手绘 图标s.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -84,20 +77,16 @@ prompt: 'Create a {ASPECT_RATIO} image in analog-sticker-diary-portrait-poster-s
   Wardrobe styling: {WARDROBE_STYLE}.
 
 
-  Use a large side-profile or quiet three-quarter illustrated portrait as the anchor. Put the subject on cream graph-paper notebook background with faded blue grid lines. Surround the portrait with sticker-like
-  personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.
+  Use a large side-profile or quiet three-quarter illustrated portrait as the anchor. Put the subject on cream graph-paper notebook background with faded blue grid lines. Surround the portrait with sticker-like personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.
 
 
-  Make the main headline huge, rough, hand-drawn, uppercase, orange-red, with blue or dark offset shadow, wrapping across hair, clothing, or open paper space. Keep the portrait calm and introspective while
-  the sticker field feels busy and personal.
+  Make the main headline huge, rough, hand-drawn, uppercase, orange-red, with blue or dark offset shadow, wrapping across hair, clothing, or open paper space. Keep the portrait calm and introspective while the sticker field feels busy and personal.
 
 
-  The image should feel like a scanned school notebook cover, teen sticker diary, analog music zine, and introspective poster. Add paper grain, halftone speckles, faded ink, smudges, fold marks, slight
-  misregistration, and imperfect cutout edges.
+  The image should feel like a scanned school notebook cover, teen sticker diary, analog music zine, and introspective poster. Add paper grain, halftone speckles, faded ink, smudges, fold marks, slight misregistration, and imperfect cutout edges.
 
 
-  Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, sterile spacing, plain background, perfect typography, and photorealistic
-  studio portrait.'
+  Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, sterile spacing, plain background, perfect typography, and photorealistic studio portrait.'
 preview: https://malongan.github.io/images/vigo_previews/analog-sticker-diary-portrait-poster.jpg
 id: sticker_style_poster
 code: ''

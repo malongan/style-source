@@ -2,9 +2,8 @@ name: Playful Mascot Doodle Snapshot Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels, sparkles, spirals, and sketchy decorative
-  marks over the photographic scene.
+source_url: https://x.com/VigoCreativeAI
+summary: A casual real-life 社交 照片 转化为 a playful 海报 by 层ing 原创 cartoon 吉祥物 贴纸s, 手绘 outlines, ribbon 标题 面板s, s公园les, 螺旋s, and 素描y decorative marks 覆盖 照片ic scene.
 tags:
 - VigoCookbook
 - casual
@@ -33,18 +32,11 @@ tags:
 triggers:
 - Playful Mascot Doodle Snapshot Style
 features:
-- title: 'Preserve the core visual identity: A casual real-life social photo transformed into a playful poster by layering original cartoon mascot stickers, hand-drawn outlines, ribbon headline panels,
-    sparkles, spirals, and sketchy decorative marks over the photographic scene.'
-  desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
-  desc: ''
-- title: Use a realistic casual phone-photo scene as the base layer.
-  desc: ''
-- title: Keep the environment photographic, naturally lit, and location-specific.
-  desc: ''
-- title: 'Add original flat cartoon mascot stickers on top of the photo: fruit, cloud, star, cup, wave, and jelly-shaped characters with simple eyes, thick dark outlines, glossy color blocks, sunny yellow,
-    teal, coral, sky blue, lavender, cream, and soft pink accents.'
-  desc: ''
+- '**Preserve the 核心 visual identity: A casual real-life 社交 照片 转化为 a playful 海报 by 层ing 原创 cartoon 吉祥物 贴纸s, 手绘 outlines, ribbon 标题 面板s, s公园les, 螺旋s, and 素描y decorative marks 覆盖 照片ic scene.**'
+- '**Use 背景元素 to control 次要 scene details, 质感s, signage, props, and environmental cues.**'
+- '**Use a 写实 casual phone-照片 scene 作为 base 层.**'
+- '**Keep the environment 照片ic, naturally lit, and location-specific.**'
+- '**Add 原创 扁平 cartoon 吉祥物 贴纸s 在 照片: fruit, cloud, star, cup, 波浪, and jelly-形状d 字符s with 简单 eyes, 厚 暗 outlines, 光泽 color blocks, sunny 黄色, 青绿, 珊瑚, sky 蓝, lavender, 奶油色, and 柔软 粉 accents.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -89,18 +81,13 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Playful Mascot Doodle Snapshot" s
   Wardrobe or styling: {WARDROBE_STYLE}.
 
 
-  Use a realistic casual phone-photo scene as the base layer. Keep the environment photographic, naturally lit, and location-specific. Add original flat cartoon mascot stickers on top of the photo: fruit,
-  cloud, star, cup, wave, and jelly-shaped characters with simple eyes, thick dark outlines, glossy color blocks, sunny yellow, teal, coral, sky blue, lavender, cream, and soft pink accents. Add a loose
-  warm outline around the main subject, plus hand-drawn sparkles, spirals, web lines, stars, arrows, and marker doodles floating over the scene.
+  Use a realistic casual phone-photo scene as the base layer. Keep the environment photographic, naturally lit, and location-specific. Add original flat cartoon mascot stickers on top of the photo: fruit, cloud, star, cup, wave, and jelly-shaped characters with simple eyes, thick dark outlines, glossy color blocks, sunny yellow, teal, coral, sky blue, lavender, cream, and soft pink accents. Add a loose warm outline around the main subject, plus hand-drawn sparkles, spirals, web lines, stars, arrows, and marker doodles floating over the scene.
 
 
-  Place the main headline inside a cream or pale-yellow wavy ribbon sticker in the upper third. Use imperfect uppercase hand-lettered marker typography in dark burgundy ink. Keep the main subject''s face,
-  product, or focal object unobstructed. The result should feel like a cheerful social-media photo booth collage, not a polished corporate ad.
+  Place the main headline inside a cream or pale-yellow wavy ribbon sticker in the upper third. Use imperfect uppercase hand-lettered marker typography in dark burgundy ink. Keep the main subject''s face, product, or focal object unobstructed. The result should feel like a cheerful social-media photo booth collage, not a polished corporate ad.
 
 
-  Avoid watermark, username, platform logo, QR code, creator signature, licensed character, recognizable franchise costume, superhero emblem, brand logo, exact reference character, copied IP, goggle-eyed
-  capsule character, denim overalls, red-blue web-pattern suit, mask, shield, helmet emblem, tiny unreadable text, dense paragraph text, corporate layout, sterile studio render, fully vector background,
-  3D plush mascot, photoreal CGI mascot, dark horror mood, gritty dystopian tone, cyberpunk neon scene, face obstruction, distorted hands, and over-sharpened artificial texture.'
+  Avoid watermark, username, platform logo, QR code, creator signature, licensed character, recognizable franchise costume, superhero emblem, brand logo, exact reference character, copied IP, goggle-eyed capsule character, denim overalls, red-blue web-pattern suit, mask, shield, helmet emblem, tiny unreadable text, dense paragraph text, corporate layout, sterile studio render, fully vector background, 3D plush mascot, photoreal CGI mascot, dark horror mood, gritty dystopian tone, cyberpunk neon scene, face obstruction, distorted hands, and over-sharpened artificial texture.'
 preview: https://malongan.github.io/images/vigo_previews/playful-mascot-doodle-snapshot.jpg
 id: vigo_playful_mascot_doodle_snapshot
 code: ''

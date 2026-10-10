@@ -2,9 +2,8 @@ name: Bold Anime Reaction Thumbnail Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller glowing action insert, and clean
-  cel-shaded illustration.
+source_url: https://x.com/VigoCreativeAI
+summary: 高冲击 anime web-thumbnail system with 超大 reaction 字符s, 粗体 黄色 标题 字体排版, 硬 黑 阴影s, 分裂-screen framing, a 小er 光晕ing action insert, and 干净 cel-shaded illustration.
 tags:
 - VigoCookbook
 - high-impact
@@ -30,17 +29,11 @@ tags:
 triggers:
 - Bold Anime Reaction Thumbnail Style
 features:
-- title: 'Preserve the core visual identity: A high-impact anime web-thumbnail system with oversized reaction characters, bold yellow headline typography, hard black shadows, split-screen framing, a smaller
-    glowing action insert, and clean cel-shaded illustration.'
-  desc: ''
-- title: Use clean glossy cel-shaded anime rendering, crisp black line art, smooth gradients, and bright commercial lighting.
-  desc: ''
-- title: Use cool blue/cyan backgrounds, warm character colors, high-contrast black outlines, and a small yellow arrow or glow marker.
-  desc: ''
-- title: Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.
-  desc: ''
-- title: Keep the same visual genre, density level, and rendering mode across new subjects.
-  desc: ''
+- '**Preserve the 核心 visual identity: 高冲击 anime web-thumbnail system with 超大 reaction 字符s, 粗体 黄色 标题 字体排版, 硬 黑 阴影s, 分裂-screen framing, a 小er 光晕ing action insert, and 干净 cel-shaded illustration.**'
+- '**Use 干净 光泽 cel-shaded anime rendering, crisp 黑 line art, 平滑 渐变s, and 明亮 商业 光线.**'
+- '**Use cool 蓝/青色 背景s, warm 字符 colors, 高对比 黑 outlines, and a 小 黄色 arrow or 光晕 marker.**'
+- '**Use new 主体s, new scene details, new props or 产品s, and new 文字, while preserving the 风格 fidelity anchors.**'
+- '**Keep the same visual 类型, density level, and rendering mode 跨越 new 主体s.**'
 variables:
 - kv_var: 变量
   style_var: 说明

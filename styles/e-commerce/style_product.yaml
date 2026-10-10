@@ -2,9 +2,8 @@ name: Electric Blue Silhouette Product Launch Style
 category: e-commerce
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A sparse premium consumer-tech launch poster style built from black negative space, a centered product silhouette, electric-blue rim lighting, a glowing horizontal platform, soft reflection, giant
-  cropped blue background typography, and clean white announcement copy.
+source_url: https://x.com/VigoCreativeAI
+summary: 稀疏 高级 consumer-tech 发布 海报 风格，由 黑 negative 空间, a 居中 产品 轮廓, electric-蓝 轮廓光ing, a 光晕ing 水平 plat形态, 柔软 reflection, giant 裁切 蓝 背景 字体排版, and 干净 白 announcement 复制.
 tags:
 - VigoCookbook
 - minimal
@@ -19,16 +18,11 @@ tags:
 triggers:
 - Electric Blue Silhouette Product Launch Style
 features:
-- title: Nearly black upper field with large areas of empty space.
-  desc: ''
-- title: Single product hero centered on the vertical axis or slightly below center.
-  desc: ''
-- title: Product remains mostly black, readable through electric-blue rim light and one tiny white status highlight.
-  desc: ''
-- title: Strong horizontal electric-blue platform or horizon line divides stage and foreground.
-  desc: ''
-- title: Blue glow spreads across the floor with a soft reflection or shadow directly under the product.
-  desc: ''
+- '**Nearly 黑 upper field with 大 areas of 空 空间.**'
+- '**Single 产品 主角 居中 on the 垂直 axis or s亮ly 下方 中心.**'
+- '**Product re主要s mostly 黑, readable 穿过 electric-蓝 轮廓光 and one 微小 白 status 高光.**'
+- '**Strong 水平 electric-蓝 plat形态 or horizon line divides stage and 前景.**'
+- '**Blue 光晕 spreads 横穿 floor ，搭配 柔软 reflection or 阴影 directly 在 产品.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -51,12 +45,8 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: main headline or giant background word
   desc: ''
-prompt: 'Create a {ASPECT_RATIO} premium dark consumer-tech launch poster in an electric-blue silhouette style. Feature {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} staged in {LOCATION}. Add {BACKGROUND_ELEMENTS}.
-  Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Composition: one centered brandless product silhouette, large black negative space, a glowing
-  electric-blue horizontal platform, blue floor reflection beneath the object, giant cropped blue geometric sans-serif background typography reading "{MAIN_TEXT}" behind the product, clean white lower launch
-  copy using "{SECONDARY_TEXT}", and a tiny minimal accent mark or status light "{ACCENT_SYMBOL}". Lighting: low-key black stage, cyan-blue rim light, glossy edge highlights, soft bloom, haze, deep shadows,
-  no warm accents. Typography: sparse, premium, clean geometric sans-serif, no real logos. Wardrobe or human styling if present: {WARDROBE_STYLE}. Keep the layout minimal, symmetrical, cinematic, and teaser-like
-  rather than dense or feature-heavy.'
+prompt: 'Create a {ASPECT_RATIO} premium dark consumer-tech launch poster in an electric-blue silhouette style. Feature {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} staged in {LOCATION}. Add {BACKGROUND_ELEMENTS}. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Composition: one centered brandless product silhouette, large black negative space, a glowing electric-blue horizontal platform, blue floor reflection beneath the object, giant cropped blue geometric sans-serif background typography reading "{MAIN_TEXT}" behind the product, clean white lower launch copy using "{SECONDARY_TEXT}", and a tiny minimal accent mark or status light "{ACCENT_SYMBOL}". Lighting: low-key black stage, cyan-blue rim light, glossy edge highlights, soft bloom, haze, deep shadows, no warm accents. Typography: sparse, premium, clean geometric sans-serif, no real logos. Wardrobe or human styling if present: {WARDROBE_STYLE}. Keep the layout minimal,
+  symmetrical, cinematic, and teaser-like rather than dense or feature-heavy.'
 preview: https://malongan.github.io/images/vigo_previews/electric-blue-silhouette-product-launch.jpg
 id: style_product
 code: ''

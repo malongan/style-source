@@ -2,9 +2,8 @@ name: Subway Doodle Photo Hybrid
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character faces, oversized foreground gestures,
-  handwritten notes, and social media screenshot texture.
+source_url: https://x.com/VigoCreativeAI
+summary: A phone-shot 城市交通 海报风格 combining documentary subway or 街头 transport 照片y with expressive 手绘 cartoon overlays, 涂鸦d 字符 faces, 超大 前景 gestures, 手写 notes, and 社交媒体 screenshot 质感.
 tags:
 - VigoCookbook
 - phone-shot
@@ -33,17 +32,11 @@ tags:
 triggers:
 - Subway Doodle Photo Hybrid
 features:
-- title: 'Preserve the core visual identity: A phone-shot urban transit poster style combining documentary subway or street transport photography with expressive hand-drawn cartoon overlays, doodled character
-    faces, oversized foreground gestures, handwritten notes, and social media screenshot texture.'
-  desc: ''
-- title: Use SUBJECT as the main photographic subject.
-  desc: ''
-- title: Use PRODUCT_OR_PROP as the foreground doodle, prop, or interaction object.
-  desc: ''
-- title: Use BACKGROUND_ELEMENTS for crowd, signage, documentary texture, and transit context.
-  desc: ''
-- title: Use ACCENT_SYMBOL for color accents, doodle marks, arrows, and sticker-like emphasis.
-  desc: ''
+- '**Preserve the 核心 visual identity: A phone-shot 城市交通 海报风格 combining documentary subway or 街头 transport 照片y with expressive 手绘 cartoon overlays, 涂鸦d 字符 faces, 超大 前景 gestures, 手写 notes, and 社交媒体 screenshot 质感.**'
+- '**Use 主体 作为 主要 照片ic 主体.**'
+- '**Use 产品或道具 作为 前景 涂鸦, prop, or interaction 物体.**'
+- '**Use 背景元素 for crowd, signage, documentary 质感, and transit con文字.**'
+- '**Use 强调符号 for color accents, 涂鸦 marks, arrows, and 贴纸感 emphasis.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -88,19 +81,16 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Subway Doodle Photo Hybrid" style
   Illustrated face and photo-tone treatment: {WARDROBE_STYLE}.
 
 
-  Use a realistic phone-shot public transportation photograph as the base layer. Frame the scene through train doors, bus doors, a station platform, or a transit window. Keep the environment documentary:
-  gray metal, fluorescent lighting, route signs, safety strips, platform edge, crowded people, reflections, phone-camera grain, and slight social-media compression.
+  Use a realistic phone-shot public transportation photograph as the base layer. Frame the scene through train doors, bus doors, a station platform, or a transit window. Keep the environment documentary: gray metal, fluorescent lighting, route signs, safety strips, platform edge, crowded people, reflections, phone-camera grain, and slight social-media compression.
 
 
-  Paint expressive cartoon doodles directly over the photo. Replace some real faces with loose hand-drawn cartoon heads, exaggerated noses, red cheeks, messy hair, crooked smiles, and thick sketchy outlines.
-  Add a large foreground cartoon gesture entering from the lower edge or side, such as a hot-pink thumbs-up, pointing finger, peace sign, phone, or ticket. Add casual white handwritten notes near the upper-left.
+  Paint expressive cartoon doodles directly over the photo. Replace some real faces with loose hand-drawn cartoon heads, exaggerated noses, red cheeks, messy hair, crooked smiles, and thick sketchy outlines. Add a large foreground cartoon gesture entering from the lower edge or side, such as a hot-pink thumbs-up, pointing finger, peace sign, phone, or ticket. Add casual white handwritten notes near the upper-left.
 
 
   The final image should feel like a real transit snapshot that someone humorously drew over, mixing documentary urban realism with playful comic chaos.
 
 
-  Avoid clean vector illustration, fully illustrated backgrounds, luxury editorial polish, empty trains, perfect symmetry, branded mascots, overly clean typography, watermarks, usernames, QR codes, platform
-  logos, creator IDs, and app marks.'
+  Avoid clean vector illustration, fully illustrated backgrounds, luxury editorial polish, empty trains, perfect symmetry, branded mascots, overly clean typography, watermarks, usernames, QR codes, platform logos, creator IDs, and app marks.'
 preview: https://malongan.github.io/images/vigo_previews/subway-doodle-photo-hybrid.jpg
 id: vigo_subway_doodle_photo_hybrid
 code: ''

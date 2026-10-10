@@ -2,9 +2,8 @@ name: Metro Doodle Snapshot Diary
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles, oversized foreground gestures, white
-  handwritten diary notes, and saturated comic face overlays.
+source_url: https://x.com/VigoCreativeAI
+summary: 手持城市交通 照片-拼贴 风格 combining 写实 crowded 地铁, 公交, tram, or 车站 快照s with expressive marker-like cartoon 涂鸦s, 超大 前景 gestures, 白 手写 日记 notes, and 高饱和 漫画 face overlays.
 tags:
 - VigoCookbook
 - handheld
@@ -36,18 +35,11 @@ tags:
 triggers:
 - Metro Doodle Snapshot Diary
 features:
-- title: 'Preserve the core visual identity: A handheld urban transit photo-collage style combining realistic crowded metro, bus, tram, or station snapshots with expressive marker-like cartoon doodles,
-    oversized foreground gestures, white handwritten diary notes, and saturated comic face overlays.'
-  desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
-  desc: ''
-- title: Use a realistic candid phone-photo as the base layer.
-  desc: ''
-- title: 'The scene should feel like a real public transit or dense city moment: visible doors, rails, signs, floor markings, lights, scuffed surfaces, reflections, crowd density, practical clothing, and
-    imperfect handheld framing.'
-  desc: ''
-- title: Draw playful comic-marker doodles directly on top of the photo.
-  desc: ''
+- '**Preserve the 核心 visual identity: 手持城市交通 照片-拼贴 风格 combining 写实 crowded 地铁, 公交, tram, or 车站 快照s with expressive marker-like cartoon 涂鸦s, 超大 前景 gestures, 白 手写 日记 notes, and 高饱和 漫画 face overlays.**'
+- '**Use 背景元素 to control 次要 scene details, 质感s, signage, props, and environmental cues.**'
+- '**Use a 写实 candid phone-照片 作为 base 层.**'
+- '**The scene should 触感 like a real 公开 transit or dense 城市 moment: 可见 doors, rails, signs, floor markings, 亮s, scuffed 表面s, reflections, crowd density, practical clo薄g, and imperfect handheld framing.**'
+- '**Draw playful 漫画-马克笔涂鸦 directly 在 照片.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -92,20 +84,16 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Metro Doodle Snapshot Diary" styl
   Wardrobe style: {WARDROBE_STYLE}.
 
 
-  Use a realistic candid phone-photo as the base layer. The scene should feel like a real public transit or dense city moment: visible doors, rails, signs, floor markings, lights, scuffed surfaces, reflections,
-  crowd density, practical clothing, and imperfect handheld framing.
+  Use a realistic candid phone-photo as the base layer. The scene should feel like a real public transit or dense city moment: visible doors, rails, signs, floor markings, lights, scuffed surfaces, reflections, crowd density, practical clothing, and imperfect handheld framing.
 
 
-  Draw playful comic-marker doodles directly on top of the photo. Add saturated cartoon face overlays to selected people, thick black sketch outlines, red cheeks, exaggerated noses, messy hair, small sparks,
-  arrows, underlines, and rough marker fill. Add one oversized illustrated foreground hand, ticket, transit card, phone, bag, food item, or gesture that overlaps the lower frame.
+  Draw playful comic-marker doodles directly on top of the photo. Add saturated cartoon face overlays to selected people, thick black sketch outlines, red cheeks, exaggerated noses, messy hair, small sparks, arrows, underlines, and rough marker fill. Add one oversized illustrated foreground hand, ticket, transit card, phone, bag, food item, or gesture that overlaps the lower frame.
 
 
-  Place loose white handwritten diary text in natural negative space, usually near the upper-left. Keep the text personal, uneven, and marker-like. The final image should feel like a real city snapshot
-  that someone humorously annotated afterward.
+  Place loose white handwritten diary text in natural negative space, usually near the upper-left. Keep the text personal, uneven, and marker-like. The final image should feel like a real city snapshot that someone humorously annotated afterward.
 
 
-  Avoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, empty transit scenes, luxury lighting,
-  perfect symmetry, branded mascots, identifiable celebrities, and tiny unreadable text.'
+  Avoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, empty transit scenes, luxury lighting, perfect symmetry, branded mascots, identifiable celebrities, and tiny unreadable text.'
 preview: https://malongan.github.io/images/vigo_previews/metro-doodle-snapshot-diary.jpg
 id: vigo_metro_doodle_snapshot_diary
 code: ''

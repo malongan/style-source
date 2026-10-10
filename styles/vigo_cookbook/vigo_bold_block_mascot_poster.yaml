@@ -2,9 +2,8 @@ name: Bold Block Mascot Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A dense flat poster system built from giant black display type, chunky white mascot figures, thick cartoon outlines, tilted cyan or mint color panels, compact badges, tiny red accents, and a clean
-  off-white print surface.
+source_url: https://x.com/VigoCreativeAI
+summary: 高密度 扁平 海报 系统，由 giant黑 展示字体、chunky 白 吉祥物 人物s、厚cartoon outlines倾斜 青色或薄荷color 面板 紧凑 徽章s、s、微小 红accents和干净off-白 印刷 表面。
 tags:
 - VigoCookbook
 - flat
@@ -18,16 +17,11 @@ tags:
 triggers:
 - Bold Block Mascot Poster Style
 features:
-- title: Poster-first composition with an oversized black headline occupying the top band, side band, or dominant title block.
-  desc: ''
-- title: High layout density with very little empty space, while all shapes remain simple, flat, and readable.
-  desc: ''
-- title: One or two rounded white mascot-like figures or simplified graphic subjects drawn with very thick black outlines and minimal facial marks.
-  desc: ''
-- title: One large tilted cyan, teal, mint, or lemon color panel crossing the middle of the frame as the main graphic mass.
-  desc: ''
-- title: Secondary green, red, black, or pale color blocks sit behind the subject and are edged by heavy black strokes.
-  desc: ''
+- '* *海报优先作品，搭配 超大 黑 标题占据顶部乐侧面队、乐队或主导标题块。* *'
+- '* *布局密度高，布局很小空 空间，但所有形状布局都很清晰主要 简单 扁平、易读。* *'
+- '* *一个或两个ed-like 圆形 人物s白 吉祥物或简化图形主体s绘有非常厚 黑轮廓和极简面部标记。* *'
+- '* *一个大 倾斜 青色， 青绿 薄荷，或柠檬颜色面板交叉中间，的 画面 作为 主要图形质量。* *'
+- '* *次要绿 红、黑、或苍白色块在 主体依重 黑笔边缘画排列。* *'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -89,9 +83,7 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Bold Block Mascot Poster Style" v
   - Use short graphic typography only; headline text can be English or Chinese, but it must behave as a poster shape.
 
 
-  Important content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text while preserving the style fidelity anchors. Avoid
-  coffee themes, source slogans, course identities, watermarks, UI screenshots, real brand marks, exact source mascot anatomy, realistic 3D rendering, glossy product photography, anime scenes, painterly
-  detail, long paragraphs, and cluttered background scenery.'
+  Important content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text while preserving the style fidelity anchors. Avoid coffee themes, source slogans, course identities, watermarks, UI screenshots, real brand marks, exact source mascot anatomy, realistic 3D rendering, glossy product photography, anime scenes, painterly detail, long paragraphs, and cluttered background scenery.'
 preview: https://malongan.github.io/images/vigo_previews/bold-block-mascot-poster.jpg
 id: vigo_bold_block_mascot_poster
 code: ''

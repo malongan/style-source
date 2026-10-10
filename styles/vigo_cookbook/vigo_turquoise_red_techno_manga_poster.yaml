@@ -2,9 +2,8 @@ name: Turquoise Red Techno Manga Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure
-  drawing, and slightly faded printed texture.
+source_url: https://x.com/VigoCreativeAI
+summary: 复古 techno-漫画 海报 system ，搭配 奶油色 paper g圆形, 巨大 红 展示 字体, 绿松石 technical clo薄g or 硬ware, dense mechanical linework, annotation 面板s, cel-shaded 人物 drawing, and s亮ly faded 印刷ed 质感.
 tags:
 - VigoCookbook
 - retro
@@ -31,17 +30,11 @@ tags:
 triggers:
 - Turquoise Red Techno Manga Poster Style
 features:
-- title: 'Preserve the core visual identity: A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework,
-    annotation panels, cel-shaded figure drawing, and slightly faded printed texture.'
-  desc: ''
-- title: Place a huge saturated red-orange custom display headline across the upper third or upper half, behind and around the subject.
-  desc: ''
-- title: The headline may use kana-inspired geometric rhythm or condensed block lettering, but it must use new text only.
-  desc: ''
-- title: Make turquoise or teal the dominant clothing, casing, or equipment color; balance it with warm gray machinery, black ink, and red-orange accent parts.
-  desc: ''
-- title: Keep the perspective mostly flat and poster-like, with compact technical drawing depth only inside the prop or apparatus.
-  desc: ''
+- '**Preserve the 核心 visual identity: 复古 techno-漫画 海报 system ，搭配 奶油色 paper g圆形, 巨大 红 展示 字体, 绿松石 technical clo薄g or 硬ware, dense mechanical linework, annotation 面板s, cel-shaded 人物 drawing, and s亮ly faded 印刷ed 质感.**'
+- '**Place a 巨大 高饱和 红-橙 定制 展示 标题 横穿 upper third or upper half, 后方 and 周围 the 主体.**'
+- '**The 标题 may use kana-灵感 geometric rhythm or 窄体 方块字ing, but it must use new 文字 only.**'
+- '**Make 绿松石 or 青绿 the dominant clo薄g, casing, or equipment color; balance it with warm 灰 machinery, 黑 墨水, and 红-橙 accent parts.**'
+- '**Keep the perspective mostly 扁平 and 海报-like, with 紧凑 technical drawing depth only 在 prop or apparatus.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -85,19 +78,16 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Turquoise Red Techno Manga Poster
 
   Wardrobe/styling: {WARDROBE_STYLE}
 
-  Style fidelity anchors: cream off-white poster background, huge red-orange block headline, turquoise main mass, large manga-style subject, flat cel shading, dense mechanical linework, annotation boxes,
-  limited retro print palette, faded screenprint grain.
+  Style fidelity anchors: cream off-white poster background, huge red-orange block headline, turquoise main mass, large manga-style subject, flat cel shading, dense mechanical linework, annotation boxes, limited retro print palette, faded screenprint grain.
 
-  Source content to avoid: motorcycle rider, motorbike wheel or engine, source character, source pose, copied Japanese headline, signature, watermark, app UI, platform icon, QR code, or direct source-image
-  variant.
+  Source content to avoid: motorcycle rider, motorbike wheel or engine, source character, source pose, copied Japanese headline, signature, watermark, app UI, platform icon, QR code, or direct source-image variant.
 
 
   Apply these style rules:
 
   - Use a cream off-white printed poster background with slightly aged paper grain and a few sparse negative-space fields.
 
-  - Place a huge saturated red-orange custom display headline across the upper third or upper half, behind and around the subject. The headline may use kana-inspired geometric rhythm or condensed block
-  lettering, but it must use new text only.
+  - Place a huge saturated red-orange custom display headline across the upper third or upper half, behind and around the subject. The headline may use kana-inspired geometric rhythm or condensed block lettering, but it must use new text only.
 
   - Make one large manga-style subject the anchor, occupying roughly 50 to 75 percent of the frame, with flat cel shading, heavy dark outer contours, and fine interior detail.
 
