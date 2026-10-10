@@ -34,11 +34,11 @@ features:
   desc: ''
 - title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: Use a clean three-panel travel-vlog thumbnail composition.
+- title: 使用干净的三联旅行 Vlog 缩略图构图。
   desc: ''
-- title: Divide the frame into three equal vertical photographic panels with hard edges and no visible border.
+- title: 把画面分成三个等宽的竖向摄影分栏，硬边分割、不出现可见边框。
   desc: ''
-- title: Place a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels.
+- title: 把超大号小写目的地大标题以纯白色横贯整张画面的中心，穿过全部三个分栏。
   desc: ''
 variables:
 - kv_var: 变量
