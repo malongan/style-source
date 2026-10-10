@@ -1,10 +1,9 @@
-name: Plush City Festival Mobile Poster
+name: 毛绒城市节庆移动端海报
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography, date/location text, and friendly tourism-campaign
-  energy.
+summary: 明亮的移动端活动海报风格：真实城市地标、柔软毛绒吉祥物角色、圆角 App 卡片式界面边框、粗体白色节庆字体、日期/地点文字，以及友好的旅游营销气质。
 tags:
 - VigoCookbook
 - bright
@@ -31,16 +30,15 @@ tags:
 triggers:
 - Plush City Festival Mobile Poster
 features:
-- title: 'Preserve the core visual identity: A bright mobile event poster style combining real city landmarks, soft fuzzy mascot characters, rounded app-card UI framing, bold white festival typography,
-    date/location text, and friendly tourism-campaign energy.'
+- title: '保留核心视觉识别：明亮的移动端活动海报风格，真实城市地标、柔软毛绒吉祥物角色、圆角 App 卡片式界面边框、粗体白色节庆字体、日期/地点文字，以及友好的旅游营销气质。'
   desc: ''
-- title: Use a bright mobile-first festival poster layout with a large rounded top visual card, clean blue sky, soft clouds, realistic city landmarks, and fuzzy plush 3D mascot characters in the foreground.
+- title: 使用明亮的移动端优先节庆海报版式：顶部一张大圆角视觉卡片、干净蓝天、柔软云朵、写实城市地标，以及前景中的毛绒质感 3D 吉祥物角色。
   desc: ''
-- title: Put the event name in large bold white rounded sans-serif typography across the top sky area.
+- title: 把活动名称以超大号粗体白色圆角无衬线字体排在顶部天空区域。
   desc: ''
-- title: Place clear date and location information near the bottom of the visual card.
+- title: 在视觉卡片底部附近放置清晰的日期与地点信息。
   desc: ''
-- title: For vertical layouts, include a white rounded mobile bottom sheet with a small handle icon and the CTA text.
+- title: 竖版版式中加入白色圆角移动端底部弹层，带一个小把手图标与 CTA 文案。
   desc: ''
 variables:
 - kv_var: 变量

@@ -32,11 +32,11 @@ features:
   desc: ''
 - title: 以 LOCATION 作为照片背景或真实场景基底。
   desc: ''
-- title: Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.
+- title: 用 BACKGROUND_ELEMENTS 作为纪实感背景细节与次要语境。
   desc: ''
-- title: Use ACCENT_SYMBOL for doodles, graphic marks, sparks, arrows, or other overlay effects.
+- title: 用 ACCENT_SYMBOL 做涂鸦、图形符号、火花、箭头等叠加效果。
   desc: ''
-- title: Use a realistic city street photo as the base layer, then composite one oversized flat 2D cartoon character on top.
+- title: 以写实城市街景照片为底层，再在其上合成一个超大号扁平 2D 卡通形象。
   desc: ''
 variables:
 - kv_var: 变量
