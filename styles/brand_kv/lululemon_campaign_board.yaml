@@ -1,7 +1,7 @@
 # Lululemon 高端运动服 Campaign Board
 
 id: lululemon_campaign_board
-name: "Lululemon 高端运动服 Campaign Board"
+name: "Lululemon 高端运动服营销企划板"
 category: brand_kv
 
 tags:
@@ -21,13 +21,13 @@ triggers:
 features:
   - "**1大+6小网格布局** — 一张大型横幅主视觉作为画面核心，下方排列六张小尺寸面板，整体呈编辑系统感"
   - "**粉紫色调+炭黑底色** — 淡粉紫、薰衣草、象牙白、浆果色点缀，冷调高端运动感"
-  - "**Hyper-real 运动员** — 健康西方模特，真实解剖结构，时尚运动姿态，前卫动感"
+  - "**超写实运动员** — 健康西方模特，真实解剖结构，时尚运动姿态，前卫动感"
   - "**叙事性大字体排版** — LULULEMON / FORM LEADS FORCE 等大字与图形元素交织"
   - "**手绘线条点缀** — 笔触下划线、动感曲线、符号图形与人物/文字互动"
 
 scene: "品牌KV设计、运动服Campaign、时尚海报、零售广告"
 ratio: "9:16"
-summary: "以大型横幅+六小面板网格构成的品牌Campaign板，粉紫色调搭配Hyper-real运动员，叙事性排版+手绘线条元素，呈现高端运动时尚的编辑感视觉"
+summary: "以大型横幅 + 六个小面板网格构成的品牌营销企划板，粉紫色调搭配超写实运动员，叙事性排版 + 手绘线条元素，呈现高端运动时尚的编辑感视觉"
 
 prompt: |
   Create a high-end Lululemon Athletica campaign board with one large hero banner and six smaller supporting panels on a minimalist pure-color background.
