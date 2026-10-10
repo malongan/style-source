@@ -1,10 +1,9 @@
-name: Sunburst Fisheye Bubble Type Poster Style
+name: 放射光鱼眼气泡字体海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography, warm orange type shading, Y2K accessories,
-  and heavy analog grain.
+summary: 极限低角度鱼眼夏日生活方式海报风格：贴近的摄影主体、高饱和钴蓝天空、超大号拱形柠檬黄气泡字体、暖橙色字体投影、Y2K 配饰，以及浓重的模拟颗粒感。
 tags:
 - VigoCookbook
 - ultra-low-angle
@@ -33,16 +32,15 @@ tags:
 triggers:
 - Sunburst Fisheye Bubble Type Poster Style
 features:
-- title: 'Preserve the core visual identity: An ultra-low-angle fisheye summer lifestyle poster style with a close photographic subject, saturated cobalt sky, huge arched lemon-yellow bubble typography,
-    warm orange type shading, Y2K accessories, and heavy analog grain.'
+- title: '保留核心视觉识别：极限低角度鱼眼夏日生活方式海报风格，贴近的摄影主体、高饱和钴蓝天空、超大号拱形柠檬黄气泡字体、暖橙色字体投影、Y2K 配饰，以及浓重的模拟颗粒感。'
   desc: ''
-- title: Keep the photographic treatment bright, compressed, close, and lens-distorted according to the style reference.
+- title: 按风格参考图保持摄影处理的明亮、压缩、贴近与镜头畸变。
   desc: ''
-- title: Place the camera below the subject looking upward, very close to the body and face.
+- title: 相机置于主体下方、向上仰拍，极贴近身体与面部。
   desc: ''
-- title: Preserve realistic skin, fabric, hair, accessories, and daylight reflections.
+- title: 保留真实的皮肤、织物、头发、配饰质感，以及日光反射。
   desc: ''
-- title: Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling.
+- title: 使用强烈的阳光、高饱和钴蓝天空、暖调皮肤高光、硬朗阴影，以及随性的夏日旅行感。
   desc: ''
 variables:
 - kv_var: 变量

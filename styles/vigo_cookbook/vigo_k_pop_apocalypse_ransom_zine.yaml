@@ -1,10 +1,9 @@
-name: K-Pop Apocalypse Ransom Zine Style
+name: 韩流末世勒索信小志风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker blocks, saturated lime/blue/red
-  accents, and a bold bottom masthead band.
+summary: 极繁主义韩流时尚小志拼贴风格：由居中的人像剪贴、揉皱的单色纸张肌理、倾斜的勒索信字体、张扬的贴纸色块、高饱和青柠/蓝/红点缀，以及底部粗重的报头色带构成。
 tags:
 - VigoCookbook
 - maximalist
@@ -33,16 +32,15 @@ tags:
 triggers:
 - K-Pop Apocalypse Ransom Zine Style
 features:
-- title: 'Preserve the core visual identity: A maximalist K-pop fashion zine collage style built from a central portrait cutout, crumpled monochrome paper texture, skewed ransom-note typography, loud sticker
-    blocks, saturated lime/blue/red accents, and a bold bottom masthead band.'
+- title: '保留核心视觉识别：极繁主义韩流时尚小志拼贴风格，由居中的人像剪贴、揉皱的单色纸张肌理、倾斜的勒索信字体、张扬的贴纸色块、高饱和青柠/蓝/红点缀，以及底部粗重的报头色带构成。'
   desc: ''
-- title: Use a dark crumpled black paper background with BACKGROUND_ELEMENTS worked into the collage texture.
+- title: 使用深色揉皱黑纸背景，把 BACKGROUND_ELEMENTS 融入拼贴肌理。
   desc: ''
-- title: Place the subject as a large central portrait cutout with a thick irregular torn white paper border.
+- title: 主体作大号居中肖像剪贴，带一圈厚重不规则的撕裂白纸边框。
   desc: ''
-- title: Add oversized warped display typography reading MAIN_TEXT as a tilted collage layer, plus smaller sticker blocks and side editorial captions reading SECONDARY_TEXT.
+- title: 添加超大号扭曲展示字体，内容为 MAIN_TEXT，作为倾斜的拼贴层；再加较小的贴纸色块与读取 SECONDARY_TEXT 的侧边编辑注释。
   desc: ''
-- title: Use acid lime, electric blue, alert red, paper white, and ink black.
+- title: 使用酸性青柠、电光蓝、警示红、纸白与墨黑。
   desc: ''
 variables:
 - kv_var: 变量

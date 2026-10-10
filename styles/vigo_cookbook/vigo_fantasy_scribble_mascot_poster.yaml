@@ -19,7 +19,7 @@ features:
   desc: ''
 - title: Flat marker-fill color blocks using electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents.
   desc: ''
-- title: Childlike fantasy mascot anatomy with playful distortion, blunt legs, long ears, floating eyes, and simplified facial dots.
+- title: 童趣奇幻吉祥物解剖：俏皮的变形、短钝的腿、长耳朵、悬浮的眼睛，以及简化的面部圆点。
   desc: ''
 variables:
 - kv_var: 变量
