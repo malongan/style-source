@@ -1,10 +1,9 @@
-name: Turquoise Red Techno Manga Poster Style
+name: 青绿红科技漫画海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework, annotation panels, cel-shaded figure
-  drawing, and slightly faded printed texture.
+summary: 复古科技漫画海报体系：米色纸底、巨大红色展示字体、青绿色的技术服装或硬件、密集的机械线稿、注解面板、赛璐璐上色人物画，以及略微褪色的印刷质感。
 tags:
 - VigoCookbook
 - retro
@@ -31,16 +30,15 @@ tags:
 triggers:
 - Turquoise Red Techno Manga Poster Style
 features:
-- title: 'Preserve the core visual identity: A retro techno-manga poster system with a cream paper ground, huge red display lettering, turquoise technical clothing or hardware, dense mechanical linework,
-    annotation panels, cel-shaded figure drawing, and slightly faded printed texture.'
+- title: '保留核心视觉识别：复古科技漫画海报体系，米色纸底、巨大红色展示字体、青绿色的技术服装或硬件、密集的机械线稿、注解面板、赛璐璐上色人物画，以及略微褪色的印刷质感。'
   desc: ''
-- title: Place a huge saturated red-orange custom display headline across the upper third or upper half, behind and around the subject.
+- title: 把巨大、高饱和的红橙色定制展示大标题横贯上三分之一或上半部，置于主体之后并环绕主体。
   desc: ''
-- title: The headline may use kana-inspired geometric rhythm or condensed block lettering, but it must use new text only.
+- title: 大标题可以使用受假名启发的几何节奏或压缩方块字形，但必须只使用新文字。
   desc: ''
-- title: Make turquoise or teal the dominant clothing, casing, or equipment color; balance it with warm gray machinery, black ink, and red-orange accent parts.
+- title: 让青绿或蓝绿成为服装、外壳或装备的主导色；以暖灰机械、黑色墨线与红橙点缀部件做平衡。
   desc: ''
-- title: Keep the perspective mostly flat and poster-like, with compact technical drawing depth only inside the prop or apparatus.
+- title: 透视整体保持扁平、海报化，只在道具或装置内部保留紧凑的技术制图纵深。
   desc: ''
 variables:
 - kv_var: 变量

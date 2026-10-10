@@ -1,10 +1,9 @@
-name: Tri Color Hardcut Portrait Poster Style
+name: 三色硬切人像海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged
-  vector-like cutouts.
+summary: 干净的三色硬切人像海报风格：扁平青色背景场、珊瑚红主体色面、近黑剪影或阴影，所有细节都简化为大块硬边矢量化切口。
 tags:
 - VigoCookbook
 - clean
@@ -31,17 +30,15 @@ tags:
 triggers:
 - Tri Color Hardcut Portrait Poster Style
 features:
-- title: 'Preserve the core visual identity: A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all
-    detail reduced into large hard-edged vector-like cutouts.'
+- title: '保留核心视觉识别：干净的三色硬切人像海报风格，扁平青色背景场、珊瑚红主体色面、近黑剪影或阴影，所有细节都简化为大块硬边矢量化切口。'
   desc: ''
-- title: 'Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black #000805.'
+- title: '只用三种扁平颜色构建画面：青色背景 #0E819E、珊瑚红 #FF5447、近黑 #000805。'
   desc: ''
-- title: 'Composition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, plus
-    WARDROBE_STYLE and ACCENT_SYMBOL as controlled details.'
+- title: '构图：一个超大号裁切人像或上半身主体，厚重的黑色头发/兜帽/头盔/衣物或阴影体块，珊瑚色面部与身体色面，硬朗的青色负空间斜切，再以 WARDROBE_STYLE 与 ACCENT_SYMBOL 作为受控细节。'
   desc: ''
-- title: 'Typography: no visible text by default.'
+- title: '排版：默认不出现可见文字。'
   desc: ''
-- title: If text is explicitly required, use MAIN_TEXT as a very short block headline outside the face area and SECONDARY_TEXT as a tiny supporting mark.
+- title: 如果明确需要文字，把 MAIN_TEXT 作为极短的方块大标题放在面部区域之外，把 SECONDARY_TEXT 作为极小的辅助标记。
   desc: ''
 variables:
 - kv_var: 变量

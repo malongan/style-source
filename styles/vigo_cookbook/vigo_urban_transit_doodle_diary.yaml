@@ -1,10 +1,9 @@
-name: Urban Transit Doodle Diary Style
+name: 都市通勤涂鸦日记风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes, saturated cartoon faces, and a
-  large foreground gesture.
+summary: 把粗粝的都市抓拍当作私人视觉日记：真实公共空间摄影，结合粗放的手绘漫画叠加、手写旅行笔记、高饱和卡通脸，以及一个大型前景手势。
 tags:
 - VigoCookbook
 - raw
@@ -34,16 +33,15 @@ tags:
 triggers:
 - Urban Transit Doodle Diary Style
 features:
-- title: 'Preserve the core visual identity: A raw urban snapshot treated like a personal visual diary, combining real public-space photography with bold hand-drawn comic overlays, handwritten travel notes,
-    saturated cartoon faces, and a large foreground gesture.'
+- title: '保留核心视觉识别：把粗粝的都市抓拍当作私人视觉日记，真实公共空间摄影，结合粗放的手绘漫画叠加、手写旅行笔记、高饱和卡通脸，以及一个大型前景手势。'
   desc: ''
-- title: Keep the base image feeling like an imperfect phone snapshot from a real public city space, not a polished poster shoot.
+- title: 底层图像要像真实城市公共空间里不完美的手机抓拍，而不是精修的海报拍摄。
   desc: ''
-- title: Layer hand-drawn notes, arrows, sticker-like marks, and cartoon facial edits over the photo while keeping the underlying street scene readable.
+- title: 在照片上叠加手绘笔记、箭头、贴纸式符号与卡通面部改写，同时保持底层街景可读。
   desc: ''
-- title: Use saturated accent colors only for doodles, gestures, labels, and emphasis marks; let the photographic background stay raw and compressed.
+- title: 高饱和点缀色只用于涂鸦、手势、标签与强调符号；摄影背景保持粗粝与压缩感。
   desc: ''
-- title: Make MAIN_TEXT and SECONDARY_TEXT feel handwritten, diaristic, and locally placed rather than typeset as clean branding.
+- title: 让 MAIN_TEXT 与 SECONDARY_TEXT 像手写、日记式的随手标注，而不是排成干净品牌的字体。
   desc: ''
 variables:
 - kv_var: 变量

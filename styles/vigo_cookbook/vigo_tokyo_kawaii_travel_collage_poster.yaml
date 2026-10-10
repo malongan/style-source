@@ -1,10 +1,9 @@
-name: Tokyo Kawaii Travel Collage Poster
+name: 东京可爱风旅行拼贴海报
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone urban backgrounds, and scrapbook
-  editorial layout.
+summary: 极繁的日本城市旅行拼贴风格：粗体目的地字体、可爱贴纸元素、漫画对话框、剪贴时尚摄影、半色调城市背景，以及手账式编辑排版。
 tags:
 - VigoCookbook
 - maximalist
@@ -31,16 +30,15 @@ tags:
 triggers:
 - Tokyo Kawaii Travel Collage Poster
 features:
-- title: 'Preserve the core visual identity: A maximalist Japanese city-travel collage style with bold destination typography, cute sticker elements, manga speech bubbles, cutout fashion photography, halftone
-    urban backgrounds, and scrapbook editorial layout.'
+- title: '保留核心视觉识别：极繁的日本城市旅行拼贴风格，粗体目的地字体、可爱贴纸元素、漫画对话框、剪贴时尚摄影、半色调城市背景，以及手账式编辑排版。'
   desc: ''
-- title: Use BACKGROUND_ELEMENTS for city background, botanical details, signage, texture, and travel-collage context.
+- title: 用 BACKGROUND_ELEMENTS 承载城市背景、植物细节、标识、肌理与旅行拼贴语境。
   desc: ''
-- title: Use a maximalist Japanese travel scrapbook collage layout.
+- title: 使用极繁的日本旅行手账拼贴版式。
   desc: ''
-- title: Place the cutout subject large in the center with a sticker-like white edge.
+- title: 把剪贴主体放大置于中心，带贴纸式的白色描边。
   desc: ''
-- title: Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping.
+- title: 在顶部横排巨大的童趣圆体方块字，每个字母各占一张明快的纸片，略微旋转并相互叠压。
   desc: ''
 variables:
 - kv_var: 变量
