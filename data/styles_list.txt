@@ -1,4 +1,4 @@
-共 299 个风格
+共 300 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -181,6 +181,7 @@ ST0250 | Kawaii Bright Hand-lettering Headline | https://malongan.github.io/styl
 ST0251 | Kawaii Bright Chunky Hand-lettering | https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_chunky_hand_lettering_6579341a.webp
 ST0119 | K-ギャル 街头抓拍风 | https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp
 ST0120 | Y2K酸性·ALL STARS 夜店潮流海报 | https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.webp
+ST0327 | 日式木版画美术馆展览海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_woodblock_exhibition_poster_aa315163.webp
 ST0313 | 日系旅行编辑角色海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_travel_editorial_poster_91d40c93.webp
 ST0121 | Japanese Poetic Dreamy Semi-Realistic Illustration | https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.webp
 ST0314 | 日式美术馆编辑海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.webp
