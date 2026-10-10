@@ -1,10 +1,9 @@
-name: Halftone Assemblage Metaphor PSA Poster Style
+name: 半色调组合隐喻公益海报风格
 category: creative
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A sparse retro PSA poster system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper
-  with compact red-and-navy campaign typography.
+summary: 疏朗的复古公益海报体系：把某一类可见材质组合成另一个可辨识的象征剪影，以柔和的蓝绿色半色调物体印在泛黄的米色纸张上，配以紧凑的红与藏青营销企划字体。
 tags:
 - VigoCookbook
 - retro
@@ -17,15 +16,15 @@ tags:
 triggers:
 - Halftone Assemblage Metaphor PSA Poster Style
 features:
-- title: 'The central idea is material-as-symbol: one category of visible source objects must be assembled into a different readable target silhouette.'
+- title: '核心概念是「材质即符号」：必须把某一类可见的源物件组装成另一个可读的目标剪影。'
   desc: ''
-- title: The target silhouette must read clearly from a distance before the viewer notices the individual source pieces.
+- title: 目标剪影必须在远处就清晰可读，之后观者才注意到构成它的单个源物件。
   desc: ''
-- title: The source material must remain legible up close through repeated parts, seams, caps, folds, cables, rims, labels, or textures.
+- title: 源材质必须通过重复的零件、缝线、瓶盖、折痕、线缆、轮圈、标签或肌理，在近处依然可辨识。
   desc: ''
-- title: Aged warm cream paper background with visible grain and faint uneven printing.
+- title: 泛黄暖米色纸张背景，带可见颗粒与轻微的不均匀印刷痕迹。
   desc: ''
-- title: One dominant blue-green halftone assemblage object, placed as a sculptural PSA metaphor rather than a realistic scene.
+- title: 一个主导性的蓝绿色半色调组合物体，作为雕塑式公益隐喻放置，而非写实场景。
   desc: ''
 variables:
 - kv_var: 变量

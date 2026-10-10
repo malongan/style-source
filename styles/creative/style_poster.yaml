@@ -1,10 +1,9 @@
-name: Folded Diamond Perspective Type Poster Style
+name: 折叠菱形透视字体海报风格
 category: creative
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective typography printed across
-  the lower surface.
+summary: 大胆极简的编辑海报风格：菱形开孔内的低角度主视觉摄影、折叠的棕褐色纸张或画布平面，以及印在下半部表面的超大号白色透视字体。
 tags:
 - VigoCookbook
 - bold
@@ -32,16 +31,15 @@ tags:
 triggers:
 - Folded Diamond Perspective Type Poster Style
 features:
-- title: 'Preserve the core visual identity: A bold minimalist editorial poster style using low-angle hero photography inside a diamond aperture, folded tan paper or canvas planes, and oversized white perspective
-    typography printed across the lower surface.'
+- title: '保留核心视觉识别：大胆极简的编辑海报风格，菱形开孔内的低角度主视觉摄影、折叠的棕褐色纸张或画布平面，以及印在下半部表面的超大号白色透视字体。'
   desc: ''
-- title: Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and a bright cyan sky or clean outdoor backdrop.
+- title: 以真实照片的低角度主视觉拍摄主体，带广角镜头的透视压缩、强烈日光，以及明亮的青蓝天空或干净的户外背景。
   desc: ''
-- title: 'Layout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface.'
+- title: '版式：把照片放入一个大型旋转方形菱形开孔中，位于有触感的折叠棕褐色纸张或亚麻画布表面的上半部。'
   desc: ''
-- title: 'Typography: set MAIN_TEXT in enormous white ultra-bold condensed sans-serif type across the lower half.'
+- title: 'Typography：将 MAIN_TEXT 设为巨大的白色超粗窄体无衬线字体，横贯下半部。'
   desc: ''
-- title: Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain.
+- title: 让字体看起来是印在折叠表面上的：被中央折痕分开、因透视而变形、被海报边缘裁切，并带纸张颗粒的轻微质感。
   desc: ''
 variables:
 - kv_var: 变量

@@ -28,18 +28,15 @@ tags:
 triggers:
 - Teenage Skate Scribble Screenprint Poster Style
 features:
-- title: 'Preserve the core visual identity: A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print
-    texture, and a limited navy-gray-green-ochre palette.'
+- title: '保留核心视觉识别：复古滑板小志海报风格，中央扭曲的滑板手剪贴、米色纸底、松散的红色手写边框字体、粗糙双色丝网印刷质感，以及克制的藏青-灰-绿-赭石配色。'
   desc: ''
-- title: Place the subject as one oversized central posterized cutout with a compressed crouching or skating pose.
+- title: 以单个超大号中央色调分离剪贴作为主体，采用压缩的蹲姿或滑板姿势。
   desc: ''
-- title: Build the composition on a warm cream paper field with a green skateboard, rail, board, or long prop sweeping across the lower third.
+- title: 在暖米色纸底上构建构图，一块绿色滑板、栏杆、板面或长条道具横扫下三分之一。
   desc: ''
-- title: Use rough duotone screen-print texture, deep navy clothing, dusty gray pants, mustard ochre skin, dry black speckle, halftone dirt, paper grain, ink skips, imperfect registration, and handmade
-    indie skate zine energy.
+- title: 使用粗糙的双色丝网印刷质感：深藏青服装、灰扑扑的裤子、芥末赭石肤色、干墨黑斑点、半色调脏点、纸张颗粒、漏墨、套印不准，以及手工独立滑板小志的活力。
   desc: ''
-- title: Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate sports poster, glossy 3D text, chrome, neon gradient,
-    luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero style, and skateboard brand logo.
+- title: 避免：水印、用户名、创作者 ID、二维码、平台标识、应用界面、照搬参考文案、干净矢量插画、精致的企业运动海报、亮面 3D 文字、铬质、霓虹渐变、奢华编辑布光、平滑的喷枪阴影、无菌影棚背景、完美的字体排印、长段落文字、照片写实杂物、动漫、漫画超级英雄风格，以及滑板品牌标识。
   desc: ''
 variables:
 - kv_var: 变量

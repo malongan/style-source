@@ -1,4 +1,4 @@
-name: Minimalist City Travel Poster
+name: 极简城市旅行海报
 category: travel
 ratio: 9:16 / 3:4 / 16:9
 source_author: '@Goodmanprotocol'
@@ -14,9 +14,9 @@ triggers:
 - 极简城市旅行海报
 - 线条艺术旅行海报
 features:
-- title: 单色线条插画（Monoline Drawing），只有线条没有填充
+- title: 单色线条插画，只有线条没有填充
   desc: ''
-- title: 瑞士现代主义旅行海报风格，Mid-century editorial 美学
+- title: 瑞士现代主义旅行海报风格，世纪中叶现代编辑设计美学
   desc: ''
 - title: 正面街景视角，行人、骑行者、咖啡馆顾客自然融入
   desc: ''
