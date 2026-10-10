@@ -1,10 +1,9 @@
-name: Blue HUD Macro Creator Tech Poster
+name: 蓝色 HUD 微距创作者科技海报
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A high-density blue creator-tech advertisement style built around macro 3D hardware heroes, oversized ribbed gloves, electric-blue HUD panels, massive condensed typography, glossy glass cards,
-  and one warm gold performance badge.
+summary: 高密度蓝色创作者科技广告风格：以微距 3D 硬件主角、超大号罗纹手套、电光蓝 HUD 面板、超大字号窄体排版、亮面玻璃卡片，以及一枚暖金色性能徽章构成。
 tags:
 - VigoCookbook
 - premium
@@ -17,15 +16,15 @@ tags:
 triggers:
 - Blue HUD Macro Creator Tech Poster
 features:
-- title: Macro product-hero composition with the object large, tilted, and centered or slightly off-center, filling the frame.
+- title: 微距产品主角构图，物体巨大、倾斜，居中或略偏中心，充满画面。
   desc: ''
-- title: Oversized ribbed gloves or flexible striped fingers crop in from the frame edges and physically frame the product.
+- title: 超大号罗纹手套或可弯曲的条纹手指从画框边缘切入，实体化地框住产品。
   desc: ''
-- title: Deep glossy 3D rendering with rounded plastic, rubber, metal, and glass surfaces, not a flat poster or hand-drawn illustration.
+- title: 深度亮面 3D 渲染，圆润的塑料、橡胶、金属与玻璃表面，而非扁平海报或手绘插画。
   desc: ''
-- title: Cold electric-blue background with dark navy gradients, diagonal light streaks, faint grid lines, and misty volumetric glow.
+- title: 冷调电光蓝背景，深藏青渐变、对角线光束、淡网格线，以及雾状体积辉光。
   desc: ''
-- title: Large condensed block headline typography in white or icy gray, partially hidden behind the product or cropped by the frame.
+- title: 超大号窄体块状主标题，白色或冰灰色，部分被产品遮挡或被画框裁切。
   desc: ''
 variables:
 - kv_var: 变量

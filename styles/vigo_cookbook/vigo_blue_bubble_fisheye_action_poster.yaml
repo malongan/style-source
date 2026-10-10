@@ -1,10 +1,9 @@
-name: Blue Bubble Fisheye Action Poster Style
+name: 蓝色气泡鱼眼动感海报风格
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: 'https://x.com/VigoCreativeAI'
-summary: A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground scale, small blue editorial captions,
-  and one red hand-drawn annotation circle.
+summary: 清爽的白色青年文化动感海报风格：矩形鱼眼照片、超大号圆润宝蓝展示字体、突破画框的前景尺度、小型蓝色编辑注释，以及一个红色手绘圈注。
 tags:
 - VigoCookbook
 - crisp
@@ -30,17 +29,15 @@ tags:
 triggers:
 - Blue Bubble Fisheye Action Poster Style
 features:
-- title: 'Preserve the core visual identity: A crisp white youth-culture action poster style with a rectangular fisheye photograph, oversized rounded royal-blue display typography, frame-breaking foreground
-    scale, small blue editorial captions, and one red hand-drawn annotation circle.'
+- title: '保留核心视觉识别：清爽的白色青年文化动感海报风格，矩形鱼眼照片、超大号圆润宝蓝展示字体、突破画框的前景尺度、小型蓝色编辑注释，以及一个红色手绘圈注。'
   desc: ''
-- title: 'Photography: use an extreme low-angle fisheye or action-camera lens, very close to the foreground object, with barrel distortion, edge stretching, motion blur near the edges, bright daylight,
-    blue sky or open high-key light, crisp highlights, realistic skin, fabric, product surfaces, and believable anatomy.'
+- title: '摄影：使用极限低角度的鱼眼或运动相机镜头，极贴近前景物体，带桶形畸变、边缘拉伸、边缘附近动态模糊、明亮日光、蓝天或开阔高调光、清晰高光、真实的皮肤/织物/产品表面质感，以及可信的解剖结构。'
   desc: ''
-- title: 'Layout: build a clean white editorial poster canvas with a central rectangular action photo.'
+- title: '版式：构建干净的白色编辑海报画布，中央放置矩形动感照片。'
   desc: ''
-- title: Let one foreground hand, foot, prop, or product detail become huge and optionally break past the photo rectangle into the white margin.
+- title: 让一处前景的手、脚、道具或产品细节变得巨大，并可突破照片矩形延伸进白色留白区。
   desc: ''
-- title: Keep the poster layer flat, precise, and uncluttered.
+- title: 海报图层保持扁平、精准、不杂乱。
   desc: ''
 variables:
 - kv_var: 变量
