@@ -2,9 +2,8 @@ name: Rough Animation Pet Sketch Storyboard Style
 category: print
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours, semi-transparent color wash, simple
-  room props, and exaggerated animal expressions.
+source_url: https://x.com/VigoCreativeAI
+summary: A loose animation development 素描 风格 for 漫画 pet scenes, 构建 warm beige paper, 红-棕 construction lines, scratchy 暗 酒红 contours, semi-透明 color wash, 简单 room props, and exaggerated animal expressions.
 tags:
 - VigoCookbook
 - loose
@@ -35,18 +34,11 @@ tags:
 triggers:
 - Rough Animation Pet Sketch Storyboard Style
 features:
-- title: 'Preserve the core visual identity: A loose animation development sketch style for comic pet scenes, built from warm beige paper, red-brown construction lines, scratchy dark burgundy contours,
-    semi-transparent color wash, simple room props, and exaggerated animal expressions.'
-  desc: ''
-- title: Use BACKGROUND_ELEMENTS to control secondary scene details, textures, signage, props, and environmental cues.
-  desc: ''
-- title: Use the reference only as a style reference, not as a scene to copy.
-  desc: ''
-- title: 'Preserve the visual language: warm beige paper, loose red-brown construction lines, scratchy dark burgundy contour strokes, semi-transparent watercolor-like color wash, rough animation storyboard
-    finish, lightly sketched interior background, exaggerated original pet expressions, huge oval eyes, tiny pupils, visible correction strokes, and one clear comic prop-driven beat.'
-  desc: ''
-- title: Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible.
-  desc: ''
+- '**Preserve the 核心 visual identity: A loose animation development 素描 风格 for 漫画 pet scenes, 构建 warm beige paper, 红-棕 construction lines, scratchy 暗 酒红 contours, semi-透明 color wash, 简单 room props, and exaggerated animal expressions.**'
+- '**Use 背景元素 to control 次要 scene details, 质感s, signage, props, and environmental cues.**'
+- '**Use the reference only as a 风格 reference, not as a scene to 复制.**'
+- '**Preserve the visual language: warm beige paper, loose 红-棕 construction lines, scratchy 暗 酒红 contour strokes, semi-透明 水彩-like color wash, 粗糙 animation storyboard 质感, 亮ly 素描ed 室内 背景, exaggerated 原创 pet expressions, 巨大 椭圆形 eyes, 微小 pupils, 可见 correction strokes, and one clear 漫画 prop-driven beat.**'
+- '**Leave 素描 marks, motion ticks, crumbs, 粗糙 阴影s, and un质感ed room lines 可见.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -91,13 +83,10 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Rough Animation Pet Sketch Storyb
   Wardrobe or visual styling: {WARDROBE_STYLE}.
 
 
-  Use the reference only as a style reference, not as a scene to copy. Preserve the visual language: warm beige paper, loose red-brown construction lines, scratchy dark burgundy contour strokes, semi-transparent
-  watercolor-like color wash, rough animation storyboard finish, lightly sketched interior background, exaggerated original pet expressions, huge oval eyes, tiny pupils, visible correction strokes, and
-  one clear comic prop-driven beat.
+  Use the reference only as a style reference, not as a scene to copy. Preserve the visual language: warm beige paper, loose red-brown construction lines, scratchy dark burgundy contour strokes, semi-transparent watercolor-like color wash, rough animation storyboard finish, lightly sketched interior background, exaggerated original pet expressions, huge oval eyes, tiny pupils, visible correction strokes, and one clear comic prop-driven beat.
 
 
-  Stage the scene like an animation story artist frame. Keep one character in an extreme emotional pose and another character in a contrasting deadpan or suspicious reaction. Make the foreground prop explain
-  the joke. Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible. Do not include platform UI, watermarks, creator IDs, logos, QR codes, app buttons, or copied characters.'
+  Stage the scene like an animation story artist frame. Keep one character in an extreme emotional pose and another character in a contrasting deadpan or suspicious reaction. Make the foreground prop explain the joke. Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible. Do not include platform UI, watermarks, creator IDs, logos, QR codes, app buttons, or copied characters.'
 preview: https://malongan.github.io/images/vigo_previews/rough-animation-pet-sketch-storyboard.jpg
 id: pet_sketch_storyboard
 code: ''

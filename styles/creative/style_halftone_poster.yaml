@@ -2,9 +2,8 @@ name: Halftone Assemblage Metaphor PSA Poster Style
 category: creative
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A sparse retro PSA poster system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper
-  with compact red-and-navy campaign typography.
+source_url: https://x.com/VigoCreativeAI
+summary: 稀疏 复古 PSA 海报 system where one 可见 class of material 是一种rranged 成 different recognizable 符号ic 轮廓, 印刷ed as a 柔和 蓝-绿 半调 物体 ，在ged 奶油色 paper with 紧凑 红-and-藏蓝 营销 字体排版.
 tags:
 - VigoCookbook
 - retro
@@ -17,16 +16,11 @@ tags:
 triggers:
 - Halftone Assemblage Metaphor PSA Poster Style
 features:
-- title: 'The central idea is material-as-symbol: one category of visible source objects must be assembled into a different readable target silhouette.'
-  desc: ''
-- title: The target silhouette must read clearly from a distance before the viewer notices the individual source pieces.
-  desc: ''
-- title: The source material must remain legible up close through repeated parts, seams, caps, folds, cables, rims, labels, or textures.
-  desc: ''
-- title: Aged warm cream paper background with visible grain and faint uneven printing.
-  desc: ''
-- title: One dominant blue-green halftone assemblage object, placed as a sculptural PSA metaphor rather than a realistic scene.
-  desc: ''
+- '**核心概念是材质即符号: one category of 可见 source 物体s must be 组装 成 different readable target 轮廓.**'
+- '**目标轮廓必须远距离清晰可辨 before the viewer notices the individual source pieces.**'
+- '**源材质必须近距离可辨 穿过 repeated parts, seams, caps, folds, cables, rims, 标签s, or 质感s.**'
+- '**Aged warm 奶油色 paper 背景 with 可见 gra，在d faint uneven 印刷ing.**'
+- '**One dominant 蓝-绿 半调 assemblage 物体, placed as a sculptural PSA metaphor rather than a 写实 scene.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -77,8 +71,7 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Halftone Assemblage Metaphor PSA 
 
   Apply these style rules:
 
-  - Core metaphor: one visible source material category must be assembled into a different recognizable target silhouette. The target silhouette should read first from a distance; the individual source
-  pieces should become clear up close.
+  - Core metaphor: one visible source material category must be assembled into a different recognizable target silhouette. The target silhouette should read first from a distance; the individual source pieces should become clear up close.
 
   - Composition: one dominant assembled silhouette in the lower-middle or slightly right field, compact top-left headline, tiny bottom-center footer, and generous empty warm paper space.
 
@@ -91,8 +84,7 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Halftone Assemblage Metaphor PSA 
   - Graphic elements: minimal symbol row and small campaign imprint only; no dense decorative border, no stickers, no brand marks.
 
 
-  Avoid: random piles that do not form a silhouette, photorealistic product photography, glossy 3D render, modern vector flat design, dense collage, cinematic shadows, saturated rainbow palette, plastic
-  bottle animal, pet story, recycle-icon copy, brand logos, watermarks, QR codes, social UI, long paragraphs, readable copied source slogans.
+  Avoid: random piles that do not form a silhouette, photorealistic product photography, glossy 3D render, modern vector flat design, dense collage, cinematic shadows, saturated rainbow palette, plastic bottle animal, pet story, recycle-icon copy, brand logos, watermarks, QR codes, social UI, long paragraphs, readable copied source slogans.
 
 
   Important content rule: match the reference style first, then change the source content. Preserve the material-to-silhouette'

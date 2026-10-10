@@ -2,9 +2,8 @@ name: Folded Newspaper Product Ad Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A folded broadsheet product advertisement style built from dense bilingual newspaper typography, worn off-white paper, black and antique-gold display headlines, stamped label graphics, one red
-  editorial sidebar tab, and a huge photorealistic hero product overlapping the page foreground.
+source_url: https://x.com/VigoCreativeAI
+summary: 折叠报纸式 产品广告vertisement 风格，由 dense bilingual 报纸 字体排版, 做旧 off-白 paper, 黑 and 古董-金 展示 标题s, 印章ed 标签 graphics, one 红 编辑 侧面bar tab, and a 巨大 照片级写实 主角产品 重叠 the page 前景.
 tags:
 - VigoCookbook
 - folded
@@ -16,16 +15,11 @@ tags:
 triggers:
 - Folded Newspaper Product Ad Style
 features:
-- title: Single off-white broadsheet newspaper page fills the canvas, with visible folds, wrinkles, slightly buckled paper, and uneven scanned print softness.
-  desc: ''
-- title: Dense bilingual editorial layout uses many narrow body-copy columns, rule lines, small captions, box modules, and print-grid alignment behind the hero object.
-  desc: ''
-- title: One enormous photorealistic product or object sits in the lower-to-middle foreground, cropped large and overlapping the flat page as a pasted advertising cutout.
-  desc: ''
-- title: Large black display headline and antique-gold secondary headline dominate the upper or left page, with heavy condensed Chinese-inspired block type.
-  desc: ''
-- title: A rubber-stamp or coupon-stamp frame sits at an angle, using distressed black ink, slab serif or stencil lettering, and small rays or separator marks.
-  desc: ''
+- '* *单白 大报 报纸页纸填充画布，有可见褶皱、皱纹、带扣亮的纸张和不均匀印刷 柔软的扫描凹槽。* *'
+- '* *密集的双语编辑布窄局使用许多正文复制 小 说明列、规则线、框模块和印刷-网格对齐方式在 主角物体。* *'
+- '* *一个巨大的照片级写实 产品或物体位于小于中间 前景 裁切 大，重叠 扁平页面作为粘贴的广告剪影。* *'
+- '* *大黑 展示 标题和古董-金 次要 标题主导上部或左侧页面，重 窄体中文-灵感 方块字。* *'
+- '**A rubber-印章 or coupon-印章 画面 sits at an angle, using 破损 黑 墨水, slab 衬线 or stencil 字体, and 小 rays or separator marks.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -48,13 +42,8 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: large Chinese or bilingual headline text, short enough to behave as a display block
   desc: ''
-prompt: 'Create a {ASPECT_RATIO} raster advertisement in the "Folded Newspaper Product Ad Style". Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location or campaign
-  context: {LOCATION}. Background newspaper elements: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text and microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Styling direction:
-  {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build the image as a wrinkled off-white broadsheet newspaper
-  page with visible folds, dense bilingual body-copy columns, rule lines, boxed captions, distressed black ink, antique-gold display headline blocks, one angled rubber-stamp coupon frame, one narrow red
-  vertical editorial date tab, and one huge photorealistic commercial product hero overlapping the lower or central page. The product should be tactile, glossy or material-rich, partly supported by paper,
-  cloth, foil, tray, wrapper, sleeve, or prop details. Keep the page graphics flat and printed while the product is realistic and foregrounded. The layout should feel crowded, promotional, newspaper-like,
-  nostalgic, and tactile. Change all literal content from the reference while preserving the folded newspaper ad visual system.'
+prompt: 'Create a {ASPECT_RATIO} raster advertisement in the "Folded Newspaper Product Ad Style". Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location or campaign context: {LOCATION}. Background newspaper elements: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text and microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build the image as a wrinkled off-white broadsheet newspaper page with visible folds, dense bilingual body-copy columns, rule lines, boxed captions, distressed black ink, antique-gold display headline blocks, one angled rubber-stamp coupon frame, one narrow red vertical editorial date tab, and one huge photorealistic commercial product hero overlapping the lower or central page. The product should be tactile, glossy or material-rich, partly
+  supported by paper, cloth, foil, tray, wrapper, sleeve, or prop details. Keep the page graphics flat and printed while the product is realistic and foregrounded. The layout should feel crowded, promotional, newspaper-like, nostalgic, and tactile. Change all literal content from the reference while preserving the folded newspaper ad visual system.'
 preview: https://malongan.github.io/images/vigo_previews/folded-newspaper-product-ad.jpg
 id: vigo_folded_newspaper_product_ad
 code: ''

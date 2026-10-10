@@ -2,9 +2,8 @@ name: Tri Color Hardcut Portrait Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all detail reduced into large hard-edged
-  vector-like cutouts.
+source_url: https://x.com/VigoCreativeAI
+summary: 肖像 海报风格 使用扁平 青绿 背景字段、珊瑚红 主体 平面s和近- s或黑 轮廓 阴影s进行干净三色硬切割，搭配 ll细节简化为大 硬-边缘 d类矢量剪影s。
 tags:
 - VigoCookbook
 - clean
@@ -31,18 +30,11 @@ tags:
 triggers:
 - Tri Color Hardcut Portrait Poster Style
 features:
-- title: 'Preserve the core visual identity: A clean three-color hardcut portrait poster style using flat teal background fields, coral-red subject planes, and near-black silhouettes or shadows, with all
-    detail reduced into large hard-edged vector-like cutouts.'
-  desc: ''
-- title: 'Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black #000805.'
-  desc: ''
-- title: 'Composition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, plus
-    WARDROBE_STYLE and ACCENT_SYMBOL as controlled details.'
-  desc: ''
-- title: 'Typography: no visible text by default.'
-  desc: ''
-- title: If text is explicitly required, use MAIN_TEXT as a very short block headline outside the face area and SECONDARY_TEXT as a tiny supporting mark.
-  desc: ''
+- '* *保留核心视觉标识：肖像 海报风格使用扁平 青绿 背景字段、珊瑚红 主体 平面s和近- s或黑 轮廓 阴影s进行干净三色硬切割，搭配将所有细节简化为大 硬-边缘 d个类似矢量的剪影s。* *'
+- '* *图像仅用三扁平种颜色构建： 青绿 背景 # 0E819E、珊瑚 红# FF5447和近 黑# 000805。* *'
+- '* *成分：单超大 裁切 肖像个或上半身主体、重 黑头发、帽子、头薄盔、衣帽阴影间或平面包裹、珊瑚面部和身体、硬 青绿负空间斜杠，以及衣柜风格和强调符号受控细节。* *'
+- '* *排版：可见 文字默认情况下为否。* *'
+- '* *如果明确要求，文字则用主文字作非常短块状的标题 在面部区域， SECONDARY_TEXT用作微小 支持标记。* *'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -68,23 +60,19 @@ variables:
 prompt: 'Create a {ASPECT_RATIO} image in the "Tri Color Hardcut Portrait Poster" style.
 
 
-  Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} against {LOCATION}. Use {WARDROBE_STYLE}. Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black
-  #000805.
+  Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} against {LOCATION}. Use {WARDROBE_STYLE}. Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black #000805.
 
 
-  Composition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, {BACKGROUND_ELEMENTS},
-  and {ACCENT_SYMBOL}. Keep the subject close to the frame and let some silhouette edges crop off the canvas.
+  Composition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, {BACKGROUND_ELEMENTS}, and {ACCENT_SYMBOL}. Keep the subject close to the frame and let some silhouette edges crop off the canvas.
 
 
-  Typography: no visible text by default. If text is explicitly required, use "{MAIN_TEXT}" as a very short block headline outside the face area and "{SECONDARY_TEXT}" as a tiny supporting mark. Do not
-  add text otherwise.
+  Typography: no visible text by default. If text is explicitly required, use "{MAIN_TEXT}" as a very short block headline outside the face area and "{SECONDARY_TEXT}" as a tiny supporting mark. Do not add text otherwise.
 
 
   Finish: clean flat vector-like poster, stencil portrait, screen-print simplicity without grain, blunt cutout shapes, high contrast, no gradients, no outlines, no photorealistic rendering.
 
 
-  Avoid watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference identity, exact copied face, photorealism, painterly blending, airbrush, soft shading, extra colors,
-  thin line art, detailed background, paper texture, halftone, noisy distress, glossy 3D, anime style, comic paneling, long text, and brand logo.'
+  Avoid watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference identity, exact copied face, photorealism, painterly blending, airbrush, soft shading, extra colors, thin line art, detailed background, paper texture, halftone, noisy distress, glossy 3D, anime style, comic paneling, long text, and brand logo.'
 preview: https://malongan.github.io/images/vigo_previews/tri-color-hardcut-portrait-poster.jpg
 id: vigo_tri_color_hardcut_portrait_poster
 code: ''

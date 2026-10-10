@@ -2,9 +2,8 @@ name: Teenage Skate Scribble Screenprint Poster Style
 category: creative
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print texture, and a limited navy-gray-green-ochre
-  palette.
+source_url: https://x.com/VigoCreativeAI
+summary: 复古 skate 杂志 海报风格 ，搭配 失真 中心 skateboarder 剪影, 奶油色 纸面, loose 红 手写边框 字体排版, 粗糙 双色 丝网印刷 质感, and a limited 藏蓝-灰-绿-赭石 palette.
 tags:
 - VigoCookbook
 - retro
@@ -28,19 +27,11 @@ tags:
 triggers:
 - Teenage Skate Scribble Screenprint Poster Style
 features:
-- title: 'Preserve the core visual identity: A retro skate zine poster style with a distorted central skateboarder cutout, cream paper field, loose red hand-lettered border typography, rough duotone screen-print
-    texture, and a limited navy-gray-green-ochre palette.'
-  desc: ''
-- title: Place the subject as one oversized central posterized cutout with a compressed crouching or skating pose.
-  desc: ''
-- title: Build the composition on a warm cream paper field with a green skateboard, rail, board, or long prop sweeping across the lower third.
-  desc: ''
-- title: Use rough duotone screen-print texture, deep navy clothing, dusty gray pants, mustard ochre skin, dry black speckle, halftone dirt, paper grain, ink skips, imperfect registration, and handmade
-    indie skate zine energy.
-  desc: ''
-- title: Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate sports poster, glossy 3D text, chrome, neon gradient,
-    luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero style, and skateboard brand logo.
-  desc: ''
+- '**Preserve the 核心 visual identity: 复古 skate 杂志 海报风格 ，搭配 失真 中心 skateboarder 剪影, 奶油色 纸面, loose 红 手写边框 字体排版, 粗糙 双色 丝网印刷 质感, and a limited 藏蓝-灰-绿-赭石 palette.**'
+- '**Place the 主体 as one 超大 中心 海报化 剪影 ，搭配 压缩 crouching or skating pose.**'
+- '**Build the composition ，在 warm 奶油色 纸面 ，搭配 绿 skateboard, rail, board, or long prop sweeping 横穿 lower third.**'
+- '**Use 粗糙 双色 丝网印刷 质感, 深 藏蓝 clo薄g, dusty 灰 pants, 芥末黄 赭石 skin, dry 黑 斑点, 半调 dirt, 纸张纹理, 墨迹跳跃, 套准偏差, and handmade indie skate 杂志 气质.**'
+- '**禁止水印, 用户名, creator ID, 二维码, plat形态 logo, app UI, exact copied reference phrase, 干净矢量插画, 精致企业 运动 海报, 光泽3D文字, chrome, neon 渐变, 奢侈编辑光, 平滑喷枪渐变, 无菌影棚背景, 完美字体排版, 长段落文字, 照片级写实 clutter, 动漫超级英雄漫画风格, and 滑板品牌logo.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -63,13 +54,8 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: short red handmade headline split around the poster edge
   desc: ''
-prompt: 'Create an image in Teenage Skate Scribble Screenprint Poster style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} at {LOCATION}. Place the subject as one
-  oversized central posterized cutout with a compressed crouching or skating pose. Use {WARDROBE_STYLE}. Build the composition on a warm cream paper field with a green skateboard, rail, board, or long prop
-  sweeping across the lower third. Wrap loose red hand-lettered border words reading "{MAIN_TEXT}" around the edges, add small handwritten fragments reading "{SECONDARY_TEXT}", and include {ACCENT_SYMBOL}.
-  Add {BACKGROUND_ELEMENTS}. Use rough duotone screen-print texture, deep navy clothing, dusty gray pants, mustard ochre skin, dry black speckle, halftone dirt, paper grain, ink skips, imperfect registration,
-  and handmade indie skate zine energy. Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate sports poster,
-  glossy 3D text, chrome, neon gradient, luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero
-  style, and skateboard brand logo.'
+prompt: 'Create an image in Teenage Skate Scribble Screenprint Poster style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} at {LOCATION}. Place the subject as one oversized central posterized cutout with a compressed crouching or skating pose. Use {WARDROBE_STYLE}. Build the composition on a warm cream paper field with a green skateboard, rail, board, or long prop sweeping across the lower third. Wrap loose red hand-lettered border words reading "{MAIN_TEXT}" around the edges, add small handwritten fragments reading "{SECONDARY_TEXT}", and include {ACCENT_SYMBOL}. Add {BACKGROUND_ELEMENTS}. Use rough duotone screen-print texture, deep navy clothing, dusty gray pants, mustard ochre skin, dry black speckle, halftone dirt, paper grain, ink skips, imperfect registration, and handmade indie skate zine energy. Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate
+  sports poster, glossy 3D text, chrome, neon gradient, luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero style, and skateboard brand logo.'
 preview: https://malongan.github.io/images/vigo_previews/teenage-skate-scribble-screenprint-poster.jpg
 id: scribble_poster_style
 code: ''

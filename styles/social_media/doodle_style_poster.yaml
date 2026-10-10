@@ -2,9 +2,8 @@ name: Backseat Transit Doodle Letter Poster Style
 category: social_media
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters,
-  comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+source_url: https://x.com/VigoCreativeAI
+summary: A 写实 passenger-seat transport 照片 转化为 a 高-气质 旅行 海报 ，搭配 中心 rear-view 主体, electric 黄色 轮廓 halo, 超大 黄色-橙 手绘 字母s, 漫画 rays, 紫 music marks, 贴纸 图标s, and 青色-白 cloud swooshes.
 tags:
 - VigoCookbook
 - realistic
@@ -38,18 +37,11 @@ tags:
 triggers:
 - Backseat Transit Doodle Letter Poster Style
 features:
-- title: 'Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized
-    yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.'
-  desc: ''
-- title: Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.
-  desc: ''
-- title: 'Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard
-    and window framing, and a believable road-trip or local transit moment.'
-  desc: ''
-- title: Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.
-  desc: ''
-- title: Use MAIN_TEXT as the large illustrated word integrated into the composition.
-  desc: ''
+- '**Preserve the 核心 visual identity: A 写实 passenger-seat transport 照片 转化为 a 高-气质 旅行 海报 ，搭配 中心 rear-view 主体, electric 黄色 轮廓 halo, 超大 黄色-橙 手绘 字母s, 漫画 rays, 紫 music marks, 贴纸 图标s, and 青色-白 cloud swooshes.**'
+- '**Use 背景元素 作为 documentary 背景 details and 次要 con文字.**'
+- '**Use a 写实 passenger-seat 旅行照片 作为 base 层: 广角 背面seat perspective, real vehicle 室内, natural day亮 穿过 the 窗口s, 可见 material 质感, dashboard and 窗口 framing, and a believable road-trip or local transit moment.**'
+- '**Use 金en 黄色 fills, 橙 阴影 形状s, burnt 棕 outlines, and 贴纸感 扁平 2D 质感.**'
+- '**Use 主文字 作为 大 插画 词 集成 into the composition.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -78,21 +70,16 @@ prompt: 'Create an image in backseat-transit-doodle-letter-poster-style.
   Aspect ratio: {ASPECT_RATIO}.
 
 
-  Scene: {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, inside or on {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. Use a realistic passenger-seat travel
-  photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip
-  or local transit moment.
+  Scene: {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, inside or on {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.
 
 
-  Graphic overlay: trace the central subject with a thick electric yellow hand-drawn halo. Add oversized chunky hand-drawn letters spelling "{MAIN_TEXT}" around the subject, tilted and partly cropped by
-  the frame. Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.
+  Graphic overlay: trace the central subject with a thick electric yellow hand-drawn halo. Add oversized chunky hand-drawn letters spelling "{MAIN_TEXT}" around the subject, tilted and partly cropped by the frame. Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.
 
 
-  Add {ACCENT_SYMBOL}, purple music marks, yellow comic speed rays from the corners, cyan-white cloud or wind swooshes along the lower frame, small sticker bubbles, and playful motion strokes. Keep the
-  overlays bold but preserve the subject silhouette, steering gesture, and forward window view.
+  Add {ACCENT_SYMBOL}, purple music marks, yellow comic speed rays from the corners, cyan-white cloud or wind swooshes along the lower frame, small sticker bubbles, and playful motion strokes. Keep the overlays bold but preserve the subject silhouette, steering gesture, and forward window view.
 
 
-  Text: use "{MAIN_TEXT}" as the large illustrated word. Add "{SECONDARY_TEXT}" only as tiny clean sticker text if it does not clutter the image. Do not include watermarks, usernames, creator IDs, QR codes,
-  platform logos, app marks, copied brand logos, or copied jacket graphics.'
+  Text: use "{MAIN_TEXT}" as the large illustrated word. Add "{SECONDARY_TEXT}" only as tiny clean sticker text if it does not clutter the image. Do not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied brand logos, or copied jacket graphics.'
 preview: https://malongan.github.io/images/vigo_previews/backseat-transit-doodle-letter-poster.jpg
 id: doodle_style_poster
 code: ''

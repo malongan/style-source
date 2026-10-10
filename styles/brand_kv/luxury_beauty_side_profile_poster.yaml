@@ -2,7 +2,7 @@ name: Luxury Beauty Campaign Side Profile Poster
 category: brand_kv
 ratio: 9:16（竖版）
 source_author: '@MrLarus'
-source_url: 'https://x.com/MrLarus'
+source_url: https://x.com/MrLarus
 summary: 高端美妆 campaign 的核心公式：近景侧面女性肖像 + 超大半透明衬线字体 + 红色手写体点缀 + 温暖逆光 = 干净、光泽、电影感的商业级大片。
 tags:
 - 美妆
@@ -20,20 +20,13 @@ triggers:
 - 衬线字体
 - 红色手写体
 features:
-- title: Close-up side-profile female portrait
-  desc: 近景侧面女性肖像作为画面主体
-- title: Realistic skin texture
-  desc: 真实皮肤纹理，自然裸妆
-- title: Warm reverse light
-  desc: 温暖逆光，营造光泽感
-- title: Oversized translucent serif typography
-  desc: 超大半透明衬线字体
-- title: One red handwritten script accent
-  desc: 一处红色手写体强调
-- title: Minimal blurred background
-  desc: 极简模糊背景
-- title: Small brand logo + slogan + copy
-  desc: 品牌 logo + 标语 + 正文 + 页脚细节
+- '**Close-up 侧面-profile female 肖像** — 近景侧面女性肖像作为画面主体'
+- '**Realistic skin 质感** — 真实皮肤纹理，自然裸妆'
+- '**Warm reverse 亮** — 温暖逆光，营造光泽感'
+- '**Oversized 半透明 衬线 字体排版** — 超大半透明衬线字体'
+- '**One 红 手写 手写体 accent** — 一处红色手写体强调'
+- '**Minimal 模糊 背景** — 极简模糊背景'
+- '**S商场 品牌logo + slogan + 复制** — 品牌 logo + 标语 + 正文 + 页脚细节'
 variables:
 - kv_var: 主标题
   style_var: '{{Main title}}'
@@ -84,8 +77,7 @@ prompt: 'Prompt:
   Key focus: [jawline / skin glow / neck / fragrance / pearl earring / collarbone]
 
 
-  Use a close-up side-profile female portrait with realistic skin texture, natural makeup, soft lips, elegant neck and collarbone, natural hair strands, and warm reverse light. Create a premium editorial
-  beauty-ad look with a minimal blurred background, oversized translucent serif typography, one red handwritten script accent, small brand logo, slogan, main copy and footer details.
+  Use a close-up side-profile female portrait with realistic skin texture, natural makeup, soft lips, elegant neck and collarbone, natural hair strands, and warm reverse light. Create a premium editorial beauty-ad look with a minimal blurred background, oversized translucent serif typography, one red handwritten script accent, small brand logo, slogan, main copy and footer details.
 
 
   The image should feel like a high-end beauty, skincare, fragrance or jewelry campaign poster: clean, luminous, refined, cinematic and commercial-grade.

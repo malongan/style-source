@@ -3,10 +3,7 @@ category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
 source_url: https://x.com/VigoCreativeAI
-summary: A flat illustrated poster system built from a saturated cyan field, oversized
-  red block typography, lemon-yellow human accents, white jagged shockwaves, thick
-  red keylines, and compact rotated microcopy. It feels like a loud regional travel
-  poster crossed with manga impact graphics and screenprinted street signage.
+summary: 扁平 插画 海报 系统，由 a 高饱和 青色 field, 超大 红 方块字体, lemon-黄色 human accents, 白 jagged shock波浪s, 厚 红 keylines, and 紧凑 旋转 微文案. It 触感s like a loud regional 旅行 海报 crossed with 漫画 impact graphics and screen印刷ed 街头 signage.
 tags:
 - VigoCookbook
 - flat
@@ -20,21 +17,11 @@ tags:
 triggers:
 - Cyan Red Shockwave Type Poster Style
 features:
-- title: Saturated cyan background dominates the entire poster, with red and yellow
-    used as the only major accents.
-  desc: ''
-- title: Huge red geometric display lettering is cropped by the page edges and functions
-    as both text and architecture.
-  desc: ''
-- title: A white jagged lightning-burst shape cuts diagonally through the center and
-    carries the main action.
-  desc: ''
-- title: Subjects are simplified flat vector forms with almost no shading, outlined
-    by thick red keylines.
-  desc: ''
-- title: Human or hand-like accents use solid lemon yellow fills, making them graphic
-    shapes rather than realistic anatomy.
-  desc: ''
+- '**Saturated 青色 背景 dominates the entire 海报, with 红 and 黄色 used 作为 only major accents.**'
+- '**Huge 红 geometric 展示 字体 is 裁切 by the page 边缘s and functions as both 文字 and 建筑.**'
+- '**A 白 jagged 亮ning-burst 形状 cuts 对角线ly 穿过 the 中心 and carries the ma，在ction.**'
+- '**Subjects are 简化 扁平 vector 形态s ，搭配lmost no shading, outlined by 厚 红 keylines.**'
+- '**Human or hand-like accents use 实心 lemon 黄色 fills, making them graphic 形状s rather than 写实 anatomy.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -57,8 +44,7 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: new oversized headline text or abstract display lettering
   desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Cyan Red Shockwave Type Poster Style"
-  visual style.
+prompt: 'Create a {ASPECT_RATIO} image in the "Cyan Red Shockwave Type Poster Style" visual style.
 
 
   Subject: {SUBJECT}
@@ -84,26 +70,13 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Cyan Red Shockwave Type Poster St
   Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
 
 
-  Apply these style rules: saturated cyan full-bleed background; oversized cropped
-  red block display lettering used as architecture; one white jagged lightning-burst
-  shape cutting diagonally through the center; flat vector subjects with thick red
-  keylines and hard edges; lemon-yellow hands or accent shapes; small red dots, rings,
-  slanted underlines, and sound-effect labels; compact rotated or vertical microcopy
-  clusters; crowded but clean poster hierarchy; mostly orthographic flatness with
-  diagonal forced motion; no realistic lens, shadows, or photographic lighting; optional
-  tiny warm red-orange gradient only inside an accent area.
+  Apply these style rules: saturated cyan full-bleed background; oversized cropped red block display lettering used as architecture; one white jagged lightning-burst shape cutting diagonally through the center; flat vector subjects with thick red keylines and hard edges; lemon-yellow hands or accent shapes; small red dots, rings, slanted underlines, and sound-effect labels; compact rotated or vertical microcopy clusters; crowded but clean poster hierarchy; mostly orthographic flatness with diagonal forced motion; no realistic lens, shadows, or photographic lighting; optional tiny warm red-orange gradient only inside an accent area.
 
 
-  Important content rule: preserve the visual system first, then change the source
-  content. Use new subjects, new props, new setting details, and new text. Do not
-  recreate bowls, soup, noodles, drinking, cheers, clinking vessels, source location
-  copy, source seals, source marks, or the same two-object diagonal composition.
+  Important content rule: preserve the visual system first, then change the source content. Use new subjects, new props, new setting details, and new text. Do not recreate bowls, soup, noodles, drinking, cheers, clinking vessels, source location copy, source seals, source marks, or the same two-object diagonal composition.
 
 
-  Avoid photorealism, 3D rendering, glossy product lighting, realistic paper mockup,
-  watercolor, delicate serif typography, beige vintage poster treatment, neon cyberpunk
-  glow, cluttered market detail, QR codes, watermarks, logos, signatures, or exact
-  copied source text.'
+  Avoid photorealism, 3D rendering, glossy product lighting, realistic paper mockup, watercolor, delicate serif typography, beige vintage poster treatment, neon cyberpunk glow, cluttered market detail, QR codes, watermarks, logos, signatures, or exact copied source text.'
 preview: https://malongan.github.io/images/vigo_previews/cyan-red-shockwave-type-poster.jpg
 id: vigo_cyan_red_shockwave_type_poster
 code: ''

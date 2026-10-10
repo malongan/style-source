@@ -2,9 +2,8 @@ name: Chromatic Fisheye Orbit Pop Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter fills, aqua chromatic light arcs, and
-  light analog print texture.
+source_url: https://x.com/VigoCreativeAI
+summary: 高调 pop海报 系统,由 extreme 鱼眼 照片y, a convex glass-dome中心, 超大 orbiting字体排版, hot 红-品红 -橙 字母 fills, aqua chromatic 亮 arc, and 亮 模拟 印刷 质感.
 tags:
 - VigoCookbook
 - high-key
@@ -24,17 +23,11 @@ tags:
 triggers:
 - Chromatic Fisheye Orbit Pop Poster Style
 features:
-- title: 'Preserve the core visual identity: A high-key pop poster system built from extreme fisheye photography, a convex glass-dome center, oversized orbiting typography, hot red-magenta-orange letter
-    fills, aqua chromatic light arcs, and light analog print texture.'
-  desc: ''
-- title: 'Photography: build a finished high-key pop culture poster, not a sketch.'
-  desc: ''
-- title: Use an extreme fisheye or convex glass-dome viewpoint from below, with the subject centered inside a circular lens bubble.
-  desc: ''
-- title: Keep people, props, hair, fabric, and hands photographic and realistic while allowing wide-angle edge distortion.
-  desc: ''
-- title: 'Layout: keep the surrounding field mostly warm off-white and pale grey so the graphic system has open space.'
-  desc: ''
+- '* *保留核心视觉标识：高调流行、由极致鱼眼 照片y、凸形玻璃海报 系统圆顶中心 字体排版、超大轨道、热红品红- -橙 字母填充、水性色亮弧和亮 模拟 印刷 质感. * *'
+- '* *摄影：打质感造高ed-key流行文化海报，而不是素描。* *'
+- '* *从镜头使用极端鱼眼或凸形玻璃下方穹顶搭配 主体 居中 在 圆形视角气泡。* *'
+- '* *保持人、道具、头发、面料和双照片手，写实同时允许广角 边缘扭曲。* *'
+- '* *布局：保持场圆形地大部分温暖白，保持图形系统灰苍白开放 空间。* *'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -66,25 +59,19 @@ prompt: 'Create an image in chromatic-fisheye-orbit-pop-poster-style.
   Scene: {SUBJECT} {SUBJECT_ACTION}, featuring {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}.
 
 
-  Photography: build a finished high-key pop culture poster, not a sketch. Use an extreme fisheye or convex glass-dome viewpoint from below, with the subject centered inside a circular lens bubble. Keep
-  people, props, hair, fabric, and hands photographic and realistic while allowing wide-angle edge distortion.
+  Photography: build a finished high-key pop culture poster, not a sketch. Use an extreme fisheye or convex glass-dome viewpoint from below, with the subject centered inside a circular lens bubble. Keep people, props, hair, fabric, and hands photographic and realistic while allowing wide-angle edge distortion.
 
 
-  Layout: keep the surrounding field mostly warm off-white and pale grey so the graphic system has open space. Hold the subject in a central circular dome and let the composition feel off-axis, kinetic,
-  and orbiting without cluttering the center.
+  Layout: keep the surrounding field mostly warm off-white and pale grey so the graphic system has open space. Hold the subject in a central circular dome and let the composition feel off-axis, kinetic, and orbiting without cluttering the center.
 
 
-  Typography: set "{MAIN_TEXT}" as huge heavy display typography warped around the circular lens. Crop the headline at multiple frame edges and fill the letters with hot vermilion, orange, red, and fluorescent
-  magenta ink texture. Add "{SECONDARY_TEXT}" only as a small red editorial caption block in a quiet corner.
+  Typography: set "{MAIN_TEXT}" as huge heavy display typography warped around the circular lens. Crop the headline at multiple frame edges and fill the letters with hot vermilion, orange, red, and fluorescent magenta ink texture. Add "{SECONDARY_TEXT}" only as a small red editorial caption block in a quiet corner.
 
 
-  Graphic system: include {ACCENT_SYMBOL}, aqua/cyan light arcs, prism smears, faint chromatic aberration, radial motion blur near the rim, subtle analog grain, screenprint speckle, and slight color bleed.
-  The result should feel like a contemporary music, fashion, or culture campaign viewed through a warped circular lens.
+  Graphic system: include {ACCENT_SYMBOL}, aqua/cyan light arcs, prism smears, faint chromatic aberration, radial motion blur near the rim, subtle analog grain, screenprint speckle, and slight color bleed. The result should feel like a contemporary music, fashion, or culture campaign viewed through a warped circular lens.
 
 
-  Avoid: watermarks, usernames, creator IDs, QR codes, platform logos, app interface marks, copied reference people, copied event text, copied venue text, copied exact pose, exact YOASOBI text, exact anniversary
-  wording, long paragraph text, tiny crowded text, flat vector substitutes, SVG look, HTML mockup, canvas drawing, corporate minimalist poster, muted beige-only palette, dark nightclub scene, cyberpunk
-  darkness, luxury studio calm, fake brand logos, distorted unreadable faces, extra limbs, and misshapen hands.'
+  Avoid: watermarks, usernames, creator IDs, QR codes, platform logos, app interface marks, copied reference people, copied event text, copied venue text, copied exact pose, exact YOASOBI text, exact anniversary wording, long paragraph text, tiny crowded text, flat vector substitutes, SVG look, HTML mockup, canvas drawing, corporate minimalist poster, muted beige-only palette, dark nightclub scene, cyberpunk darkness, luxury studio calm, fake brand logos, distorted unreadable faces, extra limbs, and misshapen hands.'
 preview: https://malongan.github.io/images/vigo_previews/chromatic-fisheye-orbit-pop-poster.jpg
 id: vigo_chromatic_fisheye_orbit_pop_poster
 code: ''

@@ -2,25 +2,19 @@ name: Mono Noir Type Portrait Poster Style
 category: vigo_cookbook
 ratio: 16:9 / 4:5 / 3:4 / 9:16
 source_author: Vigo AI Visual Prompt Cookbook
-source_url: 'https://x.com/VigoCreativeAI'
-summary: A stark black-and-white editorial poster system pairing a close, high-contrast photographic portrait with oversized lowercase neo-grotesk typography. One headline word is reversed into a clean
-  white rectangular label while the remaining words sit as heavy white type over a charcoal background.
+source_url: https://x.com/VigoCreativeAI
+summary: A stark 黑-and-白 编辑海报 system pairing a 近, 高对比 照片ic 肖像 with 超大 小写 neo-grotesk 字体排版. One 标题 词 is reversed 成 干净 白 矩形 标签 while the re主要ing 词s sit as 重 白 类型 over a 炭灰 背景.
 tags:
 - VigoCookbook
 - Other
 triggers:
 - Mono Noir Type Portrait Poster Style
 features:
-- title: Strict black-and-white monochrome with no color tint, sepia, duotone accent, or gradient color.
-  desc: ''
-- title: One large photographic human subject, usually cropped close, with the face or upper body carrying the emotional weight.
-  desc: ''
-- title: Deep charcoal-to-black background with soft falloff and large negative space for typography.
-  desc: ''
-- title: Oversized lowercase bold neo-grotesk headline, left aligned, with tight leading and strong optical weight.
-  desc: ''
-- title: The first headline word appears as black type inside a crisp white rectangular label.
-  desc: ''
+- '**Strict 黑-and-白 单色 with no color 色调, sepia, 双色 accent, or 渐变 color.**'
+- '**One 大 照片ic human 主体, usually 裁切 近, ，搭配 face or upper body carrying the emotional weight.**'
+- '**Deep 炭灰-to-黑 背景 with 柔软 falloff and 大 negative 空间 for 字体排版.**'
+- '**Oversized 小写 粗体 neo-grotesk 标题, 左侧 aligned, with tight leading and strong optical weight.**'
+- '**The first 标题 词 appears as 黑 类型 在 crisp 白 矩形 标签.**'
 variables:
 - kv_var: 变量
   style_var: 说明
@@ -43,14 +37,8 @@ variables:
 - kv_var: '`MAIN_TEXT`'
   style_var: three-line lowercase headline with short words and a final period
   desc: ''
-prompt: 'Create a {ASPECT_RATIO} monochrome editorial poster in the Mono Noir Type Portrait Poster Style. Style fidelity lock: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}.
-  Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Composition: one large high-contrast black-and-white
-  photographic subject, close crop, deep charcoal background, sparse negative space, shallow depth of field, serious noir editorial mood. If the aspect ratio is 16:9, make a landscape poster with the subject
-  weighted to the right side and the headline block on the left. If the aspect ratio is 9:16, make a vertical poster with the headline stacked in the upper-left or middle-left field and the subject cropped
-  large on the right or lower-right. Typography: render the exact readable lowercase headline text "{MAIN_TEXT}" as three short left-aligned lines with tight leading; put the first headline word as black
-  type inside a crisp white rectangular label, then set the remaining lines in heavy white type directly on the dark background. Add "{SECONDARY_TEXT}" only as tiny unobtrusive white microcopy if it fits.
-  Use {ACCENT_SYMBOL} only as a minimal typographic mark. Keep type sharp, flat, square-cornered, and massive. Photo treatment: realistic black-and-white studio photography, strong shadow falloff, visible
-  facial or fabric texture, subtle grain, no color, no illustration, no collage, no extra panels, no logos, no watermark.'
+prompt: 'Create a {ASPECT_RATIO} monochrome editorial poster in the Mono Noir Type Portrait Poster Style. Style fidelity lock: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Composition: one large high-contrast black-and-white photographic subject, close crop, deep charcoal background, sparse negative space, shallow depth of field, serious noir editorial mood. If the aspect ratio is 16:9, make a landscape poster with the subject weighted to the right side and the headline block on the left. If the aspect ratio is 9:16, make a vertical poster with the headline stacked in the upper-left or middle-left field and the subject cropped large on the right or lower-right. Typography: render the exact readable lowercase headline text "{MAIN_TEXT}" as three short left-aligned lines with tight leading; put the first
+  headline word as black type inside a crisp white rectangular label, then set the remaining lines in heavy white type directly on the dark background. Add "{SECONDARY_TEXT}" only as tiny unobtrusive white microcopy if it fits. Use {ACCENT_SYMBOL} only as a minimal typographic mark. Keep type sharp, flat, square-cornered, and massive. Photo treatment: realistic black-and-white studio photography, strong shadow falloff, visible facial or fabric texture, subtle grain, no color, no illustration, no collage, no extra panels, no logos, no watermark.'
 preview: https://malongan.github.io/images/vigo_previews/mono-noir-type-portrait-poster.jpg
 id: vigo_mono_noir_type_portrait_poster
 code: ''
