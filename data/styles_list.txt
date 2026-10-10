@@ -244,7 +244,7 @@ ST0151 | 梦幻水彩旅行插画 | https://malongan.github.io/style-source/imag
 ST0214 | 梦境信息叠层写真 | https://malongan.github.io/style-source/images/styles_previews/dreamlike_info_overlay_portrait_8d0f000a.webp
 ST0152 | 山径怪物涂鸦海报风格 | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp
 ST0153 | 后座交通涂鸦字体海报风格 | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp
-ST0154 | 温馨卧室涂鸦伙伴抓拍风格 | https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp
+ST0154 | 温馨卧室涂鸦伙伴抓拍风格 | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp
 ST0155 | DIGITAL SOUL 数字灵魂海报 | https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.webp
 ST0156 | 弥散风视觉海报 | https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.webp
 ST0302 | 德克士高端快餐海报 | https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.webp
@@ -267,7 +267,7 @@ ST0243 | 经典老爷车爆炸拆解视图 | https://malongan.github.io/style-so
 ST0295 | 电影级爆炸分解视图广告海报 | https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp
 ST0319 | 中式极简艺术展览海报 | https://malongan.github.io/style-source/images/styles_previews/chinese_minimal_exhibition_poster_f464c139.webp
 ST0168 | Q 版角色 | https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp
-ST0201 | 炭笔素描风格 | https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlxiua.webp
+ST0201 | 炭笔素描风格 | https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.webp
 ST0219 | 角色设定板 | https://malongan.github.io/style-source/images/styles_previews/character_design_sheet_6d52feb7.webp
 ST0169 | 角色设计档案 | https://malongan.github.io/style-source/images/styles_previews/character_design_archive_7dd1a0c3.webp
 ST0170 | 嫦娥 3D 盲盒 | https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.webp

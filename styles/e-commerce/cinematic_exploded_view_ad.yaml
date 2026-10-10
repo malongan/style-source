@@ -1,7 +1,12 @@
 id: cinematic_exploded_view_ad
 name: 电影级爆炸分解视图广告海报
 category: e-commerce
-tags: []
+tags:
+  - 爆炸分解
+  - 产品拆解
+  - 电影级广告
+  - 悬浮构图
+  - 高端广告
 triggers:
 - 爆炸分解视图
 - 产品拆解广告
