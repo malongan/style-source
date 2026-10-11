@@ -46,9 +46,9 @@ prompt: |
   不要水印，不要真实Logo，不要电商广告感，不要卡通风。
 
 variables:
-  - name: "{product_type}"
-    description: "产品类型"
-    example: "饮料、咖啡、蛋糕、冰淇淋、奶茶"
+  - kv_var: 产品类型
+    style_var: '{product_type}'
+    desc: "产品类型（饮料、咖啡、蛋糕、冰淇淋、奶茶）"
 
 source_url: "https://x.com/SimplyAnnisa/status/2075111363064848511"
 source_author: "Anissa (@SimplyAnnisa)"

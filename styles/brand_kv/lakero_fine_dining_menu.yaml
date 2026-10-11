@@ -67,33 +67,33 @@ prompt: |
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
 
 variables:
-  - name: "{品牌名称}"
-    description: "餐厅品牌名称"
-    example: "LAKERO、LE BERNARDIN、ULTRAVIOLET"
-  - name: "{主菜类型}"
-    description: "法餐主菜类型"
-    example: "黄油煎鱼 (butter-poached fish)、烤禽 (roasted poultry)、羊排 (lamb chop)"
-  - name: "{英文主标题}"
-    description: "主标题（英文）"
-    example: "LAKERO、MAISON"
-  - name: "{中文副标题}"
-    description: "副标题（中文）"
-    example: "主厨签名品鉴菜单、左岸法餐、精致餐饮"
-  - name: "{英文副标语1}"
-    description: "英文副标语1"
-    example: "Chef's Signature Menu、Paris Left Bank Dining"
-  - name: "{英文副标语2}"
-    description: "英文副标语2"
-    example: "Seasonal Tasting Sequence、Fine Dining Experience"
-  - name: "{英文介绍}"
-    description: "英文简短介绍"
-    example: "A seasonal tasting expression shaped by contemporary French technique..."
-  - name: "{暖色系}"
-    description: "暖色调描述"
-    example: "warm black、butter cream、champagne beige"
-  - name: "{冷色系}"
-    description: "冷色调描述"
-    example: "stone gray、charcoal、ivory"
+  - kv_var: 品牌名称
+    style_var: '{品牌名称}'
+    desc: "餐厅品牌名称（示例：LAKERO、LE BERNARDIN、ULTRAVIOLET）"
+  - kv_var: 主菜类型
+    style_var: '{主菜类型}'
+    desc: "法餐主菜类型（示例：黄油煎鱼 (butter-poached fish)、烤禽 (roasted poultry)、羊排 (lamb chop)）"
+  - kv_var: 英文主标题
+    style_var: '{英文主标题}'
+    desc: "主标题（英文）（示例：LAKERO、MAISON）"
+  - kv_var: 中文副标题
+    style_var: '{中文副标题}'
+    desc: "副标题（中文）（示例：主厨签名品鉴菜单、左岸法餐、精致餐饮）"
+  - kv_var: 英文副标语1
+    style_var: '{英文副标语1}'
+    desc: "英文副标语1（示例：Chef's Signature Menu、Paris Left Bank Dining）"
+  - kv_var: 英文副标语2
+    style_var: '{英文副标语2}'
+    desc: "英文副标语2（示例：Seasonal Tasting Sequence、Fine Dining Experience）"
+  - kv_var: 英文介绍
+    style_var: '{英文介绍}'
+    desc: "英文简短介绍（示例：A seasonal tasting expression shaped by contemporary French technique...）"
+  - kv_var: 暖色系
+    style_var: '{暖色系}'
+    desc: "暖色调描述（示例：warm black、butter cream、champagne beige）"
+  - kv_var: 冷色系
+    style_var: '{冷色系}'
+    desc: "冷色调描述（示例：stone gray、charcoal、ivory）"
 
 source_url: "https://x.com/ou_zhen599/status/2075522018737610943"
 source_author: "ou_zhen599"

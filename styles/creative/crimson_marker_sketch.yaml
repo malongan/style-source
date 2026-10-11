@@ -37,9 +37,9 @@ prompt: |
   不要水印，不要多余文字，不要复杂背景，不要渐变，不要纸张纹理。
 
 variables:
-  - name: "{线条颜色}"
-    description: "马克笔线条颜色"
-    example: "深红色 (deep crimson red)、宝蓝色 (royal blue)、纯黑色 (pure black)、橙色 (vibrant orange)"
+  - kv_var: 线条颜色
+    style_var: '{线条颜色}'
+    desc: "马克笔线条颜色（示例：深红色 deep crimson red、宝蓝色 royal blue、纯黑色 pure black、橙色 vibrant orange）"
 
 source_url: "https://x.com/AIwithSynthia/status/2075806836347883940"
 source_author: "AIwithSynthia"
