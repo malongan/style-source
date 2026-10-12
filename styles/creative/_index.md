@@ -66,6 +66,7 @@
 | pixel_cut_community_poster | #像素字体 #黑白摄影 #几何色块 |  | 16:9 / 3:2 / 4:3 |
 | playful_avantgarde_poster | #童趣 #前卫 #艺术展 |  | 9:16 |
 | premium_graphite_portrait | #高端肖像 #石墨素描 #数字绘画 | 高端品牌KV、编辑插画、概念艺术海报、人物肖像、杂志配图 | 3:4 或 2:3 |
+| real_object_line_character_poster | #实物摄影 #钢笔线描 #视觉双关 | 品牌创意海报、产品概念海报、食品饮品社媒视觉、实物创意传播 | 3:4 |
 | retro_anime_cinema_illustration | #anime-illustration #retro-japanese #cinematic-lighting | 品牌KV、概念插画、社交媒体内容、小说/游戏场景概念图、品牌叙事内容 | 4:5 |
 | retro_future_scifi_poster | #复古未来 #科幻 #赛博朋克 |  | 9:16 |
 | scifi_artdeco_poster | #art_deco #sci_fi #poster | 科幻电影海报、2x2 电影阵列、品牌联名KV、电影主题海报 | 16:9 |

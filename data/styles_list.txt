@@ -1,4 +1,4 @@
-共 302 个风格
+共 303 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -111,6 +111,7 @@ ST0089 | 复古赛璐珞动画 | https://malongan.github.io/style-source/images/
 ST0234 | 复古日系动漫电影感插画 | https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.webp
 ST0254 | 典雅纸艺信息图 | https://malongan.github.io/style-source/images/styles_previews/restrained_paper_infographic_0b1c7b49.webp
 ST0288 | 写实摄影 | https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp
+ST0330 | 实物线描角色海报 | https://malongan.github.io/style-source/images/styles_previews/real_object_line_character_poster_2c23390e.webp
 ST0212 | 安静思考感信息化视觉 | https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.webp
 ST0229 | 安静角落情绪插画 | https://malongan.github.io/style-source/images/styles_previews/quiet_corner_mood_illustration_e2a92b24.webp
 ST0245 | 北欧极简旅行纪念邮票集 | https://malongan.github.io/style-source/images/styles_previews/premium_scandinavian_stamp_collection_9ccd9d26.webp
