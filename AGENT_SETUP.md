@@ -149,7 +149,7 @@ images/styles_previews/{风格id}_{8位后缀}.thumb.webp  ← 缩略图（400px
 
 ## 5. 收集流程
 
-> **完整流程已技能化，共 11 步（Step 1 抓取 / Step 1.5 语义匹配 / Step 2–10）**：
+> **完整流程已技能化，共 10 步（Step 1 抓取 / Step 1.5 机械核对归属 / Step 2–10；Step 1.5 不读图识别）**：
 > 技能目录下的 `style-collection/SKILL.md`（`dsh-skills/skills/style-collection/`）
 > （`~/.agents/skills/style-collection` 是指向它的软链；**不要引用任何工作区内的同名副本**）
 >
@@ -164,7 +164,7 @@ images/styles_previews/{风格id}_{8位后缀}.thumb.webp  ← 缩略图（400px
    ↓
 GitHub Manager（style-collection 技能）
    Step 1    新闻助手抓取正文 + 下载原始配图到 /tmp/
-   Step 1.5  语义匹配（图文分离/alt 为空时，自己推理图片↔提示词对应）
+   Step 1.5  图片归属机械核对（按 alt/DOM 顺序；对不上问用户，不读图）
    Step 2–3  语义转化 + 分类判断
    Step 4    convert_to_webp.py 转 WebP（全尺寸 + 缩略图）
    Step 5    写 styles/{分类}/{id}.yaml

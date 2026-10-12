@@ -225,4 +225,4 @@ python3 scripts/check_style_previews.py --strict
 
 - 画廊功能清单与路线图：`docs/GALLERY_FEATURES.md`
 - Agent 自动配置与脚本速查：`AGENT_SETUP.md`
-- 收集提示词的完整 11 步流程：`style-collection` 技能（`~/.agents/skills/style-collection/SKILL.md`）
+- 收集提示词的完整流程（10 步）：`style-collection` 技能（`~/.agents/skills/style-collection/SKILL.md`）
