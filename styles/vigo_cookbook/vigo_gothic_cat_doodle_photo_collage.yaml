@@ -40,9 +40,6 @@ features:
 - title: 叠上一只超大号扁平卡通生物，用高饱和番茄红或其他大胆颜色，带粗糙的黑色马克笔轮廓、简洁而表现性的五官、裁切掉的肢体，以及细小的黄色边缘高光。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: oversized illustrated animal, mascot, creature, or playful character
   desc: ''
@@ -93,6 +90,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Gothic Cat Doodle Photo Collage" 
 
 
   Avoid watermark, username, creator ID, platform logo, QR code, app UI, realistic 3D mascot, plush toy texture, full cartoon background, clean corporate layout, dense text, and low-detail architecture.'
-preview: https://malongan.github.io/images/vigo_previews/gothic-cat-doodle-photo-collage.jpg
 id: vigo_gothic_cat_doodle_photo_collage
 code: ''

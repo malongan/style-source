@@ -54,6 +54,5 @@ prompt: "style_name: \"Halftone Assemblage Metaphor PSA Poster Style\"\nstyle_sl
   \n  BACKGROUND_ELEMENTS: \"secondary scene details\"\n  MAIN_TEXT: \"main headline or graphic text\"\n  SECONDARY_TEXT: \"small repeated supporting text\"\n  ACCENT_SYMBOL: \"separator or decorative symbol\"\
   \n  WARDROBE_STYLE: \"styling direction\"\n  STYLE_FIDELITY_ANCHORS: \"observable style traits that must remain visible\"\n  SOURCE_CONTENT_TO_AVOID: \"literal source content that generated samples must\
   \ not recreate\"\n  ASPECT_RATIO: \"9:16 or 16:9\""
-preview: https://malongan.github.io/images/styles_previews/halftone_assemblage_psa_poster.jpg
 id: halftone_assemblage_psa_poster
 code: ''

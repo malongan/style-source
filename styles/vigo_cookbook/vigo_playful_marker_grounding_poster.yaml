@@ -26,9 +26,6 @@ features:
 - title: 一个超大号简单主体占据海报中下部，配以极小的辅助道具或角色形成体量对比。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -55,6 +52,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the Playful Marker Grounding Poster St
   flat even color with no shadows, no gradients, no realistic depth, no polished vector smoothing. Important content rule: match the reference style first, then change the source content. Use new subjects,
   new scene details, new props, and new text while preserving the style fidelity anchors. Avoid photorealism, 3D render, airbrush, glossy finish, dense scene clutter, exact source text, exact source pose,
   dog, butterfly, ground-touching premise, watermarks, signatures, platform marks, QR codes, and brand logos.'
-preview: https://malongan.github.io/images/vigo_previews/playful-marker-grounding-poster.jpg
 id: vigo_playful_marker_grounding_poster
 code: ''

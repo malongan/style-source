@@ -46,6 +46,5 @@ variables:
   style_var: '9:16'
   desc: 竖版
 prompt: 清新治愈的数字插画，浅绿渐变带细闪颗粒的背景，主体是一个特写{{信封颜色}}的{{信封类型}}，信封内插满透明玻璃质感的{{季节花卉类型}}：{{花卉1}}、{{花卉2}}与{{花卉3}}，花朵带有清晰的玻璃纹理与光泽；一只带{{鸟颜色}}的{{鸟类型}}衔一个{{铭牌文字}}铭牌在信封上飞，信封上有"{{主标题英文}}"，画面底部居中极小字"{{底部文字}}"，整体风格柔和梦幻，玻璃材质的花朵晶莹剔透，充满春日的温柔与治愈氛围。
-preview: https://malongan.github.io/images/vigo_previews/glass_flower_spring_diary.jpg
 id: glass_flower_spring_diary
 code: ''

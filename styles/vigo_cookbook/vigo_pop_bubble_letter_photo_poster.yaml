@@ -42,9 +42,6 @@ features:
 - title: '图形语言：粗黑描边、平滑扁平填充、亮粉色、糖果黄、叶绿、橘橙、番茄红、粉蓝，以深常青绿作负空间，配米白椭圆高光与 ACCENT_SYMBOL。'
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main person, model, performer, maker, athlete, student, traveler, or product ambassador
   desc: ''
@@ -83,6 +80,5 @@ prompt: 'Create an image in pop-bubble-letter-photo-poster-style.
 
   Text: use "{MAIN_TEXT}" as the large bubble-letter graphic word. Add "{SECONDARY_TEXT}" only as tiny editorial caption text if needed. Do not include watermarks, usernames, creator IDs, QR codes, platform
   logos, or app marks.'
-preview: https://malongan.github.io/images/vigo_previews/pop-bubble-letter-photo-poster.jpg
 id: vigo_pop_bubble_letter_photo_poster
 code: ''

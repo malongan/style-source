@@ -44,6 +44,5 @@ variables:
   style_var: '{{9:16}}'
   desc: 竖版
 prompt: 童趣前卫艺术展海报，正视图满版构图；主体为扁平化抽象绿蓝泡泡状艺术字体 "{{英文主题词}}"，搭配黑体文字主标题"{{中文主标题}}"；小标题 "{{副标题文字}}" 等，错落排版于画面上下区域；材质呈现纸质印刷颗粒质感，整体配色以绿、蓝、白强对比呈现，背景为纯白哑光；风格活泼有视觉张力
-preview: https://malongan.github.io/images/vigo_previews/playful_avantgarde_poster.jpg
 id: playful_avantgarde_poster
 code: ''

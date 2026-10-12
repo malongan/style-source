@@ -34,9 +34,6 @@ features:
 - title: '版式：周边区域以暖米白与浅灰为主，让图形体系有呼吸空间。'
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main person, duo, small crew, performer, maker, athlete, courier, scientist, chef, or product model
   desc: ''
@@ -83,6 +80,5 @@ prompt: 'Create an image in chromatic-fisheye-orbit-pop-poster-style.
   Avoid: watermarks, usernames, creator IDs, QR codes, platform logos, app interface marks, copied reference people, copied event text, copied venue text, copied exact pose, exact YOASOBI text, exact anniversary
   wording, long paragraph text, tiny crowded text, flat vector substitutes, SVG look, HTML mockup, canvas drawing, corporate minimalist poster, muted beige-only palette, dark nightclub scene, cyberpunk
   darkness, luxury studio calm, fake brand logos, distorted unreadable faces, extra limbs, and misshapen hands.'
-preview: https://malongan.github.io/images/vigo_previews/chromatic-fisheye-orbit-pop-poster.jpg
 id: vigo_chromatic_fisheye_orbit_pop_poster
 code: ''

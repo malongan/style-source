@@ -48,6 +48,6 @@ variables:
   style_var: 氛围
   desc: 纯色背景或场景氛围
 prompt: 莫蘭迪配色，构建赛博朋克风海报场景，一个3D风格的虚拟{角色描述}半身肖像，她坐在金属质感的凳子上，动态可爱，角色拥有{外貌特征}，戴{配饰}，背景为{背景色}渐变色，画风干净简洁，角色光影细腻，呈现次世代渲染质感，视觉风格融合Y3K与潮玩设计风，偏态度感、虚拟偶像风格，居中构图高清8K画质，身穿{服装描述}，超写实摄影，精致奢华风格，外形优美，超前设计潮酷，潮玩形式，强调体积感与材质对比，边缘清晰，身材比例超一流，虚幻引擎，整体{氛围}背景，线条张力，修长流畅，完美的形态平滑。
-preview: https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.jpg
+# （已移除失效的 preview: https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.jpg）
 id: y3k_cool_girl_portrait
 code: ''

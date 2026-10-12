@@ -21,9 +21,6 @@ features:
 - title: 仅在手脚、鞋、头发、轮子、把手或动势符号等小细节上使用粗黑手绘轮廓笔触。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -48,6 +45,5 @@ prompt: 'Create a {ASPECT_RATIO} illustration in the Kinetic Geometric Doodle Cu
   color blocks: tomato orange, cobalt blue, magenta pink, lilac violet, mint green, golden yellow, black, and small white accents. Include subtle risograph grain, dry-brush speckle, and one or two soft
   sprayed gradients inside selected shapes. Add sparse loose black hand-drawn contour lines only for small expressive details and motion marks. Keep the image flat, airy, asymmetrical, buoyant, handmade,
   and print-like. Do not use realistic anatomy, 3D rendering, dense scenery, logos, signatures, watermarks, QR codes, or polished fonts.'
-preview: https://malongan.github.io/images/vigo_previews/kinetic-geometric-doodle-cutouts.jpg
 id: vigo_kinetic_geometric_doodle_cutouts
 code: ''

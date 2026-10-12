@@ -54,6 +54,5 @@ prompt: "[角色设定]\n你是一位将动漫、游戏、漫画角色转换为 
   \ Traveler Style\nWestern Cartoon / Disney Style / Realistic / Semi Realistic\n3D Render / Illustration / Concept Art / Splash Art / Poster / Wallpaper\nAnime Illustration / Digital Painting / Cinematic\
   \ Lighting\nUltra Detailed Sprite / High Definition Pixel Art / Fine-Grained Pixel Art\nSmooth Gradient Shading / Airbrush Shading\n\n[收尾]\nCreate {角色名} as a true MapleStory player avatar sprite.\nThe\
   \ result must look like an actual MapleStory player character converted from {角色名},\nnot a generic pixel-art character."
-preview: https://malongan.github.io/images/styles_previews/maple_story_avatar.png
 id: maple_story_avatar
 code: ''

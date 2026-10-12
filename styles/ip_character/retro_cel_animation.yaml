@@ -30,6 +30,5 @@ features:
 variables: []
 prompt: Retro cel animation style, [subject] in a [setting], hand-painted background, visible cel lines, muted [color1] and [color2] palette, soft grain, gentle lighting, expressive character design, vintage
   animation frame aesthetic
-preview: https://malongan.github.io/images/styles_previews/azed_retro_cel_4.jpg
 id: retro_cel_animation
 code: ''

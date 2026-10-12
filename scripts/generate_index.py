@@ -16,6 +16,8 @@ CATEGORY_META = {
     'fashion': ('时尚美容', '👔', '时尚大片、美妆'),
     'creative': ('创意特殊', '🎪', '融合、复古、手绘'),
     'vigo_cookbook': ('VigoCookbook', '📖', '来自 Vigo Cookbook'),
+    'typography': ('字体排版', '🖋️', '文字为主的标题设计'),
+    'editorial': ('编辑排版', '📰', '杂志封面、海报排版、编辑设计、字体实验'),
 }
 
 def parse_yaml_file(filepath: str) -> dict:
@@ -134,7 +136,15 @@ def main():
     with open(main_path, 'w', encoding='utf-8') as f:
         f.write(main_content)
 
-    print(f'✅ _index.md 已生成（总 {len(os.listdir(STYLES_DIR))-1} 个分类）')
+    # 回读核对：确认生成结果里的分类与风格数与磁盘一致
+    style_dirs = [e for e in sorted(os.listdir(STYLES_DIR))
+                  if os.path.isdir(os.path.join(STYLES_DIR, e)) and not e.startswith('_')]
+    total = sum(len([f for f in os.listdir(os.path.join(STYLES_DIR, e))
+                     if f.endswith('.yaml') and not f.startswith('_')]) for e in style_dirs)
+    unmapped = [e for e in style_dirs if e not in CATEGORY_META]
+    print(f'✅ _index.md 已生成（{len(style_dirs)} 个分类 / {total} 个风格文件）')
+    if unmapped:
+        print(f'   ⚠️  以下分类缺少 CATEGORY_META（将退化为目录名 + 📁）: {", ".join(unmapped)}')
 
 if __name__ == '__main__':
     main()

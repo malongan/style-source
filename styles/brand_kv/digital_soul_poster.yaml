@@ -47,6 +47,6 @@ variables:
   style_var: 参考图 + "Maintain IP identity..."
   desc: 用参考图保持一致性
 prompt: '"{{主题}}"主题海报，采用{{主色}}与{{辅色}}的极端对比。画面中央是{{主体描述}}，表面呈现{{质感}}，周围散布着{{装饰元素}}。背景是{{背景描述}}，点缀着{{点缀元素}}。底部有小字"{{底部文字1}}"和"{{底部文字2}}"，先锋前卫艺术风格。'
-preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/digital_soul_poster.jpg
+# （已移除失效的 preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/digital_soul_poster.jpg）
 id: digital_soul_poster
 code: ''

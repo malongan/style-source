@@ -39,9 +39,6 @@ features:
 - title: 围绕人像放置贴纸般的私人物件：小纸片、票根、食品包装、文具、挂饰、数字、涂鸦、胶带痕迹与小号手绘图标。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main side-profile person, character, student, musician, traveler, or introspective figure
   desc: ''
@@ -96,6 +93,5 @@ prompt: 'Create a {ASPECT_RATIO} image in analog-sticker-diary-portrait-poster-s
 
   Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, sterile spacing, plain background, perfect typography, and photorealistic
   studio portrait.'
-preview: https://malongan.github.io/images/vigo_previews/analog-sticker-diary-portrait-poster.jpg
 id: sticker_style_poster
 code: ''

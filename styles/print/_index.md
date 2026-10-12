@@ -4,23 +4,23 @@
 
 | 风格 | 标签 | 适用场景 | 比例 |
 |------|------|----------|------|
+| axial_memorial_poster | #axial_symmetry #memorial_poster #vertical_line_silhouette | 品牌纪念日海报、知识类纪念特展、主题宣言视觉 | 9:16 |
 | collage_logo | #logo #品牌 #图标 |  | 1:1 方图（2048x2048） |
+| cultural_worker_anniversary_poster | #现代东方 #极简仪式感 #冷色调 | 文化机构周年纪念海报、严肃主题纪念、品牌KV、学术活动海报 | 16:9 |
+| futuristic_editorial_poster | #未来感 #编辑海报 #杂志排版 | 品牌KV、艺术海报、杂志封面、社交媒体分享 | 4:5 |
+| heroic_monument_potential_field_poster | #monument #marble_sculpture #potential_field | 历史人物纪念海报、英雄人物文化海报、纪念馆展览视觉、体育传奇定格海报 | 9:16（竖版） |
 | hierarchy_angels_poster | #宗教朋克 #拼贴海报 #丝网印刷 |  | 3:4 |
+| high_key_seasonal_editorial_poster | #高调海报 #季节编辑 #虚化散景 | 品牌季节海报、农产品市集、节气特展、社交媒体节庆视觉 | 9:16 |
+| human_fragments_editorial_poster | #文字窗口 #编辑海报 #电影感 | 电影海报、赛事视觉、品牌KV、杂志封面、运动品牌广告 | 9:16 |
 | luxury_poster_style | #VigoCookbook #Luxury #furniture |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| modern_eastern_school_anniversary | #现代东方 #极简结构美学 #红色系 | 校庆纪念主海报、品牌KV、文化活动海报 | 16:9 |
+| oriental_fantasy_travel_cover | #现代东方 #秩序感排版 #暖色调 | 东方幻想游记封面、书籍装帧、文化主题海报、品牌KV | 3:4 |
 | pet_sketch_storyboard | #VigoCookbook #loose #animation |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| photo_half_hand_drawn_poster | #摄影 #手绘 #丙烯 | 品牌KV、社媒海报、艺术书籍封面、童趣主题活动海报 | 3:4 |
+| riso_travel_poster | #孔版画 #旅行海报 #独立印刷 | 旅行海报、目的地品牌视觉、独立艺术印刷品、文化海报 | 184 |
 | scarlet | #红块 #手绘 #文学 |  | 9:16 或 16:9 |
 | stamp_movie_poster | #邮票 #电影海报 #极简 |  | 16:9 |
 | style_can | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | tear_paper | #插画 #撕纸 #平面 |  | 16:9 横版 |
 | typography | #字体 #标题 #排版 |  | 按需求（常见 9:16 或 16:9） |
-|| futuristic_editorial_poster | #未来感 #编辑海报 #杂志排版 #人物侧脸 | 品牌KV、艺术海报、杂志封面、社交媒体分享 | 4:5 |
-| riso_travel_poster | #孔版画 #旅行海报 #独立印刷 | 品牌KV、旅行海报、独立艺术品 | 3:4 |
-| modern_eastern_school_anniversary | #现代东方 #极简结构美学 #红色系 #校庆 #高纯度色彩 | 校庆纪念主海报、品牌KV、文化活动海报 | 16:9 |
-| oriental_fantasy_travel_cover | #现代东方 #秩序感排版 #暖色调 #游记封面 #矢量质感 | 东方幻想游记封面、书籍装帧、文化主题海报、品牌KV | 3:4 |
-| vintage_car_vector_art | #老爷车 #矢量艺术 #汽车海报 #品牌KV #复古 #产品展示 | 老爷车收藏展示、汽车品牌KV、复古风格海报、车型宣传图 | 16:9 |
-| cultural_worker_anniversary_poster | #现代东方 #极简仪式感 #冷色调 #周年纪念 #网格排版 | 文化机构周年纪念海报、严肃主题纪念、品牌KV、学术活动海报 | 16:9 |
-| human_fragments_editorial_poster | #文字窗口 #编辑海报 #电影感 #视觉系统 #人体碎片 | 电影海报、赛事视觉、品牌KV、杂志封面、运动品牌广告 | 9:16 |
-| heroic_monument_potential_field_poster | #monument #marble_sculpture #potential_field #heroic #museum_staging | 历史人物纪念海报、英雄人物文化海报、纪念馆展览视觉、体育传奇定格海报 | 9:16 竖版 |
-| axial_memorial_poster | #轴对称 #纪念碑式 #垂直线剪影 #几何无衬线 #金属质感 | 品牌纪念日海报、知识类纪念特展、主题宣言视觉 | 9:16 |
-| high_key_seasonal_editorial_poster | #高调 #季节编辑 #虚化散景 #放射光芒 #编辑排版 | 品牌季节海报、农产品市集、节气特展、社交媒体节庆视觉 | 9:16 |
-| photo_half_hand_drawn_poster | #摄影 #手绘 #丙烯 #纸质 #童趣 #留白 | 品牌KV、社媒海报、艺术书籍封面、童趣主题活动海报 | 3:4 |
+| vintage_car_vector_art | #老爷车 #矢量艺术 #汽车海报 | 老爷车收藏展示、汽车品牌KV、复古风格海报、车型宣传图、汽车杂志配图 | 16:9 |

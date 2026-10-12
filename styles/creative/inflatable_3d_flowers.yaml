@@ -35,6 +35,6 @@ prompt: 'C4D风格，3D膨胀的花朵与毛绒质感的花草，色彩对比强
 
 
   {主体场景}'
-preview: https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.jpg
+# （已移除失效的 preview: https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.jpg）
 id: inflatable_3d_flowers
 code: ''

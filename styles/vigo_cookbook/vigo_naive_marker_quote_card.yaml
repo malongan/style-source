@@ -24,9 +24,6 @@ features:
 - title: 块状大写蓝色手写字体，排成短促断续的行，字距不规则、基线不齐。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -94,6 +91,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Naive Marker Quote Card Style" vi
   Important content rule: match the reference style first, then change the source
   content. Use new subjects, new scene details, new props or products, and new text,
   while preserving the style fidelity anchors.'
-preview: https://malongan.github.io/images/vigo_previews/naive-marker-quote-card.jpg
 id: vigo_naive_marker_quote_card
 code: ''

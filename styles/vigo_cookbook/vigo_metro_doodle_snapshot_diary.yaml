@@ -46,9 +46,6 @@ features:
 - title: 直接在照片上绘制童趣的漫画马克笔涂鸦。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main person, group, object, or scene focus
   desc: ''
@@ -103,6 +100,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Metro Doodle Snapshot Diary" styl
 
   Avoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, empty transit scenes, luxury lighting,
   perfect symmetry, branded mascots, identifiable celebrities, and tiny unreadable text.'
-preview: https://malongan.github.io/images/vigo_previews/metro-doodle-snapshot-diary.jpg
 id: vigo_metro_doodle_snapshot_diary
 code: ''

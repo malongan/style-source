@@ -45,9 +45,6 @@ features:
 - title: '视觉处理：暖米色纸张背景、严谨的网格布局、细线、柔和日光、有触感的哑光材质、细腻纸张颗粒、淡蓝色半透明界面面板、植物前景点缀，以及安静的留白。'
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main person, field, discipline, audience, or symbolic focus
   desc: ''
@@ -85,6 +82,5 @@ prompt: 'Create an image in soft-analog-future-editorial-poster-style.
 
 
   Avoid: watermark, logo, creator ID, QR code, platform UI, copied brand mark, glossy cyberpunk, dark sci-fi, neon gamer interface, childish mascot, busy collage, unreadable text, and cluttered typography.'
-preview: https://malongan.github.io/images/vigo_previews/soft-analog-future-editorial-poster.jpg
 id: vigo_analog_editorial_poster
 code: ''

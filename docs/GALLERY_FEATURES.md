@@ -1,39 +1,48 @@
 # 🎨 风格画廊 — 功能清单与优化路线图
 
-> 最后更新: 2026-07-03（优化调查 v2）
+> 最后更新: 2026-10-12（数据基线校正；功能清单最后审计 2026-07-03 v2）
+>
+> ⚠️ 本文的「功能清单 / PERF_PLAN 进度 / 路线图」是 2026-07-03 的审计快照，**它的完成状态可能已落后于代码**；
+> 但「现状总览」的数据已按 2026-10-12 实测校正。要断言某功能是否实现，请以 `gallery/src/gallery.js` 与
+> `gallery-runtime.js` 为准。
 
 ---
 
-## 📊 现状总览
+## 📊 现状总览（2026-10-12 实测）
 
 | 指标 | 值 |
 |------|----|
-| 风格总数 | **168 个** |
-| 分类数 | **11 个** |
-| 标签总数 | ~880 个（去重） |
-| 图片 | 168 全尺寸 WebP + 168 缩略图 ✅ **全部 1:1 对应** |
-| 数据字段完整性 | id/name/code/tags/summary/features/triggers/preview_webp/ratio/prompt: **100%** |
-| 数据源 | `styles/*.yml` → `generate_data.py` → `data/styles.json` |
+| 风格总数 | **300 个** |
+| 分类数 | **12 个** |
+| 标签总数 | **1440 个**（去重） |
+| 图片 | 300 全尺寸 WebP + 300 缩略图 ✅ **全部 1:1 对应**（共 600 个文件） |
+| 数据字段完整性 | prompt 300/300；`variables` 177/300（有实际条目 161）；`source_url` 285/300；`source_author` 300/300；`scene` 144/300；缩略图 300/300 |
+| 数据源 | `styles/*.yaml` → `generate_data.py` → `data/styles.json` |
 | 构建工具 | `build_gallery.py` → `gallery.html` + `gallery.css` + `gallery-runtime.js` |
+| 索引 | `generate_index.py` → `styles/_index.md` + 各分类 `_index.md` |
 | 部署 | GitHub Pages (malongan.github.io/style-source/) |
-| CI/CD | PR 合并自动校验 + 定时图片巡检 |
+| CI/CD | PR 格式/查重/图片检查 + 合并后一致性 + 索引新鲜度 + 每日图片巡检 |
 | 图片仓库 | **style-source/images/styles_previews/** （唯一数据源） |
 
 ### 分类分布
 
 | 分类 | 数量 | 说明 |
 |------|------|------|
+| creative | 81 | 创意设计 |
 | vigo_cookbook | 51 | Vigo 食谱书风格 |
-| creative | 42 | 创意设计 |
-| brand_kv | 18 | 品牌主视觉 |
-| social_media | 13 | 社交媒体 |
-| e-commerce | 10 | 电商 |
-| print | 9 | 印刷品 |
-| ip_character | 7 | IP 角色 |
-| travel | 5 | 旅行 |
+| social_media | 37 | 社交媒体 |
+| brand_kv | 25 | 品牌主视觉 |
+| e-commerce | 24 | 电商 |
+| print | 20 | 印刷品 |
+| typography | 16 | 字体排版 |
+| editorial | 13 | 编辑排版 |
+| travel | 10 | 旅行 |
+| fashion | 9 | 时尚 |
+| ip_character | 9 | IP 角色 |
 | science | 5 | 科研学术 |
-| fashion | 5 | 时尚 |
-| typography | 3 | 字体排版 |
+| **合计** | **300** | 12 个分类 |
+
+> 复核命令：`for d in styles/*/; do echo "$(basename $d) $(ls $d*.yaml | wc -l)"; done`
 
 ---
 
@@ -92,7 +101,7 @@
 ### ⚙️ 后端脚本与 CI
 | # | 功能 | 说明 |
 |---|------|------|
-| 31 | **🔧 generate_data.py** | 从 yml 提取元数据，自动解析图片 URL，生成 styles.json |
+| 31 | **🔧 generate_data.py** | 从 yaml 提取元数据，按整段锚定解析配图，生成 styles.json |
 | 32 | **🔧 build_gallery.py** | 生成 gallery.html + gallery.css + gallery-runtime.js |
 | 33 | **🔧 validate_all.py** | 验证所有风格文件合法性 |
 | 34 | **🔧 validate_style.py** | 单文件验证 |
@@ -105,22 +114,23 @@
 | 41 | **🔧 deploy_gallery.py** | 部署画廊 |
 | 42 | **🔧 fetch_twitter.py** | Twitter/X 采集 |
 | 43 | **🔧 run_fetch.py** | 采集入口 |
-| 44 | **🔐 pre-push-security-scan.py** | 发布前安全扫描 |
+| 44 | **🔐 pre-push-security-scan.py** | 发布前安全扫描（脚本在 `open/agents/scripts/github-manager/`，由 `.git/hooks/pre-push` 调用，**不在本仓库 scripts/**） |
 | 45 | **🔄 CI: on-merge-main.yml** | PR 合并后验证数据一致性 |
 | 46 | **🔄 CI: check-images.yml** | 图片可达性日检 + PR 检查 |
 | 47 | **🔄 CI: on-push-styles.yml** | 推送风格文件触发检查 |
 | 48 | **🔄 CI: manual-deploy.yml** | 手动部署 |
 
-### 📦 数据完整性
+### 📦 数据完整性（2026-10-12 实测，分母 300）
 | # | 功能 | 说明 |
 |---|------|------|
-| 49 | **📦 prompt 字段** | 168/168 有完整提示词 |
-| 50 | **📦 variables 字段** | 140/168 有变量模板 |
-| 51 | **📦 source_author** | 167/168 有来源作者 |
-| 52 | **📦 scene 字段** | 13/168 有场景描述 |
-| 53 | **📦 preview_webp_thumb** | 168/168 有缩略图 |
-| 54 | **📦 style_numbers.json** | 编号映射表 |
-| 55 | **📦 style_timestamps.json** | 时间戳记录 |
+| 49 | **📦 prompt 字段** | 300/300 有完整提示词（≥80 字符，`validate_style.py` 强制） |
+| 50 | **📦 variables 字段** | 177/300 有 `variables` 键，其中 **161 个有实际条目**（145 标准 `[{kv_var,style_var}]` + 16 旧 `list[str]`，两者都能归一化）；16 个是空的 `variables: []`，123 个无该字段 |
+| 51 | **📦 source_author** | 300/300 有来源作者 |
+| 52 | **📦 source_url** | 285/300 有来源链接（缺的 15 个须由 `source_author` 兜底；仅 `korean_illustration` 两者皆空） |
+| 53 | **📦 scene 字段** | 144/300 有场景描述 |
+| 54 | **📦 preview_webp_thumb** | 300/300 有缩略图 |
+| 55 | **📦 style_numbers.json** | 编号映射表 |
+| 56 | **📦 style_timestamps.json** | 时间戳记录 |
 
 ---
 
@@ -130,13 +140,13 @@
 
 | # | 项目 | 优先级 | 状态 | 备注 |
 |---|------|--------|------|------|
-| 1 | 图片懒加载 `loading="lazy"` | P0 🔴 | ❌ **未做** | `setupLazyLoading()` 空函数占位 |
+| 1 | 图片懒加载 `loading="lazy"` | P0 🔴 | ✅ **已做** | `buildCardHTML()` 已输出 `loading="lazy"`（`setupLazyLoading()` 仍是空函数，但属性生效） |
 | 2 | 移除内联 FALLBACK_DATA | P0 🔴 | ✅ **已做** | 改为 `fetch('data/styles.json')` 异步加载 |
 | 3 | JS/CSS 异步加载 | P0 🔴 | ⚠️ **部分** | CSS 已 `preload`；JS 仍同步 `<script>`（但 HTML 只有 9KB） |
-| 4 | HTML 压缩 | P0 🔴 | ✅ **已做** | `gallery.html` 已压缩（1 行，9KB） |
+| 4 | HTML 压缩 | P0 🔴 | ✅ **已做** | `gallery.html` 已压缩（1 行，约 10KB） |
 | 5 | URL 参数过滤 | P1 🟡 | ✅ **已做** | `readURLParams()` + `updateURLParams()` |
 | 6 | IntersectionObserver 优化 | P1 🟡 | ✅ **已做** | 无限滚动已用 IntersectionObserver |
-| 7 | WebP 回退 `<picture>` | P1 🟡 | ❌ **未做** | 全部 WebP，无 JPEG fallback |
+| 7 | WebP 回退 `<picture>` | P1 🟡 | ❌ **未做** | `<picture>` 标签已在，但 source/img 用同一个 webp URL，**无 JPEG 兜底源** |
 | 8 | 键盘导航增强 | P1 🟡 | ⚠️ **部分** | Lightbox 内 ← → Esc 已实现；Tab/Enter/快捷键未实现 |
 | 9 | 无限滚动/分页 | P2 🔵 | ✅ **已做** | Batch 30 张，IntersectionObserver |
 | 10 | 渐进式图片加载 | P2 🔵 | ❌ **未做** | 无模糊过渡/缩略图占位 |
@@ -144,7 +154,7 @@
 | 12 | PWA / Service Worker | P3 ⚪ | ❌ **未做** | - |
 | 13 | 分享功能 | P3 ⚪ | ❌ **未做** | - |
 | 14 | 统计/分析 | P3 ⚪ | ❌ **未做** | - |
-| 15 | 一键复制提示词 | P3 ⚪ | ❌ **未做** | 仅支持复制编号 |
+| 15 | 一键复制提示词 | P3 ⚪ | ✅ **已做** | Lightbox `.lightbox-copy-btn` 已实现（复制 `prompt` 字段，含缺失兜底） |
 | 16 | 图片放大镜 | P3 ⚪ | ❌ **未做** | - |
 | 17 | 对比功能 | P3 ⚪ | ❌ **未做** | - |
 | 18 | 随机发现 | P3 ⚪ | ❌ **未做** | - |
@@ -156,9 +166,9 @@
 
 ### 1. 🚨 2026-06-20: 图片 URL 全部 404
 **问题**：`malongan/images` 仓库归档后，所有图片 URL 指向旧域名 `malongan.github.io/images/` 全部 404。
-**根因**：`generate_data.py` 直接从 yml 提取图片 URL，yml 存的是旧域名旧路径。
+**根因**：`generate_data.py` 直接从 yaml 提取图片 URL，yaml 存的是旧域名旧路径。
 **教训**：
-- 不要依赖 yml 中的外部 URL，图片 URL 应自动从文件系统解析
+- 不要依赖 yaml 中的外部 URL，图片 URL 应自动从文件系统解析
 - `generate_data.py` 新增 `resolve_image_url()` 函数，优先本地 glob 匹配
 - 图片文件名格式：`{style_id}_{8位hash}.{ext}`
 - **吸取 ✅ 已修复**
@@ -179,7 +189,7 @@
 
 ### 4. 🚨 发布前安全扫描
 **问题**：曾向公开库提交包含敏感信息的文件。
-**解决**：已加 `pre-push-security-scan.py`，每次 git push 前自动扫描 Token/密码/密钥等。
+**解决**：已加 `pre-push-security-scan.py`（在 `open/agents/scripts/github-manager/`，本仓库靠 `.git/hooks/pre-push` 调用），每次 git push 前自动扫描 Token/密码/密钥等。
 **教训**：**强制** — 每次 push 前必须扫。
 
 ### 5. 🚨 图片源仓库演变
@@ -213,8 +223,8 @@
 | # | 项目 | 说明 | 状态 |
 |---|------|------|------|
 | **P0-1** | **CSS/JS 压缩** | CSS 24KB→18KB，JS 43KB→29KB，合计 67KB→47KB ⬇️ 30% | ✅ **已完成** |
-| **P0-2** | **渐进式图片加载（blur-up）** | 缩略图模糊背景占位 → 全尺寸渐入，168 张全部启用 | ✅ **已完成** |
-| **P0-3** | **标签去重** | 合并 Flat/flat、Naive/naive、q版/Q版，清理 null 标签，881→878 | ✅ **已完成** |
+| **P0-2** | **渐进式图片加载（blur-up）** | 缩略图模糊背景占位 → 全尺寸渐入，300 张全部启用 | ✅ **已完成** |
+| **P0-3** | **标签去重** | 合并 Flat/flat、Naive/naive、q版/Q版，清理 null 标签（当时 881→878；当前去重后 1440） | ✅ **已完成** |
 | **P0-4** | **清理旧版 styles/gallery.html** | 删除 230KB 旧版残留 | ✅ **已完成** |
 
 ### P1 🟡 — 建议做
@@ -249,7 +259,7 @@
 ## 🔧 构建与部署流程
 
 ```
-styles/*.yml ──→ generate_data.py ──→ data/styles.json
+styles/*.yaml ──→ generate_data.py ──→ data/styles.json
                                            │
                               build_gallery.py（读取 gallery/src/ 源码）
                                            │
@@ -267,8 +277,8 @@ styles/*.yml ──→ generate_data.py ──→ data/styles.json
 
 ### 本地更新命令
 ```bash
-cd /Users/qiqi/.qwenpaw/workspaces/github-manager/style-source
-python3 scripts/generate_data.py   # 从 yml 更新 styles.json
+cd <style-source 仓库>
+python3 scripts/generate_data.py   # 从 yaml 更新 styles.json
 python3 scripts/build_gallery.py   # 构建 gallery.html + CSS + JS
 ```
 
@@ -279,7 +289,7 @@ python3 scripts/build_gallery.py   # 构建 gallery.html + CSS + JS
 1. **图片文件名格式**: `{style_id}_{8位hash}.webp`
 2. **源仓库唯一**: `style-source/images/styles_previews/` 是唯一正确的图片存放位置
 3. **新增图片用 `upload_preview.py`**: 自动哈希命名 + WebP 转换
-4. **不要手动编辑 yml 中的图片 URL**: `generate_data.py` 会自动匹配本地文件
+4. **不要手动编辑 yaml 中的图片 URL**: `generate_data.py` 会自动匹配本地文件
 5. **收集提示词不要自动更新 Gallery**: 等用户明确说"更新页面"/"同步 Gallery"
-6. **每次 push 前跑安全扫描**: `python3 scripts/pre-push-security-scan.py`
+6. **每次 push 前跑安全扫描**: 由 `.git/hooks/pre-push` 自动调用（脚本在 agent 侧 `scripts/github-manager/pre-push-security-scan.py`）
 7. **有未提交修改时先 stash**: `git stash` → `git pull --ff-only` → `git stash pop`

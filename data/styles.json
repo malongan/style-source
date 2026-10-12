@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-183-gd580f5e-dirty",
-    "generated": "2026-10-10T08:23:06Z",
+    "version": "v0.7.0-before-opt-185-g5791eb3-dirty",
+    "generated": "2026-10-12T02:22:06Z",
     "total": 300,
     "categories": [
       "brand_kv",
@@ -184,7 +184,6 @@
       ],
       "prompt": "Create a cheerful and bright illustration poster featuring a Chinese calligraphy-style title \"旷野的风\" at the top, set against a vast blue sky with fluffy white clouds.\n\nThe lower half of the image shows rolling green grasslands and gentle hills. Scattered across the landscape are travel elements like a winding road, a small bus or camper, tents, wooden fences, and a cozy cottage.\n\nColor palette: vibrant greens for the grasslands, bright blues for the sky, with warm yellows and oranges as accents. High saturation, fresh summer feeling.\n\nStyle: flat illustration with slight texture, resembling modern travel posters or brand campaign visuals. Clean lines, bold colors, playful composition.\n\nThe text should be at the top, large and prominent, with brush-stroke texture and ink bleeding effects.\n\nMaintain a sense of freedom, adventure, and youthful energy throughout the composition.",
       "variables": {
-        "变量": "说明",
         "主标题": "花体字内容，如\"旷野的风\"、\"自由之路\"、\"夏日旅行\"等",
         "天空元素": "蓝天白云、热气球、飞鸟（可选）",
         "草原山丘": "连绵草原、起伏山丘、树木（可选）",
@@ -242,7 +241,11 @@
         "**印章点缀** — 红色中国印章点缀，底部小号英文 \"China Luo Yang\""
       ],
       "prompt": "\"{中文标题}\", wild cursive Chinese calligraphy poster, ultra-thick bold strokes, ink wash with flying white effect, strokes connecting and flowing with wild abandon, dynamic visual tension, black background, master calligraphy poster, movie poster composition, \"{英文副行}\" small English text at bottom, red Chinese seal stamp accent with \"{印章文字}\", pure typography design, no decorations\n",
-      "variables": {},
+      "variables": {
+        "中文标题": "{中文标题}",
+        "英文副行": "{英文副行}",
+        "印章文字": "{印章文字}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -583,7 +586,12 @@
         "**16:9 动态构图** — 车辆占据画面主体，构图充满张力与速度感"
       ],
       "prompt": "{车型完整描述}，电影级细节还原\n\n四分之三视角，矢量插画风格，清洁粗黑线条 + 微妙渐变填充\n压低车身，攻击性姿态，精密轮毂详细绘制，璀璨车灯组\n\n背景：{车身主色调}纯色 + 柔和光泽地面反射\n顶部居中：{品牌名称} Logo\nLogo下方：\"{车型名称}\" 现代无衬线字体\n\n主体车辆巨大撑满画面，16:9横版比例，动态张力构图\n高端老爷车展厅质感，清晰锐利，无杂质背景干扰\n\n不要水印，不要真实Logo，不要超出构图，不要杂乱背景，不要扁平无细节。\n比例：16:9\n",
-      "variables": {},
+      "variables": {
+        "车型完整描述": "{车型完整描述}",
+        "车身主色调": "{车身主色调}",
+        "品牌名称": "{品牌名称}",
+        "车型名称": "{车型名称}"
+      },
       "source_url": "https://x.com/ShamsAmin56/status/2077303326052651413",
       "source_author": "ShamsAmin56",
       "preview_urls": [
@@ -617,7 +625,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} raster image in the Yellow Black Manga Food Zine Ad Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Hero product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background and secondary elements: {BACKGROUND_ELEMENTS}. Main headline text in Chinese: {MAIN_TEXT}. Secondary Chinese copy or microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or styling: {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build a dense black, warm yellow, and cream manga advertorial page with diagonal panel cuts, thick hand-inked keylines, speed hatching, sweat-drop marks, sparkle symbols, one dramatic cropped manga reaction panel, an oversized glossy illustrated hero object in the foreground, boxed Chinese editorial copy, a vertical tag label, a strip of mini comic panels, halftone speckle, scanned paper grain, and imperfect print registration. Keep the style loud, humorous, appetizing or product-focused, high-contrast, and hand-drawn. Change all content from the reference image while keeping the visual language.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -658,7 +665,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} gritty Y2K flash-photo UI collage in the Y2K Mirror UI Scribble Collage Style. New content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Supporting scene and collage details: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Use a real photographic wide-angle phone-camera base with hard flash, blown highlights, reflective surfaces, heavy grain, sharpened digital noise, rough scan texture, and casual off-axis cropping. Layer fictional, unbranded desktop/mobile-like UI fragments over the photo: translucent rounded panels, tiny image thumbnails, simplified alert cards, small blue action buttons, and generic microcopy reading {SECONDARY_TEXT}. Add a large irregular white hand-drawn graffiti headline reading {MAIN_TEXT}, plus a thick electric-blue marker outline or path wrapping the subject, and include the accent symbol {ACCENT_SYMBOL} as a small drawn/sticker mark. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Change the content and avoid these source details: {SOURCE_CONTENT_TO_AVOID}. No real logos, no real app icons, no watermark, no QR code, no copied names, no recognizable celebrity, no exact source layout.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "new central person, object, or activity anchor",
         "`SUBJECT_ACTION`": "changed action or pose for the central subject",
         "`PRODUCT_OR_PROP`": "new prop or product-like object that drives the story",
@@ -712,7 +718,6 @@
       ],
       "prompt": "Create a Y2K grunge hip-hop cutout poster featuring {SUBJECT} {SUBJECT_ACTION}, wearing {WARDROBE_STYLE}, holding or interacting with {PRODUCT_OR_PROP}. Place the subject as a large central photo cutout with an irregular white sticker-like outline. Use a dirty black-and-white grunge wall background with {BACKGROUND_ELEMENTS}. Add a huge acid yellow retro serif headline reading \"{MAIN_TEXT}\" across the top, partially hidden behind the subject. Add a bright acid yellow information strip at the bottom with small editorial text reading \"{SECONDARY_TEXT}\", small inset photo frames, barcode-like graphic elements, and {ACCENT_SYMBOL}. The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy texture, cyan and magenta print noise, energetic collage layout. Do not include watermarks, usernames, QR codes, platform logos, or app marks. Aspect ratio: {ASPECT_RATIO}.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject, artist, dancer, musician, skater, model, or youth culture figure",
         "`SUBJECT_ACTION`": "sitting, leaning, holding a prop, looking away, posing casually, or performing a relaxed streetwear pose",
         "`PRODUCT_OR_PROP`": "cassette player, headphones, soda can, compact camera, skateboard, magazine, CD player, or portable music device",
@@ -753,7 +758,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Warm Fisheye Product Impact Ad Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Build a dense Chinese social-commerce advertising visual, not a clean editorial poster.\n- Use a macro ultra-wide fisheye viewpoint from inside a pile, bowl, bucket, or tunnel of repeated textured foreground pieces.\n- Make the hero subject, product, face, hand, tool, or package press close to the lens with cropped edges, glossy highlights, realistic occlusion, and exaggerated scale.\n- Surround the frame with warm toasted brown, caramel, golden, cream, or black foreground pieces that form a cave-like border.\n- Set {MAIN_TEXT} as huge angled white Chinese display type with heavy black drop shadow or 3D extrusion.\n- Add small generic top category labels, a bottom product-pack or prop strip, a blue callout tab, and white speed lines or radial perspective streaks.\n- Keep the finish photorealistic, high-contrast, sharpened, warm, humorous, appetizing, and retail-advertising focused.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new products, new package details, and new text while avoiding the original pet-food source premise.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "new main subject, product presenter, tiny robot, athlete, maker, hand model, tool, device, or object hero that is not the source subject",
         "`SUBJECT_ACTION`": "leaning into the lens, reaching through foreground pieces, bursting from a product pile, presenting the prop, grabbing the hero product, or reacting with exaggerated ad energy",
         "`PRODUCT_OR_PROP`": "new package, beverage, snack, tool, device, camera, accessory, or product pack that is not the original source product",
@@ -816,7 +820,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in urban-transit-doodle-diary-style featuring {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, set in {LOCATION}. Include {BACKGROUND_ELEMENTS}, main text \"{MAIN_TEXT}\", secondary text \"{SECONDARY_TEXT}\", {ACCENT_SYMBOL}, and {WARDROBE_STYLE}.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main person, group, object, or scene focus",
         "`SUBJECT_ACTION`": "what the subject is doing",
         "`PRODUCT_OR_PROP`": "object, product, ticket, bag, food, device, or symbolic hand prop",
@@ -878,7 +881,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Turquoise Red Techno Manga Poster Style\".\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: cream off-white poster background, huge red-orange block headline, turquoise main mass, large manga-style subject, flat cel shading, dense mechanical linework, annotation boxes, limited retro print palette, faded screenprint grain.\nSource content to avoid: motorcycle rider, motorbike wheel or engine, source character, source pose, copied Japanese headline, signature, watermark, app UI, platform icon, QR code, or direct source-image variant.\n\nApply these style rules:\n- Use a cream off-white printed poster background with slightly aged paper grain and a few sparse negative-space fields.\n- Place a huge saturated red-orange custom display headline across the upper third or upper half, behind and around the subject. The headline may use kana-inspired geometric rhythm or condensed block lettering, but it must use new text only.\n- Make one large manga-style subject the anchor, occupying roughly 50 to 75 percent of the frame, with flat cel shading, heavy dark outer contours, and fine interior detail.\n- Make turquoise or teal the dominant clothing, casing, or equipment color; balance it with warm gray machinery, black ink, and red-orange accent parts.\n- Add dense technical detail clusters: cables, straps, bolts, vents, panels, gauges, small labels, diagram boxes, and serial tags.\n- Add thin tan or brown-gray annotation boxes, tiny fictional micro text, capsule labels, small seals, arrows, and simple accent symbols in the cream space.\n- Keep the perspective mostly flat and poster-like, with compact technical drawing depth only inside the prop or apparatus.\n- Finish as a slightly faded printed manga poster with grain, subtle",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main illustrated subject, such as a technician, courier, repair worker, field researcher, designer, or compact service robot",
         "`SUBJECT_ACTION`": "clear action or pose that is not riding a motorcycle, such as calibrating, carrying, repairing, waiting, documenting, or balancing a device",
         "`PRODUCT_OR_PROP`": "new technical prop, device, kit, machine, container, tool, module, backpack, drone, instrument, or field apparatus",
@@ -934,7 +936,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Tri Color Hardcut Portrait Poster\" style.\n\nScene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} against {LOCATION}. Use {WARDROBE_STYLE}. Build the image from only three flat colors: teal background #0E819E, coral red #FF5447, and near black #000805.\n\nComposition: one oversized cropped portrait or upper-body subject, heavy black hair, hood, helmet, clothing, or shadow mass, coral face and body planes, hard teal negative-space slashes, {BACKGROUND_ELEMENTS}, and {ACCENT_SYMBOL}. Keep the subject close to the frame and let some silhouette edges crop off the canvas.\n\nTypography: no visible text by default. If text is explicitly required, use \"{MAIN_TEXT}\" as a very short block headline outside the face area and \"{SECONDARY_TEXT}\" as a tiny supporting mark. Do not add text otherwise.\n\nFinish: clean flat vector-like poster, stencil portrait, screen-print simplicity without grain, blunt cutout shapes, high contrast, no gradients, no outlines, no photorealistic rendering.\n\nAvoid watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference identity, exact copied face, photorealism, painterly blending, airbrush, soft shading, extra colors, thin line art, detailed background, paper texture, halftone, noisy distress, glossy 3D, anime style, comic paneling, long text, and brand logo.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main person, character, performer, athlete, worker, object-as-portrait, or stylized figure",
         "`SUBJECT_ACTION`": "staring forward, leaning on one hand, turning sideways, holding a prop, pausing mid-action, or facing the viewer",
         "`PRODUCT_OR_PROP`": "headphones, camera, drink cup, helmet, microphone, book, bag, tool, or no prop",
@@ -996,7 +997,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} poster in the \"Tokyo Kawaii Travel Collage Poster\" style.\n\nMain subject: {SUBJECT}.\nAction or pose: {SUBJECT_ACTION}.\nFeatured prop, food, or sticker object: {PRODUCT_OR_PROP}.\nDestination or location: {LOCATION}.\nCity background and botanical elements: {BACKGROUND_ELEMENTS}.\nMain headline text: \"{MAIN_TEXT}\".\nSecondary or speech-bubble text: \"{SECONDARY_TEXT}\".\nTravel stickers and accent symbols: {ACCENT_SYMBOL}.\nWardrobe and cutout styling: {WARDROBE_STYLE}.\n\nUse a maximalist Japanese travel scrapbook collage layout. Place the cutout subject large in the center with a sticker-like white edge. Put huge playful rounded block letters across the top, each letter on a separate bright paper tile, slightly rotated and overlapping. Use yellow letter fill, green tile blocks, red accents, cream paper textures, and black ink details.\n\nLayer the background with black-and-white or sepia city photography, crowd scenes, buildings, street signs, and halftone print texture. Add manga speech bubbles, handwritten notes, tiny captions, food icons, ticket stubs, barcode graphics, mini photo panels, sticker stars, arrows, and travel labels.\n\nAdd a dense yellow bottom information bar with small photos, captions, travel snippets, barcode, and bold label typography. Mix in watercolor or pressed-flower botanical elements near the lower area. The finish should feel like scanned paper, teen magazine collage, souvenir zine, sticker album, and cute travel advertisement.\n\nAvoid minimalism, clean corporate design, luxury travel style, plain backgrounds, low density, and overly polished digital graphics.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main cutout person, character, model, traveler, idol, or fashion figure",
         "`SUBJECT_ACTION`": "gesture or pose toward the viewer",
         "`PRODUCT_OR_PROP`": "object, product, prop, or visual anchor",
@@ -1037,7 +1037,6 @@
       ],
       "prompt": "Create an {ASPECT_RATIO} high-energy social campaign poster in Sunny 3D Avatar Campaign Style. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Scene content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Wardrobe and character styling: {WARDROBE_STYLE}. Composition: bright saturated sky-blue upper field reserved for huge angled bold white headline typography; wide-angle low camera perspective; oversized foreground subject or prop cropped close to camera; supporting details recede into the midground; lower campaign callout label. Typography: set the main replacement headline as \"{MAIN_TEXT}\" in large bold white slanted geometric display letters, with smaller supporting text \"{SECONDARY_TEXT}\" in rounded sans-serif. Graphic accents: add neon lime and cyan hand-drawn loops, swoops, underlines, and the accent symbol \"{ACCENT_SYMBOL}\" around the headline without using any real platform logo. Rendering: glossy stylized 3D avatars, smooth toy-like faces and rounded hands, tactile fabric and prop textures, crisp sunny outdoor lighting, vivid blue-green commercial palette, polished high-resolution raster finish.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject or avatar group",
         "`SUBJECT_ACTION`": "main action or pose",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -1101,7 +1100,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Subway Doodle Photo Hybrid\" style.\n\nMain photo subject: {SUBJECT}.\nAction or transit moment: {SUBJECT_ACTION}.\nForeground doodle or prop: {PRODUCT_OR_PROP}.\nTransit location, city, or line: {LOCATION}.\nCrowd, signage, and documentary background: {BACKGROUND_ELEMENTS}.\nHandwritten text: \"{MAIN_TEXT}\".\nSignage or supporting text: \"{SECONDARY_TEXT}\".\nColor accents and doodle marks: {ACCENT_SYMBOL}.\nIllustrated face and photo-tone treatment: {WARDROBE_STYLE}.\n\nUse a realistic phone-shot public transportation photograph as the base layer. Frame the scene through train doors, bus doors, a station platform, or a transit window. Keep the environment documentary: gray metal, fluorescent lighting, route signs, safety strips, platform edge, crowded people, reflections, phone-camera grain, and slight social-media compression.\n\nPaint expressive cartoon doodles directly over the photo. Replace some real faces with loose hand-drawn cartoon heads, exaggerated noses, red cheeks, messy hair, crooked smiles, and thick sketchy outlines. Add a large foreground cartoon gesture entering from the lower edge or side, such as a hot-pink thumbs-up, pointing finger, peace sign, phone, or ticket. Add casual white handwritten notes near the upper-left.\n\nThe final image should feel like a real transit snapshot that someone humorously drew over, mixing documentary urban realism with playful comic chaos.\n\nAvoid clean vector illustration, fully illustrated backgrounds, luxury editorial polish, empty trains, perfect symmetry, branded mascots, overly clean typography, watermarks, usernames, QR codes, platform logos, creator IDs, and app marks.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action or pose",
         "`PRODUCT_OR_PROP`": "object, product, prop, or visual anchor",
@@ -1142,7 +1140,6 @@
       ],
       "prompt": "Create an original {ASPECT_RATIO} poster illustration in the Sky Blue Home Life Doodle Poster style. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a full pastel sky-blue outer field and a large rough off-white house-shaped inset with thick wobbly black marker outlines. Put a huge uneven black hand-lettered headline reading {MAIN_TEXT} across the top, plus {SECONDARY_TEXT} as a small slanted support label and {ACCENT_SYMBOL} as a small graphic accent. Inside the house inset, show {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Add {BACKGROUND_ELEMENTS} as simple flat home icons. Dress or style the subject with {WARDROBE_STYLE}. Use chunky rounded cartoon anatomy, oversized hands or props when useful, flat poster colors, no gradients, naive flattened perspective, casual marker wobble, and a youthful handmade home-event mood. All text, characters, props, and scene details must be original and must not copy the reference.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main original cartoon subject or small group",
         "`SUBJECT_ACTION`": "simple domestic action, pause, ritual, workshop, exchange, game, or frozen gesture",
         "`PRODUCT_OR_PROP`": "large household prop, craft object, food item, plant, lamp, book, laundry basket, tool, speaker, cushion, or table object",
@@ -1183,7 +1180,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"school-grid-paper-cutout-poster\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Composition: warm cream classroom grid paper background, straight-on copy-stand view, one oversized torn-paper collage object centered slightly right of the hand-written text block, generous empty grid space, and a narrow pale bottom margin.\n- Typography: one compact vertical column or two slim vertical columns of loose hand-drawn notebook characters on the upper-left side, dark graphite or faded ink, uneven and human, never clean digital type.\n- Color: mostly yellowed beige paper with muted blue-green grid lines, cream torn-paper layers, one saturated cut-paper accent color, and tiny dark handwritten marks.\n- Texture and lighting: real paper grain, deckled torn fibers, slight scan softness, low contrast vintage print finish, soft diffuse overhead light, and shallow physical shadows under lifted paper edges.\n- Graphic elements: ruled grid structure, torn paper silhouette, optional tiny generic seal-like mark, and a small bottom caption strip; keep all marks generic.\n\nAvoid: no ice cream, no soft-serve shape, no cone silhouette, no fast-food branding, no recognizable logo, no original Chinese headline, no source watermark or signature, no dense scene, no glossy product render, no 3D object, no vector poster, no QR code.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while preserving the style fidelity anchors.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject or object silhouette",
         "`SUBJECT_ACTION`": "simple visual action or implied purpose",
         "`PRODUCT_OR_PROP`": "paper-built object, product, or prop",
@@ -1224,7 +1220,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} raster poster in the Rough Marker Monster Poster Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or object styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: warm cream paper background with subtle speckle; one huge flat childlike creature or object-character dominating the poster; thick scratchy black marker outlines; rough saturated marker fills with visible grain and small white paper gaps; chunky irregular black hand-lettered text integrated into empty corners; tiny dots, hatch marks, cheek spots, rectangles, and scribble accents; limited palette with one dominant bright body color, warm yellow-orange accents, white eye or mouth shapes, and black text; flat handmade construction with no realistic perspective, no 3D, no clean vector polish, no photographic environment. Important content rule: preserve the visual style first, then change the content with a new subject, new action, new prop, new fictional text, and new story premise.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main oversized creature or object-character",
         "`SUBJECT_ACTION`": "simple goofy action or expression",
         "`PRODUCT_OR_PROP`": "secondary object, prop, snack, tool, or small visual anchor",
@@ -1265,7 +1260,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} finished raster poster image in the Rough Ink Music Doodle Poster Style. Preserve these style fidelity anchors first: {STYLE_FIDELITY_ANCHORS}. Avoid these source-specific elements completely: {SOURCE_CONTENT_TO_AVOID}. The poster should show {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} as an oversized graphic prop, set in {LOCATION}. Add {BACKGROUND_ELEMENTS} as floating doodle clusters. Use the main headline text \"{MAIN_TEXT}\" as huge rough deep green-black brush lettering, plus \"{SECONDARY_TEXT}\" as small hot pink stacked or bracketed supporting text. Include {ACCENT_SYMBOL} as a sharp graphic accent. Style the subject with {WARDROBE_STYLE}. Use pale blush paper, deep green-black scratchy outlines, hot pink and teal flat fills, one acidic yellow burst, scattered music-note marks, loose scribbles, dry marker texture, scuffed risograph grain, imperfect registration, flat poster perspective, airy asymmetric composition, and handmade zine-event energy. Do not use polished digital typography, realistic lighting, 3D depth, brand marks, watermarks, QR codes, copied source text, or copied source characters.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main simplified mascot, person, or object group",
         "`SUBJECT_ACTION`": "main action, gesture, or frozen performance moment",
         "`PRODUCT_OR_PROP`": "oversized instrument, wellness object, snack, tool, product, or ritual prop",
@@ -1327,7 +1321,6 @@
       ],
       "prompt": "Create an image in pop-bubble-letter-photo-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, interacting with or carrying {PRODUCT_OR_PROP}, in {LOCATION}. Style the subject with {WARDROBE_STYLE}. Use real photographic portrait detail for the subject: low-angle editorial framing, bright direct sunlight or clean studio light, crisp skin and fabric texture, saturated wardrobe, calm confident expression.\n\nLayout: center the subject on the vertical axis and surround them with {BACKGROUND_ELEMENTS}. Build the poster from oversized flat bubble-letter forms spelling or suggesting \"{MAIN_TEXT}\". Crop the letters hard against the frame edges. Layer some letter shapes behind the subject and some in the foreground over the lower frame while keeping the face and main gesture unobstructed.\n\nGraphic language: thick black outlines, smooth flat fills, hot pink, candy yellow, leaf green, tangerine orange, tomato red, powder blue, deep evergreen negative space, cream-white oval shine highlights, and {ACCENT_SYMBOL}. Keep the bubbles bold, rounded, inflated, vector-like, and pop-art.\n\nText: use \"{MAIN_TEXT}\" as the large bubble-letter graphic word. Add \"{SECONDARY_TEXT}\" only as tiny editorial caption text if needed. Do not include watermarks, usernames, creator IDs, QR codes, platform logos, or app marks.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main person, model, performer, maker, athlete, student, traveler, or product ambassador",
         "`SUBJECT_ACTION`": "standing still, leaning back, looking upward, closing eyes in sunlight, holding a prop, stepping forward, or posing calmly",
         "`PRODUCT_OR_PROP`": "camera, headphones, drink bottle, book, bouquet, transit card, compact mirror, sunglasses, or featured product",
@@ -1395,7 +1388,6 @@
       ],
       "prompt": "Create an image in the \"Plush Comic Toy Product Poster\" style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, presented as {PRODUCT_OR_PROP}, placed in {LOCATION}. Use {PRODUCT_TEXTURE}. Style the object with {WARDROBE_STYLE}.\n\nLayout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow. Place {BACKGROUND_ELEMENTS} around it. Add a large cyan circle or oval behind the product. Build the biggest graphic area from oversized tilted block typography using \"{MAIN_TEXT}\" as the campaign headline.\n\nTypography: use {TYPOGRAPHY_LANGUAGE}. Make the headline huge, angular, stacked, and slanted, with thick black outline and offset shadow. Add \"{SECONDARY_TEXT}\" only as tiny campaign metadata or small label copy. Keep microcopy compact and decorative, not dominant.\n\nGraphic language: retro cream poster background, turquoise and cyan anchor color, lemon yellow headline block, signal red headline block, heavy black shadows, sticker-like labels, doodle icons, arrows, lightning-bolt patches, warning-card shapes, and {ACCENT_SYMBOL}. Combine soft plush 3D texture with flat printed poster graphics.\n\nDo not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference text, copied brand names, or copied license-plate details.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main plush product, toy vehicle, mascot object, gadget, food mascot, or collectible prop",
         "`SUBJECT_ACTION`": "parked, bouncing, leaning forward, racing, floating, charging, wobbling, or posing like a hero product",
         "`PRODUCT_OR_PROP`": "plush car, scooter, radio, vending machine, snack pack, mini bus, camera, delivery pod, noodle cart, or featured toy object",
@@ -1455,7 +1447,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Plush City Festival Mobile Poster\" style.\n\nEvent/headline: {MAIN_TEXT}.\nPrimary mascot or subject: {SUBJECT}.\nMascot action: {SUBJECT_ACTION}.\nSecondary mascot, prop, or festival object: {PRODUCT_OR_PROP}.\nCity or district: {LOCATION}.\nLandmarks, sky, weather, and ground plane: {BACKGROUND_ELEMENTS}.\nDate, location, and top micro text: {SECONDARY_TEXT}.\nCTA or accent mark: {ACCENT_SYMBOL}.\nMascot styling: {WARDROBE_STYLE}.\n\nUse a bright mobile-first festival poster layout with a large rounded top visual card, clean blue sky, soft clouds, realistic city landmarks, and fuzzy plush 3D mascot characters in the foreground. Put the event name in large bold white rounded sans-serif typography across the top sky area. Place clear date and location information near the bottom of the visual card.\n\nFor vertical layouts, include a white rounded mobile bottom sheet with a small handle icon and the CTA text. Add subtle mobile UI elements such as a back arrow and three-dot menu at the top. Keep everything cheerful, readable, family-friendly, sunny, civic, and polished.\n\nAvoid dark mood, gritty realism, hard-edged sci-fi, luxury travel styling, unreadable text, scary mascots, and abstract backgrounds.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action or pose",
         "`PRODUCT_OR_PROP`": "object, product, prop, or visual anchor",
@@ -1515,7 +1506,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Playful Mascot Doodle Snapshot\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: \"{MAIN_TEXT}\".\nSecondary text: \"{SECONDARY_TEXT}\".\nAccent symbols: {ACCENT_SYMBOL}.\nWardrobe or styling: {WARDROBE_STYLE}.\n\nUse a realistic casual phone-photo scene as the base layer. Keep the environment photographic, naturally lit, and location-specific. Add original flat cartoon mascot stickers on top of the photo: fruit, cloud, star, cup, wave, and jelly-shaped characters with simple eyes, thick dark outlines, glossy color blocks, sunny yellow, teal, coral, sky blue, lavender, cream, and soft pink accents. Add a loose warm outline around the main subject, plus hand-drawn sparkles, spirals, web lines, stars, arrows, and marker doodles floating over the scene.\n\nPlace the main headline inside a cream or pale-yellow wavy ribbon sticker in the upper third. Use imperfect uppercase hand-lettered marker typography in dark burgundy ink. Keep the main subject's face, product, or focal object unobstructed. The result should feel like a cheerful social-media photo booth collage, not a polished corporate ad.\n\nAvoid watermark, username, platform logo, QR code, creator signature, licensed character, recognizable franchise costume, superhero emblem, brand logo, exact reference character, copied IP, goggle-eyed capsule character, denim overalls, red-blue web-pattern suit, mask, shield, helmet emblem, tiny unreadable text, dense paragraph text, corporate layout, sterile studio render, fully vector background, 3D plush mascot, photoreal CGI mascot, dark horror mood, gritty dystopian tone, cyberpunk neon scene, face obstruction, distorted hands, and over-sharpened artificial texture.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main person, group, product, pet, or focal object",
         "`SUBJECT_ACTION`": "main pose or action, such as leaning, posing, holding a prop, waving, sitting, listening, or celebrating",
         "`PRODUCT_OR_PROP`": "object, product, food, drink, book, toy, travel item, or hero prop placed in the scene",
@@ -1562,7 +1552,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the Playful Marker Grounding Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: cream poster-paper border around an inset artwork field; loose sky-cyan and sour-lime marker-scribble background blocks with uneven white gaps; one oversized flat simple subject dominating the center-lower area; one tiny supporting prop or character for scale; thick imperfect black or dark-brown hand-drawn outlines with rounded wobbly ends; oversized hand-lettered dark-brown headline in the top zone; small lower-corner supporting text over or near a rough marker swash; tiny doodle accents such as flowers, dots, stars, motion ticks, and grass marks; flat even color with no shadows, no gradients, no realistic depth, no polished vector smoothing. Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props, and new text while preserving the style fidelity anchors. Avoid photorealism, 3D render, airbrush, glossy finish, dense scene clutter, exact source text, exact source pose, dog, butterfly, ground-touching premise, watermarks, signatures, platform marks, QR codes, and brand logos.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -1617,7 +1606,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Photo Illustration Overlay Poster\" style.\n\nSubject: {SUBJECT}.\nAction: {SUBJECT_ACTION}.\nProp/Product or interaction object: {PRODUCT_OR_PROP}.\nLocation/photo background: {LOCATION}.\nBackground details: {BACKGROUND_ELEMENTS}.\nMain text: \"{MAIN_TEXT}\".\nSecondary text/category: \"{SECONDARY_TEXT}\".\nAccent doodles and graphic effects: {ACCENT_SYMBOL}.\nCharacter treatment: {WARDROBE_STYLE}.\n\nUse a realistic city street photo as the base layer, then composite one oversized flat 2D cartoon character on top. The character should use high-saturation color blocking, rough hand-drawn linework, exaggerated scale, simple expressive eyes, playful body proportions, and graphic edges. Add small hand-drawn stars, sparks, arrows, motion lines, comic bursts, and doodle marks around the interaction point.\n\nKeep the background photographic and recognizable. Keep the illustrated character deliberately flat, graphic, and poster-like. Avoid copying any watermark, logo, or exact character from the reference image. Avoid plush 3D mascots, full-vector backgrounds, dark gritty mood, cyberpunk, and cluttered small text.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action or pose",
         "`PRODUCT_OR_PROP`": "object, product, prop, or visual anchor",
@@ -1658,7 +1646,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Olive Scribble Sports Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Build the poster from one dominant diagonal action subject, one prop, and one abstract olive or yellow-green block.\n- Use off-white paper ground, flat screenprint color slabs, heavy black ink silhouettes, chaotic scratch contours, red marker motion arcs, yellow-green dry-brush loops, and sparse diamonds or clipped debris.\n- Keep the setting shallow, abstract, and editorial rather than realistic or scene-heavy.\n- Use small rough hand-cut text only as a secondary poster accent, never as polished brand typography.\n- Preserve imperfect elongated anatomy, cropped limbs, raw brush texture, and handmade print misregistration.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text, while avoiding the original soccer/overhead-kick source content.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main action subject",
         "`SUBJECT_ACTION`": "dynamic action performed by the subject",
         "`PRODUCT_OR_PROP`": "simplified object, tool, sport prop, or product carried by the subject",
@@ -1699,7 +1686,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} finished raster image in the \"Neon Plush Gadget Pop 3D Style\". Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: acid lime or neon yellow-green studio background, oversized fuzzy plush main subject, rounded inflated toy shapes, visible knit or fleece texture, chunky gadget or product prop, glossy molded plastic, translucent jelly details, chrome highlights, hot-pink burst graphics, checkerboard cards, sticker labels, tiny tags, playful Y2K icon grammar, foreground shelf edge when useful, high-key commercial studio lighting, soft bloom, polished 3D product-render finish, close front three-quarter product perspective, tactile collectible mood. Important content rule: preserve the style anchors first, then change the original content completely with new subject, prop, display text, colors within the palette, and story premise. Avoid: watermark, username, creator ID, platform logo, QR code, signature, brand mark, app mark, copied source text, VIP, membership card, camera-on-head, green dragon, dinosaur, monster head, blue snout, FILLTER tag, barcode spray can, copied flower button, copied pink basketball, exact checkerboard card, flat vector art, dark cinematic realism, natural landscape, detailed real room, long readable paragraphs, corporate interface.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main plush mascot, fuzzy object, or toy-like character",
         "`SUBJECT_ACTION`": "simple staged action or pose",
         "`PRODUCT_OR_PROP`": "chunky gadget, toy product, accessory, snack object, or display prop",
@@ -1756,7 +1742,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} poster in the \"Neon Kinetic Typographic Poster\" style.\n\nMain subject: {SUBJECT}.\nAction: {SUBJECT_ACTION}.\nProp or product: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nWardrobe or styling: {WARDROBE_STYLE}.\n\nUse an extreme low-angle wide-angle camera perspective, as if the camera is near the ground looking upward. The subject should feel large, energetic, and close to the viewer.\n\nAdd oversized warped neon yellow typography using the main text \"{MAIN_TEXT}\". The letters should be ultra-bold, condensed, stretched, slanted, and partially cropped by the canvas edges. The typography should wrap around the composition and sit behind or partially around the subject.\n\nAdd a thin repeated uppercase text band reading \"{SECONDARY_TEXT}\", separated by \"{ACCENT_SYMBOL}\" symbols. The secondary text should run horizontally across the image like a campaign graphic stripe.\n\nUse electric neon yellow graphics, warm sunlit photographic tones, blue sky contrast, visible film grain, analog print texture, hard shadows, and an energetic youth-culture campaign poster mood.\n\nAvoid clean corporate design, small typography, flat illustration, pastel colors, luxury minimalism, and symmetrical static layout.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main human figure or object",
         "`SUBJECT_ACTION`": "dynamic action performed by the subject",
         "`PRODUCT_OR_PROP`": "object held, worn, used, or displayed by the subject",
@@ -1822,7 +1807,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Neon Doodle Gallery Snapshot\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProp or product: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain handwritten text: \"{MAIN_TEXT}\".\nSecondary handwritten text: \"{SECONDARY_TEXT}\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe style: {WARDROBE_STYLE}.\n\nUse a realistic candid phone-photo as the base layer. The setting should feel specific and ordinary: visible walls, art, shelves, labels, tables, lamps, posters, people, bags, shadows, grain, and imperfect handheld framing.\n\nDraw a loud digital marker layer directly on top of the photo. Wrap the main subject with a thick hot-pink contour and a cyan offset glow. Add yellow-orange monster spikes, horns, rays, fins, or sunburst shapes around the silhouette. Scatter rough hand-drawn symbols around the frame: stars, paw prints, spiderweb corners, halos, abstract eyes, plants, flowers, scribble underlines, tally marks, arrows, hearts, and sticker-like blobs.\n\nPlace rough uppercase handwritten marker text in open areas, using white, yellow, or lime green. The text should feel funny, personal, distracted, and student-made. Preserve the contrast between a real candid photo and chaotic handmade doodles.\n\nAvoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, luxury editorial styling, perfect typography, empty sterile locations, identifiable celebrities, and tiny unreadable text.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main person, group, student, artist, friend, commuter, shopper, or quiet candid figure",
         "`SUBJECT_ACTION`": "looking at art, studying, walking, waiting, browsing, reacting, hiding, laughing, or holding a prop",
         "`PRODUCT_OR_PROP`": "notebook, tote bag, coffee, phone, headphones, sketchbook, jacket, snack, poster, camera, book, or exhibition card",
@@ -1863,7 +1847,6 @@
       ],
       "prompt": "Create an {ASPECT_RATIO} raster poster in the Neon Outdoor Diary Longform Collage Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Wardrobe or styling: {WARDROBE_STYLE}. Main graphic text: {MAIN_TEXT}. Secondary microcopy texture: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a charcoal black mobile poster canvas, acid green and white slanted headline strips, orange hand-drawn arrows and route-line doodles, rough white cutout borders, torn notebook-paper panels, numbered diary sections, dense social-note annotations, sticker-like labels, gritty outdoor documentary photo collage, paper grain, scuffed texture, and energetic irregular alignment. If vertical, make it feel like an extra-tall continuous scrolling long poster close to the reference image length, with five or more stacked information chapters. If horizontal, compress the same layered diary system into a wide editorial collage without losing density.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -1908,7 +1891,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Naive Marker Quote Card Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules: draw a rough skinny poster card with a pale pastel interior panel, uneven black marker border, a small crooked top tab, a small bottom nameplate, one central absurd object-character, and sparse quiet negative space. Render everything as flat naive hand-marker illustration on scanned paper, with wobbly black outlines, imperfect shape closure, small dot textures, simple frontal forms, and no realistic depth. Use bright blue uppercase hand lettering in compact broken lines, irregular spacing, and awkward baselines; the text must look manually drawn, not typeset. Use a limited pastel palette with pale pink or cream ground, tan and muted object fills, tiny green or yellow accents, and no gradients. The central subject should be large, deadpan, and simple, with any face or limbs drawn crudely. Preserve the quote-card hierarchy first, then change all source content.\n\nAvoid: photorealism, 3D render, polished vector art, clean comic-book inking, perfect typography, dense scenery, gradients, dramatic shadows, brand logos, usernames, QR codes, watermarks, copied source text, copied celebrity or author names, copied cow, copied burger, copied food-animal transformation premise.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -1949,7 +1931,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} monochrome editorial poster in the Mono Noir Type Portrait Poster Style. Style fidelity lock: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Composition: one large high-contrast black-and-white photographic subject, close crop, deep charcoal background, sparse negative space, shallow depth of field, serious noir editorial mood. If the aspect ratio is 16:9, make a landscape poster with the subject weighted to the right side and the headline block on the left. If the aspect ratio is 9:16, make a vertical poster with the headline stacked in the upper-left or middle-left field and the subject cropped large on the right or lower-right. Typography: render the exact readable lowercase headline text \"{MAIN_TEXT}\" as three short left-aligned lines with tight leading; put the first headline word as black type inside a crisp white rectangular label, then set the remaining lines in heavy white type directly on the dark background. Add \"{SECONDARY_TEXT}\" only as tiny unobtrusive white microcopy if it fits. Use {ACCENT_SYMBOL} only as a minimal typographic mark. Keep type sharp, flat, square-cornered, and massive. Photo treatment: realistic black-and-white studio photography, strong shadow falloff, visible facial or fabric texture, subtle grain, no color, no illustration, no collage, no extra panels, no logos, no watermark.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main person, performer, worker, athlete, maker, or character who anchors the poster",
         "`SUBJECT_ACTION`": "quiet pose, intense gaze, paused task, reflective moment, or restrained movement",
         "`PRODUCT_OR_PROP`": "object, tool, instrument, notebook, glove, cup, helmet, camera, or no prop",
@@ -2000,7 +1981,6 @@
       ],
       "prompt": "Create a poster in 蒙德里安秩序风 (Mondrian De Stijl) style.\n\nSummary: 把任何主题重新放进红黄蓝白黑的网格系统：让色块建立节奏，让黑线组织结构，让标题本身变成图形和隐喻。\n\nPreserve these style anchors:\n- 几何网格构图：粗黑线条分割画面，形成严格的网格系统\n- 红黄蓝白黑五色：经典 De Stijl 配色，极简高对比\n- 标题即图形：文字不仅是信息，更是视觉元素\n- 克制发力：看似极简，每一条线、每一个色块都精心设计\n- 中英双语：中文主标题 + 英文副标题/理念标语\n\nVariables:\n- {brand_name}: 品牌/项目名称\n- {brand_tagline}: 品牌描述\n- {main_title}: 中文大标题\n- {subtitle}: 英文副标题\n- {graphic_element}: 融入图形的字母/符号\n- {side_text}: 竖排/侧边文字\n- {center_visual}: 画面中央的视觉元素\n- {bg_color}: 背景颜色\n\nRendering: strict Mondrian grid with thick black lines, primary color blocks (red, yellow, blue), white and black areas, clean geometric composition, bold typography as graphic element.\nNo gradients, no shadows, no rounded corners, no photorealistic elements.\n",
       "variables": {
-        "变量": "说明",
         "`品牌名`": "品牌/项目名称",
         "`品牌定位`": "品牌描述",
         "`主标题`": "中文大标题",
@@ -2069,7 +2049,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Metro Doodle Snapshot Diary\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nForeground prop or product: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain handwritten text: \"{MAIN_TEXT}\".\nSecondary handwritten text: \"{SECONDARY_TEXT}\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe style: {WARDROBE_STYLE}.\n\nUse a realistic candid phone-photo as the base layer. The scene should feel like a real public transit or dense city moment: visible doors, rails, signs, floor markings, lights, scuffed surfaces, reflections, crowd density, practical clothing, and imperfect handheld framing.\n\nDraw playful comic-marker doodles directly on top of the photo. Add saturated cartoon face overlays to selected people, thick black sketch outlines, red cheeks, exaggerated noses, messy hair, small sparks, arrows, underlines, and rough marker fill. Add one oversized illustrated foreground hand, ticket, transit card, phone, bag, food item, or gesture that overlaps the lower frame.\n\nPlace loose white handwritten diary text in natural negative space, usually near the upper-left. Keep the text personal, uneven, and marker-like. The final image should feel like a real city snapshot that someone humorously annotated afterward.\n\nAvoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, empty transit scenes, luxury lighting, perfect symmetry, branded mascots, identifiable celebrities, and tiny unreadable text.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main person, group, object, or scene focus",
         "`SUBJECT_ACTION`": "what the subject is doing",
         "`PRODUCT_OR_PROP`": "object, ticket, transit card, phone, bag, food, or symbolic foreground doodle prop",
@@ -2110,7 +2089,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the Market Brush Produce Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: warm ivory uncoated paper background with large clean negative space; one oversized glossy photoreal fruit or vegetable hero cropped near the edge; one smaller echo produce item or small market prop; large rough black torn-brush CJK-inspired headline blocks with dry ink texture; tiny top editorial header line; bottom row of small serif captions, stamps, stars, numbers, and parenthesis marks; palette limited to ivory, black, one saturated produce color, and small natural green accents; shallow product-still-life depth with minimal shadow; slight paper grain, ink breakup, soft highlight bloom, and analog poster softness. Important content rule: match the visual style first, then change the source content with new produce, new text, new props, and a new story premise.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main fruit or vegetable hero",
         "`SUBJECT_ACTION`": "still-life gesture or market-poster action",
         "`PRODUCT_OR_PROP`": "secondary produce item, crate, leaf, basket, or utensil",
@@ -2151,7 +2129,6 @@
       ],
       "prompt": "Create a realistic high-fashion street editorial magazine cover image in the Kinetic Luxury Street Fashion Cover Style. Subject: {SUBJECT}. Movement: {SUBJECT_ACTION}. Accessory or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe: {WARDROBE_STYLE}. Visible editorial cover headline: {MAIN_TEXT}. Tiny supporting cover line: {SECONDARY_TEXT}. Accent detail: {ACCENT_SYMBOL}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. The image must have one dominant model cropped large, side-profile or three-quarter walking energy, subject sharp against strong horizontal motion-blurred architecture, muted stone and asphalt city palette, one crisp statement garment as the main color event, wind-shaped hair or moving fabric, sparse luxury accessory with no logo, premium magazine color grade, natural skin, tactile textile detail, and large centered all-caps high-contrast serif headline with very wide letter spacing in white or warm ivory. Do not use the word VOLUME, real brand names, watermarks, creator text, QR codes, social media UI, price tags, catalog lighting, runway crowds, cartoon style, collage, vector graphics, 3D render, or studio poster design. Aspect ratio: {ASPECT_RATIO}.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main fashion subject",
         "`SUBJECT_ACTION`": "main action, stride, or movement",
         "`PRODUCT_OR_PROP`": "accessory, bag, eyewear, or restrained prop",
@@ -2192,7 +2169,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} illustration in the Kinetic Geometric Doodle Cutouts style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or object: {PRODUCT_OR_PROP}. Setting: {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Wardrobe or styling: {WARDROBE_STYLE}. Optional text treatment: {MAIN_TEXT}; secondary micro marks: {SECONDARY_TEXT}; accent symbol: {ACCENT_SYMBOL}. Style fidelity lock: {STYLE_FIDELITY_ANCHORS}. Content to avoid: {SOURCE_CONTENT_TO_AVOID}. Use a warm cream paper background with generous negative space. Construct the subject from five to nine oversized flat geometric color blocks: tomato orange, cobalt blue, magenta pink, lilac violet, mint green, golden yellow, black, and small white accents. Include subtle risograph grain, dry-brush speckle, and one or two soft sprayed gradients inside selected shapes. Add sparse loose black hand-drawn contour lines only for small expressive details and motion marks. Keep the image flat, airy, asymmetrical, buoyant, handmade, and print-like. Do not use realistic anatomy, 3D rendering, dense scenery, logos, signatures, watermarks, QR codes, or polished fonts.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -2256,7 +2232,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} K-pop apocalypse ransom zine poster featuring {SUBJECT} {SUBJECT_ACTION}, styled in {WARDROBE_STYLE}, with {PRODUCT_OR_PROP}. Use a dark crumpled black paper background with {BACKGROUND_ELEMENTS}. Place the subject as a large central portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading \"{MAIN_TEXT}\" as a tilted collage layer, plus smaller sticker blocks and side editorial captions reading \"{SECONDARY_TEXT}\". Use acid lime, electric blue, alert red, paper white, and ink black. Add {ACCENT_SYMBOL} near the portrait. Finish with a saturated bottom masthead strip, rough photocopy grain, halftone speckles, scan noise, uneven paper shadows, and DIY magazine collage energy. Do not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied publication logos, or exact source text.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject, performer, model, musician, dancer, stylist, or youth-culture character",
         "`SUBJECT_ACTION`": "looking off-frame, posing with attitude, holding a prop, leaning into the camera, or standing in a cutout portrait pose",
         "`PRODUCT_OR_PROP`": "compact camera, wired earbuds, lip gloss, denim jacket, cassette, charm bag, safety pin accessory, or styling prop",
@@ -2318,7 +2293,6 @@
       ],
       "prompt": "Create an image in impact-burst-halftone-comic-poster-style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. Layout: use a bold cropped comic-poster composition. Put a huge condensed cream block-letter headline reading \"{MAIN_TEXT}\" across the upper band, with \"{SECONDARY_TEXT}\" as tiny impact microcopy if it stays clean. Place the main subject large in the lower two-thirds and let the oversized prop cut diagonally across the body or foreground. Add {ACCENT_SYMBOL} as a graphic impact mark. Style: thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent, distressed screen-print texture, halftone dots, paper grain, rough ink edges, and slight print misregistration. Avoid: watermark, username, creator ID, platform logo, QR code, app UI, artist signature, copied reference character, copied exact pose, copied exact text, brand logos, licensed characters, photorealism, 3D, glossy gradients, soft airbrush shading, clean vector polish, crowded paragraphs, and muted corporate design.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main illustrated subject",
         "`SUBJECT_ACTION`": "main chaotic action or reaction",
         "`PRODUCT_OR_PROP`": "oversized object, product, tool, weapon, camera, device, or prop",
@@ -2432,7 +2406,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Gothic Cat Doodle Photo Collage\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProp or small secondary element: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: {MAIN_TEXT}.\nSecondary text: {SECONDARY_TEXT}.\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe or visual styling: {WARDROBE_STYLE}.\n\nUse a realistic low-angle architectural photograph as the base layer. Keep the facade detailed, recognizable, and photographic, with dramatic vertical perspective and a saturated teal sky. Overlay one oversized flat cartoon creature in saturated tomato red or another bold color, with rough black marker contours, simple expressive features, cropped limbs, and small yellow edge highlights. Make the creature interact physically with the building, wrapping around arches, towers, windows, or rooflines.\n\nAdd huge cream-white bubble graffiti lettering across the top of the frame, with thick cobalt blue outline, warm yellow offset shadow, chalky glow, and imperfect hand-drawn spacing. Add small doodle circles, swooshes, sparks, motion curves, and tiny secondary cartoon figures in windows or doorways for scale contrast.\n\nAvoid watermark, username, creator ID, platform logo, QR code, app UI, realistic 3D mascot, plush toy texture, full cartoon background, clean corporate layout, dense text, and low-detail architecture.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "oversized illustrated animal, mascot, creature, or playful character",
         "`SUBJECT_ACTION`": "climbing, wrapping around, peeking over, hugging, guarding, or interacting with the architecture",
         "`PRODUCT_OR_PROP`": "small human figure, tiny mascot, sign, portal, object, or campaign prop placed within the architecture",
@@ -2479,7 +2452,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} raster advertisement in the \"Folded Newspaper Product Ad Style\". Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location or campaign context: {LOCATION}. Background newspaper elements: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text and microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build the image as a wrinkled off-white broadsheet newspaper page with visible folds, dense bilingual body-copy columns, rule lines, boxed captions, distressed black ink, antique-gold display headline blocks, one angled rubber-stamp coupon frame, one narrow red vertical editorial date tab, and one huge photorealistic commercial product hero overlapping the lower or central page. The product should be tactile, glossy or material-rich, partly supported by paper, cloth, foil, tray, wrapper, sleeve, or prop details. Keep the page graphics flat and printed while the product is realistic and foregrounded. The layout should feel crowded, promotional, newspaper-like, nostalgic, and tactile. Change all literal content from the reference while preserving the folded newspaper ad visual system.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main product, food item, wearable, device, or object shown as the oversized sales hero",
         "`SUBJECT_ACTION`": "how the product is presented, opened, poured, lifted, stacked, glowing, or interacting with props",
         "`PRODUCT_OR_PROP`": "supporting wrapper, plate, tool, container, ingredient, packaging, accessory, or foreground prop",
@@ -2542,7 +2514,6 @@
       ],
       "prompt": "Create an image in sunburst-fisheye-bubble-type-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT_IDENTITY}, {SUBJECT} {SUBJECT_ACTION}, using or wearing {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. For a multi-case set, give every case a visibly different face, hair, body language, and styling details.\n\nPhotography: {LENS_STYLE}. Place the camera below the subject looking upward, very close to the body and face. Preserve realistic skin, fabric, hair, accessories, and daylight reflections. Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling.\n\nLayout: make the subject large and cropped, with the face near the upper-middle for vertical layouts or dominant center-left/center-right for horizontal layouts. Build the poster around a huge arched bubble headline reading \"{MAIN_TEXT}\" in lemon yellow across the top and side edges. The letters should feel inflated, hand-painted, warped by perspective, and partly cropped by the frame. Use golden orange edge shading, cream shine slashes, and {ACCENT_SYMBOL}.\n\nTexture: add {TEXTURE_LEVEL}, slight lens flare, color fringing, and analog poster compression. Add \"{SECONDARY_TEXT}\" only as tiny editorial microcopy if it stays clean and unobtrusive.\n\nAvoid: watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample set, chrome lettering, glossy 3D balloon type, corporate minimal layout, muted pastel palette, night cyberpunk mood, and crowded small text.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT_IDENTITY`": "specific adult character identity, including distinct hair, face, styling, and body language when generating a set",
         "`SUBJECT`": "main person, traveler, skater, swimmer, musician, road-trip friend, product ambassador, or fashion model",
         "`SUBJECT_ACTION`": "leaning into the fisheye lens, looking above camera, adjusting sunglasses, holding a prop, riding forward, stepping into sun, or turning in wind",
@@ -2637,7 +2608,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Fantasy Scribble Mascot Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules as concrete visual direction:\n- Composition: one oversized flat mascot or object anchors the poster, with two or three smaller companion doodles orbiting it; use a white paper field, dense handmade collage balance, and visible open gaps filled by stars, rings, arrows, loops, plant stems, and tiny handwritten callouts.\n- Typography: create a huge irregular hand-painted headline as part of the drawing; use thick black dry-brush letters, wobbly baselines, uneven spacing, and smaller handwritten phrases as graphic texture.\n- Color: use high-saturation marker blocks with electric cyan, saturated blue, hot pink, neon lime, deep green, and small brown or purple accents; keep black outlines dominant and the white paper visible.\n- Texture and lighting: flat scanned marker-and-ink treatment with marker streaks, scratchy overdraw, dirty paper texture, pressure changes, and no realistic lighting, no shadows, no gradients, and no glossy finish.\n- Graphic elements: use naive fantasy mascot shapes, blunt limbs, floating eyes, patch symbols, orbit rings, starbursts, scribble fills, and intentionally awkward handmade registration.\n\nAvoid polished vector art, anime, 3D rendering, photorealism, platform UI, watermarks, logos, creator signatures, QR codes, exact source wording, exact source character silhouettes, and the original source story arrangement.\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while pres",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -2686,7 +2656,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Cyan Red Shockwave Type Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules: saturated cyan full-bleed background; oversized cropped red block display lettering used as architecture; one white jagged lightning-burst shape cutting diagonally through the center; flat vector subjects with thick red keylines and hard edges; lemon-yellow hands or accent shapes; small red dots, rings, slanted underlines, and sound-effect labels; compact rotated or vertical microcopy clusters; crowded but clean poster hierarchy; mostly orthographic flatness with diagonal forced motion; no realistic lens, shadows, or photographic lighting; optional tiny warm red-orange gradient only inside an accent area.\n\nImportant content rule: preserve the visual system first, then change the source content. Use new subjects, new props, new setting details, and new text. Do not recreate bowls, soup, noodles, drinking, cheers, clinking vessels, source location copy, source seals, source marks, or the same two-object diagonal composition.\n\nAvoid photorealism, 3D rendering, glossy product lighting, realistic paper mockup, watercolor, delicate serif typography, beige vintage poster treatment, neon cyberpunk glow, cluttered market detail, QR codes, watermarks, logos, signatures, or exact copied source text.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "new central subject or character group",
         "`SUBJECT_ACTION`": "clear action that creates impact or motion",
         "`PRODUCT_OR_PROP`": "object, product, or prop that replaces the source object",
@@ -2741,7 +2710,6 @@
       ],
       "prompt": "Create an image in chromatic-fisheye-orbit-pop-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, featuring {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}.\n\nPhotography: build a finished high-key pop culture poster, not a sketch. Use an extreme fisheye or convex glass-dome viewpoint from below, with the subject centered inside a circular lens bubble. Keep people, props, hair, fabric, and hands photographic and realistic while allowing wide-angle edge distortion.\n\nLayout: keep the surrounding field mostly warm off-white and pale grey so the graphic system has open space. Hold the subject in a central circular dome and let the composition feel off-axis, kinetic, and orbiting without cluttering the center.\n\nTypography: set \"{MAIN_TEXT}\" as huge heavy display typography warped around the circular lens. Crop the headline at multiple frame edges and fill the letters with hot vermilion, orange, red, and fluorescent magenta ink texture. Add \"{SECONDARY_TEXT}\" only as a small red editorial caption block in a quiet corner.\n\nGraphic system: include {ACCENT_SYMBOL}, aqua/cyan light arcs, prism smears, faint chromatic aberration, radial motion blur near the rim, subtle analog grain, screenprint speckle, and slight color bleed. The result should feel like a contemporary music, fashion, or culture campaign viewed through a warped circular lens.\n\nAvoid: watermarks, usernames, creator IDs, QR codes, platform logos, app interface marks, copied reference people, copied event text, copied venue text, copied exact pose, exact YOASOBI text, exact anniversary wording, long paragraph text, tiny crowded text, flat vector substitutes, SVG look, HTML mockup, canvas drawing, corporate minimalist poster, muted beige-only palette, dark nightclub scene, cyberpunk darkness, luxury studio calm, fake brand logos, distorted unreadable faces, extra limbs, and misshapen hands.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main person, duo, small crew, performer, maker, athlete, courier, scientist, chef, or product model",
         "`SUBJECT_ACTION`": "leaning over a fisheye lens, crouching inside a circular dome, looking down toward camera, reaching across frame, presenting a prop, or sitting in a compressed lens bubble",
         "`PRODUCT_OR_PROP`": "featured object, tool, instrument, product, bag, scooter, plant module, cooler, synth, sports gear, or food item",
@@ -2790,7 +2758,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Bold Block Mascot Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\n\nApply these style rules:\n- Dense flat editorial poster composition with oversized ultra-heavy black display typography as a structural block.\n- A single large tilted cyan, mint, teal, or lemon panel crosses the center, backed by a secondary inset shape or project-card block.\n- One chunky rounded white mascot-like subject or simplified graphic object with thick uniform black outline, minimal face marks, and sticker anatomy.\n- Off-white paper base, black linework, cyan/mint/lemon panels, and one small red or high-contrast accent only.\n- Flat raster illustration with screenprint sharpness, subtle paper grain, hard fills, and no realistic light or depth.\n- Add one compact speech bubble, stamp, badge, red card cluster, or editorial label accent, but never a real logo.\n- Use short graphic typography only; headline text can be English or Chinese, but it must behave as a poster shape.\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text while preserving the style fidelity anchors. Avoid coffee themes, source slogans, course identities, watermarks, UI screenshots, real brand marks, exact source mascot anatomy, realistic 3D rendering, glossy product photography, anime scenes, painterly detail, long paragraphs, and cluttered background scenery.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main rounded mascot, figure, product, object, or visual subject",
         "`SUBJECT_ACTION`": "main action, gesture, presentation, or interaction",
         "`PRODUCT_OR_PROP`": "simplified prop, object, product, icon, card, or graphic device",
@@ -2850,7 +2817,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Bold Anime Reaction Thumbnail Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Build a dense anime web-thumbnail composition with oversized reaction characters on the outer edges and a smaller central discovery scene.\n- Use clean glossy cel-shaded anime rendering, crisp black line art, smooth gradients, and bright commercial lighting.\n- Put a huge uppercase yellow headline with thick black outline and hard drop shadow near the top.\n- Use cool blue/cyan backgrounds, warm character colors, high-contrast black outlines, and a small yellow arrow or glow marker.\n- Keep the scene fully clothed and non-sexual. Change the source subject, location, prop, action, text, and story premise.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main adult anime subject or paired reaction subjects",
         "`SUBJECT_ACTION`": "surprised, amazed, competitive, or discovery-driven action",
         "`PRODUCT_OR_PROP`": "object, product, tool, device, food, game cabinet, package, plant, or other prop",
@@ -2891,7 +2857,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} raster poster in the Blue Lime Kinetic Comic Type Poster Style. Preserve these style anchors first: {STYLE_FIDELITY_ANCHORS}. Use an electric-blue full-bleed grid-paper background, a huge slanted neon-lime speech-panel or cut-paper banner, a sharp yellow geometric back plate behind it, massive black rough comic-block Chinese typography packed tightly into the lime panel, a black strip or edge zone for secondary text, radial black action rays, small arrow/separator marks, subtle halftone dots, ink speckles, rough printed edges, and flat screenprint color. New content: {SUBJECT} doing {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, located in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or subject styling: {WARDROBE_STYLE}. Keep the composition shallow, loud, compressed, tilted, and type-dominant. Avoid recreating source content: {SOURCE_CONTENT_TO_AVOID}. No watermark, no username, no QR code, no brand logo.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject, mascot, object, activity, or event being announced",
         "`SUBJECT_ACTION`": "simple graphic action or poster-like gesture",
         "`PRODUCT_OR_PROP`": "large prop, sign, tool, snack, vehicle, instrument, or symbolic object",
@@ -2937,7 +2902,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Blue HUD Macro Creator Tech Poster\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Macro 3D creator-tech product hero, large and tilted, physically framed by oversized ribbed gloves or striped synthetic fingers cropped by the frame.\n- Cold electric-blue and deep navy technology background with diagonal light streaks, faint grid lines, mist, bloom, and glass HUD panels.\n- Large extra-bold condensed all-caps headline in white or icy gray, cropped or partly occluded behind the product.\n- Translucent rounded feature cards with radial meters, pill bars, small icons, and compact technical labels.\n- One warm gold or amber performance badge, used as the only major warm contrast accent.\n- Glossy plastic, rubber, glass, brushed metal, beveled product edges, cyan rim light, and dramatic black shadows.\n- Dense commercial product poster hierarchy with overlapping product, gloves, type, badges, and interface graphics.\n- Use real-market creator hardware categories as inspiration only; do not render real brand marks or exact product replicas.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the exact source content. Product categories may be camera-adjacent when requested, but all outputs must stay brandless, non-identical, and newly worded.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main creator-tech product or object being promoted",
         "`SUBJECT_ACTION`": "how the product is held, presented, activated, or inspected",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -2978,7 +2942,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the Blue Halftone Ransom Zine Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: saturated cobalt-blue poster field, off-white torn paper scraps, black-and-white coarse photocopy halftone subject cutouts, jagged paper edges, black marker handwriting, tiny handwritten micro captions on blue, shallow paper shadows, crumpled scanner texture, toner noise, gray smudges, visible wrinkles, asymmetric ransom-note collage spacing, and a tight palette of cobalt blue, off-white, black, and gray only. Important content rule: match the visual style first, then change the subject, text, props, and story premise completely from the reference.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -3036,7 +2999,6 @@
       ],
       "prompt": "Create an image in blue-bubble-fisheye-action-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, featuring {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}.\n\nPhotography: use an extreme low-angle fisheye or action-camera lens, very close to the foreground object, with barrel distortion, edge stretching, motion blur near the edges, bright daylight, blue sky or open high-key light, crisp highlights, realistic skin, fabric, product surfaces, and believable anatomy.\n\nLayout: build a clean white editorial poster canvas with a central rectangular action photo. Let one foreground hand, foot, prop, or product detail become huge and optionally break past the photo rectangle into the white margin. Keep the poster layer flat, precise, and uncluttered.\n\nTypography: set \"{MAIN_TEXT}\" as massive rounded royal-blue bubble lettering cropped behind or above the photo block. Keep supporting text small, geometric, and blue. Add \"{SECONDARY_TEXT}\" only as compact editorial microcopy in the bottom margin.\n\nGraphic system: include {ACCENT_SYMBOL}, a small non-scannable stripe block, and balanced lower-margin caption groups. Use a rough red marker circle to highlight one product or movement detail.\n\nAvoid: watermarks, usernames, creator IDs, platform logos, app interface marks, QR codes, scannable barcodes, copied reference people, copied poses, copied text, recognizable logos, brand-owned product marks, long paragraphs, cluttered collage, dark cyberpunk lighting, luxury minimalism, flat vector substitutes, SVG or HTML mockup looks, distorted faces, extra limbs, extra fingers, malformed hands, and unreadable main headline.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "adult action subject, performer, courier, maker, athlete, rider, dancer, chef, technician, or product model",
         "`SUBJECT_ACTION`": "lunging toward the lens, reaching across the frame, jumping over the camera, presenting a prop, balancing in motion, or landing in a dramatic wide-angle pose",
         "`PRODUCT_OR_PROP`": "featured object, shoe, bag, tool, instrument, food item, plant crate, wearable, device, or product detail that can be emphasized by perspective",
@@ -3084,7 +3046,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} promotional food poster in the \"Black Cutout Food Card Ad\" visual style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location context: {LOCATION}. Background and card details: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Food styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these rules: pure black outer background; a single warm cream irregular cutout card with handmade rounded or torn edges; each card silhouette must be visibly different from other cases; dense Chinese street-food ad hierarchy; oversized rough hand-brushed Chinese lettering; realistic clipped food photo collage placed on the flat card; bold yuan price medallion with a value that is not 8; tiny vertical side seals and craft labels; deep red bottom ribbon with short white lettering; ochre, mustard, seal red, dark brown ink, warm cream paper, paper grain, slight scan softness, subtle card shadow. Match the reference style first, then change the dish, text, prop, card outline, price, and layout details.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "food item or plated dish shown as the main sales focus",
         "`SUBJECT_ACTION`": "food-specific action, garnish motion, utensil lift, or serving moment",
         "`PRODUCT_OR_PROP`": "bowl, plate, cup, spoon, chopsticks, sauce, garnish, steam, or serving prop",
@@ -3149,7 +3110,6 @@
       ],
       "prompt": "Create an image in soft-analog-future-editorial-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} is supported by a calm analog-future system that helps them {SUBJECT_ACTION}. The hero prop is {PRODUCT_OR_PROP} placed in {LOCATION}. Include {BACKGROUND_ELEMENTS} as restrained editorial details. If people are visible, wardrobe and styling should be {WARDROBE_STYLE}.\n\nTypography: set the main headline as very large black neo-grotesk type reading \"{MAIN_TEXT}\". Add \"{SECONDARY_TEXT}\" as tiny editorial microcopy, numbered list text, date/issue style labels, or bilingual captioning. Use {ACCENT_SYMBOL} as a sparse graphic mark.\n\nVisual treatment: warm cream paper background, strict grid layout, thin rules, soft daylight, tactile matte materials, gentle paper grain, pale-blue translucent interface panel, botanical foreground accents, and quiet negative space. Keep the design premium, readable, and editorial.\n\nAvoid: watermark, logo, creator ID, QR code, platform UI, copied brand mark, glossy cyberpunk, dark sci-fi, neon gamer interface, childish mascot, busy collage, unreadable text, and cluttered typography.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main person, field, discipline, audience, or symbolic focus",
         "`SUBJECT_ACTION`": "what the system helps the subject do or understand",
         "`PRODUCT_OR_PROP`": "retro-future device, workstation, instrument, archive object, display, console, or product-like prop",
@@ -3929,7 +3889,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Clean Triptych Travel Vlog Thumbnail\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain headline text: \"{MAIN_TEXT}\".\nSecondary text: \"{SECONDARY_TEXT}\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe styling: {WARDROBE_STYLE}.\n\nUse a clean three-panel travel-vlog thumbnail composition. Divide the frame into three equal vertical photographic panels with hard edges and no visible border. Make the left panel a close-up lifestyle or cafe moment, the center panel a city-stroll scene with the traveler, and the right panel a landmark, scenic viewpoint, skyline, garden, gate, harbor, or destination proof point.\n\nPlace a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels. Use an extra-bold rounded geometric sans-serif, smooth and friendly, with no outline and minimal shadow. Put small italic white panel labels near the top, a small day-count line above the headline, a parenthetical vlog subtitle below it, and one tiny bottom-corner diary note.\n\nAdd only sparse white hand-drawn accent marks: a tiny heart, dash, underline, corner stroke, sparkle, or loose bracket. Keep the photo treatment warm, candid, soft, lightly grainy, and phone-camera realistic. The mood should feel modern, clean, travel-diary-like, and ready for a video thumbnail.\n\nAvoid watermark, username, creator ID, platform logo, QR code, app UI, readable real brand logo, brand name, celebrity likeness, cluttered sticker collage, scrapbook overload, neon poster, grunge texture, luxury travel ad, corporate brochure, colorful headline, heavy drop shadow, outlined text, illegible destination text, plain single-photo background, and dark muddy image.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main traveler, host, couple, group, or implied travel point of view",
         "`SUBJECT_ACTION`": "walking, posing, holding a drink, looking across the street, boarding transit, or pausing at a landmark",
         "`PRODUCT_OR_PROP`": "unbranded drink, pastry, camera, tote bag, transit card, ticket, map, sunglasses, or travel snack",
@@ -3979,7 +3938,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} premium dark consumer-tech launch poster in an electric-blue silhouette style. Feature {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} staged in {LOCATION}. Add {BACKGROUND_ELEMENTS}. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Composition: one centered brandless product silhouette, large black negative space, a glowing electric-blue horizontal platform, blue floor reflection beneath the object, giant cropped blue geometric sans-serif background typography reading \"{MAIN_TEXT}\" behind the product, clean white lower launch copy using \"{SECONDARY_TEXT}\", and a tiny minimal accent mark or status light \"{ACCENT_SYMBOL}\". Lighting: low-key black stage, cyan-blue rim light, glossy edge highlights, soft bloom, haze, deep shadows, no warm accents. Typography: sparse, premium, clean geometric sans-serif, no real logos. Wardrobe or human styling if present: {WARDROBE_STYLE}. Keep the layout minimal, symmetrical, cinematic, and teaser-like rather than dense or feature-heavy.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main product, object, or technology category",
         "`SUBJECT_ACTION`": "how the object is staged or presented",
         "`PRODUCT_OR_PROP`": "specific object, product, or prop shape",
@@ -4041,7 +3999,6 @@
       ],
       "prompt": "Create an image in folded-diamond-perspective-type-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Use {WARDROBE_STYLE}. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong sunlight, and a bright cyan sky or clean outdoor backdrop.\n\nLayout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface. Include {BACKGROUND_ELEMENTS}. Create a deep central fold or crease running down from the diamond point into the lower poster.\n\nTypography: set the main headline \"{MAIN_TEXT}\" in enormous white ultra-bold condensed sans-serif type across the lower half. Make the type feel printed onto the folded surface, split by the central crease, distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain. Add \"{SECONDARY_TEXT}\" only as tiny clean editorial microcopy using {ACCENT_SYMBOL}.\n\nMood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop. Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main person, athlete, dancer, model, musician, founder, maker, or product hero",
         "`SUBJECT_ACTION`": "standing over the camera, stepping forward, crouching above the viewer, reaching downward, jumping, holding a prop, or looking down with confidence",
         "`PRODUCT_OR_PROP`": "shoe, skateboard, basketball, camera, bag, bottle, instrument, notebook, tool, or featured product",
@@ -4088,7 +4045,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Halftone Assemblage Metaphor PSA Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: {STYLE_FIDELITY_ANCHORS}\nSource content to avoid: {SOURCE_CONTENT_TO_AVOID}\n\nApply these style rules:\n- Core metaphor: one visible source material category must be assembled into a different recognizable target silhouette. The target silhouette should read first from a distance; the individual source pieces should become clear up close.\n- Composition: one dominant assembled silhouette in the lower-middle or slightly right field, compact top-left headline, tiny bottom-center footer, and generous empty warm paper space.\n- Typography: heavy condensed uppercase sans headline with navy words and a small number of saturated red emphasis words; tiny centered footer microcopy with simple abstract symbols.\n- Color: aged cream paper ground, muted blue-green halftone subject ink, deep desaturated navy text, and campaign red accents only.\n- Texture and lighting: coarse paper grain, visible halftone dot screen, faded offset-print registration softness, flat ambient light, soft teal grounding shadow, no glossy modern finish.\n- Graphic elements: minimal symbol row and small campaign imprint only; no dense decorative border, no stickers, no brand marks.\n\nAvoid: random piles that do not form a silhouette, photorealistic product photography, glossy 3D render, modern vector flat design, dense collage, cinematic shadows, saturated rainbow palette, plastic bottle animal, pet story, recycle-icon copy, brand logos, watermarks, QR codes, social UI, long paragraphs, readable copied source slogans.\n\nImportant content rule: match the reference style first, then change the source content. Preserve the material-to-silhouette",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -4129,7 +4085,6 @@
       ],
       "prompt": "Create a raster image in the Blue Chinese Perspective Type Canyon Style. Subject: {SUBJECT}. Action or event: {SUBJECT_ACTION}. Product or prop reference: {PRODUCT_OR_PROP}. Location or setting: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main Chinese graphic text to suggest: {MAIN_TEXT}. Secondary repeated Chinese text fragments to suggest: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or styling direction: {WARDROBE_STYLE}. Aspect ratio: {ASPECT_RATIO}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Build the composition as an extreme one-point perspective Chinese typographic corridor: a saturated electric blue central trapezoid plane recedes toward the upper-center vanishing point, with black left and right walls covered in skewed white and pale gray Chinese type fragments. Use huge cropped white Chinese block glyphs or numerals in the foreground, stacked central Chinese headline type on the blue plane, and dense warped side-wall support copy. Keep the palette strictly blue, black, white, and gray. Use clean flat 3D poster rendering, hard-edged vector-like planes, mild gray shading on white Chinese letters, very high contrast, no realistic people, no photographic products, no extra colors, no logos, no watermark. The image should feel like a loud compressed advertising tunnel made entirely from Chinese typography and perspective.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -4322,7 +4277,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in analog-sticker-diary-portrait-poster-style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nPrimary prop: {PRODUCT_OR_PROP}.\nImplied location: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain headline text: \"{MAIN_TEXT}\".\nSecondary micro text: \"{SECONDARY_TEXT}\".\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe styling: {WARDROBE_STYLE}.\n\nUse a large side-profile or quiet three-quarter illustrated portrait as the anchor. Put the subject on cream graph-paper notebook background with faded blue grid lines. Surround the portrait with sticker-like personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.\n\nMake the main headline huge, rough, hand-drawn, uppercase, orange-red, with blue or dark offset shadow, wrapping across hair, clothing, or open paper space. Keep the portrait calm and introspective while the sticker field feels busy and personal.\n\nThe image should feel like a scanned school notebook cover, teen sticker diary, analog music zine, and introspective poster. Add paper grain, halftone speckles, faded ink, smudges, fold marks, slight misregistration, and imperfect cutout edges.\n\nAvoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, sterile spacing, plain background, perfect typography, and photorealistic studio portrait.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main side-profile person, character, student, musician, traveler, or introspective figure",
         "`SUBJECT_ACTION`": "quiet emotional action, listening, thinking, walking, studying, waiting, or holding a small prop",
         "`PRODUCT_OR_PROP`": "headphones, phone, notebook, snack, ticket, pencil, lighter, drink, cassette, charm, or personal object",
@@ -4697,7 +4651,6 @@
       ],
       "prompt": "Create an image in Teenage Skate Scribble Screenprint Poster style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} at {LOCATION}. Place the subject as one oversized central posterized cutout with a compressed crouching or skating pose. Use {WARDROBE_STYLE}. Build the composition on a warm cream paper field with a green skateboard, rail, board, or long prop sweeping across the lower third. Wrap loose red hand-lettered border words reading \"{MAIN_TEXT}\" around the edges, add small handwritten fragments reading \"{SECONDARY_TEXT}\", and include {ACCENT_SYMBOL}. Add {BACKGROUND_ELEMENTS}. Use rough duotone screen-print texture, deep navy clothing, dusty gray pants, mustard ochre skin, dry black speckle, halftone dirt, paper grain, ink skips, imperfect registration, and handmade indie skate zine energy. Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate sports poster, glossy 3D text, chrome, neon gradient, luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero style, and skateboard brand logo.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main skateboarder, dancer, musician, courier, student, or youth culture figure",
         "`SUBJECT_ACTION`": "crouching, kickflipping, carving, bending, balancing, pushing, leaning, or landing a trick",
         "`PRODUCT_OR_PROP`": "skateboard, longboard, rail, cassette player, record sleeve, camera, backpack, or streetwear object",
@@ -4747,7 +4700,11 @@
         "**文化手作感** — 适合有温度、手作、露营/市集/农场的标题"
       ],
       "prompt": "A clean pure warm cream paper-white solid color background with subtle fine paper fiber texture but no dirt and no gray cast, no gradient. In the center, the Chinese characters \"{第一行}\" and \"{第二行}\" as thick bold rounded letterforms with rough screen-print edges: layered ink with slight offset misregistration, transparent overlapping color, hand-printed vintage feel. The title is split into two stacked lines, both centered: first line \"{第一行}\", second line \"{第二行}\". The main letters are in deep kiwi green with warm orange overlapping accents, cream yellow highlights. Below, a smaller secondary line \"{副行}\" in the same screen-print style, smaller scale, warm orange. Clean minimal layout with generous whitespace, hand-printed craft brand aesthetic. Every character is clearly readable. No other elements, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
-      "variables": {},
+      "variables": {
+        "第一行": "{第一行}",
+        "第二行": "{第二行}",
+        "副行": "{副行}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -5048,7 +5005,13 @@
         "**4:5 竖版对称构图** — 经典海报比例，完美对称布局，赛车编辑风质感，精致的赛车运动美学"
       ],
       "prompt": "{赛车车型}，复古赛车涂装\n\n正面低仰角英雄视角，赛车居中于画面，冲击感强烈\n极简场景纵深：[SCENERY]，简约地平线与远景\n叠加几何图形背景：大型太阳形状、重叠色块、斜向面板、半透明条纹\n顶部大字标题：\"[赛事/品牌标题]\"，底部短标语：\"[SLOGAN]\"\n品牌 Logo 置于顶部或底部角落\n\n色调：[PALETTE]，暖色做旧、日晒褪色、复古印刷质感\n做旧纸张纹理、细微划痕磨损、老化褪色效果\n干净负空间，清晰汽车细节，4:5 竖版比例\n海报对称构图，精致赛车编辑风\n\n不要水印，不要杂乱背景，不要现代元素，不要扁平无纹理。\n比例：4:5\n",
-      "variables": {},
+      "variables": {
+        "赛车车型": "{赛车车型}",
+        "SCENERY": "{SCENERY}",
+        "PALETTE": "{PALETTE}",
+        "赛事/品牌标题": "{赛事/品牌标题}",
+        "SLOGAN": "{SLOGAN}"
+      },
       "source_url": "https://x.com/Goodmanprotocol/status/2077436110607925535",
       "source_author": "Goodmanprotocol",
       "preview_urls": [
@@ -5981,7 +5944,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Rough Animation Pet Sketch Storyboard\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: {MAIN_TEXT}.\nSecondary text: {SECONDARY_TEXT}.\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe or visual styling: {WARDROBE_STYLE}.\n\nUse the reference only as a style reference, not as a scene to copy. Preserve the visual language: warm beige paper, loose red-brown construction lines, scratchy dark burgundy contour strokes, semi-transparent watercolor-like color wash, rough animation storyboard finish, lightly sketched interior background, exaggerated original pet expressions, huge oval eyes, tiny pupils, visible correction strokes, and one clear comic prop-driven beat.\n\nStage the scene like an animation story artist frame. Keep one character in an extreme emotional pose and another character in a contrasting deadpan or suspicious reaction. Make the foreground prop explain the joke. Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible. Do not include platform UI, watermarks, creator IDs, logos, QR codes, app buttons, or copied characters.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main pet, animal character, mascot pair, or expressive creature group",
         "`SUBJECT_ACTION`": "main comic action or emotional beat, such as begging, guarding, panicking, judging, leaping, chewing, or reacting",
         "`PRODUCT_OR_PROP`": "foreground object, food bowl, toy, snack, remote, parcel, cup, blanket, cake, or other prop that explains the joke",
@@ -6119,7 +6081,9 @@
         "**4:5 竖版构图** — 超写实 4:5 竖版输出，适合 Instagram、小红书等社交平台"
       ],
       "prompt": "Use the uploaded {product_type} as the main reference.\nPreserve the exact product identity, appearance, texture, colors, and serving style.\n\nTransform it into a premium soft pastel studio photoshoot with a bright, clean, modern commercial food photography style.\n\nUse a complementary pastel background, minimal elegant props, refined plating, soft diffused lighting, realistic shadows, and appetizing natural details.\n\nKeep the product as the hero with a balanced composition, negative space, and subtle luxury branding area.\n\nAdd minimal elegant typography for product name, brand name, and optional CTA.\n\nFinal output: ultra-realistic 4:5 vertical image, professional food advertisement quality, fresh, polished, premium, and social-media ready.\n不要水印，不要真实Logo，不要电商广告感，不要卡通风。\n",
-      "variables": {},
+      "variables": {
+        "产品类型": "{product_type}"
+      },
       "source_url": "https://x.com/SimplyAnnisa/status/2075111363064848511",
       "source_author": "Anissa (@SimplyAnnisa)",
       "preview_urls": [
@@ -6679,7 +6643,9 @@
         "**细密纵向纸面纤维+轻微压纹** — 纹样集中内嵌面板，外圈留白更平整干净"
       ],
       "prompt": "Create a restrained, monumental brand narrative centered on a specific theme: the composition features a wide clean paper whitespace surrounding a recessed light-textured panel, with the overall design stably arranged along a central axis — lighter information above, heavier substance below. The reading sequence enters from tiny signatures in the two corners, moves to the central headline, then descends to the main relief that occupies the primary visual weight, and finally closes with thin bottom information.\nExtract the most recognizable object of the subject and render it as a front-facing, nearly symmetrical flat-color bas-relief sculpture: preserving a clear overall contour, layered progressive structure, repeating details, and a small number of miniature narrative textures. The relief grows upward from the lower half of the panel, approaching the edges locally but never pressing against the outer frame. The material resembles delicate paper pulp, plaster, or clay impression — low reflectance, diffuse reflection, soft side-top lighting leaving only extremely faint bright lines on raised edges, forming thin warm-gray shadows in recesses and contact areas, so that complex details are revealed through real height differences rather than painted outlines.\nThe central headline sits in a large quiet whitespace, using a high-contrast Chinese serif typeface with traditional skeleton and modern restraint: the first line is medium-sized and tightly clustered, while the second line is significantly enlarged with expanded letter-spacing, creating a solemn pause. Below the title, an extremely small English sub-sentence with wide letter-spacing is configured, followed by a thinner Chinese explanatory line connecting the text area with the relief area. On the relief's side, a small dot and fine horizontal line may annotate the subject's identity — Chinese above, English below. Within the relief base, a set of larger English brand copy and Chinese value text are embedded, maintaining a flat print feel that forms a slight layered contrast with the three-dimensional surface.\nThe outer paper surface places tiny marks of equal volume in the two upper corners, and at the bottom a set of brief notes and fine English text is enclosed in thin-line parentheses, with the shortest characters spread wide at the very bottom, forming a calm and ceremonial ending.\nColor is extracted from the subject's semantic hue angle with derived saturation: the vast majority of the area uses a light material layer with high lightness and low saturation approaching the subject's primary color, with the supporting base color maintaining a very slight cool-warm difference and extremely low contrast. Body text uses low-saturation dark colors for clarity, while key headlines and base copy use only a small amount of deeper, more condensed subject accent tones — always maintaining high lightness, low chroma, soft warmth, and a smooth finish, with subject hues not expanding into large color blocks.\nThe paper surface shows fine dense vertical fibers, slight embossing, and natural imperfections at a very small scale — the texture concentrates in the recessed panel and subtly rises with light, while the outer whitespace is flatter and cleaner. Do not add a uniform yellow filter, heavy grain, or staining. The final effect should make text, whitespace, relief, and material feel like the same meticulously pressed collectible-level communication piece. If the relief loses its low-reflectance volume, the title crowds the space, colors become saturated, or decorations increase, this quiet and solemn historical retrospection will be destroyed.\nThe theme of this piece is {主题内容}, presented as a commemorative architectural imagery of an urban renewal exhibition.\nAdd a clear exhibition headline and a small amount of date and location information.\n",
-      "variables": {},
+      "variables": {
+        "主题内容": "{主题内容}"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2086078437777936547",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
@@ -7699,7 +7665,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} luxury furniture editorial poster in the Quiet Luxury Furniture Nameplate Poster Style. Subject: {SUBJECT}. Position and spatial relationship: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Large rear display text: {MAIN_TEXT}. Secondary catalog text: {SECONDARY_TEXT}. Accent symbol or chip: {ACCENT_SYMBOL}. Furniture material styling: {WARDROBE_STYLE}. Style fidelity anchors to preserve: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Build a warm off-white studio poster field with subtle paper softness, one oversized deep forest-green geometric sans display word behind the product, a thin top horizontal rule with small spaced catalog navigation words, compact lower-left microcopy, two small outlined catalog chips near the lower-right, and a dark green rounded product-information bar across the bottom. The furniture must be realistic, premium, materially detailed, softly shadowed, and large enough to overlap the rear typography. Keep the image sparse, refined, gallery-like, and brandless. Do not use real logos, watermarks, QR codes, app UI, price tags, or exact source text.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main furniture subject",
         "`SUBJECT_ACTION`": "position, crop, and spatial relationship",
         "`PRODUCT_OR_PROP`": "specific furniture product, material, or prop",
@@ -8081,7 +8046,17 @@
         "**柔和电影级灯光** — 柔和顶部或侧向光源安静的阴影过渡、细腻的瓷器和食材高光"
       ],
       "prompt": "Create an ultra-premium editorial poster for {品牌名称}, designed as a chef's signature tasting menu visual for the same Paris Left Bank fine-dining series. The image must feel like a refined Michelin-level signature menu card enlarged into a museum-grade campaign poster: elegant, literary, chef-driven, architectural, and deeply restrained. Preserve the original {品牌名称} brand world of Paris Left Bank sophistication, contemporary French fine dining, quiet luxury, and tasting-menu refinement, but now shift the composition so it feels unmistakably like a signed chef's menu presentation.\n\nUse a vertically oriented composition with strong menu-like structure and exceptional negative space. The design should feel like a luxury printed tasting menu sheet transformed into a high-end campaign image. Build the layout around a central plated signature dish, surrounded by carefully arranged editorial text zones, subtle information blocks, refined spacing, and elegant visual hierarchy. The overall composition must feel calm, precise, and highly authored.\n\nThe key concept is: {品牌名称} as a Paris Left Bank chef-led restaurant, presenting a signature tasting menu with the authority and intimacy of a chef's personal culinary statement. The poster should feel like a seasonal menu cover and internal signature page merged together: part fine-dining campaign, part chef manifesto, part luxury print object.\n\nPlace one Michelin-level French signature dish at the visual center of the poster. This dish must feel like the chef's defining plate: hyper-real, precisely composed, quietly luxurious, and visually unforgettable. A refined contemporary French tasting plate with {主菜类型}, silky sauce architecture, seasonal vegetables, micro herbs, precise garnish placement, clean porcelain, and disciplined negative space. The food must be rendered with world-class realism and remain the emotional core of the image. The plate should not feel crowded. It must feel intentional, signature-driven, and worthy of a chef's name. Every detail should suggest discipline, elegance, and culinary authorship: micro moisture on produce, silky gloss on sauce, subtle roasted texture, clean plate rim, fine ingredient fibers, and exact garnish positioning.\n\nAround the hero dish, build a menu-inspired editorial layout: a refined title zone near the top, smaller descriptive text blocks, subtle divider rules, possibly a course label or seasonal notation, and a lower area that suggests chef signature authority. The layout should feel like a premium tasting menu page rather than a commercial advertisement. Typography and spacing must do as much work as the imagery.\n\nEstablish {品牌名称} clearly as the restaurant brand. Create a bespoke {品牌名称} logo: minimal, architectural, Parisian, timeless, editorial, and internationally premium. The logo should appear with calm authority near the top of the layout or in a refined menu-header position.\n\nTypography must follow a chef's signature menu logic:\n- main English title: \"{英文主标题}\"\n- small Chinese subtitle: \"{中文副标题}\"\n- Optional supporting English lines: \"{英文副标语1}\" / \"{英文副标语2}\"\n\nAdd a short refined English introduction such as: \"{英文介绍}\"\n\nTo strengthen the chef-authored feeling, introduce one discreet signature detail: a subtle handwritten-style chef signature element, a refined initials mark, or a delicate script-like approval mark near the bottom portion of the layout. It must feel premium, understated, and believable, never decorative or exaggerated.\n\nLighting must be soft, cinematic, and intimate: gentle top or side directional light, quiet shadow transitions, subtle porcelain reflections, fine highlights on sauce and ingredients, and elegant tonal falloff across the page. The image should feel like Parisian fine-dining still life photographed for a luxury editorial menu publication.\n\nColor palette: {暖色系}, {冷色系}, stone gray, ivory, butter cream, sage green, champagne beige, soft roast gold, and restrained linen tones. The palette must feel cultivated, understated, and Michelin-luxury in tone.\n\nBackground and spatial design should feel like a premium printed menu object: soft paper-like field, pale stone or warm ivory surface, or a restrained dark-light contrast with clear architectural zones. Use minimal graphic dividers, subtle layout lines, and elegant spacing to suggest a chef's printed signature menu. No casual restaurant interior, no diners, no bottle-centered theme, no food collage, no decorative clutter.\n\nOverall mood: chef-authored, Parisian, Michelin-inspired, literary, intimate, editorial, restrained, signature-driven, luxurious, intelligent, world-class.\n\nRendering style: hyper-realistic fine-dining food photography, Paris Left Bank chef's signature menu poster, bespoke {品牌名称} restaurant logo, elegant menu-inspired typography, soft cinematic luxury lighting, Michelin-level plate styling, refined editorial negative space, premium print-object composition, 8k, world-class commercial quality.\n\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
-      "variables": {},
+      "variables": {
+        "品牌名称": "{品牌名称}",
+        "主菜类型": "{主菜类型}",
+        "英文主标题": "{英文主标题}",
+        "中文副标题": "{中文副标题}",
+        "英文副标语1": "{英文副标语1}",
+        "英文副标语2": "{英文副标语2}",
+        "英文介绍": "{英文介绍}",
+        "暖色系": "{暖色系}",
+        "冷色系": "{冷色系}"
+      },
       "source_url": "https://x.com/ou_zhen599/status/2075522018737610943",
       "source_author": "ou_zhen599",
       "preview_urls": [
@@ -8182,7 +8157,7 @@
       "prompt": "Korean illustration style, cute character having a picnic on the grass with friends, spring colors, soft green meadow, blooming flowers, checkered picnic blanket, baskets and food, line drawing with coloring, natural hand-drawn feel, delicate pencil lines, soft pastel colors, whimsical and cozy atmosphere. Maintain consistency with the reference character",
       "variables": {},
       "source_url": "",
-      "source_author": "",
+      "source_author": "来源未记录（2026-06-28 Markdown→YAML 迁移前的原始记录缺失）",
       "preview_urls": [
         "https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.webp"
       ],
@@ -8314,7 +8289,10 @@
         "**排版** — 两行居中堆叠 LARGE，标题下细分割线 + 奶油白信息行"
       ],
       "prompt": "The headline is centered horizontally in the upper area and rendered LARGE, filling most of the reserved typography space. It is split into two stacked lines: the first line \"{第一行}\" and below it the second line \"{第二行}\", both centered. The letters are drawn in a bright bold plump hand-lettering kawaii style: thick rounded handwritten strokes with a soft cushioned marker feel, adorable and sweet, with a natural easy italic lean to the right. The letters are luminous and bright: a radiant warm rose-gold, peach and cream-white gradient with soft glowing highlights, giving the whole headline a fresh vivid brightness. Some strokes are whimsically deformed with decorative hand-written connections: cute little tails and loops, soft linking curves between adjacent characters, gentle brush-like swash extensions at stroke ends, adding a playful connected-handwriting charm, while every character remains clearly readable. The most important requirement is edge clarity: every character stroke must have a crisp, sharp, well-defined outline with clean high-contrast edges, no blur, no soft feathering, no overlapping strokes, and no missing parts; the whole headline must read clearly at a glance. No decorative ribbons, frames, flowers or ornaments around the headline beyond the stroke-level flourishes. Below the two headline lines, a thin elegant divider line, then the smaller secondary line \"{活动时间/副行}\" in a delicate fine-line rounded typeface, centered, in warm cream. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
-      "variables": {},
+      "variables": {
+        "第一行": "{第一行}",
+        "第二行": "{第二行}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -8362,7 +8340,10 @@
         "**排版** — 两行居中堆叠 LARGE，标题下细分割线 + 奶油白信息行"
       ],
       "prompt": "The headline is centered horizontally in the upper area and rendered LARGE, filling most of the reserved typography space. It is split into two stacked lines: the first line \"{第一行}\" and below it the second line \"{第二行}\", both centered. The letters are drawn in a bright chunky bold hand-lettering kawaii style: thick plump rounded handwritten strokes with a soft marker feel, cute and adorable, with a natural relaxed italic slant leaning gently to the right. The letters are luminous and bright: a radiant warm rose-gold and cream-white gradient with glowing highlights, so the headline feels vivid and full of light. Some strokes are playfully deformed and extended with decorative connecting flourishes: small curved tails, soft swashes, gentle ligature-like links between nearby strokes, and cute brush-like stroke extensions that add hand-written charm, while every character remains clearly readable. The most important requirement is edge clarity: every character stroke must have a crisp, sharp, well-defined outline with clean high-contrast edges, no blur, no soft feathering, no overlapping strokes, and no missing parts; the whole headline must read clearly at a glance. No decorative ribbons, frames, flowers or ornaments around the headline beyond the stroke-level flourishes. Below the two headline lines, a thin elegant divider line, then the smaller secondary line \"{活动时间/副行}\" in a delicate fine-line rounded typeface, centered, in warm cream. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
-      "variables": {},
+      "variables": {
+        "第一行": "{第一行}",
+        "第二行": "{第二行}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -10440,7 +10421,11 @@
         "**古老遗迹场景** — 佩特拉、拉贾斯坦古庙、砂岩废墟、沙漠建筑背景，温暖矿物色调与柔光大气感"
       ],
       "prompt": "{幻想角色}，银白飘逸长发，中性面容，精致五官，复古圆形金边眼镜，层叠耳饰与戒指，{乐器}（琵琶/西塔琴/曼陀林），身着多层飘逸刺绣长袍、织锦披风、纹理围巾\n\n古老沙漠遗迹背景：佩特拉风石宫、拉贾斯坦古庙、砂岩废墟、雕刻石柱、沙漠建筑\n\n风吹效果：长发围巾随风流飘动，长袍下摆飞扬，充满行走天涯的动感\n\n水彩墨染质感，Art Nouveau装饰曲线，新艺术派线条，精致珠宝细节，极细腻笔触\n暖粉、象牙白、砂岩、腮红粉、尘土米、哑光金配色\n梦幻柔焦光照，大气薄雾，微妙飞溅效果，Art Nouveau装饰边框\n高度详细，8K，HDR，微妙光影，表情丰富，情绪宁静诗意\n超优质插画，ArtStation热门，CGSociety杰作\n\n不要水印，不要真实Logo，不要品牌名称，不要卡通风，不要拼贴感，不要电商广告感，不要乱码。\n比例：3:4\n",
-      "variables": {},
+      "variables": {
+        "主体": "{主体}",
+        "乐器": "{乐器}",
+        "场景": "{场景}"
+      },
       "source_url": "https://x.com/SimplyAnnisa/status/2077351368692785358",
       "source_author": "SimplyAnnisa",
       "preview_urls": [
@@ -10485,7 +10470,9 @@
         "**扁平矢量** — 无阴影、无渐变，边缘清晰"
       ],
       "prompt": "Pure green solid color background with no texture and no gradient, flat vector illustration style, creative handwritten typography logo design. The Chinese slogan \"{中文Slogan}\" rendered in an expressive creative handwriting style: stroke forms exaggerated and richly varied, strong contrast between thick and thin strokes, irregular connecting strokes, broken bends, curved extensions and flourishes, conveying a casual, free, lively feeling that breaks the regularity of conventional fonts. The main text is white on the green background, clean sharp edges, every character clearly readable. Minimal layout, the slogan is the only element, generous breathing space. No other elements, no decorations, no frames, no shadows, no gradient. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
-      "variables": {},
+      "variables": {
+        "中文Slogan": "{中文Slogan}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -10650,7 +10637,6 @@
       ],
       "prompt": "Create a polished international luxury editorial poster in the Luxury Perspective Checkerboard Editorial style. Subject: {SUBJECT}. Action or presentation: {SUBJECT_ACTION}. Hero product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Typography: place the invented large script word \"{MAIN_TEXT}\" as an oversized sweeping background graphic behind the subject, and place the small uppercase editorial text \"{SECONDARY_TEXT}\" near the upper field; add the restrained accent symbol \"{ACCENT_SYMBOL}\" only once. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a low-angle high-fashion photographic camera, crisp studio lighting, generous white space, a red-and-white checkerboard perspective plane, deep black structure, emerald or teal accent details, clean cutout subject edges, glossy premium material highlights, and sparse typography. Do not use any real brand logos, real fashion house names, monograms, watermarks, QR codes, social media UI, price labels, or copied campaign identities. Aspect ratio: {ASPECT_RATIO}.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main model, product, or luxury subject",
         "`SUBJECT_ACTION`": "main pose, movement, or product presentation",
         "`PRODUCT_OR_PROP`": "luxury object, accessory, or hero prop",
@@ -10691,7 +10677,6 @@
       ],
       "prompt": "Create a polished outdoor high-fashion editorial photograph in the Sunlit Architectural Fashion Editorial style. Subject: {SUBJECT}. Pose or movement: {SUBJECT_ACTION}. Prop or accessory: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Internal editorial mood labels only, not visible text: {MAIN_TEXT}; {SECONDARY_TEXT}. Subtle photographic accent: {ACCENT_SYMBOL}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a low camera position, slight wide-angle fashion perspective, elongated silhouettes, hard Mediterranean daylight, bright pale sky, warm stone or plaster texture, crisp cast shadows, natural lens flare or glint, refined neutral color grading with black or tobacco anchors, visible fabric and leather detail, calm unsmiling luxury-campaign posture, and sparse premium props with no visible logos. Do not add overlay typography, watermarks, readable brand names, QR codes, social media UI, price tags, crowds, fantasy costumes, cartoon rendering, collage, vector graphics, or studio poster design. Aspect ratio: {ASPECT_RATIO}.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main fashion model, pair of models, or editorial subject",
         "`SUBJECT_ACTION`": "main pose, stance, gesture, or movement",
         "`PRODUCT_OR_PROP`": "luxury accessory, travel object, sculptural object, or restrained prop",
@@ -10772,7 +10757,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} premium analog fashion editorial poster photograph. Subject: {SUBJECT}. Action and pose: {SUBJECT_ACTION}. Wardrobe and styling: {WARDROBE_STYLE}. Product or prop: {PRODUCT_OR_PROP}, with a small physical nameplate, plaque, tag, or engraved label integrated into the object. Location: {LOCATION}. Background and foreground details: {BACKGROUND_ELEMENTS}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use warm direct sunlight, shallow depth of field, foreground botanical or textile blur, slight film grain, soft analog shadows, tactile fabric and metal textures, relaxed luxury mood, and a close low editorial camera angle. Add clean white lower-third typography: large uppercase headline text reading \"{MAIN_TEXT}\" followed by the accent \"{ACCENT_SYMBOL}\", with a smaller white caption block reading \"{SECONDARY_TEXT}\". The typography should feel printed on a fashion magazine prompt-card poster, not like a watermark or app UI. Do not use real logos or real brand marks.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main supermodel or editorial fashion subject",
         "`SUBJECT_ACTION`": "poised seated, reclining, leaning, or kneeling action",
         "`PRODUCT_OR_PROP`": "luxury prop, case, chair, trunk, compact, garment detail, or object carrying a small material nameplate",
@@ -10783,7 +10767,7 @@
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/editorial_culture_poster_8ccb5e76.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.thumb.webp",
@@ -11182,7 +11166,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} image in the \"Mountain Trail Monster Doodle Poster\" style.\n\nSubject: {SUBJECT}.\nSubject action: {SUBJECT_ACTION}.\nProduct or prop: {PRODUCT_OR_PROP}.\nLocation: {LOCATION}.\nBackground elements: {BACKGROUND_ELEMENTS}.\nMain text: {MAIN_TEXT}.\nSecondary text: {SECONDARY_TEXT}.\nAccent symbol: {ACCENT_SYMBOL}.\nWardrobe or visual styling: {WARDROBE_STYLE}.\n\nUse a realistic candid outdoor hiking photograph as the base layer, with natural daylight, real mountain or trail detail, trees, sky, rocks, and a believable person in practical outdoor clothing. Keep the person photographic and naturally integrated into the landscape.\n\nOverlay one flat hand-drawn red cartoon monster companion beside the person. The monster should have thick black contour lines, brick-red fill, simple dark red shadow shapes, oversized white eyes, tiny pupils, sharp white teeth, pale blue sweat drops, and simplified claw hands. Let one arm or claw physically interact with the person, backpack, bottle, map, trail sign, or prop.\n\nAdd oversized irregular comic lettering across the upper sky or mountain area. Use off-white letter fill, black outline, yellow/red/cobalt offset shadows, light inner scribbles, uneven scale, and a playful Spanish travel-poster feeling. Add a tiny handwritten note near the headline and a few sparse squiggles, arrows, underlines, or motion marks.\n\nAvoid watermark, username, creator ID, platform logo, QR code, app UI, realistic demon, horror, blood, violence, 3D mascot, plush toy, full cartoon background, corporate layout, minimalist typography, dense text, studio portrait, and low-detail mountains.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main hiker, traveler, athlete, explorer, or outdoor person",
         "`SUBJECT_ACTION`": "standing, looking up, pausing, holding a bottle, checking a map, climbing, resting, or reacting to the cartoon companion",
         "`PRODUCT_OR_PROP`": "water bottle, hiking pole, backpack, map, snack, camera, cap, or trail marker",
@@ -11247,7 +11230,6 @@
       ],
       "prompt": "Create an image in backseat-transit-doodle-letter-poster-style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, inside or on {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.\n\nGraphic overlay: trace the central subject with a thick electric yellow hand-drawn halo. Add oversized chunky hand-drawn letters spelling \"{MAIN_TEXT}\" around the subject, tilted and partly cropped by the frame. Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.\n\nAdd {ACCENT_SYMBOL}, purple music marks, yellow comic speed rays from the corners, cyan-white cloud or wind swooshes along the lower frame, small sticker bubbles, and playful motion strokes. Keep the overlays bold but preserve the subject silhouette, steering gesture, and forward window view.\n\nText: use \"{MAIN_TEXT}\" as the large illustrated word. Add \"{SECONDARY_TEXT}\" only as tiny clean sticker text if it does not clutter the image. Do not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied brand logos, or copied jacket graphics.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main driver, rider, guide, commuter, musician, courier, or traveler seen from behind",
         "`SUBJECT_ACTION`": "steering, tapping the horn, checking a mirror, pointing ahead, adjusting the radio, holding a map, or riding through the scene",
         "`PRODUCT_OR_PROP`": "portable speaker, route card, camera, map, drink can, luggage tag, helmet, hand drum, ticket, or featured travel object",
@@ -11258,7 +11240,7 @@
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp"
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.thumb.webp",
@@ -11309,7 +11291,6 @@
       ],
       "prompt": "Create an image in the \"Cozy Bedroom Doodle Companion Snapshot\" style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}. Foreground prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main handwritten text: \"{MAIN_TEXT}\". Secondary handwritten text: \"{SECONDARY_TEXT}\". Accent symbol: {ACCENT_SYMBOL}. Wardrobe style: {WARDROBE_STYLE}. Doodle companion: {DOODLE_COMPANION}. Doodle companion scale: {DOODLE_SCALE}. Light source: {LIGHT_SOURCE}.\n\nUse a realistic candid phone-photo as the base layer. The scene should feel like a real late-night home interior with imperfect handheld framing, natural room clutter, warm practical light, visible fabric texture, wall grain, screen reflections, and mild low-light noise.\n\nComposite one original flat 2D cushion-doll companion into the lower foreground or beside the main real-world object. The companion should have a rounded pillow body, pale fabric patch face, closed crescent eyes, tiny stitched mouth, simple mitten hands, blanket hood or scarf, dark hand-drawn outline, flat muted color fills, and a slightly pasted-on sticker finish. It should feel like a calm illustrated friend inside the real photo, not a 3D mascot.\n\nThe doodle companion scale is mandatory: make the companion a large foreground subject, not a tiny corner sticker. In 9:16, it should occupy roughly 35-45% of the frame. In 16:9, it should occupy roughly 28-38% of the frame. Let the companion enter from the left or lower-left edge and allow partial cropping by the frame edge while keeping the real-world object readable beside or behind it.\n\nThe companion identity is mandatory: make it a new cushion-doll design, not a human child and not the reference toy. Do not give it dark hair, a tan skin-tone face, a navy sweater, pajama pants, smiley slippers, or the same seated silhouette as the reference.\n\nAdd only a few tiny hand-drawn diary marks such as a sleep line, star, spark, breath mark, or small smile",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main real-world person, object, or creative activity",
         "`SUBJECT_ACTION`": "editing, sketching, reading, arranging notes, listening, watching, resting, or reaching",
         "`PRODUCT_OR_PROP`": "laptop, tablet, sketchbook, notebook, headphones, mug, lamp, pillow, camera, or art tool",
@@ -11320,10 +11301,10 @@
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
-        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp"
+        "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp"
       ],
-      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp",
-      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.thumb.webp",
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.thumb.webp",
       "number": "ST000154",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
@@ -11675,7 +11656,9 @@
         "**前后对比角标** — 右下角添加圆角小图，显示原始照片的前后对比"
       ],
       "prompt": "Use the uploaded image as the only reference. Keep the person exactly the same, preserving their face, pose, clothing, hairstyle, lighting, colors, and proportions. Remove the original background and recreate the same environment as a loose hand-drawn sketch using only {线条颜色} felt-tip marker lines on a pure white background. The sketch should be quick, playful, imperfect, and confidently hand-drawn with medium-thick strokes, slight wobble, pressure variation, tiny gaps, and marker bleed—not vector art or technical line work. Keep the person 100% photorealistic with no sketch effect or outline applied to them. Place the subject naturally in front of the illustrated background, ensuring all {线条颜色} sketch lines remain behind the person. Add a small rounded-corner inset in the bottom-right corner showing the original uploaded photo of the exact same person and scene before the transformation for a clear before-and-after comparison. Ultra-clean editorial style, high resolution, strong contrast between the realistic subject and the bold {线条颜色} sketch, no extra colors, no gradients, and no paper texture.\n\n不要水印，不要多余文字，不要复杂背景，不要渐变，不要纸张纹理。\n",
-      "variables": {},
+      "variables": {
+        "线条颜色": "{线条颜色}"
+      },
       "source_url": "https://x.com/AIwithSynthia/status/2075806836347883940",
       "source_author": "AIwithSynthia",
       "preview_urls": [
@@ -11722,7 +11705,9 @@
         "**场景示例** — 蹲在蓝玫瑰旁/抱花束站立/大树下闭目/伸手摘苹果提篮子"
       ],
       "prompt": "Minimalist watercolor illustration on textured ivory handmade paper, soft pastel palette, delicate ink outlines, subtle watercolor bleeding, cozy storybook aesthetic, lots of clean negative space.\nA stylish young woman in modern casual clothing is the main subject, captured in a calm, emotional everyday moment. She wears an oversized trench coat or cardigan layered over soft neutral clothing, a long flowing skirt or wide-leg pants, leather loafers or ankle boots, and a simple crossbody bag. Medium-length natural hair gently frames her face.\nThe composition is intentionally small within the canvas, leaving generous empty space around the character. Soft expressive pose with gentle emotions, surrounded by tiny floating watercolor splashes, subtle butterflies, flowers, leaves, or seasonal elements depending on the scene.\nExamples of scenes:\n• Squatting beside a bouquet of blue roses while gently touching one flower.\n• Standing quietly while holding a wrapped bouquet against her chest.\n• Resting peacefully beneath a large tree with eyes closed.\n• Reaching upward toward a single apple hanging from a tree branch while carrying a basket of freshly picked apples.\nHand-painted watercolor textures, soft shadows, elegant brush strokes, muted earthy colors, warm natural atmosphere, peaceful lifestyle illustration, Japanese stationery art style, minimal editorial illustration, whimsical yet realistic proportions, premium watercolor painting, ultra-detailed, 8K.\n",
-      "variables": {},
+      "variables": {
+        "场景描述": "{场景描述}"
+      },
       "source_url": "https://x.com/Sairah_0/status/2086047521588265370",
       "source_author": "Sairah_0",
       "preview_urls": [
@@ -11938,7 +11923,6 @@
       ],
       "prompt": "Create an image in the \"Surreal Fish Doodle Landmark Photo Collage\" style.\n\nAspect ratio: {ASPECT_RATIO}.\n\nScene: {SUBJECT} {SUBJECT_ACTION}, using {PRODUCT_OR_PROP}, at {LOCATION}. Include {BACKGROUND_ELEMENTS}. Wardrobe styling: {WARDROBE_STYLE}.\n\nPhoto base: use a realistic bright travel photograph with clear natural daylight, postcard-like scenic depth, readable sky and water or architecture, and a believable tourist-view perspective. Keep the landmark recognizable.\n\nIllustration layer: overlay one oversized flat 2D illustrated subject across the foreground and middle ground. The subject should look pasted or screen-printed on top of the photo, with opaque flat color fills, thick black hand-drawn outlines, simplified hands or face, exaggerated scale, playful anatomy, and bold graphic wardrobe colors.\n\nCreature layer: add two to five fantastical folk-art fish or flying fish around the main subject. Give them mismatched fins, wing-like shapes, round eyes, black tiger-like body stripes, red coral fins, cobalt-blue sections, yellow bodies, and simple black outlines. Let some creatures float in the sky, skim the waterline, or pass behind the main subject.\n\nDoodle layer: add {ACCENT_SYMBOL} plus loose black marker loops, ink starbursts, blue water drops, curved strings, short splash dashes, and motion ticks as an independent graphic layer. Use these marks to create playful movement and connect the illustrated characters to the travel photo.\n\nText: keep typography minimal. If text is requested, use \"{MAIN_TEXT}\" only as a tiny hand-lettered travel note and \"{SECONDARY_TEXT}\" only as a sparse doodle label. Do not make large poster headlines.\n\nDerive only the visual language from the style. Change the landmark, subject pose, outfit, props, and creature arrangement for every new image. Do not include watermarks, usernames, creator IDs, signatures, QR codes, platform marks, app UI, copied reference characters, exact reference poses, brand logos, readable brand marks, full",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "oversized illustrated traveler, guide, fisherman, skateboarder, courier, musician, or explorer",
         "`SUBJECT_ACTION`": "leaning over a landmark, floating through the scene, pulling a stripe pole, balancing on a fish, chasing a creature, or bending around architecture",
         "`PRODUCT_OR_PROP`": "painted hiking staff, fishing line, travel bag, map, snack, camera, kite string, ferry ticket, umbrella, or oversized pencil",
@@ -11985,7 +11969,10 @@
         "**材质层级分明** — 透明、半透明、乳浊、颗粒或柔软部分彼此分层"
       ],
       "prompt": "围绕任意主题对象生成一套强广告感的近景海报画面：中心主题以真实可触的载体出现，占据视觉中轴并向前压近，顶部或表面保留蓬松、堆叠、颗粒、碎屑、泡沫、纹理或主题派生的附着物，让实物边缘遮住后方超大标题的一部分。标题使用厚重、紧压、全大写感的白色无衬线展示字，字距收紧、行距很短，先形成一整块坚硬的白色墙面，再被中心主题切开和覆盖；下方再用同样粗壮的短词组建立第二重落点，顶部和底部辅以小字号信息、奖章式小徽标、评分星号和引号短评，所有文字都像电影海报或季节限定广告的排片信息一样围绕中心物组织。背景采用主题派生的单一暖色或高情绪色平面，占最大面积，颜色不照搬固定色相，而按主题抽取一个饱和、干净、偏温热的主场色，搭配白色信息字、主题物的中明度主体色、少量深色阴影和颗粒点缀；整体保持明亮、洁净、直接，不加入灰雾或脏旧质感。光线来自上前方，主体表面高光清晰，右侧或一侧投出大块椭圆硬阴影，使平面背景有舞台感。材质层级要清楚：透明、半透明、乳浊、颗粒或柔软部分彼此分层，边缘略有真实摄影的压缩和反光，小字保持可读但不过度精修。画面重点是\"大字被实物压住\"的图文张力，若标题退到装饰、主体没有遮挡文字、背景变成复杂场景，都会削弱这种直接、热烈、可售卖的广告味。\n主题：{{主题}}\n用途：{{用途}}\n",
-      "variables": {},
+      "variables": {
+        "主题": "{{主题}}",
+        "用途": "{{用途}}"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2077361536683913337",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
@@ -12578,7 +12565,10 @@
         "**中英层级** — 中文 Slogan 为主体，英文短语小字副行"
       ],
       "prompt": "Pure solid cream white background, playful creative cartoon graffiti typography design. The main element is the Chinese slogan \"{中文Slogan}\" rendered as a bold cartoon graffiti font: exaggerated distorted strokes, rounded lively organic shapes, strong contrast between thick and thin strokes, chunky playful letterforms with smooth rounded edges. Black lettering with a clean white outline creating high contrast pop-out effect. Decorative elements in bright fluorescent green: small speech bubble shapes, a few scattered numbers, dynamic curved lines and squiggles around the letters. English phrase \"{英文副行}\" placed smaller beneath the Chinese in a rounded bold sans-serif. Youthful, energetic, trendy streetwear vibe, creative campaign poster typography, flat vector style, clean solid colors, no 3D shadow, no gradient. Every Chinese character must be clearly readable and correctly written, keep all text inside the safe area. Only decorative numbers are allowed as extra elements; do not add any other letters, words, labels, logos, or pseudo-text.\n",
-      "variables": {},
+      "variables": {
+        "中文Slogan": "{中文Slogan}",
+        "英文副行": "{英文副行}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -12729,7 +12719,10 @@
         "**中英层级** — 中文「夏日露营季」为主体，英文「Summer」小字副行"
       ],
       "prompt": "Pure solid fresh green background, premium creative hand-drawn trendy typography design. The main element is the Chinese slogan \"{中文Slogan}\" rendered as a creative hand-drawn trending font: abstractly deformed letterforms with a unique rhythm and dynamic sense of motion, playful distorted strokes, artistic bold hand-lettering with smooth organic curves and energetic flow. English phrase \"{英文副行}\" placed smaller as a complementary accent line. Cute cartoon camping motifs scattered around the title: small tent, campfire, stars, leaves, sun, clouds in a flat doodle style. High-contrast bright white lettering with subtle outline for clear readability. Premium art poster feel, flat vector style, clean solid colors, no 3D shadow, no gradient. Every Chinese character must be clearly readable and correctly written, keep all text inside the safe area. Do not add any other letters, words, labels, logos, or pseudo-text.\n",
-      "variables": {},
+      "variables": {
+        "中文Slogan": "{中文Slogan}",
+        "英文副行": "{英文副行}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -12816,7 +12809,10 @@
         "**排版** — 主标题横排居中 LARGE，下方英文副行小字，留白充足"
       ],
       "prompt": "A clean pure warm cream white solid color background with no texture and no gradient. In the center, large playful bubble-letter typography: the Chinese characters \"{第一行}\" rendered as thick rounded plump balloon-like strokes with a glossy highlight surface, hand-drawn slight deformation, cute and energetic. The letters use a soft gradient from peach pink to coral orange, gentle and refined. Below the main headline, a smaller English secondary line \"{第二行}\" in a simple rounded sans-serif typeface, centered, in a soft warm gray. Every stroke has a crisp clean edge, perfectly readable. Clean minimal layout with generous breathing space, high-end toy brand aesthetic. No other elements, no decorations, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
-      "variables": {},
+      "variables": {
+        "第一行": "{第一行}",
+        "第二行": "{第二行}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -13092,7 +13088,10 @@
         "**中英双语排版** — 中文主标题 + 下方英文副标题，构图平衡"
       ],
       "prompt": "\"{中文标题}\", bold black artistic typography, \"{英文副行}\" small English subtitle below, rounded strokes with varying thickness, dynamic and vibrant feel, modern eye-catching visual effect, white background, centered text layout, clean minimal design, pure typography poster, no decorations or extra elements\n",
-      "variables": {},
+      "variables": {
+        "中文标题": "{中文标题}",
+        "英文副行": "{英文副行}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -13356,7 +13355,6 @@
       ],
       "prompt": "Create a {ASPECT_RATIO} beverage launch advertisement in the Multi-Color Beverage Splash Ad System style for {PRODUCT_CATEGORY} and {DELIVERY_FORMAT}. Preserve these style anchors: one strong drink-category color system; giant white extruded block-letter architecture behind the product; one large diagonal fictional beverage pack cropped close near center; frozen splash, foam, ice, bubbles, condensation, or liquid sheets across the foreground; bold condensed italic white stacked headline typography; polished studio beverage lighting with crisp highlights; dense retail-ad layout with strong product hierarchy; delivery-context cues that stay secondary to the hero drink. Use {PRIMARY_COLOR} as the dominant field and {SECONDARY_COLOR} for shadows, side planes, liquid tint, or packaging accents. Replace all source content. Do not use Sprite, Coca-Cola, copied Korean text, copied Z/E/R/O layout, original green can, existing beverage logo, real brand name, watermark, QR code, legal microcopy, or exact source slogan. New content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary supporting text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Adapt the composition to {ASPECT_RATIO}: 9:16 should feel usable as a vertical store poster, fridge sticker, or Xiaohongshu cover; 16:9 should feel usable as a subway lightbox, brand launch KV, or supermarket display backdrop. Use photoreal commercial beverage retouching, transparent frozen liquid motion, glossy cold surfaces, crisp contrast, and a fresh kinetic launch-ad mood.",
       "variables": {
-        "变量": "说明",
         "`SUBJECT`": "main subject",
         "`SUBJECT_ACTION`": "main action",
         "`PRODUCT_OR_PROP`": "object, product, or prop",
@@ -13451,7 +13449,11 @@
         "**文化感** — 适合有文化底蕴的活动主题（露营/茶/国风/节气）"
       ],
       "prompt": "A clean pure warm sand beige solid color background with no texture and no gradient. In the center, the Chinese characters \"{第一行}\" and \"{第二行}\" rendered as a monumental bas-relief sculpture: flat low-relief, low-reflectance paper-pulp texture, soft diffused lighting with very subtle bright edge lines on the raised outlines, low-saturation warm sand color, elegant Chinese serif typeface. The title is split into two stacked lines, both centered: first line compact \"{第一行}\", second line enlarged with wide letter spacing \"{第二行}\". Below, a smaller secondary line \"{副行}\" in the same bas-relief serif style, smaller scale. Clean minimal layout with generous whitespace, high-end cultural brand aesthetic. Every character must be clearly readable with crisp clean edges. No other elements, no decorations, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.\n",
-      "variables": {},
+      "variables": {
+        "第一行": "{第一行}",
+        "第二行": "{第二行}",
+        "副行": "{副行}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -13588,7 +13590,10 @@
         "**中英层级** — 中文 Slogan 为主体，英文短语小字副行"
       ],
       "prompt": "Pure black background, flat vector illustration style, creative typography logo design. The main element is the Chinese slogan \"{中文Slogan}\" rendered as a pioneer abstract font: letterforms with boldly restructured strokes, partial strokes exaggerated, extended and disconnected, smooth flowing lines with strong rhythmic momentum, high-contrast stroke weight, clean sharp edges, flat design with no 3D shadow, no gradient. The English phrase \"{英文副行}\" placed smaller beneath the Chinese, in a refined thin geometric sans-serif, subtle letter spacing. Monochrome white on black as the base, with one restrained bright accent color (electric orange) on a single key stroke to create a visual focal point. Overall avant-garde, premium, strong visual impact, master-level typography design. Every character must be clearly readable, keep all text inside the safe area. Do not add any other letters, words, numbers, labels, logos, or pseudo-text.\n",
-      "variables": {},
+      "variables": {
+        "中文Slogan": "{中文Slogan}",
+        "英文副行": "{英文副行}"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [

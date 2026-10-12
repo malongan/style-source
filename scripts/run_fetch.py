@@ -7,7 +7,8 @@ import sys
 import os
 
 # 设置工作目录
-work_dir = '/Users/qiqi/.qwenpaw/workspaces/github-manager/style-source'
+# 仓库根：默认取本脚本所在目录的上一级，可用 STYLE_SOURCE_ROOT 覆盖
+work_dir = os.environ.get('STYLE_SOURCE_ROOT') or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(work_dir)
 
 # Twitter URL

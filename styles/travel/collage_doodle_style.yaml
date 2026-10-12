@@ -42,9 +42,6 @@ features:
 - title: '涂鸦层：添加 ACCENT_SYMBOL，以及松散的黑色马克笔回环、墨点星爆、蓝色水滴、弧形线条、短促飞溅笔触与动势小符号，作为独立的图形图层。'
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: oversized illustrated traveler, guide, fisherman, skateboarder, courier, musician, or explorer
   desc: ''
@@ -93,6 +90,5 @@ prompt: 'Create an image in the "Surreal Fish Doodle Landmark Photo Collage" sty
 
   Derive only the visual language from the style. Change the landmark, subject pose, outfit, props, and creature arrangement for every new image. Do not include watermarks, usernames, creator IDs, signatures,
   QR codes, platform marks, app UI, copied reference characters, exact reference poses, brand logos, readable brand marks, full'
-preview: https://malongan.github.io/images/vigo_previews/surreal-fish-doodle-landmark-photo-collage.jpg
 id: collage_doodle_style
 code: ''

@@ -21,9 +21,6 @@ features:
 - title: 超大号粗体白色标题，略微倾斜，层叠在天空区域上方，具立体海报感。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject or avatar group
   desc: ''
@@ -49,6 +46,5 @@ prompt: 'Create an {ASPECT_RATIO} high-energy social campaign poster in Sunny 3D
   in rounded sans-serif. Graphic accents: add neon lime and cyan hand-drawn loops, swoops, underlines, and the accent symbol "{ACCENT_SYMBOL}" around the headline without using any real platform logo. Rendering:
   glossy stylized 3D avatars, smooth toy-like faces and rounded hands, tactile fabric and prop textures, crisp sunny outdoor lighting, vivid blue-green commercial palette, polished high-resolution raster
   finish.'
-preview: https://malongan.github.io/images/vigo_previews/sunny-3d-avatar-campaign.jpg
 id: vigo_sunny_3d_avatar_campaign
 code: ''

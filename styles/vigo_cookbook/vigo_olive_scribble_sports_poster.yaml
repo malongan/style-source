@@ -21,9 +21,6 @@ features:
 - title: 红色马克笔弧线、箭头，以及横穿主体的动势回环。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main action subject
   desc: ''
@@ -89,6 +86,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Olive Scribble Sports Poster Styl
 
   Important content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text, while avoiding the original soccer/overhead-kick
   source content.'
-preview: https://malongan.github.io/images/vigo_previews/olive-scribble-sports-poster.jpg
 id: vigo_olive_scribble_sports_poster
 code: ''

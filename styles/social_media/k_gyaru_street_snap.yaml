@@ -83,6 +83,5 @@ prompt: 'Transform the provided reference image into a cute, trendy, photorealis
 
   Avoid: night lighting, dark neon atmosphere, unreadable or incorrect text, hidden text, extra fingers, deformed hands, hidden nails, covered face, oversized text, over-retouched skin, HDR look, stiff
   posing, costume-like styling, studio editorial look, or losing the reference likeness.'
-preview: https://malongan.github.io/images/styles_previews/k_gyaru_street_snap.jpg
 id: k_gyaru_street_snap
 code: ''

@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: 验证所有风格文件
-        run: python3 scripts/validate_all.py
+        run: python3 scripts/validate_all.py --strict
 
       - name: 验证生成文件一致性
         run: |

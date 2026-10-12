@@ -44,9 +44,6 @@ features:
 - title: 让 MAIN_TEXT 与 SECONDARY_TEXT 像手写、日记式的随手标注，而不是排成干净品牌的字体。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main person, group, object, or scene focus
   desc: ''
@@ -67,6 +64,5 @@ variables:
   desc: ''
 prompt: Create a {ASPECT_RATIO} image in urban-transit-doodle-diary-style featuring {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, set in {LOCATION}. Include {BACKGROUND_ELEMENTS}, main text "{MAIN_TEXT}",
   secondary text "{SECONDARY_TEXT}", {ACCENT_SYMBOL}, and {WARDROBE_STYLE}.
-preview: https://malongan.github.io/images/vigo_previews/urban-transit-doodle-diary.jpg
 id: vigo_urban_transit_doodle_diary
 code: ''

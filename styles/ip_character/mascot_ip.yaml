@@ -65,6 +65,5 @@ prompt: |
   - Use short graphic typography only; headline text can be English or Chinese, but it must behave as a poster shape.
   
   Important content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text while preserving the style fidelity anchors. Avoid coffee themes, source slogans, course identities, watermarks, UI screenshots, real brand marks, exact source mascot anatomy, realistic 3D rendering, glossy product photography, anime scenes, painterly detail, long paragraphs, and cluttered background scenery.
-preview: https://malongan.github.io/images/styles_previews/mascot_ip.png
 id: mascot_ip
 code: ''

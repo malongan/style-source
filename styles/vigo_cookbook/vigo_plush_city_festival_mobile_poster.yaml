@@ -41,9 +41,6 @@ features:
 - title: 竖版版式中加入白色圆角移动端底部弹层，带一个小把手图标与 CTA 文案。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -93,6 +90,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Plush City Festival Mobile Poster
 
 
   Avoid dark mood, gritty realism, hard-edged sci-fi, luxury travel styling, unreadable text, scary mascots, and abstract backgrounds.'
-preview: https://malongan.github.io/images/vigo_previews/plush-city-festival-mobile-poster.jpg
 id: vigo_plush_city_festival_mobile_poster
 code: ''

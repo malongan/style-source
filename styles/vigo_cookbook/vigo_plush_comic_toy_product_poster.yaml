@@ -48,9 +48,6 @@ features:
 - title: 用 TYPOGRAPHY_LANGUAGE 控制大标题的处理方式与辅助字体的表现。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main plush product, toy vehicle, mascot object, gadget, food mascot, or collectible prop
   desc: ''
@@ -91,6 +88,5 @@ prompt: 'Create an image in the "Plush Comic Toy Product Poster" style.
 
 
   Do not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference text, copied brand names, or copied license-plate details.'
-preview: https://malongan.github.io/images/vigo_previews/plush-comic-toy-product-poster.jpg
 id: vigo_plush_comic_toy_product_poster
 code: ''

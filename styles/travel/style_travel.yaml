@@ -41,9 +41,6 @@ features:
 - title: 把超大号小写目的地大标题以纯白色横贯整张画面的中心，穿过全部三个分栏。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main traveler, host, couple, group, or implied travel point of view
   desc: ''
@@ -98,6 +95,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Clean Triptych Travel Vlog Thumbn
 
   Avoid watermark, username, creator ID, platform logo, QR code, app UI, readable real brand logo, brand name, celebrity likeness, cluttered sticker collage, scrapbook overload, neon poster, grunge texture,
   luxury travel ad, corporate brochure, colorful headline, heavy drop shadow, outlined text, illegible destination text, plain single-photo background, and dark muddy image.'
-preview: https://malongan.github.io/images/vigo_previews/clean-triptych-travel-vlog-thumbnail.jpg
 id: style_travel
 code: ''

@@ -21,9 +21,6 @@ features:
 - title: 优雅的中性色调，以象牙白、沙色、灰褐、石灰灰、黑色、驼色、烟草棕与低饱和金属色为主。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main fashion model, pair of models, or editorial subject
   desc: ''
@@ -48,6 +45,5 @@ prompt: 'Create a polished outdoor high-fashion editorial photograph in the Sunl
   elongated silhouettes, hard Mediterranean daylight, bright pale sky, warm stone or plaster texture, crisp cast shadows, natural lens flare or glint, refined neutral color grading with black or tobacco
   anchors, visible fabric and leather detail, calm unsmiling luxury-campaign posture, and sparse premium props with no visible logos. Do not add overlay typography, watermarks, readable brand names, QR
   codes, social media UI, price tags, crowds, fantasy costumes, cartoon rendering, collage, vector graphics, or studio poster design. Aspect ratio: {ASPECT_RATIO}.'
-preview: https://malongan.github.io/images/vigo_previews/sunlit-architectural-fashion-editorial.jpg
 id: editorial_fashion
 code: ''

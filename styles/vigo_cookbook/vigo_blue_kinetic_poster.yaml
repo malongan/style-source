@@ -21,9 +21,6 @@ features:
 - title: 字形钝重、厚重、略微不规则，偏漫画感，而非精致或企业化的气质。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject, mascot, object, activity, or event being announced
   desc: ''
@@ -48,6 +45,5 @@ prompt: 'Create a {ASPECT_RATIO} raster poster in the Blue Lime Kinetic Comic Ty
   {SUBJECT} doing {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, located in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol:
   {ACCENT_SYMBOL}. Wardrobe or subject styling: {WARDROBE_STYLE}. Keep the composition shallow, loud, compressed, tilted, and type-dominant. Avoid recreating source content: {SOURCE_CONTENT_TO_AVOID}. No
   watermark, no username, no QR code, no brand logo.'
-preview: https://malongan.github.io/images/vigo_previews/blue-lime-kinetic-comic-type-poster.jpg
 id: vigo_blue_kinetic_poster
 code: ''

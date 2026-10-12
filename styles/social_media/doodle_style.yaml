@@ -46,9 +46,6 @@ features:
 - title: 用 LIGHT_SOURCE 保持快照的布光方向与温暖房间氛围。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main real-world person, object, or creative activity
   desc: ''
@@ -95,6 +92,5 @@ prompt: 'Create an image in the "Cozy Bedroom Doodle Companion Snapshot" style.
 
 
   Add only a few tiny hand-drawn diary marks such as a sleep line, star, spark, breath mark, or small smile'
-preview: https://malongan.github.io/images/vigo_previews/cozy-bedroom-doodle-companion-snapshot.jpg
 id: doodle_style
 code: ''

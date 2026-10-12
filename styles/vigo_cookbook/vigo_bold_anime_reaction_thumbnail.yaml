@@ -40,9 +40,6 @@ features:
 - title: 在新主体上保持相同的视觉类型、密度级别与渲染方式。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main adult anime subject or paired reaction subjects
   desc: ''
@@ -106,6 +103,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Bold Anime Reaction Thumbnail Sty
 
 
   Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.'
-preview: https://malongan.github.io/images/vigo_previews/bold-anime-reaction-thumbnail.jpg
 id: vigo_bold_anime_reaction_thumbnail
 code: ''

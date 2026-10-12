@@ -21,9 +21,6 @@ features:
 - title: 字体被拉伸、压缩、加粗、商业化，并因透视产生空间扭曲，而非平铺陈列
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -50,6 +47,5 @@ prompt: 'Create a raster image in the Blue Chinese Perspective Type Canyon Style
   and dense warped side-wall support copy. Keep the palette strictly blue, black, white, and gray. Use clean flat 3D poster rendering, hard-edged vector-like planes, mild gray shading on white Chinese letters,
   very high contrast, no realistic people, no photographic products, no extra colors, no logos, no watermark. The image should feel like a loud compressed advertising tunnel made entirely from Chinese typography
   and perspective.'
-preview: https://malongan.github.io/images/vigo_previews/blue-chinese-perspective-type-canyon.jpg
 id: style_can
 code: ''

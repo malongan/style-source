@@ -21,9 +21,6 @@ features:
 - title: 沉静的超模姿态：修长的颈部、放松的手、从容的表情。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main supermodel or editorial fashion subject
   desc: ''
@@ -48,6 +45,5 @@ prompt: 'Create a {ASPECT_RATIO} premium analog fashion editorial poster photogr
   analog shadows, tactile fabric and metal textures, relaxed luxury mood, and a close low editorial camera angle. Add clean white lower-third typography: large uppercase headline text reading "{MAIN_TEXT}"
   followed by the accent "{ACCENT_SYMBOL}", with a smaller white caption block reading "{SECONDARY_TEXT}". The typography should feel printed on a fashion magazine prompt-card poster, not like a watermark
   or app UI. Do not use real logos or real brand marks.'
-preview: https://malongan.github.io/images/vigo_previews/sunlit-supermodel-nameplate-editorial.jpg
 id: editorial
 code: ''

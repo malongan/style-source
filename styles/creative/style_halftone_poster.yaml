@@ -27,9 +27,6 @@ features:
 - title: 一个主导性的蓝绿色半色调组合物体，作为雕塑式公益隐喻放置，而非写实场景。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -95,6 +92,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Halftone Assemblage Metaphor PSA 
 
 
   Important content rule: match the reference style first, then change the source content. Preserve the material-to-silhouette'
-preview: https://malongan.github.io/images/vigo_previews/halftone-assemblage-metaphor-psa-poster.jpg
 id: style_halftone_poster
 code: ''

@@ -21,9 +21,6 @@ features:
 - title: 大型黑色大标题由撕裂、压印、粗毛笔感的 CJK 启发式字块构成，边缘不均，带干墨质感。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main fruit or vegetable hero
   desc: ''
@@ -49,6 +46,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the Market Brush Produce Poster Style.
   top editorial header line; bottom row of small serif captions, stamps, stars, numbers, and parenthesis marks; palette limited to ivory, black, one saturated produce color, and small natural green accents;
   shallow product-still-life depth with minimal shadow; slight paper grain, ink breakup, soft highlight bloom, and analog poster softness. Important content rule: match the visual style first, then change
   the source content with new produce, new text, new props, and a new story premise.'
-preview: https://malongan.github.io/images/vigo_previews/market-brush-produce-poster.jpg
 id: vigo_market_brush_produce_poster
 code: ''

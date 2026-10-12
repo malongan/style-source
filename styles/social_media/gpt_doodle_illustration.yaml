@@ -64,6 +64,5 @@ prompt: "Create a cheerful, creative composition that blends a realistic subject
   \ notes\n- Casual tone (not serious, not corporate)\n- Include small fun labels or thoughts\n\nColor:\nBase: white / soft cream\nInk: soft black / dark grey\nAccents: 2–3 cheerful colors (yellow, sky\
   \ blue, soft red, mint, etc.)\n\nLighting:\n- Bright, soft, uplifting\n- No harsh shadows\n\nStyle:\n- Clean + playful + slightly imperfect\n- Feels human, warm, and creative\n\nConstraints:\n- Do NOT\
   \ overcrowd\n- Every doodle must have purpose or interaction\n- Keep subject clearly visible (no obstruction)\n- Maintain breathing space\n\nMood: [cheerful / curious / lighthearted / imaginative]"
-preview: https://malongan.github.io/images/styles_previews/gpt_doodle_illustration.png
 id: gpt_doodle_illustration
 code: ''
