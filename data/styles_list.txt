@@ -1,7 +1,8 @@
-共 300 个风格
+共 301 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
+ST0328 | 新中式古诗词细线设色插画海报 | https://malongan.github.io/style-source/images/styles_previews/xinzhongshi_poem_fine_line_poster_ac164557.webp
 ST0281 | 木刻几何海报 | https://malongan.github.io/style-source/images/styles_previews/woodcut_geometry_poster_0804b787.webp
 ST0003 | 旷野的风 | https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp
 ST0275 | 狂野草书书法海报 | https://malongan.github.io/style-source/images/styles_previews/wild_cursive_calligraphy_poster_761aca54.webp
