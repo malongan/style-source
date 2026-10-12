@@ -11,7 +11,7 @@
 | 🎨 品牌视觉 | 25 | 品牌KV、公益态度 |
 | 🎪 创意特殊 | 82 | 融合、复古、手绘 |
 | 🛒 电商 | 24 | 产品主图、海报、美食 |
-| 📰 编辑排版 | 13 | 杂志封面、海报排版、编辑设计、字体实验 |
+| 📰 编辑排版 | 14 | 杂志封面、海报排版、编辑设计、字体实验 |
 | 👔 时尚美容 | 9 | 时尚大片、美妆 |
 | 🎭 IP/角色 | 9 | 吉祥物、头像、游戏 |
 | 📚 印刷品 | 20 | 书籍封面、电影海报 |
@@ -21,7 +21,7 @@
 | 🖋️ 字体排版 | 16 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：301 个风格文件**
+**总计：302 个风格文件**
 
 ---
 
@@ -193,6 +193,7 @@
 | japanese_travel_editorial_poster | #日系旅行杂志 #编辑海报 #横向闯入构图 | 旅行杂志、品牌海报、角色立绘、社交媒体创意内容 | 9:16 |
 | japanese_woodblock_exhibition_poster | #japanese_woodblock #ukiyo_e #exhibition_poster | 美术馆展览海报、品牌KV、传统艺术推广、文化类设计 | 9:16 |
 | modern_east_asian_paper_poster | #现代东方 #编辑设计 #纸艺质感 | 文化活动海报、展览、品牌视觉、东方文化机构宣传、编辑版式设计 | 9:16 |
+| oriental_museum_ceramic_typography_poster | #东方文博 #器物主视觉 #毛笔书法 | 文化展览海报、博物馆主视觉、文创品牌KV、艺术出版物封面 | 9:16 |
 | porcelain_bottle_character_spray | #editorial #fashion illustration #minimalist | 品牌KV、杂志封面、人物群像主视觉、艺术企划主视觉 | 9:16 |
 | restrained_paper_infographic | #信息图 #纸艺感 #线条插画 | 品牌KV、文化活动海报、编辑设计、知识档案海报、独立出版封面 | 3:4 |
 | swiss_editorial_character_poster | #瑞士主义 #国际主义平面设计 #超大字体 | 品牌海报、杂志封面、人物立绘、文化活动主视觉 | 9:16 |
