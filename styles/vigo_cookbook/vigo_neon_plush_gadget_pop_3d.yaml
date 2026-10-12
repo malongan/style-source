@@ -21,9 +21,6 @@ features:
 - title: 配色以电光青柠为基底，搭配青色、天蓝、品红、薰衣草紫、黄色、白色、铬灰，以及少量黑色细节。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main plush mascot, fuzzy object, or toy-like character
   desc: ''
@@ -51,6 +48,5 @@ prompt: 'Create a {ASPECT_RATIO} finished raster image in the "Neon Plush Gadget
   username, creator ID, platform logo, QR code, signature, brand mark, app mark, copied source text, VIP, membership card, camera-on-head, green dragon, dinosaur, monster head, blue snout, FILLTER tag,
   barcode spray can, copied flower button, copied pink basketball, exact checkerboard card, flat vector art, dark cinematic realism, natural landscape, detailed real room, long readable paragraphs, corporate
   interface.'
-preview: https://malongan.github.io/images/vigo_previews/neon-plush-gadget-pop-3d.jpg
 id: vigo_neon_plush_gadget_pop_3d
 code: ''

@@ -28,9 +28,6 @@ features:
 - title: 次级绿色、红色、黑色或浅色色块位于主体之后，并以厚重黑色笔触勾边。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main rounded mascot, figure, product, object, or visual subject
   desc: ''
@@ -91,6 +88,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Bold Block Mascot Poster Style" v
   Important content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text while preserving the style fidelity anchors. Avoid
   coffee themes, source slogans, course identities, watermarks, UI screenshots, real brand marks, exact source mascot anatomy, realistic 3D rendering, glossy product photography, anime scenes, painterly
   detail, long paragraphs, and cluttered background scenery.'
-preview: https://malongan.github.io/images/vigo_previews/bold-block-mascot-poster.jpg
 id: vigo_bold_block_mascot_poster
 code: ''

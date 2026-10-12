@@ -49,6 +49,6 @@ variables:
 prompt: 大师级排版，极简主义，半调图案，噪点杂色，丝网印刷质感。 宗教朋克风拼贴海报，以米白为基底，宝蓝与黑色为主色调；核心是黑白线稿风格的吹号角的天使插画（翅膀、姿态具古典宗教感）；顶部文字"A HIERARCHY OF ANGELS IS A RANKING SYSTEM OF ANGELS..."，搭配未来感宝蓝几何字体"END OF LIFE"；画面穿插多组文字与符号：竖排宝蓝粗体字"HIERARCHY""SERVE"，黑色小字"BLESS
   UR ALL SERVANTS MY LORD""ANGELS CHARGE OF YOU TO PROTECT YOU IN ALL OF WAYS"，数字"841""7"，宝蓝艺术字体"DIVINE LIGHT""ORDERS""HOLY"，还有螺旋建筑小插画；整体融合古典宗教元素、朋克拼贴排版、赛博未来字体，带复古印刷的颗粒纹理，营造出宗教哲学与先锋艺术交织的思辨氛围。 左上角小字"POSTER
   DESIGN" 右下角极小字"NOFUN DESGIN"
-preview: https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.jpg
+# （已移除失效的 preview: https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.jpg）
 id: hierarchy_angels_poster
 code: ''

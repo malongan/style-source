@@ -21,9 +21,6 @@ features:
 - title: 第一个大标题词以黑色字体出现在锐利的白色矩形标签内。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main person, performer, worker, athlete, maker, or character who anchors the poster
   desc: ''
@@ -50,6 +47,5 @@ prompt: 'Create a {ASPECT_RATIO} monochrome editorial poster in the Mono Noir Ty
   type inside a crisp white rectangular label, then set the remaining lines in heavy white type directly on the dark background. Add "{SECONDARY_TEXT}" only as tiny unobtrusive white microcopy if it fits.
   Use {ACCENT_SYMBOL} only as a minimal typographic mark. Keep type sharp, flat, square-cornered, and massive. Photo treatment: realistic black-and-white studio photography, strong shadow falloff, visible
   facial or fabric texture, subtle grain, no color, no illustration, no collage, no extra panels, no logos, no watermark.'
-preview: https://malongan.github.io/images/vigo_previews/mono-noir-type-portrait-poster.jpg
 id: vigo_mono_noir_type_portrait_poster
 code: ''

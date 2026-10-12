@@ -40,9 +40,6 @@ features:
 - title: 字体用米白填充、黑色描边、黄/红/钴蓝错位阴影、轻微的内部涂鸦线、大小不均的比例，营造童趣的西班牙旅行海报感。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main hiker, traveler, athlete, explorer, or outdoor person
   desc: ''
@@ -97,6 +94,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Mountain Trail Monster Doodle Pos
 
   Avoid watermark, username, creator ID, platform logo, QR code, app UI, realistic demon, horror, blood, violence, 3D mascot, plush toy, full cartoon background, corporate layout, minimalist typography,
   dense text, studio portrait, and low-detail mountains.'
-preview: https://malongan.github.io/images/vigo_previews/mountain-trail-monster-doodle-poster.jpg
 id: doodle_style_poster_1
 code: ''

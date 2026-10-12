@@ -21,9 +21,6 @@ features:
 - title: 高饱和马克笔填色呈现可见颗粒、细小留白缝隙，以及粗糙的手工上色质感。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main oversized creature or object-character
   desc: ''
@@ -49,6 +46,5 @@ prompt: 'Create a {ASPECT_RATIO} raster poster in the Rough Marker Monster Poste
   text integrated into empty corners; tiny dots, hatch marks, cheek spots, rectangles, and scribble accents; limited palette with one dominant bright body color, warm yellow-orange accents, white eye or
   mouth shapes, and black text; flat handmade construction with no realistic perspective, no 3D, no clean vector polish, no photographic environment. Important content rule: preserve the visual style first,
   then change the content with a new subject, new action, new prop, new fictional text, and new story premise.'
-preview: https://malongan.github.io/images/vigo_previews/rough-marker-monster-poster.jpg
 id: vigo_rough_marker_monster_poster
 code: ''

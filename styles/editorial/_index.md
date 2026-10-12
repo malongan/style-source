@@ -4,13 +4,16 @@
 
 | 风格 | 标签 | 适用场景 | 比例 |
 |------|------|----------|------|
-| japanese_editorial_geometric_poster | #编辑几何 #圆形构成 #点线面 #日式编辑 #低饱和配色 | 文化活动海报、展览、品牌视觉、编辑版式 | 9:16 |
-| japanese_museum_editorial_poster | #日本美术馆 #编辑设计 #传统工艺 #非对称排版 #档案信息 | 品牌KV、概念海报、传统工艺展示、美术馆展览 | 9:16 |
-| restrained_paper_infographic | #信息图 #纸艺感 #线条插画 #版画风 #编辑设计 | 品牌KV、文化活动海报、编辑设计、知识档案海报、独立出版封面 | 3:4 |
-| east_asian_enclosing_exhibition_poster | #东亚现代主义 #包围式构图 #负空间 #日式编辑 #字体海报 | 品牌KV、展览海报、概念设计、文化杂志视觉、独立出版封面 | 9:16 |
-| japanese_woodblock_exhibition_poster | #木版画 #浮世绘 #展览海报 #传统版画 #图文穿插 #美术馆级 | 美术馆展览海报、品牌KV、传统艺术推广、文化类设计 | 9:16 |
-| modern_east_asian_paper_poster | #现代东方 #编辑设计 #纸艺质感 #大色域 #微场景 #手工纸 #水彩肌理 | 文化活动海报、展览、品牌视觉、东方文化机构宣传、编辑版式设计 | 9:16 |
-| experimental_knowledge_archive_poster | #科学图鉴 #荧光黄 #编辑设计 #知识档案 #独立出版 | 品牌KV、文化活动海报、概念设计展、品牌特刊、独立出版封面 | 3:4 |
-| swiss_editorial_character_poster | #瑞士主义 #超大字体 #非对称网格 #编辑肖像 #黑白+强调色 | 品牌海报、杂志封面、人物立绘、文化活动主视觉 | 9:16 |
-| porcelain_bottle_character_spray | #白瓷瓶 #角色喷出 #Editorial时尚 #半平涂 #低饱和留白 #角色群像 | 品牌KV、杂志封面、人物群像主视觉、艺术企划主视觉 | 9:16 |
-| central_axis_cultural_poster | #中轴夹景 #中央硬轴 #方向性张力 #编辑设计 #强动势 #文化海报 | 品牌文化海报、编辑设计、展览视觉、品牌KV | 9:16 |
+| absurd_meme_editorial_poster | #反设计 #中文互联网Meme #学生展览海报 | 青年杂志、社交媒体、艺术学院海报、中文互联网Meme创作 | 3:4 |
+| central_axis_cultural_poster | #editorial #central-axis #cultural-poster | 品牌文化海报、编辑设计、展览视觉、品牌KV | 9:16 |
+| east_asian_enclosing_exhibition_poster | #东亚现代主义 #包围式构图 #日式编辑设计 | 品牌KV、展览海报、概念设计、文化杂志视觉、独立出版封面 | 9:16 |
+| experimental_knowledge_archive_poster | #scientific-illustration #fluorescent-yellow #editorial-design | 品牌KV、文化活动海报、概念设计展、品牌特刊、独立出版封面 | 3:4 |
+| fuse_bead_editorial_poster | #拼豆艺术 #像素艺术 #色卡展示 | 品牌视觉、创意海报、艺术编辑设计、色卡研究页面 | 3:4 |
+| japanese_editorial_geometric_poster | #japanese_editorial #geometric_poster #circle_composition | 文化活动海报、展览、品牌视觉、编辑版式 | 9:16 |
+| japanese_museum_editorial_poster | #japanese_museum_editorial #exhibition_poster #typography | 品牌KV、概念海报、编辑设计、传统工艺展示 | 9:16 |
+| japanese_travel_editorial_poster | #日系旅行杂志 #编辑海报 #横向闯入构图 | 旅行杂志、品牌海报、角色立绘、社交媒体创意内容 | 9:16 |
+| japanese_woodblock_exhibition_poster | #japanese_woodblock #ukiyo_e #exhibition_poster | 美术馆展览海报、品牌KV、传统艺术推广、文化类设计 | 9:16 |
+| modern_east_asian_paper_poster | #现代东方 #编辑设计 #纸艺质感 | 文化活动海报、展览、品牌视觉、东方文化机构宣传、编辑版式设计 | 9:16 |
+| porcelain_bottle_character_spray | #editorial #fashion illustration #minimalist | 品牌KV、杂志封面、人物群像主视觉、艺术企划主视觉 | 9:16 |
+| restrained_paper_infographic | #信息图 #纸艺感 #线条插画 | 品牌KV、文化活动海报、编辑设计、知识档案海报、独立出版封面 | 3:4 |
+| swiss_editorial_character_poster | #瑞士主义 #国际主义平面设计 #超大字体 | 品牌海报、杂志封面、人物立绘、文化活动主视觉 | 9:16 |

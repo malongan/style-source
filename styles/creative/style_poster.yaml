@@ -42,9 +42,6 @@ features:
 - title: 让字体看起来是印在折叠表面上的：被中央折痕分开、因透视而变形、被海报边缘裁切，并带纸张颗粒的轻微质感。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main person, athlete, dancer, model, musician, founder, maker, or product hero
   desc: ''
@@ -83,6 +80,5 @@ prompt: 'Create an image in folded-diamond-perspective-type-poster-style.
 
   Mood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop.
   Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.'
-preview: https://malongan.github.io/images/vigo_previews/folded-diamond-perspective-type-poster.jpg
 id: style_poster
 code: ''

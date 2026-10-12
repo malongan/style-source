@@ -125,6 +125,5 @@ prompt: 'Use this as a single-image prompt template.
 
 
   Generate one finished image only in [ASPECT RATIO].'
-preview: https://malongan.github.io/images/styles_previews/fashion_editorial_visual.png
 id: fashion_editorial_visual
 code: ''

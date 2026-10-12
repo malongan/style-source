@@ -46,9 +46,6 @@ features:
 - title: 在照片正上方直接叠一层张扬的数字马克笔图层。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main person, group, student, artist, friend, commuter, shopper, or quiet candid figure
   desc: ''
@@ -104,6 +101,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Neon Doodle Gallery Snapshot" sty
 
   Avoid watermarks, usernames, platform logos, creator IDs, app marks, QR codes, clean vector-only illustration, fully illustrated backgrounds, polished ad layout, luxury editorial styling, perfect typography,
   empty sterile locations, identifiable celebrities, and tiny unreadable text.'
-preview: https://malongan.github.io/images/vigo_previews/neon-doodle-gallery-snapshot.jpg
 id: vigo_neon_doodle_gallery_snapshot
 code: ''

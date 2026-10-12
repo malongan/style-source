@@ -27,9 +27,6 @@ features:
 - title: 超大号窄体块状主标题，白色或冰灰色，部分被产品遮挡或被画框裁切。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main creator-tech product or object being promoted
   desc: ''
@@ -100,6 +97,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Blue HUD Macro Creator Tech Poste
 
   Important content rule: match the extracted style first, then change the exact source content. Product categories may be camera-adjacent when requested, but all outputs must stay brandless, non-identical,
   and newly worded.'
-preview: https://malongan.github.io/images/vigo_previews/blue-hud-macro-product-poster.jpg
 id: vigo_blue_hud_macro_product_poster
 code: ''

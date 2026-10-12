@@ -43,9 +43,6 @@ features:
 - title: 用 ACCENT_SYMBOL 作颜色点缀、涂鸦笔触、箭头与贴纸式强调。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -99,6 +96,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Subway Doodle Photo Hybrid" style
 
   Avoid clean vector illustration, fully illustrated backgrounds, luxury editorial polish, empty trains, perfect symmetry, branded mascots, overly clean typography, watermarks, usernames, QR codes, platform
   logos, creator IDs, and app marks.'
-preview: https://malongan.github.io/images/vigo_previews/subway-doodle-photo-hybrid.jpg
 id: vigo_subway_doodle_photo_hybrid
 code: ''

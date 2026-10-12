@@ -28,9 +28,6 @@ features:
 - title: 卡片内部使用暖米色、褪色赭石、深红、橙、棕与黑墨，配色克制。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: food item or plated dish shown as the main sales focus
   desc: ''
@@ -55,6 +52,5 @@ prompt: 'Create a {ASPECT_RATIO} promotional food poster in the "Black Cutout Fo
   torn edges; each card silhouette must be visibly different from other cases; dense Chinese street-food ad hierarchy; oversized rough hand-brushed Chinese lettering; realistic clipped food photo collage
   placed on the flat card; bold yuan price medallion with a value that is not 8; tiny vertical side seals and craft labels; deep red bottom ribbon with short white lettering; ochre, mustard, seal red, dark
   brown ink, warm cream paper, paper grain, slight scan softness, subtle card shadow. Match the reference style first, then change the dish, text, prop, card outline, price, and layout details.'
-preview: https://malongan.github.io/images/vigo_previews/black-cutout-food-card-ad.jpg
 id: vigo_black_cutout_food_card_ad
 code: ''

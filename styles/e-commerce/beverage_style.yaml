@@ -21,9 +21,6 @@ features:
 - title: 字体粗体、窄体、斜体，以白色为主，层叠成紧凑的广告文案块。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -51,6 +48,5 @@ prompt: 'Create a {ASPECT_RATIO} beverage launch advertisement in the Multi-Colo
   Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Adapt the composition to {ASPECT_RATIO}: 9:16 should feel usable as a vertical store poster, fridge sticker, or Xiaohongshu cover;
   16:9 should feel usable as a subway lightbox, brand launch KV, or supermarket display backdrop. Use photoreal commercial beverage retouching, transparent frozen liquid motion, glossy cold surfaces, crisp
   contrast, and a fresh kinetic launch-ad mood.'
-preview: https://malongan.github.io/images/vigo_previews/multi-color-beverage-splash-ad-system.jpg
 id: beverage_style
 code: ''

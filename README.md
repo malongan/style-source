@@ -1,6 +1,6 @@
 # Style Source — 风格提示词源文件仓库
 
-> 风格提示词的「唯一真相之源」。131 个 AI 绘画风格提示词，涵盖 10 个分类。
+> 风格提示词的「唯一真相之源」。300 个 AI 绘画风格提示词，涵盖 12 个分类。
 > 所有 .yaml 风格文件在此维护，CI 自动校验格式，Pages 自动部署画廊。
 
 ---
@@ -23,10 +23,10 @@ cd style-source
 ## 目录结构
 
 ```
-├── styles/              ← 风格 .yaml 源文件（131 个）
-├── images/              ← 预览图
-├── data/styles.json     ← 风格数据
-├── gallery.html         ← 画廊页面
+├── styles/              ← 风格 .yaml 源文件（300 个，12 个分类）
+├── images/              ← 预览图（styles_previews/{id}_{8位后缀}.webp + .thumb.webp）
+├── data/styles.json     ← 风格数据（生成物，勿手改）
+├── gallery.html         ← 画廊页面（生成物，勿手改）
 ├── scripts/             ← 工具脚本
 └── .github/workflows/   ← CI/CD
 ```

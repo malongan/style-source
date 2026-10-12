@@ -43,9 +43,6 @@ features:
 - title: 使用酸性青柠、电光蓝、警示红、纸白与墨黑。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject, performer, model, musician, dancer, stylist, or youth-culture character
   desc: ''
@@ -69,6 +66,5 @@ prompt: Create a {ASPECT_RATIO} K-pop apocalypse ransom zine poster featuring {S
   layer, plus smaller sticker blocks and side editorial captions reading "{SECONDARY_TEXT}". Use acid lime, electric blue, alert red, paper white, and ink black. Add {ACCENT_SYMBOL} near the portrait. Finish
   with a saturated bottom masthead strip, rough photocopy grain, halftone speckles, scan noise, uneven paper shadows, and DIY magazine collage energy. Do not include watermarks, usernames, creator IDs,
   QR codes, platform logos, app marks, copied publication logos, or exact source text.
-preview: https://malongan.github.io/images/vigo_previews/k-pop-apocalypse-ransom-zine.jpg
 id: vigo_k_pop_apocalypse_ransom_zine
 code: ''

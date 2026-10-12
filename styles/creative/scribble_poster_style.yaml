@@ -38,9 +38,6 @@ features:
 - title: 避免：水印、用户名、创作者 ID、二维码、平台标识、应用界面、照搬参考文案、干净矢量插画、精致的企业运动海报、亮面 3D 文字、铬质、霓虹渐变、奢华编辑布光、平滑的喷枪阴影、无菌影棚背景、完美的字体排印、长段落文字、照片写实杂物、动漫、漫画超级英雄风格，以及滑板品牌标识。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main skateboarder, dancer, musician, courier, student, or youth culture figure
   desc: ''
@@ -66,6 +63,5 @@ prompt: 'Create an image in Teenage Skate Scribble Screenprint Poster style. Asp
   and handmade indie skate zine energy. Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate sports poster,
   glossy 3D text, chrome, neon gradient, luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero
   style, and skateboard brand logo.'
-preview: https://malongan.github.io/images/vigo_previews/teenage-skate-scribble-screenprint-poster.jpg
 id: scribble_poster_style
 code: ''

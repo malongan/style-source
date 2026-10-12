@@ -12,7 +12,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: 格式验证
-        run: python3 scripts/validate_all.py
+        # --strict：有 error 即失败（此前 validate_all.py 恒 exit 0 → 这个 PR 闸门是空的）
+        run: python3 scripts/validate_all.py --strict
 
       - name: 查重检测
         run: python3 scripts/check_duplicate.py --pr-mode
@@ -20,4 +21,5 @@ jobs:
           GIT_BASE_SHA: ${{ github.event.pull_request.base.sha }}
 
       - name: 配图 URL 可达性验证
-        run: python3 scripts/validate_all.py --check-images
+        # 只报可达性，不因遗留的失效 preview 阻断（实错由 --strict 那条把关）
+        run: python3 scripts/validate_all.py --check-images --no-strict

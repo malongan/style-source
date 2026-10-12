@@ -30,9 +30,6 @@ features:
 - title: '**中英双语**：中文主标题 + 英文副标题/理念标语'
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: 示例
 - kv_var: '`品牌名`'
   style_var: 品牌/项目名称
   desc: Her Name、AI品牌
@@ -81,6 +78,5 @@ prompt: |
   
   Rendering: strict Mondrian grid with thick black lines, primary color blocks (red, yellow, blue), white and black areas, clean geometric composition, bold typography as graphic element.
   No gradients, no shadows, no rounded corners, no photorealistic elements.
-preview: https://malongan.github.io/images/vigo_mondrian/future_city.jpg
 id: vigo_mondrian_style
 code: ''

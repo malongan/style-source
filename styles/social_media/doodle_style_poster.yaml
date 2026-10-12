@@ -48,9 +48,6 @@ features:
 - title: 用 MAIN_TEXT 作为融入构图的大型插画字体。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main driver, rider, guide, commuter, musician, courier, or traveler seen from behind
   desc: ''
@@ -90,6 +87,5 @@ prompt: 'Create an image in backseat-transit-doodle-letter-poster-style.
 
   Text: use "{MAIN_TEXT}" as the large illustrated word. Add "{SECONDARY_TEXT}" only as tiny clean sticker text if it does not clutter the image. Do not include watermarks, usernames, creator IDs, QR codes,
   platform logos, app marks, copied brand logos, or copied jacket graphics.'
-preview: https://malongan.github.io/images/vigo_previews/backseat-transit-doodle-letter-poster.jpg
 id: doodle_style_poster
 code: ''

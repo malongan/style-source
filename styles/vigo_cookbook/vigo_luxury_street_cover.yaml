@@ -21,9 +21,6 @@ features:
 - title: 主体清晰锐利，与模糊的石材、橱窗、路面与街道横向带状区域形成对比，布料质感清晰可读。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main fashion subject
   desc: ''
@@ -49,6 +46,5 @@ prompt: 'Create a realistic high-fashion street editorial magazine cover image i
   hair or moving fabric, sparse luxury accessory with no logo, premium magazine color grade, natural skin, tactile textile detail, and large centered all-caps high-contrast serif headline with very wide
   letter spacing in white or warm ivory. Do not use the word VOLUME, real brand names, watermarks, creator text, QR codes, social media UI, price tags, catalog lighting, runway crowds, cartoon style, collage,
   vector graphics, 3D render, or studio poster design. Aspect ratio: {ASPECT_RATIO}.'
-preview: https://malongan.github.io/images/vigo_previews/kinetic-luxury-street-fashion-cover.jpg
 id: vigo_luxury_street_cover
 code: ''

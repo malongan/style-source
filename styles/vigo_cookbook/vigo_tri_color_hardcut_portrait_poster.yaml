@@ -41,9 +41,6 @@ features:
 - title: 如果明确需要文字，把 MAIN_TEXT 作为极短的方块大标题放在面部区域之外，把 SECONDARY_TEXT 作为极小的辅助标记。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main person, character, performer, athlete, worker, object-as-portrait, or stylized figure
   desc: ''
@@ -82,6 +79,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Tri Color Hardcut Portrait Poster
 
   Avoid watermark, username, creator ID, QR code, platform logo, app interface, exact copied reference identity, exact copied face, photorealism, painterly blending, airbrush, soft shading, extra colors,
   thin line art, detailed background, paper texture, halftone, noisy distress, glossy 3D, anime style, comic paneling, long text, and brand logo.'
-preview: https://malongan.github.io/images/vigo_previews/tri-color-hardcut-portrait-poster.jpg
 id: vigo_tri_color_hardcut_portrait_poster
 code: ''

@@ -39,9 +39,6 @@ features:
 - title: 以写实城市街景照片为底层，再在其上合成一个超大号扁平 2D 卡通形象。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -89,6 +86,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Photo Illustration Overlay Poster
 
   Keep the background photographic and recognizable. Keep the illustrated character deliberately flat, graphic, and poster-like. Avoid copying any watermark, logo, or exact character from the reference
   image. Avoid plush 3D mascots, full-vector backgrounds, dark gritty mood, cyberpunk, and cluttered small text.'
-preview: https://malongan.github.io/images/vigo_previews/photo-illustration-overlay-poster.jpg
 id: vigo_photo_illustration_overlay_poster
 code: ''

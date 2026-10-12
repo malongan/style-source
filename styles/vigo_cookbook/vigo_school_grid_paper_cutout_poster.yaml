@@ -21,9 +21,6 @@ features:
 - title: 撕纸边缘下方的浅实拍阴影营造低浮雕感，同时镜头保持正面平视。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject or object silhouette
   desc: ''
@@ -88,6 +85,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "school-grid-paper-cutout-poster" 
 
 
   Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while preserving the style fidelity anchors.'
-preview: https://malongan.github.io/images/vigo_previews/school-grid-paper-cutout-poster.jpg
 id: vigo_school_grid_paper_cutout_poster
 code: ''

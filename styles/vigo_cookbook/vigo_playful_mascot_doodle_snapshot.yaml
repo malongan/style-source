@@ -43,9 +43,6 @@ features:
 - title: '在照片之上添加原创扁平卡通吉祥物贴纸：水果、云朵、星星、杯子、浪形与果冻状角色，配简单眼睛、粗深色描边、亮泽色块，以及阳光黄、蓝绿、珊瑚、天空蓝、薰衣草紫、米色与柔和粉点缀。'
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main person, group, product, pet, or focal object
   desc: ''
@@ -98,6 +95,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Playful Mascot Doodle Snapshot" s
   Avoid watermark, username, platform logo, QR code, creator signature, licensed character, recognizable franchise costume, superhero emblem, brand logo, exact reference character, copied IP, goggle-eyed
   capsule character, denim overalls, red-blue web-pattern suit, mask, shield, helmet emblem, tiny unreadable text, dense paragraph text, corporate layout, sterile studio render, fully vector background,
   3D plush mascot, photoreal CGI mascot, dark horror mood, gritty dystopian tone, cyberpunk neon scene, face obstruction, distorted hands, and over-sharpened artificial texture.'
-preview: https://malongan.github.io/images/vigo_previews/playful-mascot-doodle-snapshot.jpg
 id: vigo_playful_mascot_doodle_snapshot
 code: ''

@@ -49,6 +49,6 @@ variables:
   desc: 需要参考图保持一致性
 prompt: 要制作 "{{主题}}" 主题的潮流创意海报，极繁主义，风格聚焦年轻、叛逆、潮流感。以高饱和度色彩为主调，核心是穿衣服裤子和鞋子并带有墨镜酷酷感觉的{{动物形象}}，用 3D 立体效果呈现，有力量感的视觉。围绕人物角色，搭配夸张的立体装饰（如彩色毛绒鞋带、镀铬金属牌、）、爱心、铆钉等潮流符号，铆钉上印上 "{{文字1}}"、"{{文字2}}" 等个性文字，增添街头文化氛围。加入 "{{挂饰元素1}}"、"{{挂饰元素2}}"、"{{挂饰元素3}}"
   挂饰等元素，强化打破定义的态度。整体布局要错落有致，让各种元素相互穿插、碰撞，营造热闹又有冲击力的画面。通过半调图案、撞色、混搭的设计手法，传递年轻群体对刻板时尚定义的反抗情绪，用潮流视觉语言呼吁大家突破风格限制，拥抱多元穿搭选择，适配青年文化传播、时尚突破主题活动，借炫酷造型和鲜明态度引发目标群体共鸣，打造出既具话题性又有视觉记忆点的潮流海报。最佳构图，大师级排版，质感强烈，影棚级灯光
-preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/street_3d_maximalist.jpg
+# （已移除失效的 preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/street_3d_maximalist.jpg）
 id: street_3d_maximalist
 code: ''

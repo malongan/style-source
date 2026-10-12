@@ -26,9 +26,6 @@ features:
 - title: 一个橡胶印章或优惠券印章框倾斜放置，使用做旧黑墨、粗衬线或模板字体，以及细小的放射线或分隔符。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main product, food item, wearable, device, or object shown as the oversized sales hero
   desc: ''
@@ -54,6 +51,5 @@ prompt: 'Create a {ASPECT_RATIO} raster advertisement in the "Folded Newspaper P
   vertical editorial date tab, and one huge photorealistic commercial product hero overlapping the lower or central page. The product should be tactile, glossy or material-rich, partly supported by paper,
   cloth, foil, tray, wrapper, sleeve, or prop details. Keep the page graphics flat and printed while the product is realistic and foregrounded. The layout should feel crowded, promotional, newspaper-like,
   nostalgic, and tactile. Change all literal content from the reference while preserving the folded newspaper ad visual system.'
-preview: https://malongan.github.io/images/vigo_previews/folded-newspaper-product-ad.jpg
 id: vigo_folded_newspaper_product_ad
 code: ''

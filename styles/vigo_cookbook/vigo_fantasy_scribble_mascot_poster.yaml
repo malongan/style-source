@@ -21,9 +21,6 @@ features:
 - title: 童趣奇幻吉祥物解剖：俏皮的变形、短钝的腿、长耳朵、悬浮的眼睛，以及简化的面部圆点。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -88,6 +85,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Fantasy Scribble Mascot Poster St
 
 
   Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text while pres'
-preview: https://malongan.github.io/images/vigo_previews/fantasy-scribble-mascot-poster.jpg
 id: vigo_fantasy_scribble_mascot_poster
 code: ''

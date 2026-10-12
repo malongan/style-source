@@ -51,6 +51,6 @@ variables:
   style_var: 参考图 + "Maintain IP identity..."
   desc: 用参考图保持一致性
 prompt: 都市前卫拼贴海报风格，背景采用高饱和{{主色}}大色块与局部黑色矩形块面堆叠，局部做出竖向与斜切断面，营造强烈对比与能量感；主视觉人物为{{人物形象}}，居中前景，广角半身近摄，面部夸张透视，戴{{墨镜描述}}，身穿{{服装颜色}}服装，表情{{表情描述}}、手部前伸制造强烈临场感，人物带黑描边贴纸化处理，主次关系突出，"{{标题1}}""{{标题2}}""{{标题3}}""{{标题4}}"等主标题黑色粗体，竖直横排交错，部分内嵌斜切{{标签底色1}}底、{{标签底色2}}底标签，英文副标题用无衬线体小号排列，营造结构感，右下角有手绘风纸贴写着{{手绘文字}}，与闪电手绘符号形成点缀，增强潮流感；整体构图为散点式，多重图层叠加突出主体及大标题，同时保持大量跳色分割和视觉动线变化，整体气质张扬、前卫、自由活泼，强烈都市潮流属性，高分辨率，保留大颗粒色块及描边细节。
-preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/urban_collage_poster.jpg
+# （已移除失效的 preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/urban_collage_poster.jpg）
 id: urban_collage_poster
 code: ''

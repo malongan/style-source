@@ -65,6 +65,5 @@ prompt: "Create an ultra-high-resolution minimalist line-art travel poster of [D
   \ should reflect the city's architecture, climate, nightlife, and cultural identity\n\nExamples: \n- Tokyo → vivid red on warm ivory \n- Paris → deep navy on cream \n- New York → charcoal black on light\
   \ gray \n- Kyoto → muted burgundy on warm cream \n- Hong Kong → teal blue on pale ivory \n- Santorini → Mediterranean blue on white \n- Cairo → desert sepia on sand beige\n\nCOMPOSITION: \n- vertical\
   \ poster layout \n- frontal street-level perspective \n- pedestrians crossing streets or moving naturally \n- balanced, elegant, highly detailed"
-preview: https://malongan.github.io/images/vigo_previews/minimalist_city_travel_poster.jpg
 id: minimalist_city_travel_poster
 code: ''

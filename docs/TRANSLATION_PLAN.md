@@ -1,5 +1,9 @@
 # 风格库 features/summary 中文化方案
 
+> ⚠️ **口径待确认**：第 48 行「vigo_cookbook 目录占 282 条（73%）」的分母无法用当前数据复现
+> （实测 vigo 51 / 300 ≈ 17%）。除该处外，文中 300 / 51 等数字与 2026-10-12 实测一致。
+> 修改该数字前请先确认统计口径，勿凭猜测定值。
+
 > 编制日期：2026-10-10
 > 状态：**待用户确认**（第 6 节有 5 个决策点，未确认前不执行）
 > 背景：2026-10-10 曾执行一次机器翻译，损坏 71 个风格，已通过 PR #178 回退。本方案是重做版。
@@ -169,7 +173,7 @@
 3. 生成译文 → 写入 styles/**/*.yaml（原地改，保持 dict/str 原结构）
 4. 抽样 5 条完整内容打印 → 我逐条人工核对语义
 5. python3 scripts/generate_data.py && python3 scripts/build_gallery.py
-6. python3 scripts/pre-push-security-scan.py
+6. 每次 push 由 .git/hooks/pre-push 自动跑安全扫描（脚本在 agent 侧 scripts/github-manager/）
 7. 显式列出文件路径 git add（禁 -A）→ commit
 8. 记录本批 diff 统计，进入下一批
 ```

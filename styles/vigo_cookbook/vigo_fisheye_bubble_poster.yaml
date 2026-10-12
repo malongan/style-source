@@ -43,9 +43,6 @@ features:
 - title: 使用强烈的阳光、高饱和钴蓝天空、暖调皮肤高光、硬朗阴影，以及随性的夏日旅行感。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT_IDENTITY`'
   style_var: specific adult character identity, including distinct hair, face, styling, and body language when generating a set
   desc: ''
@@ -88,6 +85,5 @@ prompt: 'Create an image in sunburst-fisheye-bubble-type-poster-style.
 
   Avoid: watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample
   set, chrome lettering, glossy 3D balloon type, corporate minimal layout, muted pastel palette, night cyberpunk mood, and crowded small text.'
-preview: https://malongan.github.io/images/vigo_previews/sunburst-fisheye-bubble-type-poster.jpg
 id: vigo_fisheye_bubble_poster
 code: ''

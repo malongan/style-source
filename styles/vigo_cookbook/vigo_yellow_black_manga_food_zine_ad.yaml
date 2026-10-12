@@ -21,9 +21,6 @@ features:
 - title: 一个超大号亮面插画产品或食品物件位于下方前景，带绘画感高光。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -48,6 +45,5 @@ prompt: 'Create a {ASPECT_RATIO} raster image in the Yellow Black Manga Food Zin
   manga advertorial page with diagonal panel cuts, thick hand-inked keylines, speed hatching, sweat-drop marks, sparkle symbols, one dramatic cropped manga reaction panel, an oversized glossy illustrated
   hero object in the foreground, boxed Chinese editorial copy, a vertical tag label, a strip of mini comic panels, halftone speckle, scanned paper grain, and imperfect print registration. Keep the style
   loud, humorous, appetizing or product-focused, high-contrast, and hand-drawn. Change all content from the reference image while keeping the visual language.'
-preview: https://malongan.github.io/images/vigo_previews/yellow-black-manga-food-zine-ad.jpg
 id: vigo_yellow_black_manga_food_zine_ad
 code: ''

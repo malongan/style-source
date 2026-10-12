@@ -40,9 +40,6 @@ features:
 - title: 海报图层保持扁平、精准、不杂乱。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: adult action subject, performer, courier, maker, athlete, rider, dancer, chef, technician, or product model
   desc: ''
@@ -89,6 +86,5 @@ prompt: 'Create an image in blue-bubble-fisheye-action-poster-style.
   Avoid: watermarks, usernames, creator IDs, platform logos, app interface marks, QR codes, scannable barcodes, copied reference people, copied poses, copied text, recognizable logos, brand-owned product
   marks, long paragraphs, cluttered collage, dark cyberpunk lighting, luxury minimalism, flat vector substitutes, SVG or HTML mockup looks, distorted faces, extra limbs, extra fingers, malformed hands,
   and unreadable main headline.'
-preview: https://malongan.github.io/images/vigo_previews/blue-bubble-fisheye-action-poster.jpg
 id: vigo_blue_bubble_fisheye_action_poster
 code: ''

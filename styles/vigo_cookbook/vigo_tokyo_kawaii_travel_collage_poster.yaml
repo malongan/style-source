@@ -41,9 +41,6 @@ features:
 - title: 在顶部横排巨大的童趣圆体方块字，每个字母各占一张明快的纸片，略微旋转并相互叠压。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main cutout person, character, model, traveler, idol, or fashion figure
   desc: ''
@@ -97,6 +94,5 @@ prompt: 'Create a {ASPECT_RATIO} poster in the "Tokyo Kawaii Travel Collage Post
 
 
   Avoid minimalism, clean corporate design, luxury travel style, plain backgrounds, low density, and overly polished digital graphics.'
-preview: https://malongan.github.io/images/vigo_previews/tokyo-kawaii-travel-collage-poster.jpg
 id: vigo_tokyo_kawaii_travel_collage_poster
 code: ''

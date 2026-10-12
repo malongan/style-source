@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """从 styles/ 目录读取所有 .yaml 风格文件，生成 data/styles.json。"""
+from __future__ import annotations  # 允许 list[str]/X | None 注解在 3.8+ 上运行
 import json
 import os
 import re
-import glob
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -14,6 +14,20 @@ IMAGES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images')
 BASE_URL = 'https://malongan.github.io/style-source'
 NUMBERS_FILE = os.path.join(DATA_DIR, 'style_numbers.json')
 TIMESTAMPS_FILE = os.path.join(DATA_DIR, 'style_timestamps.json')
+
+# 配图文件名规范：{style_id}_{8位后缀}.{ext}
+# 8 位后缀有两种来源：md5(原图)[:8]（hex）与 X/Twitter media id（base62），因此按字母数字锚定。
+# 后缀 8 位是硬约束：换用更宽的匹配会把相邻风格的图误配进来（见 match_preview_files 注释）。
+IMAGE_SUFFIX_RE = re.compile(r'^(?P<style_id>.+)_(?P<suffix>[0-9A-Za-z]{8})$')
+FULL_IMAGE_EXTS = ('webp', 'jpg', 'jpeg', 'png')
+
+# Markdown 变量表表头行（md → yaml 转换残留），不是真实变量，解析时跳过
+VARIABLE_HEADER_ROWS = {('变量', '说明')}
+VARIABLE_HEADER_ROWS_FLAT = {'变量', '说明'}   # 旧形态 list[str] 里的同款残留
+
+# 旧形态 `variables: [str]` 里的 `"{占位符}" — 示例：xxx` 写法
+LEGACY_VAR_RE = re.compile(
+    r'^"?\s*(?P<name>\{[^{}]+\})\s*"?\s*(?:[—\-–:：]\s*)?(?:示例\s*[:：]?\s*)?(?P<desc>.*)$')
 
 # 无筛选价值的英文标签词（通用词、无语义或极短）
 TAG_STOPWORDS = {
@@ -61,26 +75,55 @@ def get_version() -> str:
         return 'v0.0.0'
 
 
-def find_image_in_repo(style_id: str):
-    """在 images/ 下查找 style_id 对应的图片文件，返回相对于 images/ 的路径
-    优先查找 WebP，其次 JPEG，最后 PNG"""
-    patterns = [
-        f'styles_previews/{style_id}_*.webp',    # 新风格：WebP 优先
-        f'styles_previews/{style_id}_*.jpg',     # 旧风格：JPEG fallback
-        f'styles_previews/{style_id}_*.png',     # PNG fallback
-    ]
-    for pat in patterns:
-        # 排除 .thumb.webp（只找全尺寸），排序确保跨平台一致性
-        matches = sorted(m for m in glob.glob(os.path.join(IMAGES_DIR, pat))
-                         if not m.endswith('.thumb.webp'))
-        if matches:
-            return os.path.relpath(matches[0], IMAGES_DIR)
+def list_preview_files() -> list[str]:
+    """列出 styles_previews/ 下所有全尺寸配图文件名（排除 .thumb.webp），排序保证跨平台一致。"""
+    preview_dir = os.path.join(IMAGES_DIR, 'styles_previews')
+    if not os.path.isdir(preview_dir):
+        return []
+    return sorted(f for f in os.listdir(preview_dir)
+                  if not f.endswith('.thumb.webp'))
+
+
+def match_preview_files(style_id: str, files: list[str] | None = None) -> tuple[list[str], list[str]]:
+    """按 `{style_id}_{8位后缀}.{ext}` **整段锚定**匹配配图，返回 (exact, fuzzy)。
+
+    ⚠️ 必须锚定整段文件名。历史实现用 `glob(f'{style_id}_*.webp')` 做前缀匹配并取
+    `[0]`（glob 顺序不确定），导致：
+      - `doodle_style` 命中 `doodle_style_poster_5f705d81.webp`（别的风格的图）→ 配图串号；
+      - 真正属于它的 `doodle_style_e4aa24f7.webp` 反被判成"孤儿"，在 996224e 被清理删除。
+    见 2026-10-10 事故。此后 fuzzy 候选（仅前缀相同、归属不明）只用于告警，**绝不自动采用**。
+
+    - exact：去掉 8 位后缀后与 style_id 完全相等的候选
+    - fuzzy：仅前缀相同、无法确认归属的候选（供调用方提示，禁止当作自己的配图）
+    """
+    files = list_preview_files() if files is None else files
+    exact, fuzzy = [], []
+    for name in files:
+        stem, ext = os.path.splitext(name)
+        if ext.lower().lstrip('.') not in FULL_IMAGE_EXTS:
+            continue
+        m = IMAGE_SUFFIX_RE.match(stem)
+        if m and m.group('style_id') == style_id:
+            exact.append(name)
+        elif stem.startswith(style_id + '_'):
+            fuzzy.append(name)
+    return sorted(exact), sorted(fuzzy)
+
+
+def find_image_in_repo(style_id: str, files: list[str] | None = None):
+    """在 images/ 下查找 **style_id 自己的** 配图，返回相对于 images/ 的路径。
+    优先 WebP，其次 JPEG，最后 PNG；没有自己的配图时返回 None（不借用他人配图）。"""
+    exact, _ = match_preview_files(style_id, files)
+    for ext in FULL_IMAGE_EXTS:  # webp → jpg → jpeg → png
+        for name in exact:
+            if name.lower().endswith('.' + ext):
+                return os.path.join('styles_previews', name)
     return None
 
 
-def resolve_image_url(style_id: str, yml_urls: list[str]) -> list[str]:
-    """解析图片 URL：优先用 repo 里的文件，fallback 到 yml 中的 URL"""
-    rel_path = find_image_in_repo(style_id)
+def resolve_image_url(style_id: str, yml_urls: list[str], files: list[str] | None = None) -> list[str]:
+    """解析图片 URL：优先用 repo 里自己的文件，fallback 到 yml 中的 URL"""
+    rel_path = find_image_in_repo(style_id, files)
     if rel_path:
         return [f'{BASE_URL}/images/{rel_path}']
     if yml_urls:
@@ -105,35 +148,60 @@ def ensure_thumb_exists(full_path: str, thumb_path: str) -> bool:
         return False
 
 
-def resolve_image_webp(style_id: str) -> dict:
+def resolve_image_webp(style_id: str, files: list[str] | None = None) -> dict:
     """解析 WebP 版本 URL，返回 {'full': str|None, 'thumb': str|None}
-    优先查找已有的 .webp 文件，兼容旧 .jpg/.png 源文件。
+    只认 **自己** 的配图（整段锚定），兼容旧 .jpg/.png 源文件。
     自愈：全尺寸存在但缩略图缺失时自动生成（需 Pillow）。"""
+    exact, _ = match_preview_files(style_id, files)
+
     # 优先查找全尺寸 WebP
-    webp_matches = glob.glob(os.path.join(IMAGES_DIR, f'styles_previews/{style_id}_*.webp'))
-    webp_matches = [m for m in webp_matches if not m.endswith('.thumb.webp')]
+    webp_matches = [n for n in exact if n.lower().endswith('.webp')]
     if webp_matches:
-        base = os.path.splitext(os.path.basename(webp_matches[0]))[0]
+        full_name = webp_matches[0]
+        base = os.path.splitext(full_name)[0]
         base_url = f'{BASE_URL}/images/styles_previews/{base}'
         thumb_path = os.path.join(IMAGES_DIR, 'styles_previews', f'{base}.thumb.webp')
-        thumb_ok = ensure_thumb_exists(webp_matches[0], thumb_path)
+        thumb_ok = ensure_thumb_exists(
+            os.path.join(IMAGES_DIR, 'styles_previews', full_name), thumb_path)
         return {
             'full': f'{base_url}.webp',
             'thumb': f'{base_url}.thumb.webp' if thumb_ok else None,
         }
 
     # Fallback：从旧 JPG/PNG 文件推导 WebP 文件名
-    jpeg_matches = glob.glob(os.path.join(IMAGES_DIR, f'styles_previews/{style_id}_*.jpg'))
-    png_matches = glob.glob(os.path.join(IMAGES_DIR, f'styles_previews/{style_id}_*.png'))
-    matches = jpeg_matches or png_matches
-    if not matches:
+    legacy = [n for n in exact if n.lower().endswith(('.jpg', '.jpeg', '.png'))]
+    if not legacy:
         return {'full': None, 'thumb': None}
-    base = os.path.splitext(os.path.basename(matches[0]))[0]
+    base = os.path.splitext(legacy[0])[0]
     base_url = f'{BASE_URL}/images/styles_previews/{base}'
     return {
         'full': f'{base_url}.webp',
         'thumb': f'{base_url}.thumb.webp',
     }
+
+
+def parse_legacy_variable(entry: str) -> tuple:
+    """把旧形态 `variables: [str]` 的单个条目解析为 (kv_var, style_var, desc)。
+
+    旧形态有三种写法（2026-10-12 实测）：
+      1. `中文标题`                      → ('中文标题', '{中文标题}', '')
+      2. `"{车型完整描述}" — 示例：xxx`    → ('车型完整描述', '{车型完整描述}', '示例：xxx')
+      3. `"{SCENERY}" — 示例：xxx`        → ('SCENERY', '{SCENERY}', '示例：xxx')
+
+    解析不出变量（既非短标识符、也不含 `{占位符}`）时返回 ('', '', entry)，
+    由调用方跳过并告警 —— 绝不能把整句话当成变量名造出垃圾键。
+    """
+    m = LEGACY_VAR_RE.match(entry)
+    if m:
+        brace = m.group('name')          # 形如 {车型完整描述}
+        name = brace[1:-1].strip()
+        desc = (m.group('desc') or '').strip(' —-–:：\t')
+        if name:
+            return name, brace, desc
+    # 纯变量名：无空白、无标点长句、长度合理
+    if entry and len(entry) <= 24 and not re.search(r'[\s，。！？、/]', entry):
+        return entry, f'{{{entry}}}', ''
+    return '', '', entry
 
 
 def parse_style_file(filepath: str) -> dict:
@@ -174,21 +242,48 @@ def parse_style_file(filepath: str) -> dict:
     # 来源
     source_author = str(data.get('source_author', '')).lstrip('@').strip()
 
-    # 图片 URL
+    # 图片 URL（只认自己的配图；前缀相同但归属不明的候选只告警，不采用）
+    preview_files = list_preview_files()
+    exact, fuzzy = match_preview_files(filename, preview_files)
+    if not exact:
+        if fuzzy:
+            print(f'   ⚠️  {filename}: 没有自己的配图，已忽略归属不明的前缀候选 {fuzzy} '
+                  f'（禁止借用他人配图，请补 {filename}_<8位后缀>.webp）')
+        else:
+            print(f'   ⚠️  {filename}: 缺少配图（未找到 {filename}_<8位后缀>.*）')
     raw_url = data.get('preview', '')
     normalized = [raw_url] if raw_url else []
-    preview_urls = resolve_image_url(filename, normalized)
-    webp_urls = resolve_image_webp(filename)
+    preview_urls = resolve_image_url(filename, normalized, preview_files)
+    webp_urls = resolve_image_webp(filename, preview_files)
 
-    # 变量
-    variables_raw = data.get('variables', [])
+    # 变量：两种形态都归一化，避免旧 `list[str]` 形态被静默丢弃
+    #   标准形态 [{kv_var, style_var, desc?}] —— 新文件推荐
+    #   旧形态   ['中文标题'] / ['"{车型}" — 示例：…']
+    # 非列表（mapping）或无法识别的条目一律跳过并告警，不要造垃圾键。
+    variables_raw = data.get('variables', []) or []
     variables = {}
+    if not isinstance(variables_raw, list):
+        print(f'   ⚠️  {filename}: variables 不是列表（{type(variables_raw).__name__}），已忽略')
+        variables_raw = []
     for v in variables_raw:
         if isinstance(v, dict):
-            kv_var = v.get('kv_var', '')
-            style_var = v.get('style_var', '')
+            kv_var = str(v.get('kv_var', '') or '').strip()
+            style_var = str(v.get('style_var', '') or '').strip()
+            if (kv_var, style_var) in VARIABLE_HEADER_ROWS:
+                # Markdown 表格转 yaml 的表头残留，不是真实变量
+                continue
             if kv_var and style_var:
                 variables[kv_var] = style_var
+        elif isinstance(v, str) and v.strip():
+            if v.strip() in VARIABLE_HEADER_ROWS_FLAT:
+                # 表头残留在旧形态里（['变量', '说明']）
+                continue
+            name, placeholder, desc = parse_legacy_variable(v.strip())
+            if name and placeholder:
+                variables[name] = placeholder
+            else:
+                print(f'   ⚠️  {filename}: 跳过无法识别的 variables 条目'
+                      f'（既非变量名也不含 {{占位符}}）: {v.strip()[:60]}')
 
     return {
         'id': filename,

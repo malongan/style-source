@@ -29,9 +29,6 @@ features:
 - title: 蓝色辉光铺延在地面，产品正下方带柔和倒影或阴影。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main product, object, or technology category
   desc: ''
@@ -56,6 +53,5 @@ prompt: 'Create a {ASPECT_RATIO} premium dark consumer-tech launch poster in an 
   copy using "{SECONDARY_TEXT}", and a tiny minimal accent mark or status light "{ACCENT_SYMBOL}". Lighting: low-key black stage, cyan-blue rim light, glossy edge highlights, soft bloom, haze, deep shadows,
   no warm accents. Typography: sparse, premium, clean geometric sans-serif, no real logos. Wardrobe or human styling if present: {WARDROBE_STYLE}. Keep the layout minimal, symmetrical, cinematic, and teaser-like
   rather than dense or feature-heavy.'
-preview: https://malongan.github.io/images/vigo_previews/electric-blue-silhouette-product-launch.jpg
 id: style_product
 code: ''

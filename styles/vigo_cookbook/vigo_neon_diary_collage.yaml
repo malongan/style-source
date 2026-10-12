@@ -21,9 +21,6 @@ features:
 - title: 撕裂的笔记本纸或胶带面板，用作日程、规则或清单分节。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -48,6 +45,5 @@ prompt: 'Create an {ASPECT_RATIO} raster poster in the Neon Outdoor Diary Longfo
   arrows and route-line doodles, rough white cutout borders, torn notebook-paper panels, numbered diary sections, dense social-note annotations, sticker-like labels, gritty outdoor documentary photo collage,
   paper grain, scuffed texture, and energetic irregular alignment. If vertical, make it feel like an extra-tall continuous scrolling long poster close to the reference image length, with five or more stacked
   information chapters. If horizontal, compress the same layered diary system into a wide editorial collage without losing density.'
-preview: https://malongan.github.io/images/vigo_previews/neon-outdoor-diary-longform-collage.jpg
 id: vigo_neon_diary_collage
 code: ''

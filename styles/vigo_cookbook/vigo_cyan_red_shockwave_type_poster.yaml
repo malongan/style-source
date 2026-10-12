@@ -28,9 +28,6 @@ features:
 - title: 人物或手部点缀使用实心柠檬黄填充，使其成为图形色块而非写实解剖。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: new central subject or character group
   desc: ''
@@ -96,6 +93,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Cyan Red Shockwave Type Poster St
   watercolor, delicate serif typography, beige vintage poster treatment, neon cyberpunk
   glow, cluttered market detail, QR codes, watermarks, logos, signatures, or exact
   copied source text.'
-preview: https://malongan.github.io/images/vigo_previews/cyan-red-shockwave-type-poster.jpg
 id: vigo_cyan_red_shockwave_type_poster
 code: ''

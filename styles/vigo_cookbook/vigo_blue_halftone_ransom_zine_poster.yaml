@@ -21,9 +21,6 @@ features:
 - title: 撕纸条上的马克笔手写字体，基线不齐、字距随意、黑墨不均匀。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main subject
   desc: ''
@@ -48,6 +45,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the Blue Halftone Ransom Zine Poster S
   coarse photocopy halftone subject cutouts, jagged paper edges, black marker handwriting, tiny handwritten micro captions on blue, shallow paper shadows, crumpled scanner texture, toner noise, gray smudges,
   visible wrinkles, asymmetric ransom-note collage spacing, and a tight palette of cobalt blue, off-white, black, and gray only. Important content rule: match the visual style first, then change the subject,
   text, props, and story premise completely from the reference.'
-preview: https://malongan.github.io/images/vigo_previews/blue-halftone-ransom-zine-poster.jpg
 id: vigo_blue_halftone_ransom_zine_poster
 code: ''

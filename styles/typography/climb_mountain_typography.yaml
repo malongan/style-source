@@ -32,6 +32,6 @@ variables:
   style_var: 笔画大胆夸张，抽象变形
   desc: 可调整夸张程度
 prompt: 线条流畅且富有艺术感，中文"就要去爬山"，创意字体设计，设计灵感:将字体进行抽象变形，笔画大胆夸张，部分笔画字尾可巧妙连接或拉长，创造出独特的节奏和动感，给人以强烈的视觉冲击。笔画有颗粒噪点，黑底白字，高级感，扁平化，大师作品
-preview: https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.jpg
+# （已移除失效的 preview: https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.jpg）
 id: climb_mountain_typography
 code: ''

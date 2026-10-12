@@ -21,9 +21,6 @@ features:
 - title: 巨大的倾斜白色中文展示大标题，带厚重黑色阴影或立体 3D 块面纵深。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: new main subject, product presenter, tiny robot, athlete, maker, hand model, tool, device, or object hero that is not the source subject
   desc: ''
@@ -91,6 +88,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Warm Fisheye Product Impact Ad St
 
 
   Important content rule: match the extracted style first, then change the source content. Use new subjects, new products, new package details, and new text while avoiding the original pet-food source premise.'
-preview: https://malongan.github.io/images/vigo_previews/warm-fisheye-product-impact-ad.jpg
 id: vigo_warm_fisheye_product_impact_ad
 code: ''

@@ -6,10 +6,23 @@ on:
     types: [closed]
     branches: [main]
     paths: ['styles/**']
+  # ⚠️ 直推 main 也必须验证：2026-10-11 的 5791eb3 绕过 PR 直接推到 main，
+  # 导致「生成文件一致性」从未运行 —— styles.json 落后于 yaml（4 个文件的
+  # variables 修复没进 json），直到 10-12 才被发现。此触发器堵住这个洞。
+  push:
+    branches: [main]
+    paths:
+      - 'styles/**'
+      - 'scripts/**'
+      - 'data/**'
+      - 'gallery.html'
+      - 'gallery.css'
+      - 'gallery-runtime.js'
+      - '.github/workflows/**'
 
 jobs:
   validate:
-    if: github.event.pull_request.merged == true
+    if: github.event_name == 'push' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,7 +33,8 @@ jobs:
           fetch-depth: 0
 
       - name: 验证所有风格文件
-        run: python3 scripts/validate_all.py
+        # --strict：有 error 即失败（validate_all.py 曾恒 exit 0，闸门形同虚设）
+        run: python3 scripts/validate_all.py --strict
 
       - name: 验证生成文件一致性
         run: |
@@ -56,3 +70,27 @@ jobs:
           pip install pillow
           python3 scripts/generate_data.py
           python3 scripts/check_style_previews.py --strict
+
+      - name: 验证 _index.md 新鲜度（防索引漂移）
+        # styles/_index.md 曾长期停在 167 个风格（实际 300）且缺 editorial/typography。
+        # 索引一律由 generate_index.py 从磁盘重算，禁止手改；这里同时断言：
+        #   1) 已跟踪的索引与重算结果零 diff
+        #   2) 工作区没有未跟踪/被删的索引文件
+        #      —— 只查 diff 会漏掉"分类 _index.md 被删/漏提交"（git diff 不看未跟踪文件）
+        run: |
+          pip install pyyaml
+          python3 scripts/generate_index.py
+          INDEXES="styles/_index.md styles/*/_index.md"
+          if git diff --exit-code $INDEXES && [ -z "$(git status --porcelain -- $INDEXES)" ]; then
+            echo "✅ 索引与磁盘一致"
+          else
+            echo '❌ _index.md 过期或有未提交/缺失的索引文件，请在 PR 分支运行：'
+            echo '   python3 scripts/generate_index.py'
+            echo '   git add styles/_index.md styles/*/_index.md'
+            exit 1
+          fi
+
+      - name: 校验（有 error 即失败）
+        # validate_all.py 曾恒 exit 0，等于没有格式闸门（2026-10-12 修正）。
+        # 需要只看报告时用 --no-strict。
+        run: python3 scripts/validate_all.py --strict

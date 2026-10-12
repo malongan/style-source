@@ -41,9 +41,6 @@ features:
 - title: 透视整体保持扁平、海报化，只在道具或装置内部保留紧凑的技术制图纵深。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main illustrated subject, such as a technician, courier, repair worker, field researcher, designer, or compact service robot
   desc: ''
@@ -108,6 +105,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Turquoise Red Techno Manga Poster
   - Keep the perspective mostly flat and poster-like, with compact technical drawing depth only inside the prop or apparatus.
 
   - Finish as a slightly faded printed manga poster with grain, subtle'
-preview: https://malongan.github.io/images/vigo_previews/turquoise-red-techno-manga-poster.jpg
 id: vigo_turquoise_red_techno_manga_poster
 code: ''

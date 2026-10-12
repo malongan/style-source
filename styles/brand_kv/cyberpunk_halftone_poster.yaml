@@ -52,6 +52,6 @@ prompt: '大师级排版，极繁主义，半调图案，杂色，丝网印刷�
 
 
   构建赛博朋克风海报场景：背景以{{主色}}为主色调；主体是{{色调}}色调的{{人物形象}}（穿着{{服装描述}}，佩戴{{配饰描述}}）；画面布满多语言文字信息（如顶部"{{文字A}}""{{文字B}}"，侧边段落式字符，以及"{{文字A}}""{{文字B}}"等醒目字样）、巨型艺术化字母与细节元素，整体通过高对比色彩、文字与潮流视觉符号，营造出充满个性与未来感的赛博朋克氛围，突出街头文化与科幻风格的融合冲击。'
-preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/cyberpunk_halftone_poster.jpg
+# （已移除失效的 preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/cyberpunk_halftone_poster.jpg）
 id: cyberpunk_halftone_poster
 code: ''

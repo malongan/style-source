@@ -36,9 +36,6 @@ features:
 - title: 字体应环绕整个构图，位于主体之后或部分环绕主体。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main human figure or object
   desc: ''
@@ -87,6 +84,5 @@ prompt: 'Create a {ASPECT_RATIO} poster in the "Neon Kinetic Typographic Poster"
 
 
   Avoid clean corporate design, small typography, flat illustration, pastel colors, luxury minimalism, and symmetrical static layout.'
-preview: https://malongan.github.io/images/vigo_previews/neon-kinetic-typographic-poster.jpg
 id: vigo_neon_kinetic_typographic_poster
 code: ''

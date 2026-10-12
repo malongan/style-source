@@ -45,9 +45,6 @@ features:
 - title: 保留可见的草稿痕迹、动势短线、碎屑、粗放阴影与未完成的室内线条。
   desc: ''
 variables:
-- kv_var: 变量
-  style_var: 说明
-  desc: ''
 - kv_var: '`SUBJECT`'
   style_var: main pet, animal character, mascot pair, or expressive creature group
   desc: ''
@@ -95,6 +92,5 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Rough Animation Pet Sketch Storyb
 
   Stage the scene like an animation story artist frame. Keep one character in an extreme emotional pose and another character in a contrasting deadpan or suspicious reaction. Make the foreground prop explain
   the joke. Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible. Do not include platform UI, watermarks, creator IDs, logos, QR codes, app buttons, or copied characters.'
-preview: https://malongan.github.io/images/vigo_previews/rough-animation-pet-sketch-storyboard.jpg
 id: pet_sketch_storyboard
 code: ''

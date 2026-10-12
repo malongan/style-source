@@ -52,6 +52,6 @@ variables:
   desc: 此项风格不需IP形象
 prompt: 竖版酸性设计海报，极客代码风 + 像素风 + 瑞士国际主义排版，浅灰色纸张纹理背景。中心主体为亮蓝色塑料垃圾袋剪影，袋底有黄色渐变条，袋身叠加黑色粗体艺术字 "{{主标题}}"。顶部三栏信息栏：黑色文字 "{{信息栏1}}"、"{{信息栏2}}"、"{{信息栏3}}"，配英文翻译。超大号黑色像素字体 "{{超大标题}}" 贯穿画面，搭配中文括号标注 "{{中文标注1}}""{{中文标注2}}"。画面散落大量
   C 语言代码片段和注释，穿插黑色圆形辅助线和直线网格。底部黑色粗体"{{底部文字}}"，右侧"{{右侧文字}}"，右下角"{{Logo}}"。高对比度黑白蓝黄配色，先锋实验性排版，印刷级海报质量，高清 8K
-preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/geek_code_poster.jpg
+# （已移除失效的 preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/geek_code_poster.jpg）
 id: geek_code_poster
 code: ''
