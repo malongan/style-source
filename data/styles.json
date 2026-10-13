@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-189-g6913d1c-dirty",
-    "generated": "2026-10-12T16:11:56Z",
-    "total": 303,
+    "version": "v0.7.0-before-opt-190-g59e6711-dirty",
+    "generated": "2026-10-13T10:40:48Z",
+    "total": 304,
     "categories": [
       "brand_kv",
       "creative",
@@ -111,7 +111,7 @@
     },
     {
       "id": "xinzhongshi_poem_fine_line_poster",
-      "code": "ST0328",
+      "code": "ST0003",
       "name": "新中式古诗词细线设色插画海报",
       "category": "creative",
       "tags": [
@@ -157,12 +157,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/xinzhongshi_poem_fine_line_poster_ac164557.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/xinzhongshi_poem_fine_line_poster_ac164557.thumb.webp",
-      "number": "ST000328",
+      "number": "ST000003",
       "created_at": ""
     },
     {
       "id": "woodcut_geometry_poster",
-      "code": "ST0281",
+      "code": "ST0004",
       "name": "木刻几何海报",
       "category": "creative",
       "tags": [
@@ -199,12 +199,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/woodcut_geometry_poster_0804b787.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/woodcut_geometry_poster_0804b787.thumb.webp",
-      "number": "ST000281",
+      "number": "ST000004",
       "created_at": ""
     },
     {
       "id": "wilderness_wind_poster",
-      "code": "ST0003",
+      "code": "ST0005",
       "name": "旷野的风",
       "category": "travel",
       "tags": [
@@ -249,12 +249,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.thumb.webp",
-      "number": "ST000003",
+      "number": "ST000005",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "wild_cursive_calligraphy_poster",
-      "code": "ST0275",
+      "code": "ST0006",
       "name": "狂野草书书法海报",
       "category": "typography",
       "tags": [
@@ -304,12 +304,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wild_cursive_calligraphy_poster_761aca54.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wild_cursive_calligraphy_poster_761aca54.thumb.webp",
-      "number": "ST000275",
+      "number": "ST000006",
       "created_at": ""
     },
     {
       "id": "wedding_xi_character_poster",
-      "code": "ST0226",
+      "code": "ST0007",
       "name": "婚礼喜字影像画报",
       "category": "social_media",
       "tags": [
@@ -345,12 +345,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wedding_xi_character_poster_af2eec7d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wedding_xi_character_poster_af2eec7d.thumb.webp",
-      "number": "ST000226",
+      "number": "ST000007",
       "created_at": ""
     },
     {
       "id": "wedding_intimate_ceremony_invitation",
-      "code": "ST0225",
+      "code": "ST0008",
       "name": "婚礼私密仪式感影像邀请函",
       "category": "social_media",
       "tags": [
@@ -386,12 +386,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wedding_intimate_ceremony_invitation_c886b7e2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wedding_intimate_ceremony_invitation_c886b7e2.thumb.webp",
-      "number": "ST000225",
+      "number": "ST000008",
       "created_at": ""
     },
     {
       "id": "wedding_curtain_call_poster",
-      "code": "ST0227",
+      "code": "ST0009",
       "name": "婚礼谢幕致意画报",
       "category": "social_media",
       "tags": [
@@ -427,12 +427,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.thumb.webp",
-      "number": "ST000227",
+      "number": "ST000009",
       "created_at": ""
     },
     {
       "id": "vintage_watercolor_travel_postcard",
-      "code": "ST0230",
+      "code": "ST0010",
       "name": "复古水彩旅行手绘明信片",
       "category": "travel",
       "tags": [
@@ -469,12 +469,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vintage_watercolor_travel_postcard_89d31829.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vintage_watercolor_travel_postcard_89d31829.thumb.webp",
-      "number": "ST000230",
+      "number": "ST000010",
       "created_at": ""
     },
     {
       "id": "vintage_streetwear_cartoon_poster",
-      "code": "ST0004",
+      "code": "ST0011",
       "name": "复古街头卡通海报",
       "category": "creative",
       "tags": [
@@ -518,12 +518,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.thumb.webp",
-      "number": "ST000004",
+      "number": "ST000011",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vintage_punk_zine_poster",
-      "code": "ST0258",
+      "code": "ST0012",
       "name": "复古朋克地下杂志海报",
       "category": "social_media",
       "tags": [
@@ -559,12 +559,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vintage_punk_zine_poster_a48f5d65.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vintage_punk_zine_poster_a48f5d65.thumb.webp",
-      "number": "ST000258",
+      "number": "ST000012",
       "created_at": ""
     },
     {
       "id": "vintage_mascot_poster",
-      "code": "ST0220",
+      "code": "ST0013",
       "name": "复古吉祥物海报",
       "category": "creative",
       "tags": [
@@ -602,12 +602,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vintage_mascot_poster_524c7282.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vintage_mascot_poster_524c7282.thumb.webp",
-      "number": "ST000220",
+      "number": "ST000013",
       "created_at": ""
     },
     {
       "id": "vintage_car_vector_art",
-      "code": "ST0207",
+      "code": "ST0014",
       "name": "复古老爷车矢量海报",
       "category": "print",
       "tags": [
@@ -650,12 +650,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vintage_car_vector_art_214bfc5a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vintage_car_vector_art_214bfc5a.thumb.webp",
-      "number": "ST000207",
+      "number": "ST000014",
       "created_at": ""
     },
     {
       "id": "vigo_yellow_black_manga_food_zine_ad",
-      "code": "ST0005",
+      "code": "ST0015",
       "name": "黄黑漫画食品小志广告风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -690,12 +690,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_yellow_black_manga_food_zine_ad_b71a90c2.thumb.webp",
-      "number": "ST000005",
+      "number": "ST000015",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_y2k_mirror_ui_scribble_collage",
-      "code": "ST0006",
+      "code": "ST0016",
       "name": "Y2K 镜像界面涂鸦拼贴风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -730,12 +730,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_mirror_ui_scribble_collage_0b4db919.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_mirror_ui_scribble_collage_0b4db919.thumb.webp",
-      "number": "ST000006",
+      "number": "ST000016",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_y2k_grunge_hiphop_cutout_poster",
-      "code": "ST0007",
+      "code": "ST0017",
       "name": "Y2K 粗粝嘻哈剪贴海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -783,12 +783,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_grunge_hiphop_cutout_poster_416488a0.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_y2k_grunge_hiphop_cutout_poster_416488a0.thumb.webp",
-      "number": "ST000007",
+      "number": "ST000017",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_warm_fisheye_product_impact_ad",
-      "code": "ST0008",
+      "code": "ST0018",
       "name": "暖调鱼眼产品冲击广告风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -823,12 +823,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_warm_fisheye_product_impact_ad_7d86cf27.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_warm_fisheye_product_impact_ad_7d86cf27.thumb.webp",
-      "number": "ST000008",
+      "number": "ST000018",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_urban_transit_doodle_diary",
-      "code": "ST0009",
+      "code": "ST0019",
       "name": "都市通勤涂鸦日记风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -885,12 +885,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_urban_transit_doodle_diary_c2b25fe6.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_urban_transit_doodle_diary_c2b25fe6.thumb.webp",
-      "number": "ST000009",
+      "number": "ST000019",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_turquoise_red_techno_manga_poster",
-      "code": "ST0010",
+      "code": "ST0020",
       "name": "青绿红科技漫画海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -946,12 +946,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_turquoise_red_techno_manga_poster_414a4374.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_turquoise_red_techno_manga_poster_414a4374.thumb.webp",
-      "number": "ST000010",
+      "number": "ST000020",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_tri_color_hardcut_portrait_poster",
-      "code": "ST0011",
+      "code": "ST0021",
       "name": "三色硬切人像海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1001,12 +1001,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_tri_color_hardcut_portrait_poster_e0513f83.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_tri_color_hardcut_portrait_poster_e0513f83.thumb.webp",
-      "number": "ST000011",
+      "number": "ST000021",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_tokyo_kawaii_travel_collage_poster",
-      "code": "ST0012",
+      "code": "ST0022",
       "name": "东京可爱风旅行拼贴海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -1062,12 +1062,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_tokyo_kawaii_travel_collage_poster_32b3dfc6.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_tokyo_kawaii_travel_collage_poster_32b3dfc6.thumb.webp",
-      "number": "ST000012",
+      "number": "ST000022",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_sunny_3d_avatar_campaign",
-      "code": "ST0013",
+      "code": "ST0023",
       "name": "阳光 3D 虚拟形象营销企划风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1102,12 +1102,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_sunny_3d_avatar_campaign_e4196112.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_sunny_3d_avatar_campaign_e4196112.thumb.webp",
-      "number": "ST000013",
+      "number": "ST000023",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_subway_doodle_photo_hybrid",
-      "code": "ST0014",
+      "code": "ST0024",
       "name": "地铁涂鸦照片混合风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1165,12 +1165,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_subway_doodle_photo_hybrid_5c191e5b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_subway_doodle_photo_hybrid_5c191e5b.thumb.webp",
-      "number": "ST000014",
+      "number": "ST000024",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_sky_blue_home_life_doodle_poster",
-      "code": "ST0015",
+      "code": "ST0025",
       "name": "天蓝家居生活涂鸦海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1205,12 +1205,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_sky_blue_home_life_doodle_poster_f2016108.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_sky_blue_home_life_doodle_poster_f2016108.thumb.webp",
-      "number": "ST000015",
+      "number": "ST000025",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_school_grid_paper_cutout_poster",
-      "code": "ST0016",
+      "code": "ST0026",
       "name": "校园方格纸剪纸海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -1245,12 +1245,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_school_grid_paper_cutout_poster_c1a0b800.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_school_grid_paper_cutout_poster_c1a0b800.thumb.webp",
-      "number": "ST000016",
+      "number": "ST000026",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_rough_marker_monster_poster",
-      "code": "ST0017",
+      "code": "ST0027",
       "name": "粗犷马克笔怪物海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1285,12 +1285,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_marker_monster_poster_070a6118.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_marker_monster_poster_070a6118.thumb.webp",
-      "number": "ST000017",
+      "number": "ST000027",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_rough_ink_music_doodle_poster",
-      "code": "ST0018",
+      "code": "ST0028",
       "name": "粗墨音乐涂鸦海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1325,12 +1325,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_ink_music_doodle_poster_ab7f6ea1.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_rough_ink_music_doodle_poster_ab7f6ea1.thumb.webp",
-      "number": "ST000018",
+      "number": "ST000028",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_pop_bubble_letter_photo_poster",
-      "code": "ST0019",
+      "code": "ST0029",
       "name": "波普泡泡字照片海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1386,12 +1386,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_pop_bubble_letter_photo_poster_b895133e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_pop_bubble_letter_photo_poster_b895133e.thumb.webp",
-      "number": "ST000019",
+      "number": "ST000029",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_plush_comic_toy_product_poster",
-      "code": "ST0020",
+      "code": "ST0030",
       "name": "毛绒漫画玩具产品海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1453,12 +1453,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_comic_toy_product_poster_8858fc4e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_comic_toy_product_poster_8858fc4e.thumb.webp",
-      "number": "ST000020",
+      "number": "ST000030",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_plush_city_festival_mobile_poster",
-      "code": "ST0021",
+      "code": "ST0031",
       "name": "毛绒城市节庆移动端海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -1512,12 +1512,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_city_festival_mobile_poster_a1f48ca6.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_plush_city_festival_mobile_poster_a1f48ca6.thumb.webp",
-      "number": "ST000021",
+      "number": "ST000031",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_playful_mascot_doodle_snapshot",
-      "code": "ST0022",
+      "code": "ST0032",
       "name": "童趣吉祥物涂鸦实拍海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1571,12 +1571,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_mascot_doodle_snapshot_8c72b334.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_mascot_doodle_snapshot_8c72b334.thumb.webp",
-      "number": "ST000022",
+      "number": "ST000032",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_playful_marker_grounding_poster",
-      "code": "ST0023",
+      "code": "ST0033",
       "name": "童趣马克笔留白海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1617,12 +1617,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_marker_grounding_poster_8ef4abda.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_playful_marker_grounding_poster_8ef4abda.thumb.webp",
-      "number": "ST000023",
+      "number": "ST000033",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_photo_illustration_overlay_poster",
-      "code": "ST0024",
+      "code": "ST0034",
       "name": "照片插画叠加海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -1671,12 +1671,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_photo_illustration_overlay_poster_0b07afef.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_photo_illustration_overlay_poster_0b07afef.thumb.webp",
-      "number": "ST000024",
+      "number": "ST000034",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_olive_scribble_sports_poster",
-      "code": "ST0025",
+      "code": "ST0035",
       "name": "橄榄绿涂鸦运动海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1711,12 +1711,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_olive_scribble_sports_poster_c7b111fb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_olive_scribble_sports_poster_c7b111fb.thumb.webp",
-      "number": "ST000025",
+      "number": "ST000035",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_neon_plush_gadget_pop_3d",
-      "code": "ST0026",
+      "code": "ST0036",
       "name": "霓虹毛绒数码配件 3D 流行风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1751,12 +1751,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_plush_gadget_pop_3d_5ec5f38d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_plush_gadget_pop_3d_5ec5f38d.thumb.webp",
-      "number": "ST000026",
+      "number": "ST000036",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_neon_kinetic_typographic_poster",
-      "code": "ST0027",
+      "code": "ST0037",
       "name": "霓虹动态字体海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -1807,12 +1807,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_kinetic_typographic_poster_427ef146.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_kinetic_typographic_poster_427ef146.thumb.webp",
-      "number": "ST000027",
+      "number": "ST000037",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_neon_doodle_gallery_snapshot",
-      "code": "ST0028",
+      "code": "ST0038",
       "name": "霓虹涂鸦展厅抓拍",
       "category": "vigo_cookbook",
       "tags": [
@@ -1872,12 +1872,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_doodle_gallery_snapshot_0964723f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_doodle_gallery_snapshot_0964723f.thumb.webp",
-      "number": "ST000028",
+      "number": "ST000038",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_neon_diary_collage",
-      "code": "ST0029",
+      "code": "ST0039",
       "name": "霓虹户外日记长图拼贴风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1912,12 +1912,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_diary_collage_ce563a0c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_neon_diary_collage_ce563a0c.thumb.webp",
-      "number": "ST000029",
+      "number": "ST000039",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_naive_marker_quote_card",
-      "code": "ST0030",
+      "code": "ST0040",
       "name": "稚拙马克笔语录卡片风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1956,12 +1956,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_naive_marker_quote_card_796c7e87.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_naive_marker_quote_card_796c7e87.thumb.webp",
-      "number": "ST000030",
+      "number": "ST000040",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_mono_noir_type_portrait_poster",
-      "code": "ST0031",
+      "code": "ST0041",
       "name": "黑白冷调字体人像海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -1996,12 +1996,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_mono_noir_type_portrait_poster_4006800d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_mono_noir_type_portrait_poster_4006800d.thumb.webp",
-      "number": "ST000031",
+      "number": "ST000041",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_mondrian_style",
-      "code": "ST0032",
+      "code": "ST0042",
       "name": "蒙德里安秩序风",
       "category": "vigo_cookbook",
       "tags": [
@@ -2048,12 +2048,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_mondrian_style_b7542034.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_mondrian_style_b7542034.thumb.webp",
-      "number": "ST000032",
+      "number": "ST000042",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_metro_doodle_snapshot_diary",
-      "code": "ST0033",
+      "code": "ST0043",
       "name": "地铁涂鸦实拍日记风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2114,12 +2114,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_metro_doodle_snapshot_diary_4218a67b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_metro_doodle_snapshot_diary_4218a67b.thumb.webp",
-      "number": "ST000033",
+      "number": "ST000043",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_market_brush_produce_poster",
-      "code": "ST0034",
+      "code": "ST0044",
       "name": "市集毛笔农产品海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2154,12 +2154,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_market_brush_produce_poster_1858aa1d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_market_brush_produce_poster_1858aa1d.thumb.webp",
-      "number": "ST000034",
+      "number": "ST000044",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_luxury_street_cover",
-      "code": "ST0035",
+      "code": "ST0045",
       "name": "动感奢华街头时装封面风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2194,12 +2194,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_luxury_street_cover_bd9a5f9e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_luxury_street_cover_bd9a5f9e.thumb.webp",
-      "number": "ST000035",
+      "number": "ST000045",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_kinetic_geometric_doodle_cutouts",
-      "code": "ST0036",
+      "code": "ST0046",
       "name": "动态几何涂鸦剪纸",
       "category": "vigo_cookbook",
       "tags": [
@@ -2234,12 +2234,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_kinetic_geometric_doodle_cutouts_87c9a8f6.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_kinetic_geometric_doodle_cutouts_87c9a8f6.thumb.webp",
-      "number": "ST000036",
+      "number": "ST000046",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_k_pop_apocalypse_ransom_zine",
-      "code": "ST0037",
+      "code": "ST0047",
       "name": "韩流末世勒索信小志风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2297,12 +2297,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_k_pop_apocalypse_ransom_zine_71dcafee.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_k_pop_apocalypse_ransom_zine_71dcafee.thumb.webp",
-      "number": "ST000037",
+      "number": "ST000047",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_impact_burst_halftone_comic_poster",
-      "code": "ST0038",
+      "code": "ST0048",
       "name": "冲击爆发半色调漫画海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2358,12 +2358,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_impact_burst_halftone_comic_poster_e070ca7c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_impact_burst_halftone_comic_poster_e070ca7c.thumb.webp",
-      "number": "ST000038",
+      "number": "ST000048",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_hud_tech_spec_poster",
-      "code": "ST0039",
+      "code": "ST0049",
       "name": "HUD 技术规格海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -2412,12 +2412,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_hud_tech_spec_poster_17998928.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_hud_tech_spec_poster_17998928.thumb.webp",
-      "number": "ST000039",
+      "number": "ST000049",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_gothic_cat_doodle_photo_collage",
-      "code": "ST0040",
+      "code": "ST0050",
       "name": "哥特猫涂鸦照片拼贴风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2471,12 +2471,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_gothic_cat_doodle_photo_collage_23faee2c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_gothic_cat_doodle_photo_collage_23faee2c.thumb.webp",
-      "number": "ST000040",
+      "number": "ST000050",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_folded_newspaper_product_ad",
-      "code": "ST0041",
+      "code": "ST0051",
       "name": "折叠报纸产品广告风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2517,12 +2517,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_folded_newspaper_product_ad_5b462e76.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_folded_newspaper_product_ad_5b462e76.thumb.webp",
-      "number": "ST000041",
+      "number": "ST000051",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_fisheye_bubble_poster",
-      "code": "ST0042",
+      "code": "ST0052",
       "name": "放射光鱼眼气泡字体海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2579,12 +2579,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_fisheye_bubble_poster_fa30f6de.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_fisheye_bubble_poster_fa30f6de.thumb.webp",
-      "number": "ST000042",
+      "number": "ST000052",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_film_montage_sport_poster",
-      "code": "ST0043",
+      "code": "ST0053",
       "name": "ST0151 电影蒙太奇三镜头运动海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -2633,12 +2633,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_film_montage_sport_poster_9f354591.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_film_montage_sport_poster_9f354591.thumb.webp",
-      "number": "ST000043",
+      "number": "ST000053",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_fantasy_scribble_mascot_poster",
-      "code": "ST0044",
+      "code": "ST0054",
       "name": "奇幻涂鸦吉祥物海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2673,12 +2673,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_fantasy_scribble_mascot_poster_e720bfbb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_fantasy_scribble_mascot_poster_e720bfbb.thumb.webp",
-      "number": "ST000044",
+      "number": "ST000054",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_cyan_red_shockwave_type_poster",
-      "code": "ST0045",
+      "code": "ST0055",
       "name": "青红冲击波字体海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2721,12 +2721,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_cyan_red_shockwave_type_poster_d55357a0.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_cyan_red_shockwave_type_poster_d55357a0.thumb.webp",
-      "number": "ST000045",
+      "number": "ST000055",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_chromatic_fisheye_orbit_pop_poster",
-      "code": "ST0046",
+      "code": "ST0056",
       "name": "彩色鱼眼轨道波普海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2775,12 +2775,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_chromatic_fisheye_orbit_pop_poster_3854d163.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_chromatic_fisheye_orbit_pop_poster_3854d163.thumb.webp",
-      "number": "ST000046",
+      "number": "ST000056",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_bold_block_mascot_poster",
-      "code": "ST0047",
+      "code": "ST0057",
       "name": "粗块吉祥物海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2823,12 +2823,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_block_mascot_poster_b67d6f31.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_block_mascot_poster_b67d6f31.thumb.webp",
-      "number": "ST000047",
+      "number": "ST000057",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_bold_anime_reaction_thumbnail",
-      "code": "ST0048",
+      "code": "ST0058",
       "name": "醒目动漫反应缩略图风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2882,12 +2882,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_anime_reaction_thumbnail_8e18ccef.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_bold_anime_reaction_thumbnail_8e18ccef.thumb.webp",
-      "number": "ST000048",
+      "number": "ST000058",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_blue_kinetic_poster",
-      "code": "ST0049",
+      "code": "ST0059",
       "name": "蓝＋青柠绿动态漫画字体海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -2922,12 +2922,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_kinetic_poster_f4505868.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_kinetic_poster_f4505868.thumb.webp",
-      "number": "ST000049",
+      "number": "ST000059",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_blue_hud_macro_product_poster",
-      "code": "ST0050",
+      "code": "ST0060",
       "name": "蓝色 HUD 微距创作者科技海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -2967,12 +2967,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_hud_macro_product_poster_1ed4ff87.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_hud_macro_product_poster_1ed4ff87.thumb.webp",
-      "number": "ST000050",
+      "number": "ST000060",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_blue_halftone_ransom_zine_poster",
-      "code": "ST0051",
+      "code": "ST0061",
       "name": "蓝色半色调剪字拼贴海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -3007,12 +3007,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_halftone_ransom_zine_poster_3bed3468.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_halftone_ransom_zine_poster_3bed3468.thumb.webp",
-      "number": "ST000051",
+      "number": "ST000061",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_blue_bubble_fisheye_action_poster",
-      "code": "ST0052",
+      "code": "ST0062",
       "name": "蓝色气泡鱼眼动感海报风格",
       "category": "vigo_cookbook",
       "tags": [
@@ -3064,12 +3064,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_bubble_fisheye_action_poster_02aab45d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_blue_bubble_fisheye_action_poster_02aab45d.thumb.webp",
-      "number": "ST000052",
+      "number": "ST000062",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_black_cutout_food_card_ad",
-      "code": "ST0053",
+      "code": "ST0063",
       "name": "黑色异形卡片食品广告",
       "category": "vigo_cookbook",
       "tags": [
@@ -3111,12 +3111,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.thumb.webp",
-      "number": "ST000053",
+      "number": "ST000063",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vigo_analog_editorial_poster",
-      "code": "ST0054",
+      "code": "ST0064",
       "name": "柔和模拟未来编辑设计海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -3175,12 +3175,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.thumb.webp",
-      "number": "ST000054",
+      "number": "ST000064",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "vibrant_anime_social_poster",
-      "code": "ST0221",
+      "code": "ST0065",
       "name": "活力动漫社媒海报",
       "category": "social_media",
       "tags": [
@@ -3219,12 +3219,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vibrant_anime_social_poster_bdd1753b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vibrant_anime_social_poster_bdd1753b.thumb.webp",
-      "number": "ST000221",
+      "number": "ST000065",
       "created_at": ""
     },
     {
       "id": "verglas_surreal_poetry_poster",
-      "code": "ST0197",
+      "code": "ST0066",
       "name": "Verglas 神秘诗歌手册海报",
       "category": "creative",
       "tags": [
@@ -3259,12 +3259,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/verglas_surreal_poetry_poster_HNHdnbiX.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/verglas_surreal_poetry_poster_HNHdnbiX.thumb.webp",
-      "number": "ST000197",
+      "number": "ST000066",
       "created_at": ""
     },
     {
       "id": "urban_collage_poster",
-      "code": "ST0055",
+      "code": "ST0067",
       "name": "都市前卫拼贴海报",
       "category": "brand_kv",
       "tags": [
@@ -3309,12 +3309,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.thumb.webp",
-      "number": "ST000055",
+      "number": "ST000067",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "ultra_fisheye_urban_portrait",
-      "code": "ST0056",
+      "code": "ST0068",
       "name": "超广角鱼眼人像",
       "category": "creative",
       "tags": [
@@ -3348,12 +3348,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/ultra_fisheye_urban_portrait_d99d2e2c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/ultra_fisheye_urban_portrait_d99d2e2c.thumb.webp",
-      "number": "ST000056",
+      "number": "ST000068",
       "created_at": "2026-06-30T23:51:20+08:00"
     },
     {
       "id": "typography",
-      "code": "ST0057",
+      "code": "ST0069",
       "name": "字体设计",
       "category": "print",
       "tags": [
@@ -3387,12 +3387,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.thumb.webp",
-      "number": "ST000057",
+      "number": "ST000069",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "trendy_bubble_letter_portrait",
-      "code": "ST0058",
+      "code": "ST0070",
       "name": "高明度泡泡字潮流视觉",
       "category": "creative",
       "tags": [
@@ -3440,12 +3440,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/trendy_bubble_letter_portrait_686cbd79.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/trendy_bubble_letter_portrait_686cbd79.thumb.webp",
-      "number": "ST000058",
+      "number": "ST000070",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "transparency_concept_poster",
-      "code": "ST0059",
+      "code": "ST0071",
       "name": "透明概念海报",
       "category": "creative",
       "tags": [
@@ -3492,12 +3492,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.thumb.webp",
-      "number": "ST000059",
+      "number": "ST000071",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "textile_craft_pro",
-      "code": "ST0060",
+      "code": "ST0072",
       "name": "织物手工艺",
       "category": "creative",
       "tags": [
@@ -3538,12 +3538,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.thumb.webp",
-      "number": "ST000060",
+      "number": "ST000072",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "tear_paper",
-      "code": "ST0061",
+      "code": "ST0073",
       "name": "撕纸美学",
       "category": "print",
       "tags": [
@@ -3588,12 +3588,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.thumb.webp",
-      "number": "ST000061",
+      "number": "ST000073",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "takeshi_camping_poster",
-      "code": "ST0062",
+      "code": "ST0074",
       "name": "武政谅丝网印刷露营海报",
       "category": "creative",
       "tags": [
@@ -3637,12 +3637,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.thumb.webp",
-      "number": "ST000062",
+      "number": "ST000074",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "taipei_vintage_modernist_travel_poster",
-      "code": "ST0282",
+      "code": "ST0075",
       "name": "台北复古现代主义旅行海报",
       "category": "travel",
       "tags": [
@@ -3680,12 +3680,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/taipei_vintage_modernist_travel_poster_08aa9669.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/taipei_vintage_modernist_travel_poster_08aa9669.thumb.webp",
-      "number": "ST000282",
+      "number": "ST000075",
       "created_at": ""
     },
     {
       "id": "swiss_editorial_character_poster",
-      "code": "ST0310",
+      "code": "ST0076",
       "name": "现代瑞士主义角色海报",
       "category": "editorial",
       "tags": [
@@ -3720,12 +3720,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/swiss_editorial_character_poster_6892d74f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/swiss_editorial_character_poster_6892d74f.thumb.webp",
-      "number": "ST000310",
+      "number": "ST000076",
       "created_at": ""
     },
     {
       "id": "surreal_fashion_runway",
-      "code": "ST0267",
+      "code": "ST0077",
       "name": "超现实时尚花园秀场",
       "category": "fashion",
       "tags": [
@@ -3763,12 +3763,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/surreal_fashion_runway_c13189a1.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/surreal_fashion_runway_c13189a1.thumb.webp",
-      "number": "ST000267",
+      "number": "ST000077",
       "created_at": ""
     },
     {
       "id": "sunny_3d",
-      "code": "ST0063",
+      "code": "ST0078",
       "name": "阳光3D头像营销风",
       "category": "ip_character",
       "tags": [
@@ -3803,12 +3803,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/sunny_3d_0b8cad92.thumb.webp",
-      "number": "ST000063",
+      "number": "ST000078",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "sunlit_kinetic_block_type_poster",
-      "code": "ST0064",
+      "code": "ST0079",
       "name": "日光动态块状字体摄影海报",
       "category": "brand_kv",
       "tags": [
@@ -3852,12 +3852,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/sunlit_kinetic_block_type_poster_1d65b228.thumb.webp",
-      "number": "ST000064",
+      "number": "ST000079",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "summer_dopamine",
-      "code": "ST0065",
+      "code": "ST0080",
       "name": "夏日多巴胺潮流3D",
       "category": "social_media",
       "tags": [
@@ -3896,12 +3896,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/summer_dopamine_b0c14a20.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/summer_dopamine_b0c14a20.thumb.webp",
-      "number": "ST000065",
+      "number": "ST000080",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "style_travel",
-      "code": "ST0066",
+      "code": "ST0081",
       "name": "干净的旅行 Vlog 三联缩略图风格",
       "category": "travel",
       "tags": [
@@ -3954,12 +3954,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_travel_a6ec87c3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_travel_a6ec87c3.thumb.webp",
-      "number": "ST000066",
+      "number": "ST000081",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "style_product",
-      "code": "ST0286",
+      "code": "ST0082",
       "name": "电光蓝剪影产品上市风格",
       "category": "e-commerce",
       "tags": [
@@ -4003,12 +4003,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_product_1ed4ff87.thumb.webp",
-      "number": "ST000286",
+      "number": "ST000082",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "style_poster",
-      "code": "ST0068",
+      "code": "ST0083",
       "name": "折叠菱形透视字体海报风格",
       "category": "creative",
       "tags": [
@@ -4064,12 +4064,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_poster_c8d9aeec.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_poster_c8d9aeec.thumb.webp",
-      "number": "ST000068",
+      "number": "ST000083",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "style_halftone_poster",
-      "code": "ST0069",
+      "code": "ST0084",
       "name": "半色调组合隐喻公益海报风格",
       "category": "creative",
       "tags": [
@@ -4110,12 +4110,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_halftone_poster_3bed3468.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_halftone_poster_3bed3468.thumb.webp",
-      "number": "ST000069",
+      "number": "ST000084",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "style_can",
-      "code": "ST0070",
+      "code": "ST0085",
       "name": "蓝色中式透视字体峡谷风格",
       "category": "print",
       "tags": [
@@ -4150,12 +4150,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/style_can_33201059.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/style_can_33201059.thumb.webp",
-      "number": "ST000070",
+      "number": "ST000085",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "streetwear_shopping_bag",
-      "code": "ST0071",
+      "code": "ST0086",
       "name": "街头购物袋视角大片",
       "category": "fashion",
       "tags": [
@@ -4191,12 +4191,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/streetwear_shopping_bag_c2c6fb0a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/streetwear_shopping_bag_c2c6fb0a.thumb.webp",
-      "number": "ST000071",
+      "number": "ST000086",
       "created_at": ""
     },
     {
       "id": "streetwear_lab",
-      "code": "ST0072",
+      "code": "ST0087",
       "name": "3D街潮实验室海报",
       "category": "brand_kv",
       "tags": [
@@ -4237,12 +4237,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/streetwear_lab_1bee8bc5.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/streetwear_lab_1bee8bc5.thumb.webp",
-      "number": "ST000072",
+      "number": "ST000087",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "street_3d_maximalist",
-      "code": "ST0073",
+      "code": "ST0088",
       "name": "3D 极繁街潮海报",
       "category": "brand_kv",
       "tags": [
@@ -4285,12 +4285,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/street_3d_maximalist_9224fd66.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/street_3d_maximalist_9224fd66.thumb.webp",
-      "number": "ST000073",
+      "number": "ST000088",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "sticker_style_poster",
-      "code": "ST0074",
+      "code": "ST0089",
       "name": "模拟贴纸手账人像海报风格",
       "category": "social_media",
       "tags": [
@@ -4342,12 +4342,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/sticker_style_poster_642d3f74.thumb.webp",
-      "number": "ST000074",
+      "number": "ST000089",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "stamp_movie_poster",
-      "code": "ST0075",
+      "code": "ST0090",
       "name": "日本邮票电影海报",
       "category": "print",
       "tags": [
@@ -4392,12 +4392,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.thumb.webp",
-      "number": "ST000075",
+      "number": "ST000090",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "soft_sweet_macro_portrait",
-      "code": "ST0211",
+      "code": "ST0091",
       "name": "清透柔软甜感近距写真",
       "category": "social_media",
       "tags": [
@@ -4434,12 +4434,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/soft_sweet_macro_portrait_670e218b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/soft_sweet_macro_portrait_670e218b.thumb.webp",
-      "number": "ST000211",
+      "number": "ST000091",
       "created_at": ""
     },
     {
       "id": "soft_lifestyle_product_ad",
-      "code": "ST0301",
+      "code": "ST0092",
       "name": "清爽生活产品广告视觉",
       "category": "e-commerce",
       "tags": [
@@ -4474,12 +4474,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/soft_lifestyle_product_ad_afc3c398.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/soft_lifestyle_product_ad_afc3c398.thumb.webp",
-      "number": "ST000301",
+      "number": "ST000092",
       "created_at": ""
     },
     {
       "id": "soft_clay_macaron_poster",
-      "code": "ST0076",
+      "code": "ST0093",
       "name": "软胶黏土马卡龙活动海报",
       "category": "creative",
       "tags": [
@@ -4523,12 +4523,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_5e36600e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_5e36600e.thumb.webp",
-      "number": "ST000076",
+      "number": "ST000093",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "soft_clay_camping_kv",
-      "code": "ST0077",
+      "code": "ST0094",
       "name": "软胶黏土3D卡通露营KV",
       "category": "creative",
       "tags": [
@@ -4571,12 +4571,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/soft_clay_camping_kv_5e36600e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/soft_clay_camping_kv_5e36600e.thumb.webp",
-      "number": "ST000077",
+      "number": "ST000094",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "sky_blue_doodle",
-      "code": "ST0078",
+      "code": "ST0095",
       "name": "天蓝家居生活涂鸦海报",
       "category": "social_media",
       "tags": [
@@ -4617,12 +4617,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.thumb.webp",
-      "number": "ST000078",
+      "number": "ST000095",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "silver_foil_klein_blue_cover",
-      "code": "ST0079",
+      "code": "ST0096",
       "name": "银色锡纸蓝字风封面",
       "category": "typography",
       "tags": [
@@ -4658,12 +4658,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/silver_foil_klein_blue_cover_f8e22fb7.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/silver_foil_klein_blue_cover_f8e22fb7.thumb.webp",
-      "number": "ST000079",
+      "number": "ST000096",
       "created_at": "2026-06-29T10:06:47+08:00"
     },
     {
       "id": "scribble_poster_style",
-      "code": "ST0080",
+      "code": "ST0097",
       "name": "青少年滑板涂鸦丝网印海报风格",
       "category": "creative",
       "tags": [
@@ -4716,12 +4716,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.thumb.webp",
-      "number": "ST000080",
+      "number": "ST000097",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "screen_print_offset_headline",
-      "code": "ST0269",
+      "code": "ST0098",
       "name": "丝网印刷套印偏移标题字体",
       "category": "typography",
       "tags": [
@@ -4763,12 +4763,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/screen_print_offset_headline_4832177d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/screen_print_offset_headline_4832177d.thumb.webp",
-      "number": "ST000269",
+      "number": "ST000098",
       "created_at": ""
     },
     {
       "id": "scifi_artdeco_poster",
-      "code": "ST0081",
+      "code": "ST0099",
       "name": "科幻电影 Art Deco 复古海报",
       "category": "creative",
       "tags": [
@@ -4805,12 +4805,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/scifi_artdeco_poster_4336bd27.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/scifi_artdeco_poster_4336bd27.thumb.webp",
-      "number": "ST000081",
+      "number": "ST000099",
       "created_at": ""
     },
     {
       "id": "science_infographic",
-      "code": "ST0082",
+      "code": "ST0100",
       "name": "科研信息图",
       "category": "science",
       "tags": [
@@ -4847,12 +4847,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/science_infographic_bdeb029e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/science_infographic_bdeb029e.thumb.webp",
-      "number": "ST000082",
+      "number": "ST000100",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "science_illustration",
-      "code": "ST0083",
+      "code": "ST0101",
       "name": "论文插图",
       "category": "science",
       "tags": [
@@ -4889,12 +4889,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/science_illustration_bdeb029e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/science_illustration_bdeb029e.thumb.webp",
-      "number": "ST000083",
+      "number": "ST000101",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "science_cover",
-      "code": "ST0084",
+      "code": "ST0102",
       "name": "科研杂志封面",
       "category": "science",
       "tags": [
@@ -4930,12 +4930,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.thumb.webp",
-      "number": "ST000084",
+      "number": "ST000102",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "scarlet",
-      "code": "ST0085",
+      "code": "ST0103",
       "name": "猩红块面手绘描边风格",
       "category": "print",
       "tags": [
@@ -4979,12 +4979,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.thumb.webp",
-      "number": "ST000085",
+      "number": "ST000103",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "riso_travel_poster",
-      "code": "ST0086",
+      "code": "ST0104",
       "name": "孔版画旅行海报",
       "category": "print",
       "tags": [
@@ -5021,12 +5021,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/riso_travel_poster_5da39518.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/riso_travel_poster_5da39518.thumb.webp",
-      "number": "ST000086",
+      "number": "ST000104",
       "created_at": ""
     },
     {
       "id": "retro_motorsport_poster",
-      "code": "ST0208",
+      "code": "ST0105",
       "name": "复古赛车海报",
       "category": "brand_kv",
       "tags": [
@@ -5070,12 +5070,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_motorsport_poster_e6b1b173.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_motorsport_poster_e6b1b173.thumb.webp",
-      "number": "ST000208",
+      "number": "ST000105",
       "created_at": ""
     },
     {
       "id": "retro_future_scifi_poster",
-      "code": "ST0087",
+      "code": "ST0106",
       "name": "复古未来主义科幻海报",
       "category": "creative",
       "tags": [
@@ -5122,12 +5122,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_future_scifi_poster_7fc81506.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_future_scifi_poster_7fc81506.thumb.webp",
-      "number": "ST000087",
+      "number": "ST000106",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "retro_drink_ad",
-      "code": "ST0287",
+      "code": "ST0107",
       "name": "复古饮料广告",
       "category": "e-commerce",
       "tags": [
@@ -5170,12 +5170,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_drink_ad_52652b0d.thumb.webp",
-      "number": "ST000287",
+      "number": "ST000107",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "retro_cel_animation",
-      "code": "ST0089",
+      "code": "ST0108",
       "name": "复古赛璐珞动画",
       "category": "ip_character",
       "tags": [
@@ -5208,12 +5208,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_cel_animation_70639aef.thumb.webp",
-      "number": "ST000089",
+      "number": "ST000108",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "retro_anime_cinema_illustration",
-      "code": "ST0234",
+      "code": "ST0109",
       "name": "复古日系动漫电影感插画",
       "category": "creative",
       "tags": [
@@ -5251,12 +5251,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_anime_cinema_illustration_09798ea4.thumb.webp",
-      "number": "ST000234",
+      "number": "ST000109",
       "created_at": ""
     },
     {
       "id": "restrained_paper_infographic",
-      "code": "ST0254",
+      "code": "ST0110",
       "name": "典雅纸艺信息图",
       "category": "editorial",
       "tags": [
@@ -5293,12 +5293,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/restrained_paper_infographic_0b1c7b49.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/restrained_paper_infographic_0b1c7b49.thumb.webp",
-      "number": "ST000254",
+      "number": "ST000110",
       "created_at": ""
     },
     {
       "id": "realistic_photo",
-      "code": "ST0288",
+      "code": "ST0111",
       "name": "写实摄影",
       "category": "e-commerce",
       "tags": [
@@ -5332,12 +5332,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/realistic_photo_dd50687b.thumb.webp",
-      "number": "ST000288",
+      "number": "ST000111",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "real_object_line_character_poster",
-      "code": "ST0330",
+      "code": "ST0112",
       "name": "实物线描角色海报",
       "category": "creative",
       "tags": [
@@ -5381,12 +5381,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/real_object_line_character_poster_2c23390e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/real_object_line_character_poster_2c23390e.thumb.webp",
-      "number": "ST000330",
+      "number": "ST000112",
       "created_at": ""
     },
     {
       "id": "quiet_thinking_informative_portrait",
-      "code": "ST0212",
+      "code": "ST0113",
       "name": "安静思考感信息化视觉",
       "category": "social_media",
       "tags": [
@@ -5423,12 +5423,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/quiet_thinking_informative_portrait_c9c68501.thumb.webp",
-      "number": "ST000212",
+      "number": "ST000113",
       "created_at": ""
     },
     {
       "id": "quiet_corner_mood_illustration",
-      "code": "ST0229",
+      "code": "ST0114",
       "name": "安静角落情绪插画",
       "category": "social_media",
       "tags": [
@@ -5465,12 +5465,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/quiet_corner_mood_illustration_e2a92b24.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/quiet_corner_mood_illustration_e2a92b24.thumb.webp",
-      "number": "ST000229",
+      "number": "ST000114",
       "created_at": ""
     },
     {
       "id": "premium_scandinavian_stamp_collection",
-      "code": "ST0245",
+      "code": "ST0115",
       "name": "北欧极简旅行纪念邮票集",
       "category": "travel",
       "tags": [
@@ -5510,12 +5510,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_scandinavian_stamp_collection_9ccd9d26.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_scandinavian_stamp_collection_9ccd9d26.thumb.webp",
-      "number": "ST000245",
+      "number": "ST000115",
       "created_at": ""
     },
     {
       "id": "premium_graphite_portrait",
-      "code": "ST0188",
+      "code": "ST0116",
       "name": "当代高端石墨肖像插画",
       "category": "creative",
       "tags": [
@@ -5554,12 +5554,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_graphite_portrait_0dcec518.thumb.webp",
-      "number": "ST000188",
+      "number": "ST000116",
       "created_at": ""
     },
     {
       "id": "premium_editorial_city_poster",
-      "code": "ST0257",
+      "code": "ST0117",
       "name": "精致城市期刊封面海报",
       "category": "social_media",
       "tags": [
@@ -5594,12 +5594,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_editorial_city_poster_3ef53bb8.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_editorial_city_poster_3ef53bb8.thumb.webp",
-      "number": "ST000257",
+      "number": "ST000117",
       "created_at": ""
     },
     {
       "id": "premium_cafe_menu_poster",
-      "code": "ST0308",
+      "code": "ST0118",
       "name": "精品咖啡菜单海报",
       "category": "e-commerce",
       "tags": [
@@ -5635,12 +5635,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_cafe_menu_poster_ccf1aed3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_cafe_menu_poster_ccf1aed3.thumb.webp",
-      "number": "ST000308",
+      "number": "ST000118",
       "created_at": ""
     },
     {
       "id": "premium_4grid_product_lineup",
-      "code": "ST0305",
+      "code": "ST0119",
       "name": "风味配色4格产品阵列海报",
       "category": "e-commerce",
       "tags": [
@@ -5678,12 +5678,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/premium_4grid_product_lineup_bbc183b5.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/premium_4grid_product_lineup_bbc183b5.thumb.webp",
-      "number": "ST000305",
+      "number": "ST000119",
       "created_at": ""
     },
     {
       "id": "precise_info_design_portrait",
-      "code": "ST0215",
+      "code": "ST0120",
       "name": "冷静精确信息设计肖像",
       "category": "social_media",
       "tags": [
@@ -5717,12 +5717,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/precise_info_design_portrait_11fab4ee.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/precise_info_design_portrait_11fab4ee.thumb.webp",
-      "number": "ST000215",
+      "number": "ST000120",
       "created_at": ""
     },
     {
       "id": "porcelain_bottle_character_spray",
-      "code": "ST0323",
+      "code": "ST0121",
       "name": "白瓷瓶角色喷绘Editorial海报",
       "category": "editorial",
       "tags": [
@@ -5759,12 +5759,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/porcelain_bottle_character_spray_71f9e64c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/porcelain_bottle_character_spray_71f9e64c.thumb.webp",
-      "number": "ST000323",
+      "number": "ST000121",
       "created_at": ""
     },
     {
       "id": "pop_up_storybook_poster",
-      "code": "ST0091",
+      "code": "ST0122",
       "name": "立体插画故事书海报",
       "category": "brand_kv",
       "tags": [
@@ -5801,12 +5801,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pop_up_storybook_poster_6a76b88b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pop_up_storybook_poster_6a76b88b.thumb.webp",
-      "number": "ST000091",
+      "number": "ST000122",
       "created_at": ""
     },
     {
       "id": "playful_avantgarde_poster",
-      "code": "ST0092",
+      "code": "ST0123",
       "name": "童趣前卫艺术展海报",
       "category": "creative",
       "tags": [
@@ -5848,12 +5848,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/playful_avantgarde_poster_be32ed45.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/playful_avantgarde_poster_be32ed45.thumb.webp",
-      "number": "ST000092",
+      "number": "ST000123",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "pixel_cut_community_poster",
-      "code": "ST0093",
+      "code": "ST0124",
       "name": "像素切割社区活动海报",
       "category": "creative",
       "tags": [
@@ -5902,12 +5902,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pixel_cut_community_poster_74cb7a79.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pixel_cut_community_poster_74cb7a79.thumb.webp",
-      "number": "ST000093",
+      "number": "ST000124",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "pixar_cartoon_portrait",
-      "code": "ST0094",
+      "code": "ST0125",
       "name": "Pixar 3D 卡通肖像",
       "category": "ip_character",
       "tags": [
@@ -5951,12 +5951,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.thumb.webp",
-      "number": "ST000094",
+      "number": "ST000125",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "photo_half_hand_drawn_poster",
-      "code": "ST0279",
+      "code": "ST0126",
       "name": "摄影手绘双面海报",
       "category": "print",
       "tags": [
@@ -5993,12 +5993,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/photo_half_hand_drawn_poster_0206f844.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/photo_half_hand_drawn_poster_0206f844.thumb.webp",
-      "number": "ST000279",
+      "number": "ST000126",
       "created_at": ""
     },
     {
       "id": "pet_sketch_storyboard",
-      "code": "ST0095",
+      "code": "ST0127",
       "name": "粗放动画宠物分镜草图风格",
       "category": "print",
       "tags": [
@@ -6058,12 +6058,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pet_sketch_storyboard_dce925d4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pet_sketch_storyboard_dce925d4.thumb.webp",
-      "number": "ST000095",
+      "number": "ST000127",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "perfume_kv",
-      "code": "ST0096",
+      "code": "ST0128",
       "name": "香水主视觉海报",
       "category": "brand_kv",
       "tags": [
@@ -6108,12 +6108,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.thumb.webp",
-      "number": "ST000096",
+      "number": "ST000128",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "pen_ink_point_line_peaches",
-      "code": "ST0097",
+      "code": "ST0129",
       "name": "钢笔点线技法·桃子",
       "category": "creative",
       "tags": [
@@ -6147,12 +6147,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.thumb.webp",
-      "number": "ST000097",
+      "number": "ST000129",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "pastel_product_studio",
-      "code": "ST0289",
+      "code": "ST0130",
       "name": "粉彩产品棚拍",
       "category": "e-commerce",
       "tags": [
@@ -6191,12 +6191,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pastel_product_studio_c3069620.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pastel_product_studio_c3069620.thumb.webp",
-      "number": "ST000289",
+      "number": "ST000130",
       "created_at": ""
     },
     {
       "id": "pastel_de_nata_doodle",
-      "code": "ST0099",
+      "code": "ST0131",
       "name": "蛋挞手绘美食海报",
       "category": "creative",
       "tags": [
@@ -6232,12 +6232,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.thumb.webp",
-      "number": "ST000099",
+      "number": "ST000131",
       "created_at": ""
     },
     {
       "id": "osmanthus_tea_seasonal_poster",
-      "code": "ST0299",
+      "code": "ST0132",
       "name": "桂花鲜奶茶季节限定海报",
       "category": "e-commerce",
       "tags": [
@@ -6272,12 +6272,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_c03d2bb2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_c03d2bb2.thumb.webp",
-      "number": "ST000299",
+      "number": "ST000132",
       "created_at": ""
     },
     {
       "id": "oriental_museum_ceramic_typography_poster",
-      "code": "ST0329",
+      "code": "ST0133",
       "name": "东方文博器物字体海报",
       "category": "editorial",
       "tags": [
@@ -6323,12 +6323,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/oriental_museum_ceramic_typography_poster_b4826816.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/oriental_museum_ceramic_typography_poster_b4826816.thumb.webp",
-      "number": "ST000329",
+      "number": "ST000133",
       "created_at": ""
     },
     {
       "id": "oriental_mural_exhibition_poster",
-      "code": "ST0100",
+      "code": "ST0134",
       "name": "东方古代壁画展览海报",
       "category": "creative",
       "tags": [
@@ -6364,12 +6364,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/oriental_mural_exhibition_poster_6f8157ee.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/oriental_mural_exhibition_poster_6f8157ee.thumb.webp",
-      "number": "ST000100",
+      "number": "ST000134",
       "created_at": "2026-06-30T22:35:31+08:00"
     },
     {
       "id": "oriental_herbal_tea_poster",
-      "code": "ST0285",
+      "code": "ST0135",
       "name": "东方草本茶饮文化海报",
       "category": "brand_kv",
       "tags": [
@@ -6406,12 +6406,60 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/oriental_herbal_tea_poster_285443f8.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/oriental_herbal_tea_poster_285443f8.thumb.webp",
-      "number": "ST000285",
+      "number": "ST000135",
+      "created_at": ""
+    },
+    {
+      "id": "oriental_fine_line_symbol_poster",
+      "code": "ST0136",
+      "name": "工笔细线东方色场象征动作海报",
+      "category": "creative",
+      "tags": [
+        "工笔细线",
+        "东方色场",
+        "象征动作",
+        "极简海报",
+        "平面化",
+        "寓意叙事"
+      ],
+      "triggers": [
+        "工笔细线人物",
+        "东方极简海报",
+        "极细线描",
+        "朱砂红人物海报",
+        "寓意动作插画",
+        "gongbi fine line poster"
+      ],
+      "scene": "东方气质角色海报、神话/拟人化主体视觉、品牌国风KV、展览主视觉、文创产品、寓意叙事插画",
+      "ratio": "3:4",
+      "summary": "极细墨线工笔插画 × 高纯度东方色场 × 单一象征动作：平面化无透视，细节精确而整体留白，工笔人物画与现代极简海报的视觉融合",
+      "features": [
+        "**极细墨线 + 透明淡彩塑形** — 皮肤、手部、毛发、织物以高密度顺向细线描绘，细节精确但整体保持平面化，不建立真实空间透视",
+        "**大面积单一高纯度东方色场** — 背景纯色平涂（朱砂红 / 石青 / 赭石等），无复杂空间层次，呈现现代极简海报底色",
+        "**单一象征性动作承担寓意** — 触碰额头、递物、指引、抚摸、施礼，让动作本身承载精神性与叙事，成为视觉焦点",
+        "**服饰局部细密纹样点睛** — 青绿、金色、卷云、如意纹或古典边饰，与整体色场形成工笔细密与现代极简的对比融合"
+      ],
+      "prompt": "创作一张工笔细线插画风格海报，主体为{角色或主体}，融合东方寓意叙事与日本画式细密生物描写。\n\n主体以极细墨线和透明淡彩塑形，皮肤、手部、毛发或织物采用高密度顺向细线描绘，细节精确但整体保持平面化，不建立真实空间透视。\n\n画面围绕一个高度明确的象征性动作展开：{象征动作}，让动作本身承担精神性或寓意，成为整张图的视觉焦点。\n\n背景使用大面积单一{东方色场}（如朱砂红、石青、赭石等高纯度东方综合色），纯色平涂，不留复杂空间层次，形成现代极简海报的底色。\n\n服饰局部加入{服饰局部纹样}（青绿、金色、卷云、如意纹或古典边饰），与大面积色场形成细密与整体的对比，达成工笔人物画与现代极简海报之间的视觉融合。\n\n画幅比例：{画幅比例}。\n\n避免写实摄影、3D 渲染、浓重水墨、油画厚涂、动漫卡通风、拼贴感与复杂背景。不要水印，不要真实Logo，不要电商广告感，不要乱码。\n",
+      "variables": {
+        "画面-主体": "{角色或主体}",
+        "画面-象征动作": "{象征动作}",
+        "画面-色场": "{东方色场}",
+        "画面-服饰纹样": "{服饰局部纹样}",
+        "画幅比例": "{画幅比例}"
+      },
+      "source_url": "https://x.com/VoxcatAI/status/2109882653076004993",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/oriental_fine_line_symbol_poster_39290779.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/oriental_fine_line_symbol_poster_39290779.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/oriental_fine_line_symbol_poster_39290779.thumb.webp",
+      "number": "ST000136",
       "created_at": ""
     },
     {
       "id": "oriental_fantasy_travel_cover",
-      "code": "ST0194",
+      "code": "ST0137",
       "name": "东方幻想游记封面",
       "category": "print",
       "tags": [
@@ -6446,12 +6494,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/oriental_fantasy_travel_cover_309781f1.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/oriental_fantasy_travel_cover_309781f1.thumb.webp",
-      "number": "ST000194",
+      "number": "ST000137",
       "created_at": ""
     },
     {
       "id": "object_illustration_combo",
-      "code": "ST0101",
+      "code": "ST0138",
       "name": "真实物体插画融合",
       "category": "creative",
       "tags": [
@@ -6495,12 +6543,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.thumb.webp",
-      "number": "ST000101",
+      "number": "ST000138",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "north_fold_scientific_poster",
-      "code": "ST0198",
+      "code": "ST0139",
       "name": "North Fold 科考档案海报",
       "category": "creative",
       "tags": [
@@ -6535,12 +6583,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.thumb.webp",
-      "number": "ST000198",
+      "number": "ST000139",
       "created_at": ""
     },
     {
       "id": "night_flash_celebration_portrait",
-      "code": "ST0213",
+      "code": "ST0140",
       "name": "夜间闪光庆典写真",
       "category": "social_media",
       "tags": [
@@ -6577,12 +6625,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/night_flash_celebration_portrait_ff5b2426.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/night_flash_celebration_portrait_ff5b2426.thumb.webp",
-      "number": "ST000213",
+      "number": "ST000140",
       "created_at": ""
     },
     {
       "id": "newyear_gift_box",
-      "code": "ST0290",
+      "code": "ST0141",
       "name": "新年礼盒",
       "category": "e-commerce",
       "tags": [
@@ -6635,12 +6683,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.thumb.webp",
-      "number": "ST000290",
+      "number": "ST000141",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "naive_doodle_cat_character",
-      "code": "ST0244",
+      "code": "ST0142",
       "name": "童趣猫咪手绘涂鸦",
       "category": "creative",
       "tags": [
@@ -6676,12 +6724,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/naive_doodle_cat_character_e3bfda16.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/naive_doodle_cat_character_e3bfda16.thumb.webp",
-      "number": "ST000244",
+      "number": "ST000142",
       "created_at": ""
     },
     {
       "id": "museum_dramatic_lighting_portrait",
-      "code": "ST0238",
+      "code": "ST0143",
       "name": "暗调博物馆戏剧光影人像",
       "category": "creative",
       "tags": [
@@ -6716,12 +6764,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/museum_dramatic_lighting_portrait_487e804b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/museum_dramatic_lighting_portrait_487e804b.thumb.webp",
-      "number": "ST000238",
+      "number": "ST000143",
       "created_at": ""
     },
     {
       "id": "morra_table_parfait_poster",
-      "code": "ST0261",
+      "code": "ST0144",
       "name": "MORRA TABLE 早餐品牌广告海报",
       "category": "creative",
       "tags": [
@@ -6757,12 +6805,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/morra_table_parfait_poster_c280b2a9.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/morra_table_parfait_poster_c280b2a9.thumb.webp",
-      "number": "ST000261",
+      "number": "ST000144",
       "created_at": ""
     },
     {
       "id": "monumental_bas_relief_brand_narrative",
-      "code": "ST0253",
+      "code": "ST0145",
       "name": "纪念性浮雕品牌叙事",
       "category": "creative",
       "tags": [
@@ -6804,12 +6852,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monumental_bas_relief_brand_narrative_795346db.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monumental_bas_relief_brand_narrative_795346db.thumb.webp",
-      "number": "ST000253",
+      "number": "ST000145",
       "created_at": ""
     },
     {
       "id": "monochrome_editorial_character",
-      "code": "ST0239",
+      "code": "ST0146",
       "name": "黑白极简编辑风角色插画",
       "category": "creative",
       "tags": [
@@ -6844,12 +6892,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.thumb.webp",
-      "number": "ST000239",
+      "number": "ST000146",
       "created_at": ""
     },
     {
       "id": "monochrome_biro_sketch_red_field",
-      "code": "ST0311",
+      "code": "ST0147",
       "name": "黑白圆珠笔排线红场",
       "category": "creative",
       "tags": [
@@ -6884,12 +6932,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.thumb.webp",
-      "number": "ST000311",
+      "number": "ST000147",
       "created_at": ""
     },
     {
       "id": "monochrome_accent_realism",
-      "code": "ST0259",
+      "code": "ST0148",
       "name": "单色点缀写实插画",
       "category": "social_media",
       "tags": [
@@ -6925,12 +6973,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_accent_realism_30f312b3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_accent_realism_30f312b3.thumb.webp",
-      "number": "ST000259",
+      "number": "ST000148",
       "created_at": ""
     },
     {
       "id": "moebius_underwater_coral_postoffice",
-      "code": "ST0103",
+      "code": "ST0149",
       "name": "莫比乌斯海底珊瑚邮局",
       "category": "creative",
       "tags": [
@@ -6968,12 +7016,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/moebius_underwater_coral_postoffice_47b70184.thumb.webp",
-      "number": "ST000103",
+      "number": "ST000149",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "modernist_food_separation_menu",
-      "code": "ST0309",
+      "code": "ST0150",
       "name": "现代主义食材分离菜单艺术",
       "category": "e-commerce",
       "tags": [
@@ -7009,12 +7057,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modernist_food_separation_menu_a941b915.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modernist_food_separation_menu_a941b915.thumb.webp",
-      "number": "ST000309",
+      "number": "ST000150",
       "created_at": ""
     },
     {
       "id": "modern_eastern_school_anniversary",
-      "code": "ST0195",
+      "code": "ST0151",
       "name": "现代东方校庆纪念海报",
       "category": "print",
       "tags": [
@@ -7049,12 +7097,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.thumb.webp",
-      "number": "ST000195",
+      "number": "ST000151",
       "created_at": ""
     },
     {
       "id": "modern_east_asian_paper_poster",
-      "code": "ST0312",
+      "code": "ST0152",
       "name": "现代东方编辑美学文化活动海报",
       "category": "editorial",
       "tags": [
@@ -7094,12 +7142,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modern_east_asian_paper_poster_ea163682.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modern_east_asian_paper_poster_ea163682.thumb.webp",
-      "number": "ST000312",
+      "number": "ST000152",
       "created_at": ""
     },
     {
       "id": "modern_chinese_geometric_poster",
-      "code": "ST0256",
+      "code": "ST0153",
       "name": "现代中式几何海报",
       "category": "social_media",
       "tags": [
@@ -7134,12 +7182,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modern_chinese_geometric_poster_e918eddc.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modern_chinese_geometric_poster_e918eddc.thumb.webp",
-      "number": "ST000256",
+      "number": "ST000153",
       "created_at": ""
     },
     {
       "id": "mixed_media_manga_editorial_portrait",
-      "code": "ST0240",
+      "code": "ST0154",
       "name": "漫画拼贴写实人像",
       "category": "creative",
       "tags": [
@@ -7175,12 +7223,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mixed_media_manga_editorial_portrait_5728606c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/mixed_media_manga_editorial_portrait_5728606c.thumb.webp",
-      "number": "ST000240",
+      "number": "ST000154",
       "created_at": ""
     },
     {
       "id": "mixed_media_fashion_editorial",
-      "code": "ST0246",
+      "code": "ST0155",
       "name": "混合媒体时尚大片风",
       "category": "fashion",
       "tags": [
@@ -7217,12 +7265,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mixed_media_fashion_editorial_a1eed28b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/mixed_media_fashion_editorial_a1eed28b.thumb.webp",
-      "number": "ST000246",
+      "number": "ST000155",
       "created_at": ""
     },
     {
       "id": "minimalist_hand_drawn_card",
-      "code": "ST0210",
+      "code": "ST0156",
       "name": "极简手绘纪念卡",
       "category": "creative",
       "tags": [
@@ -7261,12 +7309,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimalist_hand_drawn_card_91829faa.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimalist_hand_drawn_card_91829faa.thumb.webp",
-      "number": "ST000210",
+      "number": "ST000156",
       "created_at": ""
     },
     {
       "id": "minimalist_city_travel_poster",
-      "code": "ST0104",
+      "code": "ST0157",
       "name": "极简城市旅行海报",
       "category": "travel",
       "tags": [
@@ -7310,12 +7358,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.thumb.webp",
-      "number": "ST000104",
+      "number": "ST000157",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "minimalist_cafe_product_poster",
-      "code": "ST0307",
+      "code": "ST0158",
       "name": "极简瑞士风咖啡馆产品海报",
       "category": "e-commerce",
       "tags": [
@@ -7349,12 +7397,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.thumb.webp",
-      "number": "ST000307",
+      "number": "ST000158",
       "created_at": ""
     },
     {
       "id": "miniature_diorama_poster",
-      "code": "ST0280",
+      "code": "ST0159",
       "name": "微缩景观模型海报",
       "category": "creative",
       "tags": [
@@ -7391,12 +7439,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/miniature_diorama_poster_a4872258.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/miniature_diorama_poster_a4872258.thumb.webp",
-      "number": "ST000280",
+      "number": "ST000159",
       "created_at": ""
     },
     {
       "id": "mckinsey_style",
-      "code": "ST0105",
+      "code": "ST0160",
       "name": "麦肯锡风格",
       "category": "science",
       "tags": [
@@ -7434,12 +7482,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.thumb.webp",
-      "number": "ST000105",
+      "number": "ST000160",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "materialized_explainer_diagram",
-      "code": "ST0204",
+      "code": "ST0161",
       "name": "材质化解释图风格",
       "category": "creative",
       "tags": [
@@ -7475,12 +7523,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/materialized_explainer_diagram_HNJstWeb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/materialized_explainer_diagram_HNJstWeb.thumb.webp",
-      "number": "ST000204",
+      "number": "ST000161",
       "created_at": ""
     },
     {
       "id": "mascot_ip",
-      "code": "ST0106",
+      "code": "ST0162",
       "name": "吉祥物IP风格",
       "category": "ip_character",
       "tags": [
@@ -7520,12 +7568,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/mascot_ip_445793e8.thumb.webp",
-      "number": "ST000106",
+      "number": "ST000162",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "maple_story_avatar",
-      "code": "ST0107",
+      "code": "ST0163",
       "name": "冒险岛角色精灵转换",
       "category": "ip_character",
       "tags": [
@@ -7567,12 +7615,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/maple_story_avatar_d2852785.thumb.webp",
-      "number": "ST000107",
+      "number": "ST000163",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "mango_coconut_doodle_drink",
-      "code": "ST0108",
+      "code": "ST0164",
       "name": "芒果椰乳涂鸦饮料海报",
       "category": "creative",
       "tags": [
@@ -7619,12 +7667,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/mango_coconut_doodle_drink_b6861bea.thumb.webp",
-      "number": "ST000108",
+      "number": "ST000164",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "manga_triptych_portrait",
-      "code": "ST0187",
+      "code": "ST0165",
       "name": "三联漫画肖像",
       "category": "creative",
       "tags": [
@@ -7660,12 +7708,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/manga_triptych_portrait_2a1ce042.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/manga_triptych_portrait_2a1ce042.thumb.webp",
-      "number": "ST000187",
+      "number": "ST000165",
       "created_at": ""
     },
     {
       "id": "magic_lamp_island",
-      "code": "ST0186",
+      "code": "ST0166",
       "name": "精灵神灯浮岛",
       "category": "creative",
       "tags": [
@@ -7702,12 +7750,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/magic_lamp_island_1b0590ad.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/magic_lamp_island_1b0590ad.thumb.webp",
-      "number": "ST000186",
+      "number": "ST000166",
       "created_at": ""
     },
     {
       "id": "magazine_offset_poster",
-      "code": "ST0266",
+      "code": "ST0167",
       "name": "杂志偏心排版早安海报",
       "category": "social_media",
       "tags": [
@@ -7744,12 +7792,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/magazine_offset_poster_4ee79efc.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/magazine_offset_poster_4ee79efc.thumb.webp",
-      "number": "ST000266",
+      "number": "ST000167",
       "created_at": ""
     },
     {
       "id": "luxury_product",
-      "code": "ST0291",
+      "code": "ST0168",
       "name": "高级电商图",
       "category": "e-commerce",
       "tags": [
@@ -7783,12 +7831,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_product_4026eb56.thumb.webp",
-      "number": "ST000291",
+      "number": "ST000168",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "luxury_poster_style",
-      "code": "ST0110",
+      "code": "ST0169",
       "name": "静奢家具铭牌海报风格",
       "category": "print",
       "tags": [
@@ -7830,12 +7878,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_poster_style_1483190d.thumb.webp",
-      "number": "ST000110",
+      "number": "ST000169",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "luxury_embroidery_macro",
-      "code": "ST0111",
+      "code": "ST0170",
       "name": "奢侈品牌刺绣微距",
       "category": "brand_kv",
       "tags": [
@@ -7878,12 +7926,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.thumb.webp",
-      "number": "ST000111",
+      "number": "ST000170",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "luxury_birthday_poster",
-      "code": "ST0292",
+      "code": "ST0171",
       "name": "奢华生日海报风格",
       "category": "e-commerce",
       "tags": [
@@ -7928,12 +7976,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.thumb.webp",
-      "number": "ST000292",
+      "number": "ST000171",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "luxury_beauty_side_profile_poster",
-      "code": "ST0113",
+      "code": "ST0172",
       "name": "高端美妆营销企划侧面人像海报",
       "category": "brand_kv",
       "tags": [
@@ -7983,12 +8031,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.thumb.webp",
-      "number": "ST000113",
+      "number": "ST000172",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "lululemon_campaign_board",
-      "code": "ST0189",
+      "code": "ST0173",
       "name": "Lululemon 高端运动服营销企划板",
       "category": "brand_kv",
       "tags": [
@@ -8024,12 +8072,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/lululemon_campaign_board_03608a1f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/lululemon_campaign_board_03608a1f.thumb.webp",
-      "number": "ST000189",
+      "number": "ST000173",
       "created_at": ""
     },
     {
       "id": "lululemon_4square_campaign",
-      "code": "ST0192",
+      "code": "ST0174",
       "name": "Lululemon 四联运动海报",
       "category": "brand_kv",
       "tags": [
@@ -8065,12 +8113,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/lululemon_4square_campaign_a3eea795.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/lululemon_4square_campaign_a3eea795.thumb.webp",
-      "number": "ST000192",
+      "number": "ST000174",
       "created_at": ""
     },
     {
       "id": "lowpoly_isometric_vehicle",
-      "code": "ST0191",
+      "code": "ST0175",
       "name": "低多边形等轴测车辆",
       "category": "creative",
       "tags": [
@@ -8105,12 +8153,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/lowpoly_isometric_vehicle_5dc923ac.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/lowpoly_isometric_vehicle_5dc923ac.thumb.webp",
-      "number": "ST000191",
+      "number": "ST000175",
       "created_at": ""
     },
     {
       "id": "lime_mint_sparkling_doodle_poster",
-      "code": "ST0114",
+      "code": "ST0176",
       "name": "青柠薄荷涂鸦手绘饮料海报",
       "category": "creative",
       "tags": [
@@ -8161,12 +8209,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.thumb.webp",
-      "number": "ST000114",
+      "number": "ST000176",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "lakero_fine_dining_menu",
-      "code": "ST0115",
+      "code": "ST0177",
       "name": "LAKERO 法餐点单海报",
       "category": "brand_kv",
       "tags": [
@@ -8215,12 +8263,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/lakero_fine_dining_menu_4a8b8795.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/lakero_fine_dining_menu_4a8b8795.thumb.webp",
-      "number": "ST000115",
+      "number": "ST000177",
       "created_at": ""
     },
     {
       "id": "korean_morning_ritual_poster",
-      "code": "ST0116",
+      "code": "ST0178",
       "name": "韩国 ins 风晨间问候海报",
       "category": "creative",
       "tags": [
@@ -8271,12 +8319,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.thumb.webp",
-      "number": "ST000116",
+      "number": "ST000178",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "korean_illustration",
-      "code": "ST0117",
+      "code": "ST0179",
       "name": "韩国插画风",
       "category": "creative",
       "tags": [
@@ -8314,12 +8362,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.thumb.webp",
-      "number": "ST000117",
+      "number": "ST000179",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "korean_food_scrapbook_poster",
-      "code": "ST0304",
+      "code": "ST0180",
       "name": "韩式美食手账风海报",
       "category": "e-commerce",
       "tags": [
@@ -8354,12 +8402,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/korean_food_scrapbook_poster_a5aae615.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/korean_food_scrapbook_poster_a5aae615.thumb.webp",
-      "number": "ST000304",
+      "number": "ST000180",
       "created_at": ""
     },
     {
       "id": "kimjunggi_scifi_sketch",
-      "code": "ST0118",
+      "code": "ST0181",
       "name": "金政基赛博朋克素描",
       "category": "creative",
       "tags": [
@@ -8402,12 +8450,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/kimjunggi_scifi_sketch_1abbb496.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/kimjunggi_scifi_sketch_1abbb496.thumb.webp",
-      "number": "ST000118",
+      "number": "ST000181",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "kawaii_bright_hand_lettering_headline",
-      "code": "ST0250",
+      "code": "ST0182",
       "name": "可爱明亮手写标题字体",
       "category": "typography",
       "tags": [
@@ -8451,12 +8499,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_b16dec65.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_b16dec65.thumb.webp",
-      "number": "ST000250",
+      "number": "ST000182",
       "created_at": ""
     },
     {
       "id": "kawaii_bright_chunky_hand_lettering",
-      "code": "ST0251",
+      "code": "ST0183",
       "name": "可爱明亮粗圆手写字体",
       "category": "typography",
       "tags": [
@@ -8502,12 +8550,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_chunky_hand_lettering_6579341a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_chunky_hand_lettering_6579341a.thumb.webp",
-      "number": "ST000251",
+      "number": "ST000183",
       "created_at": ""
     },
     {
       "id": "k_gyaru_street_snap",
-      "code": "ST0119",
+      "code": "ST0184",
       "name": "K-ギャル 街头抓拍风",
       "category": "social_media",
       "tags": [
@@ -8553,12 +8601,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.thumb.webp",
-      "number": "ST000119",
+      "number": "ST000184",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "jimeng_kasho_allstars",
-      "code": "ST0120",
+      "code": "ST0185",
       "name": "Y2K酸性·ALL STARS 夜店潮流海报",
       "category": "brand_kv",
       "tags": [
@@ -8596,12 +8644,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.thumb.webp",
-      "number": "ST000120",
+      "number": "ST000185",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "japanese_woodblock_exhibition_poster",
-      "code": "ST0327",
+      "code": "ST0186",
       "name": "日式木版画美术馆展览海报",
       "category": "editorial",
       "tags": [
@@ -8636,12 +8684,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_woodblock_exhibition_poster_aa315163.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_woodblock_exhibition_poster_aa315163.thumb.webp",
-      "number": "ST000327",
+      "number": "ST000186",
       "created_at": ""
     },
     {
       "id": "japanese_travel_editorial_poster",
-      "code": "ST0313",
+      "code": "ST0187",
       "name": "日系旅行编辑角色海报",
       "category": "editorial",
       "tags": [
@@ -8677,12 +8725,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_travel_editorial_poster_91d40c93.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_travel_editorial_poster_91d40c93.thumb.webp",
-      "number": "ST000313",
+      "number": "ST000187",
       "created_at": ""
     },
     {
       "id": "japanese_poetic_dreamy",
-      "code": "ST0121",
+      "code": "ST0188",
       "name": "日式诗意梦幻半写实插画",
       "category": "social_media",
       "tags": [
@@ -8726,12 +8774,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.thumb.webp",
-      "number": "ST000121",
+      "number": "ST000188",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "japanese_museum_editorial_poster",
-      "code": "ST0314",
+      "code": "ST0189",
       "name": "日式美术馆编辑海报",
       "category": "editorial",
       "tags": [
@@ -8766,12 +8814,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.thumb.webp",
-      "number": "ST000314",
+      "number": "ST000189",
       "created_at": ""
     },
     {
       "id": "japanese_editorial_geometric_poster",
-      "code": "ST0315",
+      "code": "ST0190",
       "name": "日式编辑几何海报",
       "category": "editorial",
       "tags": [
@@ -8806,12 +8854,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_editorial_geometric_poster_f3975dbb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_editorial_geometric_poster_f3975dbb.thumb.webp",
-      "number": "ST000315",
+      "number": "ST000190",
       "created_at": ""
     },
     {
       "id": "japanese_cuisine_backlit",
-      "code": "ST0293",
+      "code": "ST0191",
       "name": "日料电影感摄影",
       "category": "e-commerce",
       "tags": [
@@ -8847,12 +8895,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_cuisine_backlit_457fee78.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_cuisine_backlit_457fee78.thumb.webp",
-      "number": "ST000293",
+      "number": "ST000191",
       "created_at": ""
     },
     {
       "id": "jade_glyph_grocer_collage",
-      "code": "ST0294",
+      "code": "ST0192",
       "name": "青玉字形杂货拼贴海报风格",
       "category": "e-commerce",
       "tags": [
@@ -8899,12 +8947,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.thumb.webp",
-      "number": "ST000294",
+      "number": "ST000192",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "isometric_country_diorama",
-      "code": "ST0283",
+      "code": "ST0193",
       "name": "精细地理微缩模型景观",
       "category": "travel",
       "tags": [
@@ -8942,12 +8990,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/isometric_country_diorama_f987b38c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/isometric_country_diorama_f987b38c.thumb.webp",
-      "number": "ST000283",
+      "number": "ST000193",
       "created_at": ""
     },
     {
       "id": "inkline_couture",
-      "code": "ST0124",
+      "code": "ST0194",
       "name": "墨线霓裳·东方高定时装插画",
       "category": "brand_kv",
       "tags": [
@@ -8989,12 +9037,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.thumb.webp",
-      "number": "ST000124",
+      "number": "ST000194",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "inflatable_3d_flowers",
-      "code": "ST0125",
+      "code": "ST0195",
       "name": "膨胀花朵 3D",
       "category": "creative",
       "tags": [
@@ -9032,12 +9080,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.thumb.webp",
-      "number": "ST000125",
+      "number": "ST000195",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "indonesian_food_infographic",
-      "code": "ST0126",
+      "code": "ST0196",
       "name": "印尼美食信息图",
       "category": "creative",
       "tags": [
@@ -9071,12 +9119,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/indonesian_food_infographic_b721834b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/indonesian_food_infographic_b721834b.thumb.webp",
-      "number": "ST000126",
+      "number": "ST000196",
       "created_at": "2026-07-01T22:06:21+08:00"
     },
     {
       "id": "human_fragments_editorial_poster",
-      "code": "ST0237",
+      "code": "ST0197",
       "name": "HUMAN FRAGMENTS 文字窗口编辑海报",
       "category": "print",
       "tags": [
@@ -9111,12 +9159,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/human_fragments_editorial_poster_6b3d274f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/human_fragments_editorial_poster_6b3d274f.thumb.webp",
-      "number": "ST000237",
+      "number": "ST000197",
       "created_at": ""
     },
     {
       "id": "hold_the_line_declaration_poster",
-      "code": "ST0199",
+      "code": "ST0198",
       "name": "Hold The Line 宣言海报",
       "category": "creative",
       "tags": [
@@ -9151,12 +9199,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hold_the_line_declaration_poster_HNHdnbhW.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hold_the_line_declaration_poster_HNHdnbhW.thumb.webp",
-      "number": "ST000199",
+      "number": "ST000198",
       "created_at": ""
     },
     {
       "id": "high_key_seasonal_editorial_poster",
-      "code": "ST0264",
+      "code": "ST0199",
       "name": "高调季节编辑海报",
       "category": "print",
       "tags": [
@@ -9192,12 +9240,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/high_key_seasonal_editorial_poster_453f3358.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/high_key_seasonal_editorial_poster_453f3358.thumb.webp",
-      "number": "ST000264",
+      "number": "ST000199",
       "created_at": ""
     },
     {
       "id": "high_brightness_commercial_graphic",
-      "code": "ST0203",
+      "code": "ST0200",
       "name": "高明度商业图形风格",
       "category": "social_media",
       "tags": [
@@ -9232,12 +9280,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/high_brightness_commercial_graphic_HNHdmHgb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/high_brightness_commercial_graphic_HNHdmHgb.thumb.webp",
-      "number": "ST000203",
+      "number": "ST000200",
       "created_at": ""
     },
     {
       "id": "hierarchy_angels_poster",
-      "code": "ST0127",
+      "code": "ST0201",
       "name": "天使阶层海报",
       "category": "print",
       "tags": [
@@ -9279,12 +9327,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.thumb.webp",
-      "number": "ST000127",
+      "number": "ST000201",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "heroic_monument_potential_field_poster",
-      "code": "ST0249",
+      "code": "ST0202",
       "name": "英豪纪念碑势场海报",
       "category": "print",
       "tags": [
@@ -9320,12 +9368,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/heroic_monument_potential_field_poster_8441ac1a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/heroic_monument_potential_field_poster_8441ac1a.thumb.webp",
-      "number": "ST000249",
+      "number": "ST000202",
       "created_at": ""
     },
     {
       "id": "herd_outsider_poster",
-      "code": "ST0128",
+      "code": "ST0203",
       "name": "异类阵列视觉",
       "category": "creative",
       "tags": [
@@ -9368,12 +9416,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.thumb.webp",
-      "number": "ST000128",
+      "number": "ST000203",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "hanzi_emblem_marks",
-      "code": "ST0316",
+      "code": "ST0204",
       "name": "汉字意象徽记",
       "category": "typography",
       "tags": [
@@ -9408,12 +9456,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.thumb.webp",
-      "number": "ST000316",
+      "number": "ST000204",
       "created_at": ""
     },
     {
       "id": "hanzi_cultural_poster",
-      "code": "ST0326",
+      "code": "ST0205",
       "name": "东方汉字文化海报",
       "category": "typography",
       "tags": [
@@ -9449,12 +9497,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hanzi_cultural_poster_cf4c751a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hanzi_cultural_poster_cf4c751a.thumb.webp",
-      "number": "ST000326",
+      "number": "ST000205",
       "created_at": ""
     },
     {
       "id": "handprint_morning_poster",
-      "code": "ST0228",
+      "code": "ST0206",
       "name": "手工印刷感早安信息海报",
       "category": "social_media",
       "tags": [
@@ -9491,12 +9539,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/handprint_morning_poster_b668797a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/handprint_morning_poster_b668797a.thumb.webp",
-      "number": "ST000228",
+      "number": "ST000206",
       "created_at": ""
     },
     {
       "id": "hand_drawn_travel_illustration",
-      "code": "ST0129",
+      "code": "ST0207",
       "name": "手绘旅行涂鸦插画",
       "category": "travel",
       "tags": [
@@ -9533,12 +9581,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/hand_drawn_travel_illustration_12076837.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/hand_drawn_travel_illustration_12076837.thumb.webp",
-      "number": "ST000129",
+      "number": "ST000207",
       "created_at": "2026-06-30T23:03:30+08:00"
     },
     {
       "id": "halftone_assemblage_psa_poster",
-      "code": "ST0130",
+      "code": "ST0208",
       "name": "半色调拼贴隐喻公益海报",
       "category": "brand_kv",
       "tags": [
@@ -9582,12 +9630,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.thumb.webp",
-      "number": "ST000130",
+      "number": "ST000208",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "growth_community_portrait",
-      "code": "ST0216",
+      "code": "ST0209",
       "name": "商业成长社群人像视觉",
       "category": "social_media",
       "tags": [
@@ -9621,12 +9669,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/growth_community_portrait_70536bbc.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/growth_community_portrait_70536bbc.thumb.webp",
-      "number": "ST000216",
+      "number": "ST000209",
       "created_at": ""
     },
     {
       "id": "grotesque_doodle_style",
-      "code": "ST0131",
+      "code": "ST0210",
       "name": "怪诞手绘风插画",
       "category": "social_media",
       "tags": [
@@ -9671,12 +9719,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/grotesque_doodle_style_09b45dc0.thumb.webp",
-      "number": "ST000131",
+      "number": "ST000210",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "gpt_doodle_illustration",
-      "code": "ST0132",
+      "code": "ST0211",
       "name": "GPT Image 2 童趣涂鸦插画",
       "category": "social_media",
       "tags": [
@@ -9722,12 +9770,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/gpt_doodle_illustration_ce1ec0fd.thumb.webp",
-      "number": "ST000132",
+      "number": "ST000211",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "gpt2_graphic_collage",
-      "code": "ST0202",
+      "code": "ST0212",
       "name": "GPT2 图形拼贴风格",
       "category": "social_media",
       "tags": [
@@ -9763,12 +9811,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/gpt2_graphic_collage_HNHdIdYb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/gpt2_graphic_collage_HNHdIdYb.thumb.webp",
-      "number": "ST000202",
+      "number": "ST000212",
       "created_at": ""
     },
     {
       "id": "golden_hour_street_lifestyle",
-      "code": "ST0265",
+      "code": "ST0213",
       "name": "金色日光街景生活照",
       "category": "social_media",
       "tags": [
@@ -9804,12 +9852,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/golden_hour_street_lifestyle_edbe5d53.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/golden_hour_street_lifestyle_edbe5d53.thumb.webp",
-      "number": "ST000265",
+      "number": "ST000213",
       "created_at": ""
     },
     {
       "id": "glitchy_pixel_stretch_portrait",
-      "code": "ST0133",
+      "code": "ST0214",
       "name": "像素拉伸故障人像",
       "category": "creative",
       "tags": [
@@ -9843,12 +9891,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/glitchy_pixel_stretch_portrait_682dc93e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/glitchy_pixel_stretch_portrait_682dc93e.thumb.webp",
-      "number": "ST000133",
+      "number": "ST000214",
       "created_at": "2026-06-30T23:51:20+08:00"
     },
     {
       "id": "glass_flower_spring_diary",
-      "code": "ST0134",
+      "code": "ST0215",
       "name": "玻璃花卉春日日记插画",
       "category": "creative",
       "tags": [
@@ -9892,12 +9940,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.thumb.webp",
-      "number": "ST000134",
+      "number": "ST000215",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "ghibli_watercolor_walk",
-      "code": "ST0255",
+      "code": "ST0216",
       "name": "吉卜力水彩漫步",
       "category": "creative",
       "tags": [
@@ -9936,12 +9984,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_e71fca4f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_e71fca4f.thumb.webp",
-      "number": "ST000255",
+      "number": "ST000216",
       "created_at": ""
     },
     {
       "id": "geometric_emotion_window_morning_poster",
-      "code": "ST0284",
+      "code": "ST0217",
       "name": "几何情绪窗口早安海报",
       "category": "social_media",
       "tags": [
@@ -9979,12 +10027,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/geometric_emotion_window_morning_poster_d9cff733.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/geometric_emotion_window_morning_poster_d9cff733.thumb.webp",
-      "number": "ST000284",
+      "number": "ST000217",
       "created_at": ""
     },
     {
       "id": "geek_code_poster",
-      "code": "ST0135",
+      "code": "ST0218",
       "name": "极客代码海报",
       "category": "creative",
       "tags": [
@@ -10028,12 +10076,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/geek_code_poster_f7da4b88.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/geek_code_poster_f7da4b88.thumb.webp",
-      "number": "ST000135",
+      "number": "ST000218",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "gardenia_white_tea_poster",
-      "code": "ST0136",
+      "code": "ST0219",
       "name": "东方花茶香氛海报",
       "category": "brand_kv",
       "tags": [
@@ -10089,12 +10137,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/gardenia_white_tea_poster_727bf18d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/gardenia_white_tea_poster_727bf18d.thumb.webp",
-      "number": "ST000136",
+      "number": "ST000219",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "futuristic_spring_kv",
-      "code": "ST0137",
+      "code": "ST0220",
       "name": "未来生态春季插画KV",
       "category": "creative",
       "tags": [
@@ -10138,12 +10186,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/futuristic_spring_kv_c019db3e.thumb.webp",
-      "number": "ST000137",
+      "number": "ST000220",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "futuristic_editorial_poster",
-      "code": "ST0138",
+      "code": "ST0221",
       "name": "未来感编辑海报",
       "category": "print",
       "tags": [
@@ -10179,12 +10227,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/futuristic_editorial_poster_c0b80acb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/futuristic_editorial_poster_c0b80acb.thumb.webp",
-      "number": "ST000138",
+      "number": "ST000221",
       "created_at": ""
     },
     {
       "id": "futuristic_collage_portrait",
-      "code": "ST0139",
+      "code": "ST0222",
       "name": "未来感编辑拼贴肖像",
       "category": "brand_kv",
       "tags": [
@@ -10231,12 +10279,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.thumb.webp",
-      "number": "ST000139",
+      "number": "ST000222",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "fuse_bead_editorial_poster",
-      "code": "ST0317",
+      "code": "ST0223",
       "name": "拼豆艺术编辑海报",
       "category": "editorial",
       "tags": [
@@ -10272,12 +10320,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fuse_bead_editorial_poster_12ffd71c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fuse_bead_editorial_poster_12ffd71c.thumb.webp",
-      "number": "ST000317",
+      "number": "ST000223",
       "created_at": ""
     },
     {
       "id": "frostline_archive_arctic_poster",
-      "code": "ST0200",
+      "code": "ST0224",
       "name": "Frostline Archive 冬日档案海报",
       "category": "creative",
       "tags": [
@@ -10312,12 +10360,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.thumb.webp",
-      "number": "ST000200",
+      "number": "ST000224",
       "created_at": ""
     },
     {
       "id": "film_grade_character_sheet",
-      "code": "ST0324",
+      "code": "ST0225",
       "name": "影视级人物角色设定图",
       "category": "ip_character",
       "tags": [
@@ -10353,12 +10401,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/film_grade_character_sheet_16358471.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/film_grade_character_sheet_16358471.thumb.webp",
-      "number": "ST000324",
+      "number": "ST000225",
       "created_at": ""
     },
     {
       "id": "fashion_habitat_blueprint",
-      "code": "ST0140",
+      "code": "ST0226",
       "name": "时尚栖息地蓝图",
       "category": "fashion",
       "tags": [
@@ -10395,12 +10443,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fashion_habitat_blueprint_58210404.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fashion_habitat_blueprint_58210404.thumb.webp",
-      "number": "ST000140",
+      "number": "ST000226",
       "created_at": ""
     },
     {
       "id": "fashion_editorial_visual",
-      "code": "ST0141",
+      "code": "ST0227",
       "name": "时尚编辑视觉系统",
       "category": "brand_kv",
       "tags": [
@@ -10446,12 +10494,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.thumb.webp",
-      "number": "ST000141",
+      "number": "ST000227",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "fashion_campaign_typography",
-      "code": "ST0142",
+      "code": "ST0228",
       "name": "时尚营销企划排版海报",
       "category": "fashion",
       "tags": [
@@ -10488,12 +10536,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.thumb.webp",
-      "number": "ST000142",
+      "number": "ST000228",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "fashion_archer_editorial",
-      "code": "ST0143",
+      "code": "ST0229",
       "name": "时尚摄影弓箭手",
       "category": "fashion",
       "tags": [
@@ -10538,12 +10586,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fashion_archer_editorial_f40f9983.thumb.webp",
-      "number": "ST000143",
+      "number": "ST000229",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "fantasy_travel_illustration",
-      "code": "ST0206",
+      "code": "ST0230",
       "name": "幻想旅行插画",
       "category": "creative",
       "tags": [
@@ -10584,12 +10632,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fantasy_travel_illustration_e1e7ceaa.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fantasy_travel_illustration_e1e7ceaa.thumb.webp",
-      "number": "ST000206",
+      "number": "ST000230",
       "created_at": ""
     },
     {
       "id": "expressive_handwritten_headline",
-      "code": "ST0272",
+      "code": "ST0231",
       "name": "表现性手写标题",
       "category": "typography",
       "tags": [
@@ -10631,12 +10679,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/expressive_handwritten_headline_9b440dc3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/expressive_handwritten_headline_9b440dc3.thumb.webp",
-      "number": "ST000272",
+      "number": "ST000231",
       "created_at": ""
     },
     {
       "id": "exploded_food_infographic",
-      "code": "ST0144",
+      "code": "ST0232",
       "name": "爆炸式美食信息图",
       "category": "creative",
       "tags": [
@@ -10670,12 +10718,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/exploded_food_infographic_cf6e6ff6.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/exploded_food_infographic_cf6e6ff6.thumb.webp",
-      "number": "ST000144",
+      "number": "ST000232",
       "created_at": "2026-07-01T21:58:02+08:00"
     },
     {
       "id": "experimental_knowledge_archive_poster",
-      "code": "ST0231",
+      "code": "ST0233",
       "name": "实验性知识档案海报",
       "category": "editorial",
       "tags": [
@@ -10712,12 +10760,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/experimental_knowledge_archive_poster_0284c672.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/experimental_knowledge_archive_poster_0284c672.thumb.webp",
-      "number": "ST000231",
+      "number": "ST000233",
       "created_at": ""
     },
     {
       "id": "exaggerated_3d_toy_illustration",
-      "code": "ST0145",
+      "code": "ST0234",
       "name": "夸张 3D 玩具插画",
       "category": "ip_character",
       "tags": [
@@ -10762,12 +10810,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/exaggerated_3d_toy_illustration_435e4dea.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/exaggerated_3d_toy_illustration_435e4dea.thumb.webp",
-      "number": "ST000145",
+      "number": "ST000234",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "editorial_luxury",
-      "code": "ST0146",
+      "code": "ST0235",
       "name": "奢华透视棋盘格编辑海报风格",
       "category": "fashion",
       "tags": [
@@ -10802,12 +10850,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/editorial_luxury_b3460c33.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/editorial_luxury_b3460c33.thumb.webp",
-      "number": "ST000146",
+      "number": "ST000235",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "editorial_fashion",
-      "code": "ST0147",
+      "code": "ST0236",
       "name": "日光建筑时尚编辑摄影",
       "category": "fashion",
       "tags": [
@@ -10842,12 +10890,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/editorial_fashion_584fece2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/editorial_fashion_584fece2.thumb.webp",
-      "number": "ST000147",
+      "number": "ST000236",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "editorial_culture_poster",
-      "code": "ST0217",
+      "code": "ST0237",
       "name": "编辑感文化海报",
       "category": "social_media",
       "tags": [
@@ -10882,12 +10930,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/editorial_culture_poster_8ccb5e76.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/editorial_culture_poster_8ccb5e76.thumb.webp",
-      "number": "ST000217",
+      "number": "ST000237",
       "created_at": ""
     },
     {
       "id": "editorial",
-      "code": "ST0148",
+      "code": "ST0238",
       "name": "日光超模名牌编辑风格",
       "category": "fashion",
       "tags": [
@@ -10922,12 +10970,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/editorial_ec63f809.thumb.webp",
-      "number": "ST000148",
+      "number": "ST000238",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "eastern_art_exhibition_poster_wild_calligraphy",
-      "code": "ST0325",
+      "code": "ST0239",
       "name": "东方野字文化艺术展览海报",
       "category": "creative",
       "tags": [
@@ -10964,12 +11012,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/eastern_art_exhibition_poster_wild_calligraphy_301a9582.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/eastern_art_exhibition_poster_wild_calligraphy_301a9582.thumb.webp",
-      "number": "ST000325",
+      "number": "ST000239",
       "created_at": ""
     },
     {
       "id": "east_asian_vintage_magazine",
-      "code": "ST0149",
+      "code": "ST0240",
       "name": "东亚复古杂志风插画",
       "category": "creative",
       "tags": [
@@ -11017,12 +11065,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.thumb.webp",
-      "number": "ST000149",
+      "number": "ST000240",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "east_asian_vintage_illustration",
-      "code": "ST0150",
+      "code": "ST0241",
       "name": "东亚复古杂志风插画",
       "category": "creative",
       "tags": [
@@ -11067,12 +11115,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.thumb.webp",
-      "number": "ST000150",
+      "number": "ST000241",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "east_asian_enclosing_exhibition_poster",
-      "code": "ST0318",
+      "code": "ST0242",
       "name": "东亚现代主义包围式展览海报",
       "category": "editorial",
       "tags": [
@@ -11107,12 +11155,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.thumb.webp",
-      "number": "ST000318",
+      "number": "ST000242",
       "created_at": ""
     },
     {
       "id": "dunhuang_celestial_musicians",
-      "code": "ST0262",
+      "code": "ST0243",
       "name": "敦煌飞天壁画",
       "category": "creative",
       "tags": [
@@ -11150,12 +11198,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dunhuang_celestial_musicians_d23c3d00.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dunhuang_celestial_musicians_d23c3d00.thumb.webp",
-      "number": "ST000262",
+      "number": "ST000243",
       "created_at": ""
     },
     {
       "id": "dubai_riso_travel_poster",
-      "code": "ST0190",
+      "code": "ST0244",
       "name": "迪拜城市旅行海报 Risograph 风格",
       "category": "travel",
       "tags": [
@@ -11191,12 +11239,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_73dcf2a5.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_73dcf2a5.thumb.webp",
-      "number": "ST000190",
+      "number": "ST000244",
       "created_at": ""
     },
     {
       "id": "dreamy_watercolor_travel",
-      "code": "ST0151",
+      "code": "ST0245",
       "name": "梦幻水彩旅行插画",
       "category": "creative",
       "tags": [
@@ -11230,12 +11278,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dreamy_watercolor_travel_f8ac7a28.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dreamy_watercolor_travel_f8ac7a28.thumb.webp",
-      "number": "ST000151",
+      "number": "ST000245",
       "created_at": "2026-07-01T13:57:42+08:00"
     },
     {
       "id": "dreamlike_info_overlay_portrait",
-      "code": "ST0214",
+      "code": "ST0246",
       "name": "梦境信息叠层写真",
       "category": "social_media",
       "tags": [
@@ -11272,12 +11320,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dreamlike_info_overlay_portrait_8d0f000a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dreamlike_info_overlay_portrait_8d0f000a.thumb.webp",
-      "number": "ST000214",
+      "number": "ST000246",
       "created_at": ""
     },
     {
       "id": "doodle_style_poster_1",
-      "code": "ST0152",
+      "code": "ST0247",
       "name": "山径怪物涂鸦海报风格",
       "category": "social_media",
       "tags": [
@@ -11331,12 +11379,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.thumb.webp",
-      "number": "ST000152",
+      "number": "ST000247",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "doodle_style_poster",
-      "code": "ST0153",
+      "code": "ST0248",
       "name": "后座交通涂鸦字体海报风格",
       "category": "social_media",
       "tags": [
@@ -11395,12 +11443,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_5f705d81.thumb.webp",
-      "number": "ST000153",
+      "number": "ST000248",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "doodle_style",
-      "code": "ST0154",
+      "code": "ST0249",
       "name": "温馨卧室涂鸦伙伴抓拍风格",
       "category": "social_media",
       "tags": [
@@ -11456,12 +11504,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.thumb.webp",
-      "number": "ST000154",
+      "number": "ST000249",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "digital_soul_poster",
-      "code": "ST0155",
+      "code": "ST0250",
       "name": "DIGITAL SOUL 数字灵魂海报",
       "category": "brand_kv",
       "tags": [
@@ -11505,12 +11553,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.thumb.webp",
-      "number": "ST000155",
+      "number": "ST000250",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "diffuse_poster",
-      "code": "ST0156",
+      "code": "ST0251",
       "name": "弥散风视觉海报",
       "category": "brand_kv",
       "tags": [
@@ -11549,12 +11597,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.thumb.webp",
-      "number": "ST000156",
+      "number": "ST000251",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "dicos_premium_fastfood_poster",
-      "code": "ST0302",
+      "code": "ST0252",
       "name": "德克士高端快餐海报",
       "category": "e-commerce",
       "tags": [
@@ -11594,12 +11642,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.thumb.webp",
-      "number": "ST000302",
+      "number": "ST000252",
       "created_at": ""
     },
     {
       "id": "demon_wukong_line_art",
-      "code": "ST0157",
+      "code": "ST0253",
       "name": "妖魔孙悟空线绘",
       "category": "creative",
       "tags": [
@@ -11639,12 +11687,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.thumb.webp",
-      "number": "ST000157",
+      "number": "ST000253",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "dark_chinese_fantasy_illustration",
-      "code": "ST0158",
+      "code": "ST0254",
       "name": "暗黑国风奇幻插画",
       "category": "creative",
       "tags": [
@@ -11682,12 +11730,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.thumb.webp",
-      "number": "ST000158",
+      "number": "ST000254",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "cyberpunk_halftone_poster",
-      "code": "ST0159",
+      "code": "ST0255",
       "name": "赛博朋克半调海报",
       "category": "brand_kv",
       "tags": [
@@ -11732,12 +11780,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.thumb.webp",
-      "number": "ST000159",
+      "number": "ST000255",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "cultural_worker_anniversary_poster",
-      "code": "ST0196",
+      "code": "ST0256",
       "name": "文化工作者大会周年纪念海报",
       "category": "print",
       "tags": [
@@ -11772,12 +11820,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cultural_worker_anniversary_poster_9f5caad3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cultural_worker_anniversary_poster_9f5caad3.thumb.webp",
-      "number": "ST000196",
+      "number": "ST000256",
       "created_at": ""
     },
     {
       "id": "crimson_marker_sketch",
-      "code": "ST0160",
+      "code": "ST0257",
       "name": "红色马克笔草图",
       "category": "creative",
       "tags": [
@@ -11817,12 +11865,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/crimson_marker_sketch_15b0d804.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/crimson_marker_sketch_15b0d804.thumb.webp",
-      "number": "ST000160",
+      "number": "ST000257",
       "created_at": ""
     },
     {
       "id": "cozy_watercolor_everyday_girl",
-      "code": "ST0252",
+      "code": "ST0258",
       "name": "温馨水彩日常女孩",
       "category": "creative",
       "tags": [
@@ -11866,12 +11914,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cozy_watercolor_everyday_girl_091ed4e7.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cozy_watercolor_everyday_girl_091ed4e7.thumb.webp",
-      "number": "ST000252",
+      "number": "ST000258",
       "created_at": ""
     },
     {
       "id": "cozy_storybook_cafe",
-      "code": "ST0161",
+      "code": "ST0259",
       "name": "温馨故事书咖啡馆",
       "category": "creative",
       "tags": [
@@ -11911,12 +11959,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.thumb.webp",
-      "number": "ST000161",
+      "number": "ST000259",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "cosmic_nebula_silhouette",
-      "code": "ST0278",
+      "code": "ST0260",
       "name": "宇宙星云剪影",
       "category": "creative",
       "tags": [
@@ -11952,12 +12000,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cosmic_nebula_silhouette_5e43df26.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cosmic_nebula_silhouette_5e43df26.thumb.webp",
-      "number": "ST000278",
+      "number": "ST000260",
       "created_at": ""
     },
     {
       "id": "constructivist_architecture_poster",
-      "code": "ST0162",
+      "code": "ST0261",
       "name": "构成主义建筑海报",
       "category": "creative",
       "tags": [
@@ -11991,12 +12039,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/constructivist_architecture_poster_72855380.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/constructivist_architecture_poster_72855380.thumb.webp",
-      "number": "ST000162",
+      "number": "ST000261",
       "created_at": "2026-07-02T06:39:56+08:00"
     },
     {
       "id": "collage_logo",
-      "code": "ST0163",
+      "code": "ST0262",
       "name": "拼贴标识（马赛克风格）",
       "category": "print",
       "tags": [
@@ -12028,12 +12076,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/collage_logo_208518c5.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/collage_logo_208518c5.thumb.webp",
-      "number": "ST000163",
+      "number": "ST000262",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "collage_doodle_style",
-      "code": "ST0164",
+      "code": "ST0263",
       "name": "超现实鱼涂鸦地标照片拼贴风格",
       "category": "travel",
       "tags": [
@@ -12088,12 +12136,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/collage_doodle_style_b00ae594.thumb.webp",
-      "number": "ST000164",
+      "number": "ST000263",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "close_up_beverage_ad_poster",
-      "code": "ST0300",
+      "code": "ST0264",
       "name": "近景饮料产品海报",
       "category": "e-commerce",
       "tags": [
@@ -12131,12 +12179,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/close_up_beverage_ad_poster_97eb7118.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/close_up_beverage_ad_poster_97eb7118.thumb.webp",
-      "number": "ST000300",
+      "number": "ST000264",
       "created_at": ""
     },
     {
       "id": "climb_mountain_typography",
-      "code": "ST0165",
+      "code": "ST0265",
       "name": "就要去爬山",
       "category": "typography",
       "tags": [
@@ -12173,12 +12221,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/climb_mountain_typography_a1b2c3d4.thumb.webp",
-      "number": "ST000165",
+      "number": "ST000265",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "clear_airy_ad_visual",
-      "code": "ST0306",
+      "code": "ST0266",
       "name": "清透空气感广告视觉",
       "category": "e-commerce",
       "tags": [
@@ -12213,12 +12261,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/clear_airy_ad_visual_fb5223fd.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/clear_airy_ad_visual_fb5223fd.thumb.webp",
-      "number": "ST000306",
+      "number": "ST000266",
       "created_at": ""
     },
     {
       "id": "clay_typography_poster",
-      "code": "ST0166",
+      "code": "ST0267",
       "name": "黏土文字互动海报",
       "category": "creative",
       "tags": [
@@ -12258,12 +12306,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.thumb.webp",
-      "number": "ST000166",
+      "number": "ST000267",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "classic_car_exploded_view",
-      "code": "ST0243",
+      "code": "ST0268",
       "name": "经典老爷车爆炸拆解视图",
       "category": "creative",
       "tags": [
@@ -12299,12 +12347,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/classic_car_exploded_view_d698db7a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/classic_car_exploded_view_d698db7a.thumb.webp",
-      "number": "ST000243",
+      "number": "ST000268",
       "created_at": ""
     },
     {
       "id": "cinematic_exploded_view_ad",
-      "code": "ST0295",
+      "code": "ST0269",
       "name": "电影级爆炸分解视图广告海报",
       "category": "e-commerce",
       "tags": [
@@ -12338,12 +12386,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.thumb.webp",
-      "number": "ST000295",
+      "number": "ST000269",
       "created_at": "2026-06-30T23:16:32+08:00"
     },
     {
       "id": "chinese_minimal_exhibition_poster",
-      "code": "ST0319",
+      "code": "ST0270",
       "name": "中式极简艺术展览海报",
       "category": "creative",
       "tags": [
@@ -12382,12 +12430,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/chinese_minimal_exhibition_poster_f464c139.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/chinese_minimal_exhibition_poster_f464c139.thumb.webp",
-      "number": "ST000319",
+      "number": "ST000270",
       "created_at": ""
     },
     {
       "id": "chibi_q_version_character",
-      "code": "ST0168",
+      "code": "ST0271",
       "name": "Q 版角色",
       "category": "social_media",
       "tags": [
@@ -12426,12 +12474,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.thumb.webp",
-      "number": "ST000168",
+      "number": "ST000271",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "charcoal_sketch",
-      "code": "ST0201",
+      "code": "ST0272",
       "name": "炭笔素描风格",
       "category": "creative",
       "tags": [
@@ -12466,12 +12514,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.thumb.webp",
-      "number": "ST000201",
+      "number": "ST000272",
       "created_at": ""
     },
     {
       "id": "character_design_sheet",
-      "code": "ST0219",
+      "code": "ST0273",
       "name": "角色设定板",
       "category": "ip_character",
       "tags": [
@@ -12508,12 +12556,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/character_design_sheet_6d52feb7.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/character_design_sheet_6d52feb7.thumb.webp",
-      "number": "ST000219",
+      "number": "ST000273",
       "created_at": ""
     },
     {
       "id": "character_design_archive",
-      "code": "ST0169",
+      "code": "ST0274",
       "name": "角色设计档案",
       "category": "creative",
       "tags": [
@@ -12551,12 +12599,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/character_design_archive_7dd1a0c3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/character_design_archive_7dd1a0c3.thumb.webp",
-      "number": "ST000169",
+      "number": "ST000274",
       "created_at": ""
     },
     {
       "id": "chang_e_goddess",
-      "code": "ST0170",
+      "code": "ST0275",
       "name": "嫦娥 3D 盲盒",
       "category": "ip_character",
       "tags": [
@@ -12596,12 +12644,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/chang_e_goddess_5f99361d.thumb.webp",
-      "number": "ST000170",
+      "number": "ST000275",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "central_axis_cultural_poster",
-      "code": "ST0321",
+      "code": "ST0276",
       "name": "中轴夹景文化海报",
       "category": "editorial",
       "tags": [
@@ -12637,12 +12685,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/central_axis_cultural_poster_64d11a4c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/central_axis_cultural_poster_64d11a4c.thumb.webp",
-      "number": "ST000321",
+      "number": "ST000276",
       "created_at": ""
     },
     {
       "id": "cbt_ultra_product",
-      "code": "ST0296",
+      "code": "ST0277",
       "name": "CBT 超凡产品摄影",
       "category": "e-commerce",
       "tags": [
@@ -12678,12 +12726,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cbt_ultra_product_4d012250.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cbt_ultra_product_4d012250.thumb.webp",
-      "number": "ST000296",
+      "number": "ST000277",
       "created_at": ""
     },
     {
       "id": "cartoon_graffiti_headline",
-      "code": "ST0273",
+      "code": "ST0278",
       "name": "卡通涂鸦大标题",
       "category": "typography",
       "tags": [
@@ -12727,12 +12775,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cartoon_graffiti_headline_b175a989.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cartoon_graffiti_headline_b175a989.thumb.webp",
-      "number": "ST000273",
+      "number": "ST000278",
       "created_at": ""
     },
     {
       "id": "cartoon_3d_tv_icon",
-      "code": "ST0172",
+      "code": "ST0279",
       "name": "3D卡通电视图标",
       "category": "creative",
       "tags": [
@@ -12781,12 +12829,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.thumb.webp",
-      "number": "ST000172",
+      "number": "ST000279",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "candy_3d_wonderland",
-      "code": "ST0173",
+      "code": "ST0280",
       "name": "糖果梦幻 3D 派对海报",
       "category": "social_media",
       "tags": [
@@ -12831,12 +12879,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/candy_3d_wonderland_5e19f125.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/candy_3d_wonderland_5e19f125.thumb.webp",
-      "number": "ST000173",
+      "number": "ST000280",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "camping_season_hand_drawn_headline",
-      "code": "ST0274",
+      "code": "ST0281",
       "name": "露营季手绘大标题",
       "category": "typography",
       "tags": [
@@ -12881,12 +12929,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/camping_season_hand_drawn_headline_d49799a3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/camping_season_hand_drawn_headline_d49799a3.thumb.webp",
-      "number": "ST000274",
+      "number": "ST000281",
       "created_at": "2026-08-13"
     },
     {
       "id": "bw_studio_portrait_editorial",
-      "code": "ST0260",
+      "code": "ST0282",
       "name": "黑白杂志人像",
       "category": "social_media",
       "tags": [
@@ -12922,12 +12970,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bw_studio_portrait_editorial_4cdee4a2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bw_studio_portrait_editorial_4cdee4a2.thumb.webp",
-      "number": "ST000260",
+      "number": "ST000282",
       "created_at": ""
     },
     {
       "id": "bubble_letter_headline",
-      "code": "ST0268",
+      "code": "ST0283",
       "name": "泡泡字大标题",
       "category": "typography",
       "tags": [
@@ -12971,12 +13019,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bubble_letter_headline_eda98b47.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bubble_letter_headline_eda98b47.thumb.webp",
-      "number": "ST000268",
+      "number": "ST000283",
       "created_at": ""
     },
     {
       "id": "bubble_card",
-      "code": "ST0174",
+      "code": "ST0284",
       "name": "泡泡卡片风",
       "category": "social_media",
       "tags": [
@@ -13019,12 +13067,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.thumb.webp",
-      "number": "ST000174",
+      "number": "ST000284",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "brand_miniature_architecture",
-      "code": "ST0297",
+      "code": "ST0285",
       "name": "品牌微缩建筑海报风格",
       "category": "e-commerce",
       "tags": [
@@ -13070,12 +13118,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/brand_miniature_architecture_474fb732.thumb.webp",
-      "number": "ST000297",
+      "number": "ST000285",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "bold_opinion_quote_poster",
-      "code": "ST0218",
+      "code": "ST0286",
       "name": "强信息层级观点海报",
       "category": "social_media",
       "tags": [
@@ -13109,12 +13157,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_opinion_quote_poster_78b99125.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_opinion_quote_poster_78b99125.thumb.webp",
-      "number": "ST000218",
+      "number": "ST000286",
       "created_at": ""
     },
     {
       "id": "bold_monoline_mascot",
-      "code": "ST0176",
+      "code": "ST0287",
       "name": "粗单线品牌吉祥物插画",
       "category": "brand_kv",
       "tags": [
@@ -13156,12 +13204,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_monoline_mascot_daa9efba.thumb.webp",
-      "number": "ST000176",
+      "number": "ST000287",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "bold_flow_typography_visual_experience",
-      "code": "ST0177",
+      "code": "ST0288",
       "name": "粗壮飘逸字体设计",
       "category": "typography",
       "tags": [
@@ -13197,12 +13245,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_flow_typography_visual_experience_ac0c82a2.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_flow_typography_visual_experience_ac0c82a2.thumb.webp",
-      "number": "ST000177",
+      "number": "ST000288",
       "created_at": "2026-06-29T15:25:17+08:00"
     },
     {
       "id": "bold_black_typography_goldengown",
-      "code": "ST0276",
+      "code": "ST0289",
       "name": "粗黑艺术字体",
       "category": "typography",
       "tags": [
@@ -13250,12 +13298,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_black_typography_goldengown_78b19907.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_black_typography_goldengown_78b19907.thumb.webp",
-      "number": "ST000276",
+      "number": "ST000289",
       "created_at": ""
     },
     {
       "id": "blueprint_editorial_sketch",
-      "code": "ST0178",
+      "code": "ST0290",
       "name": "蓝图时尚素描大片",
       "category": "creative",
       "tags": [
@@ -13293,12 +13341,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/blueprint_editorial_sketch_c58e372a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/blueprint_editorial_sketch_c58e372a.thumb.webp",
-      "number": "ST000178",
+      "number": "ST000290",
       "created_at": ""
     },
     {
       "id": "blue_white_line_arc_poster",
-      "code": "ST0179",
+      "code": "ST0291",
       "name": "蓝白线弧海报",
       "category": "creative",
       "tags": [
@@ -13340,12 +13388,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/blue_white_line_arc_poster_3070589c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/blue_white_line_arc_poster_3070589c.thumb.webp",
-      "number": "ST000179",
+      "number": "ST000291",
       "created_at": ""
     },
     {
       "id": "bloomberg_magazine",
-      "code": "ST0180",
+      "code": "ST0292",
       "name": "商业杂志封面编辑风格",
       "category": "science",
       "tags": [
@@ -13390,12 +13438,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.thumb.webp",
-      "number": "ST000180",
+      "number": "ST000292",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "black_white_typographic_portrait",
-      "code": "ST0181",
+      "code": "ST0293",
       "name": "高对比黑白字体肖像",
       "category": "creative",
       "tags": [
@@ -13439,12 +13487,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.thumb.webp",
-      "number": "ST000181",
+      "number": "ST000293",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "black_white_ink_editorial_character",
-      "code": "ST0242",
+      "code": "ST0294",
       "name": "黑白墨水编辑角色插画",
       "category": "creative",
       "tags": [
@@ -13480,12 +13528,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.thumb.webp",
-      "number": "ST000242",
+      "number": "ST000294",
       "created_at": ""
     },
     {
       "id": "beverage_style",
-      "code": "ST0298",
+      "code": "ST0295",
       "name": "多色饮料飞溅广告系统风格",
       "category": "e-commerce",
       "tags": [
@@ -13520,12 +13568,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.thumb.webp",
-      "number": "ST000298",
+      "number": "ST000295",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "beverage_series_poster",
-      "code": "ST0303",
+      "code": "ST0296",
       "name": "酒饮系列海报视觉系统",
       "category": "e-commerce",
       "tags": [
@@ -13565,12 +13613,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/beverage_series_poster_7ce76fc9.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/beverage_series_poster_7ce76fc9.thumb.webp",
-      "number": "ST000303",
+      "number": "ST000296",
       "created_at": ""
     },
     {
       "id": "bas_relief_chinese_serif_headline",
-      "code": "ST0270",
+      "code": "ST0297",
       "name": "浮雕中文衬线大标题",
       "category": "typography",
       "tags": [
@@ -13612,12 +13660,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_headline_a2cff3eb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_headline_a2cff3eb.thumb.webp",
-      "number": "ST000270",
+      "number": "ST000297",
       "created_at": ""
     },
     {
       "id": "axial_memorial_poster",
-      "code": "ST0263",
+      "code": "ST0298",
       "name": "轴对称纪念碑海报",
       "category": "print",
       "tags": [
@@ -13653,12 +13701,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/axial_memorial_poster_dcdbf6b1.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/axial_memorial_poster_dcdbf6b1.thumb.webp",
-      "number": "ST000263",
+      "number": "ST000298",
       "created_at": ""
     },
     {
       "id": "avantgarde_bw_poster",
-      "code": "ST0183",
+      "code": "ST0299",
       "name": "黑白灰先锋海报",
       "category": "brand_kv",
       "tags": [
@@ -13703,12 +13751,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.thumb.webp",
-      "number": "ST000183",
+      "number": "ST000299",
       "created_at": "2026-06-28T08:01:29+08:00"
     },
     {
       "id": "avant_garde_abstract_typography",
-      "code": "ST0271",
+      "code": "ST0300",
       "name": "先锋抽象字体排版",
       "category": "typography",
       "tags": [
@@ -13752,12 +13800,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/avant_garde_abstract_typography_b6f61f14.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/avant_garde_abstract_typography_b6f61f14.thumb.webp",
-      "number": "ST000271",
+      "number": "ST000300",
       "created_at": ""
     },
     {
       "id": "amber_cedar_perfume_poster",
-      "code": "ST0184",
+      "code": "ST0301",
       "name": "琥珀雪松",
       "category": "brand_kv",
       "tags": [
@@ -13794,12 +13842,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/amber_cedar_perfume_poster_50fe800e.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/amber_cedar_perfume_poster_50fe800e.thumb.webp",
-      "number": "ST000184",
+      "number": "ST000301",
       "created_at": ""
     },
     {
       "id": "alternative_character_chibi",
-      "code": "ST0277",
+      "code": "ST0302",
       "name": "厚涂朋克娃娃角色插画",
       "category": "creative",
       "tags": [
@@ -13838,12 +13886,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/alternative_character_chibi_aac66d0b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/alternative_character_chibi_aac66d0b.thumb.webp",
-      "number": "ST000277",
+      "number": "ST000302",
       "created_at": ""
     },
     {
       "id": "absurd_meme_editorial_poster",
-      "code": "ST0320",
+      "code": "ST0303",
       "name": "荒诞 Meme 编辑海报",
       "category": "editorial",
       "tags": [
@@ -13879,12 +13927,12 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/absurd_meme_editorial_poster_162690b0.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/absurd_meme_editorial_poster_162690b0.thumb.webp",
-      "number": "ST000320",
+      "number": "ST000303",
       "created_at": ""
     },
     {
       "id": "3d_sports_event_poster",
-      "code": "ST0185",
+      "code": "ST0304",
       "name": "3D运动赛事海报",
       "category": "vigo_cookbook",
       "tags": [
@@ -13919,7 +13967,7 @@
       ],
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/3d_sports_event_poster_13193fbe.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/3d_sports_event_poster_13193fbe.thumb.webp",
-      "number": "ST000185",
+      "number": "ST000304",
       "created_at": "2026-06-30T13:58:50+08:00"
     }
   ]

@@ -60,6 +60,7 @@
 | naive_doodle_cat_character | #手绘涂鸦 #童趣可爱 #笔画不完美 | 社交媒体头像、品牌 IP 延展、可爱角色海报 | 4:5 |
 | north_fold_scientific_poster | #科考档案 #网格系统 #半机械生物 | 档案海报、科考展览、品牌KV、编辑出版、概念设计 | 3:4 |
 | object_illustration_combo | #真实物体 #手绘插画 #融合 |  | 9:16（竖版） |
+| oriental_fine_line_symbol_poster | #工笔细线 #东方色场 #象征动作 | 东方气质角色海报、神话/拟人化主体视觉、品牌国风KV、展览主视觉、文创产品、寓意叙事插画 | 3:4 |
 | oriental_mural_exhibition_poster | #东方美学 #壁画 #展览海报 | 东方美学展览海报、文化活动宣传、艺术策展海报、国风品牌KV | 3:4 |
 | pastel_de_nata_doodle | #蛋挞 #手绘插画 #美食海报 | 美食海报、面包店品牌KV、社交媒体美食图、烘焙产品宣传 | 3:4 |
 | pen_ink_point_line_peaches | #钢笔画 #点线技法 #精细描绘 |  | 2:3（竖版） |
