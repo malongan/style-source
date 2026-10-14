@@ -1,4 +1,4 @@
-共 305 个风格
+共 306 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -192,6 +192,7 @@ ST0188 | 日式诗意梦幻半写实插画 | https://malongan.github.io/style-so
 ST0189 | 日式美术馆编辑海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.webp
 ST0190 | 日式编辑几何海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_editorial_geometric_poster_f3975dbb.webp
 ST0191 | 日料电影感摄影 | https://malongan.github.io/style-source/images/styles_previews/japanese_cuisine_backlit_457fee78.webp
+ST0306 | 日式烘焙故事海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_bakery_story_poster_ce456460.webp
 ST0192 | 青玉字形杂货拼贴海报风格 | https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp
 ST0193 | 精细地理微缩模型景观 | https://malongan.github.io/style-source/images/styles_previews/isometric_country_diorama_f987b38c.webp
 ST0194 | 墨线霓裳·东方高定时装插画 | https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp

@@ -1,0 +1,96 @@
+# 日式烘焙故事海报
+
+id: japanese_bakery_story_poster
+name: "日式烘焙故事海报"
+category: e-commerce
+
+tags:
+  - 日式烘焙
+  - 写实食物摄影
+  - 手绘小人插画
+  - 复古编辑排版
+  - 奶油纸感
+  - 美食广告
+
+triggers:
+  - 日式烘焙海报
+  - 面包店创意海报
+  - 手绘小人食物海报
+  - 烘焙品牌KV
+  - 日式手写标题海报
+
+features:
+  - "**写实食物做视觉中心** — 金黄酥皮、自然瑕疵、开胃质感与柔和日光阴影，真实不 CGI"
+  - "**2D 手绘小人讲故事** — 几个极简钢笔小人在食物上散步、探索，构成微缩叙事"
+  - "**奶油纸 + 可可棕排版** — 奶油色纸面背景、可可棕字体、柔和自然色与轻微印刷纹理"
+  - "**日式手写标题 + 复古衬线** — 表现力强的日文手写主标、优雅复古衬线与俏皮小注释"
+  - "**35-40% 干净负空间** — 强焦点与清晰视觉层级，构图可在超大食物/悬浮排列/不对称陈列/温馨静物间切换"
+
+scene: "烘焙品牌海报、面包店促销视觉、咖啡馆社媒、食品创意广告"
+ratio: "9:16"
+summary: "写实烘焙食物当主角，几个 2D 手绘小人在上面散步讲故事，配日式手写标题与可可棕复古排版的日式烘焙海报"
+
+prompt: |
+  Create a charming Japanese-style bakery poster combining photorealistic food photography, playful hand-drawn illustrations, and nostalgic editorial typography.
+
+  CUSTOMIZE
+  - Brand: {品牌名}
+  - Food: {主食物}
+  - Concept: {概念}（如 Miniature World / Floating Food / Flavor Guide / Cozy Scene）
+  - Headline: {标题}（日文或英文）
+  - Tagline: {标语}
+  - Details: {详情文案}（口味 / 产品信息 / 活动信息）
+  - Color Palette: {主色板}
+  - Year: {年份}
+  - Aspect Ratio: 9:16
+
+  VISUAL STYLE
+  Japanese indie bakery aesthetics with a warm, playful, slightly nostalgic editorial feel. Combine realistic food photography with delicate, imperfect pen-and-ink illustrations. Use {背景纸色} paper backgrounds, {字体主色} lettering, soft natural colors, and subtle print textures.
+
+  FOOD & STORYTELLING
+  Make the food the visual centerpiece, with appetizing textures, golden crusts, natural imperfections, soft daylight, and realistic shadows. Add a few tiny 2D hand-drawn characters interacting with the food—walking across pastries, exploring oversized treats, or enjoying a cozy café moment. Create a charming miniature story through simple, meaningful interactions.
+
+  COMPOSITION & TYPOGRAPHY
+  Choose a distinctive layout based on the concept: oversized food, floating arrangements, asymmetrical product displays, or cozy still-life scenes. Maintain a strong focal point, balanced visual hierarchy, and approximately 35–40% clean negative space. Use expressive Japanese-style handwritten headlines, elegant retro serif fonts, and small playful annotations. Keep all text accurate, readable, and naturally integrated into the design.
+
+  FINAL ART DIRECTION
+  The finished poster should feel like a professionally designed Japanese bakery advertisement—warm, whimsical, visually engaging, and commercially polished. Keep illustrations minimal and purposeful. Let the food, typography, and storytelling create the visual impact.
+  Avoid excessive doodles, cluttered layouts, CGI-looking food, 3D cartoon characters, random text, heavy distressing, decorative sparkles, numbering, and watermarks. Generate one complete, standalone vertical poster, not a collage or mockup.
+  不要水印，不要真实Logo，不要电商广告感。
+
+variables:
+  - kv_var: 品牌名
+    style_var: "{品牌名}"
+    desc: "示例值：CRUMB CLUB"
+  - kv_var: 主食物
+    style_var: "{主食物}"
+    desc: "示例值：可颂 / croissant"
+  - kv_var: 概念
+    style_var: "{概念}"
+    desc: "示例值：Miniature World（微缩世界）"
+  - kv_var: 标题
+    style_var: "{标题}"
+    desc: "示例值：クロワッサン散歩"
+  - kv_var: 标语
+    style_var: "{标语}"
+    desc: "示例值：A LITTLE WALK, A LOT OF BUTTER."
+  - kv_var: 详情文案
+    style_var: "{详情文案}"
+    desc: "示例值：口味 / 产品信息 / 活动信息"
+  - kv_var: 主色板
+    style_var: "{主色板}"
+    desc: "示例值：奶油纸底 + 可可棕字 + 柔和自然色"
+  - kv_var: 背景纸色
+    style_var: "{背景纸色}"
+    desc: "示例值：cream"
+  - kv_var: 字体主色
+    style_var: "{字体主色}"
+    desc: "示例值：cocoa-brown"
+  - kv_var: 年份
+    style_var: "{年份}"
+    desc: "示例值：2026"
+
+source_url: "https://x.com/MrLarus/status/2110094498701476306"
+source_author: "@MrLarus"
+
+# 配图: images/styles_previews/japanese_bakery_story_poster_ce456460.webp
