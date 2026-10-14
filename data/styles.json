@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-191-gd3745a2-dirty",
-    "generated": "2026-10-13T14:06:11Z",
-    "total": 305,
+    "version": "v0.7.0-before-opt-192-g5729fe6-dirty",
+    "generated": "2026-10-14T00:24:25Z",
+    "total": 306,
     "categories": [
       "brand_kv",
       "creative",
@@ -8946,6 +8946,59 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_cuisine_backlit_457fee78.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_cuisine_backlit_457fee78.thumb.webp",
       "number": "ST000191",
+      "created_at": ""
+    },
+    {
+      "id": "japanese_bakery_story_poster",
+      "code": "ST0306",
+      "name": "日式烘焙故事海报",
+      "category": "e-commerce",
+      "tags": [
+        "日式烘焙",
+        "写实食物摄影",
+        "手绘小人插画",
+        "复古编辑排版",
+        "奶油纸感",
+        "美食广告"
+      ],
+      "triggers": [
+        "日式烘焙海报",
+        "面包店创意海报",
+        "手绘小人食物海报",
+        "烘焙品牌KV",
+        "日式手写标题海报"
+      ],
+      "scene": "烘焙品牌海报、面包店促销视觉、咖啡馆社媒、食品创意广告",
+      "ratio": "9:16",
+      "summary": "写实烘焙食物当主角，几个 2D 手绘小人在上面散步讲故事，配日式手写标题与可可棕复古排版的日式烘焙海报",
+      "features": [
+        "**写实食物做视觉中心** — 金黄酥皮、自然瑕疵、开胃质感与柔和日光阴影，真实不 CGI",
+        "**2D 手绘小人讲故事** — 几个极简钢笔小人在食物上散步、探索，构成微缩叙事",
+        "**奶油纸 + 可可棕排版** — 奶油色纸面背景、可可棕字体、柔和自然色与轻微印刷纹理",
+        "**日式手写标题 + 复古衬线** — 表现力强的日文手写主标、优雅复古衬线与俏皮小注释",
+        "**35-40% 干净负空间** — 强焦点与清晰视觉层级，构图可在超大食物/悬浮排列/不对称陈列/温馨静物间切换"
+      ],
+      "prompt": "Create a charming Japanese-style bakery poster combining photorealistic food photography, playful hand-drawn illustrations, and nostalgic editorial typography.\n\nCUSTOMIZE\n- Brand: {品牌名}\n- Food: {主食物}\n- Concept: {概念}（如 Miniature World / Floating Food / Flavor Guide / Cozy Scene）\n- Headline: {标题}（日文或英文）\n- Tagline: {标语}\n- Details: {详情文案}（口味 / 产品信息 / 活动信息）\n- Color Palette: {主色板}\n- Year: {年份}\n- Aspect Ratio: 9:16\n\nVISUAL STYLE\nJapanese indie bakery aesthetics with a warm, playful, slightly nostalgic editorial feel. Combine realistic food photography with delicate, imperfect pen-and-ink illustrations. Use {背景纸色} paper backgrounds, {字体主色} lettering, soft natural colors, and subtle print textures.\n\nFOOD & STORYTELLING\nMake the food the visual centerpiece, with appetizing textures, golden crusts, natural imperfections, soft daylight, and realistic shadows. Add a few tiny 2D hand-drawn characters interacting with the food—walking across pastries, exploring oversized treats, or enjoying a cozy café moment. Create a charming miniature story through simple, meaningful interactions.\n\nCOMPOSITION & TYPOGRAPHY\nChoose a distinctive layout based on the concept: oversized food, floating arrangements, asymmetrical product displays, or cozy still-life scenes. Maintain a strong focal point, balanced visual hierarchy, and approximately 35–40% clean negative space. Use expressive Japanese-style handwritten headlines, elegant retro serif fonts, and small playful annotations. Keep all text accurate, readable, and naturally integrated into the design.\n\nFINAL ART DIRECTION\nThe finished poster should feel like a professionally designed Japanese bakery advertisement—warm, whimsical, visually engaging, and commercially polished. Keep illustrations minimal and purposeful. Let the food, typography, and storytelling create the visual impact.\nAvoid excessive doodles, cluttered layouts, CGI-looking food, 3D cartoon characters, random text, heavy distressing, decorative sparkles, numbering, and watermarks. Generate one complete, standalone vertical poster, not a collage or mockup.\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "品牌名": "{品牌名}",
+        "主食物": "{主食物}",
+        "概念": "{概念}",
+        "标题": "{标题}",
+        "标语": "{标语}",
+        "详情文案": "{详情文案}",
+        "主色板": "{主色板}",
+        "背景纸色": "{背景纸色}",
+        "字体主色": "{字体主色}",
+        "年份": "{年份}"
+      },
+      "source_url": "https://x.com/MrLarus/status/2110094498701476306",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/japanese_bakery_story_poster_ce456460.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_bakery_story_poster_ce456460.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_bakery_story_poster_ce456460.thumb.webp",
+      "number": "ST000306",
       "created_at": ""
     },
     {

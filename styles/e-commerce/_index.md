@@ -13,6 +13,7 @@
 | close_up_beverage_ad_poster | #饮料 #产品海报 #强广告感 |  | 184 |
 | dicos_premium_fastfood_poster | #fast_food #dicos #campaign_poster | 快餐品牌 KV、食品海报设计、菜单视觉、广告campaign、商业摄影 | 1:1 |
 | jade_glyph_grocer_collage | #生鲜 #东方 #杂货 |  | 9:16 或 16:9 |
+| japanese_bakery_story_poster | #日式烘焙 #写实食物摄影 #手绘小人插画 | 烘焙品牌海报、面包店促销视觉、咖啡馆社媒、食品创意广告 | 9:16 |
 | japanese_cuisine_backlit | #日料 #电影感 #美食摄影 | 日料品牌海报、omakase餐厅KV、高端美食广告 | 3:4 |
 | korean_food_scrapbook_poster | #韩式美食 #手账拼贴 #美食广告 | 韩式餐饮品牌社媒海报、韩国外卖菜单、美食博主推荐帖 | 3:4 |
 | luxury_birthday_poster | #生日 #轻奢 #海报 |  | 3:4 竖版 |
