@@ -1,0 +1,89 @@
+# 日式天真刺绣杂志封面
+
+id: japanese_naive_embroidery_magazine_cover
+name: "日式天真刺绣杂志封面"
+category: editorial
+
+tags:
+  - 日式杂志封面
+  - 天真手绘
+  - 刺绣感
+  - 食物摄影
+  - 亚麻纸感
+  - 视觉双关
+
+triggers:
+  - 日式杂志封面
+  - 天真手绘插画海报
+  - 食物变服饰
+  - 刺绣感手绘
+  - 实物插画融合封面
+
+features:
+  - "**实物成为插画一部分** — 上传的真实食物以写实质感变成服饰/装饰/意外角色，与手绘自然衔接"
+  - "**天真钢笔线 + 铅笔感** — 松散黑色墨线、不规则笔触、轻微铅笔痕迹、偶有刺绣细节、角色比例俏皮不对称"
+  - "**温暖亚麻纸底** — 亚麻纸纤维纹理、柔哑光印刷质感，食物承担最强色彩重音"
+  - "**大主体 + 强负空间** — 超大手绘主体配一个强食物元素、充足留白、灵活日式编辑版式"
+  - "**日式编辑排版** — 顶端大胆自造日文杂志名 + 短日文标题 + 少量小注释自然融入插画"
+
+scene: "日式杂志封面、食物品牌编辑视觉、文艺生活方式社媒、季节性生活方式内容封面"
+ratio: "9:16"
+summary: "日式天真手绘插画 + 刺绣细节 + 真实食物摄影融合的 9:16 杂志封面，温暖亚麻纸底与柔哑光印刷质感"
+
+prompt: |
+  Create a whimsical Japanese editorial magazine cover combining naive handdrawn illustrations, delicate embroidery, natural linen textures, and realistic food photography.
+
+  CUSTOMIZE
+  - Food: {食物}
+  - Subject: {手绘主体}
+  - Creative Interaction: {创意融合}
+  - Magazine Title: {杂志名}
+  - Headline: {标题}
+  - Caption: {注释}
+  - Color Palette: {主色板}
+  - Aspect Ratio: 9:16
+
+  Visual Concept:
+  The real food becomes an unexpected but natural part of the illustrated world — a dress, horn, umbrella, light, or another imaginative object. Preserve authentic photographic details in the food while keeping the surrounding illustration simple, imperfect, and expressive.
+
+  Illustration Style:
+  Loose black ink outlines, irregular handdrawn strokes, subtle pencil marks, occasional stitched details, and playful asymmetrical proportions. Characters should feel charming, quirky, and full of personality.
+
+  Composition & Typography:
+  Use an oversized illustrated subject, one striking food element, generous negative space, and a flexible Japanese editorial layout. Place a bold magazine title at the top, with a short headline and minimal supporting text naturally integrated into the illustration.
+
+  Texture & Color:
+  Warm linen paper, subtle fabric fibers, muted earthy colors, soft matte printing, and natural food textures. Let the food provide the strongest color accent.
+
+  Art Direction:
+  Playful yet sophisticated, nostalgic, handcrafted, and visually surprising. Every element should feel intentionally connected.
+  Create one complete, original 9:16 magazine cover.
+  不要水印，不要真实Logo，不要电商广告感。
+
+variables:
+  - kv_var: 食物
+    style_var: "{食物}"
+    desc: "示例值：切开的无花果（上传实拍照片）"
+  - kv_var: 手绘主体
+    style_var: "{手绘主体}"
+    desc: "示例值：天真短发小女孩 / 动物 / 物件"
+  - kv_var: 创意融合
+    style_var: "{创意融合}"
+    desc: "示例值：把无花果果实变成女孩的连衣裙"
+  - kv_var: 杂志名
+    style_var: "{杂志名}"
+    desc: "示例值：名所日和（自造日式杂志名）"
+  - kv_var: 标题
+    style_var: "{标题}"
+    desc: "示例值：いちじくのドレス"
+  - kv_var: 注释
+    style_var: "{注释}"
+    desc: "示例值：秋の実を、まとう。"
+  - kv_var: 主色板
+    style_var: "{主色板}"
+    desc: "示例值：米白亚麻底 + 黑墨 + 食物为强色彩重音"
+
+source_url: "https://x.com/MrLarus/status/2110685961483080018"
+source_author: "@MrLarus"
+
+# 配图: images/styles_previews/japanese_naive_embroidery_magazine_cover_8c7e79f4.webp
