@@ -11,7 +11,7 @@
 | 🎨 品牌视觉 | 25 | 品牌KV、公益态度 |
 | 🎪 创意特殊 | 85 | 融合、复古、手绘 |
 | 🛒 电商 | 25 | 产品主图、海报、美食 |
-| 📰 编辑排版 | 15 | 杂志封面、海报排版、编辑设计、字体实验 |
+| 📰 编辑排版 | 16 | 杂志封面、海报排版、编辑设计、字体实验 |
 | 👔 时尚美容 | 9 | 时尚大片、美妆 |
 | 🎭 IP/角色 | 9 | 吉祥物、头像、游戏 |
 | 📚 印刷品 | 20 | 书籍封面、电影海报 |
@@ -21,7 +21,7 @@
 | 🖋️ 字体排版 | 16 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：307 个风格文件**
+**总计：308 个风格文件**
 
 ---
 
@@ -191,6 +191,7 @@
 | central_axis_cultural_poster | #editorial #central-axis #cultural-poster | 品牌文化海报、编辑设计、展览视觉、品牌KV | 9:16 |
 | east_asian_enclosing_exhibition_poster | #东亚现代主义 #包围式构图 #日式编辑设计 | 品牌KV、展览海报、概念设计、文化杂志视觉、独立出版封面 | 9:16 |
 | experimental_knowledge_archive_poster | #scientific-illustration #fluorescent-yellow #editorial-design | 品牌KV、文化活动海报、概念设计展、品牌特刊、独立出版封面 | 3:4 |
+| fluted_glass_editorial_cover | #竖棱玻璃 #双联卡片 #杂志封面 | 品牌KV、社媒海报、生活方式杂志封面、概念展陈视觉 | 3:4 |
 | fuse_bead_editorial_poster | #拼豆艺术 #像素艺术 #色卡展示 | 品牌视觉、创意海报、艺术编辑设计、色卡研究页面 | 3:4 |
 | japanese_editorial_geometric_poster | #japanese_editorial #geometric_poster #circle_composition | 文化活动海报、展览、品牌视觉、编辑版式 | 9:16 |
 | japanese_museum_editorial_poster | #japanese_museum_editorial #exhibition_poster #typography | 品牌KV、概念海报、编辑设计、传统工艺展示 | 9:16 |
