@@ -1,4 +1,4 @@
-共 307 个风格
+共 308 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -227,6 +227,7 @@ ST0221 | 未来感编辑海报 | https://malongan.github.io/style-source/images/
 ST0222 | 未来感编辑拼贴肖像 | https://malongan.github.io/style-source/images/styles_previews/futuristic_collage_portrait_ad90e08d.webp
 ST0223 | 拼豆艺术编辑海报 | https://malongan.github.io/style-source/images/styles_previews/fuse_bead_editorial_poster_12ffd71c.webp
 ST0224 | Frostline Archive 冬日档案海报 | https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.webp
+ST0308 | 竖棱玻璃透光杂志封面 | https://malongan.github.io/style-source/images/styles_previews/fluted_glass_editorial_cover_42a28e79.webp
 ST0225 | 影视级人物角色设定图 | https://malongan.github.io/style-source/images/styles_previews/film_grade_character_sheet_16358471.webp
 ST0226 | 时尚栖息地蓝图 | https://malongan.github.io/style-source/images/styles_previews/fashion_habitat_blueprint_58210404.webp
 ST0227 | 时尚编辑视觉系统 | https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp
