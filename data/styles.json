@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-194-g0073a8e-dirty",
-    "generated": "2026-10-22T00:57:21Z",
-    "total": 308,
+    "version": "v0.7.0-before-opt-195-gd0078f9-dirty",
+    "generated": "2026-10-28T22:53:17Z",
+    "total": 309,
     "categories": [
       "brand_kv",
       "creative",
@@ -8826,6 +8826,57 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.thumb.webp",
       "number": "ST000188",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "japanese_natural_observation_poster",
+      "code": "ST0309",
+      "name": "日式自然观察图鉴海报",
+      "category": "editorial",
+      "tags": [
+        "日式图鉴海报",
+        "博物学插画",
+        "科学信息标注",
+        "复古印刷颗粒",
+        "米白旧纸",
+        "竖版展览海报"
+      ],
+      "triggers": [
+        "日式自然图鉴",
+        "博物学插画海报",
+        "科学观察信息图",
+        "自然标本展览海报",
+        "复古印刷图鉴海报",
+        "观察标注海报"
+      ],
+      "scene": "品牌KV、自然科学展览海报、社媒竖图、科普专题封面、文化活动主视觉",
+      "ratio": "9:16",
+      "summary": "米白旧纸上的日式自然观察图鉴：巨幅博物学主体配密集科学标注与展览级编辑排版，兼具自然观察的严谨与艺术海报的冲击。",
+      "features": [
+        "**巨幅主体 + 微观标注** — 核心自然对象大幅放大成画面唯一焦点，辅以极小的刻度、观察节点与结构标注，形成强烈的尺度反差",
+        "**博物学手绘线条** — 精密钢笔线稿与剖面结构刻画，线条精细克制，保留旧印刷描线的年代感",
+        "**米白旧纸 + 复古颗粒** — 米白色旧纸底，柔和自然色层次，叠加半调颗粒、轻微套印误差与纸张肌理",
+        "**信息图式阅读路径** — 细线引导、局部放大圆窗与竖排说明沿明确逻辑串联，观众可循线读懂自然对象",
+        "**展览级编辑排版** — 大型中文或日文主标题配英文衬线副标题、竖排说明与小型观察标签，主次分明"
+      ],
+      "prompt": "观察主题：{观察主题}\n核心自然对象：{核心自然对象}\n主要观察方式：{主要观察方式}\n主标题：{主标题}\n英文副标题：{英文副标题}\n主色调：{主色调}\n展览信息：{展览信息}\n\n创作一张 9:16 竖版日式自然观察艺术海报，主题为「{观察主题}」，融合博物学插画、科学信息图、复古印刷与现代展览设计。让自然现象成为兼具艺术美感和观察价值的视觉作品。\n\n将{核心自然对象}大幅放大，成为画面的主要视觉焦点。以「{主要观察方式}」为主要表现方式，展示对象最具有辨识度的特征。\n\n围绕主体加入局部放大、观察节点、细线引导、刻度和结构标注。信息应该有明确的逻辑关系，让观众能够沿着画面的阅读路径理解自然对象。\n\n整体采用米白色旧纸背景，搭配{主色调}与少量强调色。通过柔和的颜色层次、精细手绘线条与复古印刷颗粒，呈现具有年代感的自然图鉴风格。\n\n构图需要兼顾大型主体与细小信息，形成明显的尺度反差。辅助图形、记录线和说明文字沿着主体结构自然分布，保持科学图鉴特有的精密秩序。\n\n排版结合大型中文或日文标题「{主标题}」、英文衬线副标题「{英文副标题}」、竖排说明及小型观察标签，底部落一行展览信息「{展览信息}」。文字信息需要与主题对应，避免随意填入没有意义的科学术语或虚构数据。\n\n最终画面应同时具有自然观察的严谨感、艺术海报的视觉冲击和成熟的编辑设计感。避免普通教材式布局、机械图表堆叠及过度写实的商业摄影效果。不要水印，不要真实Logo，不要电商广告感，不要乱码。\n",
+      "variables": {
+        "画面-观察主题": "{观察主题}",
+        "画面-核心对象": "{核心自然对象}",
+        "画面-观察方式": "{主要观察方式}",
+        "文字-主标题": "{主标题}",
+        "文字-英文副标题": "{英文副标题}",
+        "画面-主色调": "{主色调}",
+        "文字-展览信息": "{展览信息}"
+      },
+      "source_url": "https://x.com/MrLarus/status/2115477701360570596",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/japanese_natural_observation_poster_356e6f51.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_natural_observation_poster_356e6f51.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_natural_observation_poster_356e6f51.thumb.webp",
+      "number": "ST000309",
+      "created_at": ""
     },
     {
       "id": "japanese_naive_embroidery_magazine_cover",
