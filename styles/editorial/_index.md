@@ -13,6 +13,7 @@
 | japanese_editorial_geometric_poster | #japanese_editorial #geometric_poster #circle_composition | 文化活动海报、展览、品牌视觉、编辑版式 | 9:16 |
 | japanese_museum_editorial_poster | #japanese_museum_editorial #exhibition_poster #typography | 品牌KV、概念海报、编辑设计、传统工艺展示 | 9:16 |
 | japanese_naive_embroidery_magazine_cover | #日式杂志封面 #天真手绘 #刺绣感 | 日式杂志封面、食物品牌编辑视觉、文艺生活方式社媒、季节性生活方式内容封面 | 9:16 |
+| japanese_natural_observation_poster | #日式图鉴海报 #博物学插画 #科学信息标注 | 品牌KV、自然科学展览海报、社媒竖图、科普专题封面、文化活动主视觉 | 9:16 |
 | japanese_travel_editorial_poster | #日系旅行杂志 #编辑海报 #横向闯入构图 | 旅行杂志、品牌海报、角色立绘、社交媒体创意内容 | 9:16 |
 | japanese_woodblock_exhibition_poster | #japanese_woodblock #ukiyo_e #exhibition_poster | 美术馆展览海报、品牌KV、传统艺术推广、文化类设计 | 9:16 |
 | modern_east_asian_paper_poster | #现代东方 #编辑设计 #纸艺质感 | 文化活动海报、展览、品牌视觉、东方文化机构宣传、编辑版式设计 | 9:16 |
