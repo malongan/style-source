@@ -11,6 +11,7 @@
 | fluted_glass_editorial_cover | #竖棱玻璃 #双联卡片 #杂志封面 | 品牌KV、社媒海报、生活方式杂志封面、概念展陈视觉 | 3:4 |
 | fuse_bead_editorial_poster | #拼豆艺术 #像素艺术 #色卡展示 | 品牌视觉、创意海报、艺术编辑设计、色卡研究页面 | 3:4 |
 | japanese_editorial_geometric_poster | #japanese_editorial #geometric_poster #circle_composition | 文化活动海报、展览、品牌视觉、编辑版式 | 9:16 |
+| japanese_misregistration_type_poster | #日式实验海报 #三色套印 #错版错位 | 艺术展览海报、印刷工艺专题、字体实验视觉、独立出版活动主视觉、品牌文化 KV、社媒竖图 | 9:16 |
 | japanese_museum_editorial_poster | #japanese_museum_editorial #exhibition_poster #typography | 品牌KV、概念海报、编辑设计、传统工艺展示 | 9:16 |
 | japanese_naive_embroidery_magazine_cover | #日式杂志封面 #天真手绘 #刺绣感 | 日式杂志封面、食物品牌编辑视觉、文艺生活方式社媒、季节性生活方式内容封面 | 9:16 |
 | japanese_natural_observation_poster | #日式图鉴海报 #博物学插画 #科学信息标注 | 品牌KV、自然科学展览海报、社媒竖图、科普专题封面、文化活动主视觉 | 9:16 |

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-195-gd0078f9-dirty",
-    "generated": "2026-10-28T22:53:17Z",
-    "total": 309,
+    "version": "v0.7.0-before-opt-196-gdbca6c6-dirty",
+    "generated": "2026-10-29T09:59:05Z",
+    "total": 310,
     "categories": [
       "brand_kv",
       "creative",
@@ -8966,6 +8966,59 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.thumb.webp",
       "number": "ST000189",
+      "created_at": ""
+    },
+    {
+      "id": "japanese_misregistration_type_poster",
+      "code": "ST0310",
+      "name": "日式三色套印错位实验海报",
+      "category": "editorial",
+      "tags": [
+        "日式实验海报",
+        "三色套印",
+        "错版错位",
+        "字体实验",
+        "复古印刷",
+        "印刷技术标注",
+        "竖版展览海报"
+      ],
+      "triggers": [
+        "套印错位海报",
+        "错印之美",
+        "三色错版海报",
+        "日式实验海报",
+        "印刷工艺海报",
+        "巨字实验海报",
+        "分版偏移海报"
+      ],
+      "scene": "艺术展览海报、印刷工艺专题、字体实验视觉、独立出版活动主视觉、品牌文化 KV、社媒竖图",
+      "ratio": "9:16",
+      "summary": "米白旧纸上的日式套印错位实验海报：巨字以三色分版偏移叠印，配套准记号与色版标注的技术标本层，再以展览级双栏排版收束，像一张被精心设计的印刷事故记录。",
+      "features": [
+        "**三色分版错位巨字** — 同一巨型字符由群青/珊瑚红/柠檬黄三个色版分别叠印，每版整体偏移 2–3mm，错位处露出叠色与网点，形成「印刷事故即设计」的视觉张力",
+        "**印刷技术标本标注** — 套准十字线、PLATE A/B/C 色块标签、网点叠印放大圆窗、细线网格与引线说明，让海报同时像一张印刷工艺图鉴",
+        "**米白旧纸 + 油墨颗粒** — 米白色旧纸底，油墨颗粒、半调网点与轻微边缘磨损，保留复古胶印/丝网印刷的手感",
+        "**展览级双栏排版** — 大型英文压缩体标题配中文/日文粗黑标题与竖排小字，右侧说明栏 + 底部日期与场馆信息，字重与留白建立清晰层级",
+        "**边缘测量记号** — 细线边框、刻度短线、几何靶标散布画面四周，强化实验档案与版面工程的秩序感"
+      ],
+      "prompt": "海报主题：{海报主题}\n主标题：{主标题}\n副标题：{副标题}\n核心视觉元素：{核心视觉元素}\n视觉设计手法：{视觉设计手法}\n主色调：{主色调}\n展览信息：{展览信息}\n\n设计一张 9:16 竖版日式实验艺术海报，融合日本复古平面设计、现代字体实验和艺术展览视觉。整体具有鲜明的设计语言，像一张经过专业编排的独立艺术展海报。\n\n以超大标题「{主标题}」作为画面的主要视觉结构，让文字与核心元素{核心视觉元素}产生真实的空间关系。可以通过穿插、遮挡、套印错位或字形变形，创造出令人意外但合理的视觉效果。\n\n主体与字体应该相互影响，而不是简单叠放。放大最有表现力的字母或字符，通过裁切、重叠和比例对比，让观众第一眼就能识别视觉重点。\n\n采用少量高对比颜色{主色调}，结合米白色旧纸背景、自然油墨颗粒和复古印刷质感。局部保留轻微套色偏差、边缘磨损与丝网印刷纹理。画面模拟三色胶印分版：同一个巨型字符被拆成三个色版分别叠印，每个色版整体偏移 2 至 3 毫米，错位处露出叠色、网点与纸白，形成清晰的「错印」层次。\n\n在画面边缘加入印刷技术标注：套准十字线、色版色块与 PLATE A / PLATE B / PLATE C 标签、展示网点叠印的局部放大圆窗、细线网格与引线说明，让海报同时像一张印刷工艺标本图。\n\n排版融合大型英文压缩体标题「{副标题}」、中文或日文粗黑主标题、竖排小字及展览说明。通过字体大小、字重和留白建立清晰的阅读层级。底部落一行展览信息「{展览信息}」。\n\n辅助文字、几何标记和细线可以分布在画面边缘，但必须围绕主题展开。整体信息丰富，仍要保持明确的视觉重心和舒适的阅读节奏。\n\n画面需要具有完整的艺术作品感和强烈的缩略图识别度。每张只突出一种核心视觉手法，避免元素堆砌、文字乱码、廉价特效和普通的文字叠图效果。不要水印，不要真实Logo，不要电商广告感，不要乱码。\n",
+      "variables": {
+        "画面-海报主题": "{海报主题}",
+        "文字-主标题": "{主标题}",
+        "文字-英文副标题": "{副标题}",
+        "画面-核心视觉元素": "{核心视觉元素}",
+        "画面-视觉设计手法": "{视觉设计手法}",
+        "画面-主色调": "{主色调}",
+        "文字-展览信息": "{展览信息}"
+      },
+      "source_url": "https://x.com/MrLarus/status/2115475664602325081",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/japanese_misregistration_type_poster_2bf28818.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_misregistration_type_poster_2bf28818.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_misregistration_type_poster_2bf28818.thumb.webp",
+      "number": "ST000310",
       "created_at": ""
     },
     {

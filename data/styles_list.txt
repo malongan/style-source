@@ -1,4 +1,4 @@
-共 309 个风格
+共 310 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -192,6 +192,7 @@ ST0188 | 日式诗意梦幻半写实插画 | https://malongan.github.io/style-so
 ST0309 | 日式自然观察图鉴海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_natural_observation_poster_356e6f51.webp
 ST0307 | 日式天真刺绣杂志封面 | https://malongan.github.io/style-source/images/styles_previews/japanese_naive_embroidery_magazine_cover_8c7e79f4.webp
 ST0189 | 日式美术馆编辑海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_museum_editorial_poster_5e952385.webp
+ST0310 | 日式三色套印错位实验海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_misregistration_type_poster_2bf28818.webp
 ST0190 | 日式编辑几何海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_editorial_geometric_poster_f3975dbb.webp
 ST0191 | 日料电影感摄影 | https://malongan.github.io/style-source/images/styles_previews/japanese_cuisine_backlit_457fee78.webp
 ST0306 | 日式烘焙故事海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_bakery_story_poster_ce456460.webp
