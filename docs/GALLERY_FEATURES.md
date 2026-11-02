@@ -112,8 +112,8 @@
 | 39 | **🔧 update_collection_log.py** | 更新收集日志 |
 | 40 | **🔧 md_to_yaml.py** | Markdown 转 YAML |
 | 41 | **🔧 deploy_gallery.py** | 部署画廊 |
-| 42 | **🔧 fetch_twitter.py** | Twitter/X 采集 |
-| 43 | **🔧 run_fetch.py** | 采集入口 |
+| 42 | **🔧 fetch_twitter.py** | Twitter/X 采集（fxtwitter API，一次拿正文+原图+alt） |
+| 43 | **🔧 audit_variables.py** | 变量体检报告（落空/未声明/desc 覆盖率） |
 | 44 | **🔐 pre-push-security-scan.py** | 发布前安全扫描（脚本在 `open/agents/scripts/github-manager/`，由 `.git/hooks/pre-push` 调用，**不在本仓库 scripts/**） |
 | 45 | **🔄 CI: on-merge-main.yml** | PR 合并后验证数据一致性 |
 | 46 | **🔄 CI: check-images.yml** | 图片可达性日检 + PR 检查 |
