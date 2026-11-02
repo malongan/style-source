@@ -3,7 +3,12 @@ name: PR 格式检查
 
 on:
   pull_request:
-    paths: ['styles/**']
+    paths:
+      - 'styles/**'
+      # 改校验器/生成器本身也必须过校验：只监听 styles/** 时，一个改坏
+      # check_variables_semantics 的 PR 会完全不触发 CI（PR #198 就撞上了）
+      - 'scripts/**'
+      - '.github/workflows/**'
 
 jobs:
   validate:
