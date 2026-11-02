@@ -30,10 +30,10 @@ features:
 - title: 品牌文字小标签
   desc: 品牌名以小型标签形式融入画面，不喧宾夺主，保持图形感
 variables:
-- kv_var: '{品牌名}'
+- kv_var: 中文品牌名
   style_var: '{品牌名}'
   desc: 品牌名称，如「STREETLAB」「GOAT」「VISION」
-- kv_var: '{吉祥物描述}'
+- kv_var: 吉祥物描述
   style_var: '{吉祥物描述}'
   desc: 品牌吉祥物的特征描述，如「一只戴着墨镜的山羊」「一个酷酷的滑板少年」
 - kv_var: 品牌名

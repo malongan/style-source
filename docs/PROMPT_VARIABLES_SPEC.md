@@ -335,7 +335,7 @@ python3 scripts/validate_style.py styles/{分类}/{id}.yaml
 
 ## 9. CI 门禁（已实现）
 
-`scripts/validate_style.py` 里的 `check_variables_semantics()` 现在跑 5 条规则，全部是 **error**
+`scripts/validate_style.py` 里的 `check_variables_semantics()` 现在跑 6 条规则，全部是 **error**
 （有错即 exit 1，PR 直接红）：
 
 | 规则 | 检查 | 为什么 |
@@ -345,6 +345,11 @@ python3 scripts/validate_style.py styles/{分类}/{id}.yaml
 | **R3** | `prompt` 里每个槽位都必须有声明 | 漏声明不会出输入框，且标签退化成英文占位符名（`subject_description`） |
 | **R4** | `kv_var` 必须含中文（`ALLOW_EN_KV` 白名单除外） | 面板是中文界面，一整片 `SUBJECT` / `MAIN_TEXT` 既占宽又和占位符名混淆 |
 | **R5** | 变量数 ≤ `MAX_VARIABLES`（12） | 超过 12 个用户不会填完，根源通常是 `元素1/2/3` 该合并没合并 |
+| **R6** | 占位符名与 `kv_var` 不能含空白、中文标点或填写指南（`填写…` / `例如…` / `如：…` / `可留空`）；占位符名里的 `/` 只记 warning | 说明塞进名字后，插件会把整串当标签显示（`{研究领域：生物医学 / 材料 / 纳米}`），且这类槽位大多漏了声明。2026-11 清掉 77 个 |
+
+> R6 刻意**不拦** `/` `-` `_`：`kv_var` 里「产品/道具」这类标签可读，英文模板里
+> `{background/environment}` 是历史写法，不该因为一条命名规则把存量打红。只有占位符名里的 `/`
+> 记 warning（语义含糊，建议拆成两个槽位）。
 
 ```bash
 python3 scripts/validate_style.py          # 单文件校验 + 汇总

@@ -59,12 +59,21 @@ DESCRIPTIVE_VALUE_RE = re.compile(r'[、，/：]|（可选）|\(可选\)|如["�
 # 一个风格最多给几个输入框（见 docs/PROMPT_VARIABLES_SPEC.md §5）
 MAX_VARIABLES = 12
 
+# 占位符名 / 标签里不该出现的字符：空白与中文标点。
+# 刻意不含 / - _ ：「产品/道具」这类标签可读，{background/environment} 是历史写法，
+# 两者不该因为 R6 被拦下（/ 另由 R6b 提示）。
+NAME_BAD_PUNCT = re.compile(r'[\s，、：；（）()「」“”"]')
+
+# 「说明书式」名字的特征：以填写指令开头，或整句带举例/可留空。
+# 用锚定和完整词，避免误伤「可选禁用元素」这种合法标签。
+NAME_BAD_WORD = re.compile(r'^(填写|请输入)|例如[：:]?|^如[：:]|可留空|不要文字')
+
 # 允许保持英文的 kv_var（品牌名 / 通用术语），小写比较
 ALLOW_EN_KV = {'prompt'} 
 
 
 def check_variables_semantics(data: dict):
-    """变量语义校验（PROMPT_VARIABLES_SPEC 的 R1/R2/R3）。
+    """变量语义校验（PROMPT_VARIABLES_SPEC 的 R1–R6）。
 
     结构合法但语义无效的文件能一路绿灯过 CI，用户侧才会发现「填了没反应」，
     所以把这类问题提前到提交阶段。返回 (errors, warnings)。
@@ -99,7 +108,7 @@ def check_variables_semantics(data: dict):
             errors.append('style_var 为空（该条会被生成脚本丢弃）')
             continue
         if PLACEHOLDER_RE.fullmatch(sv):
-            continue              # 合法占位符本体（允许名字里带 / 等字符）
+            continue              # 合法占位符本体（名字是否合规由 R6 判）
         if DESCRIPTIVE_VALUE_RE.search(sv):
             errors.append(f'style_var 写成了描述/枚举，应改为 "{{占位符}}"：{sv}')
         elif not (sv.startswith('{') and sv.endswith('}')):
@@ -135,6 +144,32 @@ def check_variables_semantics(data: dict):
     n = len(declared)
     if n > MAX_VARIABLES:
         errors.append(f'变量 {n} 个，超过上限 {MAX_VARIABLES} 个（把一个位置上的多个元素合并成一个字段）')
+
+    # R6：占位符名与标签不能写成「说明书」。
+    # 历史写法把填写指南塞进名字：`{副标题，可留空}`、`{研究领域：生物医学 / 材料 / 纳米}`、
+    # `{填写主题，例如：春日新品}`。插件会把整串当标签显示（长到没法看），
+    # 而且这类槽位大多漏了声明，标签只能退化成英文占位符名。2026-11 清掉了 77 个。
+    for name in dict.fromkeys(PLACEHOLDER_RE.findall(prompt)):
+        if not name:
+            continue
+        if NAME_BAD_PUNCT.search(name):
+            errors.append(f'prompt 槽位名含空白或标点，改成短名、说明写进 desc：{{{name}}}')
+        elif NAME_BAD_WORD.search(name):
+            errors.append(f'prompt 槽位名是填写指南，改成短名、说明写进 desc：{{{name}}}')
+        elif '/' in name:
+            # 英文模板里 {background/environment} 这类历史写法能用，不阻塞，只提示
+            warnings.append(f'prompt 槽位名含 /（两个语义挤在一个槽位）：{{{name}}}')
+
+    for v in declared:
+        kv = str(v.get('kv_var') or '').strip()
+        if not kv:
+            continue
+        if kv.startswith('{') and kv.endswith('}'):
+            errors.append(f'kv_var 不能写成占位符形态（面板会照原样显示 {kv}），应写 {kv.strip("{}")}')
+        elif NAME_BAD_PUNCT.search(kv):
+            errors.append(f'kv_var 含空白或标点（面板上是字段名，不是句子）：{kv}')
+        elif NAME_BAD_WORD.search(kv):
+            errors.append(f'kv_var 是填写指南，应改成短标签：{kv}')
 
     return errors, warnings
 

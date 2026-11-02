@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-202-g8125a04-dirty",
-    "generated": "2026-11-02T03:54:32Z",
+    "version": "v0.7.0-before-opt-206-g6b4ea85-dirty",
+    "generated": "2026-11-02T04:36:30Z",
     "total": 310,
     "categories": [
       "brand_kv",
@@ -7810,7 +7810,7 @@
       ],
       "prompt": "设计一张具有现代东方编辑美学的文化活动海报。\n\n【主题 / 活动名称】{主题活动名称}\n【主标题】{主标题}\n【核心主形】{核心主形}\n【主色域】{主色域}\n【微场景】{微场景}\n【文化元素】{文化元素}\n【活动信息】{活动信息}\n\n【画幅比例】9:16 竖版\n\n画面先确立一个最强的单一主形，由【核心主形】承担第一视觉，例如巨大圆形、扇形、低矮横向平台或厚重黑色版面，让观众远看先被一个清楚的大形吸引。\n\n使用【主色域】建立 2–4 个面积明显不同的大型纸本色块，色块之间形成前后关系、遮挡关系或轻微结构关系。所有色块必须具有真实手工纸、水彩纸浆或矿物颜料质感，可见天然长短纤维、纸浆颗粒、自然浓淡变化、轻微压痕和不规则撕纸边缘，整体保持哑光、干净、完整，不做脏旧、黄斑、强颗粒或廉价复古滤镜。\n\n在大色域之间加入一个尺度很小但内容完整的【微场景】。人物与道具整体约占画面 3%–5%，人物必须正在做一件真实的事，例如扎灯、糊纸、制扇、覆纸、调香、点香、雕版、上墨、压印等。通过动作、器具和空间关系讲清楚一个安静而明确的小故事。\n\n可以加入极少量点睛色，如朱砂红、暖黄灯火或小印记，但面积通常控制在 1%–3%，并且要与内容有真实关系。\n\n排版采用现代东方文化机构、展览活动或编辑设计语言。主标题使用精致的中文宋体、明朝体或具有出版感的现代字体，字号保持中小尺度，不让文字压过大色域。辅助英文、日期、地点和说明信息使用更小字号，形成清楚层级，并保留适当留白。所有文字都要有真实意义。\n\n不要水印，不要真实Logo，不要电商广告感，不要书籍封面既视感，不要传统古风插画，不要巨大标题，不要满屏古建筑，不要元素堆砌，不要PPT式排版，不要脏旧纸张，不要3D CGI，不要玻璃材质，不要塑料感，不要霓虹色，不要编号和星芒装饰。\n",
       "variables": {
-        "主题 / 活动名称": "{主题活动名称}",
+        "主题与活动名称": "{主题活动名称}",
         "主标题": "{主标题}",
         "核心主形": "{核心主形}",
         "主色域": "{主色域}",
@@ -7819,7 +7819,7 @@
         "活动信息": "{活动信息}"
       },
       "variable_descs": {
-        "主题 / 活动名称": "灯彩手作 / 制扇雅集 / 香事文化 / 木刻版画",
+        "主题与活动名称": "灯彩手作 / 制扇雅集 / 香事文化 / 木刻版画",
         "核心主形": "如 巨大纸圆 / 扇形展开 / 沉香色块",
         "主色域": "2–4 个颜色，如 暖橙 + 杏黄 + 暖白",
         "微场景": "如 糊纸灯彩 / 制扇裱贴 / 篆香合香",
@@ -13493,14 +13493,14 @@
       ],
       "prompt": "Minimalist 3D clay illustration of a cute stylized cartoon character creatively interacting with giant bold black typography reading \"{WORD}\". The character is {ACTION}, naturally using, sitting on, hanging from, climbing, or moving through the letters to express the meaning of \"{WORD}\". Handcrafted plasticine/clay texture, handmade sculpted look, rounded proportions, tiny dot eyes, simple facial features, oversized sneakers, wearing {OUTFIT}, playful expression, dynamic pose, soft matte finish, vibrant colors, modern graphic poster design, giant bold black typography filling the background, clean centered composition, white seamless studio background, soft diffused studio lighting, subtle realistic shadows, premium clay animation aesthetic, highly detailed, charming, cute, ultra-realistic handcrafted look, 8K, one character only, minimal, clean, high-end poster.",
       "variables": {
-        "{文字}": "{WORD}",
-        "{动作}": "{ACTION}",
-        "{服装}": "{OUTFIT}"
+        "文字": "{WORD}",
+        "动作": "{ACTION}",
+        "服装": "{OUTFIT}"
       },
       "variable_descs": {
-        "{文字}": "画面中出现的单词文字 — 如 RUN、JUMP、FLY、LOVE、DREAM",
-        "{动作}": "角色与文字的互动方式 — 如 sitting on the 'R'、climbing up the 'U'、hanging from the 'N'",
-        "{服装}": "角色的穿着风格 — 如 a denim jacket and red sneakers、a yellow raincoat and boots"
+        "文字": "画面中出现的单词文字 — 如 RUN、JUMP、FLY、LOVE、DREAM",
+        "动作": "角色与文字的互动方式 — 如 sitting on the 'R'、climbing up the 'U'、hanging from the 'N'",
+        "服装": "角色的穿着风格 — 如 a denim jacket and red sneakers、a yellow raincoat and boots"
       },
       "source_url": "https://x.com/MissDelulu9",
       "source_author": "MissDelulu9",
@@ -14478,13 +14478,13 @@
       ],
       "prompt": "{BRAND_NAME}. Act as a Senior Brand Illustrator, specializing in bold monoline streetwear character illustrations of brand mascots (style: bold-weight flat graphic, screen-print/risograph aesthetic, positive-negative two-tone illustration).\n\nPHASE 1: BACKGROUND — 浅暖米色纸张背景 (#F2F2F0)，带细腻纸张纹理\n\nPHASE 2: SUBJECT — BRAND MASCOT — Bold monoline 风格，{吉祥物描述}，粗轮廓线 + 深色填充 + 白色负空间细节\n\nPHASE 3: TWO-COLOR ONLY — 深炭黑 (#2B2B2B) + 米白背景，无渐变，无中间色\n\nPHASE 4: SCREEN-PRINT TEXTURE — 深色填充区有细腻丝网印刷质感\n\nPHASE 5: TEXT — 品牌名「{品牌名}」以小标签形式融入画面右下或左下角\n\nTECH SPECS: 8K分辨率，纯2D，无3D/光影/渐变",
       "variables": {
-        "{品牌名}": "{品牌名}",
-        "{吉祥物描述}": "{吉祥物描述}",
+        "中文品牌名": "{品牌名}",
+        "吉祥物描述": "{吉祥物描述}",
         "品牌名": "{BRAND_NAME}"
       },
       "variable_descs": {
-        "{品牌名}": "品牌名称，如「STREETLAB」「GOAT」「VISION」",
-        "{吉祥物描述}": "品牌吉祥物的特征描述，如「一只戴着墨镜的山羊」「一个酷酷的滑板少年」"
+        "中文品牌名": "品牌名称，如「STREETLAB」「GOAT」「VISION」",
+        "吉祥物描述": "品牌吉祥物的特征描述，如「一只戴着墨镜的山羊」「一个酷酷的滑板少年」"
       },
       "source_url": "https://x.com/poletaeviktor",
       "source_author": "poletaeviktor",
