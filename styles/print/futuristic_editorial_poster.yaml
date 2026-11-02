@@ -36,18 +36,25 @@ prompt: |
 variables:
 - kv_var: 人物
   style_var: '{HUMAN}'
+  desc: 如：穿风衣的短发女性
 - kv_var: 服装
   style_var: '{CLOTHING}'
+  desc: 如：亚麻衬衫 + 阔腿裤
 - kv_var: 主色
   style_var: '{COLOR1}'
+  desc: 主色名或色值，如：奶油白 / #F5E6D3
 - kv_var: 辅色
   style_var: '{COLOR2}'
+  desc: 辅助色，如：薄荷绿
 - kv_var: 点缀色
   style_var: '{COLOR3}'
+  desc: 小面积强调色，如：正红
 - kv_var: 标题
   style_var: '{TITLE}'
+  desc: 如：夏日限定
 - kv_var: 文字
   style_var: '{TEXT}'
+  desc: 如：慢下来
 source_url: "https://x.com/Kashberg_0/status/2075055474861555843"
 source_author: "Kashberg"
 

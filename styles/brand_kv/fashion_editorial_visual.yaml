@@ -31,26 +31,37 @@ features:
 variables:
 - kv_var: 品牌-名称
   style_var: '{BRAND}'
+  desc: 如：山野茶事
 - kv_var: 主题
   style_var: '{THEME}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 产品或主体
   style_var: '{PRODUCT_OR_SUBJECT}'
+  desc: 如：一支香水瓶 / 一位模特
 - kv_var: 配色
   style_var: '{COLORS}'
+  desc: 整体配色方案，如：莫兰迪灰粉 + 奶白
 - kv_var: 主标题
   style_var: '{HEADLINE}'
+  desc: 画面主标题，如：夏日限定
 - kv_var: 副标题
   style_var: '{SUBHEADLINE}'
+  desc: 次级标题，如：限定发售
 - kv_var: 短文案
   style_var: '{OPTIONAL_SHORT_TEXT}'
+  desc: 如：一口回甘
 - kv_var: 品牌调性
   style_var: '{BRAND_MOOD}'
+  desc: 如：安静、克制、有呼吸感
 - kv_var: 版式类型
   style_var: '{DIRECTION_TYPE}'
+  desc: 如：海报 / 三折页 / 卡片
 - kv_var: 小字文案
   style_var: '{EXTRA_SMALL_TEXT}'
+  desc: 如：SCROLL TO EXPLORE
 - kv_var: 模特描述
   style_var: '{MODEL_DESCRIPTION}'
+  desc: 如：短发亚洲女性，表情冷淡
 prompt: 'Use this as a single-image prompt template.
 
   If you want multiple images, generate each one separately. Do not merge them into one collage unless the chosen direction is specifically a lookbook collage spread.

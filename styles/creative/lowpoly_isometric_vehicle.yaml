@@ -35,6 +35,7 @@ prompt: |
 variables:
 - kv_var: 流行文化载具
   style_var: '{pop_culture_vehicle}'
+  desc: 如：复古面包车 / 蝙蝠车
 source_url: "https://x.com/CharaspowerAI/status/2076728502087262510"
 source_author: "CharaspowerAI"
 

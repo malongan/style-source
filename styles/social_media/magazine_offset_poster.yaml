@@ -41,6 +41,7 @@ prompt: |
 variables:
 - kv_var: 主题
   style_var: '{主题}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 source_url: "https://x.com/xiaoxiaodong01/status/2087699298737848519"
 source_author: "xiaoxiaodong01"
 

@@ -50,13 +50,16 @@ prompt: |
 variables:
 - kv_var: 两个中文大字
   style_var: '{两个中文大字}'
+  desc: 如：山海 / 无常
 - kv_var: 文化元素
   style_var: '{文化元素}'
   desc: 3–5 个相关人物 / 建筑 / 器物 / 自然景观
 - kv_var: 四字文化主题
   style_var: '{四字文化主题}'
+  desc: 如：观山听水
 - kv_var: 英文主题名称
   style_var: '{英文主题名称}'
+  desc: 如：MOUNTAINS AND WATER
 source_url: "https://x.com/MrLarus/status/2108193733556715885"
 source_author: "@MrLarus"
 

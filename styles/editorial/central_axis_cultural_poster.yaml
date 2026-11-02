@@ -50,6 +50,7 @@ prompt: |
 variables:
 - kv_var: 主题
   style_var: '{主题}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 中央硬轴
   style_var: '{中央硬轴}'
   desc: 如 竹脊 / 船身 / 箭矢 / 器物结构
@@ -61,13 +62,16 @@ variables:
   desc: 如 声波 / 羽翼 / 杆件
 - kv_var: 重复元素描述
   style_var: '{重复元素描述}'
+  desc: 如：重复的圆形光斑 / 阵列竖线
 - kv_var: 运动方式
   style_var: '{运动方式}'
   desc: 放射/斜向/重复节奏/波纹/张力
 - kv_var: 主色调
   style_var: '{主色调}'
+  desc: 如：暖橙 + 米白
 - kv_var: 辅助色
   style_var: '{辅助色}'
+  desc: 如：雾霾蓝
 source_url: "https://x.com/MrLarus/status/2104224369853509966"
 source_author: "@MrLarus"
 

@@ -47,22 +47,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 宠物，如：一只柴犬
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 宠物的动作，如：歪头看镜头 / 趴着打哈欠
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 室内道具，如：毛线球 / 食盆
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 如：客厅沙发旁
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 如：GOOD BOY
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：scene 03
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：速度线 / 惊叹号
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 宠物配饰，如：小围巾
 prompt: 'Create a 16:9 image in the "Rough Animation Pet Sketch Storyboard" style.
 
 

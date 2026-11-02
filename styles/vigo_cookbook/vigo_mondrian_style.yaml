@@ -32,20 +32,28 @@ features:
 variables:
 - kv_var: 品牌名
   style_var: '{brand_name}'
+  desc: 如：山野茶事
 - kv_var: 品牌标语
   style_var: '{brand_tagline}'
+  desc: 如：把日常过成节日
 - kv_var: 主标题
   style_var: '{main_title}'
+  desc: 画面主标题，如：夏日限定
 - kv_var: 副标题
   style_var: '{subtitle}'
+  desc: 次级标题，如：限定发售
 - kv_var: 图形元素
   style_var: '{graphic_element}'
+  desc: 如：圆点、波浪线、几何块
 - kv_var: 侧边文字
   style_var: '{side_text}'
+  desc: 竖排小字，如：ISSUE 03
 - kv_var: 中心视觉
   style_var: '{center_visual}'
+  desc: 画面中心的主体，如：一束干花
 - kv_var: 背景色
   style_var: '{bg_color}'
+  desc: 如：奶油白 / 雾霾蓝
 prompt: |
   Create a poster in 蒙德里安秩序风 (Mondrian De Stijl) style.
   

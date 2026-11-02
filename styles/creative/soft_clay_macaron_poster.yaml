@@ -36,14 +36,19 @@ variables:
   desc: 顶部超大粗体艺术字
 - kv_var: 位置
   style_var: '{位置}'
+  desc: 文字所在方位，如：左上 / 右下
 - kv_var: 文字1
   style_var: '{文字1}'
+  desc: 第一行文字，如：NEW DROP
 - kv_var: 文字2
   style_var: '{文字2}'
+  desc: 第二行文字，如：VOL.03
 - kv_var: 文字3
   style_var: '{文字3}'
+  desc: 第三行小字，如：EST. 2024
 - kv_var: 作者名
   style_var: '{作者名}'
+  desc: 如：Studio Mori
 - kv_var: 标语
   style_var: '{标语}'
   desc: 画面底部标语文字

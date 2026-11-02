@@ -40,8 +40,10 @@ prompt: |
 variables:
 - kv_var: 第一行
   style_var: '{第一行}'
+  desc: 如：COMING SOON
 - kv_var: 第二行
   style_var: '{第二行}'
+  desc: 如：AUTUMN 2024
 - kv_var: 活动时间
   style_var: '{活动时间/副行}'
   desc: 活动时间或副行文案，如 5.1–5.7

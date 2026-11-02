@@ -47,8 +47,10 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{SUBJECT}'
+  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
 - kv_var: 城市名称
   style_var: '{CITY_NAME}'
+  desc: 如：东京 / 上海 / 巴黎
 source_url: "https://x.com/Maercihh/status/2087113728185749607"
 source_author: "@Maercihh"
 

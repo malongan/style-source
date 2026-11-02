@@ -35,6 +35,7 @@ prompt: |
 variables:
 - kv_var: 主体对象
   style_var: '{主体对象}'
+  desc: 如：一只手表 / 一台相机
 source_url: "https://x.com/azed_ai/status/2074448877110132912"
 source_author: "azed_ai"
 

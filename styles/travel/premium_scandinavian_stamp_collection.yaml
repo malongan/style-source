@@ -82,6 +82,7 @@ prompt: |
 variables:
 - kv_var: 目的地
   style_var: '{DESTINATION}'
+  desc: 如：京都 / 里斯本 / 大理
 source_url: "https://x.com/Goodmanprotocol/status/2084588473689014648"
 source_author: "@Goodmanprotocol"
 

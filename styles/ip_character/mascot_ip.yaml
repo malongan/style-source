@@ -29,22 +29,31 @@ features:
 variables:
 - kv_var: 主体
   style_var: '{SUBJECT}'
+  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 如：张开双臂 / 蹦跳
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 玩具道具，如：气球 / 礼盒
 - kv_var: 地点
   style_var: '{LOCATION}'
+  desc: 如：上海 / 京都 / 洛杉矶
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 如：SUPER DAY
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：限时活动
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：星星 / 圆点
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：小披风 / 领结
 prompt: |
   Create a 16:9 image in the "Bold Block Mascot Poster Style" visual style.
   

@@ -65,20 +65,28 @@ prompt: |
 variables:
 - kv_var: 主体故事
   style_var: '{主体故事}'
+  desc: 主体的故事设定，如：在雨夜寻找旧信件
 - kv_var: 主角
   style_var: '{主角}'
+  desc: 如：扎辫子的小女孩
 - kv_var: 色系主色调
   style_var: '{色系主色调}'
+  desc: 色系里的主色，如：雾霭蓝
 - kv_var: 伙伴
   style_var: '{伙伴}'
+  desc: 与主角同行的角色，如：一只柴犬
 - kv_var: 色系辅色调
   style_var: '{色系辅色调}'
+  desc: 色系里的辅色，如：灰粉
 - kv_var: 英文主标题
   style_var: '{英文主标题}'
+  desc: 如：SUMMER DROP
 - kv_var: 中文副标题
   style_var: '{中文副标题}'
+  desc: 如：夏日限定
 - kv_var: 英文副标语
   style_var: '{英文副标语}'
+  desc: 如：MADE FOR SLOW DAYS
 source_url: "https://x.com/ou_zhen599/status/2075629673497948593"
 source_author: "ou_zhen599"
 

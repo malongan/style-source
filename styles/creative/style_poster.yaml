@@ -44,22 +44,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 菱形开孔里的主体，如：一组静物 / 一个人
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 主体的姿态或摆放，如：侧身站立
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 陪衬物件，如：陶罐 / 折纸
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 拍摄环境，如：影棚 / 白墙边
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 超大号白色透视字体，如：FOLD
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 人物造型，如：素色长衫
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 小字注释，如：STUDY 01
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：折痕线 / 角落标记
 prompt: 'Create an image in folded-diamond-perspective-type-poster-style.
 
 

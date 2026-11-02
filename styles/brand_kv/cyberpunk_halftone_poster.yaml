@@ -41,14 +41,19 @@ variables:
   desc: 亮红色高饱和
 - kv_var: 色调
   style_var: '{色调}'
+  desc: 整体色调，如：冷调霓虹紫
 - kv_var: 服装描述
   style_var: '{服装描述}'
+  desc: 如：白色针织开衫、浅蓝牛仔
 - kv_var: 配饰描述
   style_var: '{配饰描述}'
+  desc: 如：金属细框眼镜、珍珠耳环
 - kv_var: 文字A
   style_var: '{文字A}'
+  desc: 第一段文字，如：混乱多语言字符 / MIND
 - kv_var: 文字B
   style_var: '{文字B}'
+  desc: 第二段文字，如：NO SIGNAL
 prompt: '大师级排版，极繁主义，半调图案，杂色，丝网印刷质感。重叠边缘色彩渐变，同位色渐变色系，点线面层次分布。
 
 

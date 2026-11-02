@@ -38,10 +38,13 @@ prompt: |
 variables:
   - kv_var: 第一行
     style_var: '{第一行}'
+    desc: 如：COMING SOON
   - kv_var: 第二行
     style_var: '{第二行}'
+    desc: 如：AUTUMN 2024
   - kv_var: 副行
     style_var: '{副行}'
+    desc: 如：LIMITED EDITION
 source: "painter"
 source_author: "painter"
 created_at: "2026-08-13"

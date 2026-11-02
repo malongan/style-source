@@ -38,12 +38,16 @@ variables:
   desc: 品牌名称/主标题
 - kv_var: 英文副标题
   style_var: '{英文副标题}'
+  desc: 如：BREWED SLOWLY
 - kv_var: 产品包装
   style_var: '{产品包装}'
+  desc: 如：一只咖啡袋 / 一盒茶罐
 - kv_var: 建筑场景
   style_var: '{建筑场景}'
+  desc: 如：街角咖啡馆 / 车站亭
 - kv_var: 风格关键词
   style_var: '{Style_Keywords}'
+  desc: 英文风格词，如：minimal, premium, warm
 prompt: 'Please generate a vertical 2:3 ultra-realistic miniature architecture photography poster.
 
   【Information】

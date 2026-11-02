@@ -52,6 +52,7 @@ variables:
     desc: 琵琶、西塔琴、曼陀林
   - kv_var: 幻想角色
     style_var: '{幻想角色}'
+    desc: 如：精灵旅人 / 星象师
 source_url: "https://x.com/SimplyAnnisa/status/2077351368692785358"
 source_author: "SimplyAnnisa"
 

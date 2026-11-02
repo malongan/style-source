@@ -63,6 +63,7 @@ prompt: |
 variables:
 - kv_var: 主体描述
   style_var: '{主体描述}'
+  desc: 主体的外观特征，如：短发、雀斑、绿色眼睛
 source_url: "https://x.com/Morry4AI/status/2102659406580330647"
 source_author: "@Morry4AI"
 

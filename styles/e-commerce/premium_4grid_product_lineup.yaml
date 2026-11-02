@@ -94,26 +94,37 @@ prompt: |
 variables:
 - kv_var: 品牌名
   style_var: '{brand_name}'
+  desc: 如：山野茶事
 - kv_var: 产品系列
   style_var: '{product_series}'
+  desc: 如：轻乳茶系列
 - kv_var: 口味一
   style_var: '{flavor_1}'
+  desc: 第 1 个口味，如：茉莉
 - kv_var: 口味二
   style_var: '{flavor_2}'
+  desc: 第 2 个口味，如：桂花
 - kv_var: 口味三
   style_var: '{flavor_3}'
+  desc: 第 3 个口味，如：白桃
 - kv_var: 口味四
   style_var: '{flavor_4}'
+  desc: 第 4 个口味，如：乌龙
 - kv_var: 背景色一
   style_var: '{bg_color_1}'
+  desc: 第 1 格背景色，如：奶绿
 - kv_var: 背景色二
   style_var: '{bg_color_2}'
+  desc: 第 2 格背景色，如：浅杏
 - kv_var: 背景色三
   style_var: '{bg_color_3}'
+  desc: 第 3 格背景色，如：雾粉
 - kv_var: 背景色四
   style_var: '{bg_color_4}'
+  desc: 第 4 格背景色，如：淡紫
 - kv_var: 标语
   style_var: '{tagline}'
+  desc: 如：慢一点，也很好
 source_url: "https://x.com/ou_zhen599/status/2082158630942781575?s=20"
 source_author: "ou_zhen599"
 

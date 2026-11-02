@@ -47,10 +47,13 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{subject}'
+  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
 - kv_var: 服装
   style_var: '{outfit}'
+  desc: 如：亚麻衬衫 + 阔腿裤
 - kv_var: 场景情绪
   style_var: '{setting_mood}'
+  desc: 场景与情绪，如：黄昏的河边、宁静微凉
 source_url: "https://x.com/arsalannazir07/status/2086798151890219247"
 source_author: "@arsalannazir07"
 

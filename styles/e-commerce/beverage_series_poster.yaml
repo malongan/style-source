@@ -64,14 +64,19 @@ prompt: |
 variables:
 - kv_var: 口味名称
   style_var: '{FLAVOR_NAME}'
+  desc: 如：白桃乌龙
 - kv_var: 主色
   style_var: '{COLOR1}'
+  desc: 主色名或色值，如：奶油白 / #F5E6D3
 - kv_var: 液体颜色
   style_var: '{LIQUID_COLOR}'
+  desc: 如：酒红 / 琥珀金 / 淡绿
 - kv_var: 装饰配料
   style_var: '{GARNISH_ELEMENT}'
+  desc: 如：柑橘片 / 香草枝
 - kv_var: 点缀元素
   style_var: '{ACCENT_DESCRIPTION}'
+  desc: 如：小雏菊 / 星星 / 网格线
 source_url: "https://x.com/ou_zhen599/status/2080924943567757412"
 source_author: "ou_zhen599"
 

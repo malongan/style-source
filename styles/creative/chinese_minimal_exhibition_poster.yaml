@@ -55,14 +55,19 @@ prompt: |
 variables:
 - kv_var: 主题描述
   style_var: '{主题描述}'
+  desc: 展览主题，如：山水的另一种看法
 - kv_var: 主色调描述
   style_var: '{主色调描述}'
+  desc: 主色域，如：墨绿 + 米白 + 一点朱砂
 - kv_var: 地景类型
   style_var: '{地景类型}'
+  desc: 地景形态，如：远山薄雾 / 湖面
 - kv_var: 微型叙事描述
   style_var: '{微型叙事描述}'
+  desc: 画面里的小叙事，如：一人独坐亭中
 - kv_var: 中文题跋内容
   style_var: '{中文题跋内容}'
+  desc: 题跋文字，如：山静日长
 source_url: "https://x.com/MrLarus/status/2095095430275117290"
 source_author: "@MrLarus"
 

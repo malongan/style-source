@@ -23,22 +23,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 时装造型，如：一袭黑色长裙
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 模特的姿态，如：站定回望
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 配饰，如：手提包 / 墨镜
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 如：红白棋盘格透视平面
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 超大号定制手写字体，如：NOIR
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：缎面长裙 + 尖头高跟
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：atelier 07
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：祖母绿点缀 / 细线
 prompt: 'Create a polished international luxury editorial poster in the Luxury Perspective Checkerboard Editorial style. Subject: {SUBJECT}. Action or presentation: {SUBJECT_ACTION}. Hero product or prop:
   {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Typography: place the invented large script word "{MAIN_TEXT}" as an oversized
   sweeping background graphic behind the subject, and place the small uppercase editorial text "{SECONDARY_TEXT}" near the upper field; add the restrained accent symbol "{ACCENT_SYMBOL}" only once. Preserve

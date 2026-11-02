@@ -43,12 +43,16 @@ prompt: |
 variables:
 - kv_var: 主题文字
   style_var: '{主题文字}'
+  desc: 如：流动
 - kv_var: 英文文案
   style_var: '{ENGLISH_TEXT}'
+  desc: 如：FLOWING
 - kv_var: 副标题
   style_var: '{副标题}'
+  desc: 次级标题，如：限定发售
 - kv_var: 署名
   style_var: '{署名}'
+  desc: 如：Photography by Lee
 source_url: "https://jimeng.jianying.com/ai-tool/work-detail/7579463842925645065"
 source_author: "平面设计老鬼"
 

@@ -43,12 +43,16 @@ prompt: |
 variables:
 - kv_var: 目的地
   style_var: '{destination}'
+  desc: 如：京都 / 里斯本 / 大理
 - kv_var: 旅行场景元素
   style_var: '{travel_scene_elements}'
+  desc: 如：石阶、旧书店、藤椅
 - kv_var: 季节与情绪
   style_var: '{season_and_mood}'
+  desc: 如：初秋、微凉而松弛
 - kv_var: 旅人特征
   style_var: '{traveler_characteristics}'
+  desc: 如：戴草帽的短发女生
 source_url: "https://x.com/Taaruk_/status/2081232385895764440"
 source_author: "Taaruk"
 

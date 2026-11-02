@@ -130,8 +130,7 @@ source_author: "@{作者名}"
 > 🔴 **强制规范见 [`docs/PROMPT_VARIABLES_SPEC.md`](docs/PROMPT_VARIABLES_SPEC.md)，本节只是速查表。**
 > 这些变量由 WorkBuddy 插件「风格库」消费（用户填完点「插入提示词」，插件做字符串替换后插到画布）——
 > 所以写错不会有人报错，只会「填了没反应」或「没有输入框」。提交前必须通过
-> `python3 scripts/validate_all.py --strict`（含变量语义 R1–R6）；
-> 新增风格再跑 `python3 scripts/validate_style.py --require-desc <文件>` 查 R7。
+> `python3 scripts/validate_all.py --strict --require-desc`（变量语义 R1–R7 全开）。
 
 | 位置 | 格式 | 正例 | 反例 |
 |------|------|------|------|
@@ -140,8 +139,8 @@ source_author: "@{作者名}"
 | `variables[].style_var` | **只能写 `"{占位符}"`，与 prompt 逐字一致** | `"{主体描述}"` | `main person`、`花体字内容，如"旷野的风"` |
 | `variables[].desc` | 一句示例或取值范围，**有变量就该给** | `如：一只橘猫` | 留空 |
 
-七条硬规则（实现在 `validate_style.py` 的 `check_variables_semantics()`；R1–R6 恒开、全部 error，
-R7 由 `--require-desc` 打开，CI 只对本 PR **新增**的风格启用）：
+七条硬规则（实现在 `validate_style.py` 的 `check_variables_semantics()`，全部 error，
+CI 用 `validate_all.py --strict --require-desc` 全库校验）：
 
 1. **R1** 每条 `style_var` 的占位符必须**原样出现在 `prompt` 里**，否则是死条目（填了没反应）；
 2. **R2** `style_var` 只能写 `"{占位符名}"`，描述一律进 `desc`；
@@ -150,9 +149,9 @@ R7 由 `--require-desc` 打开，CI 只对本 PR **新增**的风格启用）：
 5. **R5** 单风格变量数 **≤12**，超了先合并同位置的多元素字段；
 6. **R6** 占位符名与 `kv_var` 里不能有空白、标点、填写指南（`填写…` / `例如…` / `如：…` / `可留空`）——
    说明书塞进名字，插件会把整串当标签显示，2026-11 清过 77 个这种槽位。
-7. **R7** 每条变量都要有 `desc`（新风格强制）：不得与标签重复、不得写「无 / 暂无 / 待定」。
-   没有 `desc`，面板上只剩一个空输入框，用户不知道该填什么。存量 188 个风格 desc 不完整，
-   所以 R7 只追溯新增文件 —— 详见 `docs/PROMPT_VARIABLES_SPEC.md` §9。
+7. **R7** 每条变量都要有 `desc`：不得与标签重复、不得写「无 / 暂无 / 待定」。
+   没有 `desc`，面板上只剩一个空输入框，用户不知道该填什么。2026-11-02 存量补到
+   1417/1417（100%）后已**全库恒开**，删一条就红 —— 详见 `docs/PROMPT_VARIABLES_SPEC.md` §9。
 
 单风格槽位 **常见 3–9 个，硬上限 12 个**（优先级：主体 > 主体属性 > 场景 > 文案）。
 
@@ -218,8 +217,7 @@ GitHub Manager（style-collection 技能）
 创建 PR 前本地先验证：
 
 ```bash
-python3 scripts/validate_all.py --strict               # 全量格式检查（含变量语义 R1–R6，有 error 即失败）
-python3 scripts/validate_style.py --require-desc 新文件   # 新增风格额外查 R7（每条变量都要 desc）
+python3 scripts/validate_all.py --strict --require-desc # 全量格式 + 变量语义 R1–R7（有 error 即失败）
 python3 scripts/generate_data.py                       # 生成 JSON 数据
 python3 scripts/audit_variables.py --strict            # 变量体检（声明落空 / 值写成描述 / 标签带反引号）
 python3 scripts/build_gallery.py                       # 生成画廊页面 + CSS/JS
@@ -282,16 +280,15 @@ git status --short                                      # 确认生成物都已 
 
 ## 9. 脚本速查
 
-变量语义闸门（`check_variables_semantics`）是 **R1–R7**：R1 声明必须命中 prompt、
+变量语义闸门（`check_variables_semantics`）是 **R1–R7，全部 error**：R1 声明必须命中 prompt、
 R2 `style_var` 只能是 `{占位符}`、R3 槽位必须都有声明、R4 `kv_var` 必须含中文、
-R5 变量数 ≤12（`MAX_VARIABLES`）、R6 占位符名与标签不能是填写指南 —— 这六条恒开且都是 error。
-R7（每条变量都要有 `desc`）挂在 `--require-desc` 下，**只由 CI 对新增风格启用**，
-存量 188 个 desc 不完整的风格永不被追溯。
+R5 变量数 ≤12（`MAX_VARIABLES`）、R6 占位符名与标签不能是填写指南、
+R7 每条变量都要有 `desc`。CI 跑 `validate_all.py --strict --require-desc`，全库生效。
 
 | 脚本 | 用途 | 调用方式 |
 |------|------|---------|
 | `validate_style.py` | 校验单个文件（有 error 退出码 1） | `python3 scripts/validate_style.py [--require-desc] 文件路径` |
-| `validate_all.py` | 校验全部文件（**有 error exit 1**） | `python3 scripts/validate_all.py --strict`（只报告用 `--no-strict`） |
+| `validate_all.py` | 校验全部文件（**有 error exit 1**） | `python3 scripts/validate_all.py --strict [--require-desc]`（只报告用 `--no-strict`） |
 | `--check-images` | 附加：预览图 URL 可达性（只报不失败） | `python3 scripts/validate_all.py --check-images --no-strict` |
 | `check_duplicate.py` | 查重 | `--url URL` / `--name 名称` / `--pr-mode` |
 | `generate_data.py` | 生成 `data/styles.json` + `styles_list.txt` | `python3 scripts/generate_data.py` |
@@ -299,6 +296,7 @@ R7（每条变量都要有 `desc`）挂在 `--require-desc` 下，**只由 CI �
 | `generate_index.py` | 重算 `styles/_index.md` + 各分类索引 | `python3 scripts/generate_index.py` |
 | `check_style_previews.py` | 配图完整性（缩略图/孤儿/**串号**）；CI 用 `--strict` | `python3 scripts/check_style_previews.py --strict` |
 | `audit_variables.py` | 变量体检（声明落空 / 值写成描述 / 标签反引号）；读 `data/styles.json`，**必须先 generate_data** | `python3 scripts/audit_variables.py --strict` |
+| `fill_variable_descs.py` | 补 `desc`；三层词表 `BY_STYLE > BY_CATEGORY > COMMON`，幂等 | `python3 scripts/fill_variable_descs.py [--apply] [--refresh]` |
 | `migrate_variables_spec.py` | 按规范批量整改 variables，默认 dry-run | `python3 scripts/migrate_variables_spec.py --apply`；`--labels-only` 只换英文标签；`--check` 只校验 `data/label_dictionary.yaml` 覆盖率 |
 | `fix_dirty_slots.py` | 把「说明书当占位符名」的槽位改成短名，原内容降级成 `desc`，默认 dry-run | `python3 scripts/fix_dirty_slots.py --apply` |
 | `check_image_urls.py` | 预览图 URL 可达性（日检） | `python3 scripts/check_image_urls.py` |

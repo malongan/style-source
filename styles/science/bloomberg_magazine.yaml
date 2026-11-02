@@ -41,8 +41,10 @@ variables:
   desc: B层：完整标题，放在顶部/侧边/底部/副标题区
 - kv_var: 语言
   style_var: '{语言}'
+  desc: 文字语言，如：中文 / 中英混排
 - kv_var: 用途
   style_var: '{用途}'
+  desc: 这组图的用途，如：电商详情页 / 社交头像
 - kv_var: 行业/场景
   style_var: '{行业/场景}'
   desc: AI / 投资 / 消费 / SaaS / 创业等

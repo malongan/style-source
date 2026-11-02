@@ -35,8 +35,10 @@ prompt: |
 variables:
 - kv_var: 产品
   style_var: '{products}'
+  desc: 主角产品，如：一罐气泡水 / 一支口红
 - kv_var: 产品颜色
   style_var: '{product_color}'
+  desc: 产品主色，如：蜜橘色
 source_url: "https://x.com/xiaoxiaodong01/status/2078657941876703724?s=20"
 source_author: "小小东"
 

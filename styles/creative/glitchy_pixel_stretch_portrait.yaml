@@ -34,8 +34,10 @@ prompt: |
 variables:
 - kv_var: 主体人物
   style_var: '{主体人物}'
+  desc: 如：戴棒球帽的年轻女生
 - kv_var: 拉伸部位
   style_var: '{拉伸部位}'
+  desc: 被拉伸的身体部位，如：颈部 / 手臂
 source_url: "https://x.com/sadkaijpg/status/1938155030172602568"
 source_author: "@sadkaijpg"
 

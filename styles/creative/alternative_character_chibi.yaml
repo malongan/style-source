@@ -50,20 +50,28 @@ prompt: |
 variables:
 - kv_var: 角色
   style_var: '{character}'
+  desc: 如：小猫邮差
 - kv_var: 姿态
   style_var: '{pose}'
+  desc: 主体的姿态，如：单脚站立 / 双手插兜
 - kv_var: 发型
   style_var: '{hair}'
+  desc: 如：齐肩微卷黑发 / 寸头
 - kv_var: 表情
   style_var: '{expression}'
+  desc: 如：挑眉坏笑 / 面无表情
 - kv_var: 服装
   style_var: '{clothing}'
+  desc: 如：亚麻衬衫 + 阔腿裤
 - kv_var: 配色
   style_var: '{colors}'
+  desc: 整体配色方案，如：莫兰迪灰粉 + 奶白
 - kv_var: 背景
   style_var: '{background}'
+  desc: 如：渐变天空 / 纯色墙面
 - kv_var: 文字
   style_var: '{text}'
+  desc: 如：慢下来
 source_url: "https://x.com/HustleXR/status/2087745072309604705"
 source_author: "HustleXR"
 

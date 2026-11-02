@@ -31,6 +31,7 @@ features:
 variables:
 - kv_var: 目的地
   style_var: '{DESTINATION}'
+  desc: 如：京都 / 里斯本 / 大理
 prompt: "Create an ultra-high-resolution minimalist line-art travel poster of {DESTINATION}, portraying the city as a stylish everyday urban scene rather than a tourist postcard. \n\nCORE COMPOSITION: \n\
   - Central composition shows the city's most iconic street, intersection, alley, tram street, or pedestrian avenue \n- Foreground includes locals, commuters, cyclists, travelers, shoppers, students, café\
   \ visitors \n- People should naturally reflect the city's local lifestyle and fashion culture \n- Background filled with realistic local signage, cafés, restaurants, transportation signs, storefronts,\

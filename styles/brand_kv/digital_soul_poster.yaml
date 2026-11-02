@@ -45,16 +45,22 @@ variables:
   desc: 荧光绿
 - kv_var: 辅色
   style_var: '{辅色}'
+  desc: 辅助色，如：薄荷绿
 - kv_var: 质感
   style_var: '{质感}'
+  desc: 表面质感，如：哑光磨砂 / 液态金属
 - kv_var: 装饰元素
   style_var: '{装饰元素}'
+  desc: 散布在画面里的装饰，如：几何碎片 / 光斑
 - kv_var: 背景描述
   style_var: '{背景描述}'
+  desc: 背景的样貌，如：液态金属墙 / 暗紫渐变空间
 - kv_var: 点缀元素
   style_var: '{点缀元素}'
+  desc: 如：小雏菊 / 星星 / 网格线
 - kv_var: 底部文字2
   style_var: '{底部文字2}'
+  desc: 第二行小字，如：扫码了解更多
 prompt: '"{主题}"主题海报，采用{主色}与{辅色}的极端对比。画面中央是{主体描述}，表面呈现{质感}，周围散布着{装饰元素}。背景是{背景描述}，点缀着{点缀元素}。底部有小字"{底部文字1}"和"{底部文字2}"，先锋前卫艺术风格。'
 # （已移除失效的 preview: https://raw.githubusercontent.com/malongan/images/main/styles_previews/digital_soul_poster.jpg）
 id: digital_soul_poster

@@ -42,22 +42,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 徒步者，如：背着大包的年轻人
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 如：站在山径回望
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 如：登山杖 / 水壶
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 如：林间山径
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 超大号西班牙漫画字体，如：AVENTURA
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：día 2
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：扁平怪物 / 手绘箭头
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：冲锋衣 + 徒步鞋
 prompt: 'Create a 16:9 image in the "Mountain Trail Monster Doodle Poster" style.
 
 

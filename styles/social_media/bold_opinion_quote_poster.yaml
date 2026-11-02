@@ -39,14 +39,19 @@ prompt: |
 variables:
 - kv_var: 主题
   style_var: '{theme}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 主体
   style_var: '{subject}'
+  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
 - kv_var: 画面主体
   style_var: '{subject_spec}'
+  desc: 主体是什么，如：一位穿短袖的年轻男生 / 一对牵手的情侣
 - kv_var: 场景
   style_var: '{scene_spec}'
+  desc: 发生在哪里，如：海边公路 / 便利店门口
 - kv_var: 文案
   style_var: '{text_spec}'
+  desc: 如：把夏天装进罐子里
 source_url: "https://x.com/xiaoxiaodong01/status/2073402053997834484"
 source_author: "小小东"
 

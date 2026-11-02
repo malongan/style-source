@@ -51,8 +51,10 @@ prompt: |
 variables:
 - kv_var: 角色名
   style_var: '{角色名}'
+  desc: 如：豆豆
 - kv_var: 强调色
   style_var: '{强调色}'
+  desc: 如：荧光绿
 source_url: "https://x.com/VoxcatAI/status/2102421914979570015"
 source_author: "@VoxcatAI"
 

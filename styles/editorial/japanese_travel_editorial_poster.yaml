@@ -60,8 +60,10 @@ prompt: |
 variables:
 - kv_var: 角色名
   style_var: '{角色名}'
+  desc: 如：豆豆
 - kv_var: 角色描述
   style_var: '{角色描述}'
+  desc: 如：圆脸、短耳、戴围巾
 source_url: "https://x.com/VoxcatAI/status/2102949894457799154"
 source_author: "@VoxcatAI"
 

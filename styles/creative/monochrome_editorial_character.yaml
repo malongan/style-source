@@ -40,12 +40,16 @@ prompt: |
 variables:
 - kv_var: 角色描述
   style_var: '{角色描述}'
+  desc: 如：圆脸、短耳、戴围巾
 - kv_var: 姿势描述
   style_var: '{姿势描述}'
+  desc: 如：侧身回望 / 低头看手机
 - kv_var: 服装描述
   style_var: '{服装描述}'
+  desc: 如：白色针织开衫、浅蓝牛仔
 - kv_var: 道具描述
   style_var: '{道具描述}'
+  desc: 如：手机 / 滑板 / 购物袋
 source_url: "https://x.com/Taaruk_/status/2082758275179900940"
 source_author: "@Taaruk_"
 

@@ -25,16 +25,22 @@ features:
 variables:
   - kv_var: 运动类型
     style_var: '{sport}'
+    desc: 如：滑板 / 冲浪 / 攀岩
   - kv_var: 运动员
     style_var: '{athlete}'
+    desc: 如：一位职业滑手
   - kv_var: 动作
     style_var: '{action}'
+    desc: 如：腾空转身
   - kv_var: 数据表现
     style_var: '{stats}'
+    desc: 产品规格数据，如：萃取温度 92°C / 压力 9bar
   - kv_var: 主标题
     style_var: '{headline}'
+    desc: 画面主标题，如：夏日限定
   - kv_var: 辅助文案
     style_var: '{subtext}'
+    desc: 补充说明文字，如：本期推荐
 prompt: |
   Create a 16:9 cinematic sports poster in 电影蒙太奇三镜头运动海报 (Film Montage Triptych Sports Poster) style.
   

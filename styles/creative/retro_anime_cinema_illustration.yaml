@@ -56,6 +56,7 @@ prompt: |
 variables:
 - kv_var: 场景
   style_var: '{scene}'
+  desc: 发生在哪里，如：海边公路 / 便利店门口
 source_url: "https://x.com/ChillaiKalan__/status/2081299855755149723"
 source_author: "ChillaiKalan__"
 

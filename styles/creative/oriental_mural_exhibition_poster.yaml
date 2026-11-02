@@ -60,16 +60,22 @@ prompt: |
 variables:
 - kv_var: 主题
   style_var: '{主题}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 主标题
   style_var: '{主标题}'
+  desc: 画面主标题，如：夏日限定
 - kv_var: 副标题
   style_var: '{副标题}'
+  desc: 次级标题，如：限定发售
 - kv_var: 说明文案
   style_var: '{说明文案}'
+  desc: 一小段中文说明，如：纸上的山水，也是心里的山水
 - kv_var: 当日日期
   style_var: '{当日日期}'
+  desc: 如：2026/11/02
 - kv_var: 署名
   style_var: '{署名}'
+  desc: 如：Photography by Lee
 source_url: "https://x.com/YangOnchain/status/2071930882500501890"
 source_author: "楊哥 | Yang Onchain"
 

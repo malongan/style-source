@@ -50,22 +50,31 @@ prompt: |
 variables:
 - kv_var: 人物
   style_var: '{human}'
+  desc: 如：穿风衣的短发女性
 - kv_var: 发型
   style_var: '{hair}'
+  desc: 如：齐肩微卷黑发 / 寸头
 - kv_var: 场景
   style_var: '{scenery}'
+  desc: 发生在哪里，如：海边公路 / 便利店门口
 - kv_var: 服装
   style_var: '{clothing}'
+  desc: 如：亚麻衬衫 + 阔腿裤
 - kv_var: 鞋履
   style_var: '{shoes}'
+  desc: 如：方头短靴 / 细带高跟
 - kv_var: 花卉
   style_var: '{flowers}'
+  desc: 如：白百合 / 飞燕草
 - kv_var: 飞鸟走兽
   style_var: '{flying_animals}'
+  desc: 如：白鸽 / 白鹿
 - kv_var: 配色
   style_var: '{palette}'
+  desc: 整体配色方案，如：莫兰迪灰粉 + 奶白
 - kv_var: 情绪氛围
   style_var: '{mood}'
+  desc: 如：疏离而轻盈
 source_url: "https://x.com/im_shahid7/status/2087579904326181361"
 source_author: "im_shahid7"
 

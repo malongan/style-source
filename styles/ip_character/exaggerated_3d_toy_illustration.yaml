@@ -34,12 +34,16 @@ features:
 variables:
 - kv_var: 主体
   style_var: '{SUBJECT}'
+  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
 - kv_var: 道具
   style_var: '{PROP}'
+  desc: 辅助物件，如：草帽 / 折叠椅 / 冰桶
 - kv_var: 元素
   style_var: '{ELEMENTS}'
+  desc: 如：星星、气泡、齿轮
 - kv_var: 用途
   style_var: '{USE_CASE}'
+  desc: 这组图的用途，如：电商详情页 / 社交头像
 prompt: 'A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.
 
 

@@ -45,10 +45,16 @@ def list_all_style_files() -> list:
                 })
     return styles
 
-def check_by_name(name: str) -> list:
-    """按风格名查重"""
+def check_by_name(name: str, exclude_rel: str = None) -> list:
+    """按风格名查重。
+
+    exclude_rel：要排除的文件（相对 styles/ 的路径）。PR 模式下传入正在检查的
+    新文件自身 —— 它已经在磁盘上，不排除的话每个新风格都会「与自己同名」。
+    """
     existing = list_all_style_files()
     matches = [s for s in existing if s['name'] == name]
+    if exclude_rel:
+        matches = [s for s in matches if s['path'] != exclude_rel]
     return matches
 
 def check_by_url(url: str) -> list:
@@ -125,18 +131,25 @@ def main():
             print(f'✅ 提示词无高度相似匹配')
 
     if args.pr_mode:
-        # PR 模式：检查 git diff 中的新文件是否冲突
+        # PR 模式：检查 git diff 中的**新增**文件是否冲突
         import subprocess
         base_sha = os.environ.get('GIT_BASE_SHA', 'main')
+        repo_root = os.path.dirname(STYLES_DIR)
+        # --diff-filter=A 必须带：原来只用 --name-only，把「修改过的文件」也当成
+        # 新增，于是一个只改 desc 的 PR 会报 30 条「与已有风格同名」。
         result = subprocess.run(
-            ['git', 'diff', '--name-only', f'{base_sha}...HEAD'],
-            capture_output=True, text=True, cwd=os.path.dirname(STYLES_DIR)
+            ['git', 'diff', '--name-only', '--diff-filter=A', f'{base_sha}...HEAD'],
+            capture_output=True, text=True, cwd=repo_root
         )
-        new_files = [f for f in result.stdout.split('\n') if f.startswith('styles/') and f.endswith('.yaml') and not os.path.basename(f).startswith('_')]
-        
+        new_files = [f for f in result.stdout.split('\n')
+                     if f.startswith('styles/') and f.endswith('.yaml')
+                     and not os.path.basename(f).startswith('_')]
+
         for f in new_files:
             name = os.path.basename(f).replace('.yaml', '')
-            if check_by_name(name):
+            # 排除新文件自身：它已经在工作区里，否则必然「与自己同名」
+            self_rel = os.path.relpath(os.path.join(repo_root, f), STYLES_DIR)
+            if check_by_name(name, exclude_rel=self_rel):
                 print(f'❌ PR 中的新风格 "{name}" 与已有风格同名')
                 found = True
 

@@ -46,6 +46,7 @@ prompt: |
 variables:
 - kv_var: 主角色
   style_var: '{主角色}'
+  desc: 如：一位撑伞的女性
 source_url: "https://x.com/VoxcatAI/status/2104480845121884340"
 source_author: "VoxcatAI"
 

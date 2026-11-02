@@ -53,6 +53,7 @@ prompt: |
 variables:
 - kv_var: 主题
   style_var: '{主题}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 source_url: "https://x.com/VoxcatAI/status/2102901823954899164"
 source_author: "@VoxcatAI"
 

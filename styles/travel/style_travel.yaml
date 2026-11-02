@@ -43,22 +43,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 旅行者，如：背着双肩包的短发女生
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 旅途中的动作，如：回头看镜头 / 坐在石阶上
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 随身物件，如：相机 / 地图 / 矿泉水
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 目的地，如：里斯本老城坡道 / 京都鸭川
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 三个分栏各自的内容，如：街景、咖啡、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 超大号小写目的地名，如：lisbon
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 小号斜体旅行注释，如：day 3 · 38°C
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 稀疏手绘符号，如：罗盘 / 小飞机
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 旅行穿搭，如：亚麻衬衫 + 帆布鞋
 prompt: 'Create a 16:9 image in the "Clean Triptych Travel Vlog Thumbnail" style.
 
 

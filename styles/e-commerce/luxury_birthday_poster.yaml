@@ -37,8 +37,10 @@ features:
 variables:
 - kv_var: 年龄
   style_var: '{AGE}'
+  desc: 如：30
 - kv_var: 名称
   style_var: '{NAME}'
+  desc: 主角名字，如：LIN
 prompt: 'Professional luxury birthday poster, 3:4 portrait composition, ultra high-end studio photography aesthetic. Premium off-white textured paper wall background with subtle grain and depth.
 
 

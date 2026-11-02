@@ -37,12 +37,16 @@ features:
 variables:
 - kv_var: 品牌名
   style_var: '{BRAND_NAME}'
+  desc: 如：山野茶事
 - kv_var: 品牌副标题
   style_var: '{BRAND_SUBTITLE}'
+  desc: 如：东方茶饮
 - kv_var: 短标语
   style_var: '{SHORT_SLOGAN}'
+  desc: 如：慢慢来，也很好
 - kv_var: 主文案
   style_var: '{MAIN_COPY}'
+  desc: 品牌主张或活动名，如：好好吃饭
 prompt: 'Prompt:
 
 
