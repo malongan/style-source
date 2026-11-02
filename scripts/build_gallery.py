@@ -134,9 +134,14 @@ def build_gallery_html(data: dict, output_path: str):
             "})();"
         )
 
-    # 构建内容哈希：源文件或数据不变时维持缓存命中；任一内容更新时自动刷新
+    # 构建内容哈希：源文件或数据不变时维持缓存命中；任一内容更新时自动刷新。
+    # 必须剔除 meta 里的时间戳/版本：它们每次生成都变，会把哈希带着一起变，
+    # 结果就是缓存永远失效、生成物永远不幂等（CI 的零 diff 断言必挂）。
     version = meta.get('version', '0.0.0').lstrip('v')
-    cache_hash = hashlib.sha256((json.dumps(data, ensure_ascii=False, sort_keys=True) + inline_css + inline_js).encode('utf-8')).hexdigest()[:12]
+    volatile_meta = {'generated', 'version'}
+    hash_payload = dict(data)
+    hash_payload['meta'] = {k: v for k, v in (data.get('meta') or {}).items() if k not in volatile_meta}
+    cache_hash = hashlib.sha256((json.dumps(hash_payload, ensure_ascii=False, sort_keys=True) + inline_css + inline_js).encode('utf-8')).hexdigest()[:12]
     total = len(styles)
 
     from datetime import datetime
