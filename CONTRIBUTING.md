@@ -18,6 +18,7 @@ python3 scripts/convert_to_webp.py --input /tmp/preview.jpg \
 
 # 4. 校验新文件（有 error 会 exit 1）
 python3 scripts/validate_style.py styles/分类/my_style_name.yaml
+python3 scripts/audit_variables.py --strict   # 变量与占位符是否对得上（见 docs/PROMPT_VARIABLES_SPEC.md）
 
 # 5. 重新生成数据 + 画廊 + 索引（三者都必须提交，CI 会校验一致性）
 python3 scripts/generate_data.py
@@ -121,7 +122,9 @@ source_author: "{作者名}"
 **要点**
 
 - `prompt` 必填且 ≥80 字符——详情页「📋 复制提示词」直接复制该字段，`validate_style.py` 会拒绝空/占位内容。
+- **`variables` 必须遵守 [`docs/PROMPT_VARIABLES_SPEC.md`](docs/PROMPT_VARIABLES_SPEC.md)**：`style_var` 只能写占位符本体 `"{占位符}"`，且该占位符必须原样出现在 `prompt` 里；描述写 `desc`。写错的典型表现是「有输入框但填了没反应」或「一个输入框都没有」。
 - `variables` 用标准形态；旧形态 `['中文标题', ...]` 仍可解析，但无法表达英文替换值，校验会提示迁移。
+- 提交前跑 `python3 scripts/audit_variables.py --strict`（有变量类告警即 exit 1）。
 - `source_url` 与 `source_author` **不能同时为空**（详情页必须有出处）。
 - 不要在 yml 里写图片 URL：`generate_data.py` 从 `images/styles_previews/` 按文件名解析。
 - yml 里的 `code` 字段无效——编号由 `generate_data.py` 按收录顺序重算并持久化到 `data/style_numbers.json`。

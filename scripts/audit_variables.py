@@ -9,7 +9,9 @@
     python3 scripts/audit_variables.py            # 只看汇总 + 前 20 条问题
     python3 scripts/audit_variables.py --all      # 打印全部问题
     python3 scripts/audit_variables.py --json     # 机器可读
-退出码：有 ERROR 级问题 → 1，否则 0（方便挂 CI）。
+    python3 scripts/audit_variables.py --strict   # 连 warning 也算失败（提交前 / CI 用）
+退出码：有 ERROR 级问题 → 1（`--strict` 时 warning 也 → 1），否则 0。
+规范：docs/PROMPT_VARIABLES_SPEC.md
 """
 import json
 import os
@@ -60,6 +62,7 @@ def audit(styles):
         'vars_ok': 0,
         'kv_backtick': 0,
         'style_var_plain': 0,
+        'styles_vars_all_dead': 0,
     }
 
     for s in styles:
@@ -102,6 +105,8 @@ def audit(styles):
                 errors.append((tag, f'占位符 {{{hit}}} 未出现在提示词里（数据不一致）'))
 
         stat['vars_ok'] += len(matched)
+        if variables and not matched:
+            stat['styles_vars_all_dead'] += 1
         missing = [n for n in names if n not in matched]
         if names and not matched:
             warnings.append((tag, '提示词有 %d 个占位符但一条变量都没声明：%s'
@@ -119,6 +124,7 @@ def audit(styles):
 def main():
     show_all = '--all' in sys.argv
     as_json = '--json' in sys.argv
+    strict = '--strict' in sys.argv   # 连 warning 也算失败（推荐挂 CI / 提交前自检）
     with open(STYLES_JSON, 'r', encoding='utf-8') as f:
         data = json.load(f)
     styles = data.get('styles', [])
@@ -127,13 +133,14 @@ def main():
     if as_json:
         print(json.dumps({'stat': stat, 'errors': errors, 'warnings': warnings, 'infos': infos},
                          ensure_ascii=False, indent=2))
-        return 1 if errors else 0
+        return 1 if (errors or (strict and warnings)) else 0
 
     print(f"共 {stat['total']} 个风格")
     print(f"  · 提示词里含 {{占位符}}：{stat['with_prompt_ph']}")
     print(f"  · 有 variables 声明：{stat['with_variables']}")
     print(f"  · 两者都没有（本来就无变量可填）：{stat['no_ph_no_vars']}")
-    print(f"  · 声明命中提示词：{stat['vars_ok']} 条 / 声明落空：{stat['vars_dead']} 条")
+    print(f"  · 声明命中提示词：{stat['vars_ok']} 条 / 声明落空：{stat['vars_dead']} 条"
+          f"（涉及 {stat['styles_vars_all_dead']} 个风格全部落空）")
     print(f"  · 标签带反引号等残留：{stat['kv_backtick']} 条 / 值写成描述而非占位符：{stat['style_var_plain']} 条")
 
     def dump(title, items):
@@ -148,8 +155,8 @@ def main():
     dump('✗ 错误', errors)
     dump('⚠ 建议修', warnings)
     dump('· 提示', infos)
-    print('\n写法规范见 style-source/README.md「变量」一节。')
-    return 1 if errors else 0
+    print('\n写法规范见 docs/PROMPT_VARIABLES_SPEC.md（提交前建议 `--strict`）。')
+    return 1 if (errors or (strict and warnings)) else 0
 
 
 if __name__ == '__main__':

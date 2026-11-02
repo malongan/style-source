@@ -127,13 +127,24 @@ source_author: "@{作者名}"
 
 ### 4.4 变量格式
 
-| 位置 | 格式 | 示例 |
-|------|------|------|
-| `prompt` 内 | `{变量}`（单花括号） | `{主体描述}` |
-| `variables[].kv_var` | KV 变量名（中文标签或上游英文占位符名） | `画面-主体` / `` `SUBJECT` `` |
-| `variables[].style_var` | 模板里的替换值 | `{主体描述}` / `main person` |
+> 🔴 **强制规范见 [`docs/PROMPT_VARIABLES_SPEC.md`](docs/PROMPT_VARIABLES_SPEC.md)，本节只是速查表。**
+> 提交前必须通过 `python3 scripts/audit_variables.py`（无「声明落空」告警）。
 
-不要用 `{{变量}}`（双花括号）。详见技能侧 `references/variables.md`。
+| 位置 | 格式 | 正例 | 反例 |
+|------|------|------|------|
+| `prompt` 内 | `{占位符}`（半角单花括号，≤20 字） | `{主体描述}` | `[主体]`、`{{主体}}`、`｛主体｝` |
+| `variables[].kv_var` | 干净中文标签，不带 markdown | `主体描述` | `` `SUBJECT` ``、`**主体**` |
+| `variables[].style_var` | **占位符本体，与 prompt 逐字一致** | `"{主体描述}"` | `main person`、`花体字内容，如"旷野的风"` |
+| `variables[].desc` | 示例 / 取值范围（可选） | `如：一只橘猫` | 放候选清单当选项用 |
+
+三条硬规则：
+
+1. **R1** 每条 `style_var` 的占位符必须**原样出现在 `prompt` 里**，否则是死条目（填了没反应）；
+2. **R2** `style_var` 只能写 `"{占位符名}"`，描述一律进 `desc`；
+3. **R3** 想让用户填什么，就在 `prompt` 里留 `{槽位}`——**不留槽位就永远没有输入框**。
+
+单风格槽位 **3–8 个**（优先级：主体 > 主体属性 > 场景 > 文案 > 画幅比例）。
+不要用 `{{变量}}`（双花括号）。详见 `docs/PROMPT_VARIABLES_SPEC.md`。
 
 ### 4.5 配图命名
 
