@@ -18,5 +18,5 @@
 | kawaii_bright_chunky_hand_lettering | #hand-lettering #kawaii #headline | 电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼带手写温度的氛围 | 9:16 |
 | kawaii_bright_hand_lettering_headline | #hand-lettering #kawaii #headline | 电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼氛围的标题设计 | 9:16 |
 | screen_print_offset_headline | #screen-print #offset #hand-printed | 有温度的手作/露营/市集/农场/文艺市集 KV，中文粗重标题，需要复古印刷感 | 16:9 |
-| silver_foil_klein_blue_cover | #锡纸材质 #克莱因蓝 #极简封面 | 教程封面、商业封面、AI方法论封面、视频封面、文章封面 | 5:2 |
+| silver_foil_klein_blue_cover | #锡纸材质 #克莱因蓝 #极简封面 | 教程封面、商业封面、方法论封面、视频封面、文章封面 | 5:2 |
 | wild_cursive_calligraphy_poster | #calligraphy #cursive #wild | 电影海报主标题 / 国风品牌大标题 / 文化活动主视觉 / 神都洛陽类城市品牌宣传 | 4:3 |

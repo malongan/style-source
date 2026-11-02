@@ -65,7 +65,7 @@ ST0062 | 蓝色气泡鱼眼动感海报风格 | https://malongan.github.io/style
 ST0063 | 黑色异形卡片食品广告 | https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.webp
 ST0064 | 柔和模拟未来编辑设计海报 | https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.webp
 ST0065 | 活力动漫社媒海报 | https://malongan.github.io/style-source/images/styles_previews/vibrant_anime_social_poster_bdd1753b.webp
-ST0066 | Verglas 神秘诗歌手册海报 | https://malongan.github.io/style-source/images/styles_previews/verglas_surreal_poetry_poster_HNHdnbiX.webp
+ST0066 | 铬液金属诗歌手册海报 | https://malongan.github.io/style-source/images/styles_previews/verglas_surreal_poetry_poster_HNHdnbiX.webp
 ST0067 | 都市前卫拼贴海报 | https://malongan.github.io/style-source/images/styles_previews/urban_collage_poster_f7f695e4.webp
 ST0068 | 超广角鱼眼人像 | https://malongan.github.io/style-source/images/styles_previews/ultra_fisheye_urban_portrait_d99d2e2c.webp
 ST0069 | 字体设计 | https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.webp
@@ -130,7 +130,7 @@ ST0127 | 粗放动画宠物分镜草图风格 | https://malongan.github.io/style
 ST0128 | 香水主视觉海报 | https://malongan.github.io/style-source/images/styles_previews/perfume_kv_4b75ebf4.webp
 ST0129 | 钢笔点线技法·桃子 | https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp
 ST0130 | 粉彩产品棚拍 | https://malongan.github.io/style-source/images/styles_previews/pastel_product_studio_c3069620.webp
-ST0131 | 蛋挞手绘美食海报 | https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.webp
+ST0131 | 手绘美食涂鸦海报 | https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.webp
 ST0132 | 桂花鲜奶茶季节限定海报 | https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_c03d2bb2.webp
 ST0305 | 新中式古诗词教科书级细线设色海报 | https://malongan.github.io/style-source/images/styles_previews/oriental_poem_schoolbook_poster_6efc420b.webp
 ST0133 | 东方文博器物字体海报 | https://malongan.github.io/style-source/images/styles_previews/oriental_museum_ceramic_typography_poster_b4826816.webp
@@ -139,12 +139,12 @@ ST0135 | 东方草本茶饮文化海报 | https://malongan.github.io/style-sourc
 ST0136 | 工笔细线东方色场象征动作海报 | https://malongan.github.io/style-source/images/styles_previews/oriental_fine_line_symbol_poster_39290779.webp
 ST0137 | 东方幻想游记封面 | https://malongan.github.io/style-source/images/styles_previews/oriental_fantasy_travel_cover_309781f1.webp
 ST0138 | 真实物体插画融合 | https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp
-ST0139 | North Fold 科考档案海报 | https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.webp
+ST0139 | 科考档案网格海报 | https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.webp
 ST0140 | 夜间闪光庆典写真 | https://malongan.github.io/style-source/images/styles_previews/night_flash_celebration_portrait_ff5b2426.webp
 ST0141 | 新年礼盒 | https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp
 ST0142 | 童趣猫咪手绘涂鸦 | https://malongan.github.io/style-source/images/styles_previews/naive_doodle_cat_character_e3bfda16.webp
 ST0143 | 暗调博物馆戏剧光影人像 | https://malongan.github.io/style-source/images/styles_previews/museum_dramatic_lighting_portrait_487e804b.webp
-ST0144 | MORRA TABLE 早餐品牌广告海报 | https://malongan.github.io/style-source/images/styles_previews/morra_table_parfait_poster_c280b2a9.webp
+ST0144 | 早餐品牌编辑广告海报 | https://malongan.github.io/style-source/images/styles_previews/morra_table_parfait_poster_c280b2a9.webp
 ST0145 | 纪念性浮雕品牌叙事 | https://malongan.github.io/style-source/images/styles_previews/monumental_bas_relief_brand_narrative_795346db.webp
 ST0146 | 黑白极简编辑风角色插画 | https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.webp
 ST0147 | 黑白圆珠笔排线红场 | https://malongan.github.io/style-source/images/styles_previews/monochrome_biro_sketch_red_field_d2f239e8.webp
@@ -173,7 +173,7 @@ ST0169 | 静奢家具铭牌海报风格 | https://malongan.github.io/style-sourc
 ST0170 | 奢侈品牌刺绣微距 | https://malongan.github.io/style-source/images/styles_previews/luxury_embroidery_macro_daa9efba.webp
 ST0171 | 奢华生日海报风格 | https://malongan.github.io/style-source/images/styles_previews/luxury_birthday_poster_e60d0443.webp
 ST0172 | 高端美妆营销企划侧面人像海报 | https://malongan.github.io/style-source/images/styles_previews/luxury_beauty_side_profile_poster_43b37c66.webp
-ST0173 | Lululemon 高端运动服营销企划板 | https://malongan.github.io/style-source/images/styles_previews/lululemon_campaign_board_03608a1f.webp
+ST0173 | 高端运动服营销企划板 | https://malongan.github.io/style-source/images/styles_previews/lululemon_campaign_board_03608a1f.webp
 ST0174 | Lululemon 四联运动海报 | https://malongan.github.io/style-source/images/styles_previews/lululemon_4square_campaign_a3eea795.webp
 ST0175 | 低多边形等轴测车辆 | https://malongan.github.io/style-source/images/styles_previews/lowpoly_isometric_vehicle_5dc923ac.webp
 ST0176 | 青柠薄荷涂鸦手绘饮料海报 | https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp
@@ -202,7 +202,7 @@ ST0194 | 墨线霓裳·东方高定时装插画 | https://malongan.github.io/sty
 ST0195 | 膨胀花朵 3D | https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp
 ST0196 | 印尼美食信息图 | https://malongan.github.io/style-source/images/styles_previews/indonesian_food_infographic_b721834b.webp
 ST0197 | HUMAN FRAGMENTS 文字窗口编辑海报 | https://malongan.github.io/style-source/images/styles_previews/human_fragments_editorial_poster_6b3d274f.webp
-ST0198 | Hold The Line 宣言海报 | https://malongan.github.io/style-source/images/styles_previews/hold_the_line_declaration_poster_HNHdnbhW.webp
+ST0198 | 黑底宣言海报（铬质焦点） | https://malongan.github.io/style-source/images/styles_previews/hold_the_line_declaration_poster_HNHdnbhW.webp
 ST0199 | 高调季节编辑海报 | https://malongan.github.io/style-source/images/styles_previews/high_key_seasonal_editorial_poster_453f3358.webp
 ST0200 | 高明度商业图形风格 | https://malongan.github.io/style-source/images/styles_previews/high_brightness_commercial_graphic_HNHdmHgb.webp
 ST0201 | 天使阶层海报 | https://malongan.github.io/style-source/images/styles_previews/hierarchy_angels_poster_5c8918d4.webp
@@ -249,7 +249,7 @@ ST0240 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/i
 ST0241 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp
 ST0242 | 东亚现代主义包围式展览海报 | https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.webp
 ST0243 | 敦煌飞天壁画 | https://malongan.github.io/style-source/images/styles_previews/dunhuang_celestial_musicians_d23c3d00.webp
-ST0244 | 迪拜城市旅行海报 Risograph 风格 | https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_73dcf2a5.webp
+ST0244 | 城市旅行海报 Risograph 风格 | https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_73dcf2a5.webp
 ST0245 | 梦幻水彩旅行插画 | https://malongan.github.io/style-source/images/styles_previews/dreamy_watercolor_travel_f8ac7a28.webp
 ST0246 | 梦境信息叠层写真 | https://malongan.github.io/style-source/images/styles_previews/dreamlike_info_overlay_portrait_8d0f000a.webp
 ST0247 | 山径怪物涂鸦海报风格 | https://malongan.github.io/style-source/images/styles_previews/doodle_style_poster_1_30914154.webp
@@ -257,7 +257,7 @@ ST0248 | 后座交通涂鸦字体海报风格 | https://malongan.github.io/style
 ST0249 | 温馨卧室涂鸦伙伴抓拍风格 | https://malongan.github.io/style-source/images/styles_previews/doodle_style_e4aa24f7.webp
 ST0250 | DIGITAL SOUL 数字灵魂海报 | https://malongan.github.io/style-source/images/styles_previews/digital_soul_poster_a5470dc7.webp
 ST0251 | 弥散风视觉海报 | https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.webp
-ST0252 | 德克士高端快餐海报 | https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.webp
+ST0252 | 高端快餐四格海报 | https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.webp
 ST0253 | 妖魔孙悟空线绘 | https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.webp
 ST0254 | 暗黑国风奇幻插画 | https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp
 ST0255 | 赛博朋克半调海报 | https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp

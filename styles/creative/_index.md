@@ -36,7 +36,7 @@
 | glass_flower_spring_diary | #治愈 #玻璃花卉 #春日 |  | 9:16 |
 | glitchy_pixel_stretch_portrait | #拉伸 #故障 #像素 | 艺术海报、概念摄影、创意人像、故障美学 | 3:4 |
 | herd_outsider_poster | #概念海报 #异类主题 #阵列构图 |  | 3:4 |
-| hold_the_line_declaration_poster | #宣言海报 #铬裂纹茶杯 #居中排版 | 宣言海报、品牌KV、社交媒体图文、编辑出版 | 3:4 |
+| hold_the_line_declaration_poster | #宣言海报 #铬质物件 #居中排版 | 宣言海报、品牌KV、社交媒体图文、编辑出版 | 3:4 |
 | indonesian_food_infographic | #美食摄影 #信息图 #超写实 | 美食教程、食谱展示、文化宣传、社交媒体分享 | 3:4 |
 | inflatable_3d_flowers | #3D #膨胀花朵 #C4D |  | 9:16 |
 | kimjunggi_scifi_sketch | #金政基 #赛博朋克 #线条艺术 |  | 1:1 / 16:9 / 9:16 |
@@ -63,7 +63,7 @@
 | oriental_fine_line_symbol_poster | #工笔细线 #东方色场 #象征动作 | 东方气质角色海报、神话/拟人化主体视觉、品牌国风KV、展览主视觉、文创产品、寓意叙事插画 | 3:4 |
 | oriental_mural_exhibition_poster | #东方美学 #壁画 #展览海报 | 东方美学展览海报、文化活动宣传、艺术策展海报、国风品牌KV | 3:4 |
 | oriental_poem_schoolbook_poster | #新中式 #古诗词海报 #教科书级插画 | 古诗词文化海报、东方艺术展览、国风品牌视觉、文创产品、文化传播、教科书级美育插图 | 9:16（默认，可调 3:4） |
-| pastel_de_nata_doodle | #蛋挞 #手绘插画 #美食海报 | 美食海报、面包店品牌KV、社交媒体美食图、烘焙产品宣传 | 3:4 |
+| pastel_de_nata_doodle | #美食海报 #手绘插画 #涂鸦 | 美食海报、面包店品牌KV、社交媒体美食图、烘焙产品宣传 | 3:4 |
 | pen_ink_point_line_peaches | #钢笔画 #点线技法 #精细描绘 |  | 2:3（竖版） |
 | pixel_cut_community_poster | #像素字体 #黑白摄影 #几何色块 |  | 16:9 / 3:2 / 4:3 |
 | playful_avantgarde_poster | #童趣 #前卫 #艺术展 |  | 9:16 |
@@ -71,7 +71,7 @@
 | real_object_line_character_poster | #实物摄影 #钢笔线描 #视觉双关 | 品牌创意海报、产品概念海报、食品饮品社媒视觉、实物创意传播 | 3:4 |
 | retro_anime_cinema_illustration | #anime-illustration #retro-japanese #cinematic-lighting | 品牌KV、概念插画、社交媒体内容、小说/游戏场景概念图、品牌叙事内容 | 4:5 |
 | retro_future_scifi_poster | #复古未来 #科幻 #赛博朋克 |  | 9:16 |
-| scifi_artdeco_poster | #art_deco #sci_fi #poster | 科幻电影海报、2x2 电影阵列、品牌联名KV、电影主题海报 | 16:9 |
+| scifi_artdeco_poster | #art_deco #sci_fi #poster | 科幻电影海报、电影主题海报、品牌联名KV、2x2 电影阵列 | 16:9 |
 | scribble_poster_style | #VigoCookbook #retro #skate |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | soft_clay_camping_kv | #软胶黏土 #3D卡通 #马卡龙 |  | 16:9 / 9:16 |
 | soft_clay_macaron_poster | #软胶黏土 #3D卡通 #马卡龙色 |  | 2:3（竖版） |

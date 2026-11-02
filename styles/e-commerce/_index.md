@@ -19,7 +19,7 @@
 | luxury_birthday_poster | #生日 #轻奢 #海报 |  | 3:4 竖版 |
 | luxury_product | #电商 #产品 #摄影棚 |  | 16:9 |
 | minimalist_cafe_product_poster | #纯白背景 #黑色排版 #瑞士编辑风 | 咖啡馆产品主图、饮品品牌社媒海报、极简电商详情页 | 4:5 |
-| modernist_food_separation_menu | #menu #food_photography #modernist | 高端餐厅菜单、美食品牌视觉、中东街头美食文化海报、Premium 餐饮品牌 KV | 16:9 / 2:3 |
+| modernist_food_separation_menu | #menu #food_photography #modernist | 高端餐厅菜单、美食品牌视觉、Premium 餐饮品牌 KV、食材概念海报 | 16:9 / 2:3 |
 | newyear_gift_box | #年货 #礼盒 #商业摄影 |  | 3:4 |
 | osmanthus_tea_seasonal_poster | #现代极简 #季节限定 #暖色调 | 季节限定饮品宣传海报、门店促销海报、电商Banner、社交媒体图文 | 3:4 |
 | pastel_product_studio | #电商 #产品 #摄影棚 | 品牌电商主图、高端食品饮料海报、社交媒体产品图 | 4:5 竖版 |

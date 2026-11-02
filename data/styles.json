@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-205-g3e068d4",
-    "generated": "2026-11-02T07:20:04Z",
+    "version": "v0.7.0-before-opt-207-g46add29-dirty",
+    "generated": "2026-11-02T08:40:05Z",
     "total": 311,
     "categories": [
       "brand_kv",
@@ -598,16 +598,25 @@
       ],
       "scene": "社交媒体头像、朋克风KV、地下音乐海报、反文化主题活动",
       "ratio": "4:5",
-      "summary": "以 70-80 年代地下漫画与朋克 zine 为灵感，黑白网点肖像叠加粗体红色 VINTAGE 大字，磨损丝网印刷质感的复古朋克海报风格",
+      "summary": "以 70-80 年代地下漫画与朋克 zine 为灵感，黑白网点肖像叠加粗体彩色大字，磨损丝网印刷质感。",
       "features": [
         "**黑白网点肖像** — 密集点刻、交叉影线、粗糙墨线、手绘漫画线条，黑白灰调",
-        "**粗体红色字体** — 中央横穿面部，血红色 VINTAGE 大字，粗黑轮廓，粗细不规则",
+        "**粗体红色大字** — 中央横穿面部，粗黑轮廓，粗细不规则，字面带裂纹",
         "**磨损印刷质感** — 纸张颗粒、划痕、雀斑、墨迹不完美、丝网印刷劣化",
         "**高对比构图** — 近景特写居中，背景几乎全黑，仅细微灰尘/划痕",
-        "**70-80年代地下漫才美学** — 反叛朋克海报能量，单色墨水艺术+粗体红色字体"
+        "**70-80年代地下漫画美学** — 反叛朋克海报能量，单色墨水艺术 + 粗体彩色大字"
       ],
-      "prompt": "Create a high-contrast vintage underground editorial poster in a black-and-white 1970s/80s underground comic and punk-zine aesthetic. Centered is a dramatic close-up portrait of a rugged bearded man, facing directly toward the camera, with thick wavy dark hair, heavy eyebrows, prominent nose, full mustache and textured beard. His expression is serious, intense, and stoic.\n\nRender the portrait entirely in black, white, and gray halftone shading, using dense stippling, cross-hatching, rough ink strokes, distressed print textures, and hand-illustrated comic-book linework. Add subtle paper grain, scratches, speckles, ink imperfections, and worn screen-print artifacts throughout.\n\nAcross the center of the face, place enormous bold red typography reading \"VINTAGE\", stretching almost edge-to-edge. Use a dramatic condensed vintage serif / Western gothic display font, slightly irregular and warped, with thick black outline/shadow. The red letters should have cracked, distressed textures and small black fracture lines, giving the typography an aged, weathered print appearance.\n\nKeep the background almost completely black with subtle grain, dust, scratches, and tiny distressed white marks. Strong symmetrical composition, frontal portrait, extreme close-up, gritty underground magazine cover aesthetic, rebellious punk poster energy, high detail, screen-print texture, analog print imperfections, dramatic contrast.\n\nComposition: vertical poster, centered face, typography dominating the middle, face partially obscured behind the word, tightly cropped portrait.\n\nAspect ratio: 4:5\nStyle: vintage punk zine, underground comic illustration, distressed screen print, halftone engraving, monochrome ink artwork with bold blood-red typography.\n不要水印，不要真实Logo，不要电商广告感。\n",
-      "variables": {},
+      "prompt": "4:5 高对比复古地下海报，1970/80 年代黑白地下漫画与朋克 zine 的美学。画面正中是{人物描述}的近景特写，紧绷裁剪，正面直视镜头，表情严肃、强烈、克制。\n\n肖像完全用黑、白、灰的网点调子渲染：密集点刻、交叉影线、粗糙墨线、手绘漫画线条，通篇叠加纸张颗粒、划痕、斑点、墨迹瑕疵和磨损的丝网印刷痕迹。\n\n在脸部中央横压一行巨大的{大字颜色}大字「{大字}」，几乎顶到两侧边缘。字体用戏剧化的压缩复古衬线或西部哥特展示体，略不规则、略带变形，带厚重的黑色轮廓与投影。字面要有干裂的做旧纹理和细小的黑色断痕，像被岁月磨过的印刷品。\n\n背景几乎全黑，只有细微的颗粒、灰尘、划痕和零星的白色破损点。强对称构图，正面肖像，极端特写，粗粝的地下杂志封面气质，反叛的朋克海报能量，高细节，丝网印刷质感，模拟印刷的不完美，戏剧化对比。\n\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "人物描述": "{人物描述}",
+        "大字": "{大字}",
+        "大字颜色": "{大字颜色}"
+      },
+      "variable_descs": {
+        "人物描述": "如：一位蓄浓须的粗犷男性正对镜头 / 一位短发女性怒视镜头",
+        "大字": "如：VINTAGE / 反骨 / PUNK 77",
+        "大字颜色": "如：血红 / 荧光橙 / 暗金"
+      },
       "source_url": "https://x.com/arsalannazir07/status/2087120068648042768",
       "source_author": "arsalannazir07",
       "preview_urls": [
@@ -4004,7 +4013,7 @@
     {
       "id": "verglas_surreal_poetry_poster",
       "code": "ST0066",
-      "name": "Verglas 神秘诗歌手册海报",
+      "name": "铬液金属诗歌手册海报",
       "category": "creative",
       "tags": [
         "神秘主义",
@@ -4014,23 +4023,36 @@
         "意大利斜体"
       ],
       "triggers": [
-        "Verglas诗歌手册",
+        "诗歌手册海报",
         "神秘主义海报",
         "铬液金属文字",
         "surreal poetry poster"
       ],
       "scene": "诗歌海报、文学宣传、画廊展览、品牌KV、编辑出版",
       "ratio": "3:4",
-      "summary": "纯黑背景神秘诗歌手册海报，铬液金属雕塑+橙色意大利斜体排版，文学感诗句编排",
+      "summary": "纯黑背景神秘诗歌手册海报，铬液金属雕塑 + 斜体排版，文学感诗句编排",
       "features": [
         "**纯黑背景 + 铬液金属形态** — 黑色背景上，巨大的不定形铬液金属雕塑，充满扭曲、融化、垂落的流动形态",
         "**虹彩反射表面** — 表面泛起翠绿、紫色、琥珀色虹彩反射，湿漉漉的有机质感，如同汞在运动中被冻结",
-        "**橙色意大利斜体文字** — 文字优雅地置于负空间中，\"Verglas\" 主标题，\"Les Ombres\" 诗意诗句排版",
+        "**斜体主标题** — 文字置于负空间缝隙中，主标题与诗句层层递进",
         "**模糊轮廓与暧昧形态** — 雕塑轮廓暧昧，不断在不同角度暗示不同形态，制造神秘感",
         "**文学感诗句编排** — 多节诗句以短行诗形式排列，文学感强，如同独立诗歌手册内页"
       ],
-      "prompt": "Poster, pure black background. Composition is dominated by a massive, sprawling chrome liquid-metal form with an indeterminate, ever-shifting shape — neither clearly an arch, nor a portal, nor any recognizable object, just an amorphous mass of twisting, melting tendrils and bulging liquid folds that spill toward the edges of the frame. Surface ripples with iridescent green, violet, and amber reflections, wet-looking and organic, like poured mercury frozen mid-motion, its silhouette ambiguous and constantly suggesting different forms depending on where you look. Small negative-space gaps within the sprawling mass reveal glimpses of the black background beneath. Centered within one of these gaps, elegant orange italic script typography reads 'Verglas' as the main title. Below it, small orange serif text arranged in short poetic stanzas: 'They arrive without knocking, / without asking if you were ready. / Close your eyes — can you still feel them? / They belong more to the in-between than to either side.' followed by a smaller line 'Les Ombres.' and a final stanza: 'It has been so long that the idea trembles and slips between my fingers, / why does it still smell of ash and distance? / Perhaps it was never meant to be looked at directly, / only felt in the corner of the imagined.' Deep black background, sprawling glossy chrome-green sculptural mass filling most of the composition, warm orange type as the only accent color, moody surreal atmosphere.\n不要水印，不要真实Logo，不要电商广告感。\n",
-      "variables": {},
+      "prompt": "3:4 诗歌手册海报，纯黑背景。画面被一团巨大、蔓延的铬液金属形态占据，形状不确定、不断位移——既不是明确的拱门，也不是门户，更不是任何可辨认的物体，只是一团扭动、融化、垂落的液态触须与鼓胀褶皱，向画面边缘溢出。表面泛起翠绿、紫罗兰和琥珀色的虹彩，湿润、有有机感，像被冻结在运动瞬间的汞。轮廓暧昧，在不同角度看会暗示不同形态。蔓延的金属团里留出几处小的负空间缝隙，能透出下方的黑色背景。\n\n主标题压在某一处缝隙里：{主标题}，用优雅的{点缀色}意大利斜体排布。\n\n下方用小的衬线字排出短诗节：\n「{第一节诗}」\n\n再下面一行更小的字「{小标题}」。\n\n最后一段：\n「{第二节诗}」\n\n深黑背景，泛光的铬绿雕塑体填满大半个画面，{点缀色}是唯一的强调色，氛围阴郁、超现实。所有诗句左对齐，行距舒展，像独立诗歌手册的内页。\n\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "主标题": "{主标题}",
+        "小标题": "{小标题}",
+        "第一节诗": "{第一节诗}",
+        "第二节诗": "{第二节诗}",
+        "点缀色": "{点缀色}"
+      },
+      "variable_descs": {
+        "主标题": "如：Verglas / 霜面 / NOCTURNE",
+        "小标题": "如：Les Ombres. / 影子的部分 / II.",
+        "第一节诗": "如：They arrive without knocking, without asking if you were ready.",
+        "第二节诗": "如：It has been so long that the idea trembles and slips between my fingers.",
+        "点缀色": "如：橙色 / 琥珀金 / 淡青"
+      },
       "source_url": "https://x.com/recraftai/status/2076685043632583099",
       "source_author": "Recraft",
       "preview_urls": [
@@ -5162,8 +5184,8 @@
         "街头服饰",
         "购物袋视角",
         "奢侈品牌",
-        "GPT Image 2",
-        "时尚大片"
+        "时尚大片",
+        "强制透视"
       ],
       "triggers": [
         "街头服饰大片",
@@ -5174,16 +5196,27 @@
       ],
       "scene": "时尚广告、社交媒体推广、品牌KV、街头服饰宣传",
       "ratio": "9:16",
-      "summary": "GPT Image 2 的奢侈街头服饰广告大片，强制透视视角（购物袋内向上） + 杂志编辑设计",
+      "summary": "奢侈街头服饰广告大片，强制透视视角（从购物袋内向上拍） + 杂志编辑设计",
       "features": [
         "**强制透视视角** — 从购物袋内部向上拍摄，颠覆常规视角，极具冲击力",
-        "**奢侈街头风格** — 红色宽松版型卫衣 + 黑裤 + 白鞋，当代奢华街头美学",
+        "**奢侈街头风格** — 宽松版型 + 廓形感，当代奢华街头美学",
         "**戏剧性光影** — 高端时尚大片光效，自然光从上方洒入，柔阴影高对比",
-        "**杂志级排版** — 购物袋内壁环绕大字「TAKE WHAT'S YOURS」+ 收据、标签、条码等编辑元素",
-        "**色彩鲜明** — 深红、黑、白、暖奶油色调，高级感配色"
+        "**杂志级排版** — 购物袋内壁环绕大字标语 + 收据、标签、条码等编辑元素",
+        "**色彩鲜明** — 高饱和主色配黑白，高级感配色"
       ],
-      "prompt": "Create a premium luxury streetwear editorial advertising poster in a vertical 9:16 format. A stylish young female model leans over an enormous shopping bag, looking directly down toward the viewer with a confident, irresistible expression. The scene is captured from an extreme point-of-view camera positioned inside the shopping bag, creating a dramatic upward perspective as if the viewer is the item about to be picked. The model naturally leans over the bag's opening, with one hand reaching inside while maintaining intense direct eye contact. She wears an oversized vibrant red hoodie, black cargo pants, and clean white sneakers, embodying a bold contemporary luxury streetwear aesthetic. The opening of the shopping bag forms a powerful foreground frame, surrounding the model and enhancing the immersive perspective. The interior walls of the bag become part of the graphic design, featuring oversized premium typography wrapping around the paper surface with the statement: \"TAKE WHAT'S YOURS\" Integrate sophisticated editorial graphic elements throughout the composition, including authentic receipt graphics, barcode strips, shipping labels, premium stickers, paper folds, subtle print imperfections, registration marks, and luxury magazine-inspired layout details. Composition emphasizes an unforgettable forced-perspective viewpoint with strong foreground framing, dramatic depth, and a highly shareable luxury fashion campaign aesthetic suitable for premium social media advertising. Lighting is inspired by high-end fashion campaigns, with brilliant natural light pouring in from above the bag, creating luminous highlights, soft shadows, realistic paper reflections, and cinematic contrast. Color Palette: Rich crimson red, deep black, crisp white, and warm cream paper tones. Style: Ultra-premium luxury streetwear campaign, contemporary editorial design, cinematic fashion photography, magazine cover quality, bold graphic composition, hyper-realistic textures, impeccable typography integration, ultra-detailed, photorealistic, 8K masterpiece, award-winning commercial advertising, premium branding aesthetic.\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
-      "variables": {},
+      "prompt": "9:16 竖版奢侈街头服饰广告大片。一位{模特描述}俯身探向一只巨大的购物袋，低头直视观众，表情自信、有吸引力。\n\n视角是全片的关键：摄影机位于购物袋内部，向上极近距离拍摄，形成强烈的强制透视——观众就是那只即将被拿起的东西。购物袋的开口在画面里构成一整圈前景画框，把模特框在中间，透视被拉得很深。\n\n模特身穿{服装搭配}，当代奢华街头的美学，宽松、有廓形、不刻意精致。一只手伸进袋口，眼睛始终盯着镜头。\n\n袋子内壁是这个版面的一部分：{主标语}用超大字号绕着纸面排布，字随纸面轻微弯折；纸上还压着真实的收据图形、条码条、物流标签、高级贴纸、折痕、轻微的印刷瑕疵与套准标记，像一本时尚杂志的内页被印在了袋子里。\n\n光从袋口上方倾泻下来，形成明亮的高光和柔和的阴影，纸面有真实的反光，明暗对比电影感强。\n\n配色：{配色}。\n\n质感：超真实、杂志封面级，图形构成大胆，字体锐利。不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
+      "variables": {
+        "模特描述": "{模特描述}",
+        "服装搭配": "{服装搭配}",
+        "主标语": "{主标语}",
+        "配色": "{配色}"
+      },
+      "variable_descs": {
+        "模特描述": "如：一位短发女性模特 / 一位卷发的年轻男性",
+        "服装搭配": "如：宽松红色卫衣 + 黑色工装裤 + 白色运动鞋",
+        "主标语": "如：TAKE WHAT'S YOURS / 把自己带走 / PICK ME UP",
+        "配色": "如：深红 + 黑 + 白 + 暖奶油 / 墨绿 + 米白 + 银灰"
+      },
       "source_url": "https://x.com/AiwithLariab/status/2075071927975293125",
       "source_author": "Laraib Fatima",
       "preview_urls": [
@@ -5739,18 +5772,29 @@
         "材质封面",
         "极简蓝字"
       ],
-      "scene": "教程封面、商业封面、AI方法论封面、视频封面、文章封面",
+      "scene": "教程封面、商业封面、方法论封面、视频封面、文章封面",
       "ratio": "5:2",
-      "summary": "银色锡纸纹理背景 + 统一克莱因蓝文字 + 中粗黑体 + 极简线条隐喻，高级极简封面风格",
+      "summary": "银色锡纸纹理背景 + 统一深蓝文字 + 中粗黑体 + 极简线条隐喻，高级极简封面风格",
       "features": [
         "**银色锡纸背景** — 真实锡纸轻微揉皱后铺平，细密均匀的褶皱纹理，冷银色金属质感",
-        "**克莱因蓝文字** — 纯正深邃统一的蓝色，所有文字线条图形使用同一种蓝色",
+        "**统一深蓝文字** — 所有文字线条图形使用同一种纯正深邃的蓝色，深浅不变",
         "**中粗黑体排版** — 现代中粗黑体中文 + 粗体无衬线英文，字形简洁稳重",
-        "**极简线条隐喻** — 根据主题设计蓝色极简线条图形，面积控制在 15%-25%",
+        "**极简线条隐喻** — 根据主题设计极简线条图形，面积控制在 15%-25%",
         "**克制理性气质** — 不靠花哨配色，不堆复杂元素，整体更克制、理性、高级"
       ],
-      "prompt": "Generate a premium minimalist cover with silver tin foil texture background and Klein blue text.\n\n【Background】\nUse real silver tin foil as the full background. The foil should appear lightly crumpled then flattened, showing fine, even, natural, restrained micro-wrinkles. Surface has cold silver metallic texture with subtle reflections, soft highlights, and slight light-dark variations. Tin foil texture must be clear but not too coarse, too bright, or too messy. The area where text sits should be relatively flat, avoiding highlights, dark patterns, or complex wrinkles crossing the text.\n\n【Colors】\nUse only two core colors: silver tin foil background + pure, deep, unified Klein blue for all text and lines. All blue text, lines, and graphics must use the same shade of blue, no variation in depth, no grayish, purplish, or local gradients.\n\n【Typography】\nChinese: modern medium-weight sans-serif, clean strokes, steady and modern, moderate letter-spacing and line-spacing. No calligraphy, rounded, cartoon, or decorative fonts.\nEnglish: bold sans-serif, auxiliary info, noticeably smaller than Chinese.\n\n【Layout】\nMain title stays restrained, moderate size. Use left-aligned / right-aligned / centered / two or three lines. Generous whitespace, natural spacing, balanced line lengths. One layout style per image.\n\n【Visual Metaphor】\nExtract one core concept from the theme, design as a Klein blue minimalist line metaphor: paths, circuits, nodes, stairs, entrances, connections, input-output, state transitions. Graphics occupy 15%-25% of the image, never more prominent than the title.\n\n【Composition】\nOnly: silver fine-texture tin foil background + Klein blue main title + optional subtitle or English auxiliary text + one minimalist line metaphor.\n\n【Mood】\nMinimalist, calm, rational, restrained, premium, modern, clear.\n\n【Strict Restrictions】\nNo people, product photography, complex illustrations, oversized titles, ultra-bold fonts, crowded text, background highlights crossing text, inconsistent blue shades, large watermarks, diagonal text, mixed horizontal-vertical text, complex flowcharts, multiple stacked icons, dense small text, large blue color blocks, gradients, glowing effects, 3D text, 3D icons, cyberpunk.\n\n【Final Effect】\nA premium cover with silver fine-texture tin foil background + unified Klein blue text + medium-weight sans-serif Chinese + bold sans-serif English + one clean thematic metaphor. Text clear, restrained, spacious, background and text blend naturally, colors unified, generous whitespace, resembling a premium independent magazine cover or contemporary design exhibition poster.\n",
-      "variables": {},
+      "prompt": "Generate a premium minimalist cover with silver tin foil texture background and {强调色} text.\n\n【Background】\nUse real silver tin foil as the full background. The foil should appear lightly crumpled then flattened, showing fine, even, natural, restrained micro-wrinkles. Surface has cold silver metallic texture with subtle reflections, soft highlights, and slight light-dark variations. Tin foil texture must be clear but not too coarse, too bright, or too messy. The area where text sits should be relatively flat, avoiding highlights, dark patterns, or complex wrinkles crossing the text.\n\n【Colors】\nUse only two core colors: silver tin foil background plus one pure, deep, unified {强调色} for all text and lines. All text, lines, and graphics must use the same shade, no variation in depth, no grayish, purplish, or local gradients.\n\n【Typography】\nChinese: modern medium-weight sans-serif, clean strokes, steady and modern, moderate letter-spacing and line-spacing. No calligraphy, rounded, cartoon, or decorative fonts. Main title: 「{主标题}」.\nEnglish: bold sans-serif, auxiliary info, noticeably smaller than Chinese: 「{英文辅助}」.\n\n【Layout】\nMain title stays restrained, moderate size. Use left-aligned / right-aligned / centered / two or three lines. Generous whitespace, natural spacing, balanced line lengths. One layout style per image.\n\n【Visual Metaphor】\nOne minimalist line metaphor for the theme: {线条隐喻}。Draw it in the same {强调色}, using paths, circuits, nodes, stairs, entrances, connections, or state transitions. Graphics occupy 15%-25% of the image, never more prominent than the title.\n\n【Composition】\nOnly: silver fine-texture tin foil background + main title + optional subtitle or English auxiliary text + one minimalist line metaphor.\n\n【Mood】\nMinimalist, calm, rational, restrained, premium, modern, clear.\n\n【Strict Restrictions】\nNo people, product photography, complex illustrations, oversized titles, ultra-bold fonts, crowded text, background highlights crossing text, inconsistent text color shades, large watermarks, diagonal text, mixed horizontal-vertical text, complex flowcharts, multiple stacked icons, dense small text, large color blocks, gradients, glowing effects, 3D text, 3D icons, cyberpunk.\n\n【Final Effect】\nA premium cover: silver fine-texture tin foil background, unified deep blue text, medium-weight sans-serif Chinese, bold sans-serif English, one clean thematic metaphor. Text clear, restrained, spacious, background and text blend naturally, colors unified, generous whitespace, resembling a premium independent magazine cover or contemporary design exhibition poster.\n",
+      "variables": {
+        "主标题": "{主标题}",
+        "英文辅助": "{英文辅助}",
+        "线条隐喻": "{线条隐喻}",
+        "强调色": "{强调色}"
+      },
+      "variable_descs": {
+        "主标题": "如：提示词工程 / 结构之美 / THE METHOD",
+        "英文辅助": "如：A FIELD GUIDE / VOL.02 2026",
+        "线条隐喻": "如：一条折返的路径与三个节点 / 逐级上升的阶梯 / 输入到输出的两段回路",
+        "强调色": "如：克莱因蓝 / 钴蓝 / 深靛"
+      },
       "source_url": "https://x.com/AdrianPunk115/status/2071141624105877890",
       "source_author": "Adrian Punk",
       "preview_urls": [
@@ -5905,18 +5949,31 @@
         "Art Deco 电影海报生成",
         "sci-fi art deco poster"
       ],
-      "scene": "科幻电影海报、2x2 电影阵列、品牌联名KV、电影主题海报",
+      "scene": "科幻电影海报、电影主题海报、品牌联名KV、2x2 电影阵列",
       "ratio": "16:9",
-      "summary": "将科幻电影主角转化为 Art Deco 风格的 1930 年代黑白城市海报，2×2 网格阵列呈现多部电影的视觉对比。",
+      "summary": "将科幻主体转化为 Art Deco 风格的 1930 年代黑白城市海报，硬边矢量、放射几何、象征性都市背景。",
       "features": [
-        "**2×2 电影阵列** — 2x2 grid 布局，呈现多部科幻经典电影的视觉对比",
         "**Art Deco 几何建筑** — 拱形、阶梯塔楼、垂直肋骨、放射纹饰面板、圆形奖章等几何元素构建装饰艺术框架",
         "**硬调黑白矢量感** — 纯黑、纯白、有限灰的反差，厚实外轮廓线 + 中等内部线条，干净阴影块与优雅负空间",
         "**城市剪影背景** — 高塔、桥梁、钟面、抽象机械、装饰立面构成的单色未来都市",
-        "**复古电影感** — 1930 年代 noir 城市海报的现代矢量重译，威严、戏剧性、海报级可读"
+        "**复古电影感** — 1930 年代 noir 城市海报的现代矢量重译，威严、戏剧性、海报级可读",
+        "**可选阵列版式** — 默认单张竖构，也可指定 2×2 四格做多部作品的视觉对比"
       ],
-      "prompt": "2x2 grid, 16:9, do this for 4 famous sci-fi movies:\n\ninput: $ subject\n// extract the subject as a graphic silhouette.\ns = silhouette($ subject)\nf = focal_features($ subject)\nm = motion_or_emotion_vectors($ subject)\n\n// build a monochrome art deco poster world.\ndeco_frame = construct_frame(\n  geometry = ['arches', 'stepped towers', 'vertical skyscraper ribs', 'sunburst panels', 'circular medallions'],\n  symmetry = 'semi-symmetrical',\n  border = 'thick black ornamental frame',\n  density = 'high but readable'\n)\n\n// convert subject into hard black-and-white vector forms.\nsubject_graphic = vectorize(\n  s, style = 'art deco noir',\n  line_weight = 'thick outer contour + medium internal lines',\n  fill_logic = 'pure black, pure white, limited gray',\n  surface_detail = 'angular panels, clean shadow blocks, elegant negative space'\n)\n\n// rebuild details using architectural language.\ndetail_system = remap(f) where:\n  - curves become elegant deco arcs and streamlined contour bands\n  - small repeated details become windows, vents, stripes, grids, geometric ornaments\n  - organic textures become clean black-white pattern fields\n  - motion becomes diagonal speed lines, fan rays, stepped echoes, or theatrical silhouettes\n\n// background becomes a symbolic metropolis.\ncity_field = generate_cityscape(\n  from = m,\n  shapes = ['tall towers', 'bridges', 'arches', 'clock faces', 'abstract machinery', 'ornamental facades'],\n  color = 'black and white',\n  perspective = 'poster-flat with selective depth'\n)\n\nrender:\n  - $ subject is central, elegant, dramatic, and poster-readable.\n  - use hard black/white contrast with tiny gray accents only where needed.\n  - add art deco architecture around and through the subject.\n  - use vertical rhythm, arches, stepped geometry, clean negative space, and theatrical noir staging.\n  - no photorealism, no color, no painterly softness.\n  - final image feels like a premium 1930s noir city poster redesigned as modern vector art.\n\n不要水印，不要真实Logo，不要电商广告感，不要卡通风。\n",
-      "variables": {},
+      "prompt": "16:9 复古 Art Deco 科幻电影海报。主体是{主体}：先把主体提炼成清晰的剪影，再转译为硬边黑白矢量图形——粗外轮廓配中等内线，只使用纯黑、纯白和极少量灰，表面用棱角分明的色块与干净的负空间，完全没有照片感和笔触柔化。\n\n装饰框架用 Art Deco 的建筑语汇包裹主体：拱门、阶梯塔楼、竖向摩天楼肋条、放射状日轮、圆形徽章，半对称排列，外围套一圈厚重的黑色装饰边框，元素密度高但版面可读。\n\n细节按建筑语言重译：主体上的曲线变成优雅的装饰弧线和流线型轮廓带；小面积重复细节变成窗户、通风口、条纹、网格与几何纹样；有机质感变成干净的黑白图案场；运动或情绪变成对角速度线、扇形射线、阶梯状回声或戏剧化剪影。\n\n背景是一座由主体气质生成的象征性都市：{都市元素}，黑白单色，扁平海报透视，只保留少量纵深。\n\n排版：主标题「{主标题}」用装饰艺术风格的无衬线大写压在画面上方，字距拉开；副标题「{副标题}」用极小字号排在标题下方。版式按{版式}处理，四格时每格各自成一张完整海报，共享同一套框架。\n\n整体像 1930 年代黑色电影都市海报被重制成现代矢量艺术：优雅、戏剧化、海报级可读。不要水印，不要真实Logo，不要电商广告感，不要卡通风。\n",
+      "variables": {
+        "主体": "{主体}",
+        "都市元素": "{都市元素}",
+        "主标题": "{主标题}",
+        "副标题": "{副标题}",
+        "版式": "{版式}"
+      },
+      "variable_descs": {
+        "主体": "如：戴头盔的宇航员半身像 / 一艘环形空间站 / 巨型机械蜘蛛",
+        "都市元素": "如：梯级摩天楼与拱门 / 钟面与抽象机械 / 桥梁与装饰立面",
+        "主标题": "如：STELLAR / 星际迷航 / THE LAST ORBIT",
+        "副标题": "如：A FILM BY ... / 2026 重制版 / CHAPTER ONE",
+        "版式": "如：单张竖构 / 2×2 四格阵列 / 上下分栏双格"
+      },
       "source_url": "https://x.com/Gdgtify/status/2074799908880879966",
       "source_author": "Gadgetify",
       "preview_urls": [
@@ -6889,8 +6946,17 @@
         "极简抽象背景 — 简洁的几何笔触、柔和的角度形状、层叠半透明涂料",
         "柔和单色调色板 — 冷蓝灰、象牙色、柔和木炭色、暖米白，中性色调"
       ],
-      "prompt": "Masterfully handcrafted contemporary portrait illustration blending refined graphite sketch realism with ultra-premium painterly digital art. Delicate construction lines, loose exploratory pencil strokes, soft cross-hatching, and expressive sketch marks remain subtly visible beneath highly refined rendering. Smooth sculpted facial anatomy with elegant semi-realistic anime influence, luminous porcelain skin, silky volumetric shading, and cinematic soft lighting. Hair rendered with flowing individual strands, combining sketch-like gesture with luxurious satin highlights and subtle reflective sheen. Painterly brushwork merges seamlessly with crisp draftsmanship, balancing unfinished artistic spontaneity and polished realism. Minimalist abstract background composed of clean geometric brushstrokes, soft angular shapes, layered translucent paint, and subtle metallic-inspired accent strokes. Muted monochromatic palette with cool blue-gray, ivory, soft charcoal, warm off-white, and gentle neutral tones. Sophisticated editorial illustration aesthetic, museum-quality mixed-media finish, refined negative space, elegant composition, premium concept-art craftsmanship, handcrafted rather than photographic, ultra-detailed, timeless, atmospheric, and emotionally understated.\n\n不要水印，不要真实Logo，不要电商广告感，不要乱码。\n",
-      "variables": {},
+      "prompt": "主体：{主体}，{姿态情绪}。背景由{背景形状}构成。\n\nMasterfully handcrafted contemporary portrait illustration blending refined graphite sketch realism with ultra-premium painterly digital art. Delicate construction lines, loose exploratory pencil strokes, soft cross-hatching, and expressive sketch marks remain subtly visible beneath highly refined rendering. Smooth sculpted facial anatomy with elegant semi-realistic anime influence, luminous porcelain skin, silky volumetric shading, and cinematic soft lighting. Hair rendered with flowing individual strands, combining sketch-like gesture with luxurious satin highlights and subtle reflective sheen. Painterly brushwork merges seamlessly with crisp draftsmanship, balancing unfinished artistic spontaneity and polished realism. Minimalist abstract background composed of clean geometric brushstrokes, soft angular shapes, layered translucent paint, and subtle metallic-inspired accent strokes. Muted monochromatic palette with cool blue-gray, ivory, soft charcoal, warm off-white, and gentle neutral tones. Sophisticated editorial illustration aesthetic, museum-quality mixed-media finish, refined negative space, elegant composition, premium concept-art craftsmanship, handcrafted rather than photographic, ultra-detailed, timeless, atmospheric, and emotionally understated.\n\n不要水印，不要真实Logo，不要电商广告感，不要乱码。\n",
+      "variables": {
+        "主体": "{主体}",
+        "姿态情绪": "{姿态情绪}",
+        "背景形状": "{背景形状}"
+      },
+      "variable_descs": {
+        "主体": "如：一位侧头凝视的女性 / 一名低头的少年 / 抱膝坐着的人",
+        "姿态情绪": "如：下巴微抬、目光坚定 / 垂眼、情绪内敛 / 手指轻触下颌",
+        "背景形状": "如：几块斜向的几何笔触 / 柔和的圆弧叠片 / 层叠的半透明矩形"
+      },
       "source_url": "https://x.com/HustleXR/status/2076531542923653200",
       "source_author": "HustleXR",
       "preview_urls": [
@@ -7656,34 +7722,45 @@
     {
       "id": "pastel_de_nata_doodle",
       "code": "ST0131",
-      "name": "蛋挞手绘美食海报",
+      "name": "手绘美食涂鸦海报",
       "category": "creative",
       "tags": [
-        "蛋挞",
-        "手绘插画",
         "美食海报",
+        "手绘插画",
         "涂鸦",
-        "GPT Image 2"
+        "超写实食物",
+        "烘焙"
       ],
       "triggers": [
         "手绘美食海报",
-        "蛋挞插画",
+        "美食涂鸦海报",
         "doodle food poster",
         "hand-drawn food illustration",
         "涂鸦美食"
       ],
       "scene": "美食海报、面包店品牌KV、社交媒体美食图、烘焙产品宣传",
       "ratio": "3:4",
-      "summary": "GPT Image 2 的蛋挞美食海报，融合超写实食物摄影与活泼手绘涂鸦插画，温暖有趣",
+      "summary": "超写实食物摄影与活泼手绘涂鸦并置的美食海报，暖白底大留白，标注箭头 + 手写标题。",
       "features": [
         "**超写实 + 手绘涂鸦融合** — 真实食物摄影与卡通涂鸦并置，强对比高记忆点",
         "**温暖白底留白** — 大量留白，干净前视图海报布局，编辑感强",
         "**手绘标注元素** — 箭头、标签、爱心、星星、漩涡等涂鸦元素点缀食物特征",
-        "**真实食物质感** — 焦糖焦斑、金黄酥皮、奶油蛋挞馅、层层酥脆",
-        "**手绘标题字体** — 顶部大胆手绘艺术字体标题，营造手工面包店氛围"
+        "**真实食物质感** — 焦糖斑点、油润光泽、层次分明的酥皮或内部结构",
+        "**手绘标题字体** — 顶部大胆手绘艺术字体，营造手工面包店氛围"
       ],
-      "prompt": "Create an ultra-premium playful food poster for Portuguese egg tart, Pastel de Nata, combining hyper-realistic pastry photography with charming hand-drawn doodle illustration. The composition should feel joyful, delicious, artistic, and highly memorable, like a premium illustrated bakery campaign poster with a strong contrast between realistic food and flat cartoon sketch elements. Main composition: Use a clean front-facing food-poster layout on a warm white background with generous negative space. Place one hero plate or a small arrangement of Portuguese egg tarts in the center-bottom area as the absolute visual focus. The egg tarts must be ultra realistic, freshly baked, golden, glossy, flaky, and irresistible. Around the tarts, add playful black hand-drawn doodles, arrows, handwritten ingredient labels, cute decorative marks, tiny hearts, swirls, spark lines, and expressive annotation graphics. The overall layout should feel balanced, lively, and editorial, with a large hand-drawn artistic title at the top and the food composition clearly centered below it. Food styling: Show authentic Pastel de Nata with beautifully caramelized custard tops, slightly blistered golden-brown burnt spots, glossy creamy filling, crisp laminated pastry layers, buttery flaky shell, and warm fresh-from-the-oven texture. Some tarts can be whole, one can be slightly broken open or bitten to reveal silky custard inside. Add subtle cinnamon dust or powdered sugar accents if helpful, but keep the tart itself clearly recognizable and hero-focused. The pastry should feel premium, handmade, and truly Portuguese. Hand-drawn illustration style: Surround the realistic tarts with playful flat doodle elements in a spontaneous handwritten style, as if drawn with black marker directly onto the poster. Include arrows pointing to features like: \"crispy layers\" \"creamy custard\" \"caramel top\" \"buttery crust\" \"freshly baked\" Add small cute sketch icons such as a smiling sun, tiny hearts, sparkles, swirls, a spoon with dripping custard, cinnamon dust motion marks, little happy pastry characters, and expressive handwritten notes. The doodles should feel naive, warm, and energetic, but tastefully designed, not childish chaos. Typography: At the top, create a bold hand-drawn artistic title in the same style, reading \"Pastel de Nata\" or \"Portuguese Egg Tart\" in a playful hand-lettered style.\n不要水印，不要真实Logo，不要电商广告感，不要拼贴感，不要复杂背景，不要乱码。\n",
-      "variables": {},
+      "prompt": "3:4 高级感手绘美食海报，主角是{食品}。把超写实的食物摄影质感与活泼的手绘涂鸦并置，两者形成强对比，画面欢快、诱人、有艺术感、记忆点高，像一张精装烘焙品牌的插画海报。\n\n构图：干净的正面海报版式，暖白色背景，留出大量负空间。{食品}作为绝对视觉焦点落在画面中下方，装在浅色盘子里或三两件堆叠。食物必须极致真实：表面有自然的焦糖化、轻微起泡的深色斑点、油润的光泽、层次分明的酥皮或内部纹理，带着刚出炉的温度感。其中一件可以微微掰开或咬开，露出内部结构。可撒少量香料粉或糖粉点缀，但食物本体必须清晰可辨。\n\n手绘涂鸦：用黑色马克笔式的扁平涂鸦围绕食物，像直接画在版面上——箭头指向各个特征，旁边配手写小字标注「{标注词}」；再点缀{手绘元素}。涂鸦要天真、温暖、有活力，但克制得体，不能变成儿童乱画。\n\n标题：顶部用粗壮的手写艺术字排出「{主标题}」，字迹俏皮，营造手工面包店的氛围。\n\n不要水印，不要真实Logo，不要电商广告感，不要拼贴感，不要复杂背景，不要乱码。\n",
+      "variables": {
+        "食品": "{食品}",
+        "标注词": "{标注词}",
+        "手绘元素": "{手绘元素}",
+        "主标题": "{主标题}"
+      },
+      "variable_descs": {
+        "食品": "如：葡式蛋挞 / 可颂 / 芝士蛋糕 / 一笼小笼包",
+        "标注词": "如：酥皮层次 · 流心内馅 · 焦糖表面 · 黄油底 · 刚出炉",
+        "手绘元素": "如：太阳笑脸、小爱心、星光、漩涡 / 甜点小角色、手写批注",
+        "主标题": "如：焦糖蛋挞 / Pastel de Nata / 今日现烤"
+      },
       "source_url": "https://x.com/ou_zhen599/status/2074780810440589526",
       "source_author": "Loriel.AI",
       "preview_urls": [
@@ -8111,7 +8188,7 @@
     {
       "id": "north_fold_scientific_poster",
       "code": "ST0139",
-      "name": "North Fold 科考档案海报",
+      "name": "科考档案网格海报",
       "category": "creative",
       "tags": [
         "科考档案",
@@ -8121,23 +8198,38 @@
         "编辑排版"
       ],
       "triggers": [
-        "North Fold科考档案",
+        "科考档案海报",
         "白色网格海报",
         "半机械昆虫",
         "scientific archive poster"
       ],
       "scene": "档案海报、科考展览、品牌KV、编辑出版、概念设计",
       "ratio": "3:4",
-      "summary": "科考档案风格海报，白色网格四分系统+半机械昆虫焦点图，坐标文字档案感强",
+      "summary": "科考档案风格海报，白色网格四象限 + 半机械生物焦点图，坐标文字档案感强",
       "features": [
         "**白色网格四象限系统** — 纯黑背景被细白网格线分割为四个象限，两角有燕尾夹图示",
-        "**半机械昆虫焦点图** — 象限中心是半机械蜻蜓/蝉，半边有机深红外壳，半边铬机械，虹彩金属光泽",
-        "**坐标与档案文字** — 白色等宽坐标文字、档案描述文字、语音转写，档案感极强",
+        "**半机械生物焦点图** — 象限中心是半机械生物，半边有机外壳，半边铬机械，虹彩金属光泽",
+        "**坐标与档案文字** — 白色等宽坐标文字、档案描述文字、音标，档案感极强",
         "**网格线穿透玻璃翅** — 半透明玻璃质感翅脉，网格线从下方透出，机械关节发光",
         "**高对比黑白+单一虹彩** — 黑白档案系统，唯一彩色是半机械身的深红与虹彩光泽"
       ],
-      "prompt": "Poster, pure black background divided by thin white grid lines into four quadrants, with two small binder-clip icon illustrations pinned at the top corners as if holding a printed sheet. Top-left quadrant: bold white sans-serif text reading 'North / Fold' stacked. Beside it, small white body text: 'Kestrel Bay, formerly a restricted fishing outpost, is now recognized as a heritage site and marine research post following the 2019 Coastal Accord.' with a tiny caption 'Sources + Archive'. Top-right quadrant: large white monospace coordinate text 'W:118034.2 2207193 / S:3312087 419'. Center of the poster: a large detailed illustration of a half-mechanical insect — a dragonfly or cicada-like creature where half of its body is organic deep crimson red exoskeleton and the other half is fused with intricate chrome machinery, exposed gears, thin metallic joints, and glowing circuit-like seams running along its legs and thorax. Its surface catches dramatic iridescent light, rippling with oily rainbow highlights of violet, gold, and cyan across the metallic segments. Its wings are rendered translucent and glass-like, glowing faintly from within with a soft internal light, revealing delicate vein-like structures and fine mechanical filigree, the grid lines faintly visible through them, wings catching sharp specular light like thin resin lit from behind. Small glowing highlights pulse along the mechanical joints as if lit from an internal power source. Bottom-left: white text stacked '04.09.2026 / Daily / Poster 62'. Bottom-right: a phonetic transcription in brackets '[ˈkɛstrəl]' above coordinate numbers '61°45.0091' 24°3''. A small white paint-splatter logo mark centered at the very bottom edge. Stark black-and-white grid system with a single luminous, iridescent half-mechanical insect illustration as the focal point, dramatic light and reflective contrast against the crimson body.\n不要水印，不要真实Logo，不要电商广告感。\n",
-      "variables": {},
+      "prompt": "3:4 科考档案海报。纯黑背景被细白网格线切成四个象限，顶部两角各钉一个小的燕尾夹图标，像夹住一张打印纸。\n\n左上象限：白色无衬线粗体排出「{主标题}」，两行堆叠；旁边一行小的白色正文「{档案描述}」，下方压一个极小的注脚「Sources + Archive」。\n\n右上象限：白色等宽字排出坐标串「{坐标串}」，字距均匀，像仪器读数。\n\n画面正中：一只半机械生物的大幅精细插画，是{焦点物种}。它的一半身体是有机的深红外壳，另一半与精密铬机械融合——暴露的齿轮、纤细的金属关节、沿腿部和胸腹延伸的发光电路缝。表面在强光下泛起油膜般的虹彩，紫、金、青在金属段上流动。翅膀是半透明的玻璃质感，内部透出微弱的光，能看清纤细的翅脉与机械花丝，底下的网格线从翅膀透出来，翅膀边缘带锐利的镜面高光。机械关节处有小光点在脉动，像内部有电源。\n\n左下：白色文字堆叠「{编目信息}」。\n\n右下：方括号里的音标「{音标}」压在一串坐标数字上方。\n\n最底部边缘正中一枚小的白色泼溅状标志。整体是硬朗的黑白网格系统，唯一发亮的是那只虹彩半机械生物，戏剧化的光与反射落在深红身体上。\n\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "主标题": "{主标题}",
+        "档案描述": "{档案描述}",
+        "焦点物种": "{焦点物种}",
+        "坐标串": "{坐标串}",
+        "编目信息": "{编目信息}",
+        "音标": "{音标}"
+      },
+      "variable_descs": {
+        "主标题": "如：North / Fold / 极地档案 / DEEP FIELD",
+        "档案描述": "如：Kestrel Bay, formerly a restricted fishing outpost, is now a marine research post.",
+        "焦点物种": "如：半机械蜻蜓 / 半机械蝉 / 半机械甲虫",
+        "坐标串": "如：W:118034.2 2207193 / S:3312087 419",
+        "编目信息": "如：04.09.2026 / Daily / Poster 62",
+        "音标": "如：[ˈkɛstrəl] / [ˈdrægənflaɪ]"
+      },
       "source_url": "https://x.com/recraftai/status/2076685043632583099",
       "source_author": "Recraft",
       "preview_urls": [
@@ -8368,7 +8460,7 @@
     {
       "id": "morra_table_parfait_poster",
       "code": "ST0144",
-      "name": "MORRA TABLE 早餐品牌广告海报",
+      "name": "早餐品牌编辑广告海报",
       "category": "creative",
       "tags": [
         "品牌海报",
@@ -8382,20 +8474,31 @@
         "意式酸奶杯",
         "Cannes级食品",
         "editorial food",
-        "MORRA TABLE"
+        "芭菲杯海报"
       ],
       "scene": "食品品牌KV、咖啡馆菜单、早餐主题海报、Instagram社媒图文",
       "ratio": "3:4",
-      "summary": "以戛纳级编辑食品广告呈现高端早餐品牌 MORRA TABLE，超写实芭菲杯为中心，单色线稿插画退为背景，透光宝石浆果层为食欲触发点的精致早餐海报",
+      "summary": "戛纳级编辑食品广告，超写实分层杯居中，单色线稿插画退为背景，透光宝石层为食欲触发点。",
       "features": [
-        "**Cannes级编辑食品广告** — 高端早餐品牌 MORRA TABLE 完整视觉系统，戛纳级别编辑质感",
-        "**超写实芭菲杯** — 玻璃杯、酸奶、燕麦、浆果分 层质感精细，中心视觉锚点",
-        "**单色系线稿背景** — 插画退为背景，统一单色线条稿，交代温馨居家氛围不抢食欲",
-        "**透光果冻宝石层** — 中间红莓层如透光宝石光泽，先抓眼球再读懂层次",
-        "**竖版精致食品海报结构** — 品牌字顶 + 超写实产品居中 + 柔和居家线稿环绕"
+        "**Cannes级编辑食品广告** — 完整品牌视觉系统，戛纳级别编辑质感",
+        "**超写实分层杯** — 玻璃杯与分层质感精细，作为中心视觉锚点",
+        "**单色系线稿背景** — 插画退为背景，统一单色线条稿，交代氛围不抢食欲",
+        "**透光果冻宝石层** — 中间一层如果冻宝石，先抓眼球再读懂层次",
+        "**竖版精致食品海报结构** — 品牌字顶 + 超写实产品居中 + 柔和线稿环绕"
       ],
-      "prompt": "Create an ultra-premium breakfast parfait advertising poster for an original lifestyle cafe brand called MORRA TABLE, designed as a Cannes-level editorial food campaign with a warm illustrated home-scene atmosphere, a fully unified monochrome sketch system, and a more luminous jewel-like berry layer that becomes the first unforgettable appetite trigger.\n\nPreserve the exact core structural logic of a refined vertical food poster: elegant brand typography at the top, one oversized hyper-real parfait glass centered in the lower-middle area, and a soft single-color line-drawn domestic world surrounding it like a playful narrative sketch. The final image must feel warm, intimate, calm, design-forward, gently whimsical, and highly art-directed, while the real product remains the strongest visual anchor.\n\nhyper-real parfait as the only fully rendered hero, surrounded by monochrome line-art. The glass, yogurt and oat textures are rendered first; the line drawing only handles the breakfast atmosphere without competing for appetite.\n\nluminous ruby berry layer placed between a quiet cream base and dry oat crown. The middle berry layer should feel like a translucent jelly gem — you are first grabbed by its sheen, then naturally read the layered structure of \"milky aroma, fruit acid, baked grains.\"\n\nThe brand typography at top should be elegant and refined. The oversized hyper-real parfait glass should dominate the lower-middle area. The surrounding domestic world should feel like a soft single-color line-drawn narrative sketch, playful yet restrained.\n\nStyle: ultra-premium breakfast parfait advertising poster, Cannes-level editorial food campaign, warm illustrated home-scene atmosphere, fully unified monochrome sketch system, luminous jewel-like berry layer, vertical food poster composition, hyper-real food photography, elegant brand typography, editorial food photography, warm intimate mood, design-forward, highly art-directed.\n不要水印，不要真实Logo，不要电商广告感。\n",
-      "variables": {},
+      "prompt": "3:4 高端早餐品牌广告海报，为原创生活方式咖啡馆{品牌名}做的戛纳级编辑食品 campaign：温暖的插画居家氛围、完全统一的单色线稿系统、中间一层更透亮的宝石质感作为第一眼的食欲触发点。\n\n版式严格遵循精致竖版食品海报的结构：顶部优雅的品牌字体，中下部一只超大的超写实{产品}居中，四周被一圈柔和的单色线描居家世界包住，像一张俏皮的叙事速写。画面温暖、亲密、安静、有设计感、轻微奇想，但真实的产品始终是最强的视觉锚点。\n\n{产品}是唯一被完整渲染的主体，周围全是单色线稿。杯身、容器与食物的质感先被交代清楚——{分层描述}。中间那一层要像半透明的果冻宝石，先被它的光泽抓住，再自然读出「奶香、果酸、烘烤谷物」的层次。\n\n线稿部分：{线稿场景}，线条流畅、单色、克制，只负责气氛，不参与食欲的争夺。\n\n风格：超高端早餐广告、戛纳级编辑食品 campaign、温暖插画居家感、统一单色速写系统、透光宝石层、竖版食品海报构图、超写实食物摄影、优雅品牌排版、温暖亲密、设计先行、高度美术指导。\n\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "品牌名": "{品牌名}",
+        "产品": "{产品}",
+        "分层描述": "{分层描述}",
+        "线稿场景": "{线稿场景}"
+      },
+      "variable_descs": {
+        "品牌名": "如：MORRA TABLE / 晨间研究所 / ATELIER NOON",
+        "产品": "如：一杯意式酸奶芭菲 / 一碗隔夜燕麦 / 一块巴斯克芝士蛋糕",
+        "分层描述": "如：奶油酸奶基底、透光莓果冻层、干烤燕麦脆顶",
+        "线稿场景": "如：晨光里的厨房台面与咖啡壶 / 窗边的餐桌与面包篮"
+      },
       "source_url": "https://x.com/ou_zhen599/status/2087088720864583806",
       "source_author": "ou_zhen599",
       "preview_urls": [
@@ -8655,21 +8758,33 @@
       ],
       "triggers": [
         "现代主义食材分离菜单",
-        "中东街头美食菜单艺术",
-        "成分悬浮美食摄影"
+        "悬浮分离美食菜单",
+        "成分悬浮美食摄影",
+        "ingredient separation menu"
       ],
-      "scene": "高端餐厅菜单、美食品牌视觉、中东街头美食文化海报、Premium 餐饮品牌 KV",
+      "scene": "高端餐厅菜单、美食品牌视觉、Premium 餐饮品牌 KV、食材概念海报",
       "ratio": "16:9 / 2:3",
       "summary": "现代主义料理食材悬浮分离菜单艺术，宏观微距摄影 + 瑞士字体 + 信息图叠加",
       "features": [
-        "**食材悬浮分离** — 现代主义料理风格，食材各组分（酱汁/固体/装饰）在画面中完美悬浮，干净不对称编辑布局",
-        "**宏观食物纹理** — 微距食物纹理摄影，植物纤维、结晶糖结构、面包体架构、酱汁粘度、面包屑结构纤毫毕现",
-        "**语义突变** — 每种食材内部藏有微型幻影立体模型，揭示其起源（如面包粒内现麦田、橄榄油滴后有橄榄林）",
-        "**信息叠加** — 热量标注、采购地图图钉、风味雷达图、新鲜度指示器，以纯净信息图风格轻覆于食物之上",
+        "**食材悬浮分离** — 现代主义料理风格，食材各组分在画面中完美悬浮，干净不对称编辑布局",
+        "**宏观食物纹理** — 微距食物纹理摄影，植物纤维、结晶糖结构、面包体架构、酱汁粘度纤毫毕现",
+        "**语义突变** — 每种食材内部藏有微型幻影立体模型，揭示其起源",
+        "**信息叠加** — 热量标注、采购地图图钉、风味雷达图、新鲜度指示器，纯净信息图风格轻覆于食物之上",
         "**高级菜单质感** — 哑光艺术纸背景，优雅瑞士菜单字体，软工作室灯光带蒸汽感，暖调诱人配色"
       ],
-      "prompt": "Generate a vertical menu-art image (2:3 ratio) of [$SIGNATURE_DISH] titled \"[$DISH_NAME]\" with the subtitle \"[$CHEF_RESTAURANT]\".\n\nComposition: The dish's components—sauces, solids, garnishes—float in perfect suspension as a modernist cuisine ingredient separation, arranged in a clean, asymmetric editorial layout. The background is matte fine-art paper with minimal, elegant Swiss-menu typography.\n\nMaterial & Detail: Macro food texture photography reveals every element at multiple scales:\n- Vegetable fibers, crystallized sugar structures, breadcrumb architecture, sauce viscosity, and crumb structure are visible in microscopic detail.\n- Each ingredient carries a \"semantic mutation\": a tiny, ghosted diorama inside or behind it that reveals its origin (e.g., wheat fields inside a grain of bread, olive groves behind a drop of oil, cacao pod inside chocolate shavings).\n- Calorie callouts, sourcing map pins, flavor-profile radar charts, and freshness indicators are subtly overlaid in a clean infographic style, never obscuring the food.\n\nLighting & Atmosphere: Soft studio lighting with a hint of steam rising from the warm elements. The overall palette is warm, appetizing tones—creamy whites, rich browns, vibrant greens, and touches of amber—against the paper background.\n\nStyle DNA:\n- 40% Modernist cuisine ingredient separation\n- 30% Macro food texture photography\n- 15% Minimalist Swiss menu design\n- 10% Soft studio lighting with steam\n- 5% Fine art paper texture\n\nConstraints: The image must be appetizing, clean, highly detailed, and suitable for a premium restaurant menu. No clutter, no messy plating, no hard shadows. All information overlays must be subtle and integrated.\n\nNegative: No photorealistic whole dish on a plate, no messy backgrounds, no aggressive colors, no unreadable text, no generic food stock.\n\nAspect ratio: 16:9 or 2:3.\n\n不要水印，不要真实Logo，不要凌乱背景。\n",
-      "variables": {},
+      "prompt": "2:3 竖版菜单艺术图，主角是一道{招牌菜}，标题「{菜名}」，副标题「{主厨餐厅}」。\n\n构图：这道菜的各个组成部分——酱汁、固体、装饰——以现代主义料理的食材分离方式完美悬浮在空中，排列成干净的非对称编辑版式。背景是哑光艺术纸，上面只有极简优雅的瑞士菜单字体。\n\n材质与细节：微距食物纹理摄影，每个元素都在多个尺度上交代清楚——植物纤维、结晶糖结构、面包的内部架构、酱汁的粘度、碎屑的断面，全部纤毫毕现。\n\n语义突变：{语义突变}。每种食材内部或背后藏着一个微小的幽灵般立体模型，揭示它的来历。\n\n信息叠加：热量标注、产地地图钉、风味雷达图、新鲜度指示器，以干净的信息图风格轻覆在食物上，绝不遮挡食物本身。\n\n光线与氛围：柔和的工作室灯光，热的元素上有细微的蒸汽升起。整体暖调、诱人——奶油白、饱满的棕、鲜活的绿，加一点琥珀色，衬在纸底上。\n\n比例：40% 现代主义食材分离，30% 微距食物纹理摄影，15% 极简瑞士菜单设计，10% 柔光加蒸汽，5% 艺术纸质感。\n\n约束：必须诱人、干净、细节密集，适合高端餐厅菜单。不杂乱，不堆盘，没有硬阴影。所有信息叠加都必须克制且融合。\n\n负向：不要完整的装盘菜品照片，不要凌乱背景，不要刺激的颜色，不要无法辨认的文字，不要图库感食品照。\n\n不要水印，不要真实Logo，不要凌乱背景。\n",
+      "variables": {
+        "招牌菜": "{招牌菜}",
+        "菜名": "{菜名}",
+        "主厨餐厅": "{主厨餐厅}",
+        "语义突变": "{语义突变}"
+      },
+      "variable_descs": {
+        "招牌菜": "如：一份烤羊排配石榴酱 / 一碗味噌拉面 / 一块巧克力挞",
+        "菜名": "如：慢烤羊肩 · 石榴 / MISO RAMEN / CACAO 72%",
+        "主厨餐厅": "如：主厨 李明 · 山海餐厅 / CHEF ANA · ATELIER 9",
+        "语义突变": "如：面包粒里现麦田、油滴后有橄榄林 / 米粒里现水田、辣椒碎里有高原"
+      },
       "source_url": "https://x.com/Gdgtify/status/2084667929938071909",
       "source_author": "Gdgtify",
       "preview_urls": [
@@ -8895,16 +9010,25 @@
       ],
       "scene": "品牌时尚KV、社媒时尚大片、杂志封面、时装设计概念海报",
       "ratio": "3:4",
-      "summary": "将时尚摄影与激进平面设计融合的混合媒体编辑风格，通过高对比双色调背景、半色调纹理与涂鸦笔触叠加，突出时装廓形的艺术张力",
+      "summary": "时尚摄影与激进平面设计融合的混合媒体编辑风格，高对比双色调背景 + 半色调纹理 + 涂鸦笔触，突出时装廓形。",
       "features": [
         "**混合媒体拼贴** — 时尚摄影与平面设计元素叠加，半色调、噪点纹理、涂鸦飞溅与排版碎片共存",
-        "**高对比双色调背景** — 青绿与橙色饱和分割背景，非写实平面背景作为动态画布",
-        "**点状风衣廓形** — 黑色波点风衣叠穿橙色连体衣，服装边界锋利与背景动态笔触形成张力",
+        "**高对比双色调背景** — 两个饱和色分割背景，非写实平面背景作为动态画布",
+        "**锋利服装廓形** — 服装边界清晰，与背景的动态笔触形成张力",
         "**硬调摄影灯光** — 方向性硬光塑造面部高对比结构，暖冷色调高调平衡",
-        "**全身侧角度拍摄** — 85mm镜头平视视角，竖向构图平衡主体与环境"
+        "**全身侧角度拍摄** — 85mm 镜头平视视角，竖向构图平衡主体与环境"
       ],
-      "prompt": "A stylish woman with a short, textured afro strides confidently in profile, wearing a structured trench coat adorned with large black polka dots over a vibrant orange jumpsuit. The composition integrates high-fashion photography with aggressive graphic design elements, featuring a split-toned teal and saturated orange background overlaid with distressed typographic textures, halftone patterns, and chaotic painterly splatters. Direct studio lighting illuminates her face with sharp highlights, creating high-contrast modeling that emphasizes her angular features. The background remains flat and non-representational, acting as a dynamic canvas for the layered mixed-media aesthetic, where sharp edges of the garment contrast against the energetic, abstracted brushstrokes and geometric shapes that surround the subject in a balanced, vertical orientation.\nStyle: Mixed-media fashion illustration, high-contrast digital collage. Key elements: Polka-dot trench coat, orange jumpsuit, typographic patterns, halftone splatters, editorial model. Lighting: Studio hard lighting, directional, high-key warm and cool balance. Camera: Full-body side profile, 85mm lens, eye-level perspective.\n不要水印，不要真实Logo，不要电商广告感。\n",
-      "variables": {},
+      "prompt": "{人物与姿态}，身穿{服装}。画面把高级时装摄影与激进的平面设计叠在一起：背景是{双色调}的分割色块，上面压着做旧的排版纹理、半色调网点与混乱的绘画飞溅。\n\n硬调的棚灯从一侧打亮面部，勾出锐利的高光和雕塑般的结构，暖冷色调在高调中取得平衡。\n\n背景保持扁平、不具象，作为混合媒体美学的动态画布——服装的锋利边缘与周围那些能量充沛的抽象笔触、几何形状形成对峙，主体在竖向构图里被稳住。\n\n风格：混合媒体时装插画、高对比数字拼贴。关键元素：明确的服装廓形、排版图案、半色调飞溅、编辑级模特。机位：全身侧向、85mm 镜头、平视。\n\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "人物与姿态": "{人物与姿态}",
+        "服装": "{服装}",
+        "双色调": "{双色调}"
+      },
+      "variable_descs": {
+        "人物与姿态": "如：一位短发贴头皮的女性侧身大步走过 / 一名少年背对立于画面中央",
+        "服装": "如：黑色大波点廓形风衣叠穿橙色连体衣 / 硬挺西装外套配纱裙",
+        "双色调": "如：青绿与饱和橙 / 洋红与深蓝 / 芥末黄与墨黑"
+      },
       "source_url": "https://x.com/im_shahid7/status/2084667131120202013",
       "source_author": "im_shahid7",
       "preview_urls": [
@@ -9772,7 +9896,7 @@
     {
       "id": "lululemon_campaign_board",
       "code": "ST0173",
-      "name": "Lululemon 高端运动服营销企划板",
+      "name": "高端运动服营销企划板",
       "category": "brand_kv",
       "tags": [
         "campaign_board",
@@ -9795,11 +9919,26 @@
         "**1大+6小网格布局** — 一张大型横幅主视觉作为画面核心，下方排列六张小尺寸面板，整体呈编辑系统感",
         "**粉紫色调+炭黑底色** — 淡粉紫、薰衣草、象牙白、浆果色点缀，冷调高端运动感",
         "**超写实运动员** — 健康西方模特，真实解剖结构，时尚运动姿态，前卫动感",
-        "**叙事性大字体排版** — LULULEMON / FORM LEADS FORCE 等大字与图形元素交织",
+        "**叙事性大字体排版** — 大字标语与图形元素交织，字号层级拉开",
         "**手绘线条点缀** — 笔触下划线、动感曲线、符号图形与人物/文字互动"
       ],
-      "prompt": "Create a high-end Lululemon Athletica campaign board with one large hero banner and six smaller supporting panels on a minimalist pure-color background.\n\nLayout: Large horizontal hero banner dominates the upper section, six smaller panels arranged in a clean grid below. The composition feels organized, rhythmic, and premium like a complete seasonal campaign presentation.\n\nColor system: cool pink-lilac, powder lavender, ivory white, deep charcoal black, with small controlled accents of soft berry or silver-gray. Clean, elevated, and contemporary.\n\nHero banner: A healthy Western female athletic model as the main campaign face with realistic anatomy, strong fit physique, modern facial structure, and poised editorial presence. Authentic Lululemon Athletica apparel rendered with premium realism. Large modern English typography interacts with the figure in a bold but elegant way.\n\nSix supporting panels: Each tile shows a different supporting story through movement, product emphasis, or graphic narrative — stretching poses, crouching action, standing balance, footwear detail, motion-focused dynamic panel, and product-centric slogan panel. Each follows the same Lululemon visual family.\n\nTypography: Large modern English words and phrases with refined hierarchy and editorial placement. Text directions: \"LULULEMON\", \"ATHLETICA\", \"FORM LEADS FORCE\", \"MOTION HOLDS SHAPE\", \"MOVE WITH CLARITY\", \"STRUCTURE IN FLOW\". Clean, contemporary, bold, and premium.\n\nHand-drawn narrative graphics: Refined hand-drawn text elements, brush underlines, motion curves, symbolic marks, calligraphic linework, and graphic loops integrated into the layout.\n\nBackground: Minimal pure-color or soft gradient-flat background, highly structured and contemporary. No realistic scenery or busy environment.\n\nLighting: Bright premium editorial lighting across the entire board. Each figure and product feels hyper-real, crisp, and premium against clean color fields.\n\nMood: structured, premium, athletic, fashion-forward, contemporary, graphic, editorial, youthful, disciplined, high-impact, polished, intelligently designed.\n\nRendering style: hyper-real Lululemon Athletica campaign board, one large hero banner plus six smaller panels, minimalist pure-color background system, expressive narrative typography, hand-drawn storytelling graphics, cool pink-lilac and ivory palette, premium sportswear realism, avant-garde fashion-sport editorial, 8k, world-class campaign quality.\n\nNegative prompt: messy collage, inconsistent layout, weak hierarchy, cluttered background, cheap fitness ad, distorted anatomy, broken limbs, bad hands, extra fingers, twisted joints, influencer look, generic sportswear, low-detail fabric, cartoon doodles, chaotic grid, muddy colors, blurry shoes, dirty shadows, black blotches.\n\n不要水印，不要真实Logo，不要电商广告感。\n",
-      "variables": {},
+      "prompt": "9:16 高端运动品牌 campaign 企划板：一张大型横幅主视觉加六张小面板，全部压在极简纯色背景上。\n\n版式：上方是横贯整幅的大型 hero 横幅，下方六个小面板排成整齐网格，间距一致、边缘对齐，整体像一套完整的季度 campaign 提案，节奏有序、昂贵。\n\n配色：{配色}。纯色或极浅的扁平面背景，不出现真实场景，不出现杂乱环境。\n\nHero 横幅：{模特描述}作为主视觉面孔，解剖结构真实，体型紧实有力，面部现代、表情克制，具备编辑级存在感；身穿{品牌名}的{产品品类}，面料质感、缝线、光泽都按高保真还原。大型现代排版与人物咬合穿插，字可以压在人物身上，但保持清晰可读。\n\n六个小面板：每格讲一个不同的支撑故事——伸展、蹲起发力、静止平衡、鞋履细节、动态运动、产品标语，各自独立又同属一套视觉家族。\n\n排版：大字标语用现代无衬线，层级分明，编辑式摆放。主标语「{主标语}」字号最大，与人物形成前后穿插；辅标语「{辅标语}」用较小字号分布在面板边缘，字距收紧。\n\n手绘叙事图形：笔触下划线、动感曲线、符号标记、书法线条与图形环，与人物和文字互动，像直接画在版面上。\n\n光线：通篇明亮的高级编辑打光，人物与产品在干净色场上显得锐利、真实、有质感。\n\n调性：结构化、高端、运动、时尚前卫、当代、图形化、编辑感、年轻、克制、有冲击力。\n\n负向：杂乱拼贴、版式不统一、层级薄弱、背景拥挤、廉价健身房广告、解剖错误、断肢、坏手、多余手指、关节扭曲、网红感、面料细节糊、颜色浑浊、阴影脏。\n\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "品牌名": "{品牌名}",
+        "产品品类": "{产品品类}",
+        "模特描述": "{模特描述}",
+        "主标语": "{主标语}",
+        "辅标语": "{辅标语}",
+        "配色": "{配色}"
+      },
+      "variable_descs": {
+        "品牌名": "如：LULULEMON / 山野 / ATELIER MOVE",
+        "产品品类": "如：瑜伽裤与运动背心 / 跑步外套 / 训练紧身衣",
+        "模特描述": "如：一位健康紧实的女性运动员 / 两名背对镜头的跑者",
+        "主标语": "如：FORM LEADS FORCE / 力量先于形态 / MOVE WITH CLARITY",
+        "辅标语": "如：MOTION HOLDS SHAPE / STRUCTURE IN FLOW / 静止也是训练",
+        "配色": "如：淡粉紫与象牙白 / 雾蓝与炭黑 / 沙色与深橄榄"
+      },
       "source_url": "https://x.com/ou_zhen599/status/2076585709645992023",
       "source_author": "Loriel.AI",
       "preview_urls": [
@@ -10362,22 +10501,32 @@
         "K-gyaru",
         "街头抓拍",
         "韩系街头",
-        "야호",
         "文字泡泡",
         "胶片抓拍"
       ],
       "scene": "",
       "ratio": "3:4（默认）",
-      "summary": "将真人照片变成韩系街头抓拍风——活力\"야호~!\"手势 + 韩式辣妹妆 + 文字泡泡 + 胶片质感。",
+      "summary": "将真人照片变成韩系街头抓拍风——活力打招呼手势 + 韩式辣妹妆 + 文字泡泡 + 胶片质感。",
       "features": [
-        "**\"야호~!\" V手势**：手掌向前，拇指食指张开成大V形（gyaru claw pose），超广角近景让手稍显放大",
-        "**文字泡泡**：左上/右上空白区域添加 \"OOO 야호~!\" + 2-3个 \"やっほ〜♡\" 小贴纸",
-        "**韩式辣妹造型**：亮棕卷发、亮片眼妆、水晶美甲、露脐上衣+迷你裙",
-        "**街头真实感**：豹纹店面/粉色咖啡招牌，自然日光下拍摄，像朋友随手拍",
-        "**胶片相机质感**：轻微动态模糊、柔焦、颗粒感、日光高光"
+        "****打招呼 V 手势**：掌心向前，拇指食指张开成大 V 形，超广角近景让手稍显放大** — 脸部在手后方，眼睛仍盯着镜头",
+        "****文字泡泡**：空白区域放主文字 + 2-3 个次要小贴纸** — 亮粉泡泡字、白高光、银色闪粉描边，不遮脸和手",
+        "****韩系辣妹造型**：分层染发、亮片眼妆、水晶美甲、露脐上衣** — 现代、日常可穿，不 costume 化",
+        "****街头真实感**：店面或咖啡招牌前，自然日光，像朋友随手拍** — 不做影棚大片，不做海报感",
+        "****胶片相机质感**：轻微动态模糊、柔焦、颗粒、日光高光** — 一次性相机快照的味道"
       ],
-      "prompt": "Transform the provided reference image into a cute, trendy, photorealistic K-gyaru street snap.\n\nPreserve the original person's identity, facial likeness, natural expression, and realistic atmosphere. The image should look like a candid daytime photo taken by a friend on a Korean street, not a poster, cosplay, stage photo, or studio editorial.\n\nThe key pose is an energetic \"Yaho!\" greeting with a gyaru-style palm-forward V hand pose. The subject extends one hand toward the camera, palm facing forward, with the thumb and index finger spread wide into a large V/L-shaped gesture, similar to a playful gyaru claw pose. The other fingers are softly bent and visible. Use a close ultra-wide-angle perspective so the hand appears slightly enlarged in the foreground, while the smiling or playful winking face is naturally behind it. Make the long crystal nails, rings, fingers, and palm details clear, sharp, and natural.\n\nStyle the subject with a modern, wearable K-gyaru mood: glossy blonde-brown or warm ash-brown layered hair, soft waves, face-framing bangs, heart or star accessories, glitter eyeshadow, defined eyeliner, long lashes, bright under-eye makeup, pink blush, glossy lips, crystal nails, rings, hoop earrings, layered necklaces, heart pendant, chain details, cropped top, mini skirt, belt, and subtle fur or sparkling accents blended with trendy Korean street fashion.\n\nUse a realistic daytime Korean street background: leopard-pattern storefront or poster wall, hot-pink café sign or fashion-shop exterior, or casual K-gyaru street snap atmosphere. Add soft natural light, urban reflections, pastel street colors, subtle bokeh, and casual street details.\n\nPlace the exact text \"OOO 야호~!\" clearly in the upper-left or upper-right empty space. It must be easy to find, accurately readable, and spelled exactly as \"Clair 야호~!\" Style it as a medium-sized cute SNS sticker caption with hot-pink bubble letters, white highlights, a subtle silver glitter outline, and small heart accents. Do not cover the face, extended hand, nails, or important body details. Add 2-3 small \"やっほ〜♡\" bubble stickers nearby, secondary to the main text.\n\nMake the final image feel like a spontaneous compact film camera or disposable camera snapshot, with slight motion blur, soft focus, subtle film grain, realistic daylight highlights, natural skin texture, mild noise, sunlit street atmosphere, and a hot-pink, cute, confident, playful, sparkly mood.\n\nAvoid: night lighting, dark neon atmosphere, unreadable or incorrect text, hidden text, extra fingers, deformed hands, hidden nails, covered face, oversized text, over-retouched skin, HDR look, stiff posing, costume-like styling, studio editorial look, or losing the reference likeness.",
-      "variables": {},
+      "prompt": "把提供的参考照片转成一张可爱、时髦、写实的 K-gyaru 街头抓拍。\n\n保留原人物身份、面部特征、自然表情和真实氛围。整体要像朋友在韩国街头用手机随手拍的白天照片，而不是海报、cosplay、舞台照或影棚大片。\n\n核心姿势：一个充满活力的打招呼动作，gyaru 式的掌心向前 V 手势。人物把一只手伸向镜头，掌心朝前，拇指与食指张开成一个大的 V 形，其余手指自然微屈可见。用超广角近景，让手在前景里略微放大，笑脸或俏皮的眨眼在手的后方。水晶长甲、戒指、手指与掌心的细节都要清晰自然。\n\n造型：{造型要点}。现代、日常可穿的 K-gyaru 风格。\n\n背景：{场景}。加柔和的自然日光、城市反光、柔和的街色、轻微虚化和随意的街头细节。\n\n文字：在左上或右上的空白处放一行清晰可读的文字——「{文字泡泡}」，必须是准确的这串字，不要错字，不要遮挡。样式做成中等大小的可爱 SNS 贴纸字幕：亮粉色泡泡字、白色高光、极细的银色闪粉描边、小心心点缀。不要盖住脸、伸出的手、指甲或身体的关键细节。旁边再加两三枚小贴纸「{副贴纸}」作为次要元素。\n\n质感：最终画面要像一台小型胶片机或一次性相机拍的随手快照——轻微动态模糊、柔焦、细胶片颗粒、真实的日光高光、自然的皮肤纹理、轻微噪点、阳光街头的氛围，整体亮粉、可爱、自信、俏皮、闪亮。\n\n避免：夜景、暗色霓虹、错误或无法辨认的文字、隐藏文字、多余手指、变形的手、遮住指甲、遮住脸、文字过大、过度磨皮、HDR 感、僵硬摆拍、服装感过重、影棚大片感、丢失参考人像的相似度。",
+      "variables": {
+        "造型要点": "{造型要点}",
+        "场景": "{场景}",
+        "文字泡泡": "{文字泡泡}",
+        "副贴纸": "{副贴纸}"
+      },
+      "variable_descs": {
+        "造型要点": "如：亮棕层次卷发、亮片眼妆、水晶美甲、露脐上衣配迷你裙",
+        "场景": "如：豹纹店面外墙 / 亮粉色咖啡招牌 / 潮流店铺门口",
+        "文字泡泡": "如：Clair 야호~! / MOMO やっほ〜 / 今天也很元气",
+        "副贴纸": "如：やっほ〜♡ / tiny heart sticker / cute ★"
+      },
       "source_url": "https://x.com/only01clair",
       "source_author": "only01clair",
       "preview_urls": [
@@ -10876,16 +11025,25 @@
       ],
       "scene": "日料品牌海报、omakase餐厅KV、高端美食广告",
       "ratio": "3:4",
-      "summary": "GPT Image 2 的日料电影感美食摄影，蓝黑冷色调 + 强逆光穿透冷雾 + 极致写实食材",
+      "summary": "日料电影感美食摄影，蓝黑冷色调 + 强逆光穿透冷雾 + 极致写实食材",
       "features": [
-        "**冷色调蓝黑氛围** — 深蓝黑背景，冷调奢华感，高端omakase餐厅调性",
+        "**冷色调蓝黑氛围** — 深蓝黑背景，冷调奢华感，高端 omakase 餐厅调性",
         "**强逆光光影** — 穿透冷雾的光晕，食材边缘透光，散景光斑",
         "**冷雾与凝结感** — 冷蒸汽、凝结雾气、悬浮微粒，氛围深邃",
-        "**极致食材写实** — 鱼生纹理、半透明鱼肉、湿性反光、精确刀工",
+        "**极致食材写实** — 纹理、半透明质感、湿性反光、精确刀工",
         "**前后景深分层** — 前景柔焦、中景主体清晰、背景消失在黑暗中"
       ],
-      "prompt": "Create an ultra-premium cinematic food advertising poster for Japanese cuisine, focused on a cold-toned sashimi and raw seafood concept with a blue-black luxury atmosphere, extreme ingredient realism, and master-level backlit mist, condensation, and airborne particle detail. The image should feel like a frame from a high-end food film: luminous, cold, precise, atmospheric, and spatially deep. The key priority is strong cinematic backlight, translucent cold vapor, and a rich sense of foreground-to-background depth. Main composition: Use a vertical premium food-poster composition against a deep blue-black background. In the lower center, place one elegant dark Japanese serving bowl or refined ceramic vessel as the visual anchor. From the bowl, raw seafood ingredients rise upward in a controlled, graceful burst, surrounded by cold mist, condensation haze, and suspended micro particles. The composition should have clear spatial layering: a softly blurred foreground edge, a sharply rendered midground hero dish, and a luminous atmospheric background receding into darkness and mist. Food direction: Create a luxurious Japanese sashimi-inspired composition with premium raw ingredients such as: thick-cut salmon sashimi, tuna cubes or slices, delicate white fish, microgreens, seaweed strands, shiso leaves, purple edible flowers, ikura accents, daikon threads, small citrus details, micro droplets and chilled glaze reflections. The food should feel rare, expensive, and masterfully prepared, suggesting elite omakase dining. Ingredient realism: Push ingredient realism to the highest level: silky fish grain, cool translucent flesh, wet reflective seafood surfaces, precise knife-cut geometry, micro condensation, tiny water beads, leaf fibers, fresh marbling, subtle natural moisture, cold reflective highlights. The food must look alive, fresh, chilled, and premium. Backlight and cinematic lighting: Use strong cinematic backlight passing through the cold mist, condensation haze, and airborne salt-like particles. The light should create a luminous halo around floating ingredients, translucent edges on sashimi slices, glowing droplets, and delicate particle sparkle in the air. Use a combination of cool backlight, subtle side light, and complementary front fill.\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
-      "variables": {},
+      "prompt": "3:4 超高端日料电影感美食广告海报，冷调、蓝黑奢华氛围，极致的食材写实，以及大师级的逆光冷雾、凝结与悬浮微粒。整张图应该像一部高端美食电影的定格：通透、冷峻、精准、有空气感、空间纵深强烈。核心优先级是强烈的电影逆光、半透明的冷蒸汽，以及从前景到背景的丰富层次。\n\n构图：竖版高端食品海报，深蓝黑背景。画面下方居中放{容器}作为视觉锚点，容器里是{菜品}；食材从容器向上做一次克制而优雅的绽放，四周环绕冷雾、凝结雾气和悬浮的微粒。空间分层明确：前景边缘柔焦，中景主体锐利，背景的光晕向黑暗与雾中退去。\n\n食材写实：把真实感推到极致——细腻的鱼肉纹理、冷调的半透明肉质、湿润反光的表面、精确的刀工几何、微小的凝结水珠、叶片纤维、新鲜的大理石纹、自然的湿度、冷调的反射高光。食材必须看起来鲜活、冰凉、昂贵。\n\n光线：强电影逆光穿过冷雾与凝结尾迹，在食材边缘形成透光的光晕；侧光补出结构的冷硬转折；正面的补光极轻，只够看清层次。散景光斑在背景里漂浮。\n\n调性：稀有、昂贵、克制，暗示顶级 omakase 的用餐体验。主标题「{主标题}」以极小的字号压在画面一角，安静、不抢食物。\n\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
+      "variables": {
+        "菜品": "{菜品}",
+        "容器": "{容器}",
+        "主标题": "{主标题}"
+      },
+      "variable_descs": {
+        "菜品": "如：厚切三文鱼与金枪鱼刺身 / 一碟海胆配鱼子 / 炙烤和牛握寿司",
+        "容器": "如：一只深色日式陶碗 / 一块黑色石板 / 一只薄胎白瓷碟",
+        "主标题": "如：冷 · 鲜 / OMAKASE / 一夜干"
+      },
       "source_url": "https://x.com/ou_zhen599/status/2074912308313325819",
       "source_author": "Loriel.AI",
       "preview_urls": [
@@ -11264,33 +11422,47 @@
     {
       "id": "hold_the_line_declaration_poster",
       "code": "ST0198",
-      "name": "Hold The Line 宣言海报",
+      "name": "黑底宣言海报（铬质焦点）",
       "category": "creative",
       "tags": [
         "宣言海报",
-        "铬裂纹茶杯",
+        "铬质物件",
         "居中排版",
         "编辑感",
         "黑色高对比"
       ],
       "triggers": [
-        "Hold The Line宣言",
-        "铬裂纹茶杯海报",
+        "宣言海报",
+        "黑底大字海报",
+        "铬质物件海报",
         "居中宣言式排版",
         "declaration poster chrome"
       ],
       "scene": "宣言海报、品牌KV、社交媒体图文、编辑出版",
       "ratio": "3:4",
-      "summary": "居中宣言式排版海报，铬裂纹茶杯焦点+银链，高对比纯黑背景+白色轨道弧线",
+      "summary": "黑底宣言海报：顶部细线短语 + 混排主标题 + 铬质焦点物件 + 镜像正文 + 条码碎片。",
       "features": [
-        "**居中宣言式排版** — 顶部细线排列「PATIENCE IS NOT A DELAY IT'S A DECISION」，主标题「HOLD / the / LINE.」",
-        "**铬裂纹茶杯焦点** — 居中亮泽虹彩铬质裂纹茶杯，湿漉漉的液态金属质感，缠有细银链",
-        "**高对比纯黑背景** — 黑色背景，细白轨道弧线如轨道般环绕茶杯，干净利落",
-        "**镜像重复文字块** — 左右镜像重复的正文文字，品牌感/编辑感强",
-        "**条码与坐标点缀** — 右下角条码图形+数字串，RIO/MDW/2100 HRS 等碎片信息"
+        "**居中宣言式排版** — 顶部细线串起一串极小字号短语，下方混排块字与手写体主标题",
+        "**铬质焦点物件** — 居中一件液态金属质感的物件，虹彩高光，坐在反光深色台面上",
+        "**高对比纯黑背景** — 黑色背景带细颗粒，细白轨道弧线环绕物件",
+        "**镜像重复文字块** — 左右镜像的正文块，像回声，编辑感强",
+        "**条码与坐标点缀** — 角落条码图形与数字串、被裁切的碎片信息"
       ],
-      "prompt": "Poster, pure black background with fine grain. At the top, a thin horizontal line spans the width with small tracking-spaced white words placed along it: 'PATIENCE / IS / NOT / A / DELAY / IT'S / A / DECISION'. Below, a large headline mixing bold white sans-serif with a connecting cursive script: 'HOLD' in heavy block letters, followed by a flowing italic script 'the' looping beneath it, then 'LINE.' in bold block letters again, with a small red square period accent. Center-left and center-right, mirrored duplicate body text blocks reading: 'You are still building something, even on the days it doesn't look like progress. Hold the line.' Below the headline, a glossy iridescent chrome object — a cracked porcelain teacup rendered in liquid-metal chrome with rainbow highlights, wrapped loosely in a thin silver chain, sitting on a reflective dark surface. Thin white orbital lines arc behind the object like orbit paths. Left-side stacked white text fragments, slightly cut off as if cropped: 'RIO, / MDW', '2100 / HRS', 'HOLD / LINE'. Bottom-right corner: a small barcode graphic with a number string beneath it. Clean grid alignment, high-contrast black background, single glossy chrome object as focal point.\n不要水印，不要真实Logo，不要电商广告感。\n",
-      "variables": {},
+      "prompt": "3:4 竖版宣言海报，纯黑背景带细颗粒，版式极简、网格极严。画面上部一条极细的水平线横贯宽度，线上均匀分布一串极小、字距拉开的白色词：「{顶部小字}」。\n\n线下方是巨大的主标题「{主标题}」：粗重的白色无衬线块字与流动的手写体混排，手写体在块字下方勾连穿过，标题末尾用一个极小的红色方块作句点。\n\n标题下方居中偏左右各有一块镜像的正文，两块文字左右对称、互为回声，内容为「{正文}」，字号小、行距宽。\n\n画面视觉焦点落在标题下方的一件物件上：{焦点物件}。物件是液态金属般的铬，表面有彩虹色高光和湿润的反射，放置在一块反光的深色台面上，背后几条极细的白色弧线像轨道一样掠过。\n\n画面左侧竖排几行被裁掉一半的白色小字碎片：「{侧边碎片}」，像从版面外裁进来的；右下角一枚极小的条形码图形，下方压一串数字。\n\n整体网格对齐，黑底高反差，唯一的立体物件作为焦点，其余全是平面排版。不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "顶部小字": "{顶部小字}",
+        "主标题": "{主标题}",
+        "正文": "{正文}",
+        "焦点物件": "{焦点物件}",
+        "侧边碎片": "{侧边碎片}"
+      },
+      "variable_descs": {
+        "顶部小字": "如：PATIENCE / IS / NOT / A / DELAY / IT'S / A / DECISION",
+        "主标题": "如：HOLD the LINE. / 别停下来 / STAY THE COURSE",
+        "正文": "如：You are still building something, even on the days it doesn't look like progress.",
+        "焦点物件": "如：一只铬质破裂瓷茶杯缠着细银链 / 一枚液金苹果 / 一只镀铬折纸鹤",
+        "侧边碎片": "如：RIO, / MDW · 2100 / HRS · HOLD / LINE"
+      },
       "source_url": "https://x.com/recraftai/status/2076685043632583099",
       "source_author": "Recraft",
       "preview_urls": [
@@ -11322,16 +11494,27 @@
       ],
       "scene": "品牌季节海报、农产品市集、节气特展、社交媒体节庆视觉",
       "ratio": "9:16",
-      "summary": "高调明亮编辑风海报，浅灰白背景+大面积柔焦色块+密集几何无衬线文字+放射光芒符号",
+      "summary": "高调明亮编辑风海报，浅灰白背景 + 大面积柔焦色块 + 密集几何无衬线文字 + 放射光芒符号",
       "features": [
-        "**高调明亮基调** — 60%+浅灰白背景 + 30%中明度高饱和色块，克制不堆砌",
+        "**高调明亮基调** — 60%+ 浅灰白背景 + 30% 中明度高饱和色块，克制不堆砌",
         "**虚化散景色块** — 大面积柔焦色彩质，透明叠加、层次扩散，只有轮廓可辨",
         "**锐利放射光芒符号** — 高饱和小圆心 + 长短交替细光芒 + 末端空心圆，置于色块之上",
-        "**密集几何无衬线文字柱** — 左侧厚重几何无衬线堆叠标题，配套日期/编号/圆形徽章模块",
+        "**密集几何无衬线文字柱** — 一侧厚重几何无衬线堆叠标题，配套日期/编号/圆形徽章模块",
         "**平涂数码质感** — 色块边缘为光学虚化而非水彩晕染，文字与符号矢量锐利，无纸张泛黄做旧"
       ],
-      "prompt": "Build a fresh, high-key seasonal editorial poster around any thematic subject, letting the reading begin with a dense black title at one starting corner and flow downward through a narrow year-and-date module, thin elongated guide lines, and a continuous run of small symbols before arriving at a circular theme badge near the bottom of the same side; keep most of the composition as quiet negative space, while graphic forms on the middle and opposite side create an unevenly spaced diagonal loop, with a few elements cropped at the edges so the image feels as though it continues outward. Break the subject's core imagery into two levels of clarity: several soft color masses with strongly different scales are heavily out of focus, translucent, layered, and diffused into the paper, keeping only a readable organic rhythm in their outlines; embed two or three razor-sharp radial symbols among them, built from small high-saturation centers, fine rays that alternate between long and short, and open circles at the ray tips, with near-white strokes glowing over the color masses and pinpoint-crisp centers set against cloudy surroundings. Then extract a small number of flat organic silhouettes from the theme's semantics, render them with unidirectional soft gradients and slight blur, and scatter them along the boundaries between negative space and color masses so they guide the eye without forming a realistic scene. Determine every hue entirely from the new theme's mood and symbolism: use the lightest, low-saturation warm or cool neutral for a clean background occupying about sixty percent or more; assign the theme's most vital mid-to-high-lightness hue to roughly thirty percent as large soft-focus color masses; reserve only a very small area for a secondary hue that contrasts through temperature or neighboring color; restrict the darkest neutral to typography and fine line structures, and the brightest near-white to radial lines and nodes. Keep the background bright, the color masses soft, and the dot-like centers vivid, so that as the palette shifts with the theme, the composition still maintains the same contrast between generous light, muted areas and small saturated accents rather than turning dark or piling up colors. Use restrained modern editorial typography: the main title is a two-to-three-line short phrase set in a heavy geometric sans-serif or an equivalent face compatible with the theme's language, with wide letterforms, tight leading, and slightly loose tracking, arranged as a neat black block; beside it place a compact boxed numeral block and one line of small date text, where numerals may use a high-contrast serif for a refined period feel; on the same side below, enclose the short theme name in a thin circular frame with heavy Chinese display lettering inside, allowing the glyphs to touch the frame slightly, and place sparse small-size explanatory text outside the frame. Connect the upper and lower text modules with ultra-thin guide lines, and include one continuous run of solid and hollow four-pointed stars with alternating sizes to create rhythm. Rewrite all theme-specific copy; do not reuse any existing text. Render the material as a clean, flat matte light paper surface with a digital print finish: color-mass edges should read as optical defocus rather than watercolor staining, while the typography, circular frame, and radial symbols stay vector-sharp with no grain, creases, yellowing, or aging. Above all, preserve the triple tension of large soft-focus color clouds supporting ultra-fine sharp lines and dense black editorial text anchoring broad whitespace; if the color masses sharpen into solid forms, the symbols spread evenly across the frame, the text stacks in the center, or the palette loses its high-key restraint, the light and orderly character is broken.\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
-      "variables": {},
+      "prompt": "9:16 高调季节编辑海报。整体明亮：浅灰白背景占六成以上，中高明度的大色块占三成，最深的中性色只给文字和细线，最亮的近白只给放射线和小圆点。\n\n阅读动线：从一侧角落的一组密集黑色标题开始，向下经过一条窄的年份日期模块、几根细长的引导线、一列连续的小符号，最后落在同侧下方的圆形主题徽章上。画面大部分保持安静的负空间，中部与对侧的图形形成一条不等距的对角环线，边缘有几处元素被裁切，像画面还在向外延伸。\n\n主体的核心意象拆成两个清晰层级：几块尺度差异极大的柔焦色块，重度虚化、半透明、层层叠叠融进纸面，轮廓里只留下可读的有机节奏；在其中嵌入两三个极其锐利的放射光芒符号——高饱和小圆心、长短交替的细光芒、光芒末端带空心圆，近白的线条在色块上发光，针尖般的圆心衬在云雾状的环境里。\n\n再从主题语义里提取少量扁平的有机剪影，用单向柔和渐变和轻微模糊渲染，散落在负空间与色块的交界处，引导视线但不构成真实场景。\n\n配色由主题的情绪决定：最浅的低饱和暖或冷中性色作干净背景；主题里最有生命力的中高明度色作大面积柔焦色块；只用很小一块给强调色，靠冷暖或邻近色对比；最深的中性只给文字和细线。\n\n质感：色块边缘是光学虚化而不是水彩晕染，文字与符号呈矢量般锐利，没有纸张泛黄做旧，没有颗粒。\n\n主题内容：{主题}。主标题「{主标题}」用厚重几何无衬线堆叠排在一侧；日期与编号模块「{日期模块}」排在标题下方；圆形徽章内排「{徽章文字}」。\n\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。\n",
+      "variables": {
+        "主题": "{主题}",
+        "主标题": "{主标题}",
+        "日期模块": "{日期模块}",
+        "徽章文字": "{徽章文字}"
+      },
+      "variable_descs": {
+        "主题": "如：惊蛰 / 早春市集 / 海边的七月",
+        "主标题": "如：AWAKENING / 惊蛰 / SEASON 03",
+        "日期模块": "如：03.05 — 03.20 / 2026 SPRING",
+        "徽章文字": "如：SPRING / 节气特展 / VOL.07"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2087526401494970802",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
@@ -11444,14 +11627,25 @@
       "ratio": "9:16（竖版）",
       "summary": "英雄纪念碑势场海报，大理石雕塑定格峰值动作，纪念馆舞台+档案注释+物理势场可视化",
       "features": [
-        "**势场 Φ 生成** — 用梯度/旋度/散度构建英雄气势场，标量势函数驱动画面构图",
-        "**大理石纪念碑** — 白色大理石/石膏雕塑定格于峰值动作瞬间，雕凿痕迹/裂隙/修复接缝随势场散度分布",
-        "**纪念馆舞台** — 断柱/浮雕碎片/聚光灯光束/天鹅绒绳/破碎基座沿势场零等值线分布，框定主体不拥挤",
+        "**势场构图 Φ** — 用梯度/旋度/散度组织的英雄气势场驱动构图，只作依据不画符号",
+        "**大理石纪念碑** — 白色大理石/石膏雕塑定格于峰值动作瞬间，雕凿痕迹/裂隙/修复接缝随散度分布",
+        "**纪念馆舞台** — 断柱/浮雕碎片/聚光灯光束/天鹅绒绳/破碎基座沿零等值线分布，框定主体不拥挤",
         "**档案注释层** — 标题/引言/元数据沿负势流线排布，微距特写/运动图解/编号标注位于局部极小值处",
-        "**点缀能量** — 仅 1-2 色点缀系统（暗红冲击纹+雾蓝运动轨迹）出现在接触/释放点，不超过画面 10%"
+        "**点缀能量** — 仅 1-2 色点缀系统出现在接触/释放点，不超过画面 10%"
       ],
-      "prompt": "2x2 grid, 16:9, 4 days that made humans proud: INPUT: $ SUBJECT, optional $ TITLE, $ QUOTE, $ MOOD // Build a heroic potential field Φ across the vertical poster canvas. Φ = monument_gravity($ SUBJECT) + action_energy($ SUBJECT) + archival_weight($ SUBJECT) F = ∇Φ        // primary motion lines, strike arcs, and the main directional thrust of the action freeze Curl = ∇×Φ    // rotational energy zones — used to place inset study panels, motion arrows, and swirling dust Div = ∇·F     // concentration of annotation callouts, fracture points, and accent energy highlights  // Monument generation: // The subject is transformed into a white marble/plaster/stone sculptural figure frozen at peak action (selected Action Freeze Logic). // The pose is placed at the global maximum of |F|, with sculpted force lines and impact debris following F streamlines. // Material patina (cracks, chisel marks, powder, restoration seams) applied where |Div| peaks.  // Staging: // Museum staging elements (broken columns, floating debris, spotlight beams, velvet rope, shattered plinth) are placed along the zero‑isocontours of Φ, framing the monument without crowding it.  // Archival layer: // Title, quote, and metadata placed along negative‑Φ streamlines (left or right margin) using the selected Typography system. // Inset close‑ups, motion diagrams, numbered callouts, and annotation circles at local minima of Φ.  // Accent energy: // Exactly one or two accent systems (e.g., faded red impact veins + muted blue motion paths) appear at the contact and release points, never exceeding 10% of the image area.  // Render: ultra‑detailed stone texture, crisp graphic overlays, dramatic spotlighting, archival paper grain. No split‑screen, no right‑side panel. Output: single vertical hero poster, 8K.\n\nAspect ratio: 9:16 (vertical).\n\n不要水印，不要分屏。\n",
-      "variables": {},
+      "prompt": "9:16 竖版英雄纪念碑海报。把主体{主体}转译成一座白色大理石或石膏雕塑，定格在动作的最高张力瞬间，雕像压在画面中轴偏上。\n\n势场构图（本风格的核心方法）：在画面上建立一个英雄势场，以纪念碑的引力、动作能量和档案重量合成标量势 Φ。主运动线、冲击弧线和动作冻结的主方向沿 Φ 的梯度展开；旋转能量区用来安放局部特写小图、运动箭头与旋转尘屑；标注引线、断裂点和能量高光集中在散度峰值处。这些只作为构图依据，画面里不要出现数学符号或公式。\n\n材质：超精细的石材质感——雕凿痕迹、细裂纹、石粉、修复接缝分布在散度峰值区域，其余表面保持干净。\n\n舞台：纪念馆式陈设沿势场的零等值线布置——断柱、浮空的碎片、聚光灯束、天鹅绒围绳、破碎的基座，它们框住雕塑但不挤压它。\n\n档案注释层：标题「{主标题}」、引言「{引言}」和元数据沿势场的负流线排在左右页边；局部极小值处放微距特写小图、运动图解、编号标注与注释圆圈。\n\n点缀能量：只用一到两套点缀色（如褪色的暗红冲击纹与雾蓝的运动轨迹），出现在接触点和释放点，面积不超过画面百分之十。\n\n情绪基调：{情绪}。\n\n渲染：极致的石头纹理、锐利的图形叠加、戏剧化聚光灯，纸张带档案颗粒。不要分屏，不要右侧面板，只要一张竖版主海报，8K。\n\n不要水印，不要分屏，不要真实Logo。\n",
+      "variables": {
+        "主体": "{主体}",
+        "主标题": "{主标题}",
+        "引言": "{引言}",
+        "情绪": "{情绪}"
+      },
+      "variable_descs": {
+        "主体": "如：一位高举火炬的登山者 / 冲线的短跑运动员 / 持盾的古代战士",
+        "主标题": "如：向前的人 / THE ASCENT / 一九三七",
+        "引言": "如：有些高度，是用身体量出来的。",
+        "情绪": "如：肃穆而昂扬 / 悲壮 / 克制的敬意"
+      },
       "source_url": "https://x.com/Gdgtify/status/2084718009864876415",
       "source_author": "Gdgtify",
       "preview_urls": [
@@ -11876,16 +12070,23 @@
       ],
       "scene": "",
       "ratio": "16:9 或 9:16",
-      "summary": "GPT Image 2 专属涂鸦插画风格指南：真实主体 + 手绘涂鸦互动 + 微观叙事 + 明亮配色。",
+      "summary": "真实主体 + 手绘涂鸦互动 + 微观叙事 + 明亮配色的童趣涂鸦插画风格。",
       "features": [
-        "真实主体与手绘涂鸦融合",
-        "涂鸦元素与主体互动（触碰、拉拽、举起、反应）",
-        "微观叙事小故事",
-        "明亮振奋的光线，无硬阴影",
-        "干净整洁但有温度"
+        "**真实主体与手绘涂鸦融合** — 主体写实，涂鸦扁平，两者质感刻意拉开",
+        "**涂鸦元素与主体互动** — 触碰、拉拽、举起、做出反应，不是贴装饰",
+        "**微观叙事小故事** — 第二眼才发现的小情节",
+        "**明亮振奋的光线，无硬阴影** — 光柔和提气，画面干净透气",
+        "**干净整洁但有温度** — 略不完美，有人味，不 corporate"
       ],
-      "prompt": "Create a cheerful, creative composition that blends a realistic subject with \nplayful hand-drawn doodles and a subtle micro-story.\n\nSubject:\n[insert object / person / product — keep simple and recognizable]\n\nLayout:\n- Invisible clean grid system underneath\n- Balanced, airy spacing (avoid clutter)\n- Clear hierarchy: subject first, doodles second, micro details third\n\nDoodles:\n- Playful, expressive, slightly exaggerated\n- Include: smiley faces, stars, sparkles, arrows, motion lines, cute icons\n- Doodles must INTERACT with the subject (touching, pulling, lifting, reacting)\n\nMicro Story:\n- Add a tiny, fun narrative (e.g., doodle characters using the object, reacting to it)\n- Keep it subtle and discoverable on second glance\n\nTypography:\n- Friendly sans-serif + handwritten notes\n- Casual tone (not serious, not corporate)\n- Include small fun labels or thoughts\n\nColor:\nBase: white / soft cream\nInk: soft black / dark grey\nAccents: 2–3 cheerful colors (yellow, sky blue, soft red, mint, etc.)\n\nLighting:\n- Bright, soft, uplifting\n- No harsh shadows\n\nStyle:\n- Clean + playful + slightly imperfect\n- Feels human, warm, and creative\n\nConstraints:\n- Do NOT overcrowd\n- Every doodle must have purpose or interaction\n- Keep subject clearly visible (no obstruction)\n- Maintain breathing space\n\nMood: [cheerful / curious / lighthearted / imaginative]",
-      "variables": {},
+      "prompt": "Create a cheerful, creative composition that blends a realistic subject with playful hand-drawn doodles and a subtle micro-story.\n\n主体：{主体}\n\n版式： - 底下有一套看不见的干净网格系统 - 间距均衡、透气，不堆砌 - 层级清晰：主体第一，涂鸦第二，微细节第三\n\n涂鸦：俏皮、有表达力、略微夸张。包含笑脸、星星、闪光、箭头、动势线、可爱图标。涂鸦必须与主体发生互动——触碰、拉拽、举起、做出反应。\n\n微观叙事：加一个很小的有趣故事，比如涂鸦小人在使用这个物体、对它做出反应。必须克制，第二眼才发现。\n\n排版：友好的无衬线体加手写批注，语气随意，不严肃、不企业化，包含小的趣味标签或想法。\n\n配色：底为白色或柔奶油色；墨为柔黑或深灰；点缀两三种明快颜色，如黄、天蓝、柔红、薄荷。\n\n光线：明亮、柔和、提气，没有硬阴影。\n\n风格：干净加俏皮加略不完美，有人味、温暖、有创造力。\n\n约束：不要过密；每个涂鸦都要有作用或互动；主体始终清晰可见不被遮挡；保持呼吸空间。\n\n情绪：{情绪}",
+      "variables": {
+        "主体": "{主体}",
+        "情绪": "{情绪}"
+      },
+      "variable_descs": {
+        "主体": "如：一只马克杯 / 一位抱膝坐着的年轻人 / 一罐咖啡",
+        "情绪": "如：cheerful / curious / 轻松惬意 / 充满想象"
+      },
       "source_url": "https://x.com/oggii_0",
       "source_author": "oggii_0",
       "preview_urls": [
@@ -12497,8 +12698,17 @@
         "精致光影 + 编辑级照明",
         "复杂的拼贴背景但不杂乱"
       ],
-      "prompt": "Ultra-detailed futuristic editorial mixed-media portrait blending hyper-realistic digital collage aesthetics with precision geometric concept painting and avant-garde magazine design.\n\nAnatomically accurate semi-realistic human portrait rendered with ultra-sharp facial detail, visible skin texture, pores, subtle imperfections, and smooth luminous tonal gradation.\n\nFace illuminated with clean studio-style lighting and soft cinematic shadows, contrasted against fragmented architectural collage structures and layered graphic editorial elements.\n\nComposition built from overlapping geometric segmentation, sliced polygonal planes, magazine cut-outs, newspaper textures, multilingual typography, technical annotations, blueprint-inspired drafting marks, and abstract deconstructed fragments.\n\nFacial structure remains coherent while surrounding forms shift, overlap, and dissolve into controlled cubist fragmentation and cyberpunk editorial collage language.\n\nSurface treatment combines polished painterly rendering with ultra-fine monoline engineering sketches, schematic contours, technical hatching, delicate architectural construction lines, halftone textures, print grain, ink overlays, and subtle compression artifacts.\n\nFine linear drafting details are embedded organically into facial anatomy, especially around eyes, cheekbones, jawline, neck, and upper body, gradually transitioning into expressive translucent painterly sweeps and layered abstract collage textures.\n\nTypography integrated directly into the composition using bold editorial sans-serif layouts, dense newspaper-style microtext, vertical typographic arrangements, fragmented data blocks, blueprint notes, faint handwritten formulas, and diagrammatic symbols.\n\nText elements function as structural design components rather than readable focal points.\n\nColor palette is sophisticated and cinematic:\n- grayscale and neutral skin foundations\n- vibrant accents: cobalt blue, mustard yellow, golden orange, deep red, muted teal, charcoal black, ivory, warm beige\n- layered brown tonal modulation\n\nAccent colors appear strategically within geometric planes, reflective surfaces, collage fragments, and typographic structures, creating strong visual rhythm without overwhelming the portrait.\n\nEdges alternate between razor-sharp vector precision, clean polygonal segmentation, glossy reflective transitions, and rough torn-paper collage textures.\n\nLighting remains refined and editorial, balancing realistic skin reflections with flatter print-inspired illumination across graphic components.\n\nBackground designed as a complex yet elegant abstract mosaic of:\n- blueprint aesthetics\n- cyberpunk editorial collage\n- technical diagrams\n- translucent geometric overlays\n- layered paper textures\n- atmospheric gradients\n- controlled mixed-media abstraction\n\nOverall aesthetic merges:\n- high-fashion editorial photography\n- futuristic concept art\n- precision engineering illustration\n- contemporary digital collage\n- cubist abstraction\n- luxury avant-garde magazine poster design\n\nExtremely intricate, cinematic, polished, experimental, and visually intelligent with a refined deconstructed identity.",
-      "variables": {},
+      "prompt": "主体：{主体}。主文案「{主文案}」。主色为{主色}。Ultra-detailed futuristic editorial mixed-media portrait blending hyper-realistic digital collage aesthetics with precision geometric concept painting and avant-garde magazine design.\n\nAnatomically accurate semi-realistic human portrait rendered with ultra-sharp facial detail, visible skin texture, pores, subtle imperfections, and smooth luminous tonal gradation.\n\nFace illuminated with clean studio-style lighting and soft cinematic shadows, contrasted against fragmented architectural collage structures and layered graphic editorial elements.\n\nComposition built from overlapping geometric segmentation, sliced polygonal planes, magazine cut-outs, newspaper textures, multilingual typography, technical annotations, blueprint-inspired drafting marks, and abstract deconstructed fragments.\n\nFacial structure remains coherent while surrounding forms shift, overlap, and dissolve into controlled cubist fragmentation and cyberpunk editorial collage language.\n\nSurface treatment combines polished painterly rendering with ultra-fine monoline engineering sketches, schematic contours, technical hatching, delicate architectural construction lines, halftone textures, print grain, ink overlays, and subtle compression artifacts.\n\nFine linear drafting details are embedded organically into facial anatomy, especially around eyes, cheekbones, jawline, neck, and upper body, gradually transitioning into expressive translucent painterly sweeps and layered abstract collage textures.\n\nTypography integrated directly into the composition using bold editorial sans-serif layouts, dense newspaper-style microtext, vertical typographic arrangements, fragmented data blocks, blueprint notes, faint handwritten formulas, and diagrammatic symbols.\n\nText elements function as structural design components rather than readable focal points.\n\nColor palette is sophisticated and cinematic:\n- grayscale and neutral skin foundations\n- vibrant accents: cobalt blue, mustard yellow, golden orange, deep red, muted teal, charcoal black, ivory, warm beige\n- layered brown tonal modulation\n\nAccent colors appear strategically within geometric planes, reflective surfaces, collage fragments, and typographic structures, creating strong visual rhythm without overwhelming the portrait.\n\nEdges alternate between razor-sharp vector precision, clean polygonal segmentation, glossy reflective transitions, and rough torn-paper collage textures.\n\nLighting remains refined and editorial, balancing realistic skin reflections with flatter print-inspired illumination across graphic components.\n\nBackground designed as a complex yet elegant abstract mosaic of:\n- blueprint aesthetics\n- cyberpunk editorial collage\n- technical diagrams\n- translucent geometric overlays\n- layered paper textures\n- atmospheric gradients\n- controlled mixed-media abstraction\n\nOverall aesthetic merges:\n- high-fashion editorial photography\n- futuristic concept art\n- precision engineering illustration\n- contemporary digital collage\n- cubist abstraction\n- luxury avant-garde magazine poster design\n\nExtremely intricate, cinematic, polished, experimental, and visually intelligent with a refined deconstructed identity.",
+      "variables": {
+        "主体": "{主体}",
+        "主文案": "{主文案}",
+        "主色": "{主色}"
+      },
+      "variable_descs": {
+        "主体": "如：一位侧脸凝视的女性 / 一名抬手的少年",
+        "主文案": "如：FRACTURE / 未来的侧脸 / SYNTHESIS 07",
+        "主色": "如：冷灰与铁蓝 / 象牙白与石墨 / 暗银与靛青"
+      },
       "source_url": "https://x.com/HustleXR",
       "source_author": "HustleXR",
       "preview_urls": [
@@ -13605,16 +13815,25 @@
       ],
       "scene": "品牌KV、文化海报、展演主视觉、国风文创、古典艺术再创作",
       "ratio": "3:4",
-      "summary": "博物馆级敦煌壁画风格，两位飞天乐女对角悬浮，横笛琵琶S形连绵，矿物颜料古雅低饱和，斑驳残壁质感，敦煌飞天壁画风格",
+      "summary": "博物馆级敦煌壁画风格，两位飞天乐女对角悬浮，乐器 S 形连绵，矿物颜料古雅低饱和，斑驳残壁质感。",
       "features": [
-        "**两位飞天乐女** — 对角线构图，上方持横笛，下方抱琵琶，S形身姿连绵如一",
-        "**敦煌矿物色体系** — 淡青、灰绿、褐红、，象牙白、墨灰统一调性，低饱和古雅",
+        "**两位飞天乐女** — 对角线构图，上者持笛，下者抱琵琶，S形身姿连绵如一",
+        "**敦煌矿物色体系** — 淡青、灰绿、褐红、象牙白、墨灰统一调性，低饱和古雅",
         "**敦煌残壁质感** — 斑驳风化墙肌理，淡化轮廓，颜料晕染，博物馆级古画还原",
         "**面部/手部/乐器清晰度强化** — 眼神先于装饰被捕捉，神圣乐舞核心突出",
         "**大留白可呼吸空间** — 周围云纹、飘带稀疏布置，主体悬浮于永恒空间"
       ],
-      "prompt": "Create an ultra-premium vertical Chinese ink-and-light-color mural-style painting that preserves the exact core structure, ancient fresco atmosphere, and floating musical-divine elegance of the image, while strengthening the first-glance focus on the two celestial musicians and unifying the whole picture into a more rigorous ancient mural color system.\n\nCore composition: Use a tall vertical composition with the two women arranged along a descending diagonal from upper-left to lower-right. The upper figure floats slightly higher and plays a transverse flute; the lower figure hovers beneath and plays a pipa-like lute. Their bodies curve in elegant S-shaped arcs, with long ribbons and trailing skirts weaving through the composition and linking them into one continuous celestial rhythm. Around them, place clusters of pale auspicious clouds and a few muted lotus-rosette motifs dispersed across the background.\n\nFigure design: Depict two unmistakably adult eastern celestial women with mature refined classical features, slender necks, soft oval faces, lowered eyes, and serene inward expressions. Their hair in elegant high ancient updos with minimal refined head ornaments. Dress in ancient celestial dance-musician attire: lightly draped upper garments, flowing translucent shawls, long ribbon scarves, and elegant layered skirts in faded mineral teal, dusty blue-green, muted rose-brown, pale earth red, and aged ivory.\n\nTransit visual system: Unify the entire image into a stricter ancient mural color system — mineral teal, dusty blue-green, softened rose-brown, aged ivory, pale ink-gray — deliberately harmonized with no stray saturation.\n\nPainting language: Render in traditional Chinese mural-inspired ink-and-light-color technique on aged wall texture: ink as structure, soft mineral washes, faded earth pigments, delicate contour lines, cloud-scroll motifs, low-saturation chroma, gentle weathering. Background resembles an aged mural ground with subtle irregular stains, patina, faint rubbed areas, and soft time-wear.\n\nMood: ancient, sacred, musical, floating, mural-like, serene, elegant, faded, poetic, celestial, refined, museum-grade, timeless.\n不要水印，不要真实Logo，不要可读文字。\n",
-      "variables": {},
+      "prompt": "超高端竖版中国水墨淡彩壁画，保留古壁画的氛围与飞天乐舞的飘逸感，但把第一眼的焦点收紧到两位天上乐伎身上，并把整幅画统一进一套更严格的古代壁画色系。\n\n核心构图：高竖构图，两位成年东方飞天乐女沿一条从左上到右下的对角线依次排布。上方的乐伎浮得略高，{上方乐伎}；下方的乐伎悬在其下，{下方乐伎}。两人的身体弯成优雅的 S 形弧线，长长的飘带与拖曳的裙裾在画面里穿插，把她们连成一段连续的天上韵律。四周散落几簇淡色祥云与少量褪色的莲花团花纹。\n\n人物：两位明确成年的东方飞天女性，成熟的古典五官，细颈、柔和的椭圆脸、低垂的眼、安静内收的神情。发式为高耸的古代盘发，只配极简的发饰。衣着为古代飞天乐伎的形制：轻披的上衣、飘动的半透明披帛、长条飘带、层次分明的长裙，颜色取褪色的矿物青、灰蓝绿、柔褐红、旧象牙白。\n\n色系：整幅统一到更严格的古壁画色——{矿物主色}，以及淡墨灰，故意调和过，不出现任何跳脱的饱和度。\n\n绘画语言：传统中国壁画的墨线加淡彩，画在年代久远的墙面肌理上：墨线立骨，柔和的矿物颜料薄薄罩染，褪色的土质颜料，细腻的轮廓线，云头纹样，低饱和的彩度，温和的风化。背景像一段老壁画的地仗层，带有轻微的不规则污渍、斑驳、磨损失色的地方与时间留下的柔痕。\n\n情绪：古老、神圣、乐舞、悬浮、壁画感、安静、优雅、褪色、诗意、天上、精炼、博物馆级、永恒。\n\n不要水印，不要真实Logo，不要可读文字。\n",
+      "variables": {
+        "上方乐伎": "{上方乐伎}",
+        "下方乐伎": "{下方乐伎}",
+        "矿物主色": "{矿物主色}"
+      },
+      "variable_descs": {
+        "上方乐伎": "如：持横笛 / 吹排箫 / 捧笙",
+        "下方乐伎": "如：抱琵琶 / 弹箜篌 / 击腰鼓",
+        "矿物主色": "如：淡青与褐红 / 灰绿与赭石 / 石青配象牙白"
+      },
       "source_url": "https://x.com/ou_zhen599/status/2087144910759792712",
       "source_author": "ou_zhen599",
       "preview_urls": [
@@ -13628,7 +13847,7 @@
     {
       "id": "dubai_riso_travel_poster",
       "code": "ST0244",
-      "name": "迪拜城市旅行海报 Risograph 风格",
+      "name": "城市旅行海报 Risograph 风格",
       "category": "travel",
       "tags": [
         "risograph",
@@ -13639,23 +13858,36 @@
       ],
       "triggers": [
         "Risograph旅行海报",
-        "迪拜城市海报",
+        "城市旅行海报",
         "荧光色海报",
         "印刷质感海报",
         "独立印刷海报"
       ],
       "scene": "城市旅行海报、文化活动宣传、独立印刷品、收藏级艺术海报",
       "ratio": "3:4",
-      "summary": "以迪拜城市地标为主题的 Risograph 风格旅行海报，使用荧光色彩+半透明叠印+粗糙纸张肌理，呈现独立印刷品的现代文化感",
+      "summary": "Risograph 风格旅行海报，荧光色 + 半透明叠印 + 粗糙纸张肌理，城市地标以扁平插画重译。",
       "features": [
         "**Risograph 印刷质感** — 半调颗粒、不完美油墨设计、半透明叠色、粗糙纸张肌理",
         "**荧光色彩系统** — 荧光粉、亮蓝、暖黄、橙红、叶绿、深钴蓝，白色纸张背景",
         "**扁平图形+几何形状** — 简化城市插图、趣味几何元素、扁平图形构成",
         "**编辑式构图** — 多层叠印、充满活力的排版、非对称但平衡的布局",
-        "**城市叙事性排版** — 粗体英文城市名作为主标题，城市描述作为副标题，底栏文字标注"
+        "**城市叙事性排版** — 粗体城市名作主标题，城市描述作副标题，底栏文字标注"
       ],
-      "prompt": "Create a stylish modern travel poster inspired by risography about DUBAI.\n\nUse simplified illustrated images of the city: the Gwanganje Bridge, ocean waves, seagulls, beach umbrellas, fish baskets at the market, neon street signs and small abstract decorative figures.\n\nCreate a bold, multi-layered risographic poster with imperfect ink design, translucent colors printed on top, graininess in semitones, rough paper texture, flat graphic shapes, playful geometric shapes, and energetic editorial composition.\n\nUse fluorescent pink, bright blue, warm yellow, orange-red, leafy green, and rich cobalt blue on a white paper background.\n\nAdd bold font in English: Main title: \"DUBAI\" A subtitle describing the city. The text in the footer: \"ARTISTIC PRINTING · COASTAL STORIES · 2026\"\n\nThe design should be bright, cultural, modern, playful and collectable, like the original independent risographic poster for a local creative festival.\n\nAvoid copying any existing poster, artist's style, corporate identity, logo, mascot, copyrighted character, exact layout, or recognizable commercial design. Create an original composition inspired only by risographic printing technologies and modern independent poster design.\n\n不要水印，不要真实Logo，不要电商广告感。\n",
-      "variables": {},
+      "prompt": "3:4 现代 Risograph 风格旅行海报，主题城市为{城市名}。\n\n用简化的插画图形描绘这座城市：{地标元素}。所有元素都处理成扁平的图形语言，不做写实描绘。\n\nRisograph 印刷质感：油墨不完美的错位与轻微漏印、半透明色块叠印在交界处生出第三色、半调网点颗粒、粗糙纸张肌理、扁平图形与趣味几何形状。编辑式构图，多层叠印，非对称但视觉平衡，版面有活力。\n\n配色：{配色}，印在白色纸底上，彼此叠压处颜色加深，纸张的白色也参与构图。\n\n排版：主标题「{城市名}」用粗体大字压在上部，字距紧；下方一行副标题「{副标题}」描述这座城市；底栏排一行小字「{底栏文字}」，与边缘保持等距。\n\n整体明亮、有文化感、现代、俏皮、值得收藏，像本地创意节的独立印刷海报。\n\n不要复制任何现有海报、艺术家风格、企业标识、logo、吉祥物、受版权保护的角色或具体版式，只借鉴 risograph 印刷工艺与现代独立海报设计语言。\n\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "城市名": "{城市名}",
+        "地标元素": "{地标元素}",
+        "副标题": "{副标题}",
+        "底栏文字": "{底栏文字}",
+        "配色": "{配色}"
+      },
+      "variable_descs": {
+        "城市名": "如：DUBAI / 泉州 / LISBON",
+        "地标元素": "如：哈利法塔、沙漠沙丘、单桅帆船、棕榈树 / 开元寺双塔、骑楼、海蛎壳墙",
+        "副标题": "如：一座在沙与海之间生长的城市 / 半城烟火半城仙",
+        "底栏文字": "如：ARTISTIC PRINTING · COASTAL STORIES · 2026",
+        "配色": "如：荧光粉 + 亮蓝 + 暖黄 / 橙红 + 叶绿 + 深钴蓝"
+      },
       "source_url": "https://x.com/SimplyAnnisa/status/2076696471169315280",
       "source_author": "Anissa",
       "preview_urls": [
@@ -14114,7 +14346,7 @@
     {
       "id": "dicos_premium_fastfood_poster",
       "code": "ST0252",
-      "name": "德克士高端快餐海报",
+      "name": "高端快餐四格海报",
       "category": "e-commerce",
       "tags": [
         "fast_food",
@@ -14136,16 +14368,27 @@
       ],
       "scene": "快餐品牌 KV、食品海报设计、菜单视觉、广告campaign、商业摄影",
       "ratio": "1:1",
-      "summary": "德克士 2x2 四格高端快餐海报，超写实食品摄影 + 设计年鉴级商业视觉，每个面板节奏统一",
+      "summary": "2x2 四格高端快餐海报，超写实食品摄影 + 设计年鉴级商业视觉，每格节奏统一、色彩各异。",
       "features": [
         "**2x2 四格海报系统** — 四格严格网格排列，每个面板节奏统一：食品为主 + 大字中文标题 + 英文副标题",
         "**超写实食品摄影** — 酥脆表皮、盐晶闪光、酱汁光泽、面包柔光、土豆质感、辣椒碎、蒸气细节",
         "**高端商业布光** — 柔和高调商业食品打光，炸物高光纯净、酱汁反射细润、色泽诱人",
         "**克制涂鸦点缀** — 少量精致手绘涂鸦（星星、酱汁漩涡、动感弧线）围绕排版，不抢食品主角",
-        "**四组色彩世界** — 暖奶油橙、深炭黑金、辣椒红琥珀、橄榄绿米色，各有明确色彩身份"
+        "**四组色彩世界** — 每格一套独立色彩身份，四格并置形成节奏"
       ],
-      "prompt": "Create an ultra-premium 2x2 four-panel fast-food campaign poster for Dicos, transforming playful fast-food poster energy into a highly refined, product-dominant, design-annual-level commercial visual system. The final artwork must feel bold, youthful, appetizing, modern, and sharply art-directed, while keeping the food as the absolute hero. Use four square panels arranged in a strict grid, each panel featuring one different classic Dicos fast-food item, one much larger expressive Chinese main title, one smaller English subtitle, restrained supporting English copy, minimal official Dicos branding, and only a very small number of clean playful hand-drawn doodles.\n\nCore composition:\nUse a strict 2x2 grid. Each panel must preserve the same campaign rhythm:\n1. one hero fast-food item dominating the right or center-right area,\n2. one very large artistic Chinese hand-lettered title occupying the left or upper-left area,\n3. one smaller English subtitle beneath or near the Chinese title,\n4. one short supporting English copy block,\n5. one refined Dicos logo or clean brand mark,\n6. only a few minimal doodle accents integrated around the typography,\n7. a clean foreground surface with a tiny number of crumbs, sauce accents, or ingredient echoes.\n\nCreative direction:\nCombine Milk Cloud Orbit and Cream Halo Transit. Keep the exact four-panel skeleton, but intensify the strongest product-light details: cleaner fried-surface highlights, purer sauce reflections, brighter salt-crystal sparkle, more precise gloss on buns and wraps, and richer appetizing realism. At the same time, reduce the doodles so they become tighter, cleaner, and more intentional, and enlarge the Chinese titles so the graphic impact becomes stronger without stealing attention from the food.\n\nPanel color worlds:\nPanel 1: warm cream and toasted orange (crispy chicken burger — \"大口满足\")\nPanel 2: deep charcoal-black and golden yellow (golden seasoned fries — \"金黄上瘾\")\nPanel 3: rich chili red and amber brown (spicy fried chicken — \"热辣开炸\")\nPanel 4: fresh olive green and soft beige (grilled chicken wrap — \"卷进美味\")\n\nFood realism:\nRender every item with extreme realism: crispy fried coating, golden crumb texture, juicy chicken fibers, glossy burger bun, fresh lettuce moisture, melted sauce sheen, realistic potato texture, salt crystals, pepper specks, tortilla surface detail, char marks, subtle steam, and appetizing oil highlights.\n\nTypography:\nBold expressive Chinese hand-lettered main titles paired with smaller clean English subtitles. Chinese titles noticeably larger with stronger visual authority.\n\n不要水印，不要真实Logo（品牌名用 Dicos 示意），不要电商广告感。\n",
-      "variables": {},
+      "prompt": "1:1 高端快餐 campaign 海报，2x2 四格。把快餐海报的活泼能量提升到设计年鉴级的商业视觉系统：大胆、年轻、诱人、现代、美术指导精确，食物永远是绝对主角。\n\n品牌：{品牌名}只以极小的标志或干净的品牌标记出现，绝不抢食物。\n\n四格骨架：严格 2x2 网格，四格节奏完全统一——\n1. 一款主推食品占据右侧或中右区域；\n2. 左侧或左上是一组超大的艺术化中文手写标题；\n3. 中文标题下方或附近一行较小的英文副标题；\n4. 一小块克制的英文辅助文案；\n5. 一枚精致的品牌标记；\n6. 只有少量极简涂鸦点缀在排版周围；\n7. 干净的前景台面上散落几粒碎屑、酱汁点或食材呼应。\n\n四格内容：按格顺序依次是{菜品组合}，主标题对应{标题组合}，每格一套配色，依次为{配色组}。\n\n食品真实感：每一款都要极致真实——酥脆的裹粉、金黄的颗粒质感、多汁的肉质纤维、油润的面包、生菜的湿润、融化酱汁的光泽、真实的土豆纹理、盐晶与胡椒碎、饼皮表面细节、焦痕、细微蒸气、诱人的油光。\n\n排版：粗壮有表现力的中文手写主标题，配较小克制的英文副标题。中文标题字号明显更大，视觉权重更强，但不压过食物。\n\n不要水印，不要真实Logo（品牌名仅作示意），不要电商广告感。\n",
+      "variables": {
+        "品牌名": "{品牌名}",
+        "菜品组合": "{菜品组合}",
+        "标题组合": "{标题组合}",
+        "配色组": "{配色组}"
+      },
+      "variable_descs": {
+        "品牌名": "如：Dicos / 华莱士 / BURGER LAB",
+        "菜品组合": "如：香辣鸡腿堡 / 金黄薯条 / 炸鸡桶 / 鸡肉卷（四款，按格顺序）",
+        "标题组合": "如：大口满足 / 金黄上瘾 / 热辣开炸 / 卷进美味（四条，与菜品一一对应）",
+        "配色组": "如：暖奶油橙 / 炭黑金 / 辣椒红琥珀 / 橄榄绿米色（四组，按格顺序）"
+      },
       "source_url": "https://x.com/ou_zhen599/status/2081033228023218571",
       "source_author": "ou_zhen599",
       "preview_urls": [
@@ -14426,10 +14669,19 @@
         "**人物小而留白多** — 主体在画布中占比小，大量干净负空间",
         "**漂浮水彩点缀** — 细小的漂浮水彩斑点、蝴蝶、花朵、树叶",
         "**日系文具感排版** — 日系文具插画风格，极简编辑设计氛围",
-        "**场景示例** — 蹲在蓝玫瑰旁/抱花束站立/大树下闭目/伸手摘苹果提篮子"
+        "**场景可定制** — 日常小动作即可成画，不必是宏大场面"
       ],
-      "prompt": "Minimalist watercolor illustration on textured ivory handmade paper, soft pastel palette, delicate ink outlines, subtle watercolor bleeding, cozy storybook aesthetic, lots of clean negative space.\nA stylish young woman in modern casual clothing is the main subject, captured in a calm, emotional everyday moment. She wears an oversized trench coat or cardigan layered over soft neutral clothing, a long flowing skirt or wide-leg pants, leather loafers or ankle boots, and a simple crossbody bag. Medium-length natural hair gently frames her face.\nThe composition is intentionally small within the canvas, leaving generous empty space around the character. Soft expressive pose with gentle emotions, surrounded by tiny floating watercolor splashes, subtle butterflies, flowers, leaves, or seasonal elements depending on the scene.\nExamples of scenes:\n• Squatting beside a bouquet of blue roses while gently touching one flower.\n• Standing quietly while holding a wrapped bouquet against her chest.\n• Resting peacefully beneath a large tree with eyes closed.\n• Reaching upward toward a single apple hanging from a tree branch while carrying a basket of freshly picked apples.\nHand-painted watercolor textures, soft shadows, elegant brush strokes, muted earthy colors, warm natural atmosphere, peaceful lifestyle illustration, Japanese stationery art style, minimal editorial illustration, whimsical yet realistic proportions, premium watercolor painting, ultra-detailed, 8K.\n",
-      "variables": {},
+      "prompt": "Minimalist watercolor illustration on textured ivory handmade paper, soft pastel palette, delicate ink outlines, subtle watercolor bleeding, cozy storybook aesthetic, lots of clean negative space.\n\nA stylish young woman in modern casual clothing is the main subject, captured in a calm, emotional everyday moment. She wears {服装} and a simple crossbody bag. Medium-length natural hair gently frames her face.\n\nThe scene: {场景}。Keep the pose soft and expressive with gentle emotions, surrounded by tiny floating {点缀物} that suit the season.\n\nThe composition is intentionally small within the canvas, leaving generous empty space around the character.\n\nHand-painted watercolor textures, soft shadows, elegant brush strokes, muted earthy colors, warm natural atmosphere, peaceful lifestyle illustration, Japanese stationery art style, minimal editorial illustration, whimsical yet realistic proportions, premium watercolor painting, ultra-detailed, 8K.\n",
+      "variables": {
+        "场景": "{场景}",
+        "服装": "{服装}",
+        "点缀物": "{点缀物}"
+      },
+      "variable_descs": {
+        "场景": "如：蹲在蓝玫瑰旁轻触一朵花 / 树下闭眼小憩 / 伸手去够枝头的苹果",
+        "服装": "如：宽松风衣叠穿米色针织 / 开衫配长裙 / 宽腿裤加乐福鞋",
+        "点缀物": "如：蝴蝶与落叶 / 花瓣与水彩斑点 / 几只小鸟"
+      },
       "source_url": "https://x.com/Sairah_0/status/2086047521588265370",
       "source_author": "Sairah_0",
       "preview_urls": [
@@ -16059,8 +16311,17 @@
         "**未完成感** — 褪色边缘、溶解轮廓、半擦除笔触，保留创作能量",
         "**色彩丰富** — 赤陶、焦赭、橄榄石墨灰 + 琥珀、玫瑰金、冷青 + 品红、青柠霓虹点缀"
       ],
-      "prompt": "Ultra-detailed neo-editorial cinematic portrait illustration rendered in a hybrid semi-realistic painterly-engineering style, combining refined anatomical realism with expressive sketch abstraction and futuristic conceptual drafting. The artwork fuses elegant graphite fashion illustration, architectural blueprint aesthetics, and richly layered digital painting into a visually immersive mixed-media composition. Human anatomy is highly accurate and sculptural, featuring luminous skin gradients, tactile pores, subtle wrinkles, refined facial contours, and soft glossy highlights. Facial rendering is extremely expressive and emotionally cinematic, with sharp eyes, delicately shaded brows, natural lips, and dramatic warm rim lighting blending golden-orange glow with cool bluish atmospheric reflections. Smooth polished rendering transitions coexist with rough textured brushwork, etched shading, and visible painterly grain. Fine ultra-thin micro-line drafting overlays merge seamlessly with loose hand-drawn sketch strokes, cross-hatching, technical contour lines, and schematic construction marks. Portions of the composition intentionally retain unfinished artistic energy: faded edges, dissolving contours, partially erased strokes, and fragmented geometric segmentation inspired by cubist blueprint structures. Certain body and fabric areas transform into layered painterly abstraction with watercolor diffusion, acrylic textures, expressive oil-like sweeps, and deconstructed mixed-media detailing. Lighting is highly cinematic and directional, creating deep volumetric shadows and glowing highlights with dramatic editorial contrast. The composition balances softness and structure—warm sepia shadows, sculpted highlights, and atmospheric diffusion enhance emotional depth while maintaining precision-engineered visual control. Background features a fusion of textured parchment surfaces and futuristic technical collage aesthetics: faint diagrams, circles, architectural annotations, handwritten marks, layered scratches, drafting elements, grain textures, faded paper imperfections, and atmospheric painterly haze. The environment feels both vintage and futuristic, combining analog artistic charm with advanced conceptual design language. Color palette blends earthy sophistication with vibrant cinematic accents—terracotta, burnt sienna, deep olive, and graphite gray harmonize with glowing amber, rose gold, and luminous cool teal. Occasional synthetic neon highlights in magenta, cyan, and lime introduce subtle futuristic energy. The mood is emotionally intense, cinematic, dramatic, and deeply atmospheric—balancing raw creative energy with polished editorial refinement. A visionary fusion of fine art, fashion photography, and futuristic design engineering.\n不要水印，不要真实品牌 Logo。\n",
-      "variables": {},
+      "prompt": "主体：{主体}，{服装与姿态}。冷调点缀色使用{冷调点缀色}。\n\nUltra-detailed neo-editorial cinematic portrait illustration rendered in a hybrid semi-realistic painterly-engineering style, combining refined anatomical realism with expressive sketch abstraction and futuristic conceptual drafting. The artwork fuses elegant graphite fashion illustration, architectural blueprint aesthetics, and richly layered digital painting into a visually immersive mixed-media composition. Human anatomy is highly accurate and sculptural, featuring luminous skin gradients, tactile pores, subtle wrinkles, refined facial contours, and soft glossy highlights. Facial rendering is extremely expressive and emotionally cinematic, with sharp eyes, delicately shaded brows, natural lips, and dramatic warm rim lighting blending golden-orange glow with cool bluish atmospheric reflections. Smooth polished rendering transitions coexist with rough textured brushwork, etched shading, and visible painterly grain. Fine ultra-thin micro-line drafting overlays merge seamlessly with loose hand-drawn sketch strokes, cross-hatching, technical contour lines, and schematic construction marks. Portions of the composition intentionally retain unfinished artistic energy: faded edges, dissolving contours, partially erased strokes, and fragmented geometric segmentation inspired by cubist blueprint structures. Certain body and fabric areas transform into layered painterly abstraction with watercolor diffusion, acrylic textures, expressive oil-like sweeps, and deconstructed mixed-media detailing. Lighting is highly cinematic and directional, creating deep volumetric shadows and glowing highlights with dramatic editorial contrast. The composition balances softness and structure—warm sepia shadows, sculpted highlights, and atmospheric diffusion enhance emotional depth while maintaining precision-engineered visual control. Background features a fusion of textured parchment surfaces and futuristic technical collage aesthetics: faint diagrams, circles, architectural annotations, handwritten marks, layered scratches, drafting elements, grain textures, faded paper imperfections, and atmospheric painterly haze. The environment feels both vintage and futuristic, combining analog artistic charm with advanced conceptual design language. Color palette blends earthy sophistication with vibrant cinematic accents—terracotta, burnt sienna, deep olive, and graphite gray harmonize with glowing amber, rose gold, and luminous cool teal. Occasional synthetic neon highlights in magenta, cyan, and lime introduce subtle futuristic energy. The mood is emotionally intense, cinematic, dramatic, and deeply atmospheric—balancing raw creative energy with polished editorial refinement. A visionary fusion of fine art, fashion photography, and futuristic design engineering.\n不要水印，不要真实品牌 Logo。\n",
+      "variables": {
+        "主体": "{主体}",
+        "服装与姿态": "{服装与姿态}",
+        "冷调点缀色": "{冷调点缀色}"
+      },
+      "variable_descs": {
+        "主体": "如：一位侧头凝神的女性 / 一名披着长外套的少年",
+        "服装与姿态": "如：宽肩大衣、微微仰头 / 绸缎长裙、手臂抬起",
+        "冷调点缀色": "如：冷青 / 品红 / 青柠霓虹"
+      },
       "source_url": "https://x.com/HustleXR/status/2075093046765707649",
       "source_author": "HustleXR",
       "preview_urls": [
@@ -16538,11 +16799,24 @@
         "**轴对称居中构图** — 巨大实色圆盘 + 密集垂直线剪影贯穿，形成纪念碑式焦点",
         "**几何无衬线粗体标题** — 宽幅水平延展，字距略松，对比度高的浅色",
         "**细手写线条点缀** — 沿标题下缘游走的极细流线，对角斜划与直线交织",
-        "**金属质感低对比数字** — 纪念数字/符号以金属渐变+细对角纹理呈现，隐于线条网络后",
+        "**金属质感低对比数字** — 纪念数字/符号以金属渐变 + 细对角纹理呈现，隐于线条网络后",
         "**平涂矢量质感** — 纯数字矢量风格，平涂色块、流畅渐变、锐利边缘，无纸张纹理或光影"
       ],
-      "prompt": "Create a solemn, restrained, axial memorial poster around any chosen theme object, with the first impression built from a central oversized solid-color disc and a dense vertical-line silhouette passing through its lower edge, together forming a monument-like focal point, while all text, numbers, and graphics descend step by step along the same central axis; keep generous breathing space in the upper area, set the main theme title as a wide, horizontally extended geometric sans-serif in bold heavy strokes with slightly loose letter spacing and light high-contrast coloring, overlap an ultra-fine flowing handwritten line along the title's lower edge so its light diagonal strokes cross the heavy straight strokes, and below it place a single line of small, widely tracked theme subtitle text, forming the tightly locked sequence of large title, fine handwritten line, and airy subtitle; let the middle disc occupy the primary visual width with a clean, rounded edge, add one or two dark semitransparent rings slightly offset toward the lower side outside it to create a shallow sense of thickness within the flat graphics, set a short two-line theme manifesto in the disc's center in high-contrast serif type with tight, upright leading, followed by a tiny date or note, and take all wording exclusively from the current theme; let the theme's most recognizable outline extend downward from the lower half of the disc without a solid fill, cut instead into a complete silhouette by many equally spaced ultra-fine vertical lines of the same thickness, make the lines longest and densest at the center, step them shorter along the outer outline, and expand outward in successive horizontal tiers, letting them pass through the disc and descend into the dark background so the same line network creates continuous figure-ground exchange between light and dark zones; behind the silhouette, press in an oversized memorial number or theme symbol with only its central lower portion revealed, rendered in low-contrast metallic shading and fine diagonal texture, keeping it recognizable yet receding behind the line network; at the very bottom, enclose a compact set of short data and notes in a thin-line rounded capsule with whitespace on both sides to close the composition; extract colors from the theme's meaning without fixing any specific hue, let the upper region carry a medium-brightness, medium-to-high-saturation primary color, then darken continuously downward into a near-black supporting color occupying nearly half of the composition, make the disc the most striking high-saturation accent color from the theme, use low-saturation pale metallic tones or equivalent pale colors for the vertical lines, handwriting, and thin frames, and keep body copy at the highest brightness, preserving the area and contrast hierarchy of primary color field, bright disc, dark ground, and pale lines; keep the overall finish a clean digital vector poster with flat color areas, smooth gradients, crisp line endings, and slightly anti-aliased edges, with no paper fibers, stains, grain, or photographic lighting and shadow, and maintain the three front-to-back relationships of the disc being traversed by the engraved line silhouette, the oversized number being masked by the silhouette, and the bold title being grazed by the fine handwritten line, without splitting the elements into unrelated decorations.\n",
-      "variables": {},
+      "prompt": "9:16 肃穆、克制的轴对称纪念碑海报。第一印象由画面正中一块巨大的实色圆盘建立，圆盘下缘被一片密集的垂直线剪影贯穿，两者合成一个纪念碑式的焦点。所有文字、数字与图形沿同一条中轴自上而下逐级降落，画面上部保留大片呼吸空间。\n\n主标题「{主标题}」用宽幅水平延展的几何无衬线粗体，笔画厚重、字距略松、浅色高对比；标题下缘叠一条极细的流动手写线，让它轻快的斜向笔画横穿厚重的直笔画；再下方一行字号很小、字距很开的副标题「{副标题}」。大标题、细手写线、疏朗副标题三层紧扣成一个序列。\n\n中部圆盘占据主要的视觉宽度，边缘干净圆润；圆盘外侧偏下加一到两圈深色半透明环，略微错位，在扁平图形里制造浅浅的厚度感。圆盘正中排两行短宣言「{宣言}」，用高对比衬线体、紧绷竖直的行距，下面压一个极小的日期或注脚。\n\n主题物件——{主题物件}——的轮廓从圆盘下半部向下延伸，不做实心填充，而是被许多等距、等粗的极细竖线切成一个完整的剪影：中线最长最密，沿外轮廓逐级变短，再向外按水平层级依次展开，让同一套线网穿过圆盘、坠入深色背景，在明暗两个区域之间形成连续的正负形互换。\n\n剪影背后压一个超大的纪念数字「{纪念数字}」，只露出中下部，用金属渐变加细对角纹理渲染，低对比，隐在线网之后。\n\n整体：纯数字矢量质感，平涂色块、流畅渐变、锐利边缘，没有纸张纹理，没有光影戏剧化。所有文字只使用本次主题的内容。\n\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "主题物件": "{主题物件}",
+        "主标题": "{主标题}",
+        "副标题": "{副标题}",
+        "宣言": "{宣言}",
+        "纪念数字": "{纪念数字}"
+      },
+      "variable_descs": {
+        "主题物件": "如：一枚齿轮 / 一棵树的轮廓 / 一只展翅的鹤",
+        "主标题": "如：十年 / THE LONG WALK / 一九九八",
+        "副标题": "如：纪念 · 城市记忆特展 / A MEMORIAL IN THREE PARTS",
+        "宣言": "如：有些东西被时间带走，有些被时间留下。",
+        "纪念数字": "如：10 / 1998 / XXVII"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2087528761705287734",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
