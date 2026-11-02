@@ -58,8 +58,6 @@ variables:
   style_var: '{ACCENT_SYMBOL}'
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
-- kv_var: NEGATIVE PROMPT
-  style_var: '{NEGATIVE_PROMPT}'
 prompt: 'Create a 16:9 image in the "Bold Anime Reaction Thumbnail Style" visual style.
 
 
@@ -101,7 +99,7 @@ prompt: 'Create a 16:9 image in the "Bold Anime Reaction Thumbnail Style" visual
 
   Avoid:
 
-  - {NEGATIVE_PROMPT}
+  - watermarks, real logos, low quality, distorted text
 
 
   Important content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.'

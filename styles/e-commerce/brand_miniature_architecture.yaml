@@ -38,26 +38,13 @@ variables:
   desc: 品牌名称/主标题
 - kv_var: 英文副标题
   style_var: '{英文副标题}'
-- kv_var: Visual Requirements
-  style_var: '{Visual_Requirements}'
 - kv_var: 产品包装
   style_var: '{产品包装}'
 - kv_var: 建筑场景
   style_var: '{建筑场景}'
-- kv_var: Main Design
-  style_var: '{Main_Design}'
-- kv_var: Environmental Integration
-  style_var: '{Environmental_Integration}'
-- kv_var: Characters and Narrative
-  style_var: '{Characters_and_Narrative}'
-- kv_var: Poster Composition
-  style_var: '{Poster_Composition}'
-- kv_var: White Poster Text
-  style_var: '{White_Poster_Text}'
 - kv_var: 风格关键词
   style_var: '{Style_Keywords}'
 prompt: 'Please generate a vertical 2:3 ultra-realistic miniature architecture photography poster.
-
 
   【Information】
 
@@ -69,42 +56,22 @@ prompt: 'Please generate a vertical 2:3 ultra-realistic miniature architecture p
 
   Subtitle: {英文副标题}
 
-
-  {Visual_Requirements}
-
   The main subject of the image is a large "{产品包装}"，designed as a fully functional "{建筑场景}"，seamlessly integrated with the real urban environment. Maintain precise proportions of miniature model with ultra-realistic
   photographic quality.
 
-
-  {Main_Design}
-
   包装必须保留品牌识别特征：主色调、包装轮廓、Logo位置、材质细节、真实结构。包装逻辑转换为建筑空间：入口、玻璃橱窗、室内功能区、露台、地板、屋顶结构。
-
-
-  {Environmental_Integration}
 
   融入真实城市环境，包含街道拐角、人行道、斑马线、路灯、交通流、路边绿化等丰富细节。
 
-
-  {Characters_and_Narrative}
-
   融入真实比例微缩人物，自然动作，包含顾客排队、店员工作、骑手取餐等场景。细节真实，避免玩偶感。
 
-
-  {Poster_Composition}
-
   2:3竖版构图，主建筑置于画面中下，顶部留白，四分之三视角+轻微高角度，背景浅景深柔焦。
-
 
   [Lighting, Shadow, and Materials]
 
   根据品牌色调设定光影，整体风格成熟精致写实。
 
-
-  {White_Poster_Text}
-
   左上区域添加现代简洁白色文字，无衬线字体，排版考究。
-
 
   {Style_Keywords}
 

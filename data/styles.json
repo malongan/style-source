@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-198-g5d3d7b2-dirty",
-    "generated": "2026-11-02T03:33:10Z",
+    "version": "v0.7.0-before-opt-200-geb3c285-dirty",
+    "generated": "2026-11-02T03:37:00Z",
     "total": 310,
     "categories": [
       "brand_kv",
@@ -348,11 +348,10 @@
         "**俏皮互动姿态** — 主角姿态带一点俏皮的互动感，局部配件延伸同一信息系统",
         "**明亮清透色阶** — 大面积明亮清透底色 + 结构暗部建立层次 + 高饱和强调色集中在信息点"
       ],
-      "prompt": "围绕具体主题内容生成一张明亮洁净的影像画报：画面第一眼由一个主题派生的超大核心字形、图腾或符号占据中后场，字形以厚重平面块面压住视觉中心；真实的主题主角或主形体从前景进入并遮挡部分符号，形成主角与巨型信息底纹重叠的强记忆点。背景保持大面积高明度留白，边缘布置细线框、编号、日期感小字、竖向短句和票据印章式信息层，文字只作为节奏与仪式感结构，不抢主形体。主角姿态要带一点俏皮的互动感，局部配件或手持物延伸出同一信息系统，让主体、符号、边框和小字像同一张定制证件或邀请画报。色彩从主题自身的材质、情绪和文化语义中提取：大面积底色保持明亮清透、干净通风，结构暗部用于主体轮廓和层次，少量高饱和强调色集中在核心符号、边框和信息点上，形成欢快、清晰、带仪式感的明亮色阶；强调色随主题变化，但必须维持底色宽、符号重、小字密、前景实的关系。整体质感为棚拍般清晰光线、平整印刷图形、轻微纸面纹理与复古票据秩序结合，避免杂乱装饰和脏旧灰暗，确保最先读到巨大符号，其次读到前景主角，最后读到周围密集信息节奏。\n\n{subject_description}\n{additional_scene_details}\n{size_requirement}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
+      "prompt": "围绕具体主题内容生成一张明亮洁净的影像画报：画面第一眼由一个主题派生的超大核心字形、图腾或符号占据中后场，字形以厚重平面块面压住视觉中心；真实的主题主角或主形体从前景进入并遮挡部分符号，形成主角与巨型信息底纹重叠的强记忆点。背景保持大面积高明度留白，边缘布置细线框、编号、日期感小字、竖向短句和票据印章式信息层，文字只作为节奏与仪式感结构，不抢主形体。主角姿态要带一点俏皮的互动感，局部配件或手持物延伸出同一信息系统，让主体、符号、边框和小字像同一张定制证件或邀请画报。色彩从主题自身的材质、情绪和文化语义中提取：大面积底色保持明亮清透、干净通风，结构暗部用于主体轮廓和层次，少量高饱和强调色集中在核心符号、边框和信息点上，形成欢快、清晰、带仪式感的明亮色阶；强调色随主题变化，但必须维持底色宽、符号重、小字密、前景实的关系。整体质感为棚拍般清晰光线、平整印刷图形、轻微纸面纹理与复古票据秩序结合，避免杂乱装饰和脏旧灰暗，确保最先读到巨大符号，其次读到前景主角，最后读到周围密集信息节奏。\n\n{subject_description}\n{additional_scene_details}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
       "variables": {
         "主体描述": "{subject_description}",
-        "补充场景细节": "{additional_scene_details}",
-        "尺寸": "{size_requirement}"
+        "补充场景细节": "{additional_scene_details}"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2081388511606030704",
       "source_author": "小小东",
@@ -393,11 +392,10 @@
         "**克制的邀请信息层** — 顶部细小署名，底部细线、微型衬线数字与简短说明，排版低声、精确、留出呼吸",
         "**真实摄影质感** — 玻璃反射、轻微颗粒、低照度空间和柔焦边缘，温暖亲近、安静隆重"
       ],
-      "prompt": "围绕具体主题内容生成一张具有私密仪式感的影像邀请画面：主体事件被安置在画面中部偏深的真实空间里，像被透明弧形结构、玻璃隔层或局部光罩轻轻包住，形成\"被窥见的亲密瞬间\"；周围保留大块深色建筑面、阴影或安静留白，让中心发光区域先被看见，再读到人物或主题对象的情绪。画面前景覆盖一行极大、纤细、连笔感强的手写体主标题，笔画横跨主体与背景，既遮挡又连接中心形象，制造柔软、缓慢、带记忆感的图像文字融合；顶部只放极小的署名式信息，底部用细线、微型衬线数字与简短说明形成克制的邀请信息层，排版低声、精确、留出呼吸。色彩从主题自身的场地、材质、时间与情绪中提取，保留低明度大面积结构底、中心清透明亮光域、少量高明度文字信息与微小温暖强调色的角色关系；暗部必须干净有层次，亮部带透明雾感和柔和反光，使整体温暖亲近、安静隆重。质感保持真实摄影的玻璃反射、轻微颗粒、低照度空间和柔焦边缘，文字像印在空气与画面表面之间，最终效果应像一份高级私人邀请：情绪先于信息到达，信息轻而清楚，中心瞬间被大字温柔封存。\n\n{subject_description}\n{additional_scene_details}\n{size_requirement}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
+      "prompt": "围绕具体主题内容生成一张具有私密仪式感的影像邀请画面：主体事件被安置在画面中部偏深的真实空间里，像被透明弧形结构、玻璃隔层或局部光罩轻轻包住，形成\"被窥见的亲密瞬间\"；周围保留大块深色建筑面、阴影或安静留白，让中心发光区域先被看见，再读到人物或主题对象的情绪。画面前景覆盖一行极大、纤细、连笔感强的手写体主标题，笔画横跨主体与背景，既遮挡又连接中心形象，制造柔软、缓慢、带记忆感的图像文字融合；顶部只放极小的署名式信息，底部用细线、微型衬线数字与简短说明形成克制的邀请信息层，排版低声、精确、留出呼吸。色彩从主题自身的场地、材质、时间与情绪中提取，保留低明度大面积结构底、中心清透明亮光域、少量高明度文字信息与微小温暖强调色的角色关系；暗部必须干净有层次，亮部带透明雾感和柔和反光，使整体温暖亲近、安静隆重。质感保持真实摄影的玻璃反射、轻微颗粒、低照度空间和柔焦边缘，文字像印在空气与画面表面之间，最终效果应像一份高级私人邀请：情绪先于信息到达，信息轻而清楚，中心瞬间被大字温柔封存。\n\n{subject_description}\n{additional_scene_details}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
       "variables": {
         "主体描述": "{subject_description}",
-        "补充场景细节": "{additional_scene_details}",
-        "尺寸": "{size_requirement}"
+        "补充场景细节": "{additional_scene_details}"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2081388511606030704",
       "source_author": "小小东",
@@ -438,11 +436,10 @@
         "**高明度洁净光场** — 背景是高明度洁净光场，保留柔和阴影和透明层次，不做复杂场景",
         "**彩屑自然漂落** — 彩屑或主题派生细小碎片从四周和主体上方自然漂落，有疏有密，定格结束瞬间"
       ],
-      "prompt": "围绕具体主题内容生成一张明亮清透的谢幕致意画面，让第一眼先读到上方居中的简短致意文字层，再顺着大量通风留白落到下方的双主体动作。画面上半部保持安静、空旷、柔亮，文字采用温和而有礼的层级：一个较大的主题核心字或符号作为情绪锚点，中间配一行轻细的辅助文字，下方再用更有分量的短字收束，字距疏朗、线条圆润、颜色来自主题情绪中的清晰强调色。下方安排两个主题核心角色或双主体符号并肩出现，身体或形态向前深度倾斜，形成真诚谢幕的共同动作，视觉重心压在底部，动作边缘可被轻盈材质、衣摆、飘带或主题派生结构拉出流动感，使庄重的致意带有轻快释放。背景是高明度洁净光场，保留柔和阴影和透明层次，不做复杂场景；从主题自身的材质、季节、文化信号和情绪中提取色彩，大面积底色保持明亮干净，主体用清晰明暗建立礼仪感，文字使用少量温暖或清亮的主题强调色，散落元素使用小颗粒高饱和点色，只在空白中形成节奏和庆祝感。整体情绪温暖、轻快、洁净、有仪式感，彩屑或主题派生的细小碎片从画面四周和主体上方自然漂落，密度有疏有密，既让空白显得有空气，也让结束瞬间像被定格；避免背景变脏、色阶发灰、元素堆满或把双主体动作削弱成普通合影。\n\n{subject_description}\n{additional_scene_details}\n{size_requirement}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
+      "prompt": "围绕具体主题内容生成一张明亮清透的谢幕致意画面，让第一眼先读到上方居中的简短致意文字层，再顺着大量通风留白落到下方的双主体动作。画面上半部保持安静、空旷、柔亮，文字采用温和而有礼的层级：一个较大的主题核心字或符号作为情绪锚点，中间配一行轻细的辅助文字，下方再用更有分量的短字收束，字距疏朗、线条圆润、颜色来自主题情绪中的清晰强调色。下方安排两个主题核心角色或双主体符号并肩出现，身体或形态向前深度倾斜，形成真诚谢幕的共同动作，视觉重心压在底部，动作边缘可被轻盈材质、衣摆、飘带或主题派生结构拉出流动感，使庄重的致意带有轻快释放。背景是高明度洁净光场，保留柔和阴影和透明层次，不做复杂场景；从主题自身的材质、季节、文化信号和情绪中提取色彩，大面积底色保持明亮干净，主体用清晰明暗建立礼仪感，文字使用少量温暖或清亮的主题强调色，散落元素使用小颗粒高饱和点色，只在空白中形成节奏和庆祝感。整体情绪温暖、轻快、洁净、有仪式感，彩屑或主题派生的细小碎片从画面四周和主体上方自然漂落，密度有疏有密，既让空白显得有空气，也让结束瞬间像被定格；避免背景变脏、色阶发灰、元素堆满或把双主体动作削弱成普通合影。\n\n{subject_description}\n{additional_scene_details}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
       "variables": {
         "主体描述": "{subject_description}",
-        "补充场景细节": "{additional_scene_details}",
-        "尺寸": "{size_requirement}"
+        "补充场景细节": "{additional_scene_details}"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2081388511606030704",
       "source_author": "小小东",
@@ -865,7 +862,7 @@
         "密集的商业横幅层级，留白极少，主体、产品包装、大标题与小字注记层层叠加。",
         "巨大的倾斜白色中文展示大标题，带厚重黑色阴影或立体 3D 块面纵深。"
       ],
-      "prompt": "Create a 16:9 image in the \"Warm Fisheye Product Impact Ad Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: the core visual anchors of this style\nSource content to avoid: watermarks, real logos, and commercial advertising\n\nApply these style rules:\n- Build a dense Chinese social-commerce advertising visual, not a clean editorial poster.\n- Use a macro ultra-wide fisheye viewpoint from inside a pile, bowl, bucket, or tunnel of repeated textured foreground pieces.\n- Make the hero subject, product, face, hand, tool, or package press close to the lens with cropped edges, glossy highlights, realistic occlusion, and exaggerated scale.\n- Surround the frame with warm toasted brown, caramel, golden, cream, or black foreground pieces that form a cave-like border.\n- Set {MAIN_TEXT} as huge angled white Chinese display type with heavy black drop shadow or 3D extrusion.\n- Add small generic top category labels, a bottom product-pack or prop strip, a blue callout tab, and white speed lines or radial perspective streaks.\n- Keep the finish photorealistic, high-contrast, sharpened, warm, humorous, appetizing, and retail-advertising focused.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new products, new package details, and new text while avoiding the original pet-food source premise.",
+      "prompt": "Create a 16:9 image in the \"Warm Fisheye Product Impact Ad Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: the core visual anchors of this style\nSource content to avoid: watermarks, real logos, and commercial advertising\n\nApply these style rules:\n- Build a dense Chinese social-commerce advertising visual, not a clean editorial poster.\n- Use a macro ultra-wide fisheye viewpoint from inside a pile, bowl, bucket, or tunnel of repeated textured foreground pieces.\n- Make the hero subject, product, face, hand, tool, or package press close to the lens with cropped edges, glossy highlights, realistic occlusion, and exaggerated scale.\n- Surround the frame with warm toasted brown, caramel, golden, cream, or black foreground pieces that form a cave-like border.\n- Set {MAIN_TEXT} as huge angled white Chinese display type with heavy black drop shadow or 3D extrusion.\n- Add small generic top category labels, a bottom product-pack or prop strip, a blue callout tab, and white speed lines or radial perspective streaks.\n- Keep the finish photorealistic, high-contrast, sharpened, warm, humorous, appetizing, and retail-advertising focused.\n\nAvoid:\n- watermarks, real logos, low quality, distorted text\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new products, new package details, and new text while avoiding the original pet-food source premise.",
       "variables": {
         "画面主体": "{SUBJECT}",
         "主体动作": "{SUBJECT_ACTION}",
@@ -875,8 +872,7 @@
         "主文案": "{MAIN_TEXT}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
-        "服装造型": "{WARDROBE_STYLE}",
-        "NEGATIVE PROMPT": "{NEGATIVE_PROMPT}"
+        "服装造型": "{WARDROBE_STYLE}"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -1807,7 +1803,7 @@
         "厚重的黑墨剪影、棱角分明的笔刷轮廓，以及混乱的刮擦线条。",
         "红色马克笔弧线、箭头，以及横穿主体的动势回环。"
       ],
-      "prompt": "Create a 16:9 image in the \"Olive Scribble Sports Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: the core visual anchors of this style\nSource content to avoid: watermarks, real logos, and commercial advertising\n\nApply these style rules:\n- Build the poster from one dominant diagonal action subject, one prop, and one abstract olive or yellow-green block.\n- Use off-white paper ground, flat screenprint color slabs, heavy black ink silhouettes, chaotic scratch contours, red marker motion arcs, yellow-green dry-brush loops, and sparse diamonds or clipped debris.\n- Keep the setting shallow, abstract, and editorial rather than realistic or scene-heavy.\n- Use small rough hand-cut text only as a secondary poster accent, never as polished brand typography.\n- Preserve imperfect elongated anatomy, cropped limbs, raw brush texture, and handmade print misregistration.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text, while avoiding the original soccer/overhead-kick source content.",
+      "prompt": "Create a 16:9 image in the \"Olive Scribble Sports Poster Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: the core visual anchors of this style\nSource content to avoid: watermarks, real logos, and commercial advertising\n\nApply these style rules:\n- Build the poster from one dominant diagonal action subject, one prop, and one abstract olive or yellow-green block.\n- Use off-white paper ground, flat screenprint color slabs, heavy black ink silhouettes, chaotic scratch contours, red marker motion arcs, yellow-green dry-brush loops, and sparse diamonds or clipped debris.\n- Keep the setting shallow, abstract, and editorial rather than realistic or scene-heavy.\n- Use small rough hand-cut text only as a secondary poster accent, never as polished brand typography.\n- Preserve imperfect elongated anatomy, cropped limbs, raw brush texture, and handmade print misregistration.\n\nAvoid:\n- watermarks, real logos, low quality, distorted text\n\nImportant content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text, while avoiding the original soccer/overhead-kick source content.",
       "variables": {
         "画面主体": "{SUBJECT}",
         "主体动作": "{SUBJECT_ACTION}",
@@ -1817,8 +1813,7 @@
         "主文案": "{MAIN_TEXT}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
-        "服装造型": "{WARDROBE_STYLE}",
-        "NEGATIVE PROMPT": "{NEGATIVE_PROMPT}"
+        "服装造型": "{WARDROBE_STYLE}"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -2729,7 +2724,7 @@
         "保留真实的皮肤、织物、头发、配饰质感，以及日光反射。",
         "使用强烈的阳光、高饱和钴蓝天空、暖调皮肤高光、硬朗阴影，以及随性的夏日旅行感。"
       ],
-      "prompt": "Create an image in sunburst-fisheye-bubble-type-poster-style.\n\nAspect ratio: 16:9.\n\nScene: {SUBJECT_IDENTITY}, {SUBJECT} {SUBJECT_ACTION}, using or wearing {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. For a multi-case set, give every case a visibly different face, hair, body language, and styling details.\n\nPhotography: {LENS_STYLE}. Place the camera below the subject looking upward, very close to the body and face. Preserve realistic skin, fabric, hair, accessories, and daylight reflections. Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling.\n\nLayout: make the subject large and cropped, with the face near the upper-middle for vertical layouts or dominant center-left/center-right for horizontal layouts. Build the poster around a huge arched bubble headline reading \"{MAIN_TEXT}\" in lemon yellow across the top and side edges. The letters should feel inflated, hand-painted, warped by perspective, and partly cropped by the frame. Use golden orange edge shading, cream shine slashes, and {ACCENT_SYMBOL}.\n\nTexture: add {TEXTURE_LEVEL}, slight lens flare, color fringing, and analog poster compression. Add \"{SECONDARY_TEXT}\" only as tiny editorial microcopy if it stays clean and unobtrusive.\n\nAvoid: watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample set, chrome lettering, glossy 3D balloon type, corporate minimal layout, muted pastel palette, night cyberpunk mood, and crowded small text.",
+      "prompt": "Create an image in sunburst-fisheye-bubble-type-poster-style.\n\nAspect ratio: 16:9.\n\nScene: {SUBJECT_IDENTITY}, {SUBJECT} {SUBJECT_ACTION}, using or wearing {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. For a multi-case set, give every case a visibly different face, hair, body language, and styling details.\n\nPhotography: fisheye lens, ultra-wide, low camera angle. Place the camera below the subject looking upward, very close to the body and face. Preserve realistic skin, fabric, hair, accessories, and daylight reflections. Use harsh sunny lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling.\n\nLayout: make the subject large and cropped, with the face near the upper-middle for vertical layouts or dominant center-left/center-right for horizontal layouts. Build the poster around a huge arched bubble headline reading \"{MAIN_TEXT}\" in lemon yellow across the top and side edges. The letters should feel inflated, hand-painted, warped by perspective, and partly cropped by the frame. Use golden orange edge shading, cream shine slashes, and {ACCENT_SYMBOL}.\n\nTexture: add strong analog grain, slight lens flare, color fringing, and analog poster compression. Add \"{SECONDARY_TEXT}\" only as tiny editorial microcopy if it stays clean and unobtrusive.\n\nAvoid: watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample set, chrome lettering, glossy 3D balloon type, corporate minimal layout, muted pastel palette, night cyberpunk mood, and crowded small text.",
       "variables": {
         "主体身份": "{SUBJECT_IDENTITY}",
         "画面主体": "{SUBJECT}",
@@ -2738,10 +2733,8 @@
         "场景地点": "{LOCATION}",
         "背景元素": "{BACKGROUND_ELEMENTS}",
         "服装造型": "{WARDROBE_STYLE}",
-        "LENS STYLE": "{LENS_STYLE}",
         "主文案": "{MAIN_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
-        "TEXTURE LEVEL": "{TEXTURE_LEVEL}",
         "副文案": "{SECONDARY_TEXT}"
       },
       "source_url": "https://x.com/VigoCreativeAI",
@@ -3057,7 +3050,7 @@
         "更换新主体、新场景细节、新道具或产品与新文案，同时保留风格保真锚点。",
         "在新主体上保持相同的视觉类型、密度级别与渲染方式。"
       ],
-      "prompt": "Create a 16:9 image in the \"Bold Anime Reaction Thumbnail Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: the core visual anchors of this style\nSource content to avoid: watermarks, real logos, and commercial advertising\n\nApply these style rules:\n- Build a dense anime web-thumbnail composition with oversized reaction characters on the outer edges and a smaller central discovery scene.\n- Use clean glossy cel-shaded anime rendering, crisp black line art, smooth gradients, and bright commercial lighting.\n- Put a huge uppercase yellow headline with thick black outline and hard drop shadow near the top.\n- Use cool blue/cyan backgrounds, warm character colors, high-contrast black outlines, and a small yellow arrow or glow marker.\n- Keep the scene fully clothed and non-sexual. Change the source subject, location, prop, action, text, and story premise.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
+      "prompt": "Create a 16:9 image in the \"Bold Anime Reaction Thumbnail Style\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: the core visual anchors of this style\nSource content to avoid: watermarks, real logos, and commercial advertising\n\nApply these style rules:\n- Build a dense anime web-thumbnail composition with oversized reaction characters on the outer edges and a smaller central discovery scene.\n- Use clean glossy cel-shaded anime rendering, crisp black line art, smooth gradients, and bright commercial lighting.\n- Put a huge uppercase yellow headline with thick black outline and hard drop shadow near the top.\n- Use cool blue/cyan backgrounds, warm character colors, high-contrast black outlines, and a small yellow arrow or glow marker.\n- Keep the scene fully clothed and non-sexual. Change the source subject, location, prop, action, text, and story premise.\n\nAvoid:\n- watermarks, real logos, low quality, distorted text\n\nImportant content rule: match the reference style first, then change the source content. Use new subjects, new scene details, new props or products, and new text, while preserving the style fidelity anchors.",
       "variables": {
         "画面主体": "{SUBJECT}",
         "主体动作": "{SUBJECT_ACTION}",
@@ -3067,8 +3060,7 @@
         "主文案": "{MAIN_TEXT}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
-        "服装造型": "{WARDROBE_STYLE}",
-        "NEGATIVE PROMPT": "{NEGATIVE_PROMPT}"
+        "服装造型": "{WARDROBE_STYLE}"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -3149,7 +3141,7 @@
         "冷调电光蓝背景，深藏青渐变、对角线光束、淡网格线，以及雾状体积辉光。",
         "超大号窄体块状主标题，白色或冰灰色，部分被产品遮挡或被画框裁切。"
       ],
-      "prompt": "Create a 16:9 image in the \"Blue HUD Macro Creator Tech Poster\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: the core visual anchors of this style\nSource content to avoid: watermarks, real logos, and commercial advertising\n\nApply these style rules:\n- Macro 3D creator-tech product hero, large and tilted, physically framed by oversized ribbed gloves or striped synthetic fingers cropped by the frame.\n- Cold electric-blue and deep navy technology background with diagonal light streaks, faint grid lines, mist, bloom, and glass HUD panels.\n- Large extra-bold condensed all-caps headline in white or icy gray, cropped or partly occluded behind the product.\n- Translucent rounded feature cards with radial meters, pill bars, small icons, and compact technical labels.\n- One warm gold or amber performance badge, used as the only major warm contrast accent.\n- Glossy plastic, rubber, glass, brushed metal, beveled product edges, cyan rim light, and dramatic black shadows.\n- Dense commercial product poster hierarchy with overlapping product, gloves, type, badges, and interface graphics.\n- Use real-market creator hardware categories as inspiration only; do not render real brand marks or exact product replicas.\n\nAvoid:\n- {NEGATIVE_PROMPT}\n\nImportant content rule: match the extracted style first, then change the exact source content. Product categories may be camera-adjacent when requested, but all outputs must stay brandless, non-identical, and newly worded.",
+      "prompt": "Create a 16:9 image in the \"Blue HUD Macro Creator Tech Poster\" visual style.\n\nSubject: {SUBJECT}\nAction: {SUBJECT_ACTION}\nProp/Product: {PRODUCT_OR_PROP}\nLocation: {LOCATION}\nBackground: {BACKGROUND_ELEMENTS}\nMain text: {MAIN_TEXT}\nSecondary text: {SECONDARY_TEXT}\nAccent symbol: {ACCENT_SYMBOL}\nWardrobe/styling: {WARDROBE_STYLE}\nStyle fidelity anchors: the core visual anchors of this style\nSource content to avoid: watermarks, real logos, and commercial advertising\n\nApply these style rules:\n- Macro 3D creator-tech product hero, large and tilted, physically framed by oversized ribbed gloves or striped synthetic fingers cropped by the frame.\n- Cold electric-blue and deep navy technology background with diagonal light streaks, faint grid lines, mist, bloom, and glass HUD panels.\n- Large extra-bold condensed all-caps headline in white or icy gray, cropped or partly occluded behind the product.\n- Translucent rounded feature cards with radial meters, pill bars, small icons, and compact technical labels.\n- One warm gold or amber performance badge, used as the only major warm contrast accent.\n- Glossy plastic, rubber, glass, brushed metal, beveled product edges, cyan rim light, and dramatic black shadows.\n- Dense commercial product poster hierarchy with overlapping product, gloves, type, badges, and interface graphics.\n- Use real-market creator hardware categories as inspiration only; do not render real brand marks or exact product replicas.\n\nAvoid:\n- watermarks, real logos, low quality, distorted text\n\nImportant content rule: match the extracted style first, then change the exact source content. Product categories may be camera-adjacent when requested, but all outputs must stay brandless, non-identical, and newly worded.",
       "variables": {
         "画面主体": "{SUBJECT}",
         "主体动作": "{SUBJECT_ACTION}",
@@ -3159,8 +3151,7 @@
         "主文案": "{MAIN_TEXT}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
-        "服装造型": "{WARDROBE_STYLE}",
-        "NEGATIVE PROMPT": "{NEGATIVE_PROMPT}"
+        "服装造型": "{WARDROBE_STYLE}"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -6175,14 +6166,13 @@
         "**黑白灰摄影场** — 大面积低饱和明暗价值阶，暗部干净有层次，轻微颗粒质感",
         "**清透克制色彩** — 黑白灰主导，点缀主题派生高饱和强调色，避免脏旧浑浊"
       ],
-      "prompt": "围绕{subject_type}生成一张冷静、精确、带信息设计感的视觉作品：{subject_description}以肖像般的近距离主形体占据画面核心，右侧或一侧保持最清晰的识别焦点，另一侧被半透明的暗部遮挡层、柔焦阴影或材质雾面切过，形成\"被看见与被遮蔽同时存在\"的第一眼张力。主体不要完整展示，使用大胆裁切、局部放大和中心偏移，让面部、物体表面或主题关键结构成为沉默的主视觉。叠加一条由主题情绪提取的高饱和强调色线框，线条像路径、界面边界或行动轨迹一样穿过主体外侧，先以直角框住上半部，再在下方转成大弧线收束，线宽清晰，面积很小但视觉权重强，成为结构性强调而不是装饰花纹。画面加入多层文字信息：左侧使用大号粗字建立标题重量，中段使用疏朗的英文或数字节奏制造呼吸，边缘加入细长竖排或窄字距文字作为第二阅读层，底部放低权重说明信息；所有文字只承担版式节奏和信息秩序，不复制任何既有品牌或广告语。色彩从主题自身的材质、情绪和语义中提取，保留大面积低饱和明暗摄影场、清晰黑白灰价值阶、少量主题派生高饱和强调色、明亮干净的信息文字和轻微颗粒质感的关系；整体应是冷静精确、清透克制但有行动感的色彩情绪，暗部要干净有层次，强调色边界利落，避免脏旧、浑浊或随意复古。最终效果像一张被强视觉系统组织过的主题肖像，文字、遮挡、裁切和线框共同制造记忆点，不能退化成普通人物照、普通信息海报或只有文字堆叠的平面排版。\n——————\n{subject_override}\n使用位置：{scene_spec}\n保留信息：{text_spec}，{size_spec}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "prompt": "围绕{subject_type}生成一张冷静、精确、带信息设计感的视觉作品：{subject_description}以肖像般的近距离主形体占据画面核心，右侧或一侧保持最清晰的识别焦点，另一侧被半透明的暗部遮挡层、柔焦阴影或材质雾面切过，形成\"被看见与被遮蔽同时存在\"的第一眼张力。主体不要完整展示，使用大胆裁切、局部放大和中心偏移，让面部、物体表面或主题关键结构成为沉默的主视觉。叠加一条由主题情绪提取的高饱和强调色线框，线条像路径、界面边界或行动轨迹一样穿过主体外侧，先以直角框住上半部，再在下方转成大弧线收束，线宽清晰，面积很小但视觉权重强，成为结构性强调而不是装饰花纹。画面加入多层文字信息：左侧使用大号粗字建立标题重量，中段使用疏朗的英文或数字节奏制造呼吸，边缘加入细长竖排或窄字距文字作为第二阅读层，底部放低权重说明信息；所有文字只承担版式节奏和信息秩序，不复制任何既有品牌或广告语。色彩从主题自身的材质、情绪和语义中提取，保留大面积低饱和明暗摄影场、清晰黑白灰价值阶、少量主题派生高饱和强调色、明亮干净的信息文字和轻微颗粒质感的关系；整体应是冷静精确、清透克制但有行动感的色彩情绪，暗部要干净有层次，强调色边界利落，避免脏旧、浑浊或随意复古。最终效果像一张被强视觉系统组织过的主题肖像，文字、遮挡、裁切和线框共同制造记忆点，不能退化成普通人物照、普通信息海报或只有文字堆叠的平面排版。\n——————\n{subject_override}\n使用位置：{scene_spec}\n保留信息：{text_spec}\n不要水印，不要真实Logo，不要电商广告感。\n",
       "variables": {
         "主体类型": "{subject_type}",
         "主体描述": "{subject_description}",
         "画面补充描述": "{subject_override}",
         "场景": "{scene_spec}",
-        "文案": "{text_spec}",
-        "size spec": "{size_spec}"
+        "文案": "{text_spec}"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
       "source_author": "小小东",
@@ -10435,11 +10425,10 @@
         "**鲜明色块 + 深色结构 + 清晰色阶** — 明亮色块承担情绪主色，深色承担枝轴与符号结构，辅助色低饱和清晰可读",
         "**图像秩序文字排版** — 粗重标题 + 紧凑日期信息 + 小号边缘竖排，像生活刊物版式，不抢主形体视觉"
       ],
-      "prompt": "围绕任意主题对象生成一张具有手工印刷感的信息图像：主题被转译成数个饱满、近距离放大的圆润主形体，沿一条偏中轴的粗壮分枝结构自然串联，主形体之间互相挤压又留出清晰呼吸空隙，局部被画面边缘裁切，形成第一眼强烈的丰盛感和新鲜感。分枝、叶片或主题派生的附着符号以深色结构层覆盖在主形体上，像套印版画一样有轻微错位、透明叠色和粗糙边缘，使图形既平面化又带有植物般的生长方向。背景保持高明度、清透、干净的浅色纸面，保留细密纤维颗粒、轻微压印纹理和少量手工磨损，但整体不能变脏、发灰或陈旧。色彩从未来主题自身的材质、季节、情绪和文化语义中提取：最大色块承担明亮轻快的情绪主色，深色承担枝轴与符号结构，小面积信息文字使用低饱和但清晰可读的辅助色，整体保持高明度底场、鲜明主形、干净色阶、有限套色和清爽对比。文字只作为图像秩序的一部分出现，采用粗重标题、紧凑日期式信息、小号边缘竖排或角落标记的组合，分布在边缘与留白处，像印在纸面上的生活刊物版式，不抢走主形体的第一视觉。画面完成度要像复古丝网印刷与现代清新海报的结合，图形大、边缘硬中带毛、信息少而有节奏，避免写实摄影、复杂背景、过度装饰和拥挤说明。\n\n{subject_description}\n{city_landmark_or_theme}\n{date和金句}\n{size_requirement}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
+      "prompt": "围绕任意主题对象生成一张具有手工印刷感的信息图像：主题被转译成数个饱满、近距离放大的圆润主形体，沿一条偏中轴的粗壮分枝结构自然串联，主形体之间互相挤压又留出清晰呼吸空隙，局部被画面边缘裁切，形成第一眼强烈的丰盛感和新鲜感。分枝、叶片或主题派生的附着符号以深色结构层覆盖在主形体上，像套印版画一样有轻微错位、透明叠色和粗糙边缘，使图形既平面化又带有植物般的生长方向。背景保持高明度、清透、干净的浅色纸面，保留细密纤维颗粒、轻微压印纹理和少量手工磨损，但整体不能变脏、发灰或陈旧。色彩从未来主题自身的材质、季节、情绪和文化语义中提取：最大色块承担明亮轻快的情绪主色，深色承担枝轴与符号结构，小面积信息文字使用低饱和但清晰可读的辅助色，整体保持高明度底场、鲜明主形、干净色阶、有限套色和清爽对比。文字只作为图像秩序的一部分出现，采用粗重标题、紧凑日期式信息、小号边缘竖排或角落标记的组合，分布在边缘与留白处，像印在纸面上的生活刊物版式，不抢走主形体的第一视觉。画面完成度要像复古丝网印刷与现代清新海报的结合，图形大、边缘硬中带毛、信息少而有节奏，避免写实摄影、复杂背景、过度装饰和拥挤说明。\n\n{subject_description}\n{city_landmark_or_theme}\n{date和金句}\n\n不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。\n",
       "variables": {
         "主体描述": "{subject_description}",
-        "城市地标或主题": "{city_landmark_or_theme}",
-        "尺寸": "{size_requirement}"
+        "城市地标或主题": "{city_landmark_or_theme}"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2081540058885321012",
       "source_author": "小小东",
@@ -10564,13 +10553,12 @@
         "**多级文字信息** — 上方大号厚重中文标题，中段英文/数字，底部品牌级收束",
         "**精英化商业色调** — 低明度沉稳底场，深色服装压重，高明度信息色，少量高饱和行动色"
       ],
-      "prompt": "围绕{person_type}生成一张商业成长社群感的人像视觉：画面以近景人物主形体作为最清晰的视觉锚点，人物略带侧身回望的冷静姿态，轮廓边缘干净，五官与服装保持写实质感；背景不是普通场景，而是一面带细微织物、纸张或墙面颗粒的深浅层次底场，叠入一张被放大的低透明人物影像，让它像记忆、声量或公众影响力一样压在后方，只保留脸部与轮廓的隐约存在，形成前景真实人物与背景巨幅影像之间的距离感。文字作为视觉结构的一部分出现：上方使用大号厚重中文标题形成第一信息冲击，字形端正有力量，局部可用主题派生的金属感或温润亮色强调关键词；中下部用小号英文或数字信息形成克制的商业秩序；底部以品牌级标题和短句收束，排版居中、字距稳定、层级清楚。加入几条横向实色块作为结构梁，穿过人物背后并被人物遮挡，制造清晰的前后关系、节奏和社群招募海报的行动感。色彩从主题人物的行业气质、品牌语义和情绪温度中提取：大面积背景承担低明度、低饱和的沉稳结构色，人物服装与阴影使用干净深色压住重量，标题和关键信息使用高明度低噪点的信息色，少量强调块使用主题派生的高饱和行动色，占比小但位置明确；整体保持冷静、可靠、精英化的商业情绪，明暗对比清晰，质感厚实但不脏，纹理只增加专业和年代感，不削弱人物面部的洁净度。最终效果要像一张为个人品牌、成长组织或商业发布打造的强识别主视觉，第一眼读到人物气场和标题压力，第二眼读到背景影像、色块遮挡、纹理和信息层级的精密组织。\n——————\n画面{subject_spec}\n发布场景: {scene_spec}\n文字重点: {text_spec}\n输出尺寸: {ratio_spec}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "prompt": "围绕{person_type}生成一张商业成长社群感的人像视觉：画面以近景人物主形体作为最清晰的视觉锚点，人物略带侧身回望的冷静姿态，轮廓边缘干净，五官与服装保持写实质感；背景不是普通场景，而是一面带细微织物、纸张或墙面颗粒的深浅层次底场，叠入一张被放大的低透明人物影像，让它像记忆、声量或公众影响力一样压在后方，只保留脸部与轮廓的隐约存在，形成前景真实人物与背景巨幅影像之间的距离感。文字作为视觉结构的一部分出现：上方使用大号厚重中文标题形成第一信息冲击，字形端正有力量，局部可用主题派生的金属感或温润亮色强调关键词；中下部用小号英文或数字信息形成克制的商业秩序；底部以品牌级标题和短句收束，排版居中、字距稳定、层级清楚。加入几条横向实色块作为结构梁，穿过人物背后并被人物遮挡，制造清晰的前后关系、节奏和社群招募海报的行动感。色彩从主题人物的行业气质、品牌语义和情绪温度中提取：大面积背景承担低明度、低饱和的沉稳结构色，人物服装与阴影使用干净深色压住重量，标题和关键信息使用高明度低噪点的信息色，少量强调块使用主题派生的高饱和行动色，占比小但位置明确；整体保持冷静、可靠、精英化的商业情绪，明暗对比清晰，质感厚实但不脏，纹理只增加专业和年代感，不削弱人物面部的洁净度。最终效果要像一张为个人品牌、成长组织或商业发布打造的强识别主视觉，第一眼读到人物气场和标题压力，第二眼读到背景影像、色块遮挡、纹理和信息层级的精密组织。\n——————\n画面{subject_spec}\n发布场景: {scene_spec}\n文字重点: {text_spec}\n输出尺寸: 9:16\n不要水印，不要真实Logo，不要电商广告感。\n",
       "variables": {
         "人物类型": "{person_type}",
         "画面主体": "{subject_spec}",
         "场景": "{scene_spec}",
-        "文案": "{text_spec}",
-        "比例": "{ratio_spec}"
+        "文案": "{text_spec}"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
       "source_author": "小小东",
@@ -11961,13 +11949,12 @@
         "**展览目录秩序感** — 顶部细小辅助信息与符号纹理，底部细线/日期数字入口",
         "**极克制用色** — 只留高明度底色+深色结构+中间灰阶，强调色仅短促出现"
       ],
-      "prompt": "围绕{subject_type}生成一张克制、清透、带强烈编辑感的信息视觉：让大面积明亮空白成为主要结构场，主题对象以沉稳的黑白主形体压在画面下方偏一侧，保留真实影像般的细节、柔和灰阶和清晰轮廓，形成安静而有分量的第一视觉。另一侧放置极大字号的核心中文标题，采用竖向阅读节奏、粗细对照明显的宋体或明朝体气质，字距疏朗，像一根视觉立柱一样与主体形成张力；顶部或边缘加入很小的辅助信息、细密说明和符号纹理，制造展览目录般的秩序感。底部信息层使用细线、日期数字或短句建立阅读入口，文字大小层级明确，留出充足呼吸空间。色彩从主题自身的材质、情绪和文化语义中提取，只保留高明度干净底色、清晰深色结构、柔和中间灰阶和极少量主题派生强调色的关系；强调色只在关键信息处短促出现，带来冷静精确中的一点醒目情绪，整体保持明亮、洁净、通风感，避免脏灰、做旧、烟雾和装饰性堆叠。画面完成度应像严谨文化海报：影像、标题和微小信息互相制衡，最重要的是空白的压力、文字的重量和主题对象的沉静存在感。\n——————\n{subject_override}\n{scene_spec}\n文字要求: {text_spec}\n尺寸: {ratio_spec}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "prompt": "围绕{subject_type}生成一张克制、清透、带强烈编辑感的信息视觉：让大面积明亮空白成为主要结构场，主题对象以沉稳的黑白主形体压在画面下方偏一侧，保留真实影像般的细节、柔和灰阶和清晰轮廓，形成安静而有分量的第一视觉。另一侧放置极大字号的核心中文标题，采用竖向阅读节奏、粗细对照明显的宋体或明朝体气质，字距疏朗，像一根视觉立柱一样与主体形成张力；顶部或边缘加入很小的辅助信息、细密说明和符号纹理，制造展览目录般的秩序感。底部信息层使用细线、日期数字或短句建立阅读入口，文字大小层级明确，留出充足呼吸空间。色彩从主题自身的材质、情绪和文化语义中提取，只保留高明度干净底色、清晰深色结构、柔和中间灰阶和极少量主题派生强调色的关系；强调色只在关键信息处短促出现，带来冷静精确中的一点醒目情绪，整体保持明亮、洁净、通风感，避免脏灰、做旧、烟雾和装饰性堆叠。画面完成度应像严谨文化海报：影像、标题和微小信息互相制衡，最重要的是空白的压力、文字的重量和主题对象的沉静存在感。\n——————\n{subject_override}\n{scene_spec}\n文字要求: {text_spec}\n尺寸: 9:10\n不要水印，不要真实Logo，不要电商广告感。\n",
       "variables": {
         "主体类型": "{subject_type}",
         "画面补充描述": "{subject_override}",
         "场景": "{scene_spec}",
-        "文案": "{text_spec}",
-        "比例": "{ratio_spec}"
+        "文案": "{text_spec}"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
       "source_author": "小小东",
@@ -14263,18 +14250,12 @@
         "**光影**：根据品牌色调设定，成熟精致写实",
         "**排版**：左上区域白色简洁文字，无衬线字体"
       ],
-      "prompt": "Please generate a vertical 2:3 ultra-realistic miniature architecture photography poster.\n\n【Information】\nBrand Name: [品牌名称，如 Starbucks]\nArchitectural Scene: [建筑功能，如 corner cafe]\nMain Poster Title: {主标题}\nSubtitle: {英文副标题}\n\n{Visual_Requirements}\nThe main subject of the image is a large \"{产品包装}\"，designed as a fully functional \"{建筑场景}\"，seamlessly integrated with the real urban environment. Maintain precise proportions of miniature model with ultra-realistic photographic quality.\n\n{Main_Design}\n包装必须保留品牌识别特征：主色调、包装轮廓、Logo位置、材质细节、真实结构。包装逻辑转换为建筑空间：入口、玻璃橱窗、室内功能区、露台、地板、屋顶结构。\n\n{Environmental_Integration}\n融入真实城市环境，包含街道拐角、人行道、斑马线、路灯、交通流、路边绿化等丰富细节。\n\n{Characters_and_Narrative}\n融入真实比例微缩人物，自然动作，包含顾客排队、店员工作、骑手取餐等场景。细节真实，避免玩偶感。\n\n{Poster_Composition}\n2:3竖版构图，主建筑置于画面中下，顶部留白，四分之三视角+轻微高角度，背景浅景深柔焦。\n\n[Lighting, Shadow, and Materials]\n根据品牌色调设定光影，整体风格成熟精致写实。\n\n{White_Poster_Text}\n左上区域添加现代简洁白色文字，无衬线字体，排版考究。\n\n{Style_Keywords}\nHyper-realistic miniature architectural photography, authentic brand space, 2:3 commercial poster, building-as-giant-product-packaging, integration with real urban environments, macro photography, architectural model photography.",
+      "prompt": "Please generate a vertical 2:3 ultra-realistic miniature architecture photography poster.\n【Information】\nBrand Name: [品牌名称，如 Starbucks]\nArchitectural Scene: [建筑功能，如 corner cafe]\nMain Poster Title: {主标题}\nSubtitle: {英文副标题}\nThe main subject of the image is a large \"{产品包装}\"，designed as a fully functional \"{建筑场景}\"，seamlessly integrated with the real urban environment. Maintain precise proportions of miniature model with ultra-realistic photographic quality.\n包装必须保留品牌识别特征：主色调、包装轮廓、Logo位置、材质细节、真实结构。包装逻辑转换为建筑空间：入口、玻璃橱窗、室内功能区、露台、地板、屋顶结构。\n融入真实城市环境，包含街道拐角、人行道、斑马线、路灯、交通流、路边绿化等丰富细节。\n融入真实比例微缩人物，自然动作，包含顾客排队、店员工作、骑手取餐等场景。细节真实，避免玩偶感。\n2:3竖版构图，主建筑置于画面中下，顶部留白，四分之三视角+轻微高角度，背景浅景深柔焦。\n[Lighting, Shadow, and Materials]\n根据品牌色调设定光影，整体风格成熟精致写实。\n左上区域添加现代简洁白色文字，无衬线字体，排版考究。\n{Style_Keywords}\nHyper-realistic miniature architectural photography, authentic brand space, 2:3 commercial poster, building-as-giant-product-packaging, integration with real urban environments, macro photography, architectural model photography.",
       "variables": {
         "主标题": "{主标题}",
         "英文副标题": "{英文副标题}",
-        "Visual Requirements": "{Visual_Requirements}",
         "产品包装": "{产品包装}",
         "建筑场景": "{建筑场景}",
-        "Main Design": "{Main_Design}",
-        "Environmental Integration": "{Environmental_Integration}",
-        "Characters and Narrative": "{Characters_and_Narrative}",
-        "Poster Composition": "{Poster_Composition}",
-        "White Poster Text": "{White_Poster_Text}",
         "风格关键词": "{Style_Keywords}"
       },
       "variable_descs": {
@@ -14317,14 +14298,13 @@
         "**高明度洁净留白** — 大面积留白+极轻点阵/波纹纹理，流动感但不抢信息",
         "**强烈阅读路径** — 主视觉压场→引号带入观点→高亮关键词→署名/标识收束"
       ],
-      "prompt": "围绕{theme}生成一张强信息层级的视觉海报：画面由一个大尺度主视觉与一组短句式核心观点构成，主视觉以近距离裁切的{subject}占据一侧，采用黑白或低彩度质感处理，边缘干净利落，局部越过文字区域形成前后层次；背景保持大面积高明度洁净留白，并铺设极轻的主题派生点阵、波纹或微结构纹理，让空白有流动感但不抢主信息。文字区以巨大的装饰性引号作为第一视觉停顿，正文使用厚重无衬线字体建立节奏，短句分行清晰，关键词被放入高饱和小面积色块中，色块紧贴字面形成强烈强调，其余文字用深色结构色保持清楚、理性、可信。色彩从主题自身的材质、情绪或品牌语义中提取：大面积背景维持明亮、清透、通风感，主视觉承担稳定的深浅价值对比，强调色只在关键词块、局部图形或小型信息点中出现，面积少但饱和度高，形成干净、有纪律的视觉冲击；整体避免浑浊和陈旧感，保持高对比、清晰边界、少色而有力。信息布局要有强烈的阅读路径：先看到主视觉压场，再被引号带入观点，最后落到高亮关键词和小型署名/标识信息；所有辅助图形都服务于权威感、秩序感和记忆点，不做装饰堆叠。\n——————\n画面{subject_spec}\n发布场景: {scene_spec}\n保留文字: {text_spec}\n尺寸: {ratio_spec}\n不要水印，不要真实Logo，不要电商广告感。\n",
+      "prompt": "围绕{theme}生成一张强信息层级的视觉海报：画面由一个大尺度主视觉与一组短句式核心观点构成，主视觉以近距离裁切的{subject}占据一侧，采用黑白或低彩度质感处理，边缘干净利落，局部越过文字区域形成前后层次；背景保持大面积高明度洁净留白，并铺设极轻的主题派生点阵、波纹或微结构纹理，让空白有流动感但不抢主信息。文字区以巨大的装饰性引号作为第一视觉停顿，正文使用厚重无衬线字体建立节奏，短句分行清晰，关键词被放入高饱和小面积色块中，色块紧贴字面形成强烈强调，其余文字用深色结构色保持清楚、理性、可信。色彩从主题自身的材质、情绪或品牌语义中提取：大面积背景维持明亮、清透、通风感，主视觉承担稳定的深浅价值对比，强调色只在关键词块、局部图形或小型信息点中出现，面积少但饱和度高，形成干净、有纪律的视觉冲击；整体避免浑浊和陈旧感，保持高对比、清晰边界、少色而有力。信息布局要有强烈的阅读路径：先看到主视觉压场，再被引号带入观点，最后落到高亮关键词和小型署名/标识信息；所有辅助图形都服务于权威感、秩序感和记忆点，不做装饰堆叠。\n——————\n画面{subject_spec}\n发布场景: {scene_spec}\n保留文字: {text_spec}\n尺寸: 3:4\n不要水印，不要真实Logo，不要电商广告感。\n",
       "variables": {
         "主题": "{theme}",
         "主体": "{subject}",
         "画面主体": "{subject_spec}",
         "场景": "{scene_spec}",
-        "文案": "{text_spec}",
-        "比例": "{ratio_spec}"
+        "文案": "{text_spec}"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
       "source_author": "小小东",
@@ -15180,10 +15160,8 @@
         "**红色2D图形斜线** — 粗体红橙色对角线图形条纹叠加在3D场景中",
         "**前景运动道具特写** — 运动装备极端特写，大于角色头部，带运动模糊"
       ],
-      "prompt": "Create a 16:9 horizontal 3D sports event poster.\n\nStyle rules:\n- Character: 3D CGI cartoon athlete with exaggerated proportions — oversized head, stocky muscular build, flushed red cheeks, fierce/determined expression. Quality: Pixar/DreamWorks/AAA mobile game cutscene. NOT realistic.\n- Character outfit: deep purple + neon lime green — MUST match title typography colors exactly.\n- Background: photorealistic 3D stadium — real-feeling crowd, professional arena lighting, wet reflective surfaces, official event signage. Realistic render quality (deliberate contrast with cartoon character).\n- Title: 2 words, fills upper portion — WORD 1 in deep purple, WORD 2 in neon lime/chartreuse. Bold condensed italic display type. Character appears BEHIND title letters, title appears IN FRONT OF background stadium.\n- Depth order: {back} realistic stadium → title text → cartoon character → sport prop extreme foreground {front}\n- Graphic slashes: bold diagonal red-orange 2D graphic streaks layered into the 3D scene — 2-3 slashes per image\n- Foreground prop: sport equipment at extreme close range, larger than character's head — motion blur\n- Sub-brand label: lower right — white bold condensed text on orange-red diagonal stripe chevron\n- Color system: 3 colors only — deep purple + neon lime green + red-orange. Purple+green shared by character AND title. Orange-red = graphic accent + label only.\n\nScene: {sport} — {character} in action with {foreground_prop}.\nTitle: \"{title}\"\nSub-brand: \"{sub_brand}\"\n\nNegative: realistic human athlete, fully cartoon environment, flat text overlay on top of everything, neutral color palette, static standing pose.\n",
+      "prompt": "Create a 16:9 horizontal 3D sports event poster.\n\nStyle rules:\n- Character: 3D CGI cartoon athlete with exaggerated proportions — oversized head, stocky muscular build, flushed red cheeks, fierce/determined expression. Quality: Pixar/DreamWorks/AAA mobile game cutscene. NOT realistic.\n- Character outfit: deep purple + neon lime green — MUST match title typography colors exactly.\n- Background: photorealistic 3D stadium — real-feeling crowd, professional arena lighting, wet reflective surfaces, official event signage. Realistic render quality (deliberate contrast with cartoon character).\n- Title: 2 words, fills upper portion — WORD 1 in deep purple, WORD 2 in neon lime/chartreuse. Bold condensed italic display type. Character appears BEHIND title letters, title appears IN FRONT OF background stadium.\n- Depth order: realistic stadium → title text → cartoon character → sport prop extreme foreground\n- Graphic slashes: bold diagonal red-orange 2D graphic streaks layered into the 3D scene — 2-3 slashes per image\n- Foreground prop: sport equipment at extreme close range, larger than character's head — motion blur\n- Sub-brand label: lower right — white bold condensed text on orange-red diagonal stripe chevron\n- Color system: 3 colors only — deep purple + neon lime green + red-orange. Purple+green shared by character AND title. Orange-red = graphic accent + label only.\n\nScene: {sport} — {character} in action with {foreground_prop}.\nTitle: \"{title}\"\nSub-brand: \"{sub_brand}\"\n\nNegative: realistic human athlete, fully cartoon environment, flat text overlay on top of everything, neutral color palette, static standing pose.\n",
       "variables": {
-        "back": "{back}",
-        "front": "{front}",
         "运动类型": "{sport}",
         "角色": "{character}",
         "前景道具": "{foreground_prop}",

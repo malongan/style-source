@@ -40,7 +40,7 @@ STYLE_GLOB = os.path.join(ROOT, 'styles', '*', '*.yaml')
 PH_RE = re.compile(r'\{([^{}\n]{1,40})\}')
 
 # 比例/尺寸类槽位：一律不做成变量（画布工具统一设定）
-RATIO_SLOTS = {'ASPECT_RATIO', 'ASPECT RATIO', '比例', '画幅比例', '画幅', '尺寸比例'}
+RATIO_SLOTS = {'ASPECT_RATIO', 'ASPECT RATIO', '比例', '画幅比例', '画幅', '尺寸比例', 'ratio_spec'}
 
 # 技术参数类槽位：是给模型看的元指令，不是给用户填的。
 # spec 第 4 节要求「写成常量」——直接删会留下「...anchors: .」这种残句，
@@ -52,6 +52,25 @@ TECH_CONST = {
 
 # 旧版 Markdown 表头残留，不是变量
 HEADER_ROWS = {('变量', '说明'), ('变量', '')}
+
+# ---- param：模型参数，转成 prompt 常量（用户不需要填） ----
+PARAM_CONST = {
+    'NEGATIVE_PROMPT': 'watermarks, real logos, low quality, distorted text',
+    'LENS_STYLE': 'fisheye lens, ultra-wide, low camera angle',
+    'TEXTURE_LEVEL': 'strong analog grain',
+}
+
+# ---- marker：段落标记 / 图层标记被误写成变量，直接删掉占位符 ----
+# brand_miniature_architecture 把 6 个段落标题写成了槽位；3d_sports_event_poster
+# 用 {back}/{front} 标图层顺序。它们都不是要给用户填的东西。
+MARKER_SLOTS = {
+    'Visual_Requirements', 'Main_Design', 'Environmental_Integration',
+    'Characters_and_Narrative', 'Poster_Composition', 'White_Poster_Text',
+    'back', 'front',
+}
+
+# 尺寸类：由画布工具统一设定，prompt 里不留槽位
+DROP_SLOTS = {'size_spec', 'size_requirement'}
 
 # 英文槽位 → 中文标签。只覆盖高频词，其余退化成「下划线转空格」。
 LABELS = {
@@ -141,6 +160,41 @@ def label_for(slot: str) -> str:
         return slot
     # 退化成「下划线转空格」
     return re.sub(r'[_-]+', ' ', slot).strip() or slot
+
+
+def tidy_blank_lines(text: str) -> str:
+    """删完槽位后收拾残留：清行尾空格，把 3 个以上连续换行压成段落间隔。
+
+    原文常写成 `...副标题\n\n\n{Visual_Requirements}\n\n正文`（槽位前后各有空行），
+    只删槽位会让空行堆到 4 个。markdown 里 3+ 换行和 2 个等价，压掉不影响语义。
+    """
+    text = re.sub(r'[ \t]+\n', '\n', text)
+    return re.sub(r'\n{3,}', '\n\n', text)
+
+
+def remove_slot(text: str, slot: str) -> str:
+    """删掉一个占位符，并清理它留下的空行/多余标点。
+
+    三种形态都要管：
+      1. 独立成行（`\\n{Visual_Requirements}\\n`）→ 整行删掉，避免留空洞
+      2. 中文顿号/逗号前缀（`保留信息：{text}，{size}`）→ 连标点一起删，否则留「，」
+      3. 句中英文槽位（`Depth order: {back} realistic`）→ 删词留单空格
+    """
+    token = '{' + slot + '}'
+    if token not in text:
+        return text
+    # 1. 独立成行：删掉占位符那一行
+    text = re.sub(r'\n[ \t]*' + re.escape(token) + r'[ \t]*\n', '\n', text)
+    if token not in text:
+        return tidy_blank_lines(text)
+    # 2. 中文标点前缀
+    for punct in ('，', '、', '；', '：'):
+        text = text.replace(punct + token, '')
+    if token not in text:
+        return text
+    # 3. 句中：删掉并保留一个空格（中英混排都不粘字）
+    text = re.sub(r'[ \t]*' + re.escape(token) + r'[ \t]*', ' ', text)
+    return tidy_blank_lines(text)
 
 
 def bracket_to_brace(name: str):
@@ -425,7 +479,8 @@ def migrate_labels_only(text, label_dict):
 def migrate_text(text: str, path: str):
     """对单个文件文本做迁移，返回 (new_text, changes, stats)。"""
     changes = []
-    stats = {'backtick': 0, 'desc_value': 0, 'dead': 0, 'ratio': 0, 'added': 0, 'bracket': 0, 'dirty': 0, 'tech': 0}
+    stats = {'backtick': 0, 'desc_value': 0, 'dead': 0, 'ratio': 0, 'added': 0,
+             'bracket': 0, 'dirty': 0, 'tech': 0, 'param_slot': 0, 'marker': 0}
 
     try:
         data = yaml.safe_load(text)
@@ -484,6 +539,21 @@ def migrate_text(text: str, path: str):
                 pblock = pblock.replace(token, const)
                 stats['tech'] += 1
                 changes.append(f'技术槽位 {token} → 常量')
+
+        # A4. param 槽位 → 常量（镜头/质感/负面词是风格锚点，不该给用户填）
+        for slot, const in PARAM_CONST.items():
+            token = '{' + slot + '}'
+            if token in pblock:
+                pblock = pblock.replace(token, const)
+                stats['param_slot'] += 1
+                changes.append(f'param 槽位 {token} → 常量')
+
+        # A5. marker / 尺寸槽位 → 删占位符（段落标记、图层顺序、输出尺寸）
+        for slot in sorted(MARKER_SLOTS | DROP_SLOTS):
+            if '{' + slot + '}' in pblock:
+                pblock = remove_slot(pblock, slot)
+                stats['marker'] += 1
+                changes.append(f'marker/尺寸 槽位 {{{slot}}} → 删除')
 
         new_text = ''.join(plines0[:pstart0]) + pblock + ''.join(plines0[pend0:])
 
@@ -596,7 +666,8 @@ def main():
         return check_labels(files, label_dict)
 
     total = {'backtick': 0, 'desc_value': 0, 'dead': 0, 'ratio': 0, 'added': 0,
-             'bracket': 0, 'dirty': 0, 'tech': 0, 'translated': 0, 'param': 0}
+             'bracket': 0, 'dirty': 0, 'tech': 0, 'translated': 0, 'param': 0,
+             'param_slot': 0, 'marker': 0}
     touched, errors, samples = [], [], []
     unmapped = {}
 
@@ -639,6 +710,8 @@ def main():
         print(f"  删除死声明：{total['dead']} 条")
         print(f"  比例槽位→常量：{total['ratio']} 处")
         print(f"  技术槽位→常量：{total['tech']} 处")
+        print(f"  param 槽位→常量：{total['param_slot']} 处")
+        print(f"  marker/尺寸槽位→删除：{total['marker']} 处")
         print(f"  方括号→花括号：{total['bracket']} 处")
         print(f"  补零声明：{total['added']} 条")
         print(f"  跳过脏槽位（说明书式占位符，待人工改 prompt）：{total['dirty']} 个")

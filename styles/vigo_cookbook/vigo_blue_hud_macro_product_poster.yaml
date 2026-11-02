@@ -45,8 +45,6 @@ variables:
   style_var: '{ACCENT_SYMBOL}'
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
-- kv_var: NEGATIVE PROMPT
-  style_var: '{NEGATIVE_PROMPT}'
 prompt: 'Create a 16:9 image in the "Blue HUD Macro Creator Tech Poster" visual style.
 
 
@@ -94,7 +92,7 @@ prompt: 'Create a 16:9 image in the "Blue HUD Macro Creator Tech Poster" visual 
 
   Avoid:
 
-  - {NEGATIVE_PROMPT}
+  - watermarks, real logos, low quality, distorted text
 
 
   Important content rule: match the extracted style first, then change the exact source content. Product categories may be camera-adjacent when requested, but all outputs must stay brandless, non-identical,
