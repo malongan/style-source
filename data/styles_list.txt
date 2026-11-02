@@ -1,4 +1,4 @@
-共 310 个风格
+共 311 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -298,6 +298,7 @@ ST0289 | 粗黑艺术字体 | https://malongan.github.io/style-source/images/sty
 ST0290 | 蓝图时尚素描大片 | https://malongan.github.io/style-source/images/styles_previews/blueprint_editorial_sketch_c58e372a.webp
 ST0291 | 蓝白线弧海报 | https://malongan.github.io/style-source/images/styles_previews/blue_white_line_arc_poster_3070589c.webp
 ST0292 | 商业杂志封面编辑风格 | https://malongan.github.io/style-source/images/styles_previews/bloomberg_magazine_7cb7f648.webp
+ST0311 | 温柔祝福拱门海报 | https://malongan.github.io/style-source/images/styles_previews/blessing_arch_ceremony_poster_9b009f4f.webp
 ST0293 | 高对比黑白字体肖像 | https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp
 ST0294 | 黑白墨水编辑角色插画 | https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.webp
 ST0295 | 多色饮料飞溅广告系统风格 | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
