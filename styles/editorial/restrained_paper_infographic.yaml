@@ -44,9 +44,9 @@ variables:
   style_var: '{theme}'
 - kv_var: 主标题
   style_var: '{headline}'
-- kv_var: key information
+- kv_var: 关键信息
   style_var: '{key_information}'
-- kv_var: bottom notice
+- kv_var: 底部说明
   style_var: '{bottom_notice}'
 source_url: "https://x.com/xiaoxiaodong01/status/2086866107965821125"
 source_author: "@xiaoxiaodong01"

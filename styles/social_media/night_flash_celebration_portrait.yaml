@@ -41,7 +41,7 @@ prompt: |
 variables:
 - kv_var: 场景
   style_var: '{scene}'
-- kv_var: props
+- kv_var: 道具
   style_var: '{props}'
 source_url: "https://x.com/xiaoxiaodong01/status/2073403641869009289"
 source_author: "小小东"

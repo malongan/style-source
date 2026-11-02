@@ -43,11 +43,11 @@ prompt: |
 variables:
 - kv_var: 目的地
   style_var: '{destination}'
-- kv_var: travel scene elements
+- kv_var: 旅行场景元素
   style_var: '{travel_scene_elements}'
-- kv_var: season and mood
+- kv_var: 季节与情绪
   style_var: '{season_and_mood}'
-- kv_var: traveler characteristics
+- kv_var: 旅人特征
   style_var: '{traveler_characteristics}'
 source_url: "https://x.com/Taaruk_/status/2081232385895764440"
 source_author: "Taaruk"

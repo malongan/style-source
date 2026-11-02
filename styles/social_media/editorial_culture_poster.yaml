@@ -38,9 +38,9 @@ prompt: |
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
-- kv_var: subject type
+- kv_var: 主体类型
   style_var: '{subject_type}'
-- kv_var: subject override
+- kv_var: 画面补充描述
   style_var: '{subject_override}'
 - kv_var: 场景
   style_var: '{scene_spec}'

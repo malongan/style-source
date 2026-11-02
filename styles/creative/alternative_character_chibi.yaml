@@ -62,7 +62,7 @@ variables:
   style_var: '{colors}'
 - kv_var: 背景
   style_var: '{background}'
-- kv_var: text
+- kv_var: 文字
   style_var: '{text}'
 source_url: "https://x.com/HustleXR/status/2087745072309604705"
 source_author: "HustleXR"

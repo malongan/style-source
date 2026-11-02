@@ -43,7 +43,7 @@ prompt: |
 variables:
 - kv_var: 主体描述
   style_var: '{subject_description}'
-- kv_var: city landmark or theme
+- kv_var: 城市地标或主题
   style_var: '{city_landmark_or_theme}'
 - kv_var: 尺寸
   style_var: '{size_requirement}'

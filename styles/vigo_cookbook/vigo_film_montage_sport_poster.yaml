@@ -23,17 +23,17 @@ features:
   - 影片元数据元素：帧号、时间码、卷标
   - 戏剧性灯光：轮廓光 + 镜头光晕
 variables:
-  - kv_var: sport
+  - kv_var: 运动类型
     style_var: '{sport}'
-  - kv_var: athlete
+  - kv_var: 运动员
     style_var: '{athlete}'
-  - kv_var: action
+  - kv_var: 动作
     style_var: '{action}'
-  - kv_var: stats
+  - kv_var: 数据表现
     style_var: '{stats}'
   - kv_var: 主标题
     style_var: '{headline}'
-  - kv_var: subtext
+  - kv_var: 辅助文案
     style_var: '{subtext}'
 prompt: |
   Create a 16:9 cinematic sports poster in 电影蒙太奇三镜头运动海报 (Film Montage Triptych Sports Poster) style.

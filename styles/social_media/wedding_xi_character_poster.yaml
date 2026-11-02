@@ -41,7 +41,7 @@ prompt: |
 variables:
 - kv_var: 主体描述
   style_var: '{subject_description}'
-- kv_var: additional scene details
+- kv_var: 补充场景细节
   style_var: '{additional_scene_details}'
 - kv_var: 尺寸
   style_var: '{size_requirement}'

@@ -41,7 +41,7 @@ variables:
   style_var: '{theme}'
 - kv_var: 主体
   style_var: '{subject}'
-- kv_var: subject spec
+- kv_var: 画面主体
   style_var: '{subject_spec}'
 - kv_var: 场景
   style_var: '{scene_spec}'

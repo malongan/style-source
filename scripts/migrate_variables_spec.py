@@ -315,6 +315,113 @@ def detect_indent(lines, start):
     return 0
 
 
+# ---------------- L2：标签中文化（只动 kv_var，不碰 prompt） ----------------
+
+LABEL_DICT_PATH = os.path.join(ROOT, 'data', 'label_dictionary.yaml')
+
+
+def load_label_dict(path=None):
+    """读 data/label_dictionary.yaml，返回 {英文标签: {zh, type, const, note}}。
+
+    词典是 1:1 查表（同义的空格/下划线写法各列一条），不做别名展开。
+    """
+    path = path or LABEL_DICT_PATH
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as f:
+        return yaml.safe_load(f) or {}
+
+
+def raw_to_entries(raw):
+    """yaml 的 variables 列表 → 渲染器要的 entries，desc 必须保留（丢了等于白干）。"""
+    entries = []
+    for v in (raw or []):
+        if isinstance(v, dict):
+            kv = clean_label(v.get('kv_var') or '')
+            sv = str(v.get('style_var') or '').strip()
+            desc = str(v.get('desc') or '').strip()
+            if kv and sv:
+                entries.append({'kv': kv, 'sv': sv, 'desc': desc})
+        elif isinstance(v, str) and v.strip():
+            name, desc, ok = parse_legacy_entry(v.strip())
+            if ok and name:
+                entries.append({'kv': name, 'sv': '{' + name + '}', 'desc': desc})
+    return entries
+
+
+def translate_entries(entries, label_dict):
+    """把 input 类英文 kv 换成中文；param/marker 原样留着（留给 --apply-params）。
+
+    style_var 一个字都不动——插件按 style_var 匹配占位符，改 kv 只影响显示标签。
+    """
+    stats = {'translated': 0, 'param': 0}
+    unmapped = []
+    out = []
+    for e in entries:
+        kv = str(e.get('kv') or '')
+        if re.search(r'[\u4e00-\u9fa5]', kv):
+            out.append(e)
+            continue
+        item = label_dict.get(kv)
+        if not item:
+            unmapped.append(kv)
+            out.append(e)
+            continue
+        if item.get('type') != 'input':
+            stats['param'] += 1
+            out.append(e)
+            continue
+        zh = str(item.get('zh') or '').strip()
+        if zh and zh != kv:
+            stats['translated'] += 1
+            e = dict(e, kv=zh)
+        out.append(e)
+    stats['unmapped'] = unmapped
+    return out, stats
+
+
+def migrate_labels_only(text, label_dict):
+    """只做标签中文化。prompt / style_var / desc 一律不动。
+
+    独立于 migrate_text 的完整迁移路径：那条路会重排 prompt 里的占位符，
+    这一步已经不需要了，混进去反而增加破坏面。
+    """
+    stats = {'translated': 0, 'param': 0, 'unmapped': []}
+    try:
+        data = yaml.safe_load(text)
+    except yaml.YAMLError as e:
+        return text, {'error': str(e)}
+    if not isinstance(data, dict):
+        return text, stats
+    raw = data.get('variables') or []
+    if not isinstance(raw, list) or not raw:
+        return text, stats
+
+    entries = raw_to_entries(raw)
+    if not entries:
+        return text, stats
+    entries, tstats = translate_entries(entries, label_dict)
+    stats.update(tstats)
+    if not stats['translated']:
+        return text, stats
+
+    loc = find_block(text, 'variables')
+    if not loc:
+        return text, stats
+    start, end, lines = loc
+    indent = detect_indent(lines, start)
+    new_text = ''.join(lines[:start]) + render_variables(entries, indent) + ''.join(lines[end:])
+
+    # 改完必须仍能解析，且变量条数不能变（变了说明渲染器吃掉了条目）
+    try:
+        check = yaml.safe_load(new_text)
+    except yaml.YAMLError as e:
+        return text, {'error': f'改写后 YAML 非法: {e}'}
+    if len(check.get('variables') or []) != len(entries):
+        return text, {'error': f'条目数不一致（{len(entries)} → {len(check.get("variables") or [])}）'}
+    return new_text, stats
+
+
 def migrate_text(text: str, path: str):
     """对单个文件文本做迁移，返回 (new_text, changes, stats)。"""
     changes = []
@@ -427,31 +534,89 @@ def migrate_text(text: str, path: str):
     return new_text, changes, stats
 
 
+def check_labels(files, label_dict):
+    """校验词典覆盖率：英文 kv 必须都有归属（input 有中文名 / param / marker）。"""
+    from collections import Counter
+    seen = Counter()
+    for path in files:
+        try:
+            data = yaml.safe_load(open(path, encoding='utf-8'))
+        except yaml.YAMLError:
+            continue
+        if not isinstance(data, dict):
+            continue
+        for e in raw_to_entries(data.get('variables') or []):
+            kv = e['kv']
+            if not re.search(r'[\u4e00-\u9fa5]', kv):
+                seen[kv] += 1
+
+    missing = {k: c for k, c in seen.items() if k not in label_dict}
+    no_zh = [k for k, v in label_dict.items()
+             if (v or {}).get('type') == 'input' and not str((v or {}).get('zh') or '').strip()]
+    bad_type = [k for k, v in label_dict.items() if (v or {}).get('type') not in ('input', 'param', 'marker')]
+    types = Counter((v or {}).get('type', '?') for v in label_dict.values())
+
+    print(f'英文标签：{len(seen)} 种 / {sum(seen.values())} 条')
+    print(f'词典条目：{len(label_dict)} 条   {dict(types)}')
+    print(f'覆盖：{len(seen) - len(missing)}/{len(seen)}')
+    if missing:
+        print(f'\n✗ 未收录 {len(missing)} 种（漏掉会退化成英文占位符名）：')
+        for k, c in sorted(missing.items(), key=lambda x: -x[1]):
+            print(f'  {k} ×{c}')
+    if no_zh:
+        print(f'\n✗ input 类缺中文名：{no_zh[:12]}')
+    if bad_type:
+        print(f'\n✗ type 取值非法（只允许 input/param/marker）：{bad_type[:12]}')
+    extra = [k for k in label_dict if k not in seen]
+    if extra:
+        print(f'\n· 词典里多出 {len(extra)} 个（数据里已不存在，可删）：{extra[:12]}')
+    ok = not (missing or no_zh or bad_type)
+    print('\n✅ 词典覆盖完整' if ok else '\n❌ 词典需补全后才能批量翻译')
+    return 0 if ok else 1
+
+
 def main():
     ap = argparse.ArgumentParser(description='按 PROMPT_VARIABLES_SPEC 整改 variables')
     ap.add_argument('--apply', action='store_true', help='写回文件（默认 dry-run）')
     ap.add_argument('--dry-run', action='store_true', help='只预览，不写回（默认行为，显式声明用）')
     ap.add_argument('--diff', type=int, default=3, help='dry-run 时打印几个完整 diff')
     ap.add_argument('--only', default='', help='只处理文件名包含该子串的文件')
+    ap.add_argument('--labels-only', action='store_true',
+                    help='只把英文 kv_var 换成中文（不动 prompt / style_var / desc）')
+    ap.add_argument('--check', action='store_true', help='只校验词典覆盖率，不改文件')
     args = ap.parse_args()
+
+    label_dict = load_label_dict()
 
     files = sorted(glob.glob(STYLE_GLOB))
     if args.only:
         files = [f for f in files if args.only in f]
 
-    total = {'backtick': 0, 'desc_value': 0, 'dead': 0, 'ratio': 0, 'added': 0, 'bracket': 0, 'dirty': 0, 'tech': 0}
+    if args.check:
+        return check_labels(files, label_dict)
+
+    total = {'backtick': 0, 'desc_value': 0, 'dead': 0, 'ratio': 0, 'added': 0,
+             'bracket': 0, 'dirty': 0, 'tech': 0, 'translated': 0, 'param': 0}
     touched, errors, samples = [], [], []
+    unmapped = {}
 
     for path in files:
         text = open(path, encoding='utf-8').read()
-        new_text, changes, stats = migrate_text(text, path)
+        if args.labels_only:
+            new_text, stats = migrate_labels_only(text, label_dict)
+        else:
+            new_text, changes, stats = migrate_text(text, path)
         if stats.get('error'):
             errors.append((path, stats['error']))
             continue
+        for k in stats.get('unmapped') or []:
+            unmapped[k] = unmapped.get(k, 0) + 1
+        # 统计要在 touched 判断之外累加：有些文件的 param/marker 计数存在，
+        # 但那次并没有实际改写（上一轮已经处理过），否则会少报
+        for k in total:
+            total[k] += stats.get(k, 0) or 0
         if new_text != text:
             touched.append(path)
-            for k in total:
-                total[k] += stats.get(k, 0)
             if len(samples) < args.diff:
                 diff = list(difflib.unified_diff(
                     text.splitlines(), new_text.splitlines(),
@@ -461,14 +626,22 @@ def main():
                 open(path, 'w', encoding='utf-8').write(new_text)
 
     print(f"{'已写回' if args.apply else 'DRY-RUN'}：扫描 {len(files)} 个文件，改动 {len(touched)} 个")
-    print(f"  剥 markdown 标签：{total['backtick']} 条")
-    print(f"  style_var 写描述→本体：{total['desc_value']} 条")
-    print(f"  删除死声明：{total['dead']} 条")
-    print(f"  比例槽位→常量：{total['ratio']} 处")
-    print(f"  技术槽位→常量：{total['tech']} 处")
-    print(f"  方括号→花括号：{total['bracket']} 处")
-    print(f"  补零声明：{total['added']} 条")
-    print(f"  跳过脏槽位（说明书式占位符，待人工改 prompt）：{total['dirty']} 个")
+    if args.labels_only:
+        print(f"  英文标签→中文：{total['translated']} 条")
+        print(f"  跳过 param/marker（留给人工处理）：{total['param']} 条")
+        if unmapped:
+            print(f"\n⚠️ 词典未收录 {len(unmapped)} 种（这些标签原样保留）：")
+            for k, c in sorted(unmapped.items(), key=lambda x: -x[1])[:15]:
+                print(f"  {k} ×{c}")
+    else:
+        print(f"  剥 markdown 标签：{total['backtick']} 条")
+        print(f"  style_var 写描述→本体：{total['desc_value']} 条")
+        print(f"  删除死声明：{total['dead']} 条")
+        print(f"  比例槽位→常量：{total['ratio']} 处")
+        print(f"  技术槽位→常量：{total['tech']} 处")
+        print(f"  方括号→花括号：{total['bracket']} 处")
+        print(f"  补零声明：{total['added']} 条")
+        print(f"  跳过脏槽位（说明书式占位符，待人工改 prompt）：{total['dirty']} 个")
     if errors:
         print(f"\n✗ 解析/改写失败 {len(errors)} 个：")
         for p, e in errors[:10]:

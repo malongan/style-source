@@ -34,7 +34,7 @@ variables:
 - kv_var: 主标题
   style_var: '{主题}'
   desc: 液态金属质感 3D 字母
-- kv_var: Slogan
+- kv_var: 标语
   style_var: '{底部文字1}'
   desc: 底部小字
 - kv_var: 画面-主体

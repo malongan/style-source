@@ -43,17 +43,17 @@ features:
 - title: 使用强烈的阳光、高饱和钴蓝天空、暖调皮肤高光、硬朗阴影，以及随性的夏日旅行感。
   desc: ''
 variables:
-- kv_var: SUBJECT_IDENTITY
+- kv_var: 主体身份
   style_var: '{SUBJECT_IDENTITY}'
-- kv_var: SUBJECT
+- kv_var: 画面主体
   style_var: '{SUBJECT}'
-- kv_var: SUBJECT_ACTION
+- kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
-- kv_var: PRODUCT_OR_PROP
+- kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
-- kv_var: LOCATION
+- kv_var: 场景地点
   style_var: '{LOCATION}'
-- kv_var: BACKGROUND_ELEMENTS
+- kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
@@ -61,7 +61,7 @@ variables:
   style_var: '{LENS_STYLE}'
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
-- kv_var: ACCENT SYMBOL
+- kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
 - kv_var: TEXTURE LEVEL
   style_var: '{TEXTURE_LEVEL}'

@@ -47,7 +47,7 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{SUBJECT}'
-- kv_var: CITY NAME
+- kv_var: 城市名称
   style_var: '{CITY_NAME}'
 source_url: "https://x.com/Maercihh/status/2087113728185749607"
 source_author: "@Maercihh"

@@ -32,7 +32,7 @@ features:
 - title: 散点式构图，多重图层叠加
   desc: ''
 variables:
-- kv_var: Slogan
+- kv_var: 标语
   style_var: '{手绘文字}'
   desc: 右下角纸贴文字
 - kv_var: 画面-主体

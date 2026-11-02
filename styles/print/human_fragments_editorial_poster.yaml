@@ -78,7 +78,7 @@ variables:
   style_var: '{副标题}'
 - kv_var: 标题
   style_var: '{Title}'
-- kv_var: Supporting Line
+- kv_var: 辅助文案
   style_var: '{Supporting_Line}'
 source_url: "https://x.com/Goodmanprotocol/status/2082666687925760258"
 source_author: "@Goodmanprotocol"

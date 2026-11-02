@@ -64,11 +64,11 @@ prompt: |
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
-- kv_var: PRODUCT NAME
+- kv_var: 产品名称
   style_var: '{PRODUCT_NAME}'
 - kv_var: 副标题
   style_var: '{SUBTITLE}'
-- kv_var: DESCRIPTION
+- kv_var: 描述
   style_var: '{DESCRIPTION}'
 - kv_var: 价格
   style_var: '{PRICE}'

@@ -43,7 +43,7 @@ prompt: |
 variables:
 - kv_var: 主题文字
   style_var: '{主题文字}'
-- kv_var: ENGLISH TEXT
+- kv_var: 英文文案
   style_var: '{ENGLISH_TEXT}'
 - kv_var: 副标题
   style_var: '{副标题}'

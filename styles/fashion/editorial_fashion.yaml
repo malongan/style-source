@@ -21,23 +21,23 @@ features:
 - title: 优雅的中性色调，以象牙白、沙色、灰褐、石灰灰、黑色、驼色、烟草棕与低饱和金属色为主。
   desc: ''
 variables:
-- kv_var: SUBJECT
+- kv_var: 画面主体
   style_var: '{SUBJECT}'
-- kv_var: SUBJECT_ACTION
+- kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
-- kv_var: PRODUCT_OR_PROP
+- kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
-- kv_var: LOCATION
+- kv_var: 场景地点
   style_var: '{LOCATION}'
-- kv_var: BACKGROUND_ELEMENTS
+- kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
-- kv_var: MAIN_TEXT
+- kv_var: 主文案
   style_var: '{MAIN_TEXT}'
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
-- kv_var: ACCENT SYMBOL
+- kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
 prompt: 'Create a polished outdoor high-fashion editorial photograph in the Sunlit Architectural Fashion Editorial style. Subject: {SUBJECT}. Pose or movement: {SUBJECT_ACTION}. Prop or accessory: {PRODUCT_OR_PROP}.
   Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Internal editorial mood labels only, not visible text: {MAIN_TEXT}; {SECONDARY_TEXT}. Subtle photographic

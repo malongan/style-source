@@ -54,15 +54,15 @@ variables:
   style_var: '{back}'
 - kv_var: front
   style_var: '{front}'
-- kv_var: sport
+- kv_var: 运动类型
   style_var: '{sport}'
 - kv_var: 角色
   style_var: '{character}'
-- kv_var: foreground prop
+- kv_var: 前景道具
   style_var: '{foreground_prop}'
 - kv_var: 标题
   style_var: '{title}'
-- kv_var: sub brand
+- kv_var: 子品牌
   style_var: '{sub_brand}'
 source_url: "https://x.com/VigoCreativeAI/status/2071799923763187860"
 source_author: "VigoCreativeAI"

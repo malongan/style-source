@@ -50,11 +50,11 @@ variables:
   style_var: '{BRAND_MOOD}'
 - kv_var: 配色
   style_var: '{COLOR_PALETTE}'
-- kv_var: DIRECTION TYPE
+- kv_var: 版式类型
   style_var: '{DIRECTION_TYPE}'
 - kv_var: 小字文案
   style_var: '{EXTRA_SMALL_TEXT}'
-- kv_var: MODEL DESCRIPTION
+- kv_var: 模特描述
   style_var: '{MODEL_DESCRIPTION}'
 prompt: 'Use this as a single-image prompt template.
 

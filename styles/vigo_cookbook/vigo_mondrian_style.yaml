@@ -32,19 +32,19 @@ features:
 variables:
 - kv_var: 品牌名
   style_var: '{brand_name}'
-- kv_var: brand tagline
+- kv_var: 品牌标语
   style_var: '{brand_tagline}'
-- kv_var: main title
+- kv_var: 主标题
   style_var: '{main_title}'
 - kv_var: 副标题
   style_var: '{subtitle}'
-- kv_var: graphic element
+- kv_var: 图形元素
   style_var: '{graphic_element}'
-- kv_var: side text
+- kv_var: 侧边文字
   style_var: '{side_text}'
-- kv_var: center visual
+- kv_var: 中心视觉
   style_var: '{center_visual}'
-- kv_var: bg color
+- kv_var: 背景色
   style_var: '{bg_color}'
 prompt: |
   Create a poster in 蒙德里安秩序风 (Mondrian De Stijl) style.

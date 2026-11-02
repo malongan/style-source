@@ -37,9 +37,9 @@ prompt: |
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
-- kv_var: person type
+- kv_var: 人物类型
   style_var: '{person_type}'
-- kv_var: subject spec
+- kv_var: 画面主体
   style_var: '{subject_spec}'
 - kv_var: 场景
   style_var: '{scene_spec}'

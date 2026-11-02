@@ -54,9 +54,9 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{SUBJECT}'
-- kv_var: SUBJECT ACTION
+- kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
-- kv_var: PRODUCT OR PROP
+- kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
 - kv_var: 地点
   style_var: '{LOCATION}'
@@ -66,7 +66,7 @@ variables:
   style_var: '{MAIN_TEXT}'
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
-- kv_var: ACCENT SYMBOL
+- kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
 source_url: "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/tree/main/styles/sunny-3d-avatar-campaign-style"
 source_author: "VigoCreativeAI"

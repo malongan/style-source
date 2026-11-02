@@ -31,7 +31,7 @@ variables:
 - kv_var: 主标题
   style_var: '{品牌名}'
   desc: 顶部超大粗体艺术字
-- kv_var: Slogan
+- kv_var: 标语
   style_var: '{标语}'
   desc: 画面底部标语文字
 - kv_var: 位置

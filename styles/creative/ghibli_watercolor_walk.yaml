@@ -47,9 +47,9 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{subject}'
-- kv_var: outfit
+- kv_var: 服装
   style_var: '{outfit}'
-- kv_var: setting mood
+- kv_var: 场景情绪
   style_var: '{setting_mood}'
 source_url: "https://x.com/arsalannazir07/status/2086798151890219247"
 source_author: "@arsalannazir07"

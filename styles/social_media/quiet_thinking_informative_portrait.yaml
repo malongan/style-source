@@ -41,9 +41,9 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{subject}'
-- kv_var: props
+- kv_var: 道具
   style_var: '{props}'
-- kv_var: emotion
+- kv_var: 情绪
   style_var: '{emotion}'
 source_url: "https://x.com/xiaoxiaodong01/status/2073403641869009289"
 source_author: "小小东"

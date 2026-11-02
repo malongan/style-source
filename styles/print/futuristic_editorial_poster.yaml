@@ -46,7 +46,7 @@ variables:
   style_var: '{COLOR3}'
 - kv_var: 标题
   style_var: '{TITLE}'
-- kv_var: TEXT
+- kv_var: 文字
   style_var: '{TEXT}'
 source_url: "https://x.com/Kashberg_0/status/2075055474861555843"
 source_author: "Kashberg"

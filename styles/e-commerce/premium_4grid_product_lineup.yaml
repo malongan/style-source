@@ -94,23 +94,23 @@ prompt: |
 variables:
 - kv_var: 品牌名
   style_var: '{brand_name}'
-- kv_var: product series
+- kv_var: 产品系列
   style_var: '{product_series}'
-- kv_var: flavor 1
+- kv_var: 口味一
   style_var: '{flavor_1}'
-- kv_var: flavor 2
+- kv_var: 口味二
   style_var: '{flavor_2}'
-- kv_var: flavor 3
+- kv_var: 口味三
   style_var: '{flavor_3}'
-- kv_var: flavor 4
+- kv_var: 口味四
   style_var: '{flavor_4}'
-- kv_var: bg color 1
+- kv_var: 背景色一
   style_var: '{bg_color_1}'
-- kv_var: bg color 2
+- kv_var: 背景色二
   style_var: '{bg_color_2}'
-- kv_var: bg color 3
+- kv_var: 背景色三
   style_var: '{bg_color_3}'
-- kv_var: bg color 4
+- kv_var: 背景色四
   style_var: '{bg_color_4}'
 - kv_var: 标语
   style_var: '{tagline}'

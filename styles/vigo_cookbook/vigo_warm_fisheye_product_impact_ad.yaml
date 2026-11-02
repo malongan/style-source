@@ -21,21 +21,21 @@ features:
 - title: 巨大的倾斜白色中文展示大标题，带厚重黑色阴影或立体 3D 块面纵深。
   desc: ''
 variables:
-- kv_var: SUBJECT
+- kv_var: 画面主体
   style_var: '{SUBJECT}'
-- kv_var: SUBJECT_ACTION
+- kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
-- kv_var: PRODUCT_OR_PROP
+- kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
-- kv_var: LOCATION
+- kv_var: 场景地点
   style_var: '{LOCATION}'
-- kv_var: BACKGROUND_ELEMENTS
+- kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
-- kv_var: MAIN_TEXT
+- kv_var: 主文案
   style_var: '{MAIN_TEXT}'
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
-- kv_var: ACCENT SYMBOL
+- kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'

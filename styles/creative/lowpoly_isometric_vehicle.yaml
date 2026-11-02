@@ -33,7 +33,7 @@ prompt: |
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
-- kv_var: pop culture vehicle
+- kv_var: 流行文化载具
   style_var: '{pop_culture_vehicle}'
 source_url: "https://x.com/CharaspowerAI/status/2076728502087262510"
 source_author: "CharaspowerAI"

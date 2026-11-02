@@ -45,35 +45,35 @@ prompt: |
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
 
 variables:
-- kv_var: surface texture
+- kv_var: 表面质感
   style_var: '{surface_texture}'
-- kv_var: background scene
+- kv_var: 背景场景
   style_var: '{background_scene}'
 - kv_var: 姿态
   style_var: '{pose}'
 - kv_var: 表情
   style_var: '{expression}'
-- kv_var: lip expression
+- kv_var: 唇部表情
   style_var: '{lip_expression}'
-- kv_var: hair description
+- kv_var: 发型描述
   style_var: '{hair_description}'
-- kv_var: outfit description
+- kv_var: 服装描述
   style_var: '{outfit_description}'
-- kv_var: bottoms description
+- kv_var: 下装描述
   style_var: '{bottoms_description}'
-- kv_var: head accessory
+- kv_var: 头部配饰
   style_var: '{head_accessory}'
-- kv_var: drink color
+- kv_var: 饮品颜色
   style_var: '{drink_color}'
-- kv_var: garnish
+- kv_var: 装饰配料
   style_var: '{garnish}'
-- kv_var: straw type
+- kv_var: 吸管类型
   style_var: '{straw_type}'
-- kv_var: accessories on hands
+- kv_var: 手部配饰
   style_var: '{accessories_on_hands}'
-- kv_var: footwear description
+- kv_var: 鞋履描述
   style_var: '{footwear_description}'
-- kv_var: time of day
+- kv_var: 时段
   style_var: '{time_of_day}'
 source_url: "https://x.com/Sairah_0/status/2087559140071895056"
 source_author: "Sairah_0"
