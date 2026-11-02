@@ -335,8 +335,9 @@ python3 scripts/validate_style.py styles/{分类}/{id}.yaml
 
 ## 9. CI 门禁（已实现）
 
-`scripts/validate_style.py` 里的 `check_variables_semantics()` 现在跑 6 条规则，全部是 **error**
-（有错即 exit 1，PR 直接红）：
+`scripts/validate_style.py` 里的 `check_variables_semantics()` 现在跑 7 条规则。
+R1–R6 恒开，有错即 exit 1（PR 直接红）；R7 由 `--require-desc` 打开，
+CI 只对**本 PR 新增**的风格传这个开关（原因见下表下方）。
 
 | 规则 | 检查 | 为什么 |
 |---|---|---|
@@ -346,15 +347,23 @@ python3 scripts/validate_style.py styles/{分类}/{id}.yaml
 | **R4** | `kv_var` 必须含中文（`ALLOW_EN_KV` 白名单除外） | 面板是中文界面，一整片 `SUBJECT` / `MAIN_TEXT` 既占宽又和占位符名混淆 |
 | **R5** | 变量数 ≤ `MAX_VARIABLES`（12） | 超过 12 个用户不会填完，根源通常是 `元素1/2/3` 该合并没合并 |
 | **R6** | 占位符名与 `kv_var` 不能含空白、中文标点或填写指南（`填写…` / `例如…` / `如：…` / `可留空`）；占位符名里的 `/` 只记 warning | 说明塞进名字后，插件会把整串当标签显示（`{研究领域：生物医学 / 材料 / 纳米}`），且这类槽位大多漏了声明。2026-11 清掉 77 个 |
+| **R7** | 每条变量都要有 `desc`；`desc` 不得与标签重复、不得是「无 / 暂无 / 待定」这类占位词；短于 4 字只记 warning。**仅在 `--require-desc` 下生效** | 前 6 条保证「填了生效」，这条保证「知道填什么」——没有 `desc`，面板上只剩一个空输入框 |
 
 > R6 刻意**不拦** `/` `-` `_`：`kv_var` 里「产品/道具」这类标签可读，英文模板里
 > `{background/environment}` 是历史写法，不该因为一条命名规则把存量打红。只有占位符名里的 `/`
 > 记 warning（语义含糊，建议拆成两个槽位）。
 
+> **R7 为什么不追溯存量**：2026-11 统计，全库 1420 条变量里只有 391 条有 `desc`（28%），
+> 188 个风格不完整、其中 154 个一条 `desc` 都没有。如果 R7 恒开，310 个存量文件会立刻全红 ——
+> 闸门红久了就没人看了。所以 R7 走 `--diff-filter=A`：**存量永不被追溯，缺口只减不增**。
+> `audit_variables.py` 每次都会报当前覆盖率（只做信息输出，不进 warnings），
+> 补完一批就能看到数字往下走。
+
 ```bash
-python3 scripts/validate_style.py          # 单文件校验 + 汇总
-python3 scripts/validate_all.py --strict   # CI 用的入口，有 error 即失败
-python3 scripts/audit_variables.py         # 全库体检报告（只读，不当闸门）
+python3 scripts/validate_style.py                          # 单文件校验（R1–R6）
+python3 scripts/validate_style.py --require-desc <新增文件>  # 新风格额外查 R7
+python3 scripts/validate_all.py --strict                   # CI 用的入口，有 error 即失败
+python3 scripts/audit_variables.py                         # 全库体检报告（只读，不当闸门）
 ```
 
 配套的整改脚本（都默认 dry-run，改动逐条打印，确认后加 `--apply`）：

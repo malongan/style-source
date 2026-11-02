@@ -10,10 +10,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # R7 步骤要 diff base，浅克隆拿不到 base sha
+          fetch-depth: 0
 
       - name: 格式验证
         # --strict：有 error 即失败（此前 validate_all.py 恒 exit 0 → 这个 PR 闸门是空的）
         run: python3 scripts/validate_all.py --strict
+
+      - name: 新风格必须有 desc（R7）
+        # R7 只对**本 PR 新增**的风格生效。全库 188 个风格 desc 不完整（1029 条缺失），
+        # 追溯存量会把所有 PR 一次性打红，而闸门红久了就没人看。
+        # --diff-filter=A 精确圈出新增文件：存量永不被追溯，缺口只减不增。
+        run: |
+          BASE="${{ github.event.pull_request.base.sha }}"
+          NEW=$(git diff --name-only --diff-filter=A "$BASE"...HEAD -- 'styles/**/*.yaml')
+          if [ -z "$NEW" ]; then
+            echo "本 PR 没有新增风格文件，跳过 R7"
+            exit 0
+          fi
+          echo "新增风格文件："
+          echo "$NEW"
+          python3 scripts/validate_style.py --require-desc $NEW
 
       - name: 查重检测
         run: python3 scripts/check_duplicate.py --pr-mode

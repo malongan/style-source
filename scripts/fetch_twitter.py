@@ -1,142 +1,197 @@
 #!/usr/bin/env python3
+"""抓取 X（Twitter）推文正文与原始配图。
+
+为什么不用网页解析：x.com 对无登录直连返回 SSL EOF 或空壳页面，
+`data-testid="tweetText"` 早就取不到内容（2026-11 实测：SSL: EOF occurred
+in violation of protocol）。api.fxtwitter.com 一次 GET 就给出正文、作者、
+媒体原始 URL、原始尺寸和 alt，不用浏览器、不用登录、不触发反爬。
+
+用法：
+    python3 scripts/fetch_twitter.py <url>                # 正文 + 第一张原图 → /tmp/style_preview.jpg
+    python3 scripts/fetch_twitter.py <url> --all          # 全部原图 → /tmp/style_p1.jpg, style_p2.jpg ...
+    python3 scripts/fetch_twitter.py <url> --no-download  # 只取正文与图片 URL
+    python3 scripts/fetch_twitter.py <url> --json         # 只打印 JSON（供管线消费）
+
+图片下载按 orig → large → medium 三档降级：pbs.twimg.com 会随机返回空响应，
+单档重试不够，换档才有可能拿到（这是 CDN 侧的抖动，不是 URL 写错）。
 """
-抓取Twitter/X页面内容并下载图片
-"""
-import sys
+from __future__ import annotations
+
+import argparse
 import json
+import os
 import re
+import sys
+import time
+import urllib.error
 import urllib.request
-import urllib.parse
-from bs4 import BeautifulSoup
 
-def fetch_twitter_content(url):
-    """抓取Twitter页面内容"""
+API = 'https://api.fxtwitter.com/{user}/status/{tid}'
+
+# 兼容 x.com / twitter.com / mobile. 前缀，以及 /status/ 与 /statuses/ 两种写法
+TWEET_URL_RE = re.compile(
+    r'(?:^|//|\.)(?:twitter|x)\.com/([A-Za-z0-9_]{1,15})/status(?:es)?/(\d+)')
+
+UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
+      '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36')
+
+# 只认真实的图片字节，防止把 HTML 错误页存成 .jpg
+IMG_MAGIC = ((b'\xff\xd8\xff', 'jpg'), (b'\x89PNG', 'png'),
+             (b'RIFF', 'webp'), (b'GIF8', 'gif'))
+
+
+def parse_url(url: str) -> tuple:
+    """从推文 URL 解析出 (用户名, 推文 id)。"""
+    m = TWEET_URL_RE.search(url)
+    if not m:
+        sys.exit('❌ 无法解析 URL：%s\n   需要形如 https://x.com/{用户}/status/{数字id}' % url)
+    return m.group(1), m.group(2)
+
+
+def fetch(url: str, retries: int = 3) -> dict:
+    """调 fxtwitter API 取推文原始 JSON，失败时带退避重试。"""
+    user, tid = parse_url(url)
+    api = API.format(user=user, tid=tid)
+    last = '未知错误'
+    for i in range(retries):
+        try:
+            req = urllib.request.Request(
+                api, headers={'User-Agent': UA, 'Accept': 'application/json'})
+            with urllib.request.urlopen(req, timeout=25) as resp:
+                payload = json.loads(resp.read().decode('utf-8'))
+            if payload.get('code') == 200 and payload.get('tweet'):
+                return payload['tweet']
+            last = 'API 返回 code=%s message=%s' % (payload.get('code'), payload.get('message'))
+        except (urllib.error.URLError, OSError, ValueError) as exc:
+            last = '%s: %s' % (type(exc).__name__, exc)
+        if i < retries - 1:
+            time.sleep(1.5 * (i + 1))
+    raise RuntimeError('抓取失败（已重试 %d 次）：%s' % (retries, last))
+
+
+def normalize(tweet: dict) -> dict:
+    """把 API 响应压成稳定结构，只留收集流程要用的字段。"""
+    media = tweet.get('media') or {}
+    photos = []
+    for item in media.get('all') or []:
+        if item.get('type') != 'photo':
+            continue
+        photos.append({
+            'url': item.get('url'),
+            'width': item.get('width'),
+            'height': item.get('height'),
+            'alt': (item.get('altText') or '').strip(),
+        })
+    author = tweet.get('author') or {}
+    return {
+        'url': tweet.get('url'),
+        'id': tweet.get('id'),
+        'text': (tweet.get('text') or '').strip(),
+        'author_name': author.get('name'),
+        'author_handle': author.get('screen_name'),
+        'created_at': tweet.get('created_at'),
+        'photos': photos,
+        'has_video': any(m.get('type') in ('video', 'gif')
+                         for m in media.get('all') or []),
+    }
+
+
+def sniff(head: bytes):
+    """按文件头判断图片格式，认不出就返回 None。"""
+    for magic, ext in IMG_MAGIC:
+        if head.startswith(magic):
+            return ext
+    return None
+
+
+def download(photo_url: str, dest_base: str, retries: int = 3):
+    """按 orig → large → medium 逐档降级下载，返回 (路径, 档位, 字节数) 或 None。
+
+    fxtwitter 给的 URL 有时已带 `?name=orig`，必须先剥掉 query 再拼档位，
+    否则会变成 `?name=orig&name=orig` 直接 404。
+    """
+    base_url = photo_url.split('?')[0]
+    last_err = ''
+    for quality in ('orig', 'large', 'medium'):
+        candidate = '%s?name=%s' % (base_url, quality)
+        for attempt in range(retries):
+            try:
+                req = urllib.request.Request(candidate, headers={
+                    'User-Agent': UA, 'Referer': 'https://x.com/'})
+                with urllib.request.urlopen(req, timeout=40) as resp:
+                    body = resp.read()
+                ext = sniff(body[:16])
+                if not ext:
+                    raise ValueError('返回的不是图片（%r）' % body[:40])
+                path = '%s.%s' % (dest_base, ext)
+                with open(path, 'wb') as fh:
+                    fh.write(body)
+                return path, quality, len(body)
+            except (urllib.error.URLError, OSError, ValueError) as exc:
+                last_err = '%s: %s' % (type(exc).__name__, exc)
+                if attempt < retries - 1:
+                    time.sleep(1.5 * (attempt + 1))
+    print('  ⚠️ 三档全部失败：%s\n     %s' % (photo_url, last_err), file=sys.stderr)
+    return None
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description='抓取 X 推文正文与原始配图')
+    ap.add_argument('url', help='推文 URL')
+    ap.add_argument('--all', action='store_true', help='下载全部配图（默认只下第一张）')
+    ap.add_argument('--no-download', action='store_true', help='只取正文与图片 URL')
+    ap.add_argument('--json', action='store_true', help='只打印 JSON')
+    ap.add_argument('--out-dir', default='/tmp', help='图片保存目录（默认 /tmp）')
+    args = ap.parse_args()
+
     try:
-        # 设置请求头
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.5',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Connection': 'keep-alive',
-        }
-        
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=30) as response:
-            html = response.read().decode('utf-8')
-        
-        # 尝试提取文本内容
-        # Twitter页面通常有meta标签包含描述
-        soup = BeautifulSoup(html, 'html.parser')
-        
-        # 尝试获取og:description或description
-        description = ""
-        og_desc = soup.find('meta', property='og:description')
-        if og_desc:
-            description = og_desc.get('content', '')
-        
-        if not description:
-            meta_desc = soup.find('meta', attrs={'name': 'description'})
-            if meta_desc:
-                description = meta_desc.get('content', '')
-        
-        # 尝试提取推文文本
-        tweet_text = ""
-        # 查找包含推文文本的元素
-        tweet_elements = soup.find_all('div', attrs={'data-testid': 'tweetText'})
-        if tweet_elements:
-            tweet_text = tweet_elements[0].get_text(strip=True)
-        
-        # 如果没有找到推文文本，尝试从脚本中提取
-        if not tweet_text:
-            # 查找包含推文数据的脚本
-            scripts = soup.find_all('script')
-            for script in scripts:
-                script_text = script.string or ""
-                if 'tweetText' in script_text:
-                    # 尝试提取推文文本
-                    match = re.search(r'"tweetText":"([^"]+)"', script_text)
-                    if match:
-                        tweet_text = match.group(1)
-                        break
-        
-        # 提取图片URL
-        image_urls = []
-        # 查找og:image
-        og_image = soup.find('meta', property='og:image')
-        if og_image:
-            image_urls.append(og_image.get('content', ''))
-        
-        # 查找所有图片
-        img_tags = soup.find_all('img')
-        for img in img_tags:
-            src = img.get('src', '')
-            if 'pbs.twimg.com' in src and 'profile_images' not in src:
-                image_urls.append(src)
-        
-        return {
-            'url': url,
-            'description': description,
-            'tweet_text': tweet_text,
-            'image_urls': list(set(image_urls)),  # 去重
-            'html_length': len(html)
-        }
-        
-    except Exception as e:
-        return {
-            'url': url,
-            'error': str(e),
-            'image_urls': []
-        }
+        result = normalize(fetch(args.url))
+    except RuntimeError as exc:
+        print('❌ %s' % exc, file=sys.stderr)
+        return 1
 
-def download_image(url, save_path):
-    """下载图片"""
-    try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Referer': 'https://twitter.com/',
-        }
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=30) as response:
-            with open(save_path, 'wb') as f:
-                f.write(response.read())
-        return True
-    except Exception as e:
-        print(f"下载图片失败: {e}")
-        return False
+    result['local_images'] = []
+    if not args.no_download and result['photos']:
+        picks = result['photos'] if args.all else result['photos'][:1]
+        for i, photo in enumerate(picks, 1):
+            base = os.path.join(args.out_dir,
+                                'style_p%d' % i if args.all else 'style_preview')
+            got = download(photo['url'], base)
+            if got:
+                path, quality, size = got
+                result['local_images'].append(
+                    {'path': path, 'quality': quality, 'bytes': size})
 
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("用法: python fetch_twitter.py <twitter_url>")
-        sys.exit(1)
-    
-    url = sys.argv[1]
-    result = fetch_twitter_content(url)
-    
-    # 保存结果
-    with open('/tmp/twitter_result.json', 'w', encoding='utf-8') as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
-    
-    # 打印结果
-    print("=== Twitter页面抓取结果 ===")
-    print(f"URL: {result.get('url', 'N/A')}")
-    if 'error' in result:
-        print(f"错误: {result['error']}")
-    else:
-        print(f"HTML长度: {result.get('html_length', 0)} 字节")
-        print(f"描述: {result.get('description', 'N/A')[:200]}")
-        print(f"推文文本: {result.get('tweet_text', 'N/A')[:200]}")
-        print(f"图片数量: {len(result.get('image_urls', []))}")
-        for i, img_url in enumerate(result.get('image_urls', [])[:3]):
-            print(f"  图片{i+1}: {img_url[:100]}...")
-    
-    # 下载第一张图片
-    if result.get('image_urls'):
-        first_image = result['image_urls'][0]
-        save_path = '/tmp/style_preview.jpg'
-        if download_image(first_image, save_path):
-            print(f"\n✅ 图片已下载到: {save_path}")
-        else:
-            print(f"\n❌ 图片下载失败")
-    else:
-        print("\n⚠️ 未找到图片")
+    # 固定落一份 JSON，方便后续步骤直接读，不用再解析 stdout
+    with open(os.path.join(args.out_dir, 'twitter_result.json'), 'w', encoding='utf-8') as fh:
+        json.dump(result, fh, ensure_ascii=False, indent=2)
+
+    if args.json:
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        return 0
+
+    print('=== 抓取成功 ===')
+    print('作者：%s @%s' % (result['author_name'], result['author_handle']))
+    print('时间：%s' % result['created_at'])
+    print('配图：%d 张%s' % (len(result['photos']),
+                            '（含视频/GIF）' if result['has_video'] else ''))
+    print()
+    print('--- 正文 ---')
+    print(result['text'] or '（空）')
+    for i, photo in enumerate(result['photos'], 1):
+        print()
+        print('--- 图%d %sx%s ---' % (i, photo['width'], photo['height']))
+        print('URL：%s' % photo['url'])
+        print('alt：%s' % (photo['alt'] or '（空）'))
+    if result['local_images']:
+        print()
+        print('--- 已下载 ---')
+        for img in result['local_images']:
+            print('  %s  (%s, %.0f KB)' % (img['path'], img['quality'], img['bytes'] / 1024))
+    print()
+    print('JSON：%s' % os.path.join(args.out_dir, 'twitter_result.json'))
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

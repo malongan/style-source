@@ -71,12 +71,18 @@ NAME_BAD_WORD = re.compile(r'^(填写|请输入)|例如[：:]?|^如[：:]|可留
 # 允许保持英文的 kv_var（品牌名 / 通用术语），小写比较
 ALLOW_EN_KV = {'prompt'} 
 
+# desc 写这几个词等于没写（R7 专用），小写比较
+DESC_JUNK = {'无', '暂无', '待定', '略', '同标签', 'todo', 'x', '-', '—'}
 
-def check_variables_semantics(data: dict):
-    """变量语义校验（PROMPT_VARIABLES_SPEC 的 R1–R6）。
+
+def check_variables_semantics(data: dict, require_desc: bool = False):
+    """变量语义校验（PROMPT_VARIABLES_SPEC 的 R1–R7）。
 
     结构合法但语义无效的文件能一路绿灯过 CI，用户侧才会发现「填了没反应」，
     所以把这类问题提前到提交阶段。返回 (errors, warnings)。
+
+    require_desc=True 时额外跑 R7（每条变量都要有 desc）。存量有 188 个风格
+    desc 不完整，所以 R7 默认关闭，只由 CI 对「本 PR 新增」的风格打开。
     """
     errors, warnings = [], []
     prompt = str(data.get('prompt') or '')
@@ -171,10 +177,28 @@ def check_variables_semantics(data: dict):
         elif NAME_BAD_WORD.search(kv):
             errors.append(f'kv_var 是填写指南，应改成短标签：{kv}')
 
+    # R7：每条变量都要有 desc。desc 是输入框的 placeholder，没有它面板上只剩一个
+    # 空框，用户不知道该填什么 —— 前面 6 条保证「填了生效」，这条保证「知道填什么」。
+    #
+    # 默认关闭：全库 188 个风格 desc 不完整（1029 条缺失），追溯存量会一次打红。
+    # CI 只对**本 PR 新增**的风格传 --require-desc，存量永不被追溯，缺口只减不增。
+    if require_desc:
+        for v in declared:
+            kv = str(v.get('kv_var') or '').strip()
+            desc = str(v.get('desc') or '').strip()
+            if not desc:
+                errors.append(f'变量「{kv}」缺少 desc（面板上只剩空输入框，用户不知道该填什么）')
+            elif desc.strip('`* ') == kv:
+                errors.append(f'变量「{kv}」的 desc 与标签重复，等于没写')
+            elif desc.lower() in DESC_JUNK:
+                errors.append(f'变量「{kv}」的 desc 是占位词（{desc}），写具体一点')
+            elif len(desc) < 4:
+                warnings.append(f'变量「{kv}」的 desc 太短（{desc}），建议写成「是什么 + 如：例子」')
+
     return errors, warnings
 
 
-def validate_file(filepath: str, check_images: bool = False) -> tuple:
+def validate_file(filepath: str, check_images: bool = False, require_desc: bool = False) -> tuple:
     """校验单个 .yaml 文件，返回 (errors, warnings) 元组。"""
     errors = []
     warnings = []
@@ -285,8 +309,8 @@ def validate_file(filepath: str, check_images: bool = False) -> tuple:
         errors.append(f'variables 类型错误: 期望 list, 实际 {type(variables).__name__}'
                       '（generate_data.py 只解析列表，mapping 会被忽略）')
 
-    # 变量语义校验（R1/R2/R3）：结构合法 ≠ 插件能用，见 docs/PROMPT_VARIABLES_SPEC.md
-    semantic_errors, semantic_warnings = check_variables_semantics(data)
+    # 变量语义校验（R1–R7）：结构合法 ≠ 插件能用，见 docs/PROMPT_VARIABLES_SPEC.md
+    semantic_errors, semantic_warnings = check_variables_semantics(data, require_desc=require_desc)
     errors.extend(semantic_errors)
     warnings.extend(semantic_warnings)
 
@@ -317,13 +341,16 @@ def main():
     parser = argparse.ArgumentParser(description='校验风格 .yaml 文件格式')
     parser.add_argument('files', nargs='*', help='要校验的文件路径')
     parser.add_argument('--check-images', action='store_true', help='检查图片 URL 可达性')
+    parser.add_argument('--require-desc', action='store_true',
+                        help='额外要求每条变量都有 desc（R7）；CI 只对本 PR 新增的风格传此开关')
     args = parser.parse_args()
 
     had_errors = False
     if args.files:
         # 校验指定文件
         for filepath in args.files:
-            errors, warnings = validate_file(filepath, check_images=args.check_images)
+            errors, warnings = validate_file(filepath, check_images=args.check_images,
+                                            require_desc=args.require_desc)
             if errors:
                 had_errors = True
                 print(f'❌ {filepath}:')

@@ -130,7 +130,8 @@ source_author: "@{作者名}"
 > 🔴 **强制规范见 [`docs/PROMPT_VARIABLES_SPEC.md`](docs/PROMPT_VARIABLES_SPEC.md)，本节只是速查表。**
 > 这些变量由 WorkBuddy 插件「风格库」消费（用户填完点「插入提示词」，插件做字符串替换后插到画布）——
 > 所以写错不会有人报错，只会「填了没反应」或「没有输入框」。提交前必须通过
-> `python3 scripts/validate_all.py --strict`（含变量语义 R1–R6）。
+> `python3 scripts/validate_all.py --strict`（含变量语义 R1–R6）；
+> 新增风格再跑 `python3 scripts/validate_style.py --require-desc <文件>` 查 R7。
 
 | 位置 | 格式 | 正例 | 反例 |
 |------|------|------|------|
@@ -139,7 +140,8 @@ source_author: "@{作者名}"
 | `variables[].style_var` | **只能写 `"{占位符}"`，与 prompt 逐字一致** | `"{主体描述}"` | `main person`、`花体字内容，如"旷野的风"` |
 | `variables[].desc` | 一句示例或取值范围，**有变量就该给** | `如：一只橘猫` | 留空 |
 
-六条硬规则（全部 error，实现在 `validate_style.py` 的 `check_variables_semantics()`）：
+七条硬规则（实现在 `validate_style.py` 的 `check_variables_semantics()`；R1–R6 恒开、全部 error，
+R7 由 `--require-desc` 打开，CI 只对本 PR **新增**的风格启用）：
 
 1. **R1** 每条 `style_var` 的占位符必须**原样出现在 `prompt` 里**，否则是死条目（填了没反应）；
 2. **R2** `style_var` 只能写 `"{占位符名}"`，描述一律进 `desc`；
@@ -148,6 +150,9 @@ source_author: "@{作者名}"
 5. **R5** 单风格变量数 **≤12**，超了先合并同位置的多元素字段；
 6. **R6** 占位符名与 `kv_var` 里不能有空白、标点、填写指南（`填写…` / `例如…` / `如：…` / `可留空`）——
    说明书塞进名字，插件会把整串当标签显示，2026-11 清过 77 个这种槽位。
+7. **R7** 每条变量都要有 `desc`（新风格强制）：不得与标签重复、不得写「无 / 暂无 / 待定」。
+   没有 `desc`，面板上只剩一个空输入框，用户不知道该填什么。存量 188 个风格 desc 不完整，
+   所以 R7 只追溯新增文件 —— 详见 `docs/PROMPT_VARIABLES_SPEC.md` §9。
 
 单风格槽位 **常见 3–9 个，硬上限 12 个**（优先级：主体 > 主体属性 > 场景 > 文案）。
 
@@ -214,6 +219,7 @@ GitHub Manager（style-collection 技能）
 
 ```bash
 python3 scripts/validate_all.py --strict               # 全量格式检查（含变量语义 R1–R6，有 error 即失败）
+python3 scripts/validate_style.py --require-desc 新文件   # 新增风格额外查 R7（每条变量都要 desc）
 python3 scripts/generate_data.py                       # 生成 JSON 数据
 python3 scripts/audit_variables.py --strict            # 变量体检（声明落空 / 值写成描述 / 标签带反引号）
 python3 scripts/build_gallery.py                       # 生成画廊页面 + CSS/JS
@@ -276,13 +282,15 @@ git status --short                                      # 确认生成物都已 
 
 ## 9. 脚本速查
 
-变量语义闸门（`check_variables_semantics`）是 **R1–R6，全部 error**：R1 声明必须命中 prompt、
+变量语义闸门（`check_variables_semantics`）是 **R1–R7**：R1 声明必须命中 prompt、
 R2 `style_var` 只能是 `{占位符}`、R3 槽位必须都有声明、R4 `kv_var` 必须含中文、
-R5 变量数 ≤12（`MAX_VARIABLES`）、R6 占位符名与标签不能是填写指南。
+R5 变量数 ≤12（`MAX_VARIABLES`）、R6 占位符名与标签不能是填写指南 —— 这六条恒开且都是 error。
+R7（每条变量都要有 `desc`）挂在 `--require-desc` 下，**只由 CI 对新增风格启用**，
+存量 188 个 desc 不完整的风格永不被追溯。
 
 | 脚本 | 用途 | 调用方式 |
 |------|------|---------|
-| `validate_style.py` | 校验单个文件（有 error 退出码 1） | `python3 scripts/validate_style.py 文件路径` |
+| `validate_style.py` | 校验单个文件（有 error 退出码 1） | `python3 scripts/validate_style.py [--require-desc] 文件路径` |
 | `validate_all.py` | 校验全部文件（**有 error exit 1**） | `python3 scripts/validate_all.py --strict`（只报告用 `--no-strict`） |
 | `--check-images` | 附加：预览图 URL 可达性（只报不失败） | `python3 scripts/validate_all.py --check-images --no-strict` |
 | `check_duplicate.py` | 查重 | `--url URL` / `--name 名称` / `--pr-mode` |
@@ -297,7 +305,7 @@ R5 变量数 ≤12（`MAX_VARIABLES`）、R6 占位符名与标签不能是填�
 | `convert_to_webp.py` | 原图 → WebP 全尺寸 + 缩略图 | `--input 图 --style-id id --output images/styles_previews/` |
 | `upload_preview.py` | 旧脚本：图片哈希命名处理 | `图片路径 风格名` |
 | `md_to_yaml.py` | 旧脚本：Markdown → YAML 迁移 | `python3 scripts/md_to_yaml.py` |
-| `fetch_twitter.py` / `run_fetch.py` | X/Twitter 采集入口 | `python3 scripts/run_fetch.py` |
+| `fetch_twitter.py` | X/Twitter 采集（走 `api.fxtwitter.com`，一次拿正文+原图+尺寸+alt；图片按 orig→large→medium 降级） | `python3 scripts/fetch_twitter.py <推文URL> [--all] [--no-download]` |
 | `update_collection_log.py` | 更新收集日志 | `python3 scripts/update_collection_log.py` |
 | `deploy_gallery.py` | 部署画廊 | `python3 scripts/deploy_gallery.py` |
 | `glossary.yml` | 词汇表数据 | 非脚本 |
