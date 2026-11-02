@@ -47,12 +47,16 @@ prompt: |
 variables:
 - kv_var: 目的地名称
   style_var: '{目的地名称}'
+  desc: 如：里斯本 / 台北
 - kv_var: 简短描述
   style_var: '{简短描述}'
+  desc: 副标题，如：a city of tiles and light
 - kv_var: 主题
   style_var: '{主题}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 年份
   style_var: '{年份}'
+  desc: 如：2024
 source_url: "https://x.com/Goodmanprotocol/status/2072926988587929997"
 source_author: "Saul Goodman (@Goodmanprotocol)"
 # 配图: images/styles_previews/riso_travel_poster_5da39518.webp

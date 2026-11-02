@@ -56,8 +56,10 @@ prompt: |
 variables:
 - kv_var: 目的地
   style_var: '{目的地}'
+  desc: 如：京都 / 里斯本 / 大理
 - kv_var: 点缀色
   style_var: '{点缀色}'
+  desc: 小面积强调色，如：正红
 source_url: "https://x.com/Sairah_0/status/2071779087396606433"
 source_author: "Sairah (@Sairah_0)"
 

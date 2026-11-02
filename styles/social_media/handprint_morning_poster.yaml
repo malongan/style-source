@@ -41,8 +41,10 @@ prompt: |
 variables:
 - kv_var: 主体描述
   style_var: '{subject_description}'
+  desc: 主体的外观特征，如：短发、雀斑、绿色眼睛
 - kv_var: 城市地标或主题
   style_var: '{city_landmark_or_theme}'
+  desc: 如：上海外滩 / 海边日出
 - kv_var: 日期与金句
   style_var: '{date_and_quote}'
   desc: 如 2024.11.08 — 春天总会来

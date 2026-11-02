@@ -37,24 +37,34 @@ variables:
   desc: 超大粗体蓝色艺术字
 - kv_var: 屋顶颜色
   style_var: '{屋顶颜色}'
+  desc: 如：雾霾蓝
 - kv_var: 墙面文字
   style_var: '{墙面文字}'
+  desc: 如：STAY WILD
 - kv_var: 贴纸文字
   style_var: '{贴纸文字}'
+  desc: 如：CAMP
 - kv_var: 飞盘文字
   style_var: '{飞盘文字}'
+  desc: 如：FLY
 - kv_var: 花朵颜色
   style_var: '{花朵颜色}'
+  desc: 如：奶黄
 - kv_var: 帐篷颜色
   style_var: '{帐篷颜色}'
+  desc: 如：薄荷绿
 - kv_var: 品牌名
   style_var: '{品牌名}'
+  desc: 如：山野茶事
 - kv_var: 标语
   style_var: '{标语}'
+  desc: 如：慢一点，也很好
 - kv_var: 装饰文字1
   style_var: '{装饰文字1}'
+  desc: 顶部极细小字第 1 行，如：CAMPING SEASON
 - kv_var: 装饰文字2
   style_var: '{装饰文字2}'
+  desc: 第 2 行，如：VOL.02
 prompt: '整体：创意活动主视觉海报，软胶黏土 3D 卡通风格，哑光毛绒草地底座，马卡龙清新配色，浅灰白底色，潮流美式大字排版，潮流海报版式。
 
   主体：米白双层小房子（{屋顶颜色}坡屋顶，墙面手写{墙面文字}），房子侧边伸出肉粉色卡通手掌，手背印{贴纸文字}，手托蓝色浮雕{飞盘文字}字样飞盘；左侧{花朵颜色}黏土花朵，右上绿色拟人怪趣海星植物，房内探出带双眼的{帐篷颜色}三角露营帐篷，屋内塞满蓬松白色云朵。

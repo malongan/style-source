@@ -37,10 +37,13 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{subject}'
+  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
 - kv_var: 主色
   style_var: '{color1}'
+  desc: 主色名或色值，如：奶油白 / #F5E6D3
 - kv_var: 辅色
   style_var: '{color2}'
+  desc: 辅助色，如：薄荷绿
 source_url: "https://x.com/azed_ai/status/2090031054044442644"
 source_author: "@azed_ai"
 

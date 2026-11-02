@@ -43,6 +43,7 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{subject}'
+  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
 source_url: "https://x.com/AiwithLariab/status/2082718809274937790?s=20"
 source_author: "Laraib Fatima (@AiwithLariab)"
 

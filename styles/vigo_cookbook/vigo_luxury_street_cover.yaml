@@ -23,22 +23,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 主体在做什么，如：仰头大笑 / 单手举起饮料
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 手持或陈列的物件，如：一罐气泡水 / 复古随身听
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 拍摄地点，如：东京街头便利店门口
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次的元素，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 画面最大的标题字，如：SUMMER DROP
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：oversize 卫衣 + 工装短裤 + 厚底鞋
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 单个符号或小图案，如：✦ / ★ / 涂鸦箭头
 prompt: 'Create a realistic high-fashion street editorial magazine cover image in the Kinetic Luxury Street Fashion Cover Style. Subject: {SUBJECT}. Movement: {SUBJECT_ACTION}. Accessory or prop: {PRODUCT_OR_PROP}.
   Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe: {WARDROBE_STYLE}. Visible editorial cover headline: {MAIN_TEXT}. Tiny supporting cover line: {SECONDARY_TEXT}. Accent detail:
   {ACCENT_SYMBOL}. Preserve these style fidelity anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. The image must have one dominant model cropped large, side-profile

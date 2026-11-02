@@ -38,24 +38,34 @@ variables:
   desc: 信封上的英文标题
 - kv_var: 信封颜色
   style_var: '{信封颜色}'
+  desc: 如：奶油黄 / 雾霾蓝
 - kv_var: 信封类型
   style_var: '{信封类型}'
+  desc: 如：牛皮纸信封 / 玻璃纸信封
 - kv_var: 季节花卉类型
   style_var: '{季节花卉类型}'
+  desc: 如：春季野花 / 夏季莲花
 - kv_var: 鸟颜色
   style_var: '{鸟颜色}'
+  desc: 如：薄荷绿 / 琥珀金
 - kv_var: 鸟类型
   style_var: '{鸟类型}'
+  desc: 如：蜂鸟 / 山雀
 - kv_var: 铭牌文字
   style_var: '{铭牌文字}'
+  desc: 如：SPRING / 春日
 - kv_var: 底部文字
   style_var: '{底部文字}'
+  desc: 画面最底部的小字，如：愿你被温柔以待
 - kv_var: 花卉1
   style_var: '{花卉1}'
+  desc: 第 1 种花，如：洋甘菊
 - kv_var: 花卉2
   style_var: '{花卉2}'
+  desc: 第 2 种花，如：满天星
 - kv_var: 花卉3
   style_var: '{花卉3}'
+  desc: 第 3 种花，如：小苍兰
 prompt: 清新治愈的数字插画，浅绿渐变带细闪颗粒的背景，主体是一个特写{信封颜色}的{信封类型}，信封内插满透明玻璃质感的{季节花卉类型}：{花卉1}、{花卉2}与{花卉3}，花朵带有清晰的玻璃纹理与光泽；一只带{鸟颜色}的{鸟类型}衔一个{铭牌文字}铭牌在信封上飞，信封上有"{主标题英文}"，画面底部居中极小字"{底部文字}"，整体风格柔和梦幻，玻璃材质的花朵晶莹剔透，充满春日的温柔与治愈氛围。
 id: glass_flower_spring_diary
 code: ''

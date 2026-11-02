@@ -37,6 +37,7 @@ prompt: |
 variables:
 - kv_var: 运动主题英文文案
   style_var: '{运动主题英文文案}'
+  desc: 如：RUN FASTER
 source_url: "https://x.com/ou_zhen599/status/2076572106565767628"
 source_author: "Loriel.AI"
 

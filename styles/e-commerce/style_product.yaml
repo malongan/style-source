@@ -31,22 +31,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 主推产品，如：一副无线耳机
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 产品的呈现姿态，如：悬浮 / 斜置 45 度
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 配件或第二件产品，如：充电盒
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 陈列空间，如：发光平台 / 纯黑空间
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 巨大的裁切蓝色背景字，如：SONIC
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 白色发布文案，如：AVAILABLE 11.02
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：轮廓光线 / 细线框
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 产品表面质感，如：磨砂金属 / 亮面塑料
 prompt: 'Create a 16:9 premium dark consumer-tech launch poster in an electric-blue silhouette style. Feature {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} staged in {LOCATION}. Add {BACKGROUND_ELEMENTS}.
   Preserve these style anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Composition: one centered brandless product silhouette, large black negative space, a glowing
   electric-blue horizontal platform, blue floor reflection beneath the object, giant cropped blue geometric sans-serif background typography reading "{MAIN_TEXT}" behind the product, clean white lower launch

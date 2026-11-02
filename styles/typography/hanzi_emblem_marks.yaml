@@ -47,12 +47,16 @@ prompt: |
 variables:
 - kv_var: 主题汉字
   style_var: '{主题汉字}'
+  desc: 如：茶 / 静
 - kv_var: 主色调
   style_var: '{主色调}'
+  desc: 如：暖橙 + 米白
 - kv_var: 辅助色
   style_var: '{辅助色}'
+  desc: 如：雾霾蓝
 - kv_var: 点缀色
   style_var: '{点缀色}'
+  desc: 小面积强调色，如：正红
 source_url: "https://x.com/MrLarus/status/2051581807569649697"
 source_author: "@MrLarus"
 

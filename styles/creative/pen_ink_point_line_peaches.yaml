@@ -29,6 +29,7 @@ features:
 variables:
 - kv_var: 主体数量
   style_var: '{主体数量}'
+  desc: 如：3 颗 / 5 颗
 - kv_var: 主体
   style_var: '{主体}'
   desc: 如 桃子（绒毛质感，粉色短促线条交叉排线）+ 枝叶（绿色细密线条勾叶脉）

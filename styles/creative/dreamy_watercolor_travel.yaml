@@ -51,8 +51,10 @@ prompt: |
 variables:
 - kv_var: 城市名
   style_var: '{城市名}'
+  desc: 如：京都 / 威尼斯 / 布拉格
 - kv_var: 一句诗意标语
   style_var: '{一句诗意标语}'
+  desc: 副标题短句，如：where the river remembers
 source_url: "https://x.com/Taaruk_/status/2072192393932354027"
 source_author: "@Taaruk_"
 

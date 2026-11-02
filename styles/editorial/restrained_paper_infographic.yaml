@@ -42,12 +42,16 @@ prompt: |
 variables:
 - kv_var: 主题
   style_var: '{theme}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 主标题
   style_var: '{headline}'
+  desc: 画面主标题，如：夏日限定
 - kv_var: 关键信息
   style_var: '{key_information}'
+  desc: 如：展期 11.02–12.15 / 免费入场
 - kv_var: 底部说明
   style_var: '{bottom_notice}'
+  desc: 如：主办：城市美术馆
 source_url: "https://x.com/xiaoxiaodong01/status/2086866107965821125"
 source_author: "@xiaoxiaodong01"
 

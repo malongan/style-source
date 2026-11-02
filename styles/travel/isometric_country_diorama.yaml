@@ -48,6 +48,7 @@ prompt: |
 variables:
 - kv_var: 国家
   style_var: '{country}'
+  desc: 如：日本 / 意大利 / 摩洛哥
 source_url: "https://x.com/ChillaiKalan__/status/2091009348302774706"
 source_author: "ChillaiKalan__"
 

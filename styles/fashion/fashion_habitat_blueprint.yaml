@@ -52,12 +52,16 @@ prompt: |
 variables:
 - kv_var: 时尚主体
   style_var: '{FASHION_SUBJECT}'
+  desc: 如：一件大衣 / 一条长裙
 - kv_var: 系列名称
   style_var: '{COLLECTION_NAME}'
+  desc: 如：QUIET FORM
 - kv_var: 服装类型
   style_var: '{GARMENT_TYPE}'
+  desc: 如：羊毛大衣 / 缎面衬衫
 - kv_var: 工坊代号
   style_var: '{ATELIER_CODE}'
+  desc: 如：ATL-07
 source_url: "https://x.com/Gdgtify/status/2075122532965896675"
 source_author: "Gadgetify (@Gdgtify)"
 

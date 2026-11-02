@@ -53,19 +53,25 @@ prompt: |
 variables:
 - kv_var: 主题
   style_var: '{主题}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 主视觉主体
   style_var: '{主视觉主体}'
+  desc: 如：一尊石狮 / 一只白鹤
 - kv_var: 中文核心字
   style_var: '{中文核心字}'
+  desc: 核心汉字，如：境
 - kv_var: 中文标题
   style_var: '{中文标题}'
+  desc: 如：一期一会
 - kv_var: 英文标题
   style_var: '{英文标题}'
+  desc: 如：SUMMER 2024
 - kv_var: 包围方式
   style_var: '{包围方式}'
   desc: 人物环绕 / 三边巨字 / 实体边界 / 嵌套框
 - kv_var: 强调色
   style_var: '{强调色}'
+  desc: 如：荧光绿
 source_url: "https://x.com/MrLarus/status/2099136388016848959"
 source_author: "@MrLarus"
 

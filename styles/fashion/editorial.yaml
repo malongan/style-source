@@ -23,22 +23,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 超模，如：一位轮廓分明的女模
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 如：低头侧望 / 抬手拨发
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 如：手拿一束野花
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 户外繁茂前景，如：高草丛边
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 如：LIGHT
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：白衬衫 + 金属耳饰
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：材质铭牌 / 细线
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：a study in daylight
 prompt: 'Create a 16:9 premium analog fashion editorial poster photograph. Subject: {SUBJECT}. Action and pose: {SUBJECT_ACTION}. Wardrobe and styling: {WARDROBE_STYLE}. Product or prop: {PRODUCT_OR_PROP},
   with a small physical nameplate, plaque, tag, or engraved label integrated into the object. Location: {LOCATION}. Background and foreground details: {BACKGROUND_ELEMENTS}. Preserve these style fidelity
   anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use warm direct sunlight, shallow depth of field, foreground botanical or textile blur, slight film grain, soft

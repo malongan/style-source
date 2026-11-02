@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-199-ge79d898-dirty",
-    "generated": "2026-11-02T05:30:03Z",
+    "version": "v0.7.0-before-opt-202-g6889e42-dirty",
+    "generated": "2026-11-02T06:22:56Z",
     "total": 311,
     "categories": [
       "brand_kv",
@@ -108,6 +108,9 @@
       "prompt": "An X-ray scan of a {主体对象}, bones and internal structures glowing in neon cyan and soft magenta against a matte black field. Scientific overlay graphics and scan metadata give it a medical sci-fi twist.\n不要水印，不要真实Logo，不要电商广告感。\n",
       "variables": {
         "主体对象": "{主体对象}"
+      },
+      "variable_descs": {
+        "主体对象": "如：一只手表 / 一台相机"
       },
       "source_url": "https://x.com/azed_ai/status/2074448877110132912",
       "source_author": "azed_ai",
@@ -309,6 +312,11 @@
         "英文副行": "{英文副行}",
         "印章文字": "{印章文字}"
       },
+      "variable_descs": {
+        "中文标题": "如：一期一会",
+        "英文副行": "如：MADE WITH CARE",
+        "印章文字": "如：限量 / 手作"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -352,6 +360,10 @@
       "variables": {
         "主体描述": "{subject_description}",
         "补充场景细节": "{additional_scene_details}"
+      },
+      "variable_descs": {
+        "主体描述": "主体的外观特征，如：短发、雀斑、绿色眼睛",
+        "补充场景细节": "如：地面水痕、飘落的纸片"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2081388511606030704",
       "source_author": "小小东",
@@ -397,6 +409,10 @@
         "主体描述": "{subject_description}",
         "补充场景细节": "{additional_scene_details}"
       },
+      "variable_descs": {
+        "主体描述": "主体的外观特征，如：短发、雀斑、绿色眼睛",
+        "补充场景细节": "如：地面水痕、飘落的纸片"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2081388511606030704",
       "source_author": "小小东",
       "preview_urls": [
@@ -440,6 +456,10 @@
       "variables": {
         "主体描述": "{subject_description}",
         "补充场景细节": "{additional_scene_details}"
+      },
+      "variable_descs": {
+        "主体描述": "主体的外观特征，如：短发、雀斑、绿色眼睛",
+        "补充场景细节": "如：地面水痕、飘落的纸片"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2081388511606030704",
       "source_author": "小小东",
@@ -487,6 +507,12 @@
         "旅行场景元素": "{travel_scene_elements}",
         "季节与情绪": "{season_and_mood}",
         "旅人特征": "{traveler_characteristics}"
+      },
+      "variable_descs": {
+        "目的地": "如：京都 / 里斯本 / 大理",
+        "旅行场景元素": "如：石阶、旧书店、藤椅",
+        "季节与情绪": "如：初秋、微凉而松弛",
+        "旅人特征": "如：戴草帽的短发女生"
       },
       "source_url": "https://x.com/Taaruk_/status/2081232385895764440",
       "source_author": "Taaruk",
@@ -636,6 +662,18 @@
         "背景": "{BACKGROUND}",
         "标语": "{TAGLINE}"
       },
+      "variable_descs": {
+        "主色": "主色名或色值，如：奶油白 /",
+        "辅色": "辅助色，如：薄荷绿",
+        "点缀色": "小面积强调色，如：正红",
+        "第四色": "第 4 个主色，如：奶油黄",
+        "标题": "如：夏日限定",
+        "人物": "如：穿风衣的短发女性",
+        "服装": "如：亚麻衬衫 + 阔腿裤",
+        "动物": "如：柴犬 / 橘猫",
+        "背景": "如：渐变天空 / 纯色墙面",
+        "标语": "如：慢一点，也很好"
+      },
       "source_url": "https://x.com/Goodmanprotocol/status/2080890330409553978",
       "source_author": "Goodmanprotocol",
       "preview_urls": [
@@ -733,6 +771,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -775,6 +824,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -831,6 +891,16 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -873,6 +943,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -939,6 +1020,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -1003,6 +1095,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -1060,6 +1163,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "副文案": "{SECONDARY_TEXT}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -1125,6 +1239,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -1167,6 +1292,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -1234,6 +1370,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -1276,6 +1423,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -1320,6 +1478,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -1363,6 +1532,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -1405,6 +1585,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -1469,6 +1660,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "副文案": "{SECONDARY_TEXT}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -1542,6 +1744,19 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "产品质感": "如：绒毛短密有光泽 / 哑光磨砂",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "字体语言": "如：粗黑体 + 气泡圆体，中文手写",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -1603,6 +1818,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -1666,6 +1892,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -1714,6 +1951,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -1772,6 +2020,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -1815,6 +2074,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -1857,6 +2127,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -1916,6 +2197,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -1985,6 +2277,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -2027,6 +2330,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -2075,6 +2389,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -2117,6 +2442,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -2169,6 +2505,16 @@
         "侧边文字": "{side_text}",
         "中心视觉": "{center_visual}",
         "背景色": "{bg_color}"
+      },
+      "variable_descs": {
+        "品牌名": "如：山野茶事",
+        "品牌标语": "如：把日常过成节日",
+        "主标题": "画面主标题，如：夏日限定",
+        "副标题": "次级标题，如：限定发售",
+        "图形元素": "如：圆点、波浪线、几何块",
+        "侧边文字": "竖排小字，如：ISSUE 03",
+        "中心视觉": "画面中心的主体，如：一束干花",
+        "背景色": "如：奶油白 / 雾霾蓝"
       },
       "source_url": "https://x.com/AdrianPunk115",
       "source_author": "Adrian Punk (@AdrianPunk115)",
@@ -2239,6 +2585,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -2281,6 +2638,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -2325,6 +2693,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -2367,6 +2746,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -2433,6 +2823,16 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -2496,6 +2896,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -2622,6 +3033,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -2670,6 +3092,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -2737,6 +3170,18 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "副文案": "{SECONDARY_TEXT}"
       },
+      "variable_descs": {
+        "主体身份": "主体的身份设定，如：冲浪少年 / 街头舞者",
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -2798,6 +3243,14 @@
         "主标题": "{headline}",
         "辅助文案": "{subtext}"
       },
+      "variable_descs": {
+        "运动类型": "如：滑板 / 冲浪 / 攀岩",
+        "运动员": "如：一位职业滑手",
+        "动作": "如：腾空转身",
+        "数据表现": "产品规格数据，如：萃取温度 92°C / 压力 9bar",
+        "主标题": "画面主标题，如：夏日限定",
+        "辅助文案": "补充说明文字，如：本期推荐"
+      },
       "source_url": "https://x.com/VigoCreativeAI/status/2069676060753432769",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
@@ -2840,6 +3293,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -2891,6 +3355,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -2949,6 +3424,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -2999,6 +3485,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -3062,6 +3559,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -3104,6 +3612,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -3153,6 +3672,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -3195,6 +3725,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -3256,6 +3797,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
       },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -3305,6 +3857,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -3372,6 +3935,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "画面主体": "摄影主体，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体动作": "主体在做什么，如：仰头大笑 / 单手举起饮料",
+        "产品/道具": "手持或陈列的物件，如：一罐气泡水 / 复古随身听",
+        "场景地点": "拍摄地点，如：东京街头便利店门口",
+        "背景元素": "补充画面层次的元素，如：反光玻璃、贴纸、路牌",
+        "主文案": "画面最大的标题字，如：SUMMER DROP",
+        "服装造型": "如：oversize 卫衣 + 工装短裤 + 厚底鞋",
+        "副文案": "小字装饰信息，如：LIMITED 2024 / NEW ARRIVAL",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -3516,7 +4090,16 @@
       "variable_descs": {
         "标语": "右下角纸贴文字",
         "画面-主体": "广角近摄 + 黑描边",
-        "色彩-主色": "高饱和色块"
+        "色彩-主色": "高饱和色块",
+        "墨镜描述": "如：窄框金属墨镜 / 复古圆框",
+        "服装颜色": "如：奶油白 / 焦糖棕",
+        "表情描述": "如：平静微怔 / 嘴角上扬",
+        "标题1": "如：NEW ARRIVAL",
+        "标题2": "如：VOL.03",
+        "标题3": "第 3 行主标题，如：NO SIGNAL",
+        "标题4": "第 4 行主标题，如：VOL.03",
+        "标签底色1": "斜切标签的底色，如：亮黄",
+        "标签底色2": "第 2 个标签底色，如：荧光粉"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7549133563254328616",
       "source_author": "文野Bot",
@@ -3559,6 +4142,10 @@
       "variables": {
         "主体人物": "{主体人物}",
         "城市场景": "{城市场景}"
+      },
+      "variable_descs": {
+        "主体人物": "如：戴棒球帽的年轻女生",
+        "城市场景": "如：霓虹街口 / 地铁站台"
       },
       "source_url": "https://x.com/sadkaijpg/status/1938155030172602568",
       "source_author": "sadkaijpg",
@@ -3824,7 +4411,9 @@
         "画面-情绪": "推导结构色",
         "色彩-结构色": "背景纸面色",
         "色彩-主体": "裂隙内部主体色",
-        "色彩-强调": "边缘碎片和焦点"
+        "色彩-强调": "边缘碎片和焦点",
+        "结构色": "最大面积的基础色，如：暖白",
+        "深色锚点": "压住轮廓的深色，如：墨黑"
       },
       "source_url": "https://x.com/xiaoxiaodong01",
       "source_author": "xiaoxiaodong01",
@@ -3882,7 +4471,15 @@
       },
       "variable_descs": {
         "主标题": "上方黑体英文标题",
-        "标语": "极小中文副标题"
+        "标语": "极小中文副标题",
+        "车颜色": "如：珊瑚橙 / 复古米白",
+        "车型": "如：旅行车 / 面包车",
+        "挂载物": "车后箱挂的东西，如：冲浪板 / 折叠椅",
+        "场景道具": "如：帐篷 / 路牌",
+        "其他道具": "如：收纳箱 / 水壶",
+        "年份": "如：2024",
+        "底色1": "拼色色块 1，如：米白",
+        "底色2": "拼色色块 2，如：砖红"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7635342335886363930?workDetailType=Image&itemType=9",
       "source_author": "LeeJiasi（即梦）",
@@ -3931,6 +4528,11 @@
         "地标": "{landmark}",
         "前景元素": "{foreground_element}"
       },
+      "variable_descs": {
+        "城市": "如：台北 / 台南",
+        "地标": "如：台北 101 / 龙山寺",
+        "前景元素": "如：棕榈叶 / 街边招牌"
+      },
       "source_url": "https://x.com/Taaruk_/status/2091034664203133243",
       "source_author": "Taaruk_",
       "preview_urls": [
@@ -3973,6 +4575,10 @@
       "variables": {
         "角色名": "{角色名}",
         "强调色": "{强调色}"
+      },
+      "variable_descs": {
+        "角色名": "如：豆豆",
+        "强调色": "如：荧光绿"
       },
       "source_url": "https://x.com/VoxcatAI/status/2102421914979570015",
       "source_author": "VoxcatAI",
@@ -4027,6 +4633,17 @@
         "配色": "{palette}",
         "情绪氛围": "{mood}"
       },
+      "variable_descs": {
+        "人物": "如：穿风衣的短发女性",
+        "发型": "如：齐肩微卷黑发 / 寸头",
+        "场景": "发生在哪里，如：海边公路 / 便利店门口",
+        "服装": "如：亚麻衬衫 + 阔腿裤",
+        "鞋履": "如：方头短靴 / 细带高跟",
+        "花卉": "如：白百合 / 飞燕草",
+        "飞鸟走兽": "如：白鸽 / 白鹿",
+        "配色": "整体配色方案，如：莫兰迪灰粉 + 奶白",
+        "情绪氛围": "如：疏离而轻盈"
+      },
       "source_url": "https://x.com/im_shahid7/status/2087579904326181361",
       "source_author": "im_shahid7",
       "preview_urls": [
@@ -4075,6 +4692,16 @@
         "主文案": "{MAIN_TEXT}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "主体动作": "角色的姿势，如：单手比耶 / 歪头笑",
+        "产品/道具": "角色手里的小物，如：一杯奶茶 / 滑板",
+        "地点": "如：上海 / 京都 / 洛杉矶",
+        "背景元素": "如：白云、气球、放射光斑",
+        "主文案": "超大斜体白色标题，如：HEY SUMMER",
+        "副文案": "小字营销信息，如：NEW AVATAR PACK",
+        "点缀符号": "霓虹手绘动感标记，如：闪电 / 星芒"
       },
       "source_url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/tree/main/styles/sunny-3d-avatar-campaign-style",
       "source_author": "VigoCreativeAI",
@@ -4132,7 +4759,11 @@
         "人物动作": "如 jumping with energy",
         "环境场景": "如 rooftop court、beach",
         "背景细节": "如 city skyline、clouds",
-        "穿搭风格": "如 athletic streetwear"
+        "穿搭风格": "如 athletic streetwear",
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "产品/道具": "画面里的辅助物件，如：一罐气泡水 / 一支口红 / 复古相机",
+        "副文案": "辅助信息，如：秋季新品 / 9.20 上市",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
       },
       "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/sunlit-kinetic-block-type-photo-poster-style",
       "source_author": "VigoCreativeAI",
@@ -4234,6 +4865,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "旅行者，如：背着双肩包的短发女生",
+        "主体动作": "旅途中的动作，如：回头看镜头 / 坐在石阶上",
+        "产品/道具": "随身物件，如：相机 / 地图 / 矿泉水",
+        "场景地点": "目的地，如：里斯本老城坡道 / 京都鸭川",
+        "背景元素": "三个分栏各自的内容，如：街景、咖啡、路牌",
+        "主文案": "超大号小写目的地名，如：lisbon",
+        "副文案": "小号斜体旅行注释，如：day 3 · 38°C",
+        "点缀符号": "稀疏手绘符号，如：罗盘 / 小飞机",
+        "服装造型": "旅行穿搭，如：亚麻衬衫 + 帆布鞋"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -4285,6 +4927,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "主推产品，如：一副无线耳机",
+        "主体动作": "产品的呈现姿态，如：悬浮 / 斜置 45 度",
+        "产品/道具": "配件或第二件产品，如：充电盒",
+        "场景地点": "陈列空间，如：发光平台 / 纯黑空间",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "巨大的裁切蓝色背景字，如：SONIC",
+        "副文案": "白色发布文案，如：AVAILABLE 11.02",
+        "点缀符号": "如：轮廓光线 / 细线框",
+        "服装造型": "产品表面质感，如：磨砂金属 / 亮面塑料"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -4350,6 +5003,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
       },
+      "variable_descs": {
+        "画面主体": "菱形开孔里的主体，如：一组静物 / 一个人",
+        "主体动作": "主体的姿态或摆放，如：侧身站立",
+        "产品/道具": "陪衬物件，如：陶罐 / 折纸",
+        "场景地点": "拍摄环境，如：影棚 / 白墙边",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "超大号白色透视字体，如：FOLD",
+        "服装造型": "人物造型，如：素色长衫",
+        "副文案": "小字注释，如：STUDY 01",
+        "点缀符号": "如：折痕线 / 角落标记"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -4399,6 +5063,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "拼成象征剪影的物件，如：一堆塑料瓶",
+        "主体动作": "物件的组合方式，如：堆叠成鸟的形状",
+        "产品/道具": "参与组合的材质，如：渔网 / 塑料袋",
+        "场景地点": "呈现底纸，如：泛黄米色纸面",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "如：LESS PLASTIC",
+        "副文案": "如：campaign 2024",
+        "点缀符号": "如：半色调网点 / 细线框",
+        "服装造型": "主体统一色，如：蓝绿半色调"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -4441,6 +5116,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "中央展示文字，如：山海",
+        "主体动作": "文字的排布方式，如：垂直堆叠",
+        "产品/道具": "如：印章 / 小字标签",
+        "场景地点": "透视空间，如：单点透视走廊",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "超大号白色中文展示字体，如：山海",
+        "副文案": "如：展览 2024",
+        "点缀符号": "如：细线框 / 编号",
+        "服装造型": "场景主色，如：高饱和蓝"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -4534,7 +5220,14 @@
       },
       "variable_descs": {
         "主标题": "左侧黑色巨字",
-        "画面-动作": "IP的动作姿态"
+        "画面-动作": "IP的动作姿态",
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "产品/道具": "画面里的辅助物件，如：一罐气泡水 / 一支口红 / 复古相机",
+        "地点": "如：上海 / 京都 / 洛杉矶",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "副文案": "辅助信息，如：秋季新品 / 9.20 上市",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "人物穿搭，如：oversize 卫衣 + 工装裤"
       },
       "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/acid-lime-3d-streetwear-type-poster-style",
       "source_author": "VigoCreativeAI",
@@ -4588,7 +5281,12 @@
       },
       "variable_descs": {
         "主标题": "如 CONTINUE",
-        "画面-主体": "3D 动物穿潮服戴墨镜"
+        "画面-主体": "3D 动物穿潮服戴墨镜",
+        "文字1": "第一行文字，如：NEW DROP",
+        "文字2": "第二行文字，如：VOL.03",
+        "挂饰元素1": "第 1 个挂饰，如：钥匙扣",
+        "挂饰元素2": "第 2 个挂饰，如：珐琅徽章",
+        "挂饰元素3": "第 3 个挂饰，如：丝带"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7582907054226935091",
       "source_author": "小越艺术",
@@ -4649,6 +5347,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "侧脸人像，如：半侧脸的短发女生",
+        "主体动作": "如：低头写字 / 托腮",
+        "产品/道具": "贴纸般的私人物件，如：票根 / 胶带 / 小照片",
+        "场景地点": "如：书桌前的窗边",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "斑驳橙色手写字体，如：my week",
+        "副文案": "如：2024.11.02",
+        "点缀符号": "如：涂鸦星号 / 手绘箭头",
+        "服装造型": "如：宽松针织衫"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -4749,6 +5458,9 @@
       "variables": {
         "物体": "{object}"
       },
+      "variable_descs": {
+        "物体": "如：一只玻璃瓶"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073403641869009289",
       "source_author": "小小东",
       "preview_urls": [
@@ -4791,6 +5503,10 @@
       "variables": {
         "产品": "{products}",
         "产品颜色": "{product_color}"
+      },
+      "variable_descs": {
+        "产品": "主角产品，如：一罐气泡水 / 一支口红",
+        "产品颜色": "产品主色，如：蜜橘色"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2078657941876703724?s=20",
       "source_author": "小小东",
@@ -4844,6 +5560,11 @@
       "variable_descs": {
         "主体": "如 米白双层小房子（青绿坡屋顶）+ 卡通手掌托 Idea 飞盘",
         "主标题": "顶部超大粗体艺术字",
+        "位置": "文字所在方位，如：左上 / 右下",
+        "文字1": "第一行文字，如：NEW DROP",
+        "文字2": "第二行文字，如：VOL.03",
+        "文字3": "第三行小字，如：EST. 2024",
+        "作者名": "如：Studio Mori",
         "标语": "画面底部标语文字"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7647430982500453641?workDetailType=Image&itemType=9",
@@ -4902,7 +5623,17 @@
         "装饰文字2": "{装饰文字2}"
       },
       "variable_descs": {
-        "主标题": "超大粗体蓝色艺术字"
+        "主标题": "超大粗体蓝色艺术字",
+        "屋顶颜色": "如：雾霾蓝",
+        "墙面文字": "如：STAY WILD",
+        "贴纸文字": "如：CAMP",
+        "飞盘文字": "如：FLY",
+        "花朵颜色": "如：奶黄",
+        "帐篷颜色": "如：薄荷绿",
+        "品牌名": "如：山野茶事",
+        "标语": "如：慢一点，也很好",
+        "装饰文字1": "顶部极细小字第 1 行，如：CAMPING SEASON",
+        "装饰文字2": "第 2 行，如：VOL.02"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7647430982500453641?workDetailType=Image&itemType=9",
       "source_author": "来佬野-AIGC（即梦）",
@@ -4958,7 +5689,11 @@
         "标语": "日期、副标题",
         "画面-主体": "卡通角色",
         "画面-动作": "简单家居动作",
-        "画面-场景": "室内区域"
+        "画面-场景": "室内区域",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "产品/道具": "画面里的辅助物件，如：一罐气泡水 / 一支口红 / 复古相机",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "服装造型": "人物穿搭，如：oversize 卫衣 + 工装裤"
       },
       "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/sky-blue-home-life-doodle-poster-style",
       "source_author": "VigoCreativeAI",
@@ -5062,6 +5797,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
       },
+      "variable_descs": {
+        "画面主体": "滑板手，如：戴帽子的青少年滑手",
+        "主体动作": "如：腾空 ollie / 滑行中",
+        "产品/道具": "如：滑板 / 耳机",
+        "场景地点": "如：街角台阶 / 滑板场",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "松散红色手写边框字，如：SK8",
+        "服装造型": "如：宽松 T 恤 + 工装裤",
+        "副文案": "如：issue 04",
+        "点缀符号": "如：涂鸦线 / 星号"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -5108,6 +5854,11 @@
         "第一行": "{第一行}",
         "第二行": "{第二行}",
         "副行": "{副行}"
+      },
+      "variable_descs": {
+        "第一行": "如：COMING SOON",
+        "第二行": "如：AUTUMN 2024",
+        "副行": "如：LIMITED EDITION"
       },
       "source_url": "",
       "source_author": "painter",
@@ -5206,6 +5957,8 @@
         "不要出现的元素": "{不要出现的元素}"
       },
       "variable_descs": {
+        "主题": "海报主题，如：城市夜行 / 春日野餐",
+        "副标题": "次级标题，如：限定发售",
         "研究领域": "生物医学 / 材料 / 纳米 / 化学 / 能源 / 环境 / 外科 / 免疫 / 肿瘤 / 神经科学 / 其他",
         "内容类型": "机制总结 / 分类综述 / 操作流程 / 疾病图谱 / 实验路线 / 手术步骤 / 对比分析 / 教学图 / 技术发展路线",
         "核心信息点": "3–10 个必须出现的信息点",
@@ -5213,7 +5966,8 @@
         "结构形式": "自动判断 / 分栏模块 / 左右对比 / 上下流程 / 中心主体+周围模块 / 多面板A-B-C / 时间线 / 矩阵 / 图谱式布局",
         "语言": "中文 / 英文 / 中英混排 / 不要文字",
         "文字密度": "少量标签 / 中等说明 / 完整标注",
-        "配色方案": "Nature系克制配色 / Science系理性机制配色 / 柔和粉蓝论文信息图配色 / 外科图谱浅粉肉色配色 / Cell系生命科学配色 / 自适应"
+        "配色方案": "Nature系克制配色 / Science系理性机制配色 / 柔和粉蓝论文信息图配色 / 外科图谱浅粉肉色配色 / Cell系生命科学配色 / 自适应",
+        "不要出现的元素": "负向约束，如：不要出现品牌 logo、不要人脸"
       },
       "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
@@ -5279,7 +6033,8 @@
         "关键视觉元素": "3–10 个必须出现的元素",
         "结构形式": "自动判断 / 左中右流程 / 上中下流程 / A→B→C→D步骤 / 主体+局部放大窗",
         "语言与标注": "语言 + 标注密度，如 中文+完整标注 / 英文+少量标签 / 不要文字",
-        "配色方案": "Nature系克制机制配色 / Science系理性机制配色 / Cell系生命科学高对比配色 / 医学图谱浅色配色"
+        "配色方案": "Nature系克制机制配色 / Science系理性机制配色 / Cell系生命科学高对比配色 / 医学图谱浅色配色",
+        "不要出现的元素": "负向约束，如：不要出现品牌 logo、不要人脸"
       },
       "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
@@ -5336,6 +6091,8 @@
         "不要出现的元素": "{不要出现的元素}"
       },
       "variable_descs": {
+        "主题": "海报主题，如：城市夜行 / 春日野餐",
+        "副标题": "次级标题，如：限定发售",
         "研究领域": "生物医学 / 材料 / 纳米 / 化学 / 能源 / 环境 / 神经科学 / 免疫 / 肿瘤 / 外科 / 芯片 / 器件 / 其他",
         "研究对象": "细胞 / 组织 / 器官 / 分子 / 材料 / 晶格 / 纳米颗粒 / 芯片 / 器件 / 病原体 / 生态系统 / 其他",
         "视觉概念": "一句话说清研究亮点 / 封面概念",
@@ -5344,7 +6101,8 @@
         "语言": "中文 / 英文 / 中英混排 / 不要文字",
         "文字需求": "极少文字 / 只要标题 / 标题+副标题 / 不要文字",
         "配色方案": "Nature系克制高级 / Science系理性高级 / Cell系生命科学高对比 / Advanced Science高饱和封面色 / 黑白灰+单一强调色 / 浅色高级医学封面 / 自适应",
-        "版式偏好": "自动判断 / 大主视觉 / 极简封面 / 暗色氛围 / 浅色高级 / 中心主体 / 斜向构图 / 微观世界 / 宏观隐喻 / 结构剖面"
+        "版式偏好": "自动判断 / 大主视觉 / 极简封面 / 暗色氛围 / 浅色高级 / 中心主体 / 斜向构图 / 微观世界 / 宏观隐喻 / 结构剖面",
+        "不要出现的元素": "负向约束，如：不要出现品牌 logo、不要人脸"
       },
       "source_url": "https://x.com/AdrianPunk115",
       "source_author": "AdrianPunk115",
@@ -5403,7 +6161,11 @@
         "标语": "作者、期号等",
         "画面-主体": "写实抠图对象",
         "画面-动作": "与红色字形的关系",
-        "画面-场景": "简洁编辑封面场"
+        "画面-场景": "简洁编辑封面场",
+        "产品/道具": "画面里的辅助物件，如：一罐气泡水 / 一支口红 / 复古相机",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
+        "服装造型": "人物穿搭，如：oversize 卫衣 + 工装裤"
       },
       "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/scarlet-court-photo-type-poster-style",
       "source_author": "VigoCreativeAI",
@@ -5451,6 +6213,12 @@
         "简短描述": "{简短描述}",
         "主题": "{主题}",
         "年份": "{年份}"
+      },
+      "variable_descs": {
+        "目的地名称": "如：里斯本 / 台北",
+        "简短描述": "副标题，如：a city of tiles and light",
+        "主题": "海报主题，如：城市夜行 / 春日野餐",
+        "年份": "如：2024"
       },
       "source_url": "https://x.com/Goodmanprotocol/status/2072926988587929997",
       "source_author": "Saul Goodman (@Goodmanprotocol)",
@@ -5565,7 +6333,15 @@
       },
       "variable_descs": {
         "主标题": "斜向贯穿的粗体英文标题",
-        "色彩-主色": "主色调搭配"
+        "色彩-主色": "主色调搭配",
+        "飞船颜色": "如：脏橘 + 机油黑",
+        "飞船类型": "如：采矿船 / 货运舰",
+        "火焰颜色": "如：青蓝 / 洋红",
+        "左背景色": "如：橙红",
+        "右背景色": "如：深紫",
+        "几何字母颜色": "如：亮黄",
+        "标题颜色": "如：米白",
+        "标签内容": "如：WARNING / UNIT-07"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7624349671061802267?workDetailType=Image&itemType=9",
       "source_author": "一笔绘✏️（即梦）",
@@ -5621,7 +6397,11 @@
         "主标题": "超大圆角字标",
         "画面-主题": "饮品主题",
         "色彩-结构色": "大面积背景色",
-        "色彩-强调色": "放射块状和装饰"
+        "色彩-强调色": "放射块状和装饰",
+        "饮品主形体": "如：一杯冰拿铁 / 一罐气泡水",
+        "副标题": "次级标题，如：限定发售",
+        "小字号信息": "边角小字，如：SINCE 1987 / ICE COLD",
+        "手写斜体短句": "如：so refreshing!"
       },
       "source_url": "https://x.com/xiaoxiaodong01",
       "source_author": "xiaoxiaodong01",
@@ -5665,6 +6445,12 @@
         "环境": "{setting}",
         "主色": "{color1}",
         "辅色": "{color2}"
+      },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "环境": "如：下雨的老街 / 天台的黄昏",
+        "主色": "主色名或色值，如：奶油白 /",
+        "辅色": "辅助色，如：薄荷绿"
       },
       "source_url": "https://x.com/azed_ai",
       "source_author": "推文 @azed_ai",
@@ -5710,6 +6496,9 @@
       "prompt": "{scene}\n\n整体风格：1980s-1990s Japanese anime cinematic illustration, highly detailed hand-painted background, warm golden-hour and neon lighting, soft film grain, subtle watercolor texture, expressive anime characters with natural proportions and detailed eyes, realistic architecture and interiors, slice-of-life atmosphere, emotional storytelling, cozy urban Japan, dramatic perspective, beautiful reflections, volumetric sunlight, soft shadows, rich color grading, intricate environmental details, quiet contemplative mood, Makoto Shinkai-inspired lighting, vintage Studio Ghibli atmosphere, city pop aesthetic, retro Japanese nostalgia, analog photography feel, perfectly composed cinematic framing, ultra-detailed digital painting, masterpiece quality.\n\n禁止：水印，真实Logo，卡通过度，3D渲染质感，现代科技元素（手机/电脑屏幕），写实摄影，杂乱的UI元素。\n不要水印，不要真实Logo。\n\n# 场景变体（替换 {scene} 使用）：\n\n## 电车少年 (Train Scene)\nA Japanese high school boy in a black gakuran uniform sitting alone inside an old commuter train at sunset, resting his chin on his hand while looking out the window, orange and purple sky, reflections on the glass, telephone poles passing by, melancholic atmosphere, motion blur outside, peaceful evening commute.\n\n## 复古餐厅 (Retro Diner)\nA stylish young woman sitting in a retro American-style diner at night, drinking a vanilla milkshake, red varsity jacket, neon \"OPEN 24 HOURS\" sign glowing through rain-covered windows, warm tungsten lighting, vintage Coca-Cola decorations, cinematic night mood, city pop aesthetic.\n\n## 温馨卧室 (Cozy Bedroom)\nA girl reading a book on the floor of her cozy bedroom, morning sunlight streaming through lace curtains, sleeping cat on the windowsill, cassette player, vintage posters, books, plants, soft pastel colors, warm peaceful atmosphere, nostalgic 90s Japanese bedroom.\n\n## 街道黄昏 (Japanese Street)\nA schoolgirl walking through a quiet suburban Japanese neighborhood during golden hour, sailor school uniform, utility poles, narrow residential street, glowing clouds, warm evening light, peaceful everyday life, highly detailed environment, cinematic perspective.\n",
       "variables": {
         "场景": "{scene}"
+      },
+      "variable_descs": {
+        "场景": "发生在哪里，如：海边公路 / 便利店门口"
       },
       "source_url": "https://x.com/ChillaiKalan__/status/2081299855755149723",
       "source_author": "ChillaiKalan__",
@@ -5757,6 +6546,12 @@
         "主标题": "{headline}",
         "关键信息": "{key_information}",
         "底部说明": "{bottom_notice}"
+      },
+      "variable_descs": {
+        "主题": "海报主题，如：城市夜行 / 春日野餐",
+        "主标题": "画面主标题，如：夏日限定",
+        "关键信息": "如：展期 11.02–12.15 / 免费入场",
+        "底部说明": "如：主办：城市美术馆"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2086866107965821125",
       "source_author": "xiaoxiaodong01",
@@ -5900,6 +6695,11 @@
         "道具": "{props}",
         "情绪": "{emotion}"
       },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "道具": "辅助物件，如：草帽 / 折叠椅 / 冰桶",
+        "情绪": "如：等待、安静、略焦虑"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073403641869009289",
       "source_author": "小小东",
       "preview_urls": [
@@ -6016,6 +6816,9 @@
       "variables": {
         "目的地": "{DESTINATION}"
       },
+      "variable_descs": {
+        "目的地": "如：京都 / 里斯本 / 大理"
+      },
       "source_url": "https://x.com/Goodmanprotocol/status/2084588473689014648",
       "source_author": "Goodmanprotocol",
       "preview_urls": [
@@ -6103,6 +6906,10 @@
         "主体": "{SUBJECT}",
         "城市名称": "{CITY_NAME}"
       },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "城市名称": "如：东京 / 上海 / 巴黎"
+      },
       "source_url": "https://x.com/Maercihh/status/2087113728185749607",
       "source_author": "Maercihh",
       "preview_urls": [
@@ -6148,6 +6955,12 @@
         "副标题": "{SUBTITLE}",
         "描述": "{DESCRIPTION}",
         "价格": "{PRICE}"
+      },
+      "variable_descs": {
+        "产品名称": "如：轻乳茶·茉莉",
+        "副标题": "次级标题，如：限定发售",
+        "描述": "产品一句话描述，如：手冲单品，果香明亮",
+        "价格": "如：￥19.9 / 第二杯半价"
       },
       "source_url": "https://x.com/Maercihh/status/2084869002665615462",
       "source_author": "Maercihh",
@@ -6204,6 +7017,19 @@
         "背景色四": "{bg_color_4}",
         "标语": "{tagline}"
       },
+      "variable_descs": {
+        "品牌名": "如：山野茶事",
+        "产品系列": "如：轻乳茶系列",
+        "口味一": "第 1 个口味，如：茉莉",
+        "口味二": "第 2 个口味，如：桂花",
+        "口味三": "第 3 个口味，如：白桃",
+        "口味四": "第 4 个口味，如：乌龙",
+        "背景色一": "第 1 格背景色，如：奶绿",
+        "背景色二": "第 2 格背景色，如：浅杏",
+        "背景色三": "第 3 格背景色，如：雾粉",
+        "背景色四": "第 4 格背景色，如：淡紫",
+        "标语": "如：慢一点，也很好"
+      },
       "source_url": "https://x.com/ou_zhen599/status/2082158630942781575?s=20",
       "source_author": "ou_zhen599",
       "preview_urls": [
@@ -6249,6 +7075,13 @@
         "场景": "{scene_spec}",
         "文案": "{text_spec}"
       },
+      "variable_descs": {
+        "主体类型": "主体类别，如：人物 / 动物 / 产品",
+        "主体描述": "主体的外观特征，如：短发、雀斑、绿色眼睛",
+        "画面补充描述": "如：左下角留白给标题",
+        "场景": "发生在哪里，如：海边公路 / 便利店门口",
+        "文案": "如：把夏天装进罐子里"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
       "source_author": "小小东",
       "preview_urls": [
@@ -6292,6 +7125,9 @@
       "prompt": "极简时尚封面感 × 高级 editorial illustration × 独立艺术企划主视觉 × luxury fashion campaign。\n{主角色}，成年角色，修长 fashion illustration 比例，人物偏画面右侧偏下，尺寸较小，只占画面高度约 45%–55%，保留大量留白。姿态自然优雅，轻微扭转，冷淡、慵懒、疏离。\n角色服饰不固定，根据角色原本身份、代表色和视觉特征自动设计，可保留原服装或进行高级 editorial fashion 化转译，但保持角色辨识度。\n人物手中拿着一个简洁精致的白瓷瓶。从瓶口自然喷出 3–6 个完整清晰的小型其他角色，沿简洁弧线向画面左侧或左上方展开。角色之间保持明显间距，不堆叠，不拥挤。\n喷出效果保持克制，只加入少量淡烟、简单流线和极少量微光粒子，不使用复杂爆炸、密集星屑、夸张能量丝带或华丽魔法效果。\n主角色最大，喷出的角色明显更小，重点是\"角色从瓶中出现\"，而不是特效。\n人物身后加入 1–2 个与主角色强相关的巨大图形化元素，例如武器、专属道具、徽记、元素符号、代表性生物或其他核心母题，进行放大、简化、平面化处理。\n低饱和纯色背景，大面积留白。人物偏右，小角色向左展开，后景元素位于人物身后，形成清晰、克制、平衡的 editorial 海报构图。\nsemi-flat digital painting，modern anime fashion illustration，大色块平涂，少量柔和明暗，清晰边缘，干净轮廓，高级、冷淡、简约，不花哨。\n右下角小型签名\"voxcat\"。\n不要水印，不要真实Logo，不要电商广告感。\n",
       "variables": {
         "主角色": "{主角色}"
+      },
+      "variable_descs": {
+        "主角色": "如：一位撑伞的女性"
       },
       "source_url": "https://x.com/VoxcatAI/status/2104480845121884340",
       "source_author": "VoxcatAI",
@@ -6343,6 +7179,16 @@
         "英文主标题": "{英文主标题}",
         "中文副标题": "{中文副标题}",
         "英文副标语": "{英文副标语}"
+      },
+      "variable_descs": {
+        "主体故事": "主体的故事设定，如：在雨夜寻找旧信件",
+        "主角": "如：扎辫子的小女孩",
+        "色系主色调": "色系里的主色，如：雾霭蓝",
+        "伙伴": "与主角同行的角色，如：一只柴犬",
+        "色系辅色调": "色系里的辅色，如：灰粉",
+        "英文主标题": "如：SUMMER DROP",
+        "中文副标题": "如：夏日限定",
+        "英文副标语": "如：MADE FOR SLOW DAYS"
       },
       "source_url": "https://x.com/ou_zhen599/status/2075629673497948593",
       "source_author": "ou_zhen599",
@@ -6608,6 +7454,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "画面主体": "宠物，如：一只柴犬",
+        "主体动作": "宠物的动作，如：歪头看镜头 / 趴着打哈欠",
+        "产品/道具": "室内道具，如：毛线球 / 食盆",
+        "场景地点": "如：客厅沙发旁",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "如：GOOD BOY",
+        "副文案": "如：scene 03",
+        "点缀符号": "如：速度线 / 惊叹号",
+        "服装造型": "宠物配饰，如：小围巾"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -6694,6 +7551,7 @@
         "点缀": "{点缀}"
       },
       "variable_descs": {
+        "主体数量": "如：3 颗 / 5 颗",
         "主体": "如 桃子（绒毛质感，粉色短促线条交叉排线）+ 枝叶（绿色细密线条勾叶脉）",
         "点缀": "画面点缀，如 飘落花瓣 / 光斑 / 细线纹理"
       },
@@ -6990,6 +7848,14 @@
         "当日日期": "{当日日期}",
         "署名": "{署名}"
       },
+      "variable_descs": {
+        "主题": "海报主题，如：城市夜行 / 春日野餐",
+        "主标题": "画面主标题，如：夏日限定",
+        "副标题": "次级标题，如：限定发售",
+        "说明文案": "一小段中文说明，如：纸上的山水，也是心里的山水",
+        "当日日期": "如：2026/11/02",
+        "署名": "如：Photography by Lee"
+      },
       "source_url": "https://x.com/YangOnchain/status/2071930882500501890",
       "source_author": "楊哥 | Yang Onchain",
       "preview_urls": [
@@ -7039,6 +7905,15 @@
         "茶器": "{tea_utensil}",
         "辅助文字": "{auxiliary_text}",
         "印章文字": "{stamp_text}"
+      },
+      "variable_descs": {
+        "主标题": "画面主标题，如：夏日限定",
+        "主要草本": "如：洋甘菊 / 迷迭香 / 柠檬草",
+        "辅助食材": "如：蜂蜜 / 薄荷叶 / 柠檬片",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "茶器": "如：玻璃壶 / 陶壶 / 白瓷杯",
+        "辅助文字": "如：SEASON 02",
+        "印章文字": "如：限量 / 手作"
       },
       "source_url": "https://x.com/MrLarus/status/2091072647262277989",
       "source_author": "MrLarus",
@@ -7178,6 +8053,10 @@
         "日常物品": "{EVERYDAY_OBJECT}",
         "物体": "{OBJECT}"
       },
+      "variable_descs": {
+        "日常物品": "真实物品，如：一支铅笔 / 一把钥匙",
+        "物体": "如：一只玻璃瓶"
+      },
       "source_url": "https://x.com/ShamsAmin56",
       "source_author": "ShamsAmin56",
       "preview_urls": [
@@ -7262,6 +8141,10 @@
       "variables": {
         "场景": "{scene}",
         "道具": "{props}"
+      },
+      "variable_descs": {
+        "场景": "发生在哪里，如：海边公路 / 便利店门口",
+        "道具": "辅助物件，如：草帽 / 折叠椅 / 冰桶"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073403641869009289",
       "source_author": "小小东",
@@ -7377,6 +8260,9 @@
       "variables": {
         "主体": "{subject}"
       },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
+      },
       "source_url": "https://x.com/MissDelulu9/status/2084483650507469054",
       "source_author": "MissDelulu9",
       "preview_urls": [
@@ -7421,6 +8307,12 @@
         "主体": "{主体}",
         "服装描述": "{服装描述}",
         "壁画背景描述": "{壁画背景描述}"
+      },
+      "variable_descs": {
+        "主体描述": "主体的外观特征，如：短发、雀斑、绿色眼睛",
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "服装描述": "如：白色针织开衫、浅蓝牛仔",
+        "壁画背景描述": "壁画题材，如：复古汽车与棕榈树"
       },
       "source_url": "https://x.com/Naiknelofar788/status/2082653912075739205",
       "source_author": "Naiknelofar788",
@@ -7510,6 +8402,9 @@
       "variables": {
         "主题内容": "{主题内容}"
       },
+      "variable_descs": {
+        "主题内容": "作品主题，如：工业文明的纪念碑"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2086078437777936547",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
@@ -7554,6 +8449,12 @@
         "姿势描述": "{姿势描述}",
         "服装描述": "{服装描述}",
         "道具描述": "{道具描述}"
+      },
+      "variable_descs": {
+        "角色描述": "如：圆脸、短耳、戴围巾",
+        "姿势描述": "如：侧身回望 / 低头看手机",
+        "服装描述": "如：白色针织开衫、浅蓝牛仔",
+        "道具描述": "如：手机 / 滑板 / 购物袋"
       },
       "source_url": "https://x.com/Taaruk_/status/2082758275179900940",
       "source_author": "Taaruk_",
@@ -7637,6 +8538,9 @@
       "prompt": "Hyper-realistic black and white sketch of a {subject}, detailed pencil linework with subtle graphite shading, accented by a single bold stroke of red. High-resolution, clean composition, fine art illustration style, ideal for gallery wall prints or modern posters.\n不要水印，不要真实Logo，不要电商广告感。\n",
       "variables": {
         "主体": "{subject}"
+      },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
       },
       "source_url": "https://x.com/azed_ai/status/2087131938595504540",
       "source_author": "azed_ai",
@@ -7820,6 +8724,7 @@
       },
       "variable_descs": {
         "主题与活动名称": "灯彩手作 / 制扇雅集 / 香事文化 / 木刻版画",
+        "主标题": "画面主标题，如：夏日限定",
         "核心主形": "如 巨大纸圆 / 扇形展开 / 沉香色块",
         "主色域": "2–4 个颜色，如 暖橙 + 杏黄 + 暖白",
         "微场景": "如 糊纸灯彩 / 制扇裱贴 / 篆香合香",
@@ -7868,6 +8773,9 @@
       "variables": {
         "主体": "{subject}"
       },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2087173607227367874",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
@@ -7910,6 +8818,9 @@
       "prompt": "Recreate the scene as a premium mixed-media manga editorial portrait. Place {subject} in a full-body, low-angle composition with one foot stepping toward the camera to create dramatic forced perspective and a bold 3D pop-out effect. Keep the pose natural, relaxed, and confident with a soft smile and direct eye contact. Dress in modern casual streetwear with realistic fabric textures, clean styling, minimal accessories, and fashionable sneakers.\n\nBehind the subject, create a high-contrast black-and-white manga collage featuring multiple comic panels of their face with different cute expressions, hand-drawn ink illustrations, expressive webtoon artwork, thick comic outlines, dynamic panel layouts, speech bubbles, hearts, stars, sparkles, lightning bolts, arrows, ink splashes, spiral doodles, motion lines, sketch marks, and energetic graphic elements.\n\nIntegrate bold comic typography including \"OMG!\", \"WOW!\", \"SO CUTE!\", \"LOVE IT!\", \"AMAZING!\", and \"ADORABLE!\" in a premium editorial layout. Blend the realistic subject seamlessly with the illustrated manga background, creating the illusion that they are stepping out of a comic page into the real world.\n\nSoft studio lighting, crisp shadows, ultra-realistic skin texture, detailed hair strands, realistic denim and fabric folds, sharp sneaker details, premium compositing, high dynamic range, clean white background, luxury magazine-quality color grading, ultra-detailed, masterpiece, photorealistic, 8K.\n\n不要水印，不要真实Logo，不要电商广告感。\n",
       "variables": {
         "主体": "{subject}"
+      },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
       },
       "source_url": "https://x.com/AiwithLariab/status/2082718809274937790?s=20",
       "source_author": "Laraib Fatima (@AiwithLariab)",
@@ -8038,6 +8949,9 @@
       "prompt": "Create an ultra-high-resolution minimalist line-art travel poster of {DESTINATION}, portraying the city as a stylish everyday urban scene rather than a tourist postcard. \n\nCORE COMPOSITION: \n- Central composition shows the city's most iconic street, intersection, alley, tram street, or pedestrian avenue \n- Foreground includes locals, commuters, cyclists, travelers, shoppers, students, café visitors \n- People should naturally reflect the city's local lifestyle and fashion culture \n- Background filled with realistic local signage, cafés, restaurants, transportation signs, storefronts, and architectural details \n- Landmarks should appear naturally integrated into everyday life, never exaggerated \n- Include authentic local-language typography and culturally recognizable visual elements \n- Large bold typography at the top center: \"{DESTINATION}\" \n- Subtitle below: local language + country name examples: 東京 JAPAN 서울 KOREA ΚΟΛΩΝΙΑ GERMANY\n\nSTYLE: ultra clean vector illustration, Swiss modernist travel poster, minimal line art, monoline drawing, mid-century editorial aesthetic, architectural illustration, Japanese graphic poster style, precise geometric perspective, extremely clean negative space, premium travel branding aesthetic\n\nLINE STYLE: \n- monochrome line-based illustration only \n- thin and highly precise linework \n- minimal fill areas \n- intricate city-map-like detail density \n- rhythmic layering of signs, buildings, windows, and street objects \n- visually dense yet highly organized composition\n\nCOLOR SYSTEM — VERY IMPORTANT: \n- use only ONE main color + ONE background color \n- automatically choose a color that best represents the city's atmosphere \n- monochrome silkscreen poster aesthetic \n- no rainbow palettes \n- no excessive neon \n- color should reflect the city's architecture, climate, nightlife, and cultural identity\n\nExamples: \n- Tokyo → vivid red on warm ivory \n- Paris → deep navy on cream \n- New York → charcoal black on light gray \n- Kyoto → muted burgundy on warm cream \n- Hong Kong → teal blue on pale ivory \n- Santorini → Mediterranean blue on white \n- Cairo → desert sepia on sand beige\n\nCOMPOSITION: \n- vertical poster layout \n- frontal street-level perspective \n- pedestrians crossing streets or moving naturally \n- balanced, elegant, highly detailed",
       "variables": {
         "目的地": "{DESTINATION}"
+      },
+      "variable_descs": {
+        "目的地": "如：京都 / 里斯本 / 大理"
       },
       "source_url": "https://x.com/Goodmanprotocol",
       "source_author": "Goodmanprotocol",
@@ -8253,6 +9167,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
       },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "主体动作": "如：张开双臂 / 蹦跳",
+        "产品/道具": "玩具道具，如：气球 / 礼盒",
+        "地点": "如：上海 / 京都 / 洛杉矶",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "如：SUPER DAY",
+        "副文案": "如：限时活动",
+        "点缀符号": "如：星星 / 圆点",
+        "服装造型": "如：小披风 / 领结"
+      },
       "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/bold-block-mascot-poster-style",
       "source_author": "VigoCreativeAI",
       "preview_urls": [
@@ -8292,13 +9217,14 @@
         "**纯白底正方形**：1080x1080，纯白背景，单角色居中",
         "**图层规范**：发型 → 帽子 → 面部装饰 → 上衣 → 下装 → 鞋子 → 披风 → 武器"
       ],
-      "prompt": "{角色设定}\n你是一位将动漫、游戏、漫画角色转换为 MapleStory 玩家角色精灵的像素艺术总监。\n\n{输入}\n角色名称 + 全身图片（推荐正面全身照）\n\n{任务}\n1. 分析 {角色名} 的代表外型特征：\n   - 发型\n   - 发色\n   - 眼睛颜色\n   - 代表服装\n   - 代表配饰\n   - 代表武器\n   - 代表象征元素\n   - 代表配色\n2. 在保留上述特征的前提下，重新解读为 MapleStory 玩家角色结构。\n3. 成品必须看起来像真正的 MapleStory 玩家角色精灵，而非通用像素艺术角色。\n\n[规格一：冒险岛角色结构规范]\n- 整体比例：头部+头发 60~65% / 躯干 15~18% / 腿部 20~25%，2.0~2.3 头身\n- 视角：35~45 度 Quarter View，双眼均可见，近乎平面 2D 精灵\n- 脸部：眼睛位于脸部下方，间距宽，横宽扁平眼，大瞳孔+高光，禁止画鼻子，嘴极小，带柔和腮红\n- 颈部：禁止表现颈部，头部直接连接身体\n- 头发：角色核心标识，体积比头骨大很多，优先轮廓，最小化发丝表达，存在顶部高光\n- 身体：躯干极小，手臂短，腿部短，简化圆柱形四肢，最小化关节表达\n- 装备图层顺序：Hair → Hat → Face Accessory → Top → Bottom → Shoes → Cape → Weapon\n- 姿态：Idle Standing Pose，禁止跳跃/战斗/动作表演\n\n[规格二：像素渲染规范]\n禁止风格：\n- 高分辨率像素艺术\n- Ultra Detailed Pixel Art\n- HD Pixel Art\n- 精细像素艺术\n\n目标效果（32~64px 游戏精灵放大感）：\n- Low-resolution game sprite\n- Enlarged MMORPG sprite\n- Chunky pixel structure\n- Grid-aligned pixel art\n- Visible pixel blocks\n- Clean 1px outline\n- Limited color palette\n- Flat color shading\n- Solid tone pixel blocks\n- Minimal shading\n- No dithering\n- No smooth gradients\n- No airbrush effects\n\n[规格三：输出条件]\n- Canvas Size: 1080 x 1080\n- Format: Perfect Square\n- Background: Pure White (#FFFFFF)\n- 角色数量：仅单角色\n- 可见范围：全身可见\n- 构图：居中，角色占画布高度约 75%\n- 禁止元素：裁剪、额外角色、宠物、场景、背景物品、地面、文字、Logo、水印、UI\n\n[规格四：绝对禁止风格]\nPokemon Style / Terraria Style / Stardew Valley Style\nRagnarok Online Style / JRPG Battle Sprite / Octopath Traveler Style\nWestern Cartoon / Disney Style / Realistic / Semi Realistic\n3D Render / Illustration / Concept Art / Splash Art / Poster / Wallpaper\nAnime Illustration / Digital Painting / Cinematic Lighting\nUltra Detailed Sprite / High Definition Pixel Art / Fine-Grained Pixel Art\nSmooth Gradient Shading / Airbrush Shading\n\n{收尾}\nCreate {角色名} as a true MapleStory player avatar sprite.\nThe result must look like an actual MapleStory player character converted from {角色名},\nnot a generic pixel-art character.",
+      "prompt": "{角色设定}\n你是一位将动漫、游戏、漫画角色转换为 MapleStory 玩家角色精灵的像素艺术总监。\n\n【输入】\n角色名称 + 全身图片（推荐正面全身照）\n\n【任务】\n1. 分析 {角色名} 的代表外型特征：\n   - 发型\n   - 发色\n   - 眼睛颜色\n   - 代表服装\n   - 代表配饰\n   - 代表武器\n   - 代表象征元素\n   - 代表配色\n2. 在保留上述特征的前提下，重新解读为 MapleStory 玩家角色结构。\n3. 成品必须看起来像真正的 MapleStory 玩家角色精灵，而非通用像素艺术角色。\n\n[规格一：冒险岛角色结构规范]\n- 整体比例：头部+头发 60~65% / 躯干 15~18% / 腿部 20~25%，2.0~2.3 头身\n- 视角：35~45 度 Quarter View，双眼均可见，近乎平面 2D 精灵\n- 脸部：眼睛位于脸部下方，间距宽，横宽扁平眼，大瞳孔+高光，禁止画鼻子，嘴极小，带柔和腮红\n- 颈部：禁止表现颈部，头部直接连接身体\n- 头发：角色核心标识，体积比头骨大很多，优先轮廓，最小化发丝表达，存在顶部高光\n- 身体：躯干极小，手臂短，腿部短，简化圆柱形四肢，最小化关节表达\n- 装备图层顺序：Hair → Hat → Face Accessory → Top → Bottom → Shoes → Cape → Weapon\n- 姿态：Idle Standing Pose，禁止跳跃/战斗/动作表演\n\n[规格二：像素渲染规范]\n禁止风格：\n- 高分辨率像素艺术\n- Ultra Detailed Pixel Art\n- HD Pixel Art\n- 精细像素艺术\n\n目标效果（32~64px 游戏精灵放大感）：\n- Low-resolution game sprite\n- Enlarged MMORPG sprite\n- Chunky pixel structure\n- Grid-aligned pixel art\n- Visible pixel blocks\n- Clean 1px outline\n- Limited color palette\n- Flat color shading\n- Solid tone pixel blocks\n- Minimal shading\n- No dithering\n- No smooth gradients\n- No airbrush effects\n\n[规格三：输出条件]\n- Canvas Size: 1080 x 1080\n- Format: Perfect Square\n- Background: Pure White (#FFFFFF)\n- 角色数量：仅单角色\n- 可见范围：全身可见\n- 构图：居中，角色占画布高度约 75%\n- 禁止元素：裁剪、额外角色、宠物、场景、背景物品、地面、文字、Logo、水印、UI\n\n[规格四：绝对禁止风格]\nPokemon Style / Terraria Style / Stardew Valley Style\nRagnarok Online Style / JRPG Battle Sprite / Octopath Traveler Style\nWestern Cartoon / Disney Style / Realistic / Semi Realistic\n3D Render / Illustration / Concept Art / Splash Art / Poster / Wallpaper\nAnime Illustration / Digital Painting / Cinematic Lighting\nUltra Detailed Sprite / High Definition Pixel Art / Fine-Grained Pixel Art\nSmooth Gradient Shading / Airbrush Shading\n\n【收尾】\nCreate {角色名} as a true MapleStory player avatar sprite.\nThe result must look like an actual MapleStory player character converted from {角色名},\nnot a generic pixel-art character.",
       "variables": {
         "角色设定": "{角色设定}",
-        "输入": "{输入}",
-        "任务": "{任务}",
-        "角色名": "{角色名}",
-        "收尾": "{收尾}"
+        "角色名": "{角色名}"
+      },
+      "variable_descs": {
+        "角色设定": "如：一位爱读书的女高中生",
+        "角色名": "如：豆豆"
       },
       "source_url": "https://x.com/20_v_e/status/2064627884086689912",
       "source_author": "20_v_e",
@@ -8492,6 +9418,9 @@
       "variables": {
         "主题": "{主题}"
       },
+      "variable_descs": {
+        "主题": "海报主题，如：城市夜行 / 春日野餐"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2087699298737848519",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
@@ -8540,6 +9469,17 @@
         "主文案": "{MAIN_TEXT}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "主体动作": "产品摆放姿态，如：正立居中 / 45 度倾斜",
+        "产品/道具": "配件，如：包装盒 / 丝带",
+        "地点": "如：上海 / 京都 / 洛杉矶",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "服装造型": "产品表面质感，如：亮面玻璃 / 哑光金属",
+        "主文案": "如：ESSENCE",
+        "副文案": "如：eau de parfum",
+        "点缀符号": "如：细线框 / 编号标签"
       },
       "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/luxury-perspective-checkerboard-editorial",
       "source_author": "VigoCreativeAI",
@@ -8590,6 +9530,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "主角家具，如：一把单人扶手椅",
+        "主体动作": "位置与空间关系，如：略偏右、占据中景",
+        "产品/道具": "配合陈列的物件，如：落地灯 / 矮几",
+        "场景地点": "拍摄环境，如：暖米白影棚",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "超大号深森林绿展示字体，如：FORMA",
+        "副文案": "稀疏目录小字，如：collection 04 / oak",
+        "点缀符号": "如：细线 / 描边目录标签",
+        "服装造型": "家具材质与表面，如：浅色橡木 + 亚麻"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -8682,6 +9633,10 @@
         "年龄": "{AGE}",
         "名称": "{NAME}"
       },
+      "variable_descs": {
+        "年龄": "如：30",
+        "名称": "主角名字，如：LIN"
+      },
       "source_url": "https://x.com/MissDelulu9",
       "source_author": "MissDelulu9",
       "preview_urls": [
@@ -8732,6 +9687,12 @@
         "品牌副标题": "{BRAND_SUBTITLE}",
         "短标语": "{SHORT_SLOGAN}",
         "主文案": "{MAIN_COPY}"
+      },
+      "variable_descs": {
+        "品牌名": "如：山野茶事",
+        "品牌副标题": "如：东方茶饮",
+        "短标语": "如：慢慢来，也很好",
+        "主文案": "品牌主张或活动名，如：好好吃饭"
       },
       "source_url": "https://x.com/MrLarus",
       "source_author": "MrLarus",
@@ -8817,6 +9778,9 @@
       "variables": {
         "运动主题英文文案": "{运动主题英文文案}"
       },
+      "variable_descs": {
+        "运动主题英文文案": "如：RUN FASTER"
+      },
       "source_url": "https://x.com/ou_zhen599/status/2076572106565767628",
       "source_author": "Loriel.AI",
       "preview_urls": [
@@ -8858,6 +9822,9 @@
       "prompt": "3D low poly model of {pop_culture_vehicle}, isometric view, 2D game art style, light background, soft lighting, low detail, white background, intricate details and realistic textures\n不要水印，不要真实Logo，不要电商广告感。\n",
       "variables": {
         "流行文化载具": "{pop_culture_vehicle}"
+      },
+      "variable_descs": {
+        "流行文化载具": "如：复古面包车 / 蝙蝠车"
       },
       "source_url": "https://x.com/CharaspowerAI/status/2076728502087262510",
       "source_author": "CharaspowerAI",
@@ -9143,6 +10110,10 @@
         "菜单名": "{Menu_Name}",
         "价格": "{Price}"
       },
+      "variable_descs": {
+        "菜单名": "如：泡菜炒饭 / 部队锅",
+        "价格": "如：￥19.9 / 第二杯半价"
+      },
       "source_url": "https://x.com/kingofdairyque/status/2081580288971337797",
       "source_author": "kingofdairyque",
       "preview_urls": [
@@ -9238,6 +10209,8 @@
         "活动时间": "{活动时间/副行}"
       },
       "variable_descs": {
+        "第一行": "如：COMING SOON",
+        "第二行": "如：AUTUMN 2024",
         "活动时间": "活动时间或副行文案，如 5.1–5.7"
       },
       "source_url": "",
@@ -9293,6 +10266,8 @@
         "活动时间": "{活动时间/副行}"
       },
       "variable_descs": {
+        "第一行": "如：COMING SOON",
+        "第二行": "如：AUTUMN 2024",
         "活动时间": "活动时间或副行文案，如 5.1–5.7"
       },
       "source_url": "",
@@ -9464,6 +10439,10 @@
       "variables": {
         "角色名": "{角色名}",
         "角色描述": "{角色描述}"
+      },
+      "variable_descs": {
+        "角色名": "如：豆豆",
+        "角色描述": "如：圆脸、短耳、戴围巾"
       },
       "source_url": "https://x.com/VoxcatAI/status/2102949894457799154",
       "source_author": "VoxcatAI",
@@ -9677,6 +10656,8 @@
       },
       "variable_descs": {
         "主题": "传统工艺 / 表演艺术 / 建筑空间",
+        "主标题": "画面主标题，如：夏日限定",
+        "英文标题": "如：SUMMER 2024",
         "主视觉": "织物 / 器物 / 人物 / 建筑空间等",
         "核心材质": "织锦 / 金属 / 漆艺 / 木材 / 和纸等",
         "辅助档案": "局部纹样 / 工艺细节 / 面具 / 平面图 / 材料样本等",
@@ -9979,6 +10960,9 @@
       "variables": {
         "国家": "{country}"
       },
+      "variable_descs": {
+        "国家": "如：日本 / 意大利 / 摩洛哥"
+      },
       "source_url": "https://x.com/ChillaiKalan__/status/2091009348302774706",
       "source_author": "ChillaiKalan__",
       "preview_urls": [
@@ -10150,6 +11134,14 @@
         "场景描述": "{场景描述}",
         "标题": "{标题}",
         "副标题": "{副标题}"
+      },
+      "variable_descs": {
+        "主题": "海报主题，如：城市夜行 / 春日野餐",
+        "主体描述": "主体的外观特征，如：短发、雀斑、绿色眼睛",
+        "动作描述": "如：转身回望",
+        "场景描述": "场景的具体样貌，如：木质吧台、绿植墙、落地窗",
+        "标题": "如：夏日限定",
+        "副标题": "次级标题，如：限定发售"
       },
       "source_url": "https://x.com/Goodmanprotocol/status/2082666687925760258",
       "source_author": "Goodmanprotocol",
@@ -10452,6 +11444,12 @@
         "辅助色": "{辅助色}",
         "点缀色": "{点缀色}"
       },
+      "variable_descs": {
+        "主题汉字": "如：茶 / 静",
+        "主色调": "如：暖橙 + 米白",
+        "辅助色": "如：雾霾蓝",
+        "点缀色": "小面积强调色，如：正红"
+      },
       "source_url": "https://x.com/MrLarus/status/2051581807569649697",
       "source_author": "MrLarus",
       "preview_urls": [
@@ -10499,7 +11497,10 @@
         "英文主题名称": "{英文主题名称}"
       },
       "variable_descs": {
-        "文化元素": "3–5 个相关人物 / 建筑 / 器物 / 自然景观"
+        "两个中文大字": "如：山海 / 无常",
+        "文化元素": "3–5 个相关人物 / 建筑 / 器物 / 自然景观",
+        "四字文化主题": "如：观山听水",
+        "英文主题名称": "如：MOUNTAINS AND WATER"
       },
       "source_url": "https://x.com/MrLarus/status/2108193733556715885",
       "source_author": "MrLarus",
@@ -10548,6 +11549,8 @@
         "日期与金句": "{date_and_quote}"
       },
       "variable_descs": {
+        "主体描述": "主体的外观特征，如：短发、雀斑、绿色眼睛",
+        "城市地标或主题": "如：上海外滩 / 海边日出",
         "日期与金句": "如 2024.11.08 — 春天总会来"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2081540058885321012",
@@ -10594,6 +11597,10 @@
       "variables": {
         "目的地": "{目的地}",
         "点缀色": "{点缀色}"
+      },
+      "variable_descs": {
+        "目的地": "如：京都 / 里斯本 / 大理",
+        "点缀色": "小面积强调色，如：正红"
       },
       "source_url": "https://x.com/Sairah_0/status/2071779087396606433",
       "source_author": "Sairah (@Sairah_0)",
@@ -10679,6 +11686,12 @@
         "画面主体": "{subject_spec}",
         "场景": "{scene_spec}",
         "文案": "{text_spec}"
+      },
+      "variable_descs": {
+        "人物类型": "如：职场女性 / 学生",
+        "画面主体": "主体是什么，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "场景": "发生在哪里，如：海边公路 / 便利店门口",
+        "文案": "如：把夏天装进罐子里"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
       "source_author": "小小东",
@@ -10908,6 +11921,10 @@
         "主体人物": "{主体人物}",
         "拉伸部位": "{拉伸部位}"
       },
+      "variable_descs": {
+        "主体人物": "如：戴棒球帽的年轻女生",
+        "拉伸部位": "被拉伸的身体部位，如：颈部 / 手臂"
+      },
       "source_url": "https://x.com/sadkaijpg/status/1938155030172602568",
       "source_author": "sadkaijpg",
       "preview_urls": [
@@ -10965,7 +11982,17 @@
         "花卉3": "{花卉3}"
       },
       "variable_descs": {
-        "主标题": "信封上的英文标题"
+        "主标题": "信封上的英文标题",
+        "信封颜色": "如：奶油黄 / 雾霾蓝",
+        "信封类型": "如：牛皮纸信封 / 玻璃纸信封",
+        "季节花卉类型": "如：春季野花 / 夏季莲花",
+        "鸟颜色": "如：薄荷绿 / 琥珀金",
+        "鸟类型": "如：蜂鸟 / 山雀",
+        "铭牌文字": "如：SPRING / 春日",
+        "底部文字": "画面最底部的小字，如：愿你被温柔以待",
+        "花卉1": "第 1 种花，如：洋甘菊",
+        "花卉2": "第 2 种花，如：满天星",
+        "花卉3": "第 3 种花，如：小苍兰"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7616607728072461594?workDetailType=Image&itemType=9",
       "source_author": "悦（即梦）",
@@ -11015,6 +12042,11 @@
         "服装": "{outfit}",
         "场景情绪": "{setting_mood}"
       },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "服装": "如：亚麻衬衫 + 阔腿裤",
+        "场景情绪": "场景与情绪，如：黄昏的河边、宁静微凉"
+      },
       "source_url": "https://x.com/arsalannazir07/status/2086798151890219247",
       "source_author": "arsalannazir07",
       "preview_urls": [
@@ -11059,6 +12091,9 @@
       "prompt": "设计一张具有高级商业审美的极简海报，核心视觉语言是\"真实物象穿越几何情绪窗口\"。画面中设置一个窄长的低饱和色块，作为视觉锚点和空间容器，色块颜色根据主题选择柔和浅色，如雾蓝、浅青、米白、淡粉、暖灰或浅金。将【{subject}】以真实摄影质感或精细写实方式置入色块之中，但不要完全困在色块内，要让主体局部越界、破框、延伸到留白区域，形成自然生长感和空间穿透感。背景保持极简，使用大面积白色或浅灰留白，加入几乎透明的文化纹样、线性图形、地形线、水波线、光影轮廓或抽象符号，作为若隐若现的视觉细节。整体排版要像高端地产、奢侈品、美学杂志或节气海报，文字细长、克制、字距舒展，标题可竖排，辅助信息用小字号规整排列。画面需要有东方留白、现代秩序、自然生命力、轻奢品质感。避免杂乱、避免高饱和、避免厚重阴影、避免廉价模板感。\n不要水印，不要真实Logo。\n",
       "variables": {
         "主体": "{subject}"
+      },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2090960491648815553",
       "source_author": "xiaoxiaodong01",
@@ -11114,7 +12149,15 @@
       },
       "variable_descs": {
         "主标题": "粗体艺术字，如 Z&V DESIGN",
-        "标语": "超大像素字体贯穿画面"
+        "标语": "超大像素字体贯穿画面",
+        "底部文字": "画面最底部的小字，如：愿你被温柔以待",
+        "右侧文字": "竖排英文小字，如：CODE IS POETRY",
+        "标识": "Logo 或标记文字，如：GEEK LAB",
+        "信息栏1": "顶栏第 1 栏，如：SESSION 01",
+        "信息栏2": "第 2 栏，如：BUILD 2024",
+        "信息栏3": "第 3 栏，如：COMPILED",
+        "中文标注1": "括号标注，如：（内存偏移）",
+        "中文标注2": "如：（指针解引用）"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7646229041049013531",
       "source_author": "一笔绘✏️",
@@ -11239,7 +12282,13 @@
       },
       "variable_descs": {
         "主标题": "毛笔手绘字体，如\"Don't wait for inspiration\"",
-        "品牌": "极细无衬线水印"
+        "品牌": "极细无衬线水印",
+        "蓝紫": "主色之一，如：电光蓝紫",
+        "青蓝": "如：湖蓝 / 青碧",
+        "嫩粉": "如：樱花粉",
+        "嫩绿": "如：嫩芽绿",
+        "橙黄": "点缀色，如：蜜橙",
+        "年份": "如：2024"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7623739698048945459?workDetailType=Image&itemType=9",
       "source_author": "会唱歌de萝卜丝（即梦）",
@@ -11289,6 +12338,15 @@
         "点缀色": "{COLOR3}",
         "标题": "{TITLE}",
         "文字": "{TEXT}"
+      },
+      "variable_descs": {
+        "人物": "如：穿风衣的短发女性",
+        "服装": "如：亚麻衬衫 + 阔腿裤",
+        "主色": "主色名或色值，如：奶油白 /",
+        "辅色": "辅助色，如：薄荷绿",
+        "点缀色": "小面积强调色，如：正红",
+        "标题": "如：夏日限定",
+        "文字": "如：慢下来"
       },
       "source_url": "https://x.com/Kashberg_0/status/2075055474861555843",
       "source_author": "Kashberg",
@@ -11375,6 +12433,9 @@
       "prompt": "将{主体描述}转换为真实手工 Fuse Bead 拼豆作品，创作一张极简编辑海报。\n\n主体：{主体描述}由数百颗圆柱形塑料拼豆逐颗组成，\n每颗清晰可见中央圆孔、圆柱结构、规则网格、颗粒间细微缝隙，\n有限配色表现结构、阴影和高光；\n外围一圈米白色拼豆形成整体描边。\n\n背景：干净温暖奶油白亮光表面，整体色调柔和低饱和，\n柔和自然光从左上方照射，拼豆呈细腻亮光塑料材质，\n在奶油白背景形成轻微柔软的悬浮投影。\n\n色卡：从主体提取 3~5 个最具代表性的重点颜色，\n水平居中排列，小巧比例统一间距均匀，纯色色块不添加渐变或复杂边框。\n根据主体实际配色自动决定颜色数量，不凑数。\n\n文字排版：中文主标题，现代高对比衬线体/明朝体，\n细字重、纤细锐利衬线、字形舒展、适当增加字间距、居中排列。\n副标题小号更细字距更宽。\n\n构图：4:5 竖版极简编辑海报布局。\n版式结构（从上到下）：\n上方大面积留白 → 拼豆主体（约占画面 35%~50%）→ 色卡 → 中文主标题 → 小号中文副标题 → 底部大面积留白。\n主体、色卡、标题、副标题全部位于安全区域内，中央轴线排列，大量负空间。\n\n整体风格：Fuse Bead Craft × Pixel Art × Color Palette × Minimal Editorial Poster × Product Photography。\n克制、安静、精致、高级，像独立设计杂志中的色彩研究页面或精品品牌视觉档口。\n不要像素滤镜、马赛克、乐高、玻璃珠、十字绣、针织效果、复杂背景、巨大色块、彩虹配色、渐变色卡、粗黑体、卡通字体、书法字体。\n\n比例 4:5 竖版，不要水印。\n",
       "variables": {
         "主体描述": "{主体描述}"
+      },
+      "variable_descs": {
+        "主体描述": "主体的外观特征，如：短发、雀斑、绿色眼睛"
       },
       "source_url": "https://x.com/Morry4AI/status/2102659406580330647",
       "source_author": "Morry4AI",
@@ -11518,6 +12579,15 @@
         "鞋靴描述": "{鞋靴描述}",
         "髮型描述": "{髮型描述}"
       },
+      "variable_descs": {
+        "角色名称": "如：豆豆",
+        "角色基础身份": "如：流浪的机械师 / 见习占星师",
+        "角色描述": "如：圆脸、短耳、戴围巾",
+        "服装描述": "如：白色针织开衫、浅蓝牛仔",
+        "配饰描述": "如：金属细框眼镜、珍珠耳环",
+        "鞋靴描述": "如：厚底马丁靴 / 皮质短靴",
+        "髮型描述": "如：齐肩黑直发 / 微卷短发"
+      },
       "source_url": "https://x.com/GeekCatX/status/2104135797280752081",
       "source_author": "GeekCatX",
       "preview_urls": [
@@ -11564,6 +12634,12 @@
         "系列名称": "{COLLECTION_NAME}",
         "服装类型": "{GARMENT_TYPE}",
         "工坊代号": "{ATELIER_CODE}"
+      },
+      "variable_descs": {
+        "时尚主体": "如：一件大衣 / 一条长裙",
+        "系列名称": "如：QUIET FORM",
+        "服装类型": "如：羊毛大衣 / 缎面衬衫",
+        "工坊代号": "如：ATL-07"
       },
       "source_url": "https://x.com/Gdgtify/status/2075122532965896675",
       "source_author": "Gadgetify (@Gdgtify)",
@@ -11618,6 +12694,19 @@
         "版式类型": "{DIRECTION_TYPE}",
         "小字文案": "{EXTRA_SMALL_TEXT}",
         "模特描述": "{MODEL_DESCRIPTION}"
+      },
+      "variable_descs": {
+        "品牌-名称": "如：山野茶事",
+        "主题": "海报主题，如：城市夜行 / 春日野餐",
+        "产品或主体": "如：一支香水瓶 / 一位模特",
+        "配色": "整体配色方案，如：莫兰迪灰粉 + 奶白",
+        "主标题": "画面主标题，如：夏日限定",
+        "副标题": "次级标题，如：限定发售",
+        "短文案": "如：一口回甘",
+        "品牌调性": "如：安静、克制、有呼吸感",
+        "版式类型": "如：海报 / 三折页 / 卡片",
+        "小字文案": "如：SCROLL TO EXPLORE",
+        "模特描述": "如：短发亚洲女性，表情冷淡"
       },
       "source_url": "https://x.com/MrLarus",
       "source_author": "MrLarus",
@@ -11749,7 +12838,8 @@
         "幻想角色": "{幻想角色}"
       },
       "variable_descs": {
-        "乐器": "琵琶、西塔琴、曼陀林"
+        "乐器": "琵琶、西塔琴、曼陀林",
+        "幻想角色": "如：精灵旅人 / 星象师"
       },
       "source_url": "https://x.com/SimplyAnnisa/status/2077351368692785358",
       "source_author": "SimplyAnnisa",
@@ -11798,6 +12888,9 @@
       "variables": {
         "中文Slogan": "{中文Slogan}"
       },
+      "variable_descs": {
+        "中文Slogan": "如：好好吃饭"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -11838,6 +12931,9 @@
       "prompt": "Create a hyperrealistic vertical exploded-view infographic of {FOOD} with 5 distinct layers:\n1. TOP: Floating iconic particles, drips, crumbs, spices, steam, or decorative elements\n2. SECOND: Separated top surface, glaze, sauce, outer layer showing rich textures\n3. THIRD: Central food layer showing natural structure, depth, fibers, bubbles, grains\n4. FOURTH: Base support, filling, shell, inner filling, clearly separated layers\n5. BOTTOM: Simple plate, bowl, cup, or tray\nPure white background, soft studio lighting, each layer floating with subtle shadows\nDSLR macro photography realism, clear infographic labels with fine guide lines\n8K quality, premium editorial food photography style\n不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感。\n",
       "variables": {
         "食物": "{FOOD}"
+      },
+      "variable_descs": {
+        "食物": "主体食物，如：一颗草莓 / 一块芝士蛋糕"
       },
       "source_url": "https://x.com/iamaiistudio/status/2072208469437112566?s=20",
       "source_author": "PromptLab (@iamaiistudio)",
@@ -11882,6 +12978,9 @@
       "prompt": "{subject}主题实验性杂志封面。画面采用竖版4:5比例，浅灰白纸张背景。\n\n【版式】非对称编辑网格，大面积负空间，局部拥挤局部空旷，部分元素被页面边缘裁切，保持\"理性排序\"与\"受控混沌\"。\n\n【色彩】严格限制：浅灰白背景、纯黑线条为主、荧光酸性柠檬黄平面色块占画面约1/4-1/3（不立体无阴影）、极少中性灰点缀。禁止金色/橙色/蓝色/多彩渐变。\n\n【标题】超大中文主标题（宋体/明朝体，书卷感，极大字号可裁切），较大英文副标题（高对比度Didone衬线斜体），极小字号注译与出版信息。文字承担构图功能。\n\n【图像】黑色单色线条科学图鉴：精细钢笔线、凿刻线、交叉排线、点描、木刻铜版画质感。一幅主题主体占较大面积，三至六个辅助图像（局部放大、切面图、标本图、细节零件）。图像间用极细指示线、箭头、比例尺、编号建立关系。可加手写记号、十字定位符、测量线。\n\n【质感】轻微纸张纤维、油墨不均匀、套印误差、半色调颗粒、微小划痕、边缘裁切痕迹、旧档案扫描感。整体平面化纸张化编辑化。\n\n【禁止】写实商业摄影、3D渲染、立体文字、玻璃金属质感、彩虹灯、赛博朋克、柔和渐变、卡通可爱风、居中对称构图、满版照片、过度泛黄、无意义装饰、AI乱码。\n\n作品让人感觉像未知知识专题杂志封面、科学研究档案、兼具学术性与艺术性的展览海报。理性、实验、学术、文学、先锋、冷峻、知识密度高。\n不要水印，不要真实Logo。\n",
       "variables": {
         "主体": "{subject}"
+      },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2081583498037698587",
       "source_author": "小小东",
@@ -11930,6 +13029,12 @@
         "元素": "{ELEMENTS}",
         "用途": "{USE_CASE}"
       },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "道具": "辅助物件，如：草帽 / 折叠椅 / 冰桶",
+        "元素": "如：星星、气泡、齿轮",
+        "用途": "这组图的用途，如：电商详情页 / 社交头像"
+      },
       "source_url": "https://x.com/MissDelulu9",
       "source_author": "MissDelulu9",
       "preview_urls": [
@@ -11973,6 +13078,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
       },
+      "variable_descs": {
+        "画面主体": "时装造型，如：一袭黑色长裙",
+        "主体动作": "模特的姿态，如：站定回望",
+        "产品/道具": "配饰，如：手提包 / 墨镜",
+        "场景地点": "如：红白棋盘格透视平面",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "超大号定制手写字体，如：NOIR",
+        "服装造型": "如：缎面长裙 + 尖头高跟",
+        "副文案": "如：atelier 07",
+        "点缀符号": "如：祖母绿点缀 / 细线"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -12015,6 +13131,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}"
+      },
+      "variable_descs": {
+        "画面主体": "模特，如：一位高个女模",
+        "主体动作": "如：靠墙站定 / 侧身行走",
+        "产品/道具": "如：藤编包 / 太阳镜",
+        "场景地点": "地中海建筑前，如：白墙拱廊",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "如：SUMMER EDIT",
+        "服装造型": "如：米色亚麻套装",
+        "副文案": "如：shot in sicily",
+        "点缀符号": "如：细线框 / 页码"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -12061,6 +13188,12 @@
         "场景": "{scene_spec}",
         "文案": "{text_spec}"
       },
+      "variable_descs": {
+        "主体类型": "主体类别，如：人物 / 动物 / 产品",
+        "画面补充描述": "如：左下角留白给标题",
+        "场景": "发生在哪里，如：海边公路 / 便利店门口",
+        "文案": "如：把夏天装进罐子里"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
       "source_author": "小小东",
       "preview_urls": [
@@ -12103,6 +13236,17 @@
         "服装造型": "{WARDROBE_STYLE}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "副文案": "{SECONDARY_TEXT}"
+      },
+      "variable_descs": {
+        "画面主体": "超模，如：一位轮廓分明的女模",
+        "主体动作": "如：低头侧望 / 抬手拨发",
+        "产品/道具": "如：手拿一束野花",
+        "场景地点": "户外繁茂前景，如：高草丛边",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "如：LIGHT",
+        "服装造型": "如：白衬衫 + 金属耳饰",
+        "点缀符号": "如：材质铭牌 / 细线",
+        "副文案": "如：a study in daylight"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -12299,7 +13443,13 @@
         "强调色": "{强调色}"
       },
       "variable_descs": {
-        "包围方式": "人物环绕 / 三边巨字 / 实体边界 / 嵌套框"
+        "主题": "海报主题，如：城市夜行 / 春日野餐",
+        "主视觉主体": "如：一尊石狮 / 一只白鹤",
+        "中文核心字": "核心汉字，如：境",
+        "中文标题": "如：一期一会",
+        "英文标题": "如：SUMMER 2024",
+        "包围方式": "人物环绕 / 三边巨字 / 实体边界 / 嵌套框",
+        "强调色": "如：荧光绿"
       },
       "source_url": "https://x.com/MrLarus/status/2099136388016848959",
       "source_author": "MrLarus",
@@ -12427,6 +13577,10 @@
         "城市名": "{城市名}",
         "一句诗意标语": "{一句诗意标语}"
       },
+      "variable_descs": {
+        "城市名": "如：京都 / 威尼斯 / 布拉格",
+        "一句诗意标语": "副标题短句，如：where the river remembers"
+      },
       "source_url": "https://x.com/Taaruk_/status/2072192393932354027",
       "source_author": "Taaruk_",
       "preview_urls": [
@@ -12471,6 +13625,10 @@
       "variables": {
         "场景描述": "{scene_description}",
         "标题文字": "{title_text}"
+      },
+      "variable_descs": {
+        "场景描述": "场景的具体样貌，如：木质吧台、绿植墙、落地窗",
+        "标题文字": "如：晚安之前"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073403641869009289",
       "source_author": "小小东",
@@ -12533,6 +13691,17 @@
         "副文案": "{SECONDARY_TEXT}",
         "点缀符号": "{ACCENT_SYMBOL}",
         "服装造型": "{WARDROBE_STYLE}"
+      },
+      "variable_descs": {
+        "画面主体": "徒步者，如：背着大包的年轻人",
+        "主体动作": "如：站在山径回望",
+        "产品/道具": "如：登山杖 / 水壶",
+        "场景地点": "如：林间山径",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "超大号西班牙漫画字体，如：AVENTURA",
+        "副文案": "如：día 2",
+        "点缀符号": "如：扁平怪物 / 手绘箭头",
+        "服装造型": "如：冲锋衣 + 徒步鞋"
       },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
@@ -12601,6 +13770,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "副文案": "{SECONDARY_TEXT}"
       },
+      "variable_descs": {
+        "画面主体": "车后座乘客，如：靠窗的年轻女生",
+        "主体动作": "如：望着窗外 / 举手比耶",
+        "产品/道具": "如：耳机 / 饮料杯",
+        "场景地点": "如：出租车后座",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "超大号黄橙手绘字体，如：RIDE",
+        "服装造型": "如：宽松卫衣 + 棒球帽",
+        "点缀符号": "漫画放射线 / 紫色音符",
+        "副文案": "如：night route"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -12668,6 +13848,20 @@
         "涂鸦大小": "{DOODLE_SCALE}",
         "光源": "{LIGHT_SOURCE}"
       },
+      "variable_descs": {
+        "画面主体": "人，如：盘腿坐床上的女生",
+        "主体动作": "如：抱着靠垫发呆",
+        "产品/道具": "如：笔记本电脑 / 马克杯",
+        "场景地点": "如：低光卧室",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "如：MIDNIGHT",
+        "副文案": "如：2:14 am",
+        "点缀符号": "如：小星星 / 手绘心",
+        "服装造型": "如：宽松睡衣",
+        "涂鸦伙伴": "扁平 2D 靠垫玩偶，如：一只歪头小猫",
+        "涂鸦大小": "如：主体的三分之一高",
+        "光源": "如：屏幕蓝光 + 暖色小夜灯"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -12726,7 +13920,13 @@
         "主标题": "液态金属质感 3D 字母",
         "标语": "底部小字",
         "画面-主体": "3D 字母",
-        "色彩-主色": "荧光绿"
+        "色彩-主色": "荧光绿",
+        "辅色": "辅助色，如：薄荷绿",
+        "质感": "表面质感，如：哑光磨砂 / 液态金属",
+        "装饰元素": "散布在画面里的装饰，如：几何碎片 / 光斑",
+        "背景描述": "背景的样貌，如：液态金属墙 / 暗紫渐变空间",
+        "点缀元素": "如：小雏菊 / 星星 / 网格线",
+        "底部文字2": "第二行小字，如：扫码了解更多"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7573909671774391598",
       "source_author": "用户4818385606662",
@@ -12954,7 +14154,12 @@
       },
       "variable_descs": {
         "画面-主体": "黑白色调人物",
-        "色彩-主色": "亮红色高饱和"
+        "色彩-主色": "亮红色高饱和",
+        "色调": "整体色调，如：冷调霓虹紫",
+        "服装描述": "如：白色针织开衫、浅蓝牛仔",
+        "配饰描述": "如：金属细框眼镜、珍珠耳环",
+        "文字A": "第一段文字，如：混乱多语言字符 / MIND",
+        "文字B": "第二段文字，如：NO SIGNAL"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7591914980476276006",
       "source_author": "💋💋💋 🅻🅸🅽🅳🅰",
@@ -13181,6 +14386,11 @@
         "主色": "{color1}",
         "辅色": "{color2}"
       },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "主色": "主色名或色值，如：奶油白 /",
+        "辅色": "辅助色，如：薄荷绿"
+      },
       "source_url": "https://x.com/azed_ai/status/2090031054044442644",
       "source_author": "azed_ai",
       "preview_urls": [
@@ -13320,6 +14530,17 @@
         "点缀符号": "{ACCENT_SYMBOL}",
         "副文案": "{SECONDARY_TEXT}"
       },
+      "variable_descs": {
+        "画面主体": "游客，如：举着相机的旅行者",
+        "主体动作": "如：仰头看地标",
+        "产品/道具": "如：相机 / 冰淇淋",
+        "场景地点": "地标前，如：海边灯塔 / 老城广场",
+        "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
+        "主文案": "如：WANDER",
+        "服装造型": "如：碎花衬衫 + 短裤",
+        "点缀符号": "扁平民间艺术鱼 / 漫画星爆",
+        "副文案": "如：postcard no.7"
+      },
       "source_url": "https://x.com/VigoCreativeAI",
       "source_author": "Vigo AI Visual Prompt Cookbook",
       "preview_urls": [
@@ -13452,6 +14673,13 @@
         "底色": "{底色}",
         "冷暖感觉": "{冷暖感觉}"
       },
+      "variable_descs": {
+        "主题对象": "如：一只玻璃杯 / 一束白花",
+        "主题短语或符号": "如：LIGHT / ☼",
+        "强调色": "如：荧光绿",
+        "底色": "背景主色，如：米白 / 浅雾蓝",
+        "冷暖感觉": "如：偏冷 / 柔和偏暖"
+      },
       "source_url": "https://x.com/xiaoxiaodong01/status/2082370084442706309",
       "source_author": "xiaoxiaodong01",
       "preview_urls": [
@@ -13545,6 +14773,9 @@
       "variables": {
         "产品": "{PRODUCT}"
       },
+      "variable_descs": {
+        "产品": "主角产品，如：一罐气泡水 / 一支口红"
+      },
       "source_url": "https://x.com/Gdgtify/status/2084363171448422856?s=20",
       "source_author": "Gdgtify",
       "preview_urls": [
@@ -13585,6 +14816,9 @@
       "prompt": "Create a cinematic exploded-view advertising poster for {产品名称}. The product hovers in mid-air, decomposed into its individual layers — materials, ingredients, or components — floating apart to reveal the internal structure. Each layer is precisely rendered with accurate materials, textures, and finishes.\n\nCinematic lighting with dramatic shadows, deep dark background, strong negative space. The composition tells a visual story of craftsmanship and innovation, not a technical diagram.\n\nFor tech products: highlight chips, circuits, precision engineering. For food/beverage: showcase ingredients, layers, textures. For fashion/beauty: reveal fabric weave, material layers, product essence. For luxury: emphasize gold accents, premium materials, exquisite details.\n\nBold 3-character brand slogan at the bottom, clean typography.\n\nNot a watermark, no real logos, no e-commerce clutter, no cartoon style, no collage feel, no busy backgrounds, no garbled text.\n",
       "variables": {
         "产品名称": "{产品名称}"
+      },
+      "variable_descs": {
+        "产品名称": "如：轻乳茶·茉莉"
       },
       "source_url": "https://x.com/aziz4ai/status/2071674035948106098",
       "source_author": "AZIZ | AI 🇸🇦 (@aziz4ai)",
@@ -13635,6 +14869,13 @@
         "地景类型": "{地景类型}",
         "微型叙事描述": "{微型叙事描述}",
         "中文题跋内容": "{中文题跋内容}"
+      },
+      "variable_descs": {
+        "主题描述": "展览主题，如：山水的另一种看法",
+        "主色调描述": "主色域，如：墨绿 + 米白 + 一点朱砂",
+        "地景类型": "地景形态，如：远山薄雾 / 湖面",
+        "微型叙事描述": "画面里的小叙事，如：一人独坐亭中",
+        "中文题跋内容": "题跋文字，如：山静日长"
       },
       "source_url": "https://x.com/MrLarus/status/2095095430275117290",
       "source_author": "MrLarus",
@@ -13728,6 +14969,9 @@
       "variables": {
         "主体": "{subject}"
       },
+      "variable_descs": {
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
+      },
       "source_url": "https://x.com/azed_ai/status/2076623195386601657",
       "source_author": "azed_ai",
       "preview_urls": [
@@ -13816,6 +15060,11 @@
         "角色名称": "{角色名称}",
         "颜色1": "{颜色1}",
         "颜色2": "{颜色2}"
+      },
+      "variable_descs": {
+        "角色名称": "如：豆豆",
+        "颜色1": "高光强调色，如：青蓝",
+        "颜色2": "基础结构色，如：深灰"
       },
       "source_url": "https://x.com/azed_ai/status/2074811246893990111",
       "source_author": "Amira Zairi (@azed_ai)",
@@ -13918,10 +15167,14 @@
         "辅助色": "{辅助色}"
       },
       "variable_descs": {
+        "主题": "海报主题，如：城市夜行 / 春日野餐",
         "中央硬轴": "如 竹脊 / 船身 / 箭矢 / 器物结构",
         "左侧元素": "如 桨阵 / 骨架 / 弓身",
         "右侧元素": "如 声波 / 羽翼 / 杆件",
-        "运动方式": "放射/斜向/重复节奏/波纹/张力"
+        "重复元素描述": "如：重复的圆形光斑 / 阵列竖线",
+        "运动方式": "放射/斜向/重复节奏/波纹/张力",
+        "主色调": "如：暖橙 + 米白",
+        "辅助色": "如：雾霾蓝"
       },
       "source_url": "https://x.com/MrLarus/status/2104224369853509966",
       "source_author": "MrLarus",
@@ -14012,6 +15265,10 @@
       "variables": {
         "中文Slogan": "{中文Slogan}",
         "英文副行": "{英文副行}"
+      },
+      "variable_descs": {
+        "中文Slogan": "如：好好吃饭",
+        "英文副行": "如：MADE WITH CARE"
       },
       "source_url": "",
       "source_author": "painter",
@@ -14196,6 +15453,10 @@
         "中文Slogan": "{中文Slogan}",
         "英文副行": "{英文副行}"
       },
+      "variable_descs": {
+        "中文Slogan": "如：好好吃饭",
+        "英文副行": "如：MADE WITH CARE"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -14286,6 +15547,10 @@
         "第一行": "{第一行}",
         "第二行": "{第二行}"
       },
+      "variable_descs": {
+        "第一行": "如：COMING SOON",
+        "第二行": "如：AUTUMN 2024"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -14336,7 +15601,8 @@
         "主标题": "最大泡泡字内容",
         "色彩-主色": "泡泡字填充色",
         "色彩-底场": "背景色",
-        "色彩-强调": "点缀色"
+        "色彩-强调": "点缀色",
+        "具体主题内容": "如：春日通勤穿搭"
       },
       "source_url": "",
       "source_author": "用户提供",
@@ -14388,7 +15654,11 @@
         "风格关键词": "{Style_Keywords}"
       },
       "variable_descs": {
-        "主标题": "品牌名称/主标题"
+        "主标题": "品牌名称/主标题",
+        "英文副标题": "如：BREWED SLOWLY",
+        "产品包装": "如：一只咖啡袋 / 一盒茶罐",
+        "建筑场景": "如：街角咖啡馆 / 车站亭",
+        "风格关键词": "英文风格词，如：minimal, premium, warm"
       },
       "source_url": "https://x.com/PixuryAI",
       "source_author": "PixuryAI",
@@ -14434,6 +15704,13 @@
         "画面主体": "{subject_spec}",
         "场景": "{scene_spec}",
         "文案": "{text_spec}"
+      },
+      "variable_descs": {
+        "主题": "海报主题，如：城市夜行 / 春日野餐",
+        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "画面主体": "主体是什么，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "场景": "发生在哪里，如：海边公路 / 便利店门口",
+        "文案": "如：把夏天装进罐子里"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073402053997834484",
       "source_author": "小小东",
@@ -14484,7 +15761,8 @@
       },
       "variable_descs": {
         "中文品牌名": "品牌名称，如「STREETLAB」「GOAT」「VISION」",
-        "吉祥物描述": "品牌吉祥物的特征描述，如「一只戴着墨镜的山羊」「一个酷酷的滑板少年」"
+        "吉祥物描述": "品牌吉祥物的特征描述，如「一只戴着墨镜的山羊」「一个酷酷的滑板少年」",
+        "品牌名": "如：山野茶事"
       },
       "source_url": "https://x.com/poletaeviktor",
       "source_author": "poletaeviktor",
@@ -14531,6 +15809,12 @@
         "英文文案": "{ENGLISH_TEXT}",
         "副标题": "{副标题}",
         "署名": "{署名}"
+      },
+      "variable_descs": {
+        "主题文字": "如：流动",
+        "英文文案": "如：FLOWING",
+        "副标题": "次级标题，如：限定发售",
+        "署名": "如：Photography by Lee"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7579463842925645065",
       "source_author": "平面设计老鬼",
@@ -14584,6 +15868,10 @@
       "variables": {
         "中文标题": "{中文标题}",
         "英文副行": "{英文副行}"
+      },
+      "variable_descs": {
+        "中文标题": "如：一期一会",
+        "英文副行": "如：MADE WITH CARE"
       },
       "source_url": "",
       "source_author": "painter",
@@ -14736,6 +16024,8 @@
       "variable_descs": {
         "主视觉词": "A层：中文2-8字/英文1-4词，必须巨大清晰可读",
         "副标题": "B层：完整标题，放在顶部/侧边/底部/副标题区",
+        "语言": "文字语言，如：中文 / 中英混排",
+        "用途": "这组图的用途，如：电商详情页 / 社交头像",
         "行业/场景": "AI / 投资 / 消费 / SaaS / 创业等",
         "禁用元素": "不想出现的元素，可留空",
         "核心隐喻": "从 15 种商业隐喻中选一个，如 被市场曲线切开 / 变成迷宫",
@@ -15008,6 +16298,13 @@
         "装饰配料": "{GARNISH_ELEMENT}",
         "点缀元素": "{ACCENT_DESCRIPTION}"
       },
+      "variable_descs": {
+        "口味名称": "如：白桃乌龙",
+        "主色": "主色名或色值，如：奶油白 /",
+        "液体颜色": "如：酒红 / 琥珀金 / 淡绿",
+        "装饰配料": "如：柑橘片 / 香草枝",
+        "点缀元素": "如：小雏菊 / 星星 / 网格线"
+      },
       "source_url": "https://x.com/ou_zhen599/status/2080924943567757412",
       "source_author": "ou_zhen599",
       "preview_urls": [
@@ -15054,6 +16351,11 @@
         "第一行": "{第一行}",
         "第二行": "{第二行}",
         "副行": "{副行}"
+      },
+      "variable_descs": {
+        "第一行": "如：COMING SOON",
+        "第二行": "如：AUTUMN 2024",
+        "副行": "如：LIMITED EDITION"
       },
       "source_url": "",
       "source_author": "painter",
@@ -15186,6 +16488,10 @@
         "中文Slogan": "{中文Slogan}",
         "英文副行": "{英文副行}"
       },
+      "variable_descs": {
+        "中文Slogan": "如：好好吃饭",
+        "英文副行": "如：MADE WITH CARE"
+      },
       "source_url": "",
       "source_author": "painter",
       "preview_urls": [
@@ -15231,6 +16537,11 @@
         "品牌香水瓶": "{品牌香水瓶}",
         "主标题": "{主标题}",
         "副标题": "{副标题}"
+      },
+      "variable_descs": {
+        "品牌香水瓶": "如：方形琥珀色玻璃瓶",
+        "主标题": "画面主标题，如：夏日限定",
+        "副标题": "次级标题，如：限定发售"
       },
       "source_url": "https://x.com/ou_zhen599/status/2075683059429757181",
       "source_author": "ou_zhen599",
@@ -15285,6 +16596,16 @@
         "背景": "{background}",
         "文字": "{text}"
       },
+      "variable_descs": {
+        "角色": "如：小猫邮差",
+        "姿态": "主体的姿态，如：单脚站立 / 双手插兜",
+        "发型": "如：齐肩微卷黑发 / 寸头",
+        "表情": "如：挑眉坏笑 / 面无表情",
+        "服装": "如：亚麻衬衫 + 阔腿裤",
+        "配色": "整体配色方案，如：莫兰迪灰粉 + 奶白",
+        "背景": "如：渐变天空 / 纯色墙面",
+        "文字": "如：慢下来"
+      },
       "source_url": "https://x.com/HustleXR/status/2087745072309604705",
       "source_author": "HustleXR",
       "preview_urls": [
@@ -15327,6 +16648,9 @@
       "prompt": "{主题}，将主题中的核心网络隐喻或语言梗实体化为一个荒诞但真实存在的摄影场景，\n创作一张\"荒诞 Meme 编辑海报\"。\n\n主视觉：{主题}的荒诞场景，摄影真实、普通、略笨拙，\n不使用电影级布光与浅景深，像一张随手拍摄的怪异纪实照片。\n\n标题排版：画面顶部放置极端巨大的不规则中文展示标题，\n字形压缩、拉伸、倾斜、错位，具有手工剪贴感。\n周围散布少量吐槽式微文案、箭头、注释和中英混排小字。\n\n配色：暖白底，高饱和朱红色 × Royal Blue 为主要平面色，\n照片保留自身综合色。\n\n整体风格：反设计 Editorial × 日本学生展览海报 × 中文互联网 Meme ×\n2000s 消费级数码相机直闪摄影 × DIY Zine。\n整体像一本独立青年杂志、艺术学院学生海报与中文互联网梗图意外融合，\n专业设计结构下保留故意业余、笨拙、廉价、荒诞的视觉表面。\n\n比例 3:4，不要水印，不要真实Logo。\n",
       "variables": {
         "主题": "{主题}"
+      },
+      "variable_descs": {
+        "主题": "海报主题，如：城市夜行 / 春日野餐"
       },
       "source_url": "https://x.com/VoxcatAI/status/2102901823954899164",
       "source_author": "VoxcatAI",
@@ -15373,6 +16697,13 @@
         "前景道具": "{foreground_prop}",
         "标题": "{title}",
         "子品牌": "{sub_brand}"
+      },
+      "variable_descs": {
+        "运动类型": "如：滑板 / 冲浪 / 攀岩",
+        "角色": "如：小猫邮差",
+        "前景道具": "遮挡在镜头前的物件，如：半只玻璃杯 / 花枝",
+        "标题": "如：夏日限定",
+        "子品牌": "如：山野茶事·轻茶"
       },
       "source_url": "https://x.com/VigoCreativeAI/status/2071799923763187860",
       "source_author": "VigoCreativeAI",

@@ -42,12 +42,16 @@ variables:
   desc: 室内区域
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 单个符号或小图案，如：✦ / ★ / 涂鸦箭头
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 画面里的辅助物件，如：一罐气泡水 / 一支口红 / 复古相机
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 人物穿搭，如：oversize 卫衣 + 工装裤
 prompt: |
   Create an original 9:16 poster illustration in the Sky Blue Home Life Doodle Poster style. Preserve these style anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use a full pastel sky-blue outer field and a large rough off-white house-shaped inset with thick wobbly black marker outlines. Put a huge uneven black hand-lettered headline reading {MAIN_TEXT} across the top, plus {SECONDARY_TEXT} as a small slanted support label and {ACCENT_SYMBOL} as a small graphic accent. Inside the house inset, show {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Add {BACKGROUND_ELEMENTS} as simple flat home icons. Dress or style the subject with {WARDROBE_STYLE}. Use chunky rounded cartoon anatomy, oversized hands or props when useful, flat poster colors, no gradients, naive flattened perspective, casual marker wobble, and a youthful handmade home-event mood. All text, characters, props, and scene details must be original and must not copy the reference.
 id: sky_blue_doodle

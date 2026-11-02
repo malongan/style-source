@@ -37,6 +37,7 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{subject}'
+  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
 source_url: "https://x.com/MissDelulu9/status/2084483650507469054"
 source_author: "@MissDelulu9"
 

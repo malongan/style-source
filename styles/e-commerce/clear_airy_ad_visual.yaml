@@ -35,14 +35,19 @@ prompt: |
 variables:
 - kv_var: 主题对象
   style_var: '{主题对象}'
+  desc: 如：一只玻璃杯 / 一束白花
 - kv_var: 主题短语或符号
   style_var: '{主题短语或符号}'
+  desc: 如：LIGHT / ☼
 - kv_var: 强调色
   style_var: '{强调色}'
+  desc: 如：荧光绿
 - kv_var: 底色
   style_var: '{底色}'
+  desc: 背景主色，如：米白 / 浅雾蓝
 - kv_var: 冷暖感觉
   style_var: '{冷暖感觉}'
+  desc: 如：偏冷 / 柔和偏暖
 source_url: "https://x.com/xiaoxiaodong01/status/2082370084442706309"
 source_author: "@xiaoxiaodong01"
 

@@ -52,14 +52,19 @@ prompt: |
 variables:
 - kv_var: 运动类型
   style_var: '{sport}'
+  desc: 如：滑板 / 冲浪 / 攀岩
 - kv_var: 角色
   style_var: '{character}'
+  desc: 如：小猫邮差
 - kv_var: 前景道具
   style_var: '{foreground_prop}'
+  desc: 遮挡在镜头前的物件，如：半只玻璃杯 / 花枝
 - kv_var: 标题
   style_var: '{title}'
+  desc: 如：夏日限定
 - kv_var: 子品牌
   style_var: '{sub_brand}'
+  desc: 如：山野茶事·轻茶
 source_url: "https://x.com/VigoCreativeAI/status/2071799923763187860"
 source_author: "VigoCreativeAI"
 

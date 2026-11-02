@@ -61,6 +61,7 @@ variables:
   desc: Nature系克制机制配色 / Science系理性机制配色 / Cell系生命科学高对比配色 / 医学图谱浅色配色
 - kv_var: 不要出现的元素
   style_var: '{不要出现的元素}'
+  desc: 负向约束，如：不要出现品牌 logo、不要人脸
 prompt: |
   你是一名顶级论文插图设计师、Graphical Abstract 设计师、科研机制图专家、解剖图谱设计师、科学插画导演。
 

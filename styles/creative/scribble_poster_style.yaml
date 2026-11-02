@@ -40,22 +40,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 滑板手，如：戴帽子的青少年滑手
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 如：腾空 ollie / 滑行中
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 如：滑板 / 耳机
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 如：街角台阶 / 滑板场
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 松散红色手写边框字，如：SK8
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：宽松 T 恤 + 工装裤
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：issue 04
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：涂鸦线 / 星号
 prompt: 'Create an image in Teenage Skate Scribble Screenprint Poster style. Aspect ratio: 16:9. Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} at {LOCATION}. Place the subject as one
   oversized central posterized cutout with a compressed crouching or skating pose. Use {WARDROBE_STYLE}. Build the composition on a warm cream paper field with a green skateboard, rail, board, or long prop
   sweeping across the lower third. Wrap loose red hand-lettered border words reading "{MAIN_TEXT}" around the edges, add small handwritten fragments reading "{SECONDARY_TEXT}", and include {ACCENT_SYMBOL}.

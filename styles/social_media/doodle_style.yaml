@@ -48,28 +48,40 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 人，如：盘腿坐床上的女生
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 如：抱着靠垫发呆
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 如：笔记本电脑 / 马克杯
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 如：低光卧室
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 如：MIDNIGHT
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：2:14 am
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：小星星 / 手绘心
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：宽松睡衣
 - kv_var: 涂鸦伙伴
   style_var: '{DOODLE_COMPANION}'
+  desc: 扁平 2D 靠垫玩偶，如：一只歪头小猫
 - kv_var: 涂鸦大小
   style_var: '{DOODLE_SCALE}'
+  desc: 如：主体的三分之一高
 - kv_var: 光源
   style_var: '{LIGHT_SOURCE}'
+  desc: 如：屏幕蓝光 + 暖色小夜灯
 prompt: 'Create an image in the "Cozy Bedroom Doodle Companion Snapshot" style.
 
 

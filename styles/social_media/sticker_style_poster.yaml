@@ -41,22 +41,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 侧脸人像，如：半侧脸的短发女生
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 如：低头写字 / 托腮
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 贴纸般的私人物件，如：票根 / 胶带 / 小照片
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 如：书桌前的窗边
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 斑驳橙色手写字体，如：my week
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：2024.11.02
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：涂鸦星号 / 手绘箭头
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：宽松针织衫
 prompt: 'Create a 16:9 image in analog-sticker-diary-portrait-poster-style.
 
 

@@ -23,22 +23,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 模特，如：一位高个女模
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 如：靠墙站定 / 侧身行走
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 如：藤编包 / 太阳镜
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 地中海建筑前，如：白墙拱廊
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 如：SUMMER EDIT
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：米色亚麻套装
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：shot in sicily
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如：细线框 / 页码
 prompt: 'Create a polished outdoor high-fashion editorial photograph in the Sunlit Architectural Fashion Editorial style. Subject: {SUBJECT}. Pose or movement: {SUBJECT_ACTION}. Prop or accessory: {PRODUCT_OR_PROP}.
   Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Internal editorial mood labels only, not visible text: {MAIN_TEXT}; {SECONDARY_TEXT}. Subtle photographic
   accent: {ACCENT_SYMBOL}. Preserve these style fidelity anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use a low camera position, slight wide-angle fashion perspective,

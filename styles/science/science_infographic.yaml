@@ -31,8 +31,10 @@ features:
 variables:
 - kv_var: 主题
   style_var: '{主题}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 副标题
   style_var: '{副标题}'
+  desc: 次级标题，如：限定发售
 - kv_var: 研究领域
   style_var: '{研究领域}'
   desc: 生物医学 / 材料 / 纳米 / 化学 / 能源 / 环境 / 外科 / 免疫 / 肿瘤 / 神经科学 / 其他
@@ -59,6 +61,7 @@ variables:
   desc: Nature系克制配色 / Science系理性机制配色 / 柔和粉蓝论文信息图配色 / 外科图谱浅粉肉色配色 / Cell系生命科学配色 / 自适应
 - kv_var: 不要出现的元素
   style_var: '{不要出现的元素}'
+  desc: 负向约束，如：不要出现品牌 logo、不要人脸
 prompt: |
   你是一名顶级科研信息图设计师、学术图谱设计师、医学/生命科学/材料科学可视化导演、现代编辑版式设计师。
 

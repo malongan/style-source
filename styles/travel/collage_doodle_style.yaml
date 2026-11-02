@@ -44,22 +44,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 游客，如：举着相机的旅行者
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 如：仰头看地标
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 如：相机 / 冰淇淋
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 地标前，如：海边灯塔 / 老城广场
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 如：WANDER
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：碎花衬衫 + 短裤
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 扁平民间艺术鱼 / 漫画星爆
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：postcard no.7
 prompt: 'Create an image in the "Surreal Fish Doodle Landmark Photo Collage" style.
 
 

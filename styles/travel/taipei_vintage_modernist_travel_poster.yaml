@@ -38,10 +38,13 @@ prompt: |
 variables:
 - kv_var: 城市
   style_var: '{city}'
+  desc: 如：台北 / 台南
 - kv_var: 地标
   style_var: '{landmark}'
+  desc: 如：台北 101 / 龙山寺
 - kv_var: 前景元素
   style_var: '{foreground_element}'
+  desc: 如：棕榈叶 / 街边招牌
 source_url: "https://x.com/Taaruk_/status/2091034664203133243"
 source_author: "Taaruk_"
 

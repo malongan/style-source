@@ -63,6 +63,7 @@ variables:
   desc: 灯彩手作 / 制扇雅集 / 香事文化 / 木刻版画
 - kv_var: 主标题
   style_var: '{主标题}'
+  desc: 画面主标题，如：夏日限定
 - kv_var: 核心主形
   style_var: '{核心主形}'
   desc: 如 巨大纸圆 / 扇形展开 / 沉香色块

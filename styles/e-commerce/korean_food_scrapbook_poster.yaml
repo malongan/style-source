@@ -35,8 +35,10 @@ prompt: |
 variables:
 - kv_var: 菜单名
   style_var: '{Menu_Name}'
+  desc: 如：泡菜炒饭 / 部队锅
 - kv_var: 价格
   style_var: '{Price}'
+  desc: 如：￥19.9 / 第二杯半价
 source_url: "https://x.com/kingofdairyque/status/2081580288971337797"
 source_author: "@kingofdairyque"
 

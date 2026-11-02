@@ -30,12 +30,16 @@ features:
 variables:
 - kv_var: 主体
   style_var: '{subject}'
+  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
 - kv_var: 环境
   style_var: '{setting}'
+  desc: 如：下雨的老街 / 天台的黄昏
 - kv_var: 主色
   style_var: '{color1}'
+  desc: 主色名或色值，如：奶油白 / #F5E6D3
 - kv_var: 辅色
   style_var: '{color2}'
+  desc: 辅助色，如：薄荷绿
 prompt: Retro cel animation style, {subject} in a {setting}, hand-painted background, visible cel lines, muted {color1} and {color2} palette, soft grain, gentle lighting, expressive character design, vintage
   animation frame aesthetic
 id: retro_cel_animation

@@ -66,16 +66,22 @@ prompt: |
 variables:
 - kv_var: 主题
   style_var: '{主题}'
+  desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 主体描述
   style_var: '{主体描述}'
+  desc: 主体的外观特征，如：短发、雀斑、绿色眼睛
 - kv_var: 动作描述
   style_var: '{动作描述}'
+  desc: 如：转身回望
 - kv_var: 场景描述
   style_var: '{场景描述}'
+  desc: 场景的具体样貌，如：木质吧台、绿植墙、落地窗
 - kv_var: 标题
   style_var: '{标题}'
+  desc: 如：夏日限定
 - kv_var: 副标题
   style_var: '{副标题}'
+  desc: 次级标题，如：限定发售
 source_url: "https://x.com/Goodmanprotocol/status/2082666687925760258"
 source_author: "@Goodmanprotocol"
 

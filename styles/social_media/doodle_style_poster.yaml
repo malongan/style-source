@@ -50,22 +50,31 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 车后座乘客，如：靠窗的年轻女生
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 如：望着窗外 / 举手比耶
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 如：耳机 / 饮料杯
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 如：出租车后座
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 超大号黄橙手绘字体，如：RIDE
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
+  desc: 如：宽松卫衣 + 棒球帽
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 漫画放射线 / 紫色音符
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如：night route
 prompt: 'Create an image in backseat-transit-doodle-letter-poster-style.
 
 

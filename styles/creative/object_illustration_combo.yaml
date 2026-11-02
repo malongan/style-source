@@ -31,8 +31,10 @@ features:
 variables:
 - kv_var: 日常物品
   style_var: '{EVERYDAY_OBJECT}'
+  desc: 真实物品，如：一支铅笔 / 一把钥匙
 - kv_var: 物体
   style_var: '{OBJECT}'
+  desc: 如：一只玻璃瓶
 prompt: 'Creative composite photograph, 9:16 vertical aspect ratio, clean minimalist white background, studio lighting, high detail, sharp focus.
 
 
