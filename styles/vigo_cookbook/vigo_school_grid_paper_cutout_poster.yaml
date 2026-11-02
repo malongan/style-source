@@ -21,25 +21,25 @@ features:
 - title: 撕纸边缘下方的浅实拍阴影营造低浮雕感，同时镜头保持正面平视。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject or object silhouette
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: simple visual action or implied purpose
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: paper-built object, product, or prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: flat classroom-paper setting or desk surface
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: minimal grid-paper details and tiny margin marks
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: short hand-written headline
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "school-grid-paper-cutout-poster" visual style.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 image in the "school-grid-paper-cutout-poster" visual style.
 
 
   Subject: {SUBJECT}
@@ -60,9 +60,9 @@ prompt: 'Create a {ASPECT_RATIO} image in the "school-grid-paper-cutout-poster" 
 
   Wardrobe/styling: {WARDROBE_STYLE}
 
-  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+  Style fidelity anchors: the core visual anchors of this style
 
-  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+  Source content to avoid: watermarks, real logos, and commercial advertising
 
 
   Apply these style rules:

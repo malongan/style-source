@@ -32,27 +32,14 @@ features:
 - title: 柔和工作室灯光，全局照明，软阴影
   desc: ''
 variables:
-- kv_var: 主标题
-  style_var: 不在变量里
-  desc: 此风格以角色为主，文字可选
-- kv_var: 画面-角色
-  style_var: '[SUBJECT]'
-  desc: 夸张卡通角色描述
-- kv_var: 画面-道具
-  style_var: '[PROP]'
-  desc: 手持物品
-- kv_var: 画面-元素
-  style_var: '[ELEMENTS]'
-  desc: 周围漂浮的图形
+- kv_var: 主体
+  style_var: '{SUBJECT}'
+- kv_var: PROP
+  style_var: '{PROP}'
+- kv_var: ELEMENTS
+  style_var: '{ELEMENTS}'
 - kv_var: 用途
-  style_var: '[USE_CASE]'
-  desc: 使用场景
-- kv_var: 色彩
-  style_var: dopamine color palette
-  desc: 高饱和多巴胺色
-- kv_var: IP形象
-  style_var: 参考图 + "Maintain IP identity..."
-  desc: 不在变量里，用参考图
+  style_var: '{USE_CASE}'
 prompt: 'A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.
 
 
@@ -79,6 +66,6 @@ prompt: 'A complete single 3D illustration, exaggerated artistic editorial illus
   C4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.
 
 
-  Theme: [SUBJECT] floating with [PROP], surrounded by [ELEMENTS], hero illustration for [USE_CASE]'
+  Theme: {SUBJECT} floating with {PROP}, surrounded by {ELEMENTS}, hero illustration for {USE_CASE}'
 id: exaggerated_3d_toy_illustration
 code: ''

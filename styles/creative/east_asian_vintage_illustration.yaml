@@ -28,28 +28,7 @@ features:
   desc: ''
 - title: '**禁止直视镜头**：眼神望向远方，营造诗意、怀旧、静谧的氛围'
   desc: ''
-variables:
-- kv_var: 主标题
-  style_var: 不适用
-  desc: 此风格为人物插画，无文字标题
-- kv_var: Slogan
-  style_var: 不适用
-  desc: 无
-- kv_var: 画面-场景
-  style_var: 花卉环绕 + 韩纸背景
-  desc: 由花卉主题决定场景氛围
-- kv_var: 画面-动作
-  style_var: 眼神望向远方
-  desc: 禁止直视，营造诗意感
-- kv_var: 色彩-主色
-  style_var: '{{莫兰迪色系}}'
-  desc: 整体柔和，点缀色突出
-- kv_var: 色彩-底场
-  style_var: 韩纸暖米色
-  desc: 暖色aged纸质感
-- kv_var: IP形象
-  style_var: 参考图 + "Maintain IP identity and consistency throughout"
-  desc: 上传参考图保持一致性
+variables: []
 prompt: 'Use the uploaded portrait images as the primary identity reference. Preserve the subject''s real facial identity, facial proportions, calm expression, skin tone, natural features, and overall impression.
   Do not turn the subject into a different person.
 

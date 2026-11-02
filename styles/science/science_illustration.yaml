@@ -28,7 +28,11 @@ features:
   desc: ''
 - title: Graphical Abstract / 机制图 / 解剖图多类型
   desc: ''
-variables: []
+variables:
+  - kv_var: 主题
+    style_var: '{主题}'
+  - kv_var: 不要出现的元素
+    style_var: '{不要出现的元素}'
 prompt: '你是一名顶级论文插图设计师、Graphical Abstract 设计师、科研机制图专家、解剖图谱设计师、科学插画导演。
 
 

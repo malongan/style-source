@@ -28,7 +28,7 @@ features:
   desc: 涂鸦艺术感，大师级构图
 variables:
 - kv_var: 画面-场景
-  style_var: 场景变体
+  style_var: '{场景变体}'
   desc: 可替换为不同的水下邮局变体、珊瑚邮局、海底快递站等
 prompt: 'Moebius (Jean Giraud) 风格，极繁主义。海底珊瑚邮局
 

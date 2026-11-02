@@ -31,6 +31,11 @@ prompt: |
   超现实故障艺术人像摄影，{主体人物}的{拉伸部位}被拉伸成彩色像素条纹，延伸到画面边缘，黑白或单色背景，高对比度光影，艺术摄影质感，电影级打光，8K超高清，细节丰富
   不要水印，不要真实Logo，不要卡通风，不要拼贴感，不要乱码。
 
+variables:
+- kv_var: 主体人物
+  style_var: '{主体人物}'
+- kv_var: 拉伸部位
+  style_var: '{拉伸部位}'
 source_url: "https://x.com/sadkaijpg/status/1938155030172602568"
 source_author: "@sadkaijpg"
 

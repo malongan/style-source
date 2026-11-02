@@ -21,29 +21,29 @@ features:
 - title: 字形钝重、厚重、略微不规则，偏漫画感，而非精致或企业化的气质。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject, mascot, object, activity, or event being announced
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: simple graphic action or poster-like gesture
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: large prop, sign, tool, snack, vehicle, instrument, or symbolic object
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: flat poster setting or simplified environment
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary graphic marks, panels, rays, microcopy, or texture details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: short main Chinese headline or bold poster phrase
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} raster poster in the Blue Lime Kinetic Comic Type Poster Style. Preserve these style anchors first: {STYLE_FIDELITY_ANCHORS}. Use an electric-blue full-bleed grid-paper
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 raster poster in the Blue Lime Kinetic Comic Type Poster Style. Preserve these style anchors first: the core visual anchors of this style. Use an electric-blue full-bleed grid-paper
   background, a huge slanted neon-lime speech-panel or cut-paper banner, a sharp yellow geometric back plate behind it, massive black rough comic-block Chinese typography packed tightly into the lime panel,
   a black strip or edge zone for secondary text, radial black action rays, small arrow/separator marks, subtle halftone dots, ink speckles, rough printed edges, and flat screenprint color. New content:
   {SUBJECT} doing {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, located in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol:
-  {ACCENT_SYMBOL}. Wardrobe or subject styling: {WARDROBE_STYLE}. Keep the composition shallow, loud, compressed, tilted, and type-dominant. Avoid recreating source content: {SOURCE_CONTENT_TO_AVOID}. No
+  {ACCENT_SYMBOL}. Wardrobe or subject styling: {WARDROBE_STYLE}. Keep the composition shallow, loud, compressed, tilted, and type-dominant. Avoid recreating source content: watermarks, real logos, and commercial advertising. No
   watermark, no username, no QR code, no brand logo.'
 id: vigo_blue_kinetic_poster
 code: ''

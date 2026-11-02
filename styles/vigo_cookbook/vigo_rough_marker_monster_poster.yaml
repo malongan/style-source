@@ -21,27 +21,27 @@ features:
 - title: 高饱和马克笔填色呈现可见颗粒、细小留白缝隙，以及粗糙的手工上色质感。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main oversized creature or object-character
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: simple goofy action or expression
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: secondary object, prop, snack, tool, or small visual anchor
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: minimal paper-poster setting or implied corner
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: small supporting doodles, dots, hatch marks, texture, or accent shapes
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: large rough hand-lettered black phrase
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} raster poster in the Rough Marker Monster Poster Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 raster poster in the Rough Marker Monster Poster Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background
   elements: {BACKGROUND_ELEMENTS}. Main text treatment: {MAIN_TEXT}. Secondary text treatment: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or object styling: {WARDROBE_STYLE}. Style fidelity
-  anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: warm cream paper background with subtle speckle; one huge flat
+  anchors that must remain visible: the core visual anchors of this style. Source content to avoid: watermarks, real logos, and commercial advertising. Apply these style rules: warm cream paper background with subtle speckle; one huge flat
   childlike creature or object-character dominating the poster; thick scratchy black marker outlines; rough saturated marker fills with visible grain and small white paper gaps; chunky irregular black hand-lettered
   text integrated into empty corners; tiny dots, hatch marks, cheek spots, rectangles, and scribble accents; limited palette with one dominant bright body color, warm yellow-orange accents, white eye or
   mouth shapes, and black text; flat handmade construction with no realistic perspective, no 3D, no clean vector polish, no photographic environment. Important content rule: preserve the visual style first,

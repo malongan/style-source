@@ -26,37 +26,7 @@ features:
   desc: ''
 - title: 干净整洁但有温度
   desc: ''
-variables:
-- kv_var: 主标题
-  style_var: '{{主体对象}}'
-  desc: 产品/人物/物品主体
-- kv_var: Slogan
-  style_var: '{{涂鸦文字}}'
-  desc: 手写涂鸦小字
-- kv_var: 画面-主体
-  style_var: Subject
-  desc: 真实可辨识的主体
-- kv_var: 画面-涂鸦
-  style_var: Doodles
-  desc: 与主体互动的涂鸦元素
-- kv_var: 画面-叙事
-  style_var: Micro Story
-  desc: 微观小故事
-- kv_var: 色彩-主色
-  style_var: Base + Accents
-  desc: 明亮配色系统
-- kv_var: 色彩-点缀
-  style_var: Accents
-  desc: 2-3个明快色彩
-- kv_var: 光线
-  style_var: Lighting
-  desc: 明亮 soft 无硬阴影
-- kv_var: 情绪
-  style_var: Mood
-  desc: cheerfulness/imagination
-- kv_var: 风格
-  style_var: Style
-  desc: clean + playful + human
+variables: []
 prompt: "Create a cheerful, creative composition that blends a realistic subject with \nplayful hand-drawn doodles and a subtle micro-story.\n\nSubject:\n[insert object / person / product — keep simple\
   \ and recognizable]\n\nLayout:\n- Invisible clean grid system underneath\n- Balanced, airy spacing (avoid clutter)\n- Clear hierarchy: subject first, doodles second, micro details third\n\nDoodles:\n\
   - Playful, expressive, slightly exaggerated\n- Include: smiley faces, stars, sparkles, arrows, motion lines, cute icons\n- Doodles must INTERACT with the subject (touching, pulling, lifting, reacting)\n\

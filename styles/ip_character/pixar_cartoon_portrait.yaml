@@ -28,28 +28,7 @@ features:
   desc: ''
 - title: '**完整全身造型**：从服装到配饰（复古相机）一应俱全'
   desc: ''
-variables:
-- kv_var: 主标题
-  style_var: 不适用（人像生成类）
-  desc: 此风格为人物肖像转换，无文字标题
-- kv_var: Slogan
-  style_var: 不适用
-  desc: 无
-- kv_var: 画面-场景
-  style_var: '{{场景描述}}'
-  desc: 替换场景描述部分，默认"创意工作室"
-- kv_var: 画面-动作
-  style_var: 不适用
-  desc: 全身站立肖像，以人物为主
-- kv_var: 色彩-主色
-  style_var: '{{暖色调}}'
-  desc: 暖粉色调为主，可微调
-- kv_var: 色彩-底场
-  style_var: 不适用
-  desc: 由场景决定
-- kv_var: IP形象
-  style_var: 参考图 + "Maintain IP identity and consistency throughout"
-  desc: 上传参考图保持一致性，不在变量里描述外形
+variables: []
 prompt: Transform the uploaded portrait into a charming Pixar-inspired 3D cartoon character. Keep the girl's facial features recognizable, including her short wavy black bob haircut, soft freckles, expressive
   brown eyes, natural lips, and elegant appearance. Place her in a warm, cozy creative studio with soft fairy lights, blurred photo boards, and aesthetic decor in the background. Dress her in an oversized
   cream sweater layered over a black turtleneck, high-waisted sage green trousers, and a delicate gold necklace. Add a vintage camera hanging around her neck. Use cinematic soft lighting, shallow depth

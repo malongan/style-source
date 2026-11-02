@@ -21,27 +21,27 @@ features:
 - title: 一个超大号亮面插画产品或食品物件位于下方前景，带绘画感高光。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main action
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, product, or prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: environment or setting
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary scene details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: main headline or graphic text
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} raster image in the Yellow Black Manga Food Zine Ad Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Hero product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 raster image in the Yellow Black Manga Food Zine Ad Style. Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Hero product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}.
   Background and secondary elements: {BACKGROUND_ELEMENTS}. Main headline text in Chinese: {MAIN_TEXT}. Secondary Chinese copy or microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe or
-  styling: {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build a dense black, warm yellow, and cream
+  styling: {WARDROBE_STYLE}. Preserve these style fidelity anchors: the core visual anchors of this style. Avoid these source-content elements: watermarks, real logos, and commercial advertising. Build a dense black, warm yellow, and cream
   manga advertorial page with diagonal panel cuts, thick hand-inked keylines, speed hatching, sweat-drop marks, sparkle symbols, one dramatic cropped manga reaction panel, an oversized glossy illustrated
   hero object in the foreground, boxed Chinese editorial copy, a vertical tag label, a strip of mini comic panels, halftone speckle, scanned paper grain, and imperfect print registration. Keep the style
   loud, humorous, appetizing or product-focused, high-contrast, and hand-drawn. Change all content from the reference image while keeping the visual language.'

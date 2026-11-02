@@ -69,33 +69,29 @@ prompt: |
 
 variables:
   - kv_var: 画面-文化主题
-    style_var: "{文化主题}"
-    desc: "唐三彩 / 青花瓷 / 钧窑 / 建盏"
+    style_var: '{文化主题}'
+    desc: 唐三彩 / 青花瓷 / 钧窑 / 建盏
   - kv_var: 画面-核心器物
-    style_var: "{核心器物}"
-    desc: "三彩马 / 青花梅瓶 / 钧窑碗 / 建盏茶盏"
+    style_var: '{核心器物}'
+    desc: 三彩马 / 青花梅瓶 / 钧窑碗 / 建盏茶盏
   - kv_var: 文字-中文主标题
-    style_var: "{中文主标题}"
-    desc: "盛唐流彩（四字毛笔书法）"
+    style_var: '{中文主标题}'
+    desc: 盛唐流彩（四字毛笔书法）
   - kv_var: 文字-英文主标题
-    style_var: "{英文主标题}"
-    desc: "SPLENDOR OF SANCAI"
+    style_var: '{英文主标题}'
+    desc: SPLENDOR OF SANCAI
   - kv_var: 文字-文化短句
-    style_var: "{文化短句}"
-    desc: "泥火成彩，万象入唐"
+    style_var: '{文化短句}'
+    desc: 泥火成彩，万象入唐
   - kv_var: 文字-系列名称
-    style_var: "{系列名称}"
-    desc: "器色有形 / COLORS OF HERITAGE"
+    style_var: '{系列名称}'
+    desc: 器色有形 / COLORS OF HERITAGE
   - kv_var: 色彩-主色与辅助色
-    style_var: "{主色与辅助色}"
-    desc: "橙红 + 墨绿"
+    style_var: '{主色与辅助色}'
+    desc: 橙红 + 墨绿
   - kv_var: 画面-视觉模式
-    style_var: "{视觉模式}"
-    desc: "深色矿物 / 高饱和撞色 / 渐变光栅"
-  - kv_var: 画面-比例
-    style_var: "{画幅比例}"
-    desc: "9:16"
-
+    style_var: '{视觉模式}'
+    desc: 深色矿物 / 高饱和撞色 / 渐变光栅
 source_url: "https://x.com/MrLarus/status/2108880619690500236"
 source_author: "@MrLarus"
 

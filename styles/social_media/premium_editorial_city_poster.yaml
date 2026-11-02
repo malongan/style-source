@@ -44,6 +44,11 @@ prompt: |
   Maintain the same vertical poster composition, subject placement, typography scale, graphic layering, spacing, photographic treatment, and premium magazine aesthetic. The final result should look like the same poster design system recreated for a different city and subject, with CITY_NAME typography clearly crossing OVER and physically overlapping the character.
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主体
+  style_var: '{SUBJECT}'
+- kv_var: CITY NAME
+  style_var: '{CITY_NAME}'
 source_url: "https://x.com/Maercihh/status/2087113728185749607"
 source_author: "@Maercihh"
 

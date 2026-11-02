@@ -42,11 +42,11 @@ prompt: |
   - Minimal garnish composition unique to each flavor (fruit, herb, or spice element)
   - Shared packaging structure with distinct flavor atmosphere via liquid color and background
 
-  For [FLAVOR_NAME] variant:
-  - Background: [COLOR1] with [MOOD/ATMOSPHERE] atmosphere
-  - Liquid color: [LIQUID_COLOR] (wine red / amber gold / pale green / deep purple)
-  - Garnish: [GARNISH_ELEMENT] (citrus slice / herb sprig / berry / spice)
-  - Accent elements: [ACCENT_DESCRIPTION]
+  For {FLAVOR_NAME} variant:
+  - Background: {COLOR1} with [MOOD/ATMOSPHERE] atmosphere
+  - Liquid color: {LIQUID_COLOR} (wine red / amber gold / pale green / deep purple)
+  - Garnish: {GARNISH_ELEMENT} (citrus slice / herb sprig / berry / spice)
+  - Accent elements: {ACCENT_DESCRIPTION}
 
   Typography: elegant serif or modern sans for brand name, refined layout with generous negative space.
   Lighting: soft product lighting with subtle rim highlights on bottle, rich dimensional separation.
@@ -61,6 +61,17 @@ prompt: |
   - Only liquid color, background hue, and garnish change between variants
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: FLAVOR NAME
+  style_var: '{FLAVOR_NAME}'
+- kv_var: 主色
+  style_var: '{COLOR1}'
+- kv_var: 液体颜色
+  style_var: '{LIQUID_COLOR}'
+- kv_var: GARNISH ELEMENT
+  style_var: '{GARNISH_ELEMENT}'
+- kv_var: ACCENT DESCRIPTION
+  style_var: '{ACCENT_DESCRIPTION}'
 source_url: "https://x.com/ou_zhen599/status/2080924943567757412"
 source_author: "ou_zhen599"
 

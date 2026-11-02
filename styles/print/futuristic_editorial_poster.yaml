@@ -30,9 +30,24 @@ ratio: "4:5"
 summary: "GPT Image 2 的未来感编辑海报设计，大侧脸肖像 + 白色背景 + 几何图形 + 杂志排版"
 
 prompt: |
-  Conceptual futuristic editorial poster design featuring [HUMAN] in a large side-profile portrait, wearing [CLOTHING], sleek contemporary fashion styling, clean studio lighting, white background with bold [COLOR1] graphic shapes, fine [COLOR2] circuit-like line diagrams, and subtle [COLOR3] interface accents. Large uppercase title "[TITLE]" placed prominently at the top, a short block of small editorial text reading "[TEXT]", modern experimental typography, asymmetrical magazine layout, sharp high-contrast composition, premium graphic design aesthetic, 4:5 aspect ratio.
+  Conceptual futuristic editorial poster design featuring {HUMAN} in a large side-profile portrait, wearing {CLOTHING}, sleek contemporary fashion styling, clean studio lighting, white background with bold {COLOR1} graphic shapes, fine {COLOR2} circuit-like line diagrams, and subtle {COLOR3} interface accents. Large uppercase title "{TITLE}" placed prominently at the top, a short block of small editorial text reading "{TEXT}", modern experimental typography, asymmetrical magazine layout, sharp high-contrast composition, premium graphic design aesthetic, 4:5 aspect ratio.
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
 
+variables:
+- kv_var: 人物
+  style_var: '{HUMAN}'
+- kv_var: 服装
+  style_var: '{CLOTHING}'
+- kv_var: 主色
+  style_var: '{COLOR1}'
+- kv_var: 辅色
+  style_var: '{COLOR2}'
+- kv_var: 点缀色
+  style_var: '{COLOR3}'
+- kv_var: 标题
+  style_var: '{TITLE}'
+- kv_var: TEXT
+  style_var: '{TEXT}'
 source_url: "https://x.com/Kashberg_0/status/2075055474861555843"
 source_author: "Kashberg"
 

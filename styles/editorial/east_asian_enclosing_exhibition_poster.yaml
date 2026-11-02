@@ -51,6 +51,19 @@ prompt: |
   避免：平均四边框、机械对称、满版说明文字、传统国风装饰、山水背景、朱印堆叠、模板化小字、科技 HUD、无意义英文、Design Study、Vol.、编号、Logo、二维码和版权标识。
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主题
+  style_var: '{主题}'
+- kv_var: 主视觉主体
+  style_var: '{主视觉主体}'
+- kv_var: 中文核心字
+  style_var: '{中文核心字}'
+- kv_var: 中文标题
+  style_var: '{中文标题}'
+- kv_var: 英文标题
+  style_var: '{英文标题}'
+- kv_var: 强调色
+  style_var: '{强调色}'
 source_url: "https://x.com/MrLarus/status/2099136388016848959"
 source_author: "@MrLarus"
 

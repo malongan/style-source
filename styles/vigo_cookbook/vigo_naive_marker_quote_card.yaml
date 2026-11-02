@@ -24,25 +24,25 @@ features:
 - title: 块状大写蓝色手写字体，排成短促断续的行，字距不规则、基线不齐。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main action
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, product, or prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: environment or setting
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary scene details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: main headline or graphic text
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Naive Marker Quote Card Style" visual
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 image in the "Naive Marker Quote Card Style" visual
   style.
 
 
@@ -64,9 +64,9 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Naive Marker Quote Card Style" vi
 
   Wardrobe/styling: {WARDROBE_STYLE}
 
-  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+  Style fidelity anchors: the core visual anchors of this style
 
-  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+  Source content to avoid: watermarks, real logos, and commercial advertising
 
 
   Apply these style rules: draw a rough skinny poster card with a pale pastel interior

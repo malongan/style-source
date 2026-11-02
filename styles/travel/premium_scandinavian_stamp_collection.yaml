@@ -34,9 +34,9 @@ ratio: "3:4"
 summary: "北欧极简风目的地旅行纪念邮票集：7-9枚大小不一的邮票在A4竖版上自由混排，真实齿孔+纸纹质感+克制配色，打造可收藏的限量印刷品。"
 
 prompt: |
-  Create a premium commemorative postage-stamp collection inspired by [DESTINATION], presented as a beautifully designed A4 vertical stamp sheet.
+  Create a premium commemorative postage-stamp collection inspired by {DESTINATION}, presented as a beautifully designed A4 vertical stamp sheet.
 
-  Create 7–9 individual stamps featuring a thoughtful mix of iconic landmarks, architecture, local food, transportation, nature, cultural objects, and small everyday symbols that uniquely evoke [DESTINATION].
+  Create 7–9 individual stamps featuring a thoughtful mix of iconic landmarks, architecture, local food, transportation, nature, cultural objects, and small everyday symbols that uniquely evoke {DESTINATION}.
 
   All stamps must keep the same elegant 3:4 portrait proportion, but vary noticeably in physical size. Arrange them freely across the sheet with gentle asymmetry, visual rhythm, and comfortable white space — NOT a rigid grid.
 
@@ -46,7 +46,7 @@ prompt: |
 
   Simplify each subject into elegant geometric forms, clean silhouettes, restrained details, subtle graphic abstraction, and refined editorial composition.
 
-  Use a fresh but limited color palette inspired naturally by [DESTINATION].
+  Use a fresh but limited color palette inspired naturally by {DESTINATION}.
 
   Keep the background clean warm-white or pure white.
 
@@ -63,7 +63,7 @@ prompt: |
   - subtle, elegant typography
   - one distinctive subject per stamp
 
-  Research and use plausible current local postage values and currency conventions for [DESTINATION].
+  Research and use plausible current local postage values and currency conventions for {DESTINATION}.
 
   Make every stamp visually different while maintaining one coherent art direction.
 
@@ -79,6 +79,9 @@ prompt: |
 
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 目的地
+  style_var: '{DESTINATION}'
 source_url: "https://x.com/Goodmanprotocol/status/2084588473689014648"
 source_author: "@Goodmanprotocol"
 

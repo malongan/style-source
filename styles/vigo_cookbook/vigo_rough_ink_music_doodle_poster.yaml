@@ -21,26 +21,26 @@ features:
 - title: '克制的点缀配色：深墨绿线稿、品红填色、青绿填色，以及酸性黄爆发色块。'
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main simplified mascot, person, or object group
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main action, gesture, or frozen performance moment
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: oversized instrument, wellness object, snack, tool, product, or ritual prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: minimal poster setting or implied environment
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary doodles, labels, small props, rhythm marks, stars, steam, arrows, or loose line marks
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: short hand-drawn headline
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} finished raster poster image in the Rough Ink Music Doodle Poster Style. Preserve these style fidelity anchors first: {STYLE_FIDELITY_ANCHORS}. Avoid these source-specific
-  elements completely: {SOURCE_CONTENT_TO_AVOID}. The poster should show {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} as an oversized graphic prop, set in {LOCATION}. Add {BACKGROUND_ELEMENTS} as
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 finished raster poster image in the Rough Ink Music Doodle Poster Style. Preserve these style fidelity anchors first: the core visual anchors of this style. Avoid these source-specific
+  elements completely: watermarks, real logos, and commercial advertising. The poster should show {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} as an oversized graphic prop, set in {LOCATION}. Add {BACKGROUND_ELEMENTS} as
   floating doodle clusters. Use the main headline text "{MAIN_TEXT}" as huge rough deep green-black brush lettering, plus "{SECONDARY_TEXT}" as small hot pink stacked or bracketed supporting text. Include
   {ACCENT_SYMBOL} as a sharp graphic accent. Style the subject with {WARDROBE_STYLE}. Use pale blush paper, deep green-black scratchy outlines, hot pink and teal flat fills, one acidic yellow burst, scattered
   music-note marks, loose scribbles, dry marker texture, scuffed risograph grain, imperfect registration, flat poster perspective, airy asymmetric composition, and handmade zine-event energy. Do not use

@@ -27,7 +27,11 @@ features:
   desc: ''
 - title: 文字少而精
   desc: ''
-variables: []
+variables:
+  - kv_var: 主题
+    style_var: '{主题}'
+  - kv_var: 不要出现的元素
+    style_var: '{不要出现的元素}'
 prompt: '你是一名顶级科研封面视觉总监、学术期刊封面设计师、科学概念艺术导演、现代编辑设计师。
 
 

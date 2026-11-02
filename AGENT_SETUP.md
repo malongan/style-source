@@ -127,13 +127,31 @@ source_author: "@{作者名}"
 
 ### 4.4 变量格式
 
-| 位置 | 格式 | 示例 |
-|------|------|------|
-| `prompt` 内 | `{变量}`（单花括号） | `{主体描述}` |
-| `variables[].kv_var` | KV 变量名（中文标签或上游英文占位符名） | `画面-主体` / `` `SUBJECT` `` |
-| `variables[].style_var` | 模板里的替换值 | `{主体描述}` / `main person` |
+> 🔴 **强制规范见 [`docs/PROMPT_VARIABLES_SPEC.md`](docs/PROMPT_VARIABLES_SPEC.md)，本节只是速查表。**
+> 这些变量由 WorkBuddy 插件「风格库」消费（用户填完点「插入提示词」，插件做字符串替换后插到画布）——
+> 所以写错不会有人报错，只会「填了没反应」或「没有输入框」。提交前必须通过
+> `python3 scripts/audit_variables.py --strict`（无「声明落空」告警）。
 
-不要用 `{{变量}}`（双花括号）。详见技能侧 `references/variables.md`。
+| 位置 | 格式 | 正例 | 反例 |
+|------|------|------|------|
+| `prompt` 内 | `{占位符}`（半角单花括号，≤20 字） | `{主体描述}` | `[主体]`、`{{主体}}`、`｛主体｝` |
+| `variables[].kv_var` | 干净中文标签，不带 markdown | `主体描述` | `` `SUBJECT` ``、`**主体**` |
+| `variables[].style_var` | **占位符本体，与 prompt 逐字一致** | `"{主体描述}"` | `main person`、`花体字内容，如"旷野的风"` |
+| `variables[].desc` | 示例 / 取值范围（可选） | `如：一只橘猫` | 放候选清单当选项用 |
+
+三条硬规则：
+
+1. **R1** 每条 `style_var` 的占位符必须**原样出现在 `prompt` 里**，否则是死条目（填了没反应）；
+2. **R2** `style_var` 只能写 `"{占位符名}"`，描述一律进 `desc`；
+3. **R3** 想让用户填什么，就在 `prompt` 里留 `{槽位}`——**不留槽位就永远没有输入框**。
+
+单风格槽位 **3–8 个**（优先级：主体 > 主体属性 > 场景 > 文案）。
+
+**画幅 / 尺寸比例不做成变量**：比例由画布工具统一设定，`prompt` 里若写了「画幅比例{画幅比例}」
+或 `{ASPECT_RATIO}`，直接删掉槽位与声明；需要约束构图就写成常量描述（如「竖版构图，主体居下三分之一」）。
+`ratio:` 字段仍按 4.3 填（那是画廊展示用的元数据，与提示词变量无关）。
+
+不要用 `{{变量}}`（双花括号）。详见 `docs/PROMPT_VARIABLES_SPEC.md`。
 
 ### 4.5 配图命名
 
@@ -188,8 +206,9 @@ GitHub Manager（style-collection 技能）
 创建 PR 前本地先验证：
 
 ```bash
-python3 scripts/validate_all.py --strict               # 全量格式检查（有 error 即失败）
+python3 scripts/validate_all.py --strict               # 全量格式检查（含变量语义 R1/R2/R3，有 error 即失败）
 python3 scripts/generate_data.py                       # 生成 JSON 数据
+python3 scripts/audit_variables.py --strict            # 变量体检（声明落空 / 值写成描述 / 标签带反引号）
 python3 scripts/build_gallery.py                       # 生成画廊页面 + CSS/JS
 python3 scripts/generate_index.py                      # 重算索引
 python3 scripts/check_style_previews.py --strict       # 配图完整性（缩略图/孤儿/串号）
@@ -200,8 +219,8 @@ git status --short                                      # 确认生成物都已 
 
 | Workflow | 触发 | 检查内容 |
 |----------|------|---------|
-| `on-push-styles.yml` | PR（`styles/**`） | `validate_all.py --strict` + `check_duplicate.py --pr-mode` + `--check-images --no-strict` |
-| `on-merge-main.yml` | PR 合并到 main **以及直推 main** | `validate_all.py --strict` + 重算并断言 `styles.json` / `gallery.html` / `_index.md` 零 diff（含未跟踪索引文件）+ `check_style_previews.py --strict` |
+| `on-push-styles.yml` | PR（`styles/**`） | `validate_all.py --strict`（含变量语义）+ `check_duplicate.py --pr-mode` + `--check-images --no-strict` + `audit_variables.py --strict` |
+| `on-merge-main.yml` | PR 合并到 main **以及直推 main** | `validate_all.py --strict` + 重算并断言 `styles.json` / `gallery.html` / `_index.md` 零 diff（含未跟踪索引文件）+ `check_style_previews.py --strict` + `audit_variables.py --strict` |
 | `check-images.yml` | 图片/数据变动 + 每日 3 点 | 预览图 URL 可达性 |
 | `manual-deploy.yml` | 手动触发 | 全量验证 + 一致性 |
 
@@ -260,6 +279,8 @@ git status --short                                      # 确认生成物都已 
 | `build_gallery.py` | 构建 `gallery.html` + `gallery.css` + `gallery-runtime.js` | `python3 scripts/build_gallery.py` |
 | `generate_index.py` | 重算 `styles/_index.md` + 各分类索引 | `python3 scripts/generate_index.py` |
 | `check_style_previews.py` | 配图完整性（缩略图/孤儿/**串号**）；CI 用 `--strict` | `python3 scripts/check_style_previews.py --strict` |
+| `audit_variables.py` | 变量体检（声明落空 / 值写成描述 / 标签反引号）；读 `data/styles.json`，**必须先 generate_data** | `python3 scripts/audit_variables.py --strict` |
+| `migrate_variables_spec.py` | 按规范批量整改 `variables`（剥反引号 / 改本体 / 比例转常量 / 方括号转花括号 / 补零声明） | `python3 scripts/migrate_variables_spec.py --dry-run`（`--apply` 才写回） |
 | `check_image_urls.py` | 预览图 URL 可达性（日检） | `python3 scripts/check_image_urls.py` |
 | `convert_to_webp.py` | 原图 → WebP 全尺寸 + 缩略图 | `--input 图 --style-id id --output images/styles_previews/` |
 | `upload_preview.py` | 旧脚本：图片哈希命名处理 | `图片路径 风格名` |

@@ -26,27 +26,27 @@ features:
 - title: 一个橡胶印章或优惠券印章框倾斜放置，使用做旧黑墨、粗衬线或模板字体，以及细小的放射线或分隔符。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main product, food item, wearable, device, or object shown as the oversized sales hero
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: how the product is presented, opened, poured, lifted, stacked, glowing, or interacting with props
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: supporting wrapper, plate, tool, container, ingredient, packaging, accessory, or foreground prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: implied campaign context, publication setting, shop counter, studio tabletop, outdoor-use cue, or editorial scene
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: newspaper page modules, stamped labels, sidebars, columns, rules, captions, folds, and surrounding print details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: large Chinese or bilingual headline text, short enough to behave as a display block
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} raster advertisement in the "Folded Newspaper Product Ad Style". Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location or campaign
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 raster advertisement in the "Folded Newspaper Product Ad Style". Subject: {SUBJECT}. Subject action: {SUBJECT_ACTION}. Product or prop: {PRODUCT_OR_PROP}. Location or campaign
   context: {LOCATION}. Background newspaper elements: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary text and microcopy: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Styling direction:
-  {WARDROBE_STYLE}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid these source-content elements: {SOURCE_CONTENT_TO_AVOID}. Build the image as a wrinkled off-white broadsheet newspaper
+  {WARDROBE_STYLE}. Preserve these style fidelity anchors: the core visual anchors of this style. Avoid these source-content elements: watermarks, real logos, and commercial advertising. Build the image as a wrinkled off-white broadsheet newspaper
   page with visible folds, dense bilingual body-copy columns, rule lines, boxed captions, distressed black ink, antique-gold display headline blocks, one angled rubber-stamp coupon frame, one narrow red
   vertical editorial date tab, and one huge photorealistic commercial product hero overlapping the lower or central page. The product should be tactile, glossy or material-rich, partly supported by paper,
   cloth, foil, tray, wrapper, sleeve, or prop details. Keep the page graphics flat and printed while the product is realistic and foregrounded. The layout should feel crowded, promotional, newspaper-like,

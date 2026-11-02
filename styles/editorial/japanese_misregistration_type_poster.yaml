@@ -60,27 +60,26 @@ prompt: |
 
 variables:
   - kv_var: 画面-海报主题
-    style_var: "{海报主题}"
-    desc: "如：印刷工艺特展 / 字体错版研究 / 独立出版书展"
+    style_var: '{海报主题}'
+    desc: 如：印刷工艺特展 / 字体错版研究 / 独立出版书展
   - kv_var: 文字-主标题
-    style_var: "{主标题}"
-    desc: "如：错印之美 / ずれの美学 / 分版偏移"
+    style_var: '{主标题}'
+    desc: 如：错印之美 / ずれの美学 / 分版偏移
   - kv_var: 文字-英文副标题
-    style_var: "{副标题}"
-    desc: "如：BEAUTIFUL ERROR / OFFSET BEAUTY / PLATE SHIFT"
+    style_var: '{副标题}'
+    desc: 如：BEAUTIFUL ERROR / OFFSET BEAUTY / PLATE SHIFT
   - kv_var: 画面-核心视觉元素
-    style_var: "{核心视觉元素}"
-    desc: "如：单个巨大汉字 / 一组粗体拉丁字母 / 一枚几何符号"
+    style_var: '{核心视觉元素}'
+    desc: 如：单个巨大汉字 / 一组粗体拉丁字母 / 一枚几何符号
   - kv_var: 画面-视觉设计手法
-    style_var: "{视觉设计手法}"
-    desc: "如：套印错位 / 巨字穿插 / 字形迷宫 / 几何折射"
+    style_var: '{视觉设计手法}'
+    desc: 如：套印错位 / 巨字穿插 / 字形迷宫 / 几何折射
   - kv_var: 画面-主色调
-    style_var: "{主色调}"
-    desc: "如：群青+珊瑚红+柠檬黄 / 墨黑+朱红+米白 / 靛蓝+橘橙+浅黄"
+    style_var: '{主色调}'
+    desc: 如：群青+珊瑚红+柠檬黄 / 墨黑+朱红+米白 / 靛蓝+橘橙+浅黄
   - kv_var: 文字-展览信息
-    style_var: "{展览信息}"
-    desc: "如：2028.04.06 — 06.02 / KOBE PRINT & TYPE ARCHIVE / TUE–SUN 10:00–18:00"
-
+    style_var: '{展览信息}'
+    desc: 如：2028.04.06 — 06.02 / KOBE PRINT & TYPE ARCHIVE / TUE–SUN 10:00–18:00
 source_url: "https://x.com/MrLarus/status/2115475664602325081"
 source_author: "@MrLarus"
 

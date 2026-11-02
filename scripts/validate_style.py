@@ -3,6 +3,7 @@
 from __future__ import annotations  # 允许 list[str]/X | None 注解在 3.8+ 上运行
 import argparse
 import os
+import re
 import sys
 
 try:
@@ -48,6 +49,71 @@ MIN_PROMPT_LENGTH = 80
 
 # 旧版变量表头行（Markdown 表格转 yaml 时的残留），不是真实变量
 VARIABLE_HEADER_ROWS = {('变量', '说明')}
+
+# 提示词里的槽位：单花括号包一个短标识符（与插件 style-source 的扫描正则一致）
+PLACEHOLDER_RE = re.compile(r'\{([^{}\n]{1,40})\}')
+
+# style_var 写成「候选清单 / 一句人话」的特征：枚举分隔符、可选标记、举例引号
+DESCRIPTIVE_VALUE_RE = re.compile(r'[、，/：]|（可选）|\(可选\)|如["“]')
+
+
+def check_variables_semantics(data: dict):
+    """变量语义校验（PROMPT_VARIABLES_SPEC 的 R1/R2/R3）。
+
+    结构合法但语义无效的文件能一路绿灯过 CI，用户侧才会发现「填了没反应」，
+    所以把这类问题提前到提交阶段。返回 (errors, warnings)。
+    """
+    errors, warnings = [], []
+    prompt = str(data.get('prompt') or '')
+    variables = data.get('variables')
+
+    declared = []
+    if isinstance(variables, list):
+        declared = [v for v in variables if isinstance(v, dict)]
+        # 旧形态 list[str] 已经在结构校验里提示迁移，这里不重复判定
+        flat = [v for v in variables if isinstance(v, str)]
+    else:
+        flat = []
+
+    if flat:
+        return errors, warnings   # 旧形态无法可靠判定语义，交给迁移提示
+
+    # R1：声明的占位符必须逐字出现在 prompt 里
+    for v in declared:
+        sv = str(v.get('style_var') or '').strip()
+        if not (sv.startswith('{') and sv.endswith('}')):
+            continue
+        if sv not in prompt:
+            errors.append(f'style_var {sv} 未出现在 prompt 中（用户填了不会生效）')
+
+    # R2：style_var 只能是占位符本体，不能是描述或候选清单
+    for v in declared:
+        sv = str(v.get('style_var') or '').strip()
+        if not sv or sv in ('{}', '{ }'):
+            errors.append('style_var 为空（该条会被生成脚本丢弃）')
+            continue
+        if PLACEHOLDER_RE.fullmatch(sv):
+            continue              # 合法占位符本体（允许名字里带 / 等字符）
+        if DESCRIPTIVE_VALUE_RE.search(sv):
+            errors.append(f'style_var 写成了描述/枚举，应改为 "{{占位符}}"：{sv}')
+        elif not (sv.startswith('{') and sv.endswith('}')):
+            warnings.append(f'style_var 未用花括号包裹（靠 key 兜底才能命中）：{sv}')
+
+    # R3：prompt 里的每个槽位都该有声明。
+    # 历史脏数据（把「填写主题，例如：…」整句当占位符）还在 6 个风格里，
+    # 这一条先记 warning，人工改完 prompt 后可升级为 error。
+    for name in dict.fromkeys(PLACEHOLDER_RE.findall(prompt)):
+        covered = False
+        for v in declared:
+            kv = str(v.get('kv_var') or '').strip().strip('`* ')
+            sv = str(v.get('style_var') or '').strip()
+            if kv == name or sv == '{' + name + '}':
+                covered = True
+                break
+        if not covered:
+            warnings.append(f'prompt 槽位 {{{name}}} 没有对应 variables 声明（标签会退化成占位符名）')
+
+    return errors, warnings
 
 
 def validate_file(filepath: str, check_images: bool = False) -> tuple:
@@ -160,6 +226,11 @@ def validate_file(filepath: str, check_images: bool = False) -> tuple:
         # mapping 形态：generate_data.py 只认列表，写成 {} 会被跳过（不是报错，是静默丢失）
         errors.append(f'variables 类型错误: 期望 list, 实际 {type(variables).__name__}'
                       '（generate_data.py 只解析列表，mapping 会被忽略）')
+
+    # 变量语义校验（R1/R2/R3）：结构合法 ≠ 插件能用，见 docs/PROMPT_VARIABLES_SPEC.md
+    semantic_errors, semantic_warnings = check_variables_semantics(data)
+    errors.extend(semantic_errors)
+    warnings.extend(semantic_warnings)
 
     # 来源校验：详情页要有出处。原文 URL 优先；确实没有链接时必须填作者。
     source_url = str(data.get('source_url') or '').strip()

@@ -36,6 +36,19 @@ prompt: |
   尺寸: {ratio_spec}
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主题
+  style_var: '{theme}'
+- kv_var: 主体
+  style_var: '{subject}'
+- kv_var: subject spec
+  style_var: '{subject_spec}'
+- kv_var: 场景
+  style_var: '{scene_spec}'
+- kv_var: 文案
+  style_var: '{text_spec}'
+- kv_var: 比例
+  style_var: '{ratio_spec}'
 source_url: "https://x.com/xiaoxiaodong01/status/2073402053997834484"
 source_author: "小小东"
 

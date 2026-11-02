@@ -47,6 +47,25 @@ prompt: |
 
   不要水印，不要真实Logo，不要真实品牌名。
 
+variables:
+- kv_var: 人物
+  style_var: '{human}'
+- kv_var: 发型
+  style_var: '{hair}'
+- kv_var: 场景
+  style_var: '{scenery}'
+- kv_var: 服装
+  style_var: '{clothing}'
+- kv_var: shoes
+  style_var: '{shoes}'
+- kv_var: flowers
+  style_var: '{flowers}'
+- kv_var: flying animals
+  style_var: '{flying_animals}'
+- kv_var: 配色
+  style_var: '{palette}'
+- kv_var: mood
+  style_var: '{mood}'
 source_url: "https://x.com/im_shahid7/status/2087579904326181361"
 source_author: "im_shahid7"
 

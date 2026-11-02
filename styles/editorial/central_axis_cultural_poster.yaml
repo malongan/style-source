@@ -48,6 +48,15 @@ prompt: |
   
   不要水印，不要真实Logo，不要机械对称，不要多个视觉中心。
 
+variables:
+- kv_var: 主题
+  style_var: '{主题}'
+- kv_var: 重复元素描述
+  style_var: '{重复元素描述}'
+- kv_var: 主色调
+  style_var: '{主色调}'
+- kv_var: 辅助色
+  style_var: '{辅助色}'
 source_url: "https://x.com/MrLarus/status/2104224369853509966"
 source_author: "@MrLarus"
 

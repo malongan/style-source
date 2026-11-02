@@ -35,6 +35,13 @@ prompt: |
   A character concept sheet of a {角色名称}, featuring detailed front, back, and side views, along with close-up sketches of facial features, costume details, and accessories. Annotated design notes and clearly labeled components are arranged across the layout, rendered in a refined blueprint style with glowing {颜色1} accents and a structured {颜色2} base design, presented on a clean white background with a polished professional character design presentation.
   不要水印，不要真实品牌 Logo，不要电商广告感。
 
+variables:
+- kv_var: 角色名称
+  style_var: '{角色名称}'
+- kv_var: 颜色1
+  style_var: '{颜色1}'
+- kv_var: 颜色2
+  style_var: '{颜色2}'
 source_url: "https://x.com/azed_ai/status/2074811246893990111"
 source_author: "Amira Zairi (@azed_ai)"
 

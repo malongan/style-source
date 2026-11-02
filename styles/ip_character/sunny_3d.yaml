@@ -30,7 +30,7 @@ ratio: "9:16 或 16:9"
 summary: "光泽玩具风3D头像 + 饱和蓝天户外光照 + 夸张广角透视 + 超大斜体白色标题 + 霓虹手绘动感标记，明亮商业营销海报风格"
 
 prompt: |
-  Create an {ASPECT_RATIO} high-energy social campaign poster in Sunny 3D Avatar Campaign Style.
+  Create an 9:16 high-energy social campaign poster in Sunny 3D Avatar Campaign Style.
 
   Preserve these style anchors:
   - Glossy stylized 3D avatars with smooth doll-like faces, rounded hands, soft plastic skin, simplified expressive eyes
@@ -51,6 +51,23 @@ prompt: |
 
   No platform logos, no watermarks, no usernames, no QR codes, no photorealistic humans, no flat vector, no anime cel shading, no gritty texture.
 
+variables:
+- kv_var: 主体
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT OR PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: 地点
+  style_var: '{LOCATION}'
+- kv_var: 背景元素
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: 主文案
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
 source_url: "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/tree/main/styles/sunny-3d-avatar-campaign-style"
 source_author: "VigoCreativeAI"
 

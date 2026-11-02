@@ -57,6 +57,11 @@ prompt: |
 
   比例 9:16，不要水印。
 
+variables:
+- kv_var: 角色名
+  style_var: '{角色名}'
+- kv_var: 角色描述
+  style_var: '{角色描述}'
 source_url: "https://x.com/VoxcatAI/status/2102949894457799154"
 source_author: "@VoxcatAI"
 

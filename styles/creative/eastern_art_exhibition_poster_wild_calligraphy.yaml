@@ -60,6 +60,21 @@ prompt: |
   英文辅助标题：{填写简短英文标题}
   展览信息：{主题 / 日期 / 地点，可自行填写}
 
+variables:
+- kv_var: 野字内容
+  style_var: '{野字内容}'
+- kv_var: 核心主体
+  style_var: '{核心主体}'
+- kv_var: 主体主色
+  style_var: '{主体主色}'
+- kv_var: 主体与文字互动
+  style_var: '{主体与文字互动}'
+- kv_var: 英文辅助标题
+  style_var: '{英文辅助标题}'
+- kv_var: 变量说明
+  style_var: '{变量说明}'
+- kv_var: 填写简短英文标题
+  style_var: '{填写简短英文标题}'
 source_url: "https://x.com/MrLarus/status/2105308236429578685"
 source_author: "MrLarus"
 

@@ -48,8 +48,7 @@ prompt: |
 variables:
   - kv_var: 产品类型
     style_var: '{product_type}'
-    desc: "产品类型（饮料、咖啡、蛋糕、冰淇淋、奶茶）"
-
+    desc: 产品类型（饮料、咖啡、蛋糕、冰淇淋、奶茶）
 source_url: "https://x.com/SimplyAnnisa/status/2075111363064848511"
 source_author: "Anissa (@SimplyAnnisa)"
 

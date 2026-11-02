@@ -52,6 +52,17 @@ prompt: |
   避免：简陋空白、粗糙平涂、模板换色、巨大黑山、旅游插画、过度古风、脏污做旧、随机裂纹、AI 乱码、UI、Logo、水印、编号、四角星芒和 Sparkle。
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主题描述
+  style_var: '{主题描述}'
+- kv_var: 主色调描述
+  style_var: '{主色调描述}'
+- kv_var: 地景类型
+  style_var: '{地景类型}'
+- kv_var: 微型叙事描述
+  style_var: '{微型叙事描述}'
+- kv_var: 中文题跋内容
+  style_var: '{中文题跋内容}'
 source_url: "https://x.com/MrLarus/status/2095095430275117290"
 source_author: "@MrLarus"
 

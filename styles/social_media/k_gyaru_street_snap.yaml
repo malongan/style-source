@@ -29,28 +29,7 @@ features:
   desc: ''
 - title: '**胶片相机质感**：轻微动态模糊、柔焦、颗粒感、日光高光'
   desc: ''
-variables:
-- kv_var: 主标题
-  style_var: '"{{昵称}} 야호~!"'
-  desc: 替换文字泡泡中的 "OOO"
-- kv_var: Slogan
-  style_var: '"やっほ〜♡" 贴纸'
-  desc: 2-3个次要贴纸装饰
-- kv_var: 画面-场景
-  style_var: '{{韩式街道/豹纹店面/粉色咖啡厅}}'
-  desc: 街头背景
-- kv_var: 画面-动作
-  style_var: V手势（手掌向前）
-  desc: 超广角近景
-- kv_var: 色彩-主色
-  style_var: 粉色 + 暖色调
-  desc: 整体亮丽、热粉色为主
-- kv_var: 色彩-底场
-  style_var: 自然日光暖调
-  desc: 胶片感基调
-- kv_var: IP形象
-  style_var: 参考图 + "Maintain IP identity and consistency throughout"
-  desc: 上传参考图保持一致性
+variables: []
 prompt: 'Transform the provided reference image into a cute, trendy, photorealistic K-gyaru street snap.
 
 

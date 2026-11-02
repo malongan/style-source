@@ -43,28 +43,34 @@ features:
 - title: 使用强烈的阳光、高饱和钴蓝天空、暖调皮肤高光、硬朗阴影，以及随性的夏日旅行感。
   desc: ''
 variables:
-- kv_var: '`SUBJECT_IDENTITY`'
-  style_var: specific adult character identity, including distinct hair, face, styling, and body language when generating a set
-  desc: ''
-- kv_var: '`SUBJECT`'
-  style_var: main person, traveler, skater, swimmer, musician, road-trip friend, product ambassador, or fashion model
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: leaning into the fisheye lens, looking above camera, adjusting sunglasses, holding a prop, riding forward, stepping into sun, or turning in wind
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: sunglasses, camera, drink can, skateboard, beach towel, flower pendant, cassette player, road map, surf wax, or featured product
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: desert roadside, beach path, motel pool, coastal hill, festival field, gas station forecourt, flower meadow, or sunny parking lot
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: cobalt sky, sun flare, distant van, dry hillside, palm fragments, checker pattern, pool tiles, flowers, road signs, or travel clutter
-  desc: ''
+- kv_var: SUBJECT_IDENTITY
+  style_var: '{SUBJECT_IDENTITY}'
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: LENS STYLE
+  style_var: '{LENS_STYLE}'
+- kv_var: 主文案
+  style_var: '{MAIN_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: TEXTURE LEVEL
+  style_var: '{TEXTURE_LEVEL}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
 prompt: 'Create an image in sunburst-fisheye-bubble-type-poster-style.
 
 
-  Aspect ratio: {ASPECT_RATIO}.
+  Aspect ratio: 16:9.
 
 
   Scene: {SUBJECT_IDENTITY}, {SUBJECT} {SUBJECT_ACTION}, using or wearing {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. For a multi-case set,

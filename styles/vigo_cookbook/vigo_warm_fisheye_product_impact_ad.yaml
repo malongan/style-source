@@ -21,25 +21,27 @@ features:
 - title: 巨大的倾斜白色中文展示大标题，带厚重黑色阴影或立体 3D 块面纵深。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: new main subject, product presenter, tiny robot, athlete, maker, hand model, tool, device, or object hero that is not the source subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: leaning into the lens, reaching through foreground pieces, bursting from a product pile, presenting the prop, grabbing the hero product, or reacting with exaggerated ad energy
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: new package, beverage, snack, tool, device, camera, accessory, or product pack that is not the original source product
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: warm studio tunnel, tabletop pile, product bowl, snack canyon, counter scene, compact commercial set, or macro advertising environment
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: ring of textured foreground objects, dark warm vignette, blue accent blocks, top category labels, small product callout, motion streaks, tilted headline, and dense bottom caption strip
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: short punchy Chinese headline or exclamation, usually 2 to 5 large characters, set in huge white extruded display type
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Warm Fisheye Product Impact Ad Style" visual style.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: NEGATIVE PROMPT
+  style_var: '{NEGATIVE_PROMPT}'
+prompt: 'Create a 16:9 image in the "Warm Fisheye Product Impact Ad Style" visual style.
 
 
   Subject: {SUBJECT}
@@ -60,9 +62,9 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Warm Fisheye Product Impact Ad St
 
   Wardrobe/styling: {WARDROBE_STYLE}
 
-  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+  Style fidelity anchors: the core visual anchors of this style
 
-  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+  Source content to avoid: watermarks, real logos, and commercial advertising
 
 
   Apply these style rules:

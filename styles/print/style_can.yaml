@@ -21,27 +21,27 @@ features:
 - title: 字体被拉伸、压缩、加粗、商业化，并因透视产生空间扭曲，而非平铺陈列
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main action
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, product, or prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: environment or setting
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary scene details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: main headline or graphic text
-  desc: ''
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
 prompt: 'Create a raster image in the Blue Chinese Perspective Type Canyon Style. Subject: {SUBJECT}. Action or event: {SUBJECT_ACTION}. Product or prop reference: {PRODUCT_OR_PROP}. Location or setting:
   {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main Chinese graphic text to suggest: {MAIN_TEXT}. Secondary repeated Chinese text fragments to suggest: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}.
-  Wardrobe or styling direction: {WARDROBE_STYLE}. Aspect ratio: {ASPECT_RATIO}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Build
+  Wardrobe or styling direction: {WARDROBE_STYLE}. Aspect ratio: 16:9. Preserve these style fidelity anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Build
   the composition as an extreme one-point perspective Chinese typographic corridor: a saturated electric blue central trapezoid plane recedes toward the upper-center vanishing point, with black left and
   right walls covered in skewed white and pale gray Chinese type fragments. Use huge cropped white Chinese block glyphs or numerals in the foreground, stacked central Chinese headline type on the blue plane,
   and dense warped side-wall support copy. Keep the palette strictly blue, black, white, and gray. Use clean flat 3D poster rendering, hard-edged vector-like planes, mild gray shading on white Chinese letters,

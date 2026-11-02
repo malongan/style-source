@@ -46,25 +46,25 @@ features:
 - title: 直接在照片上绘制童趣的漫画马克笔涂鸦。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main person, group, object, or scene focus
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: what the subject is doing
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, ticket, transit card, phone, bag, food, or symbolic foreground doodle prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: dense public urban transit or city location such as metro, bus, tram, platform, station gate, market, convenience store, or escalator
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: realistic crowd, signage, rails, doors, lights, posters, floor markings, reflections, grime, compression, and phone-photo details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: main handwritten diary title
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Metro Doodle Snapshot Diary" style.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 image in the "Metro Doodle Snapshot Diary" style.
 
 
   Subject: {SUBJECT}.

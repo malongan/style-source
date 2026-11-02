@@ -46,25 +46,25 @@ features:
 - title: 在照片正上方直接叠一层张扬的数字马克笔图层。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main person, group, student, artist, friend, commuter, shopper, or quiet candid figure
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: looking at art, studying, walking, waiting, browsing, reacting, hiding, laughing, or holding a prop
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: notebook, tote bag, coffee, phone, headphones, sketchbook, jacket, snack, poster, camera, book, or exhibition card
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: art gallery, campus hallway, library, studio critique room, classroom, night market, cafe, bookstore, museum, or city wall
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: real photo details such as wall art, labels, shelves, posters, tables, lamps, signage, crowds, fabric, shadows, and phone-camera grain
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: large hand-drawn caption or emotional headline
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Neon Doodle Gallery Snapshot" style.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 image in the "Neon Doodle Gallery Snapshot" style.
 
 
   Subject: {SUBJECT}.

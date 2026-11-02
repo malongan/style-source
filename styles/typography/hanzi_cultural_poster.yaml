@@ -48,6 +48,13 @@ prompt: |
   比例 9:16，张力十足，东方文化气质。
   不要水印，不要真实Logo，不要乱码文字。
 
+variables:
+- kv_var: 两个中文大字
+  style_var: '{两个中文大字}'
+- kv_var: 四字文化主题
+  style_var: '{四字文化主题}'
+- kv_var: 英文主题名称
+  style_var: '{英文主题名称}'
 source_url: "https://x.com/MrLarus/status/2108193733556715885"
 source_author: "@MrLarus"
 

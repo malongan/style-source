@@ -32,6 +32,9 @@ prompt: |
   An X-ray scan of a {主体对象}, bones and internal structures glowing in neon cyan and soft magenta against a matte black field. Scientific overlay graphics and scan metadata give it a medical sci-fi twist.
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主体对象
+  style_var: '{主体对象}'
 source_url: "https://x.com/azed_ai/status/2074448877110132912"
 source_author: "azed_ai"
 

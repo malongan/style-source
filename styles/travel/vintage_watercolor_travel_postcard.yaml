@@ -40,6 +40,15 @@ prompt: |
 
   不要水印，不要摄影照片感，不要写实建筑重现，不要杂乱背景。
 
+variables:
+- kv_var: 目的地
+  style_var: '{destination}'
+- kv_var: travel scene elements
+  style_var: '{travel_scene_elements}'
+- kv_var: season and mood
+  style_var: '{season_and_mood}'
+- kv_var: traveler characteristics
+  style_var: '{traveler_characteristics}'
 source_url: "https://x.com/Taaruk_/status/2081232385895764440"
 source_author: "Taaruk"
 

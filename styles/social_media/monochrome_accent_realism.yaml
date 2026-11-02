@@ -33,6 +33,9 @@ prompt: |
   Hyper-realistic black and white sketch of a {subject}, detailed pencil linework with subtle graphite shading, accented by a single bold stroke of red. High-resolution, clean composition, fine art illustration style, ideal for gallery wall prints or modern posters.
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主体
+  style_var: '{subject}'
 source_url: "https://x.com/azed_ai/status/2087131938595504540"
 source_author: "@azed_ai"
 

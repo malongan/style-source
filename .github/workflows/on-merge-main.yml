@@ -71,6 +71,11 @@ jobs:
           python3 scripts/generate_data.py
           python3 scripts/check_style_previews.py --strict
 
+      - name: 变量语义体检（有告警即失败）
+        # 这一步是 PROMPT_VARIABLES_SPEC 的收口：结构合法 ≠ 插件能用。
+        # 上一步已跑过 generate_data.py，这里直接体检 data/styles.json。
+        run: python3 scripts/audit_variables.py --strict
+
       - name: 验证 _index.md 新鲜度（防索引漂移）
         # styles/_index.md 曾长期停在 167 个风格（实际 300）且缺 editorial/typography。
         # 索引一律由 generate_index.py 从磁盘重算，禁止手改；这里同时断言：

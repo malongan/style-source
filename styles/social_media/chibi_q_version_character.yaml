@@ -25,23 +25,20 @@ features:
   desc: ''
 variables:
 - kv_var: 主角色
-  style_var: '{{character}}'
+  style_var: '{character}'
   desc: 角色名，如 Luffy、 Goku
 - kv_var: 角色动作
-  style_var: '{{action}}'
+  style_var: '{action}'
   desc: 动作描述，如 eating meat laughing
 - kv_var: 对手/情境
-  style_var: '{{opponent/situation}}'
+  style_var: '{opponent/situation}'
   desc: 对手或情境，如 at Doflamingo
 - kv_var: 风格参考
-  style_var: '{{style_reference}}'
+  style_var: '{style_reference}'
   desc: 参考作品风格，如 One Piece
 - kv_var: 场景背景
-  style_var: '{{background/environment}}'
+  style_var: '{background/environment}'
   desc: 环境描述，如 Marineford battlefield
-- kv_var: IP形象
-  style_var: 参考图 + "Maintain [角色名] identity..."
-  desc: 不在变量里，用参考图
 prompt: Chibi style, {{character}} {{action}} {{opponent/situation}}, in the style
   of {{style_reference}}, cute background, 2D game art, high resolution, in focus,
   {{background/environment}}, anime style, dynamic pose, Epic and dynamic

@@ -44,6 +44,13 @@ prompt: |
   Setting/Mood: {setting_mood}
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主体
+  style_var: '{subject}'
+- kv_var: outfit
+  style_var: '{outfit}'
+- kv_var: setting mood
+  style_var: '{setting_mood}'
 source_url: "https://x.com/arsalannazir07/status/2086798151890219247"
 source_author: "@arsalannazir07"
 

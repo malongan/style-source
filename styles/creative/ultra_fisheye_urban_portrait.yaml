@@ -31,6 +31,11 @@ prompt: |
   超广角鱼眼镜头拍摄的城市人像，{主体人物}站在{城市场景}中，强烈的桶形畸变效果，广角透视，城市建筑和霓虹灯作为背景，街头摄影风格，电影级色调，8K超高清，细节丰富
   不要水印，不要真实Logo，不要卡通风，不要拼贴感，不要乱码。
 
+variables:
+- kv_var: 主体人物
+  style_var: '{主体人物}'
+- kv_var: 城市场景
+  style_var: '{城市场景}'
 source_url: "https://x.com/sadkaijpg/status/1938155030172602568"
 source_author: "@sadkaijpg"
 

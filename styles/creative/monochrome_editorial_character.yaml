@@ -37,6 +37,15 @@ prompt: |
 
   不要水印，不要真实Logo，不要灰度，不要彩色，不要渐变，不要真实照片质感，不要复杂背景，不要厚涂，不要3D渲染。
 
+variables:
+- kv_var: 角色描述
+  style_var: '{角色描述}'
+- kv_var: 姿势描述
+  style_var: '{姿势描述}'
+- kv_var: 服装描述
+  style_var: '{服装描述}'
+- kv_var: 道具描述
+  style_var: '{道具描述}'
 source_url: "https://x.com/Taaruk_/status/2082758275179900940"
 source_author: "@Taaruk_"
 

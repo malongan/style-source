@@ -43,25 +43,25 @@ features:
 - title: '在照片之上添加原创扁平卡通吉祥物贴纸：水果、云朵、星星、杯子、浪形与果冻状角色，配简单眼睛、粗深色描边、亮泽色块，以及阳光黄、蓝绿、珊瑚、天空蓝、薰衣草紫、米色与柔和粉点缀。'
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main person, group, product, pet, or focal object
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main pose or action, such as leaning, posing, holding a prop, waving, sitting, listening, or celebrating
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, product, food, drink, book, toy, travel item, or hero prop placed in the scene
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: real-world environment or setting, such as garden cafe, bookstore, street market, boardwalk, classroom, studio, or transit stop
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary scene details such as plants, furniture, lights, windows, shelves, railings, signage, or crowd hints
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: short hand-lettered headline inside a ribbon or sticker panel
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Playful Mascot Doodle Snapshot" style.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 image in the "Playful Mascot Doodle Snapshot" style.
 
 
   Subject: {SUBJECT}.

@@ -48,11 +48,18 @@ prompt: |
   比例：16:9
 
 variables:
-  - '"{车型完整描述}" — 示例：1969款福特Mustang GT复古肌肉车，流畅溜背造型 / 1965款法拉利250 GTO经典跑车，跃马标志车鼻 / 经典甲壳虫，圆润可爱复古老车'
-  - '"{车身主色调}" — 示例：深红色、宝石蓝、橄榄绿、金属银、碳黑色'
-  - '"{品牌名称}" — 示例：Ford / Ferrari / Volkswagen / Dodge'
-  - '"{车型名称}" — 示例：Mustang GT / 250 GTO / Beetle / Charger'
-
+  - kv_var: 车型完整描述
+    style_var: '{车型完整描述}'
+    desc: 1969款福特Mustang GT复古肌肉车，流畅溜背造型 / 1965款法拉利250 GTO经典跑车，跃马标志车鼻 / 经典甲壳虫，圆润可爱复古老车
+  - kv_var: 车身主色调
+    style_var: '{车身主色调}'
+    desc: 深红色、宝石蓝、橄榄绿、金属银、碳黑色
+  - kv_var: 品牌名称
+    style_var: '{品牌名称}'
+    desc: Ford / Ferrari / Volkswagen / Dodge
+  - kv_var: 车型名称
+    style_var: '{车型名称}'
+    desc: Mustang GT / 250 GTO / Beetle / Charger
 source_url: "https://x.com/ShamsAmin56/status/2077303326052651413"
 source_author: "ShamsAmin56"
 

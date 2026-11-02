@@ -43,9 +43,10 @@ prompt: |
   "{中文标题}", bold black artistic typography, "{英文副行}" small English subtitle below, rounded strokes with varying thickness, dynamic and vibrant feel, modern eye-catching visual effect, white background, centered text layout, clean minimal design, pure typography poster, no decorations or extra elements
 
 variables:
-  - 中文标题
-  - 英文副行
-
+  - kv_var: 中文标题
+    style_var: '{中文标题}'
+  - kv_var: 英文副行
+    style_var: '{英文副行}'
 source_url: ""
 source_author: "painter"
 created_at: "2026-08-13"

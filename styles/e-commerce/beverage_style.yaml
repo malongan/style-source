@@ -21,31 +21,39 @@ features:
 - title: 字体粗体、窄体、斜体，以白色为主，层叠成紧凑的广告文案块。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main action
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, product, or prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: environment or setting
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary scene details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: main headline or graphic text
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} beverage launch advertisement in the Multi-Color Beverage Splash Ad System style for {PRODUCT_CATEGORY} and {DELIVERY_FORMAT}. Preserve these style anchors: one strong drink-category
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: PRODUCT CATEGORY
+  style_var: '{PRODUCT_CATEGORY}'
+- kv_var: DELIVERY FORMAT
+  style_var: '{DELIVERY_FORMAT}'
+- kv_var: PRIMARY COLOR
+  style_var: '{PRIMARY_COLOR}'
+- kv_var: SECONDARY COLOR
+  style_var: '{SECONDARY_COLOR}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 beverage launch advertisement in the Multi-Color Beverage Splash Ad System style for {PRODUCT_CATEGORY} and {DELIVERY_FORMAT}. Preserve these style anchors: one strong drink-category
   color system; giant white extruded block-letter architecture behind the product; one large diagonal fictional beverage pack cropped close near center; frozen splash, foam, ice, bubbles, condensation,
   or liquid sheets across the foreground; bold condensed italic white stacked headline typography; polished studio beverage lighting with crisp highlights; dense retail-ad layout with strong product hierarchy;
   delivery-context cues that stay secondary to the hero drink. Use {PRIMARY_COLOR} as the dominant field and {SECONDARY_COLOR} for shadows, side planes, liquid tint, or packaging accents. Replace all source
   content. Do not use Sprite, Coca-Cola, copied Korean text, copied Z/E/R/O layout, original green can, existing beverage logo, real brand name, watermark, QR code, legal microcopy, or exact source slogan.
   New content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary supporting text: {SECONDARY_TEXT}.
-  Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Adapt the composition to {ASPECT_RATIO}: 9:16 should feel usable as a vertical store poster, fridge sticker, or Xiaohongshu cover;
+  Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Adapt the composition to 16:9: 9:16 should feel usable as a vertical store poster, fridge sticker, or Xiaohongshu cover;
   16:9 should feel usable as a subway lightbox, brand launch KV, or supermarket display backdrop. Use photoreal commercial beverage retouching, transparent frozen liquid motion, glossy cold surfaces, crisp
   contrast, and a fresh kinetic launch-ad mood.'
 id: beverage_style

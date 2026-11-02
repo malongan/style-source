@@ -26,27 +26,27 @@ features:
 - title: 一个超大号简单主体占据海报中下部，配以极小的辅助道具或角色形成体量对比。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main action
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, product, or prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: environment or setting
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary scene details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: main headline or graphic text
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the Playful Marker Grounding Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}.
-  Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid:
-  {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: cream poster-paper border around an inset artwork field; loose sky-cyan and sour-lime marker-scribble background blocks with uneven white gaps; one
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 image in the Playful Marker Grounding Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}.
+  Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: the core visual anchors of this style. Source content to avoid:
+  watermarks, real logos, and commercial advertising. Apply these style rules: cream poster-paper border around an inset artwork field; loose sky-cyan and sour-lime marker-scribble background blocks with uneven white gaps; one
   oversized flat simple subject dominating the center-lower area; one tiny supporting prop or character for scale; thick imperfect black or dark-brown hand-drawn outlines with rounded wobbly ends; oversized
   hand-lettered dark-brown headline in the top zone; small lower-corner supporting text over or near a rough marker swash; tiny doodle accents such as flowers, dots, stars, motion ticks, and grass marks;
   flat even color with no shadows, no gradients, no realistic depth, no polished vector smoothing. Important content rule: match the reference style first, then change the source content. Use new subjects,

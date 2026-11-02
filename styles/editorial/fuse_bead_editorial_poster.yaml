@@ -60,6 +60,9 @@ prompt: |
 
   比例 4:5 竖版，不要水印。
 
+variables:
+- kv_var: 主体描述
+  style_var: '{主体描述}'
 source_url: "https://x.com/Morry4AI/status/2102659406580330647"
 source_author: "@Morry4AI"
 

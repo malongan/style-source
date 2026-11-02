@@ -33,28 +33,7 @@ features:
   desc: ''
 - title: '**细腻手绘感**：精致墨线、流畅轮廓、手绘纹理、柔和水彩阴影'
   desc: ''
-variables:
-- kv_var: 主标题
-  style_var: 不适用
-  desc: 此风格为人物肖像插画，无文字标题
-- kv_var: Slogan
-  style_var: 不适用
-  desc: 无
-- kv_var: 画面-场景
-  style_var: '{{花卉主题}} + {{韩纸背景}}'
-  desc: 花卉和背景由变量控制
-- kv_var: 画面-动作
-  style_var: 不适用
-  desc: 人物静态肖像，以姿态构图为主
-- kv_var: 色彩-主色
-  style_var: '{{莫兰迪主色调}} + {{点缀色}}'
-  desc: 莫兰迪色系为底，点缀色为视觉焦点
-- kv_var: 色彩-底场
-  style_var: '{{韩纸背景}}'
-  desc: 暖色做旧纸面质感
-- kv_var: IP形象
-  style_var: 参考图 + "Maintain IP identity and consistency throughout"
-  desc: 上传参考图保持面部一致性
+variables: []
 prompt: 'Use the uploaded portrait images as the primary identity reference. Preserve the subject''s real facial identity, facial proportions, calm expression, skin tone, natural features, and overall impression.
   Do not turn the subject into a different person.
 

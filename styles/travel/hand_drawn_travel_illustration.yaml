@@ -53,6 +53,11 @@ prompt: |
 
   Do not add text, labels, or typography. Do not use watermarks or logos. Do not make it look like a digital graphic or commercial advertisement.
 
+variables:
+- kv_var: 目的地
+  style_var: '{目的地}'
+- kv_var: 点缀色
+  style_var: '{点缀色}'
 source_url: "https://x.com/Sairah_0/status/2071779087396606433"
 source_author: "Sairah (@Sairah_0)"
 

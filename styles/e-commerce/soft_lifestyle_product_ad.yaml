@@ -32,6 +32,11 @@ prompt: |
   Clean lifestyle advertising visual centered around {products}. Close-up of the main subject placed on a light natural-textured handmade surface, soft and voluminous, delicate edges, with perceptible texture details on the surface (fine fuzz, pores, slight mottling, or real tactile feel corresponding to the subject). Background recedes into bright clean domestic daylight space, shallow depth of field turning distant objects, fabric patterns, greenery and window highlights into soft bokeh, leaving only gentle seasonal atmosphere. Information layer uses large-area pure white text positioned in the upper portion and left space. Main title uses high-contrast, rounded terminals, slightly hand-drawn warm Mincho-style typography, loose letter spacing, generous line height; title horizontally spreads and creates off-center balance with the main subject. Secondary text reduced to lightweight handwriting style, pausing in two lines along the left white space. Top adds fine white hand-drawn brackets or bubble lines. Bottom corner features a low-saturation pastel or theme-derived soft round sticker with hand-drawn white outline and loose handwritten text inside. Color follows the theme: background high-key, low-saturation, clean warm off-white and light gray; main subject carries the most vivid but not harsh seasonal color {product_color}; surface uses warm natural light tone as middle layer; greenery or theme accents only as minimal fresh bright spots. Overall light: high-key soft light diffusing from side-back, very shallow shadows, low contrast, transparent air. Avoid hard commercial studio lighting, heavy dark tones, complex decorations.
   No watermark, no real logo, no e-commerce ad feel.
 
+variables:
+- kv_var: products
+  style_var: '{products}'
+- kv_var: product color
+  style_var: '{product_color}'
 source_url: "https://x.com/xiaoxiaodong01/status/2078657941876703724?s=20"
 source_author: "小小东"
 

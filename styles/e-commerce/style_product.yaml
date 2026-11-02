@@ -29,26 +29,26 @@ features:
 - title: 蓝色辉光铺延在地面，产品正下方带柔和倒影或阴影。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main product, object, or technology category
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: how the object is staged or presented
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: specific object, product, or prop shape
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: minimal stage, tabletop, or void-like setting
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary atmospheric details and background type behavior
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: main headline or giant background word
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} premium dark consumer-tech launch poster in an electric-blue silhouette style. Feature {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} staged in {LOCATION}. Add {BACKGROUND_ELEMENTS}.
-  Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Composition: one centered brandless product silhouette, large black negative space, a glowing
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 premium dark consumer-tech launch poster in an electric-blue silhouette style. Feature {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} staged in {LOCATION}. Add {BACKGROUND_ELEMENTS}.
+  Preserve these style anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Composition: one centered brandless product silhouette, large black negative space, a glowing
   electric-blue horizontal platform, blue floor reflection beneath the object, giant cropped blue geometric sans-serif background typography reading "{MAIN_TEXT}" behind the product, clean white lower launch
   copy using "{SECONDARY_TEXT}", and a tiny minimal accent mark or status light "{ACCENT_SYMBOL}". Lighting: low-key black stage, cyan-blue rim light, glossy edge highlights, soft bloom, haze, deep shadows,
   no warm accents. Typography: sparse, premium, clean geometric sans-serif, no real logos. Wardrobe or human styling if present: {WARDROBE_STYLE}. Keep the layout minimal, symmetrical, cinematic, and teaser-like

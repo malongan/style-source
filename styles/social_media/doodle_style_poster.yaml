@@ -48,28 +48,28 @@ features:
 - title: 用 MAIN_TEXT 作为融入构图的大型插画字体。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main driver, rider, guide, commuter, musician, courier, or traveler seen from behind
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: steering, tapping the horn, checking a mirror, pointing ahead, adjusting the radio, holding a map, or riding through the scene
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: portable speaker, route card, camera, map, drink can, luggage tag, helmet, hand drum, ticket, or featured travel object
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: tuk-tuk cabin, pedicab, tram, minibus, ferry deck, jeepney, taxi, cable car, shuttle, or compact city transport interior
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: windshield view, side windows, textured roof, dashboard details, mirrors, small ornaments, road, market, harbor, hills, or city street outside
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: short hand-drawn word such as AUTO, RIDE, GO, ZOOM, TAXI, JAM, ROLL, or DASH
-  desc: ''
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
 prompt: 'Create an image in backseat-transit-doodle-letter-poster-style.
 
 
-  Aspect ratio: {ASPECT_RATIO}.
+  Aspect ratio: 16:9.
 
 
   Scene: {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, inside or on {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. Use a realistic passenger-seat travel

@@ -32,6 +32,9 @@ prompt: |
   A charcoal sketch of a {subject}, raw and textured with expressive shading and bold linework. The background is filled with smudged gradients and sketchbook marks, giving it a gritty, unrefined elegance.
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主体
+  style_var: '{subject}'
 source_url: "https://x.com/azed_ai/status/2076623195386601657"
 source_author: "azed_ai"
 

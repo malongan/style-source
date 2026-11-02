@@ -44,6 +44,15 @@ prompt: |
   Avoid copying any existing poster, artist's signature style, corporate branding, tourism campaign, logo, mascot, copyrighted character, exact composition, recognizable commercial design, or protected visual identity. Create a completely original composition inspired only by risograph printing aesthetics and modern independent poster design.
 
   不要水印，不要真实Logo，不要旅游广告感，不要卡通风，不要拼贴感，不要乱码。
+variables:
+- kv_var: 目的地名称
+  style_var: '{目的地名称}'
+- kv_var: 简短描述
+  style_var: '{简短描述}'
+- kv_var: 主题
+  style_var: '{主题}'
+- kv_var: 年份
+  style_var: '{年份}'
 source_url: "https://x.com/Goodmanprotocol/status/2072926988587929997"
 source_author: "Saul Goodman (@Goodmanprotocol)"
 # 配图: images/styles_previews/riso_travel_poster_5da39518.webp

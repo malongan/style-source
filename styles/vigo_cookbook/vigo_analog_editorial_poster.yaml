@@ -45,28 +45,28 @@ features:
 - title: '视觉处理：暖米色纸张背景、严谨的网格布局、细线、柔和日光、有触感的哑光材质、细腻纸张颗粒、淡蓝色半透明界面面板、植物前景点缀，以及安静的留白。'
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main person, field, discipline, audience, or symbolic focus
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: what the system helps the subject do or understand
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: retro-future device, workstation, instrument, archive object, display, console, or product-like prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: studio, archive desk, greenhouse lab, civic model room, classroom, clinic, observatory, or quiet workspace
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: paper texture, thin rules, metadata blocks, issue date, numbered list, botanical details, translucent UI panel, dotted halftone, small crosshair marks
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: large poster headline
-  desc: ''
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
 prompt: 'Create an image in soft-analog-future-editorial-poster-style.
 
 
-  Aspect ratio: {ASPECT_RATIO}.
+  Aspect ratio: 16:9.
 
 
   Scene: {SUBJECT} is supported by a calm analog-future system that helps them {SUBJECT_ACTION}. The hero prop is {PRODUCT_OR_PROP} placed in {LOCATION}. Include {BACKGROUND_ELEMENTS} as restrained editorial

@@ -56,27 +56,26 @@ prompt: |
 
 variables:
   - kv_var: 画面-观察主题
-    style_var: "{观察主题}"
-    desc: "如：潮汐索引 / 月相观测 / 香气的剖面 / 雨的乐谱"
+    style_var: '{观察主题}'
+    desc: 如：潮汐索引 / 月相观测 / 香气的剖面 / 雨的乐谱
   - kv_var: 画面-核心对象
-    style_var: "{核心自然对象}"
-    desc: "如：潮汐与海面 / 一轮满月 / 剖开的柚子 / 疏密变化的雨线"
+    style_var: '{核心自然对象}'
+    desc: 如：潮汐与海面 / 一轮满月 / 剖开的柚子 / 疏密变化的雨线
   - kv_var: 画面-观察方式
-    style_var: "{主要观察方式}"
-    desc: "如：剖面结构 / 周期变化 / 运动轨迹 / 自然纹理"
+    style_var: '{主要观察方式}'
+    desc: 如：剖面结构 / 周期变化 / 运动轨迹 / 自然纹理
   - kv_var: 文字-主标题
-    style_var: "{主标题}"
-    desc: "如：潮汐索引 / 月相観測 / 雨の楽譜"
+    style_var: '{主标题}'
+    desc: 如：潮汐索引 / 月相観測 / 雨の楽譜
   - kv_var: 文字-英文副标题
-    style_var: "{英文副标题}"
-    desc: "如：TIDAL INDEX / LUNAR PHASES / SCENT SECTION"
+    style_var: '{英文副标题}'
+    desc: 如：TIDAL INDEX / LUNAR PHASES / SCENT SECTION
   - kv_var: 画面-主色调
-    style_var: "{主色调}"
-    desc: "如：靛蓝与青灰 / 灰白与琥珀 / 苔绿与赭石"
+    style_var: '{主色调}'
+    desc: 如：靛蓝与青灰 / 灰白与琥珀 / 苔绿与赭石
   - kv_var: 文字-展览信息
-    style_var: "{展览信息}"
-    desc: "如：2026.10.29 — 12.20 / 国立自然博物馆 特別展示室"
-
+    style_var: '{展览信息}'
+    desc: 如：2026.10.29 — 12.20 / 国立自然博物馆 特別展示室
 source_url: "https://x.com/MrLarus/status/2115477701360570596"
 source_author: "@MrLarus"
 

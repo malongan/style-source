@@ -90,18 +90,17 @@ prompt: |
 
 variables:
   - kv_var: 画面-主体
-    style_var: "{主体}"
-    desc: "如：一丛盛放的杏色玫瑰 / 一只手捧咖啡的人 / 一只橘猫"
+    style_var: '{主体}'
+    desc: 如：一丛盛放的杏色玫瑰 / 一只手捧咖啡的人 / 一只橘猫
   - kv_var: 画面-场景
-    style_var: "{场景}"
-    desc: "如：午后洒满阳光的水池边 / 安静的旧书店角落 / 海边的石阶"
+    style_var: '{场景}'
+    desc: 如：午后洒满阳光的水池边 / 安静的旧书店角落 / 海边的石阶
   - kv_var: 文字-主标题
-    style_var: "{文字标题}"
-    desc: "如：Falling Light / 风经过这里 / 还没散场"
+    style_var: '{文字标题}'
+    desc: 如：Falling Light / 风经过这里 / 还没散场
   - kv_var: 文字-副文案
-    style_var: "{副文案}"
-    desc: "如：花瓣落下的那一刻，水也记住了阳光的温度。"
-
+    style_var: '{副文案}'
+    desc: 如：花瓣落下的那一刻，水也记住了阳光的温度。
 source_url: "https://x.com/xiaoxiaodong/status/2112953137686523996"
 source_author: "@xiaoxiaodong"
 

@@ -21,25 +21,25 @@ features:
 - title: 超大号粗体白色标题，略微倾斜，层叠在天空区域上方，具立体海报感。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject or avatar group
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main action or pose
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, product, or prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: environment or setting
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary scene details and visual texture
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: main headline or graphic text
-  desc: ''
-prompt: 'Create an {ASPECT_RATIO} high-energy social campaign poster in Sunny 3D Avatar Campaign Style. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+prompt: 'Create an 16:9 high-energy social campaign poster in Sunny 3D Avatar Campaign Style. Preserve these style anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising.
   Scene content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Include {BACKGROUND_ELEMENTS}. Wardrobe and character styling: {WARDROBE_STYLE}. Composition: bright saturated sky-blue
   upper field reserved for huge angled bold white headline typography; wide-angle low camera perspective; oversized foreground subject or prop cropped close to camera; supporting details recede into the
   midground; lower campaign callout label. Typography: set the main replacement headline as "{MAIN_TEXT}" in large bold white slanted geometric display letters, with smaller supporting text "{SECONDARY_TEXT}"

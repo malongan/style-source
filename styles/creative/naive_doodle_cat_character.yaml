@@ -34,6 +34,9 @@ prompt: |
   Naive sketchbook aesthetic, playful and whimsical {subject}, clean white background, minimal linework, expressive simplicity, handmade doodle style, water color ink drawing, charming imperfections, simple cartoon illustration.
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主体
+  style_var: '{subject}'
 source_url: "https://x.com/MissDelulu9/status/2084483650507469054"
 source_author: "@MissDelulu9"
 

@@ -31,16 +31,7 @@ features:
   desc: 华夫格针织面料位移几何、纤维微绒、刺绣凹凸阴影、衬线边缘光晕
 - title: 相机参数精准
   desc: Canon EOS R5 / Nikon Z8 + 100mm微距镜头，f/8-f/11深景深，4:5竖版
-variables:
-- kv_var: '{品牌名}'
-  style_var: '[BRAND NAME]'
-  desc: 目标品牌名称，如：CHANEL、LOUIS VUITTON、HERMÈS
-- kv_var: '{品牌色}'
-  style_var: PHASE 0 自动识别
-  desc: 品牌主色调，AI自动识别，可指定覆盖：深酒红、经典黑金等
-- kv_var: '{面料色}'
-  style_var: '冷白色 #F0F0EE'
-  desc: 背景织物颜色，默认冷白色华夫格，可改为其他色
+variables: []
 prompt: |
   Create a 4:5 poster in 奢侈品牌刺绣微距 style.
   

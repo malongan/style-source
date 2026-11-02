@@ -37,7 +37,7 @@ prompt: |
   - Character outfit: deep purple + neon lime green — MUST match title typography colors exactly.
   - Background: photorealistic 3D stadium — real-feeling crowd, professional arena lighting, wet reflective surfaces, official event signage. Realistic render quality (deliberate contrast with cartoon character).
   - Title: 2 words, fills upper portion — WORD 1 in deep purple, WORD 2 in neon lime/chartreuse. Bold condensed italic display type. Character appears BEHIND title letters, title appears IN FRONT OF background stadium.
-  - Depth order: [back] realistic stadium → title text → cartoon character → sport prop extreme foreground [front]
+  - Depth order: {back} realistic stadium → title text → cartoon character → sport prop extreme foreground {front}
   - Graphic slashes: bold diagonal red-orange 2D graphic streaks layered into the 3D scene — 2-3 slashes per image
   - Foreground prop: sport equipment at extreme close range, larger than character's head — motion blur
   - Sub-brand label: lower right — white bold condensed text on orange-red diagonal stripe chevron
@@ -49,6 +49,21 @@ prompt: |
 
   Negative: realistic human athlete, fully cartoon environment, flat text overlay on top of everything, neutral color palette, static standing pose.
 
+variables:
+- kv_var: back
+  style_var: '{back}'
+- kv_var: front
+  style_var: '{front}'
+- kv_var: sport
+  style_var: '{sport}'
+- kv_var: 角色
+  style_var: '{character}'
+- kv_var: foreground prop
+  style_var: '{foreground_prop}'
+- kv_var: 标题
+  style_var: '{title}'
+- kv_var: sub brand
+  style_var: '{sub_brand}'
 source_url: "https://x.com/VigoCreativeAI/status/2071799923763187860"
 source_author: "VigoCreativeAI"
 

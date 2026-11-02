@@ -43,25 +43,23 @@ features:
 - title: 使用酸性青柠、电光蓝、警示红、纸白与墨黑。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject, performer, model, musician, dancer, stylist, or youth-culture character
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: looking off-frame, posing with attitude, holding a prop, leaning into the camera, or standing in a cutout portrait pose
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: compact camera, wired earbuds, lip gloss, denim jacket, cassette, charm bag, safety pin accessory, or styling prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: studio wall, backstage corner, bedroom mirror, subway entrance, alley poster wall, roof landing, or DIY magazine set
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: crumpled black paper, distressed denim texture, torn white paper edges, photocopy grain, halftone noise, tape marks, and rough scanned shadows
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: oversized warped headline or sticker headline
-  desc: ''
-prompt: Create a {ASPECT_RATIO} K-pop apocalypse ransom zine poster featuring {SUBJECT} {SUBJECT_ACTION}, styled in {WARDROBE_STYLE}, with {PRODUCT_OR_PROP}. Use a dark crumpled black paper background with
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+prompt: Create a 16:9 K-pop apocalypse ransom zine poster featuring {SUBJECT} {SUBJECT_ACTION}, styled in {WARDROBE_STYLE}, with {PRODUCT_OR_PROP}. Use a dark crumpled black paper background with
   {BACKGROUND_ELEMENTS}. Place the subject as a large central portrait cutout with a thick irregular torn white paper border. Add oversized warped display typography reading "{MAIN_TEXT}" as a tilted collage
   layer, plus smaller sticker blocks and side editorial captions reading "{SECONDARY_TEXT}". Use acid lime, electric blue, alert red, paper white, and ink black. Add {ACCENT_SYMBOL} near the portrait. Finish
   with a saturated bottom masthead strip, rough photocopy grain, halftone speckles, scan noise, uneven paper shadows, and DIY magazine collage energy. Do not include watermarks, usernames, creator IDs,

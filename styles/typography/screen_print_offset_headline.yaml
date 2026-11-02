@@ -36,10 +36,12 @@ prompt: |
   A clean pure warm cream paper-white solid color background with subtle fine paper fiber texture but no dirt and no gray cast, no gradient. In the center, the Chinese characters "{第一行}" and "{第二行}" as thick bold rounded letterforms with rough screen-print edges: layered ink with slight offset misregistration, transparent overlapping color, hand-printed vintage feel. The title is split into two stacked lines, both centered: first line "{第一行}", second line "{第二行}". The main letters are in deep kiwi green with warm orange overlapping accents, cream yellow highlights. Below, a smaller secondary line "{副行}" in the same screen-print style, smaller scale, warm orange. Clean minimal layout with generous whitespace, hand-printed craft brand aesthetic. Every character is clearly readable. No other elements, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.
 
 variables:
-  - 第一行
-  - 第二行
-  - 副行
-
+  - kv_var: 第一行
+    style_var: '{第一行}'
+  - kv_var: 第二行
+    style_var: '{第二行}'
+  - kv_var: 副行
+    style_var: '{副行}'
 source: "painter"
 source_author: "painter"
 created_at: "2026-08-13"

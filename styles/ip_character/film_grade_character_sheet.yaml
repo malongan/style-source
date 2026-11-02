@@ -82,6 +82,21 @@ prompt: |
 
   不要水印，不要真实Logo，不要低精度。
 
+variables:
+- kv_var: 角色名称
+  style_var: '{角色名称}'
+- kv_var: 角色基础身份
+  style_var: '{角色基础身份}'
+- kv_var: 角色描述
+  style_var: '{角色描述}'
+- kv_var: 服装描述
+  style_var: '{服装描述}'
+- kv_var: 配饰描述
+  style_var: '{配饰描述}'
+- kv_var: 鞋靴描述
+  style_var: '{鞋靴描述}'
+- kv_var: 髮型描述
+  style_var: '{髮型描述}'
 source_url: "https://x.com/GeekCatX/status/2104135797280752081"
 source_author: "@GeekCatX"
 

@@ -21,29 +21,29 @@ features:
 - title: 优雅的中性色调，以象牙白、沙色、灰褐、石灰灰、黑色、驼色、烟草棕与低饱和金属色为主。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main fashion model, pair of models, or editorial subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main pose, stance, gesture, or movement
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: luxury accessory, travel object, sculptural object, or restrained prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: architectural outdoor setting, plaza, gallery, resort, terminal, or civic facade
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary architecture, sky, wires, railings, shadows, texture, and depth cues
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: internal editorial title or mood label, not visible as overlay text
-  desc: ''
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
 prompt: 'Create a polished outdoor high-fashion editorial photograph in the Sunlit Architectural Fashion Editorial style. Subject: {SUBJECT}. Pose or movement: {SUBJECT_ACTION}. Prop or accessory: {PRODUCT_OR_PROP}.
   Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Internal editorial mood labels only, not visible text: {MAIN_TEXT}; {SECONDARY_TEXT}. Subtle photographic
-  accent: {ACCENT_SYMBOL}. Preserve these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a low camera position, slight wide-angle fashion perspective,
+  accent: {ACCENT_SYMBOL}. Preserve these style fidelity anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use a low camera position, slight wide-angle fashion perspective,
   elongated silhouettes, hard Mediterranean daylight, bright pale sky, warm stone or plaster texture, crisp cast shadows, natural lens flare or glint, refined neutral color grading with black or tobacco
   anchors, visible fabric and leather detail, calm unsmiling luxury-campaign posture, and sparse premium props with no visible logos. Do not add overlay typography, watermarks, readable brand names, QR
-  codes, social media UI, price tags, crowds, fantasy costumes, cartoon rendering, collage, vector graphics, or studio poster design. Aspect ratio: {ASPECT_RATIO}.'
+  codes, social media UI, price tags, crowds, fantasy costumes, cartoon rendering, collage, vector graphics, or studio poster design. Aspect ratio: 16:9.'
 id: editorial_fashion
 code: ''

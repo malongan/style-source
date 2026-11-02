@@ -27,27 +27,27 @@ features:
 - title: 顶部附近有细的深绿色水平分隔线与小号、字距拉开的导航文字。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main furniture subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: position, crop, and spatial relationship
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: specific furniture product, material, or prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: controlled studio or catalog poster setting
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: minimal background details, rules, shadows, and graphic structure
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: large rear display headline or category word
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} luxury furniture editorial poster in the Quiet Luxury Furniture Nameplate Poster Style. Subject: {SUBJECT}. Position and spatial relationship: {SUBJECT_ACTION}. Product
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 luxury furniture editorial poster in the Quiet Luxury Furniture Nameplate Poster Style. Subject: {SUBJECT}. Position and spatial relationship: {SUBJECT_ACTION}. Product
   or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Large rear display text: {MAIN_TEXT}. Secondary catalog text: {SECONDARY_TEXT}. Accent symbol or chip: {ACCENT_SYMBOL}.
-  Furniture material styling: {WARDROBE_STYLE}. Style fidelity anchors to preserve: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Build a warm off-white studio poster field
+  Furniture material styling: {WARDROBE_STYLE}. Style fidelity anchors to preserve: the core visual anchors of this style. Source content to avoid: watermarks, real logos, and commercial advertising. Build a warm off-white studio poster field
   with subtle paper softness, one oversized deep forest-green geometric sans display word behind the product, a thin top horizontal rule with small spaced catalog navigation words, compact lower-left microcopy,
   two small outlined catalog chips near the lower-right, and a dark green rounded product-information bar across the bottom. The furniture must be realistic, premium, materially detailed, softly shadowed,
   and large enough to overlap the rear typography. Keep the image sparse, refined, gallery-like, and brandless. Do not use real logos, watermarks, QR codes, app UI, price tags, or exact source text.'

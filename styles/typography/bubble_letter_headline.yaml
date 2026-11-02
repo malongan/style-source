@@ -39,9 +39,10 @@ prompt: |
   A clean pure warm cream white solid color background with no texture and no gradient. In the center, large playful bubble-letter typography: the Chinese characters "{第一行}" rendered as thick rounded plump balloon-like strokes with a glossy highlight surface, hand-drawn slight deformation, cute and energetic. The letters use a soft gradient from peach pink to coral orange, gentle and refined. Below the main headline, a smaller English secondary line "{第二行}" in a simple rounded sans-serif typeface, centered, in a soft warm gray. Every stroke has a crisp clean edge, perfectly readable. Clean minimal layout with generous breathing space, high-end toy brand aesthetic. No other elements, no decorations, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.
 
 variables:
-  - 第一行
-  - 第二行
-
+  - kv_var: 第一行
+    style_var: '{第一行}'
+  - kv_var: 第二行
+    style_var: '{第二行}'
 source: "painter"
 source_author: "painter"
 created_at: "2026-08-13"

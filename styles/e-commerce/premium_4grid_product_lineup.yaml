@@ -91,6 +91,29 @@ prompt: |
   Negative prompt:
   cheap cafe poster, cluttered props, cartoon elements, low-detail product, messy garnish, oversaturated colors, noisy background, generic packaging ad, flat lighting, low-resolution textures, too much text, supermarket styling, watermark, logo clutter.
 
+variables:
+- kv_var: 品牌名
+  style_var: '{brand_name}'
+- kv_var: product series
+  style_var: '{product_series}'
+- kv_var: flavor 1
+  style_var: '{flavor_1}'
+- kv_var: flavor 2
+  style_var: '{flavor_2}'
+- kv_var: flavor 3
+  style_var: '{flavor_3}'
+- kv_var: flavor 4
+  style_var: '{flavor_4}'
+- kv_var: bg color 1
+  style_var: '{bg_color_1}'
+- kv_var: bg color 2
+  style_var: '{bg_color_2}'
+- kv_var: bg color 3
+  style_var: '{bg_color_3}'
+- kv_var: bg color 4
+  style_var: '{bg_color_4}'
+- kv_var: 标语
+  style_var: '{tagline}'
 source_url: "https://x.com/ou_zhen599/status/2082158630942781575?s=20"
 source_author: "ou_zhen599"
 

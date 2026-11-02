@@ -23,3 +23,10 @@ jobs:
       - name: 配图 URL 可达性验证
         # 只报可达性，不因遗留的失效 preview 阻断（实错由 --strict 那条把关）
         run: python3 scripts/validate_all.py --check-images --no-strict
+
+      - name: 变量语义体检
+        # audit_variables.py 读的是 data/styles.json（生成物），先按 PR 里的 yaml 重算一份再体检。
+        # --strict：声明落空 / 值写成描述 / 标签带反引号 都算失败（对应 PROMPT_VARIABLES_SPEC 的 R1/R2）。
+        run: |
+          python3 scripts/generate_data.py
+          python3 scripts/audit_variables.py --strict

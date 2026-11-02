@@ -30,22 +30,7 @@ features:
   desc: ''
 - title: '**主体塑造**：半写实插画，轮廓柔和，细节概括，重氛围和文学感'
   desc: ''
-variables:
-- kv_var: 主标题
-  style_var: 【xxx】主体描述
-  desc: 半写实插画主体
-- kv_var: 画面-氛围
-  style_var: 诗意梦幻
-  desc: 整体调性
-- kv_var: 色彩-高光
-  style_var: 暖金黄、奶油白
-  desc: 光照色彩
-- kv_var: 色彩-阴影
-  style_var: 深海蓝、灰蓝
-  desc: 对比色
-- kv_var: 可选元素
-  style_var: 飞鸟、波光、风、雾气
-  desc: 诗意点缀
+variables: []
 prompt: '日系诗意梦幻半写实插画，主体为【xxx】
 
 

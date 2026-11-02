@@ -32,6 +32,9 @@ prompt: |
   3D low poly model of {pop_culture_vehicle}, isometric view, 2D game art style, light background, soft lighting, low detail, white background, intricate details and realistic textures
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: pop culture vehicle
+  style_var: '{pop_culture_vehicle}'
 source_url: "https://x.com/CharaspowerAI/status/2076728502087262510"
 source_author: "CharaspowerAI"
 

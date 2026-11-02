@@ -38,8 +38,8 @@ prompt: |
   Pure green solid color background with no texture and no gradient, flat vector illustration style, creative handwritten typography logo design. The Chinese slogan "{中文Slogan}" rendered in an expressive creative handwriting style: stroke forms exaggerated and richly varied, strong contrast between thick and thin strokes, irregular connecting strokes, broken bends, curved extensions and flourishes, conveying a casual, free, lively feeling that breaks the regularity of conventional fonts. The main text is white on the green background, clean sharp edges, every character clearly readable. Minimal layout, the slogan is the only element, generous breathing space. No other elements, no decorations, no frames, no shadows, no gradient. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.
 
 variables:
-  - 中文Slogan
-
+  - kv_var: 中文Slogan
+    style_var: '{中文Slogan}'
 source: "painter"
 source_author: "painter"
 created_at: "2026-08-13"

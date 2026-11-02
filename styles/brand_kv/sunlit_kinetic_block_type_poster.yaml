@@ -29,27 +29,29 @@ features:
   desc: 鲜明蓝天色块作为背景
 variables:
 - kv_var: 主标题文字
-  style_var: '{{MAIN_TEXT}}'
+  style_var: '{MAIN_TEXT}'
   desc: 单词或短词，如 CUT/MOVE/FRESH
 - kv_var: 人物动作
-  style_var: '{{SUBJECT_ACTION}}'
+  style_var: '{SUBJECT_ACTION}'
   desc: 如 jumping with energy
 - kv_var: 环境场景
-  style_var: '{{LOCATION}}'
+  style_var: '{LOCATION}'
   desc: 如 rooftop court、beach
 - kv_var: 背景细节
-  style_var: '{{BACKGROUND_ELEMENTS}}'
+  style_var: '{BACKGROUND_ELEMENTS}'
   desc: 如 city skyline、clouds
 - kv_var: 穿搭风格
-  style_var: '{{WARDROBE_STYLE}}'
+  style_var: '{WARDROBE_STYLE}'
   desc: 如 athletic streetwear
-- kv_var: 色彩-底场
-  style_var: 蓝天色块
-  desc: vivid blue-sky color fields
-- kv_var: 色彩-主色
-  style_var: 奶白色
-  desc: cream condensed block typography
+- kv_var: 主体
+  style_var: '{SUBJECT}'
+- kv_var: PRODUCT OR PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
 prompt: |
-  Create a {ASPECT_RATIO} full-bleed editorial action poster in the Sunlit Kinetic Block Type Photo Poster style. Style fidelity anchors that must remain visible: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Use a realistic bright outdoor photograph as the base: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}, with {BACKGROUND_ELEMENTS}. Camera and composition: low or close wide-angle perspective, oversized foreground scale, decisive frozen motion, one strong diagonal crossing the frame, the subject cropped by at least one edge. Typography: place immense warm-cream extra-condensed block sans display lettering reading {MAIN_TEXT} behind the subject, filling over half the canvas, cropped by the frame and partially obscured by the action. Add compact white microcopy reading {SECONDARY_TEXT} in tight editorial blocks, plus a small generic {ACCENT_SYMBOL} mark and bottom information clusters in cream. Wardrobe and styling: {WARDROBE_STYLE}. Color system: saturated sky-blue or cyan dominant field, warm cream typography, crisp white microcopy, deep shadows, and one vivid accent color concentrated on the hero prop or wardrobe. Lighting and finish: hard midday sunlight, crisp shadows, high contrast commercial photo realism, slight print-poster grain, no illustration or 3D rendering, no real logos or watermarks. Generate as a 4K ultra-high-resolution raster image.
+  Create a 9:16 full-bleed editorial action poster in the Sunlit Kinetic Block Type Photo Poster style. Style fidelity anchors that must remain visible: the core visual anchors of this style. Source content to avoid: watermarks, real logos, and commercial advertising. Use a realistic bright outdoor photograph as the base: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}, with {BACKGROUND_ELEMENTS}. Camera and composition: low or close wide-angle perspective, oversized foreground scale, decisive frozen motion, one strong diagonal crossing the frame, the subject cropped by at least one edge. Typography: place immense warm-cream extra-condensed block sans display lettering reading {MAIN_TEXT} behind the subject, filling over half the canvas, cropped by the frame and partially obscured by the action. Add compact white microcopy reading {SECONDARY_TEXT} in tight editorial blocks, plus a small generic {ACCENT_SYMBOL} mark and bottom information clusters in cream. Wardrobe and styling: {WARDROBE_STYLE}. Color system: saturated sky-blue or cyan dominant field, warm cream typography, crisp white microcopy, deep shadows, and one vivid accent color concentrated on the hero prop or wardrobe. Lighting and finish: hard midday sunlight, crisp shadows, high contrast commercial photo realism, slight print-poster grain, no illustration or 3D rendering, no real logos or watermarks. Generate as a 4K ultra-high-resolution raster image.
 id: sunlit_kinetic_block_type_poster
 code: ''

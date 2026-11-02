@@ -38,24 +38,23 @@ prompt: |
 
 variables:
   - kv_var: 画面-实物
-    style_var: "{实物}"
-    desc: "示例值：切开的红宝石柚子（上传的实拍照片）"
+    style_var: '{实物}'
+    desc: 示例值：切开的红宝石柚子（上传的实拍照片）
   - kv_var: 画面-新角色
-    style_var: "{新角色}"
-    desc: "示例值：热气球的吊篮"
+    style_var: '{新角色}'
+    desc: 示例值：热气球的吊篮
   - kv_var: 画面-线描内容
-    style_var: "{线描内容}"
-    desc: "示例值：热气球吊绳与藤篮、两朵云、几道短促速度线"
+    style_var: '{线描内容}'
+    desc: 示例值：热气球吊绳与藤篮、两朵云、几道短促速度线
   - kv_var: 画面-构图
-    style_var: "{构图}"
-    desc: "示例值：实物居中偏上，线描向下延伸，保留四成以上负空间"
+    style_var: '{构图}'
+    desc: 示例值：实物居中偏上，线描向下延伸，保留四成以上负空间
   - kv_var: 画面-标题
-    style_var: "{标题}"
-    desc: "示例值：红宝石柚子"
+    style_var: '{标题}'
+    desc: 示例值：红宝石柚子
   - kv_var: 画面-字形
-    style_var: "{字形}"
-    desc: "示例值：手写钢笔字，右上角斜排"
-
+    style_var: '{字形}'
+    desc: 示例值：手写钢笔字，右上角斜排
 source_url: "https://x.com/768150007/status/2109524740847407586"
 source_author: "@768150007"
 
