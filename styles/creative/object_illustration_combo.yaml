@@ -29,7 +29,7 @@ features:
 - title: 干净负空间
   desc: 干净留白
 variables:
-- kv_var: EVERYDAY OBJECT
+- kv_var: 日常物品
   style_var: '{EVERYDAY_OBJECT}'
 - kv_var: 物体
   style_var: '{OBJECT}'

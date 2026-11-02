@@ -30,51 +30,40 @@ ratio: "3:4"
 summary: "金色日光俯拍街景生活照，暖琥珀色调+石板地面+手持饮品+仰视欢快氛围"
 
 prompt: |
-  Capture a lively and dynamic street lifestyle moment from an above-camera perspective, set on a {surface_texture} with a {background_scene} creating a muted contrast. The subject is in a {pose} pose, looking directly up at the camera with a {expression}, lips {lip_expression}. {hair_description} softly catches the natural daylight, giving the skin warm golden-amber tones with a subtle glow.
+  Capture a lively and dynamic street lifestyle moment from an above-camera perspective, set on a {surface_texture} with a {background_scene} creating a muted contrast. The subject is in a lively pose, looking directly up at the camera; pose and expression detail: {pose_and_expression}. {hair_description} softly catches the natural daylight, giving the skin warm golden-amber tones with a subtle glow.
 
-  The subject wears {outfit_description}, paired with {bottoms_description} that leave knees exposed. {head_accessory} sits on the head, adding a touch of casual style.
+  The subject wears {outfit_description}, with {accessories} adding a touch of casual style.
 
-  In their hands, the subject holds two large glasses filled with {drink_color} drink, each garnished with {garnish} and {straw_type}. Condensation drops and ice crystals on the glasses look extremely realistic and refreshing.
-
-  {accessories_on_hands} are visible on the subject's hands, catching the sunlight.
-
-  {footwear_description} create a harmonious contrast with the rest of the outfit, adding lightness and youthfulness.
+  In their hands, the subject holds two large glasses filled with {drink_details}. Condensation drops and ice crystals on the glasses look extremely realistic and refreshing.
 
   The overall composition is filled with light and shadow, bathed in warm golden natural daylight, creating the atmosphere of a warm, carefree {time_of_day}. Every detail — from the textured {surface_texture} beneath to the vibrant drinks — enhances the festive mood and lively energy of the moment. Photorealistic image, shot from above, highly detailed textures, high quality, 8K resolution.
 
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
-
 variables:
-- kv_var: surface texture
+- kv_var: 表面质感
   style_var: '{surface_texture}'
-- kv_var: background scene
+  desc: 地面材质，如 warm concrete pavement / wet asphalt
+- kv_var: 背景场景
   style_var: '{background_scene}'
-- kv_var: 姿态
-  style_var: '{pose}'
-- kv_var: 表情
-  style_var: '{expression}'
-- kv_var: lip expression
-  style_var: '{lip_expression}'
-- kv_var: hair description
+  desc: 远景，如 pastel storefronts / blurred city street
+- kv_var: 姿态与表情
+  style_var: '{pose_and_expression}'
+  desc: 姿态 + 表情 + 唇部，如 sitting casually, bright smile, glossy lips
+- kv_var: 发型描述
   style_var: '{hair_description}'
-- kv_var: outfit description
+  desc: 如 shoulder-length wavy chestnut hair
+- kv_var: 服装造型
   style_var: '{outfit_description}'
-- kv_var: bottoms description
-  style_var: '{bottoms_description}'
-- kv_var: head accessory
-  style_var: '{head_accessory}'
-- kv_var: drink color
-  style_var: '{drink_color}'
-- kv_var: garnish
-  style_var: '{garnish}'
-- kv_var: straw type
-  style_var: '{straw_type}'
-- kv_var: accessories on hands
-  style_var: '{accessories_on_hands}'
-- kv_var: footwear description
-  style_var: '{footwear_description}'
-- kv_var: time of day
+  desc: 上装 + 下装 + 鞋，如 oversized white tee, denim shorts, white sneakers
+- kv_var: 配饰
+  style_var: '{accessories}'
+  desc: 头部与手部配饰，如 straw hat / silver rings / thin bracelet
+- kv_var: 饮品细节
+  style_var: '{drink_details}'
+  desc: 颜色 + 装饰 + 吸管，如 pale pink smoothie, mint leaves, paper straw
+- kv_var: 时段
   style_var: '{time_of_day}'
+  desc: 如 golden hour afternoon / early summer evening
 source_url: "https://x.com/Sairah_0/status/2087559140071895056"
 source_author: "Sairah_0"
 

@@ -262,6 +262,9 @@ def parse_style_file(filepath: str) -> dict:
     # 非列表（mapping）或无法识别的条目一律跳过并告警，不要造垃圾键。
     variables_raw = data.get('variables', []) or []
     variables = {}
+    # desc 是「这条变量该怎么填」的说明，插件用它做输入框的 placeholder。
+    # 单独存一个映射（按 kv_var 索引），空映射不输出——否则 310 个风格各多一个 {}。
+    variable_descs = {}
     if not isinstance(variables_raw, list):
         print(f'   ⚠️  {filename}: variables 不是列表（{type(variables_raw).__name__}），已忽略')
         variables_raw = []
@@ -269,11 +272,14 @@ def parse_style_file(filepath: str) -> dict:
         if isinstance(v, dict):
             kv_var = str(v.get('kv_var', '') or '').strip()
             style_var = str(v.get('style_var', '') or '').strip()
+            desc = str(v.get('desc', '') or '').strip()
             if (kv_var, style_var) in VARIABLE_HEADER_ROWS:
                 # Markdown 表格转 yaml 的表头残留，不是真实变量
                 continue
             if kv_var and style_var:
                 variables[kv_var] = style_var
+                if desc:
+                    variable_descs[kv_var] = desc
         elif isinstance(v, str) and v.strip():
             if v.strip() in VARIABLE_HEADER_ROWS_FLAT:
                 # 表头残留在旧形态里（['变量', '说明']）
@@ -281,6 +287,8 @@ def parse_style_file(filepath: str) -> dict:
             name, placeholder, desc = parse_legacy_variable(v.strip())
             if name and placeholder:
                 variables[name] = placeholder
+                if desc:
+                    variable_descs[name] = desc
             else:
                 print(f'   ⚠️  {filename}: 跳过无法识别的 variables 条目'
                       f'（既非变量名也不含 {{占位符}}）: {v.strip()[:60]}')
@@ -298,6 +306,8 @@ def parse_style_file(filepath: str) -> dict:
         'features': features,
         'prompt': data.get('prompt', ''),
         'variables': variables,
+        # 只在非空时输出，保持 JSON 体积不被 310 份空对象撑大
+        **({'variable_descs': variable_descs} if variable_descs else {}),
         'source_url': data.get('source_url', ''),
         'source_author': source_author,
         'preview_urls': preview_urls,

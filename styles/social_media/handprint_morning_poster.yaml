@@ -35,18 +35,17 @@ prompt: |
 
   {subject_description}
   {city_landmark_or_theme}
-  {date和金句}
-  {size_requirement}
+  {date_and_quote}
 
   不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。
-
 variables:
 - kv_var: 主体描述
   style_var: '{subject_description}'
-- kv_var: city landmark or theme
+- kv_var: 城市地标或主题
   style_var: '{city_landmark_or_theme}'
-- kv_var: 尺寸
-  style_var: '{size_requirement}'
+- kv_var: 日期与金句
+  style_var: '{date_and_quote}'
+  desc: 如 2024.11.08 — 春天总会来
 source_url: "https://x.com/xiaoxiaodong01/status/2081540058885321012"
 source_author: "小小东"
 

@@ -29,13 +29,13 @@ features:
 - title: 色彩丰富鲜艳
   desc: 鲜艳色彩、现代平面海报设计、高级质感、8K精细度
 variables:
-- kv_var: '{文字}'
+- kv_var: 文字
   style_var: '{WORD}'
   desc: 画面中出现的单词文字 — 如 RUN、JUMP、FLY、LOVE、DREAM
-- kv_var: '{动作}'
+- kv_var: 动作
   style_var: '{ACTION}'
   desc: 角色与文字的互动方式 — 如 sitting on the 'R'、climbing up the 'U'、hanging from the 'N'
-- kv_var: '{服装}'
+- kv_var: 服装
   style_var: '{OUTFIT}'
   desc: 角色的穿着风格 — 如 a denim jacket and red sneakers、a yellow raincoat and boots
 prompt: Minimalist 3D clay illustration of a cute stylized cartoon character creatively interacting with giant bold black typography reading "{WORD}". The character is {ACTION}, naturally using, sitting

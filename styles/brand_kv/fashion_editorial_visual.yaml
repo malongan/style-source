@@ -29,32 +29,27 @@ features:
 - title: 高端品牌感，非电商感
   desc: ''
 variables:
-- kv_var: 主标题
-  style_var: '{HEADLINE}'
-  desc: 大字标题文字
-- kv_var: 副标题
-  style_var: '{SUBHEADLINE}'
-  desc: 副标题文字
 - kv_var: 品牌-名称
   style_var: '{BRAND}'
-  desc: 品牌名
 - kv_var: 主题
   style_var: '{THEME}'
 - kv_var: 产品或主体
   style_var: '{PRODUCT_OR_SUBJECT}'
 - kv_var: 配色
   style_var: '{COLORS}'
+- kv_var: 主标题
+  style_var: '{HEADLINE}'
+- kv_var: 副标题
+  style_var: '{SUBHEADLINE}'
 - kv_var: 短文案
   style_var: '{OPTIONAL_SHORT_TEXT}'
 - kv_var: 品牌调性
   style_var: '{BRAND_MOOD}'
-- kv_var: 配色
-  style_var: '{COLOR_PALETTE}'
-- kv_var: DIRECTION TYPE
+- kv_var: 版式类型
   style_var: '{DIRECTION_TYPE}'
 - kv_var: 小字文案
   style_var: '{EXTRA_SMALL_TEXT}'
-- kv_var: MODEL DESCRIPTION
+- kv_var: 模特描述
   style_var: '{MODEL_DESCRIPTION}'
 prompt: 'Use this as a single-image prompt template.
 
@@ -86,7 +81,7 @@ prompt: 'Use this as a single-image prompt template.
 
   Create a high-end fashion editorial visual for {BRAND}, based on the theme {THEME}, with the focus on {PRODUCT_OR_SUBJECT}. The output should feel like a premium brand campaign / fashion magazine editorial
   / lookbook direction, with a strong sense of art direction, typography, layout, and brand mood. This is not a generic fixed template. The composition, typography, image styling, and layout should be designed
-  around the brand mood: {BRAND_MOOD}. Main colors should follow {COLOR_PALETTE}.
+  around the brand mood: {BRAND_MOOD}. Main colors should follow {COLORS}.
 
 
   The visual style should be clean, elevated, editorial, premium, fashion-forward, and highly designed. Use realistic fashion photography aesthetics, refined lighting, strong negative space, elegant composition,

@@ -27,9 +27,9 @@ features:
 variables:
 - kv_var: 主体
   style_var: '{SUBJECT}'
-- kv_var: SUBJECT ACTION
+- kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
-- kv_var: PRODUCT OR PROP
+- kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
 - kv_var: 地点
   style_var: '{LOCATION}'
@@ -41,7 +41,7 @@ variables:
   style_var: '{MAIN_TEXT}'
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
-- kv_var: ACCENT SYMBOL
+- kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
 prompt: |
   Create a polished international luxury editorial poster in the Luxury Perspective Checkerboard Editorial style. Subject: {SUBJECT}. Action or presentation: {SUBJECT_ACTION}. Hero product or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Typography: place the invented large script word "{MAIN_TEXT}" as an oversized sweeping background graphic behind the subject, and place the small uppercase editorial text "{SECONDARY_TEXT}" near the upper field; add the restrained accent symbol "{ACCENT_SYMBOL}" only once. Preserve these style fidelity anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use a low-angle high-fashion photographic camera, crisp studio lighting, generous white space, a red-and-white checkerboard perspective plane, deep black structure, emerald or teal accent details, clean cutout subject edges, glossy premium material highlights, and sparse typography. Do not use any real brand logos, real fashion house names, monograms, watermarks, QR codes, social media UI, price labels, or copied campaign identities. Aspect ratio: 16:9.

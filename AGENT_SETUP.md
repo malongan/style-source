@@ -130,22 +130,26 @@ source_author: "@{作者名}"
 > 🔴 **强制规范见 [`docs/PROMPT_VARIABLES_SPEC.md`](docs/PROMPT_VARIABLES_SPEC.md)，本节只是速查表。**
 > 这些变量由 WorkBuddy 插件「风格库」消费（用户填完点「插入提示词」，插件做字符串替换后插到画布）——
 > 所以写错不会有人报错，只会「填了没反应」或「没有输入框」。提交前必须通过
-> `python3 scripts/audit_variables.py --strict`（无「声明落空」告警）。
+> `python3 scripts/validate_all.py --strict`（含变量语义 R1–R6）。
 
 | 位置 | 格式 | 正例 | 反例 |
 |------|------|------|------|
-| `prompt` 内 | `{占位符}`（半角单花括号，≤20 字） | `{主体描述}` | `[主体]`、`{{主体}}`、`｛主体｝` |
-| `variables[].kv_var` | 干净中文标签，不带 markdown | `主体描述` | `` `SUBJECT` ``、`**主体**` |
-| `variables[].style_var` | **占位符本体，与 prompt 逐字一致** | `"{主体描述}"` | `main person`、`花体字内容，如"旷野的风"` |
-| `variables[].desc` | 示例 / 取值范围（可选） | `如：一只橘猫` | 放候选清单当选项用 |
+| `prompt` 内 | `{占位符}`，半角单花括号；中文 ≤8 字，英文 `SNAKE_CASE`，不带空白标点 | `{主体描述}`、`{SUBJECT}` | `[主体]`、`{{主体}}`、`{道具，如椅子}` |
+| `variables[].kv_var` | 干净中文标签，不带 markdown / 空白 / 标点 | `主体描述` | `` `SUBJECT` ``、`{品牌名}`、`主题 / 活动名称` |
+| `variables[].style_var` | **只能写 `"{占位符}"`，与 prompt 逐字一致** | `"{主体描述}"` | `main person`、`花体字内容，如"旷野的风"` |
+| `variables[].desc` | 一句示例或取值范围，**有变量就该给** | `如：一只橘猫` | 留空 |
 
-三条硬规则：
+六条硬规则（全部 error，实现在 `validate_style.py` 的 `check_variables_semantics()`）：
 
 1. **R1** 每条 `style_var` 的占位符必须**原样出现在 `prompt` 里**，否则是死条目（填了没反应）；
 2. **R2** `style_var` 只能写 `"{占位符名}"`，描述一律进 `desc`；
-3. **R3** 想让用户填什么，就在 `prompt` 里留 `{槽位}`——**不留槽位就永远没有输入框**。
+3. **R3** 想让用户填什么，就在 `prompt` 里留 `{槽位}`——**不留槽位就永远没有输入框**；
+4. **R4** `kv_var` 必须含中文（纯 `SUBJECT` / `MAIN_TEXT` 会被拦，面板是中文界面）；
+5. **R5** 单风格变量数 **≤12**，超了先合并同位置的多元素字段；
+6. **R6** 占位符名与 `kv_var` 里不能有空白、标点、填写指南（`填写…` / `例如…` / `如：…` / `可留空`）——
+   说明书塞进名字，插件会把整串当标签显示，2026-11 清过 77 个这种槽位。
 
-单风格槽位 **3–8 个**（优先级：主体 > 主体属性 > 场景 > 文案）。
+单风格槽位 **常见 3–9 个，硬上限 12 个**（优先级：主体 > 主体属性 > 场景 > 文案）。
 
 **画幅 / 尺寸比例不做成变量**：比例由画布工具统一设定，`prompt` 里若写了「画幅比例{画幅比例}」
 或 `{ASPECT_RATIO}`，直接删掉槽位与声明；需要约束构图就写成常量描述（如「竖版构图，主体居下三分之一」）。
@@ -167,7 +171,8 @@ images/styles_previews/{风格id}_{8位后缀}.thumb.webp  ← 缩略图（400px
 
 ## 5. 收集流程
 
-> **完整流程已技能化，共 10 步（Step 1 抓取 / Step 1.5 机械核对归属 / Step 2–10；Step 1.5 不读图识别）**：
+> **完整流程已技能化，共 11 步（Step 1 抓取 / Step 1.5 机械核对归属 / Step 2 语义转化 /
+> Step 2.5 定槽位表 / Step 3–10；Step 1.5 不读图识别）**：
 > 技能目录下的 `style-collection/SKILL.md`（`dsh-skills/skills/style-collection/`）
 > （`~/.agents/skills/style-collection` 是指向它的软链；**不要引用任何工作区内的同名副本**）
 >
@@ -183,11 +188,13 @@ images/styles_previews/{风格id}_{8位后缀}.thumb.webp  ← 缩略图（400px
 GitHub Manager（style-collection 技能）
    Step 1    新闻助手抓取正文 + 下载原始配图到 /tmp/
    Step 1.5  图片归属机械核对（按 alt/DOM 顺序；对不上问用户，不读图）
-   Step 2–3  语义转化 + 分类判断
+   Step 2    语义转化（提取构图 / 色调 / 主体 / 文字排版）
+   Step 2.5  定槽位表（变量先于正文，见技能 Step 2.5）
+   Step 3    分类判断
    Step 4    convert_to_webp.py 转 WebP（全尺寸 + 缩略图）
    Step 5    写 styles/{分类}/{id}.yaml
    Step 6    generate_index.py 重算索引
-   Step 7    validate_style.py → generate_data.py → build_gallery.py
+   Step 7    validate_all.py → generate_data.py → audit_variables.py → build_gallery.py
    Step 8    分支 → 安全检查 → commit → push
    Step 9    gh pr create
    Step 10   squash 合并 → 拉取 → 验证线上 Pages 200
@@ -206,7 +213,7 @@ GitHub Manager（style-collection 技能）
 创建 PR 前本地先验证：
 
 ```bash
-python3 scripts/validate_all.py --strict               # 全量格式检查（含变量语义 R1/R2/R3，有 error 即失败）
+python3 scripts/validate_all.py --strict               # 全量格式检查（含变量语义 R1–R6，有 error 即失败）
 python3 scripts/generate_data.py                       # 生成 JSON 数据
 python3 scripts/audit_variables.py --strict            # 变量体检（声明落空 / 值写成描述 / 标签带反引号）
 python3 scripts/build_gallery.py                       # 生成画廊页面 + CSS/JS
@@ -269,6 +276,10 @@ git status --short                                      # 确认生成物都已 
 
 ## 9. 脚本速查
 
+变量语义闸门（`check_variables_semantics`）是 **R1–R6，全部 error**：R1 声明必须命中 prompt、
+R2 `style_var` 只能是 `{占位符}`、R3 槽位必须都有声明、R4 `kv_var` 必须含中文、
+R5 变量数 ≤12（`MAX_VARIABLES`）、R6 占位符名与标签不能是填写指南。
+
 | 脚本 | 用途 | 调用方式 |
 |------|------|---------|
 | `validate_style.py` | 校验单个文件（有 error 退出码 1） | `python3 scripts/validate_style.py 文件路径` |
@@ -280,7 +291,8 @@ git status --short                                      # 确认生成物都已 
 | `generate_index.py` | 重算 `styles/_index.md` + 各分类索引 | `python3 scripts/generate_index.py` |
 | `check_style_previews.py` | 配图完整性（缩略图/孤儿/**串号**）；CI 用 `--strict` | `python3 scripts/check_style_previews.py --strict` |
 | `audit_variables.py` | 变量体检（声明落空 / 值写成描述 / 标签反引号）；读 `data/styles.json`，**必须先 generate_data** | `python3 scripts/audit_variables.py --strict` |
-| `migrate_variables_spec.py` | 按规范批量整改 `variables`（剥反引号 / 改本体 / 比例转常量 / 方括号转花括号 / 补零声明） | `python3 scripts/migrate_variables_spec.py --dry-run`（`--apply` 才写回） |
+| `migrate_variables_spec.py` | 按规范批量整改 variables，默认 dry-run | `python3 scripts/migrate_variables_spec.py --apply`；`--labels-only` 只换英文标签；`--check` 只校验 `data/label_dictionary.yaml` 覆盖率 |
+| `fix_dirty_slots.py` | 把「说明书当占位符名」的槽位改成短名，原内容降级成 `desc`，默认 dry-run | `python3 scripts/fix_dirty_slots.py --apply` |
 | `check_image_urls.py` | 预览图 URL 可达性（日检） | `python3 scripts/check_image_urls.py` |
 | `convert_to_webp.py` | 原图 → WebP 全尺寸 + 缩略图 | `--input 图 --style-id id --output images/styles_previews/` |
 | `upload_preview.py` | 旧脚本：图片哈希命名处理 | `图片路径 风格名` |

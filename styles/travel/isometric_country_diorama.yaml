@@ -46,7 +46,7 @@ prompt: |
   不要水印，不要真实Logo。
 
 variables:
-- kv_var: country
+- kv_var: 国家
   style_var: '{country}'
 source_url: "https://x.com/ChillaiKalan__/status/2091009348302774706"
 source_author: "ChillaiKalan__"

@@ -33,7 +33,7 @@ prompt: |
   画面{subject_spec}
   发布场景: {scene_spec}
   保留文字: {text_spec}
-  尺寸: {ratio_spec}
+  尺寸: 3:4
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
@@ -41,14 +41,12 @@ variables:
   style_var: '{theme}'
 - kv_var: 主体
   style_var: '{subject}'
-- kv_var: subject spec
+- kv_var: 画面主体
   style_var: '{subject_spec}'
 - kv_var: 场景
   style_var: '{scene_spec}'
 - kv_var: 文案
   style_var: '{text_spec}'
-- kv_var: 比例
-  style_var: '{ratio_spec}'
 source_url: "https://x.com/xiaoxiaodong01/status/2073402053997834484"
 source_author: "小小东"
 

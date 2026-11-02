@@ -52,13 +52,13 @@ variables:
   - kv_var: 赛车车型
     style_var: '{赛车车型}'
     desc: 1960年代保时捷911赛车 / 经典法拉利250 GTO复古涂装 / 福特Mustang复古大奖赛赛车
-  - kv_var: SCENERY
+  - kv_var: 场景
     style_var: '{SCENERY}'
     desc: 沙漠公路尽头的远山、日落海岸线、复古加油站、旧赛道看台
-  - kv_var: PALETTE
+  - kv_var: 配色
     style_var: '{PALETTE}'
     desc: 红白蓝经典配色、橙黄日落渐变、橄榄绿复古军色、焦糖棕暖调
-  - kv_var: SLOGAN
+  - kv_var: 标语
     style_var: '{SLOGAN}'
     desc: Racing Heritage / Born to Race / Legacy in Motion
 source_url: "https://x.com/Goodmanprotocol/status/2077436110607925535"

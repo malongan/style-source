@@ -40,9 +40,9 @@ prompt: |
   尺寸：竖版 3:4
 
 variables:
-- kv_var: scene description
+- kv_var: 场景描述
   style_var: '{scene_description}'
-- kv_var: title text
+- kv_var: 标题文字
   style_var: '{title_text}'
 source_url: "https://x.com/xiaoxiaodong01/status/2073403641869009289"
 source_author: "小小东"

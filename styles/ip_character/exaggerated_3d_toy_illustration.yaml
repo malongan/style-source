@@ -34,9 +34,9 @@ features:
 variables:
 - kv_var: 主体
   style_var: '{SUBJECT}'
-- kv_var: PROP
+- kv_var: 道具
   style_var: '{PROP}'
-- kv_var: ELEMENTS
+- kv_var: 元素
   style_var: '{ELEMENTS}'
 - kv_var: 用途
   style_var: '{USE_CASE}'

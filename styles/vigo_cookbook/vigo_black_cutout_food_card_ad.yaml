@@ -28,21 +28,21 @@ features:
 - title: 卡片内部使用暖米色、褪色赭石、深红、橙、棕与黑墨，配色克制。
   desc: ''
 variables:
-- kv_var: SUBJECT
+- kv_var: 画面主体
   style_var: '{SUBJECT}'
-- kv_var: SUBJECT_ACTION
+- kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
-- kv_var: PRODUCT_OR_PROP
+- kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
-- kv_var: LOCATION
+- kv_var: 场景地点
   style_var: '{LOCATION}'
-- kv_var: BACKGROUND_ELEMENTS
+- kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
-- kv_var: MAIN_TEXT
+- kv_var: 主文案
   style_var: '{MAIN_TEXT}'
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
-- kv_var: ACCENT SYMBOL
+- kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'

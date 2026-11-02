@@ -43,28 +43,24 @@ features:
 - title: 使用强烈的阳光、高饱和钴蓝天空、暖调皮肤高光、硬朗阴影，以及随性的夏日旅行感。
   desc: ''
 variables:
-- kv_var: SUBJECT_IDENTITY
+- kv_var: 主体身份
   style_var: '{SUBJECT_IDENTITY}'
-- kv_var: SUBJECT
+- kv_var: 画面主体
   style_var: '{SUBJECT}'
-- kv_var: SUBJECT_ACTION
+- kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
-- kv_var: PRODUCT_OR_PROP
+- kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
-- kv_var: LOCATION
+- kv_var: 场景地点
   style_var: '{LOCATION}'
-- kv_var: BACKGROUND_ELEMENTS
+- kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
-- kv_var: LENS STYLE
-  style_var: '{LENS_STYLE}'
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
-- kv_var: ACCENT SYMBOL
+- kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
-- kv_var: TEXTURE LEVEL
-  style_var: '{TEXTURE_LEVEL}'
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
 prompt: 'Create an image in sunburst-fisheye-bubble-type-poster-style.
@@ -77,7 +73,7 @@ prompt: 'Create an image in sunburst-fisheye-bubble-type-poster-style.
   give every case a visibly different face, hair, body language, and styling details.
 
 
-  Photography: {LENS_STYLE}. Place the camera below the subject looking upward, very close to the body and face. Preserve realistic skin, fabric, hair, accessories, and daylight reflections. Use harsh sunny
+  Photography: fisheye lens, ultra-wide, low camera angle. Place the camera below the subject looking upward, very close to the body and face. Preserve realistic skin, fabric, hair, accessories, and daylight reflections. Use harsh sunny
   lighting, saturated cobalt sky, warm skin highlights, crunchy shadows, and a spontaneous summer travel feeling.
 
 
@@ -86,7 +82,7 @@ prompt: 'Create an image in sunburst-fisheye-bubble-type-poster-style.
   orange edge shading, cream shine slashes, and {ACCENT_SYMBOL}.
 
 
-  Texture: add {TEXTURE_LEVEL}, slight lens flare, color fringing, and analog poster compression. Add "{SECONDARY_TEXT}" only as tiny editorial microcopy if it stays clean and unobtrusive.
+  Texture: add strong analog grain, slight lens flare, color fringing, and analog poster compression. Add "{SECONDARY_TEXT}" only as tiny editorial microcopy if it stays clean and unobtrusive.
 
 
   Avoid: watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference person, copied reference outfit, copied exact pose, copied exact text, repeated same face across a sample

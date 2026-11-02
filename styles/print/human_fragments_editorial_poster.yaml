@@ -56,9 +56,9 @@ prompt: |
   Use realistic photography, believable anatomy, natural skin texture, strong foreground perspective, subtle paper grain, a warm off-white background, restrained colour grading, and clean editorial spacing.
 
   Keep the typography minimal and freely positioned:
-  {Title}
+  {标题}
   HUMAN FRAGMENTS
-  {Supporting_Line}
+  {副标题}
   2026
 
   不要水印，不要真实Logo，不要插画化，不要卡通质感，不要厚重滤镜。
@@ -76,10 +76,6 @@ variables:
   style_var: '{标题}'
 - kv_var: 副标题
   style_var: '{副标题}'
-- kv_var: 标题
-  style_var: '{Title}'
-- kv_var: Supporting Line
-  style_var: '{Supporting_Line}'
 source_url: "https://x.com/Goodmanprotocol/status/2082666687925760258"
 source_author: "@Goodmanprotocol"
 

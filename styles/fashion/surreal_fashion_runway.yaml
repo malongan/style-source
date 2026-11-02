@@ -56,15 +56,15 @@ variables:
   style_var: '{scenery}'
 - kv_var: 服装
   style_var: '{clothing}'
-- kv_var: shoes
+- kv_var: 鞋履
   style_var: '{shoes}'
-- kv_var: flowers
+- kv_var: 花卉
   style_var: '{flowers}'
-- kv_var: flying animals
+- kv_var: 飞鸟走兽
   style_var: '{flying_animals}'
 - kv_var: 配色
   style_var: '{palette}'
-- kv_var: mood
+- kv_var: 情绪氛围
   style_var: '{mood}'
 source_url: "https://x.com/im_shahid7/status/2087579904326181361"
 source_author: "im_shahid7"

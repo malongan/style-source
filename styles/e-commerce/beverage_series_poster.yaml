@@ -62,15 +62,15 @@ prompt: |
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
-- kv_var: FLAVOR NAME
+- kv_var: 口味名称
   style_var: '{FLAVOR_NAME}'
 - kv_var: 主色
   style_var: '{COLOR1}'
 - kv_var: 液体颜色
   style_var: '{LIQUID_COLOR}'
-- kv_var: GARNISH ELEMENT
+- kv_var: 装饰配料
   style_var: '{GARNISH_ELEMENT}'
-- kv_var: ACCENT DESCRIPTION
+- kv_var: 点缀元素
   style_var: '{ACCENT_DESCRIPTION}'
 source_url: "https://x.com/ou_zhen599/status/2080924943567757412"
 source_author: "ou_zhen599"

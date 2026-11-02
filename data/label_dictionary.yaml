@@ -1,0 +1,433 @@
+# 变量标签词典 —— 英文 kv_var → 中文标签 + 分类
+#
+# 为什么需要这张表：插件只拿 kv_var 当标签显示，数据里 136 种英文写法会让用户
+# 看到 SUBJECT / ACCENT SYMBOL 这样的英文框名。这张表给出统一中文名，顺便把
+# 「模型参数」和「段落标记」从用户视野里清掉。
+#
+# type:
+#   input  —— 真给用户填的，必须有 zh
+#   param  —— 决定风格本身的固定参数（镜头/质感/负面词/尺寸），转成 prompt 常量
+#   marker —— 段落标记 / 图层标记被误写成变量，删掉占位符
+#
+# 同义写法（下划线 vs 空格、大写 vs 小写）各自列一条，指向同一个中文名——
+# 表是 1:1 查表，不做别名展开，省得脚本里再藏一层规则。
+#
+# 改完跑： python3 scripts/migrate_variables_spec.py --labels-only --check
+
+# ---------- P1：54 个风格共用的模板族（378 条，占 62%） ----------
+SUBJECT:
+  zh: 画面主体
+  type: input
+SUBJECT_ACTION:
+  zh: 主体动作
+  type: input
+PRODUCT_OR_PROP:
+  zh: 产品/道具
+  type: input
+LOCATION:
+  zh: 场景地点
+  type: input
+BACKGROUND_ELEMENTS:
+  zh: 背景元素
+  type: input
+MAIN_TEXT:
+  zh: 主文案
+  type: input
+ACCENT SYMBOL:
+  zh: 点缀符号
+  type: input
+# 与 PRODUCT_OR_PROP 同义（空格写法），归到同一个中文名
+PRODUCT OR PROP:
+  zh: 产品/道具
+  type: input
+# 与 SUBJECT_ACTION 同义（空格写法）
+SUBJECT ACTION:
+  zh: 主体动作
+  type: input
+
+# ---------- P2：出现 2-8 次 ----------
+Slogan:
+  zh: 标语
+  type: input
+additional scene details:
+  zh: 补充场景细节
+  type: input
+main title:
+  zh: 主标题
+  type: input
+sport:
+  zh: 运动类型
+  type: input
+mood:
+  zh: 情绪氛围
+  type: input
+props:
+  zh: 道具
+  type: input
+subject type:
+  zh: 主体类型
+  type: input
+subject override:
+  zh: 画面补充描述
+  type: input
+subject spec:
+  zh: 画面主体
+  type: input
+
+# ---------- param：模型参数，转常量 ----------
+NEGATIVE PROMPT:
+  type: param
+  const: watermarks, real logos, low quality, distorted text
+  note: Vigo 模板标配的负面词，普通用户不会自己填
+LENS STYLE:
+  type: param
+  const: fisheye lens, ultra-wide, low camera angle
+  note: 鱼眼是这批风格的核心锚点，开放给用户调就失去风格了
+TEXTURE LEVEL:
+  type: param
+  const: strong analog grain and color fringing
+  note: 同上，属于风格质感锚点
+size spec:
+  type: param
+  note: 输出尺寸由画布工具统一定，prompt 里不留槽位
+
+# ---------- marker：段落/图层标记，删占位符 ----------
+Visual Requirements:
+  type: marker
+  note: prompt 里独立成段，后面紧跟的就是整段要求，槽位本身无内容
+Main Design:
+  type: marker
+Environmental Integration:
+  type: marker
+Characters and Narrative:
+  type: marker
+Poster Composition:
+  type: marker
+White Poster Text:
+  type: marker
+  note: 同上，brand_miniature_architecture 把 6 个段落标题写成了槽位
+back:
+  type: marker
+  note: 'Depth order: {back} ... {front} 是图层顺序标记，不是用户输入'
+front:
+  type: marker
+
+# ---------- P3：只出现 1 次 ----------
+travel scene elements:
+  zh: 旅行场景元素
+  type: input
+season and mood:
+  zh: 季节与情绪
+  type: input
+traveler characteristics:
+  zh: 旅人特征
+  type: input
+PRODUCT TEXTURE:
+  zh: 产品质感
+  type: input
+TYPOGRAPHY LANGUAGE:
+  zh: 字体语言
+  type: input
+brand tagline:
+  zh: 品牌标语
+  type: input
+graphic element:
+  zh: 图形元素
+  type: input
+side text:
+  zh: 侧边文字
+  type: input
+center visual:
+  zh: 中心视觉
+  type: input
+bg color:
+  zh: 背景色
+  type: input
+SUBJECT_IDENTITY:
+  zh: 主体身份
+  type: input
+athlete:
+  zh: 运动员
+  type: input
+action:
+  zh: 动作
+  type: input
+stats:
+  zh: 数据表现
+  type: input
+subtext:
+  zh: 辅助文案
+  type: input
+city:
+  zh: 城市
+  type: input
+landmark:
+  zh: 地标
+  type: input
+foreground element:
+  zh: 前景元素
+  type: input
+foreground prop:
+  zh: 前景道具
+  type: input
+shoes:
+  zh: 鞋履
+  type: input
+flowers:
+  zh: 花卉
+  type: input
+flying animals:
+  zh: 飞鸟走兽
+  type: input
+products:
+  zh: 产品
+  type: input
+product color:
+  zh: 产品颜色
+  type: input
+SCENERY:
+  zh: 场景
+  type: input
+PALETTE:
+  zh: 配色
+  type: input
+SLOGAN:
+  zh: 标语
+  type: input
+key information:
+  zh: 关键信息
+  type: input
+bottom notice:
+  zh: 底部说明
+  type: input
+emotion:
+  zh: 情绪
+  type: input
+art style:
+  zh: 艺术风格
+  type: input
+lighting:
+  zh: 光线
+  type: input
+activities:
+  zh: 活动
+  type: input
+art style description:
+  zh: 艺术风格描述
+  type: input
+mood description:
+  zh: 情绪描述
+  type: input
+setting and elements:
+  zh: 场景与元素
+  type: input
+lighting type:
+  zh: 光线类型
+  type: input
+subject activities:
+  zh: 主体活动
+  type: input
+emotion and atmosphere:
+  zh: 情绪与氛围
+  type: input
+surrounding environment:
+  zh: 周边环境
+  type: input
+medium and technique:
+  zh: 媒介与技法
+  type: input
+overall aesthetic:
+  zh: 整体美学
+  type: input
+CITY NAME:
+  zh: 城市名称
+  type: input
+PRODUCT NAME:
+  zh: 产品名称
+  type: input
+DESCRIPTION:
+  zh: 描述
+  type: input
+product series:
+  zh: 产品系列
+  type: input
+flavor 1:
+  zh: 口味一
+  type: input
+flavor 2:
+  zh: 口味二
+  type: input
+flavor 3:
+  zh: 口味三
+  type: input
+flavor 4:
+  zh: 口味四
+  type: input
+bg color 1:
+  zh: 背景色一
+  type: input
+bg color 2:
+  zh: 背景色二
+  type: input
+bg color 3:
+  zh: 背景色三
+  type: input
+bg color 4:
+  zh: 背景色四
+  type: input
+Slogan 1:
+  zh: 标语一
+  type: input
+Slogan 2:
+  zh: 标语二
+  type: input
+main herb:
+  zh: 主要草本
+  type: input
+secondary ingredient:
+  zh: 辅助食材
+  type: input
+background element:
+  zh: 背景元素
+  type: input
+background scene:
+  zh: 背景场景
+  type: input
+tea utensil:
+  zh: 茶器
+  type: input
+auxiliary text:
+  zh: 辅助文字
+  type: input
+stamp text:
+  zh: 印章文字
+  type: input
+EVERYDAY OBJECT:
+  zh: 日常物品
+  type: input
+pop culture vehicle:
+  zh: 流行文化载具
+  type: input
+country:
+  zh: 国家
+  type: input
+Supporting Line:
+  zh: 辅助文案
+  type: input
+city landmark or theme:
+  zh: 城市地标或主题
+  type: input
+person type:
+  zh: 人物类型
+  type: input
+surface texture:
+  zh: 表面质感
+  type: input
+lip expression:
+  zh: 唇部表情
+  type: input
+hair description:
+  zh: 发型描述
+  type: input
+outfit description:
+  zh: 服装描述
+  type: input
+bottoms description:
+  zh: 下装描述
+  type: input
+head accessory:
+  zh: 头部配饰
+  type: input
+drink color:
+  zh: 饮品颜色
+  type: input
+garnish:
+  zh: 装饰配料
+  type: input
+straw type:
+  zh: 吸管类型
+  type: input
+accessories on hands:
+  zh: 手部配饰
+  type: input
+footwear description:
+  zh: 鞋履描述
+  type: input
+time of day:
+  zh: 时段
+  type: input
+outfit:
+  zh: 服装
+  type: input
+setting mood:
+  zh: 场景情绪
+  type: input
+Logo:
+  zh: 标识
+  type: input
+TEXT:
+  zh: 文字
+  type: input
+text:
+  zh: 文字
+  type: input
+FASHION SUBJECT:
+  zh: 时尚主体
+  type: input
+ATELIER CODE:
+  zh: 工坊代号
+  type: input
+DIRECTION TYPE:
+  zh: 版式类型
+  type: input
+MODEL DESCRIPTION:
+  zh: 模特描述
+  type: input
+PROP:
+  zh: 道具
+  type: input
+ELEMENTS:
+  zh: 元素
+  type: input
+scene description:
+  zh: 场景描述
+  type: input
+title text:
+  zh: 标题文字
+  type: input
+DOODLE COMPANION:
+  zh: 涂鸦伙伴
+  type: input
+DOODLE SCALE:
+  zh: 涂鸦大小
+  type: input
+LIGHT SOURCE:
+  zh: 光源
+  type: input
+ENGLISH TEXT:
+  zh: 英文文案
+  type: input
+PRODUCT CATEGORY:
+  zh: 产品品类
+  type: input
+DELIVERY FORMAT:
+  zh: 产品形态
+  type: input
+PRIMARY COLOR:
+  zh: 主色
+  type: input
+SECONDARY COLOR:
+  zh: 辅色
+  type: input
+FLAVOR NAME:
+  zh: 口味名称
+  type: input
+GARNISH ELEMENT:
+  zh: 装饰配料
+  type: input
+ACCENT DESCRIPTION:
+  zh: 点缀元素
+  type: input
+sub brand:
+  zh: 子品牌
+  type: input

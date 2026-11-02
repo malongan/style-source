@@ -36,11 +36,11 @@ prompt: |
   不要水印，不要真实Logo。
 
 variables:
-- kv_var: city
+- kv_var: 城市
   style_var: '{city}'
-- kv_var: landmark
+- kv_var: 地标
   style_var: '{landmark}'
-- kv_var: foreground element
+- kv_var: 前景元素
   style_var: '{foreground_element}'
 source_url: "https://x.com/Taaruk_/status/2091034664203133243"
 source_author: "Taaruk_"
