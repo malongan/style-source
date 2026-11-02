@@ -128,7 +128,9 @@ source_author: "@{作者名}"
 ### 4.4 变量格式
 
 > 🔴 **强制规范见 [`docs/PROMPT_VARIABLES_SPEC.md`](docs/PROMPT_VARIABLES_SPEC.md)，本节只是速查表。**
-> 提交前必须通过 `python3 scripts/audit_variables.py`（无「声明落空」告警）。
+> 这些变量由 WorkBuddy 插件「风格库」消费（用户填完点「插入提示词」，插件做字符串替换后插到画布）——
+> 所以写错不会有人报错，只会「填了没反应」或「没有输入框」。提交前必须通过
+> `python3 scripts/audit_variables.py --strict`（无「声明落空」告警）。
 
 | 位置 | 格式 | 正例 | 反例 |
 |------|------|------|------|
