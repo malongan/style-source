@@ -1,7 +1,7 @@
-# Lululemon 高端运动服 Campaign Board
+# 高端运动服 Campaign Board
 
 id: lululemon_campaign_board
-name: "Lululemon 高端运动服营销企划板"
+name: "高端运动服营销企划板"
 category: brand_kv
 
 tags:
@@ -22,37 +22,53 @@ features:
   - "**1大+6小网格布局** — 一张大型横幅主视觉作为画面核心，下方排列六张小尺寸面板，整体呈编辑系统感"
   - "**粉紫色调+炭黑底色** — 淡粉紫、薰衣草、象牙白、浆果色点缀，冷调高端运动感"
   - "**超写实运动员** — 健康西方模特，真实解剖结构，时尚运动姿态，前卫动感"
-  - "**叙事性大字体排版** — LULULEMON / FORM LEADS FORCE 等大字与图形元素交织"
+  - "**叙事性大字体排版** — 大字标语与图形元素交织，字号层级拉开"
   - "**手绘线条点缀** — 笔触下划线、动感曲线、符号图形与人物/文字互动"
 
 scene: "品牌KV设计、运动服Campaign、时尚海报、零售广告"
 ratio: "9:16"
 summary: "以大型横幅 + 六个小面板网格构成的品牌营销企划板，粉紫色调搭配超写实运动员，叙事性排版 + 手绘线条元素，呈现高端运动时尚的编辑感视觉"
 
+variables:
+  - kv_var: 品牌名
+    style_var: "{品牌名}"
+    desc: 如：LULULEMON / 山野 / ATELIER MOVE
+  - kv_var: 产品品类
+    style_var: "{产品品类}"
+    desc: 如：瑜伽裤与运动背心 / 跑步外套 / 训练紧身衣
+  - kv_var: 模特描述
+    style_var: "{模特描述}"
+    desc: 如：一位健康紧实的女性运动员 / 两名背对镜头的跑者
+  - kv_var: 主标语
+    style_var: "{主标语}"
+    desc: 如：FORM LEADS FORCE / 力量先于形态 / MOVE WITH CLARITY
+  - kv_var: 辅标语
+    style_var: "{辅标语}"
+    desc: 如：MOTION HOLDS SHAPE / STRUCTURE IN FLOW / 静止也是训练
+  - kv_var: 配色
+    style_var: "{配色}"
+    desc: 如：淡粉紫与象牙白 / 雾蓝与炭黑 / 沙色与深橄榄
+
 prompt: |
-  Create a high-end Lululemon Athletica campaign board with one large hero banner and six smaller supporting panels on a minimalist pure-color background.
+  9:16 高端运动品牌 campaign 企划板：一张大型横幅主视觉加六张小面板，全部压在极简纯色背景上。
 
-  Layout: Large horizontal hero banner dominates the upper section, six smaller panels arranged in a clean grid below. The composition feels organized, rhythmic, and premium like a complete seasonal campaign presentation.
+  版式：上方是横贯整幅的大型 hero 横幅，下方六个小面板排成整齐网格，间距一致、边缘对齐，整体像一套完整的季度 campaign 提案，节奏有序、昂贵。
 
-  Color system: cool pink-lilac, powder lavender, ivory white, deep charcoal black, with small controlled accents of soft berry or silver-gray. Clean, elevated, and contemporary.
+  配色：{配色}。纯色或极浅的扁平面背景，不出现真实场景，不出现杂乱环境。
 
-  Hero banner: A healthy Western female athletic model as the main campaign face with realistic anatomy, strong fit physique, modern facial structure, and poised editorial presence. Authentic Lululemon Athletica apparel rendered with premium realism. Large modern English typography interacts with the figure in a bold but elegant way.
+  Hero 横幅：{模特描述}作为主视觉面孔，解剖结构真实，体型紧实有力，面部现代、表情克制，具备编辑级存在感；身穿{品牌名}的{产品品类}，面料质感、缝线、光泽都按高保真还原。大型现代排版与人物咬合穿插，字可以压在人物身上，但保持清晰可读。
 
-  Six supporting panels: Each tile shows a different supporting story through movement, product emphasis, or graphic narrative — stretching poses, crouching action, standing balance, footwear detail, motion-focused dynamic panel, and product-centric slogan panel. Each follows the same Lululemon visual family.
+  六个小面板：每格讲一个不同的支撑故事——伸展、蹲起发力、静止平衡、鞋履细节、动态运动、产品标语，各自独立又同属一套视觉家族。
 
-  Typography: Large modern English words and phrases with refined hierarchy and editorial placement. Text directions: "LULULEMON", "ATHLETICA", "FORM LEADS FORCE", "MOTION HOLDS SHAPE", "MOVE WITH CLARITY", "STRUCTURE IN FLOW". Clean, contemporary, bold, and premium.
+  排版：大字标语用现代无衬线，层级分明，编辑式摆放。主标语「{主标语}」字号最大，与人物形成前后穿插；辅标语「{辅标语}」用较小字号分布在面板边缘，字距收紧。
 
-  Hand-drawn narrative graphics: Refined hand-drawn text elements, brush underlines, motion curves, symbolic marks, calligraphic linework, and graphic loops integrated into the layout.
+  手绘叙事图形：笔触下划线、动感曲线、符号标记、书法线条与图形环，与人物和文字互动，像直接画在版面上。
 
-  Background: Minimal pure-color or soft gradient-flat background, highly structured and contemporary. No realistic scenery or busy environment.
+  光线：通篇明亮的高级编辑打光，人物与产品在干净色场上显得锐利、真实、有质感。
 
-  Lighting: Bright premium editorial lighting across the entire board. Each figure and product feels hyper-real, crisp, and premium against clean color fields.
+  调性：结构化、高端、运动、时尚前卫、当代、图形化、编辑感、年轻、克制、有冲击力。
 
-  Mood: structured, premium, athletic, fashion-forward, contemporary, graphic, editorial, youthful, disciplined, high-impact, polished, intelligently designed.
-
-  Rendering style: hyper-real Lululemon Athletica campaign board, one large hero banner plus six smaller panels, minimalist pure-color background system, expressive narrative typography, hand-drawn storytelling graphics, cool pink-lilac and ivory palette, premium sportswear realism, avant-garde fashion-sport editorial, 8k, world-class campaign quality.
-
-  Negative prompt: messy collage, inconsistent layout, weak hierarchy, cluttered background, cheap fitness ad, distorted anatomy, broken limbs, bad hands, extra fingers, twisted joints, influencer look, generic sportswear, low-detail fabric, cartoon doodles, chaotic grid, muddy colors, blurry shoes, dirty shadows, black blotches.
+  负向：杂乱拼贴、版式不统一、层级薄弱、背景拥挤、廉价健身房广告、解剖错误、断肢、坏手、多余手指、关节扭曲、网红感、面料细节糊、颜色浑浊、阴影脏。
 
   不要水印，不要真实Logo，不要电商广告感。
 

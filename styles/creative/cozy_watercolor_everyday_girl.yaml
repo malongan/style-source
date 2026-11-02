@@ -30,24 +30,34 @@ features:
   - "**人物小而留白多** — 主体在画布中占比小，大量干净负空间"
   - "**漂浮水彩点缀** — 细小的漂浮水彩斑点、蝴蝶、花朵、树叶"
   - "**日系文具感排版** — 日系文具插画风格，极简编辑设计氛围"
-  - "**场景示例** — 蹲在蓝玫瑰旁/抱花束站立/大树下闭目/伸手摘苹果提篮子"
+  - "**场景可定制** — 日常小动作即可成画，不必是宏大场面"
 
 scene: "品牌KV、社交媒体图文、生活方式内容、日系文具风海报、故事绘本插画"
 ratio: "4:5"
 summary: "象牙手工水彩纸上的柔和粉彩日常女孩——小人物大留白、漂浮水彩点缀、日系文具感编辑插画"
 
+variables:
+  - kv_var: 场景
+    style_var: "{场景}"
+    desc: 如：蹲在蓝玫瑰旁轻触一朵花 / 树下闭眼小憩 / 伸手去够枝头的苹果
+  - kv_var: 服装
+    style_var: "{服装}"
+    desc: 如：宽松风衣叠穿米色针织 / 开衫配长裙 / 宽腿裤加乐福鞋
+  - kv_var: 点缀物
+    style_var: "{点缀物}"
+    desc: 如：蝴蝶与落叶 / 花瓣与水彩斑点 / 几只小鸟
+
 prompt: |
   Minimalist watercolor illustration on textured ivory handmade paper, soft pastel palette, delicate ink outlines, subtle watercolor bleeding, cozy storybook aesthetic, lots of clean negative space.
-  A stylish young woman in modern casual clothing is the main subject, captured in a calm, emotional everyday moment. She wears an oversized trench coat or cardigan layered over soft neutral clothing, a long flowing skirt or wide-leg pants, leather loafers or ankle boots, and a simple crossbody bag. Medium-length natural hair gently frames her face.
-  The composition is intentionally small within the canvas, leaving generous empty space around the character. Soft expressive pose with gentle emotions, surrounded by tiny floating watercolor splashes, subtle butterflies, flowers, leaves, or seasonal elements depending on the scene.
-  Examples of scenes:
-  • Squatting beside a bouquet of blue roses while gently touching one flower.
-  • Standing quietly while holding a wrapped bouquet against her chest.
-  • Resting peacefully beneath a large tree with eyes closed.
-  • Reaching upward toward a single apple hanging from a tree branch while carrying a basket of freshly picked apples.
+
+  A stylish young woman in modern casual clothing is the main subject, captured in a calm, emotional everyday moment. She wears {服装} and a simple crossbody bag. Medium-length natural hair gently frames her face.
+
+  The scene: {场景}。Keep the pose soft and expressive with gentle emotions, surrounded by tiny floating {点缀物} that suit the season.
+
+  The composition is intentionally small within the canvas, leaving generous empty space around the character.
+
   Hand-painted watercolor textures, soft shadows, elegant brush strokes, muted earthy colors, warm natural atmosphere, peaceful lifestyle illustration, Japanese stationery art style, minimal editorial illustration, whimsical yet realistic proportions, premium watercolor painting, ultra-detailed, 8K.
 
-variables: []
 source_url: "https://x.com/Sairah_0/status/2086047521588265370"
 source_author: "Sairah_0"
 

@@ -20,28 +20,35 @@ triggers:
 
 features:
   - "**黑白网点肖像** — 密集点刻、交叉影线、粗糙墨线、手绘漫画线条，黑白灰调"
-  - "**粗体红色字体** — 中央横穿面部，血红色 VINTAGE 大字，粗黑轮廓，粗细不规则"
+  - "**粗体红色大字** — 中央横穿面部，粗黑轮廓，粗细不规则，字面带裂纹"
   - "**磨损印刷质感** — 纸张颗粒、划痕、雀斑、墨迹不完美、丝网印刷劣化"
   - "**高对比构图** — 近景特写居中，背景几乎全黑，仅细微灰尘/划痕"
-  - "**70-80年代地下漫才美学** — 反叛朋克海报能量，单色墨水艺术+粗体红色字体"
+  - "**70-80年代地下漫画美学** — 反叛朋克海报能量，单色墨水艺术 + 粗体彩色大字"
 
 scene: "社交媒体头像、朋克风KV、地下音乐海报、反文化主题活动"
 ratio: "4:5"
-summary: "以 70-80 年代地下漫画与朋克 zine 为灵感，黑白网点肖像叠加粗体红色 VINTAGE 大字，磨损丝网印刷质感的复古朋克海报风格"
+summary: "以 70-80 年代地下漫画与朋克 zine 为灵感，黑白网点肖像叠加粗体彩色大字，磨损丝网印刷质感。"
+
+variables:
+  - kv_var: 人物描述
+    style_var: "{人物描述}"
+    desc: 如：一位蓄浓须的粗犷男性正对镜头 / 一位短发女性怒视镜头
+  - kv_var: 大字
+    style_var: "{大字}"
+    desc: 如：VINTAGE / 反骨 / PUNK 77
+  - kv_var: 大字颜色
+    style_var: "{大字颜色}"
+    desc: 如：血红 / 荧光橙 / 暗金
 
 prompt: |
-  Create a high-contrast vintage underground editorial poster in a black-and-white 1970s/80s underground comic and punk-zine aesthetic. Centered is a dramatic close-up portrait of a rugged bearded man, facing directly toward the camera, with thick wavy dark hair, heavy eyebrows, prominent nose, full mustache and textured beard. His expression is serious, intense, and stoic.
+  4:5 高对比复古地下海报，1970/80 年代黑白地下漫画与朋克 zine 的美学。画面正中是{人物描述}的近景特写，紧绷裁剪，正面直视镜头，表情严肃、强烈、克制。
 
-  Render the portrait entirely in black, white, and gray halftone shading, using dense stippling, cross-hatching, rough ink strokes, distressed print textures, and hand-illustrated comic-book linework. Add subtle paper grain, scratches, speckles, ink imperfections, and worn screen-print artifacts throughout.
+  肖像完全用黑、白、灰的网点调子渲染：密集点刻、交叉影线、粗糙墨线、手绘漫画线条，通篇叠加纸张颗粒、划痕、斑点、墨迹瑕疵和磨损的丝网印刷痕迹。
 
-  Across the center of the face, place enormous bold red typography reading "VINTAGE", stretching almost edge-to-edge. Use a dramatic condensed vintage serif / Western gothic display font, slightly irregular and warped, with thick black outline/shadow. The red letters should have cracked, distressed textures and small black fracture lines, giving the typography an aged, weathered print appearance.
+  在脸部中央横压一行巨大的{大字颜色}大字「{大字}」，几乎顶到两侧边缘。字体用戏剧化的压缩复古衬线或西部哥特展示体，略不规则、略带变形，带厚重的黑色轮廓与投影。字面要有干裂的做旧纹理和细小的黑色断痕，像被岁月磨过的印刷品。
 
-  Keep the background almost completely black with subtle grain, dust, scratches, and tiny distressed white marks. Strong symmetrical composition, frontal portrait, extreme close-up, gritty underground magazine cover aesthetic, rebellious punk poster energy, high detail, screen-print texture, analog print imperfections, dramatic contrast.
+  背景几乎全黑，只有细微的颗粒、灰尘、划痕和零星的白色破损点。强对称构图，正面肖像，极端特写，粗粝的地下杂志封面气质，反叛的朋克海报能量，高细节，丝网印刷质感，模拟印刷的不完美，戏剧化对比。
 
-  Composition: vertical poster, centered face, typography dominating the middle, face partially obscured behind the word, tightly cropped portrait.
-
-  Aspect ratio: 4:5
-  Style: vintage punk zine, underground comic illustration, distressed screen print, halftone engraving, monochrome ink artwork with bold blood-red typography.
   不要水印，不要真实Logo，不要电商广告感。
 
 source_url: "https://x.com/arsalannazir07/status/2087120068648042768"

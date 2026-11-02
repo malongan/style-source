@@ -33,11 +33,22 @@ ratio: "3:4 或 2:3"
 summary: "融合石墨素描现实主义与高端数字绘画的当代肖像插画，精致的结构线与松散笔触并存，呈现博物馆级混合媒体质感"
 
 prompt: |
+  主体：{主体}，{姿态情绪}。背景由{背景形状}构成。
+
   Masterfully handcrafted contemporary portrait illustration blending refined graphite sketch realism with ultra-premium painterly digital art. Delicate construction lines, loose exploratory pencil strokes, soft cross-hatching, and expressive sketch marks remain subtly visible beneath highly refined rendering. Smooth sculpted facial anatomy with elegant semi-realistic anime influence, luminous porcelain skin, silky volumetric shading, and cinematic soft lighting. Hair rendered with flowing individual strands, combining sketch-like gesture with luxurious satin highlights and subtle reflective sheen. Painterly brushwork merges seamlessly with crisp draftsmanship, balancing unfinished artistic spontaneity and polished realism. Minimalist abstract background composed of clean geometric brushstrokes, soft angular shapes, layered translucent paint, and subtle metallic-inspired accent strokes. Muted monochromatic palette with cool blue-gray, ivory, soft charcoal, warm off-white, and gentle neutral tones. Sophisticated editorial illustration aesthetic, museum-quality mixed-media finish, refined negative space, elegant composition, premium concept-art craftsmanship, handcrafted rather than photographic, ultra-detailed, timeless, atmospheric, and emotionally understated.
 
   不要水印，不要真实Logo，不要电商广告感，不要乱码。
 
-variables: []
+variables:
+  - kv_var: 主体
+    style_var: "{主体}"
+    desc: 如：一位侧头凝视的女性 / 一名低头的少年 / 抱膝坐着的人
+  - kv_var: 姿态情绪
+    style_var: "{姿态情绪}"
+    desc: 如：下巴微抬、目光坚定 / 垂眼、情绪内敛 / 手指轻触下颌
+  - kv_var: 背景形状
+    style_var: "{背景形状}"
+    desc: 如：几块斜向的几何笔触 / 柔和的圆弧叠片 / 层叠的半透明矩形
 
 source_url: "https://x.com/HustleXR/status/2076531542923653200"
 source_author: "HustleXR"

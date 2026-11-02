@@ -19,18 +19,38 @@ triggers:
   - 日料海报
 
 features:
-  - "**冷色调蓝黑氛围** — 深蓝黑背景，冷调奢华感，高端omakase餐厅调性"
+  - "**冷色调蓝黑氛围** — 深蓝黑背景，冷调奢华感，高端 omakase 餐厅调性"
   - "**强逆光光影** — 穿透冷雾的光晕，食材边缘透光，散景光斑"
   - "**冷雾与凝结感** — 冷蒸汽、凝结雾气、悬浮微粒，氛围深邃"
-  - "**极致食材写实** — 鱼生纹理、半透明鱼肉、湿性反光、精确刀工"
+  - "**极致食材写实** — 纹理、半透明质感、湿性反光、精确刀工"
   - "**前后景深分层** — 前景柔焦、中景主体清晰、背景消失在黑暗中"
 
 scene: "日料品牌海报、omakase餐厅KV、高端美食广告"
 ratio: "3:4"
-summary: "GPT Image 2 的日料电影感美食摄影，蓝黑冷色调 + 强逆光穿透冷雾 + 极致写实食材"
+summary: "日料电影感美食摄影，蓝黑冷色调 + 强逆光穿透冷雾 + 极致写实食材"
+
+variables:
+  - kv_var: 菜品
+    style_var: "{菜品}"
+    desc: 如：厚切三文鱼与金枪鱼刺身 / 一碟海胆配鱼子 / 炙烤和牛握寿司
+  - kv_var: 容器
+    style_var: "{容器}"
+    desc: 如：一只深色日式陶碗 / 一块黑色石板 / 一只薄胎白瓷碟
+  - kv_var: 主标题
+    style_var: "{主标题}"
+    desc: 如：冷 · 鲜 / OMAKASE / 一夜干
 
 prompt: |
-  Create an ultra-premium cinematic food advertising poster for Japanese cuisine, focused on a cold-toned sashimi and raw seafood concept with a blue-black luxury atmosphere, extreme ingredient realism, and master-level backlit mist, condensation, and airborne particle detail. The image should feel like a frame from a high-end food film: luminous, cold, precise, atmospheric, and spatially deep. The key priority is strong cinematic backlight, translucent cold vapor, and a rich sense of foreground-to-background depth. Main composition: Use a vertical premium food-poster composition against a deep blue-black background. In the lower center, place one elegant dark Japanese serving bowl or refined ceramic vessel as the visual anchor. From the bowl, raw seafood ingredients rise upward in a controlled, graceful burst, surrounded by cold mist, condensation haze, and suspended micro particles. The composition should have clear spatial layering: a softly blurred foreground edge, a sharply rendered midground hero dish, and a luminous atmospheric background receding into darkness and mist. Food direction: Create a luxurious Japanese sashimi-inspired composition with premium raw ingredients such as: thick-cut salmon sashimi, tuna cubes or slices, delicate white fish, microgreens, seaweed strands, shiso leaves, purple edible flowers, ikura accents, daikon threads, small citrus details, micro droplets and chilled glaze reflections. The food should feel rare, expensive, and masterfully prepared, suggesting elite omakase dining. Ingredient realism: Push ingredient realism to the highest level: silky fish grain, cool translucent flesh, wet reflective seafood surfaces, precise knife-cut geometry, micro condensation, tiny water beads, leaf fibers, fresh marbling, subtle natural moisture, cold reflective highlights. The food must look alive, fresh, chilled, and premium. Backlight and cinematic lighting: Use strong cinematic backlight passing through the cold mist, condensation haze, and airborne salt-like particles. The light should create a luminous halo around floating ingredients, translucent edges on sashimi slices, glowing droplets, and delicate particle sparkle in the air. Use a combination of cool backlight, subtle side light, and complementary front fill.
+  3:4 超高端日料电影感美食广告海报，冷调、蓝黑奢华氛围，极致的食材写实，以及大师级的逆光冷雾、凝结与悬浮微粒。整张图应该像一部高端美食电影的定格：通透、冷峻、精准、有空气感、空间纵深强烈。核心优先级是强烈的电影逆光、半透明的冷蒸汽，以及从前景到背景的丰富层次。
+
+  构图：竖版高端食品海报，深蓝黑背景。画面下方居中放{容器}作为视觉锚点，容器里是{菜品}；食材从容器向上做一次克制而优雅的绽放，四周环绕冷雾、凝结雾气和悬浮的微粒。空间分层明确：前景边缘柔焦，中景主体锐利，背景的光晕向黑暗与雾中退去。
+
+  食材写实：把真实感推到极致——细腻的鱼肉纹理、冷调的半透明肉质、湿润反光的表面、精确的刀工几何、微小的凝结水珠、叶片纤维、新鲜的大理石纹、自然的湿度、冷调的反射高光。食材必须看起来鲜活、冰凉、昂贵。
+
+  光线：强电影逆光穿过冷雾与凝结尾迹，在食材边缘形成透光的光晕；侧光补出结构的冷硬转折；正面的补光极轻，只够看清层次。散景光斑在背景里漂浮。
+
+  调性：稀有、昂贵、克制，暗示顶级 omakase 的用餐体验。主标题「{主标题}」以极小的字号压在画面一角，安静、不抢食物。
+
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
 
 source_url: "https://x.com/ou_zhen599/status/2074912308313325819"

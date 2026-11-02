@@ -21,28 +21,40 @@ triggers:
   - 国风插画
 
 features:
-  - "**两位飞天乐女** — 对角线构图，上方持横笛，下方抱琵琶，S形身姿连绵如一"
-  - "**敦煌矿物色体系** — 淡青、灰绿、褐红、，象牙白、墨灰统一调性，低饱和古雅"
+  - "**两位飞天乐女** — 对角线构图，上者持笛，下者抱琵琶，S形身姿连绵如一"
+  - "**敦煌矿物色体系** — 淡青、灰绿、褐红、象牙白、墨灰统一调性，低饱和古雅"
   - "**敦煌残壁质感** — 斑驳风化墙肌理，淡化轮廓，颜料晕染，博物馆级古画还原"
   - "**面部/手部/乐器清晰度强化** — 眼神先于装饰被捕捉，神圣乐舞核心突出"
   - "**大留白可呼吸空间** — 周围云纹、飘带稀疏布置，主体悬浮于永恒空间"
 
 scene: "品牌KV、文化海报、展演主视觉、国风文创、古典艺术再创作"
 ratio: "3:4"
-summary: "博物馆级敦煌壁画风格，两位飞天乐女对角悬浮，横笛琵琶S形连绵，矿物颜料古雅低饱和，斑驳残壁质感，敦煌飞天壁画风格"
+summary: "博物馆级敦煌壁画风格，两位飞天乐女对角悬浮，乐器 S 形连绵，矿物颜料古雅低饱和，斑驳残壁质感。"
+
+variables:
+  - kv_var: 上方乐伎
+    style_var: "{上方乐伎}"
+    desc: 如：持横笛 / 吹排箫 / 捧笙
+  - kv_var: 下方乐伎
+    style_var: "{下方乐伎}"
+    desc: 如：抱琵琶 / 弹箜篌 / 击腰鼓
+  - kv_var: 矿物主色
+    style_var: "{矿物主色}"
+    desc: 如：淡青与褐红 / 灰绿与赭石 / 石青配象牙白
 
 prompt: |
-  Create an ultra-premium vertical Chinese ink-and-light-color mural-style painting that preserves the exact core structure, ancient fresco atmosphere, and floating musical-divine elegance of the image, while strengthening the first-glance focus on the two celestial musicians and unifying the whole picture into a more rigorous ancient mural color system.
+  超高端竖版中国水墨淡彩壁画，保留古壁画的氛围与飞天乐舞的飘逸感，但把第一眼的焦点收紧到两位天上乐伎身上，并把整幅画统一进一套更严格的古代壁画色系。
 
-  Core composition: Use a tall vertical composition with the two women arranged along a descending diagonal from upper-left to lower-right. The upper figure floats slightly higher and plays a transverse flute; the lower figure hovers beneath and plays a pipa-like lute. Their bodies curve in elegant S-shaped arcs, with long ribbons and trailing skirts weaving through the composition and linking them into one continuous celestial rhythm. Around them, place clusters of pale auspicious clouds and a few muted lotus-rosette motifs dispersed across the background.
+  核心构图：高竖构图，两位成年东方飞天乐女沿一条从左上到右下的对角线依次排布。上方的乐伎浮得略高，{上方乐伎}；下方的乐伎悬在其下，{下方乐伎}。两人的身体弯成优雅的 S 形弧线，长长的飘带与拖曳的裙裾在画面里穿插，把她们连成一段连续的天上韵律。四周散落几簇淡色祥云与少量褪色的莲花团花纹。
 
-  Figure design: Depict two unmistakably adult eastern celestial women with mature refined classical features, slender necks, soft oval faces, lowered eyes, and serene inward expressions. Their hair in elegant high ancient updos with minimal refined head ornaments. Dress in ancient celestial dance-musician attire: lightly draped upper garments, flowing translucent shawls, long ribbon scarves, and elegant layered skirts in faded mineral teal, dusty blue-green, muted rose-brown, pale earth red, and aged ivory.
+  人物：两位明确成年的东方飞天女性，成熟的古典五官，细颈、柔和的椭圆脸、低垂的眼、安静内收的神情。发式为高耸的古代盘发，只配极简的发饰。衣着为古代飞天乐伎的形制：轻披的上衣、飘动的半透明披帛、长条飘带、层次分明的长裙，颜色取褪色的矿物青、灰蓝绿、柔褐红、旧象牙白。
 
-  Transit visual system: Unify the entire image into a stricter ancient mural color system — mineral teal, dusty blue-green, softened rose-brown, aged ivory, pale ink-gray — deliberately harmonized with no stray saturation.
+  色系：整幅统一到更严格的古壁画色——{矿物主色}，以及淡墨灰，故意调和过，不出现任何跳脱的饱和度。
 
-  Painting language: Render in traditional Chinese mural-inspired ink-and-light-color technique on aged wall texture: ink as structure, soft mineral washes, faded earth pigments, delicate contour lines, cloud-scroll motifs, low-saturation chroma, gentle weathering. Background resembles an aged mural ground with subtle irregular stains, patina, faint rubbed areas, and soft time-wear.
+  绘画语言：传统中国壁画的墨线加淡彩，画在年代久远的墙面肌理上：墨线立骨，柔和的矿物颜料薄薄罩染，褪色的土质颜料，细腻的轮廓线，云头纹样，低饱和的彩度，温和的风化。背景像一段老壁画的地仗层，带有轻微的不规则污渍、斑驳、磨损失色的地方与时间留下的柔痕。
 
-  Mood: ancient, sacred, musical, floating, mural-like, serene, elegant, faded, poetic, celestial, refined, museum-grade, timeless.
+  情绪：古老、神圣、乐舞、悬浮、壁画感、安静、优雅、褪色、诗意、天上、精炼、博物馆级、永恒。
+
   不要水印，不要真实Logo，不要可读文字。
 
 source_url: "https://x.com/ou_zhen599/status/2087144910759792712"

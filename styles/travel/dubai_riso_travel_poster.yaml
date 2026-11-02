@@ -1,7 +1,7 @@
-# 迪拜城市旅行海报 Risograph 风格
+# 城市旅行海报 Risograph 风格
 
 id: dubai_riso_travel_poster
-name: "迪拜城市旅行海报 Risograph 风格"
+name: "城市旅行海报 Risograph 风格"
 category: travel
 
 tags:
@@ -13,7 +13,7 @@ tags:
 
 triggers:
   - Risograph旅行海报
-  - 迪拜城市海报
+  - 城市旅行海报
   - 荧光色海报
   - 印刷质感海报
   - 独立印刷海报
@@ -23,26 +23,43 @@ features:
   - "**荧光色彩系统** — 荧光粉、亮蓝、暖黄、橙红、叶绿、深钴蓝，白色纸张背景"
   - "**扁平图形+几何形状** — 简化城市插图、趣味几何元素、扁平图形构成"
   - "**编辑式构图** — 多层叠印、充满活力的排版、非对称但平衡的布局"
-  - "**城市叙事性排版** — 粗体英文城市名作为主标题，城市描述作为副标题，底栏文字标注"
+  - "**城市叙事性排版** — 粗体城市名作主标题，城市描述作副标题，底栏文字标注"
 
 scene: "城市旅行海报、文化活动宣传、独立印刷品、收藏级艺术海报"
 ratio: "3:4"
-summary: "以迪拜城市地标为主题的 Risograph 风格旅行海报，使用荧光色彩+半透明叠印+粗糙纸张肌理，呈现独立印刷品的现代文化感"
+summary: "Risograph 风格旅行海报，荧光色 + 半透明叠印 + 粗糙纸张肌理，城市地标以扁平插画重译。"
+
+variables:
+  - kv_var: 城市名
+    style_var: "{城市名}"
+    desc: 如：DUBAI / 泉州 / LISBON
+  - kv_var: 地标元素
+    style_var: "{地标元素}"
+    desc: 如：哈利法塔、沙漠沙丘、单桅帆船、棕榈树 / 开元寺双塔、骑楼、海蛎壳墙
+  - kv_var: 副标题
+    style_var: "{副标题}"
+    desc: 如：一座在沙与海之间生长的城市 / 半城烟火半城仙
+  - kv_var: 底栏文字
+    style_var: "{底栏文字}"
+    desc: 如：ARTISTIC PRINTING · COASTAL STORIES · 2026
+  - kv_var: 配色
+    style_var: "{配色}"
+    desc: 如：荧光粉 + 亮蓝 + 暖黄 / 橙红 + 叶绿 + 深钴蓝
 
 prompt: |
-  Create a stylish modern travel poster inspired by risography about DUBAI.
+  3:4 现代 Risograph 风格旅行海报，主题城市为{城市名}。
 
-  Use simplified illustrated images of the city: the Gwanganje Bridge, ocean waves, seagulls, beach umbrellas, fish baskets at the market, neon street signs and small abstract decorative figures.
+  用简化的插画图形描绘这座城市：{地标元素}。所有元素都处理成扁平的图形语言，不做写实描绘。
 
-  Create a bold, multi-layered risographic poster with imperfect ink design, translucent colors printed on top, graininess in semitones, rough paper texture, flat graphic shapes, playful geometric shapes, and energetic editorial composition.
+  Risograph 印刷质感：油墨不完美的错位与轻微漏印、半透明色块叠印在交界处生出第三色、半调网点颗粒、粗糙纸张肌理、扁平图形与趣味几何形状。编辑式构图，多层叠印，非对称但视觉平衡，版面有活力。
 
-  Use fluorescent pink, bright blue, warm yellow, orange-red, leafy green, and rich cobalt blue on a white paper background.
+  配色：{配色}，印在白色纸底上，彼此叠压处颜色加深，纸张的白色也参与构图。
 
-  Add bold font in English: Main title: "DUBAI" A subtitle describing the city. The text in the footer: "ARTISTIC PRINTING · COASTAL STORIES · 2026"
+  排版：主标题「{城市名}」用粗体大字压在上部，字距紧；下方一行副标题「{副标题}」描述这座城市；底栏排一行小字「{底栏文字}」，与边缘保持等距。
 
-  The design should be bright, cultural, modern, playful and collectable, like the original independent risographic poster for a local creative festival.
+  整体明亮、有文化感、现代、俏皮、值得收藏，像本地创意节的独立印刷海报。
 
-  Avoid copying any existing poster, artist's style, corporate identity, logo, mascot, copyrighted character, exact layout, or recognizable commercial design. Create an original composition inspired only by risographic printing technologies and modern independent poster design.
+  不要复制任何现有海报、艺术家风格、企业标识、logo、吉祥物、受版权保护的角色或具体版式，只借鉴 risograph 印刷工艺与现代独立海报设计语言。
 
   不要水印，不要真实Logo，不要电商广告感。
 

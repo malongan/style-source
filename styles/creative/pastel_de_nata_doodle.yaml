@@ -1,19 +1,19 @@
-# 蛋挞手绘美食海报
+# 手绘美食涂鸦海报
 
 id: pastel_de_nata_doodle
-name: "蛋挞手绘美食海报"
+name: "手绘美食涂鸦海报"
 category: creative
 
 tags:
-  - 蛋挞
-  - 手绘插画
   - 美食海报
+  - 手绘插画
   - 涂鸦
-  - GPT Image 2
+  - 超写实食物
+  - 烘焙
 
 triggers:
   - 手绘美食海报
-  - 蛋挞插画
+  - 美食涂鸦海报
   - doodle food poster
   - hand-drawn food illustration
   - 涂鸦美食
@@ -22,15 +22,36 @@ features:
   - "**超写实 + 手绘涂鸦融合** — 真实食物摄影与卡通涂鸦并置，强对比高记忆点"
   - "**温暖白底留白** — 大量留白，干净前视图海报布局，编辑感强"
   - "**手绘标注元素** — 箭头、标签、爱心、星星、漩涡等涂鸦元素点缀食物特征"
-  - "**真实食物质感** — 焦糖焦斑、金黄酥皮、奶油蛋挞馅、层层酥脆"
-  - "**手绘标题字体** — 顶部大胆手绘艺术字体标题，营造手工面包店氛围"
+  - "**真实食物质感** — 焦糖斑点、油润光泽、层次分明的酥皮或内部结构"
+  - "**手绘标题字体** — 顶部大胆手绘艺术字体，营造手工面包店氛围"
 
 scene: "美食海报、面包店品牌KV、社交媒体美食图、烘焙产品宣传"
 ratio: "3:4"
-summary: "GPT Image 2 的蛋挞美食海报，融合超写实食物摄影与活泼手绘涂鸦插画，温暖有趣"
+summary: "超写实食物摄影与活泼手绘涂鸦并置的美食海报，暖白底大留白，标注箭头 + 手写标题。"
+
+variables:
+  - kv_var: 食品
+    style_var: "{食品}"
+    desc: 如：葡式蛋挞 / 可颂 / 芝士蛋糕 / 一笼小笼包
+  - kv_var: 标注词
+    style_var: "{标注词}"
+    desc: 如：酥皮层次 · 流心内馅 · 焦糖表面 · 黄油底 · 刚出炉
+  - kv_var: 手绘元素
+    style_var: "{手绘元素}"
+    desc: 如：太阳笑脸、小爱心、星光、漩涡 / 甜点小角色、手写批注
+  - kv_var: 主标题
+    style_var: "{主标题}"
+    desc: 如：焦糖蛋挞 / Pastel de Nata / 今日现烤
 
 prompt: |
-  Create an ultra-premium playful food poster for Portuguese egg tart, Pastel de Nata, combining hyper-realistic pastry photography with charming hand-drawn doodle illustration. The composition should feel joyful, delicious, artistic, and highly memorable, like a premium illustrated bakery campaign poster with a strong contrast between realistic food and flat cartoon sketch elements. Main composition: Use a clean front-facing food-poster layout on a warm white background with generous negative space. Place one hero plate or a small arrangement of Portuguese egg tarts in the center-bottom area as the absolute visual focus. The egg tarts must be ultra realistic, freshly baked, golden, glossy, flaky, and irresistible. Around the tarts, add playful black hand-drawn doodles, arrows, handwritten ingredient labels, cute decorative marks, tiny hearts, swirls, spark lines, and expressive annotation graphics. The overall layout should feel balanced, lively, and editorial, with a large hand-drawn artistic title at the top and the food composition clearly centered below it. Food styling: Show authentic Pastel de Nata with beautifully caramelized custard tops, slightly blistered golden-brown burnt spots, glossy creamy filling, crisp laminated pastry layers, buttery flaky shell, and warm fresh-from-the-oven texture. Some tarts can be whole, one can be slightly broken open or bitten to reveal silky custard inside. Add subtle cinnamon dust or powdered sugar accents if helpful, but keep the tart itself clearly recognizable and hero-focused. The pastry should feel premium, handmade, and truly Portuguese. Hand-drawn illustration style: Surround the realistic tarts with playful flat doodle elements in a spontaneous handwritten style, as if drawn with black marker directly onto the poster. Include arrows pointing to features like: "crispy layers" "creamy custard" "caramel top" "buttery crust" "freshly baked" Add small cute sketch icons such as a smiling sun, tiny hearts, sparkles, swirls, a spoon with dripping custard, cinnamon dust motion marks, little happy pastry characters, and expressive handwritten notes. The doodles should feel naive, warm, and energetic, but tastefully designed, not childish chaos. Typography: At the top, create a bold hand-drawn artistic title in the same style, reading "Pastel de Nata" or "Portuguese Egg Tart" in a playful hand-lettered style.
+  3:4 高级感手绘美食海报，主角是{食品}。把超写实的食物摄影质感与活泼的手绘涂鸦并置，两者形成强对比，画面欢快、诱人、有艺术感、记忆点高，像一张精装烘焙品牌的插画海报。
+
+  构图：干净的正面海报版式，暖白色背景，留出大量负空间。{食品}作为绝对视觉焦点落在画面中下方，装在浅色盘子里或三两件堆叠。食物必须极致真实：表面有自然的焦糖化、轻微起泡的深色斑点、油润的光泽、层次分明的酥皮或内部纹理，带着刚出炉的温度感。其中一件可以微微掰开或咬开，露出内部结构。可撒少量香料粉或糖粉点缀，但食物本体必须清晰可辨。
+
+  手绘涂鸦：用黑色马克笔式的扁平涂鸦围绕食物，像直接画在版面上——箭头指向各个特征，旁边配手写小字标注「{标注词}」；再点缀{手绘元素}。涂鸦要天真、温暖、有活力，但克制得体，不能变成儿童乱画。
+
+  标题：顶部用粗壮的手写艺术字排出「{主标题}」，字迹俏皮，营造手工面包店的氛围。
+
   不要水印，不要真实Logo，不要电商广告感，不要拼贴感，不要复杂背景，不要乱码。
 
 source_url: "https://x.com/ou_zhen599/status/2074780810440589526"

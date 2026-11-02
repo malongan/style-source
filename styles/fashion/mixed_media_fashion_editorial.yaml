@@ -21,18 +21,35 @@ triggers:
 
 features:
   - "**混合媒体拼贴** — 时尚摄影与平面设计元素叠加，半色调、噪点纹理、涂鸦飞溅与排版碎片共存"
-  - "**高对比双色调背景** — 青绿与橙色饱和分割背景，非写实平面背景作为动态画布"
-  - "**点状风衣廓形** — 黑色波点风衣叠穿橙色连体衣，服装边界锋利与背景动态笔触形成张力"
+  - "**高对比双色调背景** — 两个饱和色分割背景，非写实平面背景作为动态画布"
+  - "**锋利服装廓形** — 服装边界清晰，与背景的动态笔触形成张力"
   - "**硬调摄影灯光** — 方向性硬光塑造面部高对比结构，暖冷色调高调平衡"
-  - "**全身侧角度拍摄** — 85mm镜头平视视角，竖向构图平衡主体与环境"
+  - "**全身侧角度拍摄** — 85mm 镜头平视视角，竖向构图平衡主体与环境"
 
 scene: "品牌时尚KV、社媒时尚大片、杂志封面、时装设计概念海报"
 ratio: "3:4"
-summary: "将时尚摄影与激进平面设计融合的混合媒体编辑风格，通过高对比双色调背景、半色调纹理与涂鸦笔触叠加，突出时装廓形的艺术张力"
+summary: "时尚摄影与激进平面设计融合的混合媒体编辑风格，高对比双色调背景 + 半色调纹理 + 涂鸦笔触，突出时装廓形。"
+
+variables:
+  - kv_var: 人物与姿态
+    style_var: "{人物与姿态}"
+    desc: 如：一位短发贴头皮的女性侧身大步走过 / 一名少年背对立于画面中央
+  - kv_var: 服装
+    style_var: "{服装}"
+    desc: 如：黑色大波点廓形风衣叠穿橙色连体衣 / 硬挺西装外套配纱裙
+  - kv_var: 双色调
+    style_var: "{双色调}"
+    desc: 如：青绿与饱和橙 / 洋红与深蓝 / 芥末黄与墨黑
 
 prompt: |
-  A stylish woman with a short, textured afro strides confidently in profile, wearing a structured trench coat adorned with large black polka dots over a vibrant orange jumpsuit. The composition integrates high-fashion photography with aggressive graphic design elements, featuring a split-toned teal and saturated orange background overlaid with distressed typographic textures, halftone patterns, and chaotic painterly splatters. Direct studio lighting illuminates her face with sharp highlights, creating high-contrast modeling that emphasizes her angular features. The background remains flat and non-representational, acting as a dynamic canvas for the layered mixed-media aesthetic, where sharp edges of the garment contrast against the energetic, abstracted brushstrokes and geometric shapes that surround the subject in a balanced, vertical orientation.
-  Style: Mixed-media fashion illustration, high-contrast digital collage. Key elements: Polka-dot trench coat, orange jumpsuit, typographic patterns, halftone splatters, editorial model. Lighting: Studio hard lighting, directional, high-key warm and cool balance. Camera: Full-body side profile, 85mm lens, eye-level perspective.
+  {人物与姿态}，身穿{服装}。画面把高级时装摄影与激进的平面设计叠在一起：背景是{双色调}的分割色块，上面压着做旧的排版纹理、半色调网点与混乱的绘画飞溅。
+
+  硬调的棚灯从一侧打亮面部，勾出锐利的高光和雕塑般的结构，暖冷色调在高调中取得平衡。
+
+  背景保持扁平、不具象，作为混合媒体美学的动态画布——服装的锋利边缘与周围那些能量充沛的抽象笔触、几何形状形成对峙，主体在竖向构图里被稳住。
+
+  风格：混合媒体时装插画、高对比数字拼贴。关键元素：明确的服装廓形、排版图案、半色调飞溅、编辑级模特。机位：全身侧向、85mm 镜头、平视。
+
   不要水印，不要真实Logo，不要电商广告感。
 
 source_url: "https://x.com/im_shahid7/status/2084667131120202013"

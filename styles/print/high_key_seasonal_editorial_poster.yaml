@@ -19,18 +19,45 @@ triggers:
   - high key seasonal editorial
 
 features:
-  - "**高调明亮基调** — 60%+浅灰白背景 + 30%中明度高饱和色块，克制不堆砌"
+  - "**高调明亮基调** — 60%+ 浅灰白背景 + 30% 中明度高饱和色块，克制不堆砌"
   - "**虚化散景色块** — 大面积柔焦色彩质，透明叠加、层次扩散，只有轮廓可辨"
   - "**锐利放射光芒符号** — 高饱和小圆心 + 长短交替细光芒 + 末端空心圆，置于色块之上"
-  - "**密集几何无衬线文字柱** — 左侧厚重几何无衬线堆叠标题，配套日期/编号/圆形徽章模块"
+  - "**密集几何无衬线文字柱** — 一侧厚重几何无衬线堆叠标题，配套日期/编号/圆形徽章模块"
   - "**平涂数码质感** — 色块边缘为光学虚化而非水彩晕染，文字与符号矢量锐利，无纸张泛黄做旧"
 
 scene: "品牌季节海报、农产品市集、节气特展、社交媒体节庆视觉"
 ratio: "9:16"
-summary: "高调明亮编辑风海报，浅灰白背景+大面积柔焦色块+密集几何无衬线文字+放射光芒符号"
+summary: "高调明亮编辑风海报，浅灰白背景 + 大面积柔焦色块 + 密集几何无衬线文字 + 放射光芒符号"
+
+variables:
+  - kv_var: 主题
+    style_var: "{主题}"
+    desc: 如：惊蛰 / 早春市集 / 海边的七月
+  - kv_var: 主标题
+    style_var: "{主标题}"
+    desc: 如：AWAKENING / 惊蛰 / SEASON 03
+  - kv_var: 日期模块
+    style_var: "{日期模块}"
+    desc: 如：03.05 — 03.20 / 2026 SPRING
+  - kv_var: 徽章文字
+    style_var: "{徽章文字}"
+    desc: 如：SPRING / 节气特展 / VOL.07
 
 prompt: |
-  Build a fresh, high-key seasonal editorial poster around any thematic subject, letting the reading begin with a dense black title at one starting corner and flow downward through a narrow year-and-date module, thin elongated guide lines, and a continuous run of small symbols before arriving at a circular theme badge near the bottom of the same side; keep most of the composition as quiet negative space, while graphic forms on the middle and opposite side create an unevenly spaced diagonal loop, with a few elements cropped at the edges so the image feels as though it continues outward. Break the subject's core imagery into two levels of clarity: several soft color masses with strongly different scales are heavily out of focus, translucent, layered, and diffused into the paper, keeping only a readable organic rhythm in their outlines; embed two or three razor-sharp radial symbols among them, built from small high-saturation centers, fine rays that alternate between long and short, and open circles at the ray tips, with near-white strokes glowing over the color masses and pinpoint-crisp centers set against cloudy surroundings. Then extract a small number of flat organic silhouettes from the theme's semantics, render them with unidirectional soft gradients and slight blur, and scatter them along the boundaries between negative space and color masses so they guide the eye without forming a realistic scene. Determine every hue entirely from the new theme's mood and symbolism: use the lightest, low-saturation warm or cool neutral for a clean background occupying about sixty percent or more; assign the theme's most vital mid-to-high-lightness hue to roughly thirty percent as large soft-focus color masses; reserve only a very small area for a secondary hue that contrasts through temperature or neighboring color; restrict the darkest neutral to typography and fine line structures, and the brightest near-white to radial lines and nodes. Keep the background bright, the color masses soft, and the dot-like centers vivid, so that as the palette shifts with the theme, the composition still maintains the same contrast between generous light, muted areas and small saturated accents rather than turning dark or piling up colors. Use restrained modern editorial typography: the main title is a two-to-three-line short phrase set in a heavy geometric sans-serif or an equivalent face compatible with the theme's language, with wide letterforms, tight leading, and slightly loose tracking, arranged as a neat black block; beside it place a compact boxed numeral block and one line of small date text, where numerals may use a high-contrast serif for a refined period feel; on the same side below, enclose the short theme name in a thin circular frame with heavy Chinese display lettering inside, allowing the glyphs to touch the frame slightly, and place sparse small-size explanatory text outside the frame. Connect the upper and lower text modules with ultra-thin guide lines, and include one continuous run of solid and hollow four-pointed stars with alternating sizes to create rhythm. Rewrite all theme-specific copy; do not reuse any existing text. Render the material as a clean, flat matte light paper surface with a digital print finish: color-mass edges should read as optical defocus rather than watercolor staining, while the typography, circular frame, and radial symbols stay vector-sharp with no grain, creases, yellowing, or aging. Above all, preserve the triple tension of large soft-focus color clouds supporting ultra-fine sharp lines and dense black editorial text anchoring broad whitespace; if the color masses sharpen into solid forms, the symbols spread evenly across the frame, the text stacks in the center, or the palette loses its high-key restraint, the light and orderly character is broken.
+  9:16 高调季节编辑海报。整体明亮：浅灰白背景占六成以上，中高明度的大色块占三成，最深的中性色只给文字和细线，最亮的近白只给放射线和小圆点。
+
+  阅读动线：从一侧角落的一组密集黑色标题开始，向下经过一条窄的年份日期模块、几根细长的引导线、一列连续的小符号，最后落在同侧下方的圆形主题徽章上。画面大部分保持安静的负空间，中部与对侧的图形形成一条不等距的对角环线，边缘有几处元素被裁切，像画面还在向外延伸。
+
+  主体的核心意象拆成两个清晰层级：几块尺度差异极大的柔焦色块，重度虚化、半透明、层层叠叠融进纸面，轮廓里只留下可读的有机节奏；在其中嵌入两三个极其锐利的放射光芒符号——高饱和小圆心、长短交替的细光芒、光芒末端带空心圆，近白的线条在色块上发光，针尖般的圆心衬在云雾状的环境里。
+
+  再从主题语义里提取少量扁平的有机剪影，用单向柔和渐变和轻微模糊渲染，散落在负空间与色块的交界处，引导视线但不构成真实场景。
+
+  配色由主题的情绪决定：最浅的低饱和暖或冷中性色作干净背景；主题里最有生命力的中高明度色作大面积柔焦色块；只用很小一块给强调色，靠冷暖或邻近色对比；最深的中性只给文字和细线。
+
+  质感：色块边缘是光学虚化而不是水彩晕染，文字与符号呈矢量般锐利，没有纸张泛黄做旧，没有颗粒。
+
+  主题内容：{主题}。主标题「{主标题}」用厚重几何无衬线堆叠排在一侧；日期与编号模块「{日期模块}」排在标题下方；圆形徽章内排「{徽章文字}」。
+
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
 
 source_url: "https://x.com/xiaoxiaodong01/status/2087526401494970802"

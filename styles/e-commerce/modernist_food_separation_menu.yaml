@@ -15,44 +15,53 @@ tags:
 
 triggers:
   - 现代主义食材分离菜单
-  - 中东街头美食菜单艺术
+  - 悬浮分离美食菜单
   - 成分悬浮美食摄影
+  - ingredient separation menu
 
 features:
-  - "**食材悬浮分离** — 现代主义料理风格，食材各组分（酱汁/固体/装饰）在画面中完美悬浮，干净不对称编辑布局"
-  - "**宏观食物纹理** — 微距食物纹理摄影，植物纤维、结晶糖结构、面包体架构、酱汁粘度、面包屑结构纤毫毕现"
-  - "**语义突变** — 每种食材内部藏有微型幻影立体模型，揭示其起源（如面包粒内现麦田、橄榄油滴后有橄榄林）"
-  - "**信息叠加** — 热量标注、采购地图图钉、风味雷达图、新鲜度指示器，以纯净信息图风格轻覆于食物之上"
+  - "**食材悬浮分离** — 现代主义料理风格，食材各组分在画面中完美悬浮，干净不对称编辑布局"
+  - "**宏观食物纹理** — 微距食物纹理摄影，植物纤维、结晶糖结构、面包体架构、酱汁粘度纤毫毕现"
+  - "**语义突变** — 每种食材内部藏有微型幻影立体模型，揭示其起源"
+  - "**信息叠加** — 热量标注、采购地图图钉、风味雷达图、新鲜度指示器，纯净信息图风格轻覆于食物之上"
   - "**高级菜单质感** — 哑光艺术纸背景，优雅瑞士菜单字体，软工作室灯光带蒸汽感，暖调诱人配色"
 
-scene: "高端餐厅菜单、美食品牌视觉、中东街头美食文化海报、Premium 餐饮品牌 KV"
+scene: "高端餐厅菜单、美食品牌视觉、Premium 餐饮品牌 KV、食材概念海报"
 ratio: "16:9 / 2:3"
 summary: "现代主义料理食材悬浮分离菜单艺术，宏观微距摄影 + 瑞士字体 + 信息图叠加"
 
+variables:
+  - kv_var: 招牌菜
+    style_var: "{招牌菜}"
+    desc: 如：一份烤羊排配石榴酱 / 一碗味噌拉面 / 一块巧克力挞
+  - kv_var: 菜名
+    style_var: "{菜名}"
+    desc: 如：慢烤羊肩 · 石榴 / MISO RAMEN / CACAO 72%
+  - kv_var: 主厨餐厅
+    style_var: "{主厨餐厅}"
+    desc: 如：主厨 李明 · 山海餐厅 / CHEF ANA · ATELIER 9
+  - kv_var: 语义突变
+    style_var: "{语义突变}"
+    desc: 如：面包粒里现麦田、油滴后有橄榄林 / 米粒里现水田、辣椒碎里有高原
+
 prompt: |
-  Generate a vertical menu-art image (2:3 ratio) of [$SIGNATURE_DISH] titled "[$DISH_NAME]" with the subtitle "[$CHEF_RESTAURANT]".
+  2:3 竖版菜单艺术图，主角是一道{招牌菜}，标题「{菜名}」，副标题「{主厨餐厅}」。
 
-  Composition: The dish's components—sauces, solids, garnishes—float in perfect suspension as a modernist cuisine ingredient separation, arranged in a clean, asymmetric editorial layout. The background is matte fine-art paper with minimal, elegant Swiss-menu typography.
+  构图：这道菜的各个组成部分——酱汁、固体、装饰——以现代主义料理的食材分离方式完美悬浮在空中，排列成干净的非对称编辑版式。背景是哑光艺术纸，上面只有极简优雅的瑞士菜单字体。
 
-  Material & Detail: Macro food texture photography reveals every element at multiple scales:
-  - Vegetable fibers, crystallized sugar structures, breadcrumb architecture, sauce viscosity, and crumb structure are visible in microscopic detail.
-  - Each ingredient carries a "semantic mutation": a tiny, ghosted diorama inside or behind it that reveals its origin (e.g., wheat fields inside a grain of bread, olive groves behind a drop of oil, cacao pod inside chocolate shavings).
-  - Calorie callouts, sourcing map pins, flavor-profile radar charts, and freshness indicators are subtly overlaid in a clean infographic style, never obscuring the food.
+  材质与细节：微距食物纹理摄影，每个元素都在多个尺度上交代清楚——植物纤维、结晶糖结构、面包的内部架构、酱汁的粘度、碎屑的断面，全部纤毫毕现。
 
-  Lighting & Atmosphere: Soft studio lighting with a hint of steam rising from the warm elements. The overall palette is warm, appetizing tones—creamy whites, rich browns, vibrant greens, and touches of amber—against the paper background.
+  语义突变：{语义突变}。每种食材内部或背后藏着一个微小的幽灵般立体模型，揭示它的来历。
 
-  Style DNA:
-  - 40% Modernist cuisine ingredient separation
-  - 30% Macro food texture photography
-  - 15% Minimalist Swiss menu design
-  - 10% Soft studio lighting with steam
-  - 5% Fine art paper texture
+  信息叠加：热量标注、产地地图钉、风味雷达图、新鲜度指示器，以干净的信息图风格轻覆在食物上，绝不遮挡食物本身。
 
-  Constraints: The image must be appetizing, clean, highly detailed, and suitable for a premium restaurant menu. No clutter, no messy plating, no hard shadows. All information overlays must be subtle and integrated.
+  光线与氛围：柔和的工作室灯光，热的元素上有细微的蒸汽升起。整体暖调、诱人——奶油白、饱满的棕、鲜活的绿，加一点琥珀色，衬在纸底上。
 
-  Negative: No photorealistic whole dish on a plate, no messy backgrounds, no aggressive colors, no unreadable text, no generic food stock.
+  比例：40% 现代主义食材分离，30% 微距食物纹理摄影，15% 极简瑞士菜单设计，10% 柔光加蒸汽，5% 艺术纸质感。
 
-  Aspect ratio: 16:9 or 2:3.
+  约束：必须诱人、干净、细节密集，适合高端餐厅菜单。不杂乱，不堆盘，没有硬阴影。所有信息叠加都必须克制且融合。
+
+  负向：不要完整的装盘菜品照片，不要凌乱背景，不要刺激的颜色，不要无法辨认的文字，不要图库感食品照。
 
   不要水印，不要真实Logo，不要凌乱背景。
 

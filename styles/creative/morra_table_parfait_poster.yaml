@@ -1,7 +1,7 @@
-# MORRA TABLE 早餐品牌广告海报
+# 早餐品牌编辑广告海报
 
 id: morra_table_parfait_poster
-name: "MORRA TABLE 早餐品牌广告海报"
+name: "早餐品牌编辑广告海报"
 category: creative
 
 tags:
@@ -16,31 +16,44 @@ triggers:
   - 意式酸奶杯
   - Cannes级食品
   - editorial food
-  - MORRA TABLE
+  - 芭菲杯海报
 
 features:
-  - "**Cannes级编辑食品广告** — 高端早餐品牌 MORRA TABLE 完整视觉系统，戛纳级别编辑质感"
-  - "**超写实芭菲杯** — 玻璃杯、酸奶、燕麦、浆果分 层质感精细，中心视觉锚点"
-  - "**单色系线稿背景** — 插画退为背景，统一单色线条稿，交代温馨居家氛围不抢食欲"
-  - "**透光果冻宝石层** — 中间红莓层如透光宝石光泽，先抓眼球再读懂层次"
-  - "**竖版精致食品海报结构** — 品牌字顶 + 超写实产品居中 + 柔和居家线稿环绕"
+  - "**Cannes级编辑食品广告** — 完整品牌视觉系统，戛纳级别编辑质感"
+  - "**超写实分层杯** — 玻璃杯与分层质感精细，作为中心视觉锚点"
+  - "**单色系线稿背景** — 插画退为背景，统一单色线条稿，交代氛围不抢食欲"
+  - "**透光果冻宝石层** — 中间一层如果冻宝石，先抓眼球再读懂层次"
+  - "**竖版精致食品海报结构** — 品牌字顶 + 超写实产品居中 + 柔和线稿环绕"
 
 scene: "食品品牌KV、咖啡馆菜单、早餐主题海报、Instagram社媒图文"
 ratio: "3:4"
-summary: "以戛纳级编辑食品广告呈现高端早餐品牌 MORRA TABLE，超写实芭菲杯为中心，单色线稿插画退为背景，透光宝石浆果层为食欲触发点的精致早餐海报"
+summary: "戛纳级编辑食品广告，超写实分层杯居中，单色线稿插画退为背景，透光宝石层为食欲触发点。"
+
+variables:
+  - kv_var: 品牌名
+    style_var: "{品牌名}"
+    desc: 如：MORRA TABLE / 晨间研究所 / ATELIER NOON
+  - kv_var: 产品
+    style_var: "{产品}"
+    desc: 如：一杯意式酸奶芭菲 / 一碗隔夜燕麦 / 一块巴斯克芝士蛋糕
+  - kv_var: 分层描述
+    style_var: "{分层描述}"
+    desc: 如：奶油酸奶基底、透光莓果冻层、干烤燕麦脆顶
+  - kv_var: 线稿场景
+    style_var: "{线稿场景}"
+    desc: 如：晨光里的厨房台面与咖啡壶 / 窗边的餐桌与面包篮
 
 prompt: |
-  Create an ultra-premium breakfast parfait advertising poster for an original lifestyle cafe brand called MORRA TABLE, designed as a Cannes-level editorial food campaign with a warm illustrated home-scene atmosphere, a fully unified monochrome sketch system, and a more luminous jewel-like berry layer that becomes the first unforgettable appetite trigger.
+  3:4 高端早餐品牌广告海报，为原创生活方式咖啡馆{品牌名}做的戛纳级编辑食品 campaign：温暖的插画居家氛围、完全统一的单色线稿系统、中间一层更透亮的宝石质感作为第一眼的食欲触发点。
 
-  Preserve the exact core structural logic of a refined vertical food poster: elegant brand typography at the top, one oversized hyper-real parfait glass centered in the lower-middle area, and a soft single-color line-drawn domestic world surrounding it like a playful narrative sketch. The final image must feel warm, intimate, calm, design-forward, gently whimsical, and highly art-directed, while the real product remains the strongest visual anchor.
+  版式严格遵循精致竖版食品海报的结构：顶部优雅的品牌字体，中下部一只超大的超写实{产品}居中，四周被一圈柔和的单色线描居家世界包住，像一张俏皮的叙事速写。画面温暖、亲密、安静、有设计感、轻微奇想，但真实的产品始终是最强的视觉锚点。
 
-  hyper-real parfait as the only fully rendered hero, surrounded by monochrome line-art. The glass, yogurt and oat textures are rendered first; the line drawing only handles the breakfast atmosphere without competing for appetite.
+  {产品}是唯一被完整渲染的主体，周围全是单色线稿。杯身、容器与食物的质感先被交代清楚——{分层描述}。中间那一层要像半透明的果冻宝石，先被它的光泽抓住，再自然读出「奶香、果酸、烘烤谷物」的层次。
 
-  luminous ruby berry layer placed between a quiet cream base and dry oat crown. The middle berry layer should feel like a translucent jelly gem — you are first grabbed by its sheen, then naturally read the layered structure of "milky aroma, fruit acid, baked grains."
+  线稿部分：{线稿场景}，线条流畅、单色、克制，只负责气氛，不参与食欲的争夺。
 
-  The brand typography at top should be elegant and refined. The oversized hyper-real parfait glass should dominate the lower-middle area. The surrounding domestic world should feel like a soft single-color line-drawn narrative sketch, playful yet restrained.
+  风格：超高端早餐广告、戛纳级编辑食品 campaign、温暖插画居家感、统一单色速写系统、透光宝石层、竖版食品海报构图、超写实食物摄影、优雅品牌排版、温暖亲密、设计先行、高度美术指导。
 
-  Style: ultra-premium breakfast parfait advertising poster, Cannes-level editorial food campaign, warm illustrated home-scene atmosphere, fully unified monochrome sketch system, luminous jewel-like berry layer, vertical food poster composition, hyper-real food photography, elegant brand typography, editorial food photography, warm intimate mood, design-forward, highly art-directed.
   不要水印，不要真实Logo，不要电商广告感。
 
 source_url: "https://x.com/ou_zhen599/status/2087088720864583806"

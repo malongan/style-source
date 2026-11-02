@@ -1,36 +1,63 @@
-# Hold The Line 宣言海报
+# 宣言式海报（黑底 + 铬质焦点物件）
 
 id: hold_the_line_declaration_poster
-name: "Hold The Line 宣言海报"
+name: "黑底宣言海报（铬质焦点）"
 category: creative
 
 tags:
   - 宣言海报
-  - 铬裂纹茶杯
+  - 铬质物件
   - 居中排版
   - 编辑感
   - 黑色高对比
 
 triggers:
-  - Hold The Line宣言
-  - 铬裂纹茶杯海报
+  - 宣言海报
+  - 黑底大字海报
+  - 铬质物件海报
   - 居中宣言式排版
   - declaration poster chrome
 
 features:
-  - "**居中宣言式排版** — 顶部细线排列「PATIENCE IS NOT A DELAY IT'S A DECISION」，主标题「HOLD / the / LINE.」"
-  - "**铬裂纹茶杯焦点** — 居中亮泽虹彩铬质裂纹茶杯，湿漉漉的液态金属质感，缠有细银链"
-  - "**高对比纯黑背景** — 黑色背景，细白轨道弧线如轨道般环绕茶杯，干净利落"
-  - "**镜像重复文字块** — 左右镜像重复的正文文字，品牌感/编辑感强"
-  - "**条码与坐标点缀** — 右下角条码图形+数字串，RIO/MDW/2100 HRS 等碎片信息"
+  - "**居中宣言式排版** — 顶部细线串起一串极小字号短语，下方混排块字与手写体主标题"
+  - "**铬质焦点物件** — 居中一件液态金属质感的物件，虹彩高光，坐在反光深色台面上"
+  - "**高对比纯黑背景** — 黑色背景带细颗粒，细白轨道弧线环绕物件"
+  - "**镜像重复文字块** — 左右镜像的正文块，像回声，编辑感强"
+  - "**条码与坐标点缀** — 角落条码图形与数字串、被裁切的碎片信息"
 
 scene: "宣言海报、品牌KV、社交媒体图文、编辑出版"
 ratio: "3:4"
-summary: "居中宣言式排版海报，铬裂纹茶杯焦点+银链，高对比纯黑背景+白色轨道弧线"
+summary: "黑底宣言海报：顶部细线短语 + 混排主标题 + 铬质焦点物件 + 镜像正文 + 条码碎片。"
+
+variables:
+  - kv_var: 顶部小字
+    style_var: "{顶部小字}"
+    desc: 如：PATIENCE / IS / NOT / A / DELAY / IT'S / A / DECISION
+  - kv_var: 主标题
+    style_var: "{主标题}"
+    desc: 如：HOLD the LINE. / 别停下来 / STAY THE COURSE
+  - kv_var: 正文
+    style_var: "{正文}"
+    desc: 如：You are still building something, even on the days it doesn't look like progress.
+  - kv_var: 焦点物件
+    style_var: "{焦点物件}"
+    desc: 如：一只铬质破裂瓷茶杯缠着细银链 / 一枚液金苹果 / 一只镀铬折纸鹤
+  - kv_var: 侧边碎片
+    style_var: "{侧边碎片}"
+    desc: 如：RIO, / MDW · 2100 / HRS · HOLD / LINE
 
 prompt: |
-  Poster, pure black background with fine grain. At the top, a thin horizontal line spans the width with small tracking-spaced white words placed along it: 'PATIENCE / IS / NOT / A / DELAY / IT'S / A / DECISION'. Below, a large headline mixing bold white sans-serif with a connecting cursive script: 'HOLD' in heavy block letters, followed by a flowing italic script 'the' looping beneath it, then 'LINE.' in bold block letters again, with a small red square period accent. Center-left and center-right, mirrored duplicate body text blocks reading: 'You are still building something, even on the days it doesn't look like progress. Hold the line.' Below the headline, a glossy iridescent chrome object — a cracked porcelain teacup rendered in liquid-metal chrome with rainbow highlights, wrapped loosely in a thin silver chain, sitting on a reflective dark surface. Thin white orbital lines arc behind the object like orbit paths. Left-side stacked white text fragments, slightly cut off as if cropped: 'RIO, / MDW', '2100 / HRS', 'HOLD / LINE'. Bottom-right corner: a small barcode graphic with a number string beneath it. Clean grid alignment, high-contrast black background, single glossy chrome object as focal point.
-  不要水印，不要真实Logo，不要电商广告感。
+  3:4 竖版宣言海报，纯黑背景带细颗粒，版式极简、网格极严。画面上部一条极细的水平线横贯宽度，线上均匀分布一串极小、字距拉开的白色词：「{顶部小字}」。
+
+  线下方是巨大的主标题「{主标题}」：粗重的白色无衬线块字与流动的手写体混排，手写体在块字下方勾连穿过，标题末尾用一个极小的红色方块作句点。
+
+  标题下方居中偏左右各有一块镜像的正文，两块文字左右对称、互为回声，内容为「{正文}」，字号小、行距宽。
+
+  画面视觉焦点落在标题下方的一件物件上：{焦点物件}。物件是液态金属般的铬，表面有彩虹色高光和湿润的反射，放置在一块反光的深色台面上，背后几条极细的白色弧线像轨道一样掠过。
+
+  画面左侧竖排几行被裁掉一半的白色小字碎片：「{侧边碎片}」，像从版面外裁进来的；右下角一枚极小的条形码图形，下方压一串数字。
+
+  整体网格对齐，黑底高反差，唯一的立体物件作为焦点，其余全是平面排版。不要水印，不要真实Logo，不要电商广告感。
 
 source_url: "https://x.com/recraftai/status/2076685043632583099"
 source_author: "Recraft"

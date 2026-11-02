@@ -20,65 +20,45 @@ triggers:
   - sci-fi art deco poster
 
 features:
-  - "**2×2 电影阵列** — 2x2 grid 布局，呈现多部科幻经典电影的视觉对比"
   - "**Art Deco 几何建筑** — 拱形、阶梯塔楼、垂直肋骨、放射纹饰面板、圆形奖章等几何元素构建装饰艺术框架"
   - "**硬调黑白矢量感** — 纯黑、纯白、有限灰的反差，厚实外轮廓线 + 中等内部线条，干净阴影块与优雅负空间"
   - "**城市剪影背景** — 高塔、桥梁、钟面、抽象机械、装饰立面构成的单色未来都市"
   - "**复古电影感** — 1930 年代 noir 城市海报的现代矢量重译，威严、戏剧性、海报级可读"
+  - "**可选阵列版式** — 默认单张竖构，也可指定 2×2 四格做多部作品的视觉对比"
 
-scene: "科幻电影海报、2x2 电影阵列、品牌联名KV、电影主题海报"
+scene: "科幻电影海报、电影主题海报、品牌联名KV、2x2 电影阵列"
 ratio: "16:9"
-summary: "将科幻电影主角转化为 Art Deco 风格的 1930 年代黑白城市海报，2×2 网格阵列呈现多部电影的视觉对比。"
+summary: "将科幻主体转化为 Art Deco 风格的 1930 年代黑白城市海报，硬边矢量、放射几何、象征性都市背景。"
+
+variables:
+  - kv_var: 主体
+    style_var: "{主体}"
+    desc: 如：戴头盔的宇航员半身像 / 一艘环形空间站 / 巨型机械蜘蛛
+  - kv_var: 都市元素
+    style_var: "{都市元素}"
+    desc: 如：梯级摩天楼与拱门 / 钟面与抽象机械 / 桥梁与装饰立面
+  - kv_var: 主标题
+    style_var: "{主标题}"
+    desc: 如：STELLAR / 星际迷航 / THE LAST ORBIT
+  - kv_var: 副标题
+    style_var: "{副标题}"
+    desc: 如：A FILM BY ... / 2026 重制版 / CHAPTER ONE
+  - kv_var: 版式
+    style_var: "{版式}"
+    desc: 如：单张竖构 / 2×2 四格阵列 / 上下分栏双格
 
 prompt: |
-  2x2 grid, 16:9, do this for 4 famous sci-fi movies:
+  16:9 复古 Art Deco 科幻电影海报。主体是{主体}：先把主体提炼成清晰的剪影，再转译为硬边黑白矢量图形——粗外轮廓配中等内线，只使用纯黑、纯白和极少量灰，表面用棱角分明的色块与干净的负空间，完全没有照片感和笔触柔化。
 
-  input: $ subject
-  // extract the subject as a graphic silhouette.
-  s = silhouette($ subject)
-  f = focal_features($ subject)
-  m = motion_or_emotion_vectors($ subject)
+  装饰框架用 Art Deco 的建筑语汇包裹主体：拱门、阶梯塔楼、竖向摩天楼肋条、放射状日轮、圆形徽章，半对称排列，外围套一圈厚重的黑色装饰边框，元素密度高但版面可读。
 
-  // build a monochrome art deco poster world.
-  deco_frame = construct_frame(
-    geometry = ['arches', 'stepped towers', 'vertical skyscraper ribs', 'sunburst panels', 'circular medallions'],
-    symmetry = 'semi-symmetrical',
-    border = 'thick black ornamental frame',
-    density = 'high but readable'
-  )
+  细节按建筑语言重译：主体上的曲线变成优雅的装饰弧线和流线型轮廓带；小面积重复细节变成窗户、通风口、条纹、网格与几何纹样；有机质感变成干净的黑白图案场；运动或情绪变成对角速度线、扇形射线、阶梯状回声或戏剧化剪影。
 
-  // convert subject into hard black-and-white vector forms.
-  subject_graphic = vectorize(
-    s, style = 'art deco noir',
-    line_weight = 'thick outer contour + medium internal lines',
-    fill_logic = 'pure black, pure white, limited gray',
-    surface_detail = 'angular panels, clean shadow blocks, elegant negative space'
-  )
+  背景是一座由主体气质生成的象征性都市：{都市元素}，黑白单色，扁平海报透视，只保留少量纵深。
 
-  // rebuild details using architectural language.
-  detail_system = remap(f) where:
-    - curves become elegant deco arcs and streamlined contour bands
-    - small repeated details become windows, vents, stripes, grids, geometric ornaments
-    - organic textures become clean black-white pattern fields
-    - motion becomes diagonal speed lines, fan rays, stepped echoes, or theatrical silhouettes
+  排版：主标题「{主标题}」用装饰艺术风格的无衬线大写压在画面上方，字距拉开；副标题「{副标题}」用极小字号排在标题下方。版式按{版式}处理，四格时每格各自成一张完整海报，共享同一套框架。
 
-  // background becomes a symbolic metropolis.
-  city_field = generate_cityscape(
-    from = m,
-    shapes = ['tall towers', 'bridges', 'arches', 'clock faces', 'abstract machinery', 'ornamental facades'],
-    color = 'black and white',
-    perspective = 'poster-flat with selective depth'
-  )
-
-  render:
-    - $ subject is central, elegant, dramatic, and poster-readable.
-    - use hard black/white contrast with tiny gray accents only where needed.
-    - add art deco architecture around and through the subject.
-    - use vertical rhythm, arches, stepped geometry, clean negative space, and theatrical noir staging.
-    - no photorealism, no color, no painterly softness.
-    - final image feels like a premium 1930s noir city poster redesigned as modern vector art.
-
-  不要水印，不要真实Logo，不要电商广告感，不要卡通风。
+  整体像 1930 年代黑色电影都市海报被重制成现代矢量艺术：优雅、戏剧化、海报级可读。不要水印，不要真实Logo，不要电商广告感，不要卡通风。
 
 source_url: "https://x.com/Gdgtify/status/2074799908880879966"
 source_author: "Gadgetify"

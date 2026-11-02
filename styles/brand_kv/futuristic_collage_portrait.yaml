@@ -31,7 +31,18 @@ features:
 - title: 复杂的拼贴背景但不杂乱
   desc: ''
 variables: []
-prompt: 'Ultra-detailed futuristic editorial mixed-media portrait blending hyper-realistic digital collage aesthetics with precision geometric concept painting and avant-garde magazine design.
+variables:
+  - kv_var: 主体
+    style_var: "{主体}"
+    desc: 如：一位侧脸凝视的女性 / 一名抬手的少年
+  - kv_var: 主文案
+    style_var: "{主文案}"
+    desc: 如：FRACTURE / 未来的侧脸 / SYNTHESIS 07
+  - kv_var: 主色
+    style_var: "{主色}"
+    desc: 如：冷灰与铁蓝 / 象牙白与石墨 / 暗银与靛青
+
+prompt: '主体：{主体}。主文案「{主文案}」。主色为{主色}。Ultra-detailed futuristic editorial mixed-media portrait blending hyper-realistic digital collage aesthetics with precision geometric concept painting and avant-garde magazine design.
 
 
   Anatomically accurate semi-realistic human portrait rendered with ultra-sharp facial detail, visible skin texture, pores, subtle imperfections, and smooth luminous tonal gradation.

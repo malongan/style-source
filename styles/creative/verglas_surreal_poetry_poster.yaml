@@ -1,7 +1,7 @@
-# Verglas 神秘诗歌手册海报
+# 铬液金属诗歌手册海报
 
 id: verglas_surreal_poetry_poster
-name: "Verglas 神秘诗歌手册海报"
+name: "铬液金属诗歌手册海报"
 category: creative
 
 tags:
@@ -12,7 +12,7 @@ tags:
   - 意大利斜体
 
 triggers:
-  - Verglas诗歌手册
+  - 诗歌手册海报
   - 神秘主义海报
   - 铬液金属文字
   - surreal poetry poster
@@ -20,16 +20,46 @@ triggers:
 features:
   - "**纯黑背景 + 铬液金属形态** — 黑色背景上，巨大的不定形铬液金属雕塑，充满扭曲、融化、垂落的流动形态"
   - "**虹彩反射表面** — 表面泛起翠绿、紫色、琥珀色虹彩反射，湿漉漉的有机质感，如同汞在运动中被冻结"
-  - "**橙色意大利斜体文字** — 文字优雅地置于负空间中，\"Verglas\" 主标题，\"Les Ombres\" 诗意诗句排版"
+  - "**斜体主标题** — 文字置于负空间缝隙中，主标题与诗句层层递进"
   - "**模糊轮廓与暧昧形态** — 雕塑轮廓暧昧，不断在不同角度暗示不同形态，制造神秘感"
   - "**文学感诗句编排** — 多节诗句以短行诗形式排列，文学感强，如同独立诗歌手册内页"
 
 scene: "诗歌海报、文学宣传、画廊展览、品牌KV、编辑出版"
 ratio: "3:4"
-summary: "纯黑背景神秘诗歌手册海报，铬液金属雕塑+橙色意大利斜体排版，文学感诗句编排"
+summary: "纯黑背景神秘诗歌手册海报，铬液金属雕塑 + 斜体排版，文学感诗句编排"
+
+variables:
+  - kv_var: 主标题
+    style_var: "{主标题}"
+    desc: 如：Verglas / 霜面 / NOCTURNE
+  - kv_var: 小标题
+    style_var: "{小标题}"
+    desc: 如：Les Ombres. / 影子的部分 / II.
+  - kv_var: 第一节诗
+    style_var: "{第一节诗}"
+    desc: 如：They arrive without knocking, without asking if you were ready.
+  - kv_var: 第二节诗
+    style_var: "{第二节诗}"
+    desc: 如：It has been so long that the idea trembles and slips between my fingers.
+  - kv_var: 点缀色
+    style_var: "{点缀色}"
+    desc: 如：橙色 / 琥珀金 / 淡青
 
 prompt: |
-  Poster, pure black background. Composition is dominated by a massive, sprawling chrome liquid-metal form with an indeterminate, ever-shifting shape — neither clearly an arch, nor a portal, nor any recognizable object, just an amorphous mass of twisting, melting tendrils and bulging liquid folds that spill toward the edges of the frame. Surface ripples with iridescent green, violet, and amber reflections, wet-looking and organic, like poured mercury frozen mid-motion, its silhouette ambiguous and constantly suggesting different forms depending on where you look. Small negative-space gaps within the sprawling mass reveal glimpses of the black background beneath. Centered within one of these gaps, elegant orange italic script typography reads 'Verglas' as the main title. Below it, small orange serif text arranged in short poetic stanzas: 'They arrive without knocking, / without asking if you were ready. / Close your eyes — can you still feel them? / They belong more to the in-between than to either side.' followed by a smaller line 'Les Ombres.' and a final stanza: 'It has been so long that the idea trembles and slips between my fingers, / why does it still smell of ash and distance? / Perhaps it was never meant to be looked at directly, / only felt in the corner of the imagined.' Deep black background, sprawling glossy chrome-green sculptural mass filling most of the composition, warm orange type as the only accent color, moody surreal atmosphere.
+  3:4 诗歌手册海报，纯黑背景。画面被一团巨大、蔓延的铬液金属形态占据，形状不确定、不断位移——既不是明确的拱门，也不是门户，更不是任何可辨认的物体，只是一团扭动、融化、垂落的液态触须与鼓胀褶皱，向画面边缘溢出。表面泛起翠绿、紫罗兰和琥珀色的虹彩，湿润、有有机感，像被冻结在运动瞬间的汞。轮廓暧昧，在不同角度看会暗示不同形态。蔓延的金属团里留出几处小的负空间缝隙，能透出下方的黑色背景。
+
+  主标题压在某一处缝隙里：{主标题}，用优雅的{点缀色}意大利斜体排布。
+
+  下方用小的衬线字排出短诗节：
+  「{第一节诗}」
+
+  再下面一行更小的字「{小标题}」。
+
+  最后一段：
+  「{第二节诗}」
+
+  深黑背景，泛光的铬绿雕塑体填满大半个画面，{点缀色}是唯一的强调色，氛围阴郁、超现实。所有诗句左对齐，行距舒展，像独立诗歌手册的内页。
+
   不要水印，不要真实Logo，不要电商广告感。
 
 source_url: "https://x.com/recraftai/status/2076685043632583099"

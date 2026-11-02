@@ -22,15 +22,44 @@ features:
   - "**轴对称居中构图** — 巨大实色圆盘 + 密集垂直线剪影贯穿，形成纪念碑式焦点"
   - "**几何无衬线粗体标题** — 宽幅水平延展，字距略松，对比度高的浅色"
   - "**细手写线条点缀** — 沿标题下缘游走的极细流线，对角斜划与直线交织"
-  - "**金属质感低对比数字** — 纪念数字/符号以金属渐变+细对角纹理呈现，隐于线条网络后"
+  - "**金属质感低对比数字** — 纪念数字/符号以金属渐变 + 细对角纹理呈现，隐于线条网络后"
   - "**平涂矢量质感** — 纯数字矢量风格，平涂色块、流畅渐变、锐利边缘，无纸张纹理或光影"
 
 scene: "品牌纪念日海报、知识类纪念特展、主题宣言视觉"
 ratio: "9:16"
 summary: "以轴对称圆盘纪念碑为核心的肃穆矢量海报，线条雕刻轮廓与金属数字叠加，层次分明"
 
+variables:
+  - kv_var: 主题物件
+    style_var: "{主题物件}"
+    desc: 如：一枚齿轮 / 一棵树的轮廓 / 一只展翅的鹤
+  - kv_var: 主标题
+    style_var: "{主标题}"
+    desc: 如：十年 / THE LONG WALK / 一九九八
+  - kv_var: 副标题
+    style_var: "{副标题}"
+    desc: 如：纪念 · 城市记忆特展 / A MEMORIAL IN THREE PARTS
+  - kv_var: 宣言
+    style_var: "{宣言}"
+    desc: 如：有些东西被时间带走，有些被时间留下。
+  - kv_var: 纪念数字
+    style_var: "{纪念数字}"
+    desc: 如：10 / 1998 / XXVII
+
 prompt: |
-  Create a solemn, restrained, axial memorial poster around any chosen theme object, with the first impression built from a central oversized solid-color disc and a dense vertical-line silhouette passing through its lower edge, together forming a monument-like focal point, while all text, numbers, and graphics descend step by step along the same central axis; keep generous breathing space in the upper area, set the main theme title as a wide, horizontally extended geometric sans-serif in bold heavy strokes with slightly loose letter spacing and light high-contrast coloring, overlap an ultra-fine flowing handwritten line along the title's lower edge so its light diagonal strokes cross the heavy straight strokes, and below it place a single line of small, widely tracked theme subtitle text, forming the tightly locked sequence of large title, fine handwritten line, and airy subtitle; let the middle disc occupy the primary visual width with a clean, rounded edge, add one or two dark semitransparent rings slightly offset toward the lower side outside it to create a shallow sense of thickness within the flat graphics, set a short two-line theme manifesto in the disc's center in high-contrast serif type with tight, upright leading, followed by a tiny date or note, and take all wording exclusively from the current theme; let the theme's most recognizable outline extend downward from the lower half of the disc without a solid fill, cut instead into a complete silhouette by many equally spaced ultra-fine vertical lines of the same thickness, make the lines longest and densest at the center, step them shorter along the outer outline, and expand outward in successive horizontal tiers, letting them pass through the disc and descend into the dark background so the same line network creates continuous figure-ground exchange between light and dark zones; behind the silhouette, press in an oversized memorial number or theme symbol with only its central lower portion revealed, rendered in low-contrast metallic shading and fine diagonal texture, keeping it recognizable yet receding behind the line network; at the very bottom, enclose a compact set of short data and notes in a thin-line rounded capsule with whitespace on both sides to close the composition; extract colors from the theme's meaning without fixing any specific hue, let the upper region carry a medium-brightness, medium-to-high-saturation primary color, then darken continuously downward into a near-black supporting color occupying nearly half of the composition, make the disc the most striking high-saturation accent color from the theme, use low-saturation pale metallic tones or equivalent pale colors for the vertical lines, handwriting, and thin frames, and keep body copy at the highest brightness, preserving the area and contrast hierarchy of primary color field, bright disc, dark ground, and pale lines; keep the overall finish a clean digital vector poster with flat color areas, smooth gradients, crisp line endings, and slightly anti-aliased edges, with no paper fibers, stains, grain, or photographic lighting and shadow, and maintain the three front-to-back relationships of the disc being traversed by the engraved line silhouette, the oversized number being masked by the silhouette, and the bold title being grazed by the fine handwritten line, without splitting the elements into unrelated decorations.
+  9:16 肃穆、克制的轴对称纪念碑海报。第一印象由画面正中一块巨大的实色圆盘建立，圆盘下缘被一片密集的垂直线剪影贯穿，两者合成一个纪念碑式的焦点。所有文字、数字与图形沿同一条中轴自上而下逐级降落，画面上部保留大片呼吸空间。
+
+  主标题「{主标题}」用宽幅水平延展的几何无衬线粗体，笔画厚重、字距略松、浅色高对比；标题下缘叠一条极细的流动手写线，让它轻快的斜向笔画横穿厚重的直笔画；再下方一行字号很小、字距很开的副标题「{副标题}」。大标题、细手写线、疏朗副标题三层紧扣成一个序列。
+
+  中部圆盘占据主要的视觉宽度，边缘干净圆润；圆盘外侧偏下加一到两圈深色半透明环，略微错位，在扁平图形里制造浅浅的厚度感。圆盘正中排两行短宣言「{宣言}」，用高对比衬线体、紧绷竖直的行距，下面压一个极小的日期或注脚。
+
+  主题物件——{主题物件}——的轮廓从圆盘下半部向下延伸，不做实心填充，而是被许多等距、等粗的极细竖线切成一个完整的剪影：中线最长最密，沿外轮廓逐级变短，再向外按水平层级依次展开，让同一套线网穿过圆盘、坠入深色背景，在明暗两个区域之间形成连续的正负形互换。
+
+  剪影背后压一个超大的纪念数字「{纪念数字}」，只露出中下部，用金属渐变加细对角纹理渲染，低对比，隐在线网之后。
+
+  整体：纯数字矢量质感，平涂色块、流畅渐变、锐利边缘，没有纸张纹理，没有光影戏剧化。所有文字只使用本次主题的内容。
+
+  不要水印，不要真实Logo，不要电商广告感。
 
 source_url: "https://x.com/xiaoxiaodong01/status/2087528761705287734"
 source_author: "xiaoxiaodong01"

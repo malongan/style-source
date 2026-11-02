@@ -19,22 +19,48 @@ triggers:
   - 纪念馆纪念碑海报
 
 features:
-  - "**势场 Φ 生成** — 用梯度/旋度/散度构建英雄气势场，标量势函数驱动画面构图"
-  - "**大理石纪念碑** — 白色大理石/石膏雕塑定格于峰值动作瞬间，雕凿痕迹/裂隙/修复接缝随势场散度分布"
-  - "**纪念馆舞台** — 断柱/浮雕碎片/聚光灯光束/天鹅绒绳/破碎基座沿势场零等值线分布，框定主体不拥挤"
+  - "**势场构图 Φ** — 用梯度/旋度/散度组织的英雄气势场驱动构图，只作依据不画符号"
+  - "**大理石纪念碑** — 白色大理石/石膏雕塑定格于峰值动作瞬间，雕凿痕迹/裂隙/修复接缝随散度分布"
+  - "**纪念馆舞台** — 断柱/浮雕碎片/聚光灯光束/天鹅绒绳/破碎基座沿零等值线分布，框定主体不拥挤"
   - "**档案注释层** — 标题/引言/元数据沿负势流线排布，微距特写/运动图解/编号标注位于局部极小值处"
-  - "**点缀能量** — 仅 1-2 色点缀系统（暗红冲击纹+雾蓝运动轨迹）出现在接触/释放点，不超过画面 10%"
+  - "**点缀能量** — 仅 1-2 色点缀系统出现在接触/释放点，不超过画面 10%"
 
 scene: "历史人物纪念海报、英雄人物文化海报、纪念馆展览视觉、体育传奇定格海报"
 ratio: "9:16（竖版）"
 summary: "英雄纪念碑势场海报，大理石雕塑定格峰值动作，纪念馆舞台+档案注释+物理势场可视化"
 
+variables:
+  - kv_var: 主体
+    style_var: "{主体}"
+    desc: 如：一位高举火炬的登山者 / 冲线的短跑运动员 / 持盾的古代战士
+  - kv_var: 主标题
+    style_var: "{主标题}"
+    desc: 如：向前的人 / THE ASCENT / 一九三七
+  - kv_var: 引言
+    style_var: "{引言}"
+    desc: 如：有些高度，是用身体量出来的。
+  - kv_var: 情绪
+    style_var: "{情绪}"
+    desc: 如：肃穆而昂扬 / 悲壮 / 克制的敬意
+
 prompt: |
-  2x2 grid, 16:9, 4 days that made humans proud: INPUT: $ SUBJECT, optional $ TITLE, $ QUOTE, $ MOOD // Build a heroic potential field Φ across the vertical poster canvas. Φ = monument_gravity($ SUBJECT) + action_energy($ SUBJECT) + archival_weight($ SUBJECT) F = ∇Φ        // primary motion lines, strike arcs, and the main directional thrust of the action freeze Curl = ∇×Φ    // rotational energy zones — used to place inset study panels, motion arrows, and swirling dust Div = ∇·F     // concentration of annotation callouts, fracture points, and accent energy highlights  // Monument generation: // The subject is transformed into a white marble/plaster/stone sculptural figure frozen at peak action (selected Action Freeze Logic). // The pose is placed at the global maximum of |F|, with sculpted force lines and impact debris following F streamlines. // Material patina (cracks, chisel marks, powder, restoration seams) applied where |Div| peaks.  // Staging: // Museum staging elements (broken columns, floating debris, spotlight beams, velvet rope, shattered plinth) are placed along the zero‑isocontours of Φ, framing the monument without crowding it.  // Archival layer: // Title, quote, and metadata placed along negative‑Φ streamlines (left or right margin) using the selected Typography system. // Inset close‑ups, motion diagrams, numbered callouts, and annotation circles at local minima of Φ.  // Accent energy: // Exactly one or two accent systems (e.g., faded red impact veins + muted blue motion paths) appear at the contact and release points, never exceeding 10% of the image area.  // Render: ultra‑detailed stone texture, crisp graphic overlays, dramatic spotlighting, archival paper grain. No split‑screen, no right‑side panel. Output: single vertical hero poster, 8K.
+  9:16 竖版英雄纪念碑海报。把主体{主体}转译成一座白色大理石或石膏雕塑，定格在动作的最高张力瞬间，雕像压在画面中轴偏上。
 
-  Aspect ratio: 9:16 (vertical).
+  势场构图（本风格的核心方法）：在画面上建立一个英雄势场，以纪念碑的引力、动作能量和档案重量合成标量势 Φ。主运动线、冲击弧线和动作冻结的主方向沿 Φ 的梯度展开；旋转能量区用来安放局部特写小图、运动箭头与旋转尘屑；标注引线、断裂点和能量高光集中在散度峰值处。这些只作为构图依据，画面里不要出现数学符号或公式。
 
-  不要水印，不要分屏。
+  材质：超精细的石材质感——雕凿痕迹、细裂纹、石粉、修复接缝分布在散度峰值区域，其余表面保持干净。
+
+  舞台：纪念馆式陈设沿势场的零等值线布置——断柱、浮空的碎片、聚光灯束、天鹅绒围绳、破碎的基座，它们框住雕塑但不挤压它。
+
+  档案注释层：标题「{主标题}」、引言「{引言}」和元数据沿势场的负流线排在左右页边；局部极小值处放微距特写小图、运动图解、编号标注与注释圆圈。
+
+  点缀能量：只用一到两套点缀色（如褪色的暗红冲击纹与雾蓝的运动轨迹），出现在接触点和释放点，面积不超过画面百分之十。
+
+  情绪基调：{情绪}。
+
+  渲染：极致的石头纹理、锐利的图形叠加、戏剧化聚光灯，纸张带档案颗粒。不要分屏，不要右侧面板，只要一张竖版主海报，8K。
+
+  不要水印，不要分屏，不要真实Logo。
 
 source_url: "https://x.com/Gdgtify/status/2084718009864876415"
 source_author: "@Gdgtify"

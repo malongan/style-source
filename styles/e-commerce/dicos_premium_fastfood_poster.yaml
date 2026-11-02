@@ -1,7 +1,7 @@
-# 德克士高端快餐海报
+# 高端快餐四格海报
 
 id: dicos_premium_fastfood_poster
-name: "德克士高端快餐海报"
+name: "高端快餐四格海报"
 category: e-commerce
 
 tags:
@@ -27,41 +27,47 @@ features:
   - "**超写实食品摄影** — 酥脆表皮、盐晶闪光、酱汁光泽、面包柔光、土豆质感、辣椒碎、蒸气细节"
   - "**高端商业布光** — 柔和高调商业食品打光，炸物高光纯净、酱汁反射细润、色泽诱人"
   - "**克制涂鸦点缀** — 少量精致手绘涂鸦（星星、酱汁漩涡、动感弧线）围绕排版，不抢食品主角"
-  - "**四组色彩世界** — 暖奶油橙、深炭黑金、辣椒红琥珀、橄榄绿米色，各有明确色彩身份"
+  - "**四组色彩世界** — 每格一套独立色彩身份，四格并置形成节奏"
 
 scene: "快餐品牌 KV、食品海报设计、菜单视觉、广告campaign、商业摄影"
 ratio: "1:1"
-summary: "德克士 2x2 四格高端快餐海报，超写实食品摄影 + 设计年鉴级商业视觉，每个面板节奏统一"
+summary: "2x2 四格高端快餐海报，超写实食品摄影 + 设计年鉴级商业视觉，每格节奏统一、色彩各异。"
+
+variables:
+  - kv_var: 品牌名
+    style_var: "{品牌名}"
+    desc: 如：Dicos / 华莱士 / BURGER LAB
+  - kv_var: 菜品组合
+    style_var: "{菜品组合}"
+    desc: 如：香辣鸡腿堡 / 金黄薯条 / 炸鸡桶 / 鸡肉卷（四款，按格顺序）
+  - kv_var: 标题组合
+    style_var: "{标题组合}"
+    desc: 如：大口满足 / 金黄上瘾 / 热辣开炸 / 卷进美味（四条，与菜品一一对应）
+  - kv_var: 配色组
+    style_var: "{配色组}"
+    desc: 如：暖奶油橙 / 炭黑金 / 辣椒红琥珀 / 橄榄绿米色（四组，按格顺序）
 
 prompt: |
-  Create an ultra-premium 2x2 four-panel fast-food campaign poster for Dicos, transforming playful fast-food poster energy into a highly refined, product-dominant, design-annual-level commercial visual system. The final artwork must feel bold, youthful, appetizing, modern, and sharply art-directed, while keeping the food as the absolute hero. Use four square panels arranged in a strict grid, each panel featuring one different classic Dicos fast-food item, one much larger expressive Chinese main title, one smaller English subtitle, restrained supporting English copy, minimal official Dicos branding, and only a very small number of clean playful hand-drawn doodles.
+  1:1 高端快餐 campaign 海报，2x2 四格。把快餐海报的活泼能量提升到设计年鉴级的商业视觉系统：大胆、年轻、诱人、现代、美术指导精确，食物永远是绝对主角。
 
-  Core composition:
-  Use a strict 2x2 grid. Each panel must preserve the same campaign rhythm:
-  1. one hero fast-food item dominating the right or center-right area,
-  2. one very large artistic Chinese hand-lettered title occupying the left or upper-left area,
-  3. one smaller English subtitle beneath or near the Chinese title,
-  4. one short supporting English copy block,
-  5. one refined Dicos logo or clean brand mark,
-  6. only a few minimal doodle accents integrated around the typography,
-  7. a clean foreground surface with a tiny number of crumbs, sauce accents, or ingredient echoes.
+  品牌：{品牌名}只以极小的标志或干净的品牌标记出现，绝不抢食物。
 
-  Creative direction:
-  Combine Milk Cloud Orbit and Cream Halo Transit. Keep the exact four-panel skeleton, but intensify the strongest product-light details: cleaner fried-surface highlights, purer sauce reflections, brighter salt-crystal sparkle, more precise gloss on buns and wraps, and richer appetizing realism. At the same time, reduce the doodles so they become tighter, cleaner, and more intentional, and enlarge the Chinese titles so the graphic impact becomes stronger without stealing attention from the food.
+  四格骨架：严格 2x2 网格，四格节奏完全统一——
+  1. 一款主推食品占据右侧或中右区域；
+  2. 左侧或左上是一组超大的艺术化中文手写标题；
+  3. 中文标题下方或附近一行较小的英文副标题；
+  4. 一小块克制的英文辅助文案；
+  5. 一枚精致的品牌标记；
+  6. 只有少量极简涂鸦点缀在排版周围；
+  7. 干净的前景台面上散落几粒碎屑、酱汁点或食材呼应。
 
-  Panel color worlds:
-  Panel 1: warm cream and toasted orange (crispy chicken burger — "大口满足")
-  Panel 2: deep charcoal-black and golden yellow (golden seasoned fries — "金黄上瘾")
-  Panel 3: rich chili red and amber brown (spicy fried chicken — "热辣开炸")
-  Panel 4: fresh olive green and soft beige (grilled chicken wrap — "卷进美味")
+  四格内容：按格顺序依次是{菜品组合}，主标题对应{标题组合}，每格一套配色，依次为{配色组}。
 
-  Food realism:
-  Render every item with extreme realism: crispy fried coating, golden crumb texture, juicy chicken fibers, glossy burger bun, fresh lettuce moisture, melted sauce sheen, realistic potato texture, salt crystals, pepper specks, tortilla surface detail, char marks, subtle steam, and appetizing oil highlights.
+  食品真实感：每一款都要极致真实——酥脆的裹粉、金黄的颗粒质感、多汁的肉质纤维、油润的面包、生菜的湿润、融化酱汁的光泽、真实的土豆纹理、盐晶与胡椒碎、饼皮表面细节、焦痕、细微蒸气、诱人的油光。
 
-  Typography:
-  Bold expressive Chinese hand-lettered main titles paired with smaller clean English subtitles. Chinese titles noticeably larger with stronger visual authority.
+  排版：粗壮有表现力的中文手写主标题，配较小克制的英文副标题。中文标题字号明显更大，视觉权重更强，但不压过食物。
 
-  不要水印，不要真实Logo（品牌名用 Dicos 示意），不要电商广告感。
+  不要水印，不要真实Logo（品牌名仅作示意），不要电商广告感。
 
 source_url: "https://x.com/ou_zhen599/status/2081033228023218571"
 source_author: "ou_zhen599"

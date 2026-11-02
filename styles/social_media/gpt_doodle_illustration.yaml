@@ -3,7 +3,7 @@ category: social_media
 ratio: 16:9 或 9:16
 source_author: '@oggii_0'
 source_url: 'https://x.com/oggii_0'
-summary: GPT Image 2 专属涂鸦插画风格指南：真实主体 + 手绘涂鸦互动 + 微观叙事 + 明亮配色。
+summary: 真实主体 + 手绘涂鸦互动 + 微观叙事 + 明亮配色的童趣涂鸦插画风格。
 tags:
 - 涂鸦
 - 插画
@@ -17,22 +17,55 @@ triggers:
 - GPT Image 2
 features:
 - title: 真实主体与手绘涂鸦融合
-  desc: ''
-- title: 涂鸦元素与主体互动（触碰、拉拽、举起、反应）
-  desc: ''
+  desc: 主体写实，涂鸦扁平，两者质感刻意拉开
+- title: 涂鸦元素与主体互动
+  desc: 触碰、拉拽、举起、做出反应，不是贴装饰
 - title: 微观叙事小故事
-  desc: ''
+  desc: 第二眼才发现的小情节
 - title: 明亮振奋的光线，无硬阴影
-  desc: ''
+  desc: 光柔和提气，画面干净透气
 - title: 干净整洁但有温度
-  desc: ''
-variables: []
-prompt: "Create a cheerful, creative composition that blends a realistic subject with \nplayful hand-drawn doodles and a subtle micro-story.\n\nSubject:\n[insert object / person / product — keep simple\
-  \ and recognizable]\n\nLayout:\n- Invisible clean grid system underneath\n- Balanced, airy spacing (avoid clutter)\n- Clear hierarchy: subject first, doodles second, micro details third\n\nDoodles:\n\
-  - Playful, expressive, slightly exaggerated\n- Include: smiley faces, stars, sparkles, arrows, motion lines, cute icons\n- Doodles must INTERACT with the subject (touching, pulling, lifting, reacting)\n\
-  \nMicro Story:\n- Add a tiny, fun narrative (e.g., doodle characters using the object, reacting to it)\n- Keep it subtle and discoverable on second glance\n\nTypography:\n- Friendly sans-serif + handwritten\
-  \ notes\n- Casual tone (not serious, not corporate)\n- Include small fun labels or thoughts\n\nColor:\nBase: white / soft cream\nInk: soft black / dark grey\nAccents: 2–3 cheerful colors (yellow, sky\
-  \ blue, soft red, mint, etc.)\n\nLighting:\n- Bright, soft, uplifting\n- No harsh shadows\n\nStyle:\n- Clean + playful + slightly imperfect\n- Feels human, warm, and creative\n\nConstraints:\n- Do NOT\
-  \ overcrowd\n- Every doodle must have purpose or interaction\n- Keep subject clearly visible (no obstruction)\n- Maintain breathing space\n\nMood: [cheerful / curious / lighthearted / imaginative]"
+  desc: 略不完美，有人味，不 corporate
+variables:
+- kv_var: 主体
+  style_var: '{主体}'
+  desc: 如：一只马克杯 / 一位抱膝坐着的年轻人 / 一罐咖啡
+- kv_var: 情绪
+  style_var: '{情绪}'
+  desc: 如：cheerful / curious / 轻松惬意 / 充满想象
+prompt: 'Create a cheerful, creative composition that blends a realistic subject with playful hand-drawn doodles and a subtle micro-story.
+
+
+  主体：{主体}
+
+
+  版式：
+  - 底下有一套看不见的干净网格系统
+  - 间距均衡、透气，不堆砌
+  - 层级清晰：主体第一，涂鸦第二，微细节第三
+
+
+  涂鸦：俏皮、有表达力、略微夸张。包含笑脸、星星、闪光、箭头、动势线、可爱图标。涂鸦必须与主体发生互动——触碰、拉拽、举起、做出反应。
+
+
+  微观叙事：加一个很小的有趣故事，比如涂鸦小人在使用这个物体、对它做出反应。必须克制，第二眼才发现。
+
+
+  排版：友好的无衬线体加手写批注，语气随意，不严肃、不企业化，包含小的趣味标签或想法。
+
+
+  配色：底为白色或柔奶油色；墨为柔黑或深灰；点缀两三种明快颜色，如黄、天蓝、柔红、薄荷。
+
+
+  光线：明亮、柔和、提气，没有硬阴影。
+
+
+  风格：干净加俏皮加略不完美，有人味、温暖、有创造力。
+
+
+  约束：不要过密；每个涂鸦都要有作用或互动；主体始终清晰可见不被遮挡；保持呼吸空间。
+
+
+  情绪：{情绪}'
 id: gpt_doodle_illustration
 code: ''

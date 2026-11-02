@@ -1,7 +1,7 @@
-# North Fold 科考档案海报
+# 科考档案网格海报
 
 id: north_fold_scientific_poster
-name: "North Fold 科考档案海报"
+name: "科考档案网格海报"
 category: creative
 
 tags:
@@ -12,24 +12,57 @@ tags:
   - 编辑排版
 
 triggers:
-  - North Fold科考档案
+  - 科考档案海报
   - 白色网格海报
   - 半机械昆虫
   - scientific archive poster
 
 features:
   - "**白色网格四象限系统** — 纯黑背景被细白网格线分割为四个象限，两角有燕尾夹图示"
-  - "**半机械昆虫焦点图** — 象限中心是半机械蜻蜓/蝉，半边有机深红外壳，半边铬机械，虹彩金属光泽"
-  - "**坐标与档案文字** — 白色等宽坐标文字、档案描述文字、语音转写，档案感极强"
+  - "**半机械生物焦点图** — 象限中心是半机械生物，半边有机外壳，半边铬机械，虹彩金属光泽"
+  - "**坐标与档案文字** — 白色等宽坐标文字、档案描述文字、音标，档案感极强"
   - "**网格线穿透玻璃翅** — 半透明玻璃质感翅脉，网格线从下方透出，机械关节发光"
   - "**高对比黑白+单一虹彩** — 黑白档案系统，唯一彩色是半机械身的深红与虹彩光泽"
 
 scene: "档案海报、科考展览、品牌KV、编辑出版、概念设计"
 ratio: "3:4"
-summary: "科考档案风格海报，白色网格四分系统+半机械昆虫焦点图，坐标文字档案感强"
+summary: "科考档案风格海报，白色网格四象限 + 半机械生物焦点图，坐标文字档案感强"
+
+variables:
+  - kv_var: 主标题
+    style_var: "{主标题}"
+    desc: 如：North / Fold / 极地档案 / DEEP FIELD
+  - kv_var: 档案描述
+    style_var: "{档案描述}"
+    desc: 如：Kestrel Bay, formerly a restricted fishing outpost, is now a marine research post.
+  - kv_var: 焦点物种
+    style_var: "{焦点物种}"
+    desc: 如：半机械蜻蜓 / 半机械蝉 / 半机械甲虫
+  - kv_var: 坐标串
+    style_var: "{坐标串}"
+    desc: 如：W:118034.2 2207193 / S:3312087 419
+  - kv_var: 编目信息
+    style_var: "{编目信息}"
+    desc: 如：04.09.2026 / Daily / Poster 62
+  - kv_var: 音标
+    style_var: "{音标}"
+    desc: 如：[ˈkɛstrəl] / [ˈdrægənflaɪ]
 
 prompt: |
-  Poster, pure black background divided by thin white grid lines into four quadrants, with two small binder-clip icon illustrations pinned at the top corners as if holding a printed sheet. Top-left quadrant: bold white sans-serif text reading 'North / Fold' stacked. Beside it, small white body text: 'Kestrel Bay, formerly a restricted fishing outpost, is now recognized as a heritage site and marine research post following the 2019 Coastal Accord.' with a tiny caption 'Sources + Archive'. Top-right quadrant: large white monospace coordinate text 'W:118034.2 2207193 / S:3312087 419'. Center of the poster: a large detailed illustration of a half-mechanical insect — a dragonfly or cicada-like creature where half of its body is organic deep crimson red exoskeleton and the other half is fused with intricate chrome machinery, exposed gears, thin metallic joints, and glowing circuit-like seams running along its legs and thorax. Its surface catches dramatic iridescent light, rippling with oily rainbow highlights of violet, gold, and cyan across the metallic segments. Its wings are rendered translucent and glass-like, glowing faintly from within with a soft internal light, revealing delicate vein-like structures and fine mechanical filigree, the grid lines faintly visible through them, wings catching sharp specular light like thin resin lit from behind. Small glowing highlights pulse along the mechanical joints as if lit from an internal power source. Bottom-left: white text stacked '04.09.2026 / Daily / Poster 62'. Bottom-right: a phonetic transcription in brackets '[ˈkɛstrəl]' above coordinate numbers '61°45.0091' 24°3''. A small white paint-splatter logo mark centered at the very bottom edge. Stark black-and-white grid system with a single luminous, iridescent half-mechanical insect illustration as the focal point, dramatic light and reflective contrast against the crimson body.
+  3:4 科考档案海报。纯黑背景被细白网格线切成四个象限，顶部两角各钉一个小的燕尾夹图标，像夹住一张打印纸。
+
+  左上象限：白色无衬线粗体排出「{主标题}」，两行堆叠；旁边一行小的白色正文「{档案描述}」，下方压一个极小的注脚「Sources + Archive」。
+
+  右上象限：白色等宽字排出坐标串「{坐标串}」，字距均匀，像仪器读数。
+
+  画面正中：一只半机械生物的大幅精细插画，是{焦点物种}。它的一半身体是有机的深红外壳，另一半与精密铬机械融合——暴露的齿轮、纤细的金属关节、沿腿部和胸腹延伸的发光电路缝。表面在强光下泛起油膜般的虹彩，紫、金、青在金属段上流动。翅膀是半透明的玻璃质感，内部透出微弱的光，能看清纤细的翅脉与机械花丝，底下的网格线从翅膀透出来，翅膀边缘带锐利的镜面高光。机械关节处有小光点在脉动，像内部有电源。
+
+  左下：白色文字堆叠「{编目信息}」。
+
+  右下：方括号里的音标「{音标}」压在一串坐标数字上方。
+
+  最底部边缘正中一枚小的白色泼溅状标志。整体是硬朗的黑白网格系统，唯一发亮的是那只虹彩半机械生物，戏剧化的光与反射落在深红身体上。
+
   不要水印，不要真实Logo，不要电商广告感。
 
 source_url: "https://x.com/recraftai/status/2076685043632583099"
