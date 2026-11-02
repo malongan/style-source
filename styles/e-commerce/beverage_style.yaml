@@ -23,38 +23,41 @@ features:
 variables:
 - kv_var: 画面主体
   style_var: '{SUBJECT}'
+  desc: 如 a chilled peach soda can
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
+  desc: 如 bursting through a frozen splash
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
+  desc: 如 peach slices, ice cubes
 - kv_var: 场景地点
   style_var: '{LOCATION}'
+  desc: 如 a studio splash set
 - kv_var: 背景元素
   style_var: '{BACKGROUND_ELEMENTS}'
+  desc: 如 giant white block letters, foam
 - kv_var: 主文案
   style_var: '{MAIN_TEXT}'
+  desc: 如 TASTE THE FIZZ
 - kv_var: 产品品类
   style_var: '{PRODUCT_CATEGORY}'
+  desc: 如 气泡水 / 果汁 / 能量饮料
 - kv_var: 产品形态
   style_var: '{DELIVERY_FORMAT}'
-- kv_var: 主色
-  style_var: '{PRIMARY_COLOR}'
-- kv_var: 辅色
-  style_var: '{SECONDARY_COLOR}'
+  desc: 如 易拉罐 / 玻璃瓶 / 利乐包
+- kv_var: 配色
+  style_var: '{COLOR_SYSTEM}'
+  desc: 主色 + 辅色，如 coral + cream shadow / mint + deep teal
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
+  desc: 如 new flavor, limited drop
 - kv_var: 点缀符号
   style_var: '{ACCENT_SYMBOL}'
+  desc: 如 a small splash glyph / circular badge
 - kv_var: 服装造型
   style_var: '{WARDROBE_STYLE}'
-prompt: 'Create a 16:9 beverage launch advertisement in the Multi-Color Beverage Splash Ad System style for {PRODUCT_CATEGORY} and {DELIVERY_FORMAT}. Preserve these style anchors: one strong drink-category
-  color system; giant white extruded block-letter architecture behind the product; one large diagonal fictional beverage pack cropped close near center; frozen splash, foam, ice, bubbles, condensation,
-  or liquid sheets across the foreground; bold condensed italic white stacked headline typography; polished studio beverage lighting with crisp highlights; dense retail-ad layout with strong product hierarchy;
-  delivery-context cues that stay secondary to the hero drink. Use {PRIMARY_COLOR} as the dominant field and {SECONDARY_COLOR} for shadows, side planes, liquid tint, or packaging accents. Replace all source
-  content. Do not use Sprite, Coca-Cola, copied Korean text, copied Z/E/R/O layout, original green can, existing beverage logo, real brand name, watermark, QR code, legal microcopy, or exact source slogan.
-  New content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary supporting text: {SECONDARY_TEXT}.
-  Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Adapt the composition to 16:9: 9:16 should feel usable as a vertical store poster, fridge sticker, or Xiaohongshu cover;
-  16:9 should feel usable as a subway lightbox, brand launch KV, or supermarket display backdrop. Use photoreal commercial beverage retouching, transparent frozen liquid motion, glossy cold surfaces, crisp
-  contrast, and a fresh kinetic launch-ad mood.'
+  desc: 如 model in white tee, casual street styling
+prompt: |
+  Create a 16:9 beverage launch advertisement in the Multi-Color Beverage Splash Ad System style for {PRODUCT_CATEGORY} and {DELIVERY_FORMAT}. Preserve these style anchors: one strong drink-category color system; giant white extruded block-letter architecture behind the product; one large diagonal fictional beverage pack cropped close near center; frozen splash, foam, ice, bubbles, condensation, or liquid sheets across the foreground; bold condensed italic white stacked headline typography; polished studio beverage lighting with crisp highlights; dense retail-ad layout with strong product hierarchy; delivery-context cues that stay secondary to the hero drink. Color system: {COLOR_SYSTEM} — one dominant field plus shadow, side-plane, liquid-tint and packaging accent variations drawn from it. Replace all source content. Do not use Sprite, Coca-Cola, copied Korean text, copied Z/E/R/O layout, original green can, existing beverage logo, real brand name, watermark, QR code, legal microcopy, or exact source slogan. New content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary supporting text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Adapt the composition to 16:9: 9:16 should feel usable as a vertical store poster, fridge sticker, or Xiaohongshu cover; 16:9 should feel usable as a subway lightbox, brand launch KV, or supermarket display backdrop. Use photoreal commercial beverage retouching, transparent frozen liquid motion, glossy cold surfaces, crisp contrast, and a fresh kinetic launch-ad mood.
 id: beverage_style
 code: ''

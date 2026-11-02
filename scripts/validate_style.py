@@ -56,6 +56,12 @@ PLACEHOLDER_RE = re.compile(r'\{([^{}\n]{1,40})\}')
 # style_var 写成「候选清单 / 一句人话」的特征：枚举分隔符、可选标记、举例引号
 DESCRIPTIVE_VALUE_RE = re.compile(r'[、，/：]|（可选）|\(可选\)|如["“]')
 
+# 一个风格最多给几个输入框（见 docs/PROMPT_VARIABLES_SPEC.md §5）
+MAX_VARIABLES = 12
+
+# 允许保持英文的 kv_var（品牌名 / 通用术语），小写比较
+ALLOW_EN_KV = {'prompt'} 
+
 
 def check_variables_semantics(data: dict):
     """变量语义校验（PROMPT_VARIABLES_SPEC 的 R1/R2/R3）。
@@ -100,8 +106,8 @@ def check_variables_semantics(data: dict):
             warnings.append(f'style_var 未用花括号包裹（靠 key 兜底才能命中）：{sv}')
 
     # R3：prompt 里的每个槽位都该有声明。
-    # 历史脏数据（把「填写主题，例如：…」整句当占位符）还在 6 个风格里，
-    # 这一条先记 warning，人工改完 prompt 后可升级为 error。
+    # 2026-11 已完成全库整改（未声明槽位 0 个），这条从 warning 升级为 error：
+    # 漏声明的槽位不会出输入框，且标签会退化成英文占位符名，用户侧直接看不懂。
     for name in dict.fromkeys(PLACEHOLDER_RE.findall(prompt)):
         covered = False
         for v in declared:
@@ -111,7 +117,24 @@ def check_variables_semantics(data: dict):
                 covered = True
                 break
         if not covered:
-            warnings.append(f'prompt 槽位 {{{name}}} 没有对应 variables 声明（标签会退化成占位符名）')
+            errors.append(f'prompt 槽位 {{{name}}} 没有对应 variables 声明（标签会退化成占位符名）')
+
+    # R4：kv_var 是面板上给用户看的标签，必须是中文。
+    # 一整片大写英文（SUBJECT / MAIN_TEXT）在中文界面里既占宽又难认，
+    # 而且和「占位符名」混淆后很难判断某条声明到底有没有生效。
+    for v in declared:
+        kv = str(v.get('kv_var') or '').strip()
+        if not kv or re.search(r'[\u4e00-\u9fa5]', kv):
+            continue
+        if kv.lower() in ALLOW_EN_KV:
+            continue
+        errors.append(f'kv_var 是纯英文标签，改成中文：{kv}')
+
+    # R5：变量数量上限。面板是一列输入框，超过 12 个用户基本不会填完。
+    # 需要更多输入时，先用一个「1/2/3」家族收成一个字段（值用 / 或 → 分隔）。
+    n = len(declared)
+    if n > MAX_VARIABLES:
+        errors.append(f'变量 {n} 个，超过上限 {MAX_VARIABLES} 个（把一个位置上的多个元素合并成一个字段）')
 
     return errors, warnings
 

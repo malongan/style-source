@@ -31,22 +31,22 @@ ratio: "3:4"
 summary: "以安静角落情绪为核心，通过场景构建与光影叙事，营造自然和谐、情绪共鸣的室内氛围插画"
 
 prompt: |
-  A {art_style} illustration of a {mood} {setting} featuring {architecture}. {lighting} illuminates the space, highlighting {interior_details}. {subjects} are {activities}, creating a sense of {atmosphere}. The background showcases {surrounding_view}. The color palette includes {colors}, with {medium} and {artistic_details}, resulting in a {aesthetic} composition rich in detail and natural harmony.
+  A {art_style} illustration of a {setting} featuring {architecture}, in a {mood} mood. {lighting} illuminates the space, highlighting {interior_details}. {subjects} are {activities}, which sets a quiet, lived-in atmosphere. The background showcases {surrounding_view}. The color palette includes {colors}, with {medium_and_details}, resulting in a {aesthetic} composition rich in detail and natural harmony.
 
   不要水印，不要真实Logo，不要摄影照片感。
 variables:
 - kv_var: 艺术风格
   style_var: '{art_style}'
   desc: 如 flat illustration / soft gouache
-- kv_var: 情绪氛围
-  style_var: '{mood}'
-  desc: 如 calm / nostalgic / cozy
 - kv_var: 场景
   style_var: '{setting}'
   desc: 室内或室外，如 sunlit cafe interior
 - kv_var: 建筑元素
   style_var: '{architecture}'
   desc: 如 large arched window / wooden beams
+- kv_var: 情绪氛围
+  style_var: '{mood}'
+  desc: 如 calm / nostalgic / cozy
 - kv_var: 光线
   style_var: '{lighting}'
   desc: 如 warm afternoon sunlight
@@ -59,21 +59,15 @@ variables:
 - kv_var: 活动
   style_var: '{activities}'
   desc: 如 reading a book, sipping tea
-- kv_var: 情绪与氛围
-  style_var: '{atmosphere}'
-  desc: 如 quiet solitude / gentle warmth
 - kv_var: 周边环境
   style_var: '{surrounding_view}'
   desc: 如 greenery outside the window
 - kv_var: 配色
   style_var: '{colors}'
   desc: 如 sage green, warm beige, soft cream
-- kv_var: 媒介与技法
-  style_var: '{medium}'
-  desc: 如 textured paper grain, soft brushwork
-- kv_var: 艺术细节
-  style_var: '{artistic_details}'
-  desc: 如 dappled light, fabric folds
+- kv_var: 媒介与细节
+  style_var: '{medium_and_details}'
+  desc: 材质 + 笔触 + 细节，如 textured paper grain, soft brushwork, dappled light
 - kv_var: 整体美学
   style_var: '{aesthetic}'
   desc: 如 serene, natural harmony
