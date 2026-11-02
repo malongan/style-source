@@ -27,8 +27,16 @@ features:
   desc: ''
 - title: '**整体**：复古动画帧美感'
   desc: ''
-variables: []
-prompt: Retro cel animation style, [subject] in a [setting], hand-painted background, visible cel lines, muted [color1] and [color2] palette, soft grain, gentle lighting, expressive character design, vintage
+variables:
+- kv_var: 主体
+  style_var: '{subject}'
+- kv_var: 环境
+  style_var: '{setting}'
+- kv_var: 主色
+  style_var: '{color1}'
+- kv_var: 辅色
+  style_var: '{color2}'
+prompt: Retro cel animation style, {subject} in a {setting}, hand-painted background, visible cel lines, muted {color1} and {color2} palette, soft grain, gentle lighting, expressive character design, vintage
   animation frame aesthetic
 id: retro_cel_animation
 code: ''

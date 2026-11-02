@@ -47,6 +47,23 @@ prompt: |
 
   不要水印，不要真实品牌名。
 
+variables:
+- kv_var: 角色
+  style_var: '{character}'
+- kv_var: 姿态
+  style_var: '{pose}'
+- kv_var: 发型
+  style_var: '{hair}'
+- kv_var: 表情
+  style_var: '{expression}'
+- kv_var: 服装
+  style_var: '{clothing}'
+- kv_var: 配色
+  style_var: '{colors}'
+- kv_var: 背景
+  style_var: '{background}'
+- kv_var: text
+  style_var: '{text}'
 source_url: "https://x.com/HustleXR/status/2087745072309604705"
 source_author: "HustleXR"
 

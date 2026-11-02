@@ -40,25 +40,27 @@ features:
 - title: 在新主体上保持相同的视觉类型、密度级别与渲染方式。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main adult anime subject or paired reaction subjects
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: surprised, amazed, competitive, or discovery-driven action
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, product, tool, device, food, game cabinet, package, plant, or other prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: clean indoor or semi-technical setting with simple background planes
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: windows, panels, cabinets, screens, glow clouds, motion puffs, framed partitions, or soft blue depth elements
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: short uppercase thumbnail headline
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Bold Anime Reaction Thumbnail Style" visual style.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: NEGATIVE PROMPT
+  style_var: '{NEGATIVE_PROMPT}'
+prompt: 'Create a 16:9 image in the "Bold Anime Reaction Thumbnail Style" visual style.
 
 
   Subject: {SUBJECT}
@@ -79,9 +81,9 @@ prompt: 'Create a {ASPECT_RATIO} image in the "Bold Anime Reaction Thumbnail Sty
 
   Wardrobe/styling: {WARDROBE_STYLE}
 
-  Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}
+  Style fidelity anchors: the core visual anchors of this style
 
-  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}
+  Source content to avoid: watermarks, real logos, and commercial advertising
 
 
   Apply these style rules:

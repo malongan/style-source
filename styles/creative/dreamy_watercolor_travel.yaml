@@ -48,6 +48,11 @@ prompt: |
   storybook style, European travel journal, high detail, 8K.
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感。
 
+variables:
+- kv_var: 城市名
+  style_var: '{城市名}'
+- kv_var: 一句诗意标语
+  style_var: '{一句诗意标语}'
 source_url: "https://x.com/Taaruk_/status/2072192393932354027"
 source_author: "@Taaruk_"
 

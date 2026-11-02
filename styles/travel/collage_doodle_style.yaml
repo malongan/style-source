@@ -42,28 +42,28 @@ features:
 - title: '涂鸦层：添加 ACCENT_SYMBOL，以及松散的黑色马克笔回环、墨点星爆、蓝色水滴、弧形线条、短促飞溅笔触与动势小符号，作为独立的图形图层。'
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: oversized illustrated traveler, guide, fisherman, skateboarder, courier, musician, or explorer
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: leaning over a landmark, floating through the scene, pulling a stripe pole, balancing on a fish, chasing a creature, or bending around architecture
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: painted hiking staff, fishing line, travel bag, map, snack, camera, kite string, ferry ticket, umbrella, or oversized pencil
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: recognizable travel landmark, bridge, bay, harbor, canal, cliff road, mountain pass, plaza, or observation deck
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: blue sky, water, landmark structure, distant city, boats, coastline, clouds, bridge cables, buildings, or tourist-view scenery
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: optional tiny hand-lettered travel caption or none
-  desc: ''
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
 prompt: 'Create an image in the "Surreal Fish Doodle Landmark Photo Collage" style.
 
 
-  Aspect ratio: {ASPECT_RATIO}.
+  Aspect ratio: 16:9.
 
 
   Scene: {SUBJECT} {SUBJECT_ACTION}, using {PRODUCT_OR_PROP}, at {LOCATION}. Include {BACKGROUND_ELEMENTS}. Wardrobe styling: {WARDROBE_STYLE}.

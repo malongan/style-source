@@ -58,6 +58,9 @@ prompt: |
 
   不要水印，不要真实Logo，不要电商广告感，不要书籍封面既视感，不要传统古风插画，不要巨大标题，不要满屏古建筑，不要元素堆砌，不要PPT式排版，不要脏旧纸张，不要3D CGI，不要玻璃材质，不要塑料感，不要霓虹色，不要编号和星芒装饰。
 
+variables:
+- kv_var: 填写
+  style_var: '{填写}'
 source_url: "https://x.com/MrLarus/status/2100171303689093395"
 source_author: "@MrLarus"
 

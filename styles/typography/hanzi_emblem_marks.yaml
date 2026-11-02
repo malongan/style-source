@@ -44,6 +44,15 @@ prompt: |
   比例 1:1，精致清晰，成熟设计作品完成度。
   不要水印，不要真实Logo，不要乱码文字。
 
+variables:
+- kv_var: 主题汉字
+  style_var: '{主题汉字}'
+- kv_var: 主色调
+  style_var: '{主色调}'
+- kv_var: 辅助色
+  style_var: '{辅助色}'
+- kv_var: 点缀色
+  style_var: '{点缀色}'
 source_url: "https://x.com/MrLarus/status/2051581807569649697"
 source_author: "@MrLarus"
 

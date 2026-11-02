@@ -35,29 +35,18 @@ features:
 - title: '**整体风格**：极简奢华编辑风、高端杂志封面质感'
   desc: ''
 variables:
-- kv_var: 主标题
-  style_var: '[NAME] CHAPTER [AGE]'
-  desc: 墙上文字
 - kv_var: 年龄
-  style_var: '[AGE]'
-  desc: 数字内容
-- kv_var: 画面-主体
-  style_var: 儿童 + 服装
-  desc: 保持笑容
-- kv_var: 画面-装饰
-  style_var: 气球 + 花卉
-  desc: 数字内组合
-- kv_var: 色彩-主色
-  style_var: 米白、粉色
-  desc: 整体色调
+  style_var: '{AGE}'
+- kv_var: 名称
+  style_var: '{NAME}'
 prompt: 'Professional luxury birthday poster, 3:4 portrait composition, ultra high-end studio photography aesthetic. Premium off-white textured paper wall background with subtle grain and depth.
 
 
-  A large number [AGE] is precisely carved into the wall with realistic thickness, beveled edges, and deep inner shadows creating strong 3D depth. Inside the number: soft pastel pink balloons, elegant white
+  A large number {AGE} is precisely carved into the wall with realistic thickness, beveled edges, and deep inner shadows creating strong 3D depth. Inside the number: soft pastel pink balloons, elegant white
   flowers, and luxury bouquet arrangement with minimal premium styling.
 
 
-  A happy [AGE]-year-old child with preserved facial identity, wearing a milky white T-shirt and pastel pink denim overalls, laughing naturally.
+  A happy {AGE}-year-old child with preserved facial identity, wearing a milky white T-shirt and pastel pink denim overalls, laughing naturally.
 
 
   Face, shoulder, one hand, and one foot extend outside the carved number, creating a realistic 3D pop-out effect.
@@ -66,7 +55,7 @@ prompt: 'Professional luxury birthday poster, 3:4 portrait composition, ultra hi
   Warm cinematic golden sunlight from one side, soft rim light, ultra-realistic skin texture, studio-quality lighting, clean natural shadows, photorealistic rendering.
 
 
-  Typography on wall: [NAME] CHAPTER [AGE] [AGE] 365 MORE DAYS OF WONDER.
+  Typography on wall: {NAME} CHAPTER {AGE} {AGE} 365 MORE DAYS OF WONDER.
 
 
   Minimal luxury editorial layout, high-end magazine cover style, perfect composition, soft contrast, natural colors, no distortions, no AI artifacts.'

@@ -40,25 +40,25 @@ features:
 - title: 字体用米白填充、黑色描边、黄/红/钴蓝错位阴影、轻微的内部涂鸦线、大小不均的比例，营造童趣的西班牙旅行海报感。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main hiker, traveler, athlete, explorer, or outdoor person
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: standing, looking up, pausing, holding a bottle, checking a map, climbing, resting, or reacting to the cartoon companion
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: water bottle, hiking pole, backpack, map, snack, camera, cap, or trail marker
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: mountain trail, canyon overlook, alpine forest, cliff path, desert ridge, volcano trail, or scenic outdoor viewpoint
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: distant cliffs, layered mountains, pine trees, blue sky, rocky ground, trail grass, shadows, and natural daylight
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: large Spanish or playful comic headline integrated across the sky
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Mountain Trail Monster Doodle Poster" style.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 image in the "Mountain Trail Monster Doodle Poster" style.
 
 
   Subject: {SUBJECT}.

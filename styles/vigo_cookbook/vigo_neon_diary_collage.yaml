@@ -21,27 +21,27 @@ features:
 - title: 撕裂的笔记本纸或胶带面板，用作日程、规则或清单分节。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main action
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, product, or prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: environment or setting
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary scene details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: main headline or graphic text
-  desc: ''
-prompt: 'Create an {ASPECT_RATIO} raster poster in the Neon Outdoor Diary Longform Collage Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+prompt: 'Create an 16:9 raster poster in the Neon Outdoor Diary Longform Collage Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}.
   Background details: {BACKGROUND_ELEMENTS}. Wardrobe or styling: {WARDROBE_STYLE}. Main graphic text: {MAIN_TEXT}. Secondary microcopy texture: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Preserve
-  these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a charcoal black mobile poster canvas, acid green and white slanted headline strips, orange hand-drawn
+  these style anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use a charcoal black mobile poster canvas, acid green and white slanted headline strips, orange hand-drawn
   arrows and route-line doodles, rough white cutout borders, torn notebook-paper panels, numbered diary sections, dense social-note annotations, sticker-like labels, gritty outdoor documentary photo collage,
   paper grain, scuffed texture, and energetic irregular alignment. If vertical, make it feel like an extra-tall continuous scrolling long poster close to the reference image length, with five or more stacked
   information chapters. If horizontal, compress the same layered diary system into a wide editorial collage without losing density.'

@@ -21,29 +21,29 @@ features:
 - title: 大号白色涂鸦式手写标题位于上部某一角落，不规整、笔刷感强，而非标准字体排印。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: new central person, object, or activity anchor
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: changed action or pose for the central subject
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: new prop or product-like object that drives the story
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: changed interior or urban environment
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: supporting collage objects, panels, UI fragments, and texture details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: large expressive handwritten headline text
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} gritty Y2K flash-photo UI collage in the Y2K Mirror UI Scribble Collage Style. New content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Supporting
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+prompt: 'Create a 16:9 gritty Y2K flash-photo UI collage in the Y2K Mirror UI Scribble Collage Style. New content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Supporting
   scene and collage details: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Use a real photographic wide-angle phone-camera base with hard flash, blown highlights, reflective surfaces, heavy
   grain, sharpened digital noise, rough scan texture, and casual off-axis cropping. Layer fictional, unbranded desktop/mobile-like UI fragments over the photo: translucent rounded panels, tiny image thumbnails,
   simplified alert cards, small blue action buttons, and generic microcopy reading {SECONDARY_TEXT}. Add a large irregular white hand-drawn graffiti headline reading {MAIN_TEXT}, plus a thick electric-blue
-  marker outline or path wrapping the subject, and include the accent symbol {ACCENT_SYMBOL} as a small drawn/sticker mark. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Change the content and
-  avoid these source details: {SOURCE_CONTENT_TO_AVOID}. No real logos, no real app icons, no watermark, no QR code, no copied names, no recognizable celebrity, no exact source layout.'
+  marker outline or path wrapping the subject, and include the accent symbol {ACCENT_SYMBOL} as a small drawn/sticker mark. Preserve these style anchors: the core visual anchors of this style. Change the content and
+  avoid these source details: watermarks, real logos, and commercial advertising. No real logos, no real app icons, no watermark, no QR code, no copied names, no recognizable celebrity, no exact source layout.'
 id: vigo_y2k_mirror_ui_scribble_collage
 code: ''

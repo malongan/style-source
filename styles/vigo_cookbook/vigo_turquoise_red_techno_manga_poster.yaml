@@ -41,25 +41,25 @@ features:
 - title: 透视整体保持扁平、海报化，只在道具或装置内部保留紧凑的技术制图纵深。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main illustrated subject, such as a technician, courier, repair worker, field researcher, designer, or compact service robot
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: clear action or pose that is not riding a motorcycle, such as calibrating, carrying, repairing, waiting, documenting, or balancing a device
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: new technical prop, device, kit, machine, container, tool, module, backpack, drone, instrument, or field apparatus
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: implied poster setting or environment, such as transit depot, greenhouse lab, harbor workshop, rooftop weather station, compact studio, or spaceport service bay
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: oversized headline, cream negative space, technical callout panel, tiny labels, gauges, diagram boxes, accent bars, serial marks, and small interface fragments
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: new oversized display headline, never copied from the reference
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Turquoise Red Techno Manga Poster Style".
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 image in the "Turquoise Red Techno Manga Poster Style".
 
 
   Subject: {SUBJECT}

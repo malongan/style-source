@@ -30,7 +30,7 @@ ratio: "16:9"
 summary: "经典老爷车 2×2 爆炸拆解视图，以零重力悬浮阵列、影棚产品布光、焦点堆栈为特征，呈现汽车品牌技术与历史故事的视觉图解风格"
 
 prompt: |
-  2x2 grid, 16:9, do this for 4 unusual classic cars that were real: INPUT ::= [PRODUCT]
+  2x2 grid, 16:9, do this for 4 unusual classic cars that were real: INPUT ::= {PRODUCT}
   STEP_1 :: infer the components - every part or ingredient, separated and identified - the assembly order — components arrayed the way they combine - what is structural, what is active, what is the secret inside - the single element that reveals how it works
   STEP_2 :: infer the suspension - each component floating in its own plane, held in zero gravity - the constellation logic: exploded along one clean axis, or orbiting a centre - spacing that reads as deliberate, never scattered - the hero element largest and forward, the rest receding
   STEP_3 :: infer the reveal story - what's inside / how it's made / what it's made of - the cutaway or cross-sectioned component that proves the claim - raw ingredients rendered as beautifully as the finished product
@@ -38,6 +38,9 @@ prompt: |
   STEP_5 :: render spec - focus-stacked so every suspended element is sharp - studio product lighting, controlled reflections on each part - forbidden: visible wires, inconsistent scale, parts lit differently - material honesty on every component, raw and finished alike
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 产品
+  style_var: '{PRODUCT}'
 source_url: "https://x.com/Gdgtify/status/2084363171448422856?s=20"
 source_author: "@Gdgtify"
 

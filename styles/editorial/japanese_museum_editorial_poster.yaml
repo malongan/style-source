@@ -49,6 +49,11 @@ prompt: |
   避免：旅游宣传感、电商广告、电影海报、PPT 排版、现代 UI 卡片、整齐模板网格、随机日文、无意义英文、过度做旧、脏黄纸张、Logo、水印、编号、版权标识、星芒和 sparkle。
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 填写
+  style_var: '{填写}'
+- kv_var: 填写中文或日文标题
+  style_var: '{填写中文或日文标题}'
 source_url: "https://x.com/MrLarus/status/2098406213973090679"
 source_author: "@MrLarus"
 

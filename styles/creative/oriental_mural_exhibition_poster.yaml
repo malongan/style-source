@@ -57,6 +57,19 @@ prompt: |
   画面要像真正可以发布的东方美学展览海报，而不是单纯的插画背景。
   不要水印，不要真实品牌Logo，不要电商感，不要廉价国潮感，不要过度鲜艳，不要复杂杂乱。
 
+variables:
+- kv_var: 主题
+  style_var: '{主题}'
+- kv_var: 主标题
+  style_var: '{主标题}'
+- kv_var: 副标题
+  style_var: '{副标题}'
+- kv_var: 说明文案
+  style_var: '{说明文案}'
+- kv_var: 当日日期
+  style_var: '{当日日期}'
+- kv_var: 署名
+  style_var: '{署名}'
 source_url: "https://x.com/YangOnchain/status/2071930882500501890"
 source_author: "楊哥 | Yang Onchain"
 

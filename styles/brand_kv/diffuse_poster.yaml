@@ -24,19 +24,7 @@ features:
   desc: ''
 - title: 有节奏感的设计留白
   desc: ''
-variables:
-- kv_var: 主标题
-  style_var: 主题词
-  desc: 画面核心主题
-- kv_var: Slogan
-  style_var: 不在变量里
-  desc: 弥散风文字克制
-- kv_var: 画面-主题
-  style_var: 主题词
-  desc: 抽象/具象主题
-- kv_var: IP形象
-  style_var: 参考图 + "Maintain IP identity..."
-  desc: 不在变量里，用参考图
+variables: []
 prompt: |
   Create a 9:16 或 3:4 poster in 弥散风视觉海报 style.
   

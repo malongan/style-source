@@ -31,7 +31,7 @@ ratio: "3:4"
 summary: "将时尚单品以建筑视角呈现，融合蓝图拆解图与高端杂志摄影，创造「服装即栖息地」的视觉概念"
 
 prompt: |
-  Create a vertical poster for [FASHION SUBJECT].
+  Create a vertical poster for {FASHION_SUBJECT}.
   Present the garment or accessory as a floating hero object,
   partially exploded into panels, seams, fasteners, textile layers,
   hardware, lining, silhouette guides, and motion paths.
@@ -45,10 +45,19 @@ prompt: |
   If details are missing, infer the garment type, textile,
   construction method, color palette, and fashion mood from the subject.
   render format: vertical luxury fashion poster,
-  typography: [COLLECTION NAME] / [GARMENT TYPE] / [ATELIER CODE],
+  typography: {COLLECTION_NAME} / {GARMENT_TYPE} / {ATELIER_CODE},
   output rules: premium fabric detail, controlled exploded layout, elegant negative space, editorial typography
   不要廉价商品图感，不要随意模特姿态，不要杂乱背景，不要水印。
 
+variables:
+- kv_var: FASHION SUBJECT
+  style_var: '{FASHION_SUBJECT}'
+- kv_var: 系列名称
+  style_var: '{COLLECTION_NAME}'
+- kv_var: 服装类型
+  style_var: '{GARMENT_TYPE}'
+- kv_var: ATELIER CODE
+  style_var: '{ATELIER_CODE}'
 source_url: "https://x.com/Gdgtify/status/2075122532965896675"
 source_author: "Gadgetify (@Gdgtify)"
 

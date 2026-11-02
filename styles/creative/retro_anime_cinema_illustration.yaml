@@ -53,6 +53,9 @@ prompt: |
   ## 街道黄昏 (Japanese Street)
   A schoolgirl walking through a quiet suburban Japanese neighborhood during golden hour, sailor school uniform, utility poles, narrow residential street, glowing clouds, warm evening light, peaceful everyday life, highly detailed environment, cinematic perspective.
 
+variables:
+- kv_var: 场景
+  style_var: '{scene}'
 source_url: "https://x.com/ChillaiKalan__/status/2081299855755149723"
 source_author: "ChillaiKalan__"
 

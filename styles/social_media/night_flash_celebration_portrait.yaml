@@ -38,6 +38,11 @@ prompt: |
   发朋友圈用: 做一张甜感但不幼稚的个人写真封面，整体仍是夜间闪光暗场
   尺寸和文字: 横版 16:9，画面底部可保留一行短英文小标题，不要复杂排版
 
+variables:
+- kv_var: 场景
+  style_var: '{scene}'
+- kv_var: props
+  style_var: '{props}'
 source_url: "https://x.com/xiaoxiaodong01/status/2073403641869009289"
 source_author: "小小东"
 

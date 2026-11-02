@@ -21,27 +21,27 @@ features:
 - title: 配色以电光青柠为基底，搭配青色、天蓝、品红、薰衣草紫、黄色、白色、铬灰，以及少量黑色细节。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main plush mascot, fuzzy object, or toy-like character
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: simple staged action or pose
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: chunky gadget, toy product, accessory, snack object, or display prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: minimal neon studio set, shelf, counter, or toy display environment
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: burst shapes, checkerboards, floating icons, stickers, soft blobs, secondary toy props, or graphic rays
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: short display-card headline or product-style word
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} finished raster image in the "Neon Plush Gadget Pop 3D Style". Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background
-  elements: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}.
-  Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: acid lime or neon yellow-green studio background, oversized fuzzy plush main subject, rounded inflated toy shapes, visible
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 finished raster image in the "Neon Plush Gadget Pop 3D Style". Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background
+  elements: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: the core visual anchors of this style.
+  Source content to avoid: watermarks, real logos, and commercial advertising. Apply these style rules: acid lime or neon yellow-green studio background, oversized fuzzy plush main subject, rounded inflated toy shapes, visible
   knit or fleece texture, chunky gadget or product prop, glossy molded plastic, translucent jelly details, chrome highlights, hot-pink burst graphics, checkerboard cards, sticker labels, tiny tags, playful
   Y2K icon grammar, foreground shelf edge when useful, high-key commercial studio lighting, soft bloom, polished 3D product-render finish, close front three-quarter product perspective, tactile collectible
   mood. Important content rule: preserve the style anchors first, then change the original content completely with new subject, prop, display text, colors within the palette, and story premise. Avoid: watermark,

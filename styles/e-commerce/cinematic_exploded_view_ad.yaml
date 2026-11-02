@@ -44,5 +44,8 @@ prompt: 'Create a cinematic exploded-view advertising poster for {产品名称}.
   feel, no busy backgrounds, no garbled text.
 
   '
+variables:
+- kv_var: 产品名称
+  style_var: '{产品名称}'
 source_url: https://x.com/aziz4ai/status/2071674035948106098
 source_author: AZIZ | AI 🇸🇦 (@aziz4ai)

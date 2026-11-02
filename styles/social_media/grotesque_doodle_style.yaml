@@ -32,19 +32,7 @@ features:
   desc: ''
 - title: 米黄色/奶油色纸张背景
   desc: ''
-variables:
-- kv_var: 主体
-  style_var: 人物/宠物
-  desc: 上传照片的主体
-- kv_var: 表情
-  style_var: 基于原照片
-  desc: 表情夸张但不改变
-- kv_var: 画风
-  style_var: 彩铅+蜡笔+圆珠笔
-  desc: 手绘质感
-- kv_var: 背景
-  style_var: 纯色/涂鸦元素
-  desc: 可选
+variables: []
 prompt: '将上传照片重绘为「怪诞手绘风」人物/宠物插画。
 
 

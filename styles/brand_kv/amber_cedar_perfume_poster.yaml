@@ -51,6 +51,13 @@ prompt: |
 
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
 
+variables:
+- kv_var: 品牌香水瓶
+  style_var: '{品牌香水瓶}'
+- kv_var: 主标题
+  style_var: '{主标题}'
+- kv_var: 副标题
+  style_var: '{副标题}'
 source_url: "https://x.com/ou_zhen599/status/2075683059429757181"
 source_author: "@ou_zhen599"
 

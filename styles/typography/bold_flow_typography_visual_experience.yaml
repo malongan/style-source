@@ -40,6 +40,15 @@ prompt: |
 
   No watermarks, no complex backgrounds, no 3D effects, no gradients. Keep it flat, clean, and powerful.
 
+variables:
+- kv_var: 主题文字
+  style_var: '{主题文字}'
+- kv_var: ENGLISH TEXT
+  style_var: '{ENGLISH_TEXT}'
+- kv_var: 副标题
+  style_var: '{副标题}'
+- kv_var: 署名
+  style_var: '{署名}'
 source_url: "https://jimeng.jianying.com/ai-tool/work-detail/7579463842925645065"
 source_author: "平面设计老鬼"
 

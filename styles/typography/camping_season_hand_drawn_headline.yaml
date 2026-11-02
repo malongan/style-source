@@ -40,9 +40,10 @@ prompt: |
   Pure solid fresh green background, premium creative hand-drawn trendy typography design. The main element is the Chinese slogan "{中文Slogan}" rendered as a creative hand-drawn trending font: abstractly deformed letterforms with a unique rhythm and dynamic sense of motion, playful distorted strokes, artistic bold hand-lettering with smooth organic curves and energetic flow. English phrase "{英文副行}" placed smaller as a complementary accent line. Cute cartoon camping motifs scattered around the title: small tent, campfire, stars, leaves, sun, clouds in a flat doodle style. High-contrast bright white lettering with subtle outline for clear readability. Premium art poster feel, flat vector style, clean solid colors, no 3D shadow, no gradient. Every Chinese character must be clearly readable and correctly written, keep all text inside the safe area. Do not add any other letters, words, labels, logos, or pseudo-text.
 
 variables:
-  - 中文Slogan
-  - 英文副行
-
+  - kv_var: 中文Slogan
+    style_var: '{中文Slogan}'
+  - kv_var: 英文副行
+    style_var: '{英文副行}'
 source: "painter"
 source_author: "painter"
 created_at: "2026-08-13"

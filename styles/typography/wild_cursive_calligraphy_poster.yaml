@@ -44,10 +44,12 @@ prompt: |
   "{中文标题}", wild cursive Chinese calligraphy poster, ultra-thick bold strokes, ink wash with flying white effect, strokes connecting and flowing with wild abandon, dynamic visual tension, black background, master calligraphy poster, movie poster composition, "{英文副行}" small English text at bottom, red Chinese seal stamp accent with "{印章文字}", pure typography design, no decorations
 
 variables:
-  - 中文标题
-  - 英文副行
-  - 印章文字
-
+  - kv_var: 中文标题
+    style_var: '{中文标题}'
+  - kv_var: 英文副行
+    style_var: '{英文副行}'
+  - kv_var: 印章文字
+    style_var: '{印章文字}'
 source_url: ""
 source_author: "painter"
 created_at: "2026-08-13"

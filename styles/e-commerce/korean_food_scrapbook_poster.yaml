@@ -29,9 +29,14 @@ ratio: "3:4"
 summary: "可爱手账拼贴风韩式美食广告，暖棕色调搭配便签胶带装饰，韩文标语营造地道韩国美食氛围"
 
 prompt: |
-  Create a cute, trendy scrapbook-style Korean food advertisement poster featuring [Menu Name] as the main focus, with the price [Price] displayed prominently beside it as a sticker or torn paper label. If a reference photo is provided, accurately preserve the food's shape, ingredients, colours, plating, and overall identity while enhancing lighting, texture, and realism to make it look more delicious. If no photo is provided, create a realistic version based on the menu name without adding uncertain ingredients. Place the food large in the centre with rich, appetising details such as crispy textures, juicy meat, glossy sauces, and fresh ingredients. Use a warm café aesthetic with a vintage scrapbook collage style, including torn paper, masking tape, sticky notes, handwritten doodles, arrows, stars, hearts, sparkles, checkerboard patterns, and cute food stickers. Add 4–6 Korean exclamation phrases that match the dish. All visible text, including the menu name, price, and decorative phrases, must be written only in Korean. Use warm brown, cream, orange, and green tones with subtle colourful marker accents, and produce the final poster in a vertical 3:4 aspect ratio with safe margins so nothing is cropped.
+  Create a cute, trendy scrapbook-style Korean food advertisement poster featuring {Menu_Name} as the main focus, with the price {Price} displayed prominently beside it as a sticker or torn paper label. If a reference photo is provided, accurately preserve the food's shape, ingredients, colours, plating, and overall identity while enhancing lighting, texture, and realism to make it look more delicious. If no photo is provided, create a realistic version based on the menu name without adding uncertain ingredients. Place the food large in the centre with rich, appetising details such as crispy textures, juicy meat, glossy sauces, and fresh ingredients. Use a warm café aesthetic with a vintage scrapbook collage style, including torn paper, masking tape, sticky notes, handwritten doodles, arrows, stars, hearts, sparkles, checkerboard patterns, and cute food stickers. Add 4–6 Korean exclamation phrases that match the dish. All visible text, including the menu name, price, and decorative phrases, must be written only in Korean. Use warm brown, cream, orange, and green tones with subtle colourful marker accents, and produce the final poster in a vertical 3:4 aspect ratio with safe margins so nothing is cropped.
   不要水印，不要真实品牌Logo，不要电商广告感。
 
+variables:
+- kv_var: 菜单名
+  style_var: '{Menu_Name}'
+- kv_var: 价格
+  style_var: '{Price}'
 source_url: "https://x.com/kingofdairyque/status/2081580288971337797"
 source_author: "@kingofdairyque"
 

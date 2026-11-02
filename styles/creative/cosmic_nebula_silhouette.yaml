@@ -30,10 +30,17 @@ ratio: "3:2"
 summary: "以宇宙星云为材质的超写实剪影风格，天文摄影质感搭配戏剧性边缘光"
 
 prompt: |
-  A surreal ethereal [subject] formed entirely from flowing cosmic nebula clouds, isolated on a pure solid black background, elegant silhouette with long gaseous wisps, deep [color1] dominant tones, vivid [color2] glowing accents, luminous edges, translucent volumetric layers, swirling cosmic dust, organic flowing forms, photorealistic astrophotography, dramatic rim lighting, mysterious atmosphere, sharp high-contrast silhouette --ar 3:2 --v 8.2
+  A surreal ethereal {subject} formed entirely from flowing cosmic nebula clouds, isolated on a pure solid black background, elegant silhouette with long gaseous wisps, deep {color1} dominant tones, vivid {color2} glowing accents, luminous edges, translucent volumetric layers, swirling cosmic dust, organic flowing forms, photorealistic astrophotography, dramatic rim lighting, mysterious atmosphere, sharp high-contrast silhouette --ar 3:2 --v 8.2
 
   不要水印，不要真实天文摄影，不要卡通感，不要文字叠加。
 
+variables:
+- kv_var: 主体
+  style_var: '{subject}'
+- kv_var: 主色
+  style_var: '{color1}'
+- kv_var: 辅色
+  style_var: '{color2}'
 source_url: "https://x.com/azed_ai/status/2090031054044442644"
 source_author: "@azed_ai"
 

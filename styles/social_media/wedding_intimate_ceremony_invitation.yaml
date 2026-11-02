@@ -38,6 +38,13 @@ prompt: |
 
   不要水印，不要真实Logo，不要电商广告感，不要杂乱装饰和脏旧灰暗。
 
+variables:
+- kv_var: 主体描述
+  style_var: '{subject_description}'
+- kv_var: additional scene details
+  style_var: '{additional_scene_details}'
+- kv_var: 尺寸
+  style_var: '{size_requirement}'
 source_url: "https://x.com/xiaoxiaodong01/status/2081388511606030704"
 source_author: "小小东"
 

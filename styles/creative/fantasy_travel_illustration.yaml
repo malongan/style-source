@@ -47,10 +47,11 @@ prompt: |
   比例：3:4
 
 variables:
-  - '"{主体}" — 示例：幻想角色、神话生物、未来战士'
-  - '"{乐器}" — 示例：琵琶、西塔琴、曼陀林'
-  - '"{场景}" — 示例：佩特拉遗迹、月光石宫、沙漠绿洲'
-
+  - kv_var: 乐器
+    style_var: '{乐器}'
+    desc: 琵琶、西塔琴、曼陀林
+  - kv_var: 幻想角色
+    style_var: '{幻想角色}'
 source_url: "https://x.com/SimplyAnnisa/status/2077351368692785358"
 source_author: "SimplyAnnisa"
 

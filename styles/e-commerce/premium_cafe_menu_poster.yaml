@@ -63,6 +63,15 @@ prompt: |
 
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: PRODUCT NAME
+  style_var: '{PRODUCT_NAME}'
+- kv_var: 副标题
+  style_var: '{SUBTITLE}'
+- kv_var: DESCRIPTION
+  style_var: '{DESCRIPTION}'
+- kv_var: 价格
+  style_var: '{PRICE}'
 source_url: "https://x.com/Maercihh/status/2084869002665615462"
 source_author: "@Maercihh"
 

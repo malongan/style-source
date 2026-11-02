@@ -27,24 +27,26 @@ features:
   desc: ''
 variables:
 - kv_var: 主标题
-  style_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
   desc: 左侧黑色巨字
-- kv_var: Slogan
-  style_var: ACCENT
-  desc: 小贴纸文案
-- kv_var: 画面-场景
-  style_var: SCENE
-  desc: 背景场景描述
 - kv_var: 画面-动作
-  style_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
   desc: IP的动作姿态
-- kv_var: 画面-道具
-  style_var: HERO_PROP
-  desc: 主角道具
-- kv_var: IP形象
-  style_var: 参考图
-  desc: 不在变量里，用参考图
+- kv_var: 主体
+  style_var: '{SUBJECT}'
+- kv_var: PRODUCT OR PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: 地点
+  style_var: '{LOCATION}'
+- kv_var: 背景元素
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
 prompt: |
-  Create a {ASPECT_RATIO} finished raster image in the Acid Lime 3D Streetwear Type Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}. Apply these style rules: pale cool-gray or off-white studio floor and wall, one huge mass of deep black condensed block headline typography, acid-lime marker scribbles and underlines crossing the type, glossy C4D toy-like 3D character or product rendering, low wide-angle front three-quarter perspective, oversized foreground prop or footwear-scale object near the lens, tactile fashion props, stacked boxes or bags, chrome and black rubber surfaces, soft textile weave, semi-translucent acrylic details, controlled sticker-badge clusters, warning triangles, barcode strips, smiley dots, scalloped seals, tiny black tags, small hot pink and yellow accents, clean high-key commercial studio lighting, soft shadows, crisp specular highlights, polished high-resolution poster finish. For 9:16, stack the black headline above or beside the central subject and crop a foreground prop along the lower edge. For 16:9, place the headline as a left-heavy type block and stage the 3D subject cluster on the right with lime accents bridging the center. Important content rule: match the visual style first, then change the source content completely with a new subject, new action, new prop, new location, new headline, new microcopy, and no copied brand identity.
+  Create a 16:9 finished raster image in the Acid Lime 3D Streetwear Type Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: the core visual anchors of this style. Source content to avoid: watermarks, real logos, and commercial advertising. Apply these style rules: pale cool-gray or off-white studio floor and wall, one huge mass of deep black condensed block headline typography, acid-lime marker scribbles and underlines crossing the type, glossy C4D toy-like 3D character or product rendering, low wide-angle front three-quarter perspective, oversized foreground prop or footwear-scale object near the lens, tactile fashion props, stacked boxes or bags, chrome and black rubber surfaces, soft textile weave, semi-translucent acrylic details, controlled sticker-badge clusters, warning triangles, barcode strips, smiley dots, scalloped seals, tiny black tags, small hot pink and yellow accents, clean high-key commercial studio lighting, soft shadows, crisp specular highlights, polished high-resolution poster finish. For 9:16, stack the black headline above or beside the central subject and crop a foreground prop along the lower edge. For 16:9, place the headline as a left-heavy type block and stage the 3D subject cluster on the right with lime accents bridging the center. Important content rule: match the visual style first, then change the source content completely with a new subject, new action, new prop, new location, new headline, new microcopy, and no copied brand identity.
 id: streetwear_lab
 code: ''

@@ -38,6 +38,9 @@ prompt: |
   发朋友圈用: 做一张清透亲近的人像风格图，适合头像、封面或日常分享
   尺寸要求: 横版 16:9，不要加大段文字，保留近景裁切和半透明纱感层次
 
+variables:
+- kv_var: 物体
+  style_var: '{object}'
 source_url: "https://x.com/xiaoxiaodong01/status/2073403641869009289"
 source_author: "小小东"
 

@@ -36,10 +36,12 @@ prompt: |
   A clean pure warm sand beige solid color background with no texture and no gradient. In the center, the Chinese characters "{第一行}" and "{第二行}" rendered as a monumental bas-relief sculpture: flat low-relief, low-reflectance paper-pulp texture, soft diffused lighting with very subtle bright edge lines on the raised outlines, low-saturation warm sand color, elegant Chinese serif typeface. The title is split into two stacked lines, both centered: first line compact "{第一行}", second line enlarged with wide letter spacing "{第二行}". Below, a smaller secondary line "{副行}" in the same bas-relief serif style, smaller scale. Clean minimal layout with generous whitespace, high-end cultural brand aesthetic. Every character must be clearly readable with crisp clean edges. No other elements, no decorations, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.
 
 variables:
-  - 第一行
-  - 第二行
-  - 副行
-
+  - kv_var: 第一行
+    style_var: '{第一行}'
+  - kv_var: 第二行
+    style_var: '{第二行}'
+  - kv_var: 副行
+    style_var: '{副行}'
 source: "painter"
 source_author: "painter"
 created_at: "2026-08-13"

@@ -48,6 +48,9 @@ prompt: |
   作品让人感觉像未知知识专题杂志封面、科学研究档案、兼具学术性与艺术性的展览海报。理性、实验、学术、文学、先锋、冷峻、知识密度高。
   不要水印，不要真实Logo。
 
+variables:
+- kv_var: 主体
+  style_var: '{subject}'
 source_url: "https://x.com/xiaoxiaodong01/status/2081583498037698587"
 source_author: "小小东"
 

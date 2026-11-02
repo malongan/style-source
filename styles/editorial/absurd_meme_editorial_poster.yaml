@@ -50,6 +50,9 @@ prompt: |
 
   比例 3:4，不要水印，不要真实Logo。
 
+variables:
+- kv_var: 主题
+  style_var: '{主题}'
 source_url: "https://x.com/VoxcatAI/status/2102901823954899164"
 source_author: "@VoxcatAI"
 

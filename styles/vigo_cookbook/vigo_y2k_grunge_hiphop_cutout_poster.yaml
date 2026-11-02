@@ -34,28 +34,26 @@ features:
 - title: 整张图应具备 2000 年代初地下音乐杂志封面、混音带海报、街头服饰传单的气质：粗糙扫描印刷、高对比、浓重颗粒、影印质感、青与品红的印刷噪点，以及充满能量的拼贴版式。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main subject, artist, dancer, musician, skater, model, or youth culture figure
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: sitting, leaning, holding a prop, looking away, posing casually, or performing a relaxed streetwear pose
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: cassette player, headphones, soda can, compact camera, skateboard, magazine, CD player, or portable music device
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: street wall, underground club, bedroom studio, subway corner, record shop, rehearsal room, or back alley
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: black-and-white grunge wall texture, graffiti-like marks, photocopy noise, rough concrete, scanned poster grain
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: large acid yellow retro headline
-  desc: ''
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
 prompt: 'Create a Y2K grunge hip-hop cutout poster featuring {SUBJECT} {SUBJECT_ACTION}, wearing {WARDROBE_STYLE}, holding or interacting with {PRODUCT_OR_PROP}. Place the subject as a large central photo
   cutout with an irregular white sticker-like outline. Use a dirty black-and-white grunge wall background with {BACKGROUND_ELEMENTS}. Add a huge acid yellow retro serif headline reading "{MAIN_TEXT}" across
   the top, partially hidden behind the subject. Add a bright acid yellow information strip at the bottom with small editorial text reading "{SECONDARY_TEXT}", small inset photo frames, barcode-like graphic
   elements, and {ACCENT_SYMBOL}. The image should feel like an early-2000s underground music magazine cover, mixtape poster, streetwear flyer, rough scanned print, high contrast, heavy grain, photocopy
-  texture, cyan and magenta print noise, energetic collage layout. Do not include watermarks, usernames, QR codes, platform logos, or app marks. Aspect ratio: {ASPECT_RATIO}.'
+  texture, cyan and magenta print noise, energetic collage layout. Do not include watermarks, usernames, QR codes, platform logos, or app marks. Aspect ratio: 16:9.'
 id: vigo_y2k_grunge_hiphop_cutout_poster
 code: ''

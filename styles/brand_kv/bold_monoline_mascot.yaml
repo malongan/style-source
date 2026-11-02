@@ -36,10 +36,9 @@ variables:
 - kv_var: '{吉祥物描述}'
   style_var: '{吉祥物描述}'
   desc: 品牌吉祥物的特征描述，如「一只戴着墨镜的山羊」「一个酷酷的滑板少年」
-- kv_var: '{英文标语}'
-  style_var: (可选)
-  desc: 如需加入英文标语，替换品牌名标签
-prompt: '[BRAND NAME]. Act as a Senior Brand Illustrator, specializing in bold monoline streetwear character illustrations of brand mascots (style: bold-weight flat graphic, screen-print/risograph aesthetic,
+- kv_var: 品牌名
+  style_var: '{BRAND_NAME}'
+prompt: '{BRAND_NAME}. Act as a Senior Brand Illustrator, specializing in bold monoline streetwear character illustrations of brand mascots (style: bold-weight flat graphic, screen-print/risograph aesthetic,
   positive-negative two-tone illustration).
 
 

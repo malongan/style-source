@@ -35,47 +35,31 @@ features:
 - title: 小号品牌标识 + 标语 + 正文
   desc: 品牌标识、标语、正文与页脚细节
 variables:
-- kv_var: 主标题
-  style_var: '{{Main title}}'
-  desc: PROFILE/GLOW/VEIL/ECLAT
-- kv_var: 红色强调词
-  style_var: '{{Red script word}}'
-  desc: refine/luminous/softly/timeless
-- kv_var: 品牌名称
-  style_var: '{{BRAND NAME}}'
-  desc: 品牌名
-- kv_var: Slogan
-  style_var: '{{Slogan}}'
-  desc: 短标语
-- kv_var: 人物角度
-  style_var: '{{Portrait angle}}'
-  desc: left/right side profile 等
-- kv_var: 色彩-主色
-  style_var: '{{Color palette}}'
-  desc: cream beige/champagne gold 等
-- kv_var: 画面-焦点
-  style_var: '{{Key focus}}'
-  desc: jawline/skin glow 等
-- kv_var: IP形象
-  style_var: 参考图 + "Maintain IP identity..."
-  desc: 不在变量里，用参考图
+- kv_var: 品牌名
+  style_var: '{BRAND_NAME}'
+- kv_var: 品牌副标题
+  style_var: '{BRAND_SUBTITLE}'
+- kv_var: 短标语
+  style_var: '{SHORT_SLOGAN}'
+- kv_var: 主文案
+  style_var: '{MAIN_COPY}'
 prompt: 'Prompt:
 
 
   Create a single vertical 9:16 luxury beauty campaign poster.
 
 
-  Brand: [BRAND NAME]
+  Brand: {BRAND_NAME}
 
-  Subtitle: [BRAND SUBTITLE]
+  Subtitle: {BRAND_SUBTITLE}
 
   Main title: [PROFILE / GLOW / VEIL / ECLAT]
 
   Red script word: [refine / luminous / softly / timeless]
 
-  Slogan: [SHORT SLOGAN]
+  Slogan: {SHORT_SLOGAN}
 
-  Main copy: [MAIN COPY]
+  Main copy: {MAIN_COPY}
 
   Portrait angle: [left side profile / right side profile / semi-profile / lowered side profile]
 

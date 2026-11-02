@@ -28,7 +28,11 @@ features:
   desc: ''
 - title: 适合论文综述、公众号、科研汇报
   desc: ''
-variables: []
+variables:
+  - kv_var: 主题
+    style_var: '{主题}'
+  - kv_var: 不要出现的元素
+    style_var: '{不要出现的元素}'
 prompt: '你是一名顶级科研信息图设计师、学术图谱设计师、医学/生命科学/材料科学可视化导演、现代编辑版式设计师。
 
 

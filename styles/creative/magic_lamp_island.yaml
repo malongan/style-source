@@ -45,6 +45,9 @@ prompt: |
 
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 目的地/城市
+  style_var: '{目的地/城市}'
 source_url: "https://x.com/Goodmanprotocol/status/2076167613919772879"
 source_author: "Goodmanprotocol"
 

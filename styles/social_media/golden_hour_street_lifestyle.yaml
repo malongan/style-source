@@ -44,6 +44,37 @@ prompt: |
 
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
 
+variables:
+- kv_var: surface texture
+  style_var: '{surface_texture}'
+- kv_var: background scene
+  style_var: '{background_scene}'
+- kv_var: 姿态
+  style_var: '{pose}'
+- kv_var: 表情
+  style_var: '{expression}'
+- kv_var: lip expression
+  style_var: '{lip_expression}'
+- kv_var: hair description
+  style_var: '{hair_description}'
+- kv_var: outfit description
+  style_var: '{outfit_description}'
+- kv_var: bottoms description
+  style_var: '{bottoms_description}'
+- kv_var: head accessory
+  style_var: '{head_accessory}'
+- kv_var: drink color
+  style_var: '{drink_color}'
+- kv_var: garnish
+  style_var: '{garnish}'
+- kv_var: straw type
+  style_var: '{straw_type}'
+- kv_var: accessories on hands
+  style_var: '{accessories_on_hands}'
+- kv_var: footwear description
+  style_var: '{footwear_description}'
+- kv_var: time of day
+  style_var: '{time_of_day}'
 source_url: "https://x.com/Sairah_0/status/2087559140071895056"
 source_author: "Sairah_0"
 

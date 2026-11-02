@@ -29,32 +29,18 @@ features:
 - title: 干净负空间
   desc: 干净留白
 variables:
-- kv_var: 真实物体
-  style_var: '{{EVERYDAY OBJECT}}'
-  desc: 日常生活物品
-- kv_var: 插画角色
-  style_var: '{{CLEVER PART}}'
-  desc: 物体在画面中扮演的角色
-- kv_var: 画面风格
-  style_var: 写实+黑白线描
-  desc: 必须同时包含两者
-- kv_var: 背景
-  style_var: 白色极简
-  desc: clean minimalist white
-- kv_var: 光线
-  style_var: 工作室灯光
-  desc: studio lighting
-- kv_var: IP形象
-  style_var: 参考图 + "Maintain IP identity..."
-  desc: 不在变量里，用参考图
+- kv_var: EVERYDAY OBJECT
+  style_var: '{EVERYDAY_OBJECT}'
+- kv_var: 物体
+  style_var: '{OBJECT}'
 prompt: 'Creative composite photograph, 9:16 vertical aspect ratio, clean minimalist white background, studio lighting, high detail, sharp focus.
 
 
-  A real-life [EVERYDAY OBJECT] is physically placed and perfectly integrated as a key part of a hand-drawn black ink cartoon illustration. The drawing is simple, expressive line art with minimal shading,
+  A real-life {EVERYDAY_OBJECT} is physically placed and perfectly integrated as a key part of a hand-drawn black ink cartoon illustration. The drawing is simple, expressive line art with minimal shading,
   like a quick sketch on paper.
 
 
-  The [OBJECT] represents [CLEVER PART OF THE SCENE - e.g. hair, weapon, body part, clothing, etc.], cleverly completing the visual pun or concept. The cartoon character interacts dynamically with the object
+  The {OBJECT} represents [CLEVER PART OF THE SCENE - e.g. hair, weapon, body part, clothing, etc.], cleverly completing the visual pun or concept. The cartoon character interacts dynamically with the object
   in a humorous, meaningful, or surprising way.
 
 

@@ -29,31 +29,7 @@ features:
   desc: ''
 - title: '**克制信息量**：不能变成杂志目录，追求秩序和结构'
   desc: ''
-variables:
-- kv_var: 主标题
-  style_var: '{{主题词}}'
-  desc: 必须是完整清晰的中文词组
-- kv_var: Slogan
-  style_var: '{{副标题}}'
-  desc: 可留空，极简风格不建议过多文字
-- kv_var: 画面-场景
-  style_var: 背景倾向
-  desc: 黑底/白底/灰底决定整体基调
-- kv_var: 画面-构图
-  style_var: 构图骨架
-  desc: 10种骨架随机选择，建议优先极端留白/中央构图
-- kv_var: 画面-元素
-  style_var: 几何母题
-  desc: 2-4种组合，必须包含至少3个几何家族
-- kv_var: 色彩-主色
-  style_var: 强调色
-  desc: 建议无或橙色，避免复杂配色破坏极简感
-- kv_var: 色彩-底场
-  style_var: 灰度层次
-  desc: 从纯黑到白色，至少4种层次
-- kv_var: IP形象
-  style_var: 不适用
-  desc: 此风格不适合IP KV套用，纯文字+几何海报风格
+variables: []
 prompt: |
   Create a 16:9 / 9:16 / 1:1 / 4:5 / 3:2 poster in avantgarde_bw_poster - 黑白灰先锋海报 style.
   

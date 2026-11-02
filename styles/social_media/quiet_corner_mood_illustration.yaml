@@ -46,6 +46,35 @@ prompt: |
 
   不要水印，不要真实Logo，不要摄影照片感。
 
+variables:
+- kv_var: art style
+  style_var: '{art_style}'
+- kv_var: mood
+  style_var: '{mood}'
+- kv_var: lighting
+  style_var: '{lighting}'
+- kv_var: activities
+  style_var: '{activities}'
+- kv_var: art style description
+  style_var: '{art_style_description}'
+- kv_var: mood description
+  style_var: '{mood_description}'
+- kv_var: setting and elements
+  style_var: '{setting_and_elements}'
+- kv_var: lighting type
+  style_var: '{lighting_type}'
+- kv_var: subject activities
+  style_var: '{subject_activities}'
+- kv_var: emotion and atmosphere
+  style_var: '{emotion_and_atmosphere}'
+- kv_var: surrounding environment
+  style_var: '{surrounding_environment}'
+- kv_var: 配色
+  style_var: '{color_palette}'
+- kv_var: medium and technique
+  style_var: '{medium_and_technique}'
+- kv_var: overall aesthetic
+  style_var: '{overall_aesthetic}'
 source_url: "https://x.com/noorwithwifi/status/2081412270350033109"
 source_author: "NoorAI"
 

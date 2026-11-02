@@ -26,24 +26,29 @@ features:
   desc: ''
 variables:
 - kv_var: 主标题
-  style_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
   desc: 手写标题
 - kv_var: Slogan
-  style_var: SECONDARY_TEXT
+  style_var: '{SECONDARY_TEXT}'
   desc: 日期、副标题
 - kv_var: 画面-主体
-  style_var: SUBJECT
+  style_var: '{SUBJECT}'
   desc: 卡通角色
 - kv_var: 画面-动作
-  style_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
   desc: 简单家居动作
 - kv_var: 画面-场景
-  style_var: LOCATION
+  style_var: '{LOCATION}'
   desc: 室内区域
-- kv_var: IP形象
-  style_var: 参考图 + "Maintain IP identity..."
-  desc: 不在变量里，用参考图
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: PRODUCT OR PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: 背景元素
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
 prompt: |
-  Create an original {ASPECT_RATIO} poster illustration in the Sky Blue Home Life Doodle Poster style. Preserve these style anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a full pastel sky-blue outer field and a large rough off-white house-shaped inset with thick wobbly black marker outlines. Put a huge uneven black hand-lettered headline reading {MAIN_TEXT} across the top, plus {SECONDARY_TEXT} as a small slanted support label and {ACCENT_SYMBOL} as a small graphic accent. Inside the house inset, show {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Add {BACKGROUND_ELEMENTS} as simple flat home icons. Dress or style the subject with {WARDROBE_STYLE}. Use chunky rounded cartoon anatomy, oversized hands or props when useful, flat poster colors, no gradients, naive flattened perspective, casual marker wobble, and a youthful handmade home-event mood. All text, characters, props, and scene details must be original and must not copy the reference.
+  Create an original 9:16 poster illustration in the Sky Blue Home Life Doodle Poster style. Preserve these style anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use a full pastel sky-blue outer field and a large rough off-white house-shaped inset with thick wobbly black marker outlines. Put a huge uneven black hand-lettered headline reading {MAIN_TEXT} across the top, plus {SECONDARY_TEXT} as a small slanted support label and {ACCENT_SYMBOL} as a small graphic accent. Inside the house inset, show {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Add {BACKGROUND_ELEMENTS} as simple flat home icons. Dress or style the subject with {WARDROBE_STYLE}. Use chunky rounded cartoon anatomy, oversized hands or props when useful, flat poster colors, no gradients, naive flattened perspective, casual marker wobble, and a youthful handmade home-event mood. All text, characters, props, and scene details must be original and must not copy the reference.
 id: sky_blue_doodle
 code: ''

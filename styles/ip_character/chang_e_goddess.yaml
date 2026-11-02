@@ -30,13 +30,13 @@ features:
   desc: ''
 variables:
 - kv_var: 画面-角色
-  style_var: 角色描述
+  style_var: '{角色描述}'
   desc: 角色名称和动作
 - kv_var: 画面-场景
-  style_var: 场景
+  style_var: '{场景}'
   desc: 背景环境描述
 - kv_var: 画面-服装
-  style_var: 服装描述
+  style_var: '{服装描述}'
   desc: 服装颜色和款式
 prompt: 'Create an image in Chang''e 3D Blind Box style. Aspect ratio: 3:4.
 

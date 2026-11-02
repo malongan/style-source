@@ -60,36 +60,35 @@ prompt: |
 
 variables:
   - kv_var: 品牌名
-    style_var: "{品牌名}"
-    desc: "示例值：CRUMB CLUB"
+    style_var: '{品牌名}'
+    desc: 示例值：CRUMB CLUB
   - kv_var: 主食物
-    style_var: "{主食物}"
-    desc: "示例值：可颂 / croissant"
+    style_var: '{主食物}'
+    desc: 示例值：可颂 / croissant
   - kv_var: 概念
-    style_var: "{概念}"
-    desc: "示例值：Miniature World（微缩世界）"
+    style_var: '{概念}'
+    desc: 示例值：Miniature World（微缩世界）
   - kv_var: 标题
-    style_var: "{标题}"
-    desc: "示例值：クロワッサン散歩"
+    style_var: '{标题}'
+    desc: 示例值：クロワッサン散歩
   - kv_var: 标语
-    style_var: "{标语}"
-    desc: "示例值：A LITTLE WALK, A LOT OF BUTTER."
+    style_var: '{标语}'
+    desc: 示例值：A LITTLE WALK, A LOT OF BUTTER.
   - kv_var: 详情文案
-    style_var: "{详情文案}"
-    desc: "示例值：口味 / 产品信息 / 活动信息"
+    style_var: '{详情文案}'
+    desc: 示例值：口味 / 产品信息 / 活动信息
   - kv_var: 主色板
-    style_var: "{主色板}"
-    desc: "示例值：奶油纸底 + 可可棕字 + 柔和自然色"
+    style_var: '{主色板}'
+    desc: 示例值：奶油纸底 + 可可棕字 + 柔和自然色
   - kv_var: 背景纸色
-    style_var: "{背景纸色}"
-    desc: "示例值：cream"
+    style_var: '{背景纸色}'
+    desc: 示例值：cream
   - kv_var: 字体主色
-    style_var: "{字体主色}"
-    desc: "示例值：cocoa-brown"
+    style_var: '{字体主色}'
+    desc: 示例值：cocoa-brown
   - kv_var: 年份
-    style_var: "{年份}"
-    desc: "示例值：2026"
-
+    style_var: '{年份}'
+    desc: 示例值：2026
 source_url: "https://x.com/MrLarus/status/2110094498701476306"
 source_author: "@MrLarus"
 

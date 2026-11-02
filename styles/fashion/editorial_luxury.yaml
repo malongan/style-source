@@ -21,29 +21,29 @@ features:
 - title: 画面上方中央有一处小号衬线世家风格字标区域。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main model, product, or luxury subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main pose, movement, or product presentation
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: luxury object, accessory, or hero prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: minimal studio, runway, gallery, atelier, salon, or abstract luxury set
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: checkerboard planes, white space, small accent marks, and secondary spatial details
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: invented large script word used as a graphic field
-  desc: ''
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
 prompt: 'Create a polished international luxury editorial poster in the Luxury Perspective Checkerboard Editorial style. Subject: {SUBJECT}. Action or presentation: {SUBJECT_ACTION}. Hero product or prop:
   {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Typography: place the invented large script word "{MAIN_TEXT}" as an oversized
   sweeping background graphic behind the subject, and place the small uppercase editorial text "{SECONDARY_TEXT}" near the upper field; add the restrained accent symbol "{ACCENT_SYMBOL}" only once. Preserve
-  these style fidelity anchors: {STYLE_FIDELITY_ANCHORS}. Avoid this source content: {SOURCE_CONTENT_TO_AVOID}. Use a low-angle high-fashion photographic camera, crisp studio lighting, generous white space,
+  these style fidelity anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use a low-angle high-fashion photographic camera, crisp studio lighting, generous white space,
   a red-and-white checkerboard perspective plane, deep black structure, emerald or teal accent details, clean cutout subject edges, glossy premium material highlights, and sparse typography. Do not use
-  any real brand logos, real fashion house names, monograms, watermarks, QR codes, social media UI, price labels, or copied campaign identities. Aspect ratio: {ASPECT_RATIO}.'
+  any real brand logos, real fashion house names, monograms, watermarks, QR codes, social media UI, price labels, or copied campaign identities. Aspect ratio: 16:9.'
 id: editorial_luxury
 code: ''

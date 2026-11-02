@@ -43,6 +43,15 @@ prompt: |
 
   不要动漫风，不要微笑，不要过度曝光，不要多余肢体，不要奇怪解剖，不要鲜艳全身服装，不要赛博朋克霓虹，不要模糊面部，不要低画质，不要扭曲手部，不要不真实皮肤，不要HDR过载，不要夸张妆容，不要拥挤构图，不要重复人物。
 
+variables:
+- kv_var: 主体描述
+  style_var: '{主体描述}'
+- kv_var: 主体
+  style_var: '{主体}'
+- kv_var: 服装描述
+  style_var: '{服装描述}'
+- kv_var: 壁画背景描述
+  style_var: '{壁画背景描述}'
 source_url: "https://x.com/Naiknelofar788/status/2082653912075739205"
 source_author: "@Naiknelofar788"
 

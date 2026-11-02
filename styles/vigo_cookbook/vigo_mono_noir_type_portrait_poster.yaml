@@ -21,25 +21,25 @@ features:
 - title: 第一个大标题词以黑色字体出现在锐利的白色矩形标签内。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main person, performer, worker, athlete, maker, or character who anchors the poster
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: quiet pose, intense gaze, paused task, reflective moment, or restrained movement
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: object, tool, instrument, notebook, glove, cup, helmet, camera, or no prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: dim studio, late-night workspace, rehearsal room, tunnel, library corner, workshop, or minimal interior
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: soft charcoal gradient, blurred wall texture, deep negative space, faint window falloff, or subtle studio shadow
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: three-line lowercase headline with short words and a final period
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} monochrome editorial poster in the Mono Noir Type Portrait Poster Style. Style fidelity lock: {STYLE_FIDELITY_ANCHORS}. Source content to avoid: {SOURCE_CONTENT_TO_AVOID}.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+prompt: 'Create a 16:9 monochrome editorial poster in the Mono Noir Type Portrait Poster Style. Style fidelity lock: the core visual anchors of this style. Source content to avoid: watermarks, real logos, and commercial advertising.
   Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Composition: one large high-contrast black-and-white
   photographic subject, close crop, deep charcoal background, sparse negative space, shallow depth of field, serious noir editorial mood. If the aspect ratio is 16:9, make a landscape poster with the subject
   weighted to the right side and the headline block on the left. If the aspect ratio is 9:16, make a vertical poster with the headline stacked in the upper-left or middle-left field and the subject cropped

@@ -34,17 +34,28 @@ features:
   desc: ''
 variables:
 - kv_var: 主标题
-  style_var: '{{主标题英文}}'
+  style_var: '{主标题英文}'
   desc: 信封上的英文标题
-- kv_var: 氛围
-  style_var: '{{季节/氛围}}'
-  desc: 整体治愈柔和感
-- kv_var: 画面-元素
-  style_var: '{{花卉类型}}、{{信封类型}}'
-  desc: 玻璃质感植物
-- kv_var: 比例
-  style_var: '9:16'
-  desc: 竖版
+- kv_var: 信封颜色
+  style_var: '{信封颜色}'
+- kv_var: 信封类型
+  style_var: '{信封类型}'
+- kv_var: 季节花卉类型
+  style_var: '{季节花卉类型}'
+- kv_var: 鸟颜色
+  style_var: '{鸟颜色}'
+- kv_var: 鸟类型
+  style_var: '{鸟类型}'
+- kv_var: 铭牌文字
+  style_var: '{铭牌文字}'
+- kv_var: 底部文字
+  style_var: '{底部文字}'
+- kv_var: 花卉1
+  style_var: '{花卉1}'
+- kv_var: 花卉2
+  style_var: '{花卉2}'
+- kv_var: 花卉3
+  style_var: '{花卉3}'
 prompt: 清新治愈的数字插画，浅绿渐变带细闪颗粒的背景，主体是一个特写{{信封颜色}}的{{信封类型}}，信封内插满透明玻璃质感的{{季节花卉类型}}：{{花卉1}}、{{花卉2}}与{{花卉3}}，花朵带有清晰的玻璃纹理与光泽；一只带{{鸟颜色}}的{{鸟类型}}衔一个{{铭牌文字}}铭牌在信封上飞，信封上有"{{主标题英文}}"，画面底部居中极小字"{{底部文字}}"，整体风格柔和梦幻，玻璃材质的花朵晶莹剔透，充满春日的温柔与治愈氛围。
 id: glass_flower_spring_diary
 code: ''

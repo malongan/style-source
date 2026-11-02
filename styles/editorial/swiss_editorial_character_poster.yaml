@@ -48,6 +48,11 @@ prompt: |
   整体干净、锐利、理性，具有国际主义平面设计和当代文化杂志封面的视觉张力。
   竖版海报，单人角色，不要水印。
 
+variables:
+- kv_var: 角色名
+  style_var: '{角色名}'
+- kv_var: 强调色
+  style_var: '{强调色}'
 source_url: "https://x.com/VoxcatAI/status/2102421914979570015"
 source_author: "@VoxcatAI"
 

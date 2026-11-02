@@ -48,6 +48,21 @@ prompt: |
   整体保持"粗黑民艺字 × 草本淡彩 × 茶器静物 × 层叠底形 × 旧纸印刷"的统一视觉语言。构图丰富但不拥堵，每张可以改变植物方向、色块形状、山影层次、茶器位置和文字布局，保持系列一致但避免模板化。
   不要水印，不要真实Logo。
 
+variables:
+- kv_var: main title
+  style_var: '{main_title}'
+- kv_var: main herb
+  style_var: '{main_herb}'
+- kv_var: secondary ingredient
+  style_var: '{secondary_ingredient}'
+- kv_var: background element
+  style_var: '{background_element}'
+- kv_var: tea utensil
+  style_var: '{tea_utensil}'
+- kv_var: auxiliary text
+  style_var: '{auxiliary_text}'
+- kv_var: stamp text
+  style_var: '{stamp_text}'
 source_url: "https://x.com/MrLarus/status/2091072647262277989"
 source_author: "MrLarus"
 

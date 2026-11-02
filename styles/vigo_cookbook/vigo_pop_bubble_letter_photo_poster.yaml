@@ -42,28 +42,28 @@ features:
 - title: '图形语言：粗黑描边、平滑扁平填充、亮粉色、糖果黄、叶绿、橘橙、番茄红、粉蓝，以深常青绿作负空间，配米白椭圆高光与 ACCENT_SYMBOL。'
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main person, model, performer, maker, athlete, student, traveler, or product ambassador
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: standing still, leaning back, looking upward, closing eyes in sunlight, holding a prop, stepping forward, or posing calmly
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: camera, headphones, drink bottle, book, bouquet, transit card, compact mirror, sunglasses, or featured product
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: painted wall, studio set, public plaza, gallery exterior, market stall, campus courtyard, subway entrance, or clean event backdrop
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: dark green negative-space panel, oversized cropped bubble letters, white sparkle marks, oval shine highlights, candy-colored abstract shapes
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: short bubble-letter word or graphic headline such as WOW, POP, OPEN, BLOOM, WAVE, or PLAY
-  desc: ''
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
 prompt: 'Create an image in pop-bubble-letter-photo-poster-style.
 
 
-  Aspect ratio: {ASPECT_RATIO}.
+  Aspect ratio: 16:9.
 
 
   Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with or carrying {PRODUCT_OR_PROP}, in {LOCATION}. Style the subject with {WARDROBE_STYLE}. Use real photographic portrait detail for the subject: low-angle

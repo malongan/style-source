@@ -40,9 +40,10 @@ prompt: |
   Pure solid cream white background, playful creative cartoon graffiti typography design. The main element is the Chinese slogan "{中文Slogan}" rendered as a bold cartoon graffiti font: exaggerated distorted strokes, rounded lively organic shapes, strong contrast between thick and thin strokes, chunky playful letterforms with smooth rounded edges. Black lettering with a clean white outline creating high contrast pop-out effect. Decorative elements in bright fluorescent green: small speech bubble shapes, a few scattered numbers, dynamic curved lines and squiggles around the letters. English phrase "{英文副行}" placed smaller beneath the Chinese in a rounded bold sans-serif. Youthful, energetic, trendy streetwear vibe, creative campaign poster typography, flat vector style, clean solid colors, no 3D shadow, no gradient. Every Chinese character must be clearly readable and correctly written, keep all text inside the safe area. Only decorative numbers are allowed as extra elements; do not add any other letters, words, labels, logos, or pseudo-text.
 
 variables:
-  - 中文Slogan
-  - 英文副行
-
+  - kv_var: 中文Slogan
+    style_var: '{中文Slogan}'
+  - kv_var: 英文副行
+    style_var: '{英文副行}'
 source: "painter"
 source_author: "painter"
 created_at: "2026-08-13"

@@ -35,6 +35,13 @@ prompt: |
   Create a refined editorial travel poster illustration of {city}, inspired by vintage modernist travel art. Show {landmark} as the dominant landmark rising above a layered city skyline, with {foreground_element} in the foreground, traditional architecture, lush trees, distant mountains, elegant bridges, and a calm blue river or waterfront. Use a sophisticated geometric collage composition with overlapping arches, rectangles, circles, stepped architectural shapes, and subtle paper-texture overlays. Muted pastel palette of powder blue, cream, warm terracotta, dusty coral, sage green, and deep navy. Minimalist hand-painted illustration, slightly grainy vintage print texture, soft natural daylight, clean architectural lines, balanced negative space, sophisticated European travel-poster aesthetic, nostalgic yet contemporary, highly detailed but uncluttered. Place the title "{city}" centered at the top in thin, widely spaced uppercase typography. Vertical 4:5 composition, premium art-print quality, elegant, cohesive, no photorealism, no gradients, no excessive text.
   不要水印，不要真实Logo。
 
+variables:
+- kv_var: city
+  style_var: '{city}'
+- kv_var: landmark
+  style_var: '{landmark}'
+- kv_var: foreground element
+  style_var: '{foreground_element}'
 source_url: "https://x.com/Taaruk_/status/2091034664203133243"
 source_author: "Taaruk_"
 

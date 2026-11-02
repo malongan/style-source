@@ -41,25 +41,25 @@ features:
 - title: 把超大号小写目的地大标题以纯白色横贯整张画面的中心，穿过全部三个分栏。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main traveler, host, couple, group, or implied travel point of view
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: walking, posing, holding a drink, looking across the street, boarding transit, or pausing at a landmark
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: unbranded drink, pastry, camera, tote bag, transit card, ticket, map, sunglasses, or travel snack
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: destination city, neighborhood, street route, cafe, station, park, landmark, waterfront, or theme-park-like attraction
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: 'three clean photo panels: close-up lifestyle panel, city-stroll panel, and landmark or scenic panel'
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: large lowercase destination headline
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Clean Triptych Travel Vlog Thumbnail" style.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 image in the "Clean Triptych Travel Vlog Thumbnail" style.
 
 
   Subject: {SUBJECT}.

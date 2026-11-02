@@ -42,28 +42,28 @@ features:
 - title: 让字体看起来是印在折叠表面上的：被中央折痕分开、因透视而变形、被海报边缘裁切，并带纸张颗粒的轻微质感。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main person, athlete, dancer, model, musician, founder, maker, or product hero
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: standing over the camera, stepping forward, crouching above the viewer, reaching downward, jumping, holding a prop, or looking down with confidence
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: shoe, skateboard, basketball, camera, bag, bottle, instrument, notebook, tool, or featured product
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: open sky, rooftop, court, desert road, studio courtyard, skate spot, beach, or clean outdoor setting
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: folded tan paper, cardboard, linen canvas, central crease, shadowed hinge, diamond aperture, subtle grain
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: huge bold headline in white condensed type
-  desc: ''
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
 prompt: 'Create an image in folded-diamond-perspective-type-poster-style.
 
 
-  Aspect ratio: {ASPECT_RATIO}.
+  Aspect ratio: 16:9.
 
 
   Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Use {WARDROBE_STYLE}. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong

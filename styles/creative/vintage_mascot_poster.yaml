@@ -32,9 +32,30 @@ ratio: "4:5"
 summary: "橡皮管动画风格的复古吉祥物海报，丝网印刷质感，四色限定，典型 1920-30s 美式复古平面设计"
 
 prompt: |
-  Vintage mascot poster in a vertical 4:5 layout on a cream paper background using only [COLOR1], [COLOR2], [COLOR3], and [COLOR4]. At the top, place the bold rounded headline "[TITLE]". In the center, show a rubber hose style [HUMAN] wearing [CLOTHES] walking beside [ANIMAL] through [BACKGROUND], both with pie-cut eyes, simple smiling faces, thick clean outlines, rounded limbs, oversized shoes, and a playful mid-step pose. Add subtle register misalignment in the outlines and fills, light distressed screen-print grain, a simple circular stamp graphic, and a horizontal checker stripe near the lower section. At the bottom, place the bold rounded tagline "[TAGLINE]". Clean retro t-shirt graphic, flat colors, no gradients, crisp simple composition.
+  Vintage mascot poster in a vertical 4:5 layout on a cream paper background using only {COLOR1}, {COLOR2}, {COLOR3}, and {COLOR4}. At the top, place the bold rounded headline "{TITLE}". In the center, show a rubber hose style {HUMAN} wearing {CLOTHES} walking beside {ANIMAL} through {BACKGROUND}, both with pie-cut eyes, simple smiling faces, thick clean outlines, rounded limbs, oversized shoes, and a playful mid-step pose. Add subtle register misalignment in the outlines and fills, light distressed screen-print grain, a simple circular stamp graphic, and a horizontal checker stripe near the lower section. At the bottom, place the bold rounded tagline "{TAGLINE}". Clean retro t-shirt graphic, flat colors, no gradients, crisp simple composition.
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主色
+  style_var: '{COLOR1}'
+- kv_var: 辅色
+  style_var: '{COLOR2}'
+- kv_var: 点缀色
+  style_var: '{COLOR3}'
+- kv_var: 第四色
+  style_var: '{COLOR4}'
+- kv_var: 标题
+  style_var: '{TITLE}'
+- kv_var: 人物
+  style_var: '{HUMAN}'
+- kv_var: 服装
+  style_var: '{CLOTHES}'
+- kv_var: 动物
+  style_var: '{ANIMAL}'
+- kv_var: 背景
+  style_var: '{BACKGROUND}'
+- kv_var: 标语
+  style_var: '{TAGLINE}'
 source_url: "https://x.com/Goodmanprotocol/status/2080890330409553978"
 source_author: "Goodmanprotocol"
 

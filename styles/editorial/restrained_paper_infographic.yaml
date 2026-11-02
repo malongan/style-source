@@ -39,6 +39,15 @@ prompt: |
   Bottom Notice: {bottom_notice}
   不要水印，不要真实Logo，不要电商广告感。
 
+variables:
+- kv_var: 主题
+  style_var: '{theme}'
+- kv_var: 主标题
+  style_var: '{headline}'
+- kv_var: key information
+  style_var: '{key_information}'
+- kv_var: bottom notice
+  style_var: '{bottom_notice}'
 source_url: "https://x.com/xiaoxiaodong01/status/2086866107965821125"
 source_author: "@xiaoxiaodong01"
 

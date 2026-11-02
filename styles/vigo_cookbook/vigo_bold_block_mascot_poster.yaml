@@ -28,25 +28,25 @@ features:
 - title: 次级绿色、红色、黑色或浅色色块位于主体之后，并以厚重黑色笔触勾边。
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main rounded mascot, figure, product, object, or visual subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main action, gesture, presentation, or interaction
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: simplified prop, object, product, icon, card, or graphic device
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: flat poster setting, abstract environment, or editorial surface
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: secondary panels, labels, tabs, grids, microtype, or simple scene blocks
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: main headline or graphic display text
-  desc: ''
-prompt: 'Create a {ASPECT_RATIO} image in the "Bold Block Mascot Poster Style" visual style.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+prompt: 'Create a 16:9 image in the "Bold Block Mascot Poster Style" visual style.
 
 
   Subject: {SUBJECT}

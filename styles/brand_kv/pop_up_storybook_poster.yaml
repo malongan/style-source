@@ -62,6 +62,23 @@ prompt: |
 
   不要水印，不要真实Logo，不要电商广告感，不要拼贴感，不要复杂背景，不要乱码。
 
+variables:
+- kv_var: 主体故事
+  style_var: '{主体故事}'
+- kv_var: 主角
+  style_var: '{主角}'
+- kv_var: 色系主色调
+  style_var: '{色系主色调}'
+- kv_var: 伙伴
+  style_var: '{伙伴}'
+- kv_var: 色系辅色调
+  style_var: '{色系辅色调}'
+- kv_var: 英文主标题
+  style_var: '{英文主标题}'
+- kv_var: 中文副标题
+  style_var: '{中文副标题}'
+- kv_var: 英文副标语
+  style_var: '{英文副标语}'
 source_url: "https://x.com/ou_zhen599/status/2075629673497948593"
 source_author: "ou_zhen599"
 

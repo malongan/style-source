@@ -41,25 +41,25 @@ features:
 - title: '避免：水印、用户名、创作者 ID、平台标识、二维码、应用界面、作者签名、照搬参考角色、照搬姿势、照搬文字、品牌标识、授权角色、照片写实、3D、亮面渐变、柔和的喷枪阴影、干净的矢量抛光、密集段落，以及沉闷的企业设计。'
   desc: ''
 variables:
-- kv_var: '`SUBJECT`'
-  style_var: main illustrated subject
-  desc: ''
-- kv_var: '`SUBJECT_ACTION`'
-  style_var: main chaotic action or reaction
-  desc: ''
-- kv_var: '`PRODUCT_OR_PROP`'
-  style_var: oversized object, product, tool, weapon, camera, device, or prop
-  desc: ''
-- kv_var: '`LOCATION`'
-  style_var: flat poster setting or symbolic backdrop
-  desc: ''
-- kv_var: '`BACKGROUND_ELEMENTS`'
-  style_var: speech bursts, smoke puffs, starbursts, cyan blocks, yellow corner shapes, impact marks
-  desc: ''
-- kv_var: '`MAIN_TEXT`'
-  style_var: short comic headline, e.g. ZAP!, CRASH!, BANG!, WHAM!
-  desc: ''
-prompt: 'Create an image in impact-burst-halftone-comic-poster-style. Aspect ratio: {ASPECT_RATIO}. Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}.
+- kv_var: SUBJECT
+  style_var: '{SUBJECT}'
+- kv_var: SUBJECT_ACTION
+  style_var: '{SUBJECT_ACTION}'
+- kv_var: PRODUCT_OR_PROP
+  style_var: '{PRODUCT_OR_PROP}'
+- kv_var: LOCATION
+  style_var: '{LOCATION}'
+- kv_var: BACKGROUND_ELEMENTS
+  style_var: '{BACKGROUND_ELEMENTS}'
+- kv_var: MAIN_TEXT
+  style_var: '{MAIN_TEXT}'
+- kv_var: 服装造型
+  style_var: '{WARDROBE_STYLE}'
+- kv_var: 副文案
+  style_var: '{SECONDARY_TEXT}'
+- kv_var: ACCENT SYMBOL
+  style_var: '{ACCENT_SYMBOL}'
+prompt: 'Create an image in impact-burst-halftone-comic-poster-style. Aspect ratio: 16:9. Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Include {BACKGROUND_ELEMENTS}.
   Style the subject with {WARDROBE_STYLE}. Layout: use a bold cropped comic-poster composition. Put a huge condensed cream block-letter headline reading "{MAIN_TEXT}" across the upper band, with "{SECONDARY_TEXT}"
   as tiny impact microcopy if it stays clean. Place the main subject large in the lower two-thirds and let the oversized prop cut diagonally across the body or foreground. Add {ACCENT_SYMBOL} as a graphic
   impact mark. Style: thick uneven black contour lines, flat hot-orange and aged-cream character shapes, saturated cyan backdrop, lemon-yellow speech-burst corner, muted olive prop color, small gray accent,
