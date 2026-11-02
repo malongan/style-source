@@ -44,10 +44,10 @@ prompt: |
   Style Keywords: masterpiece, ultra-detailed, paper sculpture, carved marble, layered miniature architecture, origami textures, sumi-e ink wash, watercolor illustration, atmospheric perspective, parchment paper texture, magical realism, cinematic lighting, museum-quality illustration, luxury travel poster, whimsical world-building, highly intricate, elegant composition, 8K, editorial design, premium print quality.
 
   不要水印，不要真实Logo，不要电商广告感。
-
 variables:
 - kv_var: 目的地/城市
   style_var: '{目的地/城市}'
+  desc: 城市或地区，如 京都 / Kyoto
 source_url: "https://x.com/Goodmanprotocol/status/2076167613919772879"
 source_author: "Goodmanprotocol"
 

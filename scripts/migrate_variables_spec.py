@@ -480,7 +480,7 @@ def migrate_text(text: str, path: str):
     """对单个文件文本做迁移，返回 (new_text, changes, stats)。"""
     changes = []
     stats = {'backtick': 0, 'desc_value': 0, 'dead': 0, 'ratio': 0, 'added': 0,
-             'bracket': 0, 'dirty': 0, 'tech': 0, 'param_slot': 0, 'marker': 0}
+             'bracket': 0, 'dirty': 0, 'tech': 0, 'param_slot': 0, 'marker': 0, 'dblbrace': 0}
 
     try:
         data = yaml.safe_load(text)
@@ -503,6 +503,19 @@ def migrate_text(text: str, path: str):
     if ploc0:
         pstart0, pend0, plines0 = ploc0
         pblock = ''.join(plines0[pstart0:pend0])
+
+        # A0. {{双花括号}} → {单花括号}
+        # spec 明令禁止的写法。插件正则能匹配到内层 {X} 并替换，但外层的 {} 会
+        # 原样留在画布上，用户插进去看到的是「{杭州}」这种带括号的文本。
+        def dbl_sub(m):
+            name = m.group(1).strip()
+            if name and len(name) <= 40 and not re.search(r'[\"\':,;{}\[\]\\\\]', name):
+                stats['dblbrace'] += 1
+                changes.append(f'双花括号 {{{{ {name} }}}} → {{{name}}}')
+                return '{' + name + '}'
+            return m.group(0)
+
+        pblock = re.sub(r'\{\{([^{}\n]{1,40})\}\}', dbl_sub, pblock)
 
         # A1. 方括号 → 花括号（只转明确是变量的）
         def bracket_sub(m):
@@ -667,7 +680,7 @@ def main():
 
     total = {'backtick': 0, 'desc_value': 0, 'dead': 0, 'ratio': 0, 'added': 0,
              'bracket': 0, 'dirty': 0, 'tech': 0, 'translated': 0, 'param': 0,
-             'param_slot': 0, 'marker': 0}
+             'param_slot': 0, 'marker': 0, 'dblbrace': 0}
     touched, errors, samples = [], [], []
     unmapped = {}
 
@@ -712,6 +725,7 @@ def main():
         print(f"  技术槽位→常量：{total['tech']} 处")
         print(f"  param 槽位→常量：{total['param_slot']} 处")
         print(f"  marker/尺寸槽位→删除：{total['marker']} 处")
+        print(f"  双花括号→单花括号：{total['dblbrace']} 处")
         print(f"  方括号→花括号：{total['bracket']} 处")
         print(f"  补零声明：{total['added']} 条")
         print(f"  跳过脏槽位（说明书式占位符，待人工改 prompt）：{total['dirty']} 个")
