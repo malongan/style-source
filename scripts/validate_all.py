@@ -4,11 +4,17 @@
 用法：
   python3 scripts/validate_all.py                  # 报告问题，但只要有 error 就 exit 1
   python3 scripts/validate_all.py --check-images   # 附带预览图 URL 可达性
+  python3 scripts/validate_all.py --require-desc   # 额外跑 R7（每条变量都要有 desc）
   python3 scripts/validate_all.py --no-strict      # 只报告，exit 0（排查遗留数据时用）
 
 ⚠️ 2026-10-12 更正：本脚本此前无论有无 error 都 `sys.exit(0)`，注释还谎称
 "新文件在 PR 检查中会被拦截"——而两个 workflow 调的都是本脚本，导致格式闸门
 形同虚设。现在默认 **有 error 即 exit 1**，CI 才真的拦得住。
+
+⚠️ 2026-11-02 补充：R7 曾经只对 PR 新增文件生效（靠 `git diff --diff-filter=A`
+圈文件），因为那时全库 188 个风格 desc 不完整。desc 补到 100% 之后改成可由
+--require-desc 全库生效，不再依赖 diff 判断 —— 这个判据刚在 check_duplicate
+上翻过车（`--name-only` 漏了 `--diff-filter=A`，把修改文件当新增）。
 """
 import sys
 import os
@@ -24,6 +30,7 @@ def main():
 
     check_images = '--check-images' in sys.argv
     strict = '--no-strict' not in sys.argv
+    require_desc = '--require-desc' in sys.argv
 
     all_errors = {}
     all_warnings = {}
@@ -33,7 +40,8 @@ def main():
             if not f.endswith('.yaml') or f.startswith('_'):
                 continue
             filepath = os.path.join(root, f)
-            errors, warnings = validate_file(filepath, check_images=check_images)
+            errors, warnings = validate_file(filepath, check_images=check_images,
+                                             require_desc=require_desc)
             total += 1
             if errors:
                 all_errors[filepath] = errors
