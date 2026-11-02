@@ -18,3 +18,7 @@ Thumbs.db
 *.swp
 *.swo
 *.bak*
+
+# 本地 Agent 运行时目录（工作记忆 / 续跑状态），不进仓库
+.workbuddy/
+.omo/
