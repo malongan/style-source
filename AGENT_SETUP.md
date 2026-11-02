@@ -206,7 +206,7 @@ GitHub Manager（style-collection 技能）
 创建 PR 前本地先验证：
 
 ```bash
-python3 scripts/validate_all.py --strict               # 全量格式检查（含变量语义 R1/R2/R3，有 error 即失败）
+python3 scripts/validate_all.py --strict               # 全量格式检查（含变量语义 R1–R5，有 error 即失败）
 python3 scripts/generate_data.py                       # 生成 JSON 数据
 python3 scripts/audit_variables.py --strict            # 变量体检（声明落空 / 值写成描述 / 标签带反引号）
 python3 scripts/build_gallery.py                       # 生成画廊页面 + CSS/JS
@@ -229,6 +229,10 @@ git status --short                                      # 确认生成物都已 
 ---
 
 ## 7. 分类判断
+
+变量语义闸门（`check_variables_semantics`）是 R1–R5，全部 error：R1 声明必须命中 prompt、
+R2 `style_var` 只能是 `{占位符}`、R3 槽位必须都有声明、R4 `kv_var` 必须含中文、
+R5 变量数 ≤12（`MAX_VARIABLES`）。
 
 共 **12** 个分类（权威清单：`scripts/validate_style.py` 的 `VALID_CATEGORIES`）：
 
@@ -280,6 +284,8 @@ git status --short                                      # 确认生成物都已 
 | `generate_index.py` | 重算 `styles/_index.md` + 各分类索引 | `python3 scripts/generate_index.py` |
 | `check_style_previews.py` | 配图完整性（缩略图/孤儿/**串号**）；CI 用 `--strict` | `python3 scripts/check_style_previews.py --strict` |
 | `audit_variables.py` | 变量体检（声明落空 / 值写成描述 / 标签反引号）；读 `data/styles.json`，**必须先 generate_data** | `python3 scripts/audit_variables.py --strict` |
+| `migrate_variables_spec.py` | 按规范批量整改 variables，默认 dry-run | `python3 scripts/migrate_variables_spec.py --apply`；`--labels-only` 只换英文标签；`--check` 只校验 `data/label_dictionary.yaml` 覆盖率 |
+| `fix_dirty_slots.py` | 把「说明书当占位符名」的槽位改成短名，原内容降级成 `desc`，默认 dry-run | `python3 scripts/fix_dirty_slots.py --apply` |
 | `migrate_variables_spec.py` | 按规范批量整改 `variables`（剥反引号 / 改本体 / 比例转常量 / 方括号转花括号 / 补零声明） | `python3 scripts/migrate_variables_spec.py --dry-run`（`--apply` 才写回） |
 | `check_image_urls.py` | 预览图 URL 可达性（日检） | `python3 scripts/check_image_urls.py` |
 | `convert_to_webp.py` | 原图 → WebP 全尺寸 + 缩略图 | `--input 图 --style-id id --output images/styles_previews/` |
