@@ -14,7 +14,7 @@
 | futuristic_collage_portrait | #混媒 #拼贴 #未来主义 |  | 4:5 或 9:16 |
 | gardenia_white_tea_poster | #东方美学 #花茶香氛 #柔焦花卉 |  | 3:4 |
 | halftone_assemblage_psa_poster | #公益 #海报 #半色调 |  | 9:16 / 16:9 |
-| inkline_couture | #东方 #水墨 #高定时装 |  | 9:16（竖版） |
+| inkline_couture | #东方 #水墨 #高定时装 |  | 9:16 |
 | jimeng_kasho_allstars | #Y2K酸性设计 #夜店潮牌 #孟菲斯复古未来主义 |  | 9:16 |
 | lakero_fine_dining_menu | #法餐 #菜单海报 #高端 | 高端餐厅品牌KV、菜单海报、美食广告、精致餐饮宣传 | 3:4 |
 | lululemon_4square_campaign | #品牌KV #四联海报 #运动时尚 | 品牌KV、运动品牌联名、时尚运动海报、Instagram 帖子 | 1:1 |

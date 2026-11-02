@@ -5,7 +5,7 @@
 | 风格 | 标签 | 适用场景 | 比例 |
 |------|------|----------|------|
 | axial_memorial_poster | #axial_symmetry #memorial_poster #vertical_line_silhouette | 品牌纪念日海报、知识类纪念特展、主题宣言视觉 | 9:16 |
-| collage_logo | #logo #品牌 #图标 |  | 1:1 方图（2048x2048） |
+| collage_logo | #logo #品牌 #图标 |  | 1:1 |
 | cultural_worker_anniversary_poster | #现代东方 #极简仪式感 #冷色调 | 文化机构周年纪念海报、严肃主题纪念、品牌KV、学术活动海报 | 16:9 |
 | futuristic_editorial_poster | #未来感 #编辑海报 #杂志排版 | 品牌KV、艺术海报、杂志封面、社交媒体分享 | 4:5 |
 | heroic_monument_potential_field_poster | #monument #marble_sculpture #potential_field | 历史人物纪念海报、英雄人物文化海报、纪念馆展览视觉、体育传奇定格海报 | 9:16（竖版） |
@@ -22,5 +22,5 @@
 | stamp_movie_poster | #邮票 #电影海报 #极简 |  | 16:9 |
 | style_can | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | tear_paper | #插画 #撕纸 #平面 |  | 16:9 横版 |
-| typography | #字体 #标题 #排版 |  | 按需求（常见 9:16 或 16:9） |
+| typography | #字体 #标题 #排版 |  | 9:16 / 16:9 |
 | vintage_car_vector_art | #老爷车 #矢量艺术 #汽车海报 | 老爷车收藏展示、汽车品牌KV、复古风格海报、车型宣传图、汽车杂志配图 | 16:9 |

@@ -25,7 +25,7 @@
 | pastel_product_studio | #电商 #产品 #摄影棚 | 品牌电商主图、高端食品饮料海报、社交媒体产品图 | 4:5 竖版 |
 | premium_4grid_product_lineup | #premium product lineup #2x2 grid layout #flavor-based palette | 品牌旗舰产品KV、系列产品发布海报、高端饮品电商主图 | 4:5（可适配16:9、1:1） |
 | premium_cafe_menu_poster | #cafe #menu #poster | 咖啡馆新品上市海报、饮品品牌KV、社交媒体菜单图文 | 4:5 |
-| realistic_photo | #摄影 #写实 #产品 |  | 按需求（常见 16:9 或 4:3） |
+| realistic_photo | #摄影 #写实 #产品 |  | 16:9 / 4:3 |
 | retro_drink_ad | #饮料 #复古 #广告 |  | 3:4 竖版 |
 | soft_lifestyle_product_ad | #产品摄影 #日系生活 #柔光拍摄 | 社交媒体产品海报、手作烘焙食帖、生活方式品牌主图 | 3:4 |
 | style_product | #VigoCookbook #minimal #dark |  | 16:9 / 4:5 / 3:4 / 9:16 |

@@ -41,7 +41,7 @@
 | futuristic_collage_portrait | #混媒 #拼贴 #未来主义 |  | 4:5 或 9:16 |
 | gardenia_white_tea_poster | #东方美学 #花茶香氛 #柔焦花卉 |  | 3:4 |
 | halftone_assemblage_psa_poster | #公益 #海报 #半色调 |  | 9:16 / 16:9 |
-| inkline_couture | #东方 #水墨 #高定时装 |  | 9:16（竖版） |
+| inkline_couture | #东方 #水墨 #高定时装 |  | 9:16 |
 | jimeng_kasho_allstars | #Y2K酸性设计 #夜店潮牌 #孟菲斯复古未来主义 |  | 9:16 |
 | lakero_fine_dining_menu | #法餐 #菜单海报 #高端 | 高端餐厅品牌KV、菜单海报、美食广告、精致餐饮宣传 | 3:4 |
 | lululemon_4square_campaign | #品牌KV #四联海报 #运动时尚 | 品牌KV、运动品牌联名、时尚运动海报、Instagram 帖子 | 1:1 |
@@ -176,7 +176,7 @@
 | pastel_product_studio | #电商 #产品 #摄影棚 | 品牌电商主图、高端食品饮料海报、社交媒体产品图 | 4:5 竖版 |
 | premium_4grid_product_lineup | #premium product lineup #2x2 grid layout #flavor-based palette | 品牌旗舰产品KV、系列产品发布海报、高端饮品电商主图 | 4:5（可适配16:9、1:1） |
 | premium_cafe_menu_poster | #cafe #menu #poster | 咖啡馆新品上市海报、饮品品牌KV、社交媒体菜单图文 | 4:5 |
-| realistic_photo | #摄影 #写实 #产品 |  | 按需求（常见 16:9 或 4:3） |
+| realistic_photo | #摄影 #写实 #产品 |  | 16:9 / 4:3 |
 | retro_drink_ad | #饮料 #复古 #广告 |  | 3:4 竖版 |
 | soft_lifestyle_product_ad | #产品摄影 #日系生活 #柔光拍摄 | 社交媒体产品海报、手作烘焙食帖、生活方式品牌主图 | 3:4 |
 | style_product | #VigoCookbook #minimal #dark |  | 16:9 / 4:5 / 3:4 / 9:16 |
@@ -246,7 +246,7 @@
 | 风格 | 标签 | 适用场景 | 比例 |
 |------|------|----------|------|
 | axial_memorial_poster | #axial_symmetry #memorial_poster #vertical_line_silhouette | 品牌纪念日海报、知识类纪念特展、主题宣言视觉 | 9:16 |
-| collage_logo | #logo #品牌 #图标 |  | 1:1 方图（2048x2048） |
+| collage_logo | #logo #品牌 #图标 |  | 1:1 |
 | cultural_worker_anniversary_poster | #现代东方 #极简仪式感 #冷色调 | 文化机构周年纪念海报、严肃主题纪念、品牌KV、学术活动海报 | 16:9 |
 | futuristic_editorial_poster | #未来感 #编辑海报 #杂志排版 | 品牌KV、艺术海报、杂志封面、社交媒体分享 | 4:5 |
 | heroic_monument_potential_field_poster | #monument #marble_sculpture #potential_field | 历史人物纪念海报、英雄人物文化海报、纪念馆展览视觉、体育传奇定格海报 | 9:16（竖版） |
@@ -263,7 +263,7 @@
 | stamp_movie_poster | #邮票 #电影海报 #极简 |  | 16:9 |
 | style_can | #VigoCookbook #Other |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | tear_paper | #插画 #撕纸 #平面 |  | 16:9 横版 |
-| typography | #字体 #标题 #排版 |  | 按需求（常见 9:16 或 16:9） |
+| typography | #字体 #标题 #排版 |  | 9:16 / 16:9 |
 | vintage_car_vector_art | #老爷车 #矢量艺术 #汽车海报 | 老爷车收藏展示、汽车品牌KV、复古风格海报、车型宣传图、汽车杂志配图 | 16:9 |
 
 ## 🔬 科研专业
@@ -273,7 +273,7 @@
 | 风格 | 标签 | 适用场景 | 比例 |
 |------|------|----------|------|
 | bloomberg_magazine | #商业 #杂志 #Bloomberg |  | 16:9 / 5:2 / 4:5 / 3:4 / 1:1 |
-| mckinsey_style | #咨询 #商业 #PPT |  | 16:9 或 5:2 |
+| mckinsey_style | #咨询 #商业 #PPT |  | 16:9 / 5:2 |
 | science_cover | #科研 #封面 #期刊 |  | 1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2 |
 | science_illustration | #科研 #插图 #论文 |  | 1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2 |
 | science_infographic | #科研 #信息图 #学术 |  | 1:1 / 4:5 / 3:4 / 16:9 / 5:2 / 3:2 |
