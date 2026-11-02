@@ -1,0 +1,22 @@
+name: R7 反向验证探针
+tags: [test]
+triggers:
+  - R7 探针
+summary: 仅用于验证 CI 能否拦下缺 desc 的新风格，验证后立即删除，不会合并。
+features:
+  - title: 探针
+    desc: 无
+prompt: |
+  画一张以{主体}为核心的海报，整体色调为{色调}，标题写上{标题}，
+  排版克制、大量留白，质感接近哑光纸。以下文字用于把 prompt 凑过八十个
+  字符的格式下限，没有实际语义：这是一段占位说明，仅用于反向验证。
+variables:
+  - kv_var: 主体
+    style_var: "{主体}"
+    desc: 如：一只橘猫
+  - kv_var: 色调
+    style_var: "{色调}"
+  - kv_var: 标题
+    style_var: "{标题}"
+    desc: 标题
+source_author: probe
