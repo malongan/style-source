@@ -63,6 +63,10 @@ def audit(styles):
         'kv_backtick': 0,
         'style_var_plain': 0,
         'styles_vars_all_dead': 0,
+        # desc 覆盖率：只统计不拦截（存量缺口大，见 PROMPT_VARIABLES_SPEC §4）
+        'var_total': 0,
+        'var_with_desc': 0,
+        'styles_no_desc': 0,
     }
 
     for s in styles:
@@ -71,6 +75,7 @@ def audit(styles):
         tag = f'{sid}（{name}）' if name else sid
         names = prompt_placeholders(s.get('prompt', ''))
         variables = s.get('variables') or {}
+        descs = s.get('variable_descs') or {}
         if not isinstance(variables, dict):
             errors.append((tag, 'variables 不是 mapping（生成数据应统一成 {标签: 占位符}）'))
             continue
@@ -84,9 +89,14 @@ def audit(styles):
             continue
 
         matched = set()
+        has_desc = False
         for label, value in variables.items():
             raw = str(value or '').strip()
             key = str(label or '').strip()
+            stat['var_total'] += 1
+            if str(descs.get(key) or '').strip():
+                stat['var_with_desc'] += 1
+                has_desc = True
             if '`' in key or '*' in key:
                 stat['kv_backtick'] += 1
                 warnings.append((tag, f'变量标签带 markdown 残留：{key!r} → 去掉反引号/星号'))
@@ -107,6 +117,8 @@ def audit(styles):
         stat['vars_ok'] += len(matched)
         if variables and not matched:
             stat['styles_vars_all_dead'] += 1
+        if variables and not has_desc:
+            stat['styles_no_desc'] += 1
         missing = [n for n in names if n not in matched]
         if names and not matched:
             warnings.append((tag, '提示词有 %d 个占位符但一条变量都没声明：%s'
@@ -142,6 +154,9 @@ def main():
     print(f"  · 声明命中提示词：{stat['vars_ok']} 条 / 声明落空：{stat['vars_dead']} 条"
           f"（涉及 {stat['styles_vars_all_dead']} 个风格全部落空）")
     print(f"  · 标签带反引号等残留：{stat['kv_backtick']} 条 / 值写成描述而非占位符：{stat['style_var_plain']} 条")
+    pct = (100.0 * stat['var_with_desc'] / stat['var_total']) if stat['var_total'] else 0.0
+    print(f"  · 变量带 desc：{stat['var_with_desc']}/{stat['var_total']} 条（{pct:.0f}%）"
+          f" / 整条风格一条 desc 都没有：{stat['styles_no_desc']} 个")
 
     def dump(title, items):
         if not items:

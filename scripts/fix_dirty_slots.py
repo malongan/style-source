@@ -33,6 +33,9 @@ import yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STYLE_GLOB = os.path.join(ROOT, 'styles', '*', '*.yaml')
 
+# 与 docs/PROMPT_VARIABLES_SPEC.md 的 R5 一致；整改不得把风格推过这个线
+MAX_VARIABLES = 12
+
 # 判定「占位符名是说明书」：含空白/标点，或含这些词
 BAD_NAME = re.compile(r'[\s/,:：，、（）()；;]|填写|例如|如：|可选|可留空|不要文字|^.{41,}$')
 # 清理 desc 前缀（可能叠加多层，如「填写，例如：」）
@@ -105,27 +108,16 @@ SLOT_MAP = {
 }
 
 # 整段 prompt 改写（结构性坏损，靠替换槽位救不回来）
-PROMPT_PATCH = {
-    'pen_ink_point_line_peaches': [
-        ('点缀：{画面点缀：可有可}无，{若有则描述}。', '点缀：{画面点缀}，可有可无，有则描述具体元素。'),
-    ],
-    # 这段把变量说明整块贴在正文末尾，7 行全是正文里已存在的槽位的重复。
-    # 正文本来就用 {野字内容}/{核心主体}/{主体主色}/{主体与文字互动}/{英文辅助标题}，
-    # 所以补两个真正缺的输入（主题、展览信息）进正文，再把尾巴整块删掉。
-    'eastern_art_exhibition_poster_wild_calligraphy': [
-        ('设计一张高完成度的东方文化艺术展览海报',
-         '设计一张「{主题}」主题的高完成度东方文化艺术展览海报'),
-        ('左右边缘加入日期、地点、展览主题、材质关键词和简短说明等小型信息',
-         '左右边缘加入{展览信息}（日期、地点、展期、材质关键词、简短说明）等小型信息'),
-    ],
-}
+# 2026-11-02 清空：下面两条 PATCH 都已 --apply 并随 PR #195 合并，重跑只会打印「未命中」。
+# 保留空结构，将来有新脏数据按同样格式再填。
+#   - pen_ink_point_line_peaches：正文已是「点缀：{画面点缀}（可有可无…）」
+#   - eastern_art_..._wild_calligraphy：主题 / 展览信息已并入正文，尾部 {变量说明} 块已截断
+PROMPT_PATCH = {}
 
 # 这些风格的正文整段重写（占位符散落、重复段落）
-PROMPT_REPLACE = {
-    'quiet_corner_mood_illustration': '''A {art_style} illustration of a {mood} {setting} featuring {architecture}. {lighting} illuminates the space, highlighting {interior_details}. {subjects} are {activities}, creating a sense of {atmosphere}. The background showcases {surrounding_view}. The color palette includes {colors}, with {medium} and {artistic_details}, resulting in a {aesthetic} composition rich in detail and natural harmony.
-
-不要水印，不要真实Logo，不要摄影照片感。''',
-}
+# 2026-11-02 清空：quiet_corner 的整段重写早已应用，之后 L3 又把它从 14 条收敛到 12 条。
+# 留着重跑会把 14 条槽位版本写回去、顶破 R5 上限，所以直接删规则（守卫见 MAX_VARIABLES）。
+PROMPT_REPLACE = {}
 
 # 从 prompt 尾部整块删掉的组织性文字（匹配起始标记 → 到 prompt 末尾）
 PROMPT_TRUNCATE = {
@@ -146,24 +138,9 @@ DESC_MAP = {
 }
 
 # 整段 variables 重写（原声明与 prompt 已对不上，只能整块换）
-VARS_OVERRIDE = {
-    'quiet_corner_mood_illustration': [
-        ('艺术风格', '{art_style}', '如 flat illustration / soft gouache'),
-        ('情绪氛围', '{mood}', '如 calm / nostalgic / cozy'),
-        ('场景', '{setting}', '室内或室外，如 sunlit cafe interior'),
-        ('建筑元素', '{architecture}', '如 large arched window / wooden beams'),
-        ('光线', '{lighting}', '如 warm afternoon sunlight'),
-        ('室内细节', '{interior_details}', '如 bookshelf, potted plants, linen curtain'),
-        ('人物主体', '{subjects}', '如 a young woman'),
-        ('活动', '{activities}', '如 reading a book, sipping tea'),
-        ('情绪与氛围', '{atmosphere}', '如 quiet solitude / gentle warmth'),
-        ('周边环境', '{surrounding_view}', '如 greenery outside the window'),
-        ('配色', '{colors}', '如 sage green, warm beige, soft cream'),
-        ('媒介与技法', '{medium}', '如 textured paper grain, soft brushwork'),
-        ('艺术细节', '{artistic_details}', '如 dappled light, fabric folds'),
-        ('整体美学', '{aesthetic}', '如 serene, natural harmony'),
-    ],
-}
+# 2026-11-02 清空：quiet_corner 的 14 条覆盖表是整改前的快照，已由 L3 收敛成 12 条。
+# 别再填回去 —— 会直接顶破 MAX_VARIABLES。
+VARS_OVERRIDE = {}
 
 
 def label_from_context(prompt, start):
@@ -429,6 +406,7 @@ def main():
         files = [f for f in files if args.only in f]
 
     touched = 0
+    skipped = 0
     for path in files:
         text = open(path, encoding='utf-8').read()
         data = yaml.safe_load(text)
@@ -441,6 +419,15 @@ def main():
             continue
         new_prompt, merged, changes = build(text, style_id)
         if not changes:
+            continue
+        # 守卫：整改后变量数不得超硬上限（SPEC R5）。规则过期时会把已收敛的风格改回去，
+        # 例如 quiet_corner 从 12 条被 VARS_OVERRIDE 回退成 14 条 —— 直接拦下。
+        if len(merged) > MAX_VARIABLES:
+            print('\n### %s' % os.path.relpath(path, ROOT))
+            print('   ❌ 跳过：整改后 %d 个变量 > 上限 %d，八成是规则过期' % (len(merged), MAX_VARIABLES))
+            print('      该风格当前已是 %d 条，确认后再改 PROMPT_REPLACE / VARS_OVERRIDE'
+                  % len([v for v in (data.get('variables') or []) if isinstance(v, dict)]))
+            skipped += 1
             continue
         touched += 1
         rel = os.path.relpath(path, ROOT)
@@ -469,6 +456,8 @@ def main():
             open(path, 'w', encoding='utf-8').write(out)
 
     print('\n%s：%d 个风格' % ('已写回' if args.apply else 'DRY-RUN', touched))
+    if skipped:
+        print('跳过 %d 个（整改后超出 %d 个变量上限，规则需更新）' % (skipped, MAX_VARIABLES))
     return 0
 
 
