@@ -230,10 +230,6 @@ git status --short                                      # 确认生成物都已 
 
 ## 7. 分类判断
 
-变量语义闸门（`check_variables_semantics`）是 R1–R5，全部 error：R1 声明必须命中 prompt、
-R2 `style_var` 只能是 `{占位符}`、R3 槽位必须都有声明、R4 `kv_var` 必须含中文、
-R5 变量数 ≤12（`MAX_VARIABLES`）。
-
 共 **12** 个分类（权威清单：`scripts/validate_style.py` 的 `VALID_CATEGORIES`）：
 
 | 分类 | 目录 | 适用场景 |
@@ -275,6 +271,10 @@ R5 变量数 ≤12（`MAX_VARIABLES`）。
 
 | 脚本 | 用途 | 调用方式 |
 |------|------|---------|
+变量语义闸门（`check_variables_semantics`）是 R1–R5，全部 error：R1 声明必须命中 prompt、
+R2 `style_var` 只能是 `{占位符}`、R3 槽位必须都有声明、R4 `kv_var` 必须含中文、
+R5 变量数 ≤12（`MAX_VARIABLES`）。
+
 | `validate_style.py` | 校验单个文件（有 error 退出码 1） | `python3 scripts/validate_style.py 文件路径` |
 | `validate_all.py` | 校验全部文件（**有 error exit 1**） | `python3 scripts/validate_all.py --strict`（只报告用 `--no-strict`） |
 | `--check-images` | 附加：预览图 URL 可达性（只报不失败） | `python3 scripts/validate_all.py --check-images --no-strict` |
