@@ -8,7 +8,7 @@
 
 | 分类 | 风格数 | 说明 |
 |------|--------|------|
-| 🎨 品牌视觉 | 26 | 品牌KV、公益态度 |
+| 🎨 品牌视觉 | 27 | 品牌KV、公益态度 |
 | 🎪 创意特殊 | 84 | 融合、复古、手绘 |
 | 🛒 电商 | 25 | 产品主图、海报、美食 |
 | 📰 编辑排版 | 20 | 杂志封面、海报排版、编辑设计、字体实验 |
@@ -21,7 +21,7 @@
 | 🖋️ 字体排版 | 16 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：312 个风格文件**
+**总计：313 个风格文件**
 
 ---
 
@@ -49,6 +49,7 @@
 | lululemon_campaign_board | #campaign_board #athletic_fashion #hyper_real | 品牌KV设计、运动服Campaign、时尚海报、零售广告 | 9:16 |
 | luxury_beauty_side_profile_poster | #美妆 #高端 #护肤 |  | 9:16（竖版） |
 | luxury_embroidery_macro | #微距摄影 #品牌视觉 #刺绣工艺 |  | 4:5 |
+| optical_glass_ui_button | #光学玻璃 #3D按钮 #产品级CGI | 品牌KV、产品发布视觉、UI符号实体化、科技品牌提案、官网与发布会主视觉 | 16:9 |
 | oriental_herbal_tea_poster | #oriental #herbal tea #chinese | 茶饮品牌海报、文化宣传、东方美学设计 | 9:16 |
 | perfume_kv | #香水 #香氛 #奢侈 |  | 9:16 |
 | pop_up_storybook_poster | #立体书 #纸雕 #故事书 | 品牌KV、电影海报、概念海报、绘本封面 | 3:4 |

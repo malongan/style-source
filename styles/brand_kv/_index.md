@@ -22,6 +22,7 @@
 | lululemon_campaign_board | #campaign_board #athletic_fashion #hyper_real | 品牌KV设计、运动服Campaign、时尚海报、零售广告 | 9:16 |
 | luxury_beauty_side_profile_poster | #美妆 #高端 #护肤 |  | 9:16（竖版） |
 | luxury_embroidery_macro | #微距摄影 #品牌视觉 #刺绣工艺 |  | 4:5 |
+| optical_glass_ui_button | #光学玻璃 #3D按钮 #产品级CGI | 品牌KV、产品发布视觉、UI符号实体化、科技品牌提案、官网与发布会主视觉 | 16:9 |
 | oriental_herbal_tea_poster | #oriental #herbal tea #chinese | 茶饮品牌海报、文化宣传、东方美学设计 | 9:16 |
 | perfume_kv | #香水 #香氛 #奢侈 |  | 9:16 |
 | pop_up_storybook_poster | #立体书 #纸雕 #故事书 | 品牌KV、电影海报、概念海报、绘本封面 | 3:4 |
