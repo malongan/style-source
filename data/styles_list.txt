@@ -1,4 +1,4 @@
-共 324 个风格
+共 325 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -249,6 +249,7 @@ ST0230 | 幻想旅行插画 | https://malongan.github.io/style-source/images/sty
 ST0231 | 表现性手写标题 | https://malongan.github.io/style-source/images/styles_previews/expressive_handwritten_headline_9b440dc3.webp
 ST0232 | 爆炸式美食信息图 | https://malongan.github.io/style-source/images/styles_previews/exploded_food_infographic_cf6e6ff6.webp
 ST0233 | 实验性知识档案海报 | https://malongan.github.io/style-source/images/styles_previews/experimental_knowledge_archive_poster_0284c672.webp
+ST0326 | 实验动画杂志封面 | https://malongan.github.io/style-source/images/styles_previews/experimental_anime_magazine_cover_b832a04a.webp
 ST0234 | 夸张 3D 玩具插画 | https://malongan.github.io/style-source/images/styles_previews/exaggerated_3d_toy_illustration_435e4dea.webp
 ST0235 | 奢华透视棋盘格编辑海报风格 | https://malongan.github.io/style-source/images/styles_previews/editorial_luxury_b3460c33.webp
 ST0236 | 日光建筑时尚编辑摄影 | https://malongan.github.io/style-source/images/styles_previews/editorial_fashion_584fece2.webp
