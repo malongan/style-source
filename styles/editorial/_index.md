@@ -25,6 +25,7 @@
 | japanese_negative_space_poster | #日式 #留白 #叙事海报 | 书籍封面、文艺海报、文化展览、品牌视觉、情绪氛围类设计 | 9:16 |
 | japanese_travel_editorial_poster | #日系旅行杂志 #编辑海报 #横向闯入构图 | 旅行杂志、品牌海报、角色立绘、社交媒体创意内容 | 9:16 |
 | japanese_woodblock_exhibition_poster | #japanese_woodblock #ukiyo_e #exhibition_poster | 美术馆展览海报、品牌KV、传统艺术推广、文化类设计 | 9:16 |
+| miniature_residence_magazine_cover | #微型居所 #日系生活方式杂志 #微缩建筑 | IP 转译、品牌主视觉、社交媒体海报、角色 merchandise、杂志封面 | 3:4 |
 | minimal_brand_icon_poster | #极简品牌 #单色反白图标 #Q版头像 | 品牌主视觉、品牌 KV、社交媒体主图、品牌识别系统、极简海报 | 9:16 |
 | modern_east_asian_paper_poster | #现代东方 #编辑设计 #纸艺质感 | 文化活动海报、展览、品牌视觉、东方文化机构宣传、编辑版式设计 | 9:16 |
 | nordic_retro_picture_book_poster | #北欧绘本 #粉彩蜡笔 #朴拙插画 | 社交媒体海报、IP 应援、品牌治愈视觉、贺卡、角色 merchandise | 3:4 |
