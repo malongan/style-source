@@ -23,7 +23,7 @@
 | 2026-06-11 | x.com/yyyole/status/2065001375898247359 | japanese_poetic_dreamy | japanese_poetic_dreamy.md | - | 手动 |
 | 2026-06-11 | x.com/MissDelulu9/status/2064903441806450903 | luxury_birthday_poster | luxury_birthday_poster.md | - | 手动 |
 | 2026-06-11 | x.com/PixuryAI/status/2064892529997414815 | brand_miniature_architecture | brand_miniature_architecture.md | - | 手动 |
-| 2026-06-11 | x.com/only01clair/status/2064670555878596832 | east_asian_vintage_illustration, k_gyaru_street_snap | east_asian_vintage_illustration.md | - | 手动 |
+| 2026-06-11 | x.com/only01clair/status/2064670555878596832 | k_gyaru_street_snap | k_gyaru_street_snap.md | - | 手动 |
 | 2026-06-11 | x.com/you1873118/status/2064933410091774287 | fashion_archer_editorial | fashion_archer_editorial.md | - | 手动 |
 | 2026-06-11 | x.com/only01clair/status/2064670555878596832 | east_asian_vintage_magazine | east_asian_vintage_magazine.md | - | 手动 |
 | 2026-06-12 | https://meigen.ai/prompt/test_1 | Test Style 1 | test_style_1.md | - | API |
