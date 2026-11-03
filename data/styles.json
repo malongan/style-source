@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-239-g9742996-dirty",
-    "generated": "2026-11-03T13:18:38Z",
-    "total": 325,
+    "version": "v0.7.0-before-opt-240-gf196964-dirty",
+    "generated": "2026-11-03T13:22:27Z",
+    "total": 326,
     "categories": [
       "brand_kv",
       "creative",
@@ -9463,6 +9463,52 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimal_brand_icon_poster_ea0dae4a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimal_brand_icon_poster_ea0dae4a.thumb.webp",
       "number": "ST000322",
+      "created_at": ""
+    },
+    {
+      "id": "miniature_residence_magazine_cover",
+      "code": "ST0327",
+      "name": "微型居所杂志封面",
+      "category": "editorial",
+      "tags": [
+        "微型居所",
+        "日系生活方式杂志",
+        "微缩建筑",
+        "产品摄影",
+        "角色叙事",
+        "IP转译"
+      ],
+      "triggers": [
+        "微型居所杂志封面",
+        "日系生活方式杂志",
+        "微缩建筑",
+        "产品摄影海报",
+        "角色居所"
+      ],
+      "scene": "IP 转译、品牌主视觉、社交媒体海报、角色 merchandise、杂志封面",
+      "ratio": "3:4",
+      "summary": "微型居所杂志封面，IP 转译为微缩建筑 + 角色从窗口探出 + 日系生活方式杂志封面 + 产品摄影质感。",
+      "features": [
+        "**微缩建筑 × 角色身份转译** — 把角色身份信息转译为建筑语言——道具决定轮廓，主色决定材料搭配",
+        "**角色从窗口探出** — 尺度反差，角色安静待在居所内部从窗口探出，神态慵懒好奇从容",
+        "**日系生活方式杂志封面** — '生活与家'刊头 + 大号黑色现代中文标题 + 编辑短句",
+        "**产品摄影质感** — 暖白色无缝摄影棚背景，高调柔和漫射光，真实材料纹理"
+      ],
+      "prompt": "{角色}，设计为一张中文版日系生活方式设计杂志封面。Japanese Lifestyle Magazine × Editorial Still Life Photography × Minimalist Object Design × Playful Architecture。\n\n画面中央陈列一座专门为角色设计的微型居所，具有完整可居住空间、精致手工结构与独立设计产品的造型美感。以圆润几何建筑为基础，根据角色身份、标志性道具、所属作品、代表配色与文化符号自主设计建筑轮廓，将识别元素融入屋顶、外墙纹理、门窗、提手与装饰结构。\n\n材料根据角色气质选择藤编、竹编、木材、织物、陶瓷、皮革或金属，形成协调的真实材质组合。窗口内可见少量精致家具、灯具与角色相关生活用品，传达温暖、完整的居住感。\n\n角色安静待在居所内部，从正面窗口自然探出头部或上半身，目光看向镜头。动作根据人物气质自主设计，可托腮、扶住窗沿、捧杯或轻轻挥手，神态慵懒、好奇、从容，略带幽默感。人形角色呈现明确成年真人化的微缩形象，保留自然成年面部结构、真实皮肤纹理与发丝；动物保留真实毛发与动物结构。清楚保留角色核心身份特征，形成角色与建筑之间可爱的尺度反差。\n\n3:4 竖版，平视略微俯拍的产品摄影视角。微型居所居中独立陈列，占画面中部约45%，主体轮廓完整，窗口与角色面部清晰，四周留出宽松的编辑排版空间。\n\n纯净暖白色无缝摄影棚背景，背景与地面自然衔接，主体下方具有柔和真实的接触阴影。高调柔和漫射光，明暗过渡细腻，清楚呈现编织纹理、材料厚度、织物纤维、木纹、陶瓷釉面与手工制作痕迹。整体真实、温暖、干净，具有高品质家居产品摄影质感。\n\n顶部约四分之一区域使用超大黑色连笔斜体中文刊头\"生活与家\"，形成舒展醒目的杂志标识。底部使用一行大号黑色现代中文标题，根据角色自动拟定，围绕\"角色与家\"展开。少量简体中文编辑短句、期号、细线与几何圆形标识分布于版面边缘，建立清晰的字号层级与现代编辑秩序。\n\n整体配色根据角色身份自主协调，维持明亮中性背景、真实材料色彩与黑色字体的克制关系。日系生活美学、手工艺建筑、安静生活叙事与温柔幽默共同构成封面气质。\n\n右侧约5%边缘位置保留极小竖排小写\"voxcat\"，末尾带一颗青金石蓝色圆点。\n",
+      "variables": {
+        "角色": "{角色}"
+      },
+      "variable_descs": {
+        "角色": "角色名或 IP 形象"
+      },
+      "source_url": "https://x.com/VoxcatAI/status/2113187102808846817",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/miniature_residence_magazine_cover_8c596516.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/miniature_residence_magazine_cover_8c596516.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/miniature_residence_magazine_cover_8c596516.thumb.webp",
+      "number": "ST000327",
       "created_at": ""
     },
     {
