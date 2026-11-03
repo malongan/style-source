@@ -1,0 +1,58 @@
+# 实验动画杂志封面
+
+id: experimental_anime_magazine_cover
+name: "实验动画杂志封面"
+category: editorial
+
+tags:
+- 实验动画
+- Retro Pop Anime
+- 日美混合卡通
+- 杂志封面
+- 独立动画
+- IP转译
+
+triggers:
+- 实验动画杂志封面
+- Retro Pop Anime
+- 日美混合卡通
+- 独立动画风
+- 动画杂志封面
+
+features:
+- title: Retro Pop Anime × 日美混合
+  desc: 修长四肢、巨大圆眼、简化表情，深灰黑色手绘轮廓 + 低饱和平涂
+- title: 巨型字母参与构图
+  desc: 以角色英文名构成的巨大黑色粗体字母，与角色形成遮挡和重叠
+- title: 实验动画杂志封面
+  desc: 干净暖白色背景，平面化动画上色，独立艺术气质
+- title: 极小签名
+  desc: 右下角极小小写签名 "voxcat"
+
+scene: "IP 转译、品牌主视觉、社交媒体海报、角色 merchandise、杂志封面"
+ratio: '9:16'
+summary: "实验动画杂志封面，IP 转译为 Retro Pop Anime × 日美混合卡通 + 巨型字母构图 + 实验动画质感。"
+
+prompt: |
+  {角色}，Retro Pop Anime × early-2000s experimental Japanese animation × American cartoon-inspired character anatomy × minimalist cel animation × indie anime editorial poster。
+
+  将角色转译为具有 2000 年代实验动画气质的二维手绘角色。保留角色核心身份特征、标志性发型、发色、服装结构与配饰，统一采用修长而夸张的卡通人体比例、细长四肢、简化肩颈与腰部结构、略大的头部、巨大圆形眼睛、宽阔眼白、清晰圆形瞳孔、小型鼻子与高度符号化的嘴部表情。
+
+  人物外轮廓使用深灰黑色手绘线条，线宽略有变化，发丝、服装与身体结构采用简洁流畅的线条概括。大面积低饱和纯色平涂，阴影数量极少，以轮廓和色块建立人物体积。
+
+  整体采用灰粉、炭黑、灰金、暖白及根据角色身份提取的低饱和辅助色。画面具有轻微复古纸张颗粒、柔和油墨质感与早期数字动画截图的细腻噪点。
+
+  9:16 竖版角色海报，角色以紧密群像或单人时尚肖像呈现，姿态与表情依据角色性格自主设计。背景为干净暖白色，后方设置以角色英文名构成的巨大黑色粗体字母，与角色形成遮挡和重叠。整体强调夸张但统一的角色造型、鲜明剪影、平面化动画上色与具有独立艺术气质的杂志封面设计。
+
+  右下角加入极小小写签名"voxcat"。
+
+variables:
+- kv_var: 角色
+  style_var: '{角色}'
+  desc: 角色名或 IP 形象
+
+source_url: "https://x.com/VoxcatAI/status/2113308497379242433"
+source_author: "VoxcatAI"
+
+# 配图: images/styles_previews/experimental_anime_magazine_cover_b832a04a.webp
+code: ''
