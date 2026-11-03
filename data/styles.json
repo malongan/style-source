@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-208-gc516329-dirty",
-    "generated": "2026-11-03T00:44:12Z",
+    "version": "v0.7.0-before-opt-209-g7f02bac-dirty",
+    "generated": "2026-11-03T00:48:01Z",
     "total": 312,
     "categories": [
       "brand_kv",
@@ -13823,15 +13823,15 @@
         "**层叠敦煌纹样背景** — 祥云、莲花、花卉、织锦与细金线铺满背景，繁密但对比度低于人物与主标题",
         "**展览级中文信息层级** — 下方大号白色窄体中文标题，配英文副标题、有意义的微型排版、细分隔线与朱红印章"
       ],
-      "prompt": "Customize\nTheme: {Theme}\nCharacters: {Characters}\nKey Visual: {KeyVisual}\nGiant English Type: {GiantType}\nChinese Headline: {ChineseTitle}\nSubtitle: {Subtitle}\nColor Palette: {ColorPalette}\n\nCreate a premium 9:16 vertical poster on the theme of {Theme}, blending Dunhuang-inspired Chinese dance art with bold contemporary editorial typography.\n\nFeature elegant Tang-inspired adult dancers with dynamic poses, graceful anatomy, ornate hairstyles, jewelry, flowing garments, and richly decorated traditional costumes. Render {Characters} with clear silhouette and mutual interaction.\n\nUse saturated mineral colors such as {ColorPalette} — cinnabar red, turquoise, jade green, indigo, ivory, and antique gold — against a deep dark background.\n\nMake one strong visual structure dominate the composition: a giant cultural object, circular formation, oversized serif typography, or a bold interaction between figures and letters. Center it on {KeyVisual}.\n\nIntegrate huge antique-gold Didone serif typography spelling \"{GiantType}\" directly into the artwork. Let dancers, clothing, props, and flowing fabric overlap, pass in front of, and disappear behind the letters so the typography becomes part of the composition rather than a separate title.\n\nAdd a large white condensed Chinese headline \"{ChineseTitle}\" near the lower section, supported by refined English subtitles \"{Subtitle}\", meaningful microtypography, thin dividers, and subtle red seals.\n\nFill the background with layered Dunhuang-inspired clouds, lotus motifs, floral ornaments, brocade patterns, and delicate gold linework. Keep the background rich but lower in contrast than the characters and main typography.\n\nUse refined decorative illustration, gongbi-inspired outlines, smooth flowing curves, complete color fields, intricate textile patterns, and sophisticated editorial layering.\n\nThe final poster should feel like a complete museum-quality cultural exhibition visual: bold at thumbnail size, highly detailed up close, traditional in spirit but unmistakably contemporary in composition.\n\nAvoid generic fantasy art, 3D rendering, random text, broken anatomy, excessive ribbons, messy micro-details, cheap gold effects, watermarks, and meaningless placeholder typography.\n",
+      "prompt": "Customize\nTheme: {THEME}\nCharacters: {CHARACTERS}\nKey Visual: {KEY_VISUAL}\nGiant English Type: {GIANT_TYPE}\nChinese Headline: {CHINESE_TITLE}\nSubtitle: {SUBTITLE}\nColor Palette: {COLOR_PALETTE}\n\nCreate a premium 9:16 vertical poster on the theme of {THEME}, blending Dunhuang-inspired Chinese dance art with bold contemporary editorial typography.\n\nFeature elegant Tang-inspired adult dancers with dynamic poses, graceful anatomy, ornate hairstyles, jewelry, flowing garments, and richly decorated traditional costumes. Render {CHARACTERS} with clear silhouette and mutual interaction.\n\nUse saturated mineral colors such as {COLOR_PALETTE} — cinnabar red, turquoise, jade green, indigo, ivory, and antique gold — against a deep dark background.\n\nMake one strong visual structure dominate the composition: a giant cultural object, circular formation, oversized serif typography, or a bold interaction between figures and letters. Center it on {KEY_VISUAL}.\n\nIntegrate huge antique-gold Didone serif typography spelling \"{GIANT_TYPE}\" directly into the artwork. Let dancers, clothing, props, and flowing fabric overlap, pass in front of, and disappear behind the letters so the typography becomes part of the composition rather than a separate title.\n\nAdd a large white condensed Chinese headline \"{CHINESE_TITLE}\" near the lower section, supported by refined English subtitles \"{SUBTITLE}\", meaningful microtypography, thin dividers, and subtle red seals.\n\nFill the background with layered Dunhuang-inspired clouds, lotus motifs, floral ornaments, brocade patterns, and delicate gold linework. Keep the background rich but lower in contrast than the characters and main typography.\n\nUse refined decorative illustration, gongbi-inspired outlines, smooth flowing curves, complete color fields, intricate textile patterns, and sophisticated editorial layering.\n\nThe final poster should feel like a complete museum-quality cultural exhibition visual: bold at thumbnail size, highly detailed up close, traditional in spirit but unmistakably contemporary in composition.\n\nAvoid generic fantasy art, 3D rendering, random text, broken anatomy, excessive ribbons, messy micro-details, cheap gold effects, watermarks, and meaningless placeholder typography.\n",
       "variables": {
-        "画面-主题": "{Theme}",
-        "画面-人物": "{Characters}",
-        "画面-核心视觉": "{KeyVisual}",
-        "文字-巨型英文": "{GiantType}",
-        "文字-中文标题": "{ChineseTitle}",
-        "文字-英文副标题": "{Subtitle}",
-        "色彩-主色板": "{ColorPalette}"
+        "画面-主题": "{THEME}",
+        "画面-人物": "{CHARACTERS}",
+        "画面-核心视觉": "{KEY_VISUAL}",
+        "文字-巨型英文": "{GIANT_TYPE}",
+        "文字-中文标题": "{CHINESE_TITLE}",
+        "文字-英文副标题": "{SUBTITLE}",
+        "色彩-主色板": "{COLOR_PALETTE}"
       },
       "variable_descs": {
         "画面-主题": "Dance / Music / Cultural Theme，如：乐舞 / 丝路 / 盛唐宴饮",
