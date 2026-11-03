@@ -42,6 +42,8 @@ def steps(args):
          [PY, 'scripts/generate_index.py']),
         ('配图完整性（check_style_previews --strict）',
          [PY, 'scripts/check_style_previews.py', '--strict']),
+        ('teaser 检测回归（test_teaser_detector）',
+         [PY, 'scripts/test_teaser_detector.py']),
         ('YAML 卫生（lint_hygiene）',
          [PY, 'scripts/lint_hygiene.py', '--strict']),
         ('查重（check_duplicate --pr-mode）',
