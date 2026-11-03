@@ -36,6 +36,11 @@ jobs:
         # --strict：有 error 即失败（validate_all.py 曾恒 exit 0，闸门形同虚设）
         run: python3 scripts/validate_all.py --strict
 
+      - name: YAML 卫生检查（防回归）
+        # 与 PR 闸门同一套规则；这里覆盖「绕过 PR 直接推 main」的情况
+        # （5791eb3 那次直推就是靠 push 触发器才补上验证的）。
+        run: python3 scripts/lint_hygiene.py --strict
+
       - name: 验证生成文件一致性
         run: |
           python3 scripts/generate_data.py

@@ -27,6 +27,15 @@ jobs:
         #   同一套 --diff-filter 逻辑刚在 check_duplicate 上翻过车。
         run: python3 scripts/validate_all.py --strict --require-desc
 
+      - name: YAML 卫生检查（重复键 / 槽位语种 / 方括号）
+        # validate_all 与 audit_variables 都不报、yaml.safe_load 也不报错的静默问题：
+        #   R1 重复顶层键（YAML 取后者，前者成死代码 —— ST0172 实际踩过）
+        #   R2 camelCase 槽位（全库约定中文短名 / UPPER_SNAKE / snake_case）
+        #   R3 槽位中英混用（一次只能混一套体系；vigo_cookbook 豁免）
+        #   R4 方括号当槽位（[UPPER_SNAKE] 插件不认，等于没槽位）
+        # 2026-11-03 接入；接入前已在全库 312 个风格上跑过，全绿，不会打红存量。
+        run: python3 scripts/lint_hygiene.py --strict
+
       - name: 查重检测
         run: python3 scripts/check_duplicate.py --pr-mode
         env:
