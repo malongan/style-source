@@ -59,8 +59,8 @@ ST0056 | 彩色鱼眼轨道波普海报风格 | https://malongan.github.io/style
 ST0057 | 粗块吉祥物海报风格 | https://malongan.github.io/style-source/images/styles_previews/vigo_bold_block_mascot_poster_b67d6f31.webp
 ST0058 | 醒目动漫反应缩略图风格 | https://malongan.github.io/style-source/images/styles_previews/vigo_bold_anime_reaction_thumbnail_8e18ccef.webp
 ST0059 | 蓝＋青柠绿动态漫画字体海报风格 | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_kinetic_poster_f4505868.webp
-ST0060 | 蓝色 HUD 微距创作者科技海报 | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_hud_macro_product_poster_1ed4ff87.webp
-ST0061 | 蓝色半色调剪字拼贴海报风格 | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_halftone_ransom_zine_poster_3bed3468.webp
+ST0060 | 蓝色 HUD 微距创作者科技海报 | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_hud_macro_product_poster_2b4217ca.webp
+ST0061 | 蓝色半色调剪字拼贴海报风格 | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_halftone_ransom_zine_poster_fcdb76e6.webp
 ST0062 | 蓝色气泡鱼眼动感海报风格 | https://malongan.github.io/style-source/images/styles_previews/vigo_blue_bubble_fisheye_action_poster_02aab45d.webp
 ST0063 | 黑色异形卡片食品广告 | https://malongan.github.io/style-source/images/styles_previews/vigo_black_cutout_food_card_ad_56afb8b6.webp
 ST0064 | 柔和模拟未来编辑设计海报 | https://malongan.github.io/style-source/images/styles_previews/vigo_analog_editorial_poster_6156a592.webp
@@ -92,15 +92,15 @@ ST0089 | 模拟贴纸手账人像海报风格 | https://malongan.github.io/style
 ST0090 | 日本邮票电影海报 | https://malongan.github.io/style-source/images/styles_previews/stamp_movie_poster_d4919843.webp
 ST0091 | 清透柔软甜感近距写真 | https://malongan.github.io/style-source/images/styles_previews/soft_sweet_macro_portrait_670e218b.webp
 ST0092 | 清爽生活产品广告视觉 | https://malongan.github.io/style-source/images/styles_previews/soft_lifestyle_product_ad_afc3c398.webp
-ST0093 | 软胶黏土马卡龙活动海报 | https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_5e36600e.webp
+ST0093 | 软胶黏土马卡龙活动海报 | https://malongan.github.io/style-source/images/styles_previews/soft_clay_macaron_poster_43699fe1.webp
 ST0094 | 软胶黏土3D卡通露营KV | https://malongan.github.io/style-source/images/styles_previews/soft_clay_camping_kv_5e36600e.webp
 ST0095 | 天蓝家居生活涂鸦海报 | https://malongan.github.io/style-source/images/styles_previews/sky_blue_doodle_a8aa1ade.webp
 ST0096 | 银色锡纸蓝字风封面 | https://malongan.github.io/style-source/images/styles_previews/silver_foil_klein_blue_cover_f8e22fb7.webp
 ST0097 | 青少年滑板涂鸦丝网印海报风格 | https://malongan.github.io/style-source/images/styles_previews/scribble_poster_style_a99f6252.webp
 ST0098 | 丝网印刷套印偏移标题字体 | https://malongan.github.io/style-source/images/styles_previews/screen_print_offset_headline_4832177d.webp
 ST0099 | 科幻电影 Art Deco 复古海报 | https://malongan.github.io/style-source/images/styles_previews/scifi_artdeco_poster_4336bd27.webp
-ST0100 | 科研信息图 | https://malongan.github.io/style-source/images/styles_previews/science_infographic_bdeb029e.webp
-ST0101 | 论文插图 | https://malongan.github.io/style-source/images/styles_previews/science_illustration_bdeb029e.webp
+ST0100 | 科研信息图 | https://malongan.github.io/style-source/images/styles_previews/science_infographic_8952734b.webp
+ST0101 | 论文插图 | https://malongan.github.io/style-source/images/styles_previews/science_illustration_f86700a2.webp
 ST0102 | 科研杂志封面 | https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.webp
 ST0103 | 猩红块面手绘描边风格 | https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.webp
 ST0104 | 孔版画旅行海报 | https://malongan.github.io/style-source/images/styles_previews/riso_travel_poster_5da39518.webp
@@ -184,7 +184,7 @@ ST0180 | 韩式美食手账风海报 | https://malongan.github.io/style-source/i
 ST0181 | 金政基赛博朋克素描 | https://malongan.github.io/style-source/images/styles_previews/kimjunggi_scifi_sketch_1abbb496.webp
 ST0182 | 可爱明亮手写标题字体 | https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_hand_lettering_headline_b16dec65.webp
 ST0183 | 可爱明亮粗圆手写字体 | https://malongan.github.io/style-source/images/styles_previews/kawaii_bright_chunky_hand_lettering_6579341a.webp
-ST0184 | K-ギャル 街头抓拍风 | https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_3a8da998.webp
+ST0184 | K-ギャル 街头抓拍风 | https://malongan.github.io/style-source/images/styles_previews/k_gyaru_street_snap_b4d302c6.webp
 ST0185 | Y2K酸性·ALL STARS 夜店潮流海报 | https://malongan.github.io/style-source/images/styles_previews/jimeng_kasho_allstars_ffcce07d.webp
 ST0186 | 日式木版画美术馆展览海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_woodblock_exhibition_poster_aa315163.webp
 ST0187 | 日系旅行编辑角色海报 | https://malongan.github.io/style-source/images/styles_previews/japanese_travel_editorial_poster_91d40c93.webp
