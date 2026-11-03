@@ -34,33 +34,29 @@ features:
   desc: ''
 variables:
 - kv_var: 主标题
-  style_var: '{MOVIE_TITLE}'
+  style_var: '{片名}'
   desc: 英文电影标题
 - kv_var: 副标题
-  style_var: '{JAPANESE_TITLE}'
+  style_var: '{日文片名}'
   desc: 日文电影标题
 - kv_var: 画面元素
-  style_var: '{SUBJECT_ELEMENTS}'
+  style_var: '{画面元素}'
   desc: 电影相关图标
 - kv_var: 文字带
-  style_var: '{SUBTITLE_LINES}'
+  style_var: '{副标文字}'
   desc: 底部副标题文字
-prompt: 'Minimalist Japanese postage stamp movie poster in the "Nano Banana 2" / Nippon Yūbin exhibition series style. Wide horizontal format on solid black background. White border with authentic postage
-  stamp perforation pattern (small half-circle scalloped edges all around). Inside the border is a solid fiery sunset orange rectangular panel with slightly rounded corners and thin black outline.
+prompt: |
+  极简日本邮票电影海报，属于「Nano Banana 2」/ Nippon Yūbin 展览系列风格。宽阔的横向画幅，纯黑背景。白色边框带真实的邮票齿孔图案（四周一圈小的半圆扇贝边）。边框内是一块纯色的火橙日落矩形面板，四角略圆，配细黑描边。
 
+  以下标志性元素的干净、精确黑色线稿插画：{画面元素}。均衡、疏朗的构图，元素之间留有充分的呼吸空间，线条粗细一致且纤细，无阴影、无渐变，扁平矢量风格的平面设计，高端展览印刷品质。
 
-  Clean, precise black line art illustrations of these iconic elements: {SUBJECT_ELEMENTS}. Balanced, spacious composition with good breathing room between elements, thin consistent line weight, no shading,
-  no gradients, flat vector-style graphic design, high-end exhibition print quality.
+  底部米白色文字带：
 
+  - 左侧：大号粗体现代黑色无衬线电影标题「{片名}」
 
-  Bottom off-white band:
+  - 右侧：日文「{日文片名}」，然后是「{副标文字}」
 
-  - Left side: large bold modern black sans-serif movie title "{MOVIE_TITLE}"
+  整体美学：干净、符号化、复古现代邮票设计与极简平面设计的结合。锐利干脆的线条、专业印刷品质、完美平衡，以邮票格式呈现一眼可辨的电影符号。高分辨率，文字不被裁切，不杂乱。
 
-  - Right side: Japanese text "{JAPANESE_TITLE}", then "{SUBTITLE_LINES}"
-
-
-  Overall aesthetic: clean, iconic, retro-modern stamp design meets minimalist graphic design. Crisp sharp lines, professional print quality, perfectly balanced, instantly recognizable movie iconography
-  in postage stamp format. High resolution, no text cut off, no clutter.'
 id: stamp_movie_poster
 code: ''

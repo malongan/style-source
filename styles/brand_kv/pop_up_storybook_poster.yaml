@@ -31,37 +31,36 @@ ratio: "3:4"
 summary: "打开的精装故事书中绽放层层纸雕世界，融合手绘与纸雕工艺，营造治愈梦幻的立体绘本海报风格"
 
 prompt: |
-  Create an ultra-premium dreamy papercut storybook poster for "{主体故事}", blending the tenderness of a healing parent-child picture book with the handcrafted wonder of a luxury pop-up book. The image must feel magical, warm, gentle, emotionally comforting, and beautifully dimensional, like a collector's edition children's book designed for intimate reading and lifelong keeping.
+  创作一张超高端梦幻纸雕故事书海报，主题为「{主体故事}」，把治愈系亲子绘本的温柔与奢华立体书的手工奇观融合在一起。画面必须神奇、温暖、柔和、情感上令人安心，且具有美妙的立体感，像一本为亲密共读与终身珍藏而设计的典藏版童书。
 
-  The overall composition should be soft, elegant, and heartwarming, with the open book as the absolute visual anchor. Use a vertical composition with a beautifully opened premium storybook placed at the center. The book must feel luxurious and tactile: thick textured paper, high-quality hardcover structure, soft deckled page edges, subtle paper grain, elegant binding, and refined print finish. The open spread must bloom upward into a layered paper-sculpture world, as if the story is quietly unfolding from the pages.
+  整体构图应柔和、优雅、暖心，以打开的书本为绝对的视觉锚点。采用竖版构图，一本精美打开的高级故事书置于画面中央。书必须奢华且有触感：厚实的纹理纸、高品质硬壳结构、柔和的毛边书页、细微的纸张肌理、优雅的装订与精致的印刷质感。打开的跨页必须向上绽放成一个层叠的纸雕世界，仿佛故事正从书页中悄然展开。
 
-  At the center of the pop-up scene, create a stylized {主角} in a premium hand-drawn paper-doll aesthetic: large expressive eyes, soft facial features, small adventurous body proportions, layered {色系主色调} clothing, and a brave but tender emotional presence. The character should feel like a beautifully illustrated children's book figure turned into a dimensional papercraft sculpture.
+  在立体场景中央，创作一个风格化的{主角}，采用高级手绘纸偶美学：大而有表现力的眼睛、柔和的五官、小巧而爱冒险的身体比例、层叠的{色系主色调}服装，以及勇敢又温柔的情绪存在感。这个角色应像一个被精美插画化的童书人物，被转化为立体的纸艺雕塑。
 
-  Opposite the {主角}, create a {伙伴} rising from the book in a soft, magical pop-up form. The {伙伴} should feel lovable, protective, and wondrous: rounded expressive face, {色系辅色调} body tone, painted paper texture, gentle motion arc, and warm emotional presence. The {伙伴} must feel like a fusion of hand-drawn illustration, papercut sculpture, and storybook magic.
+  在{主角}的对面，创作一个从书中升起的{伙伴}，以柔和、神奇的立体书形态出现。{伙伴}应显得可爱、有保护感、充满惊奇：圆润有表情的脸、{色系辅色调}的身体色调、手绘纸张纹理、柔和的运动弧线，以及温暖的情绪存在感。{伙伴}必须是手绘插画、纸雕与故事书魔法的融合体。
 
-  The emotional interaction is the heart of the poster: they face each other in a quiet, tender first-bond moment, with a tiny glowing light, ember, or magical spark between them. This focal point should feel like trust being born. The relationship must feel healing, safe, and full of wonder.
+  情感互动是海报的核心：他们面对面，处于安静、温柔的最初相遇时刻，彼此之间有一小点发光的光、余烬或魔法火花。这个视觉焦点应让人感到信任正在诞生。这段关系必须治愈、安全、充满惊奇。
 
-  Build the surrounding world entirely from layered paper engineering: stacked paper mountains, soft cliff contours, village rooftops, cloud cutouts, small waves, flying page layers, paper forests, and delicate sketch lines transitioning into dimensional structures. The world should feel handcrafted and immersive, with visible paper depth and elegant layer separation.
+  周围的世界完全由层叠的纸艺工程构建：堆叠的纸山、柔和的山崖轮廓、村庄屋顶、云朵剪影、细小的波浪、飞舞的书页层、纸森林，以及逐渐过渡为立体结构的精致素描线。这个世界应显得手工制作且沉浸，能看到纸张的厚度与优雅的层间分离。
 
-  The visual style must combine: luxury pop-up book design, soft papercut layering, dimensional hand-drawn illustration, and a warm healing picture-book atmosphere. Everything must feel artisanal, magical, and emotionally premium.
+  视觉风格必须融合：奢华立体书设计、柔和纸雕层叠、立体手绘插画，以及温暖的治愈系绘本氛围。一切都必须显得手工、神奇、情感上高级。
 
-  Background must remain minimal and softly luminous: warm ivory, light parchment, pale cream, or soft warm beige, with gentle atmospheric blur and no clutter. No room setting, no shelves, no unnecessary props.
+  背景必须保持极简、柔和发光：暖象牙白、浅羊皮纸、淡奶油色或柔和的暖米色，配温和的空气虚化，没有杂乱。不要房间场景，不要书架，不要多余道具。
 
-  Lighting must be extremely soft and refined: warm storybook glow, gentle golden-beige illumination, delicate shadows cast by layered paper edges, soft highlight on the character's face, subtle luminous contour, and a calm magical falloff across the book.
+  布光必须极其柔和精致：温暖的故事书辉光、柔和的黄金米色照明、层叠纸边投下的细腻阴影、角色脸上柔和的高光、细微的发光轮廓，以及横跨书页的平静魔法衰减。
 
-  Typography should be minimal, official, and beautifully integrated. Use:
-  - main English title: "{英文主标题}"
-  - small Chinese subtitle: "{中文副标题}"
-  - Optional small supporting English line: "{英文副标语}"
+  字体应极简、正式、优美地融入。使用：
+  - 英文主标题："{英文主标题}"
+  - 中文小副标题："{中文副标题}"
+  - 可选的小号英文辅助行："{英文副标语}"
 
-  Color strategy: warm parchment, soft ivory, creamy beige, misty blue, deep warm dark, muted green, dusty gray-blue, and a tiny warm ember glow at the emotional focal point.
+  色彩策略：暖羊皮纸、柔象牙、奶油米、雾蓝、深暖暗调、低饱和绿、灰蓝，以及情感焦点处一点温暖的余烬微光。
 
-  Overall mood: dreamy, healing, warm, dimensional, handcrafted, magical, tender, premium, storybook-like, unforgettable.
+  整体气质：梦幻、治愈、温暖、立体、手工、神奇、温柔、高级、故事书感、难忘。
 
-  Rendering style: ultra-detailed luxury pop-up picture book design, layered papercut story world, dimensional hand-drawn cartoon illustration, open collector's edition storybook, warm magical light, soft editorial lighting, minimalist premium background, healing fantasy picture-book poster, 8k, world-class visual quality.
+  渲染风格：超精细奢华立体绘本设计，层叠纸雕故事世界，立体手绘卡通插画，打开的典藏版故事书，温暖魔法光，柔和编辑式布光，极简高级背景，治愈奇幻绘本海报，8k，世界级视觉品质。
 
   不要水印，不要真实Logo，不要电商广告感，不要拼贴感，不要复杂背景，不要乱码。
-
 variables:
 - kv_var: 主体故事
   style_var: '{主体故事}'

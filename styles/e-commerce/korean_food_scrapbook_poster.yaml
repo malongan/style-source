@@ -22,22 +22,21 @@ features:
   - "**暖咖啡厅色调** — 棕色、奶油色、橙色、绿色为主，细微彩色马克笔点缀"
   - "**中央大图占主体** — 食物居中放大，酥脆表皮、多汁肉质、闪光酱汁、新鲜配料等诱人细节丰富"
   - '**韩文标语装饰** — 4-6句韩式感叹标语（如"太绝了！""超好吃！"），菜单名和价格均以韩文呈现'
-  - "**产品模板化处理** — [Menu Name] [Price] 占位，可替换为任意韩式菜单和价格"
+  - "**产品模板化处理** — {菜单名} {价格} 占位，可替换为任意韩式菜单和价格"
 
 scene: "韩式餐饮品牌社媒海报、韩国外卖菜单、美食博主推荐帖"
 ratio: "3:4"
 summary: "可爱手账拼贴风韩式美食广告，暖棕色调搭配便签胶带装饰，韩文标语营造地道韩国美食氛围"
 
 prompt: |
-  Create a cute, trendy scrapbook-style Korean food advertisement poster featuring {Menu_Name} as the main focus, with the price {Price} displayed prominently beside it as a sticker or torn paper label. If a reference photo is provided, accurately preserve the food's shape, ingredients, colours, plating, and overall identity while enhancing lighting, texture, and realism to make it look more delicious. If no photo is provided, create a realistic version based on the menu name without adding uncertain ingredients. Place the food large in the centre with rich, appetising details such as crispy textures, juicy meat, glossy sauces, and fresh ingredients. Use a warm café aesthetic with a vintage scrapbook collage style, including torn paper, masking tape, sticky notes, handwritten doodles, arrows, stars, hearts, sparkles, checkerboard patterns, and cute food stickers. Add 4–6 Korean exclamation phrases that match the dish. All visible text, including the menu name, price, and decorative phrases, must be written only in Korean. Use warm brown, cream, orange, and green tones with subtle colourful marker accents, and produce the final poster in a vertical 3:4 aspect ratio with safe margins so nothing is cropped.
+  创作一张可爱、时髦的手账风韩式美食广告海报，以{菜单名}为主角，价格{价格}以贴纸或撕纸标签的形式醒目地展示在旁边。若提供了参考照片，准确保留食物的形状、配料、颜色、摆盘与整体身份，同时强化光线、质感与真实感，让它看起来更诱人。若未提供照片，依据菜单名生成写实版本，不要添加不确定的配料。把食物大图放在中央，细节丰富诱人：酥脆的表皮、多汁的肉质、泛光的酱汁、新鲜的配料。采用温暖的咖啡厅美学与复古手账拼贴风格，包括撕纸、美纹胶带、便利贴、手绘涂鸦、箭头、星星、心形、闪光、棋盘格纹与可爱的食物贴纸。添加 4–6 句与菜品相配的韩式感叹标语。所有可见文字——包括菜单名、价格与装饰短语——必须只用韩文书写。使用暖棕、奶油、橙色与绿色调，配细微的彩色马克笔点缀，最终海报为 3:4 竖版画幅并保留安全边距，任何内容都不被裁切。
   不要水印，不要真实品牌Logo，不要电商广告感。
-
 variables:
 - kv_var: 菜单名
-  style_var: '{Menu_Name}'
+  style_var: '{菜单名}'
   desc: 如：泡菜炒饭 / 部队锅
 - kv_var: 价格
-  style_var: '{Price}'
+  style_var: '{价格}'
   desc: 价格或优惠信息
 source_url: "https://x.com/kingofdairyque/status/2081580288971337797"
 source_author: "@kingofdairyque"

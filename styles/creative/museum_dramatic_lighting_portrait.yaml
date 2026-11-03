@@ -29,17 +29,17 @@ ratio: "9:16"
 summary: "以暗调展览室中戏剧性对角线聚光灯为核心的电影感人像风格，复古日式壁画背景提供鲜艳色彩点缀，Kodak Portra胶片调色营造孤独艺术氛围"
 
 prompt: |
-  cinematic portrait of {主体描述} standing alone in a dark exhibition room, {主体} wearing {服装描述} , minimal make up front-profile pose with body facing camera , relaxed posture, one shoulder slightly lowered, hands adjust hair calm mysterious expression, intellectual and elegant aura, positioned in the lower center of frame, surrounded by darkness with a single dramatic diagonal spotlight cutting across the scene from top right to bottom left, half of her body illuminated while the rest fades into shadow, colorful vintage {壁画背景描述} mural wall behind her with retro cartoon illustrations and traditional art details, cinematic negative space composition, foreground shadows naturally framing the image like torn darkness, moody museum atmosphere, lonely artistic vibes, contemplative mood, realistic photography, subtle film grain, analog texture, muted blacks with vibrant mural accents.
+  电影感人像：{主体描述} 独自站在一间昏暗的展厅里，{主体} 身着 {服装描述}，妆容极简，正面偏侧的脸部角度、身体正对镜头，姿态放松，一侧肩膀微微下沉，双手拨弄头发，神情冷静神秘，透着知性优雅的气场；人物位于画面下方居中，四周被黑暗环抱，一道戏剧性的对角线聚光灯自右上斜切至左下贯穿画面，她的一半身体被照亮，其余渐渐没入阴影；身后是色彩斑斓的 {壁画背景描述} 壁画墙，带复古卡通插画与传统艺术细节；电影式负空间构图，前景阴影如同撕裂的黑暗自然框住画面；博物馆式的沉郁氛围，孤独的艺术气息，沉思的情绪；写实摄影，细腻胶片颗粒，模拟质感，压暗的黑位中跃出鲜艳的壁画色块。
 
-  camera angle: eye-level shot, medium-close portrait framing, subject captured from side at approximately 70-degree profile angle, slight distance from subject for environmental storytelling, centered cinematic composition.
+  机位：平视镜头，中近景人像取景，约 70 度侧面角度拍摄主体，与主体保持少许距离以承载环境叙事，居中电影式构图。
 
-  camera settings: cinematic low-light photography, shallow depth of field, realistic shadow falloff, Kodak Portra film color grading.
+  相机设置：电影级低照度摄影，浅景深，写实的阴影过渡，Kodak Portra 胶片调色。
 
-  lighting: harsh focused spotlight from upper right creating strong diagonal beam and high contrast shadows, minimal ambient light, deep blacks, soft warm highlight on face and glasses edge.
+  布光：右上方一束硬质聚焦聚光灯，打出强烈的对角光束与高反差阴影，环境光极少，深黑位，面部与镜框边缘保留柔暖高光。
 
-  vibes: mysterious, artistic, museum-core aesthetic, intelligent quiet energy, melancholic cinematic atmosphere, indie film still, luxury editorial photography, solitary night mood, understated elegance.
+  氛围：神秘、艺术、museum-core 美学，聪慧而安静的能量，忧郁的电影气息，独立电影剧照，奢华时尚编辑摄影，独处夜间的情绪，克制的优雅。
 
-  style: ultra realistic, cinematic photography, analog grain, editorial fashion portrait, natural skin texture, subtle imperfections, realistic color science, masterpiece quality.
+  风格：超写实，电影摄影，模拟颗粒，时尚编辑人像，自然皮肤质感，细微瑕疵，写实的色彩科学，杰作级品质。
 
   不要动漫风，不要微笑，不要过度曝光，不要多余肢体，不要奇怪解剖，不要鲜艳全身服装，不要赛博朋克霓虹，不要模糊面部，不要低画质，不要扭曲手部，不要不真实皮肤，不要HDR过载，不要夸张妆容，不要拥挤构图，不要重复人物。
 

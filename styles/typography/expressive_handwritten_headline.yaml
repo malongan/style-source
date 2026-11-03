@@ -35,7 +35,7 @@ ratio: "16:9"
 summary: "创意手写风格字体——笔画夸张多变、粗细对比强烈、不规则连笔断点延展、随性自由活泼、绿底白字、扁平矢量"
 
 prompt: |
-  Pure green solid color background with no texture and no gradient, flat vector illustration style, creative handwritten typography logo design. The Chinese slogan "{中文Slogan}" rendered in an expressive creative handwriting style: stroke forms exaggerated and richly varied, strong contrast between thick and thin strokes, irregular connecting strokes, broken bends, curved extensions and flourishes, conveying a casual, free, lively feeling that breaks the regularity of conventional fonts. The main text is white on the green background, clean sharp edges, every character clearly readable. Minimal layout, the slogan is the only element, generous breathing space. No other elements, no decorations, no frames, no shadows, no gradient. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.
+  纯绿色纯色背景，无肌理、无渐变，扁平矢量插画风格，创意手写字体标志设计。中文口号「{中文Slogan}」以表现性的创意手写风格呈现：笔画形态夸张且变化丰富，粗细笔画之间形成强烈对比，连笔不规整，折笔断开，带弧形延伸与花饰，传达出随性、自由、鲜活的感觉，打破常规字体的规整性。主文字为白色，落在绿色背景上，边缘干净锐利，每个字都清晰可读。极简版式，口号是唯一的元素，呼吸空间充裕。没有其他元素，没有装饰，没有边框，没有阴影，没有渐变。不要添加任何其他字母、单词、数字、标签、logo 或伪文字。所有文字保持完全清晰可读，并位于安全区内。
 
 variables:
   - kv_var: 中文Slogan

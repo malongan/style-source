@@ -20,30 +20,17 @@ features:
 scene: 品牌产品广告、电商主图、社媒宣传海报、发布会KV
 ratio: 3:4（竖版）/ 16:9（横版）
 summary: 将产品悬浮拆解为各层组件，以电影级布光和戏剧化阴影呈现高端广告级视觉
-prompt: 'Create a cinematic exploded-view advertising poster for {产品名称}. The product
-  hovers in mid-air, decomposed into its individual layers — materials, ingredients,
-  or components — floating apart to reveal the internal structure. Each layer is precisely
-  rendered with accurate materials, textures, and finishes.
+prompt: |
+  为{产品名称}创作一张电影级爆炸分解视图广告海报。产品悬浮在半空中，被拆解成各个单独层次——材料、成分或组件——彼此飘离，露出内部结构。每一层都以准确的材质、纹理与表面处理精确渲染。
 
+  电影级布光，戏剧化阴影，深邃的深色背景，强烈的负空间。构图讲述手作工艺与创新的视觉故事，而不是一张技术爆炸图。
 
-  Cinematic lighting with dramatic shadows, deep dark background, strong negative
-  space. The composition tells a visual story of craftsmanship and innovation, not
-  a technical diagram.
+  科技产品：突出芯片、电路、精密工程。食品/饮品：展现原料、层次、质感。时尚/美妆：揭示织物织法、材质层、产品精华。奢华品：强调金色点缀、高级材质、精细细节。
 
+  底部一句粗体的 3 字品牌标语，字体干净。
 
-  For tech products: highlight chips, circuits, precision engineering. For food/beverage:
-  showcase ingredients, layers, textures. For fashion/beauty: reveal fabric weave,
-  material layers, product essence. For luxury: emphasize gold accents, premium materials,
-  exquisite details.
+  不要水印，不要真实Logo，不要电商感杂乱，不要卡通风，不要拼贴感，不要杂乱背景，不要乱码文字。
 
-
-  Bold 3-character brand slogan at the bottom, clean typography.
-
-
-  Not a watermark, no real logos, no e-commerce clutter, no cartoon style, no collage
-  feel, no busy backgrounds, no garbled text.
-
-  '
 variables:
 - kv_var: 产品名称
   style_var: '{产品名称}'

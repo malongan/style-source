@@ -30,13 +30,14 @@ ratio: "4:5"
 summary: "以不完美笔触和儿童画逻辑呈现的手绘涂鸦风格，极简白底搭配童趣角色"
 
 prompt: |
-  Transform the image into a minimalist hand-drawn doodle illustration. Use simple brush-pen outlines with slightly wobbly, imperfect strokes. Reduce all details to cute, childlike shapes while preserving the main subject and composition.
-  Naive sketchbook aesthetic, playful and whimsical {subject}, clean white background, minimal linework, expressive simplicity, handmade doodle style, water color ink drawing, charming imperfections, simple cartoon illustration.
+  把这张图转化成极简的手绘涂鸦插画。使用简单的笔尖勾线，线条微微晃动、不完美。把所有细节简化为可爱的儿童形状，同时保留主体与构图。
+  天真的速写本美学，活泼俏皮的{主体}，干净白底，极简线条，富有表现力的简约，手工涂鸦风格，水彩墨水画，迷人的不完美，简单的卡通插画。
   不要水印，不要真实Logo，不要电商广告感。
+
 
 variables:
 - kv_var: 主体
-  style_var: '{subject}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 source_url: "https://x.com/MissDelulu9/status/2084483650507469054"
 source_author: "@MissDelulu9"

@@ -30,22 +30,23 @@ ratio: "1:1"
 summary: "粗壮宽阔的飘逸中文笔划，动感错位排列，文字挤压效果，纯色背景，扁平大师级字体设计"
 
 prompt: |
-  Typography design for the Chinese characters "{主题文字}" and English "{ENGLISH_TEXT}".
+  中文「{主题文字}」与英文「{英文文案}」的字体设计。
 
-  Bold, broad, flowing Chinese character brush strokes with smooth curved transitions. Dynamic text arrangement with squeeze effects and misaligned text positioning, creating visual balance beauty. Flat style, master-level work quality.
+  粗壮、宽阔、飘逸的中文字形笔画，转折处以平滑弧线过渡。文字排列极具动感，带挤压效果与错位排布，形成视觉平衡之美。扁平风格，大师级作品质感。
 
-  Bottom center: small sans-serif text "{副标题}", below that even smaller text "{署名}".
+  底部居中：小号无衬线文字「{副标题}」，其下是更小的文字「{署名}」。
 
-  Pure solid color background, clean composition, high-quality output. The text should dominate the frame with strong visual impact. Chinese characters are the main focus, English text as auxiliary element.
+  纯色实底背景，构图干净，高品质输出。文字应主导画面，具备强烈视觉冲击。中文字为主体，英文文字作为辅助元素。
 
-  No watermarks, no complex backgrounds, no 3D effects, no gradients. Keep it flat, clean, and powerful.
+  不要水印，不要复杂背景，不要 3D 效果，不要渐变。保持扁平、干净、有力。
+
 
 variables:
 - kv_var: 主题文字
   style_var: '{主题文字}'
   desc: 如：流动
 - kv_var: 英文文案
-  style_var: '{ENGLISH_TEXT}'
+  style_var: '{英文文案}'
   desc: 如：FLOWING
 - kv_var: 副标题
   style_var: '{副标题}'

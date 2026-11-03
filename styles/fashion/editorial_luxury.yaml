@@ -22,37 +22,34 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 时装造型，如：一袭黑色长裙
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{姿态}'
   desc: 模特的姿态，如：站定回望
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 配饰，如：手提包 / 墨镜
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 如：红白棋盘格透视平面
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 超大号定制手写字体，如：NOIR
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 如：缎面长裙 + 尖头高跟
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：atelier 07
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：祖母绿点缀 / 细线
-prompt: 'Create a polished international luxury editorial poster in the Luxury Perspective Checkerboard Editorial style. Subject: {SUBJECT}. Action or presentation: {SUBJECT_ACTION}. Hero product or prop:
-  {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Typography: place the invented large script word "{MAIN_TEXT}" as an oversized
-  sweeping background graphic behind the subject, and place the small uppercase editorial text "{SECONDARY_TEXT}" near the upper field; add the restrained accent symbol "{ACCENT_SYMBOL}" only once. Preserve
-  these style fidelity anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use a low-angle high-fashion photographic camera, crisp studio lighting, generous white space,
-  a red-and-white checkerboard perspective plane, deep black structure, emerald or teal accent details, clean cutout subject edges, glossy premium material highlights, and sparse typography. Do not use
-  any real brand logos, real fashion house names, monograms, watermarks, QR codes, social media UI, price labels, or copied campaign identities. Aspect ratio: 16:9.'
+prompt: |
+  创作一张精致的国际奢华编辑海报，采用「奢华透视棋盘格编辑海报」风格。主体：{主体}。动作或呈现方式：{姿态}。主角产品/道具：{道具}。地点：{场景}。背景元素：{背景元素}。服装与造型：{造型}。字体：把虚构的大号手写词「{主文案}」作为超大的扫掠式背景图形放在主体身后，并在画面上部区域放置小号大写编辑文字「{副文案}」；克制的点缀符号「{点缀符号}」只加一次。保留这些风格保真锚点：本风格的核心视觉锚点。避免这些源内容：水印、真实 logo 与商业广告。使用低角度高级时装摄影机位、干脆的影棚布光、充裕的留白、红白棋盘格透视平面、深黑色结构、祖母绿或蓝绿点缀细节、干净的主体抠边、油亮的高级材质高光，以及稀疏的排版。不要使用任何真实品牌 logo、真实时装屋名称、字母组合纹章、水印、二维码、社交媒体 UI、价格标签，或照抄的营销企划识别。画幅：16:9。
+
 id: editorial_luxury
 code: ''

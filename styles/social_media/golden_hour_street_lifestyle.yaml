@@ -30,39 +30,40 @@ ratio: "3:4"
 summary: "金色日光俯拍街景生活照，暖琥珀色调+石板地面+手持饮品+仰视欢快氛围"
 
 prompt: |
-  Capture a lively and dynamic street lifestyle moment from an above-camera perspective, set on a {surface_texture} with a {background_scene} creating a muted contrast. The subject is in a lively pose, looking directly up at the camera; pose and expression detail: {pose_and_expression}. {hair_description} softly catches the natural daylight, giving the skin warm golden-amber tones with a subtle glow.
+  以高于主体的俯拍机位捕捉一个鲜活、有动感的街头生活瞬间，场景落在{表面}上，{背景}形成低调的对比。人物摆出活泼的姿态，径直抬头望向镜头；姿态与表情的细节：{姿态}。{发型}柔和地承接自然日光，让肤色透出温暖的金琥珀调与微妙的光泽。
 
-  The subject wears {outfit_description}, with {accessories} adding a touch of casual style.
+  人物穿着{服装}，并配以{配饰}添一分随性风格。
 
-  In their hands, the subject holds two large glasses filled with {drink_details}. Condensation drops and ice crystals on the glasses look extremely realistic and refreshing.
+  人物双手各持一只大杯，杯中盛着{饮品}。杯壁上的冷凝水珠与冰晶极其真实、清爽。
 
-  The overall composition is filled with light and shadow, bathed in warm golden natural daylight, creating the atmosphere of a warm, carefree {time_of_day}. Every detail — from the textured {surface_texture} beneath to the vibrant drinks — enhances the festive mood and lively energy of the moment. Photorealistic image, shot from above, highly detailed textures, high quality, 8K resolution.
+  整体构图充满光影，沐浴在温暖的金色自然光中，营造出温暖、无忧的{时段}氛围。每一处细节——从下方有质感的{表面}到鲜活的饮品——都在强化这个瞬间的节庆气息与活泼能量。照片级写实，俯拍，纹理高度细腻，高品质，8K 分辨率。
 
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
+
 variables:
 - kv_var: 表面质感
-  style_var: '{surface_texture}'
+  style_var: '{表面}'
   desc: 地面材质，如 warm concrete pavement / wet asphalt
 - kv_var: 背景场景
-  style_var: '{background_scene}'
+  style_var: '{背景}'
   desc: 远景，如 pastel storefronts / blurred city street
 - kv_var: 姿态与表情
-  style_var: '{pose_and_expression}'
+  style_var: '{姿态}'
   desc: 姿态 + 表情 + 唇部，如 sitting casually, bright smile, glossy lips
 - kv_var: 发型描述
-  style_var: '{hair_description}'
+  style_var: '{发型}'
   desc: 如 shoulder-length wavy chestnut hair
 - kv_var: 服装造型
-  style_var: '{outfit_description}'
+  style_var: '{服装}'
   desc: 上装 + 下装 + 鞋，如 oversized white tee, denim shorts, white sneakers
 - kv_var: 配饰
-  style_var: '{accessories}'
+  style_var: '{配饰}'
   desc: 头部与手部配饰，如 straw hat / silver rings / thin bracelet
 - kv_var: 饮品细节
-  style_var: '{drink_details}'
+  style_var: '{饮品}'
   desc: 颜色 + 装饰 + 吸管，如 pale pink smoothie, mint leaves, paper straw
 - kv_var: 时段
-  style_var: '{time_of_day}'
+  style_var: '{时段}'
   desc: 如 golden hour afternoon / early summer evening
 source_url: "https://x.com/Sairah_0/status/2087559140071895056"
 source_author: "Sairah_0"

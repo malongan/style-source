@@ -33,43 +33,35 @@ features:
   desc: ''
 variables:
 - kv_var: 主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 - kv_var: 道具
-  style_var: '{PROP}'
+  style_var: '{道具}'
   desc: 辅助物件
 - kv_var: 元素
-  style_var: '{ELEMENTS}'
+  style_var: '{元素}'
   desc: 如：星星、气泡、齿轮
 - kv_var: 用途
-  style_var: '{USE_CASE}'
+  style_var: '{用途}'
   desc: 这组图的用途，如：电商详情页 / 社交头像
-prompt: 'A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.
+prompt: |
+  一张完整的单幅 3D 插画，夸张的艺术编辑插画风格，不是分镜，不是拼贴版式。
 
+  主体是一个夸张的卡通角色：小脑袋、圆胖身体、极度拉长的四肢、超大的手与超大的鞋，重心失衡，冻结在半空中的戏剧性跳跃姿态，充满张力与喜剧能量。整体形态像软雕塑玩具：圆润、敦实、有弹性、夸张，不符合解剖学。
 
-  The subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a
-  dramatic jumping pose, with strong tension and comedic energy. Overall form looks like a soft sculpture toy round, chunky, bouncy, exaggerated not anatomically correct.
+  材质是哑光软橡胶、毛绒面料、针织肌理、橡皮泥质感，带细致的纤维细节、轻微颗粒感与手工雕塑的触感；避免油亮的塑料玩具感，避免半透明玻璃感，避免高反光。
 
+  高饱和的多巴胺配色，大胆的色彩冲撞，大面积的平涂色块，明亮但不过曝。
 
-  Materials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch avoid glossy plastic toy look, avoid translucent glass look,
-  avoid high reflections.
+  干净的白色背景，极简空间，地面只有一层柔和的椭圆阴影，没有复杂场景。
 
+  角色周围漂浮着抽象图形元素：星星、波浪线、球体、立方体、图标、符号，全部渲染成软橡胶或纸质道具，以增强动感与设计感。
 
-  High-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.
+  柔和的工作室灯光、全局照明、软阴影、低对比，干净的商业渲染。
 
+  C4D / Blender 3D 插画、风格化软雕塑、哑光黏土材质、毛绒面料质感、针织表面细节、俏皮的编辑风 3D 插画、高品质。
 
-  Clean white background, minimal space, only a soft oval shadow on the ground, no complex scene.
+  主题：{主体}与{道具}一同漂浮，周围环绕{元素}，为{用途}制作的主视觉插画。
 
-
-  Floating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols all rendered as soft rubber or paper props to enhance motion and design feel.
-
-
-  Soft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.
-
-
-  C4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.
-
-
-  Theme: {SUBJECT} floating with {PROP}, surrounded by {ELEMENTS}, hero illustration for {USE_CASE}'
 id: exaggerated_3d_toy_illustration
 code: ''

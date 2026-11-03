@@ -22,39 +22,34 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 中央展示文字，如：山海
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 文字的排布方式，如：垂直堆叠
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 如：印章 / 小字标签
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 透视空间，如：单点透视走廊
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 超大号白色中文展示字体，如：山海
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：展览 2024
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：细线框 / 编号
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 场景主色，如：高饱和蓝
-prompt: 'Create a raster image in the Blue Chinese Perspective Type Canyon Style. Subject: {SUBJECT}. Action or event: {SUBJECT_ACTION}. Product or prop reference: {PRODUCT_OR_PROP}. Location or setting:
-  {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main Chinese graphic text to suggest: {MAIN_TEXT}. Secondary repeated Chinese text fragments to suggest: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}.
-  Wardrobe or styling direction: {WARDROBE_STYLE}. Aspect ratio: 16:9. Preserve these style fidelity anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Build
-  the composition as an extreme one-point perspective Chinese typographic corridor: a saturated electric blue central trapezoid plane recedes toward the upper-center vanishing point, with black left and
-  right walls covered in skewed white and pale gray Chinese type fragments. Use huge cropped white Chinese block glyphs or numerals in the foreground, stacked central Chinese headline type on the blue plane,
-  and dense warped side-wall support copy. Keep the palette strictly blue, black, white, and gray. Use clean flat 3D poster rendering, hard-edged vector-like planes, mild gray shading on white Chinese letters,
-  very high contrast, no realistic people, no photographic products, no extra colors, no logos, no watermark. The image should feel like a loud compressed advertising tunnel made entirely from Chinese typography
-  and perspective.'
+prompt: |
+  创作一张栅格图，采用 Blue Chinese Perspective Type Canyon 风格。主体：{主体}。动作或事件：{动作}。产品/道具参考：{道具}。地点或场景：{场景}。背景元素：{背景元素}。要暗示的主中文图形文字：{主文案}。要暗示的次级重复中文文字碎片：{副文案}。点缀符号：{点缀符号}。服装或造型方向：{造型}。画幅：16:9。保留这些风格保真锚点：该风格的核心视觉锚点。避免这些源内容：水印、真实 Logo 与商业广告。把构图建成一条极限单点透视的中文排版走廊：一块高饱和电光蓝的中央梯形平面向画面中上方的灭点退去，左右黑色墙面覆满倾斜的白色与浅灰中文文字碎片。前景使用被裁切的超大白色中文块状字形或数字，蓝色平面上堆叠中央中文标题字，侧墙是密集扭曲的辅助文案。配色严格限定为蓝、黑、白、灰。使用干净的平涂 3D 海报渲染、硬边矢量式平面、白色中文字上的轻微灰调阴影、极高对比，不要真实人物，不要摄影产品，不要额外颜色，不要 Logo，不要水印。画面应像一条完全由中文排版与透视构成的、响亮压缩的广告隧道。
+
 id: style_can
 code: ''

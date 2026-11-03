@@ -29,33 +29,34 @@ features:
   desc: 鲜明蓝天色块作为背景
 variables:
 - kv_var: 主标题文字
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主标题}'
   desc: 单词或短词，如 CUT/MOVE/FRESH
 - kv_var: 人物动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{人物动作}'
   desc: 如 jumping with energy
 - kv_var: 环境场景
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 如 rooftop court、beach
 - kv_var: 背景细节
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景细节}'
   desc: 如 city skyline、clouds
 - kv_var: 穿搭风格
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{穿搭}'
   desc: 如 athletic streetwear
 - kv_var: 主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 画面里的辅助物件
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 辅助信息，如：秋季新品 / 9.20 上市
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 单个符号或小图案，如：✦ / ★ / 涂鸦箭头
 prompt: |
-  Create a 9:16 full-bleed editorial action poster in the Sunlit Kinetic Block Type Photo Poster style. Style fidelity anchors that must remain visible: the core visual anchors of this style. Source content to avoid: watermarks, real logos, and commercial advertising. Use a realistic bright outdoor photograph as the base: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}, with {BACKGROUND_ELEMENTS}. Camera and composition: low or close wide-angle perspective, oversized foreground scale, decisive frozen motion, one strong diagonal crossing the frame, the subject cropped by at least one edge. Typography: place immense warm-cream extra-condensed block sans display lettering reading {MAIN_TEXT} behind the subject, filling over half the canvas, cropped by the frame and partially obscured by the action. Add compact white microcopy reading {SECONDARY_TEXT} in tight editorial blocks, plus a small generic {ACCENT_SYMBOL} mark and bottom information clusters in cream. Wardrobe and styling: {WARDROBE_STYLE}. Color system: saturated sky-blue or cyan dominant field, warm cream typography, crisp white microcopy, deep shadows, and one vivid accent color concentrated on the hero prop or wardrobe. Lighting and finish: hard midday sunlight, crisp shadows, high contrast commercial photo realism, slight print-poster grain, no illustration or 3D rendering, no real logos or watermarks. Generate as a 4K ultra-high-resolution raster image.
+  创作一张 9:16 满幅出血的编辑式动作海报，采用「日光动态块状字体摄影海报」风格。必须保持可见的风格保真锚点：本风格的核心视觉锚点。需避免的源内容：水印、真实 logo 与商业广告。以一张写实的明亮户外照片为基础：{主体}{人物动作}，带{道具}，位于{场景}，并含{背景细节}。机位与构图：低角度或近距离广角透视，超大的前景尺度，果断的凝固动势，一条强烈的对角线贯穿画面，主体至少被一条边裁切。字体：把巨大、暖奶油色、超窄的块状无衬线展示字「{主标题}」放在主体背后，占据画面一半以上，被画框裁切并被动作局部遮挡。加入紧凑的白色微型文案「{副文案}」排成紧实的编辑文本块，再加一个小的通用{点缀符号}标记与底部的奶油色信息簇。服装与造型：{穿搭}。配色系统：高饱和天蓝或青色主导场，暖奶油色字体，干脆的白色微型文案，深邃阴影，以及一种鲜明的点缀色集中在主角道具或服装上。灯光与完成度：硬朗的正午阳光、干脆的阴影、高对比的商业照片写实、轻微印刷海报颗粒，无插画或 3D 渲染，无真实 logo 或水印。生成 4K 超高分辨率栅格图像。
+
 id: sunlit_kinetic_block_type_poster
 code: ''

@@ -28,20 +28,19 @@ ratio: "3:4"
 summary: "超写实垂直分解的美食信息图，五层结构清晰分离，微距摄影质感，适合展示食物层次结构"
 
 prompt: |
-  Create a hyperrealistic vertical exploded-view infographic of {FOOD} with 5 distinct layers:
-  1. TOP: Floating iconic particles, drips, crumbs, spices, steam, or decorative elements
-  2. SECOND: Separated top surface, glaze, sauce, outer layer showing rich textures
-  3. THIRD: Central food layer showing natural structure, depth, fibers, bubbles, grains
-  4. FOURTH: Base support, filling, shell, inner filling, clearly separated layers
-  5. BOTTOM: Simple plate, bowl, cup, or tray
-  Pure white background, soft studio lighting, each layer floating with subtle shadows
-  DSLR macro photography realism, clear infographic labels with fine guide lines
-  8K quality, premium editorial food photography style
+  创作一张超写实的垂直爆炸视图美食信息图：{食物}，分 5 个清晰的层次：
+  1. 顶部：悬浮的标志性颗粒、滴落物、碎屑、香料、蒸汽或装饰元素
+  2. 第二层：分离的顶面、糖釉、酱汁、外层，呈现丰富的肌理
+  3. 第三层：中央的食物主体层，呈现天然结构、纵深、纤维、气泡、谷物
+  4. 第四层：底部支撑、夹心、外壳、内馅，层次清晰分离
+  5. 底部：简单的盘子、碗、杯子或托盘
+  纯白背景，柔和的影棚布光，每层悬浮并带细微阴影
+  DSLR 微距摄影级的真实感，清晰的信息图标签配细指引线
+  8K 品质，高级编辑式美食摄影风格
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感。
-
 variables:
 - kv_var: 食物
-  style_var: '{FOOD}'
+  style_var: '{食物}'
   desc: 主体食物，如：一颗草莓 / 一块芝士蛋糕
 source_url: "https://x.com/iamaiistudio/status/2072208469437112566?s=20"
 source_author: "PromptLab (@iamaiistudio)"

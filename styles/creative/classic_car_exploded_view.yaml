@@ -30,17 +30,17 @@ ratio: "16:9"
 summary: "经典老爷车 2×2 爆炸拆解视图，以零重力悬浮阵列、影棚产品布光、焦点堆栈为特征，呈现汽车品牌技术与历史故事的视觉图解风格"
 
 prompt: |
-  2x2 grid, 16:9, do this for 4 unusual classic cars that were real: INPUT ::= {PRODUCT}
-  STEP_1 :: infer the components - every part or ingredient, separated and identified - the assembly order — components arrayed the way they combine - what is structural, what is active, what is the secret inside - the single element that reveals how it works
-  STEP_2 :: infer the suspension - each component floating in its own plane, held in zero gravity - the constellation logic: exploded along one clean axis, or orbiting a centre - spacing that reads as deliberate, never scattered - the hero element largest and forward, the rest receding
-  STEP_3 :: infer the reveal story - what's inside / how it's made / what it's made of - the cutaway or cross-sectioned component that proves the claim - raw ingredients rendered as beautifully as the finished product
-  STEP_4 :: infer ground and air - seamless background, one hue, the components as the only subjects - soft directional light unifying every floating element - each piece casting an honest soft shadow despite hanging in air
-  STEP_5 :: render spec - focus-stacked so every suspended element is sharp - studio product lighting, controlled reflections on each part - forbidden: visible wires, inconsistent scale, parts lit differently - material honesty on every component, raw and finished alike
+  2×2 网格，16:9，为 4 辆真实存在过的罕见老爷车做这件事：输入 ::= {产品}
+  步骤 1 :: 推断部件——每一个零件或成分，拆开并逐一识别——装配顺序——各部件按组合方式排列——哪些是结构件、哪些是主动件、哪些是内部的秘密——那个能揭示其工作原理的单一元素
+  步骤 2 :: 推断悬浮逻辑——每个部件悬浮在自己的平面里，被零重力托住——星座式逻辑：沿一条干净的轴线爆炸展开，或环绕一个中心——间距读起来是有意为之，绝不散乱——主角元素最大、最靠前，其余依次后退
+  步骤 3 :: 推断揭示故事——内部有什么 / 它是怎么造出来的 / 由什么制成——那个能证明说法的剖面或横截面部件——原料与成品被渲染得同样精美
+  步骤 4 :: 推断地面与空气——无缝背景，单一色相，部件是唯一的主体——柔和的定向光统一每一个悬浮元素——每一片尽管悬在空中，仍投下诚实柔和的阴影
+  步骤 5 :: 渲染规范——焦点堆栈，让每个悬浮元素都清晰——影棚产品布光，每个零件上受控的反光——禁止：可见的线缆、不一致的比例、零件受光不同——每个部件都保持材质诚实，原料与成品一视同仁
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
 - kv_var: 产品
-  style_var: '{PRODUCT}'
+  style_var: '{产品}'
   desc: 主角产品是什么
 source_url: "https://x.com/Gdgtify/status/2084363171448422856?s=20"
 source_author: "@Gdgtify"

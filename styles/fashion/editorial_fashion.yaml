@@ -22,37 +22,33 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 模特，如：一位高个女模
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 如：靠墙站定 / 侧身行走
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 如：藤编包 / 太阳镜
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{地点}'
   desc: 地中海建筑前，如：白墙拱廊
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 如：SUMMER EDIT
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 如：米色亚麻套装
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：shot in sicily
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：细线框 / 页码
-prompt: 'Create a polished outdoor high-fashion editorial photograph in the Sunlit Architectural Fashion Editorial style. Subject: {SUBJECT}. Pose or movement: {SUBJECT_ACTION}. Prop or accessory: {PRODUCT_OR_PROP}.
-  Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Wardrobe and styling: {WARDROBE_STYLE}. Internal editorial mood labels only, not visible text: {MAIN_TEXT}; {SECONDARY_TEXT}. Subtle photographic
-  accent: {ACCENT_SYMBOL}. Preserve these style fidelity anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use a low camera position, slight wide-angle fashion perspective,
-  elongated silhouettes, hard Mediterranean daylight, bright pale sky, warm stone or plaster texture, crisp cast shadows, natural lens flare or glint, refined neutral color grading with black or tobacco
-  anchors, visible fabric and leather detail, calm unsmiling luxury-campaign posture, and sparse premium props with no visible logos. Do not add overlay typography, watermarks, readable brand names, QR
-  codes, social media UI, price tags, crowds, fantasy costumes, cartoon rendering, collage, vector graphics, or studio poster design. Aspect ratio: 16:9.'
+prompt: |
+  创作一张精致的户外高级时尚编辑摄影，采用「日光建筑时尚编辑摄影」风格。主体：{主体}。姿势或动作：{动作}。道具或配饰：{道具}。地点：{地点}。背景元素：{背景元素}。服装与造型：{造型}。内部编辑气质标签（不作为可见文字）：{主文案}；{副文案}。细微的摄影点缀：{点缀符号}。保留这些风格保真锚点：本风格的核心视觉锚点。规避这些源内容：水印、真实 Logo 与商业广告。使用低机位、轻微广角的时尚透视、拉长的剪影、硬朗的地中海域日光、明亮浅色天空、温暖的石材或灰泥质感、锐利的投影、自然的镜头光晕或反光、以黑或烟草棕为锚点的精致中性调色、可见的布料与皮革细节、平静不笑的奢华广告姿态，以及无可见 Logo 的稀疏高级道具。不要叠加文字排版、水印、可读的品牌名、二维码、社交媒体 UI、价格标签、人群、奇幻服装、卡通渲染、拼贴、矢量图形或影棚海报设计。画幅：16:9。
 id: editorial_fashion
 code: ''

@@ -33,44 +33,43 @@ ratio: "4:5"
 summary: "厚涂墨线轮廓的另类大头娃娃插画，平板色块+手工纸张纹理+朋克气质"
 
 prompt: |
-  Two-dimensional alternative character illustration of {character}, occupying approximately seventy-five percent of the frame in {pose}, with {hair} and {expression}. Oversized rounded cranium, a short flattened lower face, a narrow jaw, a long thin neck, slightly oversized ears, huge pale oval eyes with tiny off-center pupils, extremely thick horizontal black eyebrows, heavy black upper eyelids, muted mauve under-eye rings, a tiny broad triangular nose, and a wide asymmetrical grin showing individually drawn irregular rectangular teeth, one clearly missing upper tooth, one chipped tooth and deep black gaps. Dress the character in {clothing}, simplified into broad graphic shapes with chunky seams, minimal folds and small hand-drawn accessories. Confident black ink contours using thick outer silhouettes, medium-weight facial lines, thin angular hair strands and only a few short scratch marks around the eyes, hair and clothing seams; use flat opaque color fields, one hard-edged cel-shadow shape per form, sparse pencil hatching, subtle ink wobble, slight color misregistration and restrained worn-paper texture. Controlled {colors} palette, keeping every color clearly separated and moderately saturated. Place the character against {background}, reduced to large flat shapes, a few loosely drawn environmental details and oversized rough hand-painted lettering reading \"{text}\"; use an off-center waist-up composition, a slight camera tilt, cropped background typography, loose poster margins and lightly weathered printed edges. 4:5 AR.
+  二维另类角色插画：{角色}，以{姿态}占据画面约百分之七十五，{发型}，{表情}。超大的圆颅、短而扁平的下半脸、窄下颌、细长脖颈、略偏大的耳朵、巨大的浅色椭圆眼配微小偏心瞳孔、极粗的横向黑眉、厚重的黑色上眼睑、淡紫褐色的眼下圈、小巧而宽大的三角鼻，以及一个夸张的不对称咧嘴笑，露出一颗颗单独绘制的不规则方牙，其中一颗上门牙明显缺失、一颗牙齿缺损，牙缝是深黑的空隙。角色身穿{服装}，简化为大块图形形状，缝线粗厚，褶皱极少，配小型手绘配饰。自信的黑色墨线轮廓：外轮廓粗、面部线条中等粗细、发丝细而带棱角，只在眼周、头发和衣服缝线处留少量短刮痕；使用平涂不透明色块，每个形体只有一块硬边赛璐珞阴影，稀疏的铅笔排线，轻微的墨线抖动，细微的颜色错位与克制的泛黄纸张纹理。受控的{配色}色盘，每种颜色都清楚分开、饱和度适中。角色置于{背景}前，背景简化为大块平面形状、几笔松散的环境细节，以及超大的粗糙手绘背景文字「{文字}」；采用偏心式半身构图、轻微镜头倾斜、被裁切的背景字体、松散的海报边距与轻微做旧的印刷边缘。4:5 画幅。
 
   变量说明：
-  - {character} — 角色描述，如 "a young street musician with freckles"
-  - {pose} — 姿态，如 "sitting cross-legged", "leaning on a wall", "standing proudly"
-  - {hair} — 发型发色，如 "spiky neon green mohawk", "long tangled black hair"
-  - {expression} — 表情，如 "a wide manic grin", "a deadpan stare", "mischievous smirk"
-  - {clothing} — 服装，如 "a studded leather jacket and ripped jeans"
-  - {colors} — 色调控制，如 "muted earth tones", "high contrast black and neon pink", "pastel punk"
-  - {background} — 背景，如 "a graffiti-covered alley", "an abandoned amusement park"
-  - {text} — 手绘背景文字，如 "REBEL", "STAY WEIRD", "NO RULES"
+  - {角色} — 角色描述，如「一个带雀斑的年轻街头乐手」
+  - {姿态} — 姿态，如「盘腿而坐」「靠墙」「自信站立」
+  - {发型} — 发型发色，如「荧光绿刺猬头」「蓬乱的长黑发」
+  - {表情} — 表情，如「张狂的大笑」「面无表情的凝视」「狡黠的坏笑」
+  - {服装} — 服装，如「铆钉皮夹克配破洞牛仔裤」
+  - {配色} — 色调控制，如「低饱和大地色」「黑白高对比 + 荧光粉」「马卡龙朋克」
+  - {背景} — 背景，如「涂鸦遍布的小巷」「废弃游乐园」
+  - {文字} — 手绘背景文字，如「REBEL」「STAY WEIRD」「NO RULES」
 
   不要水印，不要真实品牌名。
-
 variables:
 - kv_var: 角色
-  style_var: '{character}'
+  style_var: '{角色}'
   desc: 如：小猫邮差
 - kv_var: 姿态
-  style_var: '{pose}'
+  style_var: '{姿态}'
   desc: 主体的姿态，如：单脚站立 / 双手插兜
 - kv_var: 发型
-  style_var: '{hair}'
+  style_var: '{发型}'
   desc: 如：齐肩微卷黑发 / 寸头
 - kv_var: 表情
-  style_var: '{expression}'
+  style_var: '{表情}'
   desc: 如：挑眉坏笑 / 面无表情
 - kv_var: 服装
-  style_var: '{clothing}'
+  style_var: '{服装}'
   desc: 人物穿的服装
 - kv_var: 配色
-  style_var: '{colors}'
+  style_var: '{配色}'
   desc: 整体配色方案，如：莫兰迪灰粉 + 奶白
 - kv_var: 背景
-  style_var: '{background}'
+  style_var: '{背景}'
   desc: 如：渐变天空 / 纯色墙面
 - kv_var: 文字
-  style_var: '{text}'
+  style_var: '{文字}'
   desc: 如：慢下来
 source_url: "https://x.com/HustleXR/status/2087745072309604705"
 source_author: "HustleXR"

@@ -29,27 +29,28 @@ ratio: "9:16"
 summary: "超大号城市名字体物理叠加于人物主体，灰度城市背景，暖奶油色 + 深黑 + 点缀色的精致期刊封面海报风格"
 
 prompt: |
-  Recreate the reference image as a premium editorial city poster. Replace the original person with {SUBJECT} while preserving SUBJECT's identity, facial features, hairstyle, hair color, skin tone, and natural appearance. SUBJECT must be standing in the SAME pose, SAME body orientation, SAME framing, SAME scale, and approximately the SAME position as the reference subject.
+  把参考图重制成一张精致城市期刊封面海报。把原图人物替换为{主体}，同时保留其身份、五官、发型、发色、肤色与自然外观。{主体}必须保持与参考人物完全相同的姿势、身体朝向、取景、比例，以及大致相同的位置。
 
-  Replace the original city with {CITY_NAME} and rebuild the surrounding skyline, landmarks, architecture, bridge, and urban photography specifically for CITY_NAME. Replace all city-specific labels, coordinates, location information, and captions accordingly.
+  把原城市替换为{城市名称}，并针对该城市重建周边天际线、地标、建筑、天桥与城市摄影。同步替换所有与城市相关的标注、坐标、位置信息与图注。
 
-  CRITICAL TYPOGRAPHY COMPOSITION: The oversized CITY_NAME typography must be physically layered OVER the standing character, exactly like the reference. Do NOT place all of the city text behind the subject. The large CITY_NAME letters must pass across the subject's body and overlap her clothing and lower torso, visibly covering portions of her. At the same time, some portions of the typography should remain behind her head and shoulders. Create a true foreground/background collage: BACKGROUND CITY IMAGERY → SUBJECT → FOREGROUND OVERSIZED CITY_NAME LETTERS. The foreground letters must visibly obscure portions of the subject while the subject remains recognizable through the gaps and around the typography. The large letters should intersect the character naturally rather than appearing as text floating beside her.
+  关键的字体排印构图：超大的城市名字体必须像参考图那样物理层叠在站立人物之上。不要把城市文字全部塞到人物身后。大号城市名字母必须横穿人物身体，压过其服装与下半身，明显遮住其中一部分；同时，部分字体仍应留在其头部与肩膀之后。建立真正的前景/背景拼贴关系：背景城市影像 → 人物 → 前景超大号城市名字母。前景字母必须明显遮挡人物局部，而人物仍能透过字母间隙和字体周围被辨认出来。大字母应自然地与人相交，而不是像文字飘在她旁边。
 
-  The oversized CITY_NAME typography should dominate the composition and extend almost across the entire poster width. Integrate grayscale city photography inside selected portions of the letters. Keep the typography bold, geometric, heavy, and editorial. Make the letters large enough to cross directly over the subject's torso and lower body.
+  超大号城市名字体应主导构图，几乎横贯整个海报宽度。在字母的部分区域内部嵌入灰度城市摄影。字体保持粗壮、几何、厚重、编辑化。字母要大到能直接横跨人物躯干与下半身。
 
-  Preserve the EXACT visual language and color code of the reference: warm cream/off-white background, deep black oversized typography, grayscale city photography, red accent blocks, blue accent elements, and yellow/gold accent elements. Do NOT create a new color palette based on CITY_NAME. Keep the same approximate colors, saturation, contrast, and proportions as the reference.
+  保留参考图确切的视觉语言与色彩编码：暖奶油/米白背景、深黑超大字体、灰度城市摄影、红色点缀块、蓝色点缀元素、黄/金点缀元素。不要基于{城市名称}另造一套配色。保持与参考图大致相同的颜色、饱和度、对比度与比例。
 
-  Preserve the reference's structured editorial grid, thin lines, geometric circles, dots, rectangles, technical markings, small uppercase labels, coordinates, and minimalist information blocks. Adapt only the city-related content to CITY_NAME.
+  保留参考图的结构化编辑网格、细线、几何圆形、点阵、矩形、技术标记、小号大写标签、坐标与极简信息块。只把与城市相关的内容改为{城市名称}。
 
-  Maintain the same vertical poster composition, subject placement, typography scale, graphic layering, spacing, photographic treatment, and premium magazine aesthetic. The final result should look like the same poster design system recreated for a different city and subject, with CITY_NAME typography clearly crossing OVER and physically overlapping the character.
+  维持相同的竖版海报构图、人物位置、字体尺度、图形分层、间距、摄影处理与高级杂志美学。最终成片应看起来像同一套海报设计系统为另一个城市与主体重制，且{城市名称}字体明显横跨并物理叠压在人物之上。
   不要水印，不要真实Logo，不要电商广告感。
+
 
 variables:
 - kv_var: 主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 - kv_var: 城市名称
-  style_var: '{CITY_NAME}'
+  style_var: '{城市名称}'
   desc: 如：东京 / 上海 / 巴黎
 source_url: "https://x.com/Maercihh/status/2087113728185749607"
 source_author: "@Maercihh"

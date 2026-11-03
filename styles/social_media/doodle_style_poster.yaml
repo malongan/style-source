@@ -39,62 +39,53 @@ triggers:
 features:
 - title: '保留核心视觉识别：写实的乘客座交通照片，被改造成高能量旅行海报，中央后视主体、电光黄剪影光环、超大号黄橙手绘字体、漫画放射线、紫色音乐符号、贴纸图标，以及青白色云朵流线。'
   desc: ''
-- title: 用 BACKGROUND_ELEMENTS 作为纪实背景细节与次要语境。
+- title: 用 {背景元素} 作为纪实背景细节与次要语境。
   desc: ''
 - title: '以写实的乘客座旅行照片作为底层：广角后座视角、真实车厢内饰、透过车窗的自然日光、可见的材质纹理、仪表台与车窗取景，以及可信的公路旅行或本地通勤瞬间。'
   desc: ''
 - title: 使用金黄填色、橙色阴影形状、焦棕轮廓，以及贴纸式的扁平 2D 收尾。
   desc: ''
-- title: 用 MAIN_TEXT 作为融入构图的大型插画字体。
+- title: 用 {主文案} 作为融入构图的大型插画字体。
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 车后座乘客，如：靠窗的年轻女生
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 如：望着窗外 / 举手比耶
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 如：耳机 / 饮料杯
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{地点}'
   desc: 如：出租车后座
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 超大号黄橙手绘字体，如：RIDE
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 如：宽松卫衣 + 棒球帽
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 漫画放射线 / 紫色音符
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：night route
-prompt: 'Create an image in backseat-transit-doodle-letter-poster-style.
+prompt: |
+  创作一张图像，采用后座交通涂鸦字体海报风格。
 
+  画幅：16:9。
 
-  Aspect ratio: 16:9.
+  场景：{主体}{动作}，手持{道具}，位于{地点}之内或之上。背景细节：{背景元素}。主体造型用{造型}。以写实的乘客座旅行照片作为底层：广角后座视角、真实车厢内饰、透过车窗的自然日光、可见的材质纹理、仪表台与车窗取景，以及可信的公路旅行或本地通勤瞬间。
 
+  图形叠加：用粗厚的电光黄手绘光环勾出中央主体。在主体周围加入拼写「{主文案}」的超大粗壮手绘字母，倾斜并被画框部分裁切。使用金黄填充、橙色阴影形状、焦棕轮廓，以及贴纸式的扁平 2D 收尾。
 
-  Scene: {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP}, inside or on {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Style the subject with {WARDROBE_STYLE}. Use a realistic passenger-seat travel
-  photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip
-  or local transit moment.
+  添加{点缀符号}、紫色音符、从四角射出的黄色漫画速度线、沿画面下缘的青白云朵或风动流线、小贴纸气泡与俏皮的动势笔触。叠加要大胆，但要保留主体剪影、握方向的动作与前方车窗视野。
 
-
-  Graphic overlay: trace the central subject with a thick electric yellow hand-drawn halo. Add oversized chunky hand-drawn letters spelling "{MAIN_TEXT}" around the subject, tilted and partly cropped by
-  the frame. Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.
-
-
-  Add {ACCENT_SYMBOL}, purple music marks, yellow comic speed rays from the corners, cyan-white cloud or wind swooshes along the lower frame, small sticker bubbles, and playful motion strokes. Keep the
-  overlays bold but preserve the subject silhouette, steering gesture, and forward window view.
-
-
-  Text: use "{MAIN_TEXT}" as the large illustrated word. Add "{SECONDARY_TEXT}" only as tiny clean sticker text if it does not clutter the image. Do not include watermarks, usernames, creator IDs, QR codes,
-  platform logos, app marks, copied brand logos, or copied jacket graphics.'
+  文字：把「{主文案}」作为大型插画字。仅在不会让画面拥挤时，把「{副文案}」作为极小的干净贴纸文字加入。不要包含水印、用户名、创作者 ID、二维码、平台 Logo、App 标记、照抄的品牌 Logo 或照抄的夹克图案。
 id: doodle_style_poster
 code: ''

@@ -29,10 +29,8 @@ features:
 - title: '**完整全身造型**：从服装到配饰（复古相机）一应俱全'
   desc: ''
 variables: []
-prompt: Transform the uploaded portrait into a charming Pixar-inspired 3D cartoon character. Keep the girl's facial features recognizable, including her short wavy black bob haircut, soft freckles, expressive
-  brown eyes, natural lips, and elegant appearance. Place her in a warm, cozy creative studio with soft fairy lights, blurred photo boards, and aesthetic decor in the background. Dress her in an oversized
-  cream sweater layered over a black turtleneck, high-waisted sage green trousers, and a delicate gold necklace. Add a vintage camera hanging around her neck. Use cinematic soft lighting, shallow depth
-  of field, warm pastel tones, ultra-detailed 3D rendering, adorable proportions, smooth skin textures, and a cute animated movie aesthetic. High quality, whimsical, cozy, heartwarming, Pixar-style character
-  design, full body portrait.
+prompt: |
+  把上传的肖像转化为一个讨喜的 Pixar 风格 3D 卡通角色。保持女孩的面部特征可辨识，包括齐耳的黑色波浪波波头、柔和的雀斑、富有表现力的棕色大眼睛、自然的嘴唇与优雅的外形。把她安置在一个温暖、舒适的创意工作室里，背景有柔和的仙女灯串、虚化的照片板与美学装饰。给她穿上宽松的奶油色毛衣，内搭黑色高领衫，配高腰鼠尾草绿长裤与一条精致的金项链。脖子上挂一台复古相机。使用电影级柔光、浅景深、暖粉彩色调、超精细 3D 渲染、可爱讨喜的比例、光滑的皮肤质感，以及可爱的动画电影美学。高品质、俏皮、温馨、治愈，Pixar 风格角色设计，全身肖像。
+
 id: pixar_cartoon_portrait
 code: ''

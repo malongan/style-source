@@ -30,19 +30,19 @@ ratio: "2:3"
 summary: "写实人物从漫画拼贴背景中走出的混合媒体编辑人像风格，融合超真实摄影与高对比漫画插画元素"
 
 prompt: |
-  Recreate the scene as a premium mixed-media manga editorial portrait. Place {subject} in a full-body, low-angle composition with one foot stepping toward the camera to create dramatic forced perspective and a bold 3D pop-out effect. Keep the pose natural, relaxed, and confident with a soft smile and direct eye contact. Dress in modern casual streetwear with realistic fabric textures, clean styling, minimal accessories, and fashionable sneakers.
+  把画面重做成一张高级的混合媒介漫画编辑人像。把{主体}放在全身、低角度的构图里，一只脚朝镜头迈出，制造戏剧化的强制透视与大胆的 3D 弹出效果。姿态保持自然、放松、自信，带柔和的微笑与直视镜头的眼神。穿现代休闲街头服饰，具备真实的布料质感、干净的造型、极简的配饰与时尚的运动鞋。
 
-  Behind the subject, create a high-contrast black-and-white manga collage featuring multiple comic panels of their face with different cute expressions, hand-drawn ink illustrations, expressive webtoon artwork, thick comic outlines, dynamic panel layouts, speech bubbles, hearts, stars, sparkles, lightning bolts, arrows, ink splashes, spiral doodles, motion lines, sketch marks, and energetic graphic elements.
+  在主体背后，创作一幅高对比的黑白漫画拼贴：多格漫画面板展示其面部不同的可爱表情、手绘墨水插画、表现力强的网漫画面、粗重的漫画轮廓、动态的面板版式、对话气泡、爱心、星星、闪光、闪电、箭头、墨迹飞溅、螺旋涂鸦、速度线、素描笔痕，以及充满能量的图形元素。
 
-  Integrate bold comic typography including "OMG!", "WOW!", "SO CUTE!", "LOVE IT!", "AMAZING!", and "ADORABLE!" in a premium editorial layout. Blend the realistic subject seamlessly with the illustrated manga background, creating the illusion that they are stepping out of a comic page into the real world.
+  在高级编辑版式中融入大胆的漫画字体，包括「OMG!」「WOW!」「SO CUTE!」「LOVE IT!」「AMAZING!」与「ADORABLE!」。让写实主体与插画化的漫画背景无缝融合，制造出「正从漫画页走进现实世界」的错觉。
 
-  Soft studio lighting, crisp shadows, ultra-realistic skin texture, detailed hair strands, realistic denim and fabric folds, sharp sneaker details, premium compositing, high dynamic range, clean white background, luxury magazine-quality color grading, ultra-detailed, masterpiece, photorealistic, 8K.
+  柔和的影棚布光、清透的阴影、超写实的皮肤质感、细致的发丝、真实的牛仔与布料褶皱、锐利的运动鞋细节、高级合成、高动态范围、干净的白色背景、奢华杂志级调色、超精细、杰作、照片级写实、8K。
 
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
 - kv_var: 主体
-  style_var: '{subject}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 source_url: "https://x.com/AiwithLariab/status/2082718809274937790?s=20"
 source_author: "Laraib Fatima (@AiwithLariab)"

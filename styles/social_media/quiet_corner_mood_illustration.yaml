@@ -31,45 +31,46 @@ ratio: "3:4"
 summary: "以安静角落情绪为核心，通过场景构建与光影叙事，营造自然和谐、情绪共鸣的室内氛围插画"
 
 prompt: |
-  A {art_style} illustration of a {setting} featuring {architecture}, in a {mood} mood. {lighting} illuminates the space, highlighting {interior_details}. {subjects} are {activities}, which sets a quiet, lived-in atmosphere. The background showcases {surrounding_view}. The color palette includes {colors}, with {medium_and_details}, resulting in a {aesthetic} composition rich in detail and natural harmony.
+  一幅{风格}插画，场景为{场景}，含{建筑}，整体{氛围}。{光线}照亮空间，凸显{室内细节}。{主体}正在{活动}，营造出安静、有人生活痕迹的气氛。背景展现{周边环境}。色板包含{配色}，并配{媒介细节}，形成一幅{美学}、细节丰富且自然和谐的构图。
 
   不要水印，不要真实Logo，不要摄影照片感。
+
 variables:
 - kv_var: 艺术风格
-  style_var: '{art_style}'
+  style_var: '{风格}'
   desc: 如 flat illustration / soft gouache
 - kv_var: 场景
-  style_var: '{setting}'
+  style_var: '{场景}'
   desc: 室内或室外，如 sunlit cafe interior
 - kv_var: 建筑元素
-  style_var: '{architecture}'
+  style_var: '{建筑}'
   desc: 如 large arched window / wooden beams
 - kv_var: 情绪氛围
-  style_var: '{mood}'
+  style_var: '{氛围}'
   desc: 如 calm / nostalgic / cozy
 - kv_var: 光线
-  style_var: '{lighting}'
+  style_var: '{光线}'
   desc: 如 warm afternoon sunlight
 - kv_var: 室内细节
-  style_var: '{interior_details}'
+  style_var: '{室内细节}'
   desc: 如 bookshelf, potted plants, linen curtain
 - kv_var: 人物主体
-  style_var: '{subjects}'
+  style_var: '{主体}'
   desc: 如 a young woman
 - kv_var: 活动
-  style_var: '{activities}'
+  style_var: '{活动}'
   desc: 如 reading a book, sipping tea
 - kv_var: 周边环境
-  style_var: '{surrounding_view}'
+  style_var: '{周边环境}'
   desc: 如 greenery outside the window
 - kv_var: 配色
-  style_var: '{colors}'
+  style_var: '{配色}'
   desc: 如 sage green, warm beige, soft cream
 - kv_var: 媒介与细节
-  style_var: '{medium_and_details}'
+  style_var: '{媒介细节}'
   desc: 材质 + 笔触 + 细节，如 textured paper grain, soft brushwork, dappled light
 - kv_var: 整体美学
-  style_var: '{aesthetic}'
+  style_var: '{美学}'
   desc: 如 serene, natural harmony
 source_url: "https://x.com/noorwithwifi/status/2081412270350033109"
 source_author: "NoorAI"

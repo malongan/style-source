@@ -31,26 +31,25 @@ ratio: "3:4"
 summary: "Hermès香水顶级平铺海报，琥珀雪松木质调，材质对比强烈"
 
 prompt: |
-  Create an ultra-premium fragrance poster for {品牌香水瓶}, designed in a perfectly top-down flat-lay composition with extreme realism, material contrast, and a dark black-amber-cedar authority mood. The image must feel deep, smoky, woody, noble, and intensely luxurious, like a world-class perfume campaign built around mineral glass, blackened woods, soft aromatic botanicals, and glowing amber depth.
+  创作一张{品牌香水瓶}的超高端香氛海报：严格的顶视平铺构图，极致的真实感、材质对比，以及黑—琥珀—雪松的权威气场。画面要深沉、烟熏、木质、高贵、极度奢华，像一场世界级香水广告，围绕矿物玻璃、炭化木材、柔和的芳香植物与发光的琥珀深度展开。
 
-  Core composition: Use a strict overhead top-view camera angle. Place one authentic {品牌香水瓶} exactly at the center of the frame as the main visual anchor. The bottle must be unmistakably real: accurate silhouette, authentic amber-orange fragrance tint, crisp branding, precise cap structure, clean metallic accents, and flawless glass realism. Emphasize the bottle's hard material identity: dense transparent glass, sharp edges, solid weight, clean reflective planes, mineral-like hardness, precise specular highlights, and a distinctly rigid architectural presence.
+  核心构图：使用严格的俯视顶拍机位。把一只真实的{品牌香水瓶}精确放在画面正中心，作为主视觉锚点。瓶子必须无可置疑地真实：轮廓准确、琥珀橙色香液真实、品牌标识清晰、瓶盖结构精确、金属细节干净、玻璃质感毫无瑕疵。强调瓶子硬质材料的身份：致密透明的玻璃、锐利的棱边、扎实的重量感、干净的反射面、矿物般的硬度、精确的镜面高光，以及鲜明的建筑式刚性存在感。
 
-  Aromatic halo: Arrange the supporting ingredients around the bottle in a refined radial or wreath-like composition: dark citrus peel, black peppercorns, patchouli leaves, cedar splinters, smoked wood fragments, charred bark, soft jasmine blossoms, restrained rose petals, sandalwood pieces, vanilla pods, warm resin/amber-like fragments, and dark mineral-earth textures.
+  香气光环：围绕瓶子，以精致的放射状或花环状构图布置配料：深色柑橘皮、黑胡椒粒、广藿香叶、雪松碎屑、烟熏木片、炭化树皮、柔和的茉莉花、克制的玫瑰花瓣、檀香木块、香草荚、温暖的树脂／琥珀状碎块，以及深色矿物泥土质感。
 
-  Material contrast: The bottle must feel hard, polished, exact, and luminous from within; the surrounding botanicals and woods must feel softer, fibrous, dry, smoky, velvety, leafy, or resinous.
+  材质对比：瓶子必须坚硬、抛光、精确，并从内部透出光；周围的植物与木材必须更柔软、纤维化、干燥、烟熏、丝绒、带叶感或树脂感。
 
-  Background: Deep black-brown base, charred wood dust, warm mineral powder, burnished amber residue, shadowed soil, smoke-dark resin, subtle leather-like darkness.
+  背景：深黑褐色基底、炭化木屑、温暖的矿物粉末、擦亮的琥珀残渣、带阴影的泥土、烟熏的深色树脂、隐约的皮革般暗调。
 
-  Lighting: Refined overhead key light, sharp elegant highlights on the bottle glass, internal amber glow, subtle reflective edges, soft light kissing the botanicals, controlled falloff into dark smoky background zones.
+  布光：精致的高位主光，瓶身玻璃上有锐利优雅的高光，内部琥珀辉光，边缘微反射，柔光轻扫植物，向深色烟熏背景区受控衰减。
 
-  Color palette: Blackened cedar brown, charcoal black, burnt amber orange, resin gold, dark mineral umber, smoked patchouli green, soft cream florals, restrained spice brown.
+  色盘：炭化雪松褐、炭黑、烧琥珀橙、树脂金、深矿物赭、烟熏广藿香绿、柔奶油花色、克制的香料褐。
 
-  Overall mood: Dark, amber-rich, smoky, woody, authoritative, masculine, luxurious, hyper-real, tactile, refined, unforgettable.
+  整体气质：深色、琥珀浓郁、烟熏、木质、权威、阳刚、奢华、超写实、有触感、精致、难忘。
 
-  Typography: {主标题} main title, {副标题} supporting line — elegant, minimal, luxury editorial restraint.
+  字体：{主标题}为主标题，{副标题}为辅助行——优雅、极简、奢侈品编辑式的克制。
 
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
-
 variables:
 - kv_var: 品牌香水瓶
   style_var: '{品牌香水瓶}'

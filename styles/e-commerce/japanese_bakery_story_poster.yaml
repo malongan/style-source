@@ -31,31 +31,31 @@ ratio: "9:16"
 summary: "写实烘焙食物当主角，几个 2D 手绘小人在上面散步讲故事，配日式手写标题与可可棕复古排版的日式烘焙海报"
 
 prompt: |
-  Create a charming Japanese-style bakery poster combining photorealistic food photography, playful hand-drawn illustrations, and nostalgic editorial typography.
+  创作一张迷人的日式烘焙海报，把写实食物摄影、俏皮的手绘插画与怀旧的编辑排版结合起来。
 
-  CUSTOMIZE
-  - Brand: {品牌名}
-  - Food: {主食物}
-  - Concept: {概念}（如 Miniature World / Floating Food / Flavor Guide / Cozy Scene）
-  - Headline: {标题}（日文或英文）
-  - Tagline: {标语}
-  - Details: {详情文案}（口味 / 产品信息 / 活动信息）
-  - Color Palette: {主色板}
-  - Year: {年份}
-  - Aspect Ratio: 9:16
+  定制参数
+  - 品牌：{品牌名}
+  - 食物：{主食物}
+  - 概念：{概念}（如 Miniature World / Floating Food / Flavor Guide / Cozy Scene）
+  - 主标题：{标题}（日文或英文）
+  - 标语：{标语}
+  - 详情：{详情文案}（口味 / 产品信息 / 活动信息）
+  - 色板：{主色板}
+  - 年份：{年份}
+  - 画幅：9:16
 
-  VISUAL STYLE
-  Japanese indie bakery aesthetics with a warm, playful, slightly nostalgic editorial feel. Combine realistic food photography with delicate, imperfect pen-and-ink illustrations. Use {背景纸色} paper backgrounds, {字体主色} lettering, soft natural colors, and subtle print textures.
+  视觉风格
+  日式独立面包店美学，温暖、俏皮、带一点怀旧的编辑感。把写实的食物摄影与精致、略不完美的钢笔墨线插画结合。使用{背景纸色}的纸面背景、{字体主色}的字色、柔和的自然色与轻微的印刷肌理。
 
-  FOOD & STORYTELLING
-  Make the food the visual centerpiece, with appetizing textures, golden crusts, natural imperfections, soft daylight, and realistic shadows. Add a few tiny 2D hand-drawn characters interacting with the food—walking across pastries, exploring oversized treats, or enjoying a cozy café moment. Create a charming miniature story through simple, meaningful interactions.
+  食物与叙事
+  让食物成为视觉中心，具备开胃的质感、金黄酥壳、自然瑕疵、柔和日光与真实阴影。加入几个极小的 2D 手绘小人，与食物互动——在酥点上行走、探索超大的点心，或享受一段温馨的咖啡馆时光。通过简单而有意义的互动，讲一个迷人的微缩故事。
 
-  COMPOSITION & TYPOGRAPHY
-  Choose a distinctive layout based on the concept: oversized food, floating arrangements, asymmetrical product displays, or cozy still-life scenes. Maintain a strong focal point, balanced visual hierarchy, and approximately 35–40% clean negative space. Use expressive Japanese-style handwritten headlines, elegant retro serif fonts, and small playful annotations. Keep all text accurate, readable, and naturally integrated into the design.
+  构图与排版
+  根据概念选择一种有辨识度的版式：超大食物、悬浮排列、不对称的产品陈列，或温馨的静物场景。保持强焦点、均衡的视觉层级，以及约 35–40% 的干净负空间。使用表现力强的日式手写主标题、优雅的复古衬线字体与俏皮的小注释。所有文字保持准确、可读，并自然融入设计。
 
-  FINAL ART DIRECTION
-  The finished poster should feel like a professionally designed Japanese bakery advertisement—warm, whimsical, visually engaging, and commercially polished. Keep illustrations minimal and purposeful. Let the food, typography, and storytelling create the visual impact.
-  Avoid excessive doodles, cluttered layouts, CGI-looking food, 3D cartoon characters, random text, heavy distressing, decorative sparkles, numbering, and watermarks. Generate one complete, standalone vertical poster, not a collage or mockup.
+  最终美术指导
+  完成的海报应像一张专业设计的日式面包店广告——温暖、奇趣、视觉吸引人、商业完成度高。插画保持极简且有的放矢。让食物、排版与叙事共同制造视觉冲击。
+  避免过多的随手涂鸦、杂乱的版式、看起来像 CGI 的食物、3D 卡通角色、随机文字、过度做旧、装饰性闪点、编号与水印。生成一张完整、独立的竖版海报，而不是拼贴或样机。
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:

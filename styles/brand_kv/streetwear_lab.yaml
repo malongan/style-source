@@ -27,33 +27,34 @@ features:
   desc: ''
 variables:
 - kv_var: 主标题
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主标题}'
   desc: 左侧黑色巨字
 - kv_var: 画面-动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: IP的动作姿态
 - kv_var: 主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 画面里的辅助物件
 - kv_var: 地点
-  style_var: '{LOCATION}'
+  style_var: '{地点}'
   desc: 如：上海 / 京都 / 洛杉矶
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 辅助信息，如：秋季新品 / 9.20 上市
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 单个符号或小图案，如：✦ / ★ / 涂鸦箭头
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 人物穿搭
 prompt: |
-  Create a 16:9 finished raster image in the Acid Lime 3D Streetwear Type Poster Style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop/Product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main text: {MAIN_TEXT}. Secondary text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Wardrobe/styling: {WARDROBE_STYLE}. Style fidelity anchors: the core visual anchors of this style. Source content to avoid: watermarks, real logos, and commercial advertising. Apply these style rules: pale cool-gray or off-white studio floor and wall, one huge mass of deep black condensed block headline typography, acid-lime marker scribbles and underlines crossing the type, glossy C4D toy-like 3D character or product rendering, low wide-angle front three-quarter perspective, oversized foreground prop or footwear-scale object near the lens, tactile fashion props, stacked boxes or bags, chrome and black rubber surfaces, soft textile weave, semi-translucent acrylic details, controlled sticker-badge clusters, warning triangles, barcode strips, smiley dots, scalloped seals, tiny black tags, small hot pink and yellow accents, clean high-key commercial studio lighting, soft shadows, crisp specular highlights, polished high-resolution poster finish. For 9:16, stack the black headline above or beside the central subject and crop a foreground prop along the lower edge. For 16:9, place the headline as a left-heavy type block and stage the 3D subject cluster on the right with lime accents bridging the center. Important content rule: match the visual style first, then change the source content completely with a new subject, new action, new prop, new location, new headline, new microcopy, and no copied brand identity.
+  创作一张 16:9 成品栅格图，采用 Acid Lime 3D Streetwear Type Poster 风格。主体：{主体}。动作：{动作}。道具/产品：{道具}。地点：{地点}。背景元素：{背景元素}。主文案：{主标题}。次级文案：{副文案}。点缀符号：{点缀符号}。服装/造型：{造型}。风格保真锚点：该风格的核心视觉锚点。需要避免的源内容：水印、真实 Logo 与商业广告。应用这些风格规则：浅冷灰或米白的摄影棚地面与墙面，一大块深黑压缩块状标题字体，酸柠绿的马克笔涂划与下划线横穿字形，光亮的 C4D 玩具感 3D 角色或产品渲染，低机位广角正面四分之三透视，靠近镜头处放超大前景道具或鞋类尺度的物件，有触感的时尚道具，堆叠的箱子或包袋，镀铬与黑色橡胶表面，柔软的织物织纹，半透明亚克力细节，受控的贴纸徽章簇，警示三角，条形码条，笑脸圆点，扇贝边封签，极小的黑色吊牌，少量亮粉与黄色点缀，干净的高调商业棚拍布光，柔和阴影，锐利的高光反射，打磨到高分辨率的成品海报质感。若为 9:16，把黑色标题堆叠在中央主体之上或旁侧，并沿下边缘裁切一件前景道具。若为 16:9，把标题排成左重字块，把 3D 主体群布置在右侧，用酸柠色点缀在中间搭桥。重要内容规则：先对齐视觉风格，再用全新的主体、动作、道具、地点、标题、微文案把源内容彻底换掉，不得照搬品牌身份。
+
 id: streetwear_lab
 code: ''

@@ -37,78 +37,67 @@ triggers:
 features:
 - title: '保留核心视觉识别：随手低光居家摄影风格，一个大型扁平 2D 靠垫玩偶伙伴合成到下方前景，营造安静的深夜创作日记氛围，带温暖的房间质感、屏幕辉光，以及细小的手写涂鸦笔触。'
   desc: ''
-- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
+- title: 用 {背景元素} 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
-- title: 用 DOODLE_COMPANION 作为叠加进真实房间快照的手绘伙伴。
+- title: 用 {涂鸦伙伴} 作为叠加进真实房间快照的手绘伙伴。
   desc: ''
-- title: 用 DOODLE_SCALE 设定伙伴相对于主体与房间物件的尺度。
+- title: 用 {涂鸦大小} 设定伙伴相对于主体与房间物件的尺度。
   desc: ''
-- title: 用 LIGHT_SOURCE 保持快照的布光方向与温暖房间氛围。
+- title: 用 {光源} 保持快照的布光方向与温暖房间氛围。
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 人，如：盘腿坐床上的女生
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{主体动作}'
   desc: 如：抱着靠垫发呆
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 如：笔记本电脑 / 马克杯
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 如：低光卧室
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 如：MIDNIGHT
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：2:14 am
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：小星星 / 手绘心
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{服装}'
   desc: 如：宽松睡衣
 - kv_var: 涂鸦伙伴
-  style_var: '{DOODLE_COMPANION}'
+  style_var: '{涂鸦伙伴}'
   desc: 扁平 2D 靠垫玩偶，如：一只歪头小猫
 - kv_var: 涂鸦大小
-  style_var: '{DOODLE_SCALE}'
+  style_var: '{涂鸦大小}'
   desc: 如：主体的三分之一高
 - kv_var: 光源
-  style_var: '{LIGHT_SOURCE}'
+  style_var: '{光源}'
   desc: 如：屏幕蓝光 + 暖色小夜灯
-prompt: 'Create an image in the "Cozy Bedroom Doodle Companion Snapshot" style.
+prompt: |
+  创作一张「温馨卧室涂鸦伙伴抓拍」风格的图片。
 
+  画幅：16:9。
 
-  Aspect ratio: 16:9.
+  场景：{主体}{主体动作}。前景道具或产品：{道具}。地点：{场景}。背景元素：{背景元素}。主手写文案：「{主文案}」。副手写文案：「{副文案}」。点缀符号：{点缀符号}。服装造型：{服装}。涂鸦伙伴：{涂鸦伙伴}。涂鸦伙伴大小：{涂鸦大小}。光源：{光源}。
 
+  以一张真实的随手手机快照作为底层。场景应像真实的深夜居家内景：不完美的手持取景、自然的房间杂物、温暖的实用光源、可见的布料肌理、墙面颗粒、屏幕反光，以及轻微的低光噪点。
 
-  Scene: {SUBJECT} {SUBJECT_ACTION}. Foreground prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Main handwritten text: "{MAIN_TEXT}". Secondary handwritten
-  text: "{SECONDARY_TEXT}". Accent symbol: {ACCENT_SYMBOL}. Wardrobe style: {WARDROBE_STYLE}. Doodle companion: {DOODLE_COMPANION}. Doodle companion scale: {DOODLE_SCALE}. Light source: {LIGHT_SOURCE}.
+  把一个原创的扁平 2D 靠垫玩偶伙伴合成到下方前景，或放在真实主体物件旁边。伙伴应有圆润的枕头身体、浅色布片拼贴的脸、闭合的月牙眼、小小的缝线嘴、简单的连指手套式手、毯子兜帽或围巾、深色手绘轮廓、平涂的低饱和色块，以及略微「贴上去」的贴纸质感。它应像真实照片里一位安静的插画朋友，而不是 3D 吉祥物。
 
+  涂鸦伙伴的尺度是硬性要求：让伙伴成为大尺度的前景主体，而不是角落里的小贴纸。9:16 时它应占画面约 35-45%；16:9 时它应占画面约 28-38%。让伙伴从左边缘或左下角进入，允许被画框边缘部分裁切，同时保持真实物件在它旁边或后方仍可辨认。
 
-  Use a realistic candid phone-photo as the base layer. The scene should feel like a real late-night home interior with imperfect handheld framing, natural room clutter, warm practical light, visible fabric
-  texture, wall grain, screen reflections, and mild low-light noise.
+  伙伴的身份是硬性要求：把它做成一个全新的靠垫玩偶设计，不是人类小孩，也不是参考玩具。不要给它深色头发、小麦色肤色的脸、藏青毛衣、睡裤、笑脸拖鞋，或与参考相同的坐姿剪影。
 
+  只加少量细小的手绘日记笔触，例如睡眠线、星星、闪光、呼吸痕，或一个小小的微笑。
 
-  Composite one original flat 2D cushion-doll companion into the lower foreground or beside the main real-world object. The companion should have a rounded pillow body, pale fabric patch face, closed crescent
-  eyes, tiny stitched mouth, simple mitten hands, blanket hood or scarf, dark hand-drawn outline, flat muted color fills, and a slightly pasted-on sticker finish. It should feel like a calm illustrated
-  friend inside the real photo, not a 3D mascot.
-
-
-  The doodle companion scale is mandatory: make the companion a large foreground subject, not a tiny corner sticker. In 9:16, it should occupy roughly 35-45% of the frame. In 16:9, it should occupy roughly
-  28-38% of the frame. Let the companion enter from the left or lower-left edge and allow partial cropping by the frame edge while keeping the real-world object readable beside or behind it.
-
-
-  The companion identity is mandatory: make it a new cushion-doll design, not a human child and not the reference toy. Do not give it dark hair, a tan skin-tone face, a navy sweater, pajama pants, smiley
-  slippers, or the same seated silhouette as the reference.
-
-
-  Add only a few tiny hand-drawn diary marks such as a sleep line, star, spark, breath mark, or small smile'
 id: doodle_style
 code: ''

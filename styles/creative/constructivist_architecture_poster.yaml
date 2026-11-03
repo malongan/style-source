@@ -28,11 +28,11 @@ ratio: "16:9"
 summary: "以构成主义为骨架的建筑海报风格，通过建筑轮廓、体块、轴线重新组织画面，适合美式复古风格场景"
 
 prompt: |
-  Architectural poster with constructivist style
-  Building silhouettes and volumes reorganized through architectural contours, mass blocks, axes and spatial direction
-  Buildings appear not in their original colors but as abstract poster elements
-  Bold geometric shapes, strong directional lines, American retro aesthetic
-  Clean composition with high contrast, modernist graphic design
+  构成主义风格的建筑海报
+  通过建筑轮廓、体块、轴线和空间方向，重新组织建筑的剪影与体量
+  建筑不以其原本的色彩出现，而是化为抽象的海报元素
+  大胆的几何形状，强烈的方向性线条，美式复古美学
+  干净的构图与高对比度，现代主义平面设计
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感。
 
 source_url: "https://x.com/AdrianPunk115/status/2072215905355063523?s=20"

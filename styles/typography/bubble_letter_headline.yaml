@@ -36,7 +36,8 @@ ratio: "16:9"
 summary: "蜜桃渐变泡泡字标题——圆鼓厚实手绘泡泡笔画、高光彩面、蜜桃粉→珊瑚渐变填充、奶油白纯色底、横构图主副标题层级，柔和精致"
 
 prompt: |
-  A clean pure warm cream white solid color background with no texture and no gradient. In the center, large playful bubble-letter typography: the Chinese characters "{第一行}" rendered as thick rounded plump balloon-like strokes with a glossy highlight surface, hand-drawn slight deformation, cute and energetic. The letters use a soft gradient from peach pink to coral orange, gentle and refined. Below the main headline, a smaller English secondary line "{第二行}" in a simple rounded sans-serif typeface, centered, in a soft warm gray. Every stroke has a crisp clean edge, perfectly readable. Clean minimal layout with generous breathing space, high-end toy brand aesthetic. No other elements, no decorations, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.
+  干净的纯暖奶油白实色背景，无肌理、无渐变。画面中央是活泼的大号泡泡字：中文「{第一行}」写成厚重、圆鼓、气球感十足的笔画，表面带光亮高光，手绘式轻微变形，可爱有活力。字色使用蜜桃粉到珊瑚橙的柔和渐变，温婉精致。主标题下方是较小号的英文副行「{第二行}」，用简单的圆体无衬线，居中，柔和暖灰。每一笔都有干脆干净的边缘，完全可读。干净极简的版面，留白充足，高端潮玩品牌美学。没有其他元素，没有装饰，没有边框。不要添加任何其他字母、单词、数字、标签、Logo 或伪文字。所有文字都要完全可读，并保持在安全区域内。
+
 
 variables:
   - kv_var: 第一行

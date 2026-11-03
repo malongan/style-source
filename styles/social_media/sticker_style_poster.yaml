@@ -30,7 +30,7 @@ triggers:
 features:
 - title: '保留核心视觉识别：怀旧的模拟手账拼贴人像体系，一个大型侧脸插画主体、米色方格纸背景、贴纸般的私人物件、斑驳的橙色手写字体，以及厚重的扫描印刷质感。'
   desc: ''
-- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
+- title: 用 {背景元素} 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
 - title: 以一个大型侧脸或安静的四分之三视角插画人像作为视觉锚点。
   desc: ''
@@ -40,67 +40,60 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 侧脸人像，如：半侧脸的短发女生
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 如：低头写字 / 托腮
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 贴纸般的私人物件，如：票根 / 胶带 / 小照片
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 如：书桌前的窗边
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 斑驳橙色手写字体，如：my week
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：2024.11.02
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：涂鸦星号 / 手绘箭头
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 如：宽松针织衫
-prompt: 'Create a 16:9 image in analog-sticker-diary-portrait-poster-style.
+prompt: |
+  创作一张 16:9 图像，采用 analog-sticker-diary-portrait-poster-style（模拟贴纸手账人像海报风格）。
 
+  主体：{主体}。
 
-  Subject: {SUBJECT}.
+  主体动作：{动作}。
 
-  Subject action: {SUBJECT_ACTION}.
+  主要道具：{道具}。
 
-  Primary prop: {PRODUCT_OR_PROP}.
+  暗示的地点：{场景}。
 
-  Implied location: {LOCATION}.
+  背景元素：{背景元素}。
 
-  Background elements: {BACKGROUND_ELEMENTS}.
+  主标题文字：「{主文案}」。
 
-  Main headline text: "{MAIN_TEXT}".
+  次级微文字：「{副文案}」。
 
-  Secondary micro text: "{SECONDARY_TEXT}".
+  点缀符号：{点缀符号}。
 
-  Accent symbol: {ACCENT_SYMBOL}.
+  服装造型：{造型}。
 
-  Wardrobe styling: {WARDROBE_STYLE}.
+  以一个大型侧脸或安静的四分之三视角插画人像作为视觉锚点。把主体置于米色方格笔记本纸背景上，带褪色的蓝色格线。围绕人像放置贴纸般的私人物件：小纸片、票根、食品包装、文具、挂饰、数字、涂鸦、胶带痕迹与小号手绘图标。
 
+  让主标题巨大、粗糙、手绘、全大写、橙红色，带蓝色或深色的错位阴影，缠绕在头发、衣服或空白纸面上。人像保持平静内省，而贴纸场域显得繁密而私密。
 
-  Use a large side-profile or quiet three-quarter illustrated portrait as the anchor. Put the subject on cream graph-paper notebook background with faded blue grid lines. Surround the portrait with sticker-like
-  personal objects, tiny paper scraps, tickets, food packaging, stationery, charms, numbers, doodles, tape marks, and small hand-drawn icons.
+  整张图应像扫描的校园笔记本封面、少女贴纸日记、模拟音乐 zine 与内省海报。加入纸张颗粒、半调斑点、褪色墨迹、污渍、折痕、轻微套印不准与不完美的剪裁边缘。
 
+  避免水印、用户名、创作者 ID、平台 Logo、二维码、应用 UI、光亮 3D 贴纸、干净的矢量海报、企业设计、无菌式留白、单调背景、完美无瑕的字体排印与照片写实的棚拍肖像。
 
-  Make the main headline huge, rough, hand-drawn, uppercase, orange-red, with blue or dark offset shadow, wrapping across hair, clothing, or open paper space. Keep the portrait calm and introspective while
-  the sticker field feels busy and personal.
-
-
-  The image should feel like a scanned school notebook cover, teen sticker diary, analog music zine, and introspective poster. Add paper grain, halftone speckles, faded ink, smudges, fold marks, slight
-  misregistration, and imperfect cutout edges.
-
-
-  Avoid watermark, username, creator ID, platform logo, QR code, app UI, glossy 3D stickers, clean vector poster, corporate design, sterile spacing, plain background, perfect typography, and photorealistic
-  studio portrait.'
 id: sticker_style_poster
 code: ''

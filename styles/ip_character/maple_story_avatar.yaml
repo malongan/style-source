@@ -35,15 +35,78 @@ variables:
 - kv_var: 角色名
   style_var: '{角色名}'
   desc: 如：豆豆
-prompt: "{角色设定}\n你是一位将动漫、游戏、漫画角色转换为 MapleStory 玩家角色精灵的像素艺术总监。\n\n【输入】\n角色名称 + 全身图片（推荐正面全身照）\n\n【任务】\n1. 分析 {角色名} 的代表外型特征：\n   - 发型\n   - 发色\n   - 眼睛颜色\n   - 代表服装\n   - 代表配饰\n   - 代表武器\n   - 代表象征元素\n   -\
-  \ 代表配色\n2. 在保留上述特征的前提下，重新解读为 MapleStory 玩家角色结构。\n3. 成品必须看起来像真正的 MapleStory 玩家角色精灵，而非通用像素艺术角色。\n\n[规格一：冒险岛角色结构规范]\n- 整体比例：头部+头发 60~65% / 躯干 15~18% / 腿部 20~25%，2.0~2.3 头身\n- 视角：35~45 度 Quarter View，双眼均可见，近乎平面\
-  \ 2D 精灵\n- 脸部：眼睛位于脸部下方，间距宽，横宽扁平眼，大瞳孔+高光，禁止画鼻子，嘴极小，带柔和腮红\n- 颈部：禁止表现颈部，头部直接连接身体\n- 头发：角色核心标识，体积比头骨大很多，优先轮廓，最小化发丝表达，存在顶部高光\n- 身体：躯干极小，手臂短，腿部短，简化圆柱形四肢，最小化关节表达\n- 装备图层顺序：Hair → Hat → Face Accessory → Top →\
-  \ Bottom → Shoes → Cape → Weapon\n- 姿态：Idle Standing Pose，禁止跳跃/战斗/动作表演\n\n[规格二：像素渲染规范]\n禁止风格：\n- 高分辨率像素艺术\n- Ultra Detailed Pixel Art\n- HD Pixel Art\n- 精细像素艺术\n\n目标效果（32~64px 游戏精灵放大感）：\n- Low-resolution\
-  \ game sprite\n- Enlarged MMORPG sprite\n- Chunky pixel structure\n- Grid-aligned pixel art\n- Visible pixel blocks\n- Clean 1px outline\n- Limited color palette\n- Flat color shading\n- Solid tone pixel\
-  \ blocks\n- Minimal shading\n- No dithering\n- No smooth gradients\n- No airbrush effects\n\n[规格三：输出条件]\n- Canvas Size: 1080 x 1080\n- Format: Perfect Square\n- Background: Pure White (#FFFFFF)\n- 角色数量：仅单角色\n\
-  - 可见范围：全身可见\n- 构图：居中，角色占画布高度约 75%\n- 禁止元素：裁剪、额外角色、宠物、场景、背景物品、地面、文字、Logo、水印、UI\n\n[规格四：绝对禁止风格]\nPokemon Style / Terraria Style / Stardew Valley Style\nRagnarok Online Style / JRPG Battle Sprite / Octopath\
-  \ Traveler Style\nWestern Cartoon / Disney Style / Realistic / Semi Realistic\n3D Render / Illustration / Concept Art / Splash Art / Poster / Wallpaper\nAnime Illustration / Digital Painting / Cinematic\
-  \ Lighting\nUltra Detailed Sprite / High Definition Pixel Art / Fine-Grained Pixel Art\nSmooth Gradient Shading / Airbrush Shading\n\n【收尾】\nCreate {角色名} as a true MapleStory player avatar sprite.\nThe\
-  \ result must look like an actual MapleStory player character converted from {角色名},\nnot a generic pixel-art character."
+prompt: |
+  {角色设定}
+  你是一位将动漫、游戏、漫画角色转换为 MapleStory 玩家角色精灵的像素艺术总监。
+
+  【输入】
+  角色名称 + 全身图片（推荐正面全身照）
+
+  【任务】
+  1. 分析 {角色名} 的代表外型特征：
+     - 发型
+     - 发色
+     - 眼睛颜色
+     - 代表服装
+     - 代表配饰
+     - 代表武器
+     - 代表象征元素
+     - 代表配色
+  2. 在保留上述特征的前提下，重新解读为 MapleStory 玩家角色结构。
+  3. 成品必须看起来像真正的 MapleStory 玩家角色精灵，而非通用像素艺术角色。
+
+  [规格一：冒险岛角色结构规范]
+  - 整体比例：头部+头发 60~65% / 躯干 15~18% / 腿部 20~25%，2.0~2.3 头身
+  - 视角：35~45 度 Quarter View（四分之一侧视），双眼均可见，近乎平面的 2D 精灵
+  - 脸部：眼睛位于脸部下方，间距宽，横宽扁平眼，大瞳孔+高光，禁止画鼻子，嘴极小，带柔和腮红
+  - 颈部：禁止表现颈部，头部直接连接身体
+  - 头发：角色核心标识，体积比头骨大很多，优先轮廓，最小化发丝表达，存在顶部高光
+  - 身体：躯干极小，手臂短，腿部短，简化圆柱形四肢，最小化关节表达
+  - 装备图层顺序：发型 → 帽饰 → 面部装饰 → 上衣 → 下装 → 鞋 → 披风 → 武器（Hair → Hat → Face Accessory → Top → Bottom → Shoes → Cape → Weapon）
+  - 姿态：Idle Standing Pose（待机站姿），禁止跳跃/战斗/动作表演
+
+  [规格二：像素渲染规范]
+  禁止风格：
+  - 高分辨率像素艺术
+  - 超精细像素艺术（Ultra Detailed Pixel Art）
+  - 高清像素艺术（HD Pixel Art）
+  - 精细像素艺术
+
+  目标效果（32~64px 游戏精灵放大感）：
+  - 低分辨率游戏精灵
+  - 放大的 MMORPG 精灵
+  - 块状像素结构
+  - 对齐网格的像素艺术
+  - 可见的像素块
+  - 干净的 1px 描边
+  - 有限的调色板
+  - 平涂上色
+  - 实色像素块
+  - 极简阴影
+  - 无抖动
+  - 无平滑渐变
+  - 无喷枪效果
+
+  [规格三：输出条件]
+  - 画布尺寸：1080 x 1080
+  - 格式：完美正方形
+  - 背景：纯白（#FFFFFF）
+  - 角色数量：仅单角色
+  - 可见范围：全身可见
+  - 构图：居中，角色占画布高度约 75%
+  - 禁止元素：裁剪、额外角色、宠物、场景、背景物品、地面、文字、Logo、水印、UI
+
+  [规格四：绝对禁止风格]
+  Pokemon Style / Terraria Style / Stardew Valley Style
+  Ragnarok Online Style / JRPG Battle Sprite / Octopath Traveler Style
+  Western Cartoon（西式卡通）/ Disney Style / 写实 / 半写实
+  3D 渲染 / 插画 / 概念设定图 / 宣传图 / 海报 / 壁纸
+  动漫插画 / 数字绘画 / 电影级光照
+  超精细精灵 / 高清像素艺术 / 细颗粒像素艺术
+  平滑渐变阴影 / 喷枪阴影
+
+  【收尾】
+  把 {角色名} 生成为真正的 MapleStory 玩家角色精灵。
+  成品必须看起来像是由 {角色名} 转换而来的真实 MapleStory 玩家角色，而不是一个通用的像素艺术角色。
 id: maple_story_avatar
 code: ''

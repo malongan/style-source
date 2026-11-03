@@ -33,8 +33,7 @@ ratio: "16:9"
 summary: "浮雕纸浆中文衬线标题——素色浅浮雕、纸浆低反光、柔和侧光亮线、暖沙色低彩度、首行紧凑次行拉开字距，沉稳文化感"
 
 prompt: |
-  A clean pure warm sand beige solid color background with no texture and no gradient. In the center, the Chinese characters "{第一行}" and "{第二行}" rendered as a monumental bas-relief sculpture: flat low-relief, low-reflectance paper-pulp texture, soft diffused lighting with very subtle bright edge lines on the raised outlines, low-saturation warm sand color, elegant Chinese serif typeface. The title is split into two stacked lines, both centered: first line compact "{第一行}", second line enlarged with wide letter spacing "{第二行}". Below, a smaller secondary line "{副行}" in the same bas-relief serif style, smaller scale. Clean minimal layout with generous whitespace, high-end cultural brand aesthetic. Every character must be clearly readable with crisp clean edges. No other elements, no decorations, no frames. Do not add any other letters, words, numbers, labels, logos, or pseudo-text. Keep all text fully legible and inside the safe area.
-
+  干净纯粹的暖沙米色纯色背景，无纹理、无渐变。画面中央，中文文字「{第一行}」与「{第二行}」以纪念碑式浅浮雕雕塑呈现：平缓的浅浮雕、低反光的纸浆质感、柔和漫射光在凸起轮廓上留下极浅的亮边线、低饱和暖沙色、优雅的中文衬线字体。标题分两行堆叠，均居中：第一行紧凑「{第一行}」，第二行放大并拉开字距「{第二行}」。下方一行更小的次级文字「{副行}」，同样采用浅浮雕衬线风格，尺度更小。干净极简的版式，留白充裕，高端文化品牌美学。每个字都必须清晰可读，边缘利落干净。没有其他元素，没有装饰，没有边框。不要添加任何其他字母、单词、数字、标签、Logo 或伪文字。所有文字必须完全清晰可辨，并保持在安全区内。
 variables:
   - kv_var: 第一行
     style_var: '{第一行}'

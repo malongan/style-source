@@ -30,12 +30,13 @@ ratio: "3:4"
 summary: "以专业黑白棚拍为基底，85mm f/1.8 高画质人像，柔和侧光与灰色渐变背景，Vogue/Harper's Bazaar 风格的优雅高端时尚人像"
 
 prompt: |
-  Professional black-and-white studio portrait of the same person, three-quarter body turn, head gently tilted, face toward camera, intense direct gaze, neutral expression, wearing a black ribbed turtleneck. Soft directional light from upper left, dimensional shadow on right side of face, subtle rim light, smooth grey gradient backdrop.
+  同一人物的专业黑白棚拍肖像，身体转成四分之三侧，头微微侧倾，面朝镜头，强烈直接的凝视，表情中性，穿黑色罗纹高领衫。左上方柔和的定向光，脸右侧有立体阴影，微妙的轮廓光，平滑的灰色渐变背景。
 
-  Shot on 85mm f/1.8, ultra-realistic skin with visible pores and texture, no smoothing, natural knit fabric folds, rich blacks, clean whites, true monochrome, hyper-detailed, magazine-editorial quality, 8K sharpness. Elegant, high-fashion mood, Vogue/Harper's Bazaar style.
+  以 85mm f/1.8 拍摄，超写实皮肤，可见毛孔与肤质，不磨皮，针织面料褶皱自然，黑位浓郁，白位干净，纯正单色，超精细，杂志编辑级品质，8K 锐度。优雅、高级时装氛围，Vogue/Harper's Bazaar 风格。
 
-  Avoid: color cast, over-smoothing, plastic skin, asymmetry, identity drift, altered hair, head coverings, extra fingers, anatomical errors.
+  避免：偏色、过度磨皮、塑料皮肤、不对称、身份漂移、改变发型、头饰、多余的手指、解剖结构错误。
   不要水印，不要真实Logo，不要电商广告感。
+
 
 source_url: "https://x.com/Faeiz4Ai/status/2087211243627028491"
 source_author: "@Faeiz4Ai"

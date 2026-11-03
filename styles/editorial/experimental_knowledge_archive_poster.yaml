@@ -31,7 +31,7 @@ ratio: "3:4"
 summary: "黑白科学图鉴线稿 + 荧光酸黄平面色块 + 超大中英文排版，呈现实验性独立出版物的知识档案气质"
 
 prompt: |
-  {subject}主题实验性杂志封面。画面采用竖版4:5比例，浅灰白纸张背景。
+  {主体}主题实验性杂志封面。画面采用竖版4:5比例，浅灰白纸张背景。
 
   【版式】非对称编辑网格，大面积负空间，局部拥挤局部空旷，部分元素被页面边缘裁切，保持"理性排序"与"受控混沌"。
 
@@ -50,7 +50,7 @@ prompt: |
 
 variables:
 - kv_var: 主体
-  style_var: '{subject}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 source_url: "https://x.com/xiaoxiaodong01/status/2081583498037698587"
 source_author: "小小东"

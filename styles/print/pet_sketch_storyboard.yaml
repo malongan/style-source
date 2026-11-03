@@ -36,7 +36,7 @@ triggers:
 features:
 - title: '保留核心视觉识别：为漫画宠物场景设计的松放动画开发草图风格，暖米色纸张、红棕结构线、糙刮的深勃艮第轮廓线、半透明铺色、简单室内道具，以及夸张的动物表情。'
   desc: ''
-- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
+- title: 用 {背景元素} 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
 - title: 参考图仅作风格参照，不作为要照抄的场景。
   desc: ''
@@ -46,60 +46,55 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 宠物，如：一只柴犬
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 宠物的动作，如：歪头看镜头 / 趴着打哈欠
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 室内道具，如：毛线球 / 食盆
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{地点}'
   desc: 如：客厅沙发旁
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 如：GOOD BOY
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：scene 03
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：速度线 / 惊叹号
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 宠物配饰，如：小围巾
-prompt: 'Create a 16:9 image in the "Rough Animation Pet Sketch Storyboard" style.
+prompt: |
+  创作一张 16:9 图像，采用「粗放动画宠物分镜草图风格」。
 
+  主体：{主体}。
 
-  Subject: {SUBJECT}.
+  主体动作：{动作}。
 
-  Subject action: {SUBJECT_ACTION}.
+  产品/道具：{道具}。
 
-  Product or prop: {PRODUCT_OR_PROP}.
+  地点：{地点}。
 
-  Location: {LOCATION}.
+  背景元素：{背景元素}。
 
-  Background elements: {BACKGROUND_ELEMENTS}.
+  主文案：{主文案}。
 
-  Main text: {MAIN_TEXT}.
+  副文案：{副文案}。
 
-  Secondary text: {SECONDARY_TEXT}.
+  点缀符号：{点缀符号}。
 
-  Accent symbol: {ACCENT_SYMBOL}.
+  服装造型：{造型}。
 
-  Wardrobe or visual styling: {WARDROBE_STYLE}.
+  参考图仅作风格参照，不作为要照抄的场景。保留这套视觉语言：暖米色纸张、松放的红棕结构线、糙刮的深勃艮第轮廓笔触、半透明水彩感铺色、粗放动画分镜的完成度、轻描的室内背景、夸张的原创宠物表情、巨大的椭圆眼、极小的瞳孔、可见的修改笔触，以及一个清晰的漫画道具驱动节拍。
 
-
-  Use the reference only as a style reference, not as a scene to copy. Preserve the visual language: warm beige paper, loose red-brown construction lines, scratchy dark burgundy contour strokes, semi-transparent
-  watercolor-like color wash, rough animation storyboard finish, lightly sketched interior background, exaggerated original pet expressions, huge oval eyes, tiny pupils, visible correction strokes, and
-  one clear comic prop-driven beat.
-
-
-  Stage the scene like an animation story artist frame. Keep one character in an extreme emotional pose and another character in a contrasting deadpan or suspicious reaction. Make the foreground prop explain
-  the joke. Leave sketch marks, motion ticks, crumbs, rough shadows, and unfinished room lines visible. Do not include platform UI, watermarks, creator IDs, logos, QR codes, app buttons, or copied characters.'
+  像动画分镜师那样调度画面：让一个角色处于极端情绪的姿势，另一个角色以相反的冷面或怀疑反应对照。让前景道具把笑点讲清楚。保留可见的草稿痕迹、动势短线、碎屑、粗放阴影与未完成的室内线条。不要包含平台 UI、水印、创作者 ID、Logo、二维码、App 按钮或照抄的角色。
 id: pet_sketch_storyboard
 code: ''

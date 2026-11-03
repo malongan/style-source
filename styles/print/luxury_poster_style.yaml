@@ -28,37 +28,34 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 主角家具，如：一把单人扶手椅
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{位置关系}'
   desc: 位置与空间关系，如：略偏右、占据中景
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 配合陈列的物件，如：落地灯 / 矮几
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 拍摄环境，如：暖米白影棚
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 超大号深森林绿展示字体，如：FORMA
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 稀疏目录小字，如：collection 04 / oak
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：细线 / 描边目录标签
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{材质}'
   desc: 家具材质与表面，如：浅色橡木 + 亚麻
-prompt: 'Create a 16:9 luxury furniture editorial poster in the Quiet Luxury Furniture Nameplate Poster Style. Subject: {SUBJECT}. Position and spatial relationship: {SUBJECT_ACTION}. Product
-  or prop: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background elements: {BACKGROUND_ELEMENTS}. Large rear display text: {MAIN_TEXT}. Secondary catalog text: {SECONDARY_TEXT}. Accent symbol or chip: {ACCENT_SYMBOL}.
-  Furniture material styling: {WARDROBE_STYLE}. Style fidelity anchors to preserve: the core visual anchors of this style. Source content to avoid: watermarks, real logos, and commercial advertising. Build a warm off-white studio poster field
-  with subtle paper softness, one oversized deep forest-green geometric sans display word behind the product, a thin top horizontal rule with small spaced catalog navigation words, compact lower-left microcopy,
-  two small outlined catalog chips near the lower-right, and a dark green rounded product-information bar across the bottom. The furniture must be realistic, premium, materially detailed, softly shadowed,
-  and large enough to overlap the rear typography. Keep the image sparse, refined, gallery-like, and brandless. Do not use real logos, watermarks, QR codes, app UI, price tags, or exact source text.'
+prompt: |
+  创作一张 16:9 的奢华家具编辑海报，采用「静奢家具铭牌海报」风格。主体：{主体}。位置与空间关系：{位置关系}。产品/道具：{道具}。地点：{场景}。背景元素：{背景元素}。后方大号展示字：{主文案}。次级目录文案：{副文案}。点缀符号或标签片：{点缀符号}。家具材质与表面：{材质}。需保留的风格保真锚点：本风格的核心视觉锚点。需避免的源内容：水印、真实 logo 与商业广告。搭建一片暖米白的影棚海报场：带轻微的纸张柔感，产品背后一个超大的深森林绿几何无衬线展示词，顶部一条细横线配字距拉开的小号目录导航词，左下角紧凑的微型文案，右下附近两个小的描边目录标签片，底部横贯一条深绿色圆角的产品信息条。家具必须写实、高级、材质细节丰富、带柔和阴影，且尺度足够大以叠压后方的字体。画面保持稀疏、精致、画廊感、无品牌。不要使用真实 logo、水印、二维码、App UI、价签，或与源完全相同的文字。
+
 id: luxury_poster_style
 code: ''

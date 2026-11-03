@@ -29,15 +29,14 @@ ratio: "3:4"
 summary: "把产品放在浅色自然承托面上，搭配素净居家日光的柔和背景、纯白文字排版与手绘小装饰，呈现清爽高质感的生活方式广告视觉"
 
 prompt: |
-  Clean lifestyle advertising visual centered around {products}. Close-up of the main subject placed on a light natural-textured handmade surface, soft and voluminous, delicate edges, with perceptible texture details on the surface (fine fuzz, pores, slight mottling, or real tactile feel corresponding to the subject). Background recedes into bright clean domestic daylight space, shallow depth of field turning distant objects, fabric patterns, greenery and window highlights into soft bokeh, leaving only gentle seasonal atmosphere. Information layer uses large-area pure white text positioned in the upper portion and left space. Main title uses high-contrast, rounded terminals, slightly hand-drawn warm Mincho-style typography, loose letter spacing, generous line height; title horizontally spreads and creates off-center balance with the main subject. Secondary text reduced to lightweight handwriting style, pausing in two lines along the left white space. Top adds fine white hand-drawn brackets or bubble lines. Bottom corner features a low-saturation pastel or theme-derived soft round sticker with hand-drawn white outline and loose handwritten text inside. Color follows the theme: background high-key, low-saturation, clean warm off-white and light gray; main subject carries the most vivid but not harsh seasonal color {product_color}; surface uses warm natural light tone as middle layer; greenery or theme accents only as minimal fresh bright spots. Overall light: high-key soft light diffusing from side-back, very shallow shadows, low contrast, transparent air. Avoid hard commercial studio lighting, heavy dark tones, complex decorations.
-  No watermark, no real logo, no e-commerce ad feel.
-
+  清爽生活方式广告视觉，围绕{产品}展开。主物近景，置于浅色天然肌理的手作承托面上，柔软饱满、边缘细腻，表面可感知材质细节（细绒毛、细孔、轻微色斑，或与主体相符的真实触感）。背景退入明亮干净的居家日光空间，浅景深把远处物体、布料纹样、绿植与窗光化为柔和光斑，只留下温和的季节氛围。信息层使用大面积纯白文字，压在上半部与左侧空域。主标题采用高对比、圆润端点、略带手写温度的明朝体字形，字距宽松，行高充裕；标题横向铺开，与主物形成偏心平衡。次级文字缩减为轻巧的手写体，在左侧留白处断成两行。顶部加入细白手绘括号或气泡线。底部角落放一枚低饱和粉彩或取自主题的柔和圆形贴纸，内为手绘白描圈与松散手写字。色彩跟随主题：背景高键、低饱和，干净的暖米白与浅灰；主物承担最鲜明但不刺眼的季节色{产品色}；承托面用温暖天然的浅色作为中间层；绿植或主题点缀只作极少量的清新亮点。整体光线：从侧后方漫入的高键柔光，阴影极浅，反差低，空气透明。避免生硬的商业影棚光、厚重的暗调、复杂的装饰。
+  不要水印，不要真实Logo，不要电商广告感。
 variables:
 - kv_var: 产品
-  style_var: '{products}'
+  style_var: '{产品}'
   desc: 主角产品是什么
 - kv_var: 产品颜色
-  style_var: '{product_color}'
+  style_var: '{产品色}'
   desc: 产品主色，如：蜜橘色
 source_url: "https://x.com/xiaoxiaodong01/status/2078657941876703724?s=20"
 source_author: "小小东"

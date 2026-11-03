@@ -22,37 +22,34 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 超模，如：一位轮廓分明的女模
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{姿态}'
   desc: 如：低头侧望 / 抬手拨发
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 如：手拿一束野花
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 户外繁茂前景，如：高草丛边
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 如：LIGHT
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 如：白衬衫 + 金属耳饰
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：材质铭牌 / 细线
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：a study in daylight
-prompt: 'Create a 16:9 premium analog fashion editorial poster photograph. Subject: {SUBJECT}. Action and pose: {SUBJECT_ACTION}. Wardrobe and styling: {WARDROBE_STYLE}. Product or prop: {PRODUCT_OR_PROP},
-  with a small physical nameplate, plaque, tag, or engraved label integrated into the object. Location: {LOCATION}. Background and foreground details: {BACKGROUND_ELEMENTS}. Preserve these style fidelity
-  anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use warm direct sunlight, shallow depth of field, foreground botanical or textile blur, slight film grain, soft
-  analog shadows, tactile fabric and metal textures, relaxed luxury mood, and a close low editorial camera angle. Add clean white lower-third typography: large uppercase headline text reading "{MAIN_TEXT}"
-  followed by the accent "{ACCENT_SYMBOL}", with a smaller white caption block reading "{SECONDARY_TEXT}". The typography should feel printed on a fashion magazine prompt-card poster, not like a watermark
-  or app UI. Do not use real logos or real brand marks.'
+prompt: |
+  创作一张 16:9 的高级模拟胶片时尚编辑海报照片。主体：{主体}。动作与姿态：{姿态}。服装与造型：{造型}。产品/道具：{道具}，其上整合一块小的实体铭牌、铭板、标签或雕刻标牌。地点：{场景}。背景与前景细节：{背景元素}。保留这些风格保真锚点：本风格的核心视觉锚点。避免这些源内容：水印、真实 logo 与商业广告。使用温暖的直射阳光、浅景深、前景的植物或织物虚化、轻微胶片颗粒、柔和的模拟阴影、可触的布料与金属质感、放松的奢华情绪，以及贴近的低角度编辑机位。加入干净的白色下三分之一排版：大号大写主标题「{主文案}」，其后是点缀「{点缀符号}」，再配一块较小的白色说明文字块「{副文案}」。字体应像印在时尚杂志提示卡海报上，而不是水印或 App UI。不要使用真实 logo 或真实品牌标识。
+
 id: editorial
 code: ''

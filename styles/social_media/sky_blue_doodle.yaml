@@ -26,33 +26,34 @@ features:
   desc: ''
 variables:
 - kv_var: 主标题
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主标题}'
   desc: 手写标题
 - kv_var: 标语
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{标语}'
   desc: 日期、副标题
 - kv_var: 画面-主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 卡通角色
 - kv_var: 画面-动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 简单家居动作
 - kv_var: 画面-场景
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 室内区域
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 单个符号或小图案，如：✦ / ★ / 涂鸦箭头
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 画面里的辅助物件
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 人物穿搭
 prompt: |
-  Create an original 9:16 poster illustration in the Sky Blue Home Life Doodle Poster style. Preserve these style anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Use a full pastel sky-blue outer field and a large rough off-white house-shaped inset with thick wobbly black marker outlines. Put a huge uneven black hand-lettered headline reading {MAIN_TEXT} across the top, plus {SECONDARY_TEXT} as a small slanted support label and {ACCENT_SYMBOL} as a small graphic accent. Inside the house inset, show {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Add {BACKGROUND_ELEMENTS} as simple flat home icons. Dress or style the subject with {WARDROBE_STYLE}. Use chunky rounded cartoon anatomy, oversized hands or props when useful, flat poster colors, no gradients, naive flattened perspective, casual marker wobble, and a youthful handmade home-event mood. All text, characters, props, and scene details must be original and must not copy the reference.
+  创作一张原创的 9:16 海报插画，采用 Sky Blue Home Life Doodle 风格。保留这些风格锚点：该风格的核心视觉锚点。避免这些源内容：水印、真实 Logo 与商业广告。使用满屏的粉彩天蓝外场，以及一个巨大的、粗糙的米白房屋形内嵌，带粗重歪斜的黑色马克笔轮廓。把巨大的、歪斜的黑色手写主标题{主标题}横排在顶部，再把{标语}作为小的倾斜辅助标签，{点缀符号}作为小型图形点缀。在房屋内嵌里，展示{主体}{动作}，配{道具}，地点在{场景}。加入{背景元素}，作为简单的扁平家居图标。用{造型}给主体做服装或造型。使用粗胖圆润的卡通解剖、必要时夸张放大的手或道具、平涂海报颜色、不要渐变、天真的平面化透视、随性的马克笔歪斜，以及年轻的手作家居活动氛围。所有文字、角色、道具与场景细节都必须原创，不得照搬参考图。
+
 id: sky_blue_doodle
 code: ''

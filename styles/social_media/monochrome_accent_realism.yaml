@@ -30,12 +30,12 @@ ratio: "3:2"
 summary: "以超写实黑白铅笔画为主视觉，单一粗犷红色笔触点缀画面，打破全黑白单调，画廊级纯艺术质感"
 
 prompt: |
-  Hyper-realistic black and white sketch of a {subject}, detailed pencil linework with subtle graphite shading, accented by a single bold stroke of red. High-resolution, clean composition, fine art illustration style, ideal for gallery wall prints or modern posters.
+  一张{主体}的超写实黑白素描：细腻铅笔线稿，石墨明暗过渡微妙，仅用一笔粗犷的红色笔触点缀。高分辨率、构图干净，纯艺术插画风格，适合画廊墙画印刷或现代海报。
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
 - kv_var: 主体
-  style_var: '{subject}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 source_url: "https://x.com/azed_ai/status/2087131938595504540"
 source_author: "@azed_ai"

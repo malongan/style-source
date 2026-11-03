@@ -30,51 +30,50 @@ ratio: "4:5"
 summary: "精品咖啡馆新品菜单海报，杂志编辑风暖调摄影，精致衬线排版"
 
 prompt: |
-  Create a premium cafe advertisement poster featuring {PRODUCT_NAME} as the main subject. The composition should follow a clean, minimalist, editorial style with warm natural sunlight, soft plant shadows, elegant typography, and a sophisticated luxury aesthetic.
+  创作一张精品咖啡馆广告海报，以{产品名}为主角。构图应遵循干净、极简的编辑风格，配温暖的自然日光、柔和的植物投影、优雅的字体与精致的高级美学。
 
-  Place a beautifully styled drink at the center of the composition inside a transparent glass with realistic textures, reflections, condensation, and garnish details appropriate for the beverage.
+  把一杯造型精美的饮品放在画面中央，装在透明玻璃杯中，具备真实的材质、反射、冷凝水珠，以及与饮品相配的装饰细节。
 
-  The scene should include a wooden table, subtle decorative elements, blurred greenery, and soft beige backgrounds to create a warm and inviting atmosphere.
+  场景应包含木质桌面、细微的装饰元素、虚化的绿植与柔和的米色背景，营造温暖而诱人的氛围。
 
-  Display the text in the following structure:
+  文字按以下结构排布：
 
-  Top section:
-  • 'NEW MENU' headline
-  • {SUBTITLE}
+  上部：
+  • 「NEW MENU」主标题
+  • {副标题}
 
-  Middle section:
-  • {PRODUCT_NAME}
-  • {DESCRIPTION}
+  中部：
+  • {产品名}
+  • {描述}
 
-  Bottom section:
-  • {PRICE}
+  下部：
+  • {价格}
 
-  Style requirements:
-  • Editorial food photography
-  • Soft natural lighting
-  • Cinematic composition
-  • Luxury cafe branding
-  • Elegant serif typography
-  • Realistic shadows and highlights
-  • Minimalist layout
-  • High-detail product photography
+  风格要求：
+  • 编辑式美食摄影
+  • 柔和自然光
+  • 电影感构图
+  • 奢华咖啡馆品牌感
+  • 优雅衬线字体
+  • 真实的阴影与高光
+  • 极简版式
+  • 高细节产品摄影
 
-  Aspect ratio: 4:5.
+  画幅：4:5。
 
   不要水印，不要真实Logo，不要电商广告感。
-
 variables:
 - kv_var: 产品名称
-  style_var: '{PRODUCT_NAME}'
+  style_var: '{产品名}'
   desc: 这个产品的名字
 - kv_var: 副标题
-  style_var: '{SUBTITLE}'
+  style_var: '{副标题}'
   desc: 次级标题，如：限定发售
 - kv_var: 描述
-  style_var: '{DESCRIPTION}'
+  style_var: '{描述}'
   desc: 产品一句话描述，如：手冲单品，果香明亮
 - kv_var: 价格
-  style_var: '{PRICE}'
+  style_var: '{价格}'
   desc: 价格或优惠信息
 source_url: "https://x.com/Maercihh/status/2084869002665615462"
 source_author: "@Maercihh"

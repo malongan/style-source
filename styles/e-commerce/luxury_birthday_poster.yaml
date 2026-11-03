@@ -30,36 +30,30 @@ features:
   desc: ''
 - title: '**光效**：温暖电影感金色侧光 + 轮廓光'
   desc: ''
-- title: '**排版**：墙上文字 `[NAME] CHAPTER [AGE] [AGE] 365 MORE DAYS OF WONDER`'
+- title: '**排版**：墙上文字 `{名称} CHAPTER {年龄} {年龄} 365 MORE DAYS OF WONDER`'
   desc: ''
 - title: '**整体风格**：极简奢华编辑风、高端杂志封面质感'
   desc: ''
 variables:
 - kv_var: 年龄
-  style_var: '{AGE}'
+  style_var: '{年龄}'
   desc: 如：30
 - kv_var: 名称
-  style_var: '{NAME}'
+  style_var: '{名称}'
   desc: 主角名字，如：LIN
-prompt: 'Professional luxury birthday poster, 3:4 portrait composition, ultra high-end studio photography aesthetic. Premium off-white textured paper wall background with subtle grain and depth.
+prompt: |
+  专业奢华生日海报，3:4 竖版构图，超高端影棚摄影美学。高级米白纹理纸墙背景，带细腻颗粒与纵深。
 
+  一个巨大的数字{年龄}被精确地雕刻进墙面，厚度真实、边缘做斜切，深处的内阴影营造出强烈的 3D 纵深。数字内部：柔和的粉彩粉气球、优雅的白花，以及极简高级造型的奢牌花束。
 
-  A large number {AGE} is precisely carved into the wall with realistic thickness, beveled edges, and deep inner shadows creating strong 3D depth. Inside the number: soft pastel pink balloons, elegant white
-  flowers, and luxury bouquet arrangement with minimal premium styling.
+  一个开心的{年龄}岁孩子，保留面部身份特征，身穿米白 T 恤与粉彩粉背带裤，自然地大笑。
 
+  脸、肩、一只手与一只脚从雕刻的数字中伸出，形成真实的 3D 凸出效果。
 
-  A happy {AGE}-year-old child with preserved facial identity, wearing a milky white T-shirt and pastel pink denim overalls, laughing naturally.
+  来自一侧的温暖电影感金色阳光，柔和轮廓光，超写实的皮肤纹理，影棚级布光，干净自然的阴影，照片级写实渲染。
 
+  墙面文字：{名称} CHAPTER {年龄} {年龄} 365 MORE DAYS OF WONDER。
 
-  Face, shoulder, one hand, and one foot extend outside the carved number, creating a realistic 3D pop-out effect.
-
-
-  Warm cinematic golden sunlight from one side, soft rim light, ultra-realistic skin texture, studio-quality lighting, clean natural shadows, photorealistic rendering.
-
-
-  Typography on wall: {NAME} CHAPTER {AGE} {AGE} 365 MORE DAYS OF WONDER.
-
-
-  Minimal luxury editorial layout, high-end magazine cover style, perfect composition, soft contrast, natural colors, no distortions, no AI artifacts.'
+  极简奢华编辑版式，高端杂志封面风格，构图完美，对比柔和，色彩自然，不要畸变，不要 AI 瑕疵。
 id: luxury_birthday_poster
 code: ''

@@ -36,7 +36,8 @@ ratio: "16:9"
 summary: "先锋抽象创意字体——笔画大胆重组、局部夸张变形、流畅线条强节奏、扁平矢量、黑底白字+单亮色点缀，高级前卫大师感"
 
 prompt: |
-  Pure black background, flat vector illustration style, creative typography logo design. The main element is the Chinese slogan "{中文Slogan}" rendered as a pioneer abstract font: letterforms with boldly restructured strokes, partial strokes exaggerated, extended and disconnected, smooth flowing lines with strong rhythmic momentum, high-contrast stroke weight, clean sharp edges, flat design with no 3D shadow, no gradient. The English phrase "{英文副行}" placed smaller beneath the Chinese, in a refined thin geometric sans-serif, subtle letter spacing. Monochrome white on black as the base, with one restrained bright accent color (electric orange) on a single key stroke to create a visual focal point. Overall avant-garde, premium, strong visual impact, master-level typography design. Every character must be clearly readable, keep all text inside the safe area. Do not add any other letters, words, numbers, labels, logos, or pseudo-text.
+  纯黑背景，扁平矢量插画风格，创意字体 Logo 设计。主体是中文标语「{中文Slogan}」，以先锋抽象字体呈现：字形笔画被大胆重组，局部笔画夸张、延伸、断开，线条流畅并带强烈的节奏动势，笔画粗细高对比，边缘干净锐利，扁平设计，无 3D 阴影、无渐变。英文短语「{英文副行}」以较小字号置于中文之下，用精致的细几何无衬线体，字距微妙。以黑底白字为基调，只在单一关键笔画上使用一处克制的亮色（电光橙），制造视觉焦点。整体先锋、高级、视觉冲击强，大师级字体设计。每个字都必须清晰可读，所有文字保持在安全区域内。不要添加任何其他字母、单词、数字、标签、Logo 或伪文字。
+
 
 variables:
   - kv_var: 中文Slogan

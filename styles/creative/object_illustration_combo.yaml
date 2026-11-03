@@ -30,23 +30,18 @@ features:
   desc: 干净留白
 variables:
 - kv_var: 日常物品
-  style_var: '{EVERYDAY_OBJECT}'
+  style_var: '{日常物品}'
   desc: 真实物品，如：一支铅笔 / 一把钥匙
 - kv_var: 物体
-  style_var: '{OBJECT}'
+  style_var: '{物件}'
   desc: 如：一只玻璃瓶
-prompt: 'Creative composite photograph, 9:16 vertical aspect ratio, clean minimalist white background, studio lighting, high detail, sharp focus.
+prompt: |
+  创意合成照片，9:16 竖版画幅，干净极简的白色背景，影棚布光，高细节，锐利对焦。
 
+  一件真实的{日常物品}被实际放置并完美融入一幅黑色墨水手绘卡通插画，成为画面的关键部分。绘画是简洁、富表现力的线条画，阴影极少，像纸上的快速速写。
 
-  A real-life {EVERYDAY_OBJECT} is physically placed and perfectly integrated as a key part of a hand-drawn black ink cartoon illustration. The drawing is simple, expressive line art with minimal shading,
-  like a quick sketch on paper.
+  {物件}代表［画面巧思所在——例如头发、武器、身体部位、服装等］，巧妙地完成视觉双关或概念。卡通角色以幽默、有意义或出人意料的方式与该物件动态互动。
 
-
-  The {OBJECT} represents [CLEVER PART OF THE SCENE - e.g. hair, weapon, body part, clothing, etc.], cleverly completing the visual pun or concept. The cartoon character interacts dynamically with the object
-  in a humorous, meaningful, or surprising way.
-
-
-  Photorealistic object + bold black line drawing style, perfect seamless blend between real object and illustration, clean negative space, artistic and witty concept, high quality product photography mixed
-  with doodle art.'
+  照片级写实物件 + 大胆的黑色线描风格，真实物件与插画之间完美无缝融合，干净的负空间，有艺术感且机智的概念，高品质产品摄影与涂鸦艺术的混合。
 id: object_illustration_combo
 code: ''

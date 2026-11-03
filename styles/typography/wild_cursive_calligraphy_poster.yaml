@@ -41,7 +41,7 @@ ratio: "4:3"
 summary: "狂草书法电影海报字体——超粗笔画流畅飘逸、飞白效果、狂野奔放富有动感、干净黑底、印章点缀、电影海报构图"
 
 prompt: |
-  "{中文标题}", wild cursive Chinese calligraphy poster, ultra-thick bold strokes, ink wash with flying white effect, strokes connecting and flowing with wild abandon, dynamic visual tension, black background, master calligraphy poster, movie poster composition, "{英文副行}" small English text at bottom, red Chinese seal stamp accent with "{印章文字}", pure typography design, no decorations
+  「{中文标题}」，狂草中文书法海报，超粗的粗壮笔画，带飞白效果的墨韵，笔画连绵奔放地流动，充满动态的视觉张力，黑色背景，名家书法海报，电影海报式构图，底部小号英文「{英文副行}」，红色中国印章点缀，印文为「{印章文字}」，纯字体设计，无装饰
 
 variables:
   - kv_var: 中文标题

@@ -35,10 +35,9 @@ summary: "融合石墨素描现实主义与高端数字绘画的当代肖像插�
 prompt: |
   主体：{主体}，{姿态情绪}。背景由{背景形状}构成。
 
-  Masterfully handcrafted contemporary portrait illustration blending refined graphite sketch realism with ultra-premium painterly digital art. Delicate construction lines, loose exploratory pencil strokes, soft cross-hatching, and expressive sketch marks remain subtly visible beneath highly refined rendering. Smooth sculpted facial anatomy with elegant semi-realistic anime influence, luminous porcelain skin, silky volumetric shading, and cinematic soft lighting. Hair rendered with flowing individual strands, combining sketch-like gesture with luxurious satin highlights and subtle reflective sheen. Painterly brushwork merges seamlessly with crisp draftsmanship, balancing unfinished artistic spontaneity and polished realism. Minimalist abstract background composed of clean geometric brushstrokes, soft angular shapes, layered translucent paint, and subtle metallic-inspired accent strokes. Muted monochromatic palette with cool blue-gray, ivory, soft charcoal, warm off-white, and gentle neutral tones. Sophisticated editorial illustration aesthetic, museum-quality mixed-media finish, refined negative space, elegant composition, premium concept-art craftsmanship, handcrafted rather than photographic, ultra-detailed, timeless, atmospheric, and emotionally understated.
+  大师级手工绘制的当代肖像插画，融合精炼的石墨素描写实与超高端绘画性数字艺术。在高度精炼的渲染之下，仍隐约可见细致的结构线、松散的探索性铅笔笔触、柔和的交叉排线与富有表现力的速写痕迹。面部解剖光滑如雕塑，带优雅的半写实动漫影响；肌肤如发光的瓷器，体积阴影丝滑，光线柔和如电影。头发以流畅的独立发丝呈现，把速写般的手势与奢华缎面高光、细微的反射光泽结合起来。绘画性笔触与利落的素描功底无缝融合，在未完成的艺术随性与打磨过的写实之间取得平衡。极简抽象背景，由干净的几何笔触、柔和的角度形状、层叠的半透明颜料与细微的金属感点缀笔触构成。低饱和单色调色盘：冷蓝灰、象牙白、柔和炭灰、暖米白与温和的中性色。高级编辑插画美学，博物馆级混合媒介完成度，精致的负空间，优雅的构图，高端概念艺术工艺，手绘而非摄影，超精细，恒久，有氛围，情绪克制。
 
   不要水印，不要真实Logo，不要电商广告感，不要乱码。
-
 variables:
   - kv_var: 主体
     style_var: "{主体}"

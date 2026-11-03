@@ -39,38 +39,34 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 滑板手，如：戴帽子的青少年滑手
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 如：腾空 ollie / 滑行中
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 如：滑板 / 耳机
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 如：街角台阶 / 滑板场
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 松散红色手写边框字，如：SK8
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 如：宽松 T 恤 + 工装裤
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：issue 04
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：涂鸦线 / 星号
-prompt: 'Create an image in Teenage Skate Scribble Screenprint Poster style. Aspect ratio: 16:9. Scene: {SUBJECT} {SUBJECT_ACTION} with {PRODUCT_OR_PROP} at {LOCATION}. Place the subject as one
-  oversized central posterized cutout with a compressed crouching or skating pose. Use {WARDROBE_STYLE}. Build the composition on a warm cream paper field with a green skateboard, rail, board, or long prop
-  sweeping across the lower third. Wrap loose red hand-lettered border words reading "{MAIN_TEXT}" around the edges, add small handwritten fragments reading "{SECONDARY_TEXT}", and include {ACCENT_SYMBOL}.
-  Add {BACKGROUND_ELEMENTS}. Use rough duotone screen-print texture, deep navy clothing, dusty gray pants, mustard ochre skin, dry black speckle, halftone dirt, paper grain, ink skips, imperfect registration,
-  and handmade indie skate zine energy. Avoid watermark, username, creator ID, QR code, platform logo, app UI, exact copied reference phrase, clean vector illustration, polished corporate sports poster,
-  glossy 3D text, chrome, neon gradient, luxury editorial lighting, smooth airbrush shading, sterile studio background, perfect typography, long paragraph text, photorealistic clutter, anime, comic superhero
-  style, and skateboard brand logo.'
+prompt: |
+  创作一张图像，采用 Teenage Skate Scribble Screenprint Poster 风格。画幅：16:9。场景：{主体}{动作}，带着{道具}，地点在{场景}。把主体做成一个超大的中央色调分离剪贴，采用压缩的蹲姿或滑板姿势。使用{造型}。在暖米色纸底上构建构图，让一块绿色滑板、栏杆、板面或长条道具横扫下三分之一。沿边缘环绕松散的红色手写边框字「{主文案}」，加入小段手写碎片「{副文案}」，并加入{点缀符号}。加入{背景元素}。使用粗糙的双色丝网印刷质感：深藏青服装、灰扑扑的裤子、芥末赭石肤色、干墨黑斑点、半色调脏点、纸张颗粒、漏墨、套印不准，以及手工独立滑板小志的活力。避免水印、用户名、创作者 ID、二维码、平台标识、应用界面、照搬参考文案、干净矢量插画、精致的企业运动海报、亮面 3D 文字、铬质、霓虹渐变、奢华编辑布光、平滑的喷枪阴影、无菌影棚背景、完美的字体排印、长段落文字、照片写实杂物、动漫、漫画超级英雄风格，以及滑板品牌标识。
+
 id: scribble_poster_style
 code: ''
