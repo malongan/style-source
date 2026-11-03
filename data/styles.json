@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-230-ge3e679a-dirty",
-    "generated": "2026-11-03T06:29:06Z",
-    "total": 317,
+    "version": "v0.7.0-before-opt-231-g0f47781-dirty",
+    "generated": "2026-11-03T12:53:45Z",
+    "total": 318,
     "categories": [
       "brand_kv",
       "creative",
@@ -19,6 +19,52 @@
     ]
   },
   "styles": [
+    {
+      "id": "yurukawa_healing_poster",
+      "code": "ST0319",
+      "name": "日系ゆるかわ治愈海报",
+      "category": "editorial",
+      "tags": [
+        "ゆるかわ",
+        "治愈海报",
+        "扁平插画",
+        "卡通IP",
+        "社交媒体",
+        "简笔画"
+      ],
+      "triggers": [
+        "ゆるかわ海报",
+        "日系治愈海报",
+        "卡通IP海报",
+        "扁平插画海报",
+        "社交媒体海报"
+      ],
+      "scene": "社交媒体海报、IP 宣传、品牌治愈视觉、应援图、角色应援",
+      "ratio": "9:16",
+      "summary": "日系ゆるかわ治愈海报，IP 角色转译为圆润卡通 + 大留白 + 手写文案 + 可爱动物互动。",
+      "features": [
+        "**ゆるかわ × 新稚拙卡通** — 巨大圆头、圆点五官、粗黑手绘描边、低饱和粉彩配色",
+        "**角色转译** — 保留标志性发型发色主色服饰轮廓，转译为ゆるかわ IP 角色",
+        "**底部构图 + 大留白** — 人物与动物集中在底部 30-40% 高度，大面积纯白负空间",
+        "**手写文案 + 装饰** — 粗黑手写字体、中英混排、手绘箭头放射线爱心星星"
+      ],
+      "prompt": "风格基调：日系ゆるかわ × 新稚拙卡通 × 极简二维扁平插画 × 治愈系励志海报。\n\n核心是巨大圆头、圆点五官、粗黑手绘描边和低饱和粉彩配色。人物集中在画面底部，用大面积留白、手写文字和可爱动物互动，形成轻松幽默的视觉效果。\n\n{角色}，保留标志性发型、发色、主色、服饰轮廓与身份配饰，转译为日系ゆるかわ × 新稚拙卡通 × 极简二维扁平插画。\n\n巨大圆润头部、短小身体、极简圆点五官、对称粉红腮红、粗黑圆头描边、均匀自然的手绘线条、不透明纯色平涂、低饱和粉彩点色。\n\n根据角色性格自动设计可爱、幽默的表情与动作，可趴着休息、挥手加油、抱着杯子、托腮发呆、举起双拳或与小动物亲密互动。搭配一只与角色气质协调的可爱动物，造型同样极简圆润。\n\n9:16 竖版社交媒体海报，人物与动物集中在画面底部，占据约 30%–40% 高度。大面积纯白背景、超大负空间，整体构图简洁舒展。\n\n画面上方根据角色性格与动作自动生成一句简短、可爱、幽默或元气励志的中文手写文案，搭配少量英文短句。采用粗黑手写字体、中英文字体混排，加入少量手绘箭头、漫画放射线、爱心、星星与彩色下划线。\n\n整体呈现日系治愈文创海报质感，圆润可爱、轻松幽默、色彩柔和、线条干净、角色辨识度高。\n\n右下角极小 voxcat 手写签名。\n",
+      "variables": {
+        "角色": "{角色}"
+      },
+      "variable_descs": {
+        "角色": "角色名或 IP 形象"
+      },
+      "source_url": "https://x.com/VoxcatAI/status/2117563641260294285",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.thumb.webp",
+      "number": "ST000319",
+      "created_at": ""
+    },
     {
       "id": "y3k_cool_girl_portrait",
       "code": "ST0001",

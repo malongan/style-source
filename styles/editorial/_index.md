@@ -27,3 +27,4 @@
 | restrained_paper_infographic | #信息图 #纸艺感 #线条插画 | 品牌KV、文化活动海报、编辑设计、知识档案海报、独立出版封面 | 3:4 |
 | surreal_painterly_poster | #超现实 #手绘写实 #怪诞自然主义 | 电影海报、专辑封面、书籍封面、美术展览、暗黑品牌视觉 | 9:16 |
 | swiss_editorial_character_poster | #瑞士主义 #国际主义平面设计 #超大字体 | 品牌海报、杂志封面、人物立绘、文化活动主视觉 | 9:16 |
+| yurukawa_healing_poster | #ゆるかわ #治愈海报 #扁平插画 | 社交媒体海报、IP 宣传、品牌治愈视觉、应援图、角色应援 | 9:16 |

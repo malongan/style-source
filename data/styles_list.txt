@@ -1,5 +1,6 @@
-共 317 个风格
+共 318 个风格
 
+ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
 ST0003 | 新中式古诗词细线设色插画海报 | https://malongan.github.io/style-source/images/styles_previews/xinzhongshi_poem_fine_line_poster_ac164557.webp
