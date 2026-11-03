@@ -27,6 +27,7 @@
 | nordic_retro_picture_book_poster | #北欧绘本 #粉彩蜡笔 #朴拙插画 | 社交媒体海报、IP 应援、品牌治愈视觉、贺卡、角色 merchandise | 3:4 |
 | oriental_museum_ceramic_typography_poster | #东方文博 #器物主视觉 #毛笔书法 | 文化展览海报、博物馆主视觉、文创品牌KV、艺术出版物封面 | 9:16 |
 | porcelain_bottle_character_spray | #editorial #fashion illustration #minimalist | 品牌KV、杂志封面、人物群像主视觉、艺术企划主视觉 | 9:16 |
+| private_zakka_room_poster | #杂货房间 #日本地下漫画 #90年代复古卡通 | IP 转译、品牌主视觉、社交媒体海报、角色 merchandise、生活美学 | 9:16 |
 | restrained_paper_infographic | #信息图 #纸艺感 #线条插画 | 品牌KV、文化活动海报、编辑设计、知识档案海报、独立出版封面 | 3:4 |
 | surreal_painterly_poster | #超现实 #手绘写实 #怪诞自然主义 | 电影海报、专辑封面、书籍封面、美术展览、暗黑品牌视觉 | 9:16 |
 | swiss_editorial_character_poster | #瑞士主义 #国际主义平面设计 #超大字体 | 品牌海报、杂志封面、人物立绘、文化活动主视觉 | 9:16 |
