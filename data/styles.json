@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-209-g7f02bac-dirty",
-    "generated": "2026-11-03T00:48:01Z",
+    "version": "v0.7.0-before-opt-211-g078a090-dirty",
+    "generated": "2026-11-03T01:23:31Z",
     "total": 312,
     "categories": [
       "brand_kv",
@@ -678,7 +678,7 @@
         "第四色": "第 4 个主色，如：奶油黄",
         "标题": "如：夏日限定",
         "人物": "如：穿风衣的短发女性",
-        "服装": "如：亚麻衬衫 + 阔腿裤",
+        "服装": "人物穿的服装",
         "动物": "如：柴犬 / 橘猫",
         "背景": "如：渐变天空 / 纯色墙面",
         "标语": "如：慢一点，也很好"
@@ -2516,7 +2516,7 @@
         "背景色": "{bg_color}"
       },
       "variable_descs": {
-        "品牌名": "如：山野茶事",
+        "品牌名": "品牌或产品名",
         "品牌标语": "如：把日常过成节日",
         "主标题": "画面主标题，如：夏日限定",
         "副标题": "次级标题，如：限定发售",
@@ -3256,7 +3256,7 @@
         "运动类型": "如：滑板 / 冲浪 / 攀岩",
         "运动员": "如：一位职业滑手",
         "动作": "如：腾空转身",
-        "数据表现": "产品规格数据，如：萃取温度 92°C / 压力 9bar",
+        "数据表现": "关键规格数据",
         "主标题": "画面主标题，如：夏日限定",
         "辅助文案": "补充说明文字，如：本期推荐"
       },
@@ -4166,7 +4166,7 @@
         "城市场景": "{城市场景}"
       },
       "variable_descs": {
-        "主体人物": "如：戴棒球帽的年轻女生",
+        "主体人物": "出场人物的样子",
         "城市场景": "如：霓虹街口 / 地铁站台"
       },
       "source_url": "https://x.com/sadkaijpg/status/1938155030172602568",
@@ -4674,7 +4674,7 @@
         "人物": "如：穿风衣的短发女性",
         "发型": "如：齐肩微卷黑发 / 寸头",
         "场景": "发生在哪里，如：海边公路 / 便利店门口",
-        "服装": "如：亚麻衬衫 + 阔腿裤",
+        "服装": "人物穿的服装",
         "鞋履": "如：方头短靴 / 细带高跟",
         "花卉": "如：白百合 / 飞燕草",
         "飞鸟走兽": "如：白鸽 / 白鹿",
@@ -4731,7 +4731,7 @@
         "点缀符号": "{ACCENT_SYMBOL}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "主体": "画面主体是什么",
         "主体动作": "角色的姿势，如：单手比耶 / 歪头笑",
         "产品/道具": "角色手里的小物，如：一杯奶茶 / 滑板",
         "地点": "如：上海 / 京都 / 洛杉矶",
@@ -4797,8 +4797,8 @@
         "环境场景": "如 rooftop court、beach",
         "背景细节": "如 city skyline、clouds",
         "穿搭风格": "如 athletic streetwear",
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
-        "产品/道具": "画面里的辅助物件，如：一罐气泡水 / 一支口红 / 复古相机",
+        "主体": "画面主体是什么",
+        "产品/道具": "画面里的辅助物件",
         "副文案": "辅助信息，如：秋季新品 / 9.20 上市",
         "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头"
       },
@@ -5269,13 +5269,13 @@
       "variable_descs": {
         "主标题": "左侧黑色巨字",
         "画面-动作": "IP的动作姿态",
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
-        "产品/道具": "画面里的辅助物件，如：一罐气泡水 / 一支口红 / 复古相机",
+        "主体": "画面主体是什么",
+        "产品/道具": "画面里的辅助物件",
         "地点": "如：上海 / 京都 / 洛杉矶",
         "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
         "副文案": "辅助信息，如：秋季新品 / 9.20 上市",
         "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
-        "服装造型": "人物穿搭，如：oversize 卫衣 + 工装裤"
+        "服装造型": "人物穿搭"
       },
       "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/acid-lime-3d-streetwear-type-poster-style",
       "source_author": "VigoCreativeAI",
@@ -5553,7 +5553,7 @@
         "产品颜色": "{product_color}"
       },
       "variable_descs": {
-        "产品": "主角产品，如：一罐气泡水 / 一支口红",
+        "产品": "主角产品是什么",
         "产品颜色": "产品主色，如：蜜橘色"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2078657941876703724?s=20",
@@ -5678,7 +5678,7 @@
         "飞盘文字": "如：FLY",
         "花朵颜色": "如：奶黄",
         "帐篷颜色": "如：薄荷绿",
-        "品牌名": "如：山野茶事",
+        "品牌名": "品牌或产品名",
         "标语": "如：慢一点，也很好",
         "装饰文字1": "顶部极细小字第 1 行，如：CAMPING SEASON",
         "装饰文字2": "第 2 行，如：VOL.02"
@@ -5739,9 +5739,9 @@
         "画面-动作": "简单家居动作",
         "画面-场景": "室内区域",
         "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
-        "产品/道具": "画面里的辅助物件，如：一罐气泡水 / 一支口红 / 复古相机",
+        "产品/道具": "画面里的辅助物件",
         "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
-        "服装造型": "人物穿搭，如：oversize 卫衣 + 工装裤"
+        "服装造型": "人物穿搭"
       },
       "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/sky-blue-home-life-doodle-poster-style",
       "source_author": "VigoCreativeAI",
@@ -5774,7 +5774,7 @@
       ],
       "scene": "教程封面、商业封面、方法论封面、视频封面、文章封面",
       "ratio": "5:2",
-      "summary": "银色锡纸纹理背景 + 统一深蓝文字 + 中粗黑体 + 极简线条隐喻，高级极简封面风格",
+      "summary": "银色锡纸纹理背景 + 统一克莱因蓝文字 + 中粗黑体 + 极简线条隐喻，高级极简封面风格",
       "features": [
         "**银色锡纸背景** — 真实锡纸轻微揉皱后铺平，细密均匀的褶皱纹理，冷银色金属质感",
         "**统一深蓝文字** — 所有文字线条图形使用同一种纯正深邃的蓝色，深浅不变",
@@ -5782,7 +5782,7 @@
         "**极简线条隐喻** — 根据主题设计极简线条图形，面积控制在 15%-25%",
         "**克制理性气质** — 不靠花哨配色，不堆复杂元素，整体更克制、理性、高级"
       ],
-      "prompt": "Generate a premium minimalist cover with silver tin foil texture background and {强调色} text.\n\n【Background】\nUse real silver tin foil as the full background. The foil should appear lightly crumpled then flattened, showing fine, even, natural, restrained micro-wrinkles. Surface has cold silver metallic texture with subtle reflections, soft highlights, and slight light-dark variations. Tin foil texture must be clear but not too coarse, too bright, or too messy. The area where text sits should be relatively flat, avoiding highlights, dark patterns, or complex wrinkles crossing the text.\n\n【Colors】\nUse only two core colors: silver tin foil background plus one pure, deep, unified {强调色} for all text and lines. All text, lines, and graphics must use the same shade, no variation in depth, no grayish, purplish, or local gradients.\n\n【Typography】\nChinese: modern medium-weight sans-serif, clean strokes, steady and modern, moderate letter-spacing and line-spacing. No calligraphy, rounded, cartoon, or decorative fonts. Main title: 「{主标题}」.\nEnglish: bold sans-serif, auxiliary info, noticeably smaller than Chinese: 「{英文辅助}」.\n\n【Layout】\nMain title stays restrained, moderate size. Use left-aligned / right-aligned / centered / two or three lines. Generous whitespace, natural spacing, balanced line lengths. One layout style per image.\n\n【Visual Metaphor】\nOne minimalist line metaphor for the theme: {线条隐喻}。Draw it in the same {强调色}, using paths, circuits, nodes, stairs, entrances, connections, or state transitions. Graphics occupy 15%-25% of the image, never more prominent than the title.\n\n【Composition】\nOnly: silver fine-texture tin foil background + main title + optional subtitle or English auxiliary text + one minimalist line metaphor.\n\n【Mood】\nMinimalist, calm, rational, restrained, premium, modern, clear.\n\n【Strict Restrictions】\nNo people, product photography, complex illustrations, oversized titles, ultra-bold fonts, crowded text, background highlights crossing text, inconsistent text color shades, large watermarks, diagonal text, mixed horizontal-vertical text, complex flowcharts, multiple stacked icons, dense small text, large color blocks, gradients, glowing effects, 3D text, 3D icons, cyberpunk.\n\n【Final Effect】\nA premium cover: silver fine-texture tin foil background, unified deep blue text, medium-weight sans-serif Chinese, bold sans-serif English, one clean thematic metaphor. Text clear, restrained, spacious, background and text blend naturally, colors unified, generous whitespace, resembling a premium independent magazine cover or contemporary design exhibition poster.\n",
+      "prompt": "Generate a premium minimalist cover with silver tin foil texture background and {强调色} text.\n\n【Background】\nUse real silver tin foil as the full background. The foil should appear lightly crumpled then flattened, showing fine, even, natural, restrained micro-wrinkles. Surface has cold silver metallic texture with subtle reflections, soft highlights, and slight light-dark variations. Tin foil texture must be clear but not too coarse, too bright, or too messy. The area where text sits should be relatively flat, avoiding highlights, dark patterns, or complex wrinkles crossing the text.\n\n【Colors】\nUse only two core colors: silver tin foil background plus one pure, deep, unified {强调色} for all text and lines. All text, lines, and graphics must use the same shade, no variation in depth, no grayish, purplish, or local gradients.\n\n【Typography】\nChinese: modern medium-weight sans-serif, clean strokes, steady and modern, moderate letter-spacing and line-spacing. No calligraphy, rounded, cartoon, or decorative fonts. Main title: 「{主标题}」.\nEnglish: bold sans-serif, auxiliary info, noticeably smaller than Chinese: 「{英文辅助}」.\n\n【Layout】\nMain title stays restrained, moderate size. Use left-aligned / right-aligned / centered / two or three lines. Generous whitespace, natural spacing, balanced line lengths. One layout style per image.\n\n【Visual Metaphor】\nOne minimalist line metaphor for the theme: {线条隐喻}。Draw it in the same {强调色}, using paths, circuits, nodes, stairs, entrances, connections, or state transitions. Graphics occupy 15%-25% of the image, never more prominent than the title.\n\n【Composition】\nOnly: silver fine-texture tin foil background + main title + optional subtitle or English auxiliary text + one minimalist line metaphor.\n\n【Mood】\nMinimalist, calm, rational, restrained, premium, modern, clear.\n\n【Strict Restrictions】\nNo people, product photography, complex illustrations, oversized titles, ultra-bold fonts, crowded text, background highlights crossing text, inconsistent text color shades, large watermarks, diagonal text, mixed horizontal-vertical text, complex flowcharts, multiple stacked icons, dense small text, large color blocks, gradients, glowing effects, 3D text, 3D icons, cyberpunk.\n\n【Final Effect】\nA premium cover: silver fine-texture tin foil background, unified {强调色} text (default Klein blue), medium-weight sans-serif Chinese, bold sans-serif English, one clean thematic metaphor. Text clear, restrained, spacious, background and text blend naturally, colors unified, generous whitespace, resembling a premium independent magazine cover or contemporary design exhibition poster.\n",
       "variables": {
         "主标题": "{主标题}",
         "英文辅助": "{英文辅助}",
@@ -6234,10 +6234,10 @@
         "画面-主体": "写实抠图对象",
         "画面-动作": "与红色字形的关系",
         "画面-场景": "简洁编辑封面场",
-        "产品/道具": "画面里的辅助物件，如：一罐气泡水 / 一支口红 / 复古相机",
+        "产品/道具": "画面里的辅助物件",
         "背景元素": "补充画面层次，如：反光玻璃、贴纸、路牌",
         "点缀符号": "单个符号或小图案，如：✦ / ★ / 涂鸦箭头",
-        "服装造型": "人物穿搭，如：oversize 卫衣 + 工装裤"
+        "服装造型": "人物穿搭"
       },
       "source_url": "https://raw.githubusercontent.com/VigoZhao/AI-Visual-Prompt-Cookbook/main/styles/scarlet-court-photo-type-poster-style",
       "source_author": "VigoCreativeAI",
@@ -6470,7 +6470,7 @@
         "画面-主题": "饮品主题",
         "色彩-结构色": "大面积背景色",
         "色彩-强调色": "放射块状和装饰",
-        "饮品主形体": "如：一杯冰拿铁 / 一罐气泡水",
+        "饮品主形体": "饮品的形态与容器",
         "副标题": "次级标题，如：限定发售",
         "小字号信息": "边角小字，如：SINCE 1987 / ICE COLD",
         "手写斜体短句": "如：so refreshing!"
@@ -6519,7 +6519,7 @@
         "辅色": "{color2}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "主体": "画面主体是什么",
         "环境": "如：下雨的老街 / 天台的黄昏",
         "主色": "主色名或色值，如：奶油白 /",
         "辅色": "辅助色，如：薄荷绿"
@@ -6781,8 +6781,8 @@
         "情绪": "{emotion}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
-        "道具": "辅助物件，如：草帽 / 折叠椅 / 冰桶",
+        "主体": "画面主体是什么",
+        "道具": "辅助物件",
         "情绪": "如：等待、安静、略焦虑"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073403641869009289",
@@ -7001,7 +7001,7 @@
         "城市名称": "{CITY_NAME}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "主体": "画面主体是什么",
         "城市名称": "如：东京 / 上海 / 巴黎"
       },
       "source_url": "https://x.com/Maercihh/status/2087113728185749607",
@@ -7051,10 +7051,10 @@
         "价格": "{PRICE}"
       },
       "variable_descs": {
-        "产品名称": "如：轻乳茶·茉莉",
+        "产品名称": "这个产品的名字",
         "副标题": "次级标题，如：限定发售",
         "描述": "产品一句话描述，如：手冲单品，果香明亮",
-        "价格": "如：￥19.9 / 第二杯半价"
+        "价格": "价格或优惠信息"
       },
       "source_url": "https://x.com/Maercihh/status/2084869002665615462",
       "source_author": "Maercihh",
@@ -7112,8 +7112,8 @@
         "标语": "{tagline}"
       },
       "variable_descs": {
-        "品牌名": "如：山野茶事",
-        "产品系列": "如：轻乳茶系列",
+        "品牌名": "品牌或产品名",
+        "产品系列": "产品系列名",
         "口味一": "第 1 个口味，如：茉莉",
         "口味二": "第 2 个口味，如：桂花",
         "口味三": "第 3 个口味，如：白桃",
@@ -8277,7 +8277,7 @@
       },
       "variable_descs": {
         "场景": "发生在哪里，如：海边公路 / 便利店门口",
-        "道具": "辅助物件，如：草帽 / 折叠椅 / 冰桶"
+        "道具": "辅助物件"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2073403641869009289",
       "source_author": "小小东",
@@ -8394,7 +8394,7 @@
         "主体": "{subject}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
+        "主体": "画面主体是什么"
       },
       "source_url": "https://x.com/MissDelulu9/status/2084483650507469054",
       "source_author": "MissDelulu9",
@@ -8443,8 +8443,8 @@
       },
       "variable_descs": {
         "主体描述": "主体的外观特征，如：短发、雀斑、绿色眼睛",
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
-        "服装描述": "如：白色针织开衫、浅蓝牛仔",
+        "主体": "画面主体是什么",
+        "服装描述": "服装款式与颜色",
         "壁画背景描述": "壁画题材，如：复古汽车与棕榈树"
       },
       "source_url": "https://x.com/Naiknelofar788/status/2082653912075739205",
@@ -8597,7 +8597,7 @@
       "variable_descs": {
         "角色描述": "如：圆脸、短耳、戴围巾",
         "姿势描述": "如：侧身回望 / 低头看手机",
-        "服装描述": "如：白色针织开衫、浅蓝牛仔",
+        "服装描述": "服装款式与颜色",
         "道具描述": "如：手机 / 滑板 / 购物袋"
       },
       "source_url": "https://x.com/Taaruk_/status/2082758275179900940",
@@ -8684,7 +8684,7 @@
         "主体": "{subject}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
+        "主体": "画面主体是什么"
       },
       "source_url": "https://x.com/azed_ai/status/2087131938595504540",
       "source_author": "azed_ai",
@@ -8930,7 +8930,7 @@
         "主体": "{subject}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
+        "主体": "画面主体是什么"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2087173607227367874",
       "source_author": "xiaoxiaodong01",
@@ -8976,7 +8976,7 @@
         "主体": "{subject}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
+        "主体": "画面主体是什么"
       },
       "source_url": "https://x.com/AiwithLariab/status/2082718809274937790?s=20",
       "source_author": "Laraib Fatima (@AiwithLariab)",
@@ -9346,7 +9346,7 @@
         "服装造型": "{WARDROBE_STYLE}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "主体": "画面主体是什么",
         "主体动作": "如：张开双臂 / 蹦跳",
         "产品/道具": "玩具道具，如：气球 / 礼盒",
         "地点": "如：上海 / 京都 / 洛杉矶",
@@ -9649,7 +9649,7 @@
         "点缀符号": "{ACCENT_SYMBOL}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "主体": "画面主体是什么",
         "主体动作": "产品摆放姿态，如：正立居中 / 45 度倾斜",
         "产品/道具": "配件，如：包装盒 / 丝带",
         "地点": "如：上海 / 京都 / 洛杉矶",
@@ -9878,8 +9878,8 @@
         "主文案": "{MAIN_COPY}"
       },
       "variable_descs": {
-        "品牌名": "如：山野茶事",
-        "品牌副标题": "如：东方茶饮",
+        "品牌名": "品牌或产品名",
+        "品牌副标题": "一句话品类或定位",
         "短标语": "如：慢慢来，也很好",
         "主文案": "品牌主张或活动名，如：好好吃饭"
       },
@@ -10316,7 +10316,7 @@
       },
       "variable_descs": {
         "菜单名": "如：泡菜炒饭 / 部队锅",
-        "价格": "如：￥19.9 / 第二杯半价"
+        "价格": "价格或优惠信息"
       },
       "source_url": "https://x.com/kingofdairyque/status/2081580288971337797",
       "source_author": "kingofdairyque",
@@ -10501,6 +10501,7 @@
         "K-gyaru",
         "街头抓拍",
         "韩系街头",
+        "야호",
         "文字泡泡",
         "胶片抓拍"
       ],
@@ -11991,7 +11992,7 @@
       },
       "variable_descs": {
         "人物类型": "如：职场女性 / 学生",
-        "画面主体": "主体是什么，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "画面主体": "画面主体是什么",
         "场景": "发生在哪里，如：海边公路 / 便利店门口",
         "文案": "如：把夏天装进罐子里"
       },
@@ -12231,7 +12232,7 @@
         "拉伸部位": "{拉伸部位}"
       },
       "variable_descs": {
-        "主体人物": "如：戴棒球帽的年轻女生",
+        "主体人物": "出场人物的样子",
         "拉伸部位": "被拉伸的身体部位，如：颈部 / 手臂"
       },
       "source_url": "https://x.com/sadkaijpg/status/1938155030172602568",
@@ -12352,8 +12353,8 @@
         "场景情绪": "{setting_mood}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
-        "服装": "如：亚麻衬衫 + 阔腿裤",
+        "主体": "画面主体是什么",
+        "服装": "人物穿的服装",
         "场景情绪": "场景与情绪，如：黄昏的河边、宁静微凉"
       },
       "source_url": "https://x.com/arsalannazir07/status/2086798151890219247",
@@ -12402,7 +12403,7 @@
         "主体": "{subject}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
+        "主体": "画面主体是什么"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2090960491648815553",
       "source_author": "xiaoxiaodong01",
@@ -12650,7 +12651,7 @@
       },
       "variable_descs": {
         "人物": "如：穿风衣的短发女性",
-        "服装": "如：亚麻衬衫 + 阔腿裤",
+        "服装": "人物穿的服装",
         "主色": "主色名或色值，如：奶油白 /",
         "辅色": "辅助色，如：薄荷绿",
         "点缀色": "小面积强调色，如：正红",
@@ -12901,8 +12902,8 @@
         "角色名称": "如：豆豆",
         "角色基础身份": "如：流浪的机械师 / 见习占星师",
         "角色描述": "如：圆脸、短耳、戴围巾",
-        "服装描述": "如：白色针织开衫、浅蓝牛仔",
-        "配饰描述": "如：金属细框眼镜、珍珠耳环",
+        "服装描述": "服装款式与颜色",
+        "配饰描述": "配饰款式",
         "鞋靴描述": "如：厚底马丁靴 / 皮质短靴",
         "髮型描述": "如：齐肩黑直发 / 微卷短发"
       },
@@ -13014,13 +13015,13 @@
         "模特描述": "{MODEL_DESCRIPTION}"
       },
       "variable_descs": {
-        "品牌-名称": "如：山野茶事",
+        "品牌-名称": "品牌或产品名",
         "主题": "海报主题，如：城市夜行 / 春日野餐",
-        "产品或主体": "如：一支香水瓶 / 一位模特",
+        "产品或主体": "画面主角是什么",
         "配色": "整体配色方案，如：莫兰迪灰粉 + 奶白",
         "主标题": "画面主标题，如：夏日限定",
         "副标题": "次级标题，如：限定发售",
-        "短文案": "如：一口回甘",
+        "短文案": "一句短标语",
         "品牌调性": "如：安静、克制、有呼吸感",
         "版式类型": "如：海报 / 三折页 / 卡片",
         "小字文案": "如：SCROLL TO EXPLORE",
@@ -13311,7 +13312,7 @@
         "主体": "{subject}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
+        "主体": "画面主体是什么"
       },
       "source_url": "https://x.com/xiaoxiaodong01/status/2081583498037698587",
       "source_author": "小小东",
@@ -13361,8 +13362,8 @@
         "用途": "{USE_CASE}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
-        "道具": "辅助物件，如：草帽 / 折叠椅 / 冰桶",
+        "主体": "画面主体是什么",
+        "道具": "辅助物件",
         "元素": "如：星星、气泡、齿轮",
         "用途": "这组图的用途，如：电商详情页 / 社交头像"
       },
@@ -14339,7 +14340,7 @@
         "装饰元素": "散布在画面里的装饰，如：几何碎片 / 光斑",
         "背景描述": "背景的样貌，如：液态金属墙 / 暗紫渐变空间",
         "点缀元素": "如：小雏菊 / 星星 / 网格线",
-        "底部文字2": "第二行小字，如：扫码了解更多"
+        "底部文字2": "第二行小字"
       },
       "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7573909671774391598",
       "source_author": "用户4818385606662",
@@ -14593,8 +14594,8 @@
         "画面-主体": "黑白色调人物",
         "色彩-主色": "亮红色高饱和",
         "色调": "整体色调，如：冷调霓虹紫",
-        "服装描述": "如：白色针织开衫、浅蓝牛仔",
-        "配饰描述": "如：金属细框眼镜、珍珠耳环",
+        "服装描述": "服装款式与颜色",
+        "配饰描述": "配饰款式",
         "文字A": "第一段文字，如：混乱多语言字符 / MIND",
         "文字B": "第二段文字，如：NO SIGNAL"
       },
@@ -14833,7 +14834,7 @@
         "辅色": "{color2}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
+        "主体": "画面主体是什么",
         "主色": "主色名或色值，如：奶油白 /",
         "辅色": "辅助色，如：薄荷绿"
       },
@@ -14911,7 +14912,7 @@
         "**迪斯科球镜面砖效果** — 反光被切碎成小块，边缘因厚度轻微折射",
         "**柔和工作室灯光** — 上方与侧方同时来光，反射里能看出环境"
       ],
-      "prompt": "1:1 方图，画面中心是一个用马赛克镜面砖拼成的{图形主体}图标，造型由几十块圆角方砖咬合而成，砖与砖之间留出均匀的细缝，缝隙是深的，让每一块砖都独立可辨。\n\n砖块：{砖块颜色}。每块砖都有玻璃般的厚度，表面是镀铬镜面，反射出柔和的环境光和模糊的高光块，像迪斯科球被切碎后的反光；圆角处有细窄的亮边，边缘因厚度产生轻微折射。\n\n排列：{砖块排列}。砖块大小基本一致但略有误差，整体轮廓因此带一点手工拼贴的不齐，不追求机械精确。\n\n布光：柔和的工作室灯光从上方和侧方同时来，在镜面砖上留下大片柔和的高光与暗面，反射里能看到工作室环境的模糊色块，而不是纯色。\n\n底色：{底色}，纯色无纹理，与图标拉开明度差。\n\n整体是高级感品牌图标，质感真实、克制、有重量，不是平面矢量 logo。\n",
+      "prompt": "1:1 方图（2048×2048），画面中心是一个用马赛克镜面砖拼成的{图形主体}图标，造型由几十块圆角方砖咬合而成，砖与砖之间留出均匀的细缝，缝隙是深的，让每一块砖都独立可辨。\n\n砖块：{砖块颜色}。每块砖都有玻璃般的厚度，表面是镀铬镜面，反射出柔和的环境光和模糊的高光块，像迪斯科球被切碎后的反光；圆角处有细窄的亮边，边缘因厚度产生轻微折射。\n\n排列：{砖块排列}。砖块大小基本一致但略有误差，整体轮廓因此带一点手工拼贴的不齐，不追求机械精确。\n\n布光：柔和的工作室灯光从上方和侧方同时来，在镜面砖上留下大片柔和的高光与暗面，反射里能看到工作室环境的模糊色块，而不是纯色。\n\n底色：{底色}，纯色无纹理，与图标拉开明度差。\n\n整体是高级感品牌图标，质感真实、克制、有重量，不是平面矢量 logo。\n",
       "variables": {
         "图形主体": "{图形主体}",
         "砖块颜色": "{砖块颜色}",
@@ -15231,7 +15232,7 @@
         "产品": "{PRODUCT}"
       },
       "variable_descs": {
-        "产品": "主角产品，如：一罐气泡水 / 一支口红"
+        "产品": "主角产品是什么"
       },
       "source_url": "https://x.com/Gdgtify/status/2084363171448422856?s=20",
       "source_author": "Gdgtify",
@@ -15275,7 +15276,7 @@
         "产品名称": "{产品名称}"
       },
       "variable_descs": {
-        "产品名称": "如：轻乳茶·茉莉"
+        "产品名称": "这个产品的名字"
       },
       "source_url": "https://x.com/aziz4ai/status/2071674035948106098",
       "source_author": "AZIZ | AI 🇸🇦 (@aziz4ai)",
@@ -15427,7 +15428,7 @@
         "主体": "{subject}"
       },
       "variable_descs": {
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年"
+        "主体": "画面主体是什么"
       },
       "source_url": "https://x.com/azed_ai/status/2076623195386601657",
       "source_author": "azed_ai",
@@ -16164,8 +16165,8 @@
       },
       "variable_descs": {
         "主题": "海报主题，如：城市夜行 / 春日野餐",
-        "主体": "主体是什么，如：一只橘猫 / 一名滑板少年",
-        "画面主体": "主体是什么，如：一位穿短袖的年轻男生 / 一对牵手的情侣",
+        "主体": "画面主体是什么",
+        "画面主体": "画面主体是什么",
         "场景": "发生在哪里，如：海边公路 / 便利店门口",
         "文案": "如：把夏天装进罐子里"
       },
@@ -16210,16 +16211,14 @@
         "**正负形二色调** — 利用正负空间关系，深色填充部分镂空留白，形成强烈的图形识别度",
         "**品牌文字小标签** — 品牌名以小型标签形式融入画面，不喧宾夺主，保持图形感"
       ],
-      "prompt": "{BRAND_NAME}. Act as a Senior Brand Illustrator, specializing in bold monoline streetwear character illustrations of brand mascots (style: bold-weight flat graphic, screen-print/risograph aesthetic, positive-negative two-tone illustration).\n\nPHASE 1: BACKGROUND — 浅暖米色纸张背景 (#F2F2F0)，带细腻纸张纹理\n\nPHASE 2: SUBJECT — BRAND MASCOT — Bold monoline 风格，{吉祥物描述}，粗轮廓线 + 深色填充 + 白色负空间细节\n\nPHASE 3: TWO-COLOR ONLY — 深炭黑 (#2B2B2B) + 米白背景，无渐变，无中间色\n\nPHASE 4: SCREEN-PRINT TEXTURE — 深色填充区有细腻丝网印刷质感\n\nPHASE 5: TEXT — 品牌名「{品牌名}」以小标签形式融入画面右下或左下角\n\nTECH SPECS: 8K分辨率，纯2D，无3D/光影/渐变",
+      "prompt": "{品牌名}. Act as a Senior Brand Illustrator, specializing in bold monoline streetwear character illustrations of brand mascots (style: bold-weight flat graphic, screen-print/risograph aesthetic, positive-negative two-tone illustration).\n\nPHASE 1: BACKGROUND — 浅暖米色纸张背景 (#F2F2F0)，带细腻纸张纹理\n\nPHASE 2: SUBJECT — BRAND MASCOT — Bold monoline 风格，{吉祥物描述}，粗轮廓线 + 深色填充 + 白色负空间细节\n\nPHASE 3: TWO-COLOR ONLY — 深炭黑 (#2B2B2B) + 米白背景，无渐变，无中间色\n\nPHASE 4: SCREEN-PRINT TEXTURE — 深色填充区有细腻丝网印刷质感\n\nPHASE 5: TEXT — 品牌名「{品牌名}」以小标签形式融入画面右下或左下角\n\nTECH SPECS: 8K分辨率，纯2D，无3D/光影/渐变",
       "variables": {
-        "中文品牌名": "{品牌名}",
-        "吉祥物描述": "{吉祥物描述}",
-        "品牌名": "{BRAND_NAME}"
+        "品牌名": "{品牌名}",
+        "吉祥物描述": "{吉祥物描述}"
       },
       "variable_descs": {
-        "中文品牌名": "品牌名称，如「STREETLAB」「GOAT」「VISION」",
-        "吉祥物描述": "品牌吉祥物的特征描述，如「一只戴着墨镜的山羊」「一个酷酷的滑板少年」",
-        "品牌名": "如：山野茶事"
+        "品牌名": "品牌或产品名，如「STREETLAB」「GOAT」「VISION」",
+        "吉祥物描述": "品牌吉祥物的特征描述，如「一只戴着墨镜的山羊」「一个酷酷的滑板少年」"
       },
       "source_url": "https://x.com/poletaeviktor",
       "source_author": "poletaeviktor",
@@ -16765,7 +16764,7 @@
         "点缀元素": "{ACCENT_DESCRIPTION}"
       },
       "variable_descs": {
-        "口味名称": "如：白桃乌龙",
+        "口味名称": "这个口味的名字",
         "主色": "主色名或色值，如：奶油白 /",
         "液体颜色": "如：酒红 / 琥珀金 / 淡绿",
         "装饰配料": "如：柑橘片 / 香草枝",
@@ -17093,7 +17092,7 @@
         "姿态": "主体的姿态，如：单脚站立 / 双手插兜",
         "发型": "如：齐肩微卷黑发 / 寸头",
         "表情": "如：挑眉坏笑 / 面无表情",
-        "服装": "如：亚麻衬衫 + 阔腿裤",
+        "服装": "人物穿的服装",
         "配色": "整体配色方案，如：莫兰迪灰粉 + 奶白",
         "背景": "如：渐变天空 / 纯色墙面",
         "文字": "如：慢下来"
@@ -17195,7 +17194,7 @@
         "角色": "如：小猫邮差",
         "前景道具": "遮挡在镜头前的物件，如：半只玻璃杯 / 花枝",
         "标题": "如：夏日限定",
-        "子品牌": "如：山野茶事·轻茶"
+        "子品牌": "子品牌或产品线名称"
       },
       "source_url": "https://x.com/VigoCreativeAI/status/2071799923763187860",
       "source_author": "VigoCreativeAI",
