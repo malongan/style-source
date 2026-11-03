@@ -1,0 +1,60 @@
+# 3D 奇幻装甲角色
+
+id: cinematic_3d_fantasy_armor
+name: "3D 奇幻装甲角色"
+category: editorial
+
+tags:
+- 3D奇幻
+- 装甲设计
+- 机器人 salvage
+- PBR材质
+- Unreal Engine 5
+- 角色渲染
+
+triggers:
+- 3D奇幻装甲
+- 机器人 salvage 装甲
+- PBR材质渲染
+- UE5质量渲染
+- 奇幻角色设计
+
+features:
+- title: salvage 机器人装甲
+  desc: 用回收的机器人部件组装的装甲设计，腐蚀金属、暴露机制
+- title: PBR 真实材质
+  desc: 真实 PBR 材质，损坏织物、腐蚀金属板、复杂机械细节
+- title: 戏剧化工作室灯光
+  desc: 戏剧化工作室灯光，战斗磨损外观，风格化写实
+- title: UE5 质量渲染
+  desc: Unreal Engine 5 质量，干净白色背景
+
+scene: "角色设计、概念艺术、游戏美术、3D 渲染、奇幻插画"
+ratio: '3:2'
+summary: "3D 奇幻装甲角色，salvage 机器人部件装甲 + PBR 真实材质 + UE5 质量 + 戏剧化工作室灯光。"
+
+prompt: |
+  A cinematic 3D full-body render of {奇幻角色}，wearing {装甲设计} assembled from salvaged robotic parts，{面部特征}，{发型}，carrying {武器}，distressed fabrics，corroded metal plating，exposed mechanisms，intricate mechanical details，battle-worn appearance，realistic PBR textures，stylized realism，dramatic studio lighting，Unreal Engine 5 quality，clean white background。
+
+variables:
+- kv_var: 奇幻角色
+  style_var: '{奇幻角色}'
+  desc: 奇幻角色名称，如精灵、巫师、龙骑士
+- kv_var: 装甲设计
+  style_var: '{装甲设计}'
+  desc: 装甲设计，如 plate armor、chainmail
+- kv_var: 面部特征
+  style_var: '{面部特征}'
+  desc: 面部特征描述
+- kv_var: 发型
+  style_var: '{发型}'
+  desc: 发型描述
+- kv_var: 武器
+  style_var: '{武器}'
+  desc: 武器名称
+
+source_url: "https://x.com/azed_ai/status/2117572559399170451"
+source_author: "azed_ai"
+
+# 配图: images/styles_previews/cinematic_3d_fantasy_armor_619d70b8.webp
+code: ''

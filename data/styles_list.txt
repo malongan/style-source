@@ -1,4 +1,4 @@
-共 327 个风格
+共 328 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -290,6 +290,7 @@ ST0266 | 清透空气感广告视觉 | https://malongan.github.io/style-source/i
 ST0267 | 黏土文字互动海报 | https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.webp
 ST0268 | 经典老爷车爆炸拆解视图 | https://malongan.github.io/style-source/images/styles_previews/classic_car_exploded_view_d698db7a.webp
 ST0269 | 电影级爆炸分解视图广告海报 | https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.webp
+ST0329 | 3D 奇幻装甲角色 | https://malongan.github.io/style-source/images/styles_previews/cinematic_3d_fantasy_armor_619d70b8.webp
 ST0270 | 中式极简艺术展览海报 | https://malongan.github.io/style-source/images/styles_previews/chinese_minimal_exhibition_poster_f464c139.webp
 ST0271 | Q 版角色 | https://malongan.github.io/style-source/images/styles_previews/chibi_q_version_character_1f09ebcb.webp
 ST0272 | 炭笔素描风格 | https://malongan.github.io/style-source/images/styles_previews/charcoal_sketch_HNGlyCHb.webp

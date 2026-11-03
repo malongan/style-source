@@ -7,6 +7,7 @@
 | absurd_meme_editorial_poster | #反设计 #中文互联网Meme #学生展览海报 | 青年杂志、社交媒体、艺术学院海报、中文互联网Meme创作 | 3:4 |
 | blessing_arch_ceremony_poster | #温柔祝福 #拱门构图 #圆形画中画 | 满月 / 生日 / 婚礼 / 乔迁 / 升学等祝福仪式海报、品牌节日寄语、社媒贺卡、活动开场视觉 | 9:16 |
 | central_axis_cultural_poster | #editorial #central-axis #cultural-poster | 品牌文化海报、编辑设计、展览视觉、品牌KV | 9:16 |
+| cinematic_3d_fantasy_armor | #3D奇幻 #装甲设计 #机器人 salvage | 角色设计、概念艺术、游戏美术、3D 渲染、奇幻插画 | 3:2 |
 | commercial_hover_poster | #商业广告 #3D产品渲染 #悬浮构图 | 品牌广告、产品主视觉、电商 KV、品牌 campaign、商业海报 | 9:16 |
 | corner_pressure_poster | #压角构图 #实验海报 #编辑设计 | 实验海报、展览主视觉、编辑设计、品牌艺术视觉、当代平面参考 | 9:16 |
 | dunhuang_dance_editorial_poster | #敦煌舞 #巨型字体 #当代编辑排版 | 品牌KV、文化展览海报、社媒竖图、国潮活动主视觉、博物馆展陈视觉 | 9:16 |
