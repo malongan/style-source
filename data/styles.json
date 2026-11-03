@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-227-g17c20cc-dirty",
-    "generated": "2026-11-03T05:57:11Z",
-    "total": 314,
+    "version": "v0.7.0-before-opt-228-g807fb95-dirty",
+    "generated": "2026-11-03T06:04:53Z",
+    "total": 315,
     "categories": [
       "brand_kv",
       "creative",
@@ -10784,6 +10784,64 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_poetic_dreamy_09d6409a.thumb.webp",
       "number": "ST000188",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "japanese_negative_space_poster",
+      "code": "ST0316",
+      "name": "日式留白叙事海报",
+      "category": "editorial",
+      "tags": [
+        "日式",
+        "留白",
+        "叙事海报",
+        "编辑设计",
+        "情绪海报",
+        "展览海报"
+      ],
+      "triggers": [
+        "日式留白海报",
+        "叙事性海报",
+        "情绪海报",
+        "展览海报",
+        "留白构图"
+      ],
+      "scene": "书籍封面、文艺海报、文化展览、品牌视觉、情绪氛围类设计",
+      "ratio": "9:16",
+      "summary": "日式留白艺术海报，核心象征物 + 大留白 + 微型叙事，融合日本现代平面设计与复古版画质感。",
+      "features": [
+        "**日式留白 + 微型叙事** — 核心物件放大成视觉焦点，大面积留白参与构图，承载情绪与隐藏故事",
+        "**象征物视觉焦点** — 通过放大比例、强调轮廓或重复简单结构，让普通物件呈现非常规视觉效果",
+        "**旧纸手工质感** — 米白旧纸背景，保留纸张纤维、印刷颗粒与自然磨损，温暖手工感",
+        "**编辑式排版** — 大型中/日标题 + 精致英文副标题 + 展览信息，可沿边缘竖排、与主体呼应"
+      ],
+      "prompt": "设计一张 9:16 竖版日式留白艺术海报，围绕 {海报主题}，融合日本现代平面设计、复古版画与细腻的情绪叙事。整体保持克制、安静的视觉气质，同时具有清晰的主题表达。\n\n选择一个具有象征意义的核心物件 {核心象征物}，将它转化为整个画面的主要视觉焦点。可以通过放大比例、强调轮廓或重复简单结构，让普通物件呈现不同寻常的视觉效果。\n\n通过大面积留白、人物与主体的尺度反差，以及物件之间的空间距离，表达 {情绪关键词}。留白需要参与构图，而不是没有内容的空白背景。\n\n加入少量微型人物、细线、光影或生活物件 {辅助元素}，为画面建立细微的故事关系。每个辅助元素都应该有明确作用，帮助观众理解情绪或发现隐藏的叙事细节。\n\n采用米白旧纸背景，搭配 1–2 种主要颜色 {主色调} 和少量暖色点缀。保留轻微的纸张纤维、印刷颗粒与自然磨损，让画面具有温暖的手工质感。\n\n使用大型中文或日文标题 {主标题}、精致的英文副标题和少量展览信息 {展览信息}。文字可以沿边缘竖排，也可以与主体形成位置呼应，但需要保持足够的留白和呼吸空间。\n\n最终呈现一张简洁却有故事感的日式艺术海报。重点控制视觉比例、空间节奏与情绪表达，避免无意义装饰、过多元素或过度空旷导致画面失去吸引力。\n",
+      "variables": {
+        "海报主题": "{海报主题}",
+        "核心象征物": "{核心象征物}",
+        "情绪关键词": "{情绪关键词}",
+        "辅助元素": "{辅助元素}",
+        "主标题": "{主标题}",
+        "主色调": "{主色调}",
+        "展览信息": "{展览信息}"
+      },
+      "variable_descs": {
+        "海报主题": "整体主题，如：风的邮局 / 窗后的夜 / 归途",
+        "核心象征物": "核心象征物件，如：红色信纸 / 钥匙与车票 / 窗里的灯",
+        "情绪关键词": "情绪关键词，如：安静 / 思念 / 归途的温柔",
+        "辅助元素": "辅助人物或场景，如：微型旅人 / 夜车 / 海岸线",
+        "主标题": "大型中文或日文标题",
+        "主色调": "主色调，如：米白+朱红 / 深蓝+暖橙",
+        "展览信息": "展览日期、地点等信息"
+      },
+      "source_url": "https://x.com/MrLarus/status/2116485133050200431",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/japanese_negative_space_poster_e7220cf8.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/japanese_negative_space_poster_e7220cf8.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/japanese_negative_space_poster_e7220cf8.thumb.webp",
+      "number": "ST000316",
+      "created_at": ""
     },
     {
       "id": "japanese_natural_observation_poster",
