@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-232-ga3891f3-dirty",
-    "generated": "2026-11-03T12:58:34Z",
-    "total": 319,
+    "version": "v0.7.0-before-opt-233-g4b02b07-dirty",
+    "generated": "2026-11-03T13:02:48Z",
+    "total": 320,
     "categories": [
       "brand_kv",
       "creative",
@@ -11974,6 +11974,51 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.thumb.webp",
       "number": "ST000203",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "healing_pet_sticker",
+      "code": "ST0321",
+      "name": "治愈萌宠贴纸",
+      "category": "editorial",
+      "tags": [
+        "萌宠贴纸",
+        "蜡笔厚涂",
+        "模切贴纸",
+        "Q萌转译",
+        "IP转译"
+      ],
+      "triggers": [
+        "萌宠贴纸",
+        "蜡笔厚涂毛感",
+        "模切贴纸设计",
+        "Q萌转译",
+        "IP贴纸"
+      ],
+      "scene": "贴纸设计、IP merchandise、社交媒体表情、品牌贴纸、萌宠 IP",
+      "ratio": "1:1",
+      "summary": "治愈萌宠贴纸，IP 转译为 Q萌贴纸形象 + 蜡笔厚涂毛感 + 双层模切贴纸结构。",
+      "features": [
+        "**蜡笔厚涂毛感** — 一簇簇蜡笔厚涂铺出蓬松毛感，沿毛发起伏断续深色短弧描边",
+        "**双层模切贴纸结构** — 白色模切边 + 错位圆角底卡，主色中等明度底卡与外描边",
+        "**Q萌转译** — 保留标志性特征，转译为治愈萌宠贴纸形象",
+        "**1:1 方形构图** — 主体贴纸居中，纯白背景，轻微纸张颗粒"
+      ],
+      "prompt": "治愈系萌宠贴纸风，重点在三处：一簇簇蜡笔厚涂铺出的蓬松毛感，沿毛发起伏断续勾勒的深色短弧描边，以及「白色模切边 + 错位圆角底卡」的双层贴纸结构。配色直接取角色的标志性主色，换谁都能自成一套。\n\n{主体} × 治愈系萌宠贴纸 × Q萌转译保留标志性特征 × 厚涂蜡笔毛感笔刷 × 浅色毛发透珠光 × 圆点小眼 × 俏皮姿态 × 配色取角色标志性主色 × 主色中等明度底卡与外描边 × 同色系深色断续短弧描边 × 主色浅调闪光与图标 × 白色模切边 × 错位圆角底卡 × 四芒星五角星 × 角色身份小图标 × 少量粉色点缀 × 纯白背景 × 轻微纸张颗粒 × 1:1 × 右侧约5%边缘极小写 voxcat 末尾青金石蓝小圆点\n",
+      "variables": {
+        "主体": "{主体}"
+      },
+      "variable_descs": {
+        "主体": "角色名或 IP 形象"
+      },
+      "source_url": "https://x.com/VoxcatAI/status/2115589177253179866",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/healing_pet_sticker_0f678411.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/healing_pet_sticker_0f678411.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/healing_pet_sticker_0f678411.thumb.webp",
+      "number": "ST000321",
+      "created_at": ""
     },
     {
       "id": "hanzi_emblem_marks",

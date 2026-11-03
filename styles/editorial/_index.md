@@ -13,6 +13,7 @@
 | experimental_knowledge_archive_poster | #scientific-illustration #fluorescent-yellow #editorial-design | 品牌KV、文化活动海报、概念设计展、品牌特刊、独立出版封面 | 3:4 |
 | fluted_glass_editorial_cover | #竖棱玻璃 #双联卡片 #杂志封面 | 品牌KV、社媒海报、生活方式杂志封面、概念展陈视觉 | 3:4 |
 | fuse_bead_editorial_poster | #拼豆艺术 #像素艺术 #色卡展示 | 品牌视觉、创意海报、艺术编辑设计、色卡研究页面 | 3:4 |
+| healing_pet_sticker | #萌宠贴纸 #蜡笔厚涂 #模切贴纸 | 贴纸设计、IP merchandise、社交媒体表情、品牌贴纸、萌宠 IP | 1:1 |
 | japanese_editorial_geometric_poster | #japanese_editorial #geometric_poster #circle_composition | 文化活动海报、展览、品牌视觉、编辑版式 | 9:16 |
 | japanese_misregistration_type_poster | #日式实验海报 #三色套印 #错版错位 | 艺术展览海报、印刷工艺专题、字体实验视觉、独立出版活动主视觉、品牌文化 KV、社媒竖图 | 9:16 |
 | japanese_museum_editorial_poster | #japanese_museum_editorial #exhibition_poster #typography | 品牌KV、概念海报、编辑设计、传统工艺展示 | 9:16 |
