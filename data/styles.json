@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-240-gf196964-dirty",
-    "generated": "2026-11-03T13:22:27Z",
-    "total": 326,
+    "version": "v0.7.0-before-opt-241-g0bf43ca-dirty",
+    "generated": "2026-11-03T13:25:07Z",
+    "total": 327,
     "categories": [
       "brand_kv",
       "creative",
@@ -9463,6 +9463,52 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimal_brand_icon_poster_ea0dae4a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimal_brand_icon_poster_ea0dae4a.thumb.webp",
       "number": "ST000322",
+      "created_at": ""
+    },
+    {
+      "id": "minimal_brand_backsilhouette_group",
+      "code": "ST0328",
+      "name": "极简品牌背影群像",
+      "category": "editorial",
+      "tags": [
+        "背影群像",
+        "极简品牌",
+        "瑞士国际主义",
+        "广告海报",
+        "品牌身份",
+        "IP转译"
+      ],
+      "triggers": [
+        "背影群像海报",
+        "极简品牌海报",
+        "瑞士国际主义海报",
+        "品牌身份海报",
+        "群像背影"
+      ],
+      "scene": "品牌广告、产品主视觉、电商 KV、品牌 campaign、社交媒体海报",
+      "ratio": "3:4",
+      "summary": "极简品牌背影群像，多角色同框 + 瑞士国际主义平面设计 + 白色几何平台 + 侧光长影。",
+      "features": [
+        "**背影群像 + 品牌识别** — 用发型、服装轮廓和代表色保留角色辨识度，通过背影与坐姿差异完成识别",
+        "**瑞士国际主义平面设计** — 不对称网格、清晰字体层级、中英混排、大面积纯色色场",
+        "**白色几何平台 + 侧光长影** — 白色矮墙/平台/屋顶边缘，一侧阳光照射，细长清晰投影",
+        "**陪伴感与品牌气质** — 整体干净轻盈治愈，具有陪伴感与生活方式品牌气质"
+      ],
+      "prompt": "{角色组}，多角色同框，极简品牌海报风的真人背影群像。保留各角色的发型、发色、头饰、服装轮廓、角色主色、标志性配件与整体气质，通过背影、侧后方轮廓和坐姿差异完成识别。\n\n瑞士国际主义平面设计 × 极简商业海报 × 中英混排版式 × 大面积纯色色场 × 白色几何平台 × 群像背影摄影。\n\n多位角色并排坐在白色矮墙、平台或屋顶边缘，背对镜头，面向前方，位于同一水平线上。姿态自然略有变化：偏头、垂腿、撑手、轻靠、腿部交叠、肩部倾斜，形成重复与变化的节奏。真实发丝、织物褶皱与配饰材质清楚，人物之间保留适当间距。\n\n背景采用高明度纯净单色色场，优先蓝白体系，也可根据角色配色选择浅粉、浅橙、淡青、奶油白或薄荷色。大面积留白，一侧阳光照射，人物与平台产生细长清晰的投影，增强几何感与空间秩序。\n\n根据角色组的共同经历与气质，自主设计简短中文大标题和英文小副标题，搭配少量信息文字、细线、圆点与极简图形标记。采用不对称网格与清晰字体层级，文字与人物轮廓相互呼应，呈现 Contemporary Editorial Design × Brand Identity Poster 的广告质感。\n\n整体干净、轻盈、治愈，具有陪伴感与生活方式品牌气质。3:4 竖版，右下角极小 voxcat 签名。\n",
+      "variables": {
+        "角色组": "{角色组}"
+      },
+      "variable_descs": {
+        "角色组": "角色组名称或 IP 形象列表"
+      },
+      "source_url": "https://x.com/VoxcatAI/status/2111038762847506841",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/minimal_brand_backsilhouette_group_a8655c69.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimal_brand_backsilhouette_group_a8655c69.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimal_brand_backsilhouette_group_a8655c69.thumb.webp",
+      "number": "ST000328",
       "created_at": ""
     },
     {
