@@ -31,27 +31,28 @@ ratio: "3:4"
 summary: "以精致水彩钢笔速写为核心，复古旅行明信片美学，营造温暖怀旧、手绘魅力的欧洲旅行日记氛围"
 
 prompt: |
-  Hand-drawn travel journal illustration in a refined ink-and-watercolor sketch style, vintage travel postcard aesthetic, textured cream paper background, expressive cobalt blue fineliner linework with warm ochre, muted olive green and soft terracotta watercolor washes, loose architectural sketches, minimalist urban scenery, elegant handwritten typography at the top with large destination title and smaller cursive subtitle, cozy travel diary composition, charming lifestyle illustration, stylish young traveler in relaxed casual clothing, cinematic composition, clean negative space, subtle cross-hatching, soft brush pen strokes, editorial magazine cover design, modern gouache and watercolor fusion, imperfect hand-drawn charm, warm nostalgic atmosphere, European sketchbook aesthetic, Moleskine travel journal, whimsical urban storytelling, premium illustrated poster, highly detailed, balanced composition, soft paper grain, natural ink bleed, sophisticated color harmony, artistic travel print, 4K, museum-quality illustration.
+  手绘旅行日记插画，采用精致的墨水加水彩速写风格，复古旅行明信片美学，有肌理的奶油色纸背景，富表现力的钴蓝细线笔线条，配以暖赭、低饱和橄榄绿与柔和陶土的水彩洗色，松弛的建筑速写，极简的城市景物，顶部优雅的手写字体排印——大号目的地标题配较小的草写副标题，舒适的旅行日记构图，迷人的生活方式插画，穿着宽松休闲装的时髦年轻旅人，电影感构图，干净的负空间，微妙的交叉排线，柔和的笔刷笔触，编辑杂志封面设计，现代水粉与水彩的融合，不完美的手绘魅力，温暖怀旧的氛围，欧洲速写本美学，Moleskine 旅行手帐，异想天开的城市叙事，高级插画海报，高度细腻，构图平衡，柔和纸张颗粒，自然的墨水洇开，讲究的色彩和谐，艺术性旅行版画，4K，博物馆级插画。
 
-  {destination}
-  {travel_scene_elements}
-  {season_and_mood}
-  {traveler_characteristics}
+  {目的地}
+  {旅行场景}
+  {季节情绪}
+  {旅人特征}
 
   不要水印，不要摄影照片感，不要写实建筑重现，不要杂乱背景。
 
+
 variables:
 - kv_var: 目的地
-  style_var: '{destination}'
+  style_var: '{目的地}'
   desc: 如：京都 / 里斯本 / 大理
 - kv_var: 旅行场景元素
-  style_var: '{travel_scene_elements}'
+  style_var: '{旅行场景}'
   desc: 如：石阶、旧书店、藤椅
 - kv_var: 季节与情绪
-  style_var: '{season_and_mood}'
+  style_var: '{季节情绪}'
   desc: 如：初秋、微凉而松弛
 - kv_var: 旅人特征
-  style_var: '{traveler_characteristics}'
+  style_var: '{旅人特征}'
   desc: 如：戴草帽的短发女生
 source_url: "https://x.com/Taaruk_/status/2081232385895764440"
 source_author: "Taaruk"

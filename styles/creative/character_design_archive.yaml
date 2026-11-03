@@ -32,7 +32,7 @@ ratio: "3:4"
 summary: "多视角角色概念档案图，蓝图美学风格 + 荧光色标注，附带设计说明与细节特写"
 
 prompt: |
-  A character concept sheet of a {角色名称}, featuring detailed front, back, and side views, along with close-up sketches of facial features, costume details, and accessories. Annotated design notes and clearly labeled components are arranged across the layout, rendered in a refined blueprint style with glowing {颜色1} accents and a structured {颜色2} base design, presented on a clean white background with a polished professional character design presentation.
+  一张 {角色名称} 的角色概念设定图，包含细致的正面、背面、侧面三视图，并配有面部特征、服装细节与配饰的近景素描。带注释的设计说明与清晰标注的组件名称铺陈在整个版面上，以精炼的蓝图风格呈现，点缀发光的 {颜色1} 强调色，底层是结构化的 {颜色2} 基底设计；整体置于干净的白色背景上，呈现打磨到位的专业角色设计提案质感。
   不要水印，不要真实品牌 Logo，不要电商广告感。
 
 variables:

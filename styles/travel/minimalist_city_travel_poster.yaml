@@ -30,19 +30,53 @@ features:
   desc: ''
 variables:
 - kv_var: 目的地
-  style_var: '{DESTINATION}'
+  style_var: '{目的地}'
   desc: 如：京都 / 里斯本 / 大理
-prompt: "Create an ultra-high-resolution minimalist line-art travel poster of {DESTINATION}, portraying the city as a stylish everyday urban scene rather than a tourist postcard. \n\nCORE COMPOSITION: \n\
-  - Central composition shows the city's most iconic street, intersection, alley, tram street, or pedestrian avenue \n- Foreground includes locals, commuters, cyclists, travelers, shoppers, students, café\
-  \ visitors \n- People should naturally reflect the city's local lifestyle and fashion culture \n- Background filled with realistic local signage, cafés, restaurants, transportation signs, storefronts,\
-  \ and architectural details \n- Landmarks should appear naturally integrated into everyday life, never exaggerated \n- Include authentic local-language typography and culturally recognizable visual elements\
-  \ \n- Large bold typography at the top center: \"{DESTINATION}\" \n- Subtitle below: local language + country name examples: 東京 JAPAN 서울 KOREA ΚΟΛΩΝΙΑ GERMANY\n\nSTYLE: ultra clean vector illustration,\
-  \ Swiss modernist travel poster, minimal line art, monoline drawing, mid-century editorial aesthetic, architectural illustration, Japanese graphic poster style, precise geometric perspective, extremely\
-  \ clean negative space, premium travel branding aesthetic\n\nLINE STYLE: \n- monochrome line-based illustration only \n- thin and highly precise linework \n- minimal fill areas \n- intricate city-map-like\
-  \ detail density \n- rhythmic layering of signs, buildings, windows, and street objects \n- visually dense yet highly organized composition\n\nCOLOR SYSTEM — VERY IMPORTANT: \n- use only ONE main color\
-  \ + ONE background color \n- automatically choose a color that best represents the city's atmosphere \n- monochrome silkscreen poster aesthetic \n- no rainbow palettes \n- no excessive neon \n- color\
-  \ should reflect the city's architecture, climate, nightlife, and cultural identity\n\nExamples: \n- Tokyo → vivid red on warm ivory \n- Paris → deep navy on cream \n- New York → charcoal black on light\
-  \ gray \n- Kyoto → muted burgundy on warm cream \n- Hong Kong → teal blue on pale ivory \n- Santorini → Mediterranean blue on white \n- Cairo → desert sepia on sand beige\n\nCOMPOSITION: \n- vertical\
-  \ poster layout \n- frontal street-level perspective \n- pedestrians crossing streets or moving naturally \n- balanced, elegant, highly detailed"
+prompt: |
+  创作一张超高分辨率的极简线条艺术城市旅行海报，目的地为{目的地}，把这座城市表现为时髦的日常街景，而不是旅游明信片。
+
+  核心构图：
+  - 居中构图，呈现城市最具标志性的街道、路口、小巷、有轨电车道或步行大道
+  - 前景包含本地人、通勤者、骑行者、旅行者、购物者、学生、咖啡馆客人
+  - 人物应自然反映该城市的生活方式与时尚文化
+  - 背景充满真实的本地招牌、咖啡馆、餐厅、交通标识、店面与建筑细节
+  - 地标应自然融入日常生活，绝不夸张
+  - 包含真实的本地语言字体与文化上可辨识的视觉元素
+  - 顶部居中使用大号粗体字：「{目的地}」
+  - 其下副标题：本地语言 + 国家名，例如 東京 JAPAN、서울 KOREA、ΚΟΛΩΝΙΑ GERMANY
+
+  风格：极干净的矢量插画、瑞士现代主义旅行海报、极简线条艺术、单线绘制、世纪中叶编辑美学、建筑插画、日本平面海报风格、精准几何透视、极干净的负空间、高级旅行品牌美学
+
+  线条风格：
+  - 只用单色线条插画
+  - 纤薄且高度精确的线条
+  - 填充面积极少
+  - 如城市地图般繁密的细节密度
+  - 招牌、建筑、窗户与街道物件有节奏地层层叠加
+  - 视觉密集却高度有序的构图
+
+  色彩系统 —— 非常重要：
+  - 只用一种主色 + 一种背景色
+  - 自动挑选最能代表该城市氛围的颜色
+  - 单色丝网印刷海报美学
+  - 不要彩虹式配色
+  - 不要过度霓虹
+  - 颜色应反映该城市的建筑、气候、夜生活与文化身份
+
+  示例：
+  - 东京 → 暖象牙底上的鲜红
+  - 巴黎 → 奶油底上的深海军蓝
+  - 纽约 → 浅灰底上的炭黑
+  - 京都 → 暖奶油底上的低饱和勃艮第红
+  - 香港 → 淡象牙底上的青蓝
+  - 圣托里尼 → 白底上的地中海蓝
+  - 开罗 → 沙米色底上的沙漠棕褐
+
+  构图：
+  - 竖版海报布局
+  - 正面街面平视透视
+  - 行人过街或自然地移动
+  - 平衡、优雅、细节高度丰富
+
 id: minimalist_city_travel_poster
 code: ''

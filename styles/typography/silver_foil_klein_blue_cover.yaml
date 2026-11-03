@@ -44,36 +44,35 @@ variables:
     desc: 如：克莱因蓝 / 钴蓝 / 深靛
 
 prompt: |
-  Generate a premium minimalist cover with silver tin foil texture background and {强调色} text.
+  生成一张高级极简封面：银色锡纸质感背景，配{强调色}文字。
 
-  【Background】
-  Use real silver tin foil as the full background. The foil should appear lightly crumpled then flattened, showing fine, even, natural, restrained micro-wrinkles. Surface has cold silver metallic texture with subtle reflections, soft highlights, and slight light-dark variations. Tin foil texture must be clear but not too coarse, too bright, or too messy. The area where text sits should be relatively flat, avoiding highlights, dark patterns, or complex wrinkles crossing the text.
+  【背景】
+  用真实银色锡纸铺满整个背景。锡纸应呈轻微揉皱后又铺平的状态，细密、均匀、自然、克制的微褶皱。表面为冷银色金属质感，带细微反射、柔和高光与轻微的明暗变化。锡纸纹理必须清晰，但不可过粗、过亮或过于杂乱。文字所在的区域应相对平整，避免高光、暗纹或复杂褶皱穿过文字。
 
-  【Colors】
-  Use only two core colors: silver tin foil background plus one pure, deep, unified {强调色} for all text and lines. All text, lines, and graphics must use the same shade, no variation in depth, no grayish, purplish, or local gradients.
+  【颜色】
+  只用两种核心色：银色锡纸背景，加一种纯正、深邃、统一的{强调色}，用于所有文字与线条。所有文字、线条、图形必须使用同一色调，不得有深浅变化，不得偏灰、偏紫或出现局部渐变。
 
-  【Typography】
-  Chinese: modern medium-weight sans-serif, clean strokes, steady and modern, moderate letter-spacing and line-spacing. No calligraphy, rounded, cartoon, or decorative fonts. Main title: 「{主标题}」.
-  English: bold sans-serif, auxiliary info, noticeably smaller than Chinese: 「{英文辅助}」.
+  【字体】
+  中文：现代中粗黑体，笔画干净，稳重而现代，字距与行距适中。不要书法体、圆体、卡通体或装饰字体。主标题：「{主标题}」。
+  英文：粗体无衬线，作为辅助信息，明显小于中文：「{英文辅助}」。
 
-  【Layout】
-  Main title stays restrained, moderate size. Use left-aligned / right-aligned / centered / two or three lines. Generous whitespace, natural spacing, balanced line lengths. One layout style per image.
+  【版式】
+  主标题保持克制、中等字号。可用左对齐／右对齐／居中／两行或三行。留白充裕，间距自然，行长均衡。一张图只用一种版式。
 
-  【Visual Metaphor】
-  One minimalist line metaphor for the theme: {线条隐喻}。Draw it in the same {强调色}, using paths, circuits, nodes, stairs, entrances, connections, or state transitions. Graphics occupy 15%-25% of the image, never more prominent than the title.
+  【视觉隐喻】
+  为主题设计一条极简线条隐喻：{线条隐喻}。用同一种{强调色}绘制，采用路径、回路、节点、阶梯、入口、连接或状态转换等形态。图形占画面 15%-25%，任何情况下都不能比标题更抢眼。
 
-  【Composition】
-  Only: silver fine-texture tin foil background + main title + optional subtitle or English auxiliary text + one minimalist line metaphor.
+  【构图】
+  只保留：银色细腻纹理锡纸背景 + 主标题 + 可选的副标题或英文辅助文字 + 一条极简线条隐喻。
 
-  【Mood】
-  Minimalist, calm, rational, restrained, premium, modern, clear.
+  【气质】
+  极简、冷静、理性、克制、高级、现代、清晰。
 
-  【Strict Restrictions】
-  No people, product photography, complex illustrations, oversized titles, ultra-bold fonts, crowded text, background highlights crossing text, inconsistent text color shades, large watermarks, diagonal text, mixed horizontal-vertical text, complex flowcharts, multiple stacked icons, dense small text, large color blocks, gradients, glowing effects, 3D text, 3D icons, cyberpunk.
+  【严格限制】
+  不要人物、不要产品摄影、不要复杂插画、不要超大标题、不要超粗字体、不要拥挤文字、不要穿过文字的背景下高光、不要文字颜色深浅不一、不要大水印、不要斜排文字、不要横竖文字混排、不要复杂流程图、不要多个堆叠图标、不要密集小字、不要大色块、不要渐变、不要发光效果、不要 3D 文字、不要 3D 图标、不要赛博朋克。
 
-  【Final Effect】
-  A premium cover: silver fine-texture tin foil background, unified {强调色} text (default Klein blue), medium-weight sans-serif Chinese, bold sans-serif English, one clean thematic metaphor. Text clear, restrained, spacious, background and text blend naturally, colors unified, generous whitespace, resembling a premium independent magazine cover or contemporary design exhibition poster.
-
+  【最终效果】
+  一张高级封面：银色细腻纹理锡纸背景，统一的{强调色}文字（默认克莱因蓝），中粗黑体中文，粗体无衬线英文，一条干净的主题隐喻线条。文字清晰、克制、疏朗，背景与文字自然融合，色彩统一，留白充裕，像一本高级独立杂志封面或当代设计展海报。
 source_url: "https://x.com/AdrianPunk115/status/2071141624105877890"
 source_author: "Adrian Punk"
 

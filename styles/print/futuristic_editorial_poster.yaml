@@ -23,37 +23,37 @@ features:
   - "**简洁工作室光** — 干净白色背景，清晰打光，突出主体"
   - "**几何图形装饰** — 粗体彩色几何形状 + 精细电路线条图案"
   - "**杂志级排版** — 大写标题置顶 + 小号编辑文字 + 不对称布局"
-  - "**变量可替换** — [HUMAN] [CLOTHING] [TITLE] [TEXT] 等占位符，可自定义"
+  - "**变量可替换** — {人物} {服装} {标题} {文字} 等占位符，可自定义"
 
 scene: "品牌KV、艺术海报、杂志封面、社交媒体分享"
 ratio: "4:5"
 summary: "GPT Image 2 的未来感编辑海报设计，大侧脸肖像 + 白色背景 + 几何图形 + 杂志排版"
 
 prompt: |
-  Conceptual futuristic editorial poster design featuring {HUMAN} in a large side-profile portrait, wearing {CLOTHING}, sleek contemporary fashion styling, clean studio lighting, white background with bold {COLOR1} graphic shapes, fine {COLOR2} circuit-like line diagrams, and subtle {COLOR3} interface accents. Large uppercase title "{TITLE}" placed prominently at the top, a short block of small editorial text reading "{TEXT}", modern experimental typography, asymmetrical magazine layout, sharp high-contrast composition, premium graphic design aesthetic, 4:5 aspect ratio.
+  概念性未来感编辑海报设计：以{人物}为主角，大面积侧脸肖像，着{服装}，当代利落时装造型，干净棚拍布光；白色背景上叠加粗犷的{主色}几何形状、精细的{辅色}电路式线条图案，以及少量{点缀色}界面细节。顶部醒目位置放置大写标题「{标题}」，另配一小段小号编辑文字「{文字}」；现代实验性排版，不对称杂志版式，锐利高对比构图，高级平面设计审美，画幅 4:5。
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
 
 variables:
 - kv_var: 人物
-  style_var: '{HUMAN}'
+  style_var: '{人物}'
   desc: 如：穿风衣的短发女性
 - kv_var: 服装
-  style_var: '{CLOTHING}'
+  style_var: '{服装}'
   desc: 人物穿的服装
 - kv_var: 主色
-  style_var: '{COLOR1}'
+  style_var: '{主色}'
   desc: 主色名或色值，如：奶油白 / #F5E6D3
 - kv_var: 辅色
-  style_var: '{COLOR2}'
+  style_var: '{辅色}'
   desc: 辅助色，如：薄荷绿
 - kv_var: 点缀色
-  style_var: '{COLOR3}'
+  style_var: '{点缀色}'
   desc: 小面积强调色，如：正红
 - kv_var: 标题
-  style_var: '{TITLE}'
+  style_var: '{标题}'
   desc: 如：夏日限定
 - kv_var: 文字
-  style_var: '{TEXT}'
+  style_var: '{文字}'
   desc: 如：慢下来
 source_url: "https://x.com/Kashberg_0/status/2075055474861555843"
 source_author: "Kashberg"

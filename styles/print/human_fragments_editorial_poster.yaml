@@ -29,33 +29,33 @@ ratio: "9:16"
 summary: "以超大裁切文字为结构框架、字母如窗户般揭示背景的编辑海报视觉系统，主体在文字前方保持完整，关键动作元素延伸出文字外制造纵深"
 
 prompt: |
-  Create a 9:16 editorial poster in the HUMAN FRAGMENTS visual system.
+  创作一张 9:16 的编辑海报，属于 HUMAN FRAGMENTS 视觉系统。
 
-  Theme: {主题}
-  Subject: {主体描述}
-  Action: {动作描述}
-  Scene: {场景描述}
-  Title: {标题}
-  Supporting Line: {副标题}
-  Year: 2026
+  主题：{主题}
+  主体：{主体描述}
+  动作：{动作描述}
+  场景：{场景描述}
+  标题：{标题}
+  辅助文案：{副标题}
+  年份：2026
 
-  Use oversized, cropped typography as the primary structural framework. The letters should function as windows that reveal the surrounding environment, while the main subject remains visually complete in front of the typography.
+  以超大、被裁切的字体作为主要结构框架。字母应像窗户一样揭示周围的环境，同时主体在字体前方保持视觉完整。
 
-  Do not allow the letters to cut through the face, torso, arms, thighs, or any other important parts of the body. Instead, let one key action element extend beyond the typography to create strong depth and visual impact.
+  不要让字母切断面部、躯干、手臂、大腿或身体其他重要部位。相反，让一个关键动作元素延伸到字体之外，制造强烈的纵深与视觉冲击。
 
-  Choose one of the following compositions:
+  从以下构图中选择一种：
 
-  1. WAVE CUT — A surfer carving across a rising wave, with the surfboard nose, leading hand, water spray, and curling wave extending beyond the typography.
+  1. WAVE CUT —— 冲浪者切过一道升起的浪，冲浪板前端、前手、水花与卷起的浪头延伸到字体之外。
 
-  2. RIM RISE — A basketball player reaching toward the hoop from a camera positioned above the rim, with the basketball, hand, and hoop fully extending beyond the letter masks while remaining naturally aligned.
+  2. RIM RISE —— 从篮框上方的机位拍摄，篮球运动员伸手够向篮框，篮球、手与篮框完全延伸到字母遮罩之外，同时保持自然的对齐。
 
-  3. IMPACT FRAME — A boxer throwing a straight punch toward the camera, with the enlarged foreground glove breaking beyond the typography while the gym environment remains visible inside the letters.
+  3. IMPACT FRAME —— 拳击手朝镜头打出一记直拳，被放大的前景手套冲出字体之外，健身房环境仍在字母内部可见。
 
-  4. SOFT SWIRL — A graceful young woman decorating a cake, with the piping bag, hands, cake, and flowing cream details extending beyond the typography while the bakery interior appears inside the letterforms.
+  4. SOFT SWIRL —— 一位优雅的年轻女性在装饰蛋糕，裱花袋、双手、蛋糕与流动的奶油细节延伸到字体之外，面包店内景出现在字形内部。
 
-  Use realistic photography, believable anatomy, natural skin texture, strong foreground perspective, subtle paper grain, a warm off-white background, restrained colour grading, and clean editorial spacing.
+  使用写实摄影、可信的解剖结构、自然的皮肤质感、强烈的前景透视、细微纸张颗粒、暖白背景、克制的调色，以及干净的编辑间距。
 
-  Keep the typography minimal and freely positioned:
+  字体保持极简、位置自由：
   {标题}
   HUMAN FRAGMENTS
   {副标题}

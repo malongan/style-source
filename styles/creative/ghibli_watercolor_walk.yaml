@@ -33,26 +33,27 @@ ratio: "4:5"
 summary: "吉卜力水彩漫步：纹理水彩纸上手绘的极简水彩插画，大留白居中微小人影，柔和粉彩色系+精细墨线，微妙水彩飞溅与纸张颗粒感，治愈日常感与优雅时尚氛围并存的叙事性插画。"
 
 prompt: |
-  Minimalist watercolor illustration on textured handmade watercolor paper, large negative space, tiny centered full-body character, soft pastel color palette, delicate ink line art, subtle watercolor washes, expressive brush textures, clean composition, cozy slice-of-life aesthetic, Studio Ghibli-inspired atmosphere (not a direct copy), gentle storytelling, elegant fashion illustration, soft natural lighting, floating watercolor splashes and pigment particles, light sketch details, minimal ground shadow, airy composition.
+  在有肌理的手工水彩纸上绘制极简水彩插画，大留白，居中的微小人影（全身），柔和粉彩色盘，精细墨线，微妙的水彩晕染，富有表现力的笔刷肌理，干净构图，温馨生活流美学，吉卜力工作室启发的氛围（不是直接照搬），温柔的叙事感，优雅的时尚插画，柔和的自然光，漂浮的水彩飞溅与颜料颗粒，轻淡的素描细节，极简的地面投影，通透的构图。
 
-  A stylish young man in casual oversized clothing walking confidently while holding a takeaway coffee cup, one hand holding a book, wearing sneakers, a baseball cap, loose trousers, and a crossbody bag. Wind gently moves his hair and clothes. Peaceful everyday urban mood with refined watercolor textures and graceful proportions.
+  一位穿着宽松休闲装的时髦年轻男子自信地走着，手里拿着外带咖啡杯，另一只手拿着书，脚穿运动鞋，戴棒球帽，穿宽松长裤，背斜挎包。风轻轻拂动他的头发与衣角。平静的都市日常情绪，配以精致的水彩肌理与优雅的比例。
 
-  Style keywords: minimalist watercolor, Japanese illustration, hand-painted, ink sketch, soft pastel palette, textured paper, elegant composition, modern lifestyle art, subtle splatter effects, high detail, artistic, premium editorial illustration, calm aesthetic, ultra clean background, 8K.
+  风格关键词：极简水彩、日系插画、手绘、墨线素描、柔和粉彩色盘、有肌理的纸、优雅构图、现代生活方式艺术、微妙的飞溅效果、高细节、艺术感、高级编辑插画、安静美学、极干净的背景、8K。
 
-  Subject: {subject}
-  Outfit/Accessories: {outfit}
-  Setting/Mood: {setting_mood}
+  主体：{主体}
+  服装/配饰：{服装}
+  场景/情绪：{场景情绪}
   不要水印，不要真实Logo，不要电商广告感。
+
 
 variables:
 - kv_var: 主体
-  style_var: '{subject}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 - kv_var: 服装
-  style_var: '{outfit}'
+  style_var: '{服装}'
   desc: 人物穿的服装
 - kv_var: 场景情绪
-  style_var: '{setting_mood}'
+  style_var: '{场景情绪}'
   desc: 场景与情绪，如：黄昏的河边、宁静微凉
 source_url: "https://x.com/arsalannazir07/status/2086798151890219247"
 source_author: "@arsalannazir07"

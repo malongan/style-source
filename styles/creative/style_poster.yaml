@@ -37,57 +37,50 @@ features:
   desc: ''
 - title: '版式：把照片放入一个大型旋转方形菱形开孔中，位于有触感的折叠棕褐色纸张或亚麻画布表面的上半部。'
   desc: ''
-- title: 'Typography：将 MAIN_TEXT 设为巨大的白色超粗窄体无衬线字体，横贯下半部。'
+- title: 'Typography：将 {主文案} 设为巨大的白色超粗窄体无衬线字体，横贯下半部。'
   desc: ''
 - title: 让字体看起来是印在折叠表面上的：被中央折痕分开、因透视而变形、被海报边缘裁切，并带纸张颗粒的轻微质感。
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 菱形开孔里的主体，如：一组静物 / 一个人
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 主体的姿态或摆放，如：侧身站立
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 陪衬物件，如：陶罐 / 折纸
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 拍摄环境，如：影棚 / 白墙边
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 超大号白色透视字体，如：FOLD
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 人物造型，如：素色长衫
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 小字注释，如：STUDY 01
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：折痕线 / 角落标记
-prompt: 'Create an image in folded-diamond-perspective-type-poster-style.
+prompt: |
+  创作一张图像，采用 folded-diamond-perspective-type-poster-style（折叠菱形透视字体海报风格）。
 
+  画幅：16:9。
 
-  Aspect ratio: 16:9.
+  场景：{主体}{动作}，与{道具}互动，地点在{场景}。使用{造型}。以真实照片的低角度主视觉方式拍摄主体，带广角镜头的透视压缩、强烈日光，以及明亮的青蓝天空或干净的户外背景。
 
+  版式：把照片放入一个大型旋转方形菱形开孔中，开孔位于有触感的折叠棕褐色纸张或亚麻画布表面的上半部。加入{背景元素}。从菱形顶点向下延伸一条深折痕或压痕，贯穿海报下半部。
 
-  Scene: {SUBJECT} {SUBJECT_ACTION}, interacting with {PRODUCT_OR_PROP}, in {LOCATION}. Use {WARDROBE_STYLE}. Shoot the subject as a real-photo low-angle hero image with wide-lens foreshortening, strong
-  sunlight, and a bright cyan sky or clean outdoor backdrop.
+  字体：主标题「{主文案}」用巨大的白色超粗窄体无衬线字横贯下半部。让字体看起来是印在折叠表面上的：被中央折痕分开、因透视而变形、被海报边缘裁切，并带纸张颗粒的轻微质感。只用{点缀符号}配极小的干净编辑式微文案，加入「{副文案}」。
 
+  氛围与完成度：大胆极简、街头时装编辑感、纪念碑式的自信、温暖的棕褐卡纸质感、清脆阳光、青蓝天空的对比、柔和阴影、印刷纸张颗粒、锐利的几何照片裁切。避免水印、用户名、二维码、创作者 ID、平台 Logo 与应用标识。
 
-  Layout: place the photo inside a large rotated square diamond aperture in the upper half of a tactile folded tan paper or linen canvas surface. Include {BACKGROUND_ELEMENTS}. Create a deep central fold
-  or crease running down from the diamond point into the lower poster.
-
-
-  Typography: set the main headline "{MAIN_TEXT}" in enormous white ultra-bold condensed sans-serif type across the lower half. Make the type feel printed onto the folded surface, split by the central crease,
-  distorted by perspective, cropped by the poster edges, and lightly textured by the paper grain. Add "{SECONDARY_TEXT}" only as tiny clean editorial microcopy using {ACCENT_SYMBOL}.
-
-
-  Mood and finish: bold minimalism, streetwear editorial, monumental confidence, warm tan cardstock texture, crisp sunlight, cyan sky contrast, soft shadows, printed-paper grain, sharp geometric photo crop.
-  Avoid watermarks, usernames, QR codes, creator IDs, platform logos, and app marks.'
 id: style_poster
 code: ''

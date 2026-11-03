@@ -33,36 +33,36 @@ ratio: "3:4"
 summary: "米其林级法餐主厨签名菜单海报，编辑排版布局，中央主菜超写实呈现，安静奢华的巴黎左岸精致餐饮风格"
 
 prompt: |
-  Create an ultra-premium editorial poster for {品牌名称}, designed as a chef's signature tasting menu visual for the same Paris Left Bank fine-dining series. The image must feel like a refined Michelin-level signature menu card enlarged into a museum-grade campaign poster: elegant, literary, chef-driven, architectural, and deeply restrained. Preserve the original {品牌名称} brand world of Paris Left Bank sophistication, contemporary French fine dining, quiet luxury, and tasting-menu refinement, but now shift the composition so it feels unmistakably like a signed chef's menu presentation.
+  为「{品牌名称}」创作一张超高端编辑海报，作为同一「巴黎左岸」精致餐饮系列的主厨签名品鉴菜单视觉。画面应像一张被放大成博物馆级广告海报的精致米其林级签名菜单卡：优雅、有文学气、主厨主导、有建筑感、极度克制。保留「{品牌名称}」原有的巴黎左岸式考究、当代法式精致餐饮、安静奢华与品鉴菜单的精致感，但把构图转向一眼可辨的「主厨签名菜单发布」气质。
 
-  Use a vertically oriented composition with strong menu-like structure and exceptional negative space. The design should feel like a luxury printed tasting menu sheet transformed into a high-end campaign image. Build the layout around a central plated signature dish, surrounded by carefully arranged editorial text zones, subtle information blocks, refined spacing, and elegant visual hierarchy. The overall composition must feel calm, precise, and highly authored.
+  采用竖向构图，具备强烈的菜单式结构与出色的负空间。整体应像一张奢华印刷的品鉴菜单纸被转化为高端广告画面。版面围绕中央的一盘签名主菜展开，四周是精心编排的编辑文本区、细微的信息块、讲究的留白与优雅的视觉层级。整体构图必须冷静、精确、高度「作者化」。
 
-  The key concept is: {品牌名称} as a Paris Left Bank chef-led restaurant, presenting a signature tasting menu with the authority and intimacy of a chef's personal culinary statement. The poster should feel like a seasonal menu cover and internal signature page merged together: part fine-dining campaign, part chef manifesto, part luxury print object.
+  核心概念是：「{品牌名称}」作为巴黎左岸主厨主导的餐厅，以主厨个人宣言般的权威感与亲密感，呈现一份签名品鉴菜单。海报应像「季节菜单封面」与「内部签名页」的合体：一部分是精致餐饮广告，一部分是主厨宣言，一部分是奢华印刷物件。
 
-  Place one Michelin-level French signature dish at the visual center of the poster. This dish must feel like the chef's defining plate: hyper-real, precisely composed, quietly luxurious, and visually unforgettable. A refined contemporary French tasting plate with {主菜类型}, silky sauce architecture, seasonal vegetables, micro herbs, precise garnish placement, clean porcelain, and disciplined negative space. The food must be rendered with world-class realism and remain the emotional core of the image. The plate should not feel crowded. It must feel intentional, signature-driven, and worthy of a chef's name. Every detail should suggest discipline, elegance, and culinary authorship: micro moisture on produce, silky gloss on sauce, subtle roasted texture, clean plate rim, fine ingredient fibers, and exact garnish positioning.
+  把一道米其林级法式签名主菜放在海报的视觉中心。这道菜必须是主厨的标志性作品：超写实、构图精准、安静奢华、视觉上令人难忘。一道精致的当代法式品鉴菜，含{主菜类型}、丝滑的酱汁结构、时令蔬菜、微型香草、精确的装饰摆位、干净的瓷盘与克制的负空间。食物必须以世界级写实度渲染，并始终是画面的情绪核心。盘面不能显得拥挤。它必须显得有意为之、由签名驱动、配得上主厨之名。每个细节都应传达纪律感、优雅与烹饪的作者性：食材上的细微水汽、酱汁的丝滑光泽、细微的烤制质感、干净的盘沿、精细的食材纤维，以及精确的装饰位置。
 
-  Around the hero dish, build a menu-inspired editorial layout: a refined title zone near the top, smaller descriptive text blocks, subtle divider rules, possibly a course label or seasonal notation, and a lower area that suggests chef signature authority. The layout should feel like a premium tasting menu page rather than a commercial advertisement. Typography and spacing must do as much work as the imagery.
+  在主角菜品周围构建菜单启发的编辑版式：靠近顶部的精致标题区、较小的描述性文本块、细微的分割线、可能还有一道菜序标签或季节标注，以及下方暗示主厨签名权威的区域。版面应像一页高端品鉴菜单，而不是商业广告。字体与留白必须与图像承担同等分量的作用。
 
-  Establish {品牌名称} clearly as the restaurant brand. Create a bespoke {品牌名称} logo: minimal, architectural, Parisian, timeless, editorial, and internationally premium. The logo should appear with calm authority near the top of the layout or in a refined menu-header position.
+  明确将「{品牌名称}」确立为餐厅品牌。定制一个「{品牌名称}」标识：极简、有建筑感、巴黎风、永恒、编辑感、具备国际高端气质。标识应以冷静的权威感出现在版面顶部附近，或置于精致的菜单页眉位置。
 
-  Typography must follow a chef's signature menu logic:
-  - main English title: "{英文主标题}"
-  - small Chinese subtitle: "{中文副标题}"
-  - Optional supporting English lines: "{英文副标语1}" / "{英文副标语2}"
+  字体必须遵循主厨签名菜单的逻辑：
+  - 主英文标题：「{英文主标题}」
+  - 小号中文副标题：「{中文副标题}」
+  - 可选的辅助英文行：「{英文副标语1}」/「{英文副标语2}」
 
-  Add a short refined English introduction such as: "{英文介绍}"
+  加一段简短精致的英文介绍，例如：「{英文介绍}」
 
-  To strengthen the chef-authored feeling, introduce one discreet signature detail: a subtle handwritten-style chef signature element, a refined initials mark, or a delicate script-like approval mark near the bottom portion of the layout. It must feel premium, understated, and believable, never decorative or exaggerated.
+  为强化主厨亲撰的感觉，加入一处克制的签名细节：一个细微的手写风格主厨签名元素、一个精致的姓名缩写标记，或版面下方一处纤细的手写体认可印记。它必须显得高端、低调、可信，绝不装饰化或夸张。
 
-  Lighting must be soft, cinematic, and intimate: gentle top or side directional light, quiet shadow transitions, subtle porcelain reflections, fine highlights on sauce and ingredients, and elegant tonal falloff across the page. The image should feel like Parisian fine-dining still life photographed for a luxury editorial menu publication.
+  灯光必须柔和、有电影感、亲密：温和的顶部或侧向定向光、安静的阴影过渡、细微的瓷器反光、酱汁与食材上的精细高光，以及贯穿整页的优雅影调衰减。画面应像为奢华编辑菜单刊物拍摄的巴黎精致餐饮静物。
 
-  Color palette: {暖色系}, {冷色系}, stone gray, ivory, butter cream, sage green, champagne beige, soft roast gold, and restrained linen tones. The palette must feel cultivated, understated, and Michelin-luxury in tone.
+  色板：{暖色系}、{冷色系}、石灰灰、象牙白、奶油黄、鼠尾草绿、香槟米色、柔和的烤金与克制的亚麻色调。整体色调必须显得有教养、低调、米其林式奢华。
 
-  Background and spatial design should feel like a premium printed menu object: soft paper-like field, pale stone or warm ivory surface, or a restrained dark-light contrast with clear architectural zones. Use minimal graphic dividers, subtle layout lines, and elegant spacing to suggest a chef's printed signature menu. No casual restaurant interior, no diners, no bottle-centered theme, no food collage, no decorative clutter.
+  背景与空间设计应像一件高端印刷菜单物件：柔和的纸感底、浅石色或温暖象牙色表面，或克制的明暗对比配清晰的建筑分区。使用极简的图形分割线、细微的版式线与优雅留白，来暗示主厨的印刷签名菜单。不要随意的餐厅内景，不要用餐者，不要以酒瓶为主题，不要食物拼贴，不要装饰性杂物。
 
-  Overall mood: chef-authored, Parisian, Michelin-inspired, literary, intimate, editorial, restrained, signature-driven, luxurious, intelligent, world-class.
+  整体情绪：主厨亲撰、巴黎风、米其林启发、有文学气、亲密、编辑感、克制、签名驱动、奢华、聪慧、世界级。
 
-  Rendering style: hyper-realistic fine-dining food photography, Paris Left Bank chef's signature menu poster, bespoke {品牌名称} restaurant logo, elegant menu-inspired typography, soft cinematic luxury lighting, Michelin-level plate styling, refined editorial negative space, premium print-object composition, 8k, world-class commercial quality.
+  渲染风格：超写实精致餐饮美食摄影、巴黎左岸主厨签名菜单海报、定制的「{品牌名称}」餐厅标识、优雅的菜单启发式字体、柔和的电影级奢华灯光、米其林级摆盘造型、精致的编辑负空间、高端印刷物件构图、8k、世界级商业品质。
 
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感，不要复杂背景，不要乱码。
 

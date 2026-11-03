@@ -31,26 +31,27 @@ ratio: "3:4"
 summary: "典雅纸艺信息图：以大留白建立秩序，拉丁衬线大标题与宋体中文组合，单色版画线条插画为核心视觉，底部超大数字形成仪式感，整体如独立出版物的克制与温度。"
 
 prompt: |
-  Build a restrained, solemn paper-based informational design with human warmth around {theme}: let large areas of bright white space first establish quiet order, then let a striking headline, line-drawn narrative, and bottom numerals carry the reading onward in sequence. Organize clearly differentiated modules along a single main reading axis: near the top, place one extremely small, thin, widely letterspaced auxiliary text or numbering group on each side, separated by remote spacing to create slight asymmetry; beneath them, set an oversized, high-contrast Latin serif headline extending horizontally, with strong contrast between fine hairlines and thick stems, elongated letterforms, sharp terminals, and the same accent ink as the core illustration; then add a centered group of short Chinese phrases on the theme, built on a slender Songti skeleton with generous line spacing and breathing room between characters, so the dark text block both carries the headline and builds momentum toward the illustration. Distill the thematic subject's core image and its relationship to the environment into a monochrome printmaking-style line drawing rather than reproducing fixed objects: build outward spatial movement from the center with clear outer contours, continuous arcs, layered paths, and a few flat fills; keep foreground lines longer and more open, make the middle forms the heaviest, and finish the distance with fine short strokes; alternate dense detail with large expanses of empty paper, keep the contours legible, allow slight hand-drawn variation in line weight, and preserve the soft, blunted edges created by ink absorption at corners of a printed mark, so the image has a monumental stability without feeling heavy. Place the most important short notice phrase below the illustration, then anchor the bottom visual weight with a group of oversized, high-contrast numerals or equally scaled key information, spreading the left and right information apart and connecting the center with an ultra-fine horizontal line and small text, so the extreme scale differences create the ceremony of a formal announcement; finish with a hairline rule running across the bottom edge, lifted at its center by a small symmetrical emblem derived from the theme, and set a micro Latin wordmark beneath it with extremely wide letterspacing for a quiet, precise ending. Derive the color adaptively from the theme: the theme's meaning decides the specific hue and warm/cool character of the accent, which should stay medium-high in saturation, clean, and slightly pigment-like, occupying roughly one-tenth to two-tenths of the image and concentrated in the large headline, core line drawing, and bottom fine lines; give the background a near-white, low-saturation paper color that harmonizes with the accent, lets it dominate the composition, and keeps it high in lightness; use a near-black with the same warm/cool tendency for body text and numerals, limiting it to the typographic skeleton and local contrast. Keep an asymmetric area contrast rather than an even color balance: the more vivid the accent color, the more restrained the paper and the fewer, more precise the dark areas. Render the surface as fine uncoated paper fiber with slight uniform grain and a soft scanned feel; keep the texture mainly on the blank paper and visible through thin layers of ink, allow only tiny tonal variation in solid areas, and avoid heavy stains, strong creases, gloss, dimensional shadows, or decorative gradients; the whole design should remain bright, airy, and slightly edged by the paper's ink absorption, preserving the order among white space, line drawing, typographic scale jumps, and bottom closure, while preventing the illustration from expanding and squeezing the information or the text from averaging out and losing rhythm.
+  围绕{主题}，构建一张克制、庄重、带人情味的纸艺信息设计：先用大面积亮白留白建立安静的秩序，再让醒目的主标题、线条绘制的叙事与底部数字依次把阅读往下带。沿单一主阅读轴组织层次分明的模块：靠近顶部，左右各放一组极细小、极细笔画、字距很宽的辅助文字或编号，用远距离的间隔制造轻微不对称；其下设置一个超大、高对比的拉丁衬线主标题横向铺开，细发丝线与粗主干形成强烈反差，字形修长、端点锐利，并使用与核心插画同一支强调墨色；再居中加一组围绕主题的中文短语，建立在纤细的宋体骨架上，行距宽松、字与字之间留出呼吸，让这块深色文字既承接标题，又向插画积蓄动势。把主题对象的核心形象及其与环境的关系提炼成一幅单色版画风线条画，而不是复刻固定物件：以中心为起点向外建构空间动势，外轮廓清晰、弧线连续、路径分层，并施以少量平涂；前景线条更长更开阔，中层形体最重，远景用细短笔触收束；让密集细节与大片空白纸张交替出现，保持轮廓可辨，允许线宽有轻微手绘变化，并保留印痕四角因吸墨形成的柔和钝边，使画面具备纪念碑式的稳定感却不显沉重。在插画下方放置最重要的短告示语，然后用一组超大、高对比的数字或同等尺度的关键信息压住底部视觉重量，把左右信息拉开，中间用极细的水平线与小字连接，让极端的尺度差制造正式公告般的仪式感；最后以一条贯穿底边的发丝细线收尾，细线中央由一枚取自主题的对称小徽记轻轻顶起，其下再置一个字距极宽的小号拉丁字标，留一个安静、精确的结束。配色从主题自适应推导：主题的含义决定强调色的具体色相与冷暖性格，强调色应保持中高饱和、干净、略带颜料感，占据画面约十分之一到十分之二，并集中在主标题、核心线条画与底部细线上；背景给以近白、低饱和的纸色，与强调色和谐、让其主导构图，并保持高明度；正文与数字使用与强调色冷暖倾向一致的近黑色，且只限于排版骨架与局部对比。保持不对称的面积对比，而非均匀的色彩平衡：强调色越鲜明，纸面越克制，深色区域越少越精确。表面呈现为细腻的非涂布纸张纤维，带轻微均匀的颗粒与柔和的扫描感；肌理主要留在空白纸面上，并能透过薄薄的墨层看见，实色区域只允许极细微的色调变化，避免厚重污渍、强烈折痕、光泽、立体阴影或装饰性渐变；整体设计应保持明亮、透气，并被纸张的吸墨感微微吃边，守住留白、线条画、字号跨度与底部收束之间的秩序，同时防止插画扩张挤压信息，也防止文字被平均化而失去节奏。
 
-  Headline: {headline}
-  Theme: {theme}
-  Key Information: {key_information}
-  Bottom Notice: {bottom_notice}
+  主标题：{主标题}
+  主题：{主题}
+  关键信息：{关键信息}
+  底部说明：{底部说明}
   不要水印，不要真实Logo，不要电商广告感。
+
 
 variables:
 - kv_var: 主题
-  style_var: '{theme}'
+  style_var: '{主题}'
   desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 主标题
-  style_var: '{headline}'
+  style_var: '{主标题}'
   desc: 画面主标题，如：夏日限定
 - kv_var: 关键信息
-  style_var: '{key_information}'
+  style_var: '{关键信息}'
   desc: 如：展期 11.02–12.15 / 免费入场
 - kv_var: 底部说明
-  style_var: '{bottom_notice}'
+  style_var: '{底部说明}'
   desc: 如：主办：城市美术馆
 source_url: "https://x.com/xiaoxiaodong01/status/2086866107965821125"
 source_author: "@xiaoxiaodong01"

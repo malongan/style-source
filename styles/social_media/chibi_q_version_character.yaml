@@ -25,21 +25,22 @@ features:
   desc: ''
 variables:
 - kv_var: 主角色
-  style_var: '{character}'
+  style_var: '{角色}'
   desc: 角色名，如 Luffy、 Goku
 - kv_var: 角色动作
-  style_var: '{action}'
+  style_var: '{动作}'
   desc: 动作描述，如 eating meat laughing
 - kv_var: 对手情境
-  style_var: '{opponent/situation}'
+  style_var: '{对手情境}'
   desc: 对手或情境，如 at Doflamingo
 - kv_var: 风格参考
-  style_var: '{style_reference}'
+  style_var: '{风格参考}'
   desc: 参考作品风格，如 One Piece
 - kv_var: 场景背景
-  style_var: '{background/environment}'
+  style_var: '{背景}'
   desc: 环境描述，如 Marineford battlefield
 prompt: |
-  Chibi style, {character} {action} {opponent/situation}, in the style of {style_reference}, cute background, 2D game art, high resolution, in focus, {background/environment}, anime style, dynamic pose, Epic and dynamic
+  Q 版（chibi）风格，{角色}{动作}，情境为{对手情境}，参考{风格参考}的风格，可爱的背景，2D 游戏美术，高分辨率，焦点清晰，{背景}，动漫风格，动态姿势，史诗般的动感。
+
 id: chibi_q_version_character
 code: ''

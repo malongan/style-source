@@ -32,7 +32,7 @@ triggers:
 features:
 - title: '保留核心视觉识别：干净的旅行 Vlog 缩略图体系，由三个竖向摄影分栏、超大号小写白色目的地字体、小号斜体旅行注释、稀疏手绘符号，以及柔和的手机摄影编辑收尾构成。'
   desc: ''
-- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
+- title: 用 {背景元素} 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
 - title: 使用干净的三联旅行 Vlog 缩略图构图。
   desc: ''
@@ -42,67 +42,60 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 旅行者，如：背着双肩包的短发女生
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 旅途中的动作，如：回头看镜头 / 坐在石阶上
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 随身物件，如：相机 / 地图 / 矿泉水
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 目的地，如：里斯本老城坡道 / 京都鸭川
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 三个分栏各自的内容，如：街景、咖啡、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 超大号小写目的地名，如：lisbon
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 小号斜体旅行注释，如：day 3 · 38°C
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 稀疏手绘符号，如：罗盘 / 小飞机
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 旅行穿搭，如：亚麻衬衫 + 帆布鞋
-prompt: 'Create a 16:9 image in the "Clean Triptych Travel Vlog Thumbnail" style.
+prompt: |
+  创作一张 16:9 图像，采用「Clean Triptych Travel Vlog Thumbnail（干净三联旅行 Vlog 缩略图）」风格。
 
+  主体：{主体}。
 
-  Subject: {SUBJECT}.
+  主体动作：{动作}。
 
-  Subject action: {SUBJECT_ACTION}.
+  产品/道具：{道具}。
 
-  Product or prop: {PRODUCT_OR_PROP}.
+  地点：{场景}。
 
-  Location: {LOCATION}.
+  背景元素：{背景元素}。
 
-  Background elements: {BACKGROUND_ELEMENTS}.
+  主标题文字：「{主文案}」。
 
-  Main headline text: "{MAIN_TEXT}".
+  次级文字：「{副文案}」。
 
-  Secondary text: "{SECONDARY_TEXT}".
+  点缀符号：{点缀符号}。
 
-  Accent symbol: {ACCENT_SYMBOL}.
+  服装造型：{造型}。
 
-  Wardrobe styling: {WARDROBE_STYLE}.
+  使用干净的三联旅行 Vlog 缩略图构图。把画面分成三块等宽的竖向摄影分栏，硬边分割、不出现可见边框。左栏是特写式的生活片段或咖啡馆瞬间，中栏是旅行者的城市漫步场景，右栏是地标、观景点、天际线、花园、城门、港口或能证明目的地的画面。
 
+  把超大的小写目的地主标题以纯白色横贯整张画面的中心，穿过全部三个分栏。使用超粗圆润的几何无衬线体，平滑友好，无描边、阴影极少。在靠近顶部处放小号斜体白色分栏标签，主标题上方放一行小号的天数信息，下方放一个括号式的 Vlog 副题，底部角落放一条极小的日记注释。
 
-  Use a clean three-panel travel-vlog thumbnail composition. Divide the frame into three equal vertical photographic panels with hard edges and no visible border. Make the left panel a close-up lifestyle
-  or cafe moment, the center panel a city-stroll scene with the traveler, and the right panel a landmark, scenic viewpoint, skyline, garden, gate, harbor, or destination proof point.
+  只添加稀疏的白色手绘点缀符号：一颗小心心、短横、下划线、角部笔触、闪光或一个松散的括角。照片处理保持温暖、随性、柔和、轻微颗粒、手机摄影般的真实感。氛围应现代、干净、像旅行日记，并且适合直接当视频缩略图。
 
+  避免水印、用户名、创作者 ID、平台 Logo、二维码、应用 UI、可读的真实品牌 Logo、品牌名、名人肖像、杂乱的贴纸拼贴、过度手帐感、霓虹海报、脏旧肌理、奢华旅行广告、企业宣传册、彩色主标题、厚重投影、描边文字、看不清的目的地文字、单调的单张照片背景与暗沉浑浊的画面。
 
-  Place a huge lowercase destination headline in pure white across the center of the whole image, crossing all three panels. Use an extra-bold rounded geometric sans-serif, smooth and friendly, with no
-  outline and minimal shadow. Put small italic white panel labels near the top, a small day-count line above the headline, a parenthetical vlog subtitle below it, and one tiny bottom-corner diary note.
-
-
-  Add only sparse white hand-drawn accent marks: a tiny heart, dash, underline, corner stroke, sparkle, or loose bracket. Keep the photo treatment warm, candid, soft, lightly grainy, and phone-camera realistic.
-  The mood should feel modern, clean, travel-diary-like, and ready for a video thumbnail.
-
-
-  Avoid watermark, username, creator ID, platform logo, QR code, app UI, readable real brand logo, brand name, celebrity likeness, cluttered sticker collage, scrapbook overload, neon poster, grunge texture,
-  luxury travel ad, corporate brochure, colorful headline, heavy drop shadow, outlined text, illegible destination text, plain single-photo background, and dark muddy image.'
 id: style_travel
 code: ''

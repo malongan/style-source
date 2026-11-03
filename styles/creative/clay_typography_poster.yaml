@@ -30,19 +30,16 @@ features:
   desc: 鲜艳色彩、现代平面海报设计、高级质感、8K精细度
 variables:
 - kv_var: 文字
-  style_var: '{WORD}'
+  style_var: '{文字}'
   desc: 画面中出现的单词文字 — 如 RUN、JUMP、FLY、LOVE、DREAM
 - kv_var: 动作
-  style_var: '{ACTION}'
+  style_var: '{动作}'
   desc: 角色与文字的互动方式 — 如 sitting on the 'R'、climbing up the 'U'、hanging from the 'N'
 - kv_var: 服装
-  style_var: '{OUTFIT}'
+  style_var: '{服装}'
   desc: 角色的穿着风格 — 如 a denim jacket and red sneakers、a yellow raincoat and boots
-prompt: Minimalist 3D clay illustration of a cute stylized cartoon character creatively interacting with giant bold black typography reading "{WORD}". The character is {ACTION}, naturally using, sitting
-  on, hanging from, climbing, or moving through the letters to express the meaning of "{WORD}". Handcrafted plasticine/clay texture, handmade sculpted look, rounded proportions, tiny dot eyes, simple facial
-  features, oversized sneakers, wearing {OUTFIT}, playful expression, dynamic pose, soft matte finish, vibrant colors, modern graphic poster design, giant bold black typography filling the background, clean
-  centered composition, white seamless studio background, soft diffused studio lighting, subtle realistic shadows, premium clay animation aesthetic, highly detailed, charming, cute, ultra-realistic handcrafted
-  look, 8K, one character only, minimal, clean, high-end poster.
+prompt: |
+  极简 3D 黏土插画：一个可爱风格化的卡通角色，与写着「{文字}」的巨型粗黑字体进行富有创意的互动。角色正在{动作}，自然地使用、坐在、悬挂、攀爬或穿过这些字母，以表达「{文字}」的含义。手作橡皮泥／黏土质感，手工雕塑感，圆润比例，小圆点眼睛，简单的面部特征，超大的运动鞋，身穿{服装}，俏皮表情，动态姿势，柔和的哑光表面，鲜艳色彩，现代平面海报设计，巨型粗黑字体填满背景，干净居中的构图，白色无缝影棚背景，柔和漫射的棚拍灯光，细腻真实的阴影，高级黏土动画美学，高度细致，迷人，可爱，超写实的手工质感，8K，只出现一个角色，极简，干净，高端海报。
 preview: https://malongan.github.io/style-source/images/styles_previews/clay_typography_poster_299af5ec.webp
 id: clay_typography_poster
 code: ''

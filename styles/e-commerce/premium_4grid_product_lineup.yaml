@@ -32,98 +32,97 @@ ratio: "4:5（可适配16:9、1:1）"
 summary: "严格2x2网格布局，每格产品置于独立底座，背景色随风味微调，每格仅保留一个精简点缀，打造高端产品阵列海报视觉系统"
 
 prompt: |
-  Create an ultra-premium 4-panel product poster for the {brand_name} {product_series} series, merging extreme product realism with stronger flavor-based visual differentiation, while reducing all supporting elements to an even purer minimum. Fully preserve the exact visual logic and elegant minimal layout of a luxury editorial campaign: a strict 2x2 grid, each panel featuring one real product presented in a clean, isolated, highly refined still-life composition. The final artwork must feel like a world-class premium campaign: hyper-realistic, pure, elegant, visually quiet, and extremely polished, with the products remaining the absolute heroes.
+  创作一张「{品牌名}」{产品系列} 系列的超高端四格产品海报：把极致的产品写实感与更强的风味视觉区分度结合起来，同时把所有辅助元素削减到更纯粹的极限。完整保留奢侈编辑式广告大片的视觉逻辑与优雅极简布局：严格的 2×2 网格，每格呈现一款真实产品，以干净、独立、高度精炼的静物构图陈列。最终画面必须像世界级高端广告：超写实、纯粹、优雅、视觉安静、打磨到极致，产品始终是绝对主角。
 
-  Core structure:
-  Use a strict 2x2 four-panel layout with equal panel proportions and perfect spacing. Each panel must function like its own luxury still-life poster while remaining part of one unified series. The overall composition must feel balanced, airy, minimal, and premium, with strong visual consistency across all four quadrants.
+  核心结构：
+  采用严格的 2×2 四格布局，四格等分、间距完美。每格都要像一张独立的奢侈品静物海报，同时又是同一系列的一部分。整体构图必须平衡、通透、极简、高级，四个象限之间保持强烈的视觉一致性。
 
-  Product system:
-  Feature four products from the series, each one clearly different in flavor identity, color, styling mood, and visual personality while still belonging to the same elegant family. Suggested lineup:
-  1. {flavor_1}
-  2. {flavor_2}
-  3. {flavor_3}
-  4. {flavor_4}
+  产品体系：
+  呈现该系列的四款产品，每一款在风味身份、颜色、造型气质与视觉性格上都清晰不同，但仍同属一个优雅家族。建议阵容：
+  1. {口味一}
+  2. {口味二}
+  3. {口味三}
+  4. {口味四}
 
-  Each panel must show the real product in a beautifully styled presentation. The products must feel real, premium, and instantly desirable.
+  每一格都必须以精心造型的方式呈现真实产品。产品要显得真实、高级、让人一眼就想拥有。
 
-  Composition within each panel:
-  In each quadrant, place one product centered or slightly off-center on a small elevated stone, plaster, or matte pedestal block. Reduce supporting elements to the bare minimum. Use at most one tiny accent per panel, such as a single garnish, one minimal herb accent, or one tiny ingredient trace. Some panels may have no extra accent at all if the composition feels stronger without it. The supporting elements must remain secondary and almost invisible in hierarchy. Each panel must feel pure, controlled, and editorial.
+  每格内部构图：
+  在每个象限中，把一款产品居中或略微偏心放置在小型抬高底座上——石材、石膏或哑光块体皆可。辅助元素削减到最低限度。每格最多保留一个极小的点缀，例如一片装饰、一株极简香草，或一丝食材痕迹。如果去掉更显力量，部分格子可以完全不加点缀。辅助元素必须处于次要地位，在层级上几乎不可见。每一格都要纯粹、克制、具编辑感。
 
-  4-panel color variation:
-  Keep the overall system luxurious and unified, but introduce stronger panel-to-panel color variation so each product feels like its own quiet world. The background in each panel should remain soft and premium, but shift subtly in hue according to the product identity:
-  - {flavor_1} panel: {bg_color_1}
-  - {flavor_2} panel: {bg_color_2}
-  - {flavor_3} panel: {bg_color_3}
-  - {flavor_4} panel: {bg_color_4}
+  四格色彩变化：
+  保持整体系统奢华统一，但加强格与格之间的色彩变化，让每款产品都像一个安静的小世界。每格背景保持柔和高级，但随产品身份做细微色相偏移：
+  - {口味一} 格：{背景色一}
+  - {口味二} 格：{背景色二}
+  - {口味三} 格：{背景色三}
+  - {口味四} 格：{背景色四}
 
-  The color shifts must stay sophisticated and restrained, not loud. The four panels should feel harmonized but clearly differentiated.
+  色彩变化必须克制而精致，不能喧闹。四格应彼此和谐，又清楚区分。
 
-  Background:
-  Use warm soft neutral backgrounds with gentle tonal variation across the four panels. The surfaces should feel smooth, clean, luminous, and premium, with no heavy texture or visual noise. Each panel's background should subtly echo its flavor family while preserving the overall calm luxury mood.
+  背景：
+  使用温暖柔和的中性背景，四格之间有温和的色调变化。表面应光滑、干净、通透、高级，没有厚重肌理或视觉噪点。每格背景要隐约呼应自己的风味家族，同时保持整体平静的奢华氛围。
 
-  Product styling:
-  Each product must be styled with exceptional realism and refined individuality. The presentation must feel premium, sculptural, and beautifully proportioned. Products must show real physical believability, density, and subtle material detail.
+  产品造型：
+  每款产品都必须以极致的真实感与精致的个性来造型。呈现要高级、具雕塑感、比例优美。产品必须具有真实的物理可信度、体量感与细微的材质细节。
 
-  Typography and branding:
-  Use minimal premium typography only. Include:
-  {brand_name} {product_series}
+  字体与品牌：
+  只使用极简的高端字体。包含：
+  {品牌名} {产品系列}
 
-  You may add one small refined line of supporting copy such as:
-  "{tagline}"
+  可添加一行小而精炼的辅助文案，例如：
+  「{标语}」
 
-  Typography must feel highly restrained, modern, and editorial. Do not overcrowd the layout. The text must remain secondary to the product.
+  字体必须高度克制、现代、具编辑感。不要让版面拥挤。文字始终次要于产品。
 
-  Lighting:
-  Use extremely delicate, soft, high-end studio lighting. Let each product catch elegant highlights along edges and surface details. Shadows must be soft, short, and clean. The lighting must feel natural, quiet, and luxurious, with fine tonal falloff and no harsh glare.
+  布光：
+  使用极其细腻、柔和的高端影棚光。让每款产品在边缘与表面细节上接到优雅的高光。阴影必须柔和、短、干净。光线要自然、安静、奢华，明暗过渡细腻，没有刺眼眩光。
 
-  Material realism:
-  Push realism to the highest level. Products must feel crisp, smooth, and premium. Add only a minimal amount of fine detail where appropriate. The image must feel pristine, not cluttered.
+  材质真实感：
+  把真实感推到最高级别。产品要清晰、光滑、高级。只在恰当之处加入最低限度的精细细节。画面必须纯净，不杂乱。
 
-  Visual mood:
-  The poster must communicate purity, refinement, stillness, and product confidence. It should feel like a luxury editorial shoot with strong series discipline, elegant restraint, and quiet visual impact. The four panels should feel more differentiated in mood while remaining unmistakably one family.
+  视觉气质：
+  海报要传达纯净、精致、静谧与产品自信。应像一场奢华的编辑式拍摄，系列纪律强、克制优雅、视觉冲击安静。四格在气质上更有区分，但一眼仍属同一家族。
 
-  Color direction:
-  Use a controlled premium palette of ivory, cream, warm beige, pale stone, oat, caramel-beige, blush sand, soft peach, amber, and muted shadow taupe. The overall image must feel harmonious, elegant, soft, and quietly varied across the four panels.
+  色彩方向：
+  使用受控的高级色盘：象牙白、奶油白、暖米色、浅石色、燕麦色、焦糖米、腮红沙、柔桃色、琥珀色与低饱和的阴影灰褐。整体画面要和谐、优雅、柔和，四格之间有安静的色彩变化。
 
-  Rendering style:
-  ultra-premium photorealistic product still-life poster, 4-panel luxury editorial layout, clean pedestal compositions, reduced supporting elements, subtle background color variation across panels, elegant typography, soft cinematic studio light, hyper-detailed product realism, minimalist premium brand aesthetics, 8k, masterpiece quality
+  渲染风格：
+  超高端照片级写实产品静物海报，四格奢华编辑式布局，干净的底座构图，辅助元素精简，格间背景有细微色彩变化，优雅字体，柔和电影感影棚光，超精细产品写实，极简高端品牌美学，8k，杰作品质
 
-  Negative prompt:
-  cheap cafe poster, cluttered props, cartoon elements, low-detail product, messy garnish, oversaturated colors, noisy background, generic packaging ad, flat lighting, low-resolution textures, too much text, supermarket styling, watermark, logo clutter.
-
+  负向提示：
+  廉价咖啡馆海报、杂乱道具、卡通元素、低细节产品、凌乱装饰、过饱和色彩、噪点背景、通用包装广告、平光、低分辨率纹理、文字过多、超市货架感、水印、Logo 杂乱。
 variables:
 - kv_var: 品牌名
-  style_var: '{brand_name}'
+  style_var: '{品牌名}'
   desc: 品牌或产品名
 - kv_var: 产品系列
-  style_var: '{product_series}'
+  style_var: '{产品系列}'
   desc: 产品系列名
 - kv_var: 口味一
-  style_var: '{flavor_1}'
+  style_var: '{口味一}'
   desc: 第 1 个口味，如：茉莉
 - kv_var: 口味二
-  style_var: '{flavor_2}'
+  style_var: '{口味二}'
   desc: 第 2 个口味，如：桂花
 - kv_var: 口味三
-  style_var: '{flavor_3}'
+  style_var: '{口味三}'
   desc: 第 3 个口味，如：白桃
 - kv_var: 口味四
-  style_var: '{flavor_4}'
+  style_var: '{口味四}'
   desc: 第 4 个口味，如：乌龙
 - kv_var: 背景色一
-  style_var: '{bg_color_1}'
+  style_var: '{背景色一}'
   desc: 第 1 格背景色，如：奶绿
 - kv_var: 背景色二
-  style_var: '{bg_color_2}'
+  style_var: '{背景色二}'
   desc: 第 2 格背景色，如：浅杏
 - kv_var: 背景色三
-  style_var: '{bg_color_3}'
+  style_var: '{背景色三}'
   desc: 第 3 格背景色，如：雾粉
 - kv_var: 背景色四
-  style_var: '{bg_color_4}'
+  style_var: '{背景色四}'
   desc: 第 4 格背景色，如：淡紫
 - kv_var: 标语
-  style_var: '{tagline}'
+  style_var: '{标语}'
   desc: 如：慢一点，也很好
 source_url: "https://x.com/ou_zhen599/status/2082158630942781575?s=20"
 source_author: "ou_zhen599"

@@ -28,9 +28,8 @@ ratio: "4:5"
 summary: "纯白背景 + 黑色瑞士排版 + 居中单品的极简咖啡馆产品海报"
 
 prompt: |
-  Create a minimalist 4:5 café product poster with a pure white background and black typography. Use the attached product photo as the main reference, or generate a realistic product image from the product name if no photo is provided. Display the product name in large uppercase English text, the price exactly as entered, and generate short English promotional phrases only. Keep one centered product with soft natural shadows, a clean Swiss-style editorial layout, wide margins, and a modern Japanese café aesthetic. Do not invent ingredients, brands, or features that are not visible or implied.
+  创作一张极简的 4:5 咖啡馆产品海报，纯白背景配黑色排版。以随附的产品照片为主要参考；若未提供照片，则依据产品名生成写实的产品图。用大号大写英文字呈现产品名，价格按所填内容原样呈现，只生成简短的英文促销短语。只保留一个居中的产品，配柔和自然的阴影、干净的瑞士编辑式布局、宽阔的边距与现代日式咖啡馆美学。不要虚构配料、品牌，或任何不可见、未被暗示的特性。
   不要水印，不要真实Logo，不要电商广告感。
-
 source_url: "https://x.com/kingofdairyque/status/2083045196212625545"
 source_author: "Simply Ray (@kingofdairyque)"
 

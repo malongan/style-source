@@ -30,109 +30,89 @@ features:
   desc: ''
 variables:
 - kv_var: 品牌-名称
-  style_var: '{BRAND}'
+  style_var: '{品牌名}'
   desc: 品牌或产品名
 - kv_var: 主题
-  style_var: '{THEME}'
+  style_var: '{主题}'
   desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 产品或主体
-  style_var: '{PRODUCT_OR_SUBJECT}'
+  style_var: '{主体}'
   desc: 画面主角是什么
 - kv_var: 配色
-  style_var: '{COLORS}'
+  style_var: '{配色}'
   desc: 整体配色方案，如：莫兰迪灰粉 + 奶白
 - kv_var: 主标题
-  style_var: '{HEADLINE}'
+  style_var: '{主标题}'
   desc: 画面主标题，如：夏日限定
 - kv_var: 副标题
-  style_var: '{SUBHEADLINE}'
+  style_var: '{副标题}'
   desc: 次级标题，如：限定发售
 - kv_var: 短文案
-  style_var: '{OPTIONAL_SHORT_TEXT}'
+  style_var: '{短文案}'
   desc: 一句短标语
 - kv_var: 品牌调性
-  style_var: '{BRAND_MOOD}'
+  style_var: '{品牌调性}'
   desc: 如：安静、克制、有呼吸感
 - kv_var: 版式类型
-  style_var: '{DIRECTION_TYPE}'
+  style_var: '{版式类型}'
   desc: 如：海报 / 三折页 / 卡片
 - kv_var: 小字文案
-  style_var: '{EXTRA_SMALL_TEXT}'
+  style_var: '{小字}'
   desc: 如：SCROLL TO EXPLORE
 - kv_var: 模特描述
-  style_var: '{MODEL_DESCRIPTION}'
+  style_var: '{模特}'
   desc: 如：短发亚洲女性，表情冷淡
-prompt: 'Use this as a single-image prompt template.
+prompt: |
+  这是一份单张图的提示词模板。
 
-  If you want multiple images, generate each one separately. Do not merge them into one collage unless the chosen direction is specifically a lookbook collage spread.
+  如果要生成多张图，请每次单独生成一张，不要合并成一张拼贴——除非所选方向本身就是 lookbook 拼贴跨页。
 
+  版式类型：{版式类型}
 
-  Direction Type: [Giant typography campaign / Couture magazine cover / Accessories editorial page / Lookbook collage spread]
+  品牌名：{品牌名}
 
-  Brand Name: {BRAND}
+  主题 / 系列：{主题}
 
-  Theme / Collection: {THEME}
+  产品 / 焦点：{主体}
 
-  Product / Focus: {PRODUCT_OR_SUBJECT}
+  模特：{模特}（产品向可写「无全身模特，以产品为主」）
 
-  Model: [MODEL DESCRIPTION or "no full model, product-focused"]
+  品牌调性：{品牌调性}
 
-  Brand Mood: [MINIMAL / QUIET LUXURY / MODERN / ROMANTIC / SHARP / COOL / SOFT / AVANT-GARDE]
+  配色：{配色}
 
-  Color Palette: {COLORS}
+  主标题：{主标题}
 
-  Main Headline: {HEADLINE}
+  副标题：{副标题}
 
-  Subheadline: {SUBHEADLINE}
+  小字文案：{短文案}
 
-  Extra Small Text: {OPTIONAL_SHORT_TEXT}
-
-  Aspect Ratio: 9:16
-
-
-  Create a high-end fashion editorial visual for {BRAND}, based on the theme {THEME}, with the focus on {PRODUCT_OR_SUBJECT}. The output should feel like a premium brand campaign / fashion magazine editorial
-  / lookbook direction, with a strong sense of art direction, typography, layout, and brand mood. This is not a generic fixed template. The composition, typography, image styling, and layout should be designed
-  around the brand mood: {BRAND_MOOD}. Main colors should follow {COLORS}.
+  画幅：9:16
 
 
-  The visual style should be clean, elevated, editorial, premium, fashion-forward, and highly designed. Use realistic fashion photography aesthetics, refined lighting, strong negative space, elegant composition,
-  and a clear hierarchy between image, typography, and white space. Keep the overall feeling magazine-like, brand-driven, and visually collectible.
+  为「{品牌名}」创作一张高端时尚编辑视觉，主题为{主题}，焦点落在{主体}上。成片应像一线品牌的广告大片 / 时尚杂志编辑页 / lookbook 方向，具备强烈的艺术指导、字体排印、版式与品牌调性意识。这不是一套通用的固定模板：构图、字体、影像质感与版面都应围绕品牌调性{品牌调性}来设计，主色遵循{配色}。
 
+  视觉风格应干净、高级、编辑化、精致、时装前瞻，并且经过高度设计。使用写实时装摄影美学、讲究的光线、大面积负空间、优雅构图，以及图像、字体与留白之间清晰的层级关系。整体保持杂志感、品牌驱动、具有收藏感。
 
-  Use {DIRECTION_TYPE} as the layout structure:
+  以{版式类型}作为版面结构：
 
+  若为「巨型字体大片」：做一张大胆的编辑海报，把超大字体当作主要视觉元素，让主标题{主标题}与模特或产品发生互动。使用有力的字体位置、强烈的构图和高级广告大片的气质。
 
-  If Giant typography campaign: create a bold editorial poster with oversized typography as a major visual element. Let the headline {HEADLINE} interact with the model or product. Use powerful type placement,
-  strong composition, and a premium campaign feel.
+  若为「高定杂志封面」：做一张精致的时尚封面，以强有力的中心人物或英雄产品为核心，配上优雅的刊头式字体与考究的高定编辑氛围。加入少量编辑性短文字，如{副标题}与{小字}。
 
+  若为「配饰编辑跨页」：做一张以{主体}为主角的配饰编辑页，版面像高端杂志跨页或品牌产品故事。产品必须被清晰呈现，并配以优雅字体与辅助编辑文字。
 
-  If Couture magazine cover: create a refined fashion cover with a strong central figure or hero product, elegant masthead-style typography, and a polished couture editorial mood. Add a few short editorial
-  text elements such as {SUBHEADLINE} and {EXTRA_SMALL_TEXT}.
+  若为「Lookbook 拼贴跨页」：在同一页内用多张时尚图像做出时髦的编辑拼贴版面，排布如高端 lookbook 跨页。拼贴要克制、极简、时装化，不能乱。用{主标题}与{副标题}作为关键编辑文字。
 
+  字体排印要有意图感、要高级。使用优雅的大号衬线体或时装风格字体，辅以较小的编辑性文字。主标题：{主标题}。副标题：{副标题}。可选小字：{小字}。文字要干净可读，服务于画面而不是压过画面。
 
-  If Accessories editorial page: create a fashion accessories-focused editorial page featuring {PRODUCT_OR_SUBJECT}, with a layout that feels like a premium magazine spread or branded product story. The
-  product should be clearly featured, with elegant typography and supporting editorial text.
+  若画面包含模特，按{模特}来设定，并让时尚影像贴合品牌调性。模特应显得编辑化、可信、高级，而不是通用的商业图库模特。若画面以产品为主，就让产品成为英雄，用强版面与广告造型去托住它。
 
+  最终成片应适合品牌情绪板、广告效果图（mockup）、品牌早期概念、编辑海报设计、社交媒体视觉或 lookbook 探索。
 
-  If Lookbook collage spread: create a stylish editorial collage layout using multiple fashion images within one page, arranged like a premium lookbook spread. Keep the collage controlled, minimal, and
-  fashion-oriented, not messy. Use {HEADLINE} and {SUBHEADLINE} as the key editorial text.
+  避免：廉价电商感、模板化的版面、杂乱的构图、低端海报设计、文字过多、随意的装饰、幼稚的造型、字体乏力、图库照片感、凌乱的拼贴、卡通感、不真实的解剖结构、变形的手、扭曲的产品、糟糕的文字渲染，以及真实受版权保护的杂志 Logo。
 
+  只输出一张成片，画幅 9:16。
 
-  Typography should feel intentional and premium. Use large elegant serif or fashion-style typography, with smaller supporting editorial text. Main headline: {HEADLINE}. Subheadline: {SUBHEADLINE}. Optional
-  small text: {EXTRA_SMALL_TEXT}. Text should be clean and readable, and should support the visual instead of overpowering it.
-
-
-  If a model is included, use {MODEL_DESCRIPTION} and style the fashion image to match the brand mood. The model should look editorial, believable, and premium, not like a generic commercial stock model.
-  If the image is product-focused, make the product the hero and support it with strong layout and campaign styling.
-
-
-  The final image should look suitable for brand moodboards, campaign mockups, early brand concepts, editorial poster design, social media visuals, or lookbook exploration.
-
-
-  Avoid: cheap e-commerce look, template-looking layouts, cluttered composition, low-end poster design, excessive text, random decorations, childish styling, weak typography, stock-photo feeling, messy
-  collage, cartoon look, unrealistic anatomy, deformed hands, distorted products, bad text rendering, and real copyrighted magazine logos.
-
-
-  Generate one finished image only in 9:16.'
 id: fashion_editorial_visual
 code: ''

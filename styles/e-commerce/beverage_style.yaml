@@ -22,42 +22,43 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 如 a chilled peach soda can
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{主体动作}'
   desc: 如 bursting through a frozen splash
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 如 peach slices, ice cubes
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 如 a studio splash set
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 如 giant white block letters, foam
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 如 TASTE THE FIZZ
 - kv_var: 产品品类
-  style_var: '{PRODUCT_CATEGORY}'
+  style_var: '{品类}'
   desc: 如 气泡水 / 果汁 / 能量饮料
 - kv_var: 产品形态
-  style_var: '{DELIVERY_FORMAT}'
+  style_var: '{形态}'
   desc: 如 易拉罐 / 玻璃瓶 / 利乐包
 - kv_var: 配色
-  style_var: '{COLOR_SYSTEM}'
+  style_var: '{配色}'
   desc: 主色 + 辅色，如 coral + cream shadow / mint + deep teal
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如 new flavor, limited drop
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如 a small splash glyph / circular badge
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 如 model in white tee, casual street styling
 prompt: |
-  Create a 16:9 beverage launch advertisement in the Multi-Color Beverage Splash Ad System style for {PRODUCT_CATEGORY} and {DELIVERY_FORMAT}. Preserve these style anchors: one strong drink-category color system; giant white extruded block-letter architecture behind the product; one large diagonal fictional beverage pack cropped close near center; frozen splash, foam, ice, bubbles, condensation, or liquid sheets across the foreground; bold condensed italic white stacked headline typography; polished studio beverage lighting with crisp highlights; dense retail-ad layout with strong product hierarchy; delivery-context cues that stay secondary to the hero drink. Color system: {COLOR_SYSTEM} — one dominant field plus shadow, side-plane, liquid-tint and packaging accent variations drawn from it. Replace all source content. Do not use Sprite, Coca-Cola, copied Korean text, copied Z/E/R/O layout, original green can, existing beverage logo, real brand name, watermark, QR code, legal microcopy, or exact source slogan. New content: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Background details: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary supporting text: {SECONDARY_TEXT}. Accent symbol: {ACCENT_SYMBOL}. Styling direction: {WARDROBE_STYLE}. Adapt the composition to 16:9: 9:16 should feel usable as a vertical store poster, fridge sticker, or Xiaohongshu cover; 16:9 should feel usable as a subway lightbox, brand launch KV, or supermarket display backdrop. Use photoreal commercial beverage retouching, transparent frozen liquid motion, glossy cold surfaces, crisp contrast, and a fresh kinetic launch-ad mood.
+  创作一张 16:9 的多色饮料飞溅广告系统风格的饮料上市广告，品类为{品类}，形态为{形态}。保留这些风格锚点：一套强烈的饮料品类配色系统；产品背后巨大的白色挤出式块状字母建筑；一个大的斜向虚构饮料包装在画面中央附近贴近裁切；前景横贯冻结的飞溅、泡沫、冰块、气泡、冷凝水或液片；粗体窄体斜体的白色层叠主标题排版；精致的影棚饮料布光与干脆的高光；密集的零售广告版式与强烈的产品层级；配送场景线索保持次要于主角饮料。配色系统：{配色}——一个主导场色，加上由它派生的阴影、侧平面、液体染色与包装点缀变化。替换所有源内容。不要使用 Sprite、Coca-Cola、照抄的韩文、照抄的 Z/E/R/O 版式、原版绿罐、现有饮料 logo、真实品牌名、水印、二维码、法律小字，或与源完全相同的标语。新内容：{主体}正在{主体动作}，带{道具}，位于{场景}。背景细节：{背景元素}。主标题文字：{主文案}。次级辅助文案：{副文案}。点缀符号：{点缀符号}。造型方向：{造型}。把构图适配到 16:9：9:16 应能用作竖版门店海报、冰箱贴或小红书封面；16:9 应能用作地铁灯箱、品牌上市 KV 或超市陈列背景板。使用照片级商业饮料修图、透明冻结的液体动势、油亮冰冷的表面、干脆的对比，以及清新动感的上市广告情绪。
+
 id: beverage_style
 code: ''

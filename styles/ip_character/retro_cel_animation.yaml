@@ -17,7 +17,7 @@ features:
   desc: ''
 - title: '**背景**：手绘背景'
   desc: ''
-- title: '**色调**：柔和的 [颜色1] 和 [颜色2] 色调'
+- title: '**色调**：柔和的 {主色} 和 {辅色} 色调'
   desc: ''
 - title: '**质感**：柔和的颗粒感'
   desc: ''
@@ -29,18 +29,19 @@ features:
   desc: ''
 variables:
 - kv_var: 主体
-  style_var: '{subject}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 - kv_var: 环境
-  style_var: '{setting}'
+  style_var: '{环境}'
   desc: 如：下雨的老街 / 天台的黄昏
 - kv_var: 主色
-  style_var: '{color1}'
+  style_var: '{主色}'
   desc: 主色名或色值，如：奶油白 / #F5E6D3
 - kv_var: 辅色
-  style_var: '{color2}'
+  style_var: '{辅色}'
   desc: 辅助色，如：薄荷绿
-prompt: Retro cel animation style, {subject} in a {setting}, hand-painted background, visible cel lines, muted {color1} and {color2} palette, soft grain, gentle lighting, expressive character design, vintage
-  animation frame aesthetic
+prompt: |
+  复古赛璐珞动画风格，{主体}处于{环境}中，手绘背景，可见的赛璐珞线条，柔和的{主色}与{辅色}色调，柔和的颗粒感，温柔的光线，表情丰富的角色设计，复古动画帧美感
+
 id: retro_cel_animation
 code: ''

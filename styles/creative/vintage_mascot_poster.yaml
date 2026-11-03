@@ -22,9 +22,9 @@ triggers:
 
 features:
   - "**复古吉祥物角色** — 橡皮管动画风格的人物和动物，穿大鞋子、圆滚滚四肢、派切眼、简单笑脸"
-  - "**4色印刷感** — 仅使用 [COLOR1]、[COLOR2]、[COLOR3]、[COLOR4] 四种颜色，奶油色纸张背景"
+  - "**4色印刷感** — 仅使用 {主色}、{辅色}、{点缀色}、{第四色} 四种颜色，奶油色纸张背景"
   - "**丝网印刷质感** — 轻微套印不准、做旧砂粒感、圆形印章图形、下部棋盘格条纹"
-  - "**大字标题 + 标语** — 顶部粗圆无衬线大标题 [TITLE]，底部粗圆标语 [TAGLINE]"
+  - "**大字标题 + 标语** — 顶部粗圆无衬线大标题 {标题}，底部粗圆标语 {标语}"
   - "**4:5 竖版排版** — 干净的复古 T 恤图案感，平色无渐变，简洁构图"
 
 scene: "复古品牌联名 T 恤图案、怀旧海报设计、吉祥物周边、复古美式风格品牌 KV"
@@ -32,39 +32,39 @@ ratio: "4:5"
 summary: "橡皮管动画风格的复古吉祥物海报，丝网印刷质感，四色限定，典型 1920-30s 美式复古平面设计"
 
 prompt: |
-  Vintage mascot poster in a vertical 4:5 layout on a cream paper background using only {COLOR1}, {COLOR2}, {COLOR3}, and {COLOR4}. At the top, place the bold rounded headline "{TITLE}". In the center, show a rubber hose style {HUMAN} wearing {CLOTHES} walking beside {ANIMAL} through {BACKGROUND}, both with pie-cut eyes, simple smiling faces, thick clean outlines, rounded limbs, oversized shoes, and a playful mid-step pose. Add subtle register misalignment in the outlines and fills, light distressed screen-print grain, a simple circular stamp graphic, and a horizontal checker stripe near the lower section. At the bottom, place the bold rounded tagline "{TAGLINE}". Clean retro t-shirt graphic, flat colors, no gradients, crisp simple composition.
+  复古吉祥物海报，4:5 竖版版式，奶油色纸面背景，只用{主色}、{辅色}、{点缀色}与{第四色}。顶部放置粗圆体大标题「{标题}」。中央画一个橡皮管动画风格的{人物}，身穿{服装}，与{动物}并肩走过{背景}，两者都有派切眼（pie-cut eyes）、简单的笑脸、粗而干净的轮廓、圆滚滚的四肢、超大的鞋子，以及俏皮的迈步中姿态。在轮廓与填色上加入轻微的套印不准，浅浅的做旧丝网印刷颗粒，一个简单的圆形印章图形，以及靠近画面下部的一条横向棋盘格条纹。底部放置粗圆体标语「{标语}」。干净的复古 T 恤图案，平色，无渐变，构图简洁干脆。
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
 - kv_var: 主色
-  style_var: '{COLOR1}'
+  style_var: '{主色}'
   desc: 主色名或色值，如：奶油白 / #F5E6D3
 - kv_var: 辅色
-  style_var: '{COLOR2}'
+  style_var: '{辅色}'
   desc: 辅助色，如：薄荷绿
 - kv_var: 点缀色
-  style_var: '{COLOR3}'
+  style_var: '{点缀色}'
   desc: 小面积强调色，如：正红
 - kv_var: 第四色
-  style_var: '{COLOR4}'
+  style_var: '{第四色}'
   desc: 第 4 个主色，如：奶油黄
 - kv_var: 标题
-  style_var: '{TITLE}'
+  style_var: '{标题}'
   desc: 如：夏日限定
 - kv_var: 人物
-  style_var: '{HUMAN}'
+  style_var: '{人物}'
   desc: 如：穿风衣的短发女性
 - kv_var: 服装
-  style_var: '{CLOTHES}'
+  style_var: '{服装}'
   desc: 人物穿的服装
 - kv_var: 动物
-  style_var: '{ANIMAL}'
+  style_var: '{动物}'
   desc: 如：柴犬 / 橘猫
 - kv_var: 背景
-  style_var: '{BACKGROUND}'
+  style_var: '{背景}'
   desc: 如：渐变天空 / 纯色墙面
 - kv_var: 标语
-  style_var: '{TAGLINE}'
+  style_var: '{标语}'
   desc: 如：慢一点，也很好
 source_url: "https://x.com/Goodmanprotocol/status/2080890330409553978"
 source_author: "Goodmanprotocol"

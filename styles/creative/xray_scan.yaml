@@ -29,7 +29,7 @@ ratio: "3:4"
 summary: "以X光扫描视角呈现任何主体，内部骨骼结构以霓虹青色和粉色发光，搭配科学元数据叠加层，呈现医疗科幻感"
 
 prompt: |
-  An X-ray scan of a {主体对象}, bones and internal structures glowing in neon cyan and soft magenta against a matte black field. Scientific overlay graphics and scan metadata give it a medical sci-fi twist.
+  一张 {主体对象} 的 X 光扫描图：骨骼与内部结构以霓虹青与柔品红发光，衬在哑光黑底上；科学叠加图形与扫描元数据，为画面添上一层医疗科幻的转折感。
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:

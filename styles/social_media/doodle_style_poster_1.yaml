@@ -31,7 +31,7 @@ triggers:
 features:
 - title: '保留核心视觉识别：随手户外徒步照片，与一个扁平手绘怪物伙伴、超大号西班牙漫画字体，以及随性速写注释重新混编，构成俏皮的冒险海报拼贴。'
   desc: ''
-- title: 用 BACKGROUND_ELEMENTS 控制次要场景细节、肌理、标识、道具与环境提示。
+- title: 用 {背景元素} 控制次要场景细节、肌理、标识、道具与环境提示。
   desc: ''
 - title: 以写实的户外徒步抓拍照片为底层，带自然日光、真实山体或步道细节、树木、天空、岩石，以及衣着实用的可信人物。
   desc: ''
@@ -41,67 +41,59 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 徒步者，如：背着大包的年轻人
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 如：站在山径回望
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 如：登山杖 / 水壶
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{地点}'
   desc: 如：林间山径
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 超大号西班牙漫画字体，如：AVENTURA
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：día 2
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：扁平怪物 / 手绘箭头
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 如：冲锋衣 + 徒步鞋
-prompt: 'Create a 16:9 image in the "Mountain Trail Monster Doodle Poster" style.
+prompt: |
+  创作一张 16:9 图像，采用「山径怪物涂鸦海报」风格。
 
+  主体：{主体}。
 
-  Subject: {SUBJECT}.
+  主体动作：{动作}。
 
-  Subject action: {SUBJECT_ACTION}.
+  产品/道具：{道具}。
 
-  Product or prop: {PRODUCT_OR_PROP}.
+  地点：{地点}。
 
-  Location: {LOCATION}.
+  背景元素：{背景元素}。
 
-  Background elements: {BACKGROUND_ELEMENTS}.
+  主文案：{主文案}。
 
-  Main text: {MAIN_TEXT}.
+  副文案：{副文案}。
 
-  Secondary text: {SECONDARY_TEXT}.
+  点缀符号：{点缀符号}。
 
-  Accent symbol: {ACCENT_SYMBOL}.
+  服装造型：{造型}。
 
-  Wardrobe or visual styling: {WARDROBE_STYLE}.
+  以写实的户外徒步抓拍照片为底层，带自然日光、真实的山体或步道细节、树木、天空、岩石，以及穿着实用户外服装的可信人物。人物保持摄影写实，并自然融入风景之中。
 
+  在人物旁边叠加一个扁平手绘的红色卡通怪物伙伴。怪物应有粗黑轮廓线、砖红填充、简单的深红阴影形状、超大的白色眼睛、极小的瞳孔、尖锐的白牙、淡蓝色汗滴与简化的爪形手。让它的一只手臂或爪子与人物、背包、水瓶、地图、路牌或道具产生实际接触。
 
-  Use a realistic candid outdoor hiking photograph as the base layer, with natural daylight, real mountain or trail detail, trees, sky, rocks, and a believable person in practical outdoor clothing. Keep
-  the person photographic and naturally integrated into the landscape.
+  在上方天空或山体区域加入超大号的不规则漫画字体。用米白填充、黑色描边、黄/红/钴蓝的错位阴影、轻微的内部涂鸦线、大小不均的比例，营造童趣的西班牙旅行海报感。在标题附近加一条极小的手写注记，以及少量稀疏的曲线、箭头、下划线或动势符号。
 
-
-  Overlay one flat hand-drawn red cartoon monster companion beside the person. The monster should have thick black contour lines, brick-red fill, simple dark red shadow shapes, oversized white eyes, tiny
-  pupils, sharp white teeth, pale blue sweat drops, and simplified claw hands. Let one arm or claw physically interact with the person, backpack, bottle, map, trail sign, or prop.
-
-
-  Add oversized irregular comic lettering across the upper sky or mountain area. Use off-white letter fill, black outline, yellow/red/cobalt offset shadows, light inner scribbles, uneven scale, and a playful
-  Spanish travel-poster feeling. Add a tiny handwritten note near the headline and a few sparse squiggles, arrows, underlines, or motion marks.
-
-
-  Avoid watermark, username, creator ID, platform logo, QR code, app UI, realistic demon, horror, blood, violence, 3D mascot, plush toy, full cartoon background, corporate layout, minimalist typography,
-  dense text, studio portrait, and low-detail mountains.'
+  规避：水印、用户名、创作者 ID、平台 Logo、二维码、App UI、写实恶魔、恐怖、血腥、暴力、3D 吉祥物、毛绒玩具、全卡通背景、企业化版式、极简字体、密集文字、影棚人像、低细节的山体。
 id: doodle_style_poster_1
 code: ''

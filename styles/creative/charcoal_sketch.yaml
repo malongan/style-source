@@ -29,12 +29,12 @@ ratio: "3:4"
 summary: "炭笔素描风格，粗犷线条+涂抹背景，高对比灰黑调，手绘纸张质感"
 
 prompt: |
-  A charcoal sketch of a {subject}, raw and textured with expressive shading and bold linework. The background is filled with smudged gradients and sketchbook marks, giving it a gritty, unrefined elegance.
+  一张{主体}的炭笔素描：笔触粗粝、肌理明显，明暗极具表现力，线条大胆有力。背景铺满涂抹式渐变与速写本痕迹，粗犷、未经打磨却有优雅感。
   不要水印，不要真实Logo，不要电商广告感。
 
 variables:
 - kv_var: 主体
-  style_var: '{subject}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 source_url: "https://x.com/azed_ai/status/2076623195386601657"
 source_author: "azed_ai"

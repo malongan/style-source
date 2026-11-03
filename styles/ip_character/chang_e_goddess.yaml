@@ -38,16 +38,17 @@ variables:
 - kv_var: 画面-服装
   style_var: '{服装描述}'
   desc: 服装颜色和款式
-prompt: 'Create an image in Chang''e 3D Blind Box style. Aspect ratio: 3:4.
+prompt: |
+  创作一张「嫦娥 3D 盲盒」风格的图像。画幅：3:4。
 
-  Scene: {角色描述} at {场景}.
+  场景：{角色描述}，位于{场景}。
 
-  Wearing: {服装描述}.
+  穿着：{服装描述}。
 
-  Keep the minimalist background with silver clouds.
+  保持极简背景与银色云彩。
 
-  Full-body view, centered composition.
+  全身视图，居中构图。
 
-  Hyper-detailed textures, soft lighting, 8K resolution.'
+  超精细纹理，柔和布光，8K 分辨率。
 id: chang_e_goddess
 code: ''

@@ -30,51 +30,50 @@ ratio: "9:16 或 16:9"
 summary: "光泽玩具风3D头像 + 饱和蓝天户外光照 + 夸张广角透视 + 超大斜体白色标题 + 霓虹手绘动感标记，明亮商业营销海报风格"
 
 prompt: |
-  Create an 9:16 high-energy social campaign poster in Sunny 3D Avatar Campaign Style.
+  创作一张 9:16 高能量社交营销海报，采用「阳光 3D 头像营销风」。
 
-  Preserve these style anchors:
-  - Glossy stylized 3D avatars with smooth doll-like faces, rounded hands, soft plastic skin, simplified expressive eyes
-  - Extreme sunny outdoor campaign lighting with crisp highlights, clean shadows, vacation-day atmosphere
-  - Deep saturated sky-blue upper field balanced by vivid green or fresh outdoor color in the lower field
-  - Wide-angle near-camera perspective with lead avatar or prop cropped large in foreground
-  - Oversized bold white headline typography, angled slightly, stacked over sky area
-  - Neon green or cyan hand-drawn swoops, loops, underlines, and motion strokes around headline
-  - Playful commercial density with clear foreground, midground, and headline zones
+  保留这些风格锚点：
+  - 光泽风格化的 3D 头像：圆润光滑的娃娃脸、圆润的手、柔和的塑料肌肤、简化的表情眼睛
+  - 极致的阳光户外广告光：清晰高光、干净的阴影、度假日氛围
+  - 上方为深饱和天蓝场，下方由鲜绿或清新的户外色平衡
+  - 广角近镜头透视，主头像或道具在前景被大幅裁切
+  - 超大粗体白色标题字体，略作倾斜，叠压在天空区域
+  - 霓虹绿或青色的手绘弧线、环线、下划线与动势笔触环绕标题
+  - 俏皮的商业密度，前景、中景与标题区层次分明
 
-  Scene: {SUBJECT} is {SUBJECT_ACTION} with {PRODUCT_OR_PROP} in {LOCATION}. Include {BACKGROUND_ELEMENTS}.
+  场景：{主体}正在{地点}以{动作}搭配{道具}。包含{背景元素}。
 
-  Typography: set main headline as "{MAIN_TEXT}" in large bold white slanted geometric display letters, with smaller supporting text "{SECONDARY_TEXT}" in rounded sans-serif.
+  字体：主标题「{主文案}」用大号粗体白色倾斜几何展示字体，辅助文字「{副文案}」用圆润无衬线体。
 
-  Graphic accents: add neon lime and cyan hand-drawn loops, swoops, underlines, and accent symbol "{ACCENT_SYMBOL}" around headline.
+  图形点缀：在标题周围加入霓虹青柠与青色的手绘环线、弧线、下划线，以及点缀符号「{点缀符号}」。
 
-  Rendering: glossy stylized 3D avatars, smooth toy-like faces, tactile fabric and prop textures, crisp sunny outdoor lighting, vivid blue-green commercial palette, polished high-resolution raster finish.
+  渲染：光泽风格化 3D 头像、光滑玩具般的脸、可触的布料与道具肌理、清亮的阳光户外光、鲜明的蓝绿商业色盘、抛光的高分辨率栅格成品。
 
-  No platform logos, no watermarks, no usernames, no QR codes, no photorealistic humans, no flat vector, no anime cel shading, no gritty texture.
-
+  不要平台 Logo，不要水印，不要用户名，不要二维码，不要照片级真人，不要扁平矢量，不要动画赛璐珞上色，不要粗粝颗粒肌理。
 variables:
 - kv_var: 主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 角色的姿势，如：单手比耶 / 歪头笑
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 角色手里的小物，如：一杯奶茶 / 滑板
 - kv_var: 地点
-  style_var: '{LOCATION}'
+  style_var: '{地点}'
   desc: 如：上海 / 京都 / 洛杉矶
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 如：白云、气球、放射光斑
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 超大斜体白色标题，如：HEY SUMMER
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 小字营销信息，如：NEW AVATAR PACK
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 霓虹手绘动感标记，如：闪电 / 星芒
 source_url: "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/tree/main/styles/sunny-3d-avatar-campaign-style"
 source_author: "VigoCreativeAI"

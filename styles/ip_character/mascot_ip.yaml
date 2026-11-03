@@ -28,54 +28,55 @@ features:
   desc: ''
 variables:
 - kv_var: 主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 画面主体是什么
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{主体动作}'
   desc: 如：张开双臂 / 蹦跳
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 玩具道具，如：气球 / 礼盒
 - kv_var: 地点
-  style_var: '{LOCATION}'
+  style_var: '{地点}'
   desc: 如：上海 / 京都 / 洛杉矶
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 如：SUPER DAY
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 如：限时活动
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：星星 / 圆点
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{服装}'
   desc: 如：小披风 / 领结
 prompt: |
-  Create a 16:9 image in the "Bold Block Mascot Poster Style" visual style.
-  
-  Subject: {SUBJECT}
-  Action: {SUBJECT_ACTION}
-  Prop/Product: {PRODUCT_OR_PROP}
-  Location: {LOCATION}
-  Background: {BACKGROUND_ELEMENTS}
-  Main text: {MAIN_TEXT}
-  Secondary text: {SECONDARY_TEXT}
-  Accent symbol: {ACCENT_SYMBOL}
-  Wardrobe/styling: {WARDROBE_STYLE}
-  
-  Apply these style rules:
-  - Dense flat editorial poster composition with oversized ultra-heavy black display typography as a structural block.
-  - A single large tilted cyan, mint, teal, or lemon panel crosses the center, backed by a secondary inset shape or project-card block.
-  - One chunky rounded white mascot-like subject or simplified graphic object with thick uniform black outline, minimal face marks, and sticker anatomy.
-  - Off-white paper base, black linework, cyan/mint/lemon panels, and one small red or high-contrast accent only.
-  - Flat raster illustration with screenprint sharpness, subtle paper grain, hard fills, and no realistic light or depth.
-  - Add one compact speech bubble, stamp, badge, red card cluster, or editorial label accent, but never a real logo.
-  - Use short graphic typography only; headline text can be English or Chinese, but it must behave as a poster shape.
-  
-  Important content rule: match the extracted style first, then change the source content. Use new subjects, new scene details, new props, and new text while preserving the style fidelity anchors. Avoid coffee themes, source slogans, course identities, watermarks, UI screenshots, real brand marks, exact source mascot anatomy, realistic 3D rendering, glossy product photography, anime scenes, painterly detail, long paragraphs, and cluttered background scenery.
+  创作一张 16:9 的「粗块吉祥物海报风格」视觉图像。
+
+  主体：{主体}
+  动作：{主体动作}
+  道具/产品：{道具}
+  地点：{地点}
+  背景：{背景元素}
+  主文案：{主文案}
+  副文案：{副文案}
+  点缀符号：{点缀符号}
+  服装造型：{服装}
+
+  套用以下风格规则：
+  - 密集的扁平编辑海报构图，以超大的超粗黑体展示字构成一个结构性块面。
+  - 一块大的倾斜青色、薄荷绿、蓝绿或柠檬色面板横穿画面中央，背后衬一个次级内嵌形状或项目卡片块。
+  - 一个敦实圆润的白色吉祥物式主体，或简化的图形物件，具备粗而均匀的黑色轮廓、极简的面部符号与贴纸式的解剖结构。
+  - 米白纸底、黑色线条、青/薄荷/柠檬色面板，只用一处小面积的红或高对比点缀色。
+  - 扁平栅格插画，具备丝网印刷般的锐利、细微纸张颗粒、硬边填色，没有真实光照或景深。
+  - 加一处紧凑的对话气泡、印章、徽章、红色卡片簇或编辑标签点缀，但绝不要真实 logo。
+  - 只使用短小的图形化字体；主标题文字可以是英文或中文，但必须像海报图形一样起作用。
+
+  重要内容规则：先匹配提取出的风格，再更换源内容。使用新的主体、新的场景细节、新的道具与新的文字，同时保留风格保真锚点。避免咖啡主题、源标语、课程身份、水印、UI 截图、真实品牌标识、与源完全相同的吉祥物解剖结构、写实 3D 渲染、油亮的产品摄影、动漫场景、绘画性细节、长段落，以及杂乱的背景景物。
+
 id: mascot_ip
 code: ''

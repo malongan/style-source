@@ -42,87 +42,70 @@ variables:
     style_var: "{主色}"
     desc: 如：冷灰与铁蓝 / 象牙白与石墨 / 暗银与靛青
 
-prompt: '主体：{主体}。主文案「{主文案}」。主色为{主色}。Ultra-detailed futuristic editorial mixed-media portrait blending hyper-realistic digital collage aesthetics with precision geometric concept painting and avant-garde magazine design.
+prompt: |
+  主体：{主体}。主文案「{主文案}」。主色为{主色}。超精细的未来感编辑混媒肖像，把超写实数码拼贴美学与精密几何概念绘画、前卫杂志设计融合在一起。
 
+  解剖结构准确的半写实人像，面部细节极锐利，可见皮肤纹理、毛孔、细微瑕疵，以及平滑发光的色调过渡。
 
-  Anatomically accurate semi-realistic human portrait rendered with ultra-sharp facial detail, visible skin texture, pores, subtle imperfections, and smooth luminous tonal gradation.
+  面部以干净的棚拍式布光点亮，配柔和电影感阴影，与破碎的建筑拼贴结构和层叠的平面编辑元素形成对比。
 
+  构图由相互叠压的几何分割、切片式多边形平面、杂志剪贴、报纸纹理、多语言字体、技术标注、蓝图式制图记号，以及抽象解构碎片构成。
 
-  Face illuminated with clean studio-style lighting and soft cinematic shadows, contrasted against fragmented architectural collage structures and layered graphic editorial elements.
+  面部结构保持连贯，而周围形体迁移、叠压，并溶入受控的立体主义碎片化与赛博朋克编辑拼贴语言。
 
+  表面处理把打磨过的绘画性渲染与极细的单线工程草图、示意图轮廓、技术排线、纤细的建筑制图线、半调网点、印刷颗粒、墨层叠加与细微压缩伪影结合在一起。
 
-  Composition built from overlapping geometric segmentation, sliced polygonal planes, magazine cut-outs, newspaper textures, multilingual typography, technical annotations, blueprint-inspired drafting marks,
-  and abstract deconstructed fragments.
+  纤细的线性制图细节有机地嵌入面部解剖，尤其在眼睛、颧骨、下颌线、颈部与上身周围，并逐渐过渡为富有表现力的半透明绘画性扫笔与层叠的抽象拼贴肌理。
 
+  字体直接整合进构图：粗壮的编辑风无衬线版式、密集的报纸式微文字、竖排字体排列、碎片化数据块、蓝图批注、淡淡的手写公式与图解符号。
 
-  Facial structure remains coherent while surrounding forms shift, overlap, and dissolve into controlled cubist fragmentation and cyberpunk editorial collage language.
+  文字元素承担结构性设计构件的作用，而不是可读的视觉焦点。
 
+  配色考究且具电影感：
 
-  Surface treatment combines polished painterly rendering with ultra-fine monoline engineering sketches, schematic contours, technical hatching, delicate architectural construction lines, halftone textures,
-  print grain, ink overlays, and subtle compression artifacts.
+  - 灰度与中性肤色基底
 
+  - 鲜明点缀色：钴蓝、芥末黄、金橙、深红、低饱和青绿、炭黑、象牙白、暖米色
 
-  Fine linear drafting details are embedded organically into facial anatomy, especially around eyes, cheekbones, jawline, neck, and upper body, gradually transitioning into expressive translucent painterly
-  sweeps and layered abstract collage textures.
+  - 层叠的棕色调调制
 
+  点缀色有策略地出现在几何平面、反光表面、拼贴碎片与字体结构中，制造强烈的视觉节奏，又不压过人像。
 
-  Typography integrated directly into the composition using bold editorial sans-serif layouts, dense newspaper-style microtext, vertical typographic arrangements, fragmented data blocks, blueprint notes,
-  faint handwritten formulas, and diagrammatic symbols.
+  边缘在极锐的矢量精度、干净的多边形分割、光亮反光过渡与粗糙撕纸拼贴肌理之间交替。
 
+  光线保持精致与编辑化，在写实皮肤反光与图形构件上更平的印刷式照明之间取得平衡。
 
-  Text elements function as structural design components rather than readable focal points.
+  背景设计为复杂而优雅的抽象马赛克，包含：
 
+  - 蓝图美学
 
-  Color palette is sophisticated and cinematic:
+  - 赛博朋克编辑拼贴
 
-  - grayscale and neutral skin foundations
+  - 技术图解
 
-  - vibrant accents: cobalt blue, mustard yellow, golden orange, deep red, muted teal, charcoal black, ivory, warm beige
+  - 半透明几何叠层
 
-  - layered brown tonal modulation
+  - 层叠纸张肌理
 
+  - 氛围渐变
 
-  Accent colors appear strategically within geometric planes, reflective surfaces, collage fragments, and typographic structures, creating strong visual rhythm without overwhelming the portrait.
+  - 受控的混媒抽象
 
+  整体美学融合：
 
-  Edges alternate between razor-sharp vector precision, clean polygonal segmentation, glossy reflective transitions, and rough torn-paper collage textures.
+  - 高级时装编辑摄影
 
+  - 未来主义概念艺术
 
-  Lighting remains refined and editorial, balancing realistic skin reflections with flatter print-inspired illumination across graphic components.
+  - 精密工程插画
 
+  - 当代数字拼贴
 
-  Background designed as a complex yet elegant abstract mosaic of:
+  - 立体主义抽象
 
-  - blueprint aesthetics
+  - 奢华前卫杂志海报设计
 
-  - cyberpunk editorial collage
+  极度繁复、具电影感、打磨精良、实验性强、视觉上有智性，并带一种精致的解构身份感。
 
-  - technical diagrams
-
-  - translucent geometric overlays
-
-  - layered paper textures
-
-  - atmospheric gradients
-
-  - controlled mixed-media abstraction
-
-
-  Overall aesthetic merges:
-
-  - high-fashion editorial photography
-
-  - futuristic concept art
-
-  - precision engineering illustration
-
-  - contemporary digital collage
-
-  - cubist abstraction
-
-  - luxury avant-garde magazine poster design
-
-
-  Extremely intricate, cinematic, polished, experimental, and visually intelligent with a refined deconstructed identity.'
 id: futuristic_collage_portrait
 code: ''

@@ -27,11 +27,24 @@ features:
 - title: '**概念驱动**：概念 > 技法，一个能一句话讲清的视觉比喻比精细渲染更让人记住'
   desc: ''
 variables: []
-prompt: "style_name: \"Halftone Assemblage Metaphor PSA Poster Style\"\nstyle_slug: \"halftone-assemblage-metaphor-psa-poster-style\"\nstyle_version: \"2.1\"\nstyle_summary: \"A sparse retro PSA poster\
-  \ system where one visible class of material is arranged into a different recognizable symbolic silhouette, printed as a muted blue-green halftone object on aged cream paper with compact red-and-navy\
-  \ campaign typography.\"\n\nenvironment_variables:\n  SUBJECT: \"main subject\"\n  SUBJECT_ACTION: \"main action\"\n  PRODUCT_OR_PROP: \"object, product, or prop\"\n  LOCATION: \"environment or setting\"\
-  \n  BACKGROUND_ELEMENTS: \"secondary scene details\"\n  MAIN_TEXT: \"main headline or graphic text\"\n  SECONDARY_TEXT: \"small repeated supporting text\"\n  ACCENT_SYMBOL: \"separator or decorative symbol\"\
-  \n  WARDROBE_STYLE: \"styling direction\"\n  STYLE_FIDELITY_ANCHORS: \"observable style traits that must remain visible\"\n  SOURCE_CONTENT_TO_AVOID: \"literal source content that generated samples must\
-  \ not recreate\"\n  ASPECT_RATIO: \"9:16 or 16:9\""
+prompt: |
+  style_name: "Halftone Assemblage Metaphor PSA Poster Style"
+  style_slug: "halftone-assemblage-metaphor-psa-poster-style"
+  style_version: "2.1"
+  style_summary: "一套疏朗的复古公益海报体系：把某一类可见材质排布成另一个可辨识的象征性剪影，以低饱和蓝绿色的半色调物体印在陈旧米色纸张上，配紧凑的红与藏青营销企划字体。"
+
+  environment_variables:
+    SUBJECT: "画面主体"
+    SUBJECT_ACTION: "主体动作"
+    PRODUCT_OR_PROP: "物件、产品或道具"
+    LOCATION: "环境或场景"
+    BACKGROUND_ELEMENTS: "次要场景细节"
+    MAIN_TEXT: "主标题或图形文字"
+    SECONDARY_TEXT: "小而重复的辅助文字"
+    ACCENT_SYMBOL: "分隔符或装饰符号"
+    WARDROBE_STYLE: "造型方向"
+    STYLE_FIDELITY_ANCHORS: "必须保留可见的可观察风格特征"
+    SOURCE_CONTENT_TO_AVOID: "生成样本不得复刻的字面源内容"
+    ASPECT_RATIO: "9:16 或 16:9"
 id: halftone_assemblage_psa_poster
 code: ''

@@ -30,33 +30,34 @@ features:
   desc: ''
 variables:
 - kv_var: 主标题
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主标题}'
   desc: 红色衬线字母
 - kv_var: 标语
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{标语}'
   desc: 作者、期号等
 - kv_var: 画面-主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 写实抠图对象
 - kv_var: 画面-动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{画面动作}'
   desc: 与红色字形的关系
 - kv_var: 画面-场景
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 简洁编辑封面场
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 画面里的辅助物件
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 单个符号或小图案，如：✦ / ★ / 涂鸦箭头
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 人物穿搭
 prompt: |
-  Create a 9:16 full-bleed action advertising poster in the Scarlet Court Photo Type Poster style. Subject: {SUBJECT}. Action: {SUBJECT_ACTION}. Prop or product: {PRODUCT_OR_PROP}. Location: {LOCATION}. Background: {BACKGROUND_ELEMENTS}. Main headline text: {MAIN_TEXT}. Secondary side and bottom microcopy: {SECONDARY_TEXT}. Generic accent symbol: {ACCENT_SYMBOL}. Wardrobe and styling: {WARDROBE_STYLE}. Style fidelity anchors that must remain visible: the core visual anchors of this style. Source content to avoid: watermarks, real logos, and commercial advertising. Composition: split the poster into a hard-edged electric-blue rectangular photographic panel near the top or upper side and a dominant flat scarlet-red field below or beside it; place one oversized realistic action subject so the body or prop crosses from the blue panel into the red field; keep the layout sparse and forceful with a clear seam, high-angle or overhead sports/editorial camera, decisive frozen motion, and a crisp cast shadow on the red field. Typography: use warm-cream extra-bold condensed geometric sans display type for {MAIN_TEXT} in the lower third, add a large warm-cream generic {ACCENT_SYMBOL} emblem below the subject, place tiny all-caps vertical side microcopy and a centered bottom note using {SECONDARY_TEXT}. Color and finish: saturated scarlet red, electric court blue, warm cream type, clean white panel lines, black hard shadows, one accent color on wardrobe or prop, coarse printed poster grain, slight reproduction texture, high contrast direct sunlight. Important content rule: preserve the red-blue panel poster system, cream typography, side rails, hard shadow, and print grain, but change the source subject, sport, prop, text, and story premise. Avoid real logos, brand marks, recognizable athletes, copied slogans, contact details, watermarks, tennis serves, tennis rackets, tennis nets, and logo-like swoosh shapes. Generate as a 4K ultra-high-resolution raster image.
+  创作一张 9:16 全出血的动作广告海报，采用 Scarlet Court Photo Type Poster 风格。主体：{主体}。动作：{画面动作}。道具或产品：{道具}。场景：{场景}。背景：{背景元素}。主标题文字：{主标题}。两侧与底部的次级小字：{标语}。通用点缀符号：{点缀符号}。服装与造型：{造型}。必须保持可见的风格保真锚点：该风格的核心视觉锚点。需要避免的源内容：水印、真实 Logo 与商业广告。构图：把海报切成硬边结构——靠近顶部或上侧是一块电光蓝矩形摄影面板，下方或旁侧是占主导的平涂猩红红色场；放置一个超大的写实动作主体，让身体或道具从蓝色面板跨入红色场；版面保持稀疏有力，接缝分明，采用高角度或俯拍的运动/编辑摄影机位，动作被果断定格，红色场上落一道清晰的投影。字体：{主标题}排在下三分之一，使用暖奶油色的超粗压缩几何无衬线展示字；在主体下方加一枚大的暖奶油色通用{点缀符号}徽记；用{标语}排一组极小的全大写竖排侧边小字，以及一行居中的底部注释。色彩与质感：高饱和猩红、电光球场蓝、暖奶油色文字、干净的白色面板分隔线、黑色硬阴影、服装或道具上仅一处点缀色、粗颗粒印刷海报质感、轻微翻印纹理、强烈直射阳光。重要内容规则：保留红蓝面板海报系统、奶油色字体、侧边栏、硬阴影与印刷颗粒，但要更换源主体、运动、道具、文字与故事前提。避免真实 Logo、品牌标识、可辨识的运动员、照抄的标语、联系方式、水印、网球发球、网球拍、网球网，以及类 Logo 的 swoosh 弧线。以 4K 超高分辨率栅格图生成。
+
 id: scarlet
 code: ''

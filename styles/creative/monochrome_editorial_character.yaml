@@ -29,11 +29,11 @@ ratio: "4:5"
 summary: "极简黑白编辑风角色插画，纯白留白背景配夸张大头比例的街头服饰角色，干净自信的墨水线条，无灰度无彩色"
 
 prompt: |
-  Minimalist black-and-white editorial character illustration of {角色描述} on a clean white background with abundant negative space. The character occupies approximately 30–40% of the frame in {姿势描述}, wearing {服装描述} and interacting with {道具描述} (phone, laptop, skateboard, shopping bag, etc.). Stylized proportions with a slightly oversized head, simplified facial features, small dot eyes, expressive eyebrows, tiny nose, and a subtle friendly smile. Loose casual streetwear with oversized silhouettes, chunky sneakers, simple accessories, and relaxed body language.
+  极简黑白编辑风角色插画：{角色描述}，落在干净的白色背景上，留白充裕。角色以{姿势描述}占据画面约 30–40%，身穿{服装描述}，与{道具描述}互动（手机、笔记本电脑、滑板、购物袋等）。造型比例风格化，头部略微偏大，面部特征简化：小圆点眼睛、有表现力的眉毛、小小的鼻子、一抹克制的友好微笑。宽松休闲的街头服饰，超大廓形、厚底运动鞋、简单配饰，以及放松的肢体语言。
 
-  Drawn using clean, confident black ink linework with varied line weights, rounded contours, soft sketch-like imperfections, and expressive hand-drawn strokes. Use only solid black and white with no grayscale, no color, and no gradients. Clothing is rendered with large black graphic shapes contrasted against white fabric, minimal folds, simple contour lines, and sparse hatching. Add only a soft ground shadow beneath the feet.
+  使用干净、自信的黑色墨水线稿绘制，线条粗细变化丰富、轮廓圆润、带柔和的手绘瑕疵感、笔触有表现力。只用纯黑与纯白，没有灰度、没有彩色、没有渐变。服装以大块黑色图形撞白色面料来表现，褶皱线极简、轮廓线简单、排线稀疏。只在脚下加一层柔和的地面阴影。
 
-  The composition is centered with generous white margins, creating a modern editorial look. The background remains completely blank except for a subtle floor line or shadow. Overall aesthetic resembles contemporary indie webcomic illustrations, Scandinavian editorial drawings, playful lifestyle character design, and clean vector-inspired ink sketches. High-resolution, crisp line art, minimalistic, expressive, stylish, charming, hand-drawn, 2D illustration, monochrome, no background elements, 4:5 aspect ratio.
+  构图居中，四周留白充裕，形成现代编辑感。除了一条淡淡的地面线或阴影，背景完全空白。整体美学近似当代独立网络漫画插画、斯堪的纳维亚编辑插画、俏皮的生活方式角色设计与干净的矢量感墨水速写。高分辨率、锐利的线稿、极简、有表现力、时髦、可爱、手绘、2D 插画、单色、无背景元素、4:5 画幅。
 
   不要水印，不要真实Logo，不要灰度，不要彩色，不要渐变，不要真实照片质感，不要复杂背景，不要厚涂，不要3D渲染。
 

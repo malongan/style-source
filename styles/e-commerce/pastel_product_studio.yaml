@@ -31,23 +31,23 @@ ratio: "4:5 竖版"
 summary: "将产品置于柔和粉彩背景下的高端商业摄影棚拍风格，柔光、留白、精致道具，营造轻奢现代感"
 
 prompt: |
-  Use the uploaded {product_type} as the main reference.
-  Preserve the exact product identity, appearance, texture, colors, and serving style.
+  以上传的{产品类型}作为主要参考。
+  精确保留产品的身份、外观、质感、颜色与呈现方式。
 
-  Transform it into a premium soft pastel studio photoshoot with a bright, clean, modern commercial food photography style.
+  把它转化为一次高端柔和粉彩的影棚拍摄，具备明亮、干净、现代的商业美食摄影风格。
 
-  Use a complementary pastel background, minimal elegant props, refined plating, soft diffused lighting, realistic shadows, and appetizing natural details.
+  使用互补的粉彩背景、极简优雅的道具、精致的摆盘、柔和的漫射光、真实的阴影，以及诱人的自然细节。
 
-  Keep the product as the hero with a balanced composition, negative space, and subtle luxury branding area.
+  让产品保持主角地位，构图均衡、留白充足，并有一块低调的奢华品牌区域。
 
-  Add minimal elegant typography for product name, brand name, and optional CTA.
+  加入极简优雅的排版，用于产品名、品牌名，以及可选的行动号召。
 
-  Final output: ultra-realistic 4:5 vertical image, professional food advertisement quality, fresh, polished, premium, and social-media ready.
+  最终输出：超写实的 4:5 竖版图像，专业美食广告品质，清新、精致、高端、适合社交媒体发布。
   不要水印，不要真实Logo，不要电商广告感，不要卡通风。
 
 variables:
   - kv_var: 产品类型
-    style_var: '{product_type}'
+    style_var: '{产品类型}'
     desc: 产品类型（饮料、咖啡、蛋糕、冰淇淋、奶茶）
 source_url: "https://x.com/SimplyAnnisa/status/2075111363064848511"
 source_author: "Anissa (@SimplyAnnisa)"

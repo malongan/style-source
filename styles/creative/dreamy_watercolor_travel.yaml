@@ -28,26 +28,25 @@ ratio: "4:5"
 summary: "用高端故事书水彩风格描绘欧洲城市，兼具复古旅行海报的诗意与吉卜力童话的温馨"
 
 prompt: |
-  Create a dreamy watercolor travel illustration in the style of premium storybook and vintage travel poster.
-  The scene depicts the serene city of {城市名}, rendered in soft blue watercolor tones,
-  with delicate ink outlines, warm cream paper textures, and a cozy fairytale atmosphere.
+  创作一张梦幻水彩旅行插画，风格介于高级故事书与复古旅行海报之间。
+  画面描绘宁静的{城市名}，以柔和的蓝色水彩调渲染，
+  配精致墨水轮廓、温暖的奶油色纸张纹理与温馨的童话氛围。
 
-  At the top, a large hand-lettered watercolor calligraphy title: "{城市名}",
-  with a delicate small subtitle below: "{一句诗意标语}".
+  顶部是一行大字手写水彩书法标题：「{城市名}」，
+  下方配一行精致的小副标题：「{一句诗意标语}」。
 
-  Scene elements: charming riverside or canal promenade, iconic landmarks in the background,
-  cobblestone streets, old bridges, historic buildings, flower shops, cozy cafes,
-  warm bakeries, vintage street lamps, soft reflections on calm water,
-  small boats, birds, blooming flowers, and soft clouds.
+  场景元素：迷人的河畔或运河长廊、背景中的标志性地标、
+  鹅卵石街道、古老的桥梁、历史建筑、花店、温馨的咖啡馆、
+  温暖的面包店、复古路灯、平静水面上的柔和倒影、
+  小船、飞鸟、盛开的花朵与柔软的云。
 
-  Foreground: cute illustrated characters enjoying daily life — walking and drinking coffee,
-  reading, sketching, cycling, walking dogs, couples on bridges,
-  children feeding birds, artists painting, and tourists taking photos.
+  前景：可爱的插画角色在享受日常——散步、喝咖啡、
+  读书、速写、骑车、遛狗、桥上相拥的情侣、
+  喂鸟的孩子、写生的画家，以及拍照的游客。
 
-  Style: watercolor illustration, Studio Ghibli atmosphere, Beatrix Potter charm,
-  storybook style, European travel journal, high detail, 8K.
+  风格：水彩插画、吉卜力工作室氛围、碧翠丝·波特的魅力、
+  故事书风格、欧洲旅行手账、高细节、8K。
   不要水印，不要真实Logo，不要电商广告感，不要卡通风，不要拼贴感。
-
 variables:
 - kv_var: 城市名
   style_var: '{城市名}'

@@ -36,49 +36,37 @@ features:
   desc: 品牌标识、标语、正文与页脚细节
 variables:
 - kv_var: 品牌名
-  style_var: '{BRAND_NAME}'
+  style_var: '{品牌名}'
   desc: 品牌或产品名
 - kv_var: 品牌副标题
-  style_var: '{BRAND_SUBTITLE}'
+  style_var: '{品牌副标题}'
   desc: 一句话品类或定位
 - kv_var: 短标语
-  style_var: '{SHORT_SLOGAN}'
+  style_var: '{短标语}'
   desc: 如：慢慢来，也很好
 - kv_var: 主文案
-  style_var: '{MAIN_COPY}'
+  style_var: '{主文案}'
   desc: 品牌主张或活动名，如：好好吃饭
-prompt: 'Prompt:
+prompt: |
+  提示词：
 
+  创作一张 9:16 的单幅竖版高端美妆营销海报。
 
-  Create a single vertical 9:16 luxury beauty campaign poster.
+  品牌：{品牌名}
+  副标题：{品牌副标题}
+  主标题：[PROFILE / GLOW / VEIL / ECLAT]
+  红色手写词：[refine / luminous / softly / timeless]
+  标语：{短标语}
+  主文案：{主文案}
+  肖像角度：[左侧脸 / 右侧脸 / 半侧脸 / 低垂侧脸]
+  色板：[奶油米色 / 珍珠白 / 香槟金 / 雾玫瑰 / 柔银]
+  关键焦点：[下颌线 / 肌肤光泽 / 颈部 / 香氛 / 珍珠耳饰 / 锁骨]
 
+  使用一张近景侧面女性肖像，具备真实的皮肤纹理、自然妆容、柔和唇形、优雅的颈部与锁骨、自然的发丝，以及温暖的逆光。营造高级编辑美妆广告的观感：极简的模糊背景、超大的半透明衬线字体、一处红色手写体强调、小号品牌标识、标语、正文与页脚细节。
 
-  Brand: {BRAND_NAME}
+  画面应像一张高端美妆、护肤、香氛或珠宝营销海报：干净、有光泽、精致、电影感、商业级。
 
-  Subtitle: {BRAND_SUBTITLE}
+  避免出现中文文字、廉价促销风、塑料皮肤、畸形的手、重复的面孔、杂乱的文字、杂乱的背景，以及过度的 AI 美颜修图。
 
-  Main title: [PROFILE / GLOW / VEIL / ECLAT]
-
-  Red script word: [refine / luminous / softly / timeless]
-
-  Slogan: {SHORT_SLOGAN}
-
-  Main copy: {MAIN_COPY}
-
-  Portrait angle: [left side profile / right side profile / semi-profile / lowered side profile]
-
-  Color palette: [cream beige / pearl white / champagne gold / misty rose / soft silver]
-
-  Key focus: [jawline / skin glow / neck / fragrance / pearl earring / collarbone]
-
-
-  Use a close-up side-profile female portrait with realistic skin texture, natural makeup, soft lips, elegant neck and collarbone, natural hair strands, and warm reverse light. Create a premium editorial
-  beauty-ad look with a minimal blurred background, oversized translucent serif typography, one red handwritten script accent, small brand logo, slogan, main copy and footer details.
-
-
-  The image should feel like a high-end beauty, skincare, fragrance or jewelry campaign poster: clean, luminous, refined, cinematic and commercial-grade.
-
-
-  Avoid Chinese text, cheap promo style, plastic skin, distorted hands, repeated faces, messy text, cluttered background and overdone AI beauty retouching.'
 id: luxury_beauty_side_profile_poster
 code: ''

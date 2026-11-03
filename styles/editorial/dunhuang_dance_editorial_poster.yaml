@@ -32,56 +32,56 @@ ratio: "9:16"
 summary: "敦煌舞者工笔线描与巨型金色 Didone 衬线英文互为前后景，高饱和矿物色撞深底，博物馆级文化展陈海报。"
 
 prompt: |
-  Customize
-  Theme: {THEME}
-  Characters: {CHARACTERS}
-  Key Visual: {KEY_VISUAL}
-  Giant English Type: {GIANT_TYPE}
-  Chinese Headline: {CHINESE_TITLE}
-  Subtitle: {SUBTITLE}
-  Color Palette: {COLOR_PALETTE}
+  定制参数
+  主题：{主题}
+  人物：{人物}
+  核心视觉：{核心视觉}
+  巨型英文标题：{巨型英文}
+  中文主标题：{中文标题}
+  副标题：{副标题}
+  色板：{色板}
 
-  Create a premium 9:16 vertical poster on the theme of {THEME}, blending Dunhuang-inspired Chinese dance art with bold contemporary editorial typography.
+  创作一张 9:16 竖版高端海报，主题为{主题}，把敦煌启发的中国舞蹈艺术与大胆的当代编辑排版融合。
 
-  Feature elegant Tang-inspired adult dancers with dynamic poses, graceful anatomy, ornate hairstyles, jewelry, flowing garments, and richly decorated traditional costumes. Render {CHARACTERS} with clear silhouette and mutual interaction.
+  以优雅的唐风成年舞者为主角，姿态动感、人体优美、发髻繁复、佩戴首饰、衣袂飘拂、传统服装装饰华丽。让{人物}具备清晰的剪影与彼此的互动。
 
-  Use saturated mineral colors such as {COLOR_PALETTE} — cinnabar red, turquoise, jade green, indigo, ivory, and antique gold — against a deep dark background.
+  使用高饱和的矿物色，如{色板}——朱砂红、绿松石、玉石绿、靛蓝、象牙白与古金——落在深暗的背景上。
 
-  Make one strong visual structure dominate the composition: a giant cultural object, circular formation, oversized serif typography, or a bold interaction between figures and letters. Center it on {KEY_VISUAL}.
+  让一个强有力的视觉结构主导构图：一件巨大的文化物件、圆形阵型、超大衬线字体，或人物与字母之间的强烈互动。以{核心视觉}为中心。
 
-  Integrate huge antique-gold Didone serif typography spelling "{GIANT_TYPE}" directly into the artwork. Let dancers, clothing, props, and flowing fabric overlap, pass in front of, and disappear behind the letters so the typography becomes part of the composition rather than a separate title.
+  把拼写「{巨型英文}」的巨型古金 Didone 衬线字体直接织入画面。让舞者、衣物、道具与飘拂的布料与字母重叠、从字母前方掠过、又在字母后隐没，使字体成为构图的一部分，而不是一个独立的标题。
 
-  Add a large white condensed Chinese headline "{CHINESE_TITLE}" near the lower section, supported by refined English subtitles "{SUBTITLE}", meaningful microtypography, thin dividers, and subtle red seals.
+  在画面下部加入一行大号白色窄体中文主标题「{中文标题}」，配精致的英文副标题「{副标题}」、有意义的微型排版、细分割线与低调的朱红印章。
 
-  Fill the background with layered Dunhuang-inspired clouds, lotus motifs, floral ornaments, brocade patterns, and delicate gold linework. Keep the background rich but lower in contrast than the characters and main typography.
+  用层叠的敦煌启发祥云、莲花纹样、花卉装饰、织锦图案与纤细金线铺满背景。背景保持丰富，但对比度低于人物与主字体。
 
-  Use refined decorative illustration, gongbi-inspired outlines, smooth flowing curves, complete color fields, intricate textile patterns, and sophisticated editorial layering.
+  使用精致的装饰性插画、工笔启发的轮廓线、流畅的曲线、完整的色块、繁复的织物纹样与考究的编辑级层次。
 
-  The final poster should feel like a complete museum-quality cultural exhibition visual: bold at thumbnail size, highly detailed up close, traditional in spirit but unmistakably contemporary in composition.
+  最终海报应像一件完整的博物馆级文化展览视觉：缩略图尺寸下依然醒目，近看细节极多，精神上是传统的，但构图无疑属于当代。
 
-  Avoid generic fantasy art, 3D rendering, random text, broken anatomy, excessive ribbons, messy micro-details, cheap gold effects, watermarks, and meaningless placeholder typography.
+  避免泛泛的奇幻艺术、3D 渲染、随机文字、结构错误的人体、过多飘带、杂乱的微细节、廉价的金色效果、水印，以及无意义的占位排版。
 
 variables:
   - kv_var: 画面-主题
-    style_var: "{THEME}"
+    style_var: "{主题}"
     desc: "Dance / Music / Cultural Theme，如：乐舞 / 丝路 / 盛唐宴饮"
   - kv_var: 画面-人物
-    style_var: "{CHARACTERS}"
+    style_var: "{人物}"
     desc: "1–3 位舞者及其姿态互动，如：双人长绸对舞 / 三人圆阵 / 单人独舞"
   - kv_var: 画面-核心视觉
-    style_var: "{KEY_VISUAL}"
+    style_var: "{核心视觉}"
     desc: "Drum / Fan / Circular Formation / Giant Letters / Other，即 鼓 / 扇 / 圆形阵型 / 巨型文字 / 其他"
   - kv_var: 文字-巨型英文
-    style_var: "{GIANT_TYPE}"
+    style_var: "{巨型英文}"
     desc: "单个英文单词，如：BOOM / SWIRL / CELESTIAL"
   - kv_var: 文字-中文标题
-    style_var: "{CHINESE_TITLE}"
+    style_var: "{中文标题}"
     desc: "2–4 字中文大标题，如：敦煌 / 飞天 / 舞·敦煌"
   - kv_var: 文字-英文副标题
-    style_var: "{SUBTITLE}"
+    style_var: "{副标题}"
     desc: "一句英文副标，如：SILK AND SILENCE"
   - kv_var: 色彩-主色板
-    style_var: "{COLOR_PALETTE}"
+    style_var: "{色板}"
     desc: "如：cinnabar red + turquoise + antique gold / jade green + indigo"
 
 source_url: "https://x.com/MrLarus/status/2117275497369669764"

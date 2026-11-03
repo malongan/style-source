@@ -29,7 +29,7 @@ ratio: "9:16"
 summary: "以密集圆珠笔交叉排线构建高对比黑白主体，置于鲜明红色背景之上，融合手写涂鸦注释与地下杂志排版美学"
 
 prompt: |
-  Ultra-detailed blue ballpoint pen illustration translated into monochrome black ink, dense cross-hatching and fine hatch shading, intricate biro sketch texture, obsessive linework, engraved contour rendering, hand-drawn pen illustration aesthetic, expressive organic strokes, editorial surreal composition, high-detail facial rendering, layered sketchbook construction lines, vintage technical scribbles and handwritten notes in pure white only over bold red background, white typographic annotations integrated into backdrop, underground zine poster aesthetic, raw imperfect ink marks, high-contrast black ink subject against vivid red field, experimental graphic design, avant-garde magazine cover style --ar 9:16 --stylize 750
+  超精细的蓝色圆珠笔插画，转化为单色黑墨呈现，密集的交叉排线与细密排线明暗，繁复的圆珠笔速写肌理，执着的线条，蚀刻般的轮廓渲染，手绘钢笔插画美学，有表现力的有机笔触，编辑式超现实构图，高细节的面部渲染，层叠的速写本构造线，复古技术涂写与手写笔记仅以纯白压在浓烈红色背景之上，白色排版批注融入背景，地下 zine 海报美学，粗粝不完美的墨痕，高对比的黑墨主体衬在鲜明红色场域之上，实验性平面设计，先锋杂志封面风格 --ar 9:16 --stylize 750
   不要水印，不要真实Logo，不要电商广告感。
 
 source_url: "https://x.com/HustleXR/status/2098087685348892674"

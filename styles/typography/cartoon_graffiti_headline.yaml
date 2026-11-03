@@ -37,7 +37,7 @@ ratio: "4:3"
 summary: "创意卡通涂鸦标题字体——笔画夸张变形圆润灵动、粗细对比强烈、黑字白边高对比、荧光绿对话框数字线条点缀，扁平矢量潮流活力年轻创意感"
 
 prompt: |
-  Pure solid cream white background, playful creative cartoon graffiti typography design. The main element is the Chinese slogan "{中文Slogan}" rendered as a bold cartoon graffiti font: exaggerated distorted strokes, rounded lively organic shapes, strong contrast between thick and thin strokes, chunky playful letterforms with smooth rounded edges. Black lettering with a clean white outline creating high contrast pop-out effect. Decorative elements in bright fluorescent green: small speech bubble shapes, a few scattered numbers, dynamic curved lines and squiggles around the letters. English phrase "{英文副行}" placed smaller beneath the Chinese in a rounded bold sans-serif. Youthful, energetic, trendy streetwear vibe, creative campaign poster typography, flat vector style, clean solid colors, no 3D shadow, no gradient. Every Chinese character must be clearly readable and correctly written, keep all text inside the safe area. Only decorative numbers are allowed as extra elements; do not add any other letters, words, labels, logos, or pseudo-text.
+  纯色奶油白背景，俏皮的创意卡通涂鸦字体设计。主元素是中文口号「{中文Slogan}」，以粗壮卡通涂鸦字体呈现：夸张扭曲的笔画、圆润灵动的有机形态、粗细笔画强烈对比、敦实俏皮且边缘圆润平滑的字形。黑色字配一圈干净的白色描边，形成高对比的凸出效果。亮荧光绿的装饰元素：小的对话气泡形状、几个散落的数字、字母周围动态的曲线与波浪线。英文短语「{英文副行}」以小一号的字号置于中文下方，用圆润的粗体无衬线字体。年轻、有活力、潮流的街头气息，创意企划海报字体，扁平矢量风格，干净的纯色，无 3D 阴影，无渐变。每个中文字都必须清晰可读、书写正确，所有文字保持在安全区内。只允许把装饰性数字作为额外元素；不要添加任何其他字母、单词、标签、logo 或伪文字。
 
 variables:
   - kv_var: 中文Slogan

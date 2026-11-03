@@ -31,23 +31,18 @@ features:
 - title: '**插画质感**：手绘插画风格，不是写实照片'
   desc: ''
 variables: []
-prompt: 'Create a cheerful and bright illustration poster featuring a Chinese calligraphy-style title "旷野的风" at the top, set against a vast blue sky with fluffy white clouds.
+prompt: |
+  创作一张欢快明亮的插画海报：顶部是中文书法风格标题「旷野的风」，背景为广阔蓝天与蓬松白云。
 
+  画面下半部分是连绵起伏的绿色草原与柔和的山丘。景观中散落着旅行元素：蜿蜒的公路、小巴士或房车、帐篷、木栅栏，以及一间温馨的小屋。
 
-  The lower half of the image shows rolling green grasslands and gentle hills. Scattered across the landscape are travel elements like a winding road, a small bus or camper, tents, wooden fences, and a
-  cozy cottage.
+  色盘：草原用鲜明的绿色，天空用明亮的蓝色，以温暖的黄色与橙色作点缀。高饱和，清新的夏日感。
 
+  风格：带轻微肌理的扁平插画，类似现代旅行海报或品牌企划视觉。线条干净，色彩大胆，构图俏皮。
 
-  Color palette: vibrant greens for the grasslands, bright blues for the sky, with warm yellows and oranges as accents. High saturation, fresh summer feeling.
+  文字位于顶部，大而醒目，带笔刷肌理与墨迹晕染效果。
 
-
-  Style: flat illustration with slight texture, resembling modern travel posters or brand campaign visuals. Clean lines, bold colors, playful composition.
-
-
-  The text should be at the top, large and prominent, with brush-stroke texture and ink bleeding effects.
-
-
-  Maintain a sense of freedom, adventure, and youthful energy throughout the composition.'
+  整幅构图始终保持自由、冒险与年轻活力的感觉。
 # （已移除失效的 preview: https://malongan.github.io/style-source/images/styles_previews/wilderness_wind_poster_4920aafd.jpg）
 id: wilderness_wind_poster
 code: ''

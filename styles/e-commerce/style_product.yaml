@@ -30,37 +30,34 @@ features:
   desc: ''
 variables:
 - kv_var: 画面主体
-  style_var: '{SUBJECT}'
+  style_var: '{主体}'
   desc: 主推产品，如：一副无线耳机
 - kv_var: 主体动作
-  style_var: '{SUBJECT_ACTION}'
+  style_var: '{动作}'
   desc: 产品的呈现姿态，如：悬浮 / 斜置 45 度
 - kv_var: 产品/道具
-  style_var: '{PRODUCT_OR_PROP}'
+  style_var: '{道具}'
   desc: 配件或第二件产品，如：充电盒
 - kv_var: 场景地点
-  style_var: '{LOCATION}'
+  style_var: '{场景}'
   desc: 陈列空间，如：发光平台 / 纯黑空间
 - kv_var: 背景元素
-  style_var: '{BACKGROUND_ELEMENTS}'
+  style_var: '{背景元素}'
   desc: 补充画面层次，如：反光玻璃、贴纸、路牌
 - kv_var: 主文案
-  style_var: '{MAIN_TEXT}'
+  style_var: '{主文案}'
   desc: 巨大的裁切蓝色背景字，如：SONIC
 - kv_var: 副文案
-  style_var: '{SECONDARY_TEXT}'
+  style_var: '{副文案}'
   desc: 白色发布文案，如：AVAILABLE 11.02
 - kv_var: 点缀符号
-  style_var: '{ACCENT_SYMBOL}'
+  style_var: '{点缀符号}'
   desc: 如：轮廓光线 / 细线框
 - kv_var: 服装造型
-  style_var: '{WARDROBE_STYLE}'
+  style_var: '{造型}'
   desc: 产品表面质感，如：磨砂金属 / 亮面塑料
-prompt: 'Create a 16:9 premium dark consumer-tech launch poster in an electric-blue silhouette style. Feature {SUBJECT} {SUBJECT_ACTION}, with {PRODUCT_OR_PROP} staged in {LOCATION}. Add {BACKGROUND_ELEMENTS}.
-  Preserve these style anchors: the core visual anchors of this style. Avoid this source content: watermarks, real logos, and commercial advertising. Composition: one centered brandless product silhouette, large black negative space, a glowing
-  electric-blue horizontal platform, blue floor reflection beneath the object, giant cropped blue geometric sans-serif background typography reading "{MAIN_TEXT}" behind the product, clean white lower launch
-  copy using "{SECONDARY_TEXT}", and a tiny minimal accent mark or status light "{ACCENT_SYMBOL}". Lighting: low-key black stage, cyan-blue rim light, glossy edge highlights, soft bloom, haze, deep shadows,
-  no warm accents. Typography: sparse, premium, clean geometric sans-serif, no real logos. Wardrobe or human styling if present: {WARDROBE_STYLE}. Keep the layout minimal, symmetrical, cinematic, and teaser-like
-  rather than dense or feature-heavy.'
+prompt: |
+  创作一张 16:9 的高级深色消费科技上市海报，采用电光蓝剪影风格。以{主体}{动作}为主角，把{道具}布置在{场景}中。加入{背景元素}。保留这些风格锚点：该风格的核心视觉锚点。避免这些源内容：水印、真实 Logo 与商业广告。构图：单个居中的无品牌产品剪影，大面积黑色负空间，一道发光的电光蓝水平平台，物件下方有蓝色地面倒影，产品身后是读作「{主文案}」的巨大裁切蓝色几何无衬线背景字体，下部是使用「{副文案}」的干净白色发布文案，以及一枚极小的极简点缀标记或状态灯「{点缀符号}」。布光：低调黑色舞台、青蓝轮廓光、光亮边缘高光、柔和泛光、薄雾、深阴影，不要暖色点缀。字体：稀疏、高级、干净的几何无衬线，不要真实 Logo。若出现人物或其造型：{造型}。版面保持极简、对称、电影感、预告片气质，而不是密集堆砌功能。
+
 id: style_product
 code: ''

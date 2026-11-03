@@ -34,48 +34,47 @@ ratio: "4:5"
 summary: "锁死整套视觉骨架的酒饮系列海报，同一框架下只让风味身份变化，独立成立又天然归属于同一品牌"
 
 prompt: |
-  Create a premium beverage (wine/liqueur/spirits) product poster with a systematic series design approach. The key principle: lock the entire visual framework — keep camera distance, bottle scale, centered placement, packaging architecture, typography rhythm, and shadow logic completely consistent — while only changing flavor identity elements.
+  创作一张高级酒饮（葡萄酒／利口酒／烈酒）产品海报，采用系统化的系列设计方法。核心原则：锁定整套视觉框架——机位距离、瓶身尺度、居中摆放、包装架构、字体节奏与阴影逻辑完全保持一致——只更换风味身份元素。
 
-  Core composition requirements:
-  - Bottle centered in frame, consistent scale across series
-  - Thin controlled liquid arc gracefully enhancng the bottle silhouette
-  - Minimal garnish composition unique to each flavor (fruit, herb, or spice element)
-  - Shared packaging structure with distinct flavor atmosphere via liquid color and background
+  核心构图要求：
+  - 瓶身居中，系列之间尺度一致
+  - 纤细受控的液体弧线优雅地强化瓶型轮廓
+  - 每个口味专属的极简配料构图（水果、草本或香料元素）
+  - 共享包装结构，通过酒液颜色与背景区分不同风味氛围
 
-  For {FLAVOR_NAME} variant:
-  - Background: {COLOR1} with [MOOD/ATMOSPHERE] atmosphere
-  - Liquid color: {LIQUID_COLOR} (wine red / amber gold / pale green / deep purple)
-  - Garnish: {GARNISH_ELEMENT} (citrus slice / herb sprig / berry / spice)
-  - Accent elements: {ACCENT_DESCRIPTION}
+  {口味} 版本：
+  - 背景：{主色}，配以［氛围］基调
+  - 酒液颜色：{液体色}（酒红／琥珀金／淡绿／深紫）
+  - 配料：{配料}（柑橘片／香草枝／浆果／香料）
+  - 点缀元素：{点缀}
 
-  Typography: elegant serif or modern sans for brand name, refined layout with generous negative space.
-  Lighting: soft product lighting with subtle rim highlights on bottle, rich dimensional separation.
-  Style: premium beverage advertising, consistent series design system, minimalist composition.
+  字体：优雅衬线体或现代无衬线体写品牌名，版式精致，留白充裕。
+  布光：柔和的产品光，瓶身有细微轮廓高光，层次分离丰富。
+  风格：高级酒饮广告，一致的系列设计系统，极简构图。
 
-  Series consistency rules (apply to ALL variants):
-  - Same camera height and angle
-  - Same bottle size relative to frame
-  - Same typography scale and placement
-  - Same shadow direction and intensity
-  - Same background texture/finish style
-  - Only liquid color, background hue, and garnish change between variants
+  系列一致性规则（适用于所有版本）：
+  - 相同的机位高度与角度
+  - 相同的瓶身相对画幅比例
+  - 相同的字体尺度与位置
+  - 相同的阴影方向与强度
+  - 相同的背景肌理／表面处理
+  - 版本之间只改变酒液颜色、背景色相与配料
   不要水印，不要真实Logo，不要电商广告感。
-
 variables:
 - kv_var: 口味名称
-  style_var: '{FLAVOR_NAME}'
+  style_var: '{口味}'
   desc: 这个口味的名字
 - kv_var: 主色
-  style_var: '{COLOR1}'
+  style_var: '{主色}'
   desc: 主色名或色值，如：奶油白 / #F5E6D3
 - kv_var: 液体颜色
-  style_var: '{LIQUID_COLOR}'
+  style_var: '{液体色}'
   desc: 如：酒红 / 琥珀金 / 淡绿
 - kv_var: 装饰配料
-  style_var: '{GARNISH_ELEMENT}'
+  style_var: '{配料}'
   desc: 如：柑橘片 / 香草枝
 - kv_var: 点缀元素
-  style_var: '{ACCENT_DESCRIPTION}'
+  style_var: '{点缀}'
   desc: 如：小雏菊 / 星星 / 网格线
 source_url: "https://x.com/ou_zhen599/status/2080924943567757412"
 source_author: "ou_zhen599"

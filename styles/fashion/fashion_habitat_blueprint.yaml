@@ -24,43 +24,42 @@ features:
   - "**半爆炸结构** — 局部拆解面板、缝线、配件、面料层次、廓形引导线"
   - "**蓝图注释线** — 细节标注线标注面料来源、缝合方式、廓形、色彩、版型信息"
   - "**杂志编辑摄影质感** — 奢华光影与高端色调，区别于普通电商图"
-  - "**编辑排版** — 底部 [系列名 / 品类 / 工坊编号] 三段式编辑字体排版"
+  - "**编辑排版** — 底部 {系列名} / {品类} / {工坊编号} 三段式编辑字体排版"
 
 scene: "品牌KV、时尚大片、设计师系列海报、高端产品手册"
 ratio: "3:4"
 summary: "将时尚单品以建筑视角呈现，融合蓝图拆解图与高端杂志摄影，创造「服装即栖息地」的视觉概念"
 
 prompt: |
-  Create a vertical poster for {FASHION_SUBJECT}.
-  Present the garment or accessory as a floating hero object,
-  partially exploded into panels, seams, fasteners, textile layers,
-  hardware, lining, silhouette guides, and motion paths.
-  Transform the piece into a miniature architectural habitat.
-  Show how its materials, folds, and construction create a world
-  of shelter, identity, performance, and cultural meaning.
-  Luxury fashion campaign with sculptural garment presentation.
-  Ultra-premium exploded-view product advertisement showing materials and construction.
-  Avant-garde runway invitation typography with editorial spacing.
-  Architectural section drawing and textile craft diagram.
-  If details are missing, infer the garment type, textile,
-  construction method, color palette, and fashion mood from the subject.
-  render format: vertical luxury fashion poster,
-  typography: {COLLECTION_NAME} / {GARMENT_TYPE} / {ATELIER_CODE},
-  output rules: premium fabric detail, controlled exploded layout, elegant negative space, editorial typography
+  创作一张{时尚主体}的竖版海报。
+  把服装或配饰作为悬浮的主角单品呈现，
+  局部拆解为面板、缝线、扣件、面料层次、
+  五金、里料、廓形引导线与运动路径。
+  把这件单品转化为一座微缩的建筑栖息地。
+  展示它的材质、褶皱与结构如何构建出一个
+  关于庇护、身份、性能与文化意义的世界。
+  奢华时尚广告，以雕塑感的方式呈现服装。
+  超高端爆炸视图产品广告，展示材质与构造。
+  前卫秀场邀请函字体，配编辑式字距。
+  建筑剖面图与纺织工艺图解。
+  若缺少细节，从主体推断服装类型、面料、
+  构造方式、色盘与时尚气质。
+  渲染格式：竖版奢华时尚海报，
+  字体：{系列名} / {品类} / {工坊编号}，
+  输出规则：高级面料细节、受控的爆炸式布局、优雅的负空间、编辑式字体
   不要廉价商品图感，不要随意模特姿态，不要杂乱背景，不要水印。
-
 variables:
 - kv_var: 时尚主体
-  style_var: '{FASHION_SUBJECT}'
+  style_var: '{时尚主体}'
   desc: 如：一件大衣 / 一条长裙
 - kv_var: 系列名称
-  style_var: '{COLLECTION_NAME}'
+  style_var: '{系列名}'
   desc: 如：QUIET FORM
 - kv_var: 服装类型
-  style_var: '{GARMENT_TYPE}'
+  style_var: '{品类}'
   desc: 如：羊毛大衣 / 缎面衬衫
 - kv_var: 工坊代号
-  style_var: '{ATELIER_CODE}'
+  style_var: '{工坊编号}'
   desc: 如：ATL-07
 source_url: "https://x.com/Gdgtify/status/2075122532965896675"
 source_author: "Gadgetify (@Gdgtify)"

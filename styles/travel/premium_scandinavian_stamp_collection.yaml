@@ -34,54 +34,55 @@ ratio: "3:4"
 summary: "北欧极简风目的地旅行纪念邮票集：7-9枚大小不一的邮票在A4竖版上自由混排，真实齿孔+纸纹质感+克制配色，打造可收藏的限量印刷品。"
 
 prompt: |
-  Create a premium commemorative postage-stamp collection inspired by {DESTINATION}, presented as a beautifully designed A4 vertical stamp sheet.
+  创作一套北欧极简风的精致纪念邮票集，主题灵感来自{目的地}，排布成一张设计精美的 A4 竖版邮票全张。
 
-  Create 7–9 individual stamps featuring a thoughtful mix of iconic landmarks, architecture, local food, transportation, nature, cultural objects, and small everyday symbols that uniquely evoke {DESTINATION}.
+  制作 7–9 枚独立邮票，题材有心地混搭标志性地标、建筑、本地食物、交通工具、自然、文化物件，以及能独特唤起{目的地}的小型日常符号。
 
-  All stamps must keep the same elegant 3:4 portrait proportion, but vary noticeably in physical size. Arrange them freely across the sheet with gentle asymmetry, visual rhythm, and comfortable white space — NOT a rigid grid.
+  所有邮票保持同样优雅的 3:4 竖版比例，但实际尺寸要有明显差异。以轻微的不对称、视觉节奏与舒适的留白在全张上自由排布——不要死板的网格。
 
-  STYLE
+  风格
 
-  Premium Scandinavian minimalism with sophisticated contemporary postal design.
+  高级北欧极简主义，配以讲究的当代邮政设计。
 
-  Simplify each subject into elegant geometric forms, clean silhouettes, restrained details, subtle graphic abstraction, and refined editorial composition.
+  把每个题材简化为优雅的几何形态、干净的剪影、克制的细节、微妙的平面抽象与精致的编辑构图。
 
-  Use a fresh but limited color palette inspired naturally by {DESTINATION}.
+  使用清新而有节制的配色，颜色自然取自{目的地}。
 
-  Keep the background clean warm-white or pure white.
+  背景保持干净的暖白或纯白。
 
-  Avoid vintage sepia, excessive decoration, cartoonish illustration, photorealism, or generic tourist-poster aesthetics.
+  避免复古棕褐、过度装饰、卡通化插画、照片写实，或通用的旅游海报美学。
 
-  STAMPS
+  邮票
 
-  Every stamp must feel like a real collectible postage stamp:
+  每枚都必须像真实的收藏级邮票：
 
-  - crisp perforated edges
-  - beautifully printed paper texture
-  - country or destination name
-  - authentic local currency symbol and realistic current postage denomination
-  - subtle, elegant typography
-  - one distinctive subject per stamp
+  - 清晰锐利的齿孔边缘
+  - 精美的印刷纸纹
+  - 国家或目的地名称
+  - 真实的本地货币符号与合理的当前邮资面值
+  - 微妙、优雅的字体排印
+  - 每枚只一个鲜明题材
 
-  Research and use plausible current local postage values and currency conventions for {DESTINATION}.
+  为{目的地}查证并使用可信的当前本地邮资面值与货币惯例。
 
-  Make every stamp visually different while maintaining one coherent art direction.
+  让每枚邮票视觉上各不相同，同时维持统一的美术方向。
 
-  Mix bold architectural compositions, close-up objects, landscapes, food, transportation, flora, and charming local details.
+  混合大胆的建筑构图、特写物件、风景、食物、交通、植物与迷人的本地细节。
 
-  PRESENTATION
+  呈现
 
-  Show the complete A4 vertical commemorative stamp sheet straight-on, like a premium limited-edition postal release photographed or scanned for a design archive.
+  正面完整展示 A4 竖版纪念邮票全张，像为设计档案拍摄或扫描的高级限量邮政发行品。
 
-  The final result should feel exceptionally collectible, tactile, sophisticated, and physically believable — something so beautifully designed that the viewer would genuinely want to tear off and keep each stamp.
+  最终成品应显得极具收藏性、有触感、精致、在物理上可信——设计得漂亮到让观者真心想撕下来收藏每一枚。
 
-  No rigid grid. No identical stamp sizes. No excessive empty space. No mockup frame. No hands. No envelopes. A4 vertical ratio.
+  不要死板网格。不要相同的邮票尺寸。不要过多空白。不要样机外框。不要手。不要信封。A4 竖版比例。
 
   不要水印，不要真实Logo，不要电商广告感。
 
+
 variables:
 - kv_var: 目的地
-  style_var: '{DESTINATION}'
+  style_var: '{目的地}'
   desc: 如：京都 / 里斯本 / 大理
 source_url: "https://x.com/Goodmanprotocol/status/2084588473689014648"
 source_author: "@Goodmanprotocol"

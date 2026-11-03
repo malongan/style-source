@@ -25,37 +25,38 @@ features:
   - "**复古吉卜力氛围** — 细腻手绘背景，柔和胶片颗粒，微妙水彩纹理，怀旧日常感，慢节奏叙事"
   - "**城市波普美学** — 80-90 年代日本怀旧感，模拟摄影质感，老式建筑与招牌，昭和末期至平成初期"
   - "**自然比例动漫角色** — 表情丰富、眼睛细节真实，与写实背景融合，呈现电影感分镜构图"
-  - "**四种场景模板** — 电车少年、复古餐厅、温馨卧室、街道黄昏，可替换 {scene} 变量生成不同场景"
+  - "**四种场景模板** — 电车少年、复古餐厅、温馨卧室、街道黄昏，可替换 {场景} 变量生成不同场景"
 
 scene: "品牌KV、概念插画、社交媒体内容、小说/游戏场景概念图、品牌叙事内容"
 ratio: "4:5"
 summary: "新海诚光效 + 吉卜力手绘感 + 城市波普复古美学，呈现 80-90 年代日本日常生活的电影感动漫插画"
 
 prompt: |
-  {scene}
+  {场景}
 
-  整体风格：1980s-1990s Japanese anime cinematic illustration, highly detailed hand-painted background, warm golden-hour and neon lighting, soft film grain, subtle watercolor texture, expressive anime characters with natural proportions and detailed eyes, realistic architecture and interiors, slice-of-life atmosphere, emotional storytelling, cozy urban Japan, dramatic perspective, beautiful reflections, volumetric sunlight, soft shadows, rich color grading, intricate environmental details, quiet contemplative mood, Makoto Shinkai-inspired lighting, vintage Studio Ghibli atmosphere, city pop aesthetic, retro Japanese nostalgia, analog photography feel, perfectly composed cinematic framing, ultra-detailed digital painting, masterpiece quality.
+  整体风格：1980–1990 年代日本动漫电影感插画，高度细腻的手绘背景，温暖的黄金时刻与霓虹光，柔和胶片颗粒，微妙水彩质感，比例自然、眼睛细节丰富的动漫角色，写实的建筑与室内，生活流氛围，有情绪的故事感，温馨的日本都市，戏剧性透视，美丽的倒影，体积光，柔和阴影，丰富的调色，繁密的环境细节，安静沉思的情绪，受 Makoto Shinkai（新海诚）启发的光效，复古吉卜力工作室氛围，city pop 美学，日式复古怀旧，模拟摄影质感，构图完美的电影感取景，超精细数字绘画，杰作级品质。
 
   禁止：水印，真实Logo，卡通过度，3D渲染质感，现代科技元素（手机/电脑屏幕），写实摄影，杂乱的UI元素。
-  不要水印，不要真实Logo。
+  不要水印，不要电商广告感。
 
-  # 场景变体（替换 {scene} 使用）：
+  # 场景变体（替换 {场景} 使用）：
 
-  ## 电车少年 (Train Scene)
-  A Japanese high school boy in a black gakuran uniform sitting alone inside an old commuter train at sunset, resting his chin on his hand while looking out the window, orange and purple sky, reflections on the glass, telephone poles passing by, melancholic atmosphere, motion blur outside, peaceful evening commute.
+  ## 电车少年（Train Scene）
+  一名穿黑色 gakuran（立领学生制服）的日本高中男生，独自坐在黄昏的老式通勤电车里，手托下巴望向窗外，橙紫色的天空，玻璃上的倒影，掠过的电线杆，忧郁的氛围，窗外动态模糊，平静的傍晚通勤。
 
-  ## 复古餐厅 (Retro Diner)
-  A stylish young woman sitting in a retro American-style diner at night, drinking a vanilla milkshake, red varsity jacket, neon "OPEN 24 HOURS" sign glowing through rain-covered windows, warm tungsten lighting, vintage Coca-Cola decorations, cinematic night mood, city pop aesthetic.
+  ## 复古餐厅（Retro Diner）
+  一位时髦的年轻女性夜里坐在美式复古小餐馆，喝着香草奶昔，红色棒球夹克，雨水覆盖的窗外透出「OPEN 24 HOURS」霓虹灯，温暖的钨丝灯光，复古可口可乐装饰，电影感的夜晚氛围，city pop 美学。
 
-  ## 温馨卧室 (Cozy Bedroom)
-  A girl reading a book on the floor of her cozy bedroom, morning sunlight streaming through lace curtains, sleeping cat on the windowsill, cassette player, vintage posters, books, plants, soft pastel colors, warm peaceful atmosphere, nostalgic 90s Japanese bedroom.
+  ## 温馨卧室（Cozy Bedroom）
+  一个女孩坐在温馨卧室的地板上读书，晨光透过蕾丝窗帘洒入，窗台上睡着一只猫，磁带机，复古海报，书，植物，柔和的粉彩色，温暖平静的氛围，怀旧的 90 年代日本卧室。
 
-  ## 街道黄昏 (Japanese Street)
-  A schoolgirl walking through a quiet suburban Japanese neighborhood during golden hour, sailor school uniform, utility poles, narrow residential street, glowing clouds, warm evening light, peaceful everyday life, highly detailed environment, cinematic perspective.
+  ## 街道黄昏（Japanese Street）
+  一名女学生走在黄金时刻安静的日本郊区街区，水手服，电线杆，狭窄的住宅街道，发光的云，温暖的傍晚光线，平静的日常生活，高度细腻的环境，电影感透视。
+
 
 variables:
 - kv_var: 场景
-  style_var: '{scene}'
+  style_var: '{场景}'
   desc: 发生在哪里，如：海边公路 / 便利店门口
 source_url: "https://x.com/ChillaiKalan__/status/2081299855755149723"
 source_author: "ChillaiKalan__"

@@ -30,9 +30,9 @@ ratio: "1:1"
 summary: "Lululemon 高端运动品牌四联编辑式海报，钴蓝鲜橙配色、超写实运动员、大字体编辑排版与手绘叙事元素"
 
 prompt: |
-  hyper-real Lululemon Athletica 4-panel campaign poster, four different athletes, distinct action themes, minimalist backgrounds, giant editorial typography, fine hand-drawn narrative graphics, cobalt blue and vivid orange palette, premium sportswear realism, avant-garde fashion-sport magazine energy, 8k, world-class campaign quality
+  超写实 Lululemon Athletica 四联运动海报，四位不同的运动员，各自鲜明的动作主题，极简背景，超大编辑排版，精细手绘叙事图形，钴蓝与鲜橙配色，高端运动装的写实感，前卫时尚运动杂志的能量感，8k，世界级广告大片品质
   {运动主题英文文案}
-  不要水印，不要真实Logo，不要电商广告感。
+  不要水印，不要电商广告感，只允许出现所选品牌自己的符号，不得出现第三方品牌/平台标识。
 
 variables:
 - kv_var: 运动主题英文文案

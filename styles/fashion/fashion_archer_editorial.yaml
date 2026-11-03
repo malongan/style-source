@@ -29,22 +29,19 @@ features:
 - title: '**Bodoni/Didot 衬线排版**：标题如 NOIR ARCHER / MOTION DRAW / AIR CUT 等'
   desc: ''
 variables: []
-prompt: '极简白色摄影棚背景，一位成年东亚女性弓箭手，黑色长发微凌乱，穿黑色长款风衣、黑色宽松长裤、黑色厚底皮靴，手持黑色复合弓与箭，冷静专注的眼神，时尚杂志大片质感，动作有力量感
-
+prompt: |
+  极简白色摄影棚背景，一位成年东亚女性弓箭手，黑色长发微凌乱，穿黑色长款风衣、黑色宽松长裤、黑色厚底皮靴，手持黑色复合弓与箭，冷静专注的眼神，时尚杂志大片质感，动作有力量感
 
   不同姿势：拉弓、回眸、行走、跳跃、单膝下蹲、高抬腿，身体比例自然，姿态流畅不别扭
 
-
-  Bodoni / Didot typography
+  Bodoni / Didot 衬线排版
 
   标题如：NOIR ARCHER / MOTION DRAW / QUIET STEP / AIR CUT / CLOSER LOOK
 
   小字排版：SILENCE. FOCUS. PRECISION. / EDITORIAL SERIES / STUDIO MODE
 
+  高端时尚杂志海报，极简时尚摄影，锐利细节，柔和影棚光，高反差黑白，干净构图，奢华杂志封面，竖向 4:5
 
-  高端 editorial poster，minimal fashion photography，sharp details，soft studio lighting，high contrast black and white，clean composition，luxury magazine cover，vertical 4:5
-
-
-  Negative prompt: 身体畸形，手指错误，弓箭变形，脸崩，表情僵硬，比例失衡，多余肢体，文字乱码，低清晰度，过度AI感，背景杂乱'
+  负向提示：身体畸形，手指错误，弓箭变形，脸崩，表情僵硬，比例失衡，多余肢体，文字乱码，低清晰度，过度AI感，背景杂乱
 id: fashion_archer_editorial
 code: ''

@@ -32,18 +32,19 @@ ratio: "4:5"
 summary: "台北城市地标的复古现代主义几何拼贴旅行海报"
 
 prompt: |
-  Create a refined editorial travel poster illustration of {city}, inspired by vintage modernist travel art. Show {landmark} as the dominant landmark rising above a layered city skyline, with {foreground_element} in the foreground, traditional architecture, lush trees, distant mountains, elegant bridges, and a calm blue river or waterfront. Use a sophisticated geometric collage composition with overlapping arches, rectangles, circles, stepped architectural shapes, and subtle paper-texture overlays. Muted pastel palette of powder blue, cream, warm terracotta, dusty coral, sage green, and deep navy. Minimalist hand-painted illustration, slightly grainy vintage print texture, soft natural daylight, clean architectural lines, balanced negative space, sophisticated European travel-poster aesthetic, nostalgic yet contemporary, highly detailed but uncluttered. Place the title "{city}" centered at the top in thin, widely spaced uppercase typography. Vertical 4:5 composition, premium art-print quality, elegant, cohesive, no photorealism, no gradients, no excessive text.
+  创作一张精致的编辑式{城市}旅行海报插画，灵感来自复古现代主义旅行艺术。让{地标}作为主导地标，升起在层叠的城市天际线之上，前景是{前景}，并包含传统建筑、繁茂树木、远山、优雅的桥与平静的蓝色河流或水岸。使用讲究的几何拼贴构图，交叠的拱门、矩形、圆形、阶梯状建筑形体，以及微妙的纸质叠加。粉蓝、奶油白、暖陶土、尘珊瑚、鼠尾草绿与深海军蓝的低饱和粉彩色盘。极简手绘插画，略带颗粒的复古印刷质感，柔和自然日光，干净的建筑线条，平衡的负空间，讲究的欧洲旅行海报美学，怀旧而当代，高度细腻却不杂乱。把标题「{城市}」以纤细、字距宽大的全大写字体排在顶部居中。竖版 4:5 构图，高级艺术版画品质，优雅、整体统一，不要照片写实，不要渐变，不要过多文字。
   不要水印，不要真实Logo。
+
 
 variables:
 - kv_var: 城市
-  style_var: '{city}'
+  style_var: '{城市}'
   desc: 如：台北 / 台南
 - kv_var: 地标
-  style_var: '{landmark}'
+  style_var: '{地标}'
   desc: 如：台北 101 / 龙山寺
 - kv_var: 前景元素
-  style_var: '{foreground_element}'
+  style_var: '{前景}'
   desc: 如：棕榈叶 / 街边招牌
 source_url: "https://x.com/Taaruk_/status/2091034664203133243"
 source_author: "Taaruk_"

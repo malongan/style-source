@@ -31,34 +31,35 @@ ratio: "9:16"
 summary: "日式天真手绘插画 + 刺绣细节 + 真实食物摄影融合的 9:16 杂志封面，温暖亚麻纸底与柔哑光印刷质感"
 
 prompt: |
-  Create a whimsical Japanese editorial magazine cover combining naive handdrawn illustrations, delicate embroidery, natural linen textures, and realistic food photography.
+  创作一张异想天开的日式编辑杂志封面，融合天真手绘插画、精致刺绣、天然亚麻肌理与写实食物摄影。
 
-  CUSTOMIZE
-  - Food: {食物}
-  - Subject: {手绘主体}
-  - Creative Interaction: {创意融合}
-  - Magazine Title: {杂志名}
-  - Headline: {标题}
-  - Caption: {注释}
-  - Color Palette: {主色板}
-  - Aspect Ratio: 9:16
+  自定义
+  - 食物：{食物}
+  - 主体：{手绘主体}
+  - 创意融合：{创意融合}
+  - 杂志名：{杂志名}
+  - 标题：{标题}
+  - 注释：{注释}
+  - 配色：{主色板}
+  - 画幅：9:16
 
-  Visual Concept:
-  The real food becomes an unexpected but natural part of the illustrated world — a dress, horn, umbrella, light, or another imaginative object. Preserve authentic photographic details in the food while keeping the surrounding illustration simple, imperfect, and expressive.
+  视觉概念：
+  真实食物成为插画世界里意外却自然的一部分——一条裙子、一只角、一把伞、一束光，或另一个充满想象力的物件。食物保留真实的摄影细节，而周围插画保持简单、不完美、有表现力。
 
-  Illustration Style:
-  Loose black ink outlines, irregular handdrawn strokes, subtle pencil marks, occasional stitched details, and playful asymmetrical proportions. Characters should feel charming, quirky, and full of personality.
+  插画风格：
+  松散的黑色墨线、不规则的手绘笔触、微妙的铅笔痕迹、偶发的缝线细节，以及俏皮的不对称比例。角色应迷人、古怪、充满个性。
 
-  Composition & Typography:
-  Use an oversized illustrated subject, one striking food element, generous negative space, and a flexible Japanese editorial layout. Place a bold magazine title at the top, with a short headline and minimal supporting text naturally integrated into the illustration.
+  构图与字体排印：
+  使用一个超大的插画主体、一个醒目的食物元素、充足留白，以及灵活的日式编辑版式。把粗体杂志名放在顶部，短标题与极少量辅助文字自然融入插画。
 
-  Texture & Color:
-  Warm linen paper, subtle fabric fibers, muted earthy colors, soft matte printing, and natural food textures. Let the food provide the strongest color accent.
+  肌理与色彩：
+  温暖亚麻纸、微妙的织物纤维、低饱和大地色、柔和哑光印刷，以及自然的食物肌理。让食物承担最强的色彩重音。
 
-  Art Direction:
-  Playful yet sophisticated, nostalgic, handcrafted, and visually surprising. Every element should feel intentionally connected.
-  Create one complete, original 9:16 magazine cover.
+  艺术指导：
+  俏皮而不失讲究、怀旧、手作感、视觉上出人意料。每个元素都应显得彼此有意图地关联。
+  创作一张完整、原创的 9:16 杂志封面。
   不要水印，不要真实Logo，不要电商广告感。
+
 
 variables:
   - kv_var: 食物
