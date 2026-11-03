@@ -1,4 +1,4 @@
-共 318 个风格
+共 319 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -143,6 +143,7 @@ ST0137 | 东方幻想游记封面 | https://malongan.github.io/style-source/imag
 ST0314 | 精密光学玻璃按钮 | https://malongan.github.io/style-source/images/styles_previews/optical_glass_ui_button_12f91b06.webp
 ST0138 | 真实物体插画融合 | https://malongan.github.io/style-source/images/styles_previews/object_illustration_combo_e014d94f.webp
 ST0139 | 科考档案网格海报 | https://malongan.github.io/style-source/images/styles_previews/north_fold_scientific_poster_HNHdndOW.webp
+ST0320 | 北欧复古绘本海报 | https://malongan.github.io/style-source/images/styles_previews/nordic_retro_picture_book_poster_a9d4e17a.webp
 ST0140 | 夜间闪光庆典写真 | https://malongan.github.io/style-source/images/styles_previews/night_flash_celebration_portrait_ff5b2426.webp
 ST0141 | 新年礼盒 | https://malongan.github.io/style-source/images/styles_previews/newyear_gift_box_6772c037.webp
 ST0142 | 童趣猫咪手绘涂鸦 | https://malongan.github.io/style-source/images/styles_previews/naive_doodle_cat_character_e3bfda16.webp
