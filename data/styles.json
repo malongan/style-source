@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-236-g1e12376-dirty",
-    "generated": "2026-11-03T13:08:18Z",
-    "total": 323,
+    "version": "v0.7.0-before-opt-237-gd0ebad3-dirty",
+    "generated": "2026-11-03T13:11:18Z",
+    "total": 324,
     "categories": [
       "brand_kv",
       "creative",
@@ -15419,6 +15419,58 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/constructivist_architecture_poster_72855380.thumb.webp",
       "number": "ST000261",
       "created_at": "2026-07-02T06:39:56+08:00"
+    },
+    {
+      "id": "commercial_hover_poster",
+      "code": "ST0325",
+      "name": "商业广告悬浮海报",
+      "category": "editorial",
+      "tags": [
+        "商业广告",
+        "3D产品渲染",
+        "悬浮构图",
+        "品牌海报",
+        "高调柔光",
+        "广告设计"
+      ],
+      "triggers": [
+        "商业广告海报",
+        "3D产品渲染",
+        "悬浮构图海报",
+        "品牌广告主视觉",
+        "高调柔光广告"
+      ],
+      "scene": "品牌广告、产品主视觉、电商 KV、品牌 campaign、商业海报",
+      "ratio": "9:16",
+      "summary": "商业广告悬浮海报，3D 产品渲染 + 三主体沿对角线悬浮 + 产品嵌入文字 + 高调柔光。",
+      "features": [
+        "**三主体沿对角线悬浮** — 三个不同角度的主体沿对角线从左上到右下错落悬浮，由远及近形成纵深",
+        "**产品嵌入文字** — 主体与粗体白色无衬线大标题前后穿插，产品嵌入文字的立体层次",
+        "**高调柔和柔光** — 顶部柔光箱照明，顶面受光明亮，底部柔和蓝色环境反射阴影",
+        "**长春花蓝渐变背景** — 上方浅灰蓝到下方饱和天蓝渐变，极细腻纸感微颗粒"
+      ],
+      "prompt": "一张竖版商业广告海报，主体为 {我指定的主体}，以高清 3D 产品渲染呈现。\n\n画面采用柔和的长春花蓝渐变背景，上方偏浅灰蓝，下方逐渐过渡为更饱和的天蓝色，背景带有极细腻的纸感微颗粒，干净通透，如同悬浮在空气中。\n\n{我指定的主体} 以三个不同角度的形态沿对角线从画面左上方向右下方错落悬浮：最上方一个展示正面，中间一个呈倾斜侧面，最下方一个最大、最靠近镜头，形成由远及近的节奏感和空间纵深。\n\n主体材质细节清晰，边缘结构精准，表面质感真实，带有精致的压印或品牌细节。\n\n画面中部是醒目的粗体白色无衬线大标题，写着 {主标题文字}。\n\n主体与文字前后穿插：一部分主体遮挡在字母前方，一部分字母压在主体前方，营造\"产品嵌入文字\"的立体层次。\n\n画面底部铺满一行超大号的半透明浅蓝色衬线字标 {品牌字标}，位于主体后方，与背景融为一体。\n\n顶部居中放置一个青柠绿色的圆角胶囊标签，内含小号深色文字 {标签文字}，作为全画面唯一的高饱和点缀色。\n\n最底部有一行极小字号的白色说明文字，排版整齐。\n\n光线为高调柔和的顶部柔光箱照明，主体顶面受光明亮，底部带有柔和的蓝色环境反射阴影，无生硬投影，整体明亮、洁净、低对比。\n\n色彩体系为纯白、长春花蓝、青柠绿点缀。\n\n氛围轻盈、纯净、可信、平静且富有未来感，呈现杂志级精修商业广告质感。\n\n画面干净清晰，减少无必要的噪点与颗粒感，粒子特效克制，避免大面积漂浮颗粒、碎光和杂质感。\n\n主体结构准确、比例正常、细节稳定；如画面中出现手部，手部结构自然准确，手指数量正确，关节清晰，姿态合理。\n\n画面左上角加入由 stylized \"V\" 元素与猫元素组成的简洁图形 logo，配色与画面协调；画面右下角加入精致的签名\"voxCAT\"。\n\n可在胶囊标签或底部说明文字中自然融入\"VOX CAT\"字样，保持排版美感。\n",
+      "variables": {
+        "我指定的主体": "{我指定的主体}",
+        "主标题文字": "{主标题文字}",
+        "品牌字标": "{品牌字标}",
+        "标签文字": "{标签文字}"
+      },
+      "variable_descs": {
+        "我指定的主体": "产品/主体名称",
+        "主标题文字": "粗体白色无衬线大标题文案",
+        "品牌字标": "超大号半透明浅蓝色衬线字标",
+        "标签文字": "胶囊标签小号深色文字，如 NEW / NOW AVAILABLE"
+      },
+      "source_url": "https://x.com/VoxcatAI/status/2112853608765255853",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/commercial_hover_poster_8743ed5f.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/commercial_hover_poster_8743ed5f.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/commercial_hover_poster_8743ed5f.thumb.webp",
+      "number": "ST000325",
+      "created_at": ""
     },
     {
       "id": "collage_logo",
