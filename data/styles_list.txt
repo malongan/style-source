@@ -1,4 +1,4 @@
-共 311 个风格
+共 312 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -248,6 +248,7 @@ ST0239 | 东方野字文化艺术展览海报 | https://malongan.github.io/style
 ST0240 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_magazine_3a8da998.webp
 ST0241 | 东亚复古杂志风插画 | https://malongan.github.io/style-source/images/styles_previews/east_asian_vintage_illustration_3a8da998.webp
 ST0242 | 东亚现代主义包围式展览海报 | https://malongan.github.io/style-source/images/styles_previews/east_asian_enclosing_exhibition_poster_cf63e647.webp
+ST0312 | 敦煌舞编辑海报 | https://malongan.github.io/style-source/images/styles_previews/dunhuang_dance_editorial_poster_968d5fec.webp
 ST0243 | 敦煌飞天壁画 | https://malongan.github.io/style-source/images/styles_previews/dunhuang_celestial_musicians_d23c3d00.webp
 ST0244 | 城市旅行海报 Risograph 风格 | https://malongan.github.io/style-source/images/styles_previews/dubai_riso_travel_poster_73dcf2a5.webp
 ST0245 | 梦幻水彩旅行插画 | https://malongan.github.io/style-source/images/styles_previews/dreamy_watercolor_travel_f8ac7a28.webp
