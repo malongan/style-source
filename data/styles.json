@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-235-g15d82bd-dirty",
-    "generated": "2026-11-03T13:06:27Z",
-    "total": 322,
+    "version": "v0.7.0-before-opt-236-g1e12376-dirty",
+    "generated": "2026-11-03T13:08:18Z",
+    "total": 323,
     "categories": [
       "brand_kv",
       "creative",
@@ -11635,6 +11635,64 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.thumb.webp",
       "number": "ST000194",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "ink_wash_comic_poster",
+      "code": "ST0324",
+      "name": "水墨淡彩漫画",
+      "category": "editorial",
+      "tags": [
+        "水墨淡彩",
+        "Q版漫画",
+        "宠物互动",
+        "国风治愈",
+        "宣纸肌理",
+        "反转幽默"
+      ],
+      "triggers": [
+        "水墨淡彩漫画",
+        "Q版国风漫画",
+        "宠物互动漫画",
+        "宣纸肌理海报",
+        "国风治愈漫画"
+      ],
+      "scene": "IP 转译、品牌主视觉、社交媒体海报、角色 merchandise、国风漫画",
+      "ratio": "2:3",
+      "summary": "水墨淡彩漫画，IP 转译为 Q版角色 + 宠物互动 + 水墨淡彩 + 双侧题款 + 钤印。",
+      "features": [
+        "**水墨淡彩 + 宣纸肌理** — 毛笔中锋墨线勾勒，粗细提按带飞白，没骨淡彩与干笔皴擦",
+        "**Q版角色 × 宠物互动** — Q版比例角色 + 宠物叠放互动，制造动作笑点",
+        "**双侧题款 + 钤印** — 两侧竖排手写毛笔大字题款，钤朱红方形小印章",
+        "**反转幽默** — 一件日常小事成为完整单幅漫画，国风治愈与反转幽默"
+      ],
+      "prompt": "水墨淡彩漫画，宣纸纹理底色，暖米白背景大面积留白。Q版比例的 {主体}，圆头，豆豆眼，粉色腮红，保留其标志性发型、发色与服装主色并简化为淡彩色块，正在 {日常动作}，神情 {表情}。一只 {宠物} 以夸张可爱的方式与 {主体} 叠放互动，{宠物位置}，画面一角另有一只小动物探头旁观。场景只保留 {一两件道具}。毛笔中锋墨线勾勒，粗细提按带飞白，毛发用没骨淡彩与干笔皴擦，水色轻透纸纹，单一暖色作为视觉焦点，其余色彩低饱和。平光无阴影，平视侧面，竖幅。两侧竖排手写毛笔大字题款”{文案}”，钤朱红方形小印章。国风治愈系，反转幽默。\n",
+      "variables": {
+        "主体": "{主体}",
+        "日常动作": "{日常动作}",
+        "表情": "{表情}",
+        "宠物": "{宠物}",
+        "宠物位置": "{宠物位置}",
+        "一两件道具": "{一两件道具}",
+        "文案": "{文案}"
+      },
+      "variable_descs": {
+        "主体": "角色名或 IP 形象",
+        "日常动作": "角色正在做的日常动作",
+        "表情": "角色神情",
+        "宠物": "宠物类型",
+        "宠物位置": "宠物与角色的叠放位置",
+        "一两件道具": "场景保留的道具",
+        "文案": "两侧竖排题款文案"
+      },
+      "source_url": "https://x.com/VoxcatAI/status/2113414346563067992",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/ink_wash_comic_poster_58e62a64.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/ink_wash_comic_poster_58e62a64.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/ink_wash_comic_poster_58e62a64.thumb.webp",
+      "number": "ST000324",
+      "created_at": ""
     },
     {
       "id": "inflatable_3d_flowers",
