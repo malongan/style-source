@@ -41,6 +41,8 @@ IMAGES_CONTENT_CHECK = '--no-content-check' not in sys.argv
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument('--strict', action='store_true', help='有问题时 exit 1')
+    parser.add_argument('--strict-content', action='store_true',
+                        help='配图内容重复（md5 相同）时 exit 1')
     args = parser.parse_args()
 
     problems = []
@@ -55,7 +57,7 @@ def main() -> int:
     # 2. 加载 styles.json
     if not os.path.exists(DATA_FILE):
         problems.append(f'[缺失] {DATA_FILE} 不存在，先运行 python3 scripts/generate_data.py')
-        return _report(problems, notes, args.strict)
+        return _report(problems, notes, args.strict, args.strict_content)
 
     with open(DATA_FILE) as fp:
         data = json.load(fp)
@@ -147,23 +149,41 @@ def main() -> int:
                 problems.append(f'[孤儿文件] images/styles_previews/{f} 未被 styles.json 引用，'
                                 f'先确认不是被前缀匹配挤掉的合法配图，再清理')
 
-    return _report(problems, notes, args.strict)
+    return _report(problems, notes, args.strict, args.strict_content)
 
 
-def _report(problems: list, notes: list, strict: bool) -> int:
+def _report(problems: list, notes: list, strict: bool, strict_content: bool = False) -> int:
+    # 内容重复单独拎出来：它夹在一堆 ℹ️ 中间时极易被 `tail` 漏掉——
+    # 2026-11-03 就有 6 组误配图因此长期没被发现（其中一组是刺绣微距照配给街潮吉祥物）。
+    dup = [n for n in notes if '内容重复配图' in n]
     for n in notes:
-        print(f'ℹ️  {n}')
+        if '内容重复配图' not in n:
+            print(f'ℹ️  {n}')
+    for n in dup:
+        print(f'⚠️  {n}')
+
+    def _dup_tail() -> int:
+        """把重复配图汇总打在最后一行，保证 `tail` 一定看得到。"""
+        if not dup:
+            return 0
+        print(f'⚠️  {len(dup)} 组配图内容重复（md5 相同），需人工核对是否为误配')
+        if strict_content:
+            print('❌ 存在内容重复配图（--strict-content）')
+            return 1
+        return 0
+
     if not problems:
         print('✅ 配图完整性检查通过：所有风格都有全尺寸 + 缩略图，命名规范，无串号')
-        return 0
+        return _dup_tail()
     print(f'⚠️  发现 {len(problems)} 个问题:')
     for p in problems:
         print(f'   {p}')
+    code = _dup_tail()
     if strict:
         print('❌ 检查未通过（--strict）')
         return 1
     print('ℹ️  运行 python3 scripts/generate_data.py 可自动修复缩略图缺失')
-    return 0
+    return code
 
 
 if __name__ == '__main__':
