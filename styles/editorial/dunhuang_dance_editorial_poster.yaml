@@ -33,25 +33,25 @@ summary: "敦煌舞者工笔线描与巨型金色 Didone 衬线英文互为前�
 
 prompt: |
   Customize
-  Theme: {Theme}
-  Characters: {Characters}
-  Key Visual: {KeyVisual}
-  Giant English Type: {GiantType}
-  Chinese Headline: {ChineseTitle}
-  Subtitle: {Subtitle}
-  Color Palette: {ColorPalette}
+  Theme: {THEME}
+  Characters: {CHARACTERS}
+  Key Visual: {KEY_VISUAL}
+  Giant English Type: {GIANT_TYPE}
+  Chinese Headline: {CHINESE_TITLE}
+  Subtitle: {SUBTITLE}
+  Color Palette: {COLOR_PALETTE}
 
-  Create a premium 9:16 vertical poster on the theme of {Theme}, blending Dunhuang-inspired Chinese dance art with bold contemporary editorial typography.
+  Create a premium 9:16 vertical poster on the theme of {THEME}, blending Dunhuang-inspired Chinese dance art with bold contemporary editorial typography.
 
-  Feature elegant Tang-inspired adult dancers with dynamic poses, graceful anatomy, ornate hairstyles, jewelry, flowing garments, and richly decorated traditional costumes. Render {Characters} with clear silhouette and mutual interaction.
+  Feature elegant Tang-inspired adult dancers with dynamic poses, graceful anatomy, ornate hairstyles, jewelry, flowing garments, and richly decorated traditional costumes. Render {CHARACTERS} with clear silhouette and mutual interaction.
 
-  Use saturated mineral colors such as {ColorPalette} — cinnabar red, turquoise, jade green, indigo, ivory, and antique gold — against a deep dark background.
+  Use saturated mineral colors such as {COLOR_PALETTE} — cinnabar red, turquoise, jade green, indigo, ivory, and antique gold — against a deep dark background.
 
-  Make one strong visual structure dominate the composition: a giant cultural object, circular formation, oversized serif typography, or a bold interaction between figures and letters. Center it on {KeyVisual}.
+  Make one strong visual structure dominate the composition: a giant cultural object, circular formation, oversized serif typography, or a bold interaction between figures and letters. Center it on {KEY_VISUAL}.
 
-  Integrate huge antique-gold Didone serif typography spelling "{GiantType}" directly into the artwork. Let dancers, clothing, props, and flowing fabric overlap, pass in front of, and disappear behind the letters so the typography becomes part of the composition rather than a separate title.
+  Integrate huge antique-gold Didone serif typography spelling "{GIANT_TYPE}" directly into the artwork. Let dancers, clothing, props, and flowing fabric overlap, pass in front of, and disappear behind the letters so the typography becomes part of the composition rather than a separate title.
 
-  Add a large white condensed Chinese headline "{ChineseTitle}" near the lower section, supported by refined English subtitles "{Subtitle}", meaningful microtypography, thin dividers, and subtle red seals.
+  Add a large white condensed Chinese headline "{CHINESE_TITLE}" near the lower section, supported by refined English subtitles "{SUBTITLE}", meaningful microtypography, thin dividers, and subtle red seals.
 
   Fill the background with layered Dunhuang-inspired clouds, lotus motifs, floral ornaments, brocade patterns, and delicate gold linework. Keep the background rich but lower in contrast than the characters and main typography.
 
@@ -63,25 +63,25 @@ prompt: |
 
 variables:
   - kv_var: 画面-主题
-    style_var: "{Theme}"
+    style_var: "{THEME}"
     desc: "Dance / Music / Cultural Theme，如：乐舞 / 丝路 / 盛唐宴饮"
   - kv_var: 画面-人物
-    style_var: "{Characters}"
+    style_var: "{CHARACTERS}"
     desc: "1–3 位舞者及其姿态互动，如：双人长绸对舞 / 三人圆阵 / 单人独舞"
   - kv_var: 画面-核心视觉
-    style_var: "{KeyVisual}"
+    style_var: "{KEY_VISUAL}"
     desc: "Drum / Fan / Circular Formation / Giant Letters / Other，即 鼓 / 扇 / 圆形阵型 / 巨型文字 / 其他"
   - kv_var: 文字-巨型英文
-    style_var: "{GiantType}"
+    style_var: "{GIANT_TYPE}"
     desc: "单个英文单词，如：BOOM / SWIRL / CELESTIAL"
   - kv_var: 文字-中文标题
-    style_var: "{ChineseTitle}"
+    style_var: "{CHINESE_TITLE}"
     desc: "2–4 字中文大标题，如：敦煌 / 飞天 / 舞·敦煌"
   - kv_var: 文字-英文副标题
-    style_var: "{Subtitle}"
+    style_var: "{SUBTITLE}"
     desc: "一句英文副标，如：SILK AND SILENCE"
   - kv_var: 色彩-主色板
-    style_var: "{ColorPalette}"
+    style_var: "{COLOR_PALETTE}"
     desc: "如：cinnabar red + turquoise + antique gold / jade green + indigo"
 
 source_url: "https://x.com/MrLarus/status/2117275497369669764"
