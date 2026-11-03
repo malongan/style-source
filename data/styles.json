@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-241-g0bf43ca-dirty",
-    "generated": "2026-11-03T13:25:07Z",
-    "total": 327,
+    "version": "v0.7.0-before-opt-242-g298866f-dirty",
+    "generated": "2026-11-03T13:59:46Z",
+    "total": 328,
     "categories": [
       "brand_kv",
       "creative",
@@ -16010,6 +16010,60 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cinematic_exploded_view_ad_f3aa8ca5.thumb.webp",
       "number": "ST000269",
       "created_at": "2026-06-30T23:16:32+08:00"
+    },
+    {
+      "id": "cinematic_3d_fantasy_armor",
+      "code": "ST0329",
+      "name": "3D 奇幻装甲角色",
+      "category": "editorial",
+      "tags": [
+        "3D奇幻",
+        "装甲设计",
+        "机器人 salvage",
+        "PBR材质",
+        "Unreal Engine 5",
+        "角色渲染"
+      ],
+      "triggers": [
+        "3D奇幻装甲",
+        "机器人 salvage 装甲",
+        "PBR材质渲染",
+        "UE5质量渲染",
+        "奇幻角色设计"
+      ],
+      "scene": "角色设计、概念艺术、游戏美术、3D 渲染、奇幻插画",
+      "ratio": "3:2",
+      "summary": "3D 奇幻装甲角色，salvage 机器人部件装甲 + PBR 真实材质 + UE5 质量 + 戏剧化工作室灯光。",
+      "features": [
+        "**salvage 机器人装甲** — 用回收的机器人部件组装的装甲设计，腐蚀金属、暴露机制",
+        "**PBR 真实材质** — 真实 PBR 材质，损坏织物、腐蚀金属板、复杂机械细节",
+        "**戏剧化工作室灯光** — 戏剧化工作室灯光，战斗磨损外观，风格化写实",
+        "**UE5 质量渲染** — Unreal Engine 5 质量，干净白色背景"
+      ],
+      "prompt": "A cinematic 3D full-body render of {奇幻角色}，wearing {装甲设计} assembled from salvaged robotic parts，{面部特征}，{发型}，carrying {武器}，distressed fabrics，corroded metal plating，exposed mechanisms，intricate mechanical details，battle-worn appearance，realistic PBR textures，stylized realism，dramatic studio lighting，Unreal Engine 5 quality，clean white background。\n",
+      "variables": {
+        "奇幻角色": "{奇幻角色}",
+        "装甲设计": "{装甲设计}",
+        "面部特征": "{面部特征}",
+        "发型": "{发型}",
+        "武器": "{武器}"
+      },
+      "variable_descs": {
+        "奇幻角色": "奇幻角色名称，如精灵、巫师、龙骑士",
+        "装甲设计": "装甲设计，如 plate armor、chainmail",
+        "面部特征": "面部特征描述",
+        "发型": "发型描述",
+        "武器": "武器名称"
+      },
+      "source_url": "https://x.com/azed_ai/status/2117572559399170451",
+      "source_author": "azed_ai",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/cinematic_3d_fantasy_armor_619d70b8.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/cinematic_3d_fantasy_armor_619d70b8.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cinematic_3d_fantasy_armor_619d70b8.thumb.webp",
+      "number": "ST000329",
+      "created_at": ""
     },
     {
       "id": "chinese_minimal_exhibition_poster",
