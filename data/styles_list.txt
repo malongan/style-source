@@ -1,4 +1,4 @@
-共 313 个风格
+共 314 个风格
 
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
 ST0002 | X光扫描风 | https://malongan.github.io/style-source/images/styles_previews/xray_scan_f28168a3.webp
@@ -212,6 +212,7 @@ ST0203 | 异类阵列视觉 | https://malongan.github.io/style-source/images/sty
 ST0204 | 汉字意象徽记 | https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp
 ST0205 | 东方汉字文化海报 | https://malongan.github.io/style-source/images/styles_previews/hanzi_cultural_poster_cf4c751a.webp
 ST0206 | 手工印刷感早安信息海报 | https://malongan.github.io/style-source/images/styles_previews/handprint_morning_poster_b668797a.webp
+ST0315 | 手绘×写实 虚实碰撞海报 | https://malongan.github.io/style-source/images/styles_previews/handdrawn_realobject_poster_6323250b.webp
 ST0207 | 手绘旅行涂鸦插画 | https://malongan.github.io/style-source/images/styles_previews/hand_drawn_travel_illustration_12076837.webp
 ST0208 | 半色调拼贴隐喻公益海报 | https://malongan.github.io/style-source/images/styles_previews/halftone_assemblage_psa_poster_3d772170.webp
 ST0209 | 商业成长社群人像视觉 | https://malongan.github.io/style-source/images/styles_previews/growth_community_portrait_70536bbc.webp
