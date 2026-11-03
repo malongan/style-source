@@ -40,6 +40,31 @@ TWEET_URL_RE = re.compile(
 UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36')
 
+# 「teaser 推文」识别：正文是引子、真正的 prompt 在自己的回复里。
+# 结尾的 🔽 / 👇 / ↓ 是强信号；「Prompt:」开头且正文很短也是。
+CONTINUATION_RE = re.compile(r'(prompt|full\s+text|提示词)?\s*[🔽👇⬇↓]\s*$', re.I)
+
+
+def looks_like_teaser(text: str) -> bool:
+    """判断这条推文是不是「teaser」—— 正文只是引子，prompt 在回复里。
+
+    2026-11-03 实测：@AmirMushich 的 prompt 系列都这样，首推只有一句引子加
+    「Prompt 🔽」，真正的 9000+ 字符 prompt 在自己的第一条回复里。
+    抓首推会得到「238 字符的引子 + 4 张图」，看起来像抓成功了，其实 prompt 没拿到。
+
+    宁可多报一次（人一看就知道），也不能让「抓到一半」伪装成「抓全了」。
+    """
+    t = (text or '').strip()
+    if not t or len(t) > 800:
+        return False
+    if CONTINUATION_RE.search(t):
+        return True
+    # 「Prompt:」开头、正文却很短 —— 大概率后面还有正文
+    if t.lower().startswith('prompt') and len(t) < 300:
+        return True
+    return False
+
+
 # 只认真实的图片字节，防止把 HTML 错误页存成 .jpg
 IMG_MAGIC = ((b'\xff\xd8\xff', 'jpg'), (b'\x89PNG', 'png'),
              (b'RIFF', 'webp'), (b'GIF8', 'gif'))
@@ -236,6 +261,18 @@ def main() -> int:
     print('=== 抓取成功 ===')
     print('作者：%s @%s' % (result['author_name'], result['author_handle']))
     print('时间：%s' % result['created_at'])
+    if looks_like_teaser(result.get('text')):
+        print()
+        print('⚠️  ⚠️  这条推文疑似「teaser」：正文只是引子，真正的 prompt 在作者自己的回复里。')
+        print('   本次抓到的是 %d 字符的引子，不是完整 prompt。' % len(result.get('text') or ''))
+        print('   怎么办：')
+        print('     1) 打开该推文页面，找到作者的第一条回复（正文以 "Prompt:" 开头那条）')
+        print('     2) 复制那条回复的链接，形如 https://x.com/<作者>/status/<数字id>')
+        print('     3) 用那条链接再跑一次本脚本：')
+        print('        python3 scripts/fetch_twitter.py "https://x.com/<作者>/status/<回复id>"')
+        print('     4) 脚本会自动沿父推回退取到配图（输出会写「取自父推」）')
+        print('   判据：正文结尾是 🔽 / 👇 / ↓，或以 "Prompt:" 开头但很短。')
+
     src = result.get('media_source') or {}
     if src.get('from') == 'parent':
         print('配图：%d 张（**取自父推** %s，prompt 在本条回复里）'
