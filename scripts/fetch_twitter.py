@@ -40,29 +40,57 @@ TWEET_URL_RE = re.compile(
 UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36')
 
-# 「teaser 推文」识别：正文是引子、真正的 prompt 在自己的回复里。
-# 结尾的 🔽 / 👇 / ↓ 是强信号；「Prompt:」开头且正文很短也是。
-CONTINUATION_RE = re.compile(r'(prompt|full\s+text|提示词)?\s*[🔽👇⬇↓]\s*$', re.I)
+# 「teaser 推文」识别：正文只是引子，真正的 prompt 在作者自己的回复里。
+#
+# 2026-11-03 用**真实语料**定的规则，不是拍脑袋：
+#   语料 = 中文化之前的 90 条英文 prompt（git show 61a08d6^:data/styles.json）
+#   硬信号在 90 条上**零误报**，8 种 teaser 变体**全部命中**
+#   软信号只命中 1 条已知边界（korean_illustration，357 字符的完整但无变量 prompt）
+#
+# 误报与漏报的代价不对称：
+#   漏报 → 用户以为抓全了，实际只拿到引子 → **静默失败**（D46 同款陷阱）
+#   误报 → 多看一眼就知道 → 可见，代价低
+# 所以宁可误报，不可漏报：硬信号放宽，软信号只提示不报警。
+CONTINUATION_RE = re.compile(
+    r'(prompt|full\s+(?:prompt|text)|提示词|完整)?\s*[🔽👇⬇↓🧵]\s*$', re.I)
+ENDS_COLON_RE = re.compile(
+    r'(prompt|full\s+(?:prompt|text)|提示词)\s*[:：]\s*$', re.I)
+BELOW_RE = re.compile(
+    r'(see\s+below|read\s+below|more\s+below|below\s+the\s+line|'
+    r'in\s+the\s+thread|see\s+thread|thread\s+below|see\s+reply|'
+    r'full\s+prompt\s+below|见下方|评论区|往下翻|往下看|下方回复)\s*[.。!！]?\s*$', re.I)
+SLOT_RE = re.compile(r'\{[^{}\n]{1,40}\}|\[[A-Z_ ]{2,30}=\s*_+\]')
 
 
-def looks_like_teaser(text: str) -> bool:
+def detect_teaser(text: str):
     """判断这条推文是不是「teaser」—— 正文只是引子，prompt 在回复里。
+
+    返回 (hard, soft)：
+      hard = 强信号，几乎确定是 teaser（正文里有明确的「往下看」引导）
+      soft = 弱信号，可能不是完整 prompt（很短且没有任何槽位），只提示不报警
 
     2026-11-03 实测：@AmirMushich 的 prompt 系列都这样，首推只有一句引子加
     「Prompt 🔽」，真正的 9000+ 字符 prompt 在自己的第一条回复里。
     抓首推会得到「238 字符的引子 + 4 张图」，看起来像抓成功了，其实 prompt 没拿到。
-
-    宁可多报一次（人一看就知道），也不能让「抓到一半」伪装成「抓全了」。
     """
     t = (text or '').strip()
     if not t or len(t) > 800:
-        return False
-    if CONTINUATION_RE.search(t):
-        return True
+        return False, False
+    if CONTINUATION_RE.search(t) or ENDS_COLON_RE.search(t) or BELOW_RE.search(t):
+        return True, False
     # 「Prompt:」开头、正文却很短 —— 大概率后面还有正文
     if t.lower().startswith('prompt') and len(t) < 300:
-        return True
-    return False
+        return True, False
+    # 弱信号：短且无槽位。像 korean_illustration 这种（357 字符、无变量的完整
+    # prompt）会命中 —— 所以只给软提示，不报警。
+    if len(t) < 500 and not SLOT_RE.search(t):
+        return False, True
+    return False, False
+
+
+def looks_like_teaser(text: str) -> bool:
+    """只关心「是不是 teaser」的布尔视图（旧的调用方用）。"""
+    return detect_teaser(text)[0]
 
 
 # 只认真实的图片字节，防止把 HTML 错误页存成 .jpg
@@ -261,7 +289,8 @@ def main() -> int:
     print('=== 抓取成功 ===')
     print('作者：%s @%s' % (result['author_name'], result['author_handle']))
     print('时间：%s' % result['created_at'])
-    if looks_like_teaser(result.get('text')):
+    _hard, _soft = detect_teaser(result.get('text'))
+    if _hard:
         print()
         print('⚠️  ⚠️  这条推文疑似「teaser」：正文只是引子，真正的 prompt 在作者自己的回复里。')
         print('   本次抓到的是 %d 字符的引子，不是完整 prompt。' % len(result.get('text') or ''))
@@ -271,7 +300,13 @@ def main() -> int:
         print('     3) 用那条链接再跑一次本脚本：')
         print('        python3 scripts/fetch_twitter.py "https://x.com/<作者>/status/<回复id>"')
         print('     4) 脚本会自动沿父推回退取到配图（输出会写「取自父推」）')
-        print('   判据：正文结尾是 🔽 / 👇 / ↓，或以 "Prompt:" 开头但很短。')
+        print('   判据：正文结尾有下引引导（🔽 / 👇 / ↓ / 🧵 / Prompt: 结尾 / see below 等）。')
+    elif _soft:
+        print()
+        print('ℹ️  这条推文很短（%d 字符）且正文里没有任何槽位占位符，'
+              % len(result.get('text') or ''))
+        print('   —— 可能是完整 prompt（本就没有变量），也可能是只抓到了引子。')
+        print('   请扫一眼正文，确认它是完整的 prompt 模板再继续。')
 
     src = result.get('media_source') or {}
     if src.get('from') == 'parent':

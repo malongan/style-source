@@ -76,6 +76,10 @@ jobs:
           python3 scripts/generate_data.py
           python3 scripts/check_style_previews.py --strict
 
+      - name: teaser 检测回归（防回归）
+        # 与 PR 闸门同一套断言；覆盖「绕过 PR 直接推 main」的情况。
+        run: python3 scripts/test_teaser_detector.py
+
       - name: 变量语义体检（有告警即失败）
         # 这一步是 PROMPT_VARIABLES_SPEC 的收口：结构合法 ≠ 插件能用。
         # 上一步已跑过 generate_data.py，这里直接体检 data/styles.json。

@@ -36,6 +36,13 @@ jobs:
         # 2026-11-03 接入；接入前已在全库 312 个风格上跑过，全绿，不会打红存量。
         run: python3 scripts/lint_hygiene.py --strict
 
+      - name: teaser 检测回归（防静默漏抓）
+        # fetch_twitter.py 的 teaser 判据决定「抓到的是引子还是完整 prompt」。
+        # 判错 = 用户以为抓全了，实际只拿到 238 字符的引子 → 静默失败（D46 同款陷阱）。
+        # 语料回归：90 条真实 prompt 零硬报警 + 8 种 teaser 变体全命中；
+        # 软提示只允许命中已知边界 korean_illustration。
+        run: python3 scripts/test_teaser_detector.py
+
       - name: 查重检测
         run: python3 scripts/check_duplicate.py --pr-mode
         env:
