@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-233-g4b02b07-dirty",
-    "generated": "2026-11-03T13:02:48Z",
-    "total": 320,
+    "version": "v0.7.0-before-opt-234-g094367c-dirty",
+    "generated": "2026-11-03T13:04:39Z",
+    "total": 321,
     "categories": [
       "brand_kv",
       "creative",
@@ -9369,6 +9369,54 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.thumb.webp",
       "number": "ST000158",
+      "created_at": ""
+    },
+    {
+      "id": "minimal_brand_icon_poster",
+      "code": "ST0322",
+      "name": "极简品牌主视觉图标",
+      "category": "editorial",
+      "tags": [
+        "极简品牌",
+        "单色反白图标",
+        "Q版头像",
+        "纯色留白",
+        "品牌主视觉",
+        "矢量扁平"
+      ],
+      "triggers": [
+        "极简品牌主视觉",
+        "单色反白图标",
+        "Q版头像剪影",
+        "纯色留白海报",
+        "品牌图标设计"
+      ],
+      "scene": "品牌主视觉、品牌 KV、社交媒体主图、品牌识别系统、极简海报",
+      "ratio": "9:16",
+      "summary": "极简品牌主视觉图标，IP 转译为白色反白图标 + 纯色满版留白 + 品牌字标。",
+      "features": [
+        "**单色反白图标** — 白色单色反白图标，底色挖空表现五官与结构，无描边",
+        "**纯色满版留白** — 整面纯色满版背景，底色取主体标志性主色，大面积负空间",
+        "**Q版几何化头像** — 保留标志性发型轮廓与配饰，圆润几何化，五官由挖空底色构成",
+        "**极简品牌字标** — 画面底部居中极小白色品牌字标，圆胖活泼定制字体"
+      ],
+      "prompt": "9:16 竖版极简扁平品牌主视觉，整面纯色满版背景，底色取{主体}的标志性主色，调整为中等明度、柔和饱和的色调，确保白色图标清晰醒目，无渐变、无纹理、无阴影。画面视觉中心是一个小巧的白色单色反白图标，主体为{主体}的Q版头像剪影，保留其标志性发型轮廓与配饰，造型圆润几何化，五官与内部结构由挖空露出的底色构成：两颗椭圆小眼睛、一道细弧线微笑、刘海与发丝分界线。重叠部件之间以极细的底色缝隙分隔，不使用描边。图标宽度约占画面四分之一，四周保留大面积纯色负空间。画面底部居中是一行极小的白色品牌字标「{品牌名}」，采用圆胖活泼的定制字体，字母大小错落。整体只有底色与白色两种颜色，平面矢量质感，边缘锐利干净，可爱、轻快、克制。画面右侧约5%边缘极小写 voxcat，末尾一颗青金石蓝小圆点。\n",
+      "variables": {
+        "主体": "{主体}",
+        "品牌名": "{品牌名}"
+      },
+      "variable_descs": {
+        "主体": "角色名或 IP 形象",
+        "品牌名": "品牌名称"
+      },
+      "source_url": "https://x.com/VoxcatAI/status/2114332647799267548",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/minimal_brand_icon_poster_ea0dae4a.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/minimal_brand_icon_poster_ea0dae4a.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/minimal_brand_icon_poster_ea0dae4a.thumb.webp",
+      "number": "ST000322",
       "created_at": ""
     },
     {
