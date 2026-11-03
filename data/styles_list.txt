@@ -1,4 +1,4 @@
-共 326 个风格
+共 327 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -165,6 +165,7 @@ ST0156 | 极简手绘纪念卡 | https://malongan.github.io/style-source/images/
 ST0157 | 极简城市旅行海报 | https://malongan.github.io/style-source/images/styles_previews/minimalist_city_travel_poster_c0edb8c5.webp
 ST0158 | 极简瑞士风咖啡馆产品海报 | https://malongan.github.io/style-source/images/styles_previews/minimalist_cafe_product_poster_a1bf1343.webp
 ST0322 | 极简品牌主视觉图标 | https://malongan.github.io/style-source/images/styles_previews/minimal_brand_icon_poster_ea0dae4a.webp
+ST0328 | 极简品牌背影群像 | https://malongan.github.io/style-source/images/styles_previews/minimal_brand_backsilhouette_group_a8655c69.webp
 ST0327 | 微型居所杂志封面 | https://malongan.github.io/style-source/images/styles_previews/miniature_residence_magazine_cover_8c596516.webp
 ST0159 | 微缩景观模型海报 | https://malongan.github.io/style-source/images/styles_previews/miniature_diorama_poster_a4872258.webp
 ST0160 | 麦肯锡风格 | https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp
