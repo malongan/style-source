@@ -17,6 +17,7 @@
 | fluted_glass_editorial_cover | #竖棱玻璃 #双联卡片 #杂志封面 | 品牌KV、社媒海报、生活方式杂志封面、概念展陈视觉 | 3:4 |
 | fuse_bead_editorial_poster | #拼豆艺术 #像素艺术 #色卡展示 | 品牌视觉、创意海报、艺术编辑设计、色卡研究页面 | 3:4 |
 | healing_pet_sticker | #萌宠贴纸 #蜡笔厚涂 #模切贴纸 | 贴纸设计、IP merchandise、社交媒体表情、品牌贴纸、萌宠 IP | 1:1 |
+| impasto_landscape_halves_poster | #对比海报 #厚涂油画 #调色刀肌理 | 艺术展海报、杂志内页、社媒图文、肖像再创作、概念封面 | 3:4 |
 | ink_wash_comic_poster | #水墨淡彩 #Q版漫画 #宠物互动 | IP 转译、品牌主视觉、社交媒体海报、角色 merchandise、国风漫画 | 2:3 |
 | japanese_editorial_geometric_poster | #japanese_editorial #geometric_poster #circle_composition | 文化活动海报、展览、品牌视觉、编辑版式 | 9:16 |
 | japanese_misregistration_type_poster | #日式实验海报 #三色套印 #错版错位 | 艺术展览海报、印刷工艺专题、字体实验视觉、独立出版活动主视觉、品牌文化 KV、社媒竖图 | 9:16 |
