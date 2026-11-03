@@ -8,6 +8,11 @@ in violation of protocol）。api.fxtwitter.com 一次 GET 就给出正文、作
 
 用法：
     python3 scripts/fetch_twitter.py <url>                # 正文 + 第一张原图 → /tmp/style_preview.jpg
+    python3 scripts/fetch_twitter.py <url> --no-parent    # 关闭「父推配图回退」
+
+自回复（self-thread）自动回退：prompt 在回复里、成品图在父推里是这批账号的主流形态。
+本条推文 media 为 null 且 replying_to_status 存在时，自动沿同作者的父推向上找图（默认最多 5 层），
+并在输出的 media_source 字段里记明来源；父推作者不同则不继承（那是别人的图）。
     python3 scripts/fetch_twitter.py <url> --all          # 全部原图 → /tmp/style_p1.jpg, style_p2.jpg ...
     python3 scripts/fetch_twitter.py <url> --no-download  # 只取正文与图片 URL
     python3 scripts/fetch_twitter.py <url> --json         # 只打印 JSON（供管线消费）
@@ -93,7 +98,61 @@ def normalize(tweet: dict) -> dict:
         'photos': photos,
         'has_video': any(m.get('type') in ('video', 'gif')
                          for m in media.get('all') or []),
+        # 自回复（self-thread）：prompt 在回复里、配图在父推里 —— 这类账号的主流发布形态
+        'replying_to': tweet.get('replying_to'),
+        'replying_to_status': tweet.get('replying_to_status'),
+        'media_source': {'from': 'self' if photos else 'none'},
     }
+
+
+def resolve_parent_media(result: dict, max_depth: int = 5) -> dict:
+    """目标推文没有配图时，沿 self-thread 向上找父推的配图。
+
+    背景：这批 prompt 分享号的常见形态是「父推发成品图，回复里发 prompt 文本」。
+    直接抓回复会得到 media=null，正文却是完整的 prompt —— 只有回收到父推才拿得到图。
+
+    安全边界：只在「父推作者 == 目标作者」时才继承。回复别人的推文时，
+    父推的图属于别人，不能被当成这个风格的配图，宁可报 0 张让人工处理。
+
+    多级回退：父推自己也可能没有图（连续多条回复后才附图），最多向上找 max_depth 层。
+    """
+    if result['photos'] or result.get('has_video'):
+        return result
+
+    handle = result.get('author_handle')
+    tid = result.get('replying_to_status')
+    if not handle or not tid:
+        return result
+
+    seen = {result.get('id')}
+    for depth in range(1, max_depth + 1):
+        if tid in seen:
+            break
+        seen.add(tid)
+        try:
+            parent = normalize(fetch('https://x.com/%s/status/%s' % (handle, tid)))
+        except RuntimeError as exc:
+            print('  ⚠️ 父推 %s 抓取失败：%s' % (tid, exc), file=sys.stderr)
+            break
+        if (parent.get('author_handle') or '').lower() != handle.lower():
+            print('  ⓘ 父推 %s 作者是 @%s（非同作者），不继承其配图'
+                  % (tid, parent.get('author_handle')), file=sys.stderr)
+            break
+        if parent['photos']:
+            result['photos'] = parent['photos']
+            result['media_source'] = {
+                'from': 'parent',
+                'tweet_id': parent['id'],
+                'parent_url': parent.get('url'),
+                'depth': depth,
+                'note': 'prompt 在本条，配图在父推（self-thread）',
+            }
+            return result
+        tid = parent.get('replying_to_status')
+        if not tid:
+            break
+    result['media_source'] = {'from': 'none'}
+    return result
 
 
 def sniff(head: bytes):
@@ -142,10 +201,14 @@ def main() -> int:
     ap.add_argument('--no-download', action='store_true', help='只取正文与图片 URL')
     ap.add_argument('--json', action='store_true', help='只打印 JSON')
     ap.add_argument('--out-dir', default='/tmp', help='图片保存目录（默认 /tmp）')
+    ap.add_argument('--no-parent', action='store_true',
+                    help='不沿 self-thread 回退父推取配图（默认会回退）')
     args = ap.parse_args()
 
     try:
         result = normalize(fetch(args.url))
+        if not args.no_parent:
+            result = resolve_parent_media(result)
     except RuntimeError as exc:
         print('❌ %s' % exc, file=sys.stderr)
         return 1
@@ -173,8 +236,18 @@ def main() -> int:
     print('=== 抓取成功 ===')
     print('作者：%s @%s' % (result['author_name'], result['author_handle']))
     print('时间：%s' % result['created_at'])
-    print('配图：%d 张%s' % (len(result['photos']),
-                            '（含视频/GIF）' if result['has_video'] else ''))
+    src = result.get('media_source') or {}
+    if src.get('from') == 'parent':
+        print('配图：%d 张（**取自父推** %s，prompt 在本条回复里）'
+              % (len(result['photos']), src.get('tweet_id')))
+    elif src.get('from') == 'none' and result.get('replying_to_status'):
+        if args.no_parent:
+            print('配图：0 张（本条是回复且自身无图；--no-parent 已关闭父推回退）')
+        else:
+            print('配图：0 张（本条与同作者父推链上均无图 —— 页面上的图可能属于别人，需人工确认）')
+    else:
+        print('配图：%d 张%s' % (len(result['photos']),
+                                '（含视频/GIF）' if result['has_video'] else ''))
     print()
     print('--- 正文 ---')
     print(result['text'] or '（空）')
