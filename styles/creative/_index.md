@@ -24,7 +24,6 @@
 | demon_wukong_line_art | #孙悟空 #线绘 #巴洛克 |  | 16:9 |
 | dreamy_watercolor_travel | #水彩 #旅行 #欧洲城市 | 城市旅行宣传、文化活动海报、故事绘本封面、品牌文旅联名 | 4:5 |
 | dunhuang_celestial_musicians | #敦煌 #飞天 #壁画 | 品牌KV、文化海报、展演主视觉、国风文创、古典艺术再创作 | 3:4 |
-| east_asian_vintage_illustration | #韩系 #复古 #插画 |  | 3:4（默认） |
 | east_asian_vintage_magazine | #韩纸 #复古 #杂志 |  | 3:4（默认） |
 | eastern_art_exhibition_poster_wild_calligraphy | #东方艺术 #野字书法 #展览海报 | 品牌KV、文化展览海报、概念海报、艺术书封 | 9:16 |
 | exploded_food_infographic | #美食摄影 #信息图 #超写实 | 美食教程、食谱展示、产品广告、社交媒体分享 | 3:4 |

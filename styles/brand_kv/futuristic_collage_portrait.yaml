@@ -30,7 +30,6 @@ features:
   desc: ''
 - title: 复杂的拼贴背景但不杂乱
   desc: ''
-variables: []
 variables:
   - kv_var: 主体
     style_var: "{主体}"
