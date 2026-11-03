@@ -94,10 +94,10 @@ prompt: |
 variables:
 - kv_var: 品牌名
   style_var: '{brand_name}'
-  desc: 如：山野茶事
+  desc: 品牌或产品名
 - kv_var: 产品系列
   style_var: '{product_series}'
-  desc: 如：轻乳茶系列
+  desc: 产品系列名
 - kv_var: 口味一
   style_var: '{flavor_1}'
   desc: 第 1 个口味，如：茉莉

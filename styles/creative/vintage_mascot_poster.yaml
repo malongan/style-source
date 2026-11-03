@@ -56,7 +56,7 @@ variables:
   desc: 如：穿风衣的短发女性
 - kv_var: 服装
   style_var: '{CLOTHES}'
-  desc: 如：亚麻衬衫 + 阔腿裤
+  desc: 人物穿的服装
 - kv_var: 动物
   style_var: '{ANIMAL}'
   desc: 如：柴犬 / 橘猫

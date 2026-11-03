@@ -66,7 +66,7 @@ prompt: |
 variables:
 - kv_var: 产品名称
   style_var: '{PRODUCT_NAME}'
-  desc: 如：轻乳茶·茉莉
+  desc: 这个产品的名字
 - kv_var: 副标题
   style_var: '{SUBTITLE}'
   desc: 次级标题，如：限定发售
@@ -75,7 +75,7 @@ variables:
   desc: 产品一句话描述，如：手冲单品，果香明亮
 - kv_var: 价格
   style_var: '{PRICE}'
-  desc: 如：￥19.9 / 第二杯半价
+  desc: 价格或优惠信息
 source_url: "https://x.com/Maercihh/status/2084869002665615462"
 source_author: "@Maercihh"
 

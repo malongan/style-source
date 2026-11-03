@@ -62,7 +62,7 @@ variables:
   desc: 如：挑眉坏笑 / 面无表情
 - kv_var: 服装
   style_var: '{clothing}'
-  desc: 如：亚麻衬衫 + 阔腿裤
+  desc: 人物穿的服装
 - kv_var: 配色
   style_var: '{colors}'
   desc: 整体配色方案，如：莫兰迪灰粉 + 奶白

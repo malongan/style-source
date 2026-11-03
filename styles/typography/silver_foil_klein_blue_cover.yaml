@@ -27,7 +27,7 @@ features:
 
 scene: "教程封面、商业封面、方法论封面、视频封面、文章封面"
 ratio: "5:2"
-summary: "银色锡纸纹理背景 + 统一深蓝文字 + 中粗黑体 + 极简线条隐喻，高级极简封面风格"
+summary: "银色锡纸纹理背景 + 统一克莱因蓝文字 + 中粗黑体 + 极简线条隐喻，高级极简封面风格"
 
 variables:
   - kv_var: 主标题
@@ -72,7 +72,7 @@ prompt: |
   No people, product photography, complex illustrations, oversized titles, ultra-bold fonts, crowded text, background highlights crossing text, inconsistent text color shades, large watermarks, diagonal text, mixed horizontal-vertical text, complex flowcharts, multiple stacked icons, dense small text, large color blocks, gradients, glowing effects, 3D text, 3D icons, cyberpunk.
 
   【Final Effect】
-  A premium cover: silver fine-texture tin foil background, unified deep blue text, medium-weight sans-serif Chinese, bold sans-serif English, one clean thematic metaphor. Text clear, restrained, spacious, background and text blend naturally, colors unified, generous whitespace, resembling a premium independent magazine cover or contemporary design exhibition poster.
+  A premium cover: silver fine-texture tin foil background, unified {强调色} text (default Klein blue), medium-weight sans-serif Chinese, bold sans-serif English, one clean thematic metaphor. Text clear, restrained, spacious, background and text blend naturally, colors unified, generous whitespace, resembling a premium independent magazine cover or contemporary design exhibition poster.
 
 source_url: "https://x.com/AdrianPunk115/status/2071141624105877890"
 source_author: "Adrian Punk"

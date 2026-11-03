@@ -34,7 +34,7 @@ prompt: |
 variables:
 - kv_var: 主体人物
   style_var: '{主体人物}'
-  desc: 如：戴棒球帽的年轻女生
+  desc: 出场人物的样子
 - kv_var: 城市场景
   style_var: '{城市场景}'
   desc: 如：霓虹街口 / 地铁站台

@@ -35,7 +35,7 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{subject}'
-  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
+  desc: 画面主体是什么
 source_url: "https://x.com/azed_ai/status/2076623195386601657"
 source_author: "azed_ai"
 

@@ -41,10 +41,10 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{subject}'
-  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
+  desc: 画面主体是什么
 - kv_var: 道具
   style_var: '{props}'
-  desc: 辅助物件，如：草帽 / 折叠椅 / 冰桶
+  desc: 辅助物件
 - kv_var: 情绪
   style_var: '{emotion}'
   desc: 如：等待、安静、略焦虑

@@ -55,7 +55,7 @@ variables:
   desc: 如：薄荷绿
 - kv_var: 品牌名
   style_var: '{品牌名}'
-  desc: 如：山野茶事
+  desc: 品牌或产品名
 - kv_var: 标语
   style_var: '{标语}'
   desc: 如：慢一点，也很好

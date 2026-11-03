@@ -46,7 +46,7 @@ variables:
   desc: 如：侧身回望 / 低头看手机
 - kv_var: 服装描述
   style_var: '{服装描述}'
-  desc: 如：白色针织开衫、浅蓝牛仔
+  desc: 服装款式与颜色
 - kv_var: 道具描述
   style_var: '{道具描述}'
   desc: 如：手机 / 滑板 / 购物袋

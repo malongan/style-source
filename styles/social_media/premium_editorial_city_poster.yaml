@@ -47,7 +47,7 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{SUBJECT}'
-  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
+  desc: 画面主体是什么
 - kv_var: 城市名称
   style_var: '{CITY_NAME}'
   desc: 如：东京 / 上海 / 巴黎

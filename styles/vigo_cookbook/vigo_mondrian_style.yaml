@@ -32,7 +32,7 @@ features:
 variables:
 - kv_var: 品牌名
   style_var: '{brand_name}'
-  desc: 如：山野茶事
+  desc: 品牌或产品名
 - kv_var: 品牌标语
   style_var: '{brand_tagline}'
   desc: 如：把日常过成节日

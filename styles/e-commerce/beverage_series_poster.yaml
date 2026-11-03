@@ -64,7 +64,7 @@ prompt: |
 variables:
 - kv_var: 口味名称
   style_var: '{FLAVOR_NAME}'
-  desc: 如：白桃乌龙
+  desc: 这个口味的名字
 - kv_var: 主色
   style_var: '{COLOR1}'
   desc: 主色名或色值，如：奶油白 / #F5E6D3

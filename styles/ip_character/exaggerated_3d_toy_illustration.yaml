@@ -34,10 +34,10 @@ features:
 variables:
 - kv_var: 主体
   style_var: '{SUBJECT}'
-  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
+  desc: 画面主体是什么
 - kv_var: 道具
   style_var: '{PROP}'
-  desc: 辅助物件，如：草帽 / 折叠椅 / 冰桶
+  desc: 辅助物件
 - kv_var: 元素
   style_var: '{ELEMENTS}'
   desc: 如：星星、气泡、齿轮

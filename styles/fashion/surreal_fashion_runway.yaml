@@ -59,7 +59,7 @@ variables:
   desc: 发生在哪里，如：海边公路 / 便利店门口
 - kv_var: 服装
   style_var: '{clothing}'
-  desc: 如：亚麻衬衫 + 阔腿裤
+  desc: 人物穿的服装
 - kv_var: 鞋履
   style_var: '{shoes}'
   desc: 如：方头短靴 / 细带高跟

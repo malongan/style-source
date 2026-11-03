@@ -41,7 +41,7 @@ prompt: |
 variables:
 - kv_var: 产品
   style_var: '{PRODUCT}'
-  desc: 主角产品，如：一罐气泡水 / 一支口红
+  desc: 主角产品是什么
 source_url: "https://x.com/Gdgtify/status/2084363171448422856?s=20"
 source_author: "@Gdgtify"
 

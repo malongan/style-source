@@ -54,7 +54,7 @@ prompt: |
 variables:
 - kv_var: 主体
   style_var: '{SUBJECT}'
-  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
+  desc: 画面主体是什么
 - kv_var: 主体动作
   style_var: '{SUBJECT_ACTION}'
   desc: 角色的姿势，如：单手比耶 / 歪头笑

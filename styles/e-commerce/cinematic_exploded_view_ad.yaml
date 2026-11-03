@@ -47,6 +47,6 @@ prompt: 'Create a cinematic exploded-view advertising poster for {产品名称}.
 variables:
 - kv_var: 产品名称
   style_var: '{产品名称}'
-  desc: 如：轻乳茶·茉莉
+  desc: 这个产品的名字
 source_url: https://x.com/aziz4ai/status/2071674035948106098
 source_author: AZIZ | AI 🇸🇦 (@aziz4ai)

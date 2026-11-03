@@ -35,7 +35,7 @@ prompt: |
 variables:
 - kv_var: 产品
   style_var: '{products}'
-  desc: 主角产品，如：一罐气泡水 / 一支口红
+  desc: 主角产品是什么
 - kv_var: 产品颜色
   style_var: '{product_color}'
   desc: 产品主色，如：蜜橘色

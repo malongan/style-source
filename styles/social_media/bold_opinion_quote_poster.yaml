@@ -42,10 +42,10 @@ variables:
   desc: 海报主题，如：城市夜行 / 春日野餐
 - kv_var: 主体
   style_var: '{subject}'
-  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
+  desc: 画面主体是什么
 - kv_var: 画面主体
   style_var: '{subject_spec}'
-  desc: 主体是什么，如：一位穿短袖的年轻男生 / 一对牵手的情侣
+  desc: 画面主体是什么
 - kv_var: 场景
   style_var: '{scene_spec}'
   desc: 发生在哪里，如：海边公路 / 便利店门口

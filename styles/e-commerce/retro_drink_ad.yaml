@@ -42,7 +42,7 @@ variables:
   desc: 放射块状和装饰
 - kv_var: 饮品主形体
   style_var: '{饮品主形体}'
-  desc: 如：一杯冰拿铁 / 一罐气泡水
+  desc: 饮品的形态与容器
 - kv_var: 副标题
   style_var: '{副标题}'
   desc: 次级标题，如：限定发售

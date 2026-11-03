@@ -49,10 +49,10 @@ variables:
   desc: 主体的外观特征，如：短发、雀斑、绿色眼睛
 - kv_var: 主体
   style_var: '{主体}'
-  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
+  desc: 画面主体是什么
 - kv_var: 服装描述
   style_var: '{服装描述}'
-  desc: 如：白色针织开衫、浅蓝牛仔
+  desc: 服装款式与颜色
 - kv_var: 壁画背景描述
   style_var: '{壁画背景描述}'
   desc: 壁画题材，如：复古汽车与棕榈树

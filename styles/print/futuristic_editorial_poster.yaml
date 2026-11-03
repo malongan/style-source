@@ -39,7 +39,7 @@ variables:
   desc: 如：穿风衣的短发女性
 - kv_var: 服装
   style_var: '{CLOTHING}'
-  desc: 如：亚麻衬衫 + 阔腿裤
+  desc: 人物穿的服装
 - kv_var: 主色
   style_var: '{COLOR1}'
   desc: 主色名或色值，如：奶油白 / #F5E6D3

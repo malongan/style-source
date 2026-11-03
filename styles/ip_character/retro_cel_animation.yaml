@@ -30,7 +30,7 @@ features:
 variables:
 - kv_var: 主体
   style_var: '{subject}'
-  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
+  desc: 画面主体是什么
 - kv_var: 环境
   style_var: '{setting}'
   desc: 如：下雨的老街 / 天台的黄昏

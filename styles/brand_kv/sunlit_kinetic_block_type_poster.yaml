@@ -45,10 +45,10 @@ variables:
   desc: 如 athletic streetwear
 - kv_var: 主体
   style_var: '{SUBJECT}'
-  desc: 主体是什么，如：一只橘猫 / 一名滑板少年
+  desc: 画面主体是什么
 - kv_var: 产品/道具
   style_var: '{PRODUCT_OR_PROP}'
-  desc: 画面里的辅助物件，如：一罐气泡水 / 一支口红 / 复古相机
+  desc: 画面里的辅助物件
 - kv_var: 副文案
   style_var: '{SECONDARY_TEXT}'
   desc: 辅助信息，如：秋季新品 / 9.20 上市

@@ -94,10 +94,10 @@ variables:
   desc: 如：圆脸、短耳、戴围巾
 - kv_var: 服装描述
   style_var: '{服装描述}'
-  desc: 如：白色针织开衫、浅蓝牛仔
+  desc: 服装款式与颜色
 - kv_var: 配饰描述
   style_var: '{配饰描述}'
-  desc: 如：金属细框眼镜、珍珠耳环
+  desc: 配饰款式
 - kv_var: 鞋靴描述
   style_var: '{鞋靴描述}'
   desc: 如：厚底马丁靴 / 皮质短靴

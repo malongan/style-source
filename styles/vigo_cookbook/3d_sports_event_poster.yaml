@@ -64,7 +64,7 @@ variables:
   desc: 如：夏日限定
 - kv_var: 子品牌
   style_var: '{sub_brand}'
-  desc: 如：山野茶事·轻茶
+  desc: 子品牌或产品线名称
 source_url: "https://x.com/VigoCreativeAI/status/2071799923763187860"
 source_author: "VigoCreativeAI"
 

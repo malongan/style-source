@@ -44,10 +44,10 @@ variables:
   desc: 整体色调，如：冷调霓虹紫
 - kv_var: 服装描述
   style_var: '{服装描述}'
-  desc: 如：白色针织开衫、浅蓝牛仔
+  desc: 服装款式与颜色
 - kv_var: 配饰描述
   style_var: '{配饰描述}'
-  desc: 如：金属细框眼镜、珍珠耳环
+  desc: 配饰款式
 - kv_var: 文字A
   style_var: '{文字A}'
   desc: 第一段文字，如：混乱多语言字符 / MIND
