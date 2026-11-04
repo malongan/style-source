@@ -36,6 +36,7 @@
 | glitchy_pixel_stretch_portrait | #拉伸 #故障 #像素 | 艺术海报、概念摄影、创意人像、故障美学 | 3:4 |
 | handdrawn_realobject_poster | #手绘 #写实物体 #虚实结合 | 情绪海报、绘本插画、品牌创意视觉、社媒配图 | 9:16 |
 | herd_outsider_poster | #概念海报 #异类主题 #阵列构图 |  | 3:4 |
+| heritage_caishen_lantern | #非遗 #布艺油纸 #财神 | 非遗文创设计、节庆花灯、潮玩摆件、品牌联名周边、传统文化海报 | 9:16 |
 | hold_the_line_declaration_poster | #宣言海报 #铬质物件 #居中排版 | 宣言海报、品牌KV、社交媒体图文、编辑出版 | 3:4 |
 | indonesian_food_infographic | #美食摄影 #信息图 #超写实 | 美食教程、食谱展示、文化宣传、社交媒体分享 | 3:4 |
 | inflatable_3d_flowers | #3D #膨胀花朵 #C4D |  | 9:16 |
