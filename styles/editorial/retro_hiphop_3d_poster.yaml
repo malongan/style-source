@@ -1,0 +1,43 @@
+# 复古嘻哈风3D插画海报
+
+id: retro_hiphop_3d_poster
+name: "复古嘻哈风3D插画海报"
+category: editorial
+
+tags:
+- 复古嘻哈
+- 3D插画
+- 盲盒潮玩
+- 赛博朋克
+- 霓虹舞台
+- 高对比撞色
+
+triggers:
+- 复古嘻哈风3D
+- 潮人盲盒插画
+- 赛博朋克霓虹
+- 紫绿撞色海报
+- 3D潮人海报
+
+features:
+- title: 3D 潮人盲盒形象
+  desc: 红色皮肤白色头发的3D潮人，表情酷拽，宽松白色T恤，侧身踩音箱，手持紫色V形电吉他
+- title: 赛博朋克霓虹舞台
+  desc: 紫色背景 + 亮绿色激光光束与闪电元素，高对比度紫绿撞色
+- title: 塑料质感渲染
+  desc: 塑料质感，哑光与轻微反光材质，32K超精细渲染
+- title: 吉娃娃配角
+  desc: 白色佩戴黑色Balenciaga墨镜、铆钉项圈吉娃娃小狗蹲在旁边
+
+scene: "品牌广告、产品主视觉、社交媒体海报、潮玩 merchandise、音乐海报"
+ratio: '3:4'
+summary: "复古嘻哈风3D插画海报，潮人盲盒形象 + 赛博朋克霓虹舞台 + 紫绿撞色 + 塑料质感渲染。"
+
+prompt: |
+  复古嘻哈风3d插画，红色皮肤白色头发的3D潮人盲盒形象，表情酷拽，身穿宽松白色T恤，侧身一只脚踩着音箱，手持紫色V形电吉他，立麦置于身前。霓虹舞台氛围，紫色背景，搭配亮绿色激光光束与闪电元素，赛博朋克光影，高对比度紫绿撞色，塑料质感，哑光与轻微反光材质，32K超精细渲染，海报构图，一只白色佩戴黑色Balenciaga墨镜、铆钉项圈吉娃娃小狗蹲在旁边。高清壁纸级，8K细节。
+
+source_url: "https://jimeng.jianying.com/ai-tool/work-detail/7639288556342643994?workDetailType=Image&itemType=9"
+source_author: "Jimeng"
+
+# 配图: images/styles_previews/retro_hiphop_3d_poster_0fe8776c.webp
+code: ''
