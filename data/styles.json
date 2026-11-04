@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-246-g55790c6-dirty",
-    "generated": "2026-11-04T15:43:30Z",
-    "total": 332,
+    "version": "v0.7.0-before-opt-247-gd7dac48-dirty",
+    "generated": "2026-11-04T16:07:37Z",
+    "total": 333,
     "categories": [
       "brand_kv",
       "creative",
@@ -17043,6 +17043,47 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bubble_card_cfaf8cd9.thumb.webp",
       "number": "ST000284",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "bronze_witch_3d_doll",
+      "code": "ST0334",
+      "name": "中国风青铜巫女3D玩偶",
+      "category": "ip_character",
+      "tags": [
+        "中国风",
+        "青铜巫女",
+        "3D玩偶",
+        "IP设计",
+        "Q版",
+        "怪诞美学"
+      ],
+      "triggers": [
+        "中国风青铜巫女",
+        "3D玩偶IP设计",
+        "Q版青铜人偶",
+        "青铜巫风3D",
+        "上古巫风IP"
+      ],
+      "scene": "IP 角色设计、潮玩手办、游戏角色、文创周边、品牌虚拟形象",
+      "ratio": "2:3",
+      "summary": "中国风青铜巫女3D玩偶，Q版全身形象 + 哑光青铜质感 + 青铜鼎怪诞底座 + 上古巫风氛围。",
+      "features": [
+        "**3D 玩偶全身形象** — OC渲染器、立体、玩偶、Q版、细致3D渲染建模的全身形象",
+        "**青铜巫女造型** — 高盘发包嵌青铜面具残片，发丝呈哑光青铜质感并缠青铜锁链，额前垂碎金箔发帘",
+        "**怪诞上古巫风** — 金瞳漠然如古铜，双手结巫觋印，衣摆垂青铜铃铛",
+        "**青铜鼎底座** — 底座为青铜鼎残片与黑陶碎片堆叠，鼎身刻饕餮纹，碎片间窜幽蓝鬼火，雾气中浮甲骨文光影"
+      ],
+      "prompt": "IP设计，OC渲染器，3D，立体，玩偶，光影，全身形象，Q版，怪诞美学风格，细致 3D 渲染建模，中国风青铜巫女，高盘发包嵌青铜面具残片（发丝呈哑光青铜质感，缠青铜锁链），额前垂碎金箔发帘。金瞳漠然如古铜，双手结巫觋印，衣摆垂青铜铃铛。底座为青铜鼎残片与黑陶碎片堆叠，鼎身刻饕餮纹，碎片间窜幽蓝鬼火，雾气中浮甲骨文光影，营造怪诞神秘的上古巫风氛围。\n",
+      "variables": {},
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7603579095057812762?workDetailType=Image&itemType=9",
+      "source_author": "Jimeng",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/bronze_witch_3d_doll_c4abbc96.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bronze_witch_3d_doll_c4abbc96.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bronze_witch_3d_doll_c4abbc96.thumb.webp",
+      "number": "ST000334",
+      "created_at": ""
     },
     {
       "id": "brand_miniature_architecture",
