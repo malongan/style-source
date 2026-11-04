@@ -1,4 +1,4 @@
-共 329 个风格
+共 330 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -159,6 +159,7 @@ ST0150 | 现代主义食材分离菜单艺术 | https://malongan.github.io/style
 ST0151 | 现代东方校庆纪念海报 | https://malongan.github.io/style-source/images/styles_previews/modern_eastern_school_anniversary_f295abd7.webp
 ST0152 | 现代东方编辑美学文化活动海报 | https://malongan.github.io/style-source/images/styles_previews/modern_east_asian_paper_poster_ea163682.webp
 ST0153 | 现代中式几何海报 | https://malongan.github.io/style-source/images/styles_previews/modern_chinese_geometric_poster_e918eddc.webp
+ST0331 | 虚实结合创意海报 | https://malongan.github.io/style-source/images/styles_previews/mixed_reality_creative_poster_d1a1687a.webp
 ST0154 | 漫画拼贴写实人像 | https://malongan.github.io/style-source/images/styles_previews/mixed_media_manga_editorial_portrait_5728606c.webp
 ST0155 | 混合媒体时尚大片风 | https://malongan.github.io/style-source/images/styles_previews/mixed_media_fashion_editorial_a1eed28b.webp
 ST0156 | 极简手绘纪念卡 | https://malongan.github.io/style-source/images/styles_previews/minimalist_hand_drawn_card_91829faa.webp

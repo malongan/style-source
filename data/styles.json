@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-243-gcaed0ed-dirty",
-    "generated": "2026-11-03T14:34:20Z",
-    "total": 329,
+    "version": "v0.7.0-before-opt-244-gb3e457f-dirty",
+    "generated": "2026-11-04T00:52:54Z",
+    "total": 330,
     "categories": [
       "brand_kv",
       "creative",
@@ -9190,6 +9190,62 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/modern_chinese_geometric_poster_e918eddc.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/modern_chinese_geometric_poster_e918eddc.thumb.webp",
       "number": "ST000153",
+      "created_at": ""
+    },
+    {
+      "id": "mixed_reality_creative_poster",
+      "code": "ST0331",
+      "name": "虚实结合创意海报",
+      "category": "editorial",
+      "tags": [
+        "虚实结合",
+        "摄影质感",
+        "手绘线稿",
+        "功能错位",
+        "创意海报",
+        "混合画法"
+      ],
+      "triggers": [
+        "虚实结合海报",
+        "摄影手绘混合",
+        "功能错位创意",
+        "混合画法海报",
+        "创意插画海报"
+      ],
+      "scene": "创意海报、绘本视觉、品牌插画、社交媒体海报、广告主视觉",
+      "ratio": "9:16",
+      "summary": "虚实结合创意海报，摄影质感核心物体 + 手绘线稿人物 + 功能错位 + 大留白。",
+      "features": [
+        "**摄影质感 × 手绘线稿** — 核心物体高度写实摄影级材质，手绘人物采用铅笔线稿彩铅蜡笔轻水彩",
+        "**功能错位** — 核心写实物体真正承担功能错位用途，与人物产生明确物理互动",
+        "**大主体 + 小人物 + 大留白** — 核心写实物体足够大，人物相对较小，尺度反差加强视觉惊喜",
+        "**手写字体 + 主色调** — 留白区域加入主文案手写字体，主色调为核心色彩锚点"
+      ],
+      "prompt": "创作一张「摄影质感 × 手绘线稿」虚实结合的创意海报。\n\n画面的核心是一件高度写实的 {核心写实物体}，保留真实摄影级材质、纹理、光影、体积和细节；同时加入一位明显采用铅笔线稿、彩铅、蜡笔或轻水彩表现的 {手绘人物}，形成清楚但自然的虚实反差。\n\n不要只是把真人插画和真实物体简单拼在一起，而是让 {核心写实物体} 真正承担 {功能错位} 的用途，并与人物产生明确的物理互动。例如人物真的坐进去、握住、使用、依靠或躺在其中，让观众第一眼就能理解这个略微超现实、但逻辑成立的视觉关系。\n\n环境保持半写实和克制，只保留能够说明 {生活场景} 的少量元素。使用暖奶油白、浅米色纸张或柔和生活空间作为基础，大面积留白，不堆放过多家具、装饰和无关细节。\n\n人物保持明显手绘质感：自然铅笔轮廓、轻微不规则线条、简洁五官、低饱和彩铅色块，动作松弛自然，不看镜头，不做商业模特姿势。写实物体则保持真实摄影材质，让\"一半像照片、一半像绘本\"的层次一眼成立。\n\n光线真实柔和，让写实物体自然影响人物和周围环境，例如形成反光、投影、透光或局部暖光，使虚实元素真正存在于同一空间，而不是两层贴图。\n\n构图采用「大主体 + 小人物 + 大留白 + 少量生活细节」。{核心写实物体} 要足够大，缩略图状态下也能立即识别；人物相对较小，通过尺度反差加强视觉惊喜。\n\n在留白区域加入 {主文案}，使用自然、不完全规整的中文手写字体，像绘本题字、日记或手账笔迹。可以加入一句很小的英文旁注，但不要堆放大量装饰文字。\n\n整体保持 {主色调} 为核心色彩锚点，搭配奶油白、自然木色、灰绿、焦糖棕等低饱和辅助色。\n\n最终效果应同时具备：真实摄影的材质感、手绘线稿的温度、编辑海报的设计感，以及一个一眼可懂的\"功能错位\"创意。\n\n避免：纯摄影、纯插画、3D CGI、人物和真实物体互不影响、普通合影式构图、复杂商业场景、过多装饰、无意义英文、信息过载。\n",
+      "variables": {
+        "核心写实物体": "{核心写实物体}",
+        "手绘人物": "{手绘人物}",
+        "功能错位": "{功能错位}",
+        "生活场景": "{生活场景}",
+        "主文案": "{主文案}",
+        "主色调": "{主色调}"
+      },
+      "variable_descs": {
+        "核心写实物体": "花朵 / 食物 / 产品 / 日常物件",
+        "手绘人物": "人物身份、穿搭、动作",
+        "功能错位": "物体变成沙发 / 台灯 / 雨伞 / 床 / 其他用途",
+        "生活场景": "室内 / 街道 / 咖啡店 / 房间等",
+        "主文案": "一句简短、有画面感的中文短句",
+        "主色调": "主要颜色"
+      },
+      "source_url": "https://x.com/MrLarus/status/2117637514651701552",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/mixed_reality_creative_poster_d1a1687a.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mixed_reality_creative_poster_d1a1687a.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/mixed_reality_creative_poster_d1a1687a.thumb.webp",
+      "number": "ST000331",
       "created_at": ""
     },
     {
