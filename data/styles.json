@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-247-gd7dac48-dirty",
-    "generated": "2026-11-04T16:07:37Z",
-    "total": 333,
+    "version": "v0.7.0-before-opt-248-g816e2aa-dirty",
+    "generated": "2026-11-04T16:16:57Z",
+    "total": 334,
     "categories": [
       "brand_kv",
       "creative",
@@ -18170,6 +18170,49 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/alternative_character_chibi_aac66d0b.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/alternative_character_chibi_aac66d0b.thumb.webp",
       "number": "ST000302",
+      "created_at": ""
+    },
+    {
+      "id": "aespa_doll_promo_poster",
+      "code": "ST0335",
+      "name": "女团潮玩手办宣传海报",
+      "category": "brand_kv",
+      "tags": [
+        "女团",
+        "潮玩手办",
+        "盲盒",
+        "宣传海报",
+        "黑胶唱片",
+        "超写实3D",
+        "亮金撞色"
+      ],
+      "triggers": [
+        "女团潮玩手办海报",
+        "盲盒宣传海报",
+        "黑胶唱片手办",
+        "亮金黑红撞色海报",
+        "次世代3D渲染海报"
+      ],
+      "scene": "女团/偶像潮玩手办宣传海报、盲盒新品主视觉、品牌联名 KV、粉丝周边物料",
+      "ratio": "9:16",
+      "summary": "女团潮玩手办宣传海报，超写实3D盲盒质感 + 亮金色黑胶唱片主体 + 多成员错落排布 + 亮金黑红撞色。",
+      "features": [
+        "**超写实次世代 3D 渲染** — C4D+Octane 渲染器，PBR 物理级材质，Blind Box 盲盒手办质感，均匀细腻哑光高级颗粒肌理",
+        "**黑胶唱片主体构图** — 巨大亮金色黑胶唱片，哑光黑色印刷文字与星形标识，黑色带彩虹光晕金属唱片轴",
+        "**多成员手办错落排布** — 四个成员手办分布在唱片上（顶部/左侧/底部/右侧），造型神态精准还原，皮肤通透、服饰面料与金属毛绒质感真实",
+        "**亮金 + 黑红高对比撞色** — 纯黑深邃背景，电影级暖黄顶光侧光打亮主体，金属/毛绒/皮革布料质感区分清晰",
+        "**成员标识与版权排版** — 顶部四个橙色成员标识（火焰图标+编号+名字+英文简介），底部白色版权文字，最底部橙色音频波形，现代极简无衬线字体"
+      ],
+      "prompt": "masterpiece，best quality，8K 超高清，极致细节，竖版 aespa 女团潮玩手办宣传海报，超写实次世代 3D 渲染，C4D+Octane 渲染器，PBR 物理级材质，Blind Box 盲盒手办质感，整体覆盖均匀细腻的哑光高级颗粒肌理，纯黑深邃无干扰背景，亮金色 + 黑红高对比撞色，电影级暖黄顶光侧光精准打亮主体，金属光泽、毛绒质感、皮革布料质感区分清晰，酷飒甜酷的女团潮流氛围感拉满；\n画面中心是巨大的亮金色黑胶唱片，唱片表面有哑光黑色印刷文字与星形标识，唱片中心是黑色带彩虹光晕的金属唱片轴；四个成员手办错落分布在唱片上，造型神态精准还原：\n顶部：橘色长卷发，黑色挂脖短裙，金色臂环项链，黑白条纹厚底靴，单手叉腰站姿，神态拽酷；\n左侧：黑色短发，棕色铆钉贝雷帽，蓝黑露脐上衣 + 灰色毛绒披肩，黑色短裤，棕色毛绒长靴，抬手扶帽站姿，神态冷艳；\n底部：浅金色高马尾，红色无袖上衣，白色褶皱阔腿裤，黑色厚底大头鞋，盘腿坐姿，神态拽酷；\n右侧：深棕色长发，黑色铆钉长裙，红色厚底鞋，斜靠在黑色椅子上，神态慵懒；\n所有手办皮肤质感细腻通透，服饰面料、金属配饰、毛绒装饰的质感真实自然，肢体动态生动，比例协调；\n画面顶部横向排列四个橙色成员标识，每个标识包含专属火焰图标、编号与名字，下方是对应成员的英文简介；唱片底部标注白色版权文字「(P)&(C) SM ENTERTAINMENT」「Produced by Kakao Entertainment Corp」；画面最底部是橙色音频波形装饰；所有文字采用现代极简无衬线字体，排版清晰有序，不遮挡核心手办主体；\n整体画面光影层次丰富，材质质感真实细腻，无多余杂物\n",
+      "variables": {},
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7642169705347779849?workDetailType=Image&itemType=9",
+      "source_author": "Jimeng",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/aespa_doll_promo_poster_01497cf6.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/aespa_doll_promo_poster_01497cf6.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/aespa_doll_promo_poster_01497cf6.thumb.webp",
+      "number": "ST000335",
       "created_at": ""
     },
     {
