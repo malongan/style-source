@@ -11,7 +11,7 @@
 | 🎨 品牌视觉 | 27 | 品牌KV、公益态度 |
 | 🎪 创意特殊 | 85 | 融合、复古、手绘 |
 | 🛒 电商 | 25 | 产品主图、海报、美食 |
-| 📰 编辑排版 | 36 | 杂志封面、海报排版、编辑设计、字体实验 |
+| 📰 编辑排版 | 37 | 杂志封面、海报排版、编辑设计、字体实验 |
 | 👔 时尚美容 | 9 | 时尚大片、美妆 |
 | 🎭 IP/角色 | 9 | 吉祥物、头像、游戏 |
 | 📚 印刷品 | 20 | 书籍封面、电影海报 |
@@ -21,7 +21,7 @@
 | 🖋️ 字体排版 | 16 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：330 个风格文件**
+**总计：331 个风格文件**
 
 ---
 
@@ -203,6 +203,7 @@
 | fuse_bead_editorial_poster | #拼豆艺术 #像素艺术 #色卡展示 | 品牌视觉、创意海报、艺术编辑设计、色卡研究页面 | 3:4 |
 | healing_pet_sticker | #萌宠贴纸 #蜡笔厚涂 #模切贴纸 | 贴纸设计、IP merchandise、社交媒体表情、品牌贴纸、萌宠 IP | 1:1 |
 | impasto_landscape_halves_poster | #对比海报 #厚涂油画 #调色刀肌理 | 艺术展海报、杂志内页、社媒图文、肖像再创作、概念封面 | 3:4 |
+| indie_manga_poster | #日系独立漫画 #赛璐珞平涂 #怪萌生物 | IP 转译、品牌主视觉、社交媒体海报、角色 merchandise、漫画海报 | 9:16 |
 | ink_wash_comic_poster | #水墨淡彩 #Q版漫画 #宠物互动 | IP 转译、品牌主视觉、社交媒体海报、角色 merchandise、国风漫画 | 2:3 |
 | japanese_editorial_geometric_poster | #japanese_editorial #geometric_poster #circle_composition | 文化活动海报、展览、品牌视觉、编辑版式 | 9:16 |
 | japanese_misregistration_type_poster | #日式实验海报 #三色套印 #错版错位 | 艺术展览海报、印刷工艺专题、字体实验视觉、独立出版活动主视觉、品牌文化 KV、社媒竖图 | 9:16 |

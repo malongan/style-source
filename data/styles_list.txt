@@ -1,4 +1,4 @@
-共 330 个风格
+共 331 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -212,6 +212,7 @@ ST0194 | 墨线霓裳·东方高定时装插画 | https://malongan.github.io/sty
 ST0324 | 水墨淡彩漫画 | https://malongan.github.io/style-source/images/styles_previews/ink_wash_comic_poster_58e62a64.webp
 ST0195 | 膨胀花朵 3D | https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp
 ST0196 | 印尼美食信息图 | https://malongan.github.io/style-source/images/styles_previews/indonesian_food_infographic_b721834b.webp
+ST0332 | 日系独立漫画海报 | https://malongan.github.io/style-source/images/styles_previews/indie_manga_poster_aa97a306.webp
 ST0330 | 厚涂微缩半幅对比海报 | https://malongan.github.io/style-source/images/styles_previews/impasto_landscape_halves_poster_27c839b5.webp
 ST0197 | HUMAN FRAGMENTS 文字窗口编辑海报 | https://malongan.github.io/style-source/images/styles_previews/human_fragments_editorial_poster_6b3d274f.webp
 ST0198 | 黑底宣言海报（铬质焦点） | https://malongan.github.io/style-source/images/styles_previews/hold_the_line_declaration_poster_HNHdnbhW.webp

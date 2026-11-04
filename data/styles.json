@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-244-gb3e457f-dirty",
-    "generated": "2026-11-04T00:52:54Z",
-    "total": 330,
+    "version": "v0.7.0-before-opt-245-g6de7e68-dirty",
+    "generated": "2026-11-04T01:50:00Z",
+    "total": 331,
     "categories": [
       "brand_kv",
       "creative",
@@ -11926,6 +11926,52 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/indonesian_food_infographic_b721834b.thumb.webp",
       "number": "ST000196",
       "created_at": "2026-07-01T22:06:21+08:00"
+    },
+    {
+      "id": "indie_manga_poster",
+      "code": "ST0332",
+      "name": "日系独立漫画海报",
+      "category": "editorial",
+      "tags": [
+        "日系独立漫画",
+        "赛璐珞平涂",
+        "怪萌生物",
+        "高饱和色块",
+        "IP转译",
+        "漫画海报"
+      ],
+      "triggers": [
+        "日系独立漫画",
+        "赛璐珞平涂海报",
+        "怪萌生物设计",
+        "高饱和色块海报",
+        "独立漫画风"
+      ],
+      "scene": "IP 转译、品牌主视觉、社交媒体海报、角色 merchandise、漫画海报",
+      "ratio": "9:16",
+      "summary": "日系独立漫画海报，IP 转译为细黑色手绘线条 + 赛璐珞平涂 + 怪萌生物 + 高饱和色块。",
+      "features": [
+        "**细黑色手绘漫画线条** — 外轮廓略粗，内部结构线细而灵活，线条自然起伏",
+        "**极简赛璐珞平涂** — 大面积干净色块，少量硬边阴影与柔和肤色斑块",
+        "**怪萌生物设计** — 巨大怪可爱生物，圆润柔软的不规则轮廓、巨大的白色眼球",
+        "**高饱和色块海报** — 背景采用与角色主色形成鲜明对比的单一高饱和纯色"
+      ],
+      "prompt": "{角色}，保留角色标志性发型、发色、服饰结构与身份配饰，转译为日系独立漫画插画。\n\n细黑色手绘漫画线条，外轮廓略粗，内部结构线细而灵活，线条自然起伏。适度夸张的日漫人体比例，简化的精致五官，横向拉长的半垂眼睛，平静慵懒的表情。流畅的发束轮廓，少量细碎发丝，衣服以简洁褶皱线表现结构。\n\n极简赛璐珞平涂，大面积干净色块，少量硬边阴影与柔和肤色斑块，立体感由轮廓、遮挡和色块建立。\n\n9:16 竖版平面海报，角色坐在一只与其身份、性格和世界观相关的巨大怪可爱生物头顶。生物具有圆润柔软的不规则轮廓、巨大的白色眼球与极简黑色瞳孔。角色自然地与一只小型奇幻宠物互动，动作随性，肢体舒展。\n\n背景采用与角色主色形成鲜明对比的单一高饱和纯色，巨大生物采用柔和的协调色。画面左侧设置一个与角色或主题有关的醒目黑色汉字，人物与生物集中于画面中下部，上方保留充分留白。\n\n人物细节丰富，生物造型极简，整体呈现怪萌、幽默、轻松的日系手绘漫画海报美学。画面干净清晰，线条稳定，手部结构自然准确。\n",
+      "variables": {
+        "角色": "{角色}"
+      },
+      "variable_descs": {
+        "角色": "角色名或 IP 形象"
+      },
+      "source_url": "https://x.com/VoxcatAI/status/2117761242311917692",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/indie_manga_poster_aa97a306.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/indie_manga_poster_aa97a306.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/indie_manga_poster_aa97a306.thumb.webp",
+      "number": "ST000332",
+      "created_at": ""
     },
     {
       "id": "impasto_landscape_halves_poster",
