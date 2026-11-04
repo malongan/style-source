@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-248-g816e2aa-dirty",
-    "generated": "2026-11-04T16:16:57Z",
-    "total": 334,
+    "version": "v0.7.0-before-opt-249-g4b059a6-dirty",
+    "generated": "2026-11-04T16:28:57Z",
+    "total": 335,
     "categories": [
       "brand_kv",
       "creative",
@@ -12357,6 +12357,49 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/heroic_monument_potential_field_poster_8441ac1a.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/heroic_monument_potential_field_poster_8441ac1a.thumb.webp",
       "number": "ST000202",
+      "created_at": ""
+    },
+    {
+      "id": "heritage_caishen_lantern",
+      "code": "ST0336",
+      "name": "非遗油纸财神花灯",
+      "category": "creative",
+      "tags": [
+        "非遗",
+        "布艺油纸",
+        "财神",
+        "花灯",
+        "自贡花灯",
+        "中国风",
+        "萌系"
+      ],
+      "triggers": [
+        "非遗花灯设计",
+        "自贡花灯",
+        "财神花灯",
+        "油纸布艺萌系",
+        "中国风花灯"
+      ],
+      "scene": "非遗文创设计、节庆花灯、潮玩摆件、品牌联名周边、传统文化海报",
+      "ratio": "9:16",
+      "summary": "非遗油纸财神花灯，布艺油纸细腻纹理 + 萌系财神造型 + 红白渐变留白 + 东方美学中国风。",
+      "features": [
+        "**非遗布艺油纸质感** — 布艺油纸工艺，细腻清晰纹理，无限细节，明暗对比，对每个结构细节的详细描绘",
+        "**萌系财神造型** — 时尚可爱的萌萌财神形象，独特形状，大师级设计，独特的美学",
+        "**自贡花灯形制** — 自贡花灯不对称设计，结构比例精巧，突出彩色财神花灯主体",
+        "**红白渐变背景** — 高饱和度红色和白色渐变背景，明暗对比，留白突出主体",
+        "**东方美学中国风** — 非遗风格，中国风底色，传统审美与现代萌系结合"
+      ],
+      "prompt": "画面中心大的非遗布艺油纸时尚可爱的萌萌的财神花灯，自贡花灯，细腻清晰纹理，无限细节，明暗对比，独特形状，大师级设计，美观，独特的美学、不对称的设计、高饱和度红色和白色渐变背景， 对每个结构细节的详细描绘，细腻清晰的纹理，明暗对比，留白，突出彩色财神花灯，东方美学，非遗风格，中国风\n",
+      "variables": {},
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7602100208280849714?workDetailType=Image&itemType=9",
+      "source_author": "Jimeng",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/heritage_caishen_lantern_5912f7ad.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/heritage_caishen_lantern_5912f7ad.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/heritage_caishen_lantern_5912f7ad.thumb.webp",
+      "number": "ST000336",
       "created_at": ""
     },
     {
