@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-254-g09b91bf-dirty",
-    "generated": "2026-11-05T08:37:45Z",
-    "total": 338,
+    "version": "v0.7.0-before-opt-255-g1c2ea86-dirty",
+    "generated": "2026-11-05T08:52:35Z",
+    "total": 339,
     "categories": [
       "brand_kv",
       "creative",
@@ -17925,6 +17925,59 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/black_quoted_arc_headline_490df93c.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/black_quoted_arc_headline_490df93c.thumb.webp",
       "number": "ST000339",
+      "created_at": ""
+    },
+    {
+      "id": "black_chunky_geometric_headline",
+      "code": "ST0340",
+      "name": "黑底白字胖圆几何解构标题",
+      "category": "typography",
+      "tags": [
+        "黑底白字",
+        "粗圆胖体",
+        "抽象解构",
+        "几何块面",
+        "不规则连笔",
+        "双行错位",
+        "双横线落款",
+        "扁平高级"
+      ],
+      "triggers": [
+        "胖圆几何解构字体",
+        "黑底白字抽象变形标题",
+        "圆点圆环解构字",
+        "活泼俏皮创意字体",
+        "吃喝主题标题字"
+      ],
+      "scene": "餐饮/市集/生活方式活动主视觉、年轻向品牌 Slogan、社媒封面字、创意字体设计练习",
+      "ratio": "3:2",
+      "summary": "黑底白字胖圆几何解构标题——超粗圆润笔画被抽象解构成圆环、圆点与弯钩块面，局部连笔、尾端带不规则弧，双行错位撑满画面，左侧双横线配英文小字，活泼俏皮又现代高级。",
+      "features": [
+        "**超粗圆胖的非几何笔画** — 笔画粗重饱满、边缘圆润，不是规整几何直线，字形被大胆解构成圆环、半圆、圆点与弯钩状块面的组合",
+        "**局部连笔与尾端不规则弧** — 相邻笔画连写、笔画尾端带弧度与不规则变化，带出艺术节奏与俏皮灵动感",
+        "**双行错落堆叠** — 中文拆成上下两行轻微错位，字组几乎撑满画面，字与字相互穿插挤靠，形态多变",
+        "**纯黑底纯白实心字** — 干净简约的纯黑背景，白色实心字高对比，扁平无渐变、无 3D、无颗粒噪点",
+        "**左侧双横线与英文小字** — 画面左侧两道短白横线，下方两行小号英文落款，用简洁粗无衬线，与大字形成体量反差"
+      ],
+      "prompt": "横版创意字体设计海报，干净简约的纯黑色背景，扁平矢量，无肌理、无渐变、无颗粒噪点、无 3D 阴影。画面主体是超粗圆胖的白色中文标题，拆成上下两行做轻微错位堆叠：第一行「{主标题上行}」、第二行「{主标题下行}」，字组几乎撑满画面，字与字相互穿插挤靠。字体笔画粗重有力、饱满圆润、形态多变，不是规整的几何形状：字形被大胆抽象解构，局部呈现圆环、半圆、圆点与弯钩状的有机块面；相邻笔画做连笔处理，笔画尾端带一定弧度与不规则变化，灵动并带有艺术节奏，活泼俏皮又现代时尚，视觉冲击强烈。整体仍要能读出这句中文，但允许局部笔画为造型需要抽象化，不出现错字或伪文字。画面左侧放两道短白色横线，其下是两行小号英文落款「{英文小字}」，用简洁的粗无衬线体，与主体大字形成鲜明的体量反差。高级感，扁平化，大师级字体设计，边缘干净锐利。除中文标题、两道短横线与英文落款外，不添加任何其他图形、图标、边框、水印、Logo 或伪文字。所有文字保持在安全区域内。\n",
+      "variables": {
+        "主标题上行": "{主标题上行}",
+        "主标题下行": "{主标题下行}",
+        "英文小字": "{英文小字}"
+      },
+      "variable_descs": {
+        "主标题上行": "3-4 字口语短句，如：吃香的",
+        "主标题下行": "3-4 字，与上行成对，如：喝辣的",
+        "英文小字": "左侧双横线下方的两行英文短句，如：Happiness every day"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7520879833212095790",
+      "source_author": "梦溪梅花（即梦）",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/black_chunky_geometric_headline_75fbceee.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/black_chunky_geometric_headline_75fbceee.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/black_chunky_geometric_headline_75fbceee.thumb.webp",
+      "number": "ST000340",
       "created_at": ""
     },
     {
