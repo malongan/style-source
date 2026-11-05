@@ -1,4 +1,4 @@
-共 339 个风格
+共 340 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -211,6 +211,7 @@ ST0192 | 青玉字形杂货拼贴海报风格 | https://malongan.github.io/style
 ST0193 | 精细地理微缩模型景观 | https://malongan.github.io/style-source/images/styles_previews/isometric_country_diorama_f987b38c.webp
 ST0194 | 墨线霓裳·东方高定时装插画 | https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp
 ST0324 | 水墨淡彩漫画 | https://malongan.github.io/style-source/images/styles_previews/ink_wash_comic_poster_58e62a64.webp
+ST0341 | 浓墨书法红印品牌字标 | https://malongan.github.io/style-source/images/styles_previews/ink_brush_seal_logotype_5bece6b6.webp
 ST0195 | 膨胀花朵 3D | https://malongan.github.io/style-source/images/styles_previews/inflatable_3d_flowers_d186e0b6.webp
 ST0196 | 印尼美食信息图 | https://malongan.github.io/style-source/images/styles_previews/indonesian_food_infographic_b721834b.webp
 ST0332 | 日系独立漫画海报 | https://malongan.github.io/style-source/images/styles_previews/indie_manga_poster_aa97a306.webp
