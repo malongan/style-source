@@ -17,6 +17,8 @@
   * `aigc_resize:0:0.png` 是原图；`4096:4096.jpeg` 是同尺寸有损版；其余是缩略档。
   * 签名 URL 带 x-expires，抓完立刻下载；下载要带 Referer。
   * `"prompt"` 字段在页面里出现多次，还会混进无关的短串；以 text2imageParams 里那条为准。
+  * SSR 会偶发返回 HTTP 200 的「空壳」（只有 AB 实验配置，没有作品数据，约 63KB）。
+    curl 的 --retry 只认网络/HTTP 错误，不认这种成功的失败，必须做内容级重试（2026-11-05 第三个作品实测）。
 只用标准库；下载复用 curl（对代理环境比 urllib 稳）。
 """
 
@@ -42,20 +44,42 @@ def die(msg):
     sys.exit(1)
 
 
-def fetch_html(url, dest):
+def ssr_has_work(raw):
+    """内容级判活：作品数据里必有 coverUri 或 aigc_resize 档位。
+
+    空壳页也是 HTTP 200、也带 UA 与一整包 AB 配置（约 63KB），只是没有作品 JSON；
+    只看状态码和文件大小会把空壳当成功，进而解析出 prompt="test"、0 张图。
+    """
+    return "coverUri" in raw or "aigc_resize" in raw
+
+
+def fetch_html(url, dest, attempts=4):
+    """抓页面并校验 SSR 是否真带作品数据；空壳自动重发，不做无意义等待。"""
     cmd = ["curl", "-sL", "--retry", "2", "--retry-all-errors",
            "--max-time", "45", "-A", UA, "-H", "Referer: " + REFERER,
            "-o", dest, "-w", "%{http_code}", url]
-    try:
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
-    except subprocess.TimeoutExpired:
-        die("抓页面超时（45s）。检查网络，或稍后重试；不要改用浏览器猜内容。")
-    code = (r.stdout or "").strip()
-    if code != "200" or not os.path.exists(dest) or os.path.getsize(dest) < 5000:
-        die("页面抓取失败（HTTP %s，%s 字节）。可能是网络抖动、需要登录或页面改版；"
-            "把 HTML 存下来人工看一眼，不要拿别的作品的图凑。" %
-            (code or "?", os.path.getsize(dest) if os.path.exists(dest) else 0))
-    return open(dest, encoding="utf-8", errors="replace").read()
+    last = ""
+    for i in range(1, attempts + 1):
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
+        except subprocess.TimeoutExpired:
+            die("抓页面超时（45s）。检查网络，或稍后重试；不要改用浏览器猜内容。")
+        code = (r.stdout or "").strip()
+        size = os.path.getsize(dest) if os.path.exists(dest) else 0
+        if code == "200" and size >= 5000:
+            raw = open(dest, encoding="utf-8", errors="replace").read()
+            if ssr_has_work(raw):
+                if i > 1:
+                    print("（第 %d 次抓取才拿到 SSR 作品数据）" % i, file=sys.stderr)
+                return raw
+            last = "SSR 空壳：HTTP 200、%d 字节，但无作品数据" % size
+        else:
+            last = "HTTP %s、%d 字节" % (code or "?", size)
+        if i < attempts:
+            print("⚠️  第 %d 次抓取：%s，重发…" % (i, last), file=sys.stderr)
+    die("连抓 %d 次都没拿到作品数据（%s）。常见原因：SSR 节点抖动（多试几次即可）、"
+        "作品被删/私密、或页面改版。HTML 已存 %s，人工确认前不要拿别的作品的图凑。" %
+        (attempts, last, dest))
 
 
 def unescape_ssr(raw):
@@ -107,6 +131,8 @@ def extract_prompt(t):
         if p:
             candidates.append(p)
         pos += m.end()
+    # 空壳页 / 配置数据里也会有 "prompt":"test" 之类的干扰串，短于 20 字一律不算提示词。
+    candidates = [p for p in candidates if len(p) >= 20]
     return max(candidates, key=len) if candidates else None
 
 
