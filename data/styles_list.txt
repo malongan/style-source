@@ -1,4 +1,4 @@
-共 342 个风格
+共 343 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -282,6 +282,7 @@ ST0253 | 妖魔孙悟空线绘 | https://malongan.github.io/style-source/images/
 ST0254 | 暗黑国风奇幻插画 | https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp
 ST0255 | 赛博朋克半调海报 | https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp
 ST0256 | 文化工作者大会周年纪念海报 | https://malongan.github.io/style-source/images/styles_previews/cultural_worker_anniversary_poster_9f5caad3.webp
+ST0344 | 晶莹蓝莓网点抽象招贴 | https://malongan.github.io/style-source/images/styles_previews/crystal_blueberry_halftone_poster_241a2096.webp
 ST0257 | 红色马克笔草图 | https://malongan.github.io/style-source/images/styles_previews/crimson_marker_sketch_15b0d804.webp
 ST0258 | 温馨水彩日常女孩 | https://malongan.github.io/style-source/images/styles_previews/cozy_watercolor_everyday_girl_091ed4e7.webp
 ST0259 | 温馨故事书咖啡馆 | https://malongan.github.io/style-source/images/styles_previews/cozy_storybook_cafe_105c9df2.webp
