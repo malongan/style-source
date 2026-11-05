@@ -9,6 +9,7 @@
 | avantgarde_bw_poster | #黑白灰 #先锋海报 #现代主义 |  | 16:9 / 9:16 / 1:1 / 4:5 / 3:2 |
 | bold_monoline_mascot | #品牌吉祥物 #粗轮廓线 #双色插画 |  | 4:5 / 3:4 / 1:1 / 9:16 |
 | brand_logo_stone_monolith | #品牌符号立体化 #地质巨石 #CGI产品肖像 | 品牌KV、logo立体化提案、品牌视觉发布、发布会主视觉、设计档案陈列、产品发布物料 | 4:5（示例封面为 9:16 档案卡） |
+| concrete_niche_eco_laser_kv | #工业风未来感 #3D品牌KV #混凝土凹槽 | 科技/设计/园艺品牌年度主视觉、展会概念海报、未来生态议题 KV、3D 渲染作品集封面 | 3:4 |
 | cyberpunk_halftone_poster | #赛博朋克 #极繁 #半调 |  | 3:4（竖版） |
 | diffuse_poster | #复古 #海报 #杂志风 |  | 9:16 或 3:4 |
 | digital_soul_poster | #数字艺术 #荧光绿 #液态金属 |  | 9:16 |
