@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-255-g1c2ea86-dirty",
-    "generated": "2026-11-05T08:52:35Z",
-    "total": 339,
+    "version": "v0.7.0-before-opt-256-gf529332-dirty",
+    "generated": "2026-11-05T08:59:41Z",
+    "total": 340,
     "categories": [
       "brand_kv",
       "creative",
@@ -11881,6 +11881,59 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/ink_wash_comic_poster_58e62a64.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/ink_wash_comic_poster_58e62a64.thumb.webp",
       "number": "ST000324",
+      "created_at": ""
+    },
+    {
+      "id": "ink_brush_seal_logotype",
+      "code": "ST0341",
+      "name": "浓墨书法红印品牌字标",
+      "category": "typography",
+      "tags": [
+        "中式品牌字标",
+        "毛笔书法",
+        "浓墨飞白",
+        "朱红椭圆印章",
+        "拼音英文落款",
+        "白底黑白对比",
+        "传统现代结合"
+      ],
+      "triggers": [
+        "书法字体logo",
+        "中式品牌字标",
+        "毛笔字招牌",
+        "书法加拼音标志",
+        "红印章品牌标志",
+        "民宿茶室餐饮logo"
+      ],
+      "scene": "民宿/客栈/茶室/餐饮/文创品牌 LOGO 与招牌、中式品牌视觉提案、字体设计练习",
+      "ratio": "3:2",
+      "summary": "浓墨书法红印品牌字标——白底上四字浓黑毛笔行书横向撑满，末笔甩出飞白长弧，右上角一枚朱红椭圆小印，下方全大写现代无衬线拼音落款，传统笔意与现代字标并置。",
+      "features": [
+        "**浓黑毛笔行书主体** — 品牌中文名以浓黑毛笔行书写成，笔画粗重饱满、提按分明，带自然飞白与枯笔边缘，笔势开张有书写感而非印刷字体",
+        "**末笔长弧扫笔** — 字组最后一笔向左下甩出一道横贯画面的巨大弧形扫笔，飞白清晰，把整组字托住并压出视觉重心",
+        "**右上朱红椭圆小印** — 右上角一枚竖向长圆形朱红印章，内为单字篆刻，是纯黑白画面里唯一的彩色，体量很小、位置克制",
+        "**大写无衬线拼音落款** — 书法下方偏右放全大写拼音或英文名，细匀的现代无衬线体、字距略拉开，与上方毛笔字形成传统与现代的对照",
+        "**纯白底零装饰** — 干净纯白背景，无边框、无底纹、无渐变、无辅助图形，全靠黑色书法、一枚红印与一行小字构成层级"
+      ],
+      "prompt": "创作一张 3:2 横版的中式品牌字标（logotype）设计图，干净纯白背景，除文字与一枚小印章外不加任何边框、底纹、渐变、图形、图标或水印。\n\n画面主体是品牌中文名「{品牌中文名}」，以浓黑毛笔行书一气写成，四字左右横向排开、几乎撑满画面宽度，字与字紧凑呼应、大小略有变化。笔画粗重饱满、提按分明，边缘保留自然飞白、枯笔与墨迹渗化的书写质感，笔势开张有力、气韵生动，具有传统书法功底，不做几何化图形重构，也不用规整印刷体。字组最后一笔顺势向左下甩出一道横贯画面的巨大弧形扫笔，带清晰飞白，把整组字稳稳托住。整体仍要能清楚读出这几个中文字，不出现错字或伪文字。\n\n右上角放一枚竖向长圆形的朱红色小印章，内为一个篆刻单字「{印章单字}」，是整幅画面唯一的彩色，尺寸克制、不与书法争主体。\n\n书法下方偏右放一行全大写拼音或英文标注「{拼音英文标注}」，用细匀的现代无衬线体、字距略拉开，字号远小于书法主体，与浓墨毛笔字形成传统与现代的明确对照，同时让整体具备商业品牌标志的完成度。\n\n高级感、专业感、简洁典雅，黑白为主、朱红点睛，扁平化大师级字体与标志设计，边缘干净。所有文字保持在安全区域内。\n",
+      "variables": {
+        "品牌中文名": "{品牌中文名}",
+        "拼音英文标注": "{拼音英文标注}",
+        "印章单字": "{印章单字}"
+      },
+      "variable_descs": {
+        "品牌中文名": "3-5 字中式品牌名，如：栖林客栈、半山茶寮",
+        "拼音英文标注": "与品牌名对应的全大写拼音或英文名，如：XILIN HOTEL",
+        "印章单字": "右上角红色椭圆小印里的一个篆体字，通常取品牌名首字，如：栖"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7496020365945179444",
+      "source_author": "囡囡（即梦）",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/ink_brush_seal_logotype_5bece6b6.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/ink_brush_seal_logotype_5bece6b6.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/ink_brush_seal_logotype_5bece6b6.thumb.webp",
+      "number": "ST000341",
       "created_at": ""
     },
     {

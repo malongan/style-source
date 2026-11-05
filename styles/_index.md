@@ -18,10 +18,10 @@
 | 🔬 科研专业 | 5 | 信息图、期刊封面 |
 | 📱 社交媒体 | 37 | 小红书、朋友圈、头像 |
 | ✈️ 旅行城市 | 10 | 旅行海报、城市 |
-| 🖋️ 字体排版 | 20 | 文字为主的标题设计 |
+| 🖋️ 字体排版 | 21 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：339 个风格文件**
+**总计：340 个风格文件**
 
 ---
 
@@ -384,6 +384,7 @@
 | expressive_handwritten_headline | #handwriting #expressive #casual | 活动 Slogan（见面会/校园/青年活动）/ 品牌手写感标语 / 需要活泼自由氛围的标题设计 | 16:9 |
 | hanzi_cultural_poster | #东方海报 #汉字书法 #文化线描 | 文化品牌视觉、东方艺术海报、艺术展览、文化活动宣传 | 9:16 |
 | hanzi_emblem_marks | #中文排版 #中式极简 #字图融合 | 品牌 logo、茶叶/酒/民宿/文创品牌标志、文化项目视觉 | 1:1 |
+| ink_brush_seal_logotype | #中式品牌字标 #毛笔书法 #浓墨飞白 | 民宿/客栈/茶室/餐饮/文创品牌 LOGO 与招牌、中式品牌视觉提案、字体设计练习 | 3:2 |
 | kawaii_bright_chunky_hand_lettering | #hand-lettering #kawaii #headline | 电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼带手写温度的氛围 | 9:16 |
 | kawaii_bright_hand_lettering_headline | #hand-lettering #kawaii #headline | 电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼氛围的标题设计 | 9:16 |
 | screen_print_offset_headline | #screen-print #offset #hand-printed | 有温度的手作/露营/市集/农场/文艺市集 KV，中文粗重标题，需要复古印刷感 | 16:9 |
