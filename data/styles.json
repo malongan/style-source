@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-250-g7b5d22b-dirty",
-    "generated": "2026-11-05T07:39:12Z",
-    "total": 336,
+    "version": "v0.7.0-before-opt-251-g28a88ae-dirty",
+    "generated": "2026-11-05T07:52:32Z",
+    "total": 337,
     "categories": [
       "brand_kv",
       "creative",
@@ -17819,6 +17819,57 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.thumb.webp",
       "number": "ST000294",
+      "created_at": ""
+    },
+    {
+      "id": "black_swash_italic_headline",
+      "code": "ST0338",
+      "name": "长弧动感粗黑斜体标题",
+      "category": "typography",
+      "tags": [
+        "粗黑斜体",
+        "长弧笔画",
+        "双行错位",
+        "白底黑字",
+        "亮绿英文点缀",
+        "微倾斜动感"
+      ],
+      "triggers": [
+        "长弧笔画字体",
+        "动感粗黑斜体标题",
+        "白底黑字创意字体",
+        "亮绿英文点缀",
+        "赛事活动标题字"
+      ],
+      "scene": "赛事/活动主视觉标题、品牌年轻化传播、短视频封面字、校园与文旅创意字体",
+      "ratio": "4:3",
+      "summary": "长弧动感粗黑斜体标题——白底极粗黑字、撇捺拉成长弧线穿插包字、双行错位整体微倾斜，配亮绿手写英文与小号英文落款，春日清新又极具冲击。",
+      "features": [
+        "**极粗黑体斜体字形** — 极粗的黑色黑体变体、整体微倾斜，笔画圆润且带明显粗细变化，现代醒目",
+        "**撇捺拉成长弧线** — 撇捺与横画末端被大幅拉长成流畅长弧线，向左右伸展并穿插包住整组字，动感十足",
+        "**上下两行错位上扬** — 中文标题拆成两行，第二行略向右下偏移，整组字向右上扬，形成视觉冲击",
+        "**亮绿手写英文点缀** — 标题上方漂浮一行亮绿色俏皮手写圆体英文，右下角另有小号黑色斜体英文落款，与黑字形成色彩与体量对比",
+        "**纯白底极简干净** — 纯白背景无肌理无渐变，扁平矢量、边缘锐利，除文字外无任何图形装饰"
+      ],
+      "prompt": "横版创意字体设计海报，纯白色干净背景，无肌理、无渐变、无任何装饰元素。画面中心是一组超大号中文标题，拆成上下两行错位排列：第一行「{主标题上行}」、第二行「{主标题下行}」，第二行略向右下偏移，两行整体微微倾斜，形成向右上扬的动势。字体为极粗的黑色黑体变体，斜体，笔画圆润且带明显粗细变化，撇捺与横画的末端被大幅拉长成流畅的长弧线，弧线向左右伸展并相互穿插、包住整组字，笔画转折柔和有力，富有动感与活力，现代、醒目、极具视觉冲击。中文标题上方偏中位置，漂浮一行亮绿色手写圆体英文「{英文短句}」，字号小、笔形俏皮、随性倾斜，与黑色大字形成色彩与体量对比；右下角再放一行小号黑色斜体英文「{英文短句}」作为落款，字距略收紧。整体如春日般清新有呼吸感，高级感，大师级字体设计，扁平矢量，边缘锐利干净、无阴影、无 3D、无渐变。除上述中文标题与英文短句外不添加任何其他字母、单词、数字、标签、Logo 或伪文字。所有中文必须笔画正确、完全可读，并保持在安全区域内。不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "主标题上行": "{主标题上行}",
+        "主标题下行": "{主标题下行}",
+        "英文短句": "{英文短句}"
+      },
+      "variable_descs": {
+        "主标题上行": "2-6 字，如：甘肃万通",
+        "主标题下行": "3-8 字，如：短视频大赛",
+        "英文短句": "上方绿色手写体与右下落款共用，如：gansu wontone"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7611059582760226099",
+      "source_author": "朵儿💋（即梦）",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/black_swash_italic_headline_55f1ab16.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/black_swash_italic_headline_55f1ab16.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/black_swash_italic_headline_55f1ab16.thumb.webp",
+      "number": "ST000338",
       "created_at": ""
     },
     {
