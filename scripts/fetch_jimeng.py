@@ -83,10 +83,20 @@ def fetch_html(url, dest, attempts=4):
 
 
 def unescape_ssr(raw):
-    """还原 SSR JSON 里的 URL 转义，顺手处理 HTML 属性里的 &amp;。"""
+    """给「文本里捞 URL」用的宽松还原；会把 \\" 变成裸引号，不能拿去解析 JSON。"""
     t = raw.replace("\\u002F", "/").replace("\\u0026", "&")
     t = t.replace("\\/", "/").replace('\\"', '"')
     return html_mod.unescape(t)
+
+
+def json_view(raw):
+    """给 JSON 解码器用的严格视图：只还原 URL 类转义，**保留 \\"**。
+
+    2026-11-05 实测：提示词里常有 `"VERSE"` / `"Velvet Horizon"` 这类内嵌双引号，
+    unescape_ssr 把 \\" 变成裸引号后，raw_decode 会在第一个内嵌引号处结束，
+    799 字的 prompt 被截成 224 字（作品 7681561564192738585）。解析字段一律用本视图。
+    """
+    return raw.replace("\\u002F", "/").replace("\\u0026", "&").replace("\\/", "/")
 
 
 def json_string_after(t, key, start=0):
@@ -206,18 +216,19 @@ def main():
 
     tmp_html = os.path.join(tempfile.gettempdir(), "jimeng_%s.html" % work_id)
     raw = fetch_html(args.url, tmp_html)
-    t = unescape_ssr(raw)
+    t = unescape_ssr(raw)      # 只用于文本里捞图片 URL
+    j = json_view(raw)         # 只用于 JSON 字段解析（保留内嵌引号转义）
 
-    prompt = extract_prompt(t)
-    author_obj = json_object_after(t, "author")
+    prompt = extract_prompt(j)
+    author_obj = json_object_after(j, "author")
     author = author_obj.get("name") if author_obj else None
-    model_obj = json_object_after(t, "modelInfo")
+    model_obj = json_object_after(j, "modelInfo")
     model = model_obj.get("modelName") if model_obj else None
     if not model:
-        model = json_string_after(t, "modelName")
-    ref_prompt = json_string_after(t, "referencePrompt")
-    cover_uri = json_string_after(t, "coverUri")
-    size_obj = json_object_after(t, "largeImageInfo")
+        model = json_string_after(j, "modelName")
+    ref_prompt = json_string_after(j, "referencePrompt")
+    cover_uri = json_string_after(j, "coverUri")
+    size_obj = json_object_after(j, "largeImageInfo")
     width, height = size_obj.get("width"), size_obj.get("height")
     images = collect_images(t, cover_uri)
 
