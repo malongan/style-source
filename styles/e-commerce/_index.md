@@ -21,6 +21,7 @@
 | korean_food_scrapbook_poster | #韩式美食 #手账拼贴 #美食广告 | 韩式餐饮品牌社媒海报、韩国外卖菜单、美食博主推荐帖 | 3:4 |
 | luxury_birthday_poster | #生日 #轻奢 #海报 |  | 3:4 竖版 |
 | luxury_product | #电商 #产品 #摄影棚 |  | 16:9 |
+| matcha_powder_zen_dessert_poster | #日式禅意 #抹茶绿 #粉末质地 | 甜品与茶饮品牌新品主视觉、抹茶季限定海报、咖啡馆菜单与电商主图、日式伴手礼包装视觉、社媒美食图文封面 | 2:3 |
 | minimalist_cafe_product_poster | #纯白背景 #黑色排版 #瑞士编辑风 | 咖啡馆产品主图、饮品品牌社媒海报、极简电商详情页 | 4:5 |
 | modernist_food_separation_menu | #menu #food_photography #modernist | 高端餐厅菜单、美食品牌视觉、Premium 餐饮品牌 KV、食材概念海报 | 16:9 / 2:3 |
 | newyear_gift_box | #年货 #礼盒 #商业摄影 |  | 3:4 |
