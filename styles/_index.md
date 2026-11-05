@@ -18,10 +18,10 @@
 | 🔬 科研专业 | 5 | 信息图、期刊封面 |
 | 📱 社交媒体 | 37 | 小红书、朋友圈、头像 |
 | ✈️ 旅行城市 | 10 | 旅行海报、城市 |
-| 🖋️ 字体排版 | 17 | 文字为主的标题设计 |
+| 🖋️ 字体排版 | 18 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：336 个风格文件**
+**总计：337 个风格文件**
 
 ---
 
@@ -371,6 +371,7 @@
 |------|------|----------|------|
 | avant_garde_abstract_typography | #avant-garde #abstract #black-background | 品牌 Logo / 发布会主视觉 / 战略Slogan KV（破局焕新类）/ 科技·咨询·高端品牌 / 黑白高级感设计 | 16:9 |
 | bas_relief_chinese_serif_headline | #bas-relief #chinese-serif #paper-pulp | 有文化感的 KV（露营/美食/茶饮/国风/节气/手作），中文标题为主，需要沉稳高级的标题设计 | 16:9 |
+| black_swash_italic_headline | #粗黑斜体 #长弧笔画 #双行错位 | 赛事/活动主视觉标题、品牌年轻化传播、短视频封面字、校园与文旅创意字体 | 4:3 |
 | bold_black_typography_goldengown | #bold-black #artistic-typography #rounded-strokes | 考试成功主题 / 金榜题名海报 / 升学庆祝 / 教育品牌宣传 / 成绩公布公示 | 4:3 |
 | bold_flow_typography_visual_experience | #字体设计 #中文排版 #飘逸笔划 | 标题字体设计、品牌视觉、海报排版、创意文字 | 1:1 |
 | bold_rounded_offset_headline | #粗圆无衬线 #错位排版 #黑底白字 | 冬季/出行活动主视觉、品牌促销大标题、社媒封面字、字体设计练习 | 4:3 |

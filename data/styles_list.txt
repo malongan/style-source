@@ -1,4 +1,4 @@
-共 336 个风格
+共 337 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -325,6 +325,7 @@ ST0292 | 商业杂志封面编辑风格 | https://malongan.github.io/style-sourc
 ST0311 | 温柔祝福拱门海报 | https://malongan.github.io/style-source/images/styles_previews/blessing_arch_ceremony_poster_9b009f4f.webp
 ST0293 | 高对比黑白字体肖像 | https://malongan.github.io/style-source/images/styles_previews/black_white_typographic_portrait_2d1ec4b7.webp
 ST0294 | 黑白墨水编辑角色插画 | https://malongan.github.io/style-source/images/styles_previews/black_white_ink_editorial_character_6709aaa4.webp
+ST0338 | 长弧动感粗黑斜体标题 | https://malongan.github.io/style-source/images/styles_previews/black_swash_italic_headline_55f1ab16.webp
 ST0295 | 多色饮料飞溅广告系统风格 | https://malongan.github.io/style-source/images/styles_previews/beverage_style_5c9fe052.webp
 ST0296 | 酒饮系列海报视觉系统 | https://malongan.github.io/style-source/images/styles_previews/beverage_series_poster_7ce76fc9.webp
 ST0297 | 浮雕中文衬线大标题 | https://malongan.github.io/style-source/images/styles_previews/bas_relief_chinese_serif_headline_a2cff3eb.webp
