@@ -10,6 +10,7 @@
 | cinematic_3d_fantasy_armor | #3D奇幻 #装甲设计 #机器人 salvage | 角色设计、概念艺术、游戏美术、3D 渲染、奇幻插画 | 3:2 |
 | commercial_hover_poster | #商业广告 #3D产品渲染 #悬浮构图 | 品牌广告、产品主视觉、电商 KV、品牌 campaign、商业海报 | 9:16 |
 | corner_pressure_poster | #压角构图 #实验海报 #编辑设计 | 实验海报、展览主视觉、编辑设计、品牌艺术视觉、当代平面参考 | 9:16 |
+| crystal_blueberry_halftone_poster | #极简抽象海报 #3D渲染 #半透明质感 | 先锋艺术展主视觉、实验性平面设计招贴、单色系品牌概念海报、食品/香氛/美妆的抽象质感 KV、设计年鉴与作品集封面 | 3:4 |
 | dunhuang_dance_editorial_poster | #敦煌舞 #巨型字体 #当代编辑排版 | 品牌KV、文化展览海报、社媒竖图、国潮活动主视觉、博物馆展陈视觉 | 9:16 |
 | east_asian_enclosing_exhibition_poster | #东亚现代主义 #包围式构图 #日式编辑设计 | 品牌KV、展览海报、概念设计、文化杂志视觉、独立出版封面 | 9:16 |
 | experimental_anime_magazine_cover | #实验动画 #Retro Pop Anime #日美混合卡通 | IP 转译、品牌主视觉、社交媒体海报、角色 merchandise、杂志封面 | 9:16 |
