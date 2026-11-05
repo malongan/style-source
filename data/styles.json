@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-249-g4b059a6-dirty",
-    "generated": "2026-11-04T16:28:57Z",
-    "total": 335,
+    "version": "v0.7.0-before-opt-250-g7b5d22b-dirty",
+    "generated": "2026-11-05T07:39:12Z",
+    "total": 336,
     "categories": [
       "brand_kv",
       "creative",
@@ -17234,6 +17234,57 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/brand_logo_stone_monolith_352649d3.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/brand_logo_stone_monolith_352649d3.thumb.webp",
       "number": "ST000313",
+      "created_at": ""
+    },
+    {
+      "id": "bold_rounded_offset_headline",
+      "code": "ST0337",
+      "name": "黑底白字粗圆错位标题",
+      "category": "typography",
+      "tags": [
+        "粗圆无衬线",
+        "错位排版",
+        "黑底白字",
+        "圆角边框副标题",
+        "中文标题字",
+        "极简高级"
+      ],
+      "triggers": [
+        "粗圆错位标题字",
+        "黑底白字字体设计",
+        "双行错位大字",
+        "圆角框副标题",
+        "活泼粗体中文标题"
+      ],
+      "scene": "冬季/出行活动主视觉、品牌促销大标题、社媒封面字、字体设计练习",
+      "ratio": "4:3",
+      "summary": "黑底白字粗圆错位标题——粗壮圆润的无衬线双行大字错位叠压，右上圆角框副标题，纯黑白高对比极简高级。",
+      "features": [
+        "**粗壮圆润的无衬线字形** — 笔画粗壮有力、圆润流畅，收笔带弧线与小弯钩，灵动活泼又极具现代感",
+        "**双行错位叠压排版** — 主标题拆成上下两行错位，上行偏左、下行向右拉伸，笔画穿插形成紧凑块面",
+        "**圆角云朵框副标题** — 主标题右上叠一个白色圆角描边框，框内两行小号副标题，形成层级呼应",
+        "**纯黑底纯白字** — 干净的纯黑背景、无肌理渐变，白色实心字高对比，高级极简",
+        "**除字与框外无装饰** — 不加图形、图标、水印或伪文字，大师级字体设计质感"
+      ],
+      "prompt": "横版字体设计海报，干净的纯黑色背景，无肌理、无渐变、无装饰。画面中心是中文主标题，拆成上下两行做错位排版：第一行「{主标题上行}」偏左、略小；第二行「{主标题下行}」向右拉伸、字更大；两行笔画相互穿插、局部叠压，形成紧凑的整体块面。字体为粗壮有力的无衬线黑体变体，笔画线条流畅、圆润灵动、活泼，收笔带弧线与小弯钩，局部连笔与延伸变形，字重极粗但每个字仍清晰可读，极具现代感。字形为纯白色实心，与黑底形成高对比。主标题右上方叠加一个白色圆角云朵状描边外框，框内放两行副标题「{副标题}」，白色粗圆小字，紧贴主标题形成层级呼应。整体高级、现代、极简，大师级字体设计，干净的背景，除标题文字与圆角边框外不添加任何其他图形、图标、水印、Logo 或伪文字。所有中文必须笔画正确、完全可读，并保持在安全区域内。不要水印，不要真实Logo，不要电商广告感。\n",
+      "variables": {
+        "主标题上行": "{主标题上行}",
+        "主标题下行": "{主标题下行}",
+        "副标题": "{副标题}"
+      },
+      "variable_descs": {
+        "主标题上行": "2-4 字，如：冬日",
+        "主标题下行": "3-6 字，如：欢乐出行",
+        "副标题": "圆角框内的两行短句，如：美好冬日 不负好时光"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7578919534833192238",
+      "source_author": "阿林_Design（即梦）",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/bold_rounded_offset_headline_76a90fd6.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_rounded_offset_headline_76a90fd6.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_rounded_offset_headline_76a90fd6.thumb.webp",
+      "number": "ST000337",
       "created_at": ""
     },
     {

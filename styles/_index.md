@@ -18,10 +18,10 @@
 | 🔬 科研专业 | 5 | 信息图、期刊封面 |
 | 📱 社交媒体 | 37 | 小红书、朋友圈、头像 |
 | ✈️ 旅行城市 | 10 | 旅行海报、城市 |
-| 🖋️ 字体排版 | 16 | 文字为主的标题设计 |
+| 🖋️ 字体排版 | 17 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：335 个风格文件**
+**总计：336 个风格文件**
 
 ---
 
@@ -373,6 +373,7 @@
 | bas_relief_chinese_serif_headline | #bas-relief #chinese-serif #paper-pulp | 有文化感的 KV（露营/美食/茶饮/国风/节气/手作），中文标题为主，需要沉稳高级的标题设计 | 16:9 |
 | bold_black_typography_goldengown | #bold-black #artistic-typography #rounded-strokes | 考试成功主题 / 金榜题名海报 / 升学庆祝 / 教育品牌宣传 / 成绩公布公示 | 4:3 |
 | bold_flow_typography_visual_experience | #字体设计 #中文排版 #飘逸笔划 | 标题字体设计、品牌视觉、海报排版、创意文字 | 1:1 |
+| bold_rounded_offset_headline | #粗圆无衬线 #错位排版 #黑底白字 | 冬季/出行活动主视觉、品牌促销大标题、社媒封面字、字体设计练习 | 4:3 |
 | bubble_letter_headline | #bubble-letter #chunky #glossy | 3D 角色潮玩 KV、儿童/年轻向电商海报、需要明亮活泼但不刺眼的标题设计 | 16:9 |
 | camping_season_hand_drawn_headline | #hand-drawn #trendy #camping | 夏季露营活动主视觉 / 潮流品牌 KV / 户外生活方式宣传 / 帐篷音乐节海报 | 4:3 |
 | cartoon_graffiti_headline | #cartoon #graffiti #doodle | 潮流活动主视觉 / 创意宣传海报 / 年轻向品牌 KV / 街头文化设计 | 4:3 |
