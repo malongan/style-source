@@ -1,4 +1,4 @@
-共 347 个风格
+共 348 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -189,6 +189,7 @@ ST0173 | 高端运动服营销企划板 | https://malongan.github.io/style-sourc
 ST0174 | Lululemon 四联运动海报 | https://malongan.github.io/style-source/images/styles_previews/lululemon_4square_campaign_a3eea795.webp
 ST0175 | 低多边形等轴测车辆 | https://malongan.github.io/style-source/images/styles_previews/lowpoly_isometric_vehicle_5dc923ac.webp
 ST0176 | 青柠薄荷涂鸦手绘饮料海报 | https://malongan.github.io/style-source/images/styles_previews/lime_mint_sparkling_doodle_poster_2d825032.webp
+ST0349 | 立体多层剪纸非遗花灯海报 | https://malongan.github.io/style-source/images/styles_previews/layered_papercut_lantern_heritage_poster_19a964db.webp
 ST0177 | LAKERO 法餐点单海报 | https://malongan.github.io/style-source/images/styles_previews/lakero_fine_dining_menu_4a8b8795.webp
 ST0178 | 韩国 ins 风晨间问候海报 | https://malongan.github.io/style-source/images/styles_previews/korean_morning_ritual_poster_77641af8.webp
 ST0179 | 韩国插画风 | https://malongan.github.io/style-source/images/styles_previews/korean_illustration_dd9d4f47.webp

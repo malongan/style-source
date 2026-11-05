@@ -43,6 +43,7 @@
 | kimjunggi_scifi_sketch | #金政基 #赛博朋克 #线条艺术 |  | 1:1 / 16:9 / 9:16 |
 | korean_illustration | #韩国 #插画 #线条画 |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | korean_morning_ritual_poster | #晨间问候 #韩国ins风 #治愈系 |  | 16:9 / 3:4 / 9:16 |
+| layered_papercut_lantern_heritage_poster | #立体多层剪纸 #中式纸雕 #非遗民俗 | 非遗文化与民俗节庆主题海报、灯会／元宵活动主视觉、文创品牌节日KV、博物馆与传统工艺展陈视觉、东方美学出版物插图 | 3:4 |
 | lime_mint_sparkling_doodle_poster | #青柠薄荷 #气泡饮 #手绘托举 |  | 16:9 / 9:16 |
 | lowpoly_isometric_vehicle | #低多边形 #等轴测 #游戏美术 | 品牌KV、社交媒体配图、游戏风格海报、玩具风视觉 | 16:9 |
 | magic_lamp_island | #微型世界 #浮岛 #纸雕 | 品牌KV、旅行海报、概念艺术、创意海报 | 16:9 |
