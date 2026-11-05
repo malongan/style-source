@@ -9,6 +9,7 @@
 | hand_drawn_travel_illustration | #手绘 #旅行插画 #涂鸦风格 | 旅行海报、目的地宣传、编辑插画、旅行杂志配图、手绘风社媒内容 | 2:3 |
 | isometric_country_diorama | #isometric #miniature #diorama | 国家旅行宣传、地理主题海报、目的地推广 | 4:5 |
 | minimalist_city_travel_poster | #旅行海报 #极简主义 #城市 |  | 9:16 / 3:4 / 16:9 |
+| navy_halftone_tear_city_poster | #城市漫游 #复古拼贴 #半色调网点 | 城市文旅主视觉、Citywalk 活动海报、目的地宣传招贴、城市纪念印刷品、杂志旅行专题封面 | 2:3 |
 | premium_scandinavian_stamp_collection | #邮票 #北欧极简 #旅行纪念 | 品牌文创、目的地旅行纪念册、社交媒体图文、旅行博主内容 | 3:4 |
 | style_travel | #VigoCookbook #clean #travel-vlog |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | taipei_vintage_modernist_travel_poster | #taipei #travel poster #vintage | 城市旅行宣传海报、目的地推广、地理标识设计 | 4:5 |
