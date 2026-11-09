@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-266-g72211fc-dirty",
-    "generated": "2026-11-05T10:40:58Z",
-    "total": 349,
+    "version": "v0.7.0-before-opt-267-gf98104f-dirty",
+    "generated": "2026-11-09T16:09:17Z",
+    "total": 350,
     "categories": [
       "brand_kv",
       "creative",
@@ -4401,6 +4401,61 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.thumb.webp",
       "number": "ST000071",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "tiny_repair_crew_poster",
+      "code": "ST0351",
+      "name": "巨物维修部 虚实结合海报",
+      "category": "creative",
+      "tags": [
+        "虚实结合",
+        "手绘",
+        "写实机械",
+        "巨物",
+        "工业设计",
+        "创意海报"
+      ],
+      "triggers": [
+        "巨物维修部",
+        "微型维修工",
+        "手绘机械维修海报",
+        "工业创意海报",
+        "虚实结合维修"
+      ],
+      "scene": "工业创意海报、机械/IP 周边、品牌社媒长图、编辑设计",
+      "ratio": "9:16",
+      "summary": "巨物维修部虚实结合海报，写实机械巨物 × 手绘微缩维修师 + 强透视尺度反差 + 手写标题编辑感。",
+      "features": [
+        "**巨物微缩尺度反差** — 真实机械零件被放大几十倍，维修师缩成微型工人在部件上攀爬测量，强透视近大远小与局部遮挡突出尺度差异",
+        "**工业摄影 × 手绘人物** — 机械主体高度写实摄影质感（金属纹理、磨损细节、厚度、自然光影），人物用黑灰铅笔线稿与少量彩铅上色，真实机械与手绘人物共享一致的空间与光影",
+        "**统一工装的维修师群像** — 4–5 位成年微型维修师，深蓝工装 + 黄色安全帽 + 黄色工具腰包 + 橙色工作手套，动作各不相同且各有明确工作职责",
+        "**极简工业空间与手写标题** — 暖奶油白纸张质感背景，极简工业维修空间，上方留白放自然中文手写主标题，搭配一行小英文旁注",
+        "**冷暖对撞的工业色调** — 钢铁灰、深藏蓝、暖米白为主色，芥末黄与橙色点缀，光线自然且有方向性"
+      ],
+      "prompt": "创作一张「Tiny Repair Crew｜巨物维修部」虚实结合创意海报。\n\n将 {机械物体} 放大几十倍，形成一个微型工业维修现场。机械主体采用高度写实的摄影质感，保留真实结构、金属纹理、磨损细节、厚度和自然光影。\n\n安排 4–5 位成年微型手绘维修师，分别 {人物动作}，统一穿深蓝工装、黄色安全帽、黄色工具腰包和橙色工作手套。采用黑灰铅笔线稿与少量彩铅上色，保持自然修长的成年人比例。\n\n人物正在执行具体的 {维修任务}，通过攀爬、测量、安装、拧紧、检查等动作形成真实协作关系。每个人都有明确工作职责，不要只是站在机械旁边。\n\n背景使用极简工业维修空间，暖奶油白纸张质感，上方留白加入自然中文手写标题 {主文案}，搭配少量英文旁注。\n\n采用强透视、近大远小和局部遮挡，突出巨型机械与微型人物之间的尺度差异。\n\n整体使用 {主色调}，搭配芥末黄和橙色点缀。光线自然、有方向性，真实机械与手绘人物共享一致的空间和光影关系。\n\n最终呈现工业摄影质感 × 手绘维修人物 × 编辑海报设计。\n\n画幅比例 9:16。\n\n避免机械结构错误、塑料 CGI、纯摄影人物、复杂工厂、玻璃透明材质、无意义文字和信息过载。\n",
+      "variables": {
+        "机械物体": "{机械物体}",
+        "维修任务": "{维修任务}",
+        "人物动作": "{人物动作}",
+        "主文案": "{主文案}",
+        "主色调": "{主色调}"
+      },
+      "variable_descs": {
+        "机械物体": "被放大的真实机械零件或设备，如：齿轮组 / 链条 / 弹簧 / 轴承 / 链轮",
+        "维修任务": "具体维修作业内容，如：更换轴承 / 校准齿轮 / 焊接管道 / 拧紧法兰",
+        "人物动作": "维修师各自的工作内容与姿态，如：攀爬机身测量 / 跪姿拧紧螺栓 / 举尺记录数据",
+        "主文案": "画面上方留白处的中文短句，如：把散开的世界重新连接起来",
+        "主色调": "整体主色调，如：钢铁灰 / 深藏蓝 / 暖米白"
+      },
+      "source_url": "https://x.com/MrLarus/status/2119823488999673856",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/tiny_repair_crew_poster_de1fca36.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/tiny_repair_crew_poster_de1fca36.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/tiny_repair_crew_poster_de1fca36.thumb.webp",
+      "number": "ST000351",
+      "created_at": ""
     },
     {
       "id": "textile_craft_pro",

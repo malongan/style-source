@@ -1,4 +1,4 @@
-共 349 个风格
+共 350 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -72,6 +72,7 @@ ST0068 | 超广角鱼眼人像 | https://malongan.github.io/style-source/images/
 ST0069 | 字体设计 | https://malongan.github.io/style-source/images/styles_previews/typography_4acfe941.webp
 ST0070 | 高明度泡泡字潮流视觉 | https://malongan.github.io/style-source/images/styles_previews/trendy_bubble_letter_portrait_686cbd79.webp
 ST0071 | 透明概念海报 | https://malongan.github.io/style-source/images/styles_previews/transparency_concept_poster_df15cb80.webp
+ST0351 | 巨物维修部 虚实结合海报 | https://malongan.github.io/style-source/images/styles_previews/tiny_repair_crew_poster_de1fca36.webp
 ST0072 | 织物手工艺 | https://malongan.github.io/style-source/images/styles_previews/textile_craft_pro_08d2d140.webp
 ST0073 | 撕纸美学 | https://malongan.github.io/style-source/images/styles_previews/tear_paper_bfecd0ba.webp
 ST0074 | 武政谅丝网印刷露营海报 | https://malongan.github.io/style-source/images/styles_previews/takeshi_camping_poster_92097096.webp
