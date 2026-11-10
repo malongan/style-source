@@ -1,4 +1,4 @@
-共 350 个风格
+共 351 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -230,6 +230,7 @@ ST0201 | 天使阶层海报 | https://malongan.github.io/style-source/images/sty
 ST0202 | 英豪纪念碑势场海报 | https://malongan.github.io/style-source/images/styles_previews/heroic_monument_potential_field_poster_8441ac1a.webp
 ST0336 | 非遗油纸财神花灯 | https://malongan.github.io/style-source/images/styles_previews/heritage_caishen_lantern_5912f7ad.webp
 ST0203 | 异类阵列视觉 | https://malongan.github.io/style-source/images/styles_previews/herd_outsider_poster_4755db5f.webp
+ST0352 | 治愈系手绘趣味字标 | https://malongan.github.io/style-source/images/styles_previews/healing_wordmark_logo_9aadb036.webp
 ST0321 | 治愈萌宠贴纸 | https://malongan.github.io/style-source/images/styles_previews/healing_pet_sticker_0f678411.webp
 ST0204 | 汉字意象徽记 | https://malongan.github.io/style-source/images/styles_previews/hanzi_emblem_marks_07f022f3.webp
 ST0205 | 东方汉字文化海报 | https://malongan.github.io/style-source/images/styles_previews/hanzi_cultural_poster_cf4c751a.webp
