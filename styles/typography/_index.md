@@ -19,6 +19,7 @@
 | expressive_handwritten_headline | #handwriting #expressive #casual | 活动 Slogan（见面会/校园/青年活动）/ 品牌手写感标语 / 需要活泼自由氛围的标题设计 | 16:9 |
 | hanzi_cultural_poster | #东方海报 #汉字书法 #文化线描 | 文化品牌视觉、东方艺术海报、艺术展览、文化活动宣传 | 9:16 |
 | hanzi_emblem_marks | #中文排版 #中式极简 #字图融合 | 品牌 logo、茶叶/酒/民宿/文创品牌标志、文化项目视觉 | 1:1 |
+| healing_wordmark_logo | #手绘字标 #治愈系 #Logo设计 | 独立小店/生活方式品牌 Logo 设计、文创与手作品牌标志、品牌视觉提案、字标设计练习 | 1:1 |
 | ink_brush_seal_logotype | #中式品牌字标 #毛笔书法 #浓墨飞白 | 民宿/客栈/茶室/餐饮/文创品牌 LOGO 与招牌、中式品牌视觉提案、字体设计练习 | 3:2 |
 | kawaii_bright_chunky_hand_lettering | #hand-lettering #kawaii #headline | 电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼带手写温度的氛围 | 9:16 |
 | kawaii_bright_hand_lettering_headline | #hand-lettering #kawaii #headline | 电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼氛围的标题设计 | 9:16 |
