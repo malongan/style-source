@@ -1,4 +1,4 @@
-共 353 个风格
+共 354 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -348,6 +348,7 @@ ST0298 | 轴对称纪念碑海报 | https://malongan.github.io/style-source/imag
 ST0299 | 黑白灰先锋海报 | https://malongan.github.io/style-source/images/styles_previews/avantgarde_bw_poster_44361c82.webp
 ST0300 | 先锋抽象字体排版 | https://malongan.github.io/style-source/images/styles_previews/avant_garde_abstract_typography_b6f61f14.webp
 ST0354 | 建筑场地分析图版式 | https://malongan.github.io/style-source/images/styles_previews/architectural_site_analysis_ee7da53f.webp
+ST0355 | Q 版角色动态表情包 GIF | https://malongan.github.io/style-source/images/styles_previews/animated_chat_sticker_gif_5dc76cde.webp
 ST0301 | 琥珀雪松 | https://malongan.github.io/style-source/images/styles_previews/amber_cedar_perfume_poster_50fe800e.webp
 ST0302 | 厚涂朋克娃娃角色插画 | https://malongan.github.io/style-source/images/styles_previews/alternative_character_chibi_aac66d0b.webp
 ST0335 | 女团潮玩手办宣传海报 | https://malongan.github.io/style-source/images/styles_previews/aespa_doll_promo_poster_01497cf6.webp

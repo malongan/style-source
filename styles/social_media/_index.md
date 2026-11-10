@@ -4,6 +4,7 @@
 
 | 风格 | 标签 | 适用场景 | 比例 |
 |------|------|----------|------|
+| animated_chat_sticker_gif | #动态表情包 #聊天GIF #Q版角色 | 社交聊天表情包、群聊互动、评论区配图、公众号与小红书动态配图、IP 角色周边表情 | 1:1 |
 | bold_opinion_quote_poster | #quote poster #portrait #typography | 金融知识账号朋友圈、小红书观点海报、知识博主名言海报 | 3:4 |
 | bubble_card | #潮流 #卡片 #泡泡字 |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | bw_studio_portrait_editorial | #黑白摄影 #杂志人像 #专业摄影 | 社交媒体头像转换、时尚摄影、人像海报、高端品牌KV | 3:4 |
