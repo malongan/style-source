@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-268-ga1289b1-dirty",
-    "generated": "2026-11-10T07:50:31Z",
-    "total": 351,
+    "version": "v0.7.0-before-opt-269-g8ee3374-dirty",
+    "generated": "2026-11-10T08:04:16Z",
+    "total": 352,
     "categories": [
       "brand_kv",
       "creative",
@@ -13518,6 +13518,54 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/gpt2_graphic_collage_HNHdIdYb.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/gpt2_graphic_collage_HNHdIdYb.thumb.webp",
       "number": "ST000212",
+      "created_at": ""
+    },
+    {
+      "id": "gouache_pastel_healing_illustration",
+      "code": "ST0353",
+      "name": "水彩×粉彩 治愈印象插画",
+      "category": "creative",
+      "tags": [
+        "日系插画",
+        "数字印象派",
+        "水彩粉彩",
+        "治愈系",
+        "混合介质",
+        "次表面散射",
+        "晕涂法"
+      ],
+      "triggers": [
+        "日系印象派插画",
+        "水彩粉彩混合介质",
+        "治愈系毛茸茸插画",
+        "次表面散射画法",
+        "晕涂法柔边"
+      ],
+      "scene": "治愈系插画、绘本内页、社交媒体配图、文创周边印刷",
+      "ratio": "3:4",
+      "summary": "日系数字印象派治愈插画，水彩×粉彩混合介质 + 次表面散射通透血色 + 晕涂法柔边 + 低饱和明亮怀旧氛围。",
+      "features": [
+        "**不透明水彩 × 干色粉混合介质** — 模仿 Gouache 与 Pastel 混合介质，画面有明显的粗糙纸纹颗粒感和纵向干画笔触，摆脱 AI 的干净塑料感",
+        "**次表面散射的通透血色** — 高调漫射光，受光面和边缘（脸颊、鼻尖、耳廓）泛着通透的高饱和度橙红色光晕，仿佛内部在发光，充满生命力",
+        "**晕涂法柔化轮廓** — 轮廓边缘使用晕涂法（Sfumato），主体边缘与米白色背景柔和融合，界限模糊朦胧",
+        "**低饱和但明亮的怀旧色调** — 整体色彩低饱和度却明亮，营造如梦似幻、空气感十足的怀旧氛围",
+        "**治愈感日系印象派** — 极具治愈感的日系数字印象派插画，画面毛茸茸暖洋洋，背景干净留白"
+      ],
+      "prompt": "这是一幅极具治愈感的日系数字印象派插画。\n\n画面的主角是 {主题}。\n\n艺术风格模仿了不透明水彩（Gouache）与干色粉（Pastel）的混合介质，画面具有明显的粗糙纸纹颗粒感和纵向的干画笔触。\n\n光影处理采用高调的漫反射，特别强调了主体的“次表面散射”效果——受光面和边缘（如脸颊、鼻尖或耳廓）泛着通透的高饱和度橙红色光晕，仿佛内部在发光，充满生命力。\n\n轮廓边缘使用了晕涂法（Sfumato），主体边缘与米白色的背景柔和地融合在一起，界限模糊朦胧。整体色彩低饱和度但明亮，营造出一种如梦似幻、空气感十足的怀旧氛围。\n\n画幅比例 3:4。\n",
+      "variables": {
+        "主题": "{主题}"
+      },
+      "variable_descs": {
+        "主题": "主体详细描述，如：一只戴着红色围巾的小白猫，正闭着眼睛享受阳光，表情呆萌可爱"
+      },
+      "source_url": "https://x.com/VoxcatAI/status/2010226165416345759",
+      "source_author": "VoxcatAI",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/gouache_pastel_healing_illustration_a067e0c5.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/gouache_pastel_healing_illustration_a067e0c5.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/gouache_pastel_healing_illustration_a067e0c5.thumb.webp",
+      "number": "ST000353",
       "created_at": ""
     },
     {
