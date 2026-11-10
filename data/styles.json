@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-272-gb919fde-dirty",
-    "generated": "2026-11-10T08:55:22Z",
-    "total": 355,
+    "version": "v0.7.0-before-opt-273-g4776478-dirty",
+    "generated": "2026-11-10T09:07:14Z",
+    "total": 356,
     "categories": [
       "brand_kv",
       "creative",
@@ -7797,6 +7797,64 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/photo_half_hand_drawn_poster_0206f844.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/photo_half_hand_drawn_poster_0206f844.thumb.webp",
       "number": "ST000126",
+      "created_at": ""
+    },
+    {
+      "id": "photo_doodle_minimal_ad",
+      "code": "ST0357",
+      "name": "极简实物涂鸦广告海报",
+      "category": "brand_kv",
+      "tags": [
+        "实物涂鸦",
+        "极简广告",
+        "黑白线稿",
+        "写实摄影融合",
+        "视觉隐喻",
+        "Notion风格"
+      ],
+      "triggers": [
+        "极简实物涂鸦海报",
+        "照片涂鸦融合广告",
+        "Notion风格广告",
+        "大物小人海报",
+        "黑白线稿实物广告",
+        "极简品牌主视觉"
+      ],
+      "scene": "品牌广告主视觉、产品营销海报、社交媒体封面、PPT 配图、创意提案视觉",
+      "ratio": "1:1",
+      "summary": "极简实物涂鸦广告海报——纯白底上写实实物与黑色单线小人并置，松弛手绘线条制造大物小人的视觉隐喻，顶部粗体大写标题、底部品牌标识、留白充足、印刷级高反差。",
+      "features": [
+        "**写实实物与黑色线稿并置** — 纯白背景上是一件高清写实摄影实物，保留自身原始颜色与纹理质感，同时被松弛随性的黑色手绘墨水线条覆盖与穿插，形成极高反差的虚实对撞",
+        "**Notion 式极简线稿小人** — 线条为统一粗细的黑色单线勾出的小人，圆头无五官、四肢简化、姿态松弛诙谐，像随手速写在纸上，与写实实物形成大物小人的尺度反差",
+        "**动作即隐喻** — 小人不是站着摆拍，而是在真实操作实物：把披萨当高山攀登、把雨伞当工地搭建、把球鞋当滑梯，动词决定了创意的深度",
+        "**顶部大标题 + 底部标识** — 版面顶部是粗体全大写黑色标题（可配一行中文副标题），底部居中放清晰的方形品牌标识，中部大面积留白",
+        "**印刷级留白排版** — 纯白底、高对比、只让实物保留彩色而线稿纯黑，网格干净、负空间充足，缩略图状态下也能一眼读出主体与标题"
+      ],
+      "prompt": "创作一张极简创意广告海报，纯白背景。\n\n画面主体是一件高清写实的摄影实物：{主体实物}。它保留自身的原始颜色、纹理与摄影级细节，像一件被精心拍摄的产品静物。\n\n这件实物与一幅简单的手绘黑色墨水涂鸦融为一体：涂鸦用松弛、随性、顽皮的黑色单线绘制，画的是{涂鸦动作}。线条粗细统一、圆头无五官、四肢简化，小人散落在实物各处，有的攀爬、有的搬运、有的围观，姿态诙谐自然，与体量庞大的实物形成\"大物小人\"的尺度反差。\n\n涂鸦可以附带一些点缀元素：{涂鸦点缀}\n\n色彩克制：线稿保持纯黑白，只有实物保留自身颜色，不要给线稿上色。\n\n版面布局：\n顶部左侧是粗体全大写黑色标题「{主标题}」，下方紧跟一行中文副标题「{副标题}」。\n中部是主体实物与涂鸦，底部居中放清晰的品牌标识「{品牌标识}」。\n干净的网格、大量留白、负空间充足，高对比、聪明的视觉隐喻、可直接印刷的海报设计。\n\n避免：真实注册商标、水印、乱码文字、彩色线稿、复杂背景、渐变阴影、装饰性元素堆积。\n",
+      "variables": {
+        "主体实物": "{主体实物}",
+        "涂鸦动作": "{涂鸦动作}",
+        "涂鸦点缀": "{涂鸦点缀}",
+        "主标题": "{主标题}",
+        "副标题": "{副标题}",
+        "品牌标识": "{品牌标识}"
+      },
+      "variable_descs": {
+        "主体实物": "写实拍摄的实物，如：一块披萨、一只橙子、一双球鞋、一把雨伞、一把吉他",
+        "涂鸦动作": "小人与实物互动的核心动作，如：小人把披萨当高山攀登、把球鞋当滑梯、把橙子当工厂加工",
+        "涂鸦点缀": "线稿中额外的点缀元素，如：飘动的音符、飞起的火箭、搭建的塔吊与梯子",
+        "主标题": "顶部粗体全大写英文标题，如：SNEAKER CULTURE、PROJECT EMPIRES",
+        "副标题": "标题下的中文短句，如：球鞋文化、项目帝国",
+        "品牌标识": "底部居中的品牌标识，如：方形 N 字母标志加品牌名"
+      },
+      "source_url": "https://x.com/ponyodong/status/2033090838620942676",
+      "source_author": "ponyodong / @azed_ai",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/photo_doodle_minimal_ad_2ed44e93.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/photo_doodle_minimal_ad_2ed44e93.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/photo_doodle_minimal_ad_2ed44e93.thumb.webp",
+      "number": "ST000357",
       "created_at": ""
     },
     {

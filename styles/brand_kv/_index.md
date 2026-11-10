@@ -27,6 +27,7 @@
 | optical_glass_ui_button | #光学玻璃 #3D按钮 #产品级CGI | 品牌KV、产品发布视觉、UI符号实体化、科技品牌提案、官网与发布会主视觉 | 16:9 |
 | oriental_herbal_tea_poster | #oriental #herbal tea #chinese | 茶饮品牌海报、文化宣传、东方美学设计 | 9:16 |
 | perfume_kv | #香水 #香氛 #奢侈 |  | 9:16 |
+| photo_doodle_minimal_ad | #实物涂鸦 #极简广告 #黑白线稿 | 品牌广告主视觉、产品营销海报、社交媒体封面、PPT 配图、创意提案视觉 | 1:1 |
 | pop_up_storybook_poster | #立体书 #纸雕 #故事书 | 品牌KV、电影海报、概念海报、绘本封面 | 3:4 |
 | retro_motorsport_poster | #复古赛车 #赛车海报 #老爷车 | 汽车品牌KV、赛车运动宣传、老爷车文化、品牌联名、复古汽车海报 | 4:5 |
 | street_3d_maximalist | #街潮 #3D #极繁主义 |  | 9:16 |
