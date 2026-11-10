@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-269-g8ee3374-dirty",
-    "generated": "2026-11-10T08:04:16Z",
-    "total": 352,
+    "version": "v0.7.0-before-opt-270-g1b72183-dirty",
+    "generated": "2026-11-10T08:09:36Z",
+    "total": 353,
     "categories": [
       "brand_kv",
       "creative",
@@ -19067,6 +19067,59 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/avant_garde_abstract_typography_b6f61f14.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/avant_garde_abstract_typography_b6f61f14.thumb.webp",
       "number": "ST000300",
+      "created_at": ""
+    },
+    {
+      "id": "architectural_site_analysis",
+      "code": "ST0354",
+      "name": "建筑场地分析图版式",
+      "category": "science",
+      "tags": [
+        "建筑分析图",
+        "场地分析",
+        "轴测分析",
+        "信息设计",
+        "竞赛版式",
+        "流线分析"
+      ],
+      "triggers": [
+        "建筑分析图",
+        "场地分析图",
+        "轴测分析图",
+        "建筑竞赛版式",
+        "流线分析图"
+      ],
+      "scene": "建筑竞赛作品集、场地分析汇报、方案前期分析图、咨询与设计机构提案",
+      "ratio": "3:4",
+      "summary": "建筑场地分析图版式——卫星影像中心主体 + 两侧分析模块 + 极细索引线 + 单一强调色高亮场地的国际竞赛级信息设计。",
+      "features": [
+        "**中央卫星主体 + 两侧分析模块** — 场地卫星俯视影像作为画面中心主体，两侧排列区位、场地高差、交通、周边功能、环境资源等分析模块，每个模块配图示与中英标注",
+        "**极细索引线连接模块** — 用极细线条与箭头系统把主图和模块连成一张整体，索引线细如发丝，不抢主体",
+        "**单一强调色高亮场地** — 黑白灰为主色，只用一个强调色高亮待建场地，并用极细线条标出道路系统、周边建筑、景观要素、交通流线与重要节点",
+        "**国际建筑竞赛版式** — 信息设计排版，模块化分区，标题与标注层级清晰，信息丰富但保持秩序感",
+        "**中英双语极简标注** — 每个分析模块配简洁中英文标注，字体统一，细线小字号，不堆砌无意义文字"
+      ],
+      "prompt": "以{场地概况}的卫星俯视影像为底图，生成一张建筑场地分析图。\n\n整体风格：\n国际建筑竞赛风格、专业建筑分析图、信息设计排版。\n\n画面中心：\n场地卫星俯视影像作为主体。\n{场地标注}区域使用{强调色}高亮标注。\n\n添加：\n道路系统\n周边建筑\n景观要素\n交通流线\n重要节点\n采用极细线条与箭头系统表达。\n\n画面结构：\n中央主体分析图\n两侧布置分析模块：\n{分析重点}\n每个模块配分析图示与简洁中英文标注。\n\n整体采用：\n黑白灰为主色\n{强调色}作为强调色\n极细索引线连接模块\n国际建筑竞赛风格排版。\n信息丰富但保持秩序感。\n建筑分析图专业质感。\n\n画幅比例 3:4。\n\n避免：画面漂亮但没有逻辑、分析元素堆满画面、配色过多、字体不统一。\n",
+      "variables": {
+        "场地概况": "{场地概况}",
+        "场地标注": "{场地标注}",
+        "分析重点": "{分析重点}",
+        "强调色": "{强调色}"
+      },
+      "variable_descs": {
+        "场地概况": "场地与项目描述，如：城郊一块 12000 ㎡ 的坡地，北临主干道，西侧临河",
+        "场地标注": "高亮地块的标注文字，如：SITE / 用地 A / 核心地块",
+        "分析重点": "两侧分析模块清单，如：区位分析、场地高差、交通分析、周边功能、环境资源",
+        "强调色": "高亮与索引线用的单一强调色，如：浅橙色 / 砖红 / 湖蓝"
+      },
+      "source_url": "https://x.com/derek_wall90176/status/2068898295045660810",
+      "source_author": "德里克文",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/architectural_site_analysis_ee7da53f.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/architectural_site_analysis_ee7da53f.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/architectural_site_analysis_ee7da53f.thumb.webp",
+      "number": "ST000354",
       "created_at": ""
     },
     {
