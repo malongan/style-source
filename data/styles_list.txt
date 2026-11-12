@@ -1,4 +1,4 @@
-共 359 个风格
+共 360 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -107,6 +107,7 @@ ST0100 | 科研信息图 | https://malongan.github.io/style-source/images/styles
 ST0101 | 论文插图 | https://malongan.github.io/style-source/images/styles_previews/science_illustration_f86700a2.webp
 ST0102 | 科研杂志封面 | https://malongan.github.io/style-source/images/styles_previews/science_cover_bdeb029e.webp
 ST0103 | 猩红块面手绘描边风格 | https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.webp
+ST0361 | 圆胖手写文艺标题卡 | https://malongan.github.io/style-source/images/styles_previews/rounded_handwriting_title_card_cf7eda86.webp
 ST0104 | 孔版画旅行海报 | https://malongan.github.io/style-source/images/styles_previews/riso_travel_poster_5da39518.webp
 ST0105 | 复古赛车海报 | https://malongan.github.io/style-source/images/styles_previews/retro_motorsport_poster_e6b1b173.webp
 ST0333 | 复古嘻哈风3D插画海报 | https://malongan.github.io/style-source/images/styles_previews/retro_hiphop_3d_poster_0fe8776c.webp
