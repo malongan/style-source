@@ -1,4 +1,4 @@
-共 358 个风格
+共 359 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -219,6 +219,7 @@ ST0306 | 日式烘焙故事海报 | https://malongan.github.io/style-source/imag
 ST0192 | 青玉字形杂货拼贴海报风格 | https://malongan.github.io/style-source/images/styles_previews/jade_glyph_grocer_collage_9b50bb4c.webp
 ST0343 | 等距杯屋吉祥物乐园插画 | https://malongan.github.io/style-source/images/styles_previews/isometric_cup_house_mascot_990d2980.webp
 ST0193 | 精细地理微缩模型景观 | https://malongan.github.io/style-source/images/styles_previews/isometric_country_diorama_f987b38c.webp
+ST0360 | 等距猫咪市井微缩插画 | https://malongan.github.io/style-source/images/styles_previews/isometric_cat_market_diorama_9fecc2c2.webp
 ST0194 | 墨线霓裳·东方高定时装插画 | https://malongan.github.io/style-source/images/styles_previews/inkline_couture_9c26950c.webp
 ST0324 | 水墨淡彩漫画 | https://malongan.github.io/style-source/images/styles_previews/ink_wash_comic_poster_58e62a64.webp
 ST0341 | 浓墨书法红印品牌字标 | https://malongan.github.io/style-source/images/styles_previews/ink_brush_seal_logotype_5bece6b6.webp
