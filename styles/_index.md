@@ -18,10 +18,10 @@
 | 🔬 科研专业 | 7 | 信息图、期刊封面 |
 | 📱 社交媒体 | 38 | 小红书、朋友圈、头像 |
 | ✈️ 旅行城市 | 11 | 旅行海报、城市 |
-| 🖋️ 字体排版 | 22 | 文字为主的标题设计 |
+| 🖋️ 字体排版 | 23 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：359 个风格文件**
+**总计：360 个风格文件**
 
 ---
 
@@ -406,6 +406,7 @@
 | ink_brush_seal_logotype | #中式品牌字标 #毛笔书法 #浓墨飞白 | 民宿/客栈/茶室/餐饮/文创品牌 LOGO 与招牌、中式品牌视觉提案、字体设计练习 | 3:2 |
 | kawaii_bright_chunky_hand_lettering | #hand-lettering #kawaii #headline | 电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼带手写温度的氛围 | 9:16 |
 | kawaii_bright_hand_lettering_headline | #hand-lettering #kawaii #headline | 电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼氛围的标题设计 | 9:16 |
+| rounded_handwriting_title_card | #手写标题 #圆胖笔画 #平面标题设计 | 旅行/文艺内容封面标题卡、社交媒体图标题、专辑与专栏头图、书封与画册标题页、治愈系短标语 | 16:9 |
 | screen_print_offset_headline | #screen-print #offset #hand-printed | 有温度的手作/露营/市集/农场/文艺市集 KV，中文粗重标题，需要复古印刷感 | 16:9 |
 | silver_foil_klein_blue_cover | #锡纸材质 #克莱因蓝 #极简封面 | 教程封面、商业封面、方法论封面、视频封面、文章封面 | 5:2 |
 | wild_cursive_calligraphy_poster | #calligraphy #cursive #wild | 电影海报主标题 / 国风品牌大标题 / 文化活动主视觉 / 神都洛陽类城市品牌宣传 | 4:3 |

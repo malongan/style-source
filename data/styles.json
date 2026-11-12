@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-276-gfb975fd-dirty",
-    "generated": "2026-11-12T02:09:01Z",
-    "total": 359,
+    "version": "v0.7.0-before-opt-277-g18a6970-dirty",
+    "generated": "2026-11-12T02:15:44Z",
+    "total": 360,
     "categories": [
       "brand_kv",
       "creative",
@@ -6468,6 +6468,62 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/scarlet_7a852021.thumb.webp",
       "number": "ST000103",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "rounded_handwriting_title_card",
+      "code": "ST0361",
+      "name": "圆胖手写文艺标题卡",
+      "category": "typography",
+      "tags": [
+        "手写标题",
+        "圆胖笔画",
+        "平面标题设计",
+        "文艺治愈",
+        "极简留白",
+        "英文副行"
+      ],
+      "triggers": [
+        "圆润手写标题",
+        "圆胖手写字体设计",
+        "平面标题卡",
+        "文艺治愈标题字",
+        "黑色手写中文标题",
+        "标题设计排版"
+      ],
+      "scene": "旅行/文艺内容封面标题卡、社交媒体图标题、专辑与专栏头图、书封与画册标题页、治愈系短标语",
+      "ratio": "16:9",
+      "summary": "圆胖手写文艺标题卡——浅灰白纸面上以黑色圆胖端点带球的手写中文大标题为主体，配小号手写英文副行与极少量爱心星芒短线点缀，平面标题设计、留白充足、轻松治愈。",
+      "features": [
+        "**圆胖端点带球的笔画** — 中文标题笔画圆胖饱满、粗细近乎均匀，端点收成一颗小圆球、转折圆滑不露锋，像马克笔一笔写完",
+        "**错落紧凑的字形节奏** — 字的宽窄高低略有起伏、间距紧凑但不粘连，整行像一口气连写下来，有手写的松弛节奏",
+        "**小号手写英文副行** — 标题末尾右下方跟一行更细更随意的小号英文手写，像顺手补的一句注解，与中文标题形成主次层级",
+        "**极少量手绘小装饰** — 标题周围只点缀几枚黑色手绘小符号（爱心、四角星芒、放射短线、小圆点），数量克制、不压住文字",
+        "**浅色纸面与大面积留白** — 浅灰白纯色纸面，无肌理无渐变，标题居于画面中部偏上，四周留白充足，整体安静干净"
+      ],
+      "prompt": "设计一张平面标题卡（标题设计海报），{背景底色} 的纯净纸面，没有肌理、没有渐变、没有边框。\n\n主标题：\n中文标题「{主标题}」是画面唯一的绝对主体，用黑色圆润手写字体绘制：\n笔画圆胖饱满，粗细基本均匀，端点收成一颗小圆球，转折圆滑不露锋；\n字形错落紧凑，宽窄与高低略有起伏，像一口气连写下来的一行；\n每个字清晰可读，笔画完整不粘连、不缺笔。\n\n英文副行：\n在标题末尾的右下方排一行小号英文手写「{英文副行}」，笔触比中文更细更随意，紧贴中文末尾，像顺手补的一句注解。\n\n装饰：\n标题周围只点缀很少的{装饰元素}，统一用黑色手绘线条绘制，数量克制，不压住文字、不喧宾夺主。\n\n页眉落款：\n画面左上角留一小块{页眉署名}，细体、窄字距、字号极小、颜色浅灰，作为设计者落款存在，不抢主体。落款文字要真实可读，不要伪字。\n\n整体气质：\n轻松治愈、文艺旅行感，平面标题设计，干净、留白充足、无多余元素。\n\n避免：渐变、立体阴影与 3D 效果、描边、彩色笔画、多余文字、乱码伪字、水印、边框。\n",
+      "variables": {
+        "主标题": "{主标题}",
+        "英文副行": "{英文副行}",
+        "装饰元素": "{装饰元素}",
+        "背景底色": "{背景底色}",
+        "页眉署名": "{页眉署名}"
+      },
+      "variable_descs": {
+        "主标题": "中文主标题文字，如：风穿过山谷",
+        "英文副行": "小号英文手写副行，如：Wind Through the Valley",
+        "装饰元素": "标题周围的手绘小符号，如：小爱心、四角星芒、放射短线、小圆点",
+        "背景底色": "纸面底色，如：浅灰白、米白、淡奶油",
+        "页眉署名": "左上角设计者落款内容，如：STUDIO NAME 字标 + 2026 春季 + 一行小字说明"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7694152849768418585",
+      "source_author": "AIGC_Iktsuarpok",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/rounded_handwriting_title_card_cf7eda86.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/rounded_handwriting_title_card_cf7eda86.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/rounded_handwriting_title_card_cf7eda86.thumb.webp",
+      "number": "ST000361",
+      "created_at": ""
     },
     {
       "id": "riso_travel_poster",
