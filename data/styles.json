@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-283-g1dd9029-dirty",
-    "generated": "2026-11-12T03:48:31Z",
-    "total": 366,
+    "version": "v0.7.0-before-opt-284-g884c6d3-dirty",
+    "generated": "2026-11-12T04:00:40Z",
+    "total": 367,
     "categories": [
       "brand_kv",
       "creative",
@@ -9374,6 +9374,65 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_editorial_character_5b35b192.thumb.webp",
       "number": "ST000146",
+      "created_at": ""
+    },
+    {
+      "id": "monochrome_daily_doodle_grid",
+      "code": "ST0368",
+      "name": "黑白简笔日常分格小画",
+      "category": "creative",
+      "tags": [
+        "黑白简笔",
+        "分格小画",
+        "治愈日常",
+        "圆头小动物",
+        "手写英文配文",
+        "大留白"
+      ],
+      "triggers": [
+        "黑白简笔小画",
+        "日常分格简笔画",
+        "治愈系简笔画组图",
+        "圆头兔子涂鸦",
+        "12格日常插画",
+        "手账简笔素材"
+      ],
+      "scene": "手账与日记素材页、社媒治愈组图、表情包草图集、文创贴纸与印章图稿、儿童绘本内页",
+      "ratio": "3:4",
+      "summary": "黑白简笔日常分格小画——3 列 4 行共 12 幅互不相连的独立小画，圆头长耳小动物用粗细不匀的黑色单线勾出日常片段，少量手写英文短句与爱心 Zzz 小符号点缀，纯白大留白、轻松治愈。",
+      "features": [
+        "**三列四行的独立小画网格** — 整张图由 12 幅互不相连的小画按 3 列 4 行排布，每幅是一个独立的日常片段，格与格之间没有边框和分隔线，全靠留白分开",
+        "**圆头小动物的极简造型** — 主角是圆脑袋、两只长耳的简笔小动物，圆点眼、小三角嘴、短手短脚，身体只用一条连续轮廓勾出，没有毛发和五官细节",
+        "**粗细不匀的黑色单线** — 全画只有黑线，线条圆头、粗细略有变化、带一点手绘抖动，物体内部不填充不排线，只靠轮廓读形状",
+        "**少量手写英文短句** — 部分小画上方或旁边配一句手写体英文短句，字大、笔画圆润、拼写正确可读，其中一句放在圆角对话气泡里",
+        "**极简道具与手绘小符号** — 每格只保留能说明动作的两三件道具（锅、碗、杯子、床、伞、书、沙发），配爱心、Zzz、放射短线、小圆点等简笔符号",
+        "**大量留白与治愈节奏** — 纯白纸面、画面整体通透，12 格之间留白充足，动作轻缓，形成轻松治愈的生活日记感"
+      ],
+      "prompt": "创作一张 3:4 竖版的黑白简笔画组图，轻松治愈的生活日记感。\n\n版式：\n整张图由 12 幅互不相连的小画组成，按 3 列 4 行排布，格与格之间不画边框、不画分隔线，只靠{背景底色}上的大量留白分开。\n每幅小画是一个独立完整的日常片段，不把多幅画连成一个连贯场景。\n\n主角：\n每格出现{主角动物}：圆圆的大脑袋、两只长耳、圆点眼睛、小三角嘴、短短的手脚，身体用一条连续的轮廓勾出，不画毛发、不画复杂五官。\n\n画法：\n全画只用黑色单线，线条圆头、粗细略有变化、带一点手绘的轻微抖动；物体内部不填充、不排线，只靠轮廓读形状，最多在腮红与格纹处点极少量浅灰。\n每格只保留能说明动作的两三件道具：{生活道具}。\n用极少的简笔小符号烘托情绪：{点缀符号}。\n\n场景：\n12 格分别表现{场景清单}，彼此不重复，动作轻缓、姿态可爱。\n\n配文：\n只在其中几格的上方或旁边写一句{配文清单}，手写体、字较大、笔画圆润，英文拼写必须正确清晰可读；\n其中一句放进圆角对话气泡里。其余格子不配文字。\n不要加标题、编号、页码、版权行，也不要出现伪字。\n\n整体：\n{背景底色}，通透、干净、留白充足，12 格大小与间距大致均衡，像一页手账简笔素材。\n\n避免：任何彩色、渐变、阴影与 3D 渲染、写实照片质感、粗黑填色块、边框与网格线、乱码伪字、真实品牌 Logo、水印。\n",
+      "variables": {
+        "主角动物": "{主角动物}",
+        "场景清单": "{场景清单}",
+        "生活道具": "{生活道具}",
+        "点缀符号": "{点缀符号}",
+        "配文清单": "{配文清单}",
+        "背景底色": "{背景底色}"
+      },
+      "variable_descs": {
+        "主角动物": "每格出现的简笔小动物，如：圆头长耳小兔、小熊、小猫",
+        "场景清单": "12 个日常片段，用顿号分隔，如：厨房做饭、独自吃饭、三两好友碰杯、起床问早、赖床睡觉、泡澡、窗边看风景、雨中撑伞、林间散步、沙发看书、跳跃玩耍",
+        "生活道具": "画面里的极简道具，如：锅与碗、马克杯、床与被子、雨伞、书本、沙发",
+        "点缀符号": "烘托情绪的简笔小符号，如：爱心、Zzz、放射短线、小圆点、气泡",
+        "配文清单": "几格上的手写英文短句，用顿号分隔，如：Eat with me.、Your friends.、Good morning.、Zzz、jump jump",
+        "背景底色": "纸面底色，如：纯白、米白、极浅暖白"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7664549933051039022",
+      "source_author": "大番茄🍃",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/monochrome_daily_doodle_grid_c3e98420.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_daily_doodle_grid_c3e98420.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_daily_doodle_grid_c3e98420.thumb.webp",
+      "number": "ST000368",
       "created_at": ""
     },
     {
