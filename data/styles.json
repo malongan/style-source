@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-280-g41a2fbc-dirty",
-    "generated": "2026-11-12T02:54:16Z",
-    "total": 363,
+    "version": "v0.7.0-before-opt-281-g31e0284-dirty",
+    "generated": "2026-11-12T03:06:50Z",
+    "total": 364,
     "categories": [
       "brand_kv",
       "creative",
@@ -18580,6 +18580,67 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_rounded_offset_headline_76a90fd6.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_rounded_offset_headline_76a90fd6.thumb.webp",
       "number": "ST000337",
+      "created_at": ""
+    },
+    {
+      "id": "bold_outline_flat_vector_poster",
+      "code": "ST0365",
+      "name": "粗描边扁平矢量活动海报",
+      "category": "social_media",
+      "tags": [
+        "扁平矢量",
+        "粗黑描边",
+        "纯色块填充",
+        "抽象符号化人物",
+        "中心分层构图",
+        "社交活动海报"
+      ],
+      "triggers": [
+        "粗描边扁平插画",
+        "扁平矢量活动海报",
+        "潮流扁平插画",
+        "抽象符号化人物海报",
+        "高饱和绿系海报",
+        "春日骑行海报"
+      ],
+      "scene": "品牌活动主视觉、社交平台活动海报、运动与户外主题招募图、节气营销视觉、社群裂变封面",
+      "ratio": "16:9",
+      "summary": "粗描边扁平矢量活动海报——粗细均匀的粗黑描边加纯色块，抽象符号化的前倾人物穿行在放大的花朵叶片间，顶部大黑体中文标题与几何小装饰、底部横向信息色带，高饱和黄绿配色、中心分层构图。",
+      "features": [
+        "**粗黑描边加纯色块** — 所有形体用粗细均匀的粗黑线勾边，内部填纯色块，无渐变无阴影无立体感，边界干净锐利",
+        "**抽象符号化的人物与植物** — 人物被概括成几块几何色面，花朵与叶片放大成圆润的符号形，白花配亮色花心，不追求写实结构",
+        "**中心主体与分层版式** — 主体人物居画面正中且大幅前倾，配几道水平速度线；顶部大标题、中部插画、底部信息色带三段分层，视觉平衡",
+        "**顶部大字与几何小装饰** — 顶部是方正有力的大号黑色粗体中文标题，四周散落实心方块、圆点与细线勾勒的置物架瓶罐，右上角一枚胶囊形小字标",
+        "**底部横向信息色带** — 画面最下方压一条整幅横向色带，带内一行活动信息用小号黑字，两端各一段短横线收尾",
+        "**高饱和明快配色** — 荧光黄绿、深绿、纯白、纯黑加少量肤色，高对比亮色系，整体轻快有春日活力"
+      ],
+      "prompt": "创作一张 16:9 横版扁平矢量插画海报。\n\n整体语言：\n潮流扁平插画美学，粗细均匀的粗黑描边、纯色块填充，无渐变、无阴影、无立体感；\n人物与植物都做抽象符号化处理，形状简洁、边缘干净利落；\n色彩明快高饱和，{主题色}；版式为中心构图 + 顶部 / 中部 / 底部三段分层。\n\n顶部：\n画面顶部是显著的大号黑色粗体中文标题「{主标题}」，字形方正有力、字距紧凑。\n标题两侧散落{几何装饰}：实心方块、圆形小点，以及一组细黑线勾勒的置物架与瓶罐线稿。\n右上角放一枚圆角胶囊形小字标，写「{品牌字标}」。\n\n中部：\n画面中央是{主体人物}，身体大幅前倾，四肢用几块几何色面概括，配几道水平速度线强化流动感。\n人物穿行在{环境元素}之间——放大的花朵与叶片呈圆润的抽象符号形，白花配亮色花心，深色与亮色叶片交叠，铺满画面下半部与两侧。\n\n底部：\n画面最下方压一条整幅横向色带，色带上排一行活动信息「{活动信息}」，黑色中等字号，两端各有一小段短横线收尾。\n\n整体：\n视觉平衡，元素大小与色彩搭配和谐，轻松愉快、有活力。\n\n避免：渐变、立体阴影与 3D 渲染、写实照片质感、真实品牌 Logo、水印、乱码文字。\n",
+      "variables": {
+        "主标题": "{主标题}",
+        "活动信息": "{活动信息}",
+        "主体人物": "{主体人物}",
+        "环境元素": "{环境元素}",
+        "主题色": "{主题色}",
+        "几何装饰": "{几何装饰}",
+        "品牌字标": "{品牌字标}"
+      },
+      "variable_descs": {
+        "主标题": "顶部大号粗黑体中文标题，如：春日骑行计划",
+        "活动信息": "底部色带上的一行活动文案，如：一起奔赴花海 | 周末骑行局",
+        "主体人物": "中央的抽象符号化人物，如：身体前倾骑行的骑车人",
+        "环境元素": "主体周围的花草植物，如：放大的白色花朵与深绿叶丛",
+        "主题色": "整体配色，如：荧光黄绿 + 深绿 + 纯白 + 纯黑 + 少量肤色",
+        "几何装饰": "标题周围的几何小元素，如：实心方块、圆点、细线置物架与瓶罐",
+        "品牌字标": "右上角胶囊形小字标内容，如：虚构工作室名或小活动代号"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7667749774875004187",
+      "source_author": "AI李博士aidrlicom",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/bold_outline_flat_vector_poster_f37562d2.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/bold_outline_flat_vector_poster_f37562d2.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/bold_outline_flat_vector_poster_f37562d2.thumb.webp",
+      "number": "ST000365",
       "created_at": ""
     },
     {
