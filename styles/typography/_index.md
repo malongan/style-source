@@ -23,6 +23,7 @@
 | ink_brush_seal_logotype | #中式品牌字标 #毛笔书法 #浓墨飞白 | 民宿/客栈/茶室/餐饮/文创品牌 LOGO 与招牌、中式品牌视觉提案、字体设计练习 | 3:2 |
 | kawaii_bright_chunky_hand_lettering | #hand-lettering #kawaii #headline | 电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼带手写温度的氛围 | 9:16 |
 | kawaii_bright_hand_lettering_headline | #hand-lettering #kawaii #headline | 电商 KV 主标题、IP 海报/活动主视觉标题字、需要可爱治愈明亮活泼氛围的标题设计 | 9:16 |
+| naive_brush_handwriting_poster | #童趣手写 #粗笔触 #中式艺术海报 | 市集与活动海报主标题、文艺短标语海报、社交媒体横版封面标题、书封与专栏头图、艺术展陈标题墙 | 16:9 |
 | rounded_handwriting_title_card | #手写标题 #圆胖笔画 #平面标题设计 | 旅行/文艺内容封面标题卡、社交媒体图标题、专辑与专栏头图、书封与画册标题页、治愈系短标语 | 16:9 |
 | screen_print_offset_headline | #screen-print #offset #hand-printed | 有温度的手作/露营/市集/农场/文艺市集 KV，中文粗重标题，需要复古印刷感 | 16:9 |
 | silver_foil_klein_blue_cover | #锡纸材质 #克莱因蓝 #极简封面 | 教程封面、商业封面、方法论封面、视频封面、文章封面 | 5:2 |
