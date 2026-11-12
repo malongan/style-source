@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-277-g18a6970-dirty",
-    "generated": "2026-11-12T02:15:44Z",
-    "total": 360,
+    "version": "v0.7.0-before-opt-278-g969d447-dirty",
+    "generated": "2026-11-12T02:30:05Z",
+    "total": 361,
     "categories": [
       "brand_kv",
       "creative",
@@ -9057,6 +9057,60 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/naive_doodle_cat_character_e3bfda16.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/naive_doodle_cat_character_e3bfda16.thumb.webp",
       "number": "ST000142",
+      "created_at": ""
+    },
+    {
+      "id": "naive_brush_handwriting_poster",
+      "code": "ST0362",
+      "name": "拙笔童趣手写海报",
+      "category": "typography",
+      "tags": [
+        "童趣手写",
+        "粗笔触",
+        "中式艺术海报",
+        "大留白",
+        "米白磨砂纸",
+        "纯字体排版"
+      ],
+      "triggers": [
+        "拙笔手写海报",
+        "童趣中文标题字",
+        "粗笔触手写艺术字",
+        "中式艺术字体海报",
+        "儿童手写风格标题",
+        "不规则手写排版"
+      ],
+      "scene": "市集与活动海报主标题、文艺短标语海报、社交媒体横版封面标题、书封与专栏头图、艺术展陈标题墙",
+      "ratio": "16:9",
+      "summary": "拙笔童趣手写海报——米白磨砂纸上的黑色粗笔触中文大标题，笔画粗重不流畅、字形大小错落东倒西歪、部分笔画夸张伸出画外，下方一行同笔法英文手写，中式艺术海报排版、大量留白。",
+      "features": [
+        "**粗重不流畅的笔触** — 笔画粗重、运笔不流畅，像三岁小孩随手写下，边缘不规则带毛刺与干笔痕，没有书法家的精准",
+        "**极端的大小与错落对比** — 字与字之间大小悬殊、宽窄不一、位置东倒西歪，间距紧凑却不粘连，整行有强烈的节奏起伏",
+        "**夸张伸缩的笔画** — 有粗有细、长短对比强烈，部分笔画被拉得极长并弯钩收尾，末端甚至冲出画面之外，形成强烈的视觉张力",
+        "**米白磨砂纸底与大留白** — 米白色纸面带细腻磨砂纤维质感，无渐变无边框，标题居中横排一行，四周留出大面积空白",
+        "**中式艺术海报的纯字体排版** — 中文大标题横排一行居中，下方跟一行小号同笔法英文手写，画面干净无插画、无装饰元素"
+      ],
+      "prompt": "设计一张纯字体的中文手写海报。\n\n纸面：\n{背景底色} 的纸面，带{纸张质感}；没有渐变、没有边框、没有任何插画元素，四周保持大留白。\n\n主标题：\n中文标题「{主标题}」横向一行排在画面中部，用黑色粗笔触手写艺术字绘制：\n笔画粗重、运笔不流畅，像三岁小孩随手写下的字，边缘不规则、带毛刺和干笔痕；\n字形东倒西歪、大小错落、宽窄不一，排布紧凑但不粘连，字与字之间大小对比非常强烈；\n有粗有细，笔画长短对比强烈，部分笔画被夸张地拉长、末端弯钩，甚至伸出画面之外；\n整体笨拙、俏皮、有张力，像一件现代艺术作品。\n\n英文副行：\n主标题下方居中排一行小号英文手写「{英文副行}」，与中文用的是同一支手写字，只是更小、更随意。\n\n整体：\n中式艺术海报排版，视觉冲击强，画面干净、无多余元素。\n\n避免：渐变、阴影与 3D 效果、描边、彩色笔画、插画与装饰元素、额外文字、乱码伪字、水印。\n",
+      "variables": {
+        "主标题": "{主标题}",
+        "英文副行": "{英文副行}",
+        "背景底色": "{背景底色}",
+        "纸张质感": "{纸张质感}"
+      },
+      "variable_descs": {
+        "主标题": "中文主标题文字，如：夏日市集",
+        "英文副行": "下方小号英文手写副行，如：Summer market",
+        "背景底色": "纸面底色，如：米白、宣纸白、浅灰白",
+        "纸张质感": "纸面质感，如：细腻磨砂质地、宣纸纤维、微颗粒纸纹"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7697132204484431128",
+      "source_author": "白兔喵喵",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/naive_brush_handwriting_poster_4f00a1c3.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/naive_brush_handwriting_poster_4f00a1c3.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/naive_brush_handwriting_poster_4f00a1c3.thumb.webp",
+      "number": "ST000362",
       "created_at": ""
     },
     {
