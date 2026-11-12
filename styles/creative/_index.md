@@ -54,6 +54,7 @@
 | miniature_diorama_poster | #微缩模型 #等距视角 #纸上景观 | 品牌KV、概念海报、艺术摄影展览、生活方式品牌主图、社交媒体图文 | 3:4 |
 | minimalist_hand_drawn_card | #手绘插画 #极简 #单线条 | 婚礼请柬封面、订婚纪念卡、社交平台婚礼预告、电子邀请函首图 | 9:10 竖版 |
 | mixed_media_manga_editorial_portrait | #mixed-media #manga collage #editorial portrait | 杂志编辑大片、品牌KV、社媒创意人像、概念海报 | 2:3 |
+| moebius_maximalist_temple_mural | #莫比乌斯 #极繁主义 #神殿壁画 | 神话史诗插画、游戏世界观概念图、专辑封面、神殿主题海报、CG 动画宣传图 | 9:16 |
 | moebius_underwater_coral_postoffice | #莫比乌斯 #极繁主义 #海底邮局 |  | 9:16（竖版）/ 16:9（横版） |
 | monochrome_biro_sketch_red_field | #圆珠笔 #交叉排线 #黑白红 | 品牌KV、实验海报、编辑图形、概念封面 | 9:16 |
 | monochrome_editorial_character | #黑白插画 #极简 #角色设计 | 网络漫画角色、生活方式品牌插画、编辑杂志配图、角色设计展示 | 4:5 |
