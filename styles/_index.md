@@ -9,7 +9,7 @@
 | 分类 | 风格数 | 说明 |
 |------|--------|------|
 | 🎨 品牌视觉 | 30 | 品牌KV、公益态度 |
-| 🎪 创意特殊 | 92 | 融合、复古、手绘 |
+| 🎪 创意特殊 | 93 | 融合、复古、手绘 |
 | 🛒 电商 | 30 | 产品主图、海报、美食 |
 | 📰 编辑排版 | 40 | 杂志封面、海报排版、编辑设计、字体实验 |
 | 👔 时尚美容 | 10 | 时尚大片、美妆 |
@@ -21,7 +21,7 @@
 | 🖋️ 字体排版 | 24 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：364 个风格文件**
+**总计：365 个风格文件**
 
 ---
 
@@ -124,6 +124,7 @@
 | moebius_underwater_coral_postoffice | #莫比乌斯 #极繁主义 #海底邮局 |  | 9:16（竖版）/ 16:9（横版） |
 | monochrome_biro_sketch_red_field | #圆珠笔 #交叉排线 #黑白红 | 品牌KV、实验海报、编辑图形、概念封面 | 9:16 |
 | monochrome_editorial_character | #黑白插画 #极简 #角色设计 | 网络漫画角色、生活方式品牌插画、编辑杂志配图、角色设计展示 | 4:5 |
+| monochrome_silkscreen_botanical | #极简平面海报 #单色丝网印刷 #实心剪影 | 食材与植物主题海报、市集与农产品视觉、独立出版物封面、文创包装、日系极简装饰画 | 3:4 |
 | monumental_bas_relief_brand_narrative | #bas-relief #monumental #brand_narrative | 品牌KV主视觉、城市更新展览、博物馆级传播物、品牌历史叙事、收藏级平面设计 | 9:16 |
 | morra_table_parfait_poster | #品牌海报 #早餐编辑 #食品广告 | 食品品牌KV、咖啡馆菜单、早餐主题海报、Instagram社媒图文 | 3:4 |
 | museum_dramatic_lighting_portrait | #博物馆人像 #戏剧光影 #电影感 | 暗调人物肖像、博物馆/展览主题视觉、独立电影海报、文艺品牌KV | 9:16 |
