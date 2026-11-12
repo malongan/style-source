@@ -9,6 +9,7 @@
 | black_white_typographic_portrait | #黑白 #字体海报 #编辑海报 |  | 4:5 |
 | blue_white_line_arc_poster | #概念海报 #极简设计 #线条结构 | 品牌KV、概念海报、文化展览海报、视觉实验海报、科技发布会海报 | 3:4 |
 | blueprint_editorial_sketch | #蓝图美学 #时尚素描 #数字绘画 | 时尚大片、人像艺术、数字插画、混合媒介设计、概念艺术 | 9:16 |
+| campus_colored_lineart_poster | #彩色线稿 #建筑插画 #几何构成 | 高校宣传与校庆视觉、建筑与机构纪念插画、城市文化读本内页、录取通知书与文创、档案式图鉴 | 3:4 |
 | cartoon_3d_tv_icon | #3D卡通 #图标 #Q版 |  | 16:9 |
 | character_design_archive | #角色设计 #概念设定 #蓝图美学 | 角色设计、游戏概念、动画设定、时尚设计、产品造型 | 3:4 |
 | charcoal_sketch | #炭笔素描 #炭画 #素描 | 人物肖像、艺术创作、插画、文学配图、展览海报 | 3:4 |
