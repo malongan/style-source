@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-281-g31e0284-dirty",
-    "generated": "2026-11-12T03:06:50Z",
-    "total": 364,
+    "version": "v0.7.0-before-opt-282-gb8cf2d0-dirty",
+    "generated": "2026-11-12T03:37:06Z",
+    "total": 365,
     "categories": [
       "brand_kv",
       "creative",
@@ -9265,6 +9265,64 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monumental_bas_relief_brand_narrative_795346db.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monumental_bas_relief_brand_narrative_795346db.thumb.webp",
       "number": "ST000145",
+      "created_at": ""
+    },
+    {
+      "id": "monochrome_silkscreen_botanical",
+      "code": "ST0366",
+      "name": "单色丝网植物剪影海报",
+      "category": "creative",
+      "tags": [
+        "极简平面海报",
+        "单色丝网印刷",
+        "实心剪影",
+        "负形镂白",
+        "日系克制",
+        "复古印刷颗粒"
+      ],
+      "triggers": [
+        "单色丝网植物海报",
+        "剪影负形插画",
+        "极简平面白菜海报",
+        "日系克制印刷海报",
+        "丝网颗粒插画",
+        "镂白叶脉海报"
+      ],
+      "scene": "食材与植物主题海报、市集与农产品视觉、独立出版物封面、文创包装、日系极简装饰画",
+      "ratio": "3:4",
+      "summary": "单色丝网植物剪影海报——米白纸上单色实心剪影放大的植物主体，内部结构全靠负形镂白线条表达，丝网颗粒与漏白点带出复古印刷感，大面积留白、日系克制美学。",
+      "features": [
+        "**单色实心剪影** — 主体只用一种颜色平涂成实心块面，不勾外轮廓线，靠形体本身的外缘起伏建立识别度",
+        "**负形镂白表达结构** — 内部叶脉、茎与层叠关系全部在深色块面上镂出白色线条，白线粗细不均、末端收尖，不加描边也不加高光",
+        "**丝网印刷颗粒与漏白** — 纸面带细腻印刷颗粒与轻微纸纤维，色块内部散布细小漏白点、油墨不匀，边缘轻微断墨",
+        "**主体放大居中、大面积留白** — 一件主体几乎占满画面高度并居中，四周是完整的米白留白，画面里只有主体与角落两枚小印章",
+        "**角落小印章落款** — 左上角一枚竖向小长条印章、左下角一枚方形小印章配一行极小落款，与主体同色、只作落款纹理"
+      ],
+      "prompt": "创作一张 3:4 竖版极简平面海报，单色丝网印刷风格。\n\n纸面：\n{纸底色}，带细腻的丝网印刷颗粒与轻微纸张纤维，纯色、无渐变、无阴影。\n\n主体：\n画面中央是一件{主体物}的正面剪影，几乎占满画面高度，居中，四周留白。\n形体只用{印色}一种颜色平涂成实心块面，不勾外轮廓线，边缘略带手绘的不规则起伏与印痕毛边。\n内部结构全部用{负形细节}表达：在深色块面上镂出白色的叶脉、茎与层叠关系，白线粗细不均、末端收尖，靠负形把形体读清楚，不额外加线描或高光。\n\n印刷肌理：\n{印刷肌理}——色块内部散布细小漏白点与油墨不匀，边缘有轻微断墨，整体像手工丝网印在纸上。\n\n角落：\n{角落印章}——左上角一枚竖向小长条印章，左下角一枚方形小印章配一行极小落款；印章与主体同色、字号极小，只作落款纹理，文字必须真实可读，不要伪字。\n\n整体：\n日系克制的极简美学，画面里只有主体与两枚小印章，其余大面积留白，安静、干净、复古。\n\n避免：渐变、立体阴影与 3D 渲染、写实照片、多色套印、大标题与海报排版文字、真实品牌 Logo、水印、乱码伪字。\n",
+      "variables": {
+        "主体物": "{主体物}",
+        "印色": "{印色}",
+        "纸底色": "{纸底色}",
+        "负形细节": "{负形细节}",
+        "印刷肌理": "{印刷肌理}",
+        "角落印章": "{角落印章}"
+      },
+      "variable_descs": {
+        "主体物": "放大的植物或食材，如：新鲜白菜、萝卜、莲藕、一片大叶",
+        "印色": "唯一的印刷色，如：深绿、墨黑、靛蓝、朱红",
+        "纸底色": "纸面底色，如：米白、纯白、浅灰白",
+        "负形细节": "镂白表现的内部结构，如：粗白叶脉与层叠叶柄、白色筋络",
+        "印刷肌理": "印刷颗粒特征，如：细密漏白点与油墨不匀、斑驳飞白",
+        "角落印章": "两枚小印章与落款的内容，如：虚构二字斋号 + 一行极小署名"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7662486805542997298",
+      "source_author": "好运连连🍀🍀",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/monochrome_silkscreen_botanical_3beef74a.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/monochrome_silkscreen_botanical_3beef74a.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/monochrome_silkscreen_botanical_3beef74a.thumb.webp",
+      "number": "ST000366",
       "created_at": ""
     },
     {
