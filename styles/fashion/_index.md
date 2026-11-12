@@ -11,5 +11,6 @@
 | fashion_campaign_typography | #时尚 #campaign #排版 |  | 9:16 |
 | fashion_habitat_blueprint | #时尚 #蓝图 #建筑结构 | 品牌KV、时尚大片、设计师系列海报、高端产品手册 | 3:4 |
 | mixed_media_fashion_editorial | #mixed-media #fashion-editorial #high-contrast | 品牌时尚KV、社媒时尚大片、杂志封面、时装设计概念海报 | 3:4 |
+| oversized_letter_fashion_cover | #时尚杂志封面 #大字刊头 #巨型字母 | 时尚杂志封面、品牌季度视觉、社交媒体竖版封面、时尚campaign主视觉、编辑提案首页 | 9:16 |
 | streetwear_shopping_bag | #街头服饰 #购物袋视角 #奢侈品牌 | 时尚广告、社交媒体推广、品牌KV、街头服饰宣传 | 9:16 |
 | surreal_fashion_runway | #surreal #fashion #runway | 时尚编辑摄影、人像海报、品牌 runway 视觉、时尚摄影作品集 | 4:5 |

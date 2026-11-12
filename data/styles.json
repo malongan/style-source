@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-273-g4776478-dirty",
-    "generated": "2026-11-10T09:07:14Z",
-    "total": 356,
+    "version": "v0.7.0-before-opt-274-gdb0d5ab-dirty",
+    "generated": "2026-11-12T01:34:17Z",
+    "total": 357,
     "categories": [
       "brand_kv",
       "creative",
@@ -8137,6 +8137,72 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.thumb.webp",
       "number": "ST000131",
+      "created_at": ""
+    },
+    {
+      "id": "oversized_letter_fashion_cover",
+      "code": "ST0358",
+      "name": "大字刊头时尚杂志封面",
+      "category": "fashion",
+      "tags": [
+        "时尚杂志封面",
+        "大字刊头",
+        "巨型字母",
+        "影棚硬光",
+        "低机位前景",
+        "editorial封面"
+      ],
+      "triggers": [
+        "时尚杂志封面",
+        "大字刊头封面",
+        "巨型字母封面",
+        "低机位时尚大片",
+        "影棚硬光封面",
+        "editorial杂志封面"
+      ],
+      "scene": "时尚杂志封面、品牌季度视觉、社交媒体竖版封面、时尚campaign主视觉、编辑提案首页",
+      "ratio": "9:16",
+      "summary": "大字刊头时尚杂志封面——顶部黑色高对比衬线刊头 + 嵌进构图的巨型字母 + 低机位前景透视的影棚硬光时尚大片，封面文案克制成组。",
+      "features": [
+        "**横贯顶部的大号刊头** — 黑色高对比衬线体刊头横跨画面顶部，字形厚重锐利、字距紧凑，一眼确立杂志身份",
+        "**巨型字母嵌入构图** — 一个超大字母被放大到画面中央并与人物、家具、鞋履产生干净的前后穿插遮挡，字母本身仍完整可辨，人物面部不被遮住",
+        "**低机位前景透视** — 相机压低贴近地面，一只鞋刻意逼近镜头形成强烈的前景透视，脸部保持清晰，姿态在物理上成立，双腿连接正确",
+        "**影棚硬光与真实质感** — 直射影棚闪光加明确硬阴影，保留细微摄影颗粒、真实皮肤纹理、发丝与织物细节，皮革与金属有真实反射",
+        "**封面文案克制成组** — 只保留刊头、副标题与一组极简封面文案（如 FASHION / CULTURE / FORM），刊期信息小字压角，不堆砌文字"
+      ],
+      "prompt": "创作一张 9:16 竖版时尚编辑杂志封面，一次只出一张，不要拼贴。\n\n刊头：\n画面顶部横贯一条大型黑色高对比衬线体刊头「{刊头名}」，字形厚重锐利、字距紧凑。\n\n巨型字母：\n一个巨大的字母「{巨型字母}」被放大到画面中央，与模特、家具、鞋履之间形成干净的前后穿插与重叠。\n字母必须依然清晰可辨，模特的脸不能被字母遮挡。\n\n模特与摄影：\n一位成年的东亚时尚模特，神态自信，表情自然；皮肤保留真实纹理，头发写实，解剖结构可信。\n使用直射影棚闪光，阴影明确有形，带细微摄影颗粒；衣料细节丰富，皮革与金属有真实反射。\n\n机位与姿态：\n低机位拍摄，刻意制造前景透视：{姿态动作}\n让一只鞋更靠近镜头，同时保持脸部清晰，姿态在物理上成立，两条腿连接正确。\n双手自然垂在身体两侧或搭在家具上，不要伸向镜头。\n\n视觉方向：\n{视觉方向}\n在此方向下，服装为{服装搭配}，影棚背景为{背景色}。\n\n文字：\n主标题「{主标题}」与副标题「{封面副标题}」清晰可读。\n辅助文案保持极少，只写「{封面文案}」。\n刊期信息「{刊期信息}」以小字压在一角。\n\n整体：\n四个方向各自拥有自己的姿态、配色、材质与字体排印，但共享同一套杂志身份。\n保持真实关节、正确的手脚、准确的鞋履，以及与地面或家具的可信接触。\n\n避免：多余肢体、双腿粘连、鞋子变形、塑料皮肤、字形不可读、虚构条码、虚构刊期日期与期号、无关 Logo。\n",
+      "variables": {
+        "刊头名": "{刊头名}",
+        "巨型字母": "{巨型字母}",
+        "视觉方向": "{视觉方向}",
+        "服装搭配": "{服装搭配}",
+        "姿态动作": "{姿态动作}",
+        "背景色": "{背景色}",
+        "主标题": "{主标题}",
+        "封面副标题": "{封面副标题}",
+        "封面文案": "{封面文案}",
+        "刊期信息": "{刊期信息}"
+      },
+      "variable_descs": {
+        "刊头名": "顶部刊头文字，如：FORME、ATELIER、VOGUE 替代名",
+        "巨型字母": "嵌入构图的超大字母，如：P / O / H / C",
+        "视觉方向": "方向预设，四选一。PULSE 动感：珊瑚粉背景、覆盆子红运动夹克配奶白针织与粉蓝百褶裙、天蓝巨型 P、黑体封面文案。THROUGH 穿行：蜜桃背景、祖母绿西装配象牙白衬衫短裤、象牙白巨型 O 圆环、黑衬线封面文案。HALO 姿态：烟紫背景、珍珠银束腰迷你大衣配黑高领、淡粉巨型 H、克制的编辑排版。CHIC 主张：暖象牙背景、开心果绿短夹克配象牙丝质衬衫与芥末黄 A 字裙、蜜桃巨型 C、精致黑封面文案",
+        "服装搭配": "服装与鞋履，如：珊瑚粉运动鞋配奶油色堆堆袜",
+        "姿态动作": "姿态与前景动作，如：向前迈步并抬起一只鞋靠近镜头",
+        "背景色": "影棚背景色，如：珊瑚粉、蜜桃色、烟紫、暖象牙",
+        "主标题": "封面主标题，如：PULSE、IN MOTION",
+        "封面副标题": "主标题下的副标题，如：SUMMER 2024",
+        "封面文案": "极简封面文案，如：FASHION / CULTURE / FORM",
+        "刊期信息": "角落小字刊期，如：ISSUE 07 / N° 045"
+      },
+      "source_url": "https://x.com/MrLarus/status/2120566378512159176",
+      "source_author": "MrLarus",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/oversized_letter_fashion_cover_58b9431f.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/oversized_letter_fashion_cover_58b9431f.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/oversized_letter_fashion_cover_58b9431f.thumb.webp",
+      "number": "ST000358",
       "created_at": ""
     },
     {

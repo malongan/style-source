@@ -1,4 +1,4 @@
-共 356 个风格
+共 357 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -138,6 +138,7 @@ ST0128 | 香水主视觉海报 | https://malongan.github.io/style-source/images/
 ST0129 | 钢笔点线技法·桃子 | https://malongan.github.io/style-source/images/styles_previews/pen_ink_point_line_peaches_c269f27f.webp
 ST0130 | 粉彩产品棚拍 | https://malongan.github.io/style-source/images/styles_previews/pastel_product_studio_c3069620.webp
 ST0131 | 手绘美食涂鸦海报 | https://malongan.github.io/style-source/images/styles_previews/pastel_de_nata_doodle_2013786f.webp
+ST0358 | 大字刊头时尚杂志封面 | https://malongan.github.io/style-source/images/styles_previews/oversized_letter_fashion_cover_58b9431f.webp
 ST0132 | 桂花鲜奶茶季节限定海报 | https://malongan.github.io/style-source/images/styles_previews/osmanthus_tea_seasonal_poster_c03d2bb2.webp
 ST0305 | 新中式古诗词教科书级细线设色海报 | https://malongan.github.io/style-source/images/styles_previews/oriental_poem_schoolbook_poster_6efc420b.webp
 ST0133 | 东方文博器物字体海报 | https://malongan.github.io/style-source/images/styles_previews/oriental_museum_ceramic_typography_poster_b4826816.webp
