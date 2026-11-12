@@ -15,6 +15,7 @@
 | chinese_minimal_exhibition_poster | #中式 #极简 #展览海报 | 艺术展览海报、品牌 KV、社媒封面、书籍设计 | 9:16 |
 | classic_car_exploded_view | #老爷车 #爆炸拆解 #产品可视化 | 汽车产品图解、品牌技术故事、产品设计展示、文化历史海报 | 16:9 |
 | clay_typography_poster | #黏土 #3D #文字互动 |  | 3:4（竖版） |
+| cobalt_rubbing_folk_art | #拓印 #民间艺术 #单色钴蓝 | 民俗艺术展览海报、非遗拓印文创、神话角色海报、博物馆藏品图、东方节日视觉 | 9:16 |
 | colored_lineart_golddust_poster | #彩色线描 #平涂设色 #毛边纸画芯 | 自然与乡村主题海报、绘本内页、文创包装插画、展览宣传单、节气与物候专题 | 3:4 |
 | constructivist_architecture_poster | #建筑海报 #构成主义 #美式复古 | 咖啡馆装饰、海报设计、品牌KV、社交媒体分享 | 16:9 |
 | cosmic_nebula_silhouette | #宇宙 #星云 #剪影 | 品牌KV、创意海报、天文主题视觉、概念艺术、神秘感人像 | 3:2 |
