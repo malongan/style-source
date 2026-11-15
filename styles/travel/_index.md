@@ -6,6 +6,7 @@
 |------|------|----------|------|
 | collage_doodle_style | #VigoCookbook #bright #travel-photo |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | dubai_riso_travel_poster | #risograph #travel_poster #fluorescent_colors | 城市旅行海报、文化活动宣传、独立印刷品、收藏级艺术海报 | 3:4 |
+| enamel_city_badge_relief | #珐琅彩 #掐丝徽章 #琉璃釉面 | 城市与景区文创纪念品、旅行冰箱贴设计、目的地IP周边、博物馆商店主图、旅游内容封面 | 3:4 |
 | hand_drawn_travel_illustration | #手绘 #旅行插画 #涂鸦风格 | 旅行海报、目的地宣传、编辑插画、旅行杂志配图、手绘风社媒内容 | 2:3 |
 | isometric_country_diorama | #isometric #miniature #diorama | 国家旅行宣传、地理主题海报、目的地推广 | 4:5 |
 | minimalist_city_travel_poster | #旅行海报 #极简主义 #城市 |  | 9:16 / 3:4 / 16:9 |
