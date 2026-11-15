@@ -17,11 +17,11 @@
 | 📚 印刷品 | 20 | 书籍封面、电影海报 |
 | 🔬 科研专业 | 7 | 信息图、期刊封面 |
 | 📱 社交媒体 | 39 | 小红书、朋友圈、头像 |
-| ✈️ 旅行城市 | 11 | 旅行海报、城市 |
+| ✈️ 旅行城市 | 12 | 旅行海报、城市 |
 | 🖋️ 字体排版 | 24 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：368 个风格文件**
+**总计：369 个风格文件**
 
 ---
 
@@ -378,6 +378,7 @@
 |------|------|----------|------|
 | collage_doodle_style | #VigoCookbook #bright #travel-photo |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | dubai_riso_travel_poster | #risograph #travel_poster #fluorescent_colors | 城市旅行海报、文化活动宣传、独立印刷品、收藏级艺术海报 | 3:4 |
+| enamel_city_badge_relief | #珐琅彩 #掐丝徽章 #琉璃釉面 | 城市与景区文创纪念品、旅行冰箱贴设计、目的地IP周边、博物馆商店主图、旅游内容封面 | 3:4 |
 | hand_drawn_travel_illustration | #手绘 #旅行插画 #涂鸦风格 | 旅行海报、目的地宣传、编辑插画、旅行杂志配图、手绘风社媒内容 | 2:3 |
 | isometric_country_diorama | #isometric #miniature #diorama | 国家旅行宣传、地理主题海报、目的地推广 | 4:5 |
 | minimalist_city_travel_poster | #旅行海报 #极简主义 #城市 |  | 9:16 / 3:4 / 16:9 |
