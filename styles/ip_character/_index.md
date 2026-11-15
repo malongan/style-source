@@ -9,6 +9,7 @@
 | character_design_sheet | #角色设定 #角色一致性 #动画角色 | 动画/漫剧角色设计、游戏立绘设定、品牌IP/吉祥物标准档案、团队协作时的角色圣经 | 3:4 |
 | exaggerated_3d_toy_illustration | #3D #卡通 #玩具 |  | 16:9 / 4:5 / 3:4 / 1:1 |
 | film_grade_character_sheet | #character-sheet #character-reference #film-grade | 角色设计、游戏美术、动画制作、影视分镜、IP角色开发 | 16:9 |
+| glazed_ceramic_fairy_ip | #陶瓷雕塑 #釉面质感 #童话IP | 潮玩手办与盲盒角色设计、IP 形象提案、艺术玩具概念图、文创周边主图、角色图鉴封面 | 1:1 |
 | maple_story_avatar | #像素 #游戏 #冒险岛 |  | 1:1（1080x1080） |
 | mascot_ip | #IP #吉祥物 #玩偶 |  | 16:9 |
 | pixar_cartoon_portrait | #Pixar #3D #卡通 |  | 3:4（默认） |
