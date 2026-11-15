@@ -1,4 +1,4 @@
-共 367 个风格
+共 368 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -255,6 +255,7 @@ ST0212 | GPT2 图形拼贴风格 | https://malongan.github.io/style-source/image
 ST0353 | 水彩×粉彩 治愈印象插画 | https://malongan.github.io/style-source/images/styles_previews/gouache_pastel_healing_illustration_a067e0c5.webp
 ST0213 | 金色日光街景生活照 | https://malongan.github.io/style-source/images/styles_previews/golden_hour_street_lifestyle_edbe5d53.webp
 ST0214 | 像素拉伸故障人像 | https://malongan.github.io/style-source/images/styles_previews/glitchy_pixel_stretch_portrait_682dc93e.webp
+ST0369 | 釉面陶瓷童话IP雕塑 | https://malongan.github.io/style-source/images/styles_previews/glazed_ceramic_fairy_ip_6328c2f6.webp
 ST0345 | 黑底毛玻璃耳机产品广告 | https://malongan.github.io/style-source/images/styles_previews/glassmorphism_headphone_product_ad_9ff3e404.webp
 ST0215 | 玻璃花卉春日日记插画 | https://malongan.github.io/style-source/images/styles_previews/glass_flower_spring_diary_2c1cc251.webp
 ST0216 | 吉卜力水彩漫步 | https://malongan.github.io/style-source/images/styles_previews/ghibli_watercolor_walk_e71fca4f.webp
