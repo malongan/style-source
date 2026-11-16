@@ -7,6 +7,7 @@
 | bronze_witch_3d_doll | #中国风 #青铜巫女 #3D玩偶 | IP 角色设计、潮玩手办、游戏角色、文创周边、品牌虚拟形象 | 2:3 |
 | chang_e_goddess | #3D盲盒 #中国神话 #IP设计 |  | 3:4 |
 | character_design_sheet | #角色设定 #角色一致性 #动画角色 | 动画/漫剧角色设计、游戏立绘设定、品牌IP/吉祥物标准档案、团队协作时的角色圣经 | 3:4 |
+| dark_cinematic_3d_character_poster | #超写实3D角色 #暗调电影海报 #伦勃朗逆光 | 角色 IP 宣传海报、个人品牌与作品集封面、展览与杂志式封面、潮玩与影视概念海报 | 9:16 |
 | exaggerated_3d_toy_illustration | #3D #卡通 #玩具 |  | 16:9 / 4:5 / 3:4 / 1:1 |
 | film_grade_character_sheet | #character-sheet #character-reference #film-grade | 角色设计、游戏美术、动画制作、影视分镜、IP角色开发 | 16:9 |
 | glazed_ceramic_fairy_ip | #陶瓷雕塑 #釉面质感 #童话IP | 潮玩手办与盲盒角色设计、IP 形象提案、艺术玩具概念图、文创周边主图、角色图鉴封面 | 1:1 |

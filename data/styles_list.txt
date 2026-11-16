@@ -1,4 +1,4 @@
-共 381 个风格
+共 382 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -309,6 +309,7 @@ ST0250 | DIGITAL SOUL 数字灵魂海报 | https://malongan.github.io/style-sour
 ST0251 | 弥散风视觉海报 | https://malongan.github.io/style-source/images/styles_previews/diffuse_poster_6fa53bcb.webp
 ST0252 | 高端快餐四格海报 | https://malongan.github.io/style-source/images/styles_previews/dicos_premium_fastfood_poster_912ddbb4.webp
 ST0253 | 妖魔孙悟空线绘 | https://malongan.github.io/style-source/images/styles_previews/demon_wukong_line_art_0aef5f9d.webp
+ST0383 | 暗调电影感3D角色海报 | https://malongan.github.io/style-source/images/styles_previews/dark_cinematic_3d_character_poster_2902bed3.webp
 ST0254 | 暗黑国风奇幻插画 | https://malongan.github.io/style-source/images/styles_previews/dark_chinese_fantasy_illustration_2a16076c.webp
 ST0255 | 赛博朋克半调海报 | https://malongan.github.io/style-source/images/styles_previews/cyberpunk_halftone_poster_dcd4e5f1.webp
 ST0256 | 文化工作者大会周年纪念海报 | https://malongan.github.io/style-source/images/styles_previews/cultural_worker_anniversary_poster_9f5caad3.webp
