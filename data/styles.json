@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-293-g13b2501-dirty",
-    "generated": "2026-11-16T07:35:53Z",
-    "total": 376,
+    "version": "v0.7.0-before-opt-294-g522b165-dirty",
+    "generated": "2026-11-16T08:20:19Z",
+    "total": 377,
     "categories": [
       "brand_kv",
       "creative",
@@ -515,6 +515,62 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.thumb.webp",
       "number": "ST000009",
+      "created_at": ""
+    },
+    {
+      "id": "watercolor_slow_life_vignettes",
+      "code": "ST0378",
+      "name": "治愈系水彩慢生活插画",
+      "category": "creative",
+      "tags": [
+        "水彩治愈",
+        "生活美学插画",
+        "细线手绘",
+        "三格纵向",
+        "柔和自然色",
+        "湿画法晕染"
+      ],
+      "triggers": [
+        "治愈系水彩插画",
+        "慢生活绘本插画",
+        "手冲咖啡水彩",
+        "阳台阅读插画",
+        "生活美学三格",
+        "桑贝风水彩"
+      ],
+      "scene": "生活方式配图、公众号与专栏头图、咖啡/园艺/阅读等慢生活主题插画、文创与包装、社交配图",
+      "ratio": "9:16",
+      "summary": "治愈系水彩慢生活插画——三格纵向排布读书/园艺/手冲咖啡等日常场景，深褐细线手绘勾轮廓配彩铅水彩混合铺色、wet-on-wet 水痕晕染，淡蓝嫩绿暖黄的柔和主调加橙红点睛、大面积平涂与留白，松弛宁静、有手绘温度。（源提示词提到丙烯厚涂，但成图实为轻盈水彩，按成图收）",
+      "features": [
+        "**三格纵向的慢生活片段** — 画面分上中下三个日常场景、之间以宽白间隔纵向排列，如阳台读书、庭院浇水、吧台手冲咖啡，各自平视视角、内部留有呼吸感",
+        "**水彩加细手绘线描** — 用深褐近黑、细而略带颤抖的手绘线勾勒轮廓，再以彩铅与水彩混合媒介铺色，线条松弛不僵硬、有手绘温度",
+        "**湿画法水痕晕染** — 叶片、云朵、衣影处可见明显的水痕边缘与透明晕染（wet-on-wet），整体轻盈通透，不做厚重油画堆叠",
+        "**柔和自然色加橙红点睛** — 以淡蓝、嫩绿、暖黄等中低饱和自然色为主，用一两处高饱和橙红作为视觉焦点，明亮而不刺眼",
+        "**大面积平涂与留白背景** — 海面、墙面等背景用大面积平涂简化，场景之间与四周保留纯白留白，清新淡雅、松弛宁静"
+      ],
+      "prompt": "创作一张 9:16 竖版的治愈系生活美学水彩插画，{版式}，松弛宁静、慢节奏、有手绘温度。\n\n主体：\n画面描绘{场景主体}，人物动作柔和自然、专注于当下，场景细节丰富但不拥挤，家具、植物、器物或宠物点缀其间。\n\n线条与介质：\n用深褐偏黑、细而略带颤抖的手绘线描勾勒轮廓，再以彩铅与水彩混合媒介铺色；颜色带水彩特有的透明感与 wet-on-wet 水痕晕染边缘，整体轻盈通透，不要厚重油画堆叠。\n\n配色：\n以{主色调}为主，低到中等饱和、明亮不刺眼，用{点缀色}做几处高饱和点睛、打破平淡。\n\n背景：\n{背景处理}，保留大面积呼吸感留白，氛围清新淡雅。\n\n整体传达享受独处、专注生活细节的温馨治愈感。避免：水印、真实品牌 Logo、伪字乱码、多余排版文字、电商广告感、写实光影。\n",
+      "variables": {
+        "场景主体": "{场景主体}",
+        "版式": "{版式}",
+        "主色调": "{主色调}",
+        "点缀色": "{点缀色}",
+        "背景处理": "{背景处理}"
+      },
+      "variable_descs": {
+        "场景主体": "日常场景与人物动作，如：女子在阳台读书 / 庭院浇花 / 吧台手冲咖啡",
+        "版式": "单幅或多格纵向排版，如：三格纵向分栏 / 单幅居中",
+        "主色调": "大面积柔和底色，如：淡蓝加嫩绿加暖黄",
+        "点缀色": "高饱和点睛色，如：橙红",
+        "背景处理": "背景的留白或平涂，如：纯白留白 / 大面积淡彩平涂"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7678484351767694638",
+      "source_author": "西青老姐",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/watercolor_slow_life_vignettes_d056e996.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/watercolor_slow_life_vignettes_d056e996.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/watercolor_slow_life_vignettes_d056e996.thumb.webp",
+      "number": "ST000378",
       "created_at": ""
     },
     {
