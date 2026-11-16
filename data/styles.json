@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-291-g20a0aa3-dirty",
-    "generated": "2026-11-16T05:59:40Z",
-    "total": 374,
+    "version": "v0.7.0-before-opt-292-gd6a676e-dirty",
+    "generated": "2026-11-16T07:24:11Z",
+    "total": 375,
     "categories": [
       "brand_kv",
       "creative",
@@ -15070,6 +15070,64 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/fluted_glass_editorial_cover_42a28e79.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/fluted_glass_editorial_cover_42a28e79.thumb.webp",
       "number": "ST000308",
+      "created_at": ""
+    },
+    {
+      "id": "flat_sticker_fruit_illustration",
+      "code": "ST0376",
+      "name": "扁平几何贴纸水果插画",
+      "category": "creative",
+      "tags": [
+        "扁平贴纸风",
+        "几何多边形",
+        "白色粗描边",
+        "撞色点缀",
+        "弧形标签文字",
+        "童趣极简"
+      ],
+      "triggers": [
+        "扁平水果贴纸",
+        "番茄贴纸插画",
+        "几何贴纸标志",
+        "儿童绘本插画",
+        "文创模切贴纸",
+        "弧形英文标签插画"
+      ],
+      "scene": "品牌标识与图标、文创贴纸、儿童绘本配图、App 图标、社媒头像与装饰插画",
+      "ratio": "1:1",
+      "summary": "扁平几何贴纸水果插画——不规则多边形平涂主体配白色粗外描边与淡灰投影的模切贴纸感，顶部高饱和撞色蒂头，主体一侧嵌顺着轮廓的弧形英文标签，落在带细微纸纹的纯色背景上，童趣极简、辨识度高。",
+      "features": [
+        "**不规则多边形几何造型** — 主体用直线段拼成的不规则多边形塑造轮廓，带棱角、不写实，整体平涂单一颜色、无光影无渐变",
+        "**白色粗外描边的模切贴纸感** — 主体外侧有一圈粗壮的白色实线外轮廓，描边外再带一层淡灰色投影，像模切贴纸贴在纸上，与背景形成分离和轻微立体感",
+        "**顶部高饱和撞色点缀** — 蒂头或局部结构用高饱和对比色（如亮蓝）做点缀，用极简线条勾出识别性，与主体色形成强撞色",
+        "**弧形英文标签嵌在轮廓内** — 顺主体外描边内侧、贴着一侧轮廓排成弧形的英文名（如 TOMATO），颜色与主体一致，作为装饰存在，简洁可读、拼写正确",
+        "**纯色背景带细微纸纹** — 背景是一整片柔和的纯色（如淡粉/浅肉色），带非常细微的纸张颗粒磨砂纹理，没有其他道具或场景元素"
+      ],
+      "prompt": "创作一张 1:1 正方形的扁平化贴纸插画，极简几何、色彩平涂无光影，带轻微模切贴纸的立体感，清新可爱、辨识度高。\n\n主体：\n画面正中是{主体对象}，用不规则多边形拼出轮廓，边缘由直线段构成、带棱角、不写实，整体平涂{主体色}，无渐变无阴影。\n\n外描边与贴纸质感：\n主体外侧有一圈粗壮的{外描边色}实线外轮廓，轮廓外再带一层淡灰色投影，像模切贴纸贴在背景上，与背景形成分离感和轻微立体感。\n\n局部撞色：\n顶部的蒂头或局部结构用{撞色点缀}做高饱和撞色点缀，用极简线条勾出识别性，与主体色形成强对比。\n\n标签文字：\n在主体的外描边内侧，用{主体色}把英文标签「{标签文字}」排成顺着轮廓弯曲的弧形字，嵌在主体一侧作为装饰，字体简洁可读、拼写正确，不要伪字、不要多字。\n\n背景：\n纯色{背景色}背景，带非常细微的纸张颗粒与磨砂纹理，画面里不出现其他道具、场景或多余文字。\n\n避免：写实光影、复杂渐变、多余装饰元素、伪字乱码、水印、真实品牌 Logo、电商广告感。\n",
+      "variables": {
+        "主体对象": "{主体对象}",
+        "主体色": "{主体色}",
+        "外描边色": "{外描边色}",
+        "撞色点缀": "{撞色点缀}",
+        "标签文字": "{标签文字}",
+        "背景色": "{背景色}"
+      },
+      "variable_descs": {
+        "主体对象": "单个水果或物体，如：一颗番茄 / 一个牛油果 / 一只草莓",
+        "主体色": "主体平涂颜色，如：正红 / 草绿 / 明黄",
+        "外描边色": "包裹主体与文字的粗外描边，如：白色",
+        "撞色点缀": "蒂头或局部的高饱和对比色，如：亮蓝色 / 荧光绿",
+        "标签文字": "顺主体轮廓弧形排列的英文名，如：TOMATO / AVOCADO",
+        "背景色": "纯色背景，如：淡粉 / 米白 / 浅薄荷绿"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7672647023522221358",
+      "source_author": "Cora",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/flat_sticker_fruit_illustration_417dbbf4.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/flat_sticker_fruit_illustration_417dbbf4.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/flat_sticker_fruit_illustration_417dbbf4.thumb.webp",
+      "number": "ST000376",
       "created_at": ""
     },
     {

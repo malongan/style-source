@@ -1,4 +1,4 @@
-共 374 个风格
+共 375 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -270,6 +270,7 @@ ST0222 | 未来感编辑拼贴肖像 | https://malongan.github.io/style-source/i
 ST0223 | 拼豆艺术编辑海报 | https://malongan.github.io/style-source/images/styles_previews/fuse_bead_editorial_poster_12ffd71c.webp
 ST0224 | Frostline Archive 冬日档案海报 | https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.webp
 ST0308 | 竖棱玻璃透光杂志封面 | https://malongan.github.io/style-source/images/styles_previews/fluted_glass_editorial_cover_42a28e79.webp
+ST0376 | 扁平几何贴纸水果插画 | https://malongan.github.io/style-source/images/styles_previews/flat_sticker_fruit_illustration_417dbbf4.webp
 ST0225 | 影视级人物角色设定图 | https://malongan.github.io/style-source/images/styles_previews/film_grade_character_sheet_16358471.webp
 ST0371 | 节日C4D卡通饮品电商KV | https://malongan.github.io/style-source/images/styles_previews/festival_c4d_beverage_kv_dcc1c123.webp
 ST0226 | 时尚栖息地蓝图 | https://malongan.github.io/style-source/images/styles_previews/fashion_habitat_blueprint_58210404.webp
