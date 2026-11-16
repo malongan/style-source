@@ -95,6 +95,7 @@
 | verglas_surreal_poetry_poster | #神秘主义 #诗歌手册 #铬液金属 | 诗歌海报、文学宣传、画廊展览、品牌KV、编辑出版 | 3:4 |
 | vintage_mascot_poster | #vintage #mascot #rubber_hose | 复古品牌联名 T 恤图案、怀旧海报设计、吉祥物周边、复古美式风格品牌 KV | 4:5 |
 | vintage_streetwear_cartoon_poster | #街頭復古 #單色海報 #1930s動畫 |  | 1:1 / 3:4 / 9:16 / 16:9 |
+| warm_neon_winter_vinyl_scene | #3D渲染场景 #暖橘霓虹 #冬日雪原 | 音乐与电台主题节日主视觉、冬季活动海报、演出与歌单封面、品牌冬日情绪 KV、竖版社媒开屏 | 9:16 |
 | woodcut_geometry_poster | #木刻拓印 #几何秩序 #剪影负形 | 品牌KV、概念海报、文化艺术展览、民俗品牌主视觉、编辑设计 | 3:4 |
 | xinzhongshi_poem_fine_line_poster | #新中式 #古诗词插画 #细线设色 | 古诗词文化海报、东方艺术展览、国风品牌视觉、文创产品、文化传播 | 9:16（默认，可调 3:4） |
 | xray_scan | #X光扫描 #医疗科幻 #霓虹青色 | 品牌KV、概念海报、社媒视觉、创意插画 | 3:4 |
