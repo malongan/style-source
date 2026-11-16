@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-294-g522b165-dirty",
-    "generated": "2026-11-16T08:20:19Z",
-    "total": 377,
+    "version": "v0.7.0-before-opt-295-g78e1502-dirty",
+    "generated": "2026-11-16T08:26:48Z",
+    "total": 378,
     "categories": [
       "brand_kv",
       "creative",
@@ -10472,6 +10472,61 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/miniature_diorama_poster_a4872258.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/miniature_diorama_poster_a4872258.thumb.webp",
       "number": "ST000159",
+      "created_at": ""
+    },
+    {
+      "id": "midcentury_geometric_logotype",
+      "code": "ST0379",
+      "name": "复古几何构成字标",
+      "category": "typography",
+      "tags": [
+        "复古几何构成",
+        "Mid-Century标志",
+        "正负形切割",
+        "解构无衬线",
+        "颗粒做旧",
+        "黑白平面构成"
+      ],
+      "triggers": [
+        "复古几何logo",
+        "中世纪现代标志",
+        "正负形字标",
+        "黑白粗字logo",
+        "包豪斯标志",
+        "做旧颗粒标志"
+      ],
+      "scene": "品牌标志与字标、活动主视觉标题字、海报大字、文创与厂牌 logo、专辑与书籍封面",
+      "ratio": "3:2",
+      "summary": "复古几何构成字标——极粗几何无衬线字母被近黑底色的尖锐三角负形对角切割、矩形与圆弧重组出正负形层次，深底浅字双色强对比、覆盖做旧颗粒噪点，上中下三层文字居中对齐、包豪斯与瑞士平面构成的硬朗极简。（源提示词「纯黑块面/白色字体」表述自相矛盾，成图为深色底浅色字、按成图收；「CHAOS CASTLE / VISION」是占位文字，已做成变量。）",
+      "features": [
+        "**三角负形切割的解构字形** — 极粗几何无衬线字母被背景色的尖锐三角形从对角方向切入、打断笔画，再用矩形、半圆环与圆孔重新组合，正负形穿插、层次丰富却仍保持识别性",
+        "**深底浅字双色强对比** — 近黑的深色底配米白字与图形，只用两色、不做彩色，靠黑白正负形与几何切割制造冷静硬朗的视觉张力",
+        "**复古颗粒噪点肌理** — 整幅覆盖明显的做旧噪点与颗粒，模拟老式印刷压印或旧胶片高感光质感，但字母外轮廓的切割仍保持锐利干净",
+        "**三层居中的文字信息层级** — 上方巨大变形双行主标题、中部一行未经变形的标准无衬线品牌名、底部居中一行极小全大写宽字距注脚，绝对居中对齐、重心稳定"
+      ],
+      "prompt": "创作一张 3:2 横版的复古几何构成 logotype 字标，Mid-Century Modern、包豪斯与瑞士平面设计气质，硬朗、极简、工业秩序感、黑白强对比。\n\n主体文字：\n画面正中是巨大的{品牌名}，用极粗的几何无衬线字排成两行、占据画面上方约三分之二。笔画打破传统字母书写逻辑：以{字色}的矩形、半圆环与圆孔块面重新解构组合字母，直线的硬朗与曲线的柔和形成对比；再用{背景色}的尖锐三角形负形从对角方向切入字形、打断笔画，营造正负形穿插的丰富层次，同时保持字母的可识别性。\n\n辅助文字：\n大标题正下方居中排一行{副文字}，用未经变形的标准现代无衬线体、字号明显更小；画面最底部居中排一行极小的{底部署名}，全大写、字间距略宽。\n\n配色与质感：\n{背景色}的底、{字色}的图形与文字，只用两色、强对比、不做彩色；整幅覆盖明显的复古噪点与颗粒肌理，模拟老式印刷或旧胶片质感，但外轮廓切割仍保持锐利干净。\n\n构图：横向、绝对居中对齐、视觉重心稳定。避免：真实品牌 Logo、彩色、伪字乱码、晕染模糊、水印、电商广告感。\n",
+      "variables": {
+        "品牌名": "{品牌名}",
+        "副文字": "{副文字}",
+        "底部署名": "{底部署名}",
+        "背景色": "{背景色}",
+        "字色": "{字色}"
+      },
+      "variable_descs": {
+        "品牌名": "大标题的英文单词（可分行），如：CHAOS CASTLE",
+        "副文字": "大标题下方的规范无衬线字，如：Chaos Castle",
+        "底部署名": "最底部小号全大写宽字距注脚，如：VISION / EST 2026",
+        "背景色": "深色底，如：纯黑 / 深炭灰",
+        "字色": "字母与图形色，如：米白 / 灰白"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7689009091800370494",
+      "source_author": "望月流沙",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/midcentury_geometric_logotype_7bc60bed.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/midcentury_geometric_logotype_7bc60bed.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/midcentury_geometric_logotype_7bc60bed.thumb.webp",
+      "number": "ST000379",
       "created_at": ""
     },
     {
