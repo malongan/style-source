@@ -19,6 +19,12 @@ Thumbs.db
 *.swo
 *.bak*
 
-# 本地 Agent 运行时目录（工作记忆 / 续跑状态），不进仓库
+# 本地 Agent 运行时目录（工作记忆 / 续跑状态 / 便签板），不进仓库
 .workbuddy/
 .omo/
+.noteboard/
+
+# 本地编辑器的运行时目录：回收区 / 无图草稿 / 内容基线 / 变更历史，都不进仓库
+tools/editor/.trash/
+tools/editor/.drafts/
+tools/editor/.state/
