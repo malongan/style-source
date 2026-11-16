@@ -35,3 +35,4 @@
 | retro_drink_ad | #饮料 #复古 #广告 |  | 3:4 竖版 |
 | soft_lifestyle_product_ad | #产品摄影 #日系生活 #柔光拍摄 | 社交媒体产品海报、手作烘焙食帖、生活方式品牌主图 | 3:4 |
 | style_product | #VigoCookbook #minimal #dark |  | 16:9 / 4:5 / 3:4 / 9:16 |
+| warm_tone_food_stilllife_ad | #食品商业广告 #同色系静物 #中心构图 | 饮品与零食产品主图、食品电商详情页头图、节日礼盒视觉、品牌口味海报、餐饮菜单配图 | 9:16 |
