@@ -12,6 +12,7 @@
 | clear_airy_ad_visual | #清透 #广告视觉 #水光透明 | 商场夏季服饰主视觉海报、品牌夏季广告、清透产品主图 | 3:4 |
 | close_up_beverage_ad_poster | #饮料 #产品海报 #强广告感 |  | 184 |
 | dicos_premium_fastfood_poster | #fast_food #dicos #campaign_poster | 快餐品牌 KV、食品海报设计、菜单视觉、广告campaign、商业摄影 | 1:1 |
+| festival_c4d_beverage_kv | #电商活动KV #C4D卡通3D #节日营销 | 节日营销电商主视觉、饮品与零食活动 KV、外卖平台合作海报、社媒开屏与详情页头图 | 2:3 |
 | glassmorphism_headphone_product_ad | #3C产品广告 #苹果式极简 #毛玻璃拟态 | 无线耳机／智能音频等 3C 新品上市主视觉、品牌官网与电商首屏横幅、发布会 KV、音乐 App 联名硬广、极简科技产品系列图 | 16:9 |
 | green_handletter_bakery_poster | #烘焙新品 #季节草本 #绿色手写标题 | 季节限定烘焙新品主视觉、面包店上新海报、咖啡与轻食品牌KV、商超季节商品广宣、社媒美食图文封面 | 2:3 |
 | isometric_cat_market_diorama | #等距插画 #扁平矢量 #猫咪市集 | 食品品牌主视觉、门店活动海报、节日营销插画、社媒治愈系配图、IP 周边包装插画 | 2:3 |
