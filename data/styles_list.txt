@@ -1,4 +1,4 @@
-共 385 个风格
+共 386 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -190,6 +190,7 @@ ST0327 | 微型居所杂志封面 | https://malongan.github.io/style-source/imag
 ST0159 | 微缩景观模型海报 | https://malongan.github.io/style-source/images/styles_previews/miniature_diorama_poster_a4872258.webp
 ST0379 | 复古几何构成字标 | https://malongan.github.io/style-source/images/styles_previews/midcentury_geometric_logotype_7bc60bed.webp
 ST0160 | 麦肯锡风格 | https://malongan.github.io/style-source/images/styles_previews/mckinsey_style_698e178a.webp
+ST0387 | 极繁钢笔线绘废土科幻 | https://malongan.github.io/style-source/images/styles_previews/maximalist_pen_scifi_wasteland_a289a7f6.webp
 ST0161 | 材质化解释图风格 | https://malongan.github.io/style-source/images/styles_previews/materialized_explainer_diagram_HNJstWeb.webp
 ST0350 | 抹茶粉禅意甜品海报 | https://malongan.github.io/style-source/images/styles_previews/matcha_powder_zen_dessert_poster_0280b2be.webp
 ST0380 | 卡通吉祥物Logo合集板 | https://malongan.github.io/style-source/images/styles_previews/mascot_logo_grid_sheet_8152ca03.webp
