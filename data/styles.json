@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-297-g4886298-dirty",
-    "generated": "2026-11-16T08:39:26Z",
-    "total": 380,
+    "version": "v0.7.0-before-opt-298-g77645b5-dirty",
+    "generated": "2026-11-16T08:46:21Z",
+    "total": 381,
     "categories": [
       "brand_kv",
       "creative",
@@ -515,6 +515,61 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.thumb.webp",
       "number": "ST000009",
+      "created_at": ""
+    },
+    {
+      "id": "watercolor_town_market_scene",
+      "code": "ST0382",
+      "name": "水彩绘本小镇集市街景",
+      "category": "creative",
+      "tags": [
+        "水彩绘本",
+        "治愈系插画",
+        "小镇集市",
+        "手绘细线",
+        "莫兰迪低饱和",
+        "错版溢色"
+      ],
+      "triggers": [
+        "水彩绘本集市",
+        "治愈系小镇插画",
+        "老夫妻买菜插画",
+        "欧洲集市水彩",
+        "慢生活绘本",
+        "手绘水彩街景"
+      ],
+      "scene": "生活方式与文旅配图、绘本插画、公众号头图、咖啡市集烘焙主题、文创包装、社交配图",
+      "ratio": "9:16",
+      "summary": "水彩绘本小镇集市街景——单幅透视构图的欧洲小镇露天集市，前景老夫妻与小狗、摊位堆满糕点蔬果与一篮粉花、街边花店遮阳篷路灯，手绘黑／深褐细线勾边、彩铅水彩低饱和湿画法、颜色轻微溢线的错版感，暖白浅棕的莫兰迪主调、靠大面积纸白留白保持轻盈，治愈怀旧的慢生活氛围。（源写「极繁主义／丙烯厚涂」，成图实为局部丰富＋大量留白的轻盈水彩绘本，按成图收；成图里招牌英文是 AI 乱码，未纳入风格、负向加「乱码伪字」。）",
+      "features": [
+        "**热闹又通透的集市场景** — 单幅欧洲小镇露天集市，前景人物挑拣食物、摊位堆满圆形糕点与成堆蔬果、一篮粉白花朵，脚边跟着一只小狗，街边有花店、条纹遮阳篷与复古路灯，细节丰富却靠大片留白保持轻盈",
+        "**水彩加手绘细线勾边** — 物体边缘是略颤抖的手绘黑或深褐细线，彩铅与水彩混合上色、低饱和、湿画法晕染，颜色常轻微溢出线条形成错版的随性感",
+        "**莫兰迪低饱和暖调** — 以暖白与浅棕为底，草绿、珊瑚红、淡粉做点缀，色彩清新淡雅不刺眼，岁月静好的怀旧慢生活氛围",
+        "**透视留白构图** — 平视带微俯的透视，一侧铺满前景物件、另一侧留大面积纸白作街道与阳光，远处行人与建筑虚化以突出前景"
+      ],
+      "prompt": "创作一张 9:16 竖版的治愈系水彩绘本插画，清新、温暖、怀旧、岁月静好的慢生活氛围，轻盈通透的绘本质感。\n\n场景：\n{场景主体}。{角色与宠物}作为前景主体，{摊位元素}琳琅满目地铺陈在摊位与竹篮里；街边可有花店、条纹遮阳篷、复古路灯、百叶窗等小镇细节。\n\n构图：\n带一点平视俯视的透视构图，前景与一侧铺满丰富的物件、另一侧留出大面积纸白作街道与阳光，引导视线望向远处虚化的行人与建筑。\n\n线条与介质：\n所有物体边缘用略颤抖的手绘黑色或深褐色细线勾轮廓，再以彩铅与水彩混合媒介上色；颜色低饱和、带湿画法晕染，且常轻微溢出色块、压不住线条形成错版感，整体保留大片纸白、不做厚重涂改。\n\n配色：\n以{主色调}为主，莫兰迪低饱和、清新淡雅不刺眼；背景做{背景处理}。\n\n不要：写实摄影、3D 渲染、高饱和浓艳、满版塞死无留白、招牌乱码伪字、水印、真实品牌 Logo、电商广告感。\n",
+      "variables": {
+        "场景主体": "{场景主体}",
+        "角色与宠物": "{角色与宠物}",
+        "摊位元素": "{摊位元素}",
+        "主色调": "{主色调}",
+        "背景处理": "{背景处理}"
+      },
+      "variable_descs": {
+        "场景主体": "主场景与设定，如：欧洲小镇露天集市 / 老夫妻在菜摊前挑拣",
+        "角色与宠物": "画面人物与动物，如：戴帽老爷爷与红衣老奶奶，脚边一只小狗",
+        "摊位元素": "摊位与道具细节，如：圆形糕点、成堆青菜番茄、装满粉白花的竹篮",
+        "主色调": "莫兰迪低饱和主色，如：暖白加浅棕，配草绿、珊瑚红、淡粉",
+        "背景处理": "背景与留白处理，如：右侧大片纸白街道、远处行人建筑虚化"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7675136860884110602",
+      "source_author": "西青老姐",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/watercolor_town_market_scene_f4a6e7c4.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/watercolor_town_market_scene_f4a6e7c4.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/watercolor_town_market_scene_f4a6e7c4.thumb.webp",
+      "number": "ST000382",
       "created_at": ""
     },
     {
