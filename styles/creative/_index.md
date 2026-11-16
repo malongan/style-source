@@ -31,6 +31,7 @@
 | eastern_art_exhibition_poster_wild_calligraphy | #东方艺术 #野字书法 #展览海报 | 品牌KV、文化展览海报、概念海报、艺术书封 | 9:16 |
 | exploded_food_infographic | #美食摄影 #信息图 #超写实 | 美食教程、食谱展示、产品广告、社交媒体分享 | 3:4 |
 | fantasy_travel_illustration | #幻想 #水彩插画 #旅行 | 幻想旅行海报、奇幻人像、品牌KV、文学/游戏角色设定、ArtStation风插画集 | 3:4 / 9:16 |
+| flat_sticker_fruit_illustration | #扁平贴纸风 #几何多边形 #白色粗描边 | 品牌标识与图标、文创贴纸、儿童绘本配图、App 图标、社媒头像与装饰插画 | 1:1 |
 | frostline_archive_arctic_poster | #冬日档案 #铬狼头骨 #青色技术线 | 档案海报、科考展览、品牌KV、概念设计、北欧感品牌 | 3:4 |
 | futuristic_spring_kv | #未来生态 #春季 #插画KV |  | 4:3 / 16:9 |
 | geek_code_poster | #酸性设计 #极客代码 #像素风 |  | 9:16 |
