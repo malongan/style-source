@@ -1,4 +1,4 @@
-共 383 个风格
+共 384 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -134,6 +134,7 @@ ST0119 | 风味配色4格产品阵列海报 | https://malongan.github.io/style-s
 ST0120 | 冷静精确信息设计肖像 | https://malongan.github.io/style-source/images/styles_previews/precise_info_design_portrait_11fab4ee.webp
 ST0121 | 白瓷瓶角色喷绘Editorial海报 | https://malongan.github.io/style-source/images/styles_previews/porcelain_bottle_character_spray_71f9e64c.webp
 ST0122 | 立体插画故事书海报 | https://malongan.github.io/style-source/images/styles_previews/pop_up_storybook_poster_6a76b88b.webp
+ST0385 | 波普摄影混合城市海报 | https://malongan.github.io/style-source/images/styles_previews/pop_photo_city_poster_d29cb471.webp
 ST0123 | 童趣前卫艺术展海报 | https://malongan.github.io/style-source/images/styles_previews/playful_avantgarde_poster_be32ed45.webp
 ST0124 | 像素切割社区活动海报 | https://malongan.github.io/style-source/images/styles_previews/pixel_cut_community_poster_74cb7a79.webp
 ST0125 | Pixar 3D 卡通肖像 | https://malongan.github.io/style-source/images/styles_previews/pixar_cartoon_portrait_cc32688d.webp
