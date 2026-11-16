@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-303-gb68ac2b-dirty",
-    "generated": "2026-11-16T09:23:15Z",
-    "total": 386,
+    "version": "v0.7.0-before-opt-305-g34859e1-dirty",
+    "generated": "2026-11-16T10:36:00Z",
+    "total": 387,
     "categories": [
       "brand_kv",
       "creative",
@@ -19335,6 +19335,63 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/cartoon_3d_tv_icon_7929c0d4.thumb.webp",
       "number": "ST000279",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "candy_bubble_3d_type",
+      "code": "ST0388",
+      "name": "跳跳糖泡泡3D立体字",
+      "category": "typography",
+      "tags": [
+        "3D泡泡字",
+        "棉花糖材质",
+        "透明水光壳",
+        "跳跳糖填充",
+        "马卡龙粉彩",
+        "C4D立体字"
+      ],
+      "triggers": [
+        "3D泡泡字体",
+        "生日立体字",
+        "棉花糖3D字",
+        "果冻质感字体",
+        "糖果填充立体字",
+        "可爱3D标题字"
+      ],
+      "scene": "生日与节日海报标题字、社媒封面与祝福卡、甜品与潮玩品牌视觉、App 与游戏运营字",
+      "ratio": "1:1",
+      "summary": "跳跳糖泡泡 3D 立体字——极度圆润的充气软糖字形、笔画上下错层，字面包透明果冻／水光膜硬壳、强高光与次表面散射，壳下粉彩磨砂棉花糖、字母缝隙填满彩色跳跳糖糖珠，马卡龙淡粉／天蓝／淡紫／乳白交替、悬浮纯黑背景带轻微光晕无投影，甜美童趣的 C4D 波普立体字。（文字「Happy Birthday」做成变量以便复用；作者是即梦默认数字用户名，按原样记录出处。）",
+      "features": [
+        "**充气泡泡立体字** — 极度圆润饱满、无尖角的膨胀软糖／气球感字形，笔画上下错层、紧凑堆叠带动感，可轻微倾斜",
+        "**透明果冻外壳内填跳跳糖** — 字面包一层透明光滑的果冻／水光膜硬壳、强反光折射，壳下是粉彩磨砂棉花糖质感主体，字母的开口、孔洞与夹层里填满五颜六色的跳跳糖／糖珠",
+        "**马卡龙粉彩多色交替** — 淡粉、天蓝、淡紫、乳白等低饱和马卡龙色在字母之间交替，柔和甜美不刺眼",
+        "**C4D 级通透高光与光晕** — 演播室多光源、表面锐利白色高光、强次表面散射让光穿透外壳照亮内部磨砂糖料，字边缘带轻微 bloom、悬浮于纯黑背景无投影"
+      ],
+      "prompt": "创作一张 1:1 的 3D 立体字渲染，极度圆润饱满的充气泡泡字，甜美梦幻、童趣、现代波普，视觉冲击强。\n\n文字：\n画面居中排布{立体文字}、可分两行上下紧凑堆叠、笔画上下错层带动感、允许轻微倾斜；造型是无尖角的膨胀软糖／气球感。\n\n材质与结构：\n字面是{外壳材质}，像一层透明硬质外壳、靠边缘厚度勾出轮廓；壳下是粉彩磨砂的棉花糖质感主体；在字母的开口、孔洞与夹层里填充{内填物}，五颜六色、细密堆积。\n\n配色：\n{配色}，柔和低刺激、字母之间交替换色。\n\n光影：\n{渲染风格}，表面强烈锐利的白色高光，次表面散射让光穿透外壳、照亮内部磨砂糖料，晶莹剔透又柔软，字边缘带轻微光晕；{背景}。\n\n不要：真实品牌 Logo、水印、伪字乱码、尖锐棱角、扁平字体、杂乱背景、电商广告感。\n",
+      "variables": {
+        "立体文字": "{立体文字}",
+        "外壳材质": "{外壳材质}",
+        "内填物": "{内填物}",
+        "配色": "{配色}",
+        "背景": "{背景}",
+        "渲染风格": "{渲染风格}"
+      },
+      "variable_descs": {
+        "立体文字": "泡泡立体字的文字、可分行，如：Happy Birthday / 生日快乐 / SUMMER",
+        "外壳材质": "字表面材质，如：透明光滑的果冻／水光膜硬壳、强反光折射",
+        "内填物": "字内与缝隙的填充物，如：彩色跳跳糖、糖珠 nonpareils",
+        "配色": "字面粉彩配色，如：马卡龙淡粉·天蓝·淡紫·乳白交替",
+        "背景": "背景与光效，如：纯黑背景、边缘轻微光晕、无地面投影",
+        "渲染风格": "3D 渲染风格，如：C4D／UE5／Octane、演播室多光源打光、次表面散射"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7699238873506975001",
+      "source_author": "用户1056486357195",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/candy_bubble_3d_type_a14f4ca5.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/candy_bubble_3d_type_a14f4ca5.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/candy_bubble_3d_type_a14f4ca5.thumb.webp",
+      "number": "ST000388",
+      "created_at": ""
     },
     {
       "id": "candy_3d_wonderland",
