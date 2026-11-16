@@ -12,6 +12,7 @@
 | glazed_ceramic_fairy_ip | #陶瓷雕塑 #釉面质感 #童话IP | 潮玩手办与盲盒角色设计、IP 形象提案、艺术玩具概念图、文创周边主图、角色图鉴封面 | 1:1 |
 | maple_story_avatar | #像素 #游戏 #冒险岛 |  | 1:1（1080x1080） |
 | mascot_ip | #IP #吉祥物 #玩偶 |  | 16:9 |
+| mascot_logo_grid_sheet | #卡通吉祥物logo #logo合集板 #Q版角色 | 个人设计师与插画工作室品牌提案、IP 吉祥物与社媒头像、文创与潮流小店 logo、作品集展示板 | 3:4 |
 | pixar_cartoon_portrait | #Pixar #3D #卡通 |  | 3:4（默认） |
 | retro_cel_animation | #azed_ai #推文收集 #Retro_Cel_Animation |  | 3:4 / 4:3 |
 | sunny_3d | #3D #头像 #玩具 | 社媒营销海报、活动推广、产品发布、 campaign 海报 | 9:16 或 16:9 |
