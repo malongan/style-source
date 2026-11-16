@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-295-g78e1502-dirty",
-    "generated": "2026-11-16T08:26:48Z",
-    "total": 378,
+    "version": "v0.7.0-before-opt-296-gb30b805-dirty",
+    "generated": "2026-11-16T08:34:06Z",
+    "total": 379,
     "categories": [
       "brand_kv",
       "creative",
@@ -10687,6 +10687,61 @@
       "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/matcha_powder_zen_dessert_poster_0280b2be.webp",
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/matcha_powder_zen_dessert_poster_0280b2be.thumb.webp",
       "number": "ST000350",
+      "created_at": ""
+    },
+    {
+      "id": "mascot_logo_grid_sheet",
+      "code": "ST0380",
+      "name": "卡通吉祥物Logo合集板",
+      "category": "ip_character",
+      "tags": [
+        "卡通吉祥物logo",
+        "logo合集板",
+        "Q版角色",
+        "粗黑描边贴纸",
+        "泡泡字母字标",
+        "品牌提案"
+      ],
+      "triggers": [
+        "吉祥物logo合集",
+        "卡通logo提案板",
+        "Q版品牌logo",
+        "贴纸风logo",
+        "logo展示墙",
+        "潮玩ip字标"
+      ],
+      "scene": "个人设计师与插画工作室品牌提案、IP 吉祥物与社媒头像、文创与潮流小店 logo、作品集展示板",
+      "ratio": "3:4",
+      "summary": "卡通吉祥物 Logo 合集板——纯白底上多组原创 logo 网格排布（成图 2×4 共 8 组），每组是一个粗黑描边的圆润 Q版角色配黑色手写／泡泡字母英文字标、下方可加浅灰中文小副标，白底黑线骨架加粉蓝绿橙黄低饱和平涂、强贴纸感，像一套潮玩或工作室的 logo 提案。（源 prompt 用双花括号变量、且在占位符里塞了「例如…」指南，已按规范改成单花括号短名、示例移入 desc；底部「数字游民Tomda」是作者水印，已剔除并按成图收 2×4 八组。）",
+      "features": [
+        "**网格排布的 logo 提案合集** — 纯白底上把多组原创 logo 按网格整齐排列（成图为 2 列 4 行共 8 组），每组独立成格、间距均匀、留白充足，整体像一套品牌提案板",
+        "**Q版角色配卡通字标** — 每个单元由一个圆润 chibi 角色加一个黑色粗线条手写／泡泡字母字标组成，角色与字母自然结合（站上、嵌入或环绕），部分单元下方再带一行浅灰中文小副标",
+        "**粗黑描边的贴纸感** — 角色与文字都用很重的黑色描边、线条圆润无尖角，元素外带极细白轮廓，呈现剪下来贴在纸上的贴纸质感",
+        "**白底黑线加低饱和点缀** — 以白底黑线建立统一结构，角色身上用粉／蓝／绿／橙／黄等低饱和纯色平涂、无光影渐变，轻快而不杂乱"
+      ],
+      "prompt": "创作一张 3:4 竖版的卡通吉祥物品牌 Logo 合集展示板，纯白背景、{排布}整齐排列多组原创 logo，像插画工作室或潮流小店的 logo 提案合集，可爱、松弛、有品牌 IP 感。\n\n每个 logo 单元：\n由一个 Q版角色与一个品牌字标组成。角色是{角色主题}，造型简洁圆润的 chibi 风、粗黑描边、带贴纸感，表情夸张但清晰；字标是{品牌字标}，用黑色粗线条的卡通手写体、泡泡字母或马克笔字，与角色自然结合（角色站上字母、嵌入字母或环绕字标）。部分单元在字标下方加一行浅灰小字的{中文副标}。\n\n配色：\n以白底加黑色粗描边建立统一结构，角色身上用{点缀色}做低饱和平涂点缀，无复杂光影渐变，轻快但不杂乱。\n\n排版：\n各组 logo 独立成格、间距均匀、留白充足，整体按网格对齐、干净成体系。\n\n不要：写实、摄影风、3D 渲染、复杂背景、真实品牌 Logo、伪字乱码、任何水印或作者署名小字。\n",
+      "variables": {
+        "角色主题": "{角色主题}",
+        "品牌字标": "{品牌字标}",
+        "中文副标": "{中文副标}",
+        "点缀色": "{点缀色}",
+        "排布": "{排布}"
+      },
+      "variable_descs": {
+        "角色主题": "每个格子的 Q版角色，如：白兔 / 戴帽黑猫 / 拿咖啡棕熊 / 独眼怪兽",
+        "品牌字标": "每组配的英文粗体字标，如：MOON BUN / CAT CAP / BEAR BREW",
+        "中文副标": "字标下方的浅灰小字，如：月兔潮玩 / 猫帽设计",
+        "点缀色": "角色平涂的低饱和点缀色，如：粉 / 蓝 / 绿 / 橙 / 黄",
+        "排布": "logo 网格排布与数量，如：2列4行共8组 / 3列多行"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7674822566728568110",
+      "source_author": "Landon",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/mascot_logo_grid_sheet_8152ca03.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/mascot_logo_grid_sheet_8152ca03.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/mascot_logo_grid_sheet_8152ca03.thumb.webp",
+      "number": "ST000380",
       "created_at": ""
     },
     {
