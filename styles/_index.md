@@ -18,10 +18,10 @@
 | 🔬 科研专业 | 7 | 信息图、期刊封面 |
 | 📱 社交媒体 | 39 | 小红书、朋友圈、头像 |
 | ✈️ 旅行城市 | 13 | 旅行海报、城市 |
-| 🖋️ 字体排版 | 28 | 文字为主的标题设计 |
+| 🖋️ 字体排版 | 29 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：386 个风格文件**
+**总计：387 个风格文件**
 
 ---
 
@@ -418,6 +418,7 @@
 | bold_rounded_offset_headline | #粗圆无衬线 #错位排版 #黑底白字 | 冬季/出行活动主视觉、品牌促销大标题、社媒封面字、字体设计练习 | 4:3 |
 | bubble_letter_headline | #bubble-letter #chunky #glossy | 3D 角色潮玩 KV、儿童/年轻向电商海报、需要明亮活泼但不刺眼的标题设计 | 16:9 |
 | camping_season_hand_drawn_headline | #hand-drawn #trendy #camping | 夏季露营活动主视觉 / 潮流品牌 KV / 户外生活方式宣传 / 帐篷音乐节海报 | 4:3 |
+| candy_bubble_3d_type | #3D泡泡字 #棉花糖材质 #透明水光壳 | 生日与节日海报标题字、社媒封面与祝福卡、甜品与潮玩品牌视觉、App 与游戏运营字 | 1:1 |
 | cartoon_graffiti_headline | #cartoon #graffiti #doodle | 潮流活动主视觉 / 创意宣传海报 / 年轻向品牌 KV / 街头文化设计 | 4:3 |
 | childish_chunky_black_lettering | #稚拙变形 #粗黑实心笔画 #手绘擦痕漏白 | 字体设计样张与作品展示、食品与饮品活动主标题、社媒封面大字、文创与包装标题字、品牌主题字提案 | 1:1 |
 | clay_3d_chinese_headline | #黏土3D字 #手工搓条拼字 #暖色红橙黄 | 活动与话题主标题字效、社媒封面与开屏字、玩法与招募海报主视觉、儿童与潮玩品牌标题、文创贴纸字 | 1:1 |
