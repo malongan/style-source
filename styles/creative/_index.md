@@ -45,6 +45,7 @@
 | hold_the_line_declaration_poster | #宣言海报 #铬质物件 #居中排版 | 宣言海报、品牌KV、社交媒体图文、编辑出版 | 3:4 |
 | indonesian_food_infographic | #美食摄影 #信息图 #超写实 | 美食教程、食谱展示、文化宣传、社交媒体分享 | 3:4 |
 | inflatable_3d_flowers | #3D #膨胀花朵 #C4D |  | 9:16 |
+| ink_wash_berry_icon | #水墨写意 #手绘浆果 #蓝黑双色 | 品牌图标与标志、文创图案、包装点缀插画、明信片、社媒极简配图 | 2:3 |
 | kimjunggi_scifi_sketch | #金政基 #赛博朋克 #线条艺术 |  | 1:1 / 16:9 / 9:16 |
 | korean_illustration | #韩国 #插画 #线条画 |  | 16:9 / 4:5 / 3:4 / 9:16 |
 | korean_morning_ritual_poster | #晨间问候 #韩国ins风 #治愈系 |  | 16:9 / 3:4 / 9:16 |
