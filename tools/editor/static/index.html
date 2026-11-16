@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>style-source 本地编辑器</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="dot"></span> style-source <span class="sub">本地编辑器</span></div>
+  <div id="status" class="status">正在连接…</div>
+  <div class="top-actions">
+    <button id="btnImport" class="btn">导入 YAML</button>
+    <button id="btnDrafts" class="btn">草稿箱 <span id="draftCount" class="badge soft">0</span></button>
+    <button id="btnTrash" class="btn">回收区</button>
+    <button id="btnBatch" class="btn" hidden>批量编辑 <span id="pickCount" class="badge">0</span></button>
+    <button id="btnNormalize" class="btn">格式体检</button>
+    <button id="btnNew" class="btn primary">+ 新建风格</button>
+    <button id="btnRebuild" class="btn">重建生成物</button>
+    <button id="btnRelease" class="btn">发布检查</button>
+    <button id="btnChanges" class="btn">变更中心 <span id="changeCount" class="badge">0</span></button>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="sidebar">
+    <div class="filters">
+      <input id="search" type="search" placeholder="搜索名称 / id / 编号 / 提示词" autocomplete="off">
+      <select id="category"><option value="all">全部分类</option></select>
+    </div>
+    <div id="listMeta" class="list-meta">—</div>
+    <div id="styleList" class="style-list"></div>
+    <button id="btnMore" class="btn ghost more">加载更多</button>
+  </aside>
+
+  <section class="workspace">
+    <div id="empty" class="empty">
+      <h2>从左侧选一个风格开始编辑</h2>
+      <p>编辑只改 yaml 源文件；生成物由「重建生成物」显式重算。<br>
+      改名 / 改分类 / 替换配图请用编辑区上方的向导（会同步处理配图前缀与编号保号）；
+      左侧勾选可批量改标签；支持导入现成 YAML、无图草稿、格式体检与变更历史对比。</p>
+      <button class="btn primary" onclick="document.getElementById('btnNew').click()">+ 新建风格</button>
+    </div>
+
+    <div id="editor" hidden>
+      <div class="editor-head">
+        <div>
+          <div class="code" id="edCode">—</div>
+          <h1 id="edTitle">—</h1>
+          <div class="meta" id="edMeta">—</div>
+        </div>
+        <div class="head-actions">
+          <button id="btnMigrate" class="btn">改名 / 迁移</button>
+          <button id="btnReplaceImage" class="btn">替换配图</button>
+          <button id="btnDelete" class="btn danger">删除</button>
+          <button id="btnSave" class="btn primary">保存</button>
+        </div>
+      </div>
+      <nav class="tabs">
+        <button class="tab active" data-tab="basic">基本信息</button>
+        <button class="tab" data-tab="features">特征</button>
+        <button class="tab" data-tab="prompt">提示词与变量</button>
+        <button class="tab" data-tab="raw">原始 YAML</button>
+        <button class="tab" data-tab="validate">校验结果</button>
+      </nav>
+      <div class="tab-body">
+        <div class="pane" id="pane-basic"></div>
+        <div class="pane" id="pane-features" hidden></div>
+        <div class="pane" id="pane-prompt" hidden></div>
+        <div class="pane" id="pane-raw" hidden>
+          <p class="hint">直接编辑全文。保存前会检查语法与重复顶层键；校验失败自动回滚。</p>
+          <textarea id="rawText" class="raw" spellcheck="false"></textarea>
+        </div>
+        <div class="pane" id="pane-validate" hidden><pre id="validateOut" class="pre">尚未校验</pre></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-box" id="modalBox"></div>
+</div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

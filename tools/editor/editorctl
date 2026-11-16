@@ -1,0 +1,465 @@
+#!/bin/bash
+# style-source 提示词编辑器 —— 启动/停止/状态控制脚本
+#
+# 用法：
+#   ./editorctl up        启动（已在跑则跳过）并打开浏览器
+#   ./editorctl start     只启动，不开浏览器
+#   ./editorctl stop      停止
+#   ./editorctl restart   重启
+#   ./editorctl status    查看状态（进程、地址、口令、风格数、生成物新鲜度）
+#   ./editorctl state     只输出 stopped / running-ok / running-bad（给桌面图标用）
+#   ./editorctl open      打开浏览器（不带 # 口令，浏览器已存过就直接进）
+#   ./editorctl url       只打印访问地址
+#   ./editorctl token     打印当前口令
+#   ./editorctl logs      跟踪日志（Ctrl+C 退出）
+#   ./editorctl last-error 打印日志里最像错误原因的一行（给弹框用）
+#
+# 环境变量：
+#   EDITOR_PORT=8765      端口
+#   EDITOR_MODE=lan       默认局域网+口令；设 local 则只监听 127.0.0.1 且免口令
+#   EDITOR_PYTHON         指定 python（默认 /usr/bin/python3）
+#
+# 口令固定复用 .state/lan_token：重启、换设备都不会变。
+# 日志与 pid 都在 .state/ 下，已被 gitignore，不会进仓库。
+#
+# 图形入口：/Applications/风格编辑器.app（双击启动/打开/停止三合一）
+# 重建该 app：/usr/bin/python3 tools/editor/make_app.py
+
+set -u
+
+HERE="$(cd "$(dirname "$0")" && pwd)"
+ROOT="$(cd "$HERE/../.." && pwd)"
+STATE="$HERE/.state"
+LOG="$STATE/editor.log"
+TOKENFILE="$STATE/lan_token"
+
+PORT="${EDITOR_PORT:-8765}"
+MODE="${EDITOR_MODE:-lan}"
+PY="${EDITOR_PYTHON:-/usr/bin/python3}"
+BASE="http://127.0.0.1:$PORT"
+
+# ---------- 架构对齐（这条必须放在最前面）----------
+# Finder 双击 .app 时，启动进程会被 Rosetta 翻译成 x86_64，子进程跟着变 x86_64，
+# 而 ~/Library/Python 里的 Pillow 是 arm64 —— 于是 python 一 import 就
+# "ImportError: ... incompatible architecture (have 'arm64', need 'x86_64')"，启动必失败。
+# 注意：被翻译时 uname -m 会撒谎报 x86_64，只能看 sysctl 的硬件标记。
+have_arm64() { [ "$(sysctl -n hw.optional.arm64 2>/dev/null || echo 0)" = "1" ]; }
+translated() { [ "$(sysctl -n sysctl.proc_translated 2>/dev/null || echo 0)" = "1" ]; }
+
+# 第一层：发现自己被翻译过，就 re-exec 回原生，后面所有命令都在原生下跑
+if [ "${STYLE_EDITOR_ARCH_REEXEC:-0}" != "1" ] && have_arm64 && translated && [ -x /usr/bin/arch ]; then
+  STYLE_EDITOR_ARCH_REEXEC=1
+  export STYLE_EDITOR_ARCH_REEXEC
+  exec /usr/bin/arch -arm64 /bin/bash "$0" "$@"
+fi
+
+# 第二层兜底：万一没翻译但还是跑错架构，就直接探 Pillow 能不能用，
+# 不能就改用 arch -arm64，避免把「架构不对」误判成「缺库」。
+PY_ARCH=""
+if have_arm64 && [ -x /usr/bin/arch ]; then
+  if ! "$PY" -c 'from PIL import Image' >/dev/null 2>&1 \
+     && /usr/bin/arch -arm64 "$PY" -c 'from PIL import Image' >/dev/null 2>&1; then
+    PY_ARCH="arm64"
+  fi
+fi
+
+py() {
+  if [ "$PY_ARCH" = "arm64" ]; then
+    /usr/bin/arch -arm64 "$PY" "$@"
+  else
+    "$PY" "$@"
+  fi
+}
+
+mkdir -p "$STATE"
+
+c_dim()  { printf "\033[2m%s\033[0m\n" "$*"; }
+c_ok()   { printf "\033[32m%s\033[0m\n" "$*"; }
+c_warn() { printf "\033[33m%s\033[0m\n" "$*"; }
+c_err()  { printf "\033[31m%s\033[0m\n" "$*"; }
+
+# ---------- 基础探测 ----------
+
+port_pid() {
+  lsof -ti "tcp:$PORT" -sTCP:LISTEN 2>/dev/null | head -1
+}
+
+# 返回 HTTP 码；服务没起时返回 000
+http_code() {
+  curl -s -m 3 -o /dev/null -w '%{http_code}' "$@" 2>/dev/null || echo 000
+}
+
+auth_required() {
+  # 打印 1 / 0；不是我们的服务（非 200）时打印 ?
+  local code body
+  code="$(http_code "$BASE/api/auth/status")"
+  if [ "$code" != "200" ]; then
+    echo '?'
+    return 0
+  fi
+  body="$(curl -s -m 3 "$BASE/api/auth/status" 2>/dev/null)"
+  case "$body" in
+    *'"auth_required":true'*|*'"auth_required": true'*) echo 1 ;;
+    *) echo 0 ;;
+  esac
+}
+
+current_token() {
+  if [ -s "$TOKENFILE" ]; then
+    tr -d '\n' < "$TOKENFILE"
+  fi
+}
+
+ensure_token() {
+  local t
+  t="$(current_token)"
+  if [ -z "$t" ]; then
+    t="$(py -c 'import secrets; print(secrets.token_urlsafe(9))')"
+    printf '%s' "$t" > "$TOKENFILE"
+    chmod 600 "$TOKENFILE"
+  fi
+  printf '%s' "$t"
+}
+
+lan_ips() {
+  local out="" i ip
+  for i in en0 en1 en2 en3 en4 en5 bridge0; do
+    ip="$(ipconfig getifaddr "$i" 2>/dev/null || true)"
+    if [ -n "$ip" ]; then
+      out="$out $ip"
+    fi
+  done
+  printf '%s' "${out# }"
+}
+
+# 口令状态 ok / bad / unknown（服务异常时不要误判成口令错）
+token_state() {
+  local t code
+  t="$(current_token)"
+  [ -z "$t" ] && { echo bad; return; }
+  code="$(http_code -H "X-Editor-Token: $t" "$BASE/api/bootstrap")"
+  case "$code" in
+    200) echo ok ;;
+    401) echo bad ;;
+    *)   echo unknown ;;
+  esac
+}
+
+# 服务是不是“真的能用”：轻接口 200 + 数据接口 200（后者要能读文件）
+service_alive() {
+  [ "$(http_code "$BASE/api/auth/status")" = "200" ]
+}
+
+service_healthy() {
+  local auth code
+  auth="$(auth_required 2>/dev/null || echo '?')"
+  [ "$auth" = "?" ] && return 1
+  if [ "$auth" = "1" ]; then
+    code="$(http_code -H "X-Editor-Token: $(current_token)" "$BASE/api/bootstrap")"
+  else
+    code="$(http_code "$BASE/api/bootstrap")"
+  fi
+  [ "$code" = "200" ]
+}
+
+wait_ready() {
+  local n=0
+  while [ "$n" -lt 40 ]; do
+    if [ "$(http_code "$BASE/api/auth/status")" = "200" ]; then
+      return 0
+    fi
+    sleep 0.25
+    n=$((n + 1))
+  done
+  return 1
+}
+
+show_summary() {
+  local tok ips ip first
+  [ -z "$(port_pid)" ] && return 0
+  tok="$(current_token)"
+  if [ "$(auth_required 2>/dev/null || echo 0)" = "1" ]; then
+    c_dim "本机（免输口令）: $BASE/#t=$tok"
+    ips="$(lan_ips)"
+    if [ -n "$ips" ]; then
+      first="$(echo "$ips" | awk '{print $1}')"
+      c_dim "局域网（同一 Wi-Fi）: http://$first:$PORT   口令: $tok"
+      for ip in $ips; do
+        [ "$ip" = "$first" ] && continue
+        c_dim "  另一网卡: http://$ip:$PORT"
+      done
+    else
+      c_warn "没探测到活动局域网地址（可能没连 Wi-Fi / 网线）"
+    fi
+  else
+    c_dim "本机: $BASE"
+  fi
+}
+
+# ---------- 动作 ----------
+
+# 起服务前先体检：Pillow 是唯一第三方依赖，缺了 / 架构不对都必然启动失败，
+# 与其让用户看三行 traceback，不如在这里直接说清原因。
+preflight_python() {
+  local out short
+  if out="$(py -c 'from PIL import Image' 2>&1)"; then
+    return 0
+  fi
+  c_err "python 环境不对，服务起不来："
+  short="$(printf '%s\n' "${out:-（无输出）}" \
+    | grep -aE '(^|[[:space:]])(ImportError|ModuleNotFoundError|[A-Za-z]*Error): ' \
+    | tail -1 | sed 's/^[[:space:]]*//; s/: tried:.*//' | cut -c1-190)"
+  [ -z "$short" ] && short="$(printf '%s\n' "${out:-（无输出）}" | tail -1 | cut -c1-190)"
+  c_dim "  $short"
+  if [ -n "$PY_ARCH" ]; then
+    c_dim "python：$PY（已改用 /usr/bin/arch -$PY_ARCH 运行）"
+  else
+    c_dim "python：$PY"
+  fi
+  case "$out" in
+    *"incompatible architecture"*)
+      c_dim "原因：Pillow 的 .so 和 python 的架构对不上（多半是进程被 Rosetta 翻译成了 x86_64）。"
+      c_dim "修复：用本机 Terminal 跑一次下面这行，之后双击图标即可："
+      c_dim "  /usr/bin/arch -arm64 $PY -m pip install --user --force-reinstall pillow"
+      ;;
+    *"No module named"*)
+      c_dim "修复：$PY -m pip install --user pillow"
+      ;;
+  esac
+  return 1
+}
+
+# 从日志里挑一行最像错误原因的，给桌面图标弹框用（去掉颜色码、压成一行）
+last_error() {
+  local line=""
+  if [ ! -f "$LOG" ]; then
+    echo "还没有日志（服务从未启动过）"
+    return 0
+  fi
+  line="$(grep -a '启动失败' "$LOG" 2>/dev/null | tail -1 | sed $'s/\033\\[[0-9;]*m//g' | sed 's/.*启动失败[：:] *//')"
+  if [ -z "$line" ]; then
+    line="$(grep -aE '(Error|Exception): ' "$LOG" 2>/dev/null | tail -1 | sed 's/^[[:space:]]*//; s/: tried:.*//')"
+  fi
+  if [ -z "$line" ]; then
+    line="$(grep -av '^[[:space:]]*$' "$LOG" 2>/dev/null | tail -1)"
+  fi
+  printf '%s' "$line" | tr -s '[:space:]' ' ' | sed 's/^ //' | cut -c1-200
+  echo
+}
+
+# 以独立会话启动：脱离终端进程组，关掉终端窗口 / 结束父进程都不会带走服务
+spawn_server() {
+  py - "$HERE/server.py" "$ROOT" "$LOG" "$PORT" "$MODE" "${1:-}" <<'PY'
+import subprocess, sys
+script, root, log, port, mode, tok = sys.argv[1:7]
+args = [sys.executable, script, '--port', port]
+if mode != 'local':
+    args += ['--lan', '--token', tok]
+with open(log, 'a') as fh:
+    p = subprocess.Popen(args, cwd=root, stdout=fh, stderr=subprocess.STDOUT,
+                         start_new_session=True, close_fds=True)
+print(p.pid)
+PY
+}
+
+do_start() {
+  local pid tok state
+  pid="$(port_pid)"
+  if [ -n "$pid" ]; then
+    if service_healthy; then
+      state="$(token_state)"
+      c_ok "已在运行（pid ${pid}），跳过启动"
+      case "$state" in
+        bad) c_warn "但当前口令对不上——上次可能用了随机口令。执行：$0 restart" ;;
+      esac
+      return 0
+    fi
+    if service_alive; then
+      c_warn "服务在跑（pid ${pid}）但数据接口异常，重启一次试试"
+    else
+      c_warn "端口 ${PORT} 被 pid ${pid} 占着但不是编辑器，清掉重起"
+    fi
+    do_stop
+  fi
+
+  preflight_python || return 1
+
+  tok="$(ensure_token)"
+  if [ "$MODE" = "local" ]; then
+    c_dim "启动中（本机模式，免口令）…"
+  else
+    c_dim "启动中（局域网 + 口令）…"
+  fi
+
+  if ! spawn_server "$tok" >/dev/null; then
+    c_err "拉起进程失败：$(last_error)"
+    return 1
+  fi
+
+  if wait_ready; then
+    c_ok "已启动，pid $(port_pid)"
+    show_summary
+    return 0
+  fi
+  c_err "启动失败：$(last_error)"
+  tail -n 15 "$LOG" 2>/dev/null
+  return 1
+}
+
+do_stop() {
+  local pid
+  pid="$(port_pid)"
+  if [ -z "$pid" ]; then
+    c_dim "没有在运行"
+    return 0
+  fi
+  kill "$pid" 2>/dev/null
+  local n=0
+  while [ "$n" -lt 20 ]; do
+    port_pid >/dev/null && { sleep 0.25; n=$((n + 1)); } || break
+  done
+  pid="$(port_pid)"
+  if [ -n "$pid" ]; then
+    c_warn "普通退出没成功，强制结束 pid $pid"
+    kill -9 "$pid" 2>/dev/null
+  fi
+  c_ok "已停止"
+}
+
+do_status() {
+  local pid auth tok state stats
+  pid="$(port_pid)"
+  if [ -z "$pid" ]; then
+    c_warn "未运行"
+    c_dim "启动：$0 start    或双击桌面「风格编辑器」"
+    return 1
+  fi
+  c_ok "运行中  pid ${pid}  端口 ${PORT}"
+
+  auth="$(auth_required 2>/dev/null || echo '?')"
+  if [ "$auth" = "1" ]; then
+    c_dim "模式   局域网 + 口令"
+  elif [ "$auth" = "0" ]; then
+    c_dim "模式   本机 only，免口令"
+  else
+    c_warn "模式   接口不响应（进程在但服务异常，看 $0 logs）"
+  fi
+
+  tok="$(current_token)"
+  if [ "$auth" = "1" ]; then
+    state="$(token_state)"
+    case "$state" in
+      ok)      c_dim "口令   ${tok}  （可用）" ;;
+      bad)     c_warn "口令   ${tok}  （对不上，建议 restart）" ;;
+      *)       c_warn "口令   ${tok}  （接口异常，无法确认）" ;;
+    esac
+  elif [ -z "$tok" ]; then
+    c_dim "口令   未设置（本机模式不需要）"
+  fi
+
+  local code
+  if [ "$auth" = "0" ]; then
+    code="$(http_code "$BASE/api/bootstrap")"
+  else
+    code="$(http_code -H "X-Editor-Token: ${tok}" "$BASE/api/bootstrap")"
+  fi
+  if [ "$code" = "200" ]; then
+    stats="$(curl -s -m 5 -H "X-Editor-Token: ${tok}" "$BASE/api/bootstrap" \
+      | py -c 'import json,sys; d=json.load(sys.stdin); print(d["total"], d["freshness"]["stale"])' 2>/dev/null)"
+    if [ -n "$stats" ]; then
+      c_dim "风格   $(echo "$stats" | awk '{print $1}') 条"
+      if [ "$(echo "$stats" | awk '{print $2}')" = "True" ]; then
+        c_warn "生成物 已过期 —— 打开编辑器点「重建生成物」"
+      else
+        c_dim "生成物 与源文件一致"
+      fi
+    fi
+  else
+    c_warn "风格   读取失败（HTTP ${code}），看 $0 logs"
+  fi
+
+  show_summary
+  c_dim "日志   ${LOG}"
+  return 0
+}
+
+do_open() {
+  local token
+  if [ -z "$(port_pid)" ] || ! service_healthy; then
+    do_start || return 1
+  fi
+  if ! service_healthy; then
+    c_err "服务起来了但数据接口仍异常，执行 $0 logs 看原因"
+    return 1
+  fi
+  if [ "$(auth_required 2>/dev/null || echo 0)" = "1" ]; then
+    token="$(current_token)"
+    open "$BASE/#t=$token"
+  else
+    open "$BASE/"
+  fi
+}
+
+do_logs() {
+  if [ ! -f "$LOG" ]; then
+    c_dim "还没有日志（服务从未启动过）"
+    return 1
+  fi
+  exec tail -f "$LOG"
+}
+
+do_state() {
+  # 给桌面图标用：只输出一个词，靠退出码区分
+  #   stopped     3   未运行
+  #   running-ok  0   正常运行
+  #   running-bad 1   进程在但接口异常
+  if [ -z "$(port_pid)" ]; then
+    echo stopped
+    return 3
+  fi
+  if service_healthy; then
+    echo running-ok
+    return 0
+  fi
+  echo running-bad
+  return 1
+}
+
+usage() {
+  awk 'NR==1{next} /^#/{sub(/^# ?/,""); print; next} {exit}' "$0"
+}
+
+# ---------- 入口 ----------
+
+case "${1:-}" in
+  up)
+    do_start || exit 1
+    # 浏览器打不开不算启动失败：服务已经在跑了，给出地址手动访问即可
+    if ! do_open; then
+      c_warn "浏览器没能自动打开，手动访问：$BASE"
+    fi
+    rc=0
+    ;;
+  start)   do_start; rc=$? ;;
+  stop)    do_stop; rc=$? ;;
+  restart) do_stop; do_start; rc=$? ;;
+  status)  do_status; rc=$? ;;
+  state)   do_state; rc=$? ;;
+  open)    do_open; rc=$? ;;
+  url)     show_summary; rc=0 ;;
+  token)   current_token; echo; rc=0 ;;
+  last-error) last_error; rc=0 ;;
+  logs)    do_logs; rc=$? ;;
+  ''|-h|--help|help)
+    usage
+    rc=0
+    ;;
+  *)
+    c_err "未知命令：$1"
+    echo
+    usage
+    rc=2
+    ;;
+esac
+
+exit "${rc:-0}"
