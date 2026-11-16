@@ -1,4 +1,4 @@
-共 376 个风格
+共 377 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -10,6 +10,7 @@ ST0006 | 狂野草书书法海报 | https://malongan.github.io/style-source/imag
 ST0007 | 婚礼喜字影像画报 | https://malongan.github.io/style-source/images/styles_previews/wedding_xi_character_poster_af2eec7d.webp
 ST0008 | 婚礼私密仪式感影像邀请函 | https://malongan.github.io/style-source/images/styles_previews/wedding_intimate_ceremony_invitation_c886b7e2.webp
 ST0009 | 婚礼谢幕致意画报 | https://malongan.github.io/style-source/images/styles_previews/wedding_curtain_call_poster_346e7f02.webp
+ST0378 | 治愈系水彩慢生活插画 | https://malongan.github.io/style-source/images/styles_previews/watercolor_slow_life_vignettes_d056e996.webp
 ST0375 | 暖棕同色系食品静物广告 | https://malongan.github.io/style-source/images/styles_previews/warm_tone_food_stilllife_ad_998986f6.webp
 ST0374 | 暖橘霓虹冬日唱片场景 | https://malongan.github.io/style-source/images/styles_previews/warm_neon_winter_vinyl_scene_2d951e02.webp
 ST0010 | 复古水彩旅行手绘明信片 | https://malongan.github.io/style-source/images/styles_previews/vintage_watercolor_travel_postcard_89d31829.webp
