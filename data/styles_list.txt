@@ -1,4 +1,4 @@
-共 369 个风格
+共 370 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -269,6 +269,7 @@ ST0223 | 拼豆艺术编辑海报 | https://malongan.github.io/style-source/imag
 ST0224 | Frostline Archive 冬日档案海报 | https://malongan.github.io/style-source/images/styles_previews/frostline_archive_arctic_poster_HNHdnbrX.webp
 ST0308 | 竖棱玻璃透光杂志封面 | https://malongan.github.io/style-source/images/styles_previews/fluted_glass_editorial_cover_42a28e79.webp
 ST0225 | 影视级人物角色设定图 | https://malongan.github.io/style-source/images/styles_previews/film_grade_character_sheet_16358471.webp
+ST0371 | 节日C4D卡通饮品电商KV | https://malongan.github.io/style-source/images/styles_previews/festival_c4d_beverage_kv_dcc1c123.webp
 ST0226 | 时尚栖息地蓝图 | https://malongan.github.io/style-source/images/styles_previews/fashion_habitat_blueprint_58210404.webp
 ST0227 | 时尚编辑视觉系统 | https://malongan.github.io/style-source/images/styles_previews/fashion_editorial_visual_295648b2.webp
 ST0228 | 时尚营销企划排版海报 | https://malongan.github.io/style-source/images/styles_previews/fashion_campaign_typography_9c3ceb84.webp
