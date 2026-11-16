@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-301-g49ece38-dirty",
-    "generated": "2026-11-16T09:09:20Z",
-    "total": 384,
+    "version": "v0.7.0-before-opt-302-gd3ef28b-dirty",
+    "generated": "2026-11-16T09:15:51Z",
+    "total": 385,
     "categories": [
       "brand_kv",
       "creative",
@@ -7037,6 +7037,61 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_future_scifi_poster_7fc81506.thumb.webp",
       "number": "ST000106",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "retro_flat_brand_longposter",
+      "code": "ST0386",
+      "name": "复古扁平矢量品牌长图",
+      "category": "brand_kv",
+      "tags": [
+        "品牌长图海报",
+        "三段式排版",
+        "扁平矢量插画",
+        "莫兰迪复古色",
+        "宠物家居",
+        "再生纸肌理"
+      ],
+      "triggers": [
+        "品牌手册长图",
+        "扁平矢量海报",
+        "宠物家居品牌视觉",
+        "复古治愈海报",
+        "三段式宣传页",
+        "莫兰迪插画海报"
+      ],
+      "scene": "品牌画册与宣传长图、小红书竖版图文、家居与宠物等生活方式品牌主视觉、电商详情页头图",
+      "ratio": "2:3",
+      "summary": "复古扁平矢量品牌长图——竖版三段式（顶部手写圆润 logo＋标语小字、中部圆润无硬阴影的扁平矢量家居场景与散落卡通猫狗、底部 About 文案区），奶油米底＋鼠尾草绿／脏橘／浅蓝／原木的低饱和莫兰迪复古色、铺再生纸噪点肌理，温柔治愈的品牌手册／社媒长图气质。（品牌名「fluffin」是虚构示例、已做成变量；顶部／插画右下／底部三处重复属版式设计而非水印。）",
+      "features": [
+        "**上中下三段式品牌长图** — 竖版分顶部标题区、中部插画主视觉、底部介绍文案三块，用细横线分隔、排版干净宽松，像品牌手册或小红书竖版长图",
+        "**扁平圆润的复古矢量插画** — 中部是造型圆润、无渐变硬阴影的扁平矢量家居场景，铺一层细腻再生纸噪点肌理，多只简约卡通猫狗散落玩耍休憩",
+        "**低饱和莫兰迪复古配色** — 奶油米底色配鼠尾草绿、脏橘、浅蓝、原木等低饱和复古色，柔和不刺眼，深棕复古字色，整体治愈温暖",
+        "**手写品牌 logo 反复点题** — 圆润手写粗体的品牌名在顶部居中、插画右下、底部 About 标题三处重复出现，强化品牌识别"
+      ],
+      "prompt": "创作一张 2:3 竖版的扁平矢量品牌长图海报，上中下三段式排版，温柔治愈、复古现代，文艺品牌手册与社媒长图气质。\n\n顶部标题区：\n在带纸张肌理的{主色调}底色上，居中放圆润手写粗体品牌 logo「{品牌名}」，下方排{标语正文}（标语小字加一段品牌引言）、左上与右上各一行极小英文标签，深棕复古字色。\n\n中部主视觉：\n占最大比例的扁平 2D 矢量插画——{主视觉场景}，{角色元素}散落在空间里玩耍休憩；物件造型圆润、无渐变硬阴影、铺一层细腻纸张噪点肌理，画面右下重复一处「{品牌名}」小 logo。\n\n底部介绍区：\n一条细横线分隔后，左侧小标题 About {品牌名}、右侧排一段干净的正文介绍文案，排版宽松文艺。\n\n配色与画风：\n以{主色调}的低饱和复古莫兰迪色系为主，扁平矢量、圆润造型、轻微再生纸颗粒，整体松弛温暖。\n\n不要：写实摄影、强透视、硬阴影厚涂、高饱和刺眼、伪字乱码、真实第三方品牌 Logo、摄影师水印。\n",
+      "variables": {
+        "品牌名": "{品牌名}",
+        "主视觉场景": "{主视觉场景}",
+        "角色元素": "{角色元素}",
+        "主色调": "{主色调}",
+        "标语正文": "{标语正文}"
+      },
+      "variable_descs": {
+        "品牌名": "圆润手写粗体品牌 logo（顶部居中＋插画右下＋底部标题重复），如：fluffin / pawhome",
+        "主视觉场景": "中部扁平矢量主场景，如：复古客厅——绿沙发、棋盘格地毯、猫爬架、落地灯、宠物窝",
+        "角色元素": "场景里的卡通角色，如：斑点狗、橘猫、黑猫、小狗散落玩耍休憩",
+        "主色调": "低饱和复古莫兰迪配色，如：奶油米底加鼠尾草绿、脏橘、浅蓝、原木",
+        "标语正文": "顶部标语与品牌引言小字，如：Fluffy pets in the house."
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7669421033673231643",
+      "source_author": "Snow design",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/retro_flat_brand_longposter_2124a6ee.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/retro_flat_brand_longposter_2124a6ee.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/retro_flat_brand_longposter_2124a6ee.thumb.webp",
+      "number": "ST000386",
+      "created_at": ""
     },
     {
       "id": "retro_drink_ad",
