@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "v0.7.0-before-opt-296-gb30b805-dirty",
-    "generated": "2026-11-16T08:34:06Z",
-    "total": 379,
+    "version": "v0.7.0-before-opt-297-g4886298-dirty",
+    "generated": "2026-11-16T08:39:26Z",
+    "total": 380,
     "categories": [
       "brand_kv",
       "creative",
@@ -806,6 +806,61 @@
       "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.thumb.webp",
       "number": "ST000011",
       "created_at": "2026-06-28T08:01:29+08:00"
+    },
+    {
+      "id": "vintage_stele_calligraphy_poster",
+      "code": "ST0381",
+      "name": "复古金石书法字海报",
+      "category": "typography",
+      "tags": [
+        "复古书法字",
+        "极粗隶书",
+        "金石斑驳",
+        "做旧宣纸",
+        "朱红印章",
+        "竖排汉字海报"
+      ],
+      "triggers": [
+        "毛笔书法海报",
+        "复古隶书字",
+        "碑刻风化书法",
+        "做旧书法字",
+        "竖排汉字海报",
+        "印章书法设计"
+      ],
+      "scene": "文化品牌标题字、店铺招牌与老字号、节气与国潮海报、书籍封面、茶酒包装主视觉",
+      "ratio": "9:16",
+      "summary": "复古金石书法字海报——单列竖排汉字、极粗复古隶书笔画堆叠粘连、蚕头燕尾夸张，边缘满布毛边断裂磨损与干燥飞白的风化碑刻残缺感，字为深黑夹灰白斑点、底为泛黄宣纸米白的做旧拓片质感，配两枚模糊朱红篆刻印章、四周轻微暗角，复古沧桑冲击力强。（源提示词写「宜昌老屋 / 纯白底黑字」，成图实为「高堂老屋」四字 + 泛黄做旧底，AI 生成汉字常改字形，已按成图收、文字做成变量并在 PR 注明。）",
+      "features": [
+        "**极粗堆叠的复古隶书** — 单列竖排的汉字母字撑满宽度、自上而下紧凑相连，笔画极粗厚重、蚕头燕尾夸张、起收笔强烈顿挫，粗到笔画堆叠粘连出特殊艺术效果",
+        "**风化斑驳的金石残缺美** — 笔画边缘极不规则，布满毛边、锯齿断裂、磨损与干燥飞白，模拟古碑拓片经年风化的沧桑质感与金石气",
+        "**做旧纸色而非纯黑白** — 字是深黑夹灰白噪点与浅褐斑点，底是泛黄宣纸米白的陈旧拓片肌理，四周带轻微暗角，不做干净纯黑白",
+        "**朱红篆刻印章点缀** — 配两枚模糊的红色篆刻印章（成图一枚椭圆在右中、一枚方形在左下），线条蜿蜒仅作装饰、不遮主体，无落款小字"
+      ],
+      "prompt": "创作一张 9:16 竖版的商业级手写书法字海报，复古沧桑、金石碑刻韵味、视觉冲击强。\n\n主体文字：\n画面正中单列竖排{文字内容}，每个字占据大部分宽度、自上而下紧凑相连几乎撑满画幅。采用{书体}，笔画极粗厚重、横画蚕头燕尾夸张变形、起收笔强烈顿挫，粗到笔画堆叠粘连出特殊艺术效果；笔画边缘极不规则，布满毛边、锯齿状断裂、斑驳磨损与干燥飞白，像古碑拓片经风化后的残缺美。\n\n配色与质感：\n字用{字色}，墨色中透出灰白噪点与浅褐斑点；底用{背景色}，带陈旧做旧的纸张或拓片肌理、非纯黑白；画面四周有轻微暗角聚焦。\n\n印章：\n盖{印章}，均为朱红篆刻、线条蜿蜒、内容模糊仅作装饰，不遮挡主体。\n\n不要：纯平矢量、清晰印刷体、现代排版文字、伪字乱码、真实品牌 Logo、落款题跋小字、水印、电商广告感。\n",
+      "variables": {
+        "文字内容": "{文字内容}",
+        "书体": "{书体}",
+        "字色": "{字色}",
+        "背景色": "{背景色}",
+        "印章": "{印章}"
+      },
+      "variable_descs": {
+        "文字内容": "竖排主体汉字，如：宜昌老屋 / 山高水长 / 观海听涛",
+        "书体": "字体风格，如：极粗复古隶书 / 魏碑碑刻体",
+        "字色": "墨色与内部噪点，如：深黑夹灰白斑点",
+        "背景色": "做旧底色，如：泛黄宣纸米白",
+        "印章": "红印数量与位置，如：一椭圆在右中、一方在左下"
+      },
+      "source_url": "https://jimeng.jianying.com/ai-tool/work-detail/7693827201044663576",
+      "source_author": "三峡拍客",
+      "preview_urls": [
+        "https://malongan.github.io/style-source/images/styles_previews/vintage_stele_calligraphy_poster_419475b4.webp"
+      ],
+      "preview_webp": "https://malongan.github.io/style-source/images/styles_previews/vintage_stele_calligraphy_poster_419475b4.webp",
+      "preview_webp_thumb": "https://malongan.github.io/style-source/images/styles_previews/vintage_stele_calligraphy_poster_419475b4.thumb.webp",
+      "number": "ST000381",
+      "created_at": ""
     },
     {
       "id": "vintage_punk_zine_poster",

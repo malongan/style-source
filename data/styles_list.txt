@@ -1,4 +1,4 @@
-共 379 个风格
+共 380 个风格
 
 ST0319 | 日系ゆるかわ治愈海报 | https://malongan.github.io/style-source/images/styles_previews/yurukawa_healing_poster_d9f5d068.webp
 ST0001 | Y3K 酷酷女孩 | https://malongan.github.io/style-source/images/styles_previews/y3k_cool_girl_portrait_d64d0282.webp
@@ -15,6 +15,7 @@ ST0375 | 暖棕同色系食品静物广告 | https://malongan.github.io/style-so
 ST0374 | 暖橘霓虹冬日唱片场景 | https://malongan.github.io/style-source/images/styles_previews/warm_neon_winter_vinyl_scene_2d951e02.webp
 ST0010 | 复古水彩旅行手绘明信片 | https://malongan.github.io/style-source/images/styles_previews/vintage_watercolor_travel_postcard_89d31829.webp
 ST0011 | 复古街头卡通海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_streetwear_cartoon_poster_0e9f929b.webp
+ST0381 | 复古金石书法字海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_stele_calligraphy_poster_419475b4.webp
 ST0012 | 复古朋克地下杂志海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_punk_zine_poster_a48f5d65.webp
 ST0013 | 复古吉祥物海报 | https://malongan.github.io/style-source/images/styles_previews/vintage_mascot_poster_524c7282.webp
 ST0356 | 复古插画百科剖面图 | https://malongan.github.io/style-source/images/styles_previews/vintage_encyclopedia_cutaway_f53502f9.webp
