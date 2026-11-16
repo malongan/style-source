@@ -18,10 +18,10 @@
 | 🔬 科研专业 | 7 | 信息图、期刊封面 |
 | 📱 社交媒体 | 39 | 小红书、朋友圈、头像 |
 | ✈️ 旅行城市 | 12 | 旅行海报、城市 |
-| 🖋️ 字体排版 | 24 | 文字为主的标题设计 |
+| 🖋️ 字体排版 | 25 | 文字为主的标题设计 |
 | 📖 VigoCookbook | 51 | 来自 Vigo Cookbook |
 
-**总计：370 个风格文件**
+**总计：371 个风格文件**
 
 ---
 
@@ -407,6 +407,7 @@
 | bubble_letter_headline | #bubble-letter #chunky #glossy | 3D 角色潮玩 KV、儿童/年轻向电商海报、需要明亮活泼但不刺眼的标题设计 | 16:9 |
 | camping_season_hand_drawn_headline | #hand-drawn #trendy #camping | 夏季露营活动主视觉 / 潮流品牌 KV / 户外生活方式宣传 / 帐篷音乐节海报 | 4:3 |
 | cartoon_graffiti_headline | #cartoon #graffiti #doodle | 潮流活动主视觉 / 创意宣传海报 / 年轻向品牌 KV / 街头文化设计 | 4:3 |
+| clay_3d_chinese_headline | #黏土3D字 #手工搓条拼字 #暖色红橙黄 | 活动与话题主标题字效、社媒封面与开屏字、玩法与招募海报主视觉、儿童与潮玩品牌标题、文创贴纸字 | 1:1 |
 | climb_mountain_typography | #字体设计 #创意字体 #抽象变形 |  | 4.5 |
 | expressive_handwritten_headline | #handwriting #expressive #casual | 活动 Slogan（见面会/校园/青年活动）/ 品牌手写感标语 / 需要活泼自由氛围的标题设计 | 16:9 |
 | hanzi_cultural_poster | #东方海报 #汉字书法 #文化线描 | 文化品牌视觉、东方艺术海报、艺术展览、文化活动宣传 | 9:16 |
