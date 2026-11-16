@@ -15,6 +15,7 @@
 | bubble_letter_headline | #bubble-letter #chunky #glossy | 3D 角色潮玩 KV、儿童/年轻向电商海报、需要明亮活泼但不刺眼的标题设计 | 16:9 |
 | camping_season_hand_drawn_headline | #hand-drawn #trendy #camping | 夏季露营活动主视觉 / 潮流品牌 KV / 户外生活方式宣传 / 帐篷音乐节海报 | 4:3 |
 | cartoon_graffiti_headline | #cartoon #graffiti #doodle | 潮流活动主视觉 / 创意宣传海报 / 年轻向品牌 KV / 街头文化设计 | 4:3 |
+| childish_chunky_black_lettering | #稚拙变形 #粗黑实心笔画 #手绘擦痕漏白 | 字体设计样张与作品展示、食品与饮品活动主标题、社媒封面大字、文创与包装标题字、品牌主题字提案 | 1:1 |
 | clay_3d_chinese_headline | #黏土3D字 #手工搓条拼字 #暖色红橙黄 | 活动与话题主标题字效、社媒封面与开屏字、玩法与招募海报主视觉、儿童与潮玩品牌标题、文创贴纸字 | 1:1 |
 | climb_mountain_typography | #字体设计 #创意字体 #抽象变形 |  | 4.5 |
 | expressive_handwritten_headline | #handwriting #expressive #casual | 活动 Slogan（见面会/校园/青年活动）/ 品牌手写感标语 / 需要活泼自由氛围的标题设计 | 16:9 |
